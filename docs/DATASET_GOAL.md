@@ -14,11 +14,11 @@ Use the 80 downloaded phone images to label every board family first, then its v
 | Phone photos | 80 files preserved: 47 captures and 33 crop variants |
 | Board labels | Five families reviewed; 62 training images, 11 validation originals and 7 excluded validation crop variants |
 | Board models | Experimental detector and crop classifier trained; publication to main proposed in PR #4 |
-| Component labels | 107 partial major-component seeds across five photos; exhaustive labels and a component detector remain pending |
+| Component labels | 159 partial major-component seeds across ten photos, two per board family; exhaustive labels and a component detector remain pending |
 | Matching NXP sources | Published for review in [PR #5](https://github.com/TokitoAI/tokito-app-dataset/pull/5): CRC-verified Rev C archive with BRD, DSN/project, BOM text/XLSX and three netlist DAT files; structured extraction verified: 96 BOM items and 391 source references |
 | Schematic lookup | MCXN236 PDF indexed across 13 sheets; 629 reference-like text occurrences, not BOM quantities |
 | Component/source links | 10 readable photo reference labels linked to visually reviewed Rev C schematic symbols and BOM/native-part candidates; specimen revision and installed part identities unconfirmed |
-| Board → part → pin hierarchy | Same rule across all five families: 80 board entries, 107 partial part boxes and 352 source pin records under 10 linked NXP parts; zero individual pin locations reviewed in photos |
+| Board → part → pin hierarchy | Same rule across all five families: 80 board entries, 159 partial part boxes, 352 NXP source pin records under 10 candidate photo parts, and 1,443 unlinked ESP8266/Ultimainboard source pin records; zero individual pin locations reviewed in photos |
 | Source separation | MCXN947 retained as a different-board reference; its BOM and layout are excluded from MCXN236 ground truth |
 
 ## Remaining work

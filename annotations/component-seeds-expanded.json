@@ -1,0 +1,1100 @@
+{
+  "schema_version": "1.0",
+  "coordinate_format": "normalized_xyxy",
+  "annotation_source": "assistant_visual_review_of_original_pixels",
+  "coverage": "partial_major_visible_components_only",
+  "training_eligible": false,
+  "warning": "These boxes identify selected visible major parts only. Unannotated objects and image regions are not negatives. Package identity, exact source reference and individual photo pins remain unresolved unless separately verified.",
+  "images": [
+    {
+      "image": "photos/raw/IMG_20261009_221841_1.jpg",
+      "width": 924,
+      "height": 1688,
+      "sha256": "96feebbb125fab6a823afe695bcd02645056364f34ec18cdab46b7366a581033",
+      "board_family": "esp32_board",
+      "coverage": "partial major visible components; passives and pin contacts incomplete",
+      "objects": [
+        {
+          "id": "exp_221841_001",
+          "class": "usb_connector",
+          "bbox_xyxy": [
+            0.364719,
+            0.004739,
+            0.633117,
+            0.125
+          ],
+          "bbox_xyxy_pixels": [
+            337,
+            8,
+            585,
+            211
+          ],
+          "visible_evidence": "Metal micro-USB receptacle at board end.",
+          "review_status": "visual_reviewed_major_component_box",
+          "reference_designator": null,
+          "pin_labels": []
+        },
+        {
+          "id": "exp_221841_002",
+          "class": "switch",
+          "bbox_xyxy": [
+            0.154762,
+            0.027251,
+            0.267316,
+            0.123815
+          ],
+          "bbox_xyxy_pixels": [
+            143,
+            46,
+            247,
+            209
+          ],
+          "visible_evidence": "Tactile button next to BOOT marking.",
+          "review_status": "visual_reviewed_major_component_box",
+          "reference_designator": null,
+          "pin_labels": []
+        },
+        {
+          "id": "exp_221841_003",
+          "class": "switch",
+          "bbox_xyxy": [
+            0.722944,
+            0.024882,
+            0.837662,
+            0.123223
+          ],
+          "bbox_xyxy_pixels": [
+            668,
+            42,
+            774,
+            208
+          ],
+          "visible_evidence": "Tactile button next to EN marking.",
+          "review_status": "visual_reviewed_major_component_box",
+          "reference_designator": null,
+          "pin_labels": []
+        },
+        {
+          "id": "exp_221841_004",
+          "class": "integrated_circuit",
+          "bbox_xyxy": [
+            0.194805,
+            0.183649,
+            0.414502,
+            0.311611
+          ],
+          "bbox_xyxy_pixels": [
+            180,
+            310,
+            383,
+            526
+          ],
+          "visible_evidence": "Square leaded black IC package; marking unreadable.",
+          "review_status": "visual_reviewed_major_component_box",
+          "reference_designator": null,
+          "pin_labels": []
+        },
+        {
+          "id": "exp_221841_005",
+          "class": "integrated_circuit",
+          "bbox_xyxy": [
+            0.520563,
+            0.181872,
+            0.785714,
+            0.321682
+          ],
+          "bbox_xyxy_pixels": [
+            481,
+            307,
+            726,
+            543
+          ],
+          "visible_evidence": "Three-lead tabbed package; function unconfirmed.",
+          "review_status": "visual_reviewed_major_component_box",
+          "reference_designator": null,
+          "pin_labels": []
+        },
+        {
+          "id": "exp_221841_006",
+          "class": "rf_module",
+          "bbox_xyxy": [
+            0.152597,
+            0.491114,
+            0.847403,
+            0.942536
+          ],
+          "bbox_xyxy_pixels": [
+            141,
+            829,
+            783,
+            1591
+          ],
+          "visible_evidence": "ESP-32 marked metal-shielded RF module and castellated perimeter.",
+          "review_status": "visual_reviewed_major_component_box",
+          "reference_designator": null,
+          "pin_labels": []
+        }
+      ]
+    },
+    {
+      "image": "photos/raw/IMG_20261009_221944_1.jpg",
+      "width": 1008,
+      "height": 1844,
+      "sha256": "2c6d39bb748d8c2ad1513308c8db488b224250fc15215571d729e2914377553b",
+      "board_family": "esp8266_board",
+      "coverage": "partial major visible components; passives and pin contacts incomplete",
+      "objects": [
+        {
+          "id": "exp_221944_001",
+          "class": "rf_module",
+          "bbox_xyxy": [
+            0.304563,
+            0.188178,
+            0.897817,
+            0.509219
+          ],
+          "bbox_xyxy_pixels": [
+            307,
+            347,
+            905,
+            939
+          ],
+          "visible_evidence": "ESP-12E marked RF module with PCB antenna above.",
+          "review_status": "visual_reviewed_major_component_box",
+          "reference_designator": null,
+          "pin_labels": []
+        },
+        {
+          "id": "exp_221944_002",
+          "class": "integrated_circuit",
+          "bbox_xyxy": [
+            0.691468,
+            0.572668,
+            0.861111,
+            0.696312
+          ],
+          "bbox_xyxy_pixels": [
+            697,
+            1056,
+            868,
+            1284
+          ],
+          "visible_evidence": "Tabbed three-lead black package; identity unconfirmed.",
+          "review_status": "visual_reviewed_major_component_box",
+          "reference_designator": null,
+          "pin_labels": []
+        },
+        {
+          "id": "exp_221944_003",
+          "class": "integrated_circuit",
+          "bbox_xyxy": [
+            0.345238,
+            0.792842,
+            0.679563,
+            0.933839
+          ],
+          "bbox_xyxy_pixels": [
+            348,
+            1462,
+            685,
+            1722
+          ],
+          "visible_evidence": "Rectangular black leaded IC near cropped lower edge.",
+          "review_status": "visual_reviewed_major_component_box",
+          "reference_designator": null,
+          "pin_labels": []
+        }
+      ]
+    },
+    {
+      "image": "photos/raw/IMG_20261009_222222_1.jpg",
+      "width": 1056,
+      "height": 1682,
+      "sha256": "db3b728fb1131e8c4dd7c5eb3f26d91babad3d1e91819595be100db3aefb6e34",
+      "board_family": "raspberry_pi_3b_board",
+      "coverage": "partial major visible components; passives and pin contacts incomplete",
+      "objects": [
+        {
+          "id": "exp_222222_001",
+          "class": "connector_header",
+          "bbox_xyxy": [
+            0.854167,
+            0.054697,
+            0.955492,
+            0.607015
+          ],
+          "bbox_xyxy_pixels": [
+            902,
+            92,
+            1009,
+            1021
+          ],
+          "visible_evidence": "Long populated GPIO header at right edge.",
+          "review_status": "visual_reviewed_major_component_box",
+          "reference_designator": null,
+          "pin_labels": []
+        },
+        {
+          "id": "exp_222222_002",
+          "class": "connector_header",
+          "bbox_xyxy": [
+            0.298295,
+            0.007134,
+            0.662879,
+            0.057075
+          ],
+          "bbox_xyxy_pixels": [
+            315,
+            12,
+            700,
+            96
+          ],
+          "visible_evidence": "DISPLAY ribbon connector at top edge.",
+          "review_status": "visual_reviewed_major_component_box",
+          "reference_designator": null,
+          "pin_labels": []
+        },
+        {
+          "id": "exp_222222_003",
+          "class": "connector_header",
+          "bbox_xyxy": [
+            0.00947,
+            0.418549,
+            0.400568,
+            0.484542
+          ],
+          "bbox_xyxy_pixels": [
+            10,
+            704,
+            423,
+            815
+          ],
+          "visible_evidence": "CAMERA ribbon connector across left-middle.",
+          "review_status": "visual_reviewed_major_component_box",
+          "reference_designator": null,
+          "pin_labels": []
+        },
+        {
+          "id": "exp_222222_004",
+          "class": "heatsink",
+          "bbox_xyxy": [
+            0.412879,
+            0.159334,
+            0.678977,
+            0.393579
+          ],
+          "bbox_xyxy_pixels": [
+            436,
+            268,
+            717,
+            662
+          ],
+          "visible_evidence": "Black finned heatsink near centre.",
+          "review_status": "visual_reviewed_major_component_box",
+          "reference_designator": null,
+          "pin_labels": []
+        },
+        {
+          "id": "exp_222222_005",
+          "class": "integrated_circuit",
+          "bbox_xyxy": [
+            0.471591,
+            0.559453,
+            0.667614,
+            0.674197
+          ],
+          "bbox_xyxy_pixels": [
+            498,
+            941,
+            705,
+            1134
+          ],
+          "visible_evidence": "Square black IC package above USB connectors.",
+          "review_status": "visual_reviewed_major_component_box",
+          "reference_designator": null,
+          "pin_labels": []
+        },
+        {
+          "id": "exp_222222_006",
+          "class": "hdmi_connector",
+          "bbox_xyxy": [
+            0.0,
+            0.239001,
+            0.215909,
+            0.407848
+          ],
+          "bbox_xyxy_pixels": [
+            0,
+            402,
+            228,
+            686
+          ],
+          "visible_evidence": "Metal HDMI receptacle on left edge.",
+          "review_status": "visual_reviewed_major_component_box",
+          "reference_designator": null,
+          "pin_labels": []
+        },
+        {
+          "id": "exp_222222_007",
+          "class": "ethernet_connector",
+          "bbox_xyxy": [
+            0.011364,
+            0.675981,
+            0.321023,
+            0.956005
+          ],
+          "bbox_xyxy_pixels": [
+            12,
+            1137,
+            339,
+            1608
+          ],
+          "visible_evidence": "Large metal Ethernet jack at lower left.",
+          "review_status": "visual_reviewed_major_component_box",
+          "reference_designator": null,
+          "pin_labels": []
+        },
+        {
+          "id": "exp_222222_008",
+          "class": "usb_connector",
+          "bbox_xyxy": [
+            0.356061,
+            0.718193,
+            0.637311,
+            0.970868
+          ],
+          "bbox_xyxy_pixels": [
+            376,
+            1208,
+            673,
+            1633
+          ],
+          "visible_evidence": "Left dual USB-A connector block.",
+          "review_status": "visual_reviewed_major_component_box",
+          "reference_designator": null,
+          "pin_labels": []
+        },
+        {
+          "id": "exp_222222_009",
+          "class": "usb_connector",
+          "bbox_xyxy": [
+            0.647727,
+            0.717004,
+            0.928977,
+            0.970273
+          ],
+          "bbox_xyxy_pixels": [
+            684,
+            1206,
+            981,
+            1632
+          ],
+          "visible_evidence": "Right dual USB-A connector block.",
+          "review_status": "visual_reviewed_major_component_box",
+          "reference_designator": null,
+          "pin_labels": []
+        },
+        {
+          "id": "exp_222222_010",
+          "class": "usb_connector",
+          "bbox_xyxy": [
+            0.000947,
+            0.057075,
+            0.106061,
+            0.130202
+          ],
+          "bbox_xyxy_pixels": [
+            1,
+            96,
+            112,
+            219
+          ],
+          "visible_evidence": "Small PWR IN micro-USB receptacle on upper left edge.",
+          "review_status": "visual_reviewed_major_component_box",
+          "reference_designator": null,
+          "pin_labels": []
+        }
+      ]
+    },
+    {
+      "image": "photos/raw/IMG_20261009_222137_1.jpg",
+      "width": 1408,
+      "height": 3110,
+      "sha256": "7b7a3c86bfdd4f992c155b49c42cc7f8665537c3c7d73cc17100f640ae6dc533",
+      "board_family": "ultimainboard",
+      "coverage": "partial major visible components; passives and pin contacts incomplete",
+      "objects": [
+        {
+          "id": "exp_222137_001",
+          "class": "integrated_circuit",
+          "bbox_xyxy": [
+            0.556634,
+            0.139648,
+            0.757282,
+            0.240723
+          ],
+          "bbox_xyxy_pixels": [
+            784,
+            434,
+            1066,
+            749
+          ],
+          "visible_evidence": "Large fine-pitch square IC marked U1 in PCB silkscreen.",
+          "review_status": "visual_reviewed_major_component_box",
+          "reference_designator": null,
+          "pin_labels": []
+        },
+        {
+          "id": "exp_222137_002",
+          "class": "integrated_circuit",
+          "bbox_xyxy": [
+            0.304207,
+            0.095703,
+            0.38835,
+            0.155273
+          ],
+          "bbox_xyxy_pixels": [
+            428,
+            298,
+            547,
+            483
+          ],
+          "visible_evidence": "Upper-left black square IC package.",
+          "review_status": "visual_reviewed_major_component_box",
+          "reference_designator": null,
+          "pin_labels": []
+        },
+        {
+          "id": "exp_222137_003",
+          "class": "integrated_circuit",
+          "bbox_xyxy": [
+            0.306365,
+            0.222656,
+            0.390507,
+            0.270996
+          ],
+          "bbox_xyxy_pixels": [
+            431,
+            692,
+            550,
+            843
+          ],
+          "visible_evidence": "Second left black square IC package.",
+          "review_status": "visual_reviewed_major_component_box",
+          "reference_designator": null,
+          "pin_labels": []
+        },
+        {
+          "id": "exp_222137_004",
+          "class": "integrated_circuit",
+          "bbox_xyxy": [
+            0.305286,
+            0.344727,
+            0.390507,
+            0.386719
+          ],
+          "bbox_xyxy_pixels": [
+            430,
+            1072,
+            550,
+            1203
+          ],
+          "visible_evidence": "Third left black square IC package.",
+          "review_status": "visual_reviewed_major_component_box",
+          "reference_designator": null,
+          "pin_labels": []
+        },
+        {
+          "id": "exp_222137_005",
+          "class": "integrated_circuit",
+          "bbox_xyxy": [
+            0.306365,
+            0.461426,
+            0.390507,
+            0.504883
+          ],
+          "bbox_xyxy_pixels": [
+            431,
+            1435,
+            550,
+            1570
+          ],
+          "visible_evidence": "Fourth left black square IC package.",
+          "review_status": "visual_reviewed_major_component_box",
+          "reference_designator": null,
+          "pin_labels": []
+        },
+        {
+          "id": "exp_222137_006",
+          "class": "polarized_capacitor",
+          "bbox_xyxy": [
+            0.098166,
+            0.053223,
+            0.206041,
+            0.101074
+          ],
+          "bbox_xyxy_pixels": [
+            138,
+            166,
+            290,
+            314
+          ],
+          "visible_evidence": "Upper-left cylindrical capacitor with printed 100 VFP 5G9.",
+          "review_status": "visual_reviewed_major_component_box",
+          "reference_designator": null,
+          "pin_labels": []
+        },
+        {
+          "id": "exp_222137_007",
+          "class": "polarized_capacitor",
+          "bbox_xyxy": [
+            0.101402,
+            0.171875,
+            0.208198,
+            0.217773
+          ],
+          "bbox_xyxy_pixels": [
+            143,
+            535,
+            293,
+            677
+          ],
+          "visible_evidence": "Second cylindrical capacitor along left side.",
+          "review_status": "visual_reviewed_major_component_box",
+          "reference_designator": null,
+          "pin_labels": []
+        },
+        {
+          "id": "exp_222137_008",
+          "class": "polarized_capacitor",
+          "bbox_xyxy": [
+            0.100324,
+            0.283691,
+            0.20712,
+            0.331055
+          ],
+          "bbox_xyxy_pixels": [
+            141,
+            882,
+            292,
+            1030
+          ],
+          "visible_evidence": "Third cylindrical capacitor along left side.",
+          "review_status": "visual_reviewed_major_component_box",
+          "reference_designator": null,
+          "pin_labels": []
+        },
+        {
+          "id": "exp_222137_009",
+          "class": "polarized_capacitor",
+          "bbox_xyxy": [
+            0.098166,
+            0.399902,
+            0.20712,
+            0.447266
+          ],
+          "bbox_xyxy_pixels": [
+            138,
+            1244,
+            292,
+            1391
+          ],
+          "visible_evidence": "Fourth cylindrical capacitor along left side.",
+          "review_status": "visual_reviewed_major_component_box",
+          "reference_designator": null,
+          "pin_labels": []
+        },
+        {
+          "id": "exp_222137_010",
+          "class": "polarized_capacitor",
+          "bbox_xyxy": [
+            0.098166,
+            0.515137,
+            0.208198,
+            0.561523
+          ],
+          "bbox_xyxy_pixels": [
+            138,
+            1602,
+            293,
+            1746
+          ],
+          "visible_evidence": "Fifth cylindrical capacitor along left side.",
+          "review_status": "visual_reviewed_major_component_box",
+          "reference_designator": null,
+          "pin_labels": []
+        },
+        {
+          "id": "exp_222137_011",
+          "class": "power_connector",
+          "bbox_xyxy": [
+            0.02589,
+            0.094238,
+            0.218986,
+            0.172363
+          ],
+          "bbox_xyxy_pixels": [
+            36,
+            293,
+            308,
+            536
+          ],
+          "visible_evidence": "White multiway connector left upper section.",
+          "review_status": "visual_reviewed_major_component_box",
+          "reference_designator": null,
+          "pin_labels": []
+        },
+        {
+          "id": "exp_222137_012",
+          "class": "power_connector",
+          "bbox_xyxy": [
+            0.02589,
+            0.214355,
+            0.218986,
+            0.286133
+          ],
+          "bbox_xyxy_pixels": [
+            36,
+            667,
+            308,
+            890
+          ],
+          "visible_evidence": "White multiway connector left middle section.",
+          "review_status": "visual_reviewed_major_component_box",
+          "reference_designator": null,
+          "pin_labels": []
+        },
+        {
+          "id": "exp_222137_013",
+          "class": "power_connector",
+          "bbox_xyxy": [
+            0.02589,
+            0.330078,
+            0.218986,
+            0.402832
+          ],
+          "bbox_xyxy_pixels": [
+            36,
+            1027,
+            308,
+            1253
+          ],
+          "visible_evidence": "White multiway connector left middle-lower section.",
+          "review_status": "visual_reviewed_major_component_box",
+          "reference_designator": null,
+          "pin_labels": []
+        },
+        {
+          "id": "exp_222137_014",
+          "class": "power_connector",
+          "bbox_xyxy": [
+            0.02589,
+            0.446777,
+            0.218986,
+            0.52002
+          ],
+          "bbox_xyxy_pixels": [
+            36,
+            1389,
+            308,
+            1617
+          ],
+          "visible_evidence": "White multiway connector left lower section.",
+          "review_status": "visual_reviewed_major_component_box",
+          "reference_designator": null,
+          "pin_labels": []
+        },
+        {
+          "id": "exp_222137_015",
+          "class": "power_connector",
+          "bbox_xyxy": [
+            0.02589,
+            0.562012,
+            0.218986,
+            0.646973
+          ],
+          "bbox_xyxy_pixels": [
+            36,
+            1748,
+            308,
+            2012
+          ],
+          "visible_evidence": "White multiway connector left bottom section.",
+          "review_status": "visual_reviewed_major_component_box",
+          "reference_designator": null,
+          "pin_labels": []
+        },
+        {
+          "id": "exp_222137_016",
+          "class": "relay",
+          "bbox_xyxy": [
+            0.0,
+            0.856445,
+            0.237325,
+            0.951172
+          ],
+          "bbox_xyxy_pixels": [
+            0,
+            2664,
+            334,
+            2958
+          ],
+          "visible_evidence": "Large white relay body at lower left.",
+          "review_status": "visual_reviewed_major_component_box",
+          "reference_designator": null,
+          "pin_labels": []
+        },
+        {
+          "id": "exp_222137_017",
+          "class": "crystal_resonator",
+          "bbox_xyxy": [
+            0.571737,
+            0.861328,
+            0.656958,
+            0.901855
+          ],
+          "bbox_xyxy_pixels": [
+            805,
+            2679,
+            925,
+            2805
+          ],
+          "visible_evidence": "Metal oval crystal can at lower middle.",
+          "review_status": "visual_reviewed_major_component_box",
+          "reference_designator": null,
+          "pin_labels": []
+        },
+        {
+          "id": "exp_222137_018",
+          "class": "power_connector",
+          "bbox_xyxy": [
+            0.820928,
+            0.092773,
+            1.0,
+            0.237793
+          ],
+          "bbox_xyxy_pixels": [
+            1156,
+            289,
+            1408,
+            740
+          ],
+          "visible_evidence": "Black terminal block on upper right, clipped by crop.",
+          "review_status": "visual_reviewed_major_component_box",
+          "reference_designator": null,
+          "pin_labels": []
+        },
+        {
+          "id": "exp_222137_019",
+          "class": "power_connector",
+          "bbox_xyxy": [
+            0.820928,
+            0.235352,
+            1.0,
+            0.365234
+          ],
+          "bbox_xyxy_pixels": [
+            1156,
+            732,
+            1408,
+            1136
+          ],
+          "visible_evidence": "Black terminal block on upper right, clipped by crop.",
+          "review_status": "visual_reviewed_major_component_box",
+          "reference_designator": null,
+          "pin_labels": []
+        }
+      ]
+    },
+    {
+      "image": "photos/raw/IMG_20261009_221800_1.jpg",
+      "width": 1836,
+      "height": 3926,
+      "sha256": "d8a23c539a73bbe59d50b79d8f109cb23a7fd79d57e3de895a57ba5c76ec5e39",
+      "board_family": "nxp_frdm_mcxn236_board",
+      "coverage": "partial major visible components; passives and pin contacts incomplete",
+      "objects": [
+        {
+          "id": "exp_221800_001",
+          "class": "connector_header",
+          "bbox_xyxy": [
+            0.146138,
+            0.019043,
+            0.820459,
+            0.075195
+          ],
+          "bbox_xyxy_pixels": [
+            268,
+            75,
+            1506,
+            295
+          ],
+          "visible_evidence": "Long populated two-row header across top.",
+          "review_status": "visual_reviewed_major_component_box",
+          "reference_designator": null,
+          "pin_labels": []
+        },
+        {
+          "id": "exp_221800_002",
+          "class": "connector_header",
+          "bbox_xyxy": [
+            0.003132,
+            0.109863,
+            0.131524,
+            0.680664
+          ],
+          "bbox_xyxy_pixels": [
+            6,
+            431,
+            241,
+            2672
+          ],
+          "visible_evidence": "Long populated side header at left.",
+          "review_status": "visual_reviewed_major_component_box",
+          "reference_designator": null,
+          "pin_labels": []
+        },
+        {
+          "id": "exp_221800_003",
+          "class": "connector_header",
+          "bbox_xyxy": [
+            0.002088,
+            0.675781,
+            0.131524,
+            0.908691
+          ],
+          "bbox_xyxy_pixels": [
+            4,
+            2653,
+            241,
+            3568
+          ],
+          "visible_evidence": "Continuation of populated left side header.",
+          "review_status": "visual_reviewed_major_component_box",
+          "reference_designator": null,
+          "pin_labels": []
+        },
+        {
+          "id": "exp_221800_004",
+          "class": "connector_header",
+          "bbox_xyxy": [
+            0.22547,
+            0.167969,
+            0.323591,
+            0.361328
+          ],
+          "bbox_xyxy_pixels": [
+            414,
+            659,
+            594,
+            1419
+          ],
+          "visible_evidence": "Vertical populated header near NXP logo.",
+          "review_status": "visual_reviewed_major_component_box",
+          "reference_designator": null,
+          "pin_labels": []
+        },
+        {
+          "id": "exp_221800_005",
+          "class": "connector_header",
+          "bbox_xyxy": [
+            0.639875,
+            0.153809,
+            0.744259,
+            0.346191
+          ],
+          "bbox_xyxy_pixels": [
+            1175,
+            604,
+            1366,
+            1359
+          ],
+          "visible_evidence": "Vertical populated header upper centre-right.",
+          "review_status": "visual_reviewed_major_component_box",
+          "reference_designator": null,
+          "pin_labels": []
+        },
+        {
+          "id": "exp_221800_006",
+          "class": "connector_header",
+          "bbox_xyxy": [
+            0.848643,
+            0.478516,
+            0.968685,
+            0.626465
+          ],
+          "bbox_xyxy_pixels": [
+            1558,
+            1879,
+            1779,
+            2460
+          ],
+          "visible_evidence": "Populated header on right mid-board.",
+          "review_status": "visual_reviewed_major_component_box",
+          "reference_designator": null,
+          "pin_labels": []
+        },
+        {
+          "id": "exp_221800_007",
+          "class": "connector_header",
+          "bbox_xyxy": [
+            0.844468,
+            0.635254,
+            0.966597,
+            0.819824
+          ],
+          "bbox_xyxy_pixels": [
+            1550,
+            2494,
+            1775,
+            3219
+          ],
+          "visible_evidence": "Populated right lower header.",
+          "review_status": "visual_reviewed_major_component_box",
+          "reference_designator": null,
+          "pin_labels": []
+        },
+        {
+          "id": "exp_221800_008",
+          "class": "switch",
+          "bbox_xyxy": [
+            0.022965,
+            0.057129,
+            0.118998,
+            0.098633
+          ],
+          "bbox_xyxy_pixels": [
+            42,
+            224,
+            218,
+            387
+          ],
+          "visible_evidence": "White tactile switch at upper left.",
+          "review_status": "visual_reviewed_major_component_box",
+          "reference_designator": null,
+          "pin_labels": []
+        },
+        {
+          "id": "exp_221800_009",
+          "class": "switch",
+          "bbox_xyxy": [
+            0.879958,
+            0.056641,
+            0.985386,
+            0.098633
+          ],
+          "bbox_xyxy_pixels": [
+            1616,
+            222,
+            1809,
+            387
+          ],
+          "visible_evidence": "White tactile switch at upper right.",
+          "review_status": "visual_reviewed_major_component_box",
+          "reference_designator": null,
+          "pin_labels": []
+        },
+        {
+          "id": "exp_221800_010",
+          "class": "switch",
+          "bbox_xyxy": [
+            0.021921,
+            0.900879,
+            0.120042,
+            0.945801
+          ],
+          "bbox_xyxy_pixels": [
+            40,
+            3537,
+            220,
+            3713
+          ],
+          "visible_evidence": "White tactile switch at lower left.",
+          "review_status": "visual_reviewed_major_component_box",
+          "reference_designator": null,
+          "pin_labels": []
+        },
+        {
+          "id": "exp_221800_011",
+          "class": "integrated_circuit",
+          "bbox_xyxy": [
+            0.401879,
+            0.411133,
+            0.584551,
+            0.501465
+          ],
+          "bbox_xyxy_pixels": [
+            738,
+            1614,
+            1073,
+            1969
+          ],
+          "visible_evidence": "Large black NXP marked square IC in board centre.",
+          "review_status": "visual_reviewed_major_component_box",
+          "reference_designator": null,
+          "pin_labels": []
+        },
+        {
+          "id": "exp_221800_012",
+          "class": "integrated_circuit",
+          "bbox_xyxy": [
+            0.363257,
+            0.733398,
+            0.557411,
+            0.817383
+          ],
+          "bbox_xyxy_pixels": [
+            667,
+            2879,
+            1023,
+            3209
+          ],
+          "visible_evidence": "Large black square IC near board lower section.",
+          "review_status": "visual_reviewed_major_component_box",
+          "reference_designator": null,
+          "pin_labels": []
+        },
+        {
+          "id": "exp_221800_013",
+          "class": "usb_connector",
+          "bbox_xyxy": [
+            0.226514,
+            0.946289,
+            0.422756,
+            1.0
+          ],
+          "bbox_xyxy_pixels": [
+            416,
+            3715,
+            776,
+            3926
+          ],
+          "visible_evidence": "Left lower edge metal USB receptacle, clipped.",
+          "review_status": "visual_reviewed_major_component_box",
+          "reference_designator": null,
+          "pin_labels": []
+        },
+        {
+          "id": "exp_221800_014",
+          "class": "usb_connector",
+          "bbox_xyxy": [
+            0.462422,
+            0.945801,
+            0.692067,
+            1.0
+          ],
+          "bbox_xyxy_pixels": [
+            849,
+            3713,
+            1271,
+            3926
+          ],
+          "visible_evidence": "Right lower edge metal USB receptacle, clipped.",
+          "review_status": "visual_reviewed_major_component_box",
+          "reference_designator": null,
+          "pin_labels": []
+        }
+      ]
+    }
+  ]
+}

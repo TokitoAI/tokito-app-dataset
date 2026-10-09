@@ -41,9 +41,11 @@ def main():
     review_path = 'data/photo-model/board-review.json'
     manifest_path = 'data/photo-model/photo-manifest.json'
     source_bundles_path = 'data/photo-model/source-bundles.json'
+    other_pins_path = 'data/board-sources/non-nxp-source-pins.json'
     seed_paths = ['annotations/component-seed-annotations.json',
                   'annotations/large-board-component-seeds.json',
-                  'annotations/nxp-component-seeds.json']
+                  'annotations/nxp-component-seeds.json',
+                  'annotations/component-seeds-expanded.json']
     links_path = 'annotations/component-source-links.json'
     photo_pins_path = 'annotations/pin-annotations.json'
     components_path = 'data/board-sources/nxp-frdm-mcxn236/structured-rev-c/components.json'
@@ -52,6 +54,10 @@ def main():
     manifest = {row['file']: row for row in read(manifest_path)}
     source_bundles = read(source_bundles_path)
     assert set(source_bundles) == set(CLASS_NAMES)
+    other_pin_catalog = read(other_pins_path)
+    other_pin_families = {row['board_family']: row for row in other_pin_catalog['families']}
+    assert set(other_pin_families) == {'esp8266_board', 'ultimainboard'}
+    assert all(row['source_pin_record_count'] == len(row['pins']) for row in other_pin_families.values())
     assert len(boards) == len(review) == len(manifest) == 80
     assert len({row['file'] for row in boards}) == 80
     by_file = {}
@@ -76,6 +82,8 @@ def main():
                     'path': source_bundles[row['board_class']]['path'],
                     'relation': source_bundles[row['board_class']]['relation'],
                     'exact_component_mapping': source_bundles[row['board_class']]['exact_component_mapping'],
+                    'unlinked_source_pin_catalog_path': other_pins_path if row['board_class'] in other_pin_families else None,
+                    'unlinked_source_pin_record_count': other_pin_families[row['board_class']]['source_pin_record_count'] if row['board_class'] in other_pin_families else 0,
                 },
             },
             'part_coverage': 'not_reviewed', 'parts': [],
@@ -151,13 +159,15 @@ def main():
             'pins': pins,
         })
 
-    for source in seed_paths[:2]:
+    for source in [seed_paths[0], seed_paths[1], seed_paths[3]]:
         data = read(source)
         for image in data['images']:
             name = Path(image.get('filename', image.get('image'))).name
             board = by_file[name]
             assert board['part_coverage'] == 'not_reviewed'
             assert [board['image_width'], board['image_height']] == [image['width'], image['height']]
+            if 'sha256' in image:
+                assert board['image_sha256'] == image['sha256']
             source_family_to_class = {
                 'ultimainboard_2_1_4': 'ultimainboard',
                 'raspberry_pi_3b_v1_2': 'raspberry_pi_3b_board',
@@ -188,6 +198,7 @@ def main():
     pin_ids = set()
     for entry in photo_pins['pins']:
         image = by_file[entry['image_file']]
+        assert entry['image_sha256'] == image['image_sha256']
         assert entry['board_family'] == image['board']['family']
         part = next(part for part in image['parts'] if part['id'] == entry['part_id'])
         pin_id = entry['id']
@@ -225,17 +236,28 @@ def main():
         'board_images': len(by_file),
         'board_family_counts': dict(sorted(Counter(row['board']['family'] for row in by_file.values()).items())),
         'partial_part_images': sum(row['part_coverage'] == 'partial_major_component_seeds' for row in by_file.values()),
+        'partial_part_images_by_family': dict(sorted(Counter(
+            row['board']['family'] for row in by_file.values()
+            if row['part_coverage'] == 'partial_major_component_seeds').items())),
         'part_seed_boxes': len(part_ids),
+        'part_seed_boxes_by_family': dict(sorted({family: sum(
+            len(row['parts']) for row in by_file.values()
+            if row['board']['family'] == family) for family in CLASS_NAMES}.items())),
         'source_linked_part_seeds': linked_count,
         'source_pin_records_under_linked_parts': pin_record_count,
+        'unlinked_reference_source_pin_records': sum(row['source_pin_record_count'] for row in other_pin_families.values()),
         'photo_pins_located': pin_count,
+        'photo_pins_located_by_family': dict(sorted({family: sum(
+            part['photo_pin_label_count'] for row in by_file.values()
+            if row['board']['family'] == family for part in row['parts'])
+            for family in CLASS_NAMES}.items())),
     }
-    assert stats['partial_part_images'] == 5 and stats['part_seed_boxes'] == 107
+    assert stats['partial_part_images'] == 10 and stats['part_seed_boxes'] == 159
     result = {
         'schema_version': '1.0',
         'label_order': ['board_family', 'part', 'pin'],
         'meaning': 'Board labels are reviewed; part boxes are partial review seeds; source pin records are not photo pin labels.',
-        'sources': {name: {'sha256': sha256(name)} for name in [board_path, review_path, manifest_path, source_bundles_path, *seed_paths, links_path, components_path, photo_pins_path]},
+        'sources': {name: {'sha256': sha256(name)} for name in [board_path, review_path, manifest_path, source_bundles_path, other_pins_path, *seed_paths, links_path, components_path, photo_pins_path]},
         'statistics': stats,
         'images': [by_file[row['file']] for row in boards],
     }

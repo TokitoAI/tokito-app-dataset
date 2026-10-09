@@ -24,9 +24,9 @@ The first split has62 training images and11 validation originals. Seven validati
 
 ## Component labeling and document links
 
-Component seed annotations cover107 major visible objects across five photos. They are partial and are excluded from complete component-detector training. Tiny passives, exact part IDs, hidden components and board backs still require labeling/review. See `data/photo-model/MODEL_SCOPE.md`.
+Component seed annotations cover 159 major visible objects across ten photos, two per board family. They are partial and are excluded from complete component-detector training. Tiny passives, exact part IDs, hidden components and board backs still require labeling/review. See `data/photo-model/MODEL_SCOPE.md` and `docs/EXPANDED_COMPONENT_SEEDS.md`.
 
-The [board, part and pin hierarchy](docs/LABEL_HIERARCHY.md) records the labeling order across all 80 photos. Ten NXP parts have source links and 352 source pin records; individual pin positions have not yet been labeled in the photos.
+The [board, part and pin hierarchy](docs/LABEL_HIERARCHY.md) records the labeling order across all 80 photos. Ten NXP parts have source links and 352 source pin records. Another 1,443 ESP8266-reference and Ultimainboard [source pin records](docs/SOURCE_PIN_COVERAGE.md) remain unlinked to photo parts. Individual pin positions have not yet been labeled in the photos.
 
 BOM entries, schematic pages and Gerber layers are linked documents. They are not YOLO object classes. Exact links need matched revisions and readable markings or registered PCB geometry. Unknown links remain unknown.
 

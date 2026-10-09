@@ -13,4 +13,5 @@ jobs:
         with:
           python-version: '3.12'
       - run: python scripts/validate_source_links.py
+      - run: python scripts/build_non_nxp_source_pins.py --check
       - run: python scripts/build_label_hierarchy.py --check

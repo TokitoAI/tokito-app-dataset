@@ -19,6 +19,9 @@
     "data/photo-model/source-bundles.json": {
       "sha256": "2d88f97e12da91563d05b4e05946ab9b177e2ad23c62d9032a6170fba53ca17e"
     },
+    "data/board-sources/non-nxp-source-pins.json": {
+      "sha256": "604a94f09cf65475057dbbcf08802ef92f8640ea8f16b54a5bbd0fc6165886b8"
+    },
     "annotations/component-seed-annotations.json": {
       "sha256": "a188c867b286ee059ecd5f47f6043c04275ab1b9106df3082c0923428b10864b"
     },
@@ -27,6 +30,9 @@
     },
     "annotations/nxp-component-seeds.json": {
       "sha256": "02ed86ee8e98c5be456a2f5e199c4c7468bb4c7ab1c3309bcf15d83f9957e780"
+    },
+    "annotations/component-seeds-expanded.json": {
+      "sha256": "545f68a5f593b403be872902f1349078054fc1e7958ce937a3da89812e9ab0f1"
     },
     "annotations/component-source-links.json": {
       "sha256": "524c55e39c2878de748ed0e531cd9acd861a0ed7a7ed28aca7a587b84ab39f23"
@@ -47,11 +53,33 @@
       "raspberry_pi_3b_board": 18,
       "ultimainboard": 18
     },
-    "partial_part_images": 5,
-    "part_seed_boxes": 107,
+    "partial_part_images": 10,
+    "partial_part_images_by_family": {
+      "esp32_board": 2,
+      "esp8266_board": 2,
+      "nxp_frdm_mcxn236_board": 2,
+      "raspberry_pi_3b_board": 2,
+      "ultimainboard": 2
+    },
+    "part_seed_boxes": 159,
+    "part_seed_boxes_by_family": {
+      "esp32_board": 12,
+      "esp8266_board": 9,
+      "nxp_frdm_mcxn236_board": 39,
+      "raspberry_pi_3b_board": 23,
+      "ultimainboard": 76
+    },
     "source_linked_part_seeds": 10,
     "source_pin_records_under_linked_parts": 352,
-    "photo_pins_located": 0
+    "unlinked_reference_source_pin_records": 1443,
+    "photo_pins_located": 0,
+    "photo_pins_located_by_family": {
+      "esp32_board": 0,
+      "esp8266_board": 0,
+      "nxp_frdm_mcxn236_board": 0,
+      "raspberry_pi_3b_board": 0,
+      "ultimainboard": 0
+    }
   },
   "images": [
     {
@@ -75,7 +103,9 @@
         "source_reference": {
           "path": "data/board-sources/esp8266-nodemcu-reference",
           "relation": "different_usb_uart_reference_variant",
-          "exact_component_mapping": false
+          "exact_component_mapping": false,
+          "unlinked_source_pin_catalog_path": "data/board-sources/non-nxp-source-pins.json",
+          "unlinked_source_pin_record_count": 151
         }
       },
       "part_coverage": "not_reviewed",
@@ -102,7 +132,9 @@
         "source_reference": {
           "path": "data/board-sources/esp8266-nodemcu-reference",
           "relation": "different_usb_uart_reference_variant",
-          "exact_component_mapping": false
+          "exact_component_mapping": false,
+          "unlinked_source_pin_catalog_path": "data/board-sources/non-nxp-source-pins.json",
+          "unlinked_source_pin_record_count": 151
         }
       },
       "part_coverage": "not_reviewed",
@@ -129,7 +161,9 @@
         "source_reference": {
           "path": "data/board-sources/esp8266-nodemcu-reference",
           "relation": "different_usb_uart_reference_variant",
-          "exact_component_mapping": false
+          "exact_component_mapping": false,
+          "unlinked_source_pin_catalog_path": "data/board-sources/non-nxp-source-pins.json",
+          "unlinked_source_pin_record_count": 151
         }
       },
       "part_coverage": "not_reviewed",
@@ -156,7 +190,9 @@
         "source_reference": {
           "path": "data/board-sources/esp8266-nodemcu-reference",
           "relation": "different_usb_uart_reference_variant",
-          "exact_component_mapping": false
+          "exact_component_mapping": false,
+          "unlinked_source_pin_catalog_path": "data/board-sources/non-nxp-source-pins.json",
+          "unlinked_source_pin_record_count": 151
         }
       },
       "part_coverage": "not_reviewed",
@@ -183,7 +219,9 @@
         "source_reference": {
           "path": "data/board-sources/esp8266-nodemcu-reference",
           "relation": "different_usb_uart_reference_variant",
-          "exact_component_mapping": false
+          "exact_component_mapping": false,
+          "unlinked_source_pin_catalog_path": "data/board-sources/non-nxp-source-pins.json",
+          "unlinked_source_pin_record_count": 151
         }
       },
       "part_coverage": "not_reviewed",
@@ -210,7 +248,9 @@
         "source_reference": {
           "path": "data/board-sources/esp8266-nodemcu-reference",
           "relation": "different_usb_uart_reference_variant",
-          "exact_component_mapping": false
+          "exact_component_mapping": false,
+          "unlinked_source_pin_catalog_path": "data/board-sources/non-nxp-source-pins.json",
+          "unlinked_source_pin_record_count": 151
         }
       },
       "part_coverage": "not_reviewed",
@@ -237,7 +277,9 @@
         "source_reference": {
           "path": "data/board-sources/esp8266-nodemcu-reference",
           "relation": "different_usb_uart_reference_variant",
-          "exact_component_mapping": false
+          "exact_component_mapping": false,
+          "unlinked_source_pin_catalog_path": "data/board-sources/non-nxp-source-pins.json",
+          "unlinked_source_pin_record_count": 151
         }
       },
       "part_coverage": "not_reviewed",
@@ -264,7 +306,9 @@
         "source_reference": {
           "path": "data/board-sources/esp8266-nodemcu-reference",
           "relation": "different_usb_uart_reference_variant",
-          "exact_component_mapping": false
+          "exact_component_mapping": false,
+          "unlinked_source_pin_catalog_path": "data/board-sources/non-nxp-source-pins.json",
+          "unlinked_source_pin_record_count": 151
         }
       },
       "part_coverage": "not_reviewed",
@@ -291,7 +335,9 @@
         "source_reference": {
           "path": "data/board-sources/nxp-frdm-mcxn236",
           "relation": "model_matches_silkscreen_revision_unconfirmed",
-          "exact_component_mapping": false
+          "exact_component_mapping": false,
+          "unlinked_source_pin_catalog_path": null,
+          "unlinked_source_pin_record_count": 0
         }
       },
       "part_coverage": "not_reviewed",
@@ -318,7 +364,9 @@
         "source_reference": {
           "path": "data/board-sources/nxp-frdm-mcxn236",
           "relation": "model_matches_silkscreen_revision_unconfirmed",
-          "exact_component_mapping": false
+          "exact_component_mapping": false,
+          "unlinked_source_pin_catalog_path": null,
+          "unlinked_source_pin_record_count": 0
         }
       },
       "part_coverage": "not_reviewed",
@@ -345,7 +393,9 @@
         "source_reference": {
           "path": "data/board-sources/nxp-frdm-mcxn236",
           "relation": "model_matches_silkscreen_revision_unconfirmed",
-          "exact_component_mapping": false
+          "exact_component_mapping": false,
+          "unlinked_source_pin_catalog_path": null,
+          "unlinked_source_pin_record_count": 0
         }
       },
       "part_coverage": "not_reviewed",
@@ -372,7 +422,9 @@
         "source_reference": {
           "path": "data/board-sources/nxp-frdm-mcxn236",
           "relation": "model_matches_silkscreen_revision_unconfirmed",
-          "exact_component_mapping": false
+          "exact_component_mapping": false,
+          "unlinked_source_pin_catalog_path": null,
+          "unlinked_source_pin_record_count": 0
         }
       },
       "part_coverage": "not_reviewed",
@@ -399,7 +451,9 @@
         "source_reference": {
           "path": "data/board-sources/nxp-frdm-mcxn236",
           "relation": "model_matches_silkscreen_revision_unconfirmed",
-          "exact_component_mapping": false
+          "exact_component_mapping": false,
+          "unlinked_source_pin_catalog_path": null,
+          "unlinked_source_pin_record_count": 0
         }
       },
       "part_coverage": "not_reviewed",
@@ -426,7 +480,9 @@
         "source_reference": {
           "path": "data/board-sources/nxp-frdm-mcxn236",
           "relation": "model_matches_silkscreen_revision_unconfirmed",
-          "exact_component_mapping": false
+          "exact_component_mapping": false,
+          "unlinked_source_pin_catalog_path": null,
+          "unlinked_source_pin_record_count": 0
         }
       },
       "part_coverage": "not_reviewed",
@@ -453,7 +509,9 @@
         "source_reference": {
           "path": "data/board-sources/nxp-frdm-mcxn236",
           "relation": "model_matches_silkscreen_revision_unconfirmed",
-          "exact_component_mapping": false
+          "exact_component_mapping": false,
+          "unlinked_source_pin_catalog_path": null,
+          "unlinked_source_pin_record_count": 0
         }
       },
       "part_coverage": "not_reviewed",
@@ -480,7 +538,9 @@
         "source_reference": {
           "path": "data/board-sources/nxp-frdm-mcxn236",
           "relation": "model_matches_silkscreen_revision_unconfirmed",
-          "exact_component_mapping": false
+          "exact_component_mapping": false,
+          "unlinked_source_pin_catalog_path": null,
+          "unlinked_source_pin_record_count": 0
         }
       },
       "part_coverage": "not_reviewed",
@@ -507,7 +567,9 @@
         "source_reference": {
           "path": "data/board-sources/nxp-frdm-mcxn236",
           "relation": "model_matches_silkscreen_revision_unconfirmed",
-          "exact_component_mapping": false
+          "exact_component_mapping": false,
+          "unlinked_source_pin_catalog_path": null,
+          "unlinked_source_pin_record_count": 0
         }
       },
       "part_coverage": "not_reviewed",
@@ -534,7 +596,9 @@
         "source_reference": {
           "path": "data/board-sources/nxp-frdm-mcxn236",
           "relation": "model_matches_silkscreen_revision_unconfirmed",
-          "exact_component_mapping": false
+          "exact_component_mapping": false,
+          "unlinked_source_pin_catalog_path": null,
+          "unlinked_source_pin_record_count": 0
         }
       },
       "part_coverage": "not_reviewed",
@@ -561,7 +625,9 @@
         "source_reference": {
           "path": "data/board-sources/nxp-frdm-mcxn236",
           "relation": "model_matches_silkscreen_revision_unconfirmed",
-          "exact_component_mapping": false
+          "exact_component_mapping": false,
+          "unlinked_source_pin_catalog_path": null,
+          "unlinked_source_pin_record_count": 0
         }
       },
       "part_coverage": "not_reviewed",
@@ -588,7 +654,9 @@
         "source_reference": {
           "path": "data/board-sources/nxp-frdm-mcxn236",
           "relation": "model_matches_silkscreen_revision_unconfirmed",
-          "exact_component_mapping": false
+          "exact_component_mapping": false,
+          "unlinked_source_pin_catalog_path": null,
+          "unlinked_source_pin_record_count": 0
         }
       },
       "part_coverage": "partial_major_component_seeds",
@@ -3967,7 +4035,9 @@
         "source_reference": {
           "path": "data/board-sources/nxp-frdm-mcxn236",
           "relation": "model_matches_silkscreen_revision_unconfirmed",
-          "exact_component_mapping": false
+          "exact_component_mapping": false,
+          "unlinked_source_pin_catalog_path": null,
+          "unlinked_source_pin_record_count": 0
         }
       },
       "part_coverage": "not_reviewed",
@@ -3994,11 +4064,252 @@
         "source_reference": {
           "path": "data/board-sources/nxp-frdm-mcxn236",
           "relation": "model_matches_silkscreen_revision_unconfirmed",
-          "exact_component_mapping": false
+          "exact_component_mapping": false,
+          "unlinked_source_pin_catalog_path": null,
+          "unlinked_source_pin_record_count": 0
         }
       },
-      "part_coverage": "not_reviewed",
-      "parts": []
+      "part_coverage": "partial_major_component_seeds",
+      "parts": [
+        {
+          "id": "IMG_20261009_221800_1.jpg:annotations/component-seeds-expanded.json:exp_221800_001",
+          "annotation_source": "annotations/component-seeds-expanded.json",
+          "annotation_id": "exp_221800_001",
+          "class_name": "connector_header",
+          "bbox_xyxy_normalized": [
+            0.146138,
+            0.019043,
+            0.820459,
+            0.075195
+          ],
+          "box_review_status": "visual_reviewed_major_component_box",
+          "observed_reference_designator": null,
+          "source_component_candidate": null,
+          "photo_pin_label_count": 0,
+          "pins": []
+        },
+        {
+          "id": "IMG_20261009_221800_1.jpg:annotations/component-seeds-expanded.json:exp_221800_002",
+          "annotation_source": "annotations/component-seeds-expanded.json",
+          "annotation_id": "exp_221800_002",
+          "class_name": "connector_header",
+          "bbox_xyxy_normalized": [
+            0.003132,
+            0.109863,
+            0.131524,
+            0.680664
+          ],
+          "box_review_status": "visual_reviewed_major_component_box",
+          "observed_reference_designator": null,
+          "source_component_candidate": null,
+          "photo_pin_label_count": 0,
+          "pins": []
+        },
+        {
+          "id": "IMG_20261009_221800_1.jpg:annotations/component-seeds-expanded.json:exp_221800_003",
+          "annotation_source": "annotations/component-seeds-expanded.json",
+          "annotation_id": "exp_221800_003",
+          "class_name": "connector_header",
+          "bbox_xyxy_normalized": [
+            0.002088,
+            0.675781,
+            0.131524,
+            0.908691
+          ],
+          "box_review_status": "visual_reviewed_major_component_box",
+          "observed_reference_designator": null,
+          "source_component_candidate": null,
+          "photo_pin_label_count": 0,
+          "pins": []
+        },
+        {
+          "id": "IMG_20261009_221800_1.jpg:annotations/component-seeds-expanded.json:exp_221800_004",
+          "annotation_source": "annotations/component-seeds-expanded.json",
+          "annotation_id": "exp_221800_004",
+          "class_name": "connector_header",
+          "bbox_xyxy_normalized": [
+            0.22547,
+            0.167969,
+            0.323591,
+            0.361328
+          ],
+          "box_review_status": "visual_reviewed_major_component_box",
+          "observed_reference_designator": null,
+          "source_component_candidate": null,
+          "photo_pin_label_count": 0,
+          "pins": []
+        },
+        {
+          "id": "IMG_20261009_221800_1.jpg:annotations/component-seeds-expanded.json:exp_221800_005",
+          "annotation_source": "annotations/component-seeds-expanded.json",
+          "annotation_id": "exp_221800_005",
+          "class_name": "connector_header",
+          "bbox_xyxy_normalized": [
+            0.639875,
+            0.153809,
+            0.744259,
+            0.346191
+          ],
+          "box_review_status": "visual_reviewed_major_component_box",
+          "observed_reference_designator": null,
+          "source_component_candidate": null,
+          "photo_pin_label_count": 0,
+          "pins": []
+        },
+        {
+          "id": "IMG_20261009_221800_1.jpg:annotations/component-seeds-expanded.json:exp_221800_006",
+          "annotation_source": "annotations/component-seeds-expanded.json",
+          "annotation_id": "exp_221800_006",
+          "class_name": "connector_header",
+          "bbox_xyxy_normalized": [
+            0.848643,
+            0.478516,
+            0.968685,
+            0.626465
+          ],
+          "box_review_status": "visual_reviewed_major_component_box",
+          "observed_reference_designator": null,
+          "source_component_candidate": null,
+          "photo_pin_label_count": 0,
+          "pins": []
+        },
+        {
+          "id": "IMG_20261009_221800_1.jpg:annotations/component-seeds-expanded.json:exp_221800_007",
+          "annotation_source": "annotations/component-seeds-expanded.json",
+          "annotation_id": "exp_221800_007",
+          "class_name": "connector_header",
+          "bbox_xyxy_normalized": [
+            0.844468,
+            0.635254,
+            0.966597,
+            0.819824
+          ],
+          "box_review_status": "visual_reviewed_major_component_box",
+          "observed_reference_designator": null,
+          "source_component_candidate": null,
+          "photo_pin_label_count": 0,
+          "pins": []
+        },
+        {
+          "id": "IMG_20261009_221800_1.jpg:annotations/component-seeds-expanded.json:exp_221800_008",
+          "annotation_source": "annotations/component-seeds-expanded.json",
+          "annotation_id": "exp_221800_008",
+          "class_name": "switch",
+          "bbox_xyxy_normalized": [
+            0.022965,
+            0.057129,
+            0.118998,
+            0.098633
+          ],
+          "box_review_status": "visual_reviewed_major_component_box",
+          "observed_reference_designator": null,
+          "source_component_candidate": null,
+          "photo_pin_label_count": 0,
+          "pins": []
+        },
+        {
+          "id": "IMG_20261009_221800_1.jpg:annotations/component-seeds-expanded.json:exp_221800_009",
+          "annotation_source": "annotations/component-seeds-expanded.json",
+          "annotation_id": "exp_221800_009",
+          "class_name": "switch",
+          "bbox_xyxy_normalized": [
+            0.879958,
+            0.056641,
+            0.985386,
+            0.098633
+          ],
+          "box_review_status": "visual_reviewed_major_component_box",
+          "observed_reference_designator": null,
+          "source_component_candidate": null,
+          "photo_pin_label_count": 0,
+          "pins": []
+        },
+        {
+          "id": "IMG_20261009_221800_1.jpg:annotations/component-seeds-expanded.json:exp_221800_010",
+          "annotation_source": "annotations/component-seeds-expanded.json",
+          "annotation_id": "exp_221800_010",
+          "class_name": "switch",
+          "bbox_xyxy_normalized": [
+            0.021921,
+            0.900879,
+            0.120042,
+            0.945801
+          ],
+          "box_review_status": "visual_reviewed_major_component_box",
+          "observed_reference_designator": null,
+          "source_component_candidate": null,
+          "photo_pin_label_count": 0,
+          "pins": []
+        },
+        {
+          "id": "IMG_20261009_221800_1.jpg:annotations/component-seeds-expanded.json:exp_221800_011",
+          "annotation_source": "annotations/component-seeds-expanded.json",
+          "annotation_id": "exp_221800_011",
+          "class_name": "integrated_circuit",
+          "bbox_xyxy_normalized": [
+            0.401879,
+            0.411133,
+            0.584551,
+            0.501465
+          ],
+          "box_review_status": "visual_reviewed_major_component_box",
+          "observed_reference_designator": null,
+          "source_component_candidate": null,
+          "photo_pin_label_count": 0,
+          "pins": []
+        },
+        {
+          "id": "IMG_20261009_221800_1.jpg:annotations/component-seeds-expanded.json:exp_221800_012",
+          "annotation_source": "annotations/component-seeds-expanded.json",
+          "annotation_id": "exp_221800_012",
+          "class_name": "integrated_circuit",
+          "bbox_xyxy_normalized": [
+            0.363257,
+            0.733398,
+            0.557411,
+            0.817383
+          ],
+          "box_review_status": "visual_reviewed_major_component_box",
+          "observed_reference_designator": null,
+          "source_component_candidate": null,
+          "photo_pin_label_count": 0,
+          "pins": []
+        },
+        {
+          "id": "IMG_20261009_221800_1.jpg:annotations/component-seeds-expanded.json:exp_221800_013",
+          "annotation_source": "annotations/component-seeds-expanded.json",
+          "annotation_id": "exp_221800_013",
+          "class_name": "usb_connector",
+          "bbox_xyxy_normalized": [
+            0.226514,
+            0.946289,
+            0.422756,
+            1.0
+          ],
+          "box_review_status": "visual_reviewed_major_component_box",
+          "observed_reference_designator": null,
+          "source_component_candidate": null,
+          "photo_pin_label_count": 0,
+          "pins": []
+        },
+        {
+          "id": "IMG_20261009_221800_1.jpg:annotations/component-seeds-expanded.json:exp_221800_014",
+          "annotation_source": "annotations/component-seeds-expanded.json",
+          "annotation_id": "exp_221800_014",
+          "class_name": "usb_connector",
+          "bbox_xyxy_normalized": [
+            0.462422,
+            0.945801,
+            0.692067,
+            1.0
+          ],
+          "box_review_status": "visual_reviewed_major_component_box",
+          "observed_reference_designator": null,
+          "source_component_candidate": null,
+          "photo_pin_label_count": 0,
+          "pins": []
+        }
+      ]
     },
     {
       "image_file": "IMG_20261009_221803.jpg",
@@ -4021,7 +4332,9 @@
         "source_reference": {
           "path": "data/board-sources/nxp-frdm-mcxn236",
           "relation": "model_matches_silkscreen_revision_unconfirmed",
-          "exact_component_mapping": false
+          "exact_component_mapping": false,
+          "unlinked_source_pin_catalog_path": null,
+          "unlinked_source_pin_record_count": 0
         }
       },
       "part_coverage": "not_reviewed",
@@ -4048,7 +4361,9 @@
         "source_reference": {
           "path": "data/board-sources/nxp-frdm-mcxn236",
           "relation": "model_matches_silkscreen_revision_unconfirmed",
-          "exact_component_mapping": false
+          "exact_component_mapping": false,
+          "unlinked_source_pin_catalog_path": null,
+          "unlinked_source_pin_record_count": 0
         }
       },
       "part_coverage": "not_reviewed",
@@ -4075,7 +4390,9 @@
         "source_reference": {
           "path": "data/board-sources/nxp-frdm-mcxn236",
           "relation": "model_matches_silkscreen_revision_unconfirmed",
-          "exact_component_mapping": false
+          "exact_component_mapping": false,
+          "unlinked_source_pin_catalog_path": null,
+          "unlinked_source_pin_record_count": 0
         }
       },
       "part_coverage": "not_reviewed",
@@ -4102,7 +4419,9 @@
         "source_reference": {
           "path": "data/board-sources/nxp-frdm-mcxn236",
           "relation": "model_matches_silkscreen_revision_unconfirmed",
-          "exact_component_mapping": false
+          "exact_component_mapping": false,
+          "unlinked_source_pin_catalog_path": null,
+          "unlinked_source_pin_record_count": 0
         }
       },
       "part_coverage": "not_reviewed",
@@ -4129,7 +4448,9 @@
         "source_reference": {
           "path": "data/board-sources/esp32-devkit-30pin",
           "relation": "community_reference_clone",
-          "exact_component_mapping": false
+          "exact_component_mapping": false,
+          "unlinked_source_pin_catalog_path": null,
+          "unlinked_source_pin_record_count": 0
         }
       },
       "part_coverage": "not_reviewed",
@@ -4156,7 +4477,9 @@
         "source_reference": {
           "path": "data/board-sources/esp32-devkit-30pin",
           "relation": "community_reference_clone",
-          "exact_component_mapping": false
+          "exact_component_mapping": false,
+          "unlinked_source_pin_catalog_path": null,
+          "unlinked_source_pin_record_count": 0
         }
       },
       "part_coverage": "partial_major_component_seeds",
@@ -4286,7 +4609,9 @@
         "source_reference": {
           "path": "data/board-sources/esp32-devkit-30pin",
           "relation": "community_reference_clone",
-          "exact_component_mapping": false
+          "exact_component_mapping": false,
+          "unlinked_source_pin_catalog_path": null,
+          "unlinked_source_pin_record_count": 0
         }
       },
       "part_coverage": "not_reviewed",
@@ -4313,11 +4638,116 @@
         "source_reference": {
           "path": "data/board-sources/esp32-devkit-30pin",
           "relation": "community_reference_clone",
-          "exact_component_mapping": false
+          "exact_component_mapping": false,
+          "unlinked_source_pin_catalog_path": null,
+          "unlinked_source_pin_record_count": 0
         }
       },
-      "part_coverage": "not_reviewed",
-      "parts": []
+      "part_coverage": "partial_major_component_seeds",
+      "parts": [
+        {
+          "id": "IMG_20261009_221841_1.jpg:annotations/component-seeds-expanded.json:exp_221841_001",
+          "annotation_source": "annotations/component-seeds-expanded.json",
+          "annotation_id": "exp_221841_001",
+          "class_name": "usb_connector",
+          "bbox_xyxy_normalized": [
+            0.364719,
+            0.004739,
+            0.633117,
+            0.125
+          ],
+          "box_review_status": "visual_reviewed_major_component_box",
+          "observed_reference_designator": null,
+          "source_component_candidate": null,
+          "photo_pin_label_count": 0,
+          "pins": []
+        },
+        {
+          "id": "IMG_20261009_221841_1.jpg:annotations/component-seeds-expanded.json:exp_221841_002",
+          "annotation_source": "annotations/component-seeds-expanded.json",
+          "annotation_id": "exp_221841_002",
+          "class_name": "switch",
+          "bbox_xyxy_normalized": [
+            0.154762,
+            0.027251,
+            0.267316,
+            0.123815
+          ],
+          "box_review_status": "visual_reviewed_major_component_box",
+          "observed_reference_designator": null,
+          "source_component_candidate": null,
+          "photo_pin_label_count": 0,
+          "pins": []
+        },
+        {
+          "id": "IMG_20261009_221841_1.jpg:annotations/component-seeds-expanded.json:exp_221841_003",
+          "annotation_source": "annotations/component-seeds-expanded.json",
+          "annotation_id": "exp_221841_003",
+          "class_name": "switch",
+          "bbox_xyxy_normalized": [
+            0.722944,
+            0.024882,
+            0.837662,
+            0.123223
+          ],
+          "box_review_status": "visual_reviewed_major_component_box",
+          "observed_reference_designator": null,
+          "source_component_candidate": null,
+          "photo_pin_label_count": 0,
+          "pins": []
+        },
+        {
+          "id": "IMG_20261009_221841_1.jpg:annotations/component-seeds-expanded.json:exp_221841_004",
+          "annotation_source": "annotations/component-seeds-expanded.json",
+          "annotation_id": "exp_221841_004",
+          "class_name": "integrated_circuit",
+          "bbox_xyxy_normalized": [
+            0.194805,
+            0.183649,
+            0.414502,
+            0.311611
+          ],
+          "box_review_status": "visual_reviewed_major_component_box",
+          "observed_reference_designator": null,
+          "source_component_candidate": null,
+          "photo_pin_label_count": 0,
+          "pins": []
+        },
+        {
+          "id": "IMG_20261009_221841_1.jpg:annotations/component-seeds-expanded.json:exp_221841_005",
+          "annotation_source": "annotations/component-seeds-expanded.json",
+          "annotation_id": "exp_221841_005",
+          "class_name": "integrated_circuit",
+          "bbox_xyxy_normalized": [
+            0.520563,
+            0.181872,
+            0.785714,
+            0.321682
+          ],
+          "box_review_status": "visual_reviewed_major_component_box",
+          "observed_reference_designator": null,
+          "source_component_candidate": null,
+          "photo_pin_label_count": 0,
+          "pins": []
+        },
+        {
+          "id": "IMG_20261009_221841_1.jpg:annotations/component-seeds-expanded.json:exp_221841_006",
+          "annotation_source": "annotations/component-seeds-expanded.json",
+          "annotation_id": "exp_221841_006",
+          "class_name": "rf_module",
+          "bbox_xyxy_normalized": [
+            0.152597,
+            0.491114,
+            0.847403,
+            0.942536
+          ],
+          "box_review_status": "visual_reviewed_major_component_box",
+          "observed_reference_designator": null,
+          "source_component_candidate": null,
+          "photo_pin_label_count": 0,
+          "pins": []
+        }
+      ]
     },
     {
       "image_file": "IMG_20261009_221901.jpg",
@@ -4340,7 +4770,9 @@
         "source_reference": {
           "path": "data/board-sources/esp32-devkit-30pin",
           "relation": "community_reference_clone",
-          "exact_component_mapping": false
+          "exact_component_mapping": false,
+          "unlinked_source_pin_catalog_path": null,
+          "unlinked_source_pin_record_count": 0
         }
       },
       "part_coverage": "not_reviewed",
@@ -4367,7 +4799,9 @@
         "source_reference": {
           "path": "data/board-sources/esp32-devkit-30pin",
           "relation": "community_reference_clone",
-          "exact_component_mapping": false
+          "exact_component_mapping": false,
+          "unlinked_source_pin_catalog_path": null,
+          "unlinked_source_pin_record_count": 0
         }
       },
       "part_coverage": "not_reviewed",
@@ -4394,7 +4828,9 @@
         "source_reference": {
           "path": "data/board-sources/esp32-devkit-30pin",
           "relation": "community_reference_clone",
-          "exact_component_mapping": false
+          "exact_component_mapping": false,
+          "unlinked_source_pin_catalog_path": null,
+          "unlinked_source_pin_record_count": 0
         }
       },
       "part_coverage": "not_reviewed",
@@ -4421,7 +4857,9 @@
         "source_reference": {
           "path": "data/board-sources/esp32-devkit-30pin",
           "relation": "community_reference_clone",
-          "exact_component_mapping": false
+          "exact_component_mapping": false,
+          "unlinked_source_pin_catalog_path": null,
+          "unlinked_source_pin_record_count": 0
         }
       },
       "part_coverage": "not_reviewed",
@@ -4448,7 +4886,9 @@
         "source_reference": {
           "path": "data/board-sources/esp32-devkit-30pin",
           "relation": "community_reference_clone",
-          "exact_component_mapping": false
+          "exact_component_mapping": false,
+          "unlinked_source_pin_catalog_path": null,
+          "unlinked_source_pin_record_count": 0
         }
       },
       "part_coverage": "not_reviewed",
@@ -4475,7 +4915,9 @@
         "source_reference": {
           "path": "data/board-sources/esp32-devkit-30pin",
           "relation": "community_reference_clone",
-          "exact_component_mapping": false
+          "exact_component_mapping": false,
+          "unlinked_source_pin_catalog_path": null,
+          "unlinked_source_pin_record_count": 0
         }
       },
       "part_coverage": "not_reviewed",
@@ -4502,7 +4944,9 @@
         "source_reference": {
           "path": "data/board-sources/esp32-devkit-30pin",
           "relation": "community_reference_clone",
-          "exact_component_mapping": false
+          "exact_component_mapping": false,
+          "unlinked_source_pin_catalog_path": null,
+          "unlinked_source_pin_record_count": 0
         }
       },
       "part_coverage": "not_reviewed",
@@ -4529,7 +4973,9 @@
         "source_reference": {
           "path": "data/board-sources/esp32-devkit-30pin",
           "relation": "community_reference_clone",
-          "exact_component_mapping": false
+          "exact_component_mapping": false,
+          "unlinked_source_pin_catalog_path": null,
+          "unlinked_source_pin_record_count": 0
         }
       },
       "part_coverage": "not_reviewed",
@@ -4556,7 +5002,9 @@
         "source_reference": {
           "path": "data/board-sources/esp8266-nodemcu-reference",
           "relation": "different_usb_uart_reference_variant",
-          "exact_component_mapping": false
+          "exact_component_mapping": false,
+          "unlinked_source_pin_catalog_path": "data/board-sources/non-nxp-source-pins.json",
+          "unlinked_source_pin_record_count": 151
         }
       },
       "part_coverage": "not_reviewed",
@@ -4583,7 +5031,9 @@
         "source_reference": {
           "path": "data/board-sources/esp8266-nodemcu-reference",
           "relation": "different_usb_uart_reference_variant",
-          "exact_component_mapping": false
+          "exact_component_mapping": false,
+          "unlinked_source_pin_catalog_path": "data/board-sources/non-nxp-source-pins.json",
+          "unlinked_source_pin_record_count": 151
         }
       },
       "part_coverage": "partial_major_component_seeds",
@@ -4713,7 +5163,9 @@
         "source_reference": {
           "path": "data/board-sources/esp8266-nodemcu-reference",
           "relation": "different_usb_uart_reference_variant",
-          "exact_component_mapping": false
+          "exact_component_mapping": false,
+          "unlinked_source_pin_catalog_path": "data/board-sources/non-nxp-source-pins.json",
+          "unlinked_source_pin_record_count": 151
         }
       },
       "part_coverage": "not_reviewed",
@@ -4740,11 +5192,65 @@
         "source_reference": {
           "path": "data/board-sources/esp8266-nodemcu-reference",
           "relation": "different_usb_uart_reference_variant",
-          "exact_component_mapping": false
+          "exact_component_mapping": false,
+          "unlinked_source_pin_catalog_path": "data/board-sources/non-nxp-source-pins.json",
+          "unlinked_source_pin_record_count": 151
         }
       },
-      "part_coverage": "not_reviewed",
-      "parts": []
+      "part_coverage": "partial_major_component_seeds",
+      "parts": [
+        {
+          "id": "IMG_20261009_221944_1.jpg:annotations/component-seeds-expanded.json:exp_221944_001",
+          "annotation_source": "annotations/component-seeds-expanded.json",
+          "annotation_id": "exp_221944_001",
+          "class_name": "rf_module",
+          "bbox_xyxy_normalized": [
+            0.304563,
+            0.188178,
+            0.897817,
+            0.509219
+          ],
+          "box_review_status": "visual_reviewed_major_component_box",
+          "observed_reference_designator": null,
+          "source_component_candidate": null,
+          "photo_pin_label_count": 0,
+          "pins": []
+        },
+        {
+          "id": "IMG_20261009_221944_1.jpg:annotations/component-seeds-expanded.json:exp_221944_002",
+          "annotation_source": "annotations/component-seeds-expanded.json",
+          "annotation_id": "exp_221944_002",
+          "class_name": "integrated_circuit",
+          "bbox_xyxy_normalized": [
+            0.691468,
+            0.572668,
+            0.861111,
+            0.696312
+          ],
+          "box_review_status": "visual_reviewed_major_component_box",
+          "observed_reference_designator": null,
+          "source_component_candidate": null,
+          "photo_pin_label_count": 0,
+          "pins": []
+        },
+        {
+          "id": "IMG_20261009_221944_1.jpg:annotations/component-seeds-expanded.json:exp_221944_003",
+          "annotation_source": "annotations/component-seeds-expanded.json",
+          "annotation_id": "exp_221944_003",
+          "class_name": "integrated_circuit",
+          "bbox_xyxy_normalized": [
+            0.345238,
+            0.792842,
+            0.679563,
+            0.933839
+          ],
+          "box_review_status": "visual_reviewed_major_component_box",
+          "observed_reference_designator": null,
+          "source_component_candidate": null,
+          "photo_pin_label_count": 0,
+          "pins": []
+        }
+      ]
     },
     {
       "image_file": "IMG_20261009_221952.jpg",
@@ -4767,7 +5273,9 @@
         "source_reference": {
           "path": "data/board-sources/esp8266-nodemcu-reference",
           "relation": "different_usb_uart_reference_variant",
-          "exact_component_mapping": false
+          "exact_component_mapping": false,
+          "unlinked_source_pin_catalog_path": "data/board-sources/non-nxp-source-pins.json",
+          "unlinked_source_pin_record_count": 151
         }
       },
       "part_coverage": "not_reviewed",
@@ -4794,7 +5302,9 @@
         "source_reference": {
           "path": "data/board-sources/esp8266-nodemcu-reference",
           "relation": "different_usb_uart_reference_variant",
-          "exact_component_mapping": false
+          "exact_component_mapping": false,
+          "unlinked_source_pin_catalog_path": "data/board-sources/non-nxp-source-pins.json",
+          "unlinked_source_pin_record_count": 151
         }
       },
       "part_coverage": "not_reviewed",
@@ -4821,7 +5331,9 @@
         "source_reference": {
           "path": "data/board-sources/ultimainboard-2.1.4",
           "relation": "revision_marking_matches_source",
-          "exact_component_mapping": "requires_pixel_to_pcb_registration"
+          "exact_component_mapping": "requires_pixel_to_pcb_registration",
+          "unlinked_source_pin_catalog_path": "data/board-sources/non-nxp-source-pins.json",
+          "unlinked_source_pin_record_count": 1292
         }
       },
       "part_coverage": "not_reviewed",
@@ -4848,7 +5360,9 @@
         "source_reference": {
           "path": "data/board-sources/ultimainboard-2.1.4",
           "relation": "revision_marking_matches_source",
-          "exact_component_mapping": "requires_pixel_to_pcb_registration"
+          "exact_component_mapping": "requires_pixel_to_pcb_registration",
+          "unlinked_source_pin_catalog_path": "data/board-sources/non-nxp-source-pins.json",
+          "unlinked_source_pin_record_count": 1292
         }
       },
       "part_coverage": "not_reviewed",
@@ -4875,7 +5389,9 @@
         "source_reference": {
           "path": "data/board-sources/ultimainboard-2.1.4",
           "relation": "revision_marking_matches_source",
-          "exact_component_mapping": "requires_pixel_to_pcb_registration"
+          "exact_component_mapping": "requires_pixel_to_pcb_registration",
+          "unlinked_source_pin_catalog_path": "data/board-sources/non-nxp-source-pins.json",
+          "unlinked_source_pin_record_count": 1292
         }
       },
       "part_coverage": "not_reviewed",
@@ -4902,7 +5418,9 @@
         "source_reference": {
           "path": "data/board-sources/ultimainboard-2.1.4",
           "relation": "revision_marking_matches_source",
-          "exact_component_mapping": "requires_pixel_to_pcb_registration"
+          "exact_component_mapping": "requires_pixel_to_pcb_registration",
+          "unlinked_source_pin_catalog_path": "data/board-sources/non-nxp-source-pins.json",
+          "unlinked_source_pin_record_count": 1292
         }
       },
       "part_coverage": "not_reviewed",
@@ -4929,7 +5447,9 @@
         "source_reference": {
           "path": "data/board-sources/ultimainboard-2.1.4",
           "relation": "revision_marking_matches_source",
-          "exact_component_mapping": "requires_pixel_to_pcb_registration"
+          "exact_component_mapping": "requires_pixel_to_pcb_registration",
+          "unlinked_source_pin_catalog_path": "data/board-sources/non-nxp-source-pins.json",
+          "unlinked_source_pin_record_count": 1292
         }
       },
       "part_coverage": "not_reviewed",
@@ -4956,7 +5476,9 @@
         "source_reference": {
           "path": "data/board-sources/ultimainboard-2.1.4",
           "relation": "revision_marking_matches_source",
-          "exact_component_mapping": "requires_pixel_to_pcb_registration"
+          "exact_component_mapping": "requires_pixel_to_pcb_registration",
+          "unlinked_source_pin_catalog_path": "data/board-sources/non-nxp-source-pins.json",
+          "unlinked_source_pin_record_count": 1292
         }
       },
       "part_coverage": "not_reviewed",
@@ -4983,7 +5505,9 @@
         "source_reference": {
           "path": "data/board-sources/ultimainboard-2.1.4",
           "relation": "revision_marking_matches_source",
-          "exact_component_mapping": "requires_pixel_to_pcb_registration"
+          "exact_component_mapping": "requires_pixel_to_pcb_registration",
+          "unlinked_source_pin_catalog_path": "data/board-sources/non-nxp-source-pins.json",
+          "unlinked_source_pin_record_count": 1292
         }
       },
       "part_coverage": "not_reviewed",
@@ -5010,7 +5534,9 @@
         "source_reference": {
           "path": "data/board-sources/ultimainboard-2.1.4",
           "relation": "revision_marking_matches_source",
-          "exact_component_mapping": "requires_pixel_to_pcb_registration"
+          "exact_component_mapping": "requires_pixel_to_pcb_registration",
+          "unlinked_source_pin_catalog_path": "data/board-sources/non-nxp-source-pins.json",
+          "unlinked_source_pin_record_count": 1292
         }
       },
       "part_coverage": "not_reviewed",
@@ -5037,7 +5563,9 @@
         "source_reference": {
           "path": "data/board-sources/ultimainboard-2.1.4",
           "relation": "revision_marking_matches_source",
-          "exact_component_mapping": "requires_pixel_to_pcb_registration"
+          "exact_component_mapping": "requires_pixel_to_pcb_registration",
+          "unlinked_source_pin_catalog_path": "data/board-sources/non-nxp-source-pins.json",
+          "unlinked_source_pin_record_count": 1292
         }
       },
       "part_coverage": "not_reviewed",
@@ -5064,7 +5592,9 @@
         "source_reference": {
           "path": "data/board-sources/ultimainboard-2.1.4",
           "relation": "revision_marking_matches_source",
-          "exact_component_mapping": "requires_pixel_to_pcb_registration"
+          "exact_component_mapping": "requires_pixel_to_pcb_registration",
+          "unlinked_source_pin_catalog_path": "data/board-sources/non-nxp-source-pins.json",
+          "unlinked_source_pin_record_count": 1292
         }
       },
       "part_coverage": "not_reviewed",
@@ -5091,7 +5621,9 @@
         "source_reference": {
           "path": "data/board-sources/ultimainboard-2.1.4",
           "relation": "revision_marking_matches_source",
-          "exact_component_mapping": "requires_pixel_to_pcb_registration"
+          "exact_component_mapping": "requires_pixel_to_pcb_registration",
+          "unlinked_source_pin_catalog_path": "data/board-sources/non-nxp-source-pins.json",
+          "unlinked_source_pin_record_count": 1292
         }
       },
       "part_coverage": "not_reviewed",
@@ -5118,7 +5650,9 @@
         "source_reference": {
           "path": "data/board-sources/ultimainboard-2.1.4",
           "relation": "revision_marking_matches_source",
-          "exact_component_mapping": "requires_pixel_to_pcb_registration"
+          "exact_component_mapping": "requires_pixel_to_pcb_registration",
+          "unlinked_source_pin_catalog_path": "data/board-sources/non-nxp-source-pins.json",
+          "unlinked_source_pin_record_count": 1292
         }
       },
       "part_coverage": "not_reviewed",
@@ -5145,7 +5679,9 @@
         "source_reference": {
           "path": "data/board-sources/ultimainboard-2.1.4",
           "relation": "revision_marking_matches_source",
-          "exact_component_mapping": "requires_pixel_to_pcb_registration"
+          "exact_component_mapping": "requires_pixel_to_pcb_registration",
+          "unlinked_source_pin_catalog_path": "data/board-sources/non-nxp-source-pins.json",
+          "unlinked_source_pin_record_count": 1292
         }
       },
       "part_coverage": "not_reviewed",
@@ -5172,7 +5708,9 @@
         "source_reference": {
           "path": "data/board-sources/ultimainboard-2.1.4",
           "relation": "revision_marking_matches_source",
-          "exact_component_mapping": "requires_pixel_to_pcb_registration"
+          "exact_component_mapping": "requires_pixel_to_pcb_registration",
+          "unlinked_source_pin_catalog_path": "data/board-sources/non-nxp-source-pins.json",
+          "unlinked_source_pin_record_count": 1292
         }
       },
       "part_coverage": "not_reviewed",
@@ -5199,7 +5737,9 @@
         "source_reference": {
           "path": "data/board-sources/ultimainboard-2.1.4",
           "relation": "revision_marking_matches_source",
-          "exact_component_mapping": "requires_pixel_to_pcb_registration"
+          "exact_component_mapping": "requires_pixel_to_pcb_registration",
+          "unlinked_source_pin_catalog_path": "data/board-sources/non-nxp-source-pins.json",
+          "unlinked_source_pin_record_count": 1292
         }
       },
       "part_coverage": "not_reviewed",
@@ -5226,7 +5766,9 @@
         "source_reference": {
           "path": "data/board-sources/ultimainboard-2.1.4",
           "relation": "revision_marking_matches_source",
-          "exact_component_mapping": "requires_pixel_to_pcb_registration"
+          "exact_component_mapping": "requires_pixel_to_pcb_registration",
+          "unlinked_source_pin_catalog_path": "data/board-sources/non-nxp-source-pins.json",
+          "unlinked_source_pin_record_count": 1292
         }
       },
       "part_coverage": "partial_major_component_seeds",
@@ -6223,7 +6765,9 @@
         "source_reference": {
           "path": "data/board-sources/ultimainboard-2.1.4",
           "relation": "revision_marking_matches_source",
-          "exact_component_mapping": "requires_pixel_to_pcb_registration"
+          "exact_component_mapping": "requires_pixel_to_pcb_registration",
+          "unlinked_source_pin_catalog_path": "data/board-sources/non-nxp-source-pins.json",
+          "unlinked_source_pin_record_count": 1292
         }
       },
       "part_coverage": "not_reviewed",
@@ -6250,11 +6794,337 @@
         "source_reference": {
           "path": "data/board-sources/ultimainboard-2.1.4",
           "relation": "revision_marking_matches_source",
-          "exact_component_mapping": "requires_pixel_to_pcb_registration"
+          "exact_component_mapping": "requires_pixel_to_pcb_registration",
+          "unlinked_source_pin_catalog_path": "data/board-sources/non-nxp-source-pins.json",
+          "unlinked_source_pin_record_count": 1292
         }
       },
-      "part_coverage": "not_reviewed",
-      "parts": []
+      "part_coverage": "partial_major_component_seeds",
+      "parts": [
+        {
+          "id": "IMG_20261009_222137_1.jpg:annotations/component-seeds-expanded.json:exp_222137_001",
+          "annotation_source": "annotations/component-seeds-expanded.json",
+          "annotation_id": "exp_222137_001",
+          "class_name": "integrated_circuit",
+          "bbox_xyxy_normalized": [
+            0.556634,
+            0.139648,
+            0.757282,
+            0.240723
+          ],
+          "box_review_status": "visual_reviewed_major_component_box",
+          "observed_reference_designator": null,
+          "source_component_candidate": null,
+          "photo_pin_label_count": 0,
+          "pins": []
+        },
+        {
+          "id": "IMG_20261009_222137_1.jpg:annotations/component-seeds-expanded.json:exp_222137_002",
+          "annotation_source": "annotations/component-seeds-expanded.json",
+          "annotation_id": "exp_222137_002",
+          "class_name": "integrated_circuit",
+          "bbox_xyxy_normalized": [
+            0.304207,
+            0.095703,
+            0.38835,
+            0.155273
+          ],
+          "box_review_status": "visual_reviewed_major_component_box",
+          "observed_reference_designator": null,
+          "source_component_candidate": null,
+          "photo_pin_label_count": 0,
+          "pins": []
+        },
+        {
+          "id": "IMG_20261009_222137_1.jpg:annotations/component-seeds-expanded.json:exp_222137_003",
+          "annotation_source": "annotations/component-seeds-expanded.json",
+          "annotation_id": "exp_222137_003",
+          "class_name": "integrated_circuit",
+          "bbox_xyxy_normalized": [
+            0.306365,
+            0.222656,
+            0.390507,
+            0.270996
+          ],
+          "box_review_status": "visual_reviewed_major_component_box",
+          "observed_reference_designator": null,
+          "source_component_candidate": null,
+          "photo_pin_label_count": 0,
+          "pins": []
+        },
+        {
+          "id": "IMG_20261009_222137_1.jpg:annotations/component-seeds-expanded.json:exp_222137_004",
+          "annotation_source": "annotations/component-seeds-expanded.json",
+          "annotation_id": "exp_222137_004",
+          "class_name": "integrated_circuit",
+          "bbox_xyxy_normalized": [
+            0.305286,
+            0.344727,
+            0.390507,
+            0.386719
+          ],
+          "box_review_status": "visual_reviewed_major_component_box",
+          "observed_reference_designator": null,
+          "source_component_candidate": null,
+          "photo_pin_label_count": 0,
+          "pins": []
+        },
+        {
+          "id": "IMG_20261009_222137_1.jpg:annotations/component-seeds-expanded.json:exp_222137_005",
+          "annotation_source": "annotations/component-seeds-expanded.json",
+          "annotation_id": "exp_222137_005",
+          "class_name": "integrated_circuit",
+          "bbox_xyxy_normalized": [
+            0.306365,
+            0.461426,
+            0.390507,
+            0.504883
+          ],
+          "box_review_status": "visual_reviewed_major_component_box",
+          "observed_reference_designator": null,
+          "source_component_candidate": null,
+          "photo_pin_label_count": 0,
+          "pins": []
+        },
+        {
+          "id": "IMG_20261009_222137_1.jpg:annotations/component-seeds-expanded.json:exp_222137_006",
+          "annotation_source": "annotations/component-seeds-expanded.json",
+          "annotation_id": "exp_222137_006",
+          "class_name": "polarized_capacitor",
+          "bbox_xyxy_normalized": [
+            0.098166,
+            0.053223,
+            0.206041,
+            0.101074
+          ],
+          "box_review_status": "visual_reviewed_major_component_box",
+          "observed_reference_designator": null,
+          "source_component_candidate": null,
+          "photo_pin_label_count": 0,
+          "pins": []
+        },
+        {
+          "id": "IMG_20261009_222137_1.jpg:annotations/component-seeds-expanded.json:exp_222137_007",
+          "annotation_source": "annotations/component-seeds-expanded.json",
+          "annotation_id": "exp_222137_007",
+          "class_name": "polarized_capacitor",
+          "bbox_xyxy_normalized": [
+            0.101402,
+            0.171875,
+            0.208198,
+            0.217773
+          ],
+          "box_review_status": "visual_reviewed_major_component_box",
+          "observed_reference_designator": null,
+          "source_component_candidate": null,
+          "photo_pin_label_count": 0,
+          "pins": []
+        },
+        {
+          "id": "IMG_20261009_222137_1.jpg:annotations/component-seeds-expanded.json:exp_222137_008",
+          "annotation_source": "annotations/component-seeds-expanded.json",
+          "annotation_id": "exp_222137_008",
+          "class_name": "polarized_capacitor",
+          "bbox_xyxy_normalized": [
+            0.100324,
+            0.283691,
+            0.20712,
+            0.331055
+          ],
+          "box_review_status": "visual_reviewed_major_component_box",
+          "observed_reference_designator": null,
+          "source_component_candidate": null,
+          "photo_pin_label_count": 0,
+          "pins": []
+        },
+        {
+          "id": "IMG_20261009_222137_1.jpg:annotations/component-seeds-expanded.json:exp_222137_009",
+          "annotation_source": "annotations/component-seeds-expanded.json",
+          "annotation_id": "exp_222137_009",
+          "class_name": "polarized_capacitor",
+          "bbox_xyxy_normalized": [
+            0.098166,
+            0.399902,
+            0.20712,
+            0.447266
+          ],
+          "box_review_status": "visual_reviewed_major_component_box",
+          "observed_reference_designator": null,
+          "source_component_candidate": null,
+          "photo_pin_label_count": 0,
+          "pins": []
+        },
+        {
+          "id": "IMG_20261009_222137_1.jpg:annotations/component-seeds-expanded.json:exp_222137_010",
+          "annotation_source": "annotations/component-seeds-expanded.json",
+          "annotation_id": "exp_222137_010",
+          "class_name": "polarized_capacitor",
+          "bbox_xyxy_normalized": [
+            0.098166,
+            0.515137,
+            0.208198,
+            0.561523
+          ],
+          "box_review_status": "visual_reviewed_major_component_box",
+          "observed_reference_designator": null,
+          "source_component_candidate": null,
+          "photo_pin_label_count": 0,
+          "pins": []
+        },
+        {
+          "id": "IMG_20261009_222137_1.jpg:annotations/component-seeds-expanded.json:exp_222137_011",
+          "annotation_source": "annotations/component-seeds-expanded.json",
+          "annotation_id": "exp_222137_011",
+          "class_name": "power_connector",
+          "bbox_xyxy_normalized": [
+            0.02589,
+            0.094238,
+            0.218986,
+            0.172363
+          ],
+          "box_review_status": "visual_reviewed_major_component_box",
+          "observed_reference_designator": null,
+          "source_component_candidate": null,
+          "photo_pin_label_count": 0,
+          "pins": []
+        },
+        {
+          "id": "IMG_20261009_222137_1.jpg:annotations/component-seeds-expanded.json:exp_222137_012",
+          "annotation_source": "annotations/component-seeds-expanded.json",
+          "annotation_id": "exp_222137_012",
+          "class_name": "power_connector",
+          "bbox_xyxy_normalized": [
+            0.02589,
+            0.214355,
+            0.218986,
+            0.286133
+          ],
+          "box_review_status": "visual_reviewed_major_component_box",
+          "observed_reference_designator": null,
+          "source_component_candidate": null,
+          "photo_pin_label_count": 0,
+          "pins": []
+        },
+        {
+          "id": "IMG_20261009_222137_1.jpg:annotations/component-seeds-expanded.json:exp_222137_013",
+          "annotation_source": "annotations/component-seeds-expanded.json",
+          "annotation_id": "exp_222137_013",
+          "class_name": "power_connector",
+          "bbox_xyxy_normalized": [
+            0.02589,
+            0.330078,
+            0.218986,
+            0.402832
+          ],
+          "box_review_status": "visual_reviewed_major_component_box",
+          "observed_reference_designator": null,
+          "source_component_candidate": null,
+          "photo_pin_label_count": 0,
+          "pins": []
+        },
+        {
+          "id": "IMG_20261009_222137_1.jpg:annotations/component-seeds-expanded.json:exp_222137_014",
+          "annotation_source": "annotations/component-seeds-expanded.json",
+          "annotation_id": "exp_222137_014",
+          "class_name": "power_connector",
+          "bbox_xyxy_normalized": [
+            0.02589,
+            0.446777,
+            0.218986,
+            0.52002
+          ],
+          "box_review_status": "visual_reviewed_major_component_box",
+          "observed_reference_designator": null,
+          "source_component_candidate": null,
+          "photo_pin_label_count": 0,
+          "pins": []
+        },
+        {
+          "id": "IMG_20261009_222137_1.jpg:annotations/component-seeds-expanded.json:exp_222137_015",
+          "annotation_source": "annotations/component-seeds-expanded.json",
+          "annotation_id": "exp_222137_015",
+          "class_name": "power_connector",
+          "bbox_xyxy_normalized": [
+            0.02589,
+            0.562012,
+            0.218986,
+            0.646973
+          ],
+          "box_review_status": "visual_reviewed_major_component_box",
+          "observed_reference_designator": null,
+          "source_component_candidate": null,
+          "photo_pin_label_count": 0,
+          "pins": []
+        },
+        {
+          "id": "IMG_20261009_222137_1.jpg:annotations/component-seeds-expanded.json:exp_222137_016",
+          "annotation_source": "annotations/component-seeds-expanded.json",
+          "annotation_id": "exp_222137_016",
+          "class_name": "relay",
+          "bbox_xyxy_normalized": [
+            0.0,
+            0.856445,
+            0.237325,
+            0.951172
+          ],
+          "box_review_status": "visual_reviewed_major_component_box",
+          "observed_reference_designator": null,
+          "source_component_candidate": null,
+          "photo_pin_label_count": 0,
+          "pins": []
+        },
+        {
+          "id": "IMG_20261009_222137_1.jpg:annotations/component-seeds-expanded.json:exp_222137_017",
+          "annotation_source": "annotations/component-seeds-expanded.json",
+          "annotation_id": "exp_222137_017",
+          "class_name": "crystal_resonator",
+          "bbox_xyxy_normalized": [
+            0.571737,
+            0.861328,
+            0.656958,
+            0.901855
+          ],
+          "box_review_status": "visual_reviewed_major_component_box",
+          "observed_reference_designator": null,
+          "source_component_candidate": null,
+          "photo_pin_label_count": 0,
+          "pins": []
+        },
+        {
+          "id": "IMG_20261009_222137_1.jpg:annotations/component-seeds-expanded.json:exp_222137_018",
+          "annotation_source": "annotations/component-seeds-expanded.json",
+          "annotation_id": "exp_222137_018",
+          "class_name": "power_connector",
+          "bbox_xyxy_normalized": [
+            0.820928,
+            0.092773,
+            1.0,
+            0.237793
+          ],
+          "box_review_status": "visual_reviewed_major_component_box",
+          "observed_reference_designator": null,
+          "source_component_candidate": null,
+          "photo_pin_label_count": 0,
+          "pins": []
+        },
+        {
+          "id": "IMG_20261009_222137_1.jpg:annotations/component-seeds-expanded.json:exp_222137_019",
+          "annotation_source": "annotations/component-seeds-expanded.json",
+          "annotation_id": "exp_222137_019",
+          "class_name": "power_connector",
+          "bbox_xyxy_normalized": [
+            0.820928,
+            0.235352,
+            1.0,
+            0.365234
+          ],
+          "box_review_status": "visual_reviewed_major_component_box",
+          "observed_reference_designator": null,
+          "source_component_candidate": null,
+          "photo_pin_label_count": 0,
+          "pins": []
+        }
+      ]
     },
     {
       "image_file": "IMG_20261009_222219.jpg",
@@ -6277,7 +7147,9 @@
         "source_reference": {
           "path": "data/board-sources/raspberry-pi-3b-v1.2",
           "relation": "model_revision_matches_reduced_documents",
-          "exact_component_mapping": false
+          "exact_component_mapping": false,
+          "unlinked_source_pin_catalog_path": null,
+          "unlinked_source_pin_record_count": 0
         }
       },
       "part_coverage": "not_reviewed",
@@ -6304,7 +7176,9 @@
         "source_reference": {
           "path": "data/board-sources/raspberry-pi-3b-v1.2",
           "relation": "model_revision_matches_reduced_documents",
-          "exact_component_mapping": false
+          "exact_component_mapping": false,
+          "unlinked_source_pin_catalog_path": null,
+          "unlinked_source_pin_record_count": 0
         }
       },
       "part_coverage": "not_reviewed",
@@ -6331,7 +7205,9 @@
         "source_reference": {
           "path": "data/board-sources/raspberry-pi-3b-v1.2",
           "relation": "model_revision_matches_reduced_documents",
-          "exact_component_mapping": false
+          "exact_component_mapping": false,
+          "unlinked_source_pin_catalog_path": null,
+          "unlinked_source_pin_record_count": 0
         }
       },
       "part_coverage": "not_reviewed",
@@ -6358,11 +7234,184 @@
         "source_reference": {
           "path": "data/board-sources/raspberry-pi-3b-v1.2",
           "relation": "model_revision_matches_reduced_documents",
-          "exact_component_mapping": false
+          "exact_component_mapping": false,
+          "unlinked_source_pin_catalog_path": null,
+          "unlinked_source_pin_record_count": 0
         }
       },
-      "part_coverage": "not_reviewed",
-      "parts": []
+      "part_coverage": "partial_major_component_seeds",
+      "parts": [
+        {
+          "id": "IMG_20261009_222222_1.jpg:annotations/component-seeds-expanded.json:exp_222222_001",
+          "annotation_source": "annotations/component-seeds-expanded.json",
+          "annotation_id": "exp_222222_001",
+          "class_name": "connector_header",
+          "bbox_xyxy_normalized": [
+            0.854167,
+            0.054697,
+            0.955492,
+            0.607015
+          ],
+          "box_review_status": "visual_reviewed_major_component_box",
+          "observed_reference_designator": null,
+          "source_component_candidate": null,
+          "photo_pin_label_count": 0,
+          "pins": []
+        },
+        {
+          "id": "IMG_20261009_222222_1.jpg:annotations/component-seeds-expanded.json:exp_222222_002",
+          "annotation_source": "annotations/component-seeds-expanded.json",
+          "annotation_id": "exp_222222_002",
+          "class_name": "connector_header",
+          "bbox_xyxy_normalized": [
+            0.298295,
+            0.007134,
+            0.662879,
+            0.057075
+          ],
+          "box_review_status": "visual_reviewed_major_component_box",
+          "observed_reference_designator": null,
+          "source_component_candidate": null,
+          "photo_pin_label_count": 0,
+          "pins": []
+        },
+        {
+          "id": "IMG_20261009_222222_1.jpg:annotations/component-seeds-expanded.json:exp_222222_003",
+          "annotation_source": "annotations/component-seeds-expanded.json",
+          "annotation_id": "exp_222222_003",
+          "class_name": "connector_header",
+          "bbox_xyxy_normalized": [
+            0.00947,
+            0.418549,
+            0.400568,
+            0.484542
+          ],
+          "box_review_status": "visual_reviewed_major_component_box",
+          "observed_reference_designator": null,
+          "source_component_candidate": null,
+          "photo_pin_label_count": 0,
+          "pins": []
+        },
+        {
+          "id": "IMG_20261009_222222_1.jpg:annotations/component-seeds-expanded.json:exp_222222_004",
+          "annotation_source": "annotations/component-seeds-expanded.json",
+          "annotation_id": "exp_222222_004",
+          "class_name": "heatsink",
+          "bbox_xyxy_normalized": [
+            0.412879,
+            0.159334,
+            0.678977,
+            0.393579
+          ],
+          "box_review_status": "visual_reviewed_major_component_box",
+          "observed_reference_designator": null,
+          "source_component_candidate": null,
+          "photo_pin_label_count": 0,
+          "pins": []
+        },
+        {
+          "id": "IMG_20261009_222222_1.jpg:annotations/component-seeds-expanded.json:exp_222222_005",
+          "annotation_source": "annotations/component-seeds-expanded.json",
+          "annotation_id": "exp_222222_005",
+          "class_name": "integrated_circuit",
+          "bbox_xyxy_normalized": [
+            0.471591,
+            0.559453,
+            0.667614,
+            0.674197
+          ],
+          "box_review_status": "visual_reviewed_major_component_box",
+          "observed_reference_designator": null,
+          "source_component_candidate": null,
+          "photo_pin_label_count": 0,
+          "pins": []
+        },
+        {
+          "id": "IMG_20261009_222222_1.jpg:annotations/component-seeds-expanded.json:exp_222222_006",
+          "annotation_source": "annotations/component-seeds-expanded.json",
+          "annotation_id": "exp_222222_006",
+          "class_name": "hdmi_connector",
+          "bbox_xyxy_normalized": [
+            0.0,
+            0.239001,
+            0.215909,
+            0.407848
+          ],
+          "box_review_status": "visual_reviewed_major_component_box",
+          "observed_reference_designator": null,
+          "source_component_candidate": null,
+          "photo_pin_label_count": 0,
+          "pins": []
+        },
+        {
+          "id": "IMG_20261009_222222_1.jpg:annotations/component-seeds-expanded.json:exp_222222_007",
+          "annotation_source": "annotations/component-seeds-expanded.json",
+          "annotation_id": "exp_222222_007",
+          "class_name": "ethernet_connector",
+          "bbox_xyxy_normalized": [
+            0.011364,
+            0.675981,
+            0.321023,
+            0.956005
+          ],
+          "box_review_status": "visual_reviewed_major_component_box",
+          "observed_reference_designator": null,
+          "source_component_candidate": null,
+          "photo_pin_label_count": 0,
+          "pins": []
+        },
+        {
+          "id": "IMG_20261009_222222_1.jpg:annotations/component-seeds-expanded.json:exp_222222_008",
+          "annotation_source": "annotations/component-seeds-expanded.json",
+          "annotation_id": "exp_222222_008",
+          "class_name": "usb_connector",
+          "bbox_xyxy_normalized": [
+            0.356061,
+            0.718193,
+            0.637311,
+            0.970868
+          ],
+          "box_review_status": "visual_reviewed_major_component_box",
+          "observed_reference_designator": null,
+          "source_component_candidate": null,
+          "photo_pin_label_count": 0,
+          "pins": []
+        },
+        {
+          "id": "IMG_20261009_222222_1.jpg:annotations/component-seeds-expanded.json:exp_222222_009",
+          "annotation_source": "annotations/component-seeds-expanded.json",
+          "annotation_id": "exp_222222_009",
+          "class_name": "usb_connector",
+          "bbox_xyxy_normalized": [
+            0.647727,
+            0.717004,
+            0.928977,
+            0.970273
+          ],
+          "box_review_status": "visual_reviewed_major_component_box",
+          "observed_reference_designator": null,
+          "source_component_candidate": null,
+          "photo_pin_label_count": 0,
+          "pins": []
+        },
+        {
+          "id": "IMG_20261009_222222_1.jpg:annotations/component-seeds-expanded.json:exp_222222_010",
+          "annotation_source": "annotations/component-seeds-expanded.json",
+          "annotation_id": "exp_222222_010",
+          "class_name": "usb_connector",
+          "bbox_xyxy_normalized": [
+            0.000947,
+            0.057075,
+            0.106061,
+            0.130202
+          ],
+          "box_review_status": "visual_reviewed_major_component_box",
+          "observed_reference_designator": null,
+          "source_component_candidate": null,
+          "photo_pin_label_count": 0,
+          "pins": []
+        }
+      ]
     },
     {
       "image_file": "IMG_20261009_222225.jpg",
@@ -6385,7 +7434,9 @@
         "source_reference": {
           "path": "data/board-sources/raspberry-pi-3b-v1.2",
           "relation": "model_revision_matches_reduced_documents",
-          "exact_component_mapping": false
+          "exact_component_mapping": false,
+          "unlinked_source_pin_catalog_path": null,
+          "unlinked_source_pin_record_count": 0
         }
       },
       "part_coverage": "not_reviewed",
@@ -6412,7 +7463,9 @@
         "source_reference": {
           "path": "data/board-sources/raspberry-pi-3b-v1.2",
           "relation": "model_revision_matches_reduced_documents",
-          "exact_component_mapping": false
+          "exact_component_mapping": false,
+          "unlinked_source_pin_catalog_path": null,
+          "unlinked_source_pin_record_count": 0
         }
       },
       "part_coverage": "not_reviewed",
@@ -6439,7 +7492,9 @@
         "source_reference": {
           "path": "data/board-sources/raspberry-pi-3b-v1.2",
           "relation": "model_revision_matches_reduced_documents",
-          "exact_component_mapping": false
+          "exact_component_mapping": false,
+          "unlinked_source_pin_catalog_path": null,
+          "unlinked_source_pin_record_count": 0
         }
       },
       "part_coverage": "not_reviewed",
@@ -6466,7 +7521,9 @@
         "source_reference": {
           "path": "data/board-sources/raspberry-pi-3b-v1.2",
           "relation": "model_revision_matches_reduced_documents",
-          "exact_component_mapping": false
+          "exact_component_mapping": false,
+          "unlinked_source_pin_catalog_path": null,
+          "unlinked_source_pin_record_count": 0
         }
       },
       "part_coverage": "partial_major_component_seeds",
@@ -6715,7 +7772,9 @@
         "source_reference": {
           "path": "data/board-sources/raspberry-pi-3b-v1.2",
           "relation": "model_revision_matches_reduced_documents",
-          "exact_component_mapping": false
+          "exact_component_mapping": false,
+          "unlinked_source_pin_catalog_path": null,
+          "unlinked_source_pin_record_count": 0
         }
       },
       "part_coverage": "not_reviewed",
@@ -6742,7 +7801,9 @@
         "source_reference": {
           "path": "data/board-sources/raspberry-pi-3b-v1.2",
           "relation": "model_revision_matches_reduced_documents",
-          "exact_component_mapping": false
+          "exact_component_mapping": false,
+          "unlinked_source_pin_catalog_path": null,
+          "unlinked_source_pin_record_count": 0
         }
       },
       "part_coverage": "not_reviewed",
@@ -6769,7 +7830,9 @@
         "source_reference": {
           "path": "data/board-sources/raspberry-pi-3b-v1.2",
           "relation": "model_revision_matches_reduced_documents",
-          "exact_component_mapping": false
+          "exact_component_mapping": false,
+          "unlinked_source_pin_catalog_path": null,
+          "unlinked_source_pin_record_count": 0
         }
       },
       "part_coverage": "not_reviewed",
@@ -6796,7 +7859,9 @@
         "source_reference": {
           "path": "data/board-sources/raspberry-pi-3b-v1.2",
           "relation": "model_revision_matches_reduced_documents",
-          "exact_component_mapping": false
+          "exact_component_mapping": false,
+          "unlinked_source_pin_catalog_path": null,
+          "unlinked_source_pin_record_count": 0
         }
       },
       "part_coverage": "not_reviewed",
@@ -6823,7 +7888,9 @@
         "source_reference": {
           "path": "data/board-sources/raspberry-pi-3b-v1.2",
           "relation": "model_revision_matches_reduced_documents",
-          "exact_component_mapping": false
+          "exact_component_mapping": false,
+          "unlinked_source_pin_catalog_path": null,
+          "unlinked_source_pin_record_count": 0
         }
       },
       "part_coverage": "not_reviewed",
@@ -6850,7 +7917,9 @@
         "source_reference": {
           "path": "data/board-sources/raspberry-pi-3b-v1.2",
           "relation": "model_revision_matches_reduced_documents",
-          "exact_component_mapping": false
+          "exact_component_mapping": false,
+          "unlinked_source_pin_catalog_path": null,
+          "unlinked_source_pin_record_count": 0
         }
       },
       "part_coverage": "not_reviewed",
@@ -6877,7 +7946,9 @@
         "source_reference": {
           "path": "data/board-sources/raspberry-pi-3b-v1.2",
           "relation": "model_revision_matches_reduced_documents",
-          "exact_component_mapping": false
+          "exact_component_mapping": false,
+          "unlinked_source_pin_catalog_path": null,
+          "unlinked_source_pin_record_count": 0
         }
       },
       "part_coverage": "not_reviewed",
@@ -6904,7 +7975,9 @@
         "source_reference": {
           "path": "data/board-sources/raspberry-pi-3b-v1.2",
           "relation": "model_revision_matches_reduced_documents",
-          "exact_component_mapping": false
+          "exact_component_mapping": false,
+          "unlinked_source_pin_catalog_path": null,
+          "unlinked_source_pin_record_count": 0
         }
       },
       "part_coverage": "not_reviewed",
@@ -6931,7 +8004,9 @@
         "source_reference": {
           "path": "data/board-sources/raspberry-pi-3b-v1.2",
           "relation": "model_revision_matches_reduced_documents",
-          "exact_component_mapping": false
+          "exact_component_mapping": false,
+          "unlinked_source_pin_catalog_path": null,
+          "unlinked_source_pin_record_count": 0
         }
       },
       "part_coverage": "not_reviewed",
@@ -6958,7 +8033,9 @@
         "source_reference": {
           "path": "data/board-sources/raspberry-pi-3b-v1.2",
           "relation": "model_revision_matches_reduced_documents",
-          "exact_component_mapping": false
+          "exact_component_mapping": false,
+          "unlinked_source_pin_catalog_path": null,
+          "unlinked_source_pin_record_count": 0
         }
       },
       "part_coverage": "not_reviewed",
