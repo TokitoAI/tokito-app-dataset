@@ -28,7 +28,7 @@ Component seed annotations cover107 major visible objects across five photos. Th
 
 BOM entries, schematic pages and Gerber layers are linked documents. They are not YOLO object classes. Exact links need matched revisions and readable markings or registered PCB geometry. Unknown links remain unknown.
 
-The [MCXN236 schematic index](data/board-sources/nxp-frdm-mcxn236/README_INDEX.md) locates reference-designator text on PDF pages. [Component source links](annotations/component-source-links.json) preserve photo evidence separately from schematic candidates; the first link is the readable SW3/ISP switch. Its installed part number and specimen revision are still unknown. See [source-link conventions](docs/SOURCE_LINKS.md).
+The [MCXN236 schematic index](data/board-sources/nxp-frdm-mcxn236/README_INDEX.md) locates reference-designator text on PDF pages. Ten [component source links](annotations/component-source-links.json) pair readable photo markings with checked schematic symbols and source BOM records. Their installed part numbers and the specimen revision are still unknown. See [source-link conventions](docs/SOURCE_LINKS.md).
 
 The downloaded [MCXN236 Rev C design bundle](data/board-sources/nxp-frdm-mcxn236/PROVENANCE.md) includes the native BRD, schematic project, BOM and netlists. Its [structured extraction](data/board-sources/nxp-frdm-mcxn236/structured-rev-c/README.md) joins 96 BOM items to 391 reference designators and 296 electrical nets. DNP entries and the separate no-connect group are preserved. The archive contains no separate Gerber, drill or STEP/GLB exports.
 

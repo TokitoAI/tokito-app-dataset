@@ -46,6 +46,618 @@
         "native_silk": "ISP",
         "footprint_identifier": "sw4_4p15_4p2x3p2_sm"
       }
+    },
+    {
+      "id": "mcxn236-j5-source-candidate",
+      "annotation_path": "annotations/nxp-component-seeds.json",
+      "annotation_id": "nxp_seed_002",
+      "image_path": "data/photo-model/photos/raw/IMG_20261009_221755_1.jpg",
+      "image_sha256": "39fc7bf72f364c0b0e848dc9fe9492b85efbdef1481a28d9bbecf4787e51a47e",
+      "observed_reference_designator": "J5",
+      "photo_evidence": "Adjacent J5 silkscreen is readable and associated with the seeded object by its outline.",
+      "source_board_model": "FRDM-MCXN236",
+      "source_revision": "C",
+      "specimen_revision": null,
+      "match_status": "model_match_revision_unconfirmed",
+      "exact_installed_part_mapping": false,
+      "manufacturer_part_number": null,
+      "photo_review": {
+        "path": "previews/mcxn236-source-links/nxp_seed_002-rot180-2x.png",
+        "sha256": "57d7bbc8bb47d803073ce446e3792c0e4360ea125e81cb648a8cffe4ccd4016d",
+        "source_crop_xyxy_pixels": [
+          0,
+          450,
+          520,
+          1440
+        ],
+        "rotation_degrees_counterclockwise": 180,
+        "scale": 2,
+        "resampling": "nearest_neighbor"
+      },
+      "schematic": {
+        "path": "data/board-sources/nxp-frdm-mcxn236/SPF-90828.pdf",
+        "sha256": "243b93184f692b0f7c0deb3a9a63f6262ea3083a05c30c0143b4a4faa54b1868",
+        "page_1based": 12,
+        "reference_index": "data/board-sources/nxp-frdm-mcxn236/schematic-reference-index.json",
+        "reference_designator": "J5",
+        "occurrence_id": "p012-J5-01",
+        "value_text": "SKT_1X8",
+        "function_label": null,
+        "evidence_method": "Rendered source symbol and photo marking visually checked by two agents; source value and native SILK fields are preserved separately from installed-part identity.",
+        "review_crop": {
+          "path": "previews/mcxn236-source-links/source-p012-J5-J6.png",
+          "sha256": "ed1c61377e2da7dd7820508e0b34e3d36abbdabc8baedfac5004b30b744bdd1e",
+          "bbox_pt": [
+            470,
+            245,
+            680,
+            465
+          ],
+          "resolution_dpi": 300,
+          "renderer": "pdfplumber 0.11.9 / pypdfium2"
+        }
+      },
+      "source_component": {
+        "path": "data/board-sources/nxp-frdm-mcxn236/structured-rev-c/components.json",
+        "sha256": "a96f612e11974dce7de88490ba25901c5547d845e2c26ccd2a52cd3d23a7436b",
+        "reference_designator": "J5",
+        "bom_item_id": "bom-item-033",
+        "manufacturer_part_number_text": "08001S3 0811-29RF",
+        "bom_source": {
+          "file": "data/board-sources/nxp-frdm-mcxn236/original-design-files/Design Files/SCH-90828_C.BOM.xlsx",
+          "sheet": "SCH-90828_C",
+          "row": 47,
+          "range": "A47:K47",
+          "sha256": "bea3bf8eb9b4aaddfaac5a767ac0e40dcbacaa96d515b91600e977732b009cd7"
+        },
+        "native_silk": null,
+        "footprint_identifier": "con_1x8_skt_2p54_th_126l"
+      },
+      "review_preview": "previews/mcxn236-source-links/nxp_seed_002-rot180-2x.png"
+    },
+    {
+      "id": "mcxn236-j6-source-candidate",
+      "annotation_path": "annotations/nxp-component-seeds.json",
+      "annotation_id": "nxp_seed_003",
+      "image_path": "data/photo-model/photos/raw/IMG_20261009_221755_1.jpg",
+      "image_sha256": "39fc7bf72f364c0b0e848dc9fe9492b85efbdef1481a28d9bbecf4787e51a47e",
+      "observed_reference_designator": "J6",
+      "photo_evidence": "Adjacent J6 silkscreen is readable and associated with the seeded object by its outline.",
+      "source_board_model": "FRDM-MCXN236",
+      "source_revision": "C",
+      "specimen_revision": null,
+      "match_status": "model_match_revision_unconfirmed",
+      "exact_installed_part_mapping": false,
+      "manufacturer_part_number": null,
+      "photo_review": {
+        "path": "previews/mcxn236-source-links/nxp_seed_003-rot180-2x.png",
+        "sha256": "5dc9946923b824b3c44109b66ce426f91dcd41155e1e6c9c447bcda1e4e16b85",
+        "source_crop_xyxy_pixels": [
+          760,
+          450,
+          1260,
+          1390
+        ],
+        "rotation_degrees_counterclockwise": 180,
+        "scale": 2,
+        "resampling": "nearest_neighbor"
+      },
+      "schematic": {
+        "path": "data/board-sources/nxp-frdm-mcxn236/SPF-90828.pdf",
+        "sha256": "243b93184f692b0f7c0deb3a9a63f6262ea3083a05c30c0143b4a4faa54b1868",
+        "page_1based": 12,
+        "reference_index": "data/board-sources/nxp-frdm-mcxn236/schematic-reference-index.json",
+        "reference_designator": "J6",
+        "occurrence_id": "p012-J6-01",
+        "value_text": "SKT_1X8",
+        "function_label": null,
+        "evidence_method": "Rendered source symbol and photo marking visually checked by two agents; source value and native SILK fields are preserved separately from installed-part identity.",
+        "review_crop": {
+          "path": "previews/mcxn236-source-links/source-p012-J5-J6.png",
+          "sha256": "ed1c61377e2da7dd7820508e0b34e3d36abbdabc8baedfac5004b30b744bdd1e",
+          "bbox_pt": [
+            470,
+            245,
+            680,
+            465
+          ],
+          "resolution_dpi": 300,
+          "renderer": "pdfplumber 0.11.9 / pypdfium2"
+        }
+      },
+      "source_component": {
+        "path": "data/board-sources/nxp-frdm-mcxn236/structured-rev-c/components.json",
+        "sha256": "a96f612e11974dce7de88490ba25901c5547d845e2c26ccd2a52cd3d23a7436b",
+        "reference_designator": "J6",
+        "bom_item_id": "bom-item-033",
+        "manufacturer_part_number_text": "08001S3 0811-29RF",
+        "bom_source": {
+          "file": "data/board-sources/nxp-frdm-mcxn236/original-design-files/Design Files/SCH-90828_C.BOM.xlsx",
+          "sheet": "SCH-90828_C",
+          "row": 47,
+          "range": "A47:K47",
+          "sha256": "bea3bf8eb9b4aaddfaac5a767ac0e40dcbacaa96d515b91600e977732b009cd7"
+        },
+        "native_silk": null,
+        "footprint_identifier": "con_1x8_skt_2p54_th_126l"
+      },
+      "review_preview": "previews/mcxn236-source-links/nxp_seed_003-rot180-2x.png"
+    },
+    {
+      "id": "mcxn236-j4-source-candidate",
+      "annotation_path": "annotations/nxp-component-seeds.json",
+      "annotation_id": "nxp_seed_004",
+      "image_path": "data/photo-model/photos/raw/IMG_20261009_221755_1.jpg",
+      "image_sha256": "39fc7bf72f364c0b0e848dc9fe9492b85efbdef1481a28d9bbecf4787e51a47e",
+      "observed_reference_designator": "J4",
+      "photo_evidence": "Adjacent J4 silkscreen is readable and associated with the seeded object by its outline. The nearby J14 marking belongs to the separate empty headphone footprint.",
+      "source_board_model": "FRDM-MCXN236",
+      "source_revision": "C",
+      "specimen_revision": null,
+      "match_status": "model_match_revision_unconfirmed",
+      "exact_installed_part_mapping": false,
+      "manufacturer_part_number": null,
+      "photo_review": {
+        "path": "previews/mcxn236-source-links/nxp_seed_004-rot90-2x.png",
+        "sha256": "1a6844d28e8da383f134e1cc92fc4ca21f5f83042f430ec21aef736b3887ae8c",
+        "source_crop_xyxy_pixels": [
+          1150,
+          1700,
+          1600,
+          2410
+        ],
+        "rotation_degrees_counterclockwise": 90,
+        "scale": 2,
+        "resampling": "nearest_neighbor"
+      },
+      "schematic": {
+        "path": "data/board-sources/nxp-frdm-mcxn236/SPF-90828.pdf",
+        "sha256": "243b93184f692b0f7c0deb3a9a63f6262ea3083a05c30c0143b4a4faa54b1868",
+        "page_1based": 12,
+        "reference_index": "data/board-sources/nxp-frdm-mcxn236/schematic-reference-index.json",
+        "reference_designator": "J4",
+        "occurrence_id": "p012-J4-01",
+        "value_text": "CON 2x6",
+        "function_label": null,
+        "evidence_method": "Rendered source symbol and photo marking visually checked by two agents; source value and native SILK fields are preserved separately from installed-part identity.",
+        "review_crop": {
+          "path": "previews/mcxn236-source-links/source-p012-J3-J4.png",
+          "sha256": "d7b1a50627f35af04032ad32b0e9a9f544f6ec6c68304a279f052afbb55d141d",
+          "bbox_pt": [
+            200,
+            340,
+            460,
+            525
+          ],
+          "resolution_dpi": 300,
+          "renderer": "pdfplumber 0.11.9 / pypdfium2"
+        }
+      },
+      "source_component": {
+        "path": "data/board-sources/nxp-frdm-mcxn236/structured-rev-c/components.json",
+        "sha256": "a96f612e11974dce7de88490ba25901c5547d845e2c26ccd2a52cd3d23a7436b",
+        "reference_designator": "J4",
+        "bom_item_id": "bom-item-032",
+        "manufacturer_part_number_text": "08010S31211-29RF",
+        "bom_source": {
+          "file": "data/board-sources/nxp-frdm-mcxn236/original-design-files/Design Files/SCH-90828_C.BOM.xlsx",
+          "sheet": "SCH-90828_C",
+          "row": 46,
+          "range": "A46:K46",
+          "sha256": "bea3bf8eb9b4aaddfaac5a767ac0e40dcbacaa96d515b91600e977732b009cd7"
+        },
+        "native_silk": null,
+        "footprint_identifier": "con_skt2x6_th_126l"
+      },
+      "review_preview": "previews/mcxn236-source-links/nxp_seed_004-rot90-2x.png"
+    },
+    {
+      "id": "mcxn236-j3-source-candidate",
+      "annotation_path": "annotations/nxp-component-seeds.json",
+      "annotation_id": "nxp_seed_005",
+      "image_path": "data/photo-model/photos/raw/IMG_20261009_221755_1.jpg",
+      "image_sha256": "39fc7bf72f364c0b0e848dc9fe9492b85efbdef1481a28d9bbecf4787e51a47e",
+      "observed_reference_designator": "J3",
+      "photo_evidence": "Adjacent J3 silkscreen is readable and associated with the seeded object by its outline.",
+      "source_board_model": "FRDM-MCXN236",
+      "source_revision": "C",
+      "specimen_revision": null,
+      "match_status": "model_match_revision_unconfirmed",
+      "exact_installed_part_mapping": false,
+      "manufacturer_part_number": null,
+      "photo_review": {
+        "path": "previews/mcxn236-source-links/nxp_seed_005-rot90-2x.png",
+        "sha256": "3b8266e56fe414463a1b4c6f15bc8fb0bd42b5c8c31977fc589c660712a9e7dc",
+        "source_crop_xyxy_pixels": [
+          1150,
+          2320,
+          1600,
+          3230
+        ],
+        "rotation_degrees_counterclockwise": 90,
+        "scale": 2,
+        "resampling": "nearest_neighbor"
+      },
+      "schematic": {
+        "path": "data/board-sources/nxp-frdm-mcxn236/SPF-90828.pdf",
+        "sha256": "243b93184f692b0f7c0deb3a9a63f6262ea3083a05c30c0143b4a4faa54b1868",
+        "page_1based": 12,
+        "reference_index": "data/board-sources/nxp-frdm-mcxn236/schematic-reference-index.json",
+        "reference_designator": "J3",
+        "occurrence_id": "p012-J3-01",
+        "value_text": "CON 2x8",
+        "function_label": null,
+        "evidence_method": "Rendered source symbol and photo marking visually checked by two agents; source value and native SILK fields are preserved separately from installed-part identity.",
+        "review_crop": {
+          "path": "previews/mcxn236-source-links/source-p012-J3-J4.png",
+          "sha256": "d7b1a50627f35af04032ad32b0e9a9f544f6ec6c68304a279f052afbb55d141d",
+          "bbox_pt": [
+            200,
+            340,
+            460,
+            525
+          ],
+          "resolution_dpi": 300,
+          "renderer": "pdfplumber 0.11.9 / pypdfium2"
+        }
+      },
+      "source_component": {
+        "path": "data/board-sources/nxp-frdm-mcxn236/structured-rev-c/components.json",
+        "sha256": "a96f612e11974dce7de88490ba25901c5547d845e2c26ccd2a52cd3d23a7436b",
+        "reference_designator": "J3",
+        "bom_item_id": "bom-item-030",
+        "manufacturer_part_number_text": "08010S31611-29RF",
+        "bom_source": {
+          "file": "data/board-sources/nxp-frdm-mcxn236/original-design-files/Design Files/SCH-90828_C.BOM.xlsx",
+          "sheet": "SCH-90828_C",
+          "row": 44,
+          "range": "A44:K44",
+          "sha256": "bea3bf8eb9b4aaddfaac5a767ac0e40dcbacaa96d515b91600e977732b009cd7"
+        },
+        "native_silk": null,
+        "footprint_identifier": "con_2x8_skt_100_th"
+      },
+      "review_preview": "previews/mcxn236-source-links/nxp_seed_005-rot90-2x.png"
+    },
+    {
+      "id": "mcxn236-j12-source-candidate",
+      "annotation_path": "annotations/nxp-component-seeds.json",
+      "annotation_id": "nxp_seed_006",
+      "image_path": "data/photo-model/photos/raw/IMG_20261009_221755_1.jpg",
+      "image_sha256": "39fc7bf72f364c0b0e848dc9fe9492b85efbdef1481a28d9bbecf4787e51a47e",
+      "observed_reference_designator": "J12",
+      "photo_evidence": "Adjacent J12 silkscreen is readable and associated with the seeded object by its outline.",
+      "source_board_model": "FRDM-MCXN236",
+      "source_revision": "C",
+      "specimen_revision": null,
+      "match_status": "model_match_revision_unconfirmed",
+      "exact_installed_part_mapping": false,
+      "manufacturer_part_number": null,
+      "photo_review": {
+        "path": "previews/mcxn236-source-links/nxp_seed_006-rot90-2x.png",
+        "sha256": "54885e647e201997d9fedf8234644d1ec6dd3a00bea454f21dd0eaea0fb26160",
+        "source_crop_xyxy_pixels": [
+          1060,
+          3450,
+          1520,
+          3888
+        ],
+        "rotation_degrees_counterclockwise": 90,
+        "scale": 2,
+        "resampling": "nearest_neighbor"
+      },
+      "schematic": {
+        "path": "data/board-sources/nxp-frdm-mcxn236/SPF-90828.pdf",
+        "sha256": "243b93184f692b0f7c0deb3a9a63f6262ea3083a05c30c0143b4a4faa54b1868",
+        "page_1based": 9,
+        "reference_index": "data/board-sources/nxp-frdm-mcxn236/schematic-reference-index.json",
+        "reference_designator": "J12",
+        "occurrence_id": "p009-J12-01",
+        "value_text": "HDR 2X5",
+        "function_label": "MCU SWD",
+        "evidence_method": "Rendered source symbol and photo marking visually checked by two agents; source value and native SILK fields are preserved separately from installed-part identity.",
+        "review_crop": {
+          "path": "previews/mcxn236-source-links/source-p009-J12.png",
+          "sha256": "ac882e59f5175597b7a3e1774a4f41749e890c8a9e568b964d33bc28ef78c7fc",
+          "bbox_pt": [
+            340,
+            230,
+            505,
+            440
+          ],
+          "resolution_dpi": 300,
+          "renderer": "pdfplumber 0.11.9 / pypdfium2"
+        }
+      },
+      "source_component": {
+        "path": "data/board-sources/nxp-frdm-mcxn236/structured-rev-c/components.json",
+        "sha256": "a96f612e11974dce7de88490ba25901c5547d845e2c26ccd2a52cd3d23a7436b",
+        "reference_designator": "J12",
+        "bom_item_id": "bom-item-038",
+        "manufacturer_part_number_text": "0922S0205011N6T-2LF",
+        "bom_source": {
+          "file": "data/board-sources/nxp-frdm-mcxn236/original-design-files/Design Files/SCH-90828_C.BOM.xlsx",
+          "sheet": "SCH-90828_C",
+          "row": 52,
+          "range": "A52:K52",
+          "sha256": "bea3bf8eb9b4aaddfaac5a767ac0e40dcbacaa96d515b91600e977732b009cd7"
+        },
+        "native_silk": "MCU SWD",
+        "footprint_identifier": "hdr_5X2_ftsh_th"
+      },
+      "review_preview": "previews/mcxn236-source-links/nxp_seed_006-rot90-2x.png"
+    },
+    {
+      "id": "mcxn236-u1-source-candidate",
+      "annotation_path": "annotations/nxp-component-seeds.json",
+      "annotation_id": "nxp_seed_010",
+      "image_path": "data/photo-model/photos/raw/IMG_20261009_221755_1.jpg",
+      "image_sha256": "39fc7bf72f364c0b0e848dc9fe9492b85efbdef1481a28d9bbecf4787e51a47e",
+      "observed_reference_designator": "U1",
+      "photo_evidence": "Adjacent U1 silkscreen is readable and associated with the seeded object by its outline. Package text is not used to assert a complete installed manufacturer part number.",
+      "source_board_model": "FRDM-MCXN236",
+      "source_revision": "C",
+      "specimen_revision": null,
+      "match_status": "model_match_revision_unconfirmed",
+      "exact_installed_part_mapping": false,
+      "manufacturer_part_number": null,
+      "photo_review": {
+        "path": "previews/mcxn236-source-links/nxp_seed_010-rot180-2x.png",
+        "sha256": "075fa48009100e7d7a3d964f821cf22377426da526a9a7460ab0ff15e21fccf2",
+        "source_crop_xyxy_pixels": [
+          370,
+          1400,
+          1010,
+          2030
+        ],
+        "rotation_degrees_counterclockwise": 180,
+        "scale": 2,
+        "resampling": "nearest_neighbor"
+      },
+      "schematic": {
+        "path": "data/board-sources/nxp-frdm-mcxn236/SPF-90828.pdf",
+        "sha256": "243b93184f692b0f7c0deb3a9a63f6262ea3083a05c30c0143b4a4faa54b1868",
+        "page_1based": 3,
+        "reference_index": "data/board-sources/nxp-frdm-mcxn236/schematic-reference-index.json",
+        "reference_designator": "U1",
+        "occurrence_id": "p003-U1A-01",
+        "value_text": "MCXN236VDFT",
+        "function_label": null,
+        "evidence_method": "Rendered source symbol and photo marking visually checked by two agents; source value and native SILK fields are preserved separately from installed-part identity.",
+        "review_crop": {
+          "path": "previews/mcxn236-source-links/source-p003-U1A.png",
+          "sha256": "566343e50a22caed82394f3e3ab96c42db2041ecdee68d74de87e40128750448",
+          "bbox_pt": [
+            140,
+            0,
+            360,
+            260
+          ],
+          "resolution_dpi": 300,
+          "renderer": "pdfplumber 0.11.9 / pypdfium2"
+        }
+      },
+      "source_component": {
+        "path": "data/board-sources/nxp-frdm-mcxn236/structured-rev-c/components.json",
+        "sha256": "a96f612e11974dce7de88490ba25901c5547d845e2c26ccd2a52cd3d23a7436b",
+        "reference_designator": "U1",
+        "bom_item_id": "bom-item-081",
+        "manufacturer_part_number_text": "MCXN236VDFT",
+        "bom_source": {
+          "file": "data/board-sources/nxp-frdm-mcxn236/original-design-files/Design Files/SCH-90828_C.BOM.xlsx",
+          "sheet": "SCH-90828_C",
+          "row": 95,
+          "range": "A95:K95",
+          "sha256": "bea3bf8eb9b4aaddfaac5a767ac0e40dcbacaa96d515b91600e977732b009cd7"
+        },
+        "native_silk": null,
+        "footprint_identifier": "bga184_0p5_9x9_sm"
+      },
+      "review_preview": "previews/mcxn236-source-links/nxp_seed_010-rot180-2x.png"
+    },
+    {
+      "id": "mcxn236-u8-source-candidate",
+      "annotation_path": "annotations/nxp-component-seeds.json",
+      "annotation_id": "nxp_seed_011",
+      "image_path": "data/photo-model/photos/raw/IMG_20261009_221755_1.jpg",
+      "image_sha256": "39fc7bf72f364c0b0e848dc9fe9492b85efbdef1481a28d9bbecf4787e51a47e",
+      "observed_reference_designator": "U8",
+      "photo_evidence": "Adjacent U8 silkscreen is readable and associated with the seeded object by its outline. Package text is not used to assert a complete installed manufacturer part number.",
+      "source_board_model": "FRDM-MCXN236",
+      "source_revision": "C",
+      "specimen_revision": null,
+      "match_status": "model_match_revision_unconfirmed",
+      "exact_installed_part_mapping": false,
+      "manufacturer_part_number": null,
+      "photo_review": {
+        "path": "previews/mcxn236-source-links/nxp_seed_011-rot180-2x.png",
+        "sha256": "9afe8eb612a150fffad4e7fb511378c76b6415d4af1cdb13e2bb18e1a696dbee",
+        "source_crop_xyxy_pixels": [
+          390,
+          2750,
+          940,
+          3270
+        ],
+        "rotation_degrees_counterclockwise": 180,
+        "scale": 2,
+        "resampling": "nearest_neighbor"
+      },
+      "schematic": {
+        "path": "data/board-sources/nxp-frdm-mcxn236/SPF-90828.pdf",
+        "sha256": "243b93184f692b0f7c0deb3a9a63f6262ea3083a05c30c0143b4a4faa54b1868",
+        "page_1based": 8,
+        "reference_index": "data/board-sources/nxp-frdm-mcxn236/schematic-reference-index.json",
+        "reference_designator": "U8",
+        "occurrence_id": "p008-U8A-01",
+        "value_text": "LPC55S69JEV98",
+        "function_label": null,
+        "evidence_method": "Rendered source symbol and photo marking visually checked by two agents; source value and native SILK fields are preserved separately from installed-part identity.",
+        "review_crop": {
+          "path": "previews/mcxn236-source-links/source-p008-U8A.png",
+          "sha256": "9b82ec37181e0cd5e62cc9f61d7c8689699c189be036e06fafddcbd4489625fa",
+          "bbox_pt": [
+            300,
+            0,
+            565,
+            300
+          ],
+          "resolution_dpi": 300,
+          "renderer": "pdfplumber 0.11.9 / pypdfium2"
+        }
+      },
+      "source_component": {
+        "path": "data/board-sources/nxp-frdm-mcxn236/structured-rev-c/components.json",
+        "sha256": "a96f612e11974dce7de88490ba25901c5547d845e2c26ccd2a52cd3d23a7436b",
+        "reference_designator": "U8",
+        "bom_item_id": "bom-item-088",
+        "manufacturer_part_number_text": "LPC55S69JEV98",
+        "bom_source": {
+          "file": "data/board-sources/nxp-frdm-mcxn236/original-design-files/Design Files/SCH-90828_C.BOM.xlsx",
+          "sheet": "SCH-90828_C",
+          "row": 102,
+          "range": "A102:K102",
+          "sha256": "bea3bf8eb9b4aaddfaac5a767ac0e40dcbacaa96d515b91600e977732b009cd7"
+        },
+        "native_silk": null,
+        "footprint_identifier": "bga98_0p5_7x7"
+      },
+      "review_preview": "previews/mcxn236-source-links/nxp_seed_011-rot180-2x.png"
+    },
+    {
+      "id": "mcxn236-u12-source-candidate",
+      "annotation_path": "annotations/nxp-component-seeds.json",
+      "annotation_id": "nxp_seed_012",
+      "image_path": "data/photo-model/photos/raw/IMG_20261009_221755_1.jpg",
+      "image_sha256": "39fc7bf72f364c0b0e848dc9fe9492b85efbdef1481a28d9bbecf4787e51a47e",
+      "observed_reference_designator": "U12",
+      "photo_evidence": "Adjacent U12 silkscreen is readable and associated with the seeded object by its outline. Package text is not used to assert a complete installed manufacturer part number.",
+      "source_board_model": "FRDM-MCXN236",
+      "source_revision": "C",
+      "specimen_revision": null,
+      "match_status": "model_match_revision_unconfirmed",
+      "exact_installed_part_mapping": false,
+      "manufacturer_part_number": null,
+      "photo_review": {
+        "path": "previews/mcxn236-source-links/nxp_seed_012-rot270-2x.png",
+        "sha256": "124f89a88eda7d857b767e82915ec2bb0b52fef4fc22d2a5d985940e0927f124",
+        "source_crop_xyxy_pixels": [
+          530,
+          690,
+          1000,
+          1140
+        ],
+        "rotation_degrees_counterclockwise": 270,
+        "scale": 2,
+        "resampling": "nearest_neighbor"
+      },
+      "schematic": {
+        "path": "data/board-sources/nxp-frdm-mcxn236/SPF-90828.pdf",
+        "sha256": "243b93184f692b0f7c0deb3a9a63f6262ea3083a05c30c0143b4a4faa54b1868",
+        "page_1based": 11,
+        "reference_index": "data/board-sources/nxp-frdm-mcxn236/schematic-reference-index.json",
+        "reference_designator": "U12",
+        "occurrence_id": "p011-U12-01",
+        "value_text": "W25Q64JVSSIQ",
+        "function_label": null,
+        "evidence_method": "Rendered source symbol and photo marking visually checked by two agents; source value and native SILK fields are preserved separately from installed-part identity.",
+        "review_crop": {
+          "path": "previews/mcxn236-source-links/source-p011-U12.png",
+          "sha256": "77b612d16ee97444a7f922b3c962129b6da7afbac14a26696369c6eafe634acf",
+          "bbox_pt": [
+            550,
+            345,
+            805,
+            535
+          ],
+          "resolution_dpi": 300,
+          "renderer": "pdfplumber 0.11.9 / pypdfium2"
+        }
+      },
+      "source_component": {
+        "path": "data/board-sources/nxp-frdm-mcxn236/structured-rev-c/components.json",
+        "sha256": "a96f612e11974dce7de88490ba25901c5547d845e2c26ccd2a52cd3d23a7436b",
+        "reference_designator": "U12",
+        "bom_item_id": "bom-item-092",
+        "manufacturer_part_number_text": "W25Q64JVSSIQ",
+        "bom_source": {
+          "file": "data/board-sources/nxp-frdm-mcxn236/original-design-files/Design Files/SCH-90828_C.BOM.xlsx",
+          "sheet": "SCH-90828_C",
+          "row": 106,
+          "range": "A106:K106",
+          "sha256": "bea3bf8eb9b4aaddfaac5a767ac0e40dcbacaa96d515b91600e977732b009cd7"
+        },
+        "native_silk": null,
+        "footprint_identifier": "so8_w"
+      },
+      "review_preview": "previews/mcxn236-source-links/nxp_seed_012-rot270-2x.png"
+    },
+    {
+      "id": "mcxn236-j13-source-candidate",
+      "annotation_path": "annotations/nxp-component-seeds.json",
+      "annotation_id": "nxp_seed_021",
+      "image_path": "data/photo-model/photos/raw/IMG_20261009_221755_1.jpg",
+      "image_sha256": "39fc7bf72f364c0b0e848dc9fe9492b85efbdef1481a28d9bbecf4787e51a47e",
+      "observed_reference_designator": "J13",
+      "photo_evidence": "Adjacent J13 silkscreen is readable and associated with the seeded object by its outline.",
+      "source_board_model": "FRDM-MCXN236",
+      "source_revision": "C",
+      "specimen_revision": null,
+      "match_status": "model_match_revision_unconfirmed",
+      "exact_installed_part_mapping": false,
+      "manufacturer_part_number": null,
+      "photo_review": {
+        "path": "previews/mcxn236-source-links/nxp_seed_021-rot270-2x.png",
+        "sha256": "5e09e2fd5795353892026793a1543d055bdd166201a1a3d7fd56ce50fa319aad",
+        "source_crop_xyxy_pixels": [
+          1170,
+          3150,
+          1600,
+          3580
+        ],
+        "rotation_degrees_counterclockwise": 270,
+        "scale": 2,
+        "resampling": "nearest_neighbor"
+      },
+      "schematic": {
+        "path": "data/board-sources/nxp-frdm-mcxn236/SPF-90828.pdf",
+        "sha256": "243b93184f692b0f7c0deb3a9a63f6262ea3083a05c30c0143b4a4faa54b1868",
+        "page_1based": 11,
+        "reference_index": "data/board-sources/nxp-frdm-mcxn236/schematic-reference-index.json",
+        "reference_designator": "J13",
+        "occurrence_id": "p011-J13-01",
+        "value_text": "HDR 2X2",
+        "function_label": null,
+        "evidence_method": "Rendered source symbol and photo marking visually checked by two agents; source value and native SILK fields are preserved separately from installed-part identity.",
+        "review_crop": {
+          "path": "previews/mcxn236-source-links/source-p011-J13.png",
+          "sha256": "f33d3593194076ae30f56736b44250f8ed04e7d7be8bb1dd6cc119b61a2e16a1",
+          "bbox_pt": [
+            15,
+            340,
+            245,
+            525
+          ],
+          "resolution_dpi": 300,
+          "renderer": "pdfplumber 0.11.9 / pypdfium2"
+        }
+      },
+      "source_component": {
+        "path": "data/board-sources/nxp-frdm-mcxn236/structured-rev-c/components.json",
+        "sha256": "a96f612e11974dce7de88490ba25901c5547d845e2c26ccd2a52cd3d23a7436b",
+        "reference_designator": "J13",
+        "bom_item_id": "bom-item-039",
+        "manufacturer_part_number_text": "5-146258-2",
+        "bom_source": {
+          "file": "data/board-sources/nxp-frdm-mcxn236/original-design-files/Design Files/SCH-90828_C.BOM.xlsx",
+          "sheet": "SCH-90828_C",
+          "row": 53,
+          "range": "A53:K53",
+          "sha256": "bea3bf8eb9b4aaddfaac5a767ac0e40dcbacaa96d515b91600e977732b009cd7"
+        },
+        "native_silk": null,
+        "footprint_identifier": "hdr202_100_th"
+      },
+      "review_preview": "previews/mcxn236-source-links/nxp_seed_021-rot270-2x.png"
     }
   ]
 }

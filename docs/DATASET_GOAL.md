@@ -17,12 +17,12 @@ Use the 80 downloaded phone images to recognize board families and label visible
 | Component labels | 107 partial major-component seeds across five photos; exhaustive labels and a component detector remain pending |
 | Matching NXP sources | Published for review in [PR #5](https://github.com/TokitoAI/tokito-app-dataset/pull/5): CRC-verified Rev C archive with BRD, DSN/project, BOM text/XLSX and three netlist DAT files; structured extraction verified: 96 BOM items and 391 source references |
 | Schematic lookup | MCXN236 PDF indexed across 13 sheets; 629 reference-like text occurrences, not BOM quantities |
-| First component/source link | Readable photo SW3/ISP linked to a Rev C schematic and source BOM/native-part candidate; specimen revision and installed part identity unconfirmed |
+| Component/source links | 10 readable photo reference labels linked to visually reviewed Rev C schematic symbols and BOM/native-part candidates; specimen revision and installed part identities unconfirmed |
 | Source separation | MCXN947 retained as a different-board reference; its BOM and layout are excluded from MCXN236 ground truth |
 
 ## Remaining work
 
-1. Review the verified MCXN236 source bundle and structured BOM/connectivity in PR #5, and extend photo-to-source links. The extraction covers 391 source references (including 63 DNP and 37 NO PART TO ORDER references), 296 electrical nets and a separate NC group; these are design records, not fitted-part counts.
+1. Review the verified MCXN236 source bundle and structured BOM/connectivity in PR #5, and extend the 10 supported photo-to-source candidates across the remaining visible objects. The extraction covers 391 source references (including 63 DNP and 37 NO PART TO ORDER references), 296 electrical nets and a separate NC group; these are design records, not fitted-part counts.
 2. Complete component annotation and review. Cover small passives, connectors, ICs, occluded/clipped objects and any available back views; partial seeds must not supply false negative regions during training.
 3. Establish supported links from photo objects to matching board/revision source records. Preserve unknowns and distinguish source part numbers from identities confirmed on a physical specimen.
 4. Continue acquiring or producing missing manufacturing and 3D files where supported by the source. The MCXN236 ZIP has no separate Gerbers, drill files or STEP/GLB. Exact ESP clone files, complete Pi BOM/layout/manufacturing files, Ultimaker Gerber exports and some complete board models remain unresolved.

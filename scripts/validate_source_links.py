@@ -4,6 +4,7 @@ With LFS objects present this hashes their bytes; pointer-only CI checks their
 declared SHA-256 and size. Visual correctness is a separate review requirement.
 """
 from collections import Counter, defaultdict
+import argparse
 import hashlib
 import json
 import math
@@ -278,7 +279,7 @@ def validate_component_candidate(link, bundle_entry, structured):
     component = structured['components'][ref]
     assert source['bom_item_id'] == component['bom_item_id']
     assert source['manufacturer_part_number_text'] == component['manufacturer_part_number_text']
-    assert source['native_silk'] == component['native_part']['properties']['SILK']
+    assert source['native_silk'] == component['native_part']['properties'].get('SILK')
     assert source['footprint_identifier'] == component['primitive_body_properties']['JEDEC_TYPE']
     bom_source, bom_record = source['bom_source'], structured['sources']['SCH-90828_C.BOM.xlsx']
     assert path_in_repo(bom_source['file']) == path_in_bundle(structured['bundle'], bom_record['path'])
@@ -294,7 +295,48 @@ def validate_component_candidate(link, bundle_entry, structured):
     assert link['source_revision'] == structured['report']['source_revision']
 
 
+def validate_review_crops(link, annotated, index, occurrences, check_pixels):
+    if 'photo_review' in link:
+        review = link['photo_review']
+        crop_path = path_in_repo(review['path'])
+        assert evidence_hash(crop_path)[0] == review['sha256']
+        assert link['review_preview'] == review['path']
+        x0, y0, x1, y1 = review['source_crop_xyxy_pixels']
+        assert all(isinstance(value, int) for value in (x0, y0, x1, y1))
+        assert 0 <= x0 < x1 <= annotated['image_width']
+        assert 0 <= y0 < y1 <= annotated['image_height']
+        seed = next(row for row in annotated['annotations'] if row['id'] == link['annotation_id'])
+        sx0, sy0, sx1, sy1 = seed['xyxy_pixels']
+        assert x0 <= sx0 < sx1 <= x1 and y0 <= sy0 < sy1 <= y1
+        angle, scale = review['rotation_degrees_counterclockwise'], review['scale']
+        assert angle in (0, 90, 180, 270) and isinstance(scale, int) and scale > 0
+        assert review['resampling'] == 'nearest_neighbor'
+        if check_pixels:
+            from PIL import Image, ImageChops
+            with Image.open(path_in_repo(link['image_path'])) as original, Image.open(crop_path) as actual:
+                expected = original.crop((x0, y0, x1, y1))
+                transforms = {90: Image.Transpose.ROTATE_90, 180: Image.Transpose.ROTATE_180, 270: Image.Transpose.ROTATE_270}
+                if angle:
+                    expected = expected.transpose(transforms[angle])
+                expected = expected.resize((expected.width * scale, expected.height * scale), Image.Resampling.NEAREST)
+                assert actual.size == expected.size
+                assert ImageChops.difference(expected.convert('RGB'), actual.convert('RGB')).getbbox() is None
+    schematic = link['schematic']
+    if 'review_crop' in schematic:
+        review = schematic['review_crop']
+        assert evidence_hash(path_in_repo(review['path']))[0] == review['sha256']
+        page = next(row for row in index['pages'] if row['page'] == schematic['page_1based'])
+        x0, y0, x1, y1 = review['bbox_pt']
+        assert 0 <= x0 < x1 <= page['width_pt'] and 0 <= y0 < y1 <= page['height_pt']
+        sx0, sy0, sx1, sy1 = occurrences[schematic['occurrence_id']]['bbox_pt']
+        assert x0 <= sx0 < sx1 <= x1 and y0 <= sy0 < sy1 <= y1
+        assert review['resolution_dpi'] > 0 and review['renderer']
+
+
 def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--check-photo-crops', action='store_true', help='Require materialized LFS images and Pillow; reproduce every declared photo-review crop pixel-for-pixel')
+    args = parser.parse_args()
     links = read_json('annotations/component-source-links.json')
     assert links['path_base'] == 'repository_root'
     seeds = read_json('annotations/nxp-component-seeds.json')
@@ -334,6 +376,7 @@ def main():
         candidates = [occurrences[key] for key in index['by_refdes'][schematic['reference_designator']]]
         assert any(row['page'] == schematic['page_1based'] and row['id'] == schematic['occurrence_id'] for row in candidates)
         assert schematic['reference_designator'] == link['observed_reference_designator']
+        validate_review_crops(link, annotated, index, occurrences, args.check_photo_crops)
         if link['source_board_model'] == 'FRDM-MCXN236':
             assert '/nxp-frdm-mcxn236/' in schematic['path']
             assert nxp_bundle['schematic_reference_index'] == schematic['reference_index']
@@ -352,7 +395,7 @@ def main():
     assert len(moved) == 1 and moved[0]['sha256'] == relocation['sha256']
     assert moved[0]['path_at_initial_import'] == relocation['path_at_initial_import']
     counts = structured['statistics']
-    print(f"Validated {len(ids)} photo/source candidate link, {archive_count} archive members, "
+    print(f"Validated {len(ids)} photo/source candidate links, {archive_count} archive members, "
           f"{counts['native_parts']} source references, {counts['electrical_net_records']} electrical nets "
           f"plus {counts['no_connect_group_nodes']} isolated NC pin records, schematic candidates, and relocated photo hash.")
 
