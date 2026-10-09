@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0",
+  "path_base": "repository_root",
+  "scope": "Photo observations linked to source candidates; links do not assert specimen revision or installed manufacturer part number.",
+  "links": [
+    {
+      "id": "mcxn236-sw3-schematic-candidate",
+      "annotation_path": "annotations/nxp-component-seeds.json",
+      "annotation_id": "nxp_seed_009",
+      "image_path": "data/photo-model/photos/raw/IMG_20261009_221755_1.jpg",
+      "image_sha256": "39fc7bf72f364c0b0e848dc9fe9492b85efbdef1481a28d9bbecf4787e51a47e",
+      "observed_reference_designator": "SW3",
+      "photo_evidence": "Tactile switch; adjacent SW3 silkscreen readable.",
+      "source_board_model": "FRDM-MCXN236",
+      "source_revision": "C",
+      "specimen_revision": null,
+      "match_status": "model_match_revision_unconfirmed",
+      "exact_installed_part_mapping": false,
+      "manufacturer_part_number": null,
+      "schematic": {
+        "path": "data/board-sources/nxp-frdm-mcxn236/SPF-90828.pdf",
+        "sha256": "243b93184f692b0f7c0deb3a9a63f6262ea3083a05c30c0143b4a4faa54b1868",
+        "page_1based": 10,
+        "sheet_title": "CLOCK_RESET_HMI",
+        "reference_index": "data/board-sources/nxp-frdm-mcxn236/schematic-reference-index.json",
+        "reference_designator": "SW3",
+        "value_text": "SW SPST NO",
+        "function_label": "ISP",
+        "evidence_method": "Rendered schematic page visually checked; text coordinates indexed separately.",
+        "occurrence_id": "p010-SW3-01"
+      },
+      "review_preview": "previews/mcxn236-sw3-source-link.jpg",
+      "source_component": {
+        "path": "data/board-sources/nxp-frdm-mcxn236/structured-rev-c/components.json",
+        "sha256": "a96f612e11974dce7de88490ba25901c5547d845e2c26ccd2a52cd3d23a7436b",
+        "reference_designator": "SW3",
+        "bom_item_id": "bom-item-079",
+        "manufacturer_part_number_text": "434123025826",
+        "bom_source": {
+          "file": "data/board-sources/nxp-frdm-mcxn236/original-design-files/Design Files/SCH-90828_C.BOM.xlsx",
+          "sheet": "SCH-90828_C",
+          "row": 93,
+          "range": "A93:K93",
+          "sha256": "bea3bf8eb9b4aaddfaac5a767ac0e40dcbacaa96d515b91600e977732b009cd7"
+        },
+        "native_silk": "ISP",
+        "footprint_identifier": "sw4_4p15_4p2x3p2_sm"
+      }
+    }
+  ]
+}

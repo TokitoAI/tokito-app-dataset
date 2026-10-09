@@ -2,6 +2,8 @@
 
 Private dataset repository for the Tokito iQOO hackathon work with Afnan and Navaneeth. Dataset changes go through pull requests. The Tokito application code belongs in a separate repository.
 
+The [active goal tracker](docs/DATASET_GOAL.md) records the full dataset, labeling, training and publication scope and remaining work.
+
 ## Included corpus
 
 80 phone files: 47 captures and33 cropped variants, sorted under `data/photo-model/by_board`. Board boxes and provenance are in `board-annotations.json`. The five families are ESP32, ESP8266, Ultimainboard2.1.4, NXP FRDM-MCXN236, and Raspberry Pi3B V1.2.
@@ -25,5 +27,11 @@ The first split has62 training images and11 validation originals. Seven validati
 Component seed annotations cover107 major visible objects across five photos. They are partial and are excluded from complete component-detector training. Tiny passives, exact part IDs, hidden components and board backs still require labeling/review. See `data/photo-model/MODEL_SCOPE.md`.
 
 BOM entries, schematic pages and Gerber layers are linked documents. They are not YOLO object classes. Exact links need matched revisions and readable markings or registered PCB geometry. Unknown links remain unknown.
+
+The [MCXN236 schematic index](data/board-sources/nxp-frdm-mcxn236/README_INDEX.md) locates reference-designator text on PDF pages. [Component source links](annotations/component-source-links.json) preserve photo evidence separately from schematic candidates; the first link is the readable SW3/ISP switch. Its installed part number and specimen revision are still unknown. See [source-link conventions](docs/SOURCE_LINKS.md).
+
+The downloaded [MCXN236 Rev C design bundle](data/board-sources/nxp-frdm-mcxn236/PROVENANCE.md) includes the native BRD, schematic project, BOM and netlists. Its [structured extraction](data/board-sources/nxp-frdm-mcxn236/structured-rev-c/README.md) joins 96 BOM items to 391 reference designators and 296 electrical nets. DNP entries and the separate no-connect group are preserved. The archive contains no separate Gerber, drill or STEP/GLB exports.
+
+`python scripts/prepare_board_labels.py` creates foreground-box proposals in ignored `work/photo-contact/`. It requires hash-matched board-class reviews and preserves reviewed annotations, split assignments and photo folders. Review proposals before manually promoting them into the curated labels.
 
 Retain source attribution and file-specific licenses. Check `docs/sources/LICENSE_NOTES.md` before changing visibility or distributing assets. All updates, annotation review and model-results changes should be proposed in PRs.

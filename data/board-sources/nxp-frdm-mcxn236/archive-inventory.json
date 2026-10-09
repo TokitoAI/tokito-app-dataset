@@ -1,0 +1,77 @@
+{
+  "board_model": "FRDM-MCXN236",
+  "listed_revision": "C",
+  "source_url": "https://www.nxp.com/webapp/Download?colCode=FRDM-MCXN236-DESIGN-FILES",
+  "acquisition": "User completed official NXP download into Downloads and confirmed completion.",
+  "ingested_at_utc": "2026-10-09T20:43:53.598501+00:00",
+  "archive": {
+    "path": "FRDM-MCXN236-DESIGN-FILES.zip",
+    "bytes": 21418523,
+    "sha256": "e1ee1755a9cc2c1efa27ceb25cc459d7e55f0626f4ee3037199183ee45482ff2",
+    "zip_crc_check": "passed"
+  },
+  "file_count": 8,
+  "files": [
+    {
+      "path": "original-design-files/Design Files/LAY-90828_C.brd",
+      "bytes": 19636488,
+      "sha256": "e5330f7b8476a2b1cc461db4ad5da7182da83299ad4874aea8c7d06c675e851d",
+      "zip_crc32": "81f43ca8"
+    },
+    {
+      "path": "original-design-files/Design Files/allegro/pstchip.dat",
+      "bytes": 80283,
+      "sha256": "95cfe2098c5e149d34c25ce895fa114ffcbc255756ed9d930c245f1129da51d9",
+      "zip_crc32": "f6b38dd6"
+    },
+    {
+      "path": "original-design-files/Design Files/allegro/pstxnet.dat",
+      "bytes": 193849,
+      "sha256": "c159a276a573e994fc54abaa9fd873b64d0190f8c70ccb76dc72a62a265a12c2",
+      "zip_crc32": "79dcb389"
+    },
+    {
+      "path": "original-design-files/Design Files/allegro/pstxprt.dat",
+      "bytes": 166412,
+      "sha256": "e0e4e24d19f73d39d0907960920549599c85159233a7d7c5cf12bfa3afd96682",
+      "zip_crc32": "d8ae9d54"
+    },
+    {
+      "path": "original-design-files/Design Files/SCH-90828_C.BOM",
+      "bytes": 4203,
+      "sha256": "5a1bb1d1e5e0d4229c57db6ba0647c8a50e440a646e45718db05be68480f79c3",
+      "zip_crc32": "7c934397"
+    },
+    {
+      "path": "original-design-files/Design Files/SCH-90828_C.BOM.xlsx",
+      "bytes": 26247,
+      "sha256": "bea3bf8eb9b4aaddfaac5a767ac0e40dcbacaa96d515b91600e977732b009cd7",
+      "zip_crc32": "6e390983"
+    },
+    {
+      "path": "original-design-files/Design Files/SCH-90828_C.DSN",
+      "bytes": 1302016,
+      "sha256": "f1784f205885b10733e03553e5ab9056a288d3e8ea82b6084642c882cbfe8710",
+      "zip_crc32": "dc26137a"
+    },
+    {
+      "path": "original-design-files/Design Files/SCH-90828_C.opj",
+      "bytes": 7785,
+      "sha256": "d412f3edc05c33e170b1f276ab7f9ff92559b96daa196fe53139a555100c09d6",
+      "zip_crc32": "8acf705b"
+    }
+  ],
+  "contents": [
+    "Allegro BRD",
+    "OrCAD DSN and project",
+    "BOM text and XLSX",
+    "Allegro netlist DAT files"
+  ],
+  "separate_gerber_files_present": false,
+  "step_or_glb_present": false,
+  "limitations": [
+    "The eight archive members contain no separately exported Gerber, drill or STEP files.",
+    "The native CAD files have not been engineering-validated in their authoring tools.",
+    "The photographed board model matches MCXN236; physical PCB revision remains unconfirmed."
+  ]
+}

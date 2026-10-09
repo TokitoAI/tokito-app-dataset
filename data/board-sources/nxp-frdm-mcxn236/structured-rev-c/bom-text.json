@@ -1,0 +1,2378 @@
+{
+  "schema_version": "1.0",
+  "source": {
+    "path": "original-design-files/Design Files/SCH-90828_C.BOM",
+    "sha256": "5a1bb1d1e5e0d4229c57db6ba0647c8a50e440a646e45718db05be68480f79c3",
+    "bytes": 4203
+  },
+  "preamble_lines": [
+    "FRDM-MCXN236  Revised: Wednesday, March 27, 2024",
+    "SCH-90828, PDF: SPF-90828          Revision: C",
+    "",
+    "NXP Semiconductors",
+    "6501 William Cannon Drive West",
+    "Austin, TX 78735-8598",
+    "",
+    "",
+    "",
+    "Bill Of Materials          April 10,2024      10:15:53\tPage1",
+    ""
+  ],
+  "header_line": 12,
+  "columns": [
+    "Item",
+    "Quantity",
+    "AgilePN",
+    "ASSY_OPT",
+    "FIND#",
+    "PRE_APN",
+    "Reference"
+  ],
+  "items": [
+    {
+      "source_lines": [
+        15,
+        15
+      ],
+      "raw_lines": [
+        "1\t4\t510-75297\t\t\t\tBH1,BH2,BH3,BH4"
+      ],
+      "source_columns": {
+        "Item": "1",
+        "Quantity": "4",
+        "AgilePN": "510-75297",
+        "ASSY_OPT": "",
+        "FIND#": "",
+        "PRE_APN": "",
+        "Reference": "BH1,BH2,BH3,BH4"
+      },
+      "reference_designators": [
+        "BH1",
+        "BH2",
+        "BH3",
+        "BH4"
+      ]
+    },
+    {
+      "source_lines": [
+        16,
+        16
+      ],
+      "raw_lines": [
+        "2\t6\t150-80128\t\t\t\tC1,C5,C32,C36,C40,C41"
+      ],
+      "source_columns": {
+        "Item": "2",
+        "Quantity": "6",
+        "AgilePN": "150-80128",
+        "ASSY_OPT": "",
+        "FIND#": "",
+        "PRE_APN": "",
+        "Reference": "C1,C5,C32,C36,C40,C41"
+      },
+      "reference_designators": [
+        "C1",
+        "C5",
+        "C32",
+        "C36",
+        "C40",
+        "C41"
+      ]
+    },
+    {
+      "source_lines": [
+        17,
+        23
+      ],
+      "raw_lines": [
+        "3\t38\t150-75182\t\t\t\tC2,C3,C6,C9,C11,C12,C14,",
+        "\t\t\t\t\t\tC15,C16,C17,C19,C20,C22,",
+        "\t\t\t\t\t\tC23,C25,C26,C27,C33,C35,",
+        "\t\t\t\t\t\tC39,C47,C62,C65,C66,C67,",
+        "\t\t\t\t\t\tC68,C69,C70,C73,C76,C80,",
+        "\t\t\t\t\t\tC81,C83,C98,C102,C107,",
+        "\t\t\t\t\t\tC150,C154"
+      ],
+      "source_columns": {
+        "Item": "3",
+        "Quantity": "38",
+        "AgilePN": "150-75182",
+        "ASSY_OPT": "",
+        "FIND#": "",
+        "PRE_APN": "",
+        "Reference": "C2,C3,C6,C9,C11,C12,C14,C15,C16,C17,C19,C20,C22,C23,C25,C26,C27,C33,C35,C39,C47,C62,C65,C66,C67,C68,C69,C70,C73,C76,C80,C81,C83,C98,C102,C107,C150,C154"
+      },
+      "reference_designators": [
+        "C2",
+        "C3",
+        "C6",
+        "C9",
+        "C11",
+        "C12",
+        "C14",
+        "C15",
+        "C16",
+        "C17",
+        "C19",
+        "C20",
+        "C22",
+        "C23",
+        "C25",
+        "C26",
+        "C27",
+        "C33",
+        "C35",
+        "C39",
+        "C47",
+        "C62",
+        "C65",
+        "C66",
+        "C67",
+        "C68",
+        "C69",
+        "C70",
+        "C73",
+        "C76",
+        "C80",
+        "C81",
+        "C83",
+        "C98",
+        "C102",
+        "C107",
+        "C150",
+        "C154"
+      ]
+    },
+    {
+      "source_lines": [
+        24,
+        25
+      ],
+      "raw_lines": [
+        "4\t8\t150-79569\t\t\t\tC4,C38,C63,C64,C85,C109,",
+        "\t\t\t\t\t\tC114,C115"
+      ],
+      "source_columns": {
+        "Item": "4",
+        "Quantity": "8",
+        "AgilePN": "150-79569",
+        "ASSY_OPT": "",
+        "FIND#": "",
+        "PRE_APN": "",
+        "Reference": "C4,C38,C63,C64,C85,C109,C114,C115"
+      },
+      "reference_designators": [
+        "C4",
+        "C38",
+        "C63",
+        "C64",
+        "C85",
+        "C109",
+        "C114",
+        "C115"
+      ]
+    },
+    {
+      "source_lines": [
+        26,
+        30
+      ],
+      "raw_lines": [
+        "5\t26\t150-80357\t\t\t\tC7,C8,C10,C13,C21,C24,",
+        "\t\t\t\t\t\tC30,C31,C42,C43,C44,C45,",
+        "\t\t\t\t\t\tC48,C50,C51,C52,C53,C55,",
+        "\t\t\t\t\t\tC56,C57,C58,C61,C99,C101,",
+        "\t\t\t\t\t\tC103,C106"
+      ],
+      "source_columns": {
+        "Item": "5",
+        "Quantity": "26",
+        "AgilePN": "150-80357",
+        "ASSY_OPT": "",
+        "FIND#": "",
+        "PRE_APN": "",
+        "Reference": "C7,C8,C10,C13,C21,C24,C30,C31,C42,C43,C44,C45,C48,C50,C51,C52,C53,C55,C56,C57,C58,C61,C99,C101,C103,C106"
+      },
+      "reference_designators": [
+        "C7",
+        "C8",
+        "C10",
+        "C13",
+        "C21",
+        "C24",
+        "C30",
+        "C31",
+        "C42",
+        "C43",
+        "C44",
+        "C45",
+        "C48",
+        "C50",
+        "C51",
+        "C52",
+        "C53",
+        "C55",
+        "C56",
+        "C57",
+        "C58",
+        "C61",
+        "C99",
+        "C101",
+        "C103",
+        "C106"
+      ]
+    },
+    {
+      "source_lines": [
+        31,
+        31
+      ],
+      "raw_lines": [
+        "6\t1\tTMP-CIP-16501\t\t\t150-10035\tC18"
+      ],
+      "source_columns": {
+        "Item": "6",
+        "Quantity": "1",
+        "AgilePN": "TMP-CIP-16501",
+        "ASSY_OPT": "",
+        "FIND#": "",
+        "PRE_APN": "150-10035",
+        "Reference": "C18"
+      },
+      "reference_designators": [
+        "C18"
+      ]
+    },
+    {
+      "source_lines": [
+        32,
+        32
+      ],
+      "raw_lines": [
+        "7\t2\t150-79665\t\t\t\tC28,C82"
+      ],
+      "source_columns": {
+        "Item": "7",
+        "Quantity": "2",
+        "AgilePN": "150-79665",
+        "ASSY_OPT": "",
+        "FIND#": "",
+        "PRE_APN": "",
+        "Reference": "C28,C82"
+      },
+      "reference_designators": [
+        "C28",
+        "C82"
+      ]
+    },
+    {
+      "source_lines": [
+        33,
+        33
+      ],
+      "raw_lines": [
+        "8\t1\t150-78886\t\t\t\tC29"
+      ],
+      "source_columns": {
+        "Item": "8",
+        "Quantity": "1",
+        "AgilePN": "150-78886",
+        "ASSY_OPT": "",
+        "FIND#": "",
+        "PRE_APN": "",
+        "Reference": "C29"
+      },
+      "reference_designators": [
+        "C29"
+      ]
+    },
+    {
+      "source_lines": [
+        34,
+        34
+      ],
+      "raw_lines": [
+        "9\t1\t150-79711\t\t\t\tC34"
+      ],
+      "source_columns": {
+        "Item": "9",
+        "Quantity": "1",
+        "AgilePN": "150-79711",
+        "ASSY_OPT": "",
+        "FIND#": "",
+        "PRE_APN": "",
+        "Reference": "C34"
+      },
+      "reference_designators": [
+        "C34"
+      ]
+    },
+    {
+      "source_lines": [
+        35,
+        35
+      ],
+      "raw_lines": [
+        "10\t5\t150-79188\t\t\t\tC46,C49,C54,C59,C60"
+      ],
+      "source_columns": {
+        "Item": "10",
+        "Quantity": "5",
+        "AgilePN": "150-79188",
+        "ASSY_OPT": "",
+        "FIND#": "",
+        "PRE_APN": "",
+        "Reference": "C46,C49,C54,C59,C60"
+      },
+      "reference_designators": [
+        "C46",
+        "C49",
+        "C54",
+        "C59",
+        "C60"
+      ]
+    },
+    {
+      "source_lines": [
+        36,
+        36
+      ],
+      "raw_lines": [
+        "11\t3\t150-79357\t\t\t\tC71,C72,C77"
+      ],
+      "source_columns": {
+        "Item": "11",
+        "Quantity": "3",
+        "AgilePN": "150-79357",
+        "ASSY_OPT": "",
+        "FIND#": "",
+        "PRE_APN": "",
+        "Reference": "C71,C72,C77"
+      },
+      "reference_designators": [
+        "C71",
+        "C72",
+        "C77"
+      ]
+    },
+    {
+      "source_lines": [
+        37,
+        37
+      ],
+      "raw_lines": [
+        "12\t2\t150-79530\t\t\t\tC74,C75"
+      ],
+      "source_columns": {
+        "Item": "12",
+        "Quantity": "2",
+        "AgilePN": "150-79530",
+        "ASSY_OPT": "",
+        "FIND#": "",
+        "PRE_APN": "",
+        "Reference": "C74,C75"
+      },
+      "reference_designators": [
+        "C74",
+        "C75"
+      ]
+    },
+    {
+      "source_lines": [
+        38,
+        38
+      ],
+      "raw_lines": [
+        "13\t4\t150-30180\tDNP\t\t\tC78,C79,C94,C95"
+      ],
+      "source_columns": {
+        "Item": "13",
+        "Quantity": "4",
+        "AgilePN": "150-30180",
+        "ASSY_OPT": "DNP",
+        "FIND#": "",
+        "PRE_APN": "",
+        "Reference": "C78,C79,C94,C95"
+      },
+      "reference_designators": [
+        "C78",
+        "C79",
+        "C94",
+        "C95"
+      ]
+    },
+    {
+      "source_lines": [
+        39,
+        39
+      ],
+      "raw_lines": [
+        "14\t3\t150-76334\t\t\t\tC86,C88,C90"
+      ],
+      "source_columns": {
+        "Item": "14",
+        "Quantity": "3",
+        "AgilePN": "150-76334",
+        "ASSY_OPT": "",
+        "FIND#": "",
+        "PRE_APN": "",
+        "Reference": "C86,C88,C90"
+      },
+      "reference_designators": [
+        "C86",
+        "C88",
+        "C90"
+      ]
+    },
+    {
+      "source_lines": [
+        40,
+        40
+      ],
+      "raw_lines": [
+        "15\t2\t150-75182\tDNP\t\t\tC87,C100"
+      ],
+      "source_columns": {
+        "Item": "15",
+        "Quantity": "2",
+        "AgilePN": "150-75182",
+        "ASSY_OPT": "DNP",
+        "FIND#": "",
+        "PRE_APN": "",
+        "Reference": "C87,C100"
+      },
+      "reference_designators": [
+        "C87",
+        "C100"
+      ]
+    },
+    {
+      "source_lines": [
+        41,
+        41
+      ],
+      "raw_lines": [
+        "16\t2\t150-76335\t\t\t\tC96,C97"
+      ],
+      "source_columns": {
+        "Item": "16",
+        "Quantity": "2",
+        "AgilePN": "150-76335",
+        "ASSY_OPT": "",
+        "FIND#": "",
+        "PRE_APN": "",
+        "Reference": "C96,C97"
+      },
+      "reference_designators": [
+        "C96",
+        "C97"
+      ]
+    },
+    {
+      "source_lines": [
+        42,
+        42
+      ],
+      "raw_lines": [
+        "17\t2\t150-30269\t\t\t\tC104,C108"
+      ],
+      "source_columns": {
+        "Item": "17",
+        "Quantity": "2",
+        "AgilePN": "150-30269",
+        "ASSY_OPT": "",
+        "FIND#": "",
+        "PRE_APN": "",
+        "Reference": "C104,C108"
+      },
+      "reference_designators": [
+        "C104",
+        "C108"
+      ]
+    },
+    {
+      "source_lines": [
+        43,
+        43
+      ],
+      "raw_lines": [
+        "18\t1\t150-77996\tDNP\t\t\tC105"
+      ],
+      "source_columns": {
+        "Item": "18",
+        "Quantity": "1",
+        "AgilePN": "150-77996",
+        "ASSY_OPT": "DNP",
+        "FIND#": "",
+        "PRE_APN": "",
+        "Reference": "C105"
+      },
+      "reference_designators": [
+        "C105"
+      ]
+    },
+    {
+      "source_lines": [
+        44,
+        44
+      ],
+      "raw_lines": [
+        "19\t4\t150-79569\tDNP\t\t\tC110,C111,C112,C113"
+      ],
+      "source_columns": {
+        "Item": "19",
+        "Quantity": "4",
+        "AgilePN": "150-79569",
+        "ASSY_OPT": "DNP",
+        "FIND#": "",
+        "PRE_APN": "",
+        "Reference": "C110,C111,C112,C113"
+      },
+      "reference_designators": [
+        "C110",
+        "C111",
+        "C112",
+        "C113"
+      ]
+    },
+    {
+      "source_lines": [
+        45,
+        45
+      ],
+      "raw_lines": [
+        "20\t2\t480-76978\t\t\t\tD1,D2"
+      ],
+      "source_columns": {
+        "Item": "20",
+        "Quantity": "2",
+        "AgilePN": "480-76978",
+        "ASSY_OPT": "",
+        "FIND#": "",
+        "PRE_APN": "",
+        "Reference": "D1,D2"
+      },
+      "reference_designators": [
+        "D1",
+        "D2"
+      ]
+    },
+    {
+      "source_lines": [
+        46,
+        46
+      ],
+      "raw_lines": [
+        "21\t3\t370-75088\t\t\t\tD3,D6,D8"
+      ],
+      "source_columns": {
+        "Item": "21",
+        "Quantity": "3",
+        "AgilePN": "370-75088",
+        "ASSY_OPT": "",
+        "FIND#": "",
+        "PRE_APN": "",
+        "Reference": "D3,D6,D8"
+      },
+      "reference_designators": [
+        "D3",
+        "D6",
+        "D8"
+      ]
+    },
+    {
+      "source_lines": [
+        47,
+        47
+      ],
+      "raw_lines": [
+        "22\t1\t480-76978\tDNP\t\t\tD4"
+      ],
+      "source_columns": {
+        "Item": "22",
+        "Quantity": "1",
+        "AgilePN": "480-76978",
+        "ASSY_OPT": "DNP",
+        "FIND#": "",
+        "PRE_APN": "",
+        "Reference": "D4"
+      },
+      "reference_designators": [
+        "D4"
+      ]
+    },
+    {
+      "source_lines": [
+        48,
+        48
+      ],
+      "raw_lines": [
+        "23\t2\t370-76632\t\t\t\tD7,D12"
+      ],
+      "source_columns": {
+        "Item": "23",
+        "Quantity": "2",
+        "AgilePN": "370-76632",
+        "ASSY_OPT": "",
+        "FIND#": "",
+        "PRE_APN": "",
+        "Reference": "D7,D12"
+      },
+      "reference_designators": [
+        "D7",
+        "D12"
+      ]
+    },
+    {
+      "source_lines": [
+        49,
+        49
+      ],
+      "raw_lines": [
+        "24\t2\t480-79814\tDNP\t\t\tD9,D10"
+      ],
+      "source_columns": {
+        "Item": "24",
+        "Quantity": "2",
+        "AgilePN": "480-79814",
+        "ASSY_OPT": "DNP",
+        "FIND#": "",
+        "PRE_APN": "",
+        "Reference": "D9,D10"
+      },
+      "reference_designators": [
+        "D9",
+        "D10"
+      ]
+    },
+    {
+      "source_lines": [
+        50,
+        50
+      ],
+      "raw_lines": [
+        "25\t1\t480-79841\tDNP\t\t\tD11"
+      ],
+      "source_columns": {
+        "Item": "25",
+        "Quantity": "1",
+        "AgilePN": "480-79841",
+        "ASSY_OPT": "DNP",
+        "FIND#": "",
+        "PRE_APN": "",
+        "Reference": "D11"
+      },
+      "reference_designators": [
+        "D11"
+      ]
+    },
+    {
+      "source_lines": [
+        51,
+        51
+      ],
+      "raw_lines": [
+        "26\t1\t370-76899\t\t\t\tD13"
+      ],
+      "source_columns": {
+        "Item": "26",
+        "Quantity": "1",
+        "AgilePN": "370-76899",
+        "ASSY_OPT": "",
+        "FIND#": "",
+        "PRE_APN": "",
+        "Reference": "D13"
+      },
+      "reference_designators": [
+        "D13"
+      ]
+    },
+    {
+      "source_lines": [
+        52,
+        52
+      ],
+      "raw_lines": [
+        "27\t1\t480-77157\t\t\t\tD14"
+      ],
+      "source_columns": {
+        "Item": "27",
+        "Quantity": "1",
+        "AgilePN": "480-77157",
+        "ASSY_OPT": "",
+        "FIND#": "",
+        "PRE_APN": "",
+        "Reference": "D14"
+      },
+      "reference_designators": [
+        "D14"
+      ]
+    },
+    {
+      "source_lines": [
+        53,
+        53
+      ],
+      "raw_lines": [
+        "28\t4\t210-80468\tDNP\t\t\tJP1,JP2,JP3,JP4"
+      ],
+      "source_columns": {
+        "Item": "28",
+        "Quantity": "4",
+        "AgilePN": "210-80468",
+        "ASSY_OPT": "DNP",
+        "FIND#": "",
+        "PRE_APN": "",
+        "Reference": "JP1,JP2,JP3,JP4"
+      },
+      "reference_designators": [
+        "JP1",
+        "JP2",
+        "JP3",
+        "JP4"
+      ]
+    },
+    {
+      "source_lines": [
+        54,
+        54
+      ],
+      "raw_lines": [
+        "29\t4\t210-80468\t\t\t\tJP5,JP6,JP7,JP8"
+      ],
+      "source_columns": {
+        "Item": "29",
+        "Quantity": "4",
+        "AgilePN": "210-80468",
+        "ASSY_OPT": "",
+        "FIND#": "",
+        "PRE_APN": "",
+        "Reference": "JP5,JP6,JP7,JP8"
+      },
+      "reference_designators": [
+        "JP5",
+        "JP6",
+        "JP7",
+        "JP8"
+      ]
+    },
+    {
+      "source_lines": [
+        55,
+        55
+      ],
+      "raw_lines": [
+        "30\t2\t210-81775\t\t\t\tJ1,J3"
+      ],
+      "source_columns": {
+        "Item": "30",
+        "Quantity": "2",
+        "AgilePN": "210-81775",
+        "ASSY_OPT": "",
+        "FIND#": "",
+        "PRE_APN": "",
+        "Reference": "J1,J3"
+      },
+      "reference_designators": [
+        "J1",
+        "J3"
+      ]
+    },
+    {
+      "source_lines": [
+        56,
+        56
+      ],
+      "raw_lines": [
+        "31\t1\t210-81776\t\t\t\tJ2"
+      ],
+      "source_columns": {
+        "Item": "31",
+        "Quantity": "1",
+        "AgilePN": "210-81776",
+        "ASSY_OPT": "",
+        "FIND#": "",
+        "PRE_APN": "",
+        "Reference": "J2"
+      },
+      "reference_designators": [
+        "J2"
+      ]
+    },
+    {
+      "source_lines": [
+        57,
+        57
+      ],
+      "raw_lines": [
+        "32\t1\t210-81774\t\t\t\tJ4"
+      ],
+      "source_columns": {
+        "Item": "32",
+        "Quantity": "1",
+        "AgilePN": "210-81774",
+        "ASSY_OPT": "",
+        "FIND#": "",
+        "PRE_APN": "",
+        "Reference": "J4"
+      },
+      "reference_designators": [
+        "J4"
+      ]
+    },
+    {
+      "source_lines": [
+        58,
+        58
+      ],
+      "raw_lines": [
+        "33\t2\t210-81617\t\t\t\tJ5,J6"
+      ],
+      "source_columns": {
+        "Item": "33",
+        "Quantity": "2",
+        "AgilePN": "210-81617",
+        "ASSY_OPT": "",
+        "FIND#": "",
+        "PRE_APN": "",
+        "Reference": "J5,J6"
+      },
+      "reference_designators": [
+        "J5",
+        "J6"
+      ]
+    },
+    {
+      "source_lines": [
+        59,
+        59
+      ],
+      "raw_lines": [
+        "34\t1\t210-80998\tDNP\t\t\tJ7"
+      ],
+      "source_columns": {
+        "Item": "34",
+        "Quantity": "1",
+        "AgilePN": "210-80998",
+        "ASSY_OPT": "DNP",
+        "FIND#": "",
+        "PRE_APN": "",
+        "Reference": "J7"
+      },
+      "reference_designators": [
+        "J7"
+      ]
+    },
+    {
+      "source_lines": [
+        60,
+        60
+      ],
+      "raw_lines": [
+        "35\t1\t210-83442\t\t\t\tJ8"
+      ],
+      "source_columns": {
+        "Item": "35",
+        "Quantity": "1",
+        "AgilePN": "210-83442",
+        "ASSY_OPT": "",
+        "FIND#": "",
+        "PRE_APN": "",
+        "Reference": "J8"
+      },
+      "reference_designators": [
+        "J8"
+      ]
+    },
+    {
+      "source_lines": [
+        61,
+        61
+      ],
+      "raw_lines": [
+        "36\t1\t210-83440\t\t\t\tJ9"
+      ],
+      "source_columns": {
+        "Item": "36",
+        "Quantity": "1",
+        "AgilePN": "210-83440",
+        "ASSY_OPT": "",
+        "FIND#": "",
+        "PRE_APN": "",
+        "Reference": "J9"
+      },
+      "reference_designators": [
+        "J9"
+      ]
+    },
+    {
+      "source_lines": [
+        62,
+        62
+      ],
+      "raw_lines": [
+        "37\t2\t210-82931\t\t\t\tJ10,J11"
+      ],
+      "source_columns": {
+        "Item": "37",
+        "Quantity": "2",
+        "AgilePN": "210-82931",
+        "ASSY_OPT": "",
+        "FIND#": "",
+        "PRE_APN": "",
+        "Reference": "J10,J11"
+      },
+      "reference_designators": [
+        "J10",
+        "J11"
+      ]
+    },
+    {
+      "source_lines": [
+        63,
+        63
+      ],
+      "raw_lines": [
+        "38\t1\t210-80192\t\t\t\tJ12"
+      ],
+      "source_columns": {
+        "Item": "38",
+        "Quantity": "1",
+        "AgilePN": "210-80192",
+        "ASSY_OPT": "",
+        "FIND#": "",
+        "PRE_APN": "",
+        "Reference": "J12"
+      },
+      "reference_designators": [
+        "J12"
+      ]
+    },
+    {
+      "source_lines": [
+        64,
+        64
+      ],
+      "raw_lines": [
+        "39\t1\t210-78429\t\t\t\tJ13"
+      ],
+      "source_columns": {
+        "Item": "39",
+        "Quantity": "1",
+        "AgilePN": "210-78429",
+        "ASSY_OPT": "",
+        "FIND#": "",
+        "PRE_APN": "",
+        "Reference": "J13"
+      },
+      "reference_designators": [
+        "J13"
+      ]
+    },
+    {
+      "source_lines": [
+        65,
+        65
+      ],
+      "raw_lines": [
+        "40\t2\t210-83388\tDNP\t\t\tJ14,J21"
+      ],
+      "source_columns": {
+        "Item": "40",
+        "Quantity": "2",
+        "AgilePN": "210-83388",
+        "ASSY_OPT": "DNP",
+        "FIND#": "",
+        "PRE_APN": "",
+        "Reference": "J14,J21"
+      },
+      "reference_designators": [
+        "J14",
+        "J21"
+      ]
+    },
+    {
+      "source_lines": [
+        66,
+        66
+      ],
+      "raw_lines": [
+        "41\t4\t210-75767\tDNP\t\t\tJ15,J16,J17,J20"
+      ],
+      "source_columns": {
+        "Item": "41",
+        "Quantity": "4",
+        "AgilePN": "210-75767",
+        "ASSY_OPT": "DNP",
+        "FIND#": "",
+        "PRE_APN": "",
+        "Reference": "J15,J16,J17,J20"
+      },
+      "reference_designators": [
+        "J15",
+        "J16",
+        "J17",
+        "J20"
+      ]
+    },
+    {
+      "source_lines": [
+        67,
+        67
+      ],
+      "raw_lines": [
+        "42\t1\t210-75442\tDNP\t\t\tJ19"
+      ],
+      "source_columns": {
+        "Item": "42",
+        "Quantity": "1",
+        "AgilePN": "210-75442",
+        "ASSY_OPT": "DNP",
+        "FIND#": "",
+        "PRE_APN": "",
+        "Reference": "J19"
+      },
+      "reference_designators": [
+        "J19"
+      ]
+    },
+    {
+      "source_lines": [
+        68,
+        68
+      ],
+      "raw_lines": [
+        "43\t1\t180-77771\t\t\t\tL1"
+      ],
+      "source_columns": {
+        "Item": "43",
+        "Quantity": "1",
+        "AgilePN": "180-77771",
+        "ASSY_OPT": "",
+        "FIND#": "",
+        "PRE_APN": "",
+        "Reference": "L1"
+      },
+      "reference_designators": [
+        "L1"
+      ]
+    },
+    {
+      "source_lines": [
+        69,
+        69
+      ],
+      "raw_lines": [
+        "44\t1\t180-80401\t\t\t\tL2"
+      ],
+      "source_columns": {
+        "Item": "44",
+        "Quantity": "1",
+        "AgilePN": "180-80401",
+        "ASSY_OPT": "",
+        "FIND#": "",
+        "PRE_APN": "",
+        "Reference": "L2"
+      },
+      "reference_designators": [
+        "L2"
+      ]
+    },
+    {
+      "source_lines": [
+        70,
+        70
+      ],
+      "raw_lines": [
+        "45\t2\t180-78959\t\t\t\tL3,L15"
+      ],
+      "source_columns": {
+        "Item": "45",
+        "Quantity": "2",
+        "AgilePN": "180-78959",
+        "ASSY_OPT": "",
+        "FIND#": "",
+        "PRE_APN": "",
+        "Reference": "L3,L15"
+      },
+      "reference_designators": [
+        "L3",
+        "L15"
+      ]
+    },
+    {
+      "source_lines": [
+        71,
+        71
+      ],
+      "raw_lines": [
+        "46\t1\t180-76336\t\t\t\tL4"
+      ],
+      "source_columns": {
+        "Item": "46",
+        "Quantity": "1",
+        "AgilePN": "180-76336",
+        "ASSY_OPT": "",
+        "FIND#": "",
+        "PRE_APN": "",
+        "Reference": "L4"
+      },
+      "reference_designators": [
+        "L4"
+      ]
+    },
+    {
+      "source_lines": [
+        72,
+        72
+      ],
+      "raw_lines": [
+        "47\t5\t180-77772\t\t\t\tL6,L7,L8,L9,L10"
+      ],
+      "source_columns": {
+        "Item": "47",
+        "Quantity": "5",
+        "AgilePN": "180-77772",
+        "ASSY_OPT": "",
+        "FIND#": "",
+        "PRE_APN": "",
+        "Reference": "L6,L7,L8,L9,L10"
+      },
+      "reference_designators": [
+        "L6",
+        "L7",
+        "L8",
+        "L9",
+        "L10"
+      ]
+    },
+    {
+      "source_lines": [
+        73,
+        73
+      ],
+      "raw_lines": [
+        "48\t3\t180-78469\t\t\t\tL11,L12,L13"
+      ],
+      "source_columns": {
+        "Item": "48",
+        "Quantity": "3",
+        "AgilePN": "180-78469",
+        "ASSY_OPT": "",
+        "FIND#": "",
+        "PRE_APN": "",
+        "Reference": "L11,L12,L13"
+      },
+      "reference_designators": [
+        "L11",
+        "L12",
+        "L13"
+      ]
+    },
+    {
+      "source_lines": [
+        74,
+        74
+      ],
+      "raw_lines": [
+        "49\t1\t180-81632\t\t\t\tL14"
+      ],
+      "source_columns": {
+        "Item": "49",
+        "Quantity": "1",
+        "AgilePN": "180-81632",
+        "ASSY_OPT": "",
+        "FIND#": "",
+        "PRE_APN": "",
+        "Reference": "L14"
+      },
+      "reference_designators": [
+        "L14"
+      ]
+    },
+    {
+      "source_lines": [
+        75,
+        75
+      ],
+      "raw_lines": [
+        "50\t1\t480-75317\t\t\t\tQ1"
+      ],
+      "source_columns": {
+        "Item": "50",
+        "Quantity": "1",
+        "AgilePN": "480-75317",
+        "ASSY_OPT": "",
+        "FIND#": "",
+        "PRE_APN": "",
+        "Reference": "Q1"
+      },
+      "reference_designators": [
+        "Q1"
+      ]
+    },
+    {
+      "source_lines": [
+        76,
+        76
+      ],
+      "raw_lines": [
+        "51\t1\t480-78363\t\t\t\tQ2"
+      ],
+      "source_columns": {
+        "Item": "51",
+        "Quantity": "1",
+        "AgilePN": "480-78363",
+        "ASSY_OPT": "",
+        "FIND#": "",
+        "PRE_APN": "",
+        "Reference": "Q2"
+      },
+      "reference_designators": [
+        "Q2"
+      ]
+    },
+    {
+      "source_lines": [
+        77,
+        88
+      ],
+      "raw_lines": [
+        "52\t64\t470-79965\t\t\t\tR2,R4,R5,R8,R12,R15,R22,",
+        "\t\t\t\t\t\tR23,R24,R25,R31,R32,R33,",
+        "\t\t\t\t\t\tR34,R35,R36,R37,R38,R39,",
+        "\t\t\t\t\t\tR40,R49,R50,R53,R54,R57,",
+        "\t\t\t\t\t\tR64,R67,R69,R71,R72,R73,",
+        "\t\t\t\t\t\tR89,R95,R97,R100,R102,",
+        "\t\t\t\t\t\tR104,R105,R106,R107,R108,",
+        "\t\t\t\t\t\tR109,R121,R139,R140,R141,",
+        "\t\t\t\t\t\tR142,R153,R154,R155,R156,",
+        "\t\t\t\t\t\tR159,R160,R166,R171,R172,",
+        "\t\t\t\t\t\tR179,R180,R182,R183,R190,",
+        "\t\t\t\t\t\tR203,R276,R295"
+      ],
+      "source_columns": {
+        "Item": "52",
+        "Quantity": "64",
+        "AgilePN": "470-79965",
+        "ASSY_OPT": "",
+        "FIND#": "",
+        "PRE_APN": "",
+        "Reference": "R2,R4,R5,R8,R12,R15,R22,R23,R24,R25,R31,R32,R33,R34,R35,R36,R37,R38,R39,R40,R49,R50,R53,R54,R57,R64,R67,R69,R71,R72,R73,R89,R95,R97,R100,R102,R104,R105,R106,R107,R108,R109,R121,R139,R140,R141,R142,R153,R154,R155,R156,R159,R160,R166,R171,R172,R179,R180,R182,R183,R190,R203,R276,R295"
+      },
+      "reference_designators": [
+        "R2",
+        "R4",
+        "R5",
+        "R8",
+        "R12",
+        "R15",
+        "R22",
+        "R23",
+        "R24",
+        "R25",
+        "R31",
+        "R32",
+        "R33",
+        "R34",
+        "R35",
+        "R36",
+        "R37",
+        "R38",
+        "R39",
+        "R40",
+        "R49",
+        "R50",
+        "R53",
+        "R54",
+        "R57",
+        "R64",
+        "R67",
+        "R69",
+        "R71",
+        "R72",
+        "R73",
+        "R89",
+        "R95",
+        "R97",
+        "R100",
+        "R102",
+        "R104",
+        "R105",
+        "R106",
+        "R107",
+        "R108",
+        "R109",
+        "R121",
+        "R139",
+        "R140",
+        "R141",
+        "R142",
+        "R153",
+        "R154",
+        "R155",
+        "R156",
+        "R159",
+        "R160",
+        "R166",
+        "R171",
+        "R172",
+        "R179",
+        "R180",
+        "R182",
+        "R183",
+        "R190",
+        "R203",
+        "R276",
+        "R295"
+      ]
+    },
+    {
+      "source_lines": [
+        89,
+        90
+      ],
+      "raw_lines": [
+        "53\t8\t470-80911\t\t\t\tR6,R7,R43,R44,R90,R173,",
+        "\t\t\t\t\t\tR174,R278"
+      ],
+      "source_columns": {
+        "Item": "53",
+        "Quantity": "8",
+        "AgilePN": "470-80911",
+        "ASSY_OPT": "",
+        "FIND#": "",
+        "PRE_APN": "",
+        "Reference": "R6,R7,R43,R44,R90,R173,R174,R278"
+      },
+      "reference_designators": [
+        "R6",
+        "R7",
+        "R43",
+        "R44",
+        "R90",
+        "R173",
+        "R174",
+        "R278"
+      ]
+    },
+    {
+      "source_lines": [
+        91,
+        93
+      ],
+      "raw_lines": [
+        "54\t17\t470-79965\tDNP\t\t\tR13,R14,R18,R55,R56,R82,",
+        "\t\t\t\t\t\tR88,R92,R96,R98,R99,R101,",
+        "\t\t\t\t\t\tR143,R204,R210,R211,R297"
+      ],
+      "source_columns": {
+        "Item": "54",
+        "Quantity": "17",
+        "AgilePN": "470-79965",
+        "ASSY_OPT": "DNP",
+        "FIND#": "",
+        "PRE_APN": "",
+        "Reference": "R13,R14,R18,R55,R56,R82,R88,R92,R96,R98,R99,R101,R143,R204,R210,R211,R297"
+      },
+      "reference_designators": [
+        "R13",
+        "R14",
+        "R18",
+        "R55",
+        "R56",
+        "R82",
+        "R88",
+        "R92",
+        "R96",
+        "R98",
+        "R99",
+        "R101",
+        "R143",
+        "R204",
+        "R210",
+        "R211",
+        "R297"
+      ]
+    },
+    {
+      "source_lines": [
+        94,
+        94
+      ],
+      "raw_lines": [
+        "55\t4\t470-76469\t\t\t\tR70,R163,R168,R169"
+      ],
+      "source_columns": {
+        "Item": "55",
+        "Quantity": "4",
+        "AgilePN": "470-76469",
+        "ASSY_OPT": "",
+        "FIND#": "",
+        "PRE_APN": "",
+        "Reference": "R70,R163,R168,R169"
+      },
+      "reference_designators": [
+        "R70",
+        "R163",
+        "R168",
+        "R169"
+      ]
+    },
+    {
+      "source_lines": [
+        95,
+        96
+      ],
+      "raw_lines": [
+        "56\t10\t470-80866\t\t\t\tR74,R75,R76,R77,R78,R79,",
+        "\t\t\t\t\t\tR83,R84,R206,R207"
+      ],
+      "source_columns": {
+        "Item": "56",
+        "Quantity": "10",
+        "AgilePN": "470-80866",
+        "ASSY_OPT": "",
+        "FIND#": "",
+        "PRE_APN": "",
+        "Reference": "R74,R75,R76,R77,R78,R79,R83,R84,R206,R207"
+      },
+      "reference_designators": [
+        "R74",
+        "R75",
+        "R76",
+        "R77",
+        "R78",
+        "R79",
+        "R83",
+        "R84",
+        "R206",
+        "R207"
+      ]
+    },
+    {
+      "source_lines": [
+        97,
+        97
+      ],
+      "raw_lines": [
+        "57\t3\t470-80866\tDNP\t\t\tR80,R81,R85"
+      ],
+      "source_columns": {
+        "Item": "57",
+        "Quantity": "3",
+        "AgilePN": "470-80866",
+        "ASSY_OPT": "DNP",
+        "FIND#": "",
+        "PRE_APN": "",
+        "Reference": "R80,R81,R85"
+      },
+      "reference_designators": [
+        "R80",
+        "R81",
+        "R85"
+      ]
+    },
+    {
+      "source_lines": [
+        98,
+        100
+      ],
+      "raw_lines": [
+        "58\t13\t470-75557\t\t\t\tR86,R116,R161,R162,R164,",
+        "\t\t\t\t\t\tR176,R186,R187,R188,R191,",
+        "\t\t\t\t\t\tR197,R257,R265"
+      ],
+      "source_columns": {
+        "Item": "58",
+        "Quantity": "13",
+        "AgilePN": "470-75557",
+        "ASSY_OPT": "",
+        "FIND#": "",
+        "PRE_APN": "",
+        "Reference": "R86,R116,R161,R162,R164,R176,R186,R187,R188,R191,R197,R257,R265"
+      },
+      "reference_designators": [
+        "R86",
+        "R116",
+        "R161",
+        "R162",
+        "R164",
+        "R176",
+        "R186",
+        "R187",
+        "R188",
+        "R191",
+        "R197",
+        "R257",
+        "R265"
+      ]
+    },
+    {
+      "source_lines": [
+        101,
+        101
+      ],
+      "raw_lines": [
+        "59\t4\t470-31023\t\t\t\tR87,R111,R112,R113"
+      ],
+      "source_columns": {
+        "Item": "59",
+        "Quantity": "4",
+        "AgilePN": "470-31023",
+        "ASSY_OPT": "",
+        "FIND#": "",
+        "PRE_APN": "",
+        "Reference": "R87,R111,R112,R113"
+      },
+      "reference_designators": [
+        "R87",
+        "R111",
+        "R112",
+        "R113"
+      ]
+    },
+    {
+      "source_lines": [
+        102,
+        102
+      ],
+      "raw_lines": [
+        "60\t2\t470-76086\tDNP\t\t\tR91,R122"
+      ],
+      "source_columns": {
+        "Item": "60",
+        "Quantity": "2",
+        "AgilePN": "470-76086",
+        "ASSY_OPT": "DNP",
+        "FIND#": "",
+        "PRE_APN": "",
+        "Reference": "R91,R122"
+      },
+      "reference_designators": [
+        "R91",
+        "R122"
+      ]
+    },
+    {
+      "source_lines": [
+        103,
+        103
+      ],
+      "raw_lines": [
+        "61\t4\t470-75557\tDNP\t\t\tR93,R175,R181,R294"
+      ],
+      "source_columns": {
+        "Item": "61",
+        "Quantity": "4",
+        "AgilePN": "470-75557",
+        "ASSY_OPT": "DNP",
+        "FIND#": "",
+        "PRE_APN": "",
+        "Reference": "R93,R175,R181,R294"
+      },
+      "reference_designators": [
+        "R93",
+        "R175",
+        "R181",
+        "R294"
+      ]
+    },
+    {
+      "source_lines": [
+        104,
+        105
+      ],
+      "raw_lines": [
+        "62\t7\t470-76240\t\t\t\tR94,R127,R145,R146,R147,",
+        "\t\t\t\t\t\tR149,R185"
+      ],
+      "source_columns": {
+        "Item": "62",
+        "Quantity": "7",
+        "AgilePN": "470-76240",
+        "ASSY_OPT": "",
+        "FIND#": "",
+        "PRE_APN": "",
+        "Reference": "R94,R127,R145,R146,R147,R149,R185"
+      },
+      "reference_designators": [
+        "R94",
+        "R127",
+        "R145",
+        "R146",
+        "R147",
+        "R149",
+        "R185"
+      ]
+    },
+    {
+      "source_lines": [
+        106,
+        106
+      ],
+      "raw_lines": [
+        "63\t1\t470-75790\t\t\t\tR103"
+      ],
+      "source_columns": {
+        "Item": "63",
+        "Quantity": "1",
+        "AgilePN": "470-75790",
+        "ASSY_OPT": "",
+        "FIND#": "",
+        "PRE_APN": "",
+        "Reference": "R103"
+      },
+      "reference_designators": [
+        "R103"
+      ]
+    },
+    {
+      "source_lines": [
+        107,
+        107
+      ],
+      "raw_lines": [
+        "64\t4\t470-83213\t\t\t\tR110,R150,R157,R158"
+      ],
+      "source_columns": {
+        "Item": "64",
+        "Quantity": "4",
+        "AgilePN": "470-83213",
+        "ASSY_OPT": "",
+        "FIND#": "",
+        "PRE_APN": "",
+        "Reference": "R110,R150,R157,R158"
+      },
+      "reference_designators": [
+        "R110",
+        "R150",
+        "R157",
+        "R158"
+      ]
+    },
+    {
+      "source_lines": [
+        108,
+        108
+      ],
+      "raw_lines": [
+        "65\t2\t470-75591\t\t\t\tR117,R144"
+      ],
+      "source_columns": {
+        "Item": "65",
+        "Quantity": "2",
+        "AgilePN": "470-75591",
+        "ASSY_OPT": "",
+        "FIND#": "",
+        "PRE_APN": "",
+        "Reference": "R117,R144"
+      },
+      "reference_designators": [
+        "R117",
+        "R144"
+      ]
+    },
+    {
+      "source_lines": [
+        109,
+        109
+      ],
+      "raw_lines": [
+        "66\t3\t470-76237\t\t\t\tR118,R119,R120"
+      ],
+      "source_columns": {
+        "Item": "66",
+        "Quantity": "3",
+        "AgilePN": "470-76237",
+        "ASSY_OPT": "",
+        "FIND#": "",
+        "PRE_APN": "",
+        "Reference": "R118,R119,R120"
+      },
+      "reference_designators": [
+        "R118",
+        "R119",
+        "R120"
+      ]
+    },
+    {
+      "source_lines": [
+        110,
+        110
+      ],
+      "raw_lines": [
+        "67\t3\t470-75408\t\t\t\tR125,R126,R148"
+      ],
+      "source_columns": {
+        "Item": "67",
+        "Quantity": "3",
+        "AgilePN": "470-75408",
+        "ASSY_OPT": "",
+        "FIND#": "",
+        "PRE_APN": "",
+        "Reference": "R125,R126,R148"
+      },
+      "reference_designators": [
+        "R125",
+        "R126",
+        "R148"
+      ]
+    },
+    {
+      "source_lines": [
+        111,
+        111
+      ],
+      "raw_lines": [
+        "68\t4\t470-83212\tDNP\t\t\tR130,R133,R134,R137"
+      ],
+      "source_columns": {
+        "Item": "68",
+        "Quantity": "4",
+        "AgilePN": "470-83212",
+        "ASSY_OPT": "DNP",
+        "FIND#": "",
+        "PRE_APN": "",
+        "Reference": "R130,R133,R134,R137"
+      },
+      "reference_designators": [
+        "R130",
+        "R133",
+        "R134",
+        "R137"
+      ]
+    },
+    {
+      "source_lines": [
+        112,
+        112
+      ],
+      "raw_lines": [
+        "69\t3\t470-83212\t\t\t\tR132,R135,R136"
+      ],
+      "source_columns": {
+        "Item": "69",
+        "Quantity": "3",
+        "AgilePN": "470-83212",
+        "ASSY_OPT": "",
+        "FIND#": "",
+        "PRE_APN": "",
+        "Reference": "R132,R135,R136"
+      },
+      "reference_designators": [
+        "R132",
+        "R135",
+        "R136"
+      ]
+    },
+    {
+      "source_lines": [
+        113,
+        113
+      ],
+      "raw_lines": [
+        "70\t1\t470-30384\t\t\t\tR167"
+      ],
+      "source_columns": {
+        "Item": "70",
+        "Quantity": "1",
+        "AgilePN": "470-30384",
+        "ASSY_OPT": "",
+        "FIND#": "",
+        "PRE_APN": "",
+        "Reference": "R167"
+      },
+      "reference_designators": [
+        "R167"
+      ]
+    },
+    {
+      "source_lines": [
+        114,
+        114
+      ],
+      "raw_lines": [
+        "71\t1\t470-79978\tDNP\t\t\tR170"
+      ],
+      "source_columns": {
+        "Item": "71",
+        "Quantity": "1",
+        "AgilePN": "470-79978",
+        "ASSY_OPT": "DNP",
+        "FIND#": "",
+        "PRE_APN": "",
+        "Reference": "R170"
+      },
+      "reference_designators": [
+        "R170"
+      ]
+    },
+    {
+      "source_lines": [
+        115,
+        115
+      ],
+      "raw_lines": [
+        "72\t1\t470-76066\t\t\t\tR178"
+      ],
+      "source_columns": {
+        "Item": "72",
+        "Quantity": "1",
+        "AgilePN": "470-76066",
+        "ASSY_OPT": "",
+        "FIND#": "",
+        "PRE_APN": "",
+        "Reference": "R178"
+      },
+      "reference_designators": [
+        "R178"
+      ]
+    },
+    {
+      "source_lines": [
+        116,
+        116
+      ],
+      "raw_lines": [
+        "73\t2\t470-82103\t\t\t\tR184,R189"
+      ],
+      "source_columns": {
+        "Item": "73",
+        "Quantity": "2",
+        "AgilePN": "470-82103",
+        "ASSY_OPT": "",
+        "FIND#": "",
+        "PRE_APN": "",
+        "Reference": "R184,R189"
+      },
+      "reference_designators": [
+        "R184",
+        "R189"
+      ]
+    },
+    {
+      "source_lines": [
+        117,
+        117
+      ],
+      "raw_lines": [
+        "74\t1\t470-76240\tDNP\t\t\tR202"
+      ],
+      "source_columns": {
+        "Item": "74",
+        "Quantity": "1",
+        "AgilePN": "470-76240",
+        "ASSY_OPT": "DNP",
+        "FIND#": "",
+        "PRE_APN": "",
+        "Reference": "R202"
+      },
+      "reference_designators": [
+        "R202"
+      ]
+    },
+    {
+      "source_lines": [
+        118,
+        118
+      ],
+      "raw_lines": [
+        "75\t2\t470-30914\t\t\t\tR213,R214"
+      ],
+      "source_columns": {
+        "Item": "75",
+        "Quantity": "2",
+        "AgilePN": "470-30914",
+        "ASSY_OPT": "",
+        "FIND#": "",
+        "PRE_APN": "",
+        "Reference": "R213,R214"
+      },
+      "reference_designators": [
+        "R213",
+        "R214"
+      ]
+    },
+    {
+      "source_lines": [
+        119,
+        119
+      ],
+      "raw_lines": [
+        "76\t1\t470-30297\t\t\t\tR216"
+      ],
+      "source_columns": {
+        "Item": "76",
+        "Quantity": "1",
+        "AgilePN": "470-30297",
+        "ASSY_OPT": "",
+        "FIND#": "",
+        "PRE_APN": "",
+        "Reference": "R216"
+      },
+      "reference_designators": [
+        "R216"
+      ]
+    },
+    {
+      "source_lines": [
+        120,
+        120
+      ],
+      "raw_lines": [
+        "77\t2\t470-80911\tDNP\t\t\tR298,R299"
+      ],
+      "source_columns": {
+        "Item": "77",
+        "Quantity": "2",
+        "AgilePN": "470-80911",
+        "ASSY_OPT": "DNP",
+        "FIND#": "",
+        "PRE_APN": "",
+        "Reference": "R298,R299"
+      },
+      "reference_designators": [
+        "R298",
+        "R299"
+      ]
+    },
+    {
+      "source_lines": [
+        121,
+        121
+      ],
+      "raw_lines": [
+        "78\t5\t470-83592\t\t\t\tSJ1,SJ2,SJ3,SJ4,SJ5"
+      ],
+      "source_columns": {
+        "Item": "78",
+        "Quantity": "5",
+        "AgilePN": "470-83592",
+        "ASSY_OPT": "",
+        "FIND#": "",
+        "PRE_APN": "",
+        "Reference": "SJ1,SJ2,SJ3,SJ4,SJ5"
+      },
+      "reference_designators": [
+        "SJ1",
+        "SJ2",
+        "SJ3",
+        "SJ4",
+        "SJ5"
+      ]
+    },
+    {
+      "source_lines": [
+        122,
+        122
+      ],
+      "raw_lines": [
+        "79\t3\t510-78653\t\t\t\tSW1,SW2,SW3"
+      ],
+      "source_columns": {
+        "Item": "79",
+        "Quantity": "3",
+        "AgilePN": "510-78653",
+        "ASSY_OPT": "",
+        "FIND#": "",
+        "PRE_APN": "",
+        "Reference": "SW1,SW2,SW3"
+      },
+      "reference_designators": [
+        "SW1",
+        "SW2",
+        "SW3"
+      ]
+    },
+    {
+      "source_lines": [
+        123,
+        128
+      ],
+      "raw_lines": [
+        "80\t28\t211-76643\t\t\t\tTP2,TP5,TP6,TP8,TP9,TP10,",
+        "\t\t\t\t\t\tTP11,TP12,TP13,TP14,TP15,",
+        "\t\t\t\t\t\tTP16,TP17,TP18,TP19,TP20,",
+        "\t\t\t\t\t\tTP21,TP22,TP23,TP24,TP25,",
+        "\t\t\t\t\t\tTP26,TP27,TP28,TP29,TP30,",
+        "\t\t\t\t\t\tTP31,TP32"
+      ],
+      "source_columns": {
+        "Item": "80",
+        "Quantity": "28",
+        "AgilePN": "211-76643",
+        "ASSY_OPT": "",
+        "FIND#": "",
+        "PRE_APN": "",
+        "Reference": "TP2,TP5,TP6,TP8,TP9,TP10,TP11,TP12,TP13,TP14,TP15,TP16,TP17,TP18,TP19,TP20,TP21,TP22,TP23,TP24,TP25,TP26,TP27,TP28,TP29,TP30,TP31,TP32"
+      },
+      "reference_designators": [
+        "TP2",
+        "TP5",
+        "TP6",
+        "TP8",
+        "TP9",
+        "TP10",
+        "TP11",
+        "TP12",
+        "TP13",
+        "TP14",
+        "TP15",
+        "TP16",
+        "TP17",
+        "TP18",
+        "TP19",
+        "TP20",
+        "TP21",
+        "TP22",
+        "TP23",
+        "TP24",
+        "TP25",
+        "TP26",
+        "TP27",
+        "TP28",
+        "TP29",
+        "TP30",
+        "TP31",
+        "TP32"
+      ]
+    },
+    {
+      "source_lines": [
+        129,
+        129
+      ],
+      "raw_lines": [
+        "81\t1\tTMP-CIP-14239\t\t\t344-78012\tU1"
+      ],
+      "source_columns": {
+        "Item": "81",
+        "Quantity": "1",
+        "AgilePN": "TMP-CIP-14239",
+        "ASSY_OPT": "",
+        "FIND#": "",
+        "PRE_APN": "344-78012",
+        "Reference": "U1"
+      },
+      "reference_designators": [
+        "U1"
+      ]
+    },
+    {
+      "source_lines": [
+        130,
+        130
+      ],
+      "raw_lines": [
+        "82\t1\t315-80827\t\t\t\tU2"
+      ],
+      "source_columns": {
+        "Item": "82",
+        "Quantity": "1",
+        "AgilePN": "315-80827",
+        "ASSY_OPT": "",
+        "FIND#": "",
+        "PRE_APN": "",
+        "Reference": "U2"
+      },
+      "reference_designators": [
+        "U2"
+      ]
+    },
+    {
+      "source_lines": [
+        131,
+        131
+      ],
+      "raw_lines": [
+        "83\t1\t315-81422\t\t\t\tU3"
+      ],
+      "source_columns": {
+        "Item": "83",
+        "Quantity": "1",
+        "AgilePN": "315-81422",
+        "ASSY_OPT": "",
+        "FIND#": "",
+        "PRE_APN": "",
+        "Reference": "U3"
+      },
+      "reference_designators": [
+        "U3"
+      ]
+    },
+    {
+      "source_lines": [
+        132,
+        132
+      ],
+      "raw_lines": [
+        "84\t1\t312-81574\t\t\t\tU4"
+      ],
+      "source_columns": {
+        "Item": "84",
+        "Quantity": "1",
+        "AgilePN": "312-81574",
+        "ASSY_OPT": "",
+        "FIND#": "",
+        "PRE_APN": "",
+        "Reference": "U4"
+      },
+      "reference_designators": [
+        "U4"
+      ]
+    },
+    {
+      "source_lines": [
+        133,
+        133
+      ],
+      "raw_lines": [
+        "85\t1\t480-78843\t\t\t\tU5"
+      ],
+      "source_columns": {
+        "Item": "85",
+        "Quantity": "1",
+        "AgilePN": "480-78843",
+        "ASSY_OPT": "",
+        "FIND#": "",
+        "PRE_APN": "",
+        "Reference": "U5"
+      },
+      "reference_designators": [
+        "U5"
+      ]
+    },
+    {
+      "source_lines": [
+        134,
+        134
+      ],
+      "raw_lines": [
+        "86\t1\t312-81524\tDNP\t\t\tU6"
+      ],
+      "source_columns": {
+        "Item": "86",
+        "Quantity": "1",
+        "AgilePN": "312-81524",
+        "ASSY_OPT": "DNP",
+        "FIND#": "",
+        "PRE_APN": "",
+        "Reference": "U6"
+      },
+      "reference_designators": [
+        "U6"
+      ]
+    },
+    {
+      "source_lines": [
+        135,
+        135
+      ],
+      "raw_lines": [
+        "87\t1\t510-78247\t\t\t\tU7"
+      ],
+      "source_columns": {
+        "Item": "87",
+        "Quantity": "1",
+        "AgilePN": "510-78247",
+        "ASSY_OPT": "",
+        "FIND#": "",
+        "PRE_APN": "",
+        "Reference": "U7"
+      },
+      "reference_designators": [
+        "U7"
+      ]
+    },
+    {
+      "source_lines": [
+        136,
+        136
+      ],
+      "raw_lines": [
+        "88\t1\t344-02410\t\t\t\tU8"
+      ],
+      "source_columns": {
+        "Item": "88",
+        "Quantity": "1",
+        "AgilePN": "344-02410",
+        "ASSY_OPT": "",
+        "FIND#": "",
+        "PRE_APN": "",
+        "Reference": "U8"
+      },
+      "reference_designators": [
+        "U8"
+      ]
+    },
+    {
+      "source_lines": [
+        137,
+        137
+      ],
+      "raw_lines": [
+        "89\t1\t480-78843\tDNP\t\t\tU9"
+      ],
+      "source_columns": {
+        "Item": "89",
+        "Quantity": "1",
+        "AgilePN": "480-78843",
+        "ASSY_OPT": "DNP",
+        "FIND#": "",
+        "PRE_APN": "",
+        "Reference": "U9"
+      },
+      "reference_designators": [
+        "U9"
+      ]
+    },
+    {
+      "source_lines": [
+        138,
+        138
+      ],
+      "raw_lines": [
+        "90\t1\tTMP-CIP-7425\t\t\t312-83141\tU10"
+      ],
+      "source_columns": {
+        "Item": "90",
+        "Quantity": "1",
+        "AgilePN": "TMP-CIP-7425",
+        "ASSY_OPT": "",
+        "FIND#": "",
+        "PRE_APN": "312-83141",
+        "Reference": "U10"
+      },
+      "reference_designators": [
+        "U10"
+      ]
+    },
+    {
+      "source_lines": [
+        139,
+        139
+      ],
+      "raw_lines": [
+        "91\t1\t312-83230\t\t\t\tU11"
+      ],
+      "source_columns": {
+        "Item": "91",
+        "Quantity": "1",
+        "AgilePN": "312-83230",
+        "ASSY_OPT": "",
+        "FIND#": "",
+        "PRE_APN": "",
+        "Reference": "U11"
+      },
+      "reference_designators": [
+        "U11"
+      ]
+    },
+    {
+      "source_lines": [
+        140,
+        140
+      ],
+      "raw_lines": [
+        "92\t1\t342-00710\t\t\t\tU12"
+      ],
+      "source_columns": {
+        "Item": "92",
+        "Quantity": "1",
+        "AgilePN": "342-00710",
+        "ASSY_OPT": "",
+        "FIND#": "",
+        "PRE_APN": "",
+        "Reference": "U12"
+      },
+      "reference_designators": [
+        "U12"
+      ]
+    },
+    {
+      "source_lines": [
+        141,
+        141
+      ],
+      "raw_lines": [
+        "93\t1\t312-81473\t\t\t\tU41"
+      ],
+      "source_columns": {
+        "Item": "93",
+        "Quantity": "1",
+        "AgilePN": "312-81473",
+        "ASSY_OPT": "",
+        "FIND#": "",
+        "PRE_APN": "",
+        "Reference": "U41"
+      },
+      "reference_designators": [
+        "U41"
+      ]
+    },
+    {
+      "source_lines": [
+        142,
+        142
+      ],
+      "raw_lines": [
+        "94\t1\t230-78680\t \t\t\tY1"
+      ],
+      "source_columns": {
+        "Item": "94",
+        "Quantity": "1",
+        "AgilePN": "230-78680",
+        "ASSY_OPT": " ",
+        "FIND#": "",
+        "PRE_APN": "",
+        "Reference": "Y1"
+      },
+      "reference_designators": [
+        "Y1"
+      ]
+    },
+    {
+      "source_lines": [
+        143,
+        143
+      ],
+      "raw_lines": [
+        "95\t1\t230-78676\t \t\t\tY2"
+      ],
+      "source_columns": {
+        "Item": "95",
+        "Quantity": "1",
+        "AgilePN": "230-78676",
+        "ASSY_OPT": " ",
+        "FIND#": "",
+        "PRE_APN": "",
+        "Reference": "Y2"
+      },
+      "reference_designators": [
+        "Y2"
+      ]
+    },
+    {
+      "source_lines": [
+        144,
+        144
+      ],
+      "raw_lines": [
+        "96\t1\t230-78677\t \t\t\tY3"
+      ],
+      "source_columns": {
+        "Item": "96",
+        "Quantity": "1",
+        "AgilePN": "230-78677",
+        "ASSY_OPT": " ",
+        "FIND#": "",
+        "PRE_APN": "",
+        "Reference": "Y3"
+      },
+      "reference_designators": [
+        "Y3"
+      ]
+    }
+  ]
+}

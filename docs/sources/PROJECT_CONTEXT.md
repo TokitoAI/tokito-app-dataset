@@ -58,3 +58,27 @@ Extracted 14155 FileHeader records from 13 Altium schematic sheets (Ultimaker an
 
 ## NXP normalized BOM
 Grouped manufacturer alternatives into 108 part groups (278 manufacturer rows), 434 distinct reference designators; source BOM and source netlist refdes sets match exactly, with no quantity conflicts or duplicated refdes groups. bom-parts.json preserves alternatives and CSV row numbers. Remaining verified source leads recorded separately; paid model not purchased and not assumed to match.
+
+## 2026-10-10 board identity, photos and repository context
+
+Readable phone silkscreen confirms **FRDM-MCXN236**, superseding the earlier MCXN947 hypothesis. Earlier NXP archive, BOM, connectivity and enclosure entries in this history describe MCXN947 only. They remain a different-board reference and cannot establish labels for the photographed MCXN236. Ultimainboard 2.1.4 and Raspberry Pi 3B V1.2 markings are also confirmed; ESP clone manufacturers/revisions and the MCXN236 physical PCB revision remain unresolved.
+
+The MCXN236 SPF-90828 Rev C schematic is preserved: 13 sheets, SCH-90828 / SPF-90828, drawing date 2024-03-25, copied unchanged from Downloads with its earlier download provenance unknown. The matching design ZIP is still unavailable. On 2026-10-10 the official download page was reached, the browser download timed out after 45 seconds, and curl against the observed official cache URL returned HTTP 403 and zero bytes. Matching BOM, BRD, Gerbers and populated-board models remain missing.
+
+The dataset now includes 80 phone files (47 captures and 33 cropped variants), reviewed board identities/boxes, and 107 partial major-component seed boxes across five close-ups. The board detector split contains 62 training images, 11 validation originals and seven excluded validation crops; original/crop groups do not cross folds. There is one specimen/session per family and no independent ESP32 validation pose. Experimental YOLO board detector and crop-classifier training has completed. Known-photo diagnostics, including a front-view filter selected after inspecting errors, do not establish independent generalization. Complete component labels, exact source registration and a trained every-component detector remain unfinished.
+
+The private [TokitoAI/tokito-app-dataset](https://github.com/TokitoAI/tokito-app-dataset) repository is shared for the hackathon work with Afnan and Navaneeth. Dataset/model changes go through PRs. GitHub state read on 2026-10-10 shows [PR #2](https://github.com/TokitoAI/tokito-app-dataset/pull/2) merged into main with the corpus, [PR #3](https://github.com/TokitoAI/tokito-app-dataset/pull/3) merged into the dataset branch, and [PR #4](https://github.com/TokitoAI/tokito-app-dataset/pull/4) open to publish the experimental model results on main. Repository sharing does not establish broader rights to third-party source assets. COVERAGE.md and board-specific provenance record current scope; the preceding entries retain acquisition history.
+
+## 2026-10-10 MCXN236 official archive acquired
+
+The user completed the official MCXN236 design-file download after the failed browser/curl attempts above. The 21,418,523-byte archive was ingested with a passing ZIP CRC check; SHA-256 is `e1ee1755a9cc2c1efa27ceb25cc459d7e55f0626f4ee3037199183ee45482ff2`. The archive inventory records eight actual files: LAY-90828_C.brd, SCH-90828_C.DSN/.opj/.BOM/.BOM.xlsx, and allegro/pstchip.dat/pstxnet.dat/pstxprt.dat. This successful acquisition supersedes the earlier entry saying the design ZIP and native BOM/BRD sources were unavailable.
+
+No separate Gerber, drill, STEP or GLB exports occur in this archive. At acquisition, structured BOM/netlist records had not yet been extracted; the completion entry below supersedes that status. The native files have not been engineering-validated in their authoring tools, and the photographed PCB revision remains unknown. Original files and provenance are preserved; acquisition does not establish broader rights or physical-part equivalence.
+
+The separate SPF-90828 schematic index now has 629 reference-like occurrences and 410 distinct normalized strings. BGA pin names, change history, aliases and repeated symbols create ambiguity; these are not BOM quantities or verified component counts. The readable photo SW3 is linked to the ISP pushbutton on schematic page 10 as a model-level source candidate, with exact specimen revision and installed manufacturer part still unresolved.
+
+## 2026-10-10 MCXN236 structured extraction completed
+
+Verified structured records now contain 96 source BOM items / 391 reference designators, with identical reference sets across text BOM, XLSX, pstxprt and pstxnet. They preserve 92 primitives, 296 electrical nets / 1,243 pin records, and a separate literal NC group / 87 pin records. The source marks 63 references DNP and 37 NO PART TO ORDER; these totals do not describe fitted parts. Source provenance and comparisons are recorded in structured-rev-c/README.md and extraction-report.json.
+
+379 native references have ambiguous schematic-text candidates. SW3 joins to source BOM item 79, worksheet row 93, MPN `434123025826`, and the page-10 ISP schematic switch. This identifies the Rev C source part; the photo link remains model-level because physical PCB revision and exact installed part are unknown. Native CAD engineering review, photo registration and separate Gerber/drill/STEP/GLB exports remain outstanding.

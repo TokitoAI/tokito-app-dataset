@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "source_image": "data/photo-model/photos\\raw\\IMG_20261009_221755_1.jpg",
+  "source_image": "data/photo-model/photos/raw/IMG_20261009_221755_1.jpg",
   "image_width": 1600,
   "image_height": 3888,
   "coordinate_format": "xyxy_normalized",
@@ -16,7 +16,7 @@
   "coverage": {
     "status": "partial_major_component_seeds",
     "microcomponents_complete": false,
-    "notes": "Major clearly visible populated headers, USB receptacles, main ICs, tactile SW3, and two metal resonators annotated. Dense passives, minor packages, jumpers, LED identification, bare footprints, underside and obscured objects remain unannotated. Unannotated image regions are not verified negative training examples. No exact reference designator or BOM part identity asserted."
+    "notes": "Major clearly visible populated headers, USB receptacles, main ICs, tactile SW3, and two metal resonators annotated. Dense passives, minor packages, jumpers, LED identification, bare footprints, underside and obscured objects remain unannotated. Unannotated image regions are not verified negative training examples. SW3 is a readable photo reference designator. Its Rev C schematic link is a model-level candidate because the specimen revision is unconfirmed. No exact installed BOM part identity is asserted."
   },
   "annotations": [
     {
@@ -205,8 +205,10 @@
       "evidence": "Tactile switch; adjacent SW3 silkscreen readable.",
       "clipped": false,
       "review_status": "visual_seed_requires_box_review",
-      "reference_designator": null,
-      "manufacturer_part_number": null
+      "reference_designator": "SW3",
+      "manufacturer_part_number": null,
+      "reference_designator_origin": "manual_reading_of_adjacent_photo_silkscreen",
+      "source_link_id": "mcxn236-sw3-schematic-candidate"
     },
     {
       "id": "nxp_seed_010",
@@ -544,5 +546,7 @@
       "reference_designator": null,
       "manufacturer_part_number": null
     }
-  ]
+  ],
+  "path_base": "repository_root",
+  "source_image_sha256": "39fc7bf72f364c0b0e848dc9fe9492b85efbdef1481a28d9bbecf4787e51a47e"
 }

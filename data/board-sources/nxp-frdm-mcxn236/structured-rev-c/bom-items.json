@@ -1,0 +1,2718 @@
+{
+  "schema_version": "1.0",
+  "source": {
+    "path": "original-design-files/Design Files/SCH-90828_C.BOM.xlsx",
+    "sha256": "bea3bf8eb9b4aaddfaac5a767ac0e40dcbacaa96d515b91600e977732b009cd7",
+    "bytes": 26247
+  },
+  "columns": [
+    "Item",
+    "Quantity",
+    "AgilePN",
+    "Description",
+    "MFG",
+    "MFG_PN",
+    "VALUE",
+    "ASSY_OPT",
+    "FIND#",
+    "PRE_APN",
+    "Reference"
+  ],
+  "items": [
+    {
+      "id": "bom-item-001",
+      "sheet": "SCH-90828_C",
+      "row": 15,
+      "range": "A15:K15",
+      "source_columns": {
+        "Item": 1,
+        "Quantity": 4,
+        "AgilePN": "510-75297",
+        "Description": "NON-PLATED MOUNTING HOLE 125 DRILL / 160 KEEPOUT NO PART TO ORDER",
+        "MFG": null,
+        "MFG_PN": null,
+        "VALUE": 125,
+        "ASSY_OPT": null,
+        "FIND#": null,
+        "PRE_APN": null,
+        "Reference": "BH1,BH2,BH3,BH4"
+      },
+      "reference_designators": [
+        "BH1",
+        "BH2",
+        "BH3",
+        "BH4"
+      ],
+      "dnp_explicit": false,
+      "manufacturer_part_number_text": null,
+      "manufacturer_part_number_cell_type": "n"
+    },
+    {
+      "id": "bom-item-002",
+      "sheet": "SCH-90828_C",
+      "row": 16,
+      "range": "A16:K16",
+      "source_columns": {
+        "Item": 2,
+        "Quantity": 6,
+        "AgilePN": "150-80128",
+        "Description": "CAP CER 4.7uF 16V 10% X5R 0603",
+        "MFG": "MURATA",
+        "MFG_PN": "GRM188R61C475KAAJD",
+        "VALUE": "4.7uF",
+        "ASSY_OPT": null,
+        "FIND#": null,
+        "PRE_APN": null,
+        "Reference": "C1,C5,C32,C36,C40,C41"
+      },
+      "reference_designators": [
+        "C1",
+        "C5",
+        "C32",
+        "C36",
+        "C40",
+        "C41"
+      ],
+      "dnp_explicit": false,
+      "manufacturer_part_number_text": "GRM188R61C475KAAJD",
+      "manufacturer_part_number_cell_type": "s"
+    },
+    {
+      "id": "bom-item-003",
+      "sheet": "SCH-90828_C",
+      "row": 17,
+      "range": "A17:K17",
+      "source_columns": {
+        "Item": 3,
+        "Quantity": 38,
+        "AgilePN": "150-75182",
+        "Description": "CAP CER 0.1UF 16V 10% X7R 0402",
+        "MFG": "Samsung Electro-Mechanics",
+        "MFG_PN": "CL05B104KO5NNNC",
+        "VALUE": "0.1UF",
+        "ASSY_OPT": null,
+        "FIND#": null,
+        "PRE_APN": null,
+        "Reference": "C2,C3,C6,C9,C11,C12,C14,C15,C16,C17,C19,C20,C22,C23,C25,C26,C27,C33,C35,C39,C47,C62,C65,C66,C67,C68,C69,C70,C73,C76,C80,C81,C83,C98,C102,C107,C150,C154"
+      },
+      "reference_designators": [
+        "C2",
+        "C3",
+        "C6",
+        "C9",
+        "C11",
+        "C12",
+        "C14",
+        "C15",
+        "C16",
+        "C17",
+        "C19",
+        "C20",
+        "C22",
+        "C23",
+        "C25",
+        "C26",
+        "C27",
+        "C33",
+        "C35",
+        "C39",
+        "C47",
+        "C62",
+        "C65",
+        "C66",
+        "C67",
+        "C68",
+        "C69",
+        "C70",
+        "C73",
+        "C76",
+        "C80",
+        "C81",
+        "C83",
+        "C98",
+        "C102",
+        "C107",
+        "C150",
+        "C154"
+      ],
+      "dnp_explicit": false,
+      "manufacturer_part_number_text": "CL05B104KO5NNNC",
+      "manufacturer_part_number_cell_type": "s"
+    },
+    {
+      "id": "bom-item-004",
+      "sheet": "SCH-90828_C",
+      "row": 18,
+      "range": "A18:K18",
+      "source_columns": {
+        "Item": 4,
+        "Quantity": 8,
+        "AgilePN": "150-79569",
+        "Description": "CAP CER 10uF 25V 10% X5R 0603",
+        "MFG": "SANYEAR",
+        "MFG_PN": "C0603X5R106K250NT",
+        "VALUE": "10uF",
+        "ASSY_OPT": null,
+        "FIND#": null,
+        "PRE_APN": null,
+        "Reference": "C4,C38,C63,C64,C85,C109,C114,C115"
+      },
+      "reference_designators": [
+        "C4",
+        "C38",
+        "C63",
+        "C64",
+        "C85",
+        "C109",
+        "C114",
+        "C115"
+      ],
+      "dnp_explicit": false,
+      "manufacturer_part_number_text": "C0603X5R106K250NT",
+      "manufacturer_part_number_cell_type": "s"
+    },
+    {
+      "id": "bom-item-005",
+      "sheet": "SCH-90828_C",
+      "row": 19,
+      "range": "A19:K19",
+      "source_columns": {
+        "Item": 5,
+        "Quantity": 26,
+        "AgilePN": "150-80357",
+        "Description": "CAP CER 1uF 10V 10% X7S 0402",
+        "MFG": "MURATA",
+        "MFG_PN": "GRM155C71A105KE11D",
+        "VALUE": "1uF",
+        "ASSY_OPT": null,
+        "FIND#": null,
+        "PRE_APN": null,
+        "Reference": "C7,C8,C10,C13,C21,C24,C30,C31,C42,C43,C44,C45,C48,C50,C51,C52,C53,C55,C56,C57,C58,C61,C99,C101,C103,C106"
+      },
+      "reference_designators": [
+        "C7",
+        "C8",
+        "C10",
+        "C13",
+        "C21",
+        "C24",
+        "C30",
+        "C31",
+        "C42",
+        "C43",
+        "C44",
+        "C45",
+        "C48",
+        "C50",
+        "C51",
+        "C52",
+        "C53",
+        "C55",
+        "C56",
+        "C57",
+        "C58",
+        "C61",
+        "C99",
+        "C101",
+        "C103",
+        "C106"
+      ],
+      "dnp_explicit": false,
+      "manufacturer_part_number_text": "GRM155C71A105KE11D",
+      "manufacturer_part_number_cell_type": "s"
+    },
+    {
+      "id": "bom-item-006",
+      "sheet": "SCH-90828_C",
+      "row": 20,
+      "range": "A20:K20",
+      "source_columns": {
+        "Item": 6,
+        "Quantity": 1,
+        "AgilePN": "TMP-CIP-16501",
+        "Description": "CAP CER 4.7uF 10V 20% X5R 0402",
+        "MFG": "SAMSUNG ELECTRO MECHANICS",
+        "MFG_PN": "CL05A475MP5NRNC",
+        "VALUE": "4.7 uF",
+        "ASSY_OPT": null,
+        "FIND#": null,
+        "PRE_APN": "150-10035",
+        "Reference": "C18"
+      },
+      "reference_designators": [
+        "C18"
+      ],
+      "dnp_explicit": false,
+      "manufacturer_part_number_text": "CL05A475MP5NRNC",
+      "manufacturer_part_number_cell_type": "s"
+    },
+    {
+      "id": "bom-item-007",
+      "sheet": "SCH-90828_C",
+      "row": 21,
+      "range": "A21:K21",
+      "source_columns": {
+        "Item": 7,
+        "Quantity": 2,
+        "AgilePN": "150-79665",
+        "Description": "CAP CER 2.2UF 10V 20% X5R 0402",
+        "MFG": "KEMET",
+        "MFG_PN": "C0402C104M3PAC7867",
+        "VALUE": "2.2UF",
+        "ASSY_OPT": null,
+        "FIND#": null,
+        "PRE_APN": null,
+        "Reference": "C28,C82"
+      },
+      "reference_designators": [
+        "C28",
+        "C82"
+      ],
+      "dnp_explicit": false,
+      "manufacturer_part_number_text": "C0402C104M3PAC7867",
+      "manufacturer_part_number_cell_type": "s"
+    },
+    {
+      "id": "bom-item-008",
+      "sheet": "SCH-90828_C",
+      "row": 22,
+      "range": "A22:K22",
+      "source_columns": {
+        "Item": 8,
+        "Quantity": 1,
+        "AgilePN": "150-78886",
+        "Description": "CAP CER 0.22UF 16V 10% X7R 0402",
+        "MFG": "FENGHUA",
+        "MFG_PN": "0402B224K160NT",
+        "VALUE": "0.22uF",
+        "ASSY_OPT": null,
+        "FIND#": null,
+        "PRE_APN": null,
+        "Reference": "C29"
+      },
+      "reference_designators": [
+        "C29"
+      ],
+      "dnp_explicit": false,
+      "manufacturer_part_number_text": "0402B224K160NT",
+      "manufacturer_part_number_cell_type": "s"
+    },
+    {
+      "id": "bom-item-009",
+      "sheet": "SCH-90828_C",
+      "row": 23,
+      "range": "A23:K23",
+      "source_columns": {
+        "Item": 9,
+        "Quantity": 1,
+        "AgilePN": "150-79711",
+        "Description": "CAP CER 6.8uF 6.3V 10% X7S 0603",
+        "MFG": "TDK",
+        "MFG_PN": "C1608X7S0J685K080AC",
+        "VALUE": "6.8uF",
+        "ASSY_OPT": null,
+        "FIND#": null,
+        "PRE_APN": null,
+        "Reference": "C34"
+      },
+      "reference_designators": [
+        "C34"
+      ],
+      "dnp_explicit": false,
+      "manufacturer_part_number_text": "C1608X7S0J685K080AC",
+      "manufacturer_part_number_cell_type": "s"
+    },
+    {
+      "id": "bom-item-010",
+      "sheet": "SCH-90828_C",
+      "row": 24,
+      "range": "A24:K24",
+      "source_columns": {
+        "Item": 10,
+        "Quantity": 5,
+        "AgilePN": "150-79188",
+        "Description": "CAP CER 100pF 16V 10% X7R 0402",
+        "MFG": "AVX",
+        "MFG_PN": "0402YC101KAT2A",
+        "VALUE": "100PF",
+        "ASSY_OPT": null,
+        "FIND#": null,
+        "PRE_APN": null,
+        "Reference": "C46,C49,C54,C59,C60"
+      },
+      "reference_designators": [
+        "C46",
+        "C49",
+        "C54",
+        "C59",
+        "C60"
+      ],
+      "dnp_explicit": false,
+      "manufacturer_part_number_text": "0402YC101KAT2A",
+      "manufacturer_part_number_cell_type": "s"
+    },
+    {
+      "id": "bom-item-011",
+      "sheet": "SCH-90828_C",
+      "row": 25,
+      "range": "A25:K25",
+      "source_columns": {
+        "Item": 11,
+        "Quantity": 3,
+        "AgilePN": "150-79357",
+        "Description": "CAP CER 47pF 50V 5% C0G AEC-Q200 0603",
+        "MFG": "TDK",
+        "MFG_PN": "CGA3E2C0G1H470J080AA",
+        "VALUE": "47pF",
+        "ASSY_OPT": null,
+        "FIND#": null,
+        "PRE_APN": null,
+        "Reference": "C71,C72,C77"
+      },
+      "reference_designators": [
+        "C71",
+        "C72",
+        "C77"
+      ],
+      "dnp_explicit": false,
+      "manufacturer_part_number_text": "CGA3E2C0G1H470J080AA",
+      "manufacturer_part_number_cell_type": "s"
+    },
+    {
+      "id": "bom-item-012",
+      "sheet": "SCH-90828_C",
+      "row": 26,
+      "range": "A26:K26",
+      "source_columns": {
+        "Item": 12,
+        "Quantity": 2,
+        "AgilePN": "150-79530",
+        "Description": "CAP CER 22uF 10V 20% X5R 0603",
+        "MFG": "SAMSUNG",
+        "MFG_PN": "CL10A226MP7LUNC",
+        "VALUE": "22uF",
+        "ASSY_OPT": null,
+        "FIND#": null,
+        "PRE_APN": null,
+        "Reference": "C74,C75"
+      },
+      "reference_designators": [
+        "C74",
+        "C75"
+      ],
+      "dnp_explicit": false,
+      "manufacturer_part_number_text": "CL10A226MP7LUNC",
+      "manufacturer_part_number_cell_type": "s"
+    },
+    {
+      "id": "bom-item-013",
+      "sheet": "SCH-90828_C",
+      "row": 27,
+      "range": "A27:K27",
+      "source_columns": {
+        "Item": 13,
+        "Quantity": 4,
+        "AgilePN": "150-30180",
+        "Description": "CAP CER 12PF 25V 5% C0G 0402",
+        "MFG": "KEMET",
+        "MFG_PN": "C0402C120J3GAC7867",
+        "VALUE": "12PF",
+        "ASSY_OPT": "DNP",
+        "FIND#": null,
+        "PRE_APN": null,
+        "Reference": "C78,C79,C94,C95"
+      },
+      "reference_designators": [
+        "C78",
+        "C79",
+        "C94",
+        "C95"
+      ],
+      "dnp_explicit": true,
+      "manufacturer_part_number_text": "C0402C120J3GAC7867",
+      "manufacturer_part_number_cell_type": "s"
+    },
+    {
+      "id": "bom-item-014",
+      "sheet": "SCH-90828_C",
+      "row": 28,
+      "range": "A28:K28",
+      "source_columns": {
+        "Item": 14,
+        "Quantity": 3,
+        "AgilePN": "150-76334",
+        "Description": "CAP CER 1000PF 50V 5% C0G 0402",
+        "MFG": "MURATA",
+        "MFG_PN": "GRM1555C1H102JA01D",
+        "VALUE": "1000pF",
+        "ASSY_OPT": null,
+        "FIND#": null,
+        "PRE_APN": null,
+        "Reference": "C86,C88,C90"
+      },
+      "reference_designators": [
+        "C86",
+        "C88",
+        "C90"
+      ],
+      "dnp_explicit": false,
+      "manufacturer_part_number_text": "GRM1555C1H102JA01D",
+      "manufacturer_part_number_cell_type": "s"
+    },
+    {
+      "id": "bom-item-015",
+      "sheet": "SCH-90828_C",
+      "row": 29,
+      "range": "A29:K29",
+      "source_columns": {
+        "Item": 15,
+        "Quantity": 2,
+        "AgilePN": "150-75182",
+        "Description": "CAP CER 0.1UF 16V 10% X7R 0402",
+        "MFG": "Samsung Electro-Mechanics",
+        "MFG_PN": "CL05B104KO5NNNC",
+        "VALUE": "0.1UF",
+        "ASSY_OPT": "DNP",
+        "FIND#": null,
+        "PRE_APN": null,
+        "Reference": "C87,C100"
+      },
+      "reference_designators": [
+        "C87",
+        "C100"
+      ],
+      "dnp_explicit": true,
+      "manufacturer_part_number_text": "CL05B104KO5NNNC",
+      "manufacturer_part_number_cell_type": "s"
+    },
+    {
+      "id": "bom-item-016",
+      "sheet": "SCH-90828_C",
+      "row": 30,
+      "range": "A30:K30",
+      "source_columns": {
+        "Item": 16,
+        "Quantity": 2,
+        "AgilePN": "150-76335",
+        "Description": "CAP CER 4.7PF 50V 0.25PF C0G 0402",
+        "MFG": "AVX",
+        "MFG_PN": "04025A4R7CAT2A",
+        "VALUE": "4.7PF",
+        "ASSY_OPT": null,
+        "FIND#": null,
+        "PRE_APN": null,
+        "Reference": "C96,C97"
+      },
+      "reference_designators": [
+        "C96",
+        "C97"
+      ],
+      "dnp_explicit": false,
+      "manufacturer_part_number_text": "04025A4R7CAT2A",
+      "manufacturer_part_number_cell_type": "s"
+    },
+    {
+      "id": "bom-item-017",
+      "sheet": "SCH-90828_C",
+      "row": 31,
+      "range": "A31:K31",
+      "source_columns": {
+        "Item": 17,
+        "Quantity": 2,
+        "AgilePN": "150-30269",
+        "Description": "CAP CER 56PF 50V 5% C0G 0402",
+        "MFG": "VENKEL COMPANY",
+        "MFG_PN": "C0402C0G500-560JNE",
+        "VALUE": "56PF",
+        "ASSY_OPT": null,
+        "FIND#": null,
+        "PRE_APN": null,
+        "Reference": "C104,C108"
+      },
+      "reference_designators": [
+        "C104",
+        "C108"
+      ],
+      "dnp_explicit": false,
+      "manufacturer_part_number_text": "C0402C0G500-560JNE",
+      "manufacturer_part_number_cell_type": "s"
+    },
+    {
+      "id": "bom-item-018",
+      "sheet": "SCH-90828_C",
+      "row": 32,
+      "range": "A32:K32",
+      "source_columns": {
+        "Item": 18,
+        "Quantity": 1,
+        "AgilePN": "150-77996",
+        "Description": "CAP CER 0.01UF 25V 10% X8R 0402",
+        "MFG": "TDK",
+        "MFG_PN": "C1005X8R1E103K050BA",
+        "VALUE": "0.01UF",
+        "ASSY_OPT": "DNP",
+        "FIND#": null,
+        "PRE_APN": null,
+        "Reference": "C105"
+      },
+      "reference_designators": [
+        "C105"
+      ],
+      "dnp_explicit": true,
+      "manufacturer_part_number_text": "C1005X8R1E103K050BA",
+      "manufacturer_part_number_cell_type": "s"
+    },
+    {
+      "id": "bom-item-019",
+      "sheet": "SCH-90828_C",
+      "row": 33,
+      "range": "A33:K33",
+      "source_columns": {
+        "Item": 19,
+        "Quantity": 4,
+        "AgilePN": "150-79569",
+        "Description": "CAP CER 10uF 25V 10% X5R 0603",
+        "MFG": "SANYEAR",
+        "MFG_PN": "C0603X5R106K250NT",
+        "VALUE": "10uF",
+        "ASSY_OPT": "DNP",
+        "FIND#": null,
+        "PRE_APN": null,
+        "Reference": "C110,C111,C112,C113"
+      },
+      "reference_designators": [
+        "C110",
+        "C111",
+        "C112",
+        "C113"
+      ],
+      "dnp_explicit": true,
+      "manufacturer_part_number_text": "C0603X5R106K250NT",
+      "manufacturer_part_number_cell_type": "s"
+    },
+    {
+      "id": "bom-item-020",
+      "sheet": "SCH-90828_C",
+      "row": 34,
+      "range": "A34:K34",
+      "source_columns": {
+        "Item": 20,
+        "Quantity": 2,
+        "AgilePN": "480-76978",
+        "Description": "DIODE SCH 1A 30V MICROSMP SMT",
+        "MFG": "VISHAY INTERTECHNOLOGY",
+        "MFG_PN": "MSS1P3L-M3/89A",
+        "VALUE": "MSS1P3L",
+        "ASSY_OPT": null,
+        "FIND#": null,
+        "PRE_APN": null,
+        "Reference": "D1,D2"
+      },
+      "reference_designators": [
+        "D1",
+        "D2"
+      ],
+      "dnp_explicit": false,
+      "manufacturer_part_number_text": "MSS1P3L-M3/89A",
+      "manufacturer_part_number_cell_type": "s"
+    },
+    {
+      "id": "bom-item-021",
+      "sheet": "SCH-90828_C",
+      "row": 35,
+      "range": "A35:K35",
+      "source_columns": {
+        "Item": 21,
+        "Quantity": 3,
+        "AgilePN": "370-75088",
+        "Description": "LED GREEN GAP ON GAP SM 0603",
+        "MFG": "LITE ON",
+        "MFG_PN": "LTST-C190GKT",
+        "VALUE": "GREEN",
+        "ASSY_OPT": null,
+        "FIND#": null,
+        "PRE_APN": null,
+        "Reference": "D3,D6,D8"
+      },
+      "reference_designators": [
+        "D3",
+        "D6",
+        "D8"
+      ],
+      "dnp_explicit": false,
+      "manufacturer_part_number_text": "LTST-C190GKT",
+      "manufacturer_part_number_cell_type": "s"
+    },
+    {
+      "id": "bom-item-022",
+      "sheet": "SCH-90828_C",
+      "row": 36,
+      "range": "A36:K36",
+      "source_columns": {
+        "Item": 22,
+        "Quantity": 1,
+        "AgilePN": "480-76978",
+        "Description": "DIODE SCH 1A 30V MICROSMP SMT",
+        "MFG": "VISHAY INTERTECHNOLOGY",
+        "MFG_PN": "MSS1P3L-M3/89A",
+        "VALUE": "MSS1P3L",
+        "ASSY_OPT": "DNP",
+        "FIND#": null,
+        "PRE_APN": null,
+        "Reference": "D4"
+      },
+      "reference_designators": [
+        "D4"
+      ],
+      "dnp_explicit": true,
+      "manufacturer_part_number_text": "MSS1P3L-M3/89A",
+      "manufacturer_part_number_cell_type": "s"
+    },
+    {
+      "id": "bom-item-023",
+      "sheet": "SCH-90828_C",
+      "row": 37,
+      "range": "A37:K37",
+      "source_columns": {
+        "Item": 23,
+        "Quantity": 2,
+        "AgilePN": "370-76632",
+        "Description": "LED RED SGL 20MA 0603",
+        "MFG": "LITE ON",
+        "MFG_PN": "LTST-C193KRKT-5A",
+        "VALUE": "RED",
+        "ASSY_OPT": null,
+        "FIND#": null,
+        "PRE_APN": null,
+        "Reference": "D7,D12"
+      },
+      "reference_designators": [
+        "D7",
+        "D12"
+      ],
+      "dnp_explicit": false,
+      "manufacturer_part_number_text": "LTST-C193KRKT-5A",
+      "manufacturer_part_number_cell_type": "s"
+    },
+    {
+      "id": "bom-item-024",
+      "sheet": "SCH-90828_C",
+      "row": 38,
+      "range": "A38:K38",
+      "source_columns": {
+        "Item": 24,
+        "Quantity": 2,
+        "AgilePN": "480-79814",
+        "Description": "DIODE TVS UNIDIR 3.3VWM 20VC SOD523",
+        "MFG": "NEXPERIA",
+        "MFG_PN": "PESD3V3S1UB,115",
+        "VALUE": "PESD3V3S1UB",
+        "ASSY_OPT": "DNP",
+        "FIND#": null,
+        "PRE_APN": null,
+        "Reference": "D9,D10"
+      },
+      "reference_designators": [
+        "D9",
+        "D10"
+      ],
+      "dnp_explicit": true,
+      "manufacturer_part_number_text": "PESD3V3S1UB,115",
+      "manufacturer_part_number_cell_type": "s"
+    },
+    {
+      "id": "bom-item-025",
+      "sheet": "SCH-90828_C",
+      "row": 39,
+      "range": "A39:K39",
+      "source_columns": {
+        "Item": 25,
+        "Quantity": 1,
+        "AgilePN": "480-79841",
+        "Description": "DIODE TVS UNIDIR 3.3VWM 12VC SOT363",
+        "MFG": "NEXPERIA",
+        "MFG_PN": "PESD3V3L5UY,115",
+        "VALUE": "PESD3V3L5UY",
+        "ASSY_OPT": "DNP",
+        "FIND#": null,
+        "PRE_APN": null,
+        "Reference": "D11"
+      },
+      "reference_designators": [
+        "D11"
+      ],
+      "dnp_explicit": true,
+      "manufacturer_part_number_text": "PESD3V3L5UY,115",
+      "manufacturer_part_number_cell_type": "s"
+    },
+    {
+      "id": "bom-item-026",
+      "sheet": "SCH-90828_C",
+      "row": 40,
+      "range": "A40:K40",
+      "source_columns": {
+        "Item": 26,
+        "Quantity": 1,
+        "AgilePN": "370-76899",
+        "Description": "LED RED/GRN/BL TRI 20/20/20MA SMT",
+        "MFG": "Lianyungang Meihua Electronics Technology Co.,Ltd",
+        "MFG_PN": "MHPA2525RGBDT-S",
+        "VALUE": "RGB",
+        "ASSY_OPT": null,
+        "FIND#": null,
+        "PRE_APN": null,
+        "Reference": "D13"
+      },
+      "reference_designators": [
+        "D13"
+      ],
+      "dnp_explicit": false,
+      "manufacturer_part_number_text": "MHPA2525RGBDT-S",
+      "manufacturer_part_number_cell_type": "s"
+    },
+    {
+      "id": "bom-item-027",
+      "sheet": "SCH-90828_C",
+      "row": 41,
+      "range": "A41:K41",
+      "source_columns": {
+        "Item": 27,
+        "Quantity": 1,
+        "AgilePN": "480-77157",
+        "Description": "DIODE DUAL LINE CAN BUS PROTECTOR 27V 350W SOT-23",
+        "MFG": "ON SEMICONDUCTOR",
+        "MFG_PN": "NUP2105LT1G",
+        "VALUE": "NUP2105L",
+        "ASSY_OPT": null,
+        "FIND#": null,
+        "PRE_APN": null,
+        "Reference": "D14"
+      },
+      "reference_designators": [
+        "D14"
+      ],
+      "dnp_explicit": false,
+      "manufacturer_part_number_text": "NUP2105LT1G",
+      "manufacturer_part_number_cell_type": "s"
+    },
+    {
+      "id": "bom-item-028",
+      "sheet": "SCH-90828_C",
+      "row": 42,
+      "range": "A42:K42",
+      "source_columns": {
+        "Item": 28,
+        "Quantity": 4,
+        "AgilePN": "210-80468",
+        "Description": "HDR 1X2 TH 100MIL SP 342H AU 118L",
+        "MFG": "WURTH ELEKTRONIK EISOS GMBH & CO. KG (ELECTRONIC & ELECTROMEHANICAL COMP)",
+        "MFG_PN": 61300211121,
+        "VALUE": "HDR1X2",
+        "ASSY_OPT": "DNP",
+        "FIND#": null,
+        "PRE_APN": null,
+        "Reference": "JP1,JP2,JP3,JP4"
+      },
+      "reference_designators": [
+        "JP1",
+        "JP2",
+        "JP3",
+        "JP4"
+      ],
+      "dnp_explicit": true,
+      "manufacturer_part_number_text": "61300211121",
+      "manufacturer_part_number_cell_type": "n"
+    },
+    {
+      "id": "bom-item-029",
+      "sheet": "SCH-90828_C",
+      "row": 43,
+      "range": "A43:K43",
+      "source_columns": {
+        "Item": 29,
+        "Quantity": 4,
+        "AgilePN": "210-80468",
+        "Description": "HDR 1X2 TH 100MIL SP 342H AU 118L",
+        "MFG": "WURTH ELEKTRONIK EISOS GMBH & CO. KG (ELECTRONIC & ELECTROMEHANICAL COMP)",
+        "MFG_PN": 61300211121,
+        "VALUE": "HDR1X2",
+        "ASSY_OPT": null,
+        "FIND#": null,
+        "PRE_APN": null,
+        "Reference": "JP5,JP6,JP7,JP8"
+      },
+      "reference_designators": [
+        "JP5",
+        "JP6",
+        "JP7",
+        "JP8"
+      ],
+      "dnp_explicit": false,
+      "manufacturer_part_number_text": "61300211121",
+      "manufacturer_part_number_cell_type": "n"
+    },
+    {
+      "id": "bom-item-030",
+      "sheet": "SCH-90828_C",
+      "row": 44,
+      "range": "A44:K44",
+      "source_columns": {
+        "Item": 30,
+        "Quantity": 2,
+        "AgilePN": "210-81775",
+        "Description": "CON 2X8 SKT SHRD TH 100MIL CTR 345H AU 126L",
+        "MFG": "ANYTRONIC CORPORATION LIMITED",
+        "MFG_PN": "08010S31611-29RF",
+        "VALUE": "CON 2x8",
+        "ASSY_OPT": null,
+        "FIND#": null,
+        "PRE_APN": null,
+        "Reference": "J1,J3"
+      },
+      "reference_designators": [
+        "J1",
+        "J3"
+      ],
+      "dnp_explicit": false,
+      "manufacturer_part_number_text": "08010S31611-29RF",
+      "manufacturer_part_number_cell_type": "s"
+    },
+    {
+      "id": "bom-item-031",
+      "sheet": "SCH-90828_C",
+      "row": 45,
+      "range": "A45:K45",
+      "source_columns": {
+        "Item": 31,
+        "Quantity": 1,
+        "AgilePN": "210-81776",
+        "Description": "CON 2X10 SKT SHRD TH 100MIL CTR 345H AU 126L",
+        "MFG": "ANYTRONIC CORPORATION LIMITED",
+        "MFG_PN": "08010S32011-29RF",
+        "VALUE": "CON 2x10",
+        "ASSY_OPT": null,
+        "FIND#": null,
+        "PRE_APN": null,
+        "Reference": "J2"
+      },
+      "reference_designators": [
+        "J2"
+      ],
+      "dnp_explicit": false,
+      "manufacturer_part_number_text": "08010S32011-29RF",
+      "manufacturer_part_number_cell_type": "s"
+    },
+    {
+      "id": "bom-item-032",
+      "sheet": "SCH-90828_C",
+      "row": 46,
+      "range": "A46:K46",
+      "source_columns": {
+        "Item": 32,
+        "Quantity": 1,
+        "AgilePN": "210-81774",
+        "Description": "CON 2X6 SKT SHRD TH 100MIL CTR 345H AU 126L",
+        "MFG": "ANYTRONIC CORPORATION LIMITED",
+        "MFG_PN": "08010S31211-29RF",
+        "VALUE": "CON 2x6",
+        "ASSY_OPT": null,
+        "FIND#": null,
+        "PRE_APN": null,
+        "Reference": "J4"
+      },
+      "reference_designators": [
+        "J4"
+      ],
+      "dnp_explicit": false,
+      "manufacturer_part_number_text": "08010S31211-29RF",
+      "manufacturer_part_number_cell_type": "s"
+    },
+    {
+      "id": "bom-item-033",
+      "sheet": "SCH-90828_C",
+      "row": 47,
+      "range": "A47:K47",
+      "source_columns": {
+        "Item": 33,
+        "Quantity": 2,
+        "AgilePN": "210-81617",
+        "Description": "CON 1X8 SKT TH 100MIL SP 344H AU 118L",
+        "MFG": "ANYTRONIC CORPORATION LIMITED",
+        "MFG_PN": "08001S3 0811-29RF",
+        "VALUE": "SKT_1X8",
+        "ASSY_OPT": null,
+        "FIND#": null,
+        "PRE_APN": null,
+        "Reference": "J5,J6"
+      },
+      "reference_designators": [
+        "J5",
+        "J6"
+      ],
+      "dnp_explicit": false,
+      "manufacturer_part_number_text": "08001S3 0811-29RF",
+      "manufacturer_part_number_cell_type": "s"
+    },
+    {
+      "id": "bom-item-034",
+      "sheet": "SCH-90828_C",
+      "row": 48,
+      "range": "A48:K48",
+      "source_columns": {
+        "Item": 34,
+        "Quantity": 1,
+        "AgilePN": "210-80998",
+        "Description": "CON 2X6 SKT RA TH 100MIL CTR 206H AU 124L",
+        "MFG": "SULLINS ELECTRONICS CORP",
+        "MFG_PN": "PPPC062LJBN-RC",
+        "VALUE": "PPPC062LJBN-RC",
+        "ASSY_OPT": "DNP",
+        "FIND#": null,
+        "PRE_APN": null,
+        "Reference": "J7"
+      },
+      "reference_designators": [
+        "J7"
+      ],
+      "dnp_explicit": true,
+      "manufacturer_part_number_text": "PPPC062LJBN-RC",
+      "manufacturer_part_number_cell_type": "s"
+    },
+    {
+      "id": "bom-item-035",
+      "sheet": "SCH-90828_C",
+      "row": 49,
+      "range": "A49:K49",
+      "source_columns": {
+        "Item": 35,
+        "Quantity": 1,
+        "AgilePN": "210-83442",
+        "Description": "CON 2X14 SKT SHRD TH 100MIL CTR 345H AU 126L",
+        "MFG": "ANYTRONIC CORPORATION LIMITED",
+        "MFG_PN": "08010S32811-29RF",
+        "VALUE": "CON 2x14",
+        "ASSY_OPT": null,
+        "FIND#": null,
+        "PRE_APN": null,
+        "Reference": "J8"
+      },
+      "reference_designators": [
+        "J8"
+      ],
+      "dnp_explicit": false,
+      "manufacturer_part_number_text": "08010S32811-29RF",
+      "manufacturer_part_number_cell_type": "s"
+    },
+    {
+      "id": "bom-item-036",
+      "sheet": "SCH-90828_C",
+      "row": 50,
+      "range": "A50:K50",
+      "source_columns": {
+        "Item": 36,
+        "Quantity": 1,
+        "AgilePN": "210-83440",
+        "Description": "CON 2X16 SKT SHRD TH 100MIL CTR 345H AU 126L",
+        "MFG": "ANYTRONIC CORPORATION LIMITED",
+        "MFG_PN": "08010S33211-29RF",
+        "VALUE": "CON 2x16",
+        "ASSY_OPT": null,
+        "FIND#": null,
+        "PRE_APN": null,
+        "Reference": "J9"
+      },
+      "reference_designators": [
+        "J9"
+      ],
+      "dnp_explicit": false,
+      "manufacturer_part_number_text": "08010S33211-29RF",
+      "manufacturer_part_number_cell_type": "s"
+    },
+    {
+      "id": "bom-item-037",
+      "sheet": "SCH-90828_C",
+      "row": 51,
+      "range": "A51:K51",
+      "source_columns": {
+        "Item": 37,
+        "Quantity": 2,
+        "AgilePN": "210-82931",
+        "Description": "CON 2X8 USB2.0_TYPE_C RCPT 0.85MM 144H AU 63L",
+        "MFG": "GCT",
+        "MFG_PN": "USB4085-GF-A",
+        "VALUE": "USB_TYPE_C",
+        "ASSY_OPT": null,
+        "FIND#": null,
+        "PRE_APN": null,
+        "Reference": "J10,J11"
+      },
+      "reference_designators": [
+        "J10",
+        "J11"
+      ],
+      "dnp_explicit": false,
+      "manufacturer_part_number_text": "USB4085-GF-A",
+      "manufacturer_part_number_cell_type": "s"
+    },
+    {
+      "id": "bom-item-038",
+      "sheet": "SCH-90828_C",
+      "row": 52,
+      "range": "A52:K52",
+      "source_columns": {
+        "Item": 38,
+        "Quantity": 1,
+        "AgilePN": "210-80192",
+        "Description": "HDR 2X5 TH 50MIL CTR 167H AU 91L",
+        "MFG": "ANYTRONIC CORPORATION LIMITED",
+        "MFG_PN": "0922S0205011N6T-2LF",
+        "VALUE": "HDR 2X5",
+        "ASSY_OPT": null,
+        "FIND#": null,
+        "PRE_APN": null,
+        "Reference": "J12"
+      },
+      "reference_designators": [
+        "J12"
+      ],
+      "dnp_explicit": false,
+      "manufacturer_part_number_text": "0922S0205011N6T-2LF",
+      "manufacturer_part_number_cell_type": "s"
+    },
+    {
+      "id": "bom-item-039",
+      "sheet": "SCH-90828_C",
+      "row": 53,
+      "range": "A53:K53",
+      "source_columns": {
+        "Item": 39,
+        "Quantity": 1,
+        "AgilePN": "210-78429",
+        "Description": "HDR 2X2 TH 100MIL CTR 340H SN 105L",
+        "MFG": "TYCO ELECTRONICS",
+        "MFG_PN": "5-146258-2",
+        "VALUE": "HDR 2X2",
+        "ASSY_OPT": null,
+        "FIND#": null,
+        "PRE_APN": null,
+        "Reference": "J13"
+      },
+      "reference_designators": [
+        "J13"
+      ],
+      "dnp_explicit": false,
+      "manufacturer_part_number_text": "5-146258-2",
+      "manufacturer_part_number_cell_type": "s"
+    },
+    {
+      "id": "bom-item-040",
+      "sheet": "SCH-90828_C",
+      "row": 54,
+      "range": "A54:K54",
+      "source_columns": {
+        "Item": 40,
+        "Quantity": 2,
+        "AgilePN": "210-83388",
+        "Description": "CON 5 MONO AUDIO JACK 3.5MM SKT TH RA 256H AG 79L",
+        "MFG": "Tensility International Corp",
+        "MFG_PN": "54-00174",
+        "VALUE": "3.5mm JACK",
+        "ASSY_OPT": "DNP",
+        "FIND#": null,
+        "PRE_APN": null,
+        "Reference": "J14,J21"
+      },
+      "reference_designators": [
+        "J14",
+        "J21"
+      ],
+      "dnp_explicit": true,
+      "manufacturer_part_number_text": "54-00174",
+      "manufacturer_part_number_cell_type": "s"
+    },
+    {
+      "id": "bom-item-041",
+      "sheet": "SCH-90828_C",
+      "row": 55,
+      "range": "A55:K55",
+      "source_columns": {
+        "Item": 41,
+        "Quantity": 4,
+        "AgilePN": "210-75767",
+        "Description": "HDR 1X1 TH -- 330H AU 100L",
+        "MFG": "SAMTEC",
+        "MFG_PN": "HTSW-101-07-SM-S",
+        "VALUE": "HDR 1X1",
+        "ASSY_OPT": "DNP",
+        "FIND#": null,
+        "PRE_APN": null,
+        "Reference": "J15,J16,J17,J20"
+      },
+      "reference_designators": [
+        "J15",
+        "J16",
+        "J17",
+        "J20"
+      ],
+      "dnp_explicit": true,
+      "manufacturer_part_number_text": "HTSW-101-07-SM-S",
+      "manufacturer_part_number_cell_type": "s"
+    },
+    {
+      "id": "bom-item-042",
+      "sheet": "SCH-90828_C",
+      "row": 56,
+      "range": "A56:K56",
+      "source_columns": {
+        "Item": 42,
+        "Quantity": 1,
+        "AgilePN": "210-75442",
+        "Description": "HDR 1X3 TH 100MIL SP 330H AU 98L",
+        "MFG": "SAMTEC",
+        "MFG_PN": "HTSW-103-07-S-S",
+        "VALUE": "HDR_1X3",
+        "ASSY_OPT": "DNP",
+        "FIND#": null,
+        "PRE_APN": null,
+        "Reference": "J19"
+      },
+      "reference_designators": [
+        "J19"
+      ],
+      "dnp_explicit": true,
+      "manufacturer_part_number_text": "HTSW-103-07-S-S",
+      "manufacturer_part_number_cell_type": "s"
+    },
+    {
+      "id": "bom-item-043",
+      "sheet": "SCH-90828_C",
+      "row": 57,
+      "range": "A57:K57",
+      "source_columns": {
+        "Item": 43,
+        "Quantity": 1,
+        "AgilePN": "180-77771",
+        "Description": "IND FER BEAD 120 OHM@100MHZ 0.5A 25% 0402",
+        "MFG": "MURATA",
+        "MFG_PN": "BLM15AG121SN1D",
+        "VALUE": "120 Ohm",
+        "ASSY_OPT": null,
+        "FIND#": null,
+        "PRE_APN": null,
+        "Reference": "L1"
+      },
+      "reference_designators": [
+        "L1"
+      ],
+      "dnp_explicit": false,
+      "manufacturer_part_number_text": "BLM15AG121SN1D",
+      "manufacturer_part_number_cell_type": "s"
+    },
+    {
+      "id": "bom-item-044",
+      "sheet": "SCH-90828_C",
+      "row": 58,
+      "range": "A58:K58",
+      "source_columns": {
+        "Item": 44,
+        "Quantity": 1,
+        "AgilePN": "180-80401",
+        "Description": "IND PWR 1.5uH@1MHz 1.8A 0.065OHM 20% AEC-Q200 SMT",
+        "MFG": "WURTH ELEKTRONIK EISOS GMBH & CO. KG (ELECTRONIC & ELECTROMEHANICAL COMP)",
+        "MFG_PN": 74404024015,
+        "VALUE": "1.5uH",
+        "ASSY_OPT": null,
+        "FIND#": null,
+        "PRE_APN": null,
+        "Reference": "L2"
+      },
+      "reference_designators": [
+        "L2"
+      ],
+      "dnp_explicit": false,
+      "manufacturer_part_number_text": "74404024015",
+      "manufacturer_part_number_cell_type": "n"
+    },
+    {
+      "id": "bom-item-045",
+      "sheet": "SCH-90828_C",
+      "row": 59,
+      "range": "A59:K59",
+      "source_columns": {
+        "Item": 45,
+        "Quantity": 2,
+        "AgilePN": "180-78959",
+        "Description": "IND FER BEAD 300Ohms@100MHz 2A 25% 0603",
+        "MFG": "WURTH ELEKTRONIK EISOS GMBH & CO. KG (ELECTRONIC & ELECTROMEHANICAL COMP)",
+        "MFG_PN": 742792641,
+        "VALUE": "300Ohms@100MHz",
+        "ASSY_OPT": null,
+        "FIND#": null,
+        "PRE_APN": null,
+        "Reference": "L3,L15"
+      },
+      "reference_designators": [
+        "L3",
+        "L15"
+      ],
+      "dnp_explicit": false,
+      "manufacturer_part_number_text": "742792641",
+      "manufacturer_part_number_cell_type": "n"
+    },
+    {
+      "id": "bom-item-046",
+      "sheet": "SCH-90828_C",
+      "row": 60,
+      "range": "A60:K60",
+      "source_columns": {
+        "Item": 46,
+        "Quantity": 1,
+        "AgilePN": "180-76336",
+        "Description": "IND CHK 90 OHM@100MHZ 330MA 25% 0805",
+        "MFG": "MURATA",
+        "MFG_PN": "DLW21HN900SQ2L",
+        "VALUE": "90OHM",
+        "ASSY_OPT": null,
+        "FIND#": null,
+        "PRE_APN": null,
+        "Reference": "L4"
+      },
+      "reference_designators": [
+        "L4"
+      ],
+      "dnp_explicit": false,
+      "manufacturer_part_number_text": "DLW21HN900SQ2L",
+      "manufacturer_part_number_cell_type": "s"
+    },
+    {
+      "id": "bom-item-047",
+      "sheet": "SCH-90828_C",
+      "row": 61,
+      "range": "A61:K61",
+      "source_columns": {
+        "Item": 47,
+        "Quantity": 5,
+        "AgilePN": "180-77772",
+        "Description": "IND FER BEAD 220 OHM@100MHZ 0.3A 25% 0.35 OHM 0402",
+        "MFG": "MURATA",
+        "MFG_PN": "BLM15AG221SN1D",
+        "VALUE": "220 OHM",
+        "ASSY_OPT": null,
+        "FIND#": null,
+        "PRE_APN": null,
+        "Reference": "L6,L7,L8,L9,L10"
+      },
+      "reference_designators": [
+        "L6",
+        "L7",
+        "L8",
+        "L9",
+        "L10"
+      ],
+      "dnp_explicit": false,
+      "manufacturer_part_number_text": "BLM15AG221SN1D",
+      "manufacturer_part_number_cell_type": "s"
+    },
+    {
+      "id": "bom-item-048",
+      "sheet": "SCH-90828_C",
+      "row": 62,
+      "range": "A62:K62",
+      "source_columns": {
+        "Item": 48,
+        "Quantity": 3,
+        "AgilePN": "180-78469",
+        "Description": "IND FER BEAD 600OHM@100MHz 1A 25% 0603",
+        "MFG": "WURTH ELEKTRONIK EISOS GMBH & CO. KG (ELECTRONIC & ELECTROMEHANICAL COMP)",
+        "MFG_PN": 742792651,
+        "VALUE": "600OHM",
+        "ASSY_OPT": null,
+        "FIND#": null,
+        "PRE_APN": null,
+        "Reference": "L11,L12,L13"
+      },
+      "reference_designators": [
+        "L11",
+        "L12",
+        "L13"
+      ],
+      "dnp_explicit": false,
+      "manufacturer_part_number_text": "742792651",
+      "manufacturer_part_number_cell_type": "n"
+    },
+    {
+      "id": "bom-item-049",
+      "sheet": "SCH-90828_C",
+      "row": 63,
+      "range": "A63:K63",
+      "source_columns": {
+        "Item": 49,
+        "Quantity": 1,
+        "AgilePN": "180-81632",
+        "Description": "IND -- 4.7uH@1MHZ 800mA 0.23 OHM 30% 0805",
+        "MFG": "MURATA",
+        "MFG_PN": "LQM21PN4R7NGRD",
+        "VALUE": "4.7uH",
+        "ASSY_OPT": null,
+        "FIND#": null,
+        "PRE_APN": null,
+        "Reference": "L14"
+      },
+      "reference_designators": [
+        "L14"
+      ],
+      "dnp_explicit": false,
+      "manufacturer_part_number_text": "LQM21PN4R7NGRD",
+      "manufacturer_part_number_cell_type": "s"
+    },
+    {
+      "id": "bom-item-050",
+      "sheet": "SCH-90828_C",
+      "row": 64,
+      "range": "A64:K64",
+      "source_columns": {
+        "Item": 50,
+        "Quantity": 1,
+        "AgilePN": "480-75317",
+        "Description": "TRANS MOSFET N-CH 30V .1A SOT-323",
+        "MFG": "ROHM",
+        "MFG_PN": "2SK3018T106",
+        "VALUE": "2SK3018",
+        "ASSY_OPT": null,
+        "FIND#": null,
+        "PRE_APN": null,
+        "Reference": "Q1"
+      },
+      "reference_designators": [
+        "Q1"
+      ],
+      "dnp_explicit": false,
+      "manufacturer_part_number_text": "2SK3018T106",
+      "manufacturer_part_number_cell_type": "s"
+    },
+    {
+      "id": "bom-item-051",
+      "sheet": "SCH-90828_C",
+      "row": 65,
+      "range": "A65:K65",
+      "source_columns": {
+        "Item": 51,
+        "Quantity": 1,
+        "AgilePN": "480-78363",
+        "Description": "TRAN NPN PHOTO 2.5-5.5V 630NM SMT",
+        "MFG": "EVERLIGHT INTERNATIONAL CORPORATION",
+        "MFG_PN": "ALS-PT19-315C/L177/TR8",
+        "VALUE": "ALS-PT19-315C/L177/TR8",
+        "ASSY_OPT": null,
+        "FIND#": null,
+        "PRE_APN": null,
+        "Reference": "Q2"
+      },
+      "reference_designators": [
+        "Q2"
+      ],
+      "dnp_explicit": false,
+      "manufacturer_part_number_text": "ALS-PT19-315C/L177/TR8",
+      "manufacturer_part_number_cell_type": "s"
+    },
+    {
+      "id": "bom-item-052",
+      "sheet": "SCH-90828_C",
+      "row": 66,
+      "range": "A66:K66",
+      "source_columns": {
+        "Item": 52,
+        "Quantity": 64,
+        "AgilePN": "470-79965",
+        "Description": "RES MF ZERO OHM 1/10W -- 0402",
+        "MFG": "PANASONIC",
+        "MFG_PN": "ERJ-2GE0R00X",
+        "VALUE": 0,
+        "ASSY_OPT": null,
+        "FIND#": null,
+        "PRE_APN": null,
+        "Reference": "R2,R4,R5,R8,R12,R15,R22,R23,R24,R25,R31,R32,R33,R34,R35,R36,R37,R38,R39,R40,R49,R50,R53,R54,R57,R64,R67,R69,R71,R72,R73,R89,R95,R97,R100,R102,R104,R105,R106,R107,R108,R109,R121,R139,R140,R141,R142,R153,R154,R155,R156,R159,R160,R166,R171,R172,R179,R180,R182,R183,R190,R203,R276,R295"
+      },
+      "reference_designators": [
+        "R2",
+        "R4",
+        "R5",
+        "R8",
+        "R12",
+        "R15",
+        "R22",
+        "R23",
+        "R24",
+        "R25",
+        "R31",
+        "R32",
+        "R33",
+        "R34",
+        "R35",
+        "R36",
+        "R37",
+        "R38",
+        "R39",
+        "R40",
+        "R49",
+        "R50",
+        "R53",
+        "R54",
+        "R57",
+        "R64",
+        "R67",
+        "R69",
+        "R71",
+        "R72",
+        "R73",
+        "R89",
+        "R95",
+        "R97",
+        "R100",
+        "R102",
+        "R104",
+        "R105",
+        "R106",
+        "R107",
+        "R108",
+        "R109",
+        "R121",
+        "R139",
+        "R140",
+        "R141",
+        "R142",
+        "R153",
+        "R154",
+        "R155",
+        "R156",
+        "R159",
+        "R160",
+        "R166",
+        "R171",
+        "R172",
+        "R179",
+        "R180",
+        "R182",
+        "R183",
+        "R190",
+        "R203",
+        "R276",
+        "R295"
+      ],
+      "dnp_explicit": false,
+      "manufacturer_part_number_text": "ERJ-2GE0R00X",
+      "manufacturer_part_number_cell_type": "s"
+    },
+    {
+      "id": "bom-item-053",
+      "sheet": "SCH-90828_C",
+      "row": 67,
+      "range": "A67:K67",
+      "source_columns": {
+        "Item": 53,
+        "Quantity": 8,
+        "AgilePN": "470-80911",
+        "Description": "RES MF 4.7K OHM 1/16W 1% 0402",
+        "MFG": "YAGEO",
+        "MFG_PN": "RC0402FR-074K7L",
+        "VALUE": "4.7K",
+        "ASSY_OPT": null,
+        "FIND#": null,
+        "PRE_APN": null,
+        "Reference": "R6,R7,R43,R44,R90,R173,R174,R278"
+      },
+      "reference_designators": [
+        "R6",
+        "R7",
+        "R43",
+        "R44",
+        "R90",
+        "R173",
+        "R174",
+        "R278"
+      ],
+      "dnp_explicit": false,
+      "manufacturer_part_number_text": "RC0402FR-074K7L",
+      "manufacturer_part_number_cell_type": "s"
+    },
+    {
+      "id": "bom-item-054",
+      "sheet": "SCH-90828_C",
+      "row": 68,
+      "range": "A68:K68",
+      "source_columns": {
+        "Item": 54,
+        "Quantity": 17,
+        "AgilePN": "470-79965",
+        "Description": "RES MF ZERO OHM 1/10W -- 0402",
+        "MFG": "PANASONIC",
+        "MFG_PN": "ERJ-2GE0R00X",
+        "VALUE": 0,
+        "ASSY_OPT": "DNP",
+        "FIND#": null,
+        "PRE_APN": null,
+        "Reference": "R13,R14,R18,R55,R56,R82,R88,R92,R96,R98,R99,R101,R143,R204,R210,R211,R297"
+      },
+      "reference_designators": [
+        "R13",
+        "R14",
+        "R18",
+        "R55",
+        "R56",
+        "R82",
+        "R88",
+        "R92",
+        "R96",
+        "R98",
+        "R99",
+        "R101",
+        "R143",
+        "R204",
+        "R210",
+        "R211",
+        "R297"
+      ],
+      "dnp_explicit": true,
+      "manufacturer_part_number_text": "ERJ-2GE0R00X",
+      "manufacturer_part_number_cell_type": "s"
+    },
+    {
+      "id": "bom-item-055",
+      "sheet": "SCH-90828_C",
+      "row": 69,
+      "range": "A69:K69",
+      "source_columns": {
+        "Item": 55,
+        "Quantity": 4,
+        "AgilePN": "470-76469",
+        "Description": "RES MF 470 OHM 1/16W 1% 0402",
+        "MFG": "THYE MING TECH CO LTD",
+        "MFG_PN": "CR-02FL6--470R",
+        "VALUE": 470,
+        "ASSY_OPT": null,
+        "FIND#": null,
+        "PRE_APN": null,
+        "Reference": "R70,R163,R168,R169"
+      },
+      "reference_designators": [
+        "R70",
+        "R163",
+        "R168",
+        "R169"
+      ],
+      "dnp_explicit": false,
+      "manufacturer_part_number_text": "CR-02FL6--470R",
+      "manufacturer_part_number_cell_type": "s"
+    },
+    {
+      "id": "bom-item-056",
+      "sheet": "SCH-90828_C",
+      "row": 70,
+      "range": "A70:K70",
+      "source_columns": {
+        "Item": 56,
+        "Quantity": 10,
+        "AgilePN": "470-80866",
+        "Description": "RES MF ZERO OHM 1/10W -- 0603",
+        "MFG": "YAGEO AMERICA",
+        "MFG_PN": "RC0603FR-070RL",
+        "VALUE": 0,
+        "ASSY_OPT": null,
+        "FIND#": null,
+        "PRE_APN": null,
+        "Reference": "R74,R75,R76,R77,R78,R79,R83,R84,R206,R207"
+      },
+      "reference_designators": [
+        "R74",
+        "R75",
+        "R76",
+        "R77",
+        "R78",
+        "R79",
+        "R83",
+        "R84",
+        "R206",
+        "R207"
+      ],
+      "dnp_explicit": false,
+      "manufacturer_part_number_text": "RC0603FR-070RL",
+      "manufacturer_part_number_cell_type": "s"
+    },
+    {
+      "id": "bom-item-057",
+      "sheet": "SCH-90828_C",
+      "row": 71,
+      "range": "A71:K71",
+      "source_columns": {
+        "Item": 57,
+        "Quantity": 3,
+        "AgilePN": "470-80866",
+        "Description": "RES MF ZERO OHM 1/10W -- 0603",
+        "MFG": "YAGEO AMERICA",
+        "MFG_PN": "RC0603FR-070RL",
+        "VALUE": 0,
+        "ASSY_OPT": "DNP",
+        "FIND#": null,
+        "PRE_APN": null,
+        "Reference": "R80,R81,R85"
+      },
+      "reference_designators": [
+        "R80",
+        "R81",
+        "R85"
+      ],
+      "dnp_explicit": true,
+      "manufacturer_part_number_text": "RC0603FR-070RL",
+      "manufacturer_part_number_cell_type": "s"
+    },
+    {
+      "id": "bom-item-058",
+      "sheet": "SCH-90828_C",
+      "row": 72,
+      "range": "A72:K72",
+      "source_columns": {
+        "Item": 58,
+        "Quantity": 13,
+        "AgilePN": "470-75557",
+        "Description": "RES MF 10K 1/16W 5% 0402",
+        "MFG": "BOURNS",
+        "MFG_PN": "CR0402-JW-103GLF",
+        "VALUE": "10K",
+        "ASSY_OPT": null,
+        "FIND#": null,
+        "PRE_APN": null,
+        "Reference": "R86,R116,R161,R162,R164,R176,R186,R187,R188,R191,R197,R257,R265"
+      },
+      "reference_designators": [
+        "R86",
+        "R116",
+        "R161",
+        "R162",
+        "R164",
+        "R176",
+        "R186",
+        "R187",
+        "R188",
+        "R191",
+        "R197",
+        "R257",
+        "R265"
+      ],
+      "dnp_explicit": false,
+      "manufacturer_part_number_text": "CR0402-JW-103GLF",
+      "manufacturer_part_number_cell_type": "s"
+    },
+    {
+      "id": "bom-item-059",
+      "sheet": "SCH-90828_C",
+      "row": 73,
+      "range": "A73:K73",
+      "source_columns": {
+        "Item": 59,
+        "Quantity": 4,
+        "AgilePN": "470-31023",
+        "Description": "RES MF 47K  1/16W 1% 0402",
+        "MFG": "VISHAY",
+        "MFG_PN": "CRCW040247K0FKEDC",
+        "VALUE": "47K",
+        "ASSY_OPT": null,
+        "FIND#": null,
+        "PRE_APN": null,
+        "Reference": "R87,R111,R112,R113"
+      },
+      "reference_designators": [
+        "R87",
+        "R111",
+        "R112",
+        "R113"
+      ],
+      "dnp_explicit": false,
+      "manufacturer_part_number_text": "CRCW040247K0FKEDC",
+      "manufacturer_part_number_cell_type": "s"
+    },
+    {
+      "id": "bom-item-060",
+      "sheet": "SCH-90828_C",
+      "row": 74,
+      "range": "A74:K74",
+      "source_columns": {
+        "Item": 60,
+        "Quantity": 2,
+        "AgilePN": "470-76086",
+        "Description": "RES MF 20K 1/16W 5% 0402",
+        "MFG": "BOURNS",
+        "MFG_PN": "CR0402-JW-203GLF",
+        "VALUE": "20K",
+        "ASSY_OPT": "DNP",
+        "FIND#": null,
+        "PRE_APN": null,
+        "Reference": "R91,R122"
+      },
+      "reference_designators": [
+        "R91",
+        "R122"
+      ],
+      "dnp_explicit": true,
+      "manufacturer_part_number_text": "CR0402-JW-203GLF",
+      "manufacturer_part_number_cell_type": "s"
+    },
+    {
+      "id": "bom-item-061",
+      "sheet": "SCH-90828_C",
+      "row": 75,
+      "range": "A75:K75",
+      "source_columns": {
+        "Item": 61,
+        "Quantity": 4,
+        "AgilePN": "470-75557",
+        "Description": "RES MF 10K 1/16W 5% 0402",
+        "MFG": "BOURNS",
+        "MFG_PN": "CR0402-JW-103GLF",
+        "VALUE": "10K",
+        "ASSY_OPT": "DNP",
+        "FIND#": null,
+        "PRE_APN": null,
+        "Reference": "R93,R175,R181,R294"
+      },
+      "reference_designators": [
+        "R93",
+        "R175",
+        "R181",
+        "R294"
+      ],
+      "dnp_explicit": true,
+      "manufacturer_part_number_text": "CR0402-JW-103GLF",
+      "manufacturer_part_number_cell_type": "s"
+    },
+    {
+      "id": "bom-item-062",
+      "sheet": "SCH-90828_C",
+      "row": 76,
+      "range": "A76:K76",
+      "source_columns": {
+        "Item": 62,
+        "Quantity": 7,
+        "AgilePN": "470-76240",
+        "Description": "RES MF 100K 1/16W 1% 0402",
+        "MFG": "NIC COMPONENTS CORP",
+        "MFG_PN": "NRCL04F1003TRF",
+        "VALUE": "100K",
+        "ASSY_OPT": null,
+        "FIND#": null,
+        "PRE_APN": null,
+        "Reference": "R94,R127,R145,R146,R147,R149,R185"
+      },
+      "reference_designators": [
+        "R94",
+        "R127",
+        "R145",
+        "R146",
+        "R147",
+        "R149",
+        "R185"
+      ],
+      "dnp_explicit": false,
+      "manufacturer_part_number_text": "NRCL04F1003TRF",
+      "manufacturer_part_number_cell_type": "s"
+    },
+    {
+      "id": "bom-item-063",
+      "sheet": "SCH-90828_C",
+      "row": 77,
+      "range": "A77:K77",
+      "source_columns": {
+        "Item": 63,
+        "Quantity": 1,
+        "AgilePN": "470-75790",
+        "Description": "RES MF 33.0 OHM 1/16W 1% 0402",
+        "MFG": "THYE MING TECH CO LTD",
+        "MFG_PN": "CR-02FL6---33R",
+        "VALUE": 33,
+        "ASSY_OPT": null,
+        "FIND#": null,
+        "PRE_APN": null,
+        "Reference": "R103"
+      },
+      "reference_designators": [
+        "R103"
+      ],
+      "dnp_explicit": false,
+      "manufacturer_part_number_text": "CR-02FL6---33R",
+      "manufacturer_part_number_cell_type": "s"
+    },
+    {
+      "id": "bom-item-064",
+      "sheet": "SCH-90828_C",
+      "row": 78,
+      "range": "A78:K78",
+      "source_columns": {
+        "Item": 64,
+        "Quantity": 4,
+        "AgilePN": "470-83213",
+        "Description": "RES MF 2.2K 1/16W 1% 0402",
+        "MFG": "Bourns Inc.",
+        "MFG_PN": "CR0402-FX-2201GLF",
+        "VALUE": "2.2K",
+        "ASSY_OPT": null,
+        "FIND#": null,
+        "PRE_APN": null,
+        "Reference": "R110,R150,R157,R158"
+      },
+      "reference_designators": [
+        "R110",
+        "R150",
+        "R157",
+        "R158"
+      ],
+      "dnp_explicit": false,
+      "manufacturer_part_number_text": "CR0402-FX-2201GLF",
+      "manufacturer_part_number_cell_type": "s"
+    },
+    {
+      "id": "bom-item-065",
+      "sheet": "SCH-90828_C",
+      "row": 79,
+      "range": "A79:K79",
+      "source_columns": {
+        "Item": 65,
+        "Quantity": 2,
+        "AgilePN": "470-75591",
+        "Description": "RES MF 100 OHM 1/16W 5% 0402",
+        "MFG": "BOURNS",
+        "MFG_PN": "CR0402-JW-101GLF",
+        "VALUE": 100,
+        "ASSY_OPT": null,
+        "FIND#": null,
+        "PRE_APN": null,
+        "Reference": "R117,R144"
+      },
+      "reference_designators": [
+        "R117",
+        "R144"
+      ],
+      "dnp_explicit": false,
+      "manufacturer_part_number_text": "CR0402-JW-101GLF",
+      "manufacturer_part_number_cell_type": "s"
+    },
+    {
+      "id": "bom-item-066",
+      "sheet": "SCH-90828_C",
+      "row": 80,
+      "range": "A80:K80",
+      "source_columns": {
+        "Item": 66,
+        "Quantity": 3,
+        "AgilePN": "470-76237",
+        "Description": "RES 510 OHMS 1/16W 5% RC0402 ROHS",
+        "MFG": "YAGEO AMERICA",
+        "MFG_PN": "RC0402JR-07510RL",
+        "VALUE": 510,
+        "ASSY_OPT": null,
+        "FIND#": null,
+        "PRE_APN": null,
+        "Reference": "R118,R119,R120"
+      },
+      "reference_designators": [
+        "R118",
+        "R119",
+        "R120"
+      ],
+      "dnp_explicit": false,
+      "manufacturer_part_number_text": "RC0402JR-07510RL",
+      "manufacturer_part_number_cell_type": "s"
+    },
+    {
+      "id": "bom-item-067",
+      "sheet": "SCH-90828_C",
+      "row": 81,
+      "range": "A81:K81",
+      "source_columns": {
+        "Item": 67,
+        "Quantity": 3,
+        "AgilePN": "470-75408",
+        "Description": "RES MF 2.0K 1/10W 5% 0603",
+        "MFG": "BOURNS",
+        "MFG_PN": "CR0603-JW-202ELF",
+        "VALUE": "2.0K",
+        "ASSY_OPT": null,
+        "FIND#": null,
+        "PRE_APN": null,
+        "Reference": "R125,R126,R148"
+      },
+      "reference_designators": [
+        "R125",
+        "R126",
+        "R148"
+      ],
+      "dnp_explicit": false,
+      "manufacturer_part_number_text": "CR0603-JW-202ELF",
+      "manufacturer_part_number_cell_type": "s"
+    },
+    {
+      "id": "bom-item-068",
+      "sheet": "SCH-90828_C",
+      "row": 82,
+      "range": "A82:K82",
+      "source_columns": {
+        "Item": 68,
+        "Quantity": 4,
+        "AgilePN": "470-83212",
+        "Description": "RES MF 1K 1/16W 1% AEC-Q200 0402",
+        "MFG": "STACKPOLE ELECTRONICS",
+        "MFG_PN": "RMCF0402FT1K00",
+        "VALUE": "1K",
+        "ASSY_OPT": "DNP",
+        "FIND#": null,
+        "PRE_APN": null,
+        "Reference": "R130,R133,R134,R137"
+      },
+      "reference_designators": [
+        "R130",
+        "R133",
+        "R134",
+        "R137"
+      ],
+      "dnp_explicit": true,
+      "manufacturer_part_number_text": "RMCF0402FT1K00",
+      "manufacturer_part_number_cell_type": "s"
+    },
+    {
+      "id": "bom-item-069",
+      "sheet": "SCH-90828_C",
+      "row": 83,
+      "range": "A83:K83",
+      "source_columns": {
+        "Item": 69,
+        "Quantity": 3,
+        "AgilePN": "470-83212",
+        "Description": "RES MF 1K 1/16W 1% AEC-Q200 0402",
+        "MFG": "STACKPOLE ELECTRONICS",
+        "MFG_PN": "RMCF0402FT1K00",
+        "VALUE": "1K",
+        "ASSY_OPT": null,
+        "FIND#": null,
+        "PRE_APN": null,
+        "Reference": "R132,R135,R136"
+      },
+      "reference_designators": [
+        "R132",
+        "R135",
+        "R136"
+      ],
+      "dnp_explicit": false,
+      "manufacturer_part_number_text": "RMCF0402FT1K00",
+      "manufacturer_part_number_cell_type": "s"
+    },
+    {
+      "id": "bom-item-070",
+      "sheet": "SCH-90828_C",
+      "row": 84,
+      "range": "A84:K84",
+      "source_columns": {
+        "Item": 70,
+        "Quantity": 1,
+        "AgilePN": "470-30384",
+        "Description": "RES MF 680 OHM 1/10W 1% 0603",
+        "MFG": "BOURNS",
+        "MFG_PN": "CR0603-FX-6800ELF",
+        "VALUE": 680,
+        "ASSY_OPT": null,
+        "FIND#": null,
+        "PRE_APN": null,
+        "Reference": "R167"
+      },
+      "reference_designators": [
+        "R167"
+      ],
+      "dnp_explicit": false,
+      "manufacturer_part_number_text": "CR0603-FX-6800ELF",
+      "manufacturer_part_number_cell_type": "s"
+    },
+    {
+      "id": "bom-item-071",
+      "sheet": "SCH-90828_C",
+      "row": 85,
+      "range": "A85:K85",
+      "source_columns": {
+        "Item": 71,
+        "Quantity": 1,
+        "AgilePN": "470-79978",
+        "Description": "RES MF 1M 1/10W 5% AEC-Q200 0402",
+        "MFG": "KOA SPEER",
+        "MFG_PN": "RK73B1ETTP105J",
+        "VALUE": "1M",
+        "ASSY_OPT": "DNP",
+        "FIND#": null,
+        "PRE_APN": null,
+        "Reference": "R170"
+      },
+      "reference_designators": [
+        "R170"
+      ],
+      "dnp_explicit": true,
+      "manufacturer_part_number_text": "RK73B1ETTP105J",
+      "manufacturer_part_number_cell_type": "s"
+    },
+    {
+      "id": "bom-item-072",
+      "sheet": "SCH-90828_C",
+      "row": 86,
+      "range": "A86:K86",
+      "source_columns": {
+        "Item": 72,
+        "Quantity": 1,
+        "AgilePN": "470-76066",
+        "Description": "RES MF 15.0K 1/16W 1% 0402",
+        "MFG": "BOURNS",
+        "MFG_PN": "CR0402-FX-1502GLF",
+        "VALUE": "15K",
+        "ASSY_OPT": null,
+        "FIND#": null,
+        "PRE_APN": null,
+        "Reference": "R178"
+      },
+      "reference_designators": [
+        "R178"
+      ],
+      "dnp_explicit": false,
+      "manufacturer_part_number_text": "CR0402-FX-1502GLF",
+      "manufacturer_part_number_cell_type": "s"
+    },
+    {
+      "id": "bom-item-073",
+      "sheet": "SCH-90828_C",
+      "row": 87,
+      "range": "A87:K87",
+      "source_columns": {
+        "Item": 73,
+        "Quantity": 2,
+        "AgilePN": "470-82103",
+        "Description": "RES MF 62 OHM 1/4W 5% AEC-Q200 0805",
+        "MFG": "KOA SPEER",
+        "MFG_PN": "RK73B2ATTD620J",
+        "VALUE": 62,
+        "ASSY_OPT": null,
+        "FIND#": null,
+        "PRE_APN": null,
+        "Reference": "R184,R189"
+      },
+      "reference_designators": [
+        "R184",
+        "R189"
+      ],
+      "dnp_explicit": false,
+      "manufacturer_part_number_text": "RK73B2ATTD620J",
+      "manufacturer_part_number_cell_type": "s"
+    },
+    {
+      "id": "bom-item-074",
+      "sheet": "SCH-90828_C",
+      "row": 88,
+      "range": "A88:K88",
+      "source_columns": {
+        "Item": 74,
+        "Quantity": 1,
+        "AgilePN": "470-76240",
+        "Description": "RES MF 100K 1/16W 1% 0402",
+        "MFG": "NIC COMPONENTS CORP",
+        "MFG_PN": "NRCL04F1003TRF",
+        "VALUE": "100K",
+        "ASSY_OPT": "DNP",
+        "FIND#": null,
+        "PRE_APN": null,
+        "Reference": "R202"
+      },
+      "reference_designators": [
+        "R202"
+      ],
+      "dnp_explicit": true,
+      "manufacturer_part_number_text": "NRCL04F1003TRF",
+      "manufacturer_part_number_cell_type": "s"
+    },
+    {
+      "id": "bom-item-075",
+      "sheet": "SCH-90828_C",
+      "row": 89,
+      "range": "A89:K89",
+      "source_columns": {
+        "Item": 75,
+        "Quantity": 2,
+        "AgilePN": "470-30914",
+        "Description": "RES MF 5.1K  1/16W 1% 0402",
+        "MFG": "YAGEO AMERICA",
+        "MFG_PN": "RC0402FR-075K1L",
+        "VALUE": "5.1K",
+        "ASSY_OPT": null,
+        "FIND#": null,
+        "PRE_APN": null,
+        "Reference": "R213,R214"
+      },
+      "reference_designators": [
+        "R213",
+        "R214"
+      ],
+      "dnp_explicit": false,
+      "manufacturer_part_number_text": "RC0402FR-075K1L",
+      "manufacturer_part_number_cell_type": "s"
+    },
+    {
+      "id": "bom-item-076",
+      "sheet": "SCH-90828_C",
+      "row": 90,
+      "range": "A90:K90",
+      "source_columns": {
+        "Item": 76,
+        "Quantity": 1,
+        "AgilePN": "470-30297",
+        "Description": "RES MF 220 OHM 1/10W 5% 0603",
+        "MFG": "WALSIN TECHNOLOGY CORP.",
+        "MFG_PN": "WR06X221 JTL",
+        "VALUE": 220,
+        "ASSY_OPT": null,
+        "FIND#": null,
+        "PRE_APN": null,
+        "Reference": "R216"
+      },
+      "reference_designators": [
+        "R216"
+      ],
+      "dnp_explicit": false,
+      "manufacturer_part_number_text": "WR06X221 JTL",
+      "manufacturer_part_number_cell_type": "s"
+    },
+    {
+      "id": "bom-item-077",
+      "sheet": "SCH-90828_C",
+      "row": 91,
+      "range": "A91:K91",
+      "source_columns": {
+        "Item": 77,
+        "Quantity": 2,
+        "AgilePN": "470-80911",
+        "Description": "RES MF 4.7K OHM 1/16W 1% 0402",
+        "MFG": "YAGEO",
+        "MFG_PN": "RC0402FR-074K7L",
+        "VALUE": "4.7K",
+        "ASSY_OPT": "DNP",
+        "FIND#": null,
+        "PRE_APN": null,
+        "Reference": "R298,R299"
+      },
+      "reference_designators": [
+        "R298",
+        "R299"
+      ],
+      "dnp_explicit": true,
+      "manufacturer_part_number_text": "RC0402FR-074K7L",
+      "manufacturer_part_number_cell_type": "s"
+    },
+    {
+      "id": "bom-item-078",
+      "sheet": "SCH-90828_C",
+      "row": 92,
+      "range": "A92:K92",
+      "source_columns": {
+        "Item": 78,
+        "Quantity": 5,
+        "AgilePN": "470-83592",
+        "Description": "SOLDER BLOB JUMPER 3PIN 1-2 SHORT 0402 - NO PART TO ORDER",
+        "MFG": "NA",
+        "MFG_PN": "3 PIN 0402 JUMPER",
+        "VALUE": "3 PIN 0402 JUMPER",
+        "ASSY_OPT": null,
+        "FIND#": null,
+        "PRE_APN": null,
+        "Reference": "SJ1,SJ2,SJ3,SJ4,SJ5"
+      },
+      "reference_designators": [
+        "SJ1",
+        "SJ2",
+        "SJ3",
+        "SJ4",
+        "SJ5"
+      ],
+      "dnp_explicit": false,
+      "manufacturer_part_number_text": "3 PIN 0402 JUMPER",
+      "manufacturer_part_number_cell_type": "s"
+    },
+    {
+      "id": "bom-item-079",
+      "sheet": "SCH-90828_C",
+      "row": 93,
+      "range": "A93:K93",
+      "source_columns": {
+        "Item": 79,
+        "Quantity": 3,
+        "AgilePN": "510-78653",
+        "Description": "SW SP PB 50mA 16V SMT",
+        "MFG": "WURTH ELEKTRONIK EISOS GMBH & CO. KG (ELECTRONIC & ELECTROMEHANICAL COMP)",
+        "MFG_PN": 434123025826,
+        "VALUE": "SW SPST NO",
+        "ASSY_OPT": null,
+        "FIND#": null,
+        "PRE_APN": null,
+        "Reference": "SW1,SW2,SW3"
+      },
+      "reference_designators": [
+        "SW1",
+        "SW2",
+        "SW3"
+      ],
+      "dnp_explicit": false,
+      "manufacturer_part_number_text": "434123025826",
+      "manufacturer_part_number_cell_type": "n"
+    },
+    {
+      "id": "bom-item-080",
+      "sheet": "SCH-90828_C",
+      "row": 94,
+      "range": "A94:K94",
+      "source_columns": {
+        "Item": 80,
+        "Quantity": 28,
+        "AgilePN": "211-76643",
+        "Description": "TEST POINT PAD 40MIL DIA SMT, NO PART TO ORDER",
+        "MFG": "NOTACOMPONENT",
+        "MFG_PN": "NOTACOMPONENT",
+        "VALUE": "TPAD_040",
+        "ASSY_OPT": null,
+        "FIND#": null,
+        "PRE_APN": null,
+        "Reference": "TP2,TP5,TP6,TP8,TP9,TP10,TP11,TP12,TP13,TP14,TP15,TP16,TP17,TP18,TP19,TP20,TP21,TP22,TP23,TP24,TP25,TP26,TP27,TP28,TP29,TP30,TP31,TP32"
+      },
+      "reference_designators": [
+        "TP2",
+        "TP5",
+        "TP6",
+        "TP8",
+        "TP9",
+        "TP10",
+        "TP11",
+        "TP12",
+        "TP13",
+        "TP14",
+        "TP15",
+        "TP16",
+        "TP17",
+        "TP18",
+        "TP19",
+        "TP20",
+        "TP21",
+        "TP22",
+        "TP23",
+        "TP24",
+        "TP25",
+        "TP26",
+        "TP27",
+        "TP28",
+        "TP29",
+        "TP30",
+        "TP31",
+        "TP32"
+      ],
+      "dnp_explicit": false,
+      "manufacturer_part_number_text": "NOTACOMPONENT",
+      "manufacturer_part_number_cell_type": "s"
+    },
+    {
+      "id": "bom-item-081",
+      "sheet": "SCH-90828_C",
+      "row": 95,
+      "range": "A95:K95",
+      "source_columns": {
+        "Item": 81,
+        "Quantity": 1,
+        "AgilePN": "TMP-CIP-14239",
+        "Description": "IC MCU LOW POWER 150MHz ARM Nirvana Nx5x -- VFBGA184",
+        "MFG": "NXP SEMICONDUCTORS",
+        "MFG_PN": "MCXN236VDFT",
+        "VALUE": "MCXN236VDFT",
+        "ASSY_OPT": null,
+        "FIND#": null,
+        "PRE_APN": "344-78012",
+        "Reference": "U1"
+      },
+      "reference_designators": [
+        "U1"
+      ],
+      "dnp_explicit": false,
+      "manufacturer_part_number_text": "MCXN236VDFT",
+      "manufacturer_part_number_cell_type": "s"
+    },
+    {
+      "id": "bom-item-082",
+      "sheet": "SCH-90828_C",
+      "row": 96,
+      "range": "A96:K96",
+      "source_columns": {
+        "Item": 82,
+        "Quantity": 1,
+        "AgilePN": "315-80827",
+        "Description": "IC VREG LDO  3.3V 0.7A 1.7-6.0V SOT-89-5",
+        "MFG": "TOREX",
+        "MFG_PN": "XC6227C331PR-G",
+        "VALUE": "XC6227C331PR-G",
+        "ASSY_OPT": null,
+        "FIND#": null,
+        "PRE_APN": null,
+        "Reference": "U2"
+      },
+      "reference_designators": [
+        "U2"
+      ],
+      "dnp_explicit": false,
+      "manufacturer_part_number_text": "XC6227C331PR-G",
+      "manufacturer_part_number_cell_type": "s"
+    },
+    {
+      "id": "bom-item-083",
+      "sheet": "SCH-90828_C",
+      "row": 97,
+      "range": "A97:K97",
+      "source_columns": {
+        "Item": 83,
+        "Quantity": 1,
+        "AgilePN": "315-81422",
+        "Description": "IC LIN VREG LDO 1.8V 250MA 1.8-8V SOT23-3",
+        "MFG": "UNION SEMICONDUCTOR, INC",
+        "MFG_PN": "UM1550S-18",
+        "VALUE": "UM1550S-18",
+        "ASSY_OPT": null,
+        "FIND#": null,
+        "PRE_APN": null,
+        "Reference": "U3"
+      },
+      "reference_designators": [
+        "U3"
+      ],
+      "dnp_explicit": false,
+      "manufacturer_part_number_text": "UM1550S-18",
+      "manufacturer_part_number_cell_type": "s"
+    },
+    {
+      "id": "bom-item-084",
+      "sheet": "SCH-90828_C",
+      "row": 98,
+      "range": "A98:K98",
+      "source_columns": {
+        "Item": 84,
+        "Quantity": 1,
+        "AgilePN": "312-81574",
+        "Description": "IC USB PD TYPE C CURRENT LIMITED PWR SW 2.5-5.5V WLCSP12",
+        "MFG": "NXP SEMICONDUCTORS",
+        "MFG_PN": "NX5P3090UK,012",
+        "VALUE": "NX5P3090UK",
+        "ASSY_OPT": null,
+        "FIND#": null,
+        "PRE_APN": null,
+        "Reference": "U4"
+      },
+      "reference_designators": [
+        "U4"
+      ],
+      "dnp_explicit": false,
+      "manufacturer_part_number_text": "NX5P3090UK,012",
+      "manufacturer_part_number_cell_type": "s"
+    },
+    {
+      "id": "bom-item-085",
+      "sheet": "SCH-90828_C",
+      "row": 99,
+      "range": "A99:K99",
+      "source_columns": {
+        "Item": 85,
+        "Quantity": 1,
+        "AgilePN": "480-78843",
+        "Description": "DIODE TVS ARRAY 3 5.5V SLP1616P6",
+        "MFG": "SEMTECH CORP",
+        "MFG_PN": "RClamp0854P.TCT",
+        "VALUE": "RClamp0854P.TCT",
+        "ASSY_OPT": null,
+        "FIND#": null,
+        "PRE_APN": null,
+        "Reference": "U5"
+      },
+      "reference_designators": [
+        "U5"
+      ],
+      "dnp_explicit": false,
+      "manufacturer_part_number_text": "RClamp0854P.TCT",
+      "manufacturer_part_number_cell_type": "s"
+    },
+    {
+      "id": "bom-item-086",
+      "sheet": "SCH-90828_C",
+      "row": 100,
+      "range": "A100:K100",
+      "source_columns": {
+        "Item": 86,
+        "Quantity": 1,
+        "AgilePN": "312-81524",
+        "Description": "IC AUDIO CODEC 1.6-2.65V CSP34",
+        "MFG": "DIALOG SEMICONDUCTOR",
+        "MFG_PN": "DA7212-01UM2",
+        "VALUE": "DA7212",
+        "ASSY_OPT": "DNP",
+        "FIND#": null,
+        "PRE_APN": null,
+        "Reference": "U6"
+      },
+      "reference_designators": [
+        "U6"
+      ],
+      "dnp_explicit": true,
+      "manufacturer_part_number_text": "DA7212-01UM2",
+      "manufacturer_part_number_cell_type": "s"
+    },
+    {
+      "id": "bom-item-087",
+      "sheet": "SCH-90828_C",
+      "row": 101,
+      "range": "A101:K101",
+      "source_columns": {
+        "Item": 87,
+        "Quantity": 1,
+        "AgilePN": "510-78247",
+        "Description": "IC MIC MEMS PDM DIGITAL SISONIC -26DB 1.6-3.6V LGA8",
+        "MFG": "KNOWLES ACOUSTICS",
+        "MFG_PN": "SPK0641HT4H-1",
+        "VALUE": "SPK0641HT4H-1",
+        "ASSY_OPT": null,
+        "FIND#": null,
+        "PRE_APN": null,
+        "Reference": "U7"
+      },
+      "reference_designators": [
+        "U7"
+      ],
+      "dnp_explicit": false,
+      "manufacturer_part_number_text": "SPK0641HT4H-1",
+      "manufacturer_part_number_cell_type": "s"
+    },
+    {
+      "id": "bom-item-088",
+      "sheet": "SCH-90828_C",
+      "row": 102,
+      "range": "A102:K102",
+      "source_columns": {
+        "Item": 88,
+        "Quantity": 1,
+        "AgilePN": "344-02410",
+        "Description": "IC MCU ARM FLASH 640KB SRAM 320KB 1.8-3.6V VFBGA 98",
+        "MFG": "NXP SEMICONDUCTOR",
+        "MFG_PN": "LPC55S69JEV98",
+        "VALUE": "LPC55S69JEV98",
+        "ASSY_OPT": null,
+        "FIND#": null,
+        "PRE_APN": null,
+        "Reference": "U8"
+      },
+      "reference_designators": [
+        "U8"
+      ],
+      "dnp_explicit": false,
+      "manufacturer_part_number_text": "LPC55S69JEV98",
+      "manufacturer_part_number_cell_type": "s"
+    },
+    {
+      "id": "bom-item-089",
+      "sheet": "SCH-90828_C",
+      "row": 103,
+      "range": "A103:K103",
+      "source_columns": {
+        "Item": 89,
+        "Quantity": 1,
+        "AgilePN": "480-78843",
+        "Description": "DIODE TVS ARRAY 3 5.5V SLP1616P6",
+        "MFG": "SEMTECH CORP",
+        "MFG_PN": "RClamp0854P.TCT",
+        "VALUE": "RClamp0854P.TCT",
+        "ASSY_OPT": "DNP",
+        "FIND#": null,
+        "PRE_APN": null,
+        "Reference": "U9"
+      },
+      "reference_designators": [
+        "U9"
+      ],
+      "dnp_explicit": true,
+      "manufacturer_part_number_text": "RClamp0854P.TCT",
+      "manufacturer_part_number_cell_type": "s"
+    },
+    {
+      "id": "bom-item-090",
+      "sheet": "SCH-90828_C",
+      "row": 104,
+      "range": "A104:K104",
+      "source_columns": {
+        "Item": 90,
+        "Quantity": 1,
+        "AgilePN": "TMP-CIP-7425",
+        "Description": "IC ACCELEROMETER 3-AXIS 12BIT 1.71-3.6V AEC-Q100 DFN10",
+        "MFG": "NXP SEMICONDUCTORS",
+        "MFG_PN": "FXLS8974CFR3",
+        "VALUE": "FXLS8974CFR3",
+        "ASSY_OPT": null,
+        "FIND#": null,
+        "PRE_APN": "312-83141",
+        "Reference": "U10"
+      },
+      "reference_designators": [
+        "U10"
+      ],
+      "dnp_explicit": false,
+      "manufacturer_part_number_text": "FXLS8974CFR3",
+      "manufacturer_part_number_cell_type": "s"
+    },
+    {
+      "id": "bom-item-091",
+      "sheet": "SCH-90828_C",
+      "row": 105,
+      "range": "A105:K105",
+      "source_columns": {
+        "Item": 91,
+        "Quantity": 1,
+        "AgilePN": "312-83230",
+        "Description": "IC XCVR CAN 5MBIT/S 4.75-5.25V AEC-Q100 HVSON8",
+        "MFG": "NXP Semiconductors",
+        "MFG_PN": "TJA1057GTK/3Z",
+        "VALUE": "TJA1057GTK/3Z",
+        "ASSY_OPT": null,
+        "FIND#": null,
+        "PRE_APN": null,
+        "Reference": "U11"
+      },
+      "reference_designators": [
+        "U11"
+      ],
+      "dnp_explicit": false,
+      "manufacturer_part_number_text": "TJA1057GTK/3Z",
+      "manufacturer_part_number_cell_type": "s"
+    },
+    {
+      "id": "bom-item-092",
+      "sheet": "SCH-90828_C",
+      "row": 106,
+      "range": "A106:K106",
+      "source_columns": {
+        "Item": 92,
+        "Quantity": 1,
+        "AgilePN": "342-00710",
+        "Description": "IC MEM SERIAL FLASH DUAL/QUAD SPI 64MBIT 2.7-3.6V SOIC8",
+        "MFG": "WINBOND ELECTRONICS CORP",
+        "MFG_PN": "W25Q64JVSSIQ",
+        "VALUE": "W25Q64JVSSIQ",
+        "ASSY_OPT": null,
+        "FIND#": null,
+        "PRE_APN": null,
+        "Reference": "U12"
+      },
+      "reference_designators": [
+        "U12"
+      ],
+      "dnp_explicit": false,
+      "manufacturer_part_number_text": "W25Q64JVSSIQ",
+      "manufacturer_part_number_cell_type": "s"
+    },
+    {
+      "id": "bom-item-093",
+      "sheet": "SCH-90828_C",
+      "row": 107,
+      "range": "A107:K107",
+      "source_columns": {
+        "Item": 93,
+        "Quantity": 1,
+        "AgilePN": "312-81473",
+        "Description": "IC CC LOGIC USB TYPE-C 2.7-5.5V X2QFN12",
+        "MFG": "NXP SEMICONDUCTORS",
+        "MFG_PN": "PTN5150AHXMP",
+        "VALUE": "PTN5150A",
+        "ASSY_OPT": null,
+        "FIND#": null,
+        "PRE_APN": null,
+        "Reference": "U41"
+      },
+      "reference_designators": [
+        "U41"
+      ],
+      "dnp_explicit": false,
+      "manufacturer_part_number_text": "PTN5150AHXMP",
+      "manufacturer_part_number_cell_type": "s"
+    },
+    {
+      "id": "bom-item-094",
+      "sheet": "SCH-90828_C",
+      "row": 108,
+      "range": "A108:K108",
+      "source_columns": {
+        "Item": 94,
+        "Quantity": 1,
+        "AgilePN": "230-78680",
+        "Description": "XTAL 16MHz 20ppm 8pF SMT",
+        "MFG": "Würth Elektronik",
+        "MFG_PN": 830064296,
+        "VALUE": "16MHz",
+        "ASSY_OPT": " ",
+        "FIND#": null,
+        "PRE_APN": null,
+        "Reference": "Y1"
+      },
+      "reference_designators": [
+        "Y1"
+      ],
+      "dnp_explicit": false,
+      "manufacturer_part_number_text": "830064296",
+      "manufacturer_part_number_cell_type": "n"
+    },
+    {
+      "id": "bom-item-095",
+      "sheet": "SCH-90828_C",
+      "row": 109,
+      "range": "A109:K109",
+      "source_columns": {
+        "Item": 95,
+        "Quantity": 1,
+        "AgilePN": "230-78676",
+        "Description": "XTAL 32.768kHz 12.5pF 1.05pF 20ppm SMT",
+        "MFG": "Wurth Electronics Inc.",
+        "MFG_PN": 830009678,
+        "VALUE": "32.768KHz",
+        "ASSY_OPT": " ",
+        "FIND#": null,
+        "PRE_APN": null,
+        "Reference": "Y2"
+      },
+      "reference_designators": [
+        "Y2"
+      ],
+      "dnp_explicit": false,
+      "manufacturer_part_number_text": "830009678",
+      "manufacturer_part_number_cell_type": "n"
+    },
+    {
+      "id": "bom-item-096",
+      "sheet": "SCH-90828_C",
+      "row": 110,
+      "range": "A110:K110",
+      "source_columns": {
+        "Item": 96,
+        "Quantity": 1,
+        "AgilePN": "230-78677",
+        "Description": "XTAL 24MHz 10ppm 8pF SMT",
+        "MFG": "Wurth Electronics Inc.",
+        "MFG_PN": 830108212309,
+        "VALUE": "24MHz",
+        "ASSY_OPT": " ",
+        "FIND#": null,
+        "PRE_APN": null,
+        "Reference": "Y3"
+      },
+      "reference_designators": [
+        "Y3"
+      ],
+      "dnp_explicit": false,
+      "manufacturer_part_number_text": "830108212309",
+      "manufacturer_part_number_cell_type": "n"
+    }
+  ]
+}
