@@ -204,6 +204,7 @@ def main():
         assert entry['image_sha256'] == image['image_sha256']
         assert entry['board_family'] == image['board']['family']
         part = next(part for part in image['parts'] if part['id'] == entry['part_id'])
+        assert part['box_review_status'].startswith('visual_reviewed_')
         pin_id = entry['id']
         assert pin_id and pin_id not in pin_ids
         pin_ids.add(pin_id)

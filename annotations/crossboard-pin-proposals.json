@@ -1,0 +1,104 @@
+{
+  "schema_version": "1.0",
+  "status": "mixed_esp8266_proposals_and_reviewed_ultimainboard_j22_evidence",
+  "coordinate_system": "pixel_xyxy_origin_top_left",
+  "scope": "ESP8266 silkscreen-to-contact review candidates and provenance for four reviewed Ultimainboard J22 pins; ESP8266 has no schematic/net assignment",
+  "image_file": "IMG_20261009_221941_1.jpg",
+  "image_sha256": "ecd914ed2b69d26e3ff670951d946065a1d3a4001d03e00ffc07700209bd0b40",
+  "image_width": 1016,
+  "image_height": 1866,
+  "board_family": "esp8266_board",
+  "board_identity_evidence": "ESP-12 style RF module, NodeMCU-style layout and readable A0/G/VU/D0/D1 labels on photographed board",
+  "parent_part_gap": "Left and right edge through-hole header/contact rows need visually reviewed part annotations before any pin can be promoted",
+  "proposals": [
+    {
+      "proposal_id": "esp8266-left-a0",
+      "parent_part_proposal": "left_edge_header_contact_row",
+      "pin_label": "A0",
+      "photo_bbox_xyxy_pixels": [8, 367, 55, 414],
+      "evidence": "A0 silkscreen directly beside first populated left-edge solder contact below RF-module top edge",
+      "label_semantics": "board_silkscreen_alias",
+      "source_refdes": null,
+      "source_net": null,
+      "requires_review": true
+    },
+    {
+      "proposal_id": "esp8266-left-g",
+      "parent_part_proposal": "left_edge_header_contact_row",
+      "pin_label": "G",
+      "photo_bbox_xyxy_pixels": [8, 448, 55, 497],
+      "evidence": "G silkscreen directly beside next left-edge solder contact",
+      "label_semantics": "board_silkscreen_alias",
+      "source_refdes": null,
+      "source_net": null,
+      "requires_review": true
+    },
+    {
+      "proposal_id": "esp8266-right-d0",
+      "parent_part_proposal": "right_edge_header_contact_row",
+      "pin_label": "D0",
+      "photo_bbox_xyxy_pixels": [939, 367, 988, 414],
+      "evidence": "D0 silkscreen directly beside first populated right-edge solder contact below RF-module top edge",
+      "label_semantics": "board_silkscreen_alias",
+      "source_refdes": null,
+      "source_net": null,
+      "requires_review": true
+    },
+    {
+      "proposal_id": "esp8266-right-d1",
+      "parent_part_proposal": "right_edge_header_contact_row",
+      "pin_label": "D1",
+      "photo_bbox_xyxy_pixels": [938, 448, 988, 497],
+      "evidence": "D1 silkscreen directly beside next right-edge solder contact",
+      "label_semantics": "board_silkscreen_alias",
+      "source_refdes": null,
+      "source_net": null,
+      "requires_review": true
+    }
+  ],
+  "additional_image_proposals": [
+    {
+      "image_file": "IMG_20261009_222135_1.jpg",
+      "image_width": 1408,
+      "image_height": 3112,
+      "image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "board_family": "ultimainboard",
+      "board_identity_evidence": "Photographed Ultimainboard rev. 2.1.4 marking matches exact Altium CAD revision",
+      "parent_part_seed_id": "major-020",
+      "source_refdes": "J22",
+      "promoted_to": "annotations/pin-annotations.json",
+      "orientation_evidence": "J22 footprint in imported exact PCB has pad 1 beside F.SilkS triangle; same triangle appears at left end of photographed J22",
+      "source_file": "data/board-sources/ultimainboard-2.1.4/generated-kicad/Ultimainboard-2.1.4.imported.kicad_pcb",
+      "proposals": [
+        {
+          "proposal_id": "ultimainboard-j22-1",
+          "pin_number": "1",
+          "source_net": "+5V",
+          "photo_bbox_xyxy_pixels": [902, 27, 946, 73],
+          "requires_pixel_review": false
+        },
+        {
+          "proposal_id": "ultimainboard-j22-2",
+          "pin_number": "2",
+          "source_net": "GND",
+          "photo_bbox_xyxy_pixels": [948, 27, 992, 73],
+          "requires_pixel_review": false
+        },
+        {
+          "proposal_id": "ultimainboard-j22-3",
+          "pin_number": "3",
+          "source_net": "TXD2",
+          "photo_bbox_xyxy_pixels": [995, 27, 1039, 73],
+          "requires_pixel_review": false
+        },
+        {
+          "proposal_id": "ultimainboard-j22-4",
+          "pin_number": "4",
+          "source_net": "RXD2",
+          "photo_bbox_xyxy_pixels": [1041, 27, 1085, 73],
+          "requires_pixel_review": false
+        }
+      ]
+    }
+  ]
+}

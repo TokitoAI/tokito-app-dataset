@@ -1,6 +1,51 @@
 {
   "schema_version": "1.0",
   "coordinate_system": "pixel_xyxy",
-  "coverage": "No individual photo pin locations reviewed yet, across any of the five board families.",
-  "pins": []
+  "coverage": "Four visually reviewed J22 connector contacts on one Ultimainboard 2.1.4 photo; all other photo pins remain unregistered.",
+  "pins": [
+    {
+      "id": "ultimainboard-j22-1",
+      "image_file": "IMG_20261009_222135_1.jpg",
+      "image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "board_family": "ultimainboard",
+      "part_id": "IMG_20261009_222135_1.jpg:annotations/large-board-component-seeds.json:major-020",
+      "pin_number": "1",
+      "photo_bbox_xyxy_pixels": [902, 27, 946, 73],
+      "pin_identity_evidence": "J22 and SERIAL marking in the photo; pin-1 triangle at leftmost contact matches pad 1 triangle in the version-matched Ultimainboard 2.1.4 PCB; contact box independently inspected at full image pixels.",
+      "review_status": "visually_reviewed_pin_location"
+    },
+    {
+      "id": "ultimainboard-j22-2",
+      "image_file": "IMG_20261009_222135_1.jpg",
+      "image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "board_family": "ultimainboard",
+      "part_id": "IMG_20261009_222135_1.jpg:annotations/large-board-component-seeds.json:major-020",
+      "pin_number": "2",
+      "photo_bbox_xyxy_pixels": [948, 27, 992, 73],
+      "pin_identity_evidence": "Second contact from the photographed J22 pin-1 triangle; version-matched PCB pad 2 follows pad 1 at 2.54 mm pitch; contact box independently inspected at full image pixels.",
+      "review_status": "visually_reviewed_pin_location"
+    },
+    {
+      "id": "ultimainboard-j22-3",
+      "image_file": "IMG_20261009_222135_1.jpg",
+      "image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "board_family": "ultimainboard",
+      "part_id": "IMG_20261009_222135_1.jpg:annotations/large-board-component-seeds.json:major-020",
+      "pin_number": "3",
+      "photo_bbox_xyxy_pixels": [995, 27, 1039, 73],
+      "pin_identity_evidence": "Third contact from the photographed J22 pin-1 triangle; version-matched PCB pad 3 follows pad 2 at 2.54 mm pitch; contact box independently inspected at full image pixels.",
+      "review_status": "visually_reviewed_pin_location"
+    },
+    {
+      "id": "ultimainboard-j22-4",
+      "image_file": "IMG_20261009_222135_1.jpg",
+      "image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "board_family": "ultimainboard",
+      "part_id": "IMG_20261009_222135_1.jpg:annotations/large-board-component-seeds.json:major-020",
+      "pin_number": "4",
+      "photo_bbox_xyxy_pixels": [1041, 27, 1085, 73],
+      "pin_identity_evidence": "Fourth contact from the photographed J22 pin-1 triangle; version-matched PCB pad 4 follows pad 3 at 2.54 mm pitch; contact box independently inspected at full image pixels.",
+      "review_status": "visually_reviewed_pin_location"
+    }
+  ]
 }

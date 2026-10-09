@@ -103,7 +103,8 @@ def audit() -> dict:
         "readiness": {
             "board_family_diagnostic_training": True,
             "part_detector_complete_supervision": False,
-            "photo_pin_detector_training": photo_pin_boxes > 0,
+            "photo_pin_annotation_seed_available": photo_pin_boxes > 0,
+            "photo_pin_detector_training": False,
             "independent_specimen_test": False,
         },
         "limits": [

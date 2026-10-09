@@ -267,8 +267,8 @@
             0.026367
           ],
           "truncated_by_image": false,
-          "reference_designator": null,
-          "annotation_status": "visual_seed_requires_review"
+          "reference_designator": "J22",
+          "annotation_status": "visual_reviewed_connector_box_and_refdes"
         },
         {
           "id": "major-021",

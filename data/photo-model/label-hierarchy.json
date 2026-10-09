@@ -26,7 +26,7 @@
       "sha256": "a188c867b286ee059ecd5f47f6043c04275ab1b9106df3082c0923428b10864b"
     },
     "annotations/large-board-component-seeds.json": {
-      "sha256": "5d7a204554a01f619ab7c4f3c0519dd742cc8581793e4963482957918666ff53"
+      "sha256": "207e36d742163ce30cd375c5f544495a1fac9188f5f681a3f5f591ccd300522f"
     },
     "annotations/nxp-component-seeds.json": {
       "sha256": "02ed86ee8e98c5be456a2f5e199c4c7468bb4c7ab1c3309bcf15d83f9957e780"
@@ -44,7 +44,7 @@
       "sha256": "a96f612e11974dce7de88490ba25901c5547d845e2c26ccd2a52cd3d23a7436b"
     },
     "annotations/pin-annotations.json": {
-      "sha256": "feebe84c4a900f036f376173e2b8cb0c00e8dbf3df444fefe7290ba1f60fcdfd"
+      "sha256": "10a784c80e2c3fc517e9b0846e77da0bb93330c7178379b712e038455902729c"
     }
   },
   "statistics": {
@@ -75,13 +75,13 @@
     "source_linked_part_seeds": 10,
     "source_pin_records_under_linked_parts": 352,
     "unlinked_reference_source_pin_records": 1443,
-    "photo_pins_located": 0,
+    "photo_pins_located": 4,
     "photo_pins_located_by_family": {
       "esp32_board": 0,
       "esp8266_board": 0,
       "nxp_frdm_mcxn236_board": 0,
       "raspberry_pi_3b_board": 0,
-      "ultimainboard": 0
+      "ultimainboard": 4
     }
   },
   "images": [
@@ -6709,11 +6709,68 @@
             0.773463,
             0.026367
           ],
-          "box_review_status": "visual_seed_requires_review",
-          "observed_reference_designator": null,
+          "box_review_status": "visual_reviewed_connector_box_and_refdes",
+          "observed_reference_designator": "J22",
           "source_component_candidate": null,
-          "photo_pin_label_count": 0,
-          "pins": []
+          "photo_pin_label_count": 4,
+          "pins": [
+            {
+              "pin_number": "1",
+              "symbol_pin_name": null,
+              "source_net_name": null,
+              "source_record_kind": null,
+              "photo_bbox_xyxy_pixels": [
+                902,
+                27,
+                946,
+                73
+              ],
+              "mapping_status": "reviewed_photo_pin_without_source_link",
+              "photo_pin_annotation_id": "ultimainboard-j22-1"
+            },
+            {
+              "pin_number": "2",
+              "symbol_pin_name": null,
+              "source_net_name": null,
+              "source_record_kind": null,
+              "photo_bbox_xyxy_pixels": [
+                948,
+                27,
+                992,
+                73
+              ],
+              "mapping_status": "reviewed_photo_pin_without_source_link",
+              "photo_pin_annotation_id": "ultimainboard-j22-2"
+            },
+            {
+              "pin_number": "3",
+              "symbol_pin_name": null,
+              "source_net_name": null,
+              "source_record_kind": null,
+              "photo_bbox_xyxy_pixels": [
+                995,
+                27,
+                1039,
+                73
+              ],
+              "mapping_status": "reviewed_photo_pin_without_source_link",
+              "photo_pin_annotation_id": "ultimainboard-j22-3"
+            },
+            {
+              "pin_number": "4",
+              "symbol_pin_name": null,
+              "source_net_name": null,
+              "source_record_kind": null,
+              "photo_bbox_xyxy_pixels": [
+                1041,
+                27,
+                1085,
+                73
+              ],
+              "mapping_status": "reviewed_photo_pin_without_source_link",
+              "photo_pin_annotation_id": "ultimainboard-j22-4"
+            }
+          ]
         },
         {
           "id": "IMG_20261009_222135_1.jpg:annotations/large-board-component-seeds.json:major-021",
