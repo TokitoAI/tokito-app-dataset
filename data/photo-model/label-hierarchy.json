@@ -20,7 +20,7 @@
       "sha256": "2d88f97e12da91563d05b4e05946ab9b177e2ad23c62d9032a6170fba53ca17e"
     },
     "data/board-sources/non-nxp-source-pins.json": {
-      "sha256": "604a94f09cf65475057dbbcf08802ef92f8640ea8f16b54a5bbd0fc6165886b8"
+      "sha256": "363c8961ba503fb50395e9574e7f8f22c0b12b51e9824f1f0e03980b02bff65b"
     },
     "annotations/component-seed-annotations.json": {
       "sha256": "a188c867b286ee059ecd5f47f6043c04275ab1b9106df3082c0923428b10864b"
@@ -32,7 +32,7 @@
       "sha256": "02ed86ee8e98c5be456a2f5e199c4c7468bb4c7ab1c3309bcf15d83f9957e780"
     },
     "annotations/component-seeds-expanded.json": {
-      "sha256": "545f68a5f593b403be872902f1349078054fc1e7958ce937a3da89812e9ab0f1"
+      "sha256": "41c1c6bf56c97519ab1c36971f12a4ff6db4cfbb2455c0ac3ed6460e87802457"
     },
     "annotations/component-source-links.json": {
       "sha256": "524c55e39c2878de748ed0e531cd9acd861a0ed7a7ed28aca7a587b84ab39f23"
