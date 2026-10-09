@@ -1,0 +1,243 @@
+{
+  "errors": [],
+  "layer_mapping": {
+    "B.Adhesive": {
+      "kicad_layer": "B.Adhes",
+      "method": "auto"
+    },
+    "BODY_CENTER": {
+      "kicad_layer": "User.3",
+      "method": "auto"
+    },
+    "BOTTOM": {
+      "kicad_layer": "B.Cu",
+      "method": "auto"
+    },
+    "Board Geometry/Outline": {
+      "kicad_layer": "Edge.Cuts",
+      "method": "auto"
+    },
+    "Board Geometry/Soldermask Bottom": {
+      "kicad_layer": "B.Mask",
+      "method": "auto"
+    },
+    "Board Geometry/Soldermask Top": {
+      "kicad_layer": "F.Mask",
+      "method": "auto"
+    },
+    "DIMENSION": {
+      "kicad_layer": "User.2",
+      "method": "auto"
+    },
+    "DISPLAY_TOP": {
+      "kicad_layer": "User.4",
+      "method": "auto"
+    },
+    "F.Adhesive": {
+      "kicad_layer": "F.Adhes",
+      "method": "auto"
+    },
+    "GND": {
+      "kicad_layer": "In1.Cu",
+      "method": "auto"
+    },
+    "Margin": {
+      "kicad_layer": "Margin",
+      "method": "auto"
+    },
+    "POWER": {
+      "kicad_layer": "In2.Cu",
+      "method": "auto"
+    },
+    "Package Geometry/Pastemask Bottom": {
+      "kicad_layer": "B.Paste",
+      "method": "auto"
+    },
+    "Package Geometry/Pastemask Top": {
+      "kicad_layer": "F.Paste",
+      "method": "auto"
+    },
+    "Package Geometry/Place Bound Bottom": {
+      "kicad_layer": "B.CrtYd",
+      "method": "auto"
+    },
+    "Package Geometry/Place Bound Top": {
+      "kicad_layer": "F.CrtYd",
+      "method": "auto"
+    },
+    "Ref Des/Assembly Bottom": {
+      "kicad_layer": "B.Fab",
+      "method": "auto"
+    },
+    "Ref Des/Assembly Top": {
+      "kicad_layer": "F.Fab",
+      "method": "auto"
+    },
+    "Ref Des/Silkscreen Bottom": {
+      "kicad_layer": "B.SilkS",
+      "method": "auto"
+    },
+    "Ref Des/Silkscreen Top": {
+      "kicad_layer": "F.SilkS",
+      "method": "auto"
+    },
+    "Rescue": {
+      "kicad_layer": "Rescue",
+      "method": "auto"
+    },
+    "TOP": {
+      "kicad_layer": "F.Cu",
+      "method": "auto"
+    },
+    "User.10": {
+      "kicad_layer": "User.10",
+      "method": "auto"
+    },
+    "User.11": {
+      "kicad_layer": "User.11",
+      "method": "auto"
+    },
+    "User.12": {
+      "kicad_layer": "User.12",
+      "method": "auto"
+    },
+    "User.13": {
+      "kicad_layer": "User.13",
+      "method": "auto"
+    },
+    "User.14": {
+      "kicad_layer": "User.14",
+      "method": "auto"
+    },
+    "User.15": {
+      "kicad_layer": "User.15",
+      "method": "auto"
+    },
+    "User.16": {
+      "kicad_layer": "User.16",
+      "method": "auto"
+    },
+    "User.17": {
+      "kicad_layer": "User.17",
+      "method": "auto"
+    },
+    "User.18": {
+      "kicad_layer": "User.18",
+      "method": "auto"
+    },
+    "User.19": {
+      "kicad_layer": "User.19",
+      "method": "auto"
+    },
+    "User.20": {
+      "kicad_layer": "User.20",
+      "method": "auto"
+    },
+    "User.21": {
+      "kicad_layer": "User.21",
+      "method": "auto"
+    },
+    "User.22": {
+      "kicad_layer": "User.22",
+      "method": "auto"
+    },
+    "User.23": {
+      "kicad_layer": "User.23",
+      "method": "auto"
+    },
+    "User.24": {
+      "kicad_layer": "User.24",
+      "method": "auto"
+    },
+    "User.25": {
+      "kicad_layer": "User.25",
+      "method": "auto"
+    },
+    "User.26": {
+      "kicad_layer": "User.26",
+      "method": "auto"
+    },
+    "User.27": {
+      "kicad_layer": "User.27",
+      "method": "auto"
+    },
+    "User.28": {
+      "kicad_layer": "User.28",
+      "method": "auto"
+    },
+    "User.29": {
+      "kicad_layer": "User.29",
+      "method": "auto"
+    },
+    "User.30": {
+      "kicad_layer": "User.30",
+      "method": "auto"
+    },
+    "User.31": {
+      "kicad_layer": "User.31",
+      "method": "auto"
+    },
+    "User.32": {
+      "kicad_layer": "User.32",
+      "method": "auto"
+    },
+    "User.33": {
+      "kicad_layer": "User.33",
+      "method": "auto"
+    },
+    "User.34": {
+      "kicad_layer": "User.34",
+      "method": "auto"
+    },
+    "User.5": {
+      "kicad_layer": "User.5",
+      "method": "auto"
+    },
+    "User.6": {
+      "kicad_layer": "User.6",
+      "method": "auto"
+    },
+    "User.7": {
+      "kicad_layer": "User.7",
+      "method": "auto"
+    },
+    "User.8": {
+      "kicad_layer": "User.8",
+      "method": "auto"
+    },
+    "User.9": {
+      "kicad_layer": "User.9",
+      "method": "auto"
+    },
+    "User.Comments": {
+      "kicad_layer": "Cmts.User",
+      "method": "auto"
+    },
+    "User.Drawings": {
+      "kicad_layer": "Dwgs.User",
+      "method": "auto"
+    },
+    "User.Eco1": {
+      "kicad_layer": "Eco1.User",
+      "method": "auto"
+    },
+    "User.Eco2": {
+      "kicad_layer": "Eco2.User",
+      "method": "auto"
+    },
+    "XSECTION_CHART": {
+      "kicad_layer": "User.1",
+      "method": "auto"
+    }
+  },
+  "output_file": "FRDM-MCXN236.imported.kicad_pcb",
+  "source_file": "LAY-90828_C.brd",
+  "source_format": "Allegro",
+  "statistics": {
+    "footprints": 581,
+    "tracks": 5532,
+    "vias": 593,
+    "zones": 37
+  },
+  "warnings": []
+}

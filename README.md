@@ -12,6 +12,8 @@ The clearer NXP photos identify **MCXN236**. The previously collected MCXN947 fi
 
 `data/board-sources` preserves native source documents, inventories, Gerbers, models, and licenses where collected. `docs/sources` records coverage and limitations. External vision-dataset metadata is under `data/external`; bulk auxiliary images and partial downloads are excluded from this repository.
 
+KiCad-derived [CAD reference exports](data/board-sources/CAD_EXPORTS.md) now cover the ESP32 community clone, Ultimainboard 2.1.4 and FRDM-MCXN236. They include Gerber/drill and board-only STEP/GLB files, with DRC reports and hashes. All require engineering review before fabrication.
+
 ## Clone and validate
 
 Install Git LFS before cloning, then run `git lfs pull`. Large photos, CAD files, PDFs and checkpoints use LFS. Run `python scripts/validate_dataset.py` from the repository root.
@@ -33,6 +35,8 @@ BOM entries, schematic pages and Gerber layers are linked documents. They are no
 The [MCXN236 schematic index](data/board-sources/nxp-frdm-mcxn236/README_INDEX.md) locates reference-designator text on PDF pages. Ten [component source links](annotations/component-source-links.json) pair readable photo markings with checked schematic symbols and source BOM records. Their installed part numbers and the specimen revision are still unknown. See [source-link conventions](docs/SOURCE_LINKS.md).
 
 The downloaded [MCXN236 Rev C design bundle](data/board-sources/nxp-frdm-mcxn236/PROVENANCE.md) includes the native BRD, schematic project, BOM and netlists. Its [structured extraction](data/board-sources/nxp-frdm-mcxn236/structured-rev-c/README.md) joins 96 BOM items to 391 reference designators and 296 electrical nets. DNP entries and the separate no-connect group are preserved. The archive contains no separate Gerber, drill or STEP/GLB exports.
+
+Run `python scripts/model_readiness.py` for a [live audit](docs/MODEL_READINESS_SPRINT.md) of board, part and pin label coverage before training. Partial component seeds and source-only pin records are excluded from claims of a trained component or pin detector.
 
 `python scripts/prepare_board_labels.py` creates foreground-box proposals in ignored `work/photo-contact/`. It requires hash-matched board-class reviews and preserves reviewed annotations, split assignments and photo folders. Review proposals before manually promoting them into the curated labels.
 

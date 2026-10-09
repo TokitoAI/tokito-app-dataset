@@ -1,0 +1,35 @@
+02:55:48: Warning: Invalid zero-sized pad pinned to 1�m in
+file: data/board-sources/nxp-frdm-mcxn236/generated-kicad/FRDM-MCXN236.imported.kicad_pcb
+line: 11029
+offset: 3
+02:55:48: Warning: Invalid zero-sized pad pinned to 1�m in
+file: data/board-sources/nxp-frdm-mcxn236/generated-kicad/FRDM-MCXN236.imported.kicad_pcb
+line: 11054
+offset: 3
+02:55:48: Warning: Invalid zero-sized pad pinned to 1�m in
+file: data/board-sources/nxp-frdm-mcxn236/generated-kicad/FRDM-MCXN236.imported.kicad_pcb
+line: 42391
+offset: 3
+02:55:48: Warning: Invalid zero-sized pad pinned to 1�m in
+file: data/board-sources/nxp-frdm-mcxn236/generated-kicad/FRDM-MCXN236.imported.kicad_pcb
+line: 42416
+offset: 3
+02:55:48: Warning: Invalid zero-sized pad pinned to 1�m in
+file: data/board-sources/nxp-frdm-mcxn236/generated-kicad/FRDM-MCXN236.imported.kicad_pcb
+line: 151780
+offset: 3
+02:55:48: Warning: Invalid zero-sized pad pinned to 1�m in
+file: data/board-sources/nxp-frdm-mcxn236/generated-kicad/FRDM-MCXN236.imported.kicad_pcb
+line: 183559
+offset: 3
+02:55:48: Warning: Invalid zero-sized pad pinned to 1�m in
+file: data/board-sources/nxp-frdm-mcxn236/generated-kicad/FRDM-MCXN236.imported.kicad_pcb
+line: 192962
+offset: 3
+02:55:48: Warning: Invalid zero-sized pad pinned to 1�m in
+file: data/board-sources/nxp-frdm-mcxn236/generated-kicad/FRDM-MCXN236.imported.kicad_pcb
+line: 244943
+offset: 3
+Binary GLTF file 'data/board-sources/nxp-frdm-mcxn236/generated-kicad/board-only.glb' created.
+
+Export time 1.405 s

@@ -1,0 +1,180 @@
+{
+  "schema_version": 1,
+  "board_family": "ultimainboard",
+  "status": "generated_candidate_requires_engineering_review",
+  "source_board_relation": "v2.1.4 design family matches marking; photo alignment pending",
+  "source": {
+    "path": "data/board-sources/ultimainboard-2.1.4/1546 ultimainboard V2.1.4/Ultimaker_V2.1.4.PcbDoc",
+    "sha256": "53696e9f6f38df54a0c4d6065f8f8336e9df918773ea949b0b687fdf659d0160"
+  },
+  "generator": "KiCad CLI 10.0.7 on Windows",
+  "conversion": {
+    "format": "Altium Designer",
+    "import_report": "import-report.json",
+    "import_errors": 0,
+    "import_warnings": 0,
+    "import_statistics": {
+      "footprints": 574,
+      "tracks": 2330,
+      "vias": 511,
+      "zones": 190
+    },
+    "command_warning_summary": "Import completed without reported warnings; subsequent reads printed 2 invalid zero-sized-pad warnings."
+  },
+  "pcb_statistics": {
+    "width_mm": 175.0,
+    "height_mm": 79.0,
+    "thickness_mm": 1.74,
+    "outline_present": true,
+    "component_count": 574,
+    "pad_count": 1322,
+    "via_count": 511
+  },
+  "drc": {
+    "report": "drc-report.json",
+    "violation_counts_by_severity": {
+      "error": 293,
+      "warning": 569
+    },
+    "unconnected_item_count": 1,
+    "fabrication_approved": false
+  },
+  "board_only_3d": {
+    "valid_glb_v2": true,
+    "mesh_count": 1,
+    "position_accessor_count": 177,
+    "xyz_extent_mm": [
+      175.0,
+      1.58,
+      79.0
+    ],
+    "outline_dimensions_match_pcb_stats_within_0_2_mm": true,
+    "thickness_matches_pcb_stats_within_0_2_mm": true,
+    "valid_step_ap214_with_solid_brep": true
+  },
+  "generated_files": [
+    {
+      "path": "board-only.glb",
+      "bytes": 520744,
+      "sha256": "c74b63dadc87d3cd119b11212d5e2ce29db0208117db43932b4fa3bb083c3291"
+    },
+    {
+      "path": "board-only.step",
+      "bytes": 280285,
+      "sha256": "cceca2762ee488e79c783a02d28a96a38e944a419efae2ce6ce581df2a019830"
+    },
+    {
+      "path": "drc-report.json",
+      "bytes": 612128,
+      "sha256": "abc9f1ada079c7b3e21f923ea056cf5b899e75f31feadaf3ff63084b7fffa948"
+    },
+    {
+      "path": "gerbers-drill/drill-report.txt",
+      "bytes": 1265,
+      "sha256": "d4cb46ed5f688ab92cd18ef3ff12e90aa847011ef6e46f24c895bbab053584d3"
+    },
+    {
+      "path": "gerbers-drill/Ultimainboard-2.1.4.imported-bot (thermal).gbl",
+      "bytes": 626114,
+      "sha256": "47a07abae8ba58cbc43e0bf35ebd60b5cf97524f3d0d2b342843534ba88ea2ef"
+    },
+    {
+      "path": "gerbers-drill/Ultimainboard-2.1.4.imported-Bottom Overlay.gbo",
+      "bytes": 701947,
+      "sha256": "0cb2f284b7b2e2442476c9c3f89243ba64ff084e6612e9dc827217c34532c0f5"
+    },
+    {
+      "path": "gerbers-drill/Ultimainboard-2.1.4.imported-Bottom Paste.gbp",
+      "bytes": 488,
+      "sha256": "9d1dd2d8a1561174814ec10059cbbd17260c427aabf2274ad4f9d5483ad3e9eb"
+    },
+    {
+      "path": "gerbers-drill/Ultimainboard-2.1.4.imported-Bottom Solder.gbs",
+      "bytes": 24196,
+      "sha256": "e53435515e6d0cda5fd02623c5bf421aaff02c3b9f9a4880d3d3c8dbe30e0733"
+    },
+    {
+      "path": "gerbers-drill/Ultimainboard-2.1.4.imported-Edge_Cuts.gm1",
+      "bytes": 729,
+      "sha256": "363fd9d531e9088cc9af8d4169ee93e113d091dd361d5834c9485ca20202561d"
+    },
+    {
+      "path": "gerbers-drill/Ultimainboard-2.1.4.imported-job.gbrjob",
+      "bytes": 4148,
+      "sha256": "e133011353bf685a2b2edadd7d4f4dabe138d0ea9fd544331e8ea7b879225ad3"
+    },
+    {
+      "path": "gerbers-drill/Ultimainboard-2.1.4.imported-Power.g2",
+      "bytes": 312386,
+      "sha256": "a1d9a4c3afbb45a62ac1e91af0a59c5f400c74a6338fa7716bff3db30d9592f0"
+    },
+    {
+      "path": "gerbers-drill/Ultimainboard-2.1.4.imported-signal.g1",
+      "bytes": 466432,
+      "sha256": "83c63d0e994433daba02b985ca359ee08b05355448001c5160f6f6a047f6c2d8"
+    },
+    {
+      "path": "gerbers-drill/Ultimainboard-2.1.4.imported-Top Overlay.gto",
+      "bytes": 730066,
+      "sha256": "0933541cc056180560c6e4171ed0c9308204d923d96106d4089a25da7b8ed3d9"
+    },
+    {
+      "path": "gerbers-drill/Ultimainboard-2.1.4.imported-Top Paste.gtp",
+      "bytes": 43056,
+      "sha256": "3cefa6c12c7dbc916762ae36ad0f4a7cbc164f9cb68d57b7b82f36afa2bbe502"
+    },
+    {
+      "path": "gerbers-drill/Ultimainboard-2.1.4.imported-Top Solder.gts",
+      "bytes": 81244,
+      "sha256": "e96fa375ba64b3f0f55b1a59b29571d9a69e281253442440817b544ffe26a9d2"
+    },
+    {
+      "path": "gerbers-drill/Ultimainboard-2.1.4.imported-top.gtl",
+      "bytes": 198359,
+      "sha256": "d8c8c706dfd291f68cd7e6a0045ed477a4524b4e27094846d55adc6e77856a4c"
+    },
+    {
+      "path": "gerbers-drill/Ultimainboard-2.1.4.imported.drl",
+      "bytes": 13295,
+      "sha256": "140e61cec19cb7794c2d36a0d23785094490e48c3293c7625ac69eb82f9e3c39"
+    },
+    {
+      "path": "glb-export.log",
+      "bytes": 496,
+      "sha256": "8a24cae1aa783d21825d59180160006620ebc853d23f004d4962f402dcb347f4"
+    },
+    {
+      "path": "import-report.json",
+      "bytes": 2656,
+      "sha256": "ba08a29ca3fdf83c3464ad52ea8f57525393d590e684295bbaa8dccd17011b82"
+    },
+    {
+      "path": "pcb-stats.json",
+      "bytes": 4916,
+      "sha256": "c0fd0d843d357805300844f63865651765dcc02aa886fdc74cdc64cbcef8cb39"
+    },
+    {
+      "path": "step-export.log",
+      "bytes": 490,
+      "sha256": "3dc6803f9b8dba34431010024fccefef3e0214c25c43404d85ac978c07735e62"
+    },
+    {
+      "path": "Ultimainboard-2.1.4.imported.kicad_pcb",
+      "bytes": 7573978,
+      "sha256": "f763641f75470b4fb5b95391ae1ec40ab4ffe2a80bc28dafd2685901c08680b7"
+    }
+  ],
+  "source_reference_designator_comparison": {
+    "source_count": 574,
+    "generated_count": 574,
+    "matched_count": 574,
+    "missing_count": 0,
+    "additional_count": 0
+  },
+  "review_limitations": [
+    "DRC violations remain; Gerber/drill files are for dataset reference, not fabrication.",
+    "STEP and GLB include board body only, not component bodies or populated assembly.",
+    "Photo-to-CAD registration is pending.",
+    "Imported board has 2 zero-sized pads pinned to 1 micrometre; verify before fabrication use."
+  ]
+}

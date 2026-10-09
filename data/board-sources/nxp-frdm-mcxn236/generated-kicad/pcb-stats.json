@@ -1,0 +1,184 @@
+{
+  "metadata": {
+    "date": "2026-10-10T02:55:15",
+    "generator": "KiCad 10.0.7",
+    "project": "FRDM-MCXN236.imported",
+    "board_name": "FRDM-MCXN236.imported"
+  },
+  "board": {
+    "has_outline": true,
+    "width": "118.0000 mm",
+    "height": "55.0000 mm",
+    "area": "6486.629 mm²",
+    "front_component_density": "41.18",
+    "back_component_density": "21.99",
+    "front_copper_area": "2051.484 mm²",
+    "back_copper_area": "1607.016 mm²",
+    "min_track_clearance": "0.1016 mm",
+    "min_track_width": "0.1016 mm",
+    "min_drill_diameter": "0.2032 mm",
+    "board_thickness": "1.6000 mm",
+    "front_footprint_area": "2670.985 mm²",
+    "back_footprint_area": "1426.679 mm²",
+    "front_footprint_density": "41.18",
+    "back_footprint_density": "21.99"
+  },
+  "pads": {
+    "through_hole": 239,
+    "smd": 1090,
+    "connector": 0,
+    "npth": 8,
+    "castellated": 0,
+    "press_fit": 0
+  },
+  "vias": {
+    "through": 593,
+    "blind": 0,
+    "buried": 0,
+    "micro": 0
+  },
+  "components": {
+    "tht": {
+      "front": 0,
+      "back": 0,
+      "total": 0
+    },
+    "smd": {
+      "front": 0,
+      "back": 0,
+      "total": 0
+    },
+    "unspecified": {
+      "front": 337,
+      "back": 65,
+      "total": 402
+    },
+    "total": {
+      "front": 337,
+      "back": 65,
+      "total": 402
+    }
+  },
+  "drill_holes": [
+    {
+      "count": 524,
+      "shape": "Round",
+      "x_size": "0.2540 mm",
+      "y_size": "0.2540 mm",
+      "plated": true,
+      "source": "Via",
+      "start_layer": "TOP",
+      "stop_layer": "BOTTOM"
+    },
+    {
+      "count": 91,
+      "shape": "Round",
+      "x_size": "1.0160 mm",
+      "y_size": "1.0160 mm",
+      "plated": true,
+      "source": "Pad",
+      "start_layer": "TOP",
+      "stop_layer": "BOTTOM"
+    },
+    {
+      "count": 72,
+      "shape": "Round",
+      "x_size": "1.0414 mm",
+      "y_size": "1.0414 mm",
+      "plated": true,
+      "source": "Pad",
+      "start_layer": "TOP",
+      "stop_layer": "BOTTOM"
+    },
+    {
+      "count": 69,
+      "shape": "Round",
+      "x_size": "0.2032 mm",
+      "y_size": "0.2032 mm",
+      "plated": true,
+      "source": "Via",
+      "start_layer": "TOP",
+      "stop_layer": "BOTTOM"
+    },
+    {
+      "count": 32,
+      "shape": "Round",
+      "x_size": "0.4064 mm",
+      "y_size": "0.4064 mm",
+      "plated": true,
+      "source": "Pad",
+      "start_layer": "TOP",
+      "stop_layer": "BOTTOM"
+    },
+    {
+      "count": 16,
+      "shape": "Round",
+      "x_size": "1.1176 mm",
+      "y_size": "1.1176 mm",
+      "plated": true,
+      "source": "Pad",
+      "start_layer": "TOP",
+      "stop_layer": "BOTTOM"
+    },
+    {
+      "count": 10,
+      "shape": "Slot",
+      "x_size": "0.8128 mm",
+      "y_size": "1.4986 mm",
+      "plated": true,
+      "source": "Pad",
+      "start_layer": "TOP",
+      "stop_layer": "BOTTOM"
+    },
+    {
+      "count": 10,
+      "shape": "Round",
+      "x_size": "0.7112 mm",
+      "y_size": "0.7112 mm",
+      "plated": true,
+      "source": "Pad",
+      "start_layer": "TOP",
+      "stop_layer": "BOTTOM"
+    },
+    {
+      "count": 4,
+      "shape": "Round",
+      "x_size": "1.1938 mm",
+      "y_size": "1.1938 mm",
+      "plated": false,
+      "source": "Pad",
+      "start_layer": "TOP",
+      "stop_layer": "BOTTOM"
+    },
+    {
+      "count": 4,
+      "shape": "Round",
+      "x_size": "3.1750 mm",
+      "y_size": "3.1750 mm",
+      "plated": false,
+      "source": "Pad",
+      "start_layer": "TOP",
+      "stop_layer": "BOTTOM"
+    },
+    {
+      "count": 4,
+      "shape": "Slot",
+      "x_size": "0.6096 mm",
+      "y_size": "2.1082 mm",
+      "plated": true,
+      "source": "Pad",
+      "start_layer": "TOP",
+      "stop_layer": "BOTTOM"
+    },
+    {
+      "count": 4,
+      "shape": "Slot",
+      "x_size": "0.6096 mm",
+      "y_size": "1.3970 mm",
+      "plated": true,
+      "source": "Pad",
+      "start_layer": "TOP",
+      "stop_layer": "BOTTOM"
+    }
+  ]
+}

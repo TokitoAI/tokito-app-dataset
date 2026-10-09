@@ -1,0 +1,11 @@
+02:55:45: Warning: Invalid zero-sized pad pinned to 1�m in
+file: data/board-sources/ultimainboard-2.1.4/generated-kicad/Ultimainboard-2.1.4.imported.kicad_pcb
+line: 63047
+offset: 3
+02:55:45: Warning: Invalid zero-sized pad pinned to 1�m in
+file: data/board-sources/ultimainboard-2.1.4/generated-kicad/Ultimainboard-2.1.4.imported.kicad_pcb
+line: 63055
+offset: 3
+STEP file 'data/board-sources/ultimainboard-2.1.4/generated-kicad/board-only.step' created.
+
+Export time 0.711 s

@@ -1,0 +1,158 @@
+{
+  "schema_version": 1,
+  "board_family": "esp32",
+  "status": "generated_candidate_requires_engineering_review",
+  "source_board_relation": "community reference clone; exact photographed variant unconfirmed",
+  "source": {
+    "path": "data/board-sources/esp32-devkit-30pin/community-clone/source.zip",
+    "sha256": "11b0f4a557fe14a63583293f818e3d183c930fa05b9e5d8822647ccf33a41512"
+  },
+  "generator": "KiCad CLI 10.0.7 on Windows",
+  "conversion": {
+    "format": "KiCad native",
+    "import_report": null,
+    "import_errors": 0,
+    "import_warnings": 0,
+    "import_statistics": null,
+    "command_warning_summary": "Native KiCad board; no format import."
+  },
+  "pcb_statistics": {
+    "width_mm": 47.0096,
+    "height_mm": 29.1846,
+    "thickness_mm": 1.6,
+    "outline_present": true,
+    "component_count": 26,
+    "pad_count": 172,
+    "via_count": 27
+  },
+  "drc": {
+    "report": "drc-report.json",
+    "violation_counts_by_severity": {
+      "error": 19,
+      "warning": 128
+    },
+    "unconnected_item_count": 0,
+    "fabrication_approved": false
+  },
+  "board_only_3d": {
+    "valid_glb_v2": true,
+    "mesh_count": 1,
+    "position_accessor_count": 52,
+    "xyz_extent_mm": [
+      47.0096,
+      1.51,
+      29.1846
+    ],
+    "outline_dimensions_match_pcb_stats_within_0_2_mm": true,
+    "thickness_matches_pcb_stats_within_0_2_mm": true,
+    "valid_step_ap214_with_solid_brep": true
+  },
+  "generated_files": [
+    {
+      "path": "board-only.glb",
+      "bytes": 150128,
+      "sha256": "65a841f965935b58f827d92fd97bde55aeba2f15f5a2184d00300336747d721f"
+    },
+    {
+      "path": "board-only.step",
+      "bytes": 82292,
+      "sha256": "198ff1c5cc7f5873f81afef9a11ca320d10907739519852a157dff2ab05559ff"
+    },
+    {
+      "path": "drc-report.json",
+      "bytes": 94249,
+      "sha256": "8881d5cf580e06775d6f1bb6a46f4009df8fd4d855380fbf0484f322f68b8103"
+    },
+    {
+      "path": "ESP32-Dev-Kit.clone.kicad_pcb",
+      "bytes": 379580,
+      "sha256": "d5a70c26a4c48b4a6f5e697363593ca56da6ebe499a3dc8d0ebb115b8a8f345f"
+    },
+    {
+      "path": "gerbers-drill/drill-report.txt",
+      "bytes": 721,
+      "sha256": "bb06c58b2894f160656f62542a99b40072e6a44405c1f803cf9bebe940f8c3a2"
+    },
+    {
+      "path": "gerbers-drill/ESP32-Dev-Kit.clone-B_Cu.gbl",
+      "bytes": 24549,
+      "sha256": "76cc637659701e4de2f1bab4ab1fb04cdb06c72edcc9aa1b282110bb7a8022a5"
+    },
+    {
+      "path": "gerbers-drill/ESP32-Dev-Kit.clone-B_Mask.gbs",
+      "bytes": 1396,
+      "sha256": "7079734487f3cc2d3147ea7ec6b945323d97526195a512e879114bb62afcf571"
+    },
+    {
+      "path": "gerbers-drill/ESP32-Dev-Kit.clone-B_Paste.gbp",
+      "bytes": 476,
+      "sha256": "5b5510f5a885e18e474b14b76b6d7ab0772a85a0f928b38fdc13468e81260a9c"
+    },
+    {
+      "path": "gerbers-drill/ESP32-Dev-Kit.clone-B_Silkscreen.gbo",
+      "bytes": 129313,
+      "sha256": "5ea075eb8ea94cc283559b84e5107012e4302146347d4287cf3375d91d5667e7"
+    },
+    {
+      "path": "gerbers-drill/ESP32-Dev-Kit.clone-Edge_Cuts.gm1",
+      "bytes": 1049,
+      "sha256": "c4a79e0b1ce950949b2693b7754c71ee299b6560004d30ab14304fdea1eff4df"
+    },
+    {
+      "path": "gerbers-drill/ESP32-Dev-Kit.clone-F_Cu.gtl",
+      "bytes": 100701,
+      "sha256": "227e946d66bead9fdc8578099627059faa15e7ed8e196436ef9818319dec2d9f"
+    },
+    {
+      "path": "gerbers-drill/ESP32-Dev-Kit.clone-F_Mask.gts",
+      "bytes": 7800,
+      "sha256": "78be85cafc9cdcf9d87224e625e65596d405f4ca3f4eed923d1a7ff7437a7a6e"
+    },
+    {
+      "path": "gerbers-drill/ESP32-Dev-Kit.clone-F_Paste.gtp",
+      "bytes": 6740,
+      "sha256": "206abbbfd1407aeb1c0862b6034f312c13edb16d8d5c3df6c5a5766794007278"
+    },
+    {
+      "path": "gerbers-drill/ESP32-Dev-Kit.clone-F_Silkscreen.gto",
+      "bytes": 99492,
+      "sha256": "5aa05e7261e051068976d5087712e8f19342aab0688ac83ed273e21470a7293b"
+    },
+    {
+      "path": "gerbers-drill/ESP32-Dev-Kit.clone-job.gbrjob",
+      "bytes": 2926,
+      "sha256": "31050d687a1cc780f0b378f73e5ce0f77375de8483dda2af723ef0c1ea18db3f"
+    },
+    {
+      "path": "gerbers-drill/ESP32-Dev-Kit.clone.drl",
+      "bytes": 1735,
+      "sha256": "4dff7b36a7643117fe8e54712c76a0de8ff36f54e64250e4bd05dcd76feb2da7"
+    },
+    {
+      "path": "glb-export.log",
+      "bytes": 137,
+      "sha256": "a953cafca3297caccf0347aea9a7379bd5c9bfd9fab33d32e1792b31c2b36796"
+    },
+    {
+      "path": "pcb-stats.json",
+      "bytes": 2075,
+      "sha256": "dfa5a205d553e4f10e0b9c3c7cbdd0d437284d5e4f9a5c04fa6468c90b9af9c4"
+    },
+    {
+      "path": "step-export.log",
+      "bytes": 131,
+      "sha256": "238b2d03a21c5d9e98bd99c843bdbfdcef20d0026b722fda1f7f6535537266bb"
+    }
+  ],
+  "native_board_zip_member": {
+    "path": "BrijModi-ESP32-Dev-Kit-Clone-ab7d649/ESP32 Dev Kit.kicad_pcb",
+    "sha256": "d5a70c26a4c48b4a6f5e697363593ca56da6ebe499a3dc8d0ebb115b8a8f345f",
+    "copied_board_sha256_matches_member": true
+  },
+  "review_limitations": [
+    "DRC violations remain; Gerber/drill files are for dataset reference, not fabrication.",
+    "STEP and GLB include board body only, not component bodies or populated assembly.",
+    "Photo-to-CAD registration is pending.",
+    "Community clone source is a reference variant; physical board match is unconfirmed."
+  ]
+}

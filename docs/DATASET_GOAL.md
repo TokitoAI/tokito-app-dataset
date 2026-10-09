@@ -20,13 +20,15 @@ Use the 80 downloaded phone images to label every board family first, then its v
 | Component/source links | 10 readable photo reference labels linked to visually reviewed Rev C schematic symbols and BOM/native-part candidates; specimen revision and installed part identities unconfirmed |
 | Board → part → pin hierarchy | Same rule across all five families: 80 board entries, 159 partial part boxes, 352 NXP source pin records under 10 candidate photo parts, and 1,443 unlinked ESP8266/Ultimainboard source pin records; zero individual pin locations reviewed in photos |
 | Source separation | MCXN947 retained as a different-board reference; its BOM and layout are excluded from MCXN236 ground truth |
+| Generated CAD references | ESP32 community clone, Ultimainboard 2.1.4 and FRDM-MCXN236 now have KiCad PCB, Gerber/drill and board-only STEP/GLB candidates; all have DRC errors and require engineering review before fabrication |
+| Model readiness | Board-family experiment exists in PR #4; component labels are partial and absent from validation photos; no photo pin boxes or component/pin model yet |
 
 ## Remaining work
 
 1. Review the verified MCXN236 source bundle and structured BOM/connectivity in PR #5, and extend the 10 supported photo-to-source candidates across the remaining visible objects. The extraction covers 391 source references (including 63 DNP and 37 NO PART TO ORDER references), 296 electrical nets and a separate NC group; these are design records, not fitted-part counts.
 2. Complete part and then physical-pin annotation and review across every board family. Cover small passives, connectors, ICs, occluded/clipped objects and any available back views; partial seeds must not supply false negative regions during training. Pin numbers require checked orientation or markings before becoming photo labels.
 3. Establish supported links from photo objects to matching board/revision source records. Preserve unknowns and distinguish source part numbers from identities confirmed on a physical specimen.
-4. Continue acquiring or producing missing manufacturing and 3D files where supported by the source. The MCXN236 ZIP has no separate Gerbers, drill files or STEP/GLB. Exact ESP clone files, complete Pi BOM/layout/manufacturing files, Ultimaker Gerber exports and some complete board models remain unresolved.
+4. Review the generated [CAD reference exports](../data/board-sources/CAD_EXPORTS.md) before manufacturing use. The official MCXN236 ZIP has no separate Gerbers, drill files or STEP/GLB, but provisional exports now exist from its BRD. Exact ESP clone files, complete Pi BOM/layout/manufacturing files and populated 3D assemblies remain unresolved.
 5. Train and evaluate the component detector after reviewed labels exist. Retain checkpoints, configurations, data lineage, predictions and failure cases.
 6. Obtain independent captures/specimens for meaningful evaluation. Current board-model results use a small known-photo corpus; there is no independent specimen test and no held-out ESP32 pose group.
 7. Keep the dataset and model changes reviewable in GitHub PRs, with complete artifacts in Git LFS where needed.
