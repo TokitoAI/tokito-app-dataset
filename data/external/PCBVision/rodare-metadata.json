@@ -1,0 +1,164 @@
+{
+  "conceptdoi": "10.14278/rodare.2703",
+  "conceptrecid": "2703",
+  "created": "2024-01-29T21:12:20.914128+05:30",
+  "doi": "10.14278/rodare.2704",
+  "files": [
+    {
+      "bucket": "671920b9-68a5-4a82-98d1-c696f25e497c",
+      "checksum": "md5:caeee8bafb7857e9bef3479d5ab3f9b4",
+      "key": "PCBDataset.zip",
+      "links": {
+        "self": "https://rodare.hzdr.de/api/files/671920b9-68a5-4a82-98d1-c696f25e497c/PCBDataset.zip"
+      },
+      "size": 11392398155,
+      "type": "zip"
+    }
+  ],
+  "id": 2704,
+  "links": {
+    "badge": "https://rodare.hzdr.de/badge/doi/10.14278/rodare.2704.svg",
+    "bucket": "https://rodare.hzdr.de/api/files/671920b9-68a5-4a82-98d1-c696f25e497c",
+    "conceptbadge": "https://rodare.hzdr.de/badge/doi/10.14278/rodare.2703.svg",
+    "conceptdoi": "https://doi.org/10.14278/rodare.2703",
+    "doi": "https://doi.org/10.14278/rodare.2704",
+    "html": "https://rodare.hzdr.de/record/2704",
+    "latest": "https://rodare.hzdr.de/api/records/2704",
+    "latest_html": "https://rodare.hzdr.de/record/2704",
+    "self": "https://rodare.hzdr.de/api/records/2704"
+  },
+  "metadata": {
+    "access_right": "open",
+    "access_right_category": "success",
+    "communities": [
+      {
+        "id": "hzdr"
+      },
+      {
+        "id": "rodare"
+      }
+    ],
+    "creators": [
+      {
+        "affiliation": "Helmholtz Institute Freiberg for Resource Technology",
+        "name": "Arbash, Elias"
+      },
+      {
+        "affiliation": "Helmholtz Institute Freiberg for Resource Technology",
+        "name": "Fuchs, Margret",
+        "orcid": "0000-0001-7210-1132"
+      },
+      {
+        "name": "Rasti, Behnood"
+      },
+      {
+        "affiliation": "Helmholtz Institute Freiberg for Resource Technology",
+        "name": "Lorenz, Sandra",
+        "orcid": "0000-0001-8464-2331"
+      },
+      {
+        "affiliation": "Helmholtz Institute Freiberg for Resource Technology",
+        "name": "Ghamisi, Pedram",
+        "orcid": "0000-0003-1203-741X"
+      },
+      {
+        "affiliation": "Helmholtz Institute Freiberg for Resource Technology",
+        "name": "Gloaguen, Richard",
+        "orcid": "0000-0002-4383-473X"
+      }
+    ],
+    "description": "<p><strong>PCB-Vision Dataset</strong></p>\n\n<p>Description:</p>\n\n<p>The PCB-Vision dataset is a multiscene RGB-Hyperspectral benchmark dataset comprising 53 Printed Circuit Boards (PCBs). The RGB images are collected using a Teledyne Dalsa C4020 camera on a conveyor belt, while hyperspectral images (HSI) are acquired with a Specim FX10 spectrometer. The HSI data contains 224 bands in the VNIR range [400 - 1000]nm.</p>\n\n<p><strong>Data Format</strong></p>\n\n<ul>\n\t<li>RGB Images: .png files</li>\n\t<li>PCB Masks: .jpg files</li>\n\t<li>HSI Data: Each hyperspectral data cube is accompanied by a data file and a .hdr file.</li>\n</ul>\n\n<p><strong>Folder Organization</strong></p>\n\n<ul>\n\t<li>PCBVision\n\t<ul>\n\t\t<li>HSI/\n\t\t<ul>\n\t\t\t<li>53 subfolders (one for each PCB)</li>\n\t\t\t<li>&#39;General_masks&#39; folder for &#39;General&#39; segmentation ground truth</li>\n\t\t\t<li>&#39;Monoseg_masks&#39; folder for &#39;Monoseg&#39; segmentation ground truth</li>\n\t\t\t<li>&#39;PCB_Masks&#39; folder for masks of the 53 PCBs in the hyperspectral cube</li>\n\t\t</ul>\n\t\t</li>\n\t\t<li>RGB/\n\t\t<ul>\n\t\t\t<li>53 .jpg images</li>\n\t\t\t<li>&#39;General&#39;&nbsp;folder for RGB images &#39;General&#39; segmentation ground truth</li>\n\t\t\t<li>&#39;Monoseg_masks&#39; folder for RGB images &#39;Monoseg&#39; segmentation ground truth</li>\n\t\t</ul>\n\t\t</li>\n\t</ul>\n\t</li>\n</ul>\n\n<p><strong>Data Classes in Masks</strong></p>\n\n<ul>\n\t<li>Masks (both &#39;General&#39; and &#39;Monoseg&#39;) contain 1 to 4 segmentation classes:\n\t<ul>\n\t\t<li>0: &quot;Others&quot;</li>\n\t\t<li>1: &quot;IC&quot;</li>\n\t\t<li>2: &quot;Capacitors&quot;</li>\n\t\t<li>3: &quot;Connectors&quot;</li>\n\t</ul>\n\t</li>\n</ul>\n\n<p><strong>Code Repository</strong></p>\n\n<p>To facilitate reading and working with the data, Python codes are available on the GitHub repository:</p>\n\n<p>https://github.com/hifexplo/PCBVision</p>\n\n<p><strong>Citation</strong></p>\n\n<p>If you use this dataset, please cite the following article:</p>\n\n<p><strong>Word</strong>:</p>\n\n<p>Arbash, Elias, Fuchs, Margret, Rasti, Behnood, Lorenz, Sandra, Ghamisi, Pedram, &amp; Gloaguen, Richard. (2024). PCB-Vision: A Multiscene RGB-Hyperspectral Benchmark Dataset of Printed Circuit Boards (Version 1) [Data set]. Rodare. <a href=\"http://doi.org/10.14278/rodare.2704\">http://doi.org/10.14278/rodare.2704</a></p>\n\n<p><strong>Latex:</strong></p>\n\n<p>@article{arbash2024pcb, title={PCB-Vision: A Multiscene RGB-Hyperspectral Benchmark Dataset of Printed Circuit Boards}, author={Arbash, Elias and Fuchs, Margret and Rasti, Behnood and Lorenz, Sandra and Ghamisi, Pedram and Gloaguen, Richard}, journal={arXiv preprint arXiv:2401.06528}, year={2024} }</p>\n\n<p><strong>Contact</strong></p>\n\n<p>For further information or inquiries, please visit our website:</p>\n\n<p>https://www.iexplo.space/</p>\n\n<p>Contact Email: e.arbash@hzdr.de</p>",
+    "doc_id": "1",
+    "doi": "10.14278/rodare.2704",
+    "keywords": [
+      "circular economy",
+      "automated data processing",
+      "optical sensors",
+      "recycling",
+      "e-waste",
+      "printed circuit board",
+      "hyperspectral",
+      "dataset",
+      "RGB",
+      "conveyor belt",
+      "sensors",
+      "machine learning",
+      "deep learning",
+      "PCBVision",
+      "open-source data",
+      "digitalization"
+    ],
+    "license": {
+      "id": "CC-BY-4.0"
+    },
+    "pub_id": "38684",
+    "publication_date": "2024-01-29",
+    "related_identifiers": [
+      {
+        "identifier": "10.48550/arXiv.2401.06528",
+        "relation": "isSupplementTo",
+        "scheme": "doi"
+      },
+      {
+        "identifier": "https://www.hzdr.de/publications/Publ-38529",
+        "relation": "isPartOf",
+        "scheme": "url"
+      },
+      {
+        "identifier": "https://www.hzdr.de/publications/Publ-38684",
+        "relation": "isIdenticalTo",
+        "scheme": "url"
+      },
+      {
+        "identifier": "https://www.hzdr.de/publications/Publ-38529",
+        "relation": "isReferencedBy",
+        "scheme": "url"
+      },
+      {
+        "identifier": "10.14278/rodare.2703",
+        "relation": "isVersionOf",
+        "scheme": "doi"
+      }
+    ],
+    "relations": {
+      "version": [
+        {
+          "count": 1,
+          "index": 0,
+          "is_last": true,
+          "last_child": {
+            "pid_type": "recid",
+            "pid_value": "2704"
+          },
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "2703"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "title": "Dataset",
+      "type": "dataset"
+    },
+    "title": "PCB-Vision: A Multiscene RGB-Hyperspectral Benchmark Dataset of Printed Circuit Boards",
+    "version": "1"
+  },
+  "owners": [
+    840
+  ],
+  "revision": 11,
+  "stats": {
+    "downloads": 8189.0,
+    "unique_downloads": 1766.0,
+    "unique_views": 2597.0,
+    "version_downloads": 8189.0,
+    "version_unique_downloads": 1766.0,
+    "version_unique_views": 2597.0,
+    "version_views": 2860.0,
+    "version_volume": 93292348491295.0,
+    "views": 2860.0,
+    "volume": 93292348491295.0
+  },
+  "updated": "2024-05-15T14:00:41.173019+05:30"
+}

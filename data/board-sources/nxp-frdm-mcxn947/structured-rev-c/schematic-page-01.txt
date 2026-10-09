@@ -1,0 +1,125 @@
+5
+5
+4
+4
+3
+3
+2
+2
+1
+1
+D D
+C C
+B B
+A A
+Revision History 
+REV REVISION NOTES Date 
+X1 
+FRDM-MCXN947 
+Initial Jun 10, 2023 
+A Final Release Jul 10, 2023 
+Table of Contents 
+01 TITLE PAGE 
+02 BLOCK DIAGRAM 
+03 SOC_PORT0~2 
+04 SOC_PORT3~5 
+05 SOC_PWR 
+06 USB & PWR 
+07 SD & QSPI & SENSOR 
+08 CAN PHY & ETHERNET PHY 
+09 MCU_LINK_USB 
+10 MCU_LINK_DEBUG 
+11 SWITCH & LED 
+12 HEADERS 
+13 APPENDIX JUMPER/DNP 
+B 1.Change 3pin solder pads. 
+2.Update schematic per Ver.A test result. 
+Sep 15, 2023 
+B1 1.DNP J12&J7. 
+2.Change J10 MPN. 
+Nov 13, 2023 
+1.Change C21 from 1uf to 4.7uf. 
+2.Change C24 from 0.1uf to 2.2uf. 
+3.Change R82&R192&R193 MPN due to material shortage. 
+B2 Jan 25, 2024 
+1.Add TP32~TP34, TP36~TP38, TP43~TP47 for 
+  automatic testing. 
+2.Add C107(DNP). 
+3.Change R192&R193 from 1M to 0ohm. DNP C102&C103. 
+4.Change R27 from 10K to 0ohm. DNP R29. 
+5.Update some net names. 
+6.Update MCU symbol per the latest pinout file. 
+C
+Mar 28, 2024 
+Drawing Title: 
+Size Document Number Rev 
+Date: Sheet of 
+Page Title: 
+Designer: 
+Drawn by: 
+Approved: 
+Microcontroller Product Group 
+6501 William Cannon Drive West 
+Austin, TX 78735-8598 
+This document contains information proprietary to N XP and shall not be used for engineering design, 
+procurement or manufacture in whole or in part with out the express written permission of NXP Semicondu ctors. 
+Classification: 
+© NXP SEMICONDUCTORS 
+SCH-90818 PDF: SPF-90818 C
+FRDM-MCXN947 
+C
+Thursday, March 28, 2024 
+TITLE PAGE 
+John Wu 
+William Jiang 
+Kate Fan 
+1 13 
+Company Internal/Proprietary  
+Drawing Title: 
+Size Document Number Rev 
+Date: Sheet of 
+Page Title: 
+Designer: 
+Drawn by: 
+Approved: 
+Microcontroller Product Group 
+6501 William Cannon Drive West 
+Austin, TX 78735-8598 
+This document contains information proprietary to N XP and shall not be used for engineering design, 
+procurement or manufacture in whole or in part with out the express written permission of NXP Semicondu ctors. 
+Classification: 
+© NXP SEMICONDUCTORS 
+SCH-90818 PDF: SPF-90818 C
+FRDM-MCXN947 
+C
+Thursday, March 28, 2024 
+TITLE PAGE 
+John Wu 
+William Jiang 
+Kate Fan 
+1 13 
+Company Internal/Proprietary  
+Drawing Title: 
+Size Document Number Rev 
+Date: Sheet of 
+Page Title: 
+Designer: 
+Drawn by: 
+Approved: 
+Microcontroller Product Group 
+6501 William Cannon Drive West 
+Austin, TX 78735-8598 
+This document contains information proprietary to N XP and shall not be used for engineering design, 
+procurement or manufacture in whole or in part with out the express written permission of NXP Semicondu ctors. 
+Classification: 
+© NXP SEMICONDUCTORS 
+SCH-90818 PDF: SPF-90818 C
+FRDM-MCXN947 
+C
+Thursday, March 28, 2024 
+TITLE PAGE 
+John Wu 
+William Jiang 
+Kate Fan 
+1 13 
+Company Internal/Proprietary  

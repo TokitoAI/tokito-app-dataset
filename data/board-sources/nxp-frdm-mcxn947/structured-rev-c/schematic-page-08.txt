@@ -1,0 +1,400 @@
+5
+5
+4
+4
+3
+3
+2
+2
+1
+1
+D D
+C C
+B B
+A A
+Jumper Setting
+1 => RMII (Default) 
+0=> MII 
+REGOFF (PD) 
+MODE[0:2] (PU) 
+1 => Internal Regulator OFF 
+0/Floating=> Internal Regulator ON (Default) 
+Mode Config 
+111 => All Capable, auto-neg enabled (Default) 
+Open (Int PU) 
+PHYAD[0:2] (PD) 
+INTSEL_B (PU) 
+Device Address 
+000 => Default 
+Floating 1 => nINT function  (Default) 
+0=> TXD4/TXER function 
+Open (Int PU) 
+Open (Int PU) 
+Open (Int PU) 
+Config Pin (Internal State)
+Closed (Ext PU) 
+Description
+RMIISEL (PD) 
+TXD3/2 pins must be grounded in RMII mode. 
+MAX 70 mA @5V 
+ETHERNET PHY 
+CAN PHY 
+OE=High/OPEN: Enable 
+OE=Low: Disable 
+Layout note: 
+====== 
+Place R62~R65 close to U9. 
+NC 
+RX+ 
+NC 
+TX- 
+NC 
+TX+ 
+NC 
+RX- 
+Layout note: 
+====== 
+Differential 100ohm 
+Difference tolerance 100mil 
+Layout note: 
+====== 
+GND_ENET is a small isolated 
+GND plane which should extend 
+under RJ45 connector 
+Note: 
+REGOFF=1(External PU, Regulator OFF), LED1 output=Active Low; 
+REGOFF=0(Internal PD, Regulator ON), LED1 output=Active High.(Default) 
+/INTSEL=1(Internal PU), LED2 output=Active Low; 
+/INTSEL=0(External PD), LED2 output=Active High.(Default) 
+P5V0 
+P5V0 
+P3V3 EPHY_VDDA 
+EPHY_VDDCR_1V2 
+P3V3 
+EPHY_VDDIO 
+EPHY_VDDIO 
+EPHY_VDDIO 
+EPHY_VDDIO 
+P3V3 
+EPHY_VDDA 
+P3V3 
+GND_ENET 
+GND_ENET 
+GND_ENET 
+GND_ENET 
+P1_21/ENET_MDIO [3] 
+P1_20/ENET_MDC [3] 
+P1_7/ENET_TXD1 [3] 
+P1_6/ENET_TXD0 [3] 
+P1_5/ENET_TXEN [3] 
+P1_13/ENET_RXDV/MODE2 [3,8] 
+P1_15/ENET_RXD1/MODE1 [3,8] 
+P1_14/ENET_RXD0/MODE0 [3,8] 
+P1_11/CAN0_RXD [3] 
+P1_10/CAN0_TXD [3] 
+P1_13/ENET_RXDV/MODE2 [3,8] 
+P1_15/ENET_RXD1/MODE1 [3,8] 
+P1_14/ENET_RXD0/MODE0 [3,8] 
+P1_4/ENET_TXCLK [3] 
+P5_8 [4,12] 
+Drawing Title: 
+Size Document Number Rev 
+Date: Sheet of 
+Page Title: 
+Classification: 
+SCH-90818 PDF: SPF-90818 C
+FRDM-MCXN947 
+C
+Thursday, March 28, 2024 
+CAN PHY & ETHERNET PHY 
+8 13 
+Company Internal/Proprietary 
+Drawing Title: 
+Size Document Number Rev 
+Date: Sheet of 
+Page Title: 
+Classification: 
+SCH-90818 PDF: SPF-90818 C
+FRDM-MCXN947 
+C
+Thursday, March 28, 2024 
+CAN PHY & ETHERNET PHY 
+8 13 
+Company Internal/Proprietary 
+Drawing Title: 
+Size Document Number Rev 
+Date: Sheet of 
+Page Title: 
+Classification: 
+SCH-90818 PDF: SPF-90818 C
+FRDM-MCXN947 
+C
+Thursday, March 28, 2024 
+CAN PHY & ETHERNET PHY 
+8 13 
+Company Internal/Proprietary 
+R86 
+10K 
+C58 
+0.1UF 
+T1 PT61018PEL 
+TD+ 1
+CT_1 2
+TD- 3
+RD+ 6
+CT_2 7
+RD- 8RX- 9
+CT_3 10 
+RX+ 11 
+TX- 14 
+CT_4 15 
+TX+ 16 
+NC_1 4
+NC_2 5NC_3 12 NC_4 13 
+R97 
+10K 
+DNP 
+R81 33 
+C66 
+56PF 
+R78 49.9 
+1% 
+R102 
+62 
+1% 
+R199 0
+R71 33 
+Y3 50 MHz 
+ 
+ECS-2333-500-BN-TR 
+Output 3 GND 2
+VDD 4 Tri-State 1
+C52 
+0.1UF 
+C48 
+470pF 
+R191 0
+G
+Y
+J16 
+RJ45X2_LEDYG HEIGHT = 11 
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10 
+11 
+12 
+S1 
+S2 
+C54 
+15pF 
+DNP 
+TP22 
+C53 
+0.1UF 
+TP20 
+R73 49.9 
+1% 
+R62 
+49.9 
+1% 
+R80 33 
+C60 1000pF 
+2000V 
+C55 
+15pF 
+DNP 
+R154 0 DNP 
+R94 4.7K 
+R91 4.7K DNP 
+R85 0
+R95 4.7K DNP 
+R63 
+49.9 
+1% 
+R198 0
+R70 33 
+C56 
+15pF 
+DNP 
+R66 470 
+R93 4.7K DNP 
+R64 
+49.9 
+1% 
+R96 4.7K DNP 
+C64 
+1uF 
+0603 
+R90 4.7K DNP 
+C57 
+15pF 
+DNP 
+C68 
+56PF 
+C63 
+100PF 
+R103 
+100K 
+R92 4.7K DNP 
+R82 1.0M 
+R87 
+12.1K 
+1% 
+R65 
+49.9 
+1% 
+TP38 
+TP21 
+L5 
+100 OHM@100MHZ 
+1 2
+R79 33 
+C99 
+0.1UF 
+R83 49.9 
+1% 
+TP19 
+C65 
+1uF 
+0603 
+R207 10K 
+R155 
+1.5K 
+R100 0
+R153 
+0
+R74 75 
+J10 
+HDR 2X2 
+1 2
+3 4
+U10 
+TJA1057GTK/3Z 
+TXD 1
+GND 2
+VCC 3
+RXD 4
+VIO 5
+CANL 6
+CANH 7
+S8
+EPAD 9
+R75 33 
+R84 49.9 
+1% 
+R101 0
+R72 75 
+LAN8741A-EN 
+U9 
+VDD2A 1
+LED2/INTSEL 2
+LED1/REGOFF 3 XTAL2 4
+XTAL1/CLKIN 5
+VDDCR 6
+RXCLK/PHYAD1 7
+RXD3/PHYAD2 8
+RXD2/RMIISEL 9
+RXD1/MODE1 10 
+RXD0/MODE0 11 
+VDDIO 12 
+RXER/RXD4/PHYAD0 13 
+CRS 14 
+COL/CRS_DV/MODE2 15 
+MDIO 16 
+MDC 17 
+INT/TXER/TXD4 18 
+RST 19 
+TXCLK 20 
+TXEN 21 
+TXD0 22 TXD1 23 TXD2 24 TXD3 25 
+RXDV 26 
+VDD1A 27 
+TXN 28 
+TXP 29 
+RXN 30 
+RXP 31 
+RBIAS 32 
+VSS 33 
+R68 4.7K 
+R76 49.9 
+1% 
+R89 4.7K DNP 
+R190 0
+D9 
+NUP2105L 
+2
+3
+1
+C67 
+0.01UF 
+DNP 
+C61 
+1000pF 
+2000V 
+C62 
+10uF 
+R67 4.7K 
+R69 470 
+R77 49.9 
+1% 
+R98 
+62 
+1% 
+C50 
+22uF 
+DNP 
+C49 
+1uF 
+0603 
+C51 
+0.1UF 
+R88 4.7K DNP 
+ENET_PHYAD0 
+ENET_PHYAD2 
+ENET_RMIISEL 
+ENET_PHYAD0 
+ENET_PHYAD2 
+ENET_RMIISEL 
+ENET_PHYAD1 
+ENET_PHYAD1 
+ENET_LED1/REGOFF 
+ENET_LED2/INTSEL_B 
+ENET_RST_B 
+ENET_LED1/REGOFF 
+ENET_LED2/INTSEL_B 
+CANH 
+CANL 
+CAN_H 
+CAN_L 
+ENET_TXP 
+ENET_TXN 
+ENET_RXP 
+ENET_RXN 
+ENET_CT3&4 
+ENET_CT3&4 
+ENET_MDC 
+ENET_TXP ENET_TXN ENET_RXP ENET_RXN ENET_CT3&4 
+ENET_LED1/REGOFF 
+ENET_CON_TXP 
+ENET_CON_NC4 
+ENET_CON_NC5 
+ENET_CON_RXP ENET_CON_NC7 
+ENET_CON_NC8 
+ENET_CON_RXN 
+ENET_CON_NC8 
+ENET_CT1 
+ENET_CON_NC7 
+ENET_CON_NC5 
+ENET_CON_NC4 
+ENET_CT2 
+ENET_CON_TXN 
+ENET_CT1 
+ENET_CT2 
+ENET_LED2/INTSEL_B 

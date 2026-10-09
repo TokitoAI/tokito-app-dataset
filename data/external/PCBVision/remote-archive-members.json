@@ -1,0 +1,4209 @@
+[
+  {
+    "name": "PCBDataset/",
+    "bytes": 0,
+    "compressed_bytes": 0,
+    "header_offset": 0,
+    "crc32": 0
+  },
+  {
+    "name": "__MACOSX/._PCBDataset",
+    "bytes": 220,
+    "compressed_bytes": 93,
+    "header_offset": 73,
+    "crc32": 1115828645
+  },
+  {
+    "name": "PCBDataset/.DS_Store",
+    "bytes": 8196,
+    "compressed_bytes": 793,
+    "header_offset": 265,
+    "crc32": 2878630170
+  },
+  {
+    "name": "__MACOSX/PCBDataset/._.DS_Store",
+    "bytes": 120,
+    "compressed_bytes": 53,
+    "header_offset": 1156,
+    "crc32": 952141835
+  },
+  {
+    "name": "PCBDataset/RGB/",
+    "bytes": 0,
+    "compressed_bytes": 0,
+    "header_offset": 1318,
+    "crc32": 0
+  },
+  {
+    "name": "PCBDataset/HSI/",
+    "bytes": 0,
+    "compressed_bytes": 0,
+    "header_offset": 1395,
+    "crc32": 0
+  },
+  {
+    "name": "PCBDataset/RGB/48.jpg",
+    "bytes": 68333,
+    "compressed_bytes": 66311,
+    "header_offset": 1472,
+    "crc32": 3522152846
+  },
+  {
+    "name": "PCBDataset/RGB/49.jpg",
+    "bytes": 66628,
+    "compressed_bytes": 64184,
+    "header_offset": 67882,
+    "crc32": 4103857670
+  },
+  {
+    "name": "PCBDataset/RGB/8.jpg",
+    "bytes": 354153,
+    "compressed_bytes": 348130,
+    "header_offset": 132165,
+    "crc32": 3903604471
+  },
+  {
+    "name": "PCBDataset/RGB/9.jpg",
+    "bytes": 263621,
+    "compressed_bytes": 259044,
+    "header_offset": 480393,
+    "crc32": 3681996491
+  },
+  {
+    "name": "PCBDataset/RGB/14.jpg",
+    "bytes": 194108,
+    "compressed_bytes": 190246,
+    "header_offset": 739535,
+    "crc32": 3262251274
+  },
+  {
+    "name": "PCBDataset/RGB/28.jpg",
+    "bytes": 262183,
+    "compressed_bytes": 251651,
+    "header_offset": 929880,
+    "crc32": 3845665374
+  },
+  {
+    "name": "PCBDataset/RGB/General/",
+    "bytes": 0,
+    "compressed_bytes": 0,
+    "header_offset": 1181630,
+    "crc32": 0
+  },
+  {
+    "name": "PCBDataset/RGB/29.jpg",
+    "bytes": 458035,
+    "compressed_bytes": 443747,
+    "header_offset": 1181715,
+    "crc32": 1937857461
+  },
+  {
+    "name": "PCBDataset/RGB/15.jpg",
+    "bytes": 532675,
+    "compressed_bytes": 516112,
+    "header_offset": 1625561,
+    "crc32": 2893228867
+  },
+  {
+    "name": "PCBDataset/RGB/17.jpg",
+    "bytes": 910840,
+    "compressed_bytes": 847530,
+    "header_offset": 2141772,
+    "crc32": 1727591662
+  },
+  {
+    "name": "PCBDataset/RGB/16.jpg",
+    "bytes": 884556,
+    "compressed_bytes": 817930,
+    "header_offset": 2989401,
+    "crc32": 869960187
+  },
+  {
+    "name": "PCBDataset/RGB/12.jpg",
+    "bytes": 117173,
+    "compressed_bytes": 115314,
+    "header_offset": 3807430,
+    "crc32": 259417431
+  },
+  {
+    "name": "PCBDataset/RGB/13.jpg",
+    "bytes": 177057,
+    "compressed_bytes": 173734,
+    "header_offset": 3922843,
+    "crc32": 3746118648
+  },
+  {
+    "name": "PCBDataset/RGB/39.jpg",
+    "bytes": 634763,
+    "compressed_bytes": 620782,
+    "header_offset": 4096676,
+    "crc32": 3156779643
+  },
+  {
+    "name": "PCBDataset/RGB/11.jpg",
+    "bytes": 166206,
+    "compressed_bytes": 163381,
+    "header_offset": 4717557,
+    "crc32": 2959879362
+  },
+  {
+    "name": "PCBDataset/RGB/10.jpg",
+    "bytes": 485601,
+    "compressed_bytes": 474202,
+    "header_offset": 4881037,
+    "crc32": 301701115
+  },
+  {
+    "name": "PCBDataset/RGB/38.jpg",
+    "bytes": 718520,
+    "compressed_bytes": 701878,
+    "header_offset": 5355338,
+    "crc32": 2647006401
+  },
+  {
+    "name": "PCBDataset/RGB/21.jpg",
+    "bytes": 276447,
+    "compressed_bytes": 266977,
+    "header_offset": 6057315,
+    "crc32": 2289028135
+  },
+  {
+    "name": "PCBDataset/RGB/35.jpg",
+    "bytes": 156287,
+    "compressed_bytes": 151058,
+    "header_offset": 6324391,
+    "crc32": 62375246
+  },
+  {
+    "name": "PCBDataset/RGB/34.jpg",
+    "bytes": 143933,
+    "compressed_bytes": 133349,
+    "header_offset": 6475548,
+    "crc32": 810032830
+  },
+  {
+    "name": "PCBDataset/RGB/20.jpg",
+    "bytes": 176956,
+    "compressed_bytes": 170923,
+    "header_offset": 6608996,
+    "crc32": 618225969
+  },
+  {
+    "name": "PCBDataset/RGB/36.jpg",
+    "bytes": 569373,
+    "compressed_bytes": 556586,
+    "header_offset": 6780018,
+    "crc32": 2606535680
+  },
+  {
+    "name": "PCBDataset/RGB/22.jpg",
+    "bytes": 284518,
+    "compressed_bytes": 279646,
+    "header_offset": 7336703,
+    "crc32": 2449630198
+  },
+  {
+    "name": "PCBDataset/RGB/23.jpg",
+    "bytes": 183716,
+    "compressed_bytes": 175417,
+    "header_offset": 7616448,
+    "crc32": 1098434021
+  },
+  {
+    "name": "PCBDataset/RGB/37.jpg",
+    "bytes": 750202,
+    "compressed_bytes": 723481,
+    "header_offset": 7791964,
+    "crc32": 45157884
+  },
+  {
+    "name": "PCBDataset/RGB/33.jpg",
+    "bytes": 592865,
+    "compressed_bytes": 580554,
+    "header_offset": 8515544,
+    "crc32": 1142033191
+  },
+  {
+    "name": "PCBDataset/RGB/27.jpg",
+    "bytes": 526792,
+    "compressed_bytes": 507448,
+    "header_offset": 9096197,
+    "crc32": 1892428744
+  },
+  {
+    "name": "PCBDataset/RGB/26.jpg",
+    "bytes": 663620,
+    "compressed_bytes": 634682,
+    "header_offset": 9603744,
+    "crc32": 3757660826
+  },
+  {
+    "name": "PCBDataset/RGB/32.jpg",
+    "bytes": 532775,
+    "compressed_bytes": 515280,
+    "header_offset": 10238525,
+    "crc32": 1651513212
+  },
+  {
+    "name": "PCBDataset/RGB/18.jpg",
+    "bytes": 189152,
+    "compressed_bytes": 182193,
+    "header_offset": 10753904,
+    "crc32": 334616236
+  },
+  {
+    "name": "PCBDataset/RGB/24.jpg",
+    "bytes": 722401,
+    "compressed_bytes": 705703,
+    "header_offset": 10936196,
+    "crc32": 4099106123
+  },
+  {
+    "name": "PCBDataset/RGB/30.jpg",
+    "bytes": 508565,
+    "compressed_bytes": 494530,
+    "header_offset": 11641998,
+    "crc32": 2173088692
+  },
+  {
+    "name": "PCBDataset/RGB/Monoseg/",
+    "bytes": 0,
+    "compressed_bytes": 0,
+    "header_offset": 12136627,
+    "crc32": 0
+  },
+  {
+    "name": "PCBDataset/RGB/31.jpg",
+    "bytes": 297331,
+    "compressed_bytes": 282140,
+    "header_offset": 12136712,
+    "crc32": 3647730267
+  },
+  {
+    "name": "PCBDataset/RGB/25.jpg",
+    "bytes": 854641,
+    "compressed_bytes": 844002,
+    "header_offset": 12418951,
+    "crc32": 2560053629
+  },
+  {
+    "name": "PCBDataset/RGB/19.jpg",
+    "bytes": 377210,
+    "compressed_bytes": 360677,
+    "header_offset": 13263052,
+    "crc32": 712313386
+  },
+  {
+    "name": "PCBDataset/RGB/42.jpg",
+    "bytes": 53886,
+    "compressed_bytes": 51899,
+    "header_offset": 13623828,
+    "crc32": 1083888108
+  },
+  {
+    "name": "PCBDataset/RGB/4.jpg",
+    "bytes": 510764,
+    "compressed_bytes": 506871,
+    "header_offset": 13675826,
+    "crc32": 159246617
+  },
+  {
+    "name": "PCBDataset/RGB/5.jpg",
+    "bytes": 151756,
+    "compressed_bytes": 151390,
+    "header_offset": 14182795,
+    "crc32": 2518669833
+  },
+  {
+    "name": "PCBDataset/RGB/43.jpg",
+    "bytes": 24768,
+    "compressed_bytes": 23684,
+    "header_offset": 14334283,
+    "crc32": 1236628085
+  },
+  {
+    "name": "PCBDataset/RGB/7.jpg",
+    "bytes": 179590,
+    "compressed_bytes": 169450,
+    "header_offset": 14358066,
+    "crc32": 3077724970
+  },
+  {
+    "name": "PCBDataset/RGB/41.jpg",
+    "bytes": 31930,
+    "compressed_bytes": 31322,
+    "header_offset": 14527614,
+    "crc32": 470321144
+  },
+  {
+    "name": "PCBDataset/RGB/40.jpg",
+    "bytes": 904570,
+    "compressed_bytes": 881565,
+    "header_offset": 14559035,
+    "crc32": 2528523789
+  },
+  {
+    "name": "PCBDataset/RGB/6.jpg",
+    "bytes": 927468,
+    "compressed_bytes": 877796,
+    "header_offset": 15440699,
+    "crc32": 3253450878
+  },
+  {
+    "name": "PCBDataset/RGB/2.jpg",
+    "bytes": 2312357,
+    "compressed_bytes": 2284702,
+    "header_offset": 16318593,
+    "crc32": 3599846389
+  },
+  {
+    "name": "PCBDataset/RGB/50.jpg",
+    "bytes": 88150,
+    "compressed_bytes": 84427,
+    "header_offset": 18603393,
+    "crc32": 2007491873
+  },
+  {
+    "name": "PCBDataset/RGB/44.jpg",
+    "bytes": 54632,
+    "compressed_bytes": 52721,
+    "header_offset": 18687919,
+    "crc32": 644597174
+  },
+  {
+    "name": "PCBDataset/RGB/45.jpg",
+    "bytes": 24467,
+    "compressed_bytes": 23399,
+    "header_offset": 18740739,
+    "crc32": 1082325756
+  },
+  {
+    "name": "PCBDataset/RGB/3.jpg",
+    "bytes": 371176,
+    "compressed_bytes": 340038,
+    "header_offset": 18764237,
+    "crc32": 3993569155
+  },
+  {
+    "name": "PCBDataset/RGB/51.jpg",
+    "bytes": 71572,
+    "compressed_bytes": 69030,
+    "header_offset": 19104373,
+    "crc32": 435233490
+  },
+  {
+    "name": "PCBDataset/RGB/47.jpg",
+    "bytes": 60930,
+    "compressed_bytes": 58371,
+    "header_offset": 19173502,
+    "crc32": 342637876
+  },
+  {
+    "name": "PCBDataset/RGB/53.jpg",
+    "bytes": 189638,
+    "compressed_bytes": 178748,
+    "header_offset": 19231972,
+    "crc32": 20630823
+  },
+  {
+    "name": "PCBDataset/RGB/1.jpg",
+    "bytes": 341242,
+    "compressed_bytes": 339817,
+    "header_offset": 19410819,
+    "crc32": 1680923050
+  },
+  {
+    "name": "PCBDataset/RGB/52.jpg",
+    "bytes": 107459,
+    "compressed_bytes": 105409,
+    "header_offset": 19750734,
+    "crc32": 1134298517
+  },
+  {
+    "name": "PCBDataset/RGB/46.jpg",
+    "bytes": 79739,
+    "compressed_bytes": 77787,
+    "header_offset": 19856242,
+    "crc32": 3866691515
+  },
+  {
+    "name": "PCBDataset/HSI/pcb3/",
+    "bytes": 0,
+    "compressed_bytes": 0,
+    "header_offset": 19934128,
+    "crc32": 0
+  },
+  {
+    "name": "PCBDataset/HSI/pcb4/",
+    "bytes": 0,
+    "compressed_bytes": 0,
+    "header_offset": 19934210,
+    "crc32": 0
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/",
+    "bytes": 0,
+    "compressed_bytes": 0,
+    "header_offset": 19934292,
+    "crc32": 0
+  },
+  {
+    "name": "PCBDataset/HSI/pcb5/",
+    "bytes": 0,
+    "compressed_bytes": 0,
+    "header_offset": 19934383,
+    "crc32": 0
+  },
+  {
+    "name": "PCBDataset/HSI/pcb2/",
+    "bytes": 0,
+    "compressed_bytes": 0,
+    "header_offset": 19934465,
+    "crc32": 0
+  },
+  {
+    "name": "PCBDataset/HSI/pcb50/",
+    "bytes": 0,
+    "compressed_bytes": 0,
+    "header_offset": 19934547,
+    "crc32": 0
+  },
+  {
+    "name": "PCBDataset/HSI/pcb35/",
+    "bytes": 0,
+    "compressed_bytes": 0,
+    "header_offset": 19934630,
+    "crc32": 0
+  },
+  {
+    "name": "PCBDataset/HSI/pcb32/",
+    "bytes": 0,
+    "compressed_bytes": 0,
+    "header_offset": 19934713,
+    "crc32": 0
+  },
+  {
+    "name": "PCBDataset/HSI/pcb51/",
+    "bytes": 0,
+    "compressed_bytes": 0,
+    "header_offset": 19934796,
+    "crc32": 0
+  },
+  {
+    "name": "PCBDataset/HSI/pcb33/",
+    "bytes": 0,
+    "compressed_bytes": 0,
+    "header_offset": 19934879,
+    "crc32": 0
+  },
+  {
+    "name": "PCBDataset/HSI/pcb34/",
+    "bytes": 0,
+    "compressed_bytes": 0,
+    "header_offset": 19934962,
+    "crc32": 0
+  },
+  {
+    "name": "PCBDataset/HSI/pcb16/",
+    "bytes": 0,
+    "compressed_bytes": 0,
+    "header_offset": 19935045,
+    "crc32": 0
+  },
+  {
+    "name": "PCBDataset/HSI/pcb29/",
+    "bytes": 0,
+    "compressed_bytes": 0,
+    "header_offset": 19935128,
+    "crc32": 0
+  },
+  {
+    "name": "PCBDataset/HSI/pcb11/",
+    "bytes": 0,
+    "compressed_bytes": 0,
+    "header_offset": 19935211,
+    "crc32": 0
+  },
+  {
+    "name": "PCBDataset/HSI/pcb27/",
+    "bytes": 0,
+    "compressed_bytes": 0,
+    "header_offset": 19935294,
+    "crc32": 0
+  },
+  {
+    "name": "PCBDataset/HSI/pcb18/",
+    "bytes": 0,
+    "compressed_bytes": 0,
+    "header_offset": 19935377,
+    "crc32": 0
+  },
+  {
+    "name": "PCBDataset/HSI/pcb20/",
+    "bytes": 0,
+    "compressed_bytes": 0,
+    "header_offset": 19935460,
+    "crc32": 0
+  },
+  {
+    "name": "PCBDataset/HSI/pcb45/",
+    "bytes": 0,
+    "compressed_bytes": 0,
+    "header_offset": 19935543,
+    "crc32": 0
+  },
+  {
+    "name": "PCBDataset/HSI/pcb42/",
+    "bytes": 0,
+    "compressed_bytes": 0,
+    "header_offset": 19935626,
+    "crc32": 0
+  },
+  {
+    "name": "PCBDataset/HSI/pcb21/",
+    "bytes": 0,
+    "compressed_bytes": 0,
+    "header_offset": 19935709,
+    "crc32": 0
+  },
+  {
+    "name": "PCBDataset/HSI/pcb26/",
+    "bytes": 0,
+    "compressed_bytes": 0,
+    "header_offset": 19935792,
+    "crc32": 0
+  },
+  {
+    "name": "PCBDataset/HSI/pcb19/",
+    "bytes": 0,
+    "compressed_bytes": 0,
+    "header_offset": 19935875,
+    "crc32": 0
+  },
+  {
+    "name": "PCBDataset/HSI/pcb10/",
+    "bytes": 0,
+    "compressed_bytes": 0,
+    "header_offset": 19935958,
+    "crc32": 0
+  },
+  {
+    "name": "PCBDataset/HSI/pcb17/",
+    "bytes": 0,
+    "compressed_bytes": 0,
+    "header_offset": 19936041,
+    "crc32": 0
+  },
+  {
+    "name": "PCBDataset/HSI/pcb28/",
+    "bytes": 0,
+    "compressed_bytes": 0,
+    "header_offset": 19936124,
+    "crc32": 0
+  },
+  {
+    "name": "PCBDataset/HSI/pcb43/",
+    "bytes": 0,
+    "compressed_bytes": 0,
+    "header_offset": 19936207,
+    "crc32": 0
+  },
+  {
+    "name": "PCBDataset/HSI/pcb44/",
+    "bytes": 0,
+    "compressed_bytes": 0,
+    "header_offset": 19936290,
+    "crc32": 0
+  },
+  {
+    "name": "PCBDataset/HSI/pcb7/",
+    "bytes": 0,
+    "compressed_bytes": 0,
+    "header_offset": 19936373,
+    "crc32": 0
+  },
+  {
+    "name": "PCBDataset/HSI/pcb9/",
+    "bytes": 0,
+    "compressed_bytes": 0,
+    "header_offset": 19936455,
+    "crc32": 0
+  },
+  {
+    "name": "PCBDataset/HSI/pcb8/",
+    "bytes": 0,
+    "compressed_bytes": 0,
+    "header_offset": 19936537,
+    "crc32": 0
+  },
+  {
+    "name": "PCBDataset/HSI/pcb1/",
+    "bytes": 0,
+    "compressed_bytes": 0,
+    "header_offset": 19936619,
+    "crc32": 0
+  },
+  {
+    "name": "PCBDataset/HSI/pcb6/",
+    "bytes": 0,
+    "compressed_bytes": 0,
+    "header_offset": 19936701,
+    "crc32": 0
+  },
+  {
+    "name": "PCBDataset/HSI/pcb31/",
+    "bytes": 0,
+    "compressed_bytes": 0,
+    "header_offset": 19936783,
+    "crc32": 0
+  },
+  {
+    "name": "PCBDataset/HSI/pcb36/",
+    "bytes": 0,
+    "compressed_bytes": 0,
+    "header_offset": 19936866,
+    "crc32": 0
+  },
+  {
+    "name": "PCBDataset/HSI/pcb38/",
+    "bytes": 0,
+    "compressed_bytes": 0,
+    "header_offset": 19936949,
+    "crc32": 0
+  },
+  {
+    "name": "PCBDataset/HSI/pcb53/",
+    "bytes": 0,
+    "compressed_bytes": 0,
+    "header_offset": 19937032,
+    "crc32": 0
+  },
+  {
+    "name": "PCBDataset/HSI/pcb39/",
+    "bytes": 0,
+    "compressed_bytes": 0,
+    "header_offset": 19937115,
+    "crc32": 0
+  },
+  {
+    "name": "PCBDataset/HSI/PCB_Masks/",
+    "bytes": 0,
+    "compressed_bytes": 0,
+    "header_offset": 19937198,
+    "crc32": 0
+  },
+  {
+    "name": "PCBDataset/HSI/pcb37/",
+    "bytes": 0,
+    "compressed_bytes": 0,
+    "header_offset": 19937285,
+    "crc32": 0
+  },
+  {
+    "name": "PCBDataset/HSI/pcb30/",
+    "bytes": 0,
+    "compressed_bytes": 0,
+    "header_offset": 19937368,
+    "crc32": 0
+  },
+  {
+    "name": "PCBDataset/HSI/pcb52/",
+    "bytes": 0,
+    "compressed_bytes": 0,
+    "header_offset": 19937451,
+    "crc32": 0
+  },
+  {
+    "name": "PCBDataset/HSI/pcb48/",
+    "bytes": 0,
+    "compressed_bytes": 0,
+    "header_offset": 19937534,
+    "crc32": 0
+  },
+  {
+    "name": "PCBDataset/HSI/pcb41/",
+    "bytes": 0,
+    "compressed_bytes": 0,
+    "header_offset": 19937617,
+    "crc32": 0
+  },
+  {
+    "name": "PCBDataset/HSI/pcb46/",
+    "bytes": 0,
+    "compressed_bytes": 0,
+    "header_offset": 19937700,
+    "crc32": 0
+  },
+  {
+    "name": "PCBDataset/HSI/pcb12/",
+    "bytes": 0,
+    "compressed_bytes": 0,
+    "header_offset": 19937783,
+    "crc32": 0
+  },
+  {
+    "name": "PCBDataset/HSI/pcb15/",
+    "bytes": 0,
+    "compressed_bytes": 0,
+    "header_offset": 19937866,
+    "crc32": 0
+  },
+  {
+    "name": "PCBDataset/HSI/pcb23/",
+    "bytes": 0,
+    "compressed_bytes": 0,
+    "header_offset": 19937949,
+    "crc32": 0
+  },
+  {
+    "name": "PCBDataset/HSI/pcb24/",
+    "bytes": 0,
+    "compressed_bytes": 0,
+    "header_offset": 19938032,
+    "crc32": 0
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/",
+    "bytes": 0,
+    "compressed_bytes": 0,
+    "header_offset": 19938115,
+    "crc32": 0
+  },
+  {
+    "name": "PCBDataset/HSI/pcb47/",
+    "bytes": 0,
+    "compressed_bytes": 0,
+    "header_offset": 19938206,
+    "crc32": 0
+  },
+  {
+    "name": "PCBDataset/HSI/pcb40/",
+    "bytes": 0,
+    "compressed_bytes": 0,
+    "header_offset": 19938289,
+    "crc32": 0
+  },
+  {
+    "name": "PCBDataset/HSI/pcb49/",
+    "bytes": 0,
+    "compressed_bytes": 0,
+    "header_offset": 19938372,
+    "crc32": 0
+  },
+  {
+    "name": "PCBDataset/HSI/pcb25/",
+    "bytes": 0,
+    "compressed_bytes": 0,
+    "header_offset": 19938455,
+    "crc32": 0
+  },
+  {
+    "name": "PCBDataset/HSI/pcb22/",
+    "bytes": 0,
+    "compressed_bytes": 0,
+    "header_offset": 19938538,
+    "crc32": 0
+  },
+  {
+    "name": "PCBDataset/HSI/pcb14/",
+    "bytes": 0,
+    "compressed_bytes": 0,
+    "header_offset": 19938621,
+    "crc32": 0
+  },
+  {
+    "name": "PCBDataset/HSI/pcb13/",
+    "bytes": 0,
+    "compressed_bytes": 0,
+    "header_offset": 19938704,
+    "crc32": 0
+  },
+  {
+    "name": "PCBDataset/RGB/General/48.png",
+    "bytes": 1657,
+    "compressed_bytes": 638,
+    "header_offset": 19938787,
+    "crc32": 148732961
+  },
+  {
+    "name": "PCBDataset/RGB/General/49.png",
+    "bytes": 1531,
+    "compressed_bytes": 517,
+    "header_offset": 19939532,
+    "crc32": 1963872544
+  },
+  {
+    "name": "PCBDataset/RGB/General/.DS_Store",
+    "bytes": 10244,
+    "compressed_bytes": 1057,
+    "header_offset": 19940156,
+    "crc32": 2273162927
+  },
+  {
+    "name": "PCBDataset/RGB/General/8.png",
+    "bytes": 6301,
+    "compressed_bytes": 2655,
+    "header_offset": 19941323,
+    "crc32": 2568688240
+  },
+  {
+    "name": "PCBDataset/RGB/General/9.png",
+    "bytes": 7955,
+    "compressed_bytes": 6405,
+    "header_offset": 19944084,
+    "crc32": 1111103376
+  },
+  {
+    "name": "PCBDataset/RGB/General/14.png",
+    "bytes": 2995,
+    "compressed_bytes": 1094,
+    "header_offset": 19950595,
+    "crc32": 3443965876
+  },
+  {
+    "name": "PCBDataset/RGB/General/28.png",
+    "bytes": 6143,
+    "compressed_bytes": 2428,
+    "header_offset": 19951796,
+    "crc32": 3877044369
+  },
+  {
+    "name": "PCBDataset/RGB/General/29.png",
+    "bytes": 7630,
+    "compressed_bytes": 2066,
+    "header_offset": 19954331,
+    "crc32": 1050939208
+  },
+  {
+    "name": "PCBDataset/RGB/General/15.png",
+    "bytes": 11565,
+    "compressed_bytes": 6546,
+    "header_offset": 19956504,
+    "crc32": 2833277527
+  },
+  {
+    "name": "PCBDataset/RGB/General/17.png",
+    "bytes": 25847,
+    "compressed_bytes": 15733,
+    "header_offset": 19963157,
+    "crc32": 4200806455
+  },
+  {
+    "name": "PCBDataset/RGB/General/16.png",
+    "bytes": 19487,
+    "compressed_bytes": 8356,
+    "header_offset": 19978997,
+    "crc32": 2902669453
+  },
+  {
+    "name": "PCBDataset/RGB/General/12.png",
+    "bytes": 1607,
+    "compressed_bytes": 352,
+    "header_offset": 19987460,
+    "crc32": 3677576779
+  },
+  {
+    "name": "PCBDataset/RGB/General/13.png",
+    "bytes": 3576,
+    "compressed_bytes": 1376,
+    "header_offset": 19987919,
+    "crc32": 1941767198
+  },
+  {
+    "name": "PCBDataset/RGB/General/39.png",
+    "bytes": 10011,
+    "compressed_bytes": 2560,
+    "header_offset": 19989402,
+    "crc32": 2974123063
+  },
+  {
+    "name": "PCBDataset/RGB/General/11.png",
+    "bytes": 5818,
+    "compressed_bytes": 4148,
+    "header_offset": 19992069,
+    "crc32": 3612810721
+  },
+  {
+    "name": "PCBDataset/RGB/General/10.png",
+    "bytes": 12548,
+    "compressed_bytes": 9238,
+    "header_offset": 19996324,
+    "crc32": 3542563542
+  },
+  {
+    "name": "PCBDataset/RGB/General/38.png",
+    "bytes": 12590,
+    "compressed_bytes": 5193,
+    "header_offset": 20005669,
+    "crc32": 445795811
+  },
+  {
+    "name": "PCBDataset/RGB/General/35.png",
+    "bytes": 3356,
+    "compressed_bytes": 1229,
+    "header_offset": 20010969,
+    "crc32": 2984414559
+  },
+  {
+    "name": "PCBDataset/RGB/General/21.png",
+    "bytes": 9960,
+    "compressed_bytes": 7986,
+    "header_offset": 20012305,
+    "crc32": 1910769917
+  },
+  {
+    "name": "PCBDataset/RGB/General/20.png",
+    "bytes": 4279,
+    "compressed_bytes": 1970,
+    "header_offset": 20020398,
+    "crc32": 890985379
+  },
+  {
+    "name": "PCBDataset/RGB/General/34.png",
+    "bytes": 4464,
+    "compressed_bytes": 2354,
+    "header_offset": 20022475,
+    "crc32": 2830080307
+  },
+  {
+    "name": "PCBDataset/RGB/General/22.png",
+    "bytes": 8083,
+    "compressed_bytes": 5809,
+    "header_offset": 20024936,
+    "crc32": 1697193795
+  },
+  {
+    "name": "PCBDataset/RGB/General/36.png",
+    "bytes": 11443,
+    "compressed_bytes": 6418,
+    "header_offset": 20030852,
+    "crc32": 815866731
+  },
+  {
+    "name": "PCBDataset/RGB/General/37.png",
+    "bytes": 18887,
+    "compressed_bytes": 11934,
+    "header_offset": 20037377,
+    "crc32": 2010615882
+  },
+  {
+    "name": "PCBDataset/RGB/General/23.png",
+    "bytes": 4980,
+    "compressed_bytes": 2547,
+    "header_offset": 20049418,
+    "crc32": 2771700631
+  },
+  {
+    "name": "PCBDataset/RGB/General/27.png",
+    "bytes": 17139,
+    "compressed_bytes": 12000,
+    "header_offset": 20052072,
+    "crc32": 3899822986
+  },
+  {
+    "name": "PCBDataset/RGB/General/33.png",
+    "bytes": 13592,
+    "compressed_bytes": 9848,
+    "header_offset": 20064179,
+    "crc32": 603879702
+  },
+  {
+    "name": "PCBDataset/RGB/General/32.png",
+    "bytes": 13017,
+    "compressed_bytes": 7212,
+    "header_offset": 20074134,
+    "crc32": 2574137692
+  },
+  {
+    "name": "PCBDataset/RGB/General/26.png",
+    "bytes": 11698,
+    "compressed_bytes": 3735,
+    "header_offset": 20081453,
+    "crc32": 2076988377
+  },
+  {
+    "name": "PCBDataset/RGB/General/18.png",
+    "bytes": 6036,
+    "compressed_bytes": 4347,
+    "header_offset": 20085295,
+    "crc32": 1851720979
+  },
+  {
+    "name": "PCBDataset/RGB/General/30.png",
+    "bytes": 14341,
+    "compressed_bytes": 10318,
+    "header_offset": 20089749,
+    "crc32": 3605331949
+  },
+  {
+    "name": "PCBDataset/RGB/General/24.png",
+    "bytes": 15941,
+    "compressed_bytes": 11255,
+    "header_offset": 20100174,
+    "crc32": 3862222894
+  },
+  {
+    "name": "PCBDataset/RGB/General/25.png",
+    "bytes": 15921,
+    "compressed_bytes": 10793,
+    "header_offset": 20111536,
+    "crc32": 272032053
+  },
+  {
+    "name": "PCBDataset/RGB/General/31.png",
+    "bytes": 6585,
+    "compressed_bytes": 2876,
+    "header_offset": 20122436,
+    "crc32": 1976057696
+  },
+  {
+    "name": "PCBDataset/RGB/General/19.png",
+    "bytes": 11335,
+    "compressed_bytes": 8446,
+    "header_offset": 20125419,
+    "crc32": 3818956560
+  },
+  {
+    "name": "PCBDataset/RGB/General/4.png",
+    "bytes": 4003,
+    "compressed_bytes": 2338,
+    "header_offset": 20133972,
+    "crc32": 2942086055
+  },
+  {
+    "name": "PCBDataset/RGB/General/42.png",
+    "bytes": 1330,
+    "compressed_bytes": 250,
+    "header_offset": 20136416,
+    "crc32": 2778113781
+  },
+  {
+    "name": "PCBDataset/RGB/General/43.png",
+    "bytes": 1192,
+    "compressed_bytes": 702,
+    "header_offset": 20136773,
+    "crc32": 1357871880
+  },
+  {
+    "name": "PCBDataset/RGB/General/5.png",
+    "bytes": 1491,
+    "compressed_bytes": 850,
+    "header_offset": 20137582,
+    "crc32": 2030092567
+  },
+  {
+    "name": "PCBDataset/RGB/General/41.png",
+    "bytes": 903,
+    "compressed_bytes": 466,
+    "header_offset": 20138538,
+    "crc32": 102530065
+  },
+  {
+    "name": "PCBDataset/RGB/General/7.png",
+    "bytes": 1826,
+    "compressed_bytes": 1253,
+    "header_offset": 20139111,
+    "crc32": 1924857045
+  },
+  {
+    "name": "PCBDataset/RGB/General/6.png",
+    "bytes": 66013,
+    "compressed_bytes": 23292,
+    "header_offset": 20140470,
+    "crc32": 1956522215
+  },
+  {
+    "name": "PCBDataset/RGB/General/40.png",
+    "bytes": 14790,
+    "compressed_bytes": 4652,
+    "header_offset": 20163868,
+    "crc32": 212732564
+  },
+  {
+    "name": "PCBDataset/RGB/General/44.png",
+    "bytes": 1343,
+    "compressed_bytes": 768,
+    "header_offset": 20168627,
+    "crc32": 3297634466
+  },
+  {
+    "name": "PCBDataset/RGB/General/2.png",
+    "bytes": 22984,
+    "compressed_bytes": 15533,
+    "header_offset": 20169502,
+    "crc32": 1296821330
+  },
+  {
+    "name": "PCBDataset/RGB/General/50.png",
+    "bytes": 2473,
+    "compressed_bytes": 1196,
+    "header_offset": 20185141,
+    "crc32": 472948709
+  },
+  {
+    "name": "PCBDataset/RGB/General/3.png",
+    "bytes": 7847,
+    "compressed_bytes": 6317,
+    "header_offset": 20186444,
+    "crc32": 2079530110
+  },
+  {
+    "name": "PCBDataset/RGB/General/51.png",
+    "bytes": 2059,
+    "compressed_bytes": 950,
+    "header_offset": 20192867,
+    "crc32": 3695908247
+  },
+  {
+    "name": "PCBDataset/RGB/General/45.png",
+    "bytes": 967,
+    "compressed_bytes": 540,
+    "header_offset": 20193924,
+    "crc32": 6509392
+  },
+  {
+    "name": "PCBDataset/RGB/General/53.png",
+    "bytes": 5865,
+    "compressed_bytes": 3039,
+    "header_offset": 20194571,
+    "crc32": 498950263
+  },
+  {
+    "name": "PCBDataset/RGB/General/1.png",
+    "bytes": 3588,
+    "compressed_bytes": 2964,
+    "header_offset": 20197717,
+    "crc32": 2702336852
+  },
+  {
+    "name": "PCBDataset/RGB/General/47.png",
+    "bytes": 1530,
+    "compressed_bytes": 688,
+    "header_offset": 20200787,
+    "crc32": 454568496
+  },
+  {
+    "name": "PCBDataset/RGB/General/46.png",
+    "bytes": 1473,
+    "compressed_bytes": 493,
+    "header_offset": 20201582,
+    "crc32": 4099276624
+  },
+  {
+    "name": "PCBDataset/RGB/General/52.png",
+    "bytes": 3461,
+    "compressed_bytes": 1991,
+    "header_offset": 20202182,
+    "crc32": 1386184476
+  },
+  {
+    "name": "PCBDataset/RGB/Monoseg/48.png",
+    "bytes": 2052,
+    "compressed_bytes": 1317,
+    "header_offset": 20204280,
+    "crc32": 829773105
+  },
+  {
+    "name": "PCBDataset/RGB/Monoseg/49.png",
+    "bytes": 1528,
+    "compressed_bytes": 543,
+    "header_offset": 20205704,
+    "crc32": 1224944796
+  },
+  {
+    "name": "PCBDataset/RGB/Monoseg/.DS_Store",
+    "bytes": 10244,
+    "compressed_bytes": 1084,
+    "header_offset": 20206354,
+    "crc32": 3346065535
+  },
+  {
+    "name": "PCBDataset/RGB/Monoseg/8.png",
+    "bytes": 6301,
+    "compressed_bytes": 2655,
+    "header_offset": 20207548,
+    "crc32": 2568688240
+  },
+  {
+    "name": "PCBDataset/RGB/Monoseg/9.png",
+    "bytes": 7751,
+    "compressed_bytes": 6177,
+    "header_offset": 20210309,
+    "crc32": 4195919253
+  },
+  {
+    "name": "PCBDataset/RGB/Monoseg/14.png",
+    "bytes": 2990,
+    "compressed_bytes": 1240,
+    "header_offset": 20216592,
+    "crc32": 2244754538
+  },
+  {
+    "name": "PCBDataset/RGB/Monoseg/28.png",
+    "bytes": 8443,
+    "compressed_bytes": 6056,
+    "header_offset": 20217939,
+    "crc32": 3237083953
+  },
+  {
+    "name": "PCBDataset/RGB/Monoseg/29.png",
+    "bytes": 9702,
+    "compressed_bytes": 5535,
+    "header_offset": 20224102,
+    "crc32": 3923408316
+  },
+  {
+    "name": "PCBDataset/RGB/Monoseg/15.png",
+    "bytes": 10892,
+    "compressed_bytes": 5756,
+    "header_offset": 20229744,
+    "crc32": 2310227067
+  },
+  {
+    "name": "PCBDataset/RGB/Monoseg/17.png",
+    "bytes": 25578,
+    "compressed_bytes": 15328,
+    "header_offset": 20235607,
+    "crc32": 24985622
+  },
+  {
+    "name": "PCBDataset/RGB/Monoseg/16.png",
+    "bytes": 20052,
+    "compressed_bytes": 9145,
+    "header_offset": 20251042,
+    "crc32": 3103723537
+  },
+  {
+    "name": "PCBDataset/RGB/Monoseg/12.png",
+    "bytes": 1732,
+    "compressed_bytes": 559,
+    "header_offset": 20260294,
+    "crc32": 2508695200
+  },
+  {
+    "name": "PCBDataset/RGB/Monoseg/13.png",
+    "bytes": 3987,
+    "compressed_bytes": 2021,
+    "header_offset": 20260960,
+    "crc32": 2390606985
+  },
+  {
+    "name": "PCBDataset/RGB/Monoseg/39.png",
+    "bytes": 11327,
+    "compressed_bytes": 5185,
+    "header_offset": 20263088,
+    "crc32": 3789027042
+  },
+  {
+    "name": "PCBDataset/RGB/Monoseg/11.png",
+    "bytes": 5706,
+    "compressed_bytes": 4077,
+    "header_offset": 20268380,
+    "crc32": 3131141484
+  },
+  {
+    "name": "PCBDataset/RGB/Monoseg/10.png",
+    "bytes": 13720,
+    "compressed_bytes": 10774,
+    "header_offset": 20272564,
+    "crc32": 1626731344
+  },
+  {
+    "name": "PCBDataset/RGB/Monoseg/38.png",
+    "bytes": 14304,
+    "compressed_bytes": 8018,
+    "header_offset": 20283445,
+    "crc32": 3152178032
+  },
+  {
+    "name": "PCBDataset/RGB/Monoseg/35.png",
+    "bytes": 3526,
+    "compressed_bytes": 1579,
+    "header_offset": 20291570,
+    "crc32": 4023562633
+  },
+  {
+    "name": "PCBDataset/RGB/Monoseg/21.png",
+    "bytes": 10263,
+    "compressed_bytes": 8405,
+    "header_offset": 20293256,
+    "crc32": 91913526
+  },
+  {
+    "name": "PCBDataset/RGB/Monoseg/20.png",
+    "bytes": 4829,
+    "compressed_bytes": 2814,
+    "header_offset": 20301768,
+    "crc32": 3543802492
+  },
+  {
+    "name": "PCBDataset/RGB/Monoseg/34.png",
+    "bytes": 4558,
+    "compressed_bytes": 2466,
+    "header_offset": 20304689,
+    "crc32": 3351390157
+  },
+  {
+    "name": "PCBDataset/RGB/Monoseg/22.png",
+    "bytes": 7756,
+    "compressed_bytes": 5636,
+    "header_offset": 20307262,
+    "crc32": 1734923384
+  },
+  {
+    "name": "PCBDataset/RGB/Monoseg/36.png",
+    "bytes": 13408,
+    "compressed_bytes": 9310,
+    "header_offset": 20313005,
+    "crc32": 2466914604
+  },
+  {
+    "name": "PCBDataset/RGB/Monoseg/37.png",
+    "bytes": 15397,
+    "compressed_bytes": 7553,
+    "header_offset": 20322422,
+    "crc32": 3516985891
+  },
+  {
+    "name": "PCBDataset/RGB/Monoseg/23.png",
+    "bytes": 5031,
+    "compressed_bytes": 2682,
+    "header_offset": 20330082,
+    "crc32": 3099448513
+  },
+  {
+    "name": "PCBDataset/RGB/Monoseg/27.png",
+    "bytes": 15889,
+    "compressed_bytes": 10841,
+    "header_offset": 20332871,
+    "crc32": 3507846167
+  },
+  {
+    "name": "PCBDataset/RGB/Monoseg/33.png",
+    "bytes": 13707,
+    "compressed_bytes": 10270,
+    "header_offset": 20343819,
+    "crc32": 2371889484
+  },
+  {
+    "name": "PCBDataset/RGB/Monoseg/32.png",
+    "bytes": 13264,
+    "compressed_bytes": 7581,
+    "header_offset": 20354196,
+    "crc32": 1171281353
+  },
+  {
+    "name": "PCBDataset/RGB/Monoseg/26.png",
+    "bytes": 12651,
+    "compressed_bytes": 5875,
+    "header_offset": 20361884,
+    "crc32": 2949697514
+  },
+  {
+    "name": "PCBDataset/RGB/Monoseg/18.png",
+    "bytes": 5457,
+    "compressed_bytes": 3718,
+    "header_offset": 20367866,
+    "crc32": 3128936259
+  },
+  {
+    "name": "PCBDataset/RGB/Monoseg/30.png",
+    "bytes": 13613,
+    "compressed_bytes": 9553,
+    "header_offset": 20371691,
+    "crc32": 3214237503
+  },
+  {
+    "name": "PCBDataset/RGB/Monoseg/24.png",
+    "bytes": 13650,
+    "compressed_bytes": 8495,
+    "header_offset": 20381351,
+    "crc32": 1291424380
+  },
+  {
+    "name": "PCBDataset/RGB/Monoseg/25.png",
+    "bytes": 15012,
+    "compressed_bytes": 9974,
+    "header_offset": 20389953,
+    "crc32": 1458336859
+  },
+  {
+    "name": "PCBDataset/RGB/Monoseg/31.png",
+    "bytes": 7928,
+    "compressed_bytes": 4868,
+    "header_offset": 20400034,
+    "crc32": 633381379
+  },
+  {
+    "name": "PCBDataset/RGB/Monoseg/19.png",
+    "bytes": 13351,
+    "compressed_bytes": 10926,
+    "header_offset": 20405009,
+    "crc32": 2103099347
+  },
+  {
+    "name": "PCBDataset/RGB/Monoseg/4.png",
+    "bytes": 4700,
+    "compressed_bytes": 3332,
+    "header_offset": 20416042,
+    "crc32": 4175975116
+  },
+  {
+    "name": "PCBDataset/RGB/Monoseg/42.png",
+    "bytes": 1786,
+    "compressed_bytes": 983,
+    "header_offset": 20419480,
+    "crc32": 2804636621
+  },
+  {
+    "name": "PCBDataset/RGB/Monoseg/43.png",
+    "bytes": 1505,
+    "compressed_bytes": 1235,
+    "header_offset": 20420570,
+    "crc32": 4229331129
+  },
+  {
+    "name": "PCBDataset/RGB/Monoseg/5.png",
+    "bytes": 1755,
+    "compressed_bytes": 1302,
+    "header_offset": 20421912,
+    "crc32": 2737039324
+  },
+  {
+    "name": "PCBDataset/RGB/Monoseg/41.png",
+    "bytes": 1099,
+    "compressed_bytes": 818,
+    "header_offset": 20423320,
+    "crc32": 238501559
+  },
+  {
+    "name": "PCBDataset/RGB/Monoseg/7.png",
+    "bytes": 1826,
+    "compressed_bytes": 1253,
+    "header_offset": 20424245,
+    "crc32": 1924857045
+  },
+  {
+    "name": "PCBDataset/RGB/Monoseg/6.png",
+    "bytes": 71119,
+    "compressed_bytes": 32419,
+    "header_offset": 20425604,
+    "crc32": 3739977426
+  },
+  {
+    "name": "PCBDataset/RGB/Monoseg/40.png",
+    "bytes": 24684,
+    "compressed_bytes": 19507,
+    "header_offset": 20458129,
+    "crc32": 1073132207
+  },
+  {
+    "name": "PCBDataset/RGB/Monoseg/44.png",
+    "bytes": 1499,
+    "compressed_bytes": 1099,
+    "header_offset": 20477743,
+    "crc32": 2745351281
+  },
+  {
+    "name": "PCBDataset/RGB/Monoseg/2.png",
+    "bytes": 27443,
+    "compressed_bytes": 21558,
+    "header_offset": 20478949,
+    "crc32": 854789299
+  },
+  {
+    "name": "PCBDataset/RGB/Monoseg/50.png",
+    "bytes": 2431,
+    "compressed_bytes": 1260,
+    "header_offset": 20500613,
+    "crc32": 2377984857
+  },
+  {
+    "name": "PCBDataset/RGB/Monoseg/3.png",
+    "bytes": 8029,
+    "compressed_bytes": 6700,
+    "header_offset": 20501980,
+    "crc32": 2641229624
+  },
+  {
+    "name": "PCBDataset/RGB/Monoseg/51.png",
+    "bytes": 2537,
+    "compressed_bytes": 1792,
+    "header_offset": 20508786,
+    "crc32": 3558661608
+  },
+  {
+    "name": "PCBDataset/RGB/Monoseg/45.png",
+    "bytes": 1296,
+    "compressed_bytes": 1018,
+    "header_offset": 20510685,
+    "crc32": 4270734496
+  },
+  {
+    "name": "PCBDataset/RGB/Monoseg/53.png",
+    "bytes": 5341,
+    "compressed_bytes": 2503,
+    "header_offset": 20511810,
+    "crc32": 3021858042
+  },
+  {
+    "name": "PCBDataset/RGB/Monoseg/1.png",
+    "bytes": 3783,
+    "compressed_bytes": 3264,
+    "header_offset": 20514420,
+    "crc32": 3115502504
+  },
+  {
+    "name": "PCBDataset/RGB/Monoseg/47.png",
+    "bytes": 1482,
+    "compressed_bytes": 618,
+    "header_offset": 20517790,
+    "crc32": 488524970
+  },
+  {
+    "name": "PCBDataset/RGB/Monoseg/46.png",
+    "bytes": 1461,
+    "compressed_bytes": 467,
+    "header_offset": 20518515,
+    "crc32": 3672203588
+  },
+  {
+    "name": "PCBDataset/RGB/Monoseg/52.png",
+    "bytes": 2927,
+    "compressed_bytes": 1793,
+    "header_offset": 20519089,
+    "crc32": 1097278385
+  },
+  {
+    "name": "PCBDataset/HSI/pcb3/pcb3",
+    "bytes": 199768576,
+    "compressed_bytes": 146998966,
+    "header_offset": 20520989,
+    "crc32": 858636857
+  },
+  {
+    "name": "PCBDataset/HSI/pcb3/pcb3.hdr",
+    "bytes": 4470,
+    "compressed_bytes": 1969,
+    "header_offset": 167520057,
+    "crc32": 2565524330
+  },
+  {
+    "name": "PCBDataset/HSI/pcb4/pcb4",
+    "bytes": 150097920,
+    "compressed_bytes": 105357878,
+    "header_offset": 167522132,
+    "crc32": 3332263835
+  },
+  {
+    "name": "PCBDataset/HSI/pcb4/.DS_Store",
+    "bytes": 6148,
+    "compressed_bytes": 289,
+    "header_offset": 272880112,
+    "crc32": 2963864336
+  },
+  {
+    "name": "PCBDataset/HSI/pcb4/pcb4.hdr",
+    "bytes": 4470,
+    "compressed_bytes": 1967,
+    "header_offset": 272880508,
+    "crc32": 3854394766
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono46",
+    "bytes": 72192,
+    "compressed_bytes": 454,
+    "header_offset": 272882581,
+    "crc32": 953080493
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono41",
+    "bytes": 44988,
+    "compressed_bytes": 211,
+    "header_offset": 272883148,
+    "crc32": 1260095937
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono1.hdr",
+    "bytes": 1272,
+    "compressed_bytes": 706,
+    "header_offset": 272883472,
+    "crc32": 473830493
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono48",
+    "bytes": 67562,
+    "compressed_bytes": 475,
+    "header_offset": 272884294,
+    "crc32": 2047853442
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono21.hdr",
+    "bytes": 1124,
+    "compressed_bytes": 605,
+    "header_offset": 272884882,
+    "crc32": 1802797876
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono35.hdr",
+    "bytes": 1123,
+    "compressed_bytes": 604,
+    "header_offset": 272885604,
+    "crc32": 756353600
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono24",
+    "bytes": 502762,
+    "compressed_bytes": 2201,
+    "header_offset": 272886325,
+    "crc32": 3625697432
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono23",
+    "bytes": 201020,
+    "compressed_bytes": 990,
+    "header_offset": 272888639,
+    "crc32": 13688893
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono34.hdr",
+    "bytes": 1121,
+    "compressed_bytes": 606,
+    "header_offset": 272889742,
+    "crc32": 3014836846
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono20.hdr",
+    "bytes": 1030,
+    "compressed_bytes": 566,
+    "header_offset": 272890465,
+    "crc32": 3964302030
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono15",
+    "bytes": 460845,
+    "compressed_bytes": 2064,
+    "header_offset": 272891148,
+    "crc32": 3886888884
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono12",
+    "bytes": 84150,
+    "compressed_bytes": 283,
+    "header_offset": 272893325,
+    "crc32": 1030460880
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono49",
+    "bytes": 63744,
+    "compressed_bytes": 235,
+    "header_offset": 272893721,
+    "crc32": 3525447353
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono2.hdr",
+    "bytes": 1273,
+    "compressed_bytes": 701,
+    "header_offset": 272894069,
+    "crc32": 2686353811
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono36.hdr",
+    "bytes": 1076,
+    "compressed_bytes": 586,
+    "header_offset": 272894886,
+    "crc32": 3917316938
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono22.hdr",
+    "bytes": 1108,
+    "compressed_bytes": 592,
+    "header_offset": 272895589,
+    "crc32": 3237560970
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono40",
+    "bytes": 663195,
+    "compressed_bytes": 6639,
+    "header_offset": 272896298,
+    "crc32": 1404087104
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono47",
+    "bytes": 73696,
+    "compressed_bytes": 234,
+    "header_offset": 272903050,
+    "crc32": 2031746594
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono13",
+    "bytes": 174375,
+    "compressed_bytes": 980,
+    "header_offset": 272903397,
+    "crc32": 3928164906
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono14",
+    "bytes": 228540,
+    "compressed_bytes": 541,
+    "header_offset": 272904490,
+    "crc32": 2131221786
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono23.hdr",
+    "bytes": 1108,
+    "compressed_bytes": 593,
+    "header_offset": 272905144,
+    "crc32": 1437091521
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono37.hdr",
+    "bytes": 1076,
+    "compressed_bytes": 587,
+    "header_offset": 272905854,
+    "crc32": 3833626350
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono3.hdr",
+    "bytes": 1274,
+    "compressed_bytes": 709,
+    "header_offset": 272906558,
+    "crc32": 2918639295
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono22",
+    "bytes": 242406,
+    "compressed_bytes": 1987,
+    "header_offset": 272907383,
+    "crc32": 1842047518
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono25",
+    "bytes": 544308,
+    "compressed_bytes": 2773,
+    "header_offset": 272909483,
+    "crc32": 3603242857
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono1",
+    "bytes": 135728,
+    "compressed_bytes": 745,
+    "header_offset": 272912369,
+    "crc32": 2043954051
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono6",
+    "bytes": 1797216,
+    "compressed_bytes": 14861,
+    "header_offset": 272913226,
+    "crc32": 993311133
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono7.hdr",
+    "bytes": 1257,
+    "compressed_bytes": 696,
+    "header_offset": 272928199,
+    "crc32": 190062131
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono33.hdr",
+    "bytes": 1079,
+    "compressed_bytes": 588,
+    "header_offset": 272929011,
+    "crc32": 440994284
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono27.hdr",
+    "bytes": 1080,
+    "compressed_bytes": 590,
+    "header_offset": 272929716,
+    "crc32": 3866138348
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/.DS_Store",
+    "bytes": 10244,
+    "compressed_bytes": 783,
+    "header_offset": 272930423,
+    "crc32": 2833880103
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono8",
+    "bytes": 144240,
+    "compressed_bytes": 551,
+    "header_offset": 272931322,
+    "crc32": 3145420942
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono26.hdr",
+    "bytes": 1079,
+    "compressed_bytes": 589,
+    "header_offset": 272931985,
+    "crc32": 3476426829
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono32.hdr",
+    "bytes": 1079,
+    "compressed_bytes": 589,
+    "header_offset": 272932691,
+    "crc32": 2273808837
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono6.hdr",
+    "bytes": 131,
+    "compressed_bytes": 109,
+    "header_offset": 272933397,
+    "crc32": 122892347
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono9",
+    "bytes": 203490,
+    "compressed_bytes": 1601,
+    "header_offset": 272933622,
+    "crc32": 4036700395
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono4.hdr",
+    "bytes": 1273,
+    "compressed_bytes": 709,
+    "header_offset": 272935335,
+    "crc32": 468844383
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono24.hdr",
+    "bytes": 1075,
+    "compressed_bytes": 588,
+    "header_offset": 272936160,
+    "crc32": 880544653
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono30.hdr",
+    "bytes": 1079,
+    "compressed_bytes": 588,
+    "header_offset": 272936865,
+    "crc32": 3345499441
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono18.hdr",
+    "bytes": 1124,
+    "compressed_bytes": 605,
+    "header_offset": 272937570,
+    "crc32": 1348116471
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono7",
+    "bytes": 37816,
+    "compressed_bytes": 419,
+    "header_offset": 272938292,
+    "crc32": 3244125099
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono19.hdr",
+    "bytes": 1109,
+    "compressed_bytes": 589,
+    "header_offset": 272938823,
+    "crc32": 706729175
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono31.hdr",
+    "bytes": 1112,
+    "compressed_bytes": 596,
+    "header_offset": 272939529,
+    "crc32": 2214069371
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono25.hdr",
+    "bytes": 1076,
+    "compressed_bytes": 587,
+    "header_offset": 272940242,
+    "crc32": 4093450913
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono5.hdr",
+    "bytes": 1257,
+    "compressed_bytes": 696,
+    "header_offset": 272940946,
+    "crc32": 3211143587
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono42.hdr",
+    "bytes": 1108,
+    "compressed_bytes": 595,
+    "header_offset": 272941758,
+    "crc32": 2488831833
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono43.hdr",
+    "bytes": 1106,
+    "compressed_bytes": 591,
+    "header_offset": 272942470,
+    "crc32": 564146103
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono41.hdr",
+    "bytes": 1107,
+    "compressed_bytes": 592,
+    "header_offset": 272943178,
+    "crc32": 281356746
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono40.hdr",
+    "bytes": 1109,
+    "compressed_bytes": 593,
+    "header_offset": 272943887,
+    "crc32": 282501020
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono38",
+    "bytes": 551384,
+    "compressed_bytes": 1922,
+    "header_offset": 272944597,
+    "crc32": 1046472161
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono50.hdr",
+    "bytes": 1124,
+    "compressed_bytes": 607,
+    "header_offset": 272946632,
+    "crc32": 2176927132
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono44.hdr",
+    "bytes": 1108,
+    "compressed_bytes": 594,
+    "header_offset": 272947356,
+    "crc32": 2263784000
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono36",
+    "bytes": 434420,
+    "compressed_bytes": 2103,
+    "header_offset": 272948067,
+    "crc32": 2136696476
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono31",
+    "bytes": 261307,
+    "compressed_bytes": 1482,
+    "header_offset": 272950283,
+    "crc32": 177863912
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono45.hdr",
+    "bytes": 1107,
+    "compressed_bytes": 591,
+    "header_offset": 272951878,
+    "crc32": 2405927628
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono51.hdr",
+    "bytes": 1108,
+    "compressed_bytes": 591,
+    "header_offset": 272952586,
+    "crc32": 2612132015
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono53",
+    "bytes": 207480,
+    "compressed_bytes": 581,
+    "header_offset": 272953294,
+    "crc32": 4267159952
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono30",
+    "bytes": 395252,
+    "compressed_bytes": 2364,
+    "header_offset": 272953988,
+    "crc32": 3627187920
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono37",
+    "bytes": 600846,
+    "compressed_bytes": 2228,
+    "header_offset": 272956465,
+    "crc32": 1177215708
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono47.hdr",
+    "bytes": 1107,
+    "compressed_bytes": 592,
+    "header_offset": 272958806,
+    "crc32": 2478690888
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono53.hdr",
+    "bytes": 1123,
+    "compressed_bytes": 605,
+    "header_offset": 272959515,
+    "crc32": 3116241901
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono39",
+    "bytes": 493038,
+    "compressed_bytes": 1822,
+    "header_offset": 272960237,
+    "crc32": 1262630102
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono52",
+    "bytes": 83627,
+    "compressed_bytes": 428,
+    "header_offset": 272962172,
+    "crc32": 1637549177
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono52.hdr",
+    "bytes": 1106,
+    "compressed_bytes": 590,
+    "header_offset": 272962713,
+    "crc32": 1460079221
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono46.hdr",
+    "bytes": 1108,
+    "compressed_bytes": 592,
+    "header_offset": 272963420,
+    "crc32": 3476680057
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono20",
+    "bytes": 203814,
+    "compressed_bytes": 823,
+    "header_offset": 272964129,
+    "crc32": 821786792
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono27",
+    "bytes": 446537,
+    "compressed_bytes": 2883,
+    "header_offset": 272965065,
+    "crc32": 1410098340
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono18",
+    "bytes": 207200,
+    "compressed_bytes": 937,
+    "header_offset": 272968061,
+    "crc32": 3694592689
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono11",
+    "bytes": 193050,
+    "compressed_bytes": 1090,
+    "header_offset": 272969111,
+    "crc32": 471526328
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono16",
+    "bytes": 524238,
+    "compressed_bytes": 2339,
+    "header_offset": 272970314,
+    "crc32": 1801991742
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono29",
+    "bytes": 344300,
+    "compressed_bytes": 2022,
+    "header_offset": 272972766,
+    "crc32": 4263109281
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono42",
+    "bytes": 53361,
+    "compressed_bytes": 409,
+    "header_offset": 272974901,
+    "crc32": 2302893289
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono45",
+    "bytes": 37080,
+    "compressed_bytes": 249,
+    "header_offset": 272975423,
+    "crc32": 3651140134
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono17",
+    "bytes": 641580,
+    "compressed_bytes": 3285,
+    "header_offset": 272975785,
+    "crc32": 2352594747
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono28",
+    "bytes": 245523,
+    "compressed_bytes": 1409,
+    "header_offset": 272979183,
+    "crc32": 2155316987
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono10",
+    "bytes": 436560,
+    "compressed_bytes": 3194,
+    "header_offset": 272980705,
+    "crc32": 3046280835
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono48.hdr",
+    "bytes": 1108,
+    "compressed_bytes": 593,
+    "header_offset": 272984012,
+    "crc32": 3319360789
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono26",
+    "bytes": 536354,
+    "compressed_bytes": 2134,
+    "header_offset": 272984722,
+    "crc32": 2057348600
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono19",
+    "bytes": 331650,
+    "compressed_bytes": 2060,
+    "header_offset": 272986969,
+    "crc32": 1223072997
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono21",
+    "bytes": 229542,
+    "compressed_bytes": 1578,
+    "header_offset": 272989142,
+    "crc32": 3504612417
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono49.hdr",
+    "bytes": 1107,
+    "compressed_bytes": 592,
+    "header_offset": 272990833,
+    "crc32": 3711726431
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono44",
+    "bytes": 54096,
+    "compressed_bytes": 217,
+    "header_offset": 272991542,
+    "crc32": 3997992653
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono43",
+    "bytes": 34544,
+    "compressed_bytes": 324,
+    "header_offset": 272991872,
+    "crc32": 3969832584
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono5",
+    "bytes": 54210,
+    "compressed_bytes": 611,
+    "header_offset": 272992309,
+    "crc32": 1490803064
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono2",
+    "bytes": 1126400,
+    "compressed_bytes": 9473,
+    "header_offset": 272993032,
+    "crc32": 376950563
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono3",
+    "bytes": 222956,
+    "compressed_bytes": 1681,
+    "header_offset": 273002617,
+    "crc32": 532380923
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono4",
+    "bytes": 167520,
+    "compressed_bytes": 1234,
+    "header_offset": 273004410,
+    "crc32": 3470898585
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono8.hdr",
+    "bytes": 1123,
+    "compressed_bytes": 602,
+    "header_offset": 273005756,
+    "crc32": 1140472415
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono28.hdr",
+    "bytes": 1128,
+    "compressed_bytes": 612,
+    "header_offset": 273006474,
+    "crc32": 690268984
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono14.hdr",
+    "bytes": 1030,
+    "compressed_bytes": 562,
+    "header_offset": 273007203,
+    "crc32": 3131773567
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono15.hdr",
+    "bytes": 1075,
+    "compressed_bytes": 584,
+    "header_offset": 273007882,
+    "crc32": 3483815439
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono29.hdr",
+    "bytes": 1034,
+    "compressed_bytes": 567,
+    "header_offset": 273008583,
+    "crc32": 1424772498
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono9.hdr",
+    "bytes": 1108,
+    "compressed_bytes": 593,
+    "header_offset": 273009267,
+    "crc32": 965327199
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono17.hdr",
+    "bytes": 1075,
+    "compressed_bytes": 588,
+    "header_offset": 273009976,
+    "crc32": 184461350
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono16.hdr",
+    "bytes": 1076,
+    "compressed_bytes": 588,
+    "header_offset": 273010681,
+    "crc32": 864204296
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono12.hdr",
+    "bytes": 1030,
+    "compressed_bytes": 563,
+    "header_offset": 273011386,
+    "crc32": 511710403
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono50",
+    "bytes": 83712,
+    "compressed_bytes": 516,
+    "header_offset": 273012066,
+    "crc32": 2317183470
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono13.hdr",
+    "bytes": 1124,
+    "compressed_bytes": 604,
+    "header_offset": 273012695,
+    "crc32": 2349563053
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono32",
+    "bytes": 545392,
+    "compressed_bytes": 2299,
+    "header_offset": 273013416,
+    "crc32": 341290858
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono35",
+    "bytes": 162024,
+    "compressed_bytes": 458,
+    "header_offset": 273015828,
+    "crc32": 305534066
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono51",
+    "bytes": 55350,
+    "compressed_bytes": 510,
+    "header_offset": 273016399,
+    "crc32": 275269590
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono11.hdr",
+    "bytes": 1125,
+    "compressed_bytes": 602,
+    "header_offset": 273017022,
+    "crc32": 1014293754
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono39.hdr",
+    "bytes": 1077,
+    "compressed_bytes": 588,
+    "header_offset": 273017741,
+    "crc32": 3024393076
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono34",
+    "bytes": 141384,
+    "compressed_bytes": 434,
+    "header_offset": 273018446,
+    "crc32": 2005524117
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono33",
+    "bytes": 393939,
+    "compressed_bytes": 2501,
+    "header_offset": 273018993,
+    "crc32": 1604908142
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono38.hdr",
+    "bytes": 1031,
+    "compressed_bytes": 562,
+    "header_offset": 273021607,
+    "crc32": 2043287067
+  },
+  {
+    "name": "PCBDataset/HSI/Monoseg_masks/mono10.hdr",
+    "bytes": 1108,
+    "compressed_bytes": 589,
+    "header_offset": 273022286,
+    "crc32": 2832446475
+  },
+  {
+    "name": "PCBDataset/HSI/pcb5/pcb5",
+    "bytes": 48572160,
+    "compressed_bytes": 33305939,
+    "header_offset": 273022992,
+    "crc32": 2139824933
+  },
+  {
+    "name": "PCBDataset/HSI/pcb5/pcb5.hdr",
+    "bytes": 4470,
+    "compressed_bytes": 1967,
+    "header_offset": 306329033,
+    "crc32": 3883369728
+  },
+  {
+    "name": "PCBDataset/HSI/pcb2/pcb2",
+    "bytes": 1009254400,
+    "compressed_bytes": 807997496,
+    "header_offset": 306331106,
+    "crc32": 3426182937
+  },
+  {
+    "name": "PCBDataset/HSI/pcb2/pcb2.hdr",
+    "bytes": 4469,
+    "compressed_bytes": 1962,
+    "header_offset": 1114328704,
+    "crc32": 53121556
+  },
+  {
+    "name": "PCBDataset/HSI/pcb50/pcb50",
+    "bytes": 75005952,
+    "compressed_bytes": 64289869,
+    "header_offset": 1114330772,
+    "crc32": 1955611544
+  },
+  {
+    "name": "PCBDataset/HSI/pcb50/pcb50.hdr",
+    "bytes": 4442,
+    "compressed_bytes": 1949,
+    "header_offset": 1178620745,
+    "crc32": 2920360507
+  },
+  {
+    "name": "PCBDataset/HSI/pcb35/pcb35",
+    "bytes": 145173504,
+    "compressed_bytes": 123542037,
+    "header_offset": 1178622802,
+    "crc32": 3747820155
+  },
+  {
+    "name": "PCBDataset/HSI/pcb35/pcb35.hdr",
+    "bytes": 4441,
+    "compressed_bytes": 1948,
+    "header_offset": 1302164943,
+    "crc32": 510677921
+  },
+  {
+    "name": "PCBDataset/HSI/pcb32/pcb32",
+    "bytes": 488671232,
+    "compressed_bytes": 423235182,
+    "header_offset": 1302166999,
+    "crc32": 3163151425
+  },
+  {
+    "name": "PCBDataset/HSI/pcb32/pcb32.hdr",
+    "bytes": 4442,
+    "compressed_bytes": 1949,
+    "header_offset": 1725402285,
+    "crc32": 143168568
+  },
+  {
+    "name": "PCBDataset/HSI/pcb51/pcb51",
+    "bytes": 49593600,
+    "compressed_bytes": 42150560,
+    "header_offset": 1725404342,
+    "crc32": 3352971365
+  },
+  {
+    "name": "PCBDataset/HSI/pcb51/pcb51.hdr",
+    "bytes": 4442,
+    "compressed_bytes": 1949,
+    "header_offset": 1767555006,
+    "crc32": 1560754464
+  },
+  {
+    "name": "PCBDataset/HSI/pcb33/pcb33",
+    "bytes": 352969344,
+    "compressed_bytes": 305902272,
+    "header_offset": 1767557063,
+    "crc32": 3307110839
+  },
+  {
+    "name": "PCBDataset/HSI/pcb33/pcb33.hdr",
+    "bytes": 4442,
+    "compressed_bytes": 1949,
+    "header_offset": 2073459439,
+    "crc32": 2055481243
+  },
+  {
+    "name": "PCBDataset/HSI/pcb34/pcb34",
+    "bytes": 126680064,
+    "compressed_bytes": 108570249,
+    "header_offset": 2073461496,
+    "crc32": 1628706255
+  },
+  {
+    "name": "PCBDataset/HSI/pcb34/pcb34.hdr",
+    "bytes": 4441,
+    "compressed_bytes": 1947,
+    "header_offset": 2182031849,
+    "crc32": 4283334537
+  },
+  {
+    "name": "PCBDataset/HSI/pcb16/pcb16",
+    "bytes": 469717248,
+    "compressed_bytes": 407450282,
+    "header_offset": 2182033904,
+    "crc32": 1880643710
+  },
+  {
+    "name": "PCBDataset/HSI/pcb16/pcb16.hdr",
+    "bytes": 4470,
+    "compressed_bytes": 1968,
+    "header_offset": 2589484290,
+    "crc32": 1917890631
+  },
+  {
+    "name": "PCBDataset/HSI/pcb29/pcb29",
+    "bytes": 308492800,
+    "compressed_bytes": 264984182,
+    "header_offset": 2589486366,
+    "crc32": 4071185986
+  },
+  {
+    "name": "PCBDataset/HSI/pcb29/pcb29.hdr",
+    "bytes": 4442,
+    "compressed_bytes": 1949,
+    "header_offset": 2854470652,
+    "crc32": 283192336
+  },
+  {
+    "name": "PCBDataset/HSI/pcb11/pcb11",
+    "bytes": 172972800,
+    "compressed_bytes": 147910002,
+    "header_offset": 2854472709,
+    "crc32": 563123493
+  },
+  {
+    "name": "PCBDataset/HSI/pcb11/pcb11.hdr",
+    "bytes": 4470,
+    "compressed_bytes": 1965,
+    "header_offset": 3002382815,
+    "crc32": 2300078953
+  },
+  {
+    "name": "PCBDataset/HSI/pcb27/pcb27",
+    "bytes": 400097152,
+    "compressed_bytes": 346199698,
+    "header_offset": 3002384888,
+    "crc32": 3497647675
+  },
+  {
+    "name": "PCBDataset/HSI/pcb27/pcb27.hdr",
+    "bytes": 4442,
+    "compressed_bytes": 1950,
+    "header_offset": 3348584690,
+    "crc32": 2059048141
+  },
+  {
+    "name": "PCBDataset/HSI/pcb18/pcb18",
+    "bytes": 185651200,
+    "compressed_bytes": 158632961,
+    "header_offset": 3348586748,
+    "crc32": 4245198820
+  },
+  {
+    "name": "PCBDataset/HSI/pcb18/pcb18.hdr",
+    "bytes": 4442,
+    "compressed_bytes": 1949,
+    "header_offset": 3507219813,
+    "crc32": 2632293408
+  },
+  {
+    "name": "PCBDataset/HSI/pcb20/pcb20",
+    "bytes": 182617344,
+    "compressed_bytes": 158017496,
+    "header_offset": 3507221870,
+    "crc32": 1508591553
+  },
+  {
+    "name": "PCBDataset/HSI/pcb20/pcb20.hdr",
+    "bytes": 4444,
+    "compressed_bytes": 1950,
+    "header_offset": 3665239470,
+    "crc32": 4101740255
+  },
+  {
+    "name": "PCBDataset/HSI/pcb45/pcb45",
+    "bytes": 33223680,
+    "compressed_bytes": 28000518,
+    "header_offset": 3665241528,
+    "crc32": 2701865734
+  },
+  {
+    "name": "PCBDataset/HSI/pcb45/pcb45.hdr",
+    "bytes": 4442,
+    "compressed_bytes": 1950,
+    "header_offset": 3693242150,
+    "crc32": 1550711324
+  },
+  {
+    "name": "PCBDataset/HSI/pcb42/pcb42",
+    "bytes": 47811456,
+    "compressed_bytes": 40857908,
+    "header_offset": 3693244208,
+    "crc32": 1041012673
+  },
+  {
+    "name": "PCBDataset/HSI/pcb42/pcb42.hdr",
+    "bytes": 4442,
+    "compressed_bytes": 1951,
+    "header_offset": 3734102220,
+    "crc32": 1117303536
+  },
+  {
+    "name": "PCBDataset/HSI/pcb21/pcb21",
+    "bytes": 205669632,
+    "compressed_bytes": 175621972,
+    "header_offset": 3734104279,
+    "crc32": 2358207263
+  },
+  {
+    "name": "PCBDataset/HSI/pcb21/pcb21.hdr",
+    "bytes": 4442,
+    "compressed_bytes": 1948,
+    "header_offset": 3909726355,
+    "crc32": 3737250989
+  },
+  {
+    "name": "PCBDataset/HSI/pcb26/pcb26",
+    "bytes": 480573184,
+    "compressed_bytes": 413693085,
+    "header_offset": 3909728411,
+    "crc32": 3142326568
+  },
+  {
+    "name": "PCBDataset/HSI/pcb26/pcb26.hdr",
+    "bytes": 4441,
+    "compressed_bytes": 1949,
+    "header_offset": 4323421600,
+    "crc32": 4288028764
+  },
+  {
+    "name": "PCBDataset/HSI/pcb19/pcb19",
+    "bytes": 297158400,
+    "compressed_bytes": 257185953,
+    "header_offset": 4323423657,
+    "crc32": 1904035101
+  },
+  {
+    "name": "PCBDataset/HSI/pcb19/pcb19.hdr",
+    "bytes": 4442,
+    "compressed_bytes": 1948,
+    "header_offset": 4580609714,
+    "crc32": 3549931048
+  },
+  {
+    "name": "PCBDataset/HSI/pcb10/pcb10",
+    "bytes": 391157760,
+    "compressed_bytes": 337528272,
+    "header_offset": 4580611770,
+    "crc32": 1465925776
+  },
+  {
+    "name": "PCBDataset/HSI/pcb10/pcb10.hdr",
+    "bytes": 4469,
+    "compressed_bytes": 1965,
+    "header_offset": 4918140146,
+    "crc32": 3482763119
+  },
+  {
+    "name": "PCBDataset/HSI/pcb17/pcb17",
+    "bytes": 574855680,
+    "compressed_bytes": 498588230,
+    "header_offset": 4918142219,
+    "crc32": 586421689
+  },
+  {
+    "name": "PCBDataset/HSI/pcb17/pcb17.hdr",
+    "bytes": 4469,
+    "compressed_bytes": 1966,
+    "header_offset": 5416730553,
+    "crc32": 4189909916
+  },
+  {
+    "name": "PCBDataset/HSI/pcb28/pcb28.hdr",
+    "bytes": 4442,
+    "compressed_bytes": 1949,
+    "header_offset": 5416732627,
+    "crc32": 1799749839
+  },
+  {
+    "name": "PCBDataset/HSI/pcb28/pcb28",
+    "bytes": 219988608,
+    "compressed_bytes": 188295984,
+    "header_offset": 5416734684,
+    "crc32": 1513549376
+  },
+  {
+    "name": "PCBDataset/HSI/pcb43/pcb43",
+    "bytes": 30951424,
+    "compressed_bytes": 26309219,
+    "header_offset": 5605030772,
+    "crc32": 115961131
+  },
+  {
+    "name": "PCBDataset/HSI/pcb43/pcb43.hdr",
+    "bytes": 4442,
+    "compressed_bytes": 1949,
+    "header_offset": 5631340095,
+    "crc32": 1800130357
+  },
+  {
+    "name": "PCBDataset/HSI/pcb44/pcb44",
+    "bytes": 48470016,
+    "compressed_bytes": 41434792,
+    "header_offset": 5631342152,
+    "crc32": 2092373458
+  },
+  {
+    "name": "PCBDataset/HSI/pcb44/pcb44.hdr",
+    "bytes": 4442,
+    "compressed_bytes": 1950,
+    "header_offset": 5672777048,
+    "crc32": 2547026641
+  },
+  {
+    "name": "PCBDataset/HSI/pcb7/pcb7.hdr",
+    "bytes": 4470,
+    "compressed_bytes": 1966,
+    "header_offset": 5672779106,
+    "crc32": 1886586285
+  },
+  {
+    "name": "PCBDataset/HSI/pcb7/pcb7",
+    "bytes": 33883136,
+    "compressed_bytes": 26222762,
+    "header_offset": 5672781178,
+    "crc32": 2245269647
+  },
+  {
+    "name": "PCBDataset/HSI/pcb9/pcb9",
+    "bytes": 182327040,
+    "compressed_bytes": 157124608,
+    "header_offset": 5699004042,
+    "crc32": 3656184576
+  },
+  {
+    "name": "PCBDataset/HSI/pcb9/pcb9.hdr",
+    "bytes": 4469,
+    "compressed_bytes": 1967,
+    "header_offset": 5856128752,
+    "crc32": 832787164
+  },
+  {
+    "name": "PCBDataset/HSI/pcb8/pcb8.hdr",
+    "bytes": 4441,
+    "compressed_bytes": 1948,
+    "header_offset": 5856130825,
+    "crc32": 2882923855
+  },
+  {
+    "name": "PCBDataset/HSI/pcb8/pcb8",
+    "bytes": 129239040,
+    "compressed_bytes": 110782802,
+    "header_offset": 5856132879,
+    "crc32": 772816729
+  },
+  {
+    "name": "PCBDataset/HSI/pcb1/.DS_Store",
+    "bytes": 6148,
+    "compressed_bytes": 389,
+    "header_offset": 5966915783,
+    "crc32": 2418525665
+  },
+  {
+    "name": "PCBDataset/HSI/pcb1/pcb1.hdr",
+    "bytes": 4469,
+    "compressed_bytes": 1964,
+    "header_offset": 5966916279,
+    "crc32": 3821459664
+  },
+  {
+    "name": "PCBDataset/HSI/pcb1/pcb1",
+    "bytes": 121612288,
+    "compressed_bytes": 88913023,
+    "header_offset": 5966918349,
+    "crc32": 615097677
+  },
+  {
+    "name": "PCBDataset/HSI/pcb6/.DS_Store",
+    "bytes": 8196,
+    "compressed_bytes": 609,
+    "header_offset": 6055831474,
+    "crc32": 833947048
+  },
+  {
+    "name": "PCBDataset/HSI/pcb6/pcb6.hdr",
+    "bytes": 4439,
+    "compressed_bytes": 1947,
+    "header_offset": 6055832190,
+    "crc32": 136099574
+  },
+  {
+    "name": "PCBDataset/HSI/pcb6/pcb6",
+    "bytes": 402576384,
+    "compressed_bytes": 343082319,
+    "header_offset": 6055834243,
+    "crc32": 3550395266
+  },
+  {
+    "name": "PCBDataset/HSI/pcb31/pcb31",
+    "bytes": 234131072,
+    "compressed_bytes": 201666186,
+    "header_offset": 6398916664,
+    "crc32": 563760993
+  },
+  {
+    "name": "PCBDataset/HSI/pcb31/pcb31.hdr",
+    "bytes": 4442,
+    "compressed_bytes": 1951,
+    "header_offset": 6600582954,
+    "crc32": 1231287670
+  },
+  {
+    "name": "PCBDataset/HSI/pcb36/pcb36.hdr",
+    "bytes": 4442,
+    "compressed_bytes": 1948,
+    "header_offset": 6600585013,
+    "crc32": 3417573067
+  },
+  {
+    "name": "PCBDataset/HSI/pcb36/pcb36",
+    "bytes": 389240320,
+    "compressed_bytes": 336007328,
+    "header_offset": 6600587069,
+    "crc32": 1289949511
+  },
+  {
+    "name": "PCBDataset/HSI/pcb38/pcb38.hdr",
+    "bytes": 4442,
+    "compressed_bytes": 1949,
+    "header_offset": 6936594501,
+    "crc32": 2157972524
+  },
+  {
+    "name": "PCBDataset/HSI/pcb38/pcb38",
+    "bytes": 494040064,
+    "compressed_bytes": 426970599,
+    "header_offset": 6936596558,
+    "crc32": 1478762681
+  },
+  {
+    "name": "PCBDataset/HSI/pcb53/pcb53",
+    "bytes": 185902080,
+    "compressed_bytes": 160673128,
+    "header_offset": 7363567261,
+    "crc32": 3107882039
+  },
+  {
+    "name": "PCBDataset/HSI/pcb53/pcb53.hdr",
+    "bytes": 4442,
+    "compressed_bytes": 1948,
+    "header_offset": 7524240493,
+    "crc32": 13059013
+  },
+  {
+    "name": "PCBDataset/HSI/pcb39/pcb39.hdr",
+    "bytes": 4442,
+    "compressed_bytes": 1950,
+    "header_offset": 7524242549,
+    "crc32": 1952303378
+  },
+  {
+    "name": "PCBDataset/HSI/pcb39/pcb39",
+    "bytes": 441762048,
+    "compressed_bytes": 380608981,
+    "header_offset": 7524244607,
+    "crc32": 356371415
+  },
+  {
+    "name": "PCBDataset/HSI/PCB_Masks/48.jpg",
+    "bytes": 4369,
+    "compressed_bytes": 1723,
+    "header_offset": 7904853692,
+    "crc32": 3644690304
+  },
+  {
+    "name": "PCBDataset/HSI/PCB_Masks/49.jpg",
+    "bytes": 4276,
+    "compressed_bytes": 2160,
+    "header_offset": 7904855524,
+    "crc32": 749449889
+  },
+  {
+    "name": "PCBDataset/HSI/PCB_Masks/8.jpg",
+    "bytes": 7650,
+    "compressed_bytes": 3957,
+    "header_offset": 7904857793,
+    "crc32": 4170635422
+  },
+  {
+    "name": "PCBDataset/HSI/PCB_Masks/9.jpg",
+    "bytes": 7030,
+    "compressed_bytes": 4541,
+    "header_offset": 7904861858,
+    "crc32": 3816838014
+  },
+  {
+    "name": "PCBDataset/HSI/PCB_Masks/14.jpg",
+    "bytes": 8628,
+    "compressed_bytes": 3611,
+    "header_offset": 7904866507,
+    "crc32": 179200238
+  },
+  {
+    "name": "PCBDataset/HSI/PCB_Masks/28.jpg",
+    "bytes": 12133,
+    "compressed_bytes": 7959,
+    "header_offset": 7904870227,
+    "crc32": 56429450
+  },
+  {
+    "name": "PCBDataset/HSI/PCB_Masks/29.jpg",
+    "bytes": 10228,
+    "compressed_bytes": 6336,
+    "header_offset": 7904878295,
+    "crc32": 3466366053
+  },
+  {
+    "name": "PCBDataset/HSI/PCB_Masks/15.jpg",
+    "bytes": 13299,
+    "compressed_bytes": 7907,
+    "header_offset": 7904884740,
+    "crc32": 1165674500
+  },
+  {
+    "name": "PCBDataset/HSI/PCB_Masks/17.jpg",
+    "bytes": 14795,
+    "compressed_bytes": 7310,
+    "header_offset": 7904892756,
+    "crc32": 2219585099
+  },
+  {
+    "name": "PCBDataset/HSI/PCB_Masks/16.jpg",
+    "bytes": 12943,
+    "compressed_bytes": 6027,
+    "header_offset": 7904900175,
+    "crc32": 2762834876
+  },
+  {
+    "name": "PCBDataset/HSI/PCB_Masks/12.jpg",
+    "bytes": 4200,
+    "compressed_bytes": 1975,
+    "header_offset": 7904906311,
+    "crc32": 3169863565
+  },
+  {
+    "name": "PCBDataset/HSI/PCB_Masks/13.jpg",
+    "bytes": 6806,
+    "compressed_bytes": 3079,
+    "header_offset": 7904908395,
+    "crc32": 3511067312
+  },
+  {
+    "name": "PCBDataset/HSI/PCB_Masks/39.jpg",
+    "bytes": 11649,
+    "compressed_bytes": 5350,
+    "header_offset": 7904911583,
+    "crc32": 1981027075
+  },
+  {
+    "name": "PCBDataset/HSI/PCB_Masks/11.jpg",
+    "bytes": 8629,
+    "compressed_bytes": 5426,
+    "header_offset": 7904917042,
+    "crc32": 802443191
+  },
+  {
+    "name": "PCBDataset/HSI/PCB_Masks/10.jpg",
+    "bytes": 11665,
+    "compressed_bytes": 6722,
+    "header_offset": 7904922577,
+    "crc32": 353766690
+  },
+  {
+    "name": "PCBDataset/HSI/PCB_Masks/38.jpg",
+    "bytes": 13442,
+    "compressed_bytes": 6885,
+    "header_offset": 7904929408,
+    "crc32": 1094972680
+  },
+  {
+    "name": "PCBDataset/HSI/PCB_Masks/21.jpg",
+    "bytes": 10378,
+    "compressed_bytes": 5784,
+    "header_offset": 7904936402,
+    "crc32": 812246345
+  },
+  {
+    "name": "PCBDataset/HSI/PCB_Masks/35.jpg",
+    "bytes": 7784,
+    "compressed_bytes": 3760,
+    "header_offset": 7904942295,
+    "crc32": 2074773536
+  },
+  {
+    "name": "PCBDataset/HSI/PCB_Masks/34.jpg",
+    "bytes": 7728,
+    "compressed_bytes": 4265,
+    "header_offset": 7904946164,
+    "crc32": 1849546954
+  },
+  {
+    "name": "PCBDataset/HSI/PCB_Masks/20.jpg",
+    "bytes": 9858,
+    "compressed_bytes": 6239,
+    "header_offset": 7904950538,
+    "crc32": 2399043349
+  },
+  {
+    "name": "PCBDataset/HSI/PCB_Masks/36.jpg",
+    "bytes": 11667,
+    "compressed_bytes": 6743,
+    "header_offset": 7904956886,
+    "crc32": 2738847303
+  },
+  {
+    "name": "PCBDataset/HSI/PCB_Masks/22.jpg",
+    "bytes": 11585,
+    "compressed_bytes": 8544,
+    "header_offset": 7904963738,
+    "crc32": 3520648712
+  },
+  {
+    "name": "PCBDataset/HSI/PCB_Masks/23.jpg",
+    "bytes": 9186,
+    "compressed_bytes": 4877,
+    "header_offset": 7904972391,
+    "crc32": 4118476835
+  },
+  {
+    "name": "PCBDataset/HSI/PCB_Masks/37.jpg",
+    "bytes": 15873,
+    "compressed_bytes": 8482,
+    "header_offset": 7904977377,
+    "crc32": 4079451371
+  },
+  {
+    "name": "PCBDataset/HSI/PCB_Masks/33.jpg",
+    "bytes": 10625,
+    "compressed_bytes": 4649,
+    "header_offset": 7904985968,
+    "crc32": 391653125
+  },
+  {
+    "name": "PCBDataset/HSI/PCB_Masks/27.jpg",
+    "bytes": 11929,
+    "compressed_bytes": 6757,
+    "header_offset": 7904990726,
+    "crc32": 113152347
+  },
+  {
+    "name": "PCBDataset/HSI/PCB_Masks/26.jpg",
+    "bytes": 12455,
+    "compressed_bytes": 6294,
+    "header_offset": 7904997592,
+    "crc32": 524795960
+  },
+  {
+    "name": "PCBDataset/HSI/PCB_Masks/32.jpg",
+    "bytes": 12807,
+    "compressed_bytes": 6049,
+    "header_offset": 7905003995,
+    "crc32": 3936267157
+  },
+  {
+    "name": "PCBDataset/HSI/PCB_Masks/18.jpg",
+    "bytes": 8425,
+    "compressed_bytes": 5660,
+    "header_offset": 7905010153,
+    "crc32": 929872854
+  },
+  {
+    "name": "PCBDataset/HSI/PCB_Masks/24.jpg",
+    "bytes": 13411,
+    "compressed_bytes": 7018,
+    "header_offset": 7905015922,
+    "crc32": 2396621844
+  },
+  {
+    "name": "PCBDataset/HSI/PCB_Masks/30.jpg",
+    "bytes": 11071,
+    "compressed_bytes": 6411,
+    "header_offset": 7905023049,
+    "crc32": 3415169097
+  },
+  {
+    "name": "PCBDataset/HSI/PCB_Masks/31.jpg",
+    "bytes": 8916,
+    "compressed_bytes": 5683,
+    "header_offset": 7905029569,
+    "crc32": 1466505851
+  },
+  {
+    "name": "PCBDataset/HSI/PCB_Masks/25.jpg",
+    "bytes": 13313,
+    "compressed_bytes": 6067,
+    "header_offset": 7905035361,
+    "crc32": 4198514848
+  },
+  {
+    "name": "PCBDataset/HSI/PCB_Masks/19.jpg",
+    "bytes": 11921,
+    "compressed_bytes": 8038,
+    "header_offset": 7905041537,
+    "crc32": 1026352993
+  },
+  {
+    "name": "PCBDataset/HSI/PCB_Masks/42.jpg",
+    "bytes": 4197,
+    "compressed_bytes": 1987,
+    "header_offset": 7905049684,
+    "crc32": 3746394694
+  },
+  {
+    "name": "PCBDataset/HSI/PCB_Masks/4.jpg",
+    "bytes": 6898,
+    "compressed_bytes": 3133,
+    "header_offset": 7905051780,
+    "crc32": 2968518638
+  },
+  {
+    "name": "PCBDataset/HSI/PCB_Masks/5.jpg",
+    "bytes": 4518,
+    "compressed_bytes": 2220,
+    "header_offset": 7905055021,
+    "crc32": 1327853938
+  },
+  {
+    "name": "PCBDataset/HSI/PCB_Masks/43.jpg",
+    "bytes": 2949,
+    "compressed_bytes": 1799,
+    "header_offset": 7905057349,
+    "crc32": 552592572
+  },
+  {
+    "name": "PCBDataset/HSI/PCB_Masks/7.jpg",
+    "bytes": 2722,
+    "compressed_bytes": 2220,
+    "header_offset": 7905059257,
+    "crc32": 3788788190
+  },
+  {
+    "name": "PCBDataset/HSI/PCB_Masks/41.jpg",
+    "bytes": 3257,
+    "compressed_bytes": 1611,
+    "header_offset": 7905061585,
+    "crc32": 771271768
+  },
+  {
+    "name": "PCBDataset/HSI/PCB_Masks/40.jpg",
+    "bytes": 20722,
+    "compressed_bytes": 10248,
+    "header_offset": 7905063305,
+    "crc32": 1511078391
+  },
+  {
+    "name": "PCBDataset/HSI/PCB_Masks/6.jpg",
+    "bytes": 11764,
+    "compressed_bytes": 6111,
+    "header_offset": 7905073662,
+    "crc32": 2225337003
+  },
+  {
+    "name": "PCBDataset/HSI/PCB_Masks/2.jpg",
+    "bytes": 25000,
+    "compressed_bytes": 10834,
+    "header_offset": 7905079881,
+    "crc32": 3296678144
+  },
+  {
+    "name": "PCBDataset/HSI/PCB_Masks/50.jpg",
+    "bytes": 5091,
+    "compressed_bytes": 2601,
+    "header_offset": 7905090823,
+    "crc32": 2952176214
+  },
+  {
+    "name": "PCBDataset/HSI/PCB_Masks/44.jpg",
+    "bytes": 3997,
+    "compressed_bytes": 1947,
+    "header_offset": 7905093533,
+    "crc32": 1882154443
+  },
+  {
+    "name": "PCBDataset/HSI/PCB_Masks/45.jpg",
+    "bytes": 3249,
+    "compressed_bytes": 1817,
+    "header_offset": 7905095589,
+    "crc32": 1316534707
+  },
+  {
+    "name": "PCBDataset/HSI/PCB_Masks/3.jpg",
+    "bytes": 9360,
+    "compressed_bytes": 6009,
+    "header_offset": 7905097515,
+    "crc32": 3102679213
+  },
+  {
+    "name": "PCBDataset/HSI/PCB_Masks/51.jpg",
+    "bytes": 4374,
+    "compressed_bytes": 2425,
+    "header_offset": 7905103632,
+    "crc32": 1505462015
+  },
+  {
+    "name": "PCBDataset/HSI/PCB_Masks/47.jpg",
+    "bytes": 4441,
+    "compressed_bytes": 2004,
+    "header_offset": 7905106166,
+    "crc32": 1060226934
+  },
+  {
+    "name": "PCBDataset/HSI/PCB_Masks/53.jpg",
+    "bytes": 8754,
+    "compressed_bytes": 4786,
+    "header_offset": 7905108279,
+    "crc32": 1521548494
+  },
+  {
+    "name": "PCBDataset/HSI/PCB_Masks/1.jpg",
+    "bytes": 7820,
+    "compressed_bytes": 4676,
+    "header_offset": 7905113174,
+    "crc32": 956923866
+  },
+  {
+    "name": "PCBDataset/HSI/PCB_Masks/52.jpg",
+    "bytes": 4249,
+    "compressed_bytes": 2749,
+    "header_offset": 7905117958,
+    "crc32": 2969958493
+  },
+  {
+    "name": "PCBDataset/HSI/PCB_Masks/46.jpg",
+    "bytes": 4257,
+    "compressed_bytes": 1683,
+    "header_offset": 7905120816,
+    "crc32": 1085238367
+  },
+  {
+    "name": "PCBDataset/HSI/pcb37/pcb37.hdr",
+    "bytes": 4442,
+    "compressed_bytes": 1949,
+    "header_offset": 7905122608,
+    "crc32": 3627533254
+  },
+  {
+    "name": "PCBDataset/HSI/pcb37/pcb37",
+    "bytes": 538358016,
+    "compressed_bytes": 470123523,
+    "header_offset": 7905124665,
+    "crc32": 526002064
+  },
+  {
+    "name": "PCBDataset/HSI/pcb30/pcb30",
+    "bytes": 354145792,
+    "compressed_bytes": 304402580,
+    "header_offset": 8375248292,
+    "crc32": 505818331
+  },
+  {
+    "name": "PCBDataset/HSI/pcb30/pcb30.hdr",
+    "bytes": 4442,
+    "compressed_bytes": 1948,
+    "header_offset": 8679650976,
+    "crc32": 1977750703
+  },
+  {
+    "name": "PCBDataset/HSI/pcb52/pcb52",
+    "bytes": 74929792,
+    "compressed_bytes": 64134250,
+    "header_offset": 8679653032,
+    "crc32": 1438893683
+  },
+  {
+    "name": "PCBDataset/HSI/pcb52/pcb52.hdr",
+    "bytes": 4442,
+    "compressed_bytes": 1949,
+    "header_offset": 8743787386,
+    "crc32": 2041014931
+  },
+  {
+    "name": "PCBDataset/HSI/pcb48/pcb48.hdr",
+    "bytes": 4442,
+    "compressed_bytes": 1950,
+    "header_offset": 8743789443,
+    "crc32": 1408074150
+  },
+  {
+    "name": "PCBDataset/HSI/pcb48/pcb48",
+    "bytes": 60535552,
+    "compressed_bytes": 51317841,
+    "header_offset": 8743791501,
+    "crc32": 2236034865
+  },
+  {
+    "name": "PCBDataset/HSI/pcb41/pcb41",
+    "bytes": 40309248,
+    "compressed_bytes": 33949239,
+    "header_offset": 8795109446,
+    "crc32": 4203216929
+  },
+  {
+    "name": "PCBDataset/HSI/pcb41/pcb41.hdr",
+    "bytes": 4442,
+    "compressed_bytes": 1949,
+    "header_offset": 8829058789,
+    "crc32": 2892902533
+  },
+  {
+    "name": "PCBDataset/HSI/pcb46/pcb46",
+    "bytes": 64684032,
+    "compressed_bytes": 55001863,
+    "header_offset": 8829060846,
+    "crc32": 1767610726
+  },
+  {
+    "name": "PCBDataset/HSI/pcb46/pcb46.hdr",
+    "bytes": 6085,
+    "compressed_bytes": 880,
+    "header_offset": 8884062813,
+    "crc32": 533575031
+  },
+  {
+    "name": "PCBDataset/HSI/pcb12/pcb12.hdr",
+    "bytes": 4442,
+    "compressed_bytes": 1950,
+    "header_offset": 8884063801,
+    "crc32": 2024555959
+  },
+  {
+    "name": "PCBDataset/HSI/pcb12/pcb12",
+    "bytes": 75398400,
+    "compressed_bytes": 64739700,
+    "header_offset": 8884065859,
+    "crc32": 2253929869
+  },
+  {
+    "name": "PCBDataset/HSI/pcb15/pcb15.hdr",
+    "bytes": 4469,
+    "compressed_bytes": 1967,
+    "header_offset": 8948805663,
+    "crc32": 680611896
+  },
+  {
+    "name": "PCBDataset/HSI/pcb15/pcb15",
+    "bytes": 412917120,
+    "compressed_bytes": 361605280,
+    "header_offset": 8948807738,
+    "crc32": 2327971324
+  },
+  {
+    "name": "PCBDataset/HSI/pcb23/pcb23.hdr",
+    "bytes": 4442,
+    "compressed_bytes": 1949,
+    "header_offset": 9310413122,
+    "crc32": 3480764527
+  },
+  {
+    "name": "PCBDataset/HSI/pcb23/pcb23",
+    "bytes": 180113920,
+    "compressed_bytes": 152215935,
+    "header_offset": 9310415179,
+    "crc32": 3729125201
+  },
+  {
+    "name": "PCBDataset/HSI/pcb24/pcb24.hdr",
+    "bytes": 4441,
+    "compressed_bytes": 1948,
+    "header_offset": 9462631218,
+    "crc32": 1906471445
+  },
+  {
+    "name": "PCBDataset/HSI/pcb24/pcb24",
+    "bytes": 450474752,
+    "compressed_bytes": 390740034,
+    "header_offset": 9462633274,
+    "crc32": 2018070537
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/50",
+    "bytes": 83712,
+    "compressed_bytes": 466,
+    "header_offset": 9853373412,
+    "crc32": 198317988
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/32",
+    "bytes": 545392,
+    "compressed_bytes": 1927,
+    "header_offset": 9853373987,
+    "crc32": 1143080806
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/35",
+    "bytes": 162024,
+    "compressed_bytes": 387,
+    "header_offset": 9853376023,
+    "crc32": 3362102358
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/51",
+    "bytes": 55350,
+    "compressed_bytes": 493,
+    "header_offset": 9853376519,
+    "crc32": 2659492598
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/9.HDR",
+    "bytes": 1108,
+    "compressed_bytes": 592,
+    "header_offset": 9853377121,
+    "crc32": 3041181842
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/34",
+    "bytes": 141384,
+    "compressed_bytes": 460,
+    "header_offset": 9853377825,
+    "crc32": 1166809013
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/33",
+    "bytes": 393939,
+    "compressed_bytes": 2078,
+    "header_offset": 9853378394,
+    "crc32": 334175442
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/8.HDR",
+    "bytes": 1123,
+    "compressed_bytes": 602,
+    "header_offset": 9853380581,
+    "crc32": 3623423253
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/.DS_Store",
+    "bytes": 10244,
+    "compressed_bytes": 763,
+    "header_offset": 9853381295,
+    "crc32": 1742638783
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/49.HDR",
+    "bytes": 1108,
+    "compressed_bytes": 593,
+    "header_offset": 9853382174,
+    "crc32": 379038627
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/48.HDR",
+    "bytes": 1108,
+    "compressed_bytes": 594,
+    "header_offset": 9853382880,
+    "crc32": 128205504
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/13.HDR",
+    "bytes": 1124,
+    "compressed_bytes": 602,
+    "header_offset": 9853383587,
+    "crc32": 775069889
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/12.HDR",
+    "bytes": 1030,
+    "compressed_bytes": 562,
+    "header_offset": 9853384302,
+    "crc32": 264173501
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/10.HDR",
+    "bytes": 1108,
+    "compressed_bytes": 589,
+    "header_offset": 9853384977,
+    "crc32": 2291329445
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/38.HDR",
+    "bytes": 1031,
+    "compressed_bytes": 564,
+    "header_offset": 9853385679,
+    "crc32": 2376066578
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/39.HDR",
+    "bytes": 1077,
+    "compressed_bytes": 589,
+    "header_offset": 9853386356,
+    "crc32": 2090505095
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/11.HDR",
+    "bytes": 1125,
+    "compressed_bytes": 604,
+    "header_offset": 9853387058,
+    "crc32": 647103731
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/20",
+    "bytes": 203814,
+    "compressed_bytes": 703,
+    "header_offset": 9853387775,
+    "crc32": 4089409136
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/18",
+    "bytes": 207200,
+    "compressed_bytes": 1059,
+    "header_offset": 9853388587,
+    "crc32": 860113723
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/27",
+    "bytes": 446537,
+    "compressed_bytes": 2598,
+    "header_offset": 9853389755,
+    "crc32": 425276764
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/29.HDR",
+    "bytes": 1034,
+    "compressed_bytes": 567,
+    "header_offset": 9853392462,
+    "crc32": 2340235999
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/9",
+    "bytes": 203490,
+    "compressed_bytes": 1777,
+    "header_offset": 9853393142,
+    "crc32": 3614170721
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/15.HDR",
+    "bytes": 1076,
+    "compressed_bytes": 584,
+    "header_offset": 9853395027,
+    "crc32": 1554392912
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/11",
+    "bytes": 193050,
+    "compressed_bytes": 1259,
+    "header_offset": 9853395724,
+    "crc32": 548866218
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/7",
+    "bytes": 37816,
+    "compressed_bytes": 424,
+    "header_offset": 9853397092,
+    "crc32": 3974469513
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/29",
+    "bytes": 344300,
+    "compressed_bytes": 2146,
+    "header_offset": 9853397624,
+    "crc32": 1793551194
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/16",
+    "bytes": 524238,
+    "compressed_bytes": 2335,
+    "header_offset": 9853399879,
+    "crc32": 3465066149
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/42",
+    "bytes": 53361,
+    "compressed_bytes": 316,
+    "header_offset": 9853402323,
+    "crc32": 2310261915
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/45",
+    "bytes": 37080,
+    "compressed_bytes": 197,
+    "header_offset": 9853402748,
+    "crc32": 3926488665
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/14.HDR",
+    "bytes": 1030,
+    "compressed_bytes": 562,
+    "header_offset": 9853403054,
+    "crc32": 2180747069
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/28.HDR",
+    "bytes": 1128,
+    "compressed_bytes": 613,
+    "header_offset": 9853403729,
+    "crc32": 2296781070
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/6",
+    "bytes": 1797216,
+    "compressed_bytes": 14537,
+    "header_offset": 9853404455,
+    "crc32": 2214499801
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/28",
+    "bytes": 245523,
+    "compressed_bytes": 1432,
+    "header_offset": 9853419100,
+    "crc32": 284204456
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/17",
+    "bytes": 641580,
+    "compressed_bytes": 3266,
+    "header_offset": 9853420641,
+    "crc32": 64428876
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/1",
+    "bytes": 135728,
+    "compressed_bytes": 681,
+    "header_offset": 9853424016,
+    "crc32": 1217786544
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/16.HDR",
+    "bytes": 1076,
+    "compressed_bytes": 588,
+    "header_offset": 9853424805,
+    "crc32": 1897524200
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/10",
+    "bytes": 436560,
+    "compressed_bytes": 3405,
+    "header_offset": 9853425506,
+    "crc32": 2693087339
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/19",
+    "bytes": 331650,
+    "compressed_bytes": 1810,
+    "header_offset": 9853429020,
+    "crc32": 2148683454
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/26",
+    "bytes": 536354,
+    "compressed_bytes": 1877,
+    "header_offset": 9853430939,
+    "crc32": 2132608348
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/8",
+    "bytes": 144240,
+    "compressed_bytes": 572,
+    "header_offset": 9853432925,
+    "crc32": 119357123
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/21",
+    "bytes": 229542,
+    "compressed_bytes": 1590,
+    "header_offset": 9853433605,
+    "crc32": 2336797280
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/17.HDR",
+    "bytes": 1075,
+    "compressed_bytes": 587,
+    "header_offset": 9853435304,
+    "crc32": 937665456
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/44",
+    "bytes": 54096,
+    "compressed_bytes": 309,
+    "header_offset": 9853436004,
+    "crc32": 199704494
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/43",
+    "bytes": 34544,
+    "compressed_bytes": 220,
+    "header_offset": 9853436422,
+    "crc32": 2654620973
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/38",
+    "bytes": 551384,
+    "compressed_bytes": 2040,
+    "header_offset": 9853436751,
+    "crc32": 3386750636
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/26.HDR",
+    "bytes": 1079,
+    "compressed_bytes": 590,
+    "header_offset": 9853438900,
+    "crc32": 1186316596
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/32.HDR",
+    "bytes": 1079,
+    "compressed_bytes": 590,
+    "header_offset": 9853439603,
+    "crc32": 2257779189
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/36",
+    "bytes": 434420,
+    "compressed_bytes": 1920,
+    "header_offset": 9853440306,
+    "crc32": 2872367656
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/31",
+    "bytes": 261307,
+    "compressed_bytes": 1587,
+    "header_offset": 9853442335,
+    "crc32": 2300796755
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/33.HDR",
+    "bytes": 1079,
+    "compressed_bytes": 588,
+    "header_offset": 9853444031,
+    "crc32": 4025373120
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/27.HDR",
+    "bytes": 1080,
+    "compressed_bytes": 590,
+    "header_offset": 9853444732,
+    "crc32": 2249316864
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/53",
+    "bytes": 207480,
+    "compressed_bytes": 581,
+    "header_offset": 9853445435,
+    "crc32": 4267159952
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/30",
+    "bytes": 395252,
+    "compressed_bytes": 2302,
+    "header_offset": 9853446125,
+    "crc32": 989800281
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/37",
+    "bytes": 600846,
+    "compressed_bytes": 2538,
+    "header_offset": 9853448536,
+    "crc32": 1090321382
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/31.HDR",
+    "bytes": 1112,
+    "compressed_bytes": 596,
+    "header_offset": 9853451183,
+    "crc32": 1168912182
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/25.HDR",
+    "bytes": 1076,
+    "compressed_bytes": 587,
+    "header_offset": 9853451892,
+    "crc32": 3023172719
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/19.HDR",
+    "bytes": 1109,
+    "compressed_bytes": 593,
+    "header_offset": 9853452592,
+    "crc32": 2611869594
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/39",
+    "bytes": 493038,
+    "compressed_bytes": 1634,
+    "header_offset": 9853453298,
+    "crc32": 2565946716
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/52",
+    "bytes": 83627,
+    "compressed_bytes": 445,
+    "header_offset": 9853455041,
+    "crc32": 3742802705
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/18.HDR",
+    "bytes": 1125,
+    "compressed_bytes": 608,
+    "header_offset": 9853455595,
+    "crc32": 3959861503
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/24.HDR",
+    "bytes": 1075,
+    "compressed_bytes": 588,
+    "header_offset": 9853456316,
+    "crc32": 1639433873
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/30.HDR",
+    "bytes": 1079,
+    "compressed_bytes": 587,
+    "header_offset": 9853457017,
+    "crc32": 1599118235
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/34.HDR",
+    "bytes": 1121,
+    "compressed_bytes": 604,
+    "header_offset": 9853457717,
+    "crc32": 2482928027
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/20.HDR",
+    "bytes": 1030,
+    "compressed_bytes": 565,
+    "header_offset": 9853458434,
+    "crc32": 2702396315
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/21.HDR",
+    "bytes": 1125,
+    "compressed_bytes": 606,
+    "header_offset": 9853459112,
+    "crc32": 3839798486
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/35.HDR",
+    "bytes": 1123,
+    "compressed_bytes": 605,
+    "header_offset": 9853459831,
+    "crc32": 3579157534
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/23.HDR",
+    "bytes": 1108,
+    "compressed_bytes": 591,
+    "header_offset": 9853460549,
+    "crc32": 3605946309
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/37.HDR",
+    "bytes": 1076,
+    "compressed_bytes": 586,
+    "header_offset": 9853461253,
+    "crc32": 911169138
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/36.HDR",
+    "bytes": 1076,
+    "compressed_bytes": 587,
+    "header_offset": 9853461952,
+    "crc32": 1056281976
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/22.HDR",
+    "bytes": 1108,
+    "compressed_bytes": 592,
+    "header_offset": 9853462652,
+    "crc32": 1579432450
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/45.HDR",
+    "bytes": 1107,
+    "compressed_bytes": 591,
+    "header_offset": 9853463357,
+    "crc32": 1840763918
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/51.HDR",
+    "bytes": 1108,
+    "compressed_bytes": 593,
+    "header_offset": 9853464061,
+    "crc32": 3717920973
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/3.HDR",
+    "bytes": 1274,
+    "compressed_bytes": 710,
+    "header_offset": 9853464767,
+    "crc32": 1631049361
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/50.HDR",
+    "bytes": 1124,
+    "compressed_bytes": 605,
+    "header_offset": 9853465589,
+    "crc32": 1930551260
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/2.HDR",
+    "bytes": 1275,
+    "compressed_bytes": 702,
+    "header_offset": 9853466307,
+    "crc32": 721100443
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/44.HDR",
+    "bytes": 1108,
+    "compressed_bytes": 593,
+    "header_offset": 9853467121,
+    "crc32": 3433444634
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/52.HDR",
+    "bytes": 1107,
+    "compressed_bytes": 590,
+    "header_offset": 9853467827,
+    "crc32": 4072334392
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/46.HDR",
+    "bytes": 1108,
+    "compressed_bytes": 592,
+    "header_offset": 9853468530,
+    "crc32": 4099415899
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/47.HDR",
+    "bytes": 1108,
+    "compressed_bytes": 593,
+    "header_offset": 9853469235,
+    "crc32": 3455203995
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/1.HDR",
+    "bytes": 1272,
+    "compressed_bytes": 706,
+    "header_offset": 9853469941,
+    "crc32": 3432946499
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/53.HDR",
+    "bytes": 1123,
+    "compressed_bytes": 605,
+    "header_offset": 9853470759,
+    "crc32": 945253379
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/46",
+    "bytes": 72192,
+    "compressed_bytes": 454,
+    "header_offset": 9853471477,
+    "crc32": 953080493
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/41",
+    "bytes": 44988,
+    "compressed_bytes": 173,
+    "header_offset": 9853472040,
+    "crc32": 2698547511
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/5.HDR",
+    "bytes": 1258,
+    "compressed_bytes": 696,
+    "header_offset": 9853472322,
+    "crc32": 3350163803
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/43.HDR",
+    "bytes": 1107,
+    "compressed_bytes": 592,
+    "header_offset": 9853473130,
+    "crc32": 1846037653
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/48",
+    "bytes": 67562,
+    "compressed_bytes": 511,
+    "header_offset": 9853473835,
+    "crc32": 596455867
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/24",
+    "bytes": 502762,
+    "compressed_bytes": 2373,
+    "header_offset": 9853474455,
+    "crc32": 1776521893
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/23",
+    "bytes": 201020,
+    "compressed_bytes": 904,
+    "header_offset": 9853476937,
+    "crc32": 279625445
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/42.HDR",
+    "bytes": 1108,
+    "compressed_bytes": 594,
+    "header_offset": 9853477950,
+    "crc32": 3357695617
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/4.HDR",
+    "bytes": 1273,
+    "compressed_bytes": 711,
+    "header_offset": 9853478657,
+    "crc32": 2331056768
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/4",
+    "bytes": 167520,
+    "compressed_bytes": 866,
+    "header_offset": 9853479480,
+    "crc32": 2132001410
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/15",
+    "bytes": 460845,
+    "compressed_bytes": 2345,
+    "header_offset": 9853480454,
+    "crc32": 512496867
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/3",
+    "bytes": 222956,
+    "compressed_bytes": 1419,
+    "header_offset": 9853482908,
+    "crc32": 3116471097
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/12",
+    "bytes": 84150,
+    "compressed_bytes": 231,
+    "header_offset": 9853484435,
+    "crc32": 2611331501
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/49",
+    "bytes": 63744,
+    "compressed_bytes": 200,
+    "header_offset": 9853484775,
+    "crc32": 3325911981
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/40.HDR",
+    "bytes": 1125,
+    "compressed_bytes": 608,
+    "header_offset": 9853485084,
+    "crc32": 1124156206
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/6.HDR",
+    "bytes": 131,
+    "compressed_bytes": 109,
+    "header_offset": 9853485805,
+    "crc32": 122892347
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/40",
+    "bytes": 663195,
+    "compressed_bytes": 8680,
+    "header_offset": 9853486026,
+    "crc32": 74241162
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/47",
+    "bytes": 73696,
+    "compressed_bytes": 246,
+    "header_offset": 9853494815,
+    "crc32": 843833429
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/2",
+    "bytes": 1126400,
+    "compressed_bytes": 8631,
+    "header_offset": 9853495170,
+    "crc32": 1401409506
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/13",
+    "bytes": 174375,
+    "compressed_bytes": 761,
+    "header_offset": 9853503909,
+    "crc32": 527202650
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/5",
+    "bytes": 54210,
+    "compressed_bytes": 596,
+    "header_offset": 9853504779,
+    "crc32": 887327033
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/14",
+    "bytes": 228540,
+    "compressed_bytes": 524,
+    "header_offset": 9853505483,
+    "crc32": 3440561527
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/7.HDR",
+    "bytes": 1257,
+    "compressed_bytes": 695,
+    "header_offset": 9853506116,
+    "crc32": 3385926550
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/41.HDR",
+    "bytes": 1107,
+    "compressed_bytes": 592,
+    "header_offset": 9853506923,
+    "crc32": 2454784256
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/22",
+    "bytes": 242406,
+    "compressed_bytes": 1857,
+    "header_offset": 9853507628,
+    "crc32": 975474877
+  },
+  {
+    "name": "PCBDataset/HSI/General_masks/25",
+    "bytes": 544308,
+    "compressed_bytes": 2404,
+    "header_offset": 9853509594,
+    "crc32": 3791079870
+  },
+  {
+    "name": "PCBDataset/HSI/pcb47/pcb47",
+    "bytes": 66031616,
+    "compressed_bytes": 55952672,
+    "header_offset": 9853512107,
+    "crc32": 3262246183
+  },
+  {
+    "name": "PCBDataset/HSI/pcb47/pcb47.hdr",
+    "bytes": 6085,
+    "compressed_bytes": 881,
+    "header_offset": 9909464883,
+    "crc32": 3624378192
+  },
+  {
+    "name": "PCBDataset/HSI/pcb40/pcb40",
+    "bytes": 594222720,
+    "compressed_bytes": 518037083,
+    "header_offset": 9909465872,
+    "crc32": 541638078
+  },
+  {
+    "name": "PCBDataset/HSI/pcb40/pcb40.hdr",
+    "bytes": 4442,
+    "compressed_bytes": 1952,
+    "header_offset": 10427503059,
+    "crc32": 571686926
+  },
+  {
+    "name": "PCBDataset/HSI/pcb49/pcb49.hdr",
+    "bytes": 4442,
+    "compressed_bytes": 1948,
+    "header_offset": 10427505119,
+    "crc32": 3779813744
+  },
+  {
+    "name": "PCBDataset/HSI/pcb49/pcb49",
+    "bytes": 57114624,
+    "compressed_bytes": 48438574,
+    "header_offset": 10427507175,
+    "crc32": 1539539131
+  },
+  {
+    "name": "PCBDataset/HSI/pcb25/pcb25.hdr",
+    "bytes": 4442,
+    "compressed_bytes": 1949,
+    "header_offset": 10475945853,
+    "crc32": 237529227
+  },
+  {
+    "name": "PCBDataset/HSI/pcb25/pcb25",
+    "bytes": 487699968,
+    "compressed_bytes": 422070210,
+    "header_offset": 10475947910,
+    "crc32": 1249894583
+  },
+  {
+    "name": "PCBDataset/HSI/pcb22/pcb22.hdr",
+    "bytes": 4442,
+    "compressed_bytes": 1948,
+    "header_offset": 10898018224,
+    "crc32": 2712010473
+  },
+  {
+    "name": "PCBDataset/HSI/pcb22/pcb22",
+    "bytes": 217195776,
+    "compressed_bytes": 185961066,
+    "header_offset": 10898020280,
+    "crc32": 4090368598
+  },
+  {
+    "name": "PCBDataset/HSI/pcb14/pcb14.hdr",
+    "bytes": 4470,
+    "compressed_bytes": 1964,
+    "header_offset": 11083981450,
+    "crc32": 1700431979
+  },
+  {
+    "name": "PCBDataset/HSI/pcb14/pcb14",
+    "bytes": 204771840,
+    "compressed_bytes": 175044308,
+    "header_offset": 11083983522,
+    "crc32": 1741351411
+  },
+  {
+    "name": "PCBDataset/HSI/pcb13/pcb13.hdr",
+    "bytes": 4470,
+    "compressed_bytes": 1966,
+    "header_offset": 11259027934,
+    "crc32": 3988081155
+  },
+  {
+    "name": "PCBDataset/HSI/pcb13/pcb13",
+    "bytes": 156240000,
+    "compressed_bytes": 133300636,
+    "header_offset": 11259030008,
+    "crc32": 1111929754
+  }
+]

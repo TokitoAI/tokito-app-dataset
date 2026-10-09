@@ -1,0 +1,8 @@
+{
+  "model": "FRDM-MCXN947",
+  "source_revision": "C",
+  "relation_to_phone_photos": "different_board_reference_only",
+  "phone_specimen": "FRDM-MCXN236",
+  "exact_annotation_use": false,
+  "reason": "Readable new photo silkscreen identifies MCXN236. Preserve947 sources for comparison without assigning their BOM, schematic or netlist to236."
+}

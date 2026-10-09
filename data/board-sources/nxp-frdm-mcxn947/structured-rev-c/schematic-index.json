@@ -1,0 +1,73 @@
+{
+  "source": "design-files-rev-c\\PDF\\spf-90818_c.pdf",
+  "source_sha256": "5fa33fbaf1628ee26abfb9856e026513d9839591d5d41557547bd4de42b5ec79",
+  "revision": "C",
+  "pages": [
+    {
+      "page": 1,
+      "text_file": "schematic-page-01.txt",
+      "characters": 2726
+    },
+    {
+      "page": 2,
+      "text_file": "schematic-page-02.txt",
+      "characters": 674
+    },
+    {
+      "page": 3,
+      "text_file": "schematic-page-03.txt",
+      "characters": 10862
+    },
+    {
+      "page": 4,
+      "text_file": "schematic-page-04.txt",
+      "characters": 7130
+    },
+    {
+      "page": 5,
+      "text_file": "schematic-page-05.txt",
+      "characters": 3535
+    },
+    {
+      "page": 6,
+      "text_file": "schematic-page-06.txt",
+      "characters": 3114
+    },
+    {
+      "page": 7,
+      "text_file": "schematic-page-07.txt",
+      "characters": 2814
+    },
+    {
+      "page": 8,
+      "text_file": "schematic-page-08.txt",
+      "characters": 4556
+    },
+    {
+      "page": 9,
+      "text_file": "schematic-page-09.txt",
+      "characters": 4878
+    },
+    {
+      "page": 10,
+      "text_file": "schematic-page-10.txt",
+      "characters": 2269
+    },
+    {
+      "page": 11,
+      "text_file": "schematic-page-11.txt",
+      "characters": 1133
+    },
+    {
+      "page": 12,
+      "text_file": "schematic-page-12.txt",
+      "characters": 7770
+    },
+    {
+      "page": 13,
+      "text_file": "schematic-page-13.txt",
+      "characters": 1536
+    }
+  ],
+  "rights_notice": "PDF contains NXP proprietary-use restriction; downloaded from official NXP design archive; public redistribution not established"
+}

@@ -1,0 +1,108 @@
+5
+5
+4
+4
+3
+3
+2
+2
+1
+1
+D D
+C C
+B B
+A A
+HMI
+P3V3 
+P3V3 P3V3 P3V3 
+P3V3 
+P0_6/ISPMODE_N-DEBUG [3,10] 
+RESET_B [5,7,10,12] 
+P0_10/LED_RED [3,12] 
+P0_27/LED_GREEN [3,12] 
+P1_2/LED_BLUE [3,10,12] 
+P1_3/TOUCH_PAD [3] 
+P0_23/WAKEUP_B [3,12] 
+Drawing Title: 
+Size Document Number Rev 
+Date: Sheet of 
+Page Title: 
+Classification: 
+SCH-90818 PDF: SPF-90818 C
+FRDM-MCXN947 
+C
+Thursday, March 28, 2024 
+SWITCH & LED 
+11 13 
+Company Internal/Proprietary 
+Drawing Title: 
+Size Document Number Rev 
+Date: Sheet of 
+Page Title: 
+Classification: 
+SCH-90818 PDF: SPF-90818 C
+FRDM-MCXN947 
+C
+Thursday, March 28, 2024 
+SWITCH & LED 
+11 13 
+Company Internal/Proprietary 
+Drawing Title: 
+Size Document Number Rev 
+Date: Sheet of 
+Page Title: 
+Classification: 
+SCH-90818 PDF: SPF-90818 C
+FRDM-MCXN947 
+C
+Thursday, March 28, 2024 
+SWITCH & LED 
+11 13 
+Company Internal/Proprietary 
+R6 470 
+E1 
+Electrode_8mm*8mm 
+TOUCH PAD 
+1
+R7 470 
+SW1 
+SW SPST NO 
+RESET 
+1 4
+2 3 D1 
+RED LED 
+MCX_RST 
+A C
+SW3 
+SW SPST NO 
+ISP 
+1 4
+2 3
+R2 
+10K 
+C5 
+0.1UF 
+SW2 
+SW SPST NO 
+WAKEUP 
+1 4
+2 3
+R3 
+10K 
+C3 
+0.1UF 
+B G R
+D2 
+RGB 
+RGB 
+2
+1
+4
+3
+R4 
+470 
+C4 
+0.1UF 
+R5 470 
+R1 
+10K 

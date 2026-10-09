@@ -1,0 +1,23 @@
+{
+  "source": "outputs\\board-dataset\\esp32-devkit-30pin\\community-clone\\extracted\\BrijModi-ESP32-Dev-Kit-Clone-ab7d649\\View\\ESP32 Dev Kit.step",
+  "source_sha256": "2c87aaa805d5fc19ca3169e7dcac061ff2e01644d71a56e17a2dfd91a5546fa2",
+  "output": "outputs/board-dataset/esp32-devkit-30pin/community-clone/derived/esp32-community-reference.glb",
+  "output_sha256": "c8bc6bcb3e6e3d072982fb43f14dca0b4fb23a5e8722695ff66f762204c5c8bf",
+  "vertices": 183011,
+  "triangles": 192851,
+  "bounds_metres": [
+    [
+      0.12079999999999999,
+      -0.12065000000000001,
+      -0.008625000000000006
+    ],
+    [
+      0.17365401600000002,
+      -0.0914654,
+      0.004695
+    ]
+  ],
+  "tessellation_linear_mm": 0.05,
+  "tessellation_angular_rad": 0.1,
+  "status": "derived from collected STEP; physical board match unverified; geometry only, original colours not retained"
+}

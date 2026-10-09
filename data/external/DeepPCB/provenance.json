@@ -1,0 +1,5 @@
+{
+  "tree_sha": "08e98c4db5922613fb97176eb3d6497d48260cb1",
+  "purpose": "auxiliary bare-PCB copper-defect dataset, not labels for physical specimens",
+  "repository": "https://github.com/tangsanli5201/DeepPCB"
+}

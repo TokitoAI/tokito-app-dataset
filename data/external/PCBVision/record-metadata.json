@@ -1,0 +1,164 @@
+{
+  "created": "2024-02-05T15:49:26.663196+05:30",
+  "modified": "2024-02-12T17:24:53.270901+05:30",
+  "id": 10617721,
+  "conceptrecid": "10617720",
+  "doi": "10.14278/rodare.2704",
+  "doi_url": "https://doi.org/10.14278/rodare.2704",
+  "metadata": {
+    "title": "PCB-Vision: A Multiscene RGB-Hyperspectral Benchmark Dataset of Printed Circuit Boards",
+    "doi": "10.14278/rodare.2704",
+    "publication_date": "2024-01-29",
+    "description": "<p><strong>PCB-Vision Dataset</strong></p>\n<p>Description:</p>\n<p>The PCB-Vision dataset is a multiscene RGB-Hyperspectral benchmark dataset comprising 53 Printed Circuit Boards (PCBs). The RGB images are collected using a Teledyne Dalsa C4020 camera on a conveyor belt, while hyperspectral images (HSI) are acquired with a Specim FX10 spectrometer. The HSI data contains 224 bands in the VNIR range [400 - 1000]nm.</p>\n<p><strong>Data Format</strong></p>\n<ul>\n<li>RGB Images: .png files</li>\n<li>PCB Masks: .jpg files</li>\n<li>HSI Data: Each hyperspectral data cube is accompanied by a data file and a .hdr file.</li>\n</ul>\n<p><strong>Folder Organization</strong></p>\n<ul>\n<li>PCBVision\n<ul>\n<li>HSI/\n<ul>\n<li>53 subfolders (one for each PCB)</li>\n<li>'General_masks' folder for 'General' segmentation ground truth</li>\n<li>'Monoseg_masks' folder for 'Monoseg' segmentation ground truth</li>\n<li>'PCB_Masks' folder for masks of the 53 PCBs in the hyperspectral cube</li>\n</ul>\n</li>\n<li>RGB/\n<ul>\n<li>53 .jpg images</li>\n<li>'General'&nbsp;folder for RGB images 'General' segmentation ground truth</li>\n<li>'Monoseg_masks' folder for RGB images 'Monoseg' segmentation ground truth</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n<p><strong>Data Classes in Masks</strong></p>\n<ul>\n<li>Masks (both 'General' and 'Monoseg') contain 1 to 4 segmentation classes:\n<ul>\n<li>0: \"Others\"</li>\n<li>1: \"IC\"</li>\n<li>2: \"Capacitors\"</li>\n<li>3: \"Connectors\"</li>\n</ul>\n</li>\n</ul>\n<p><strong>Code Repository</strong></p>\n<p>To facilitate reading and working with the data, Python codes are available on the GitHub repository:</p>\n<p>https://github.com/hifexplo/PCBVision</p>\n<p><strong>Citation</strong></p>\n<p>If you use this dataset, please cite the following article:</p>\n<p><strong>Word</strong>:</p>\n<p>Arbash, Elias, Fuchs, Margret, Rasti, Behnood, Lorenz, Sandra, Ghamisi, Pedram, &amp; Gloaguen, Richard. (2024). PCB-Vision: A Multiscene RGB-Hyperspectral Benchmark Dataset of Printed Circuit Boards (Version 1) [Data set]. Rodare. <a href=\"http://doi.org/10.14278/rodare.2704\">http://doi.org/10.14278/rodare.2704</a></p>\n<p><strong>Latex:</strong></p>\n<p>@article{arbash2024pcb, title={PCB-Vision: A Multiscene RGB-Hyperspectral Benchmark Dataset of Printed Circuit Boards}, author={Arbash, Elias and Fuchs, Margret and Rasti, Behnood and Lorenz, Sandra and Ghamisi, Pedram and Gloaguen, Richard}, journal={arXiv preprint arXiv:2401.06528}, year={2024} }</p>\n<p><strong>Contact</strong></p>\n<p>For further information or inquiries, please visit our website:</p>\n<p>https://www.iexplo.space/</p>\n<p>Contact Email: e.arbash@hzdr.de</p>",
+    "access_right": "open",
+    "creators": [
+      {
+        "name": "Arbash, Elias",
+        "affiliation": "Helmholtz-Zentrum Dresden-Rossendorf"
+      },
+      {
+        "name": "Fuchs, Margret",
+        "affiliation": "Helmholtz Institute Freiberg for Resource Technology"
+      },
+      {
+        "name": "Lorenz, Sandra",
+        "affiliation": "Helmholtz Institute Freiberg for Resource Technology"
+      },
+      {
+        "name": "Rasti, Behnood",
+        "affiliation": "Helmholtz Institute Freiberg for Resource Technology",
+        "orcid": "0000-0002-1091-9841"
+      },
+      {
+        "name": "Ghamisi, Pedram",
+        "affiliation": "Helmholtz Institute Freiberg for Resource Technology",
+        "orcid": "0000-0003-1203-741X"
+      },
+      {
+        "name": "Gloaguen, Richard",
+        "affiliation": "Helmholtz-Zentrum Dresden-Rossendorf",
+        "orcid": "0000-0002-4383-473X"
+      }
+    ],
+    "keywords": [
+      "PCB",
+      "Dataset",
+      "RGB",
+      "Hyperspectral Imaging",
+      "HSI"
+    ],
+    "related_identifiers": [
+      {
+        "identifier": "10.48550/arXiv.2401.06528",
+        "relation": "isReferencedBy",
+        "resource_type": "publication-journal",
+        "scheme": "doi"
+      }
+    ],
+    "dates": [
+      {
+        "type": "available"
+      }
+    ],
+    "references": [
+      "Arbash, Elias, Fuchs, Margret, Rasti, Behnood, Lorenz, Sandra, Ghamisi, Pedram, & Gloaguen, Richard. (2024). PCB-Vision: A Multiscene RGB-Hyperspectral Benchmark Dataset of Printed Circuit Boards (Version 1) [Data set]. Rodare. http://doi.org/10.14278/rodare.2704"
+    ],
+    "custom": {
+      "code:codeRepository": "https://rodare.hzdr.de/record/2704",
+      "code:developmentStatus": {
+        "id": "active",
+        "title": {
+          "en": "Active"
+        }
+      }
+    },
+    "resource_type": {
+      "title": "Dataset",
+      "type": "dataset"
+    },
+    "alternate_identifiers": [
+      {
+        "identifier": "10.48550/arXiv.2401.06528"
+      }
+    ],
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "10617720"
+          }
+        }
+      ]
+    }
+  },
+  "title": "PCB-Vision: A Multiscene RGB-Hyperspectral Benchmark Dataset of Printed Circuit Boards",
+  "links": {
+    "self": "https://zenodo.org/api/records/10617721",
+    "self_html": "https://zenodo.org/records/10617721",
+    "preview_html": "https://zenodo.org/records/10617721?preview=1",
+    "doi": "https://doi.org/10.14278/rodare.2704",
+    "self_doi": "https://doi.org/10.14278/rodare.2704",
+    "self_doi_html": "https://zenodo.org/doi/10.14278/rodare.2704",
+    "reserve_doi": "https://zenodo.org/api/records/10617721/draft/pids/doi",
+    "parent": "https://zenodo.org/api/records/10617720",
+    "parent_html": "https://zenodo.org/records/10617720",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:10617721/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:10617721/sequence/default",
+    "files": "https://zenodo.org/api/records/10617721/files",
+    "media_files": "https://zenodo.org/api/records/10617721/media-files",
+    "latest": "https://zenodo.org/api/records/10617721/versions/latest",
+    "latest_html": "https://zenodo.org/records/10617721/latest",
+    "versions": "https://zenodo.org/api/records/10617721/versions",
+    "draft": "https://zenodo.org/api/records/10617721/draft",
+    "access_links": "https://zenodo.org/api/records/10617721/access/links",
+    "access_grants": "https://zenodo.org/api/records/10617721/access/grants",
+    "access_users": "https://zenodo.org/api/records/10617721/access/users",
+    "access_request": "https://zenodo.org/api/records/10617721/access/request",
+    "access": "https://zenodo.org/api/records/10617721/access",
+    "communities": "https://zenodo.org/api/records/10617721/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/10617721/communities-suggestions",
+    "request_deletion": "https://zenodo.org/api/records/10617721/request-deletion",
+    "file_modification": "https://zenodo.org/api/records/10617721/file-modification",
+    "quota_increase": "https://zenodo.org/api/records/10617721/quota-increase",
+    "requests": "https://zenodo.org/api/records/10617721/requests"
+  },
+  "updated": "2024-02-12T17:24:53.270901+05:30",
+  "recid": "10617721",
+  "revision": 6,
+  "files": [
+    {
+      "id": "11ca2f0c-6697-4dfe-a5d0-99db84960145",
+      "key": "PCBDataset.zip",
+      "size": 11392398155,
+      "checksum": "md5:caeee8bafb7857e9bef3479d5ab3f9b4",
+      "links": {
+        "self": "https://zenodo.org/api/records/10617721/files/PCBDataset.zip/content"
+      }
+    }
+  ],
+  "swh": {},
+  "owners": [
+    {
+      "id": "1064687"
+    }
+  ],
+  "status": "published",
+  "stats": {
+    "downloads": 764,
+    "unique_downloads": 270,
+    "views": 789,
+    "unique_views": 738,
+    "version_downloads": 764,
+    "version_unique_downloads": 270,
+    "version_unique_views": 738,
+    "version_views": 789
+  },
+  "state": "done",
+  "submitted": true
+}

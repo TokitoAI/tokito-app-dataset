@@ -1,0 +1,8 @@
+{
+  "state": "failed",
+  "bytes": 3145728,
+  "expected_bytes": 11392398155,
+  "source": "https://rodare.hzdr.de/api/files/671920b9-68a5-4a82-98d1-c696f25e497c/PCBDataset.zip",
+  "error": "The read operation timed out",
+  "timestamp_unix": 1791565427.12962
+}

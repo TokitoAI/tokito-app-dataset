@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "coordinate_format": "normalized_xyxy",
+  "annotation_source": "assistant_visual_review_of_original_pixels",
+  "coverage": "visible_major_components_only",
+  "training_eligible": false,
+  "warning": "Partial seed labels for review. Do not train these as complete component ground truth: small passives and some package identities remain unannotated. No exact refdes or schematic/BOM identity is asserted.",
+  "images": [
+    {
+      "image": "photos/raw/IMG_20261009_221838_1.jpg",
+      "width": 928,
+      "height": 1692,
+      "board_family": "esp32_board",
+      "board_evidence": "ESP-32 marking readable on large metal-shielded radio module; BOOT and EN switch markings visible.",
+      "clarity": "Close-up, but amber cast, glare and soft focus reduce tiny-component and chip-marking readability. Board edges and radio antenna area are cropped.",
+      "objects": [
+        {"class": "rf_module", "bbox_xyxy": [0.235, 0.542, 0.979, 1.0], "confidence": 0.97, "truncated": true, "visible_evidence": "Large ESP-32 marked shield with perimeter module solder pads; lower module/antenna region reaches crop edge.", "identity": null, "refdes": null},
+        {"class": "usb_connector", "bbox_xyxy": [0.444, 0.056, 0.754, 0.187], "confidence": 0.98, "truncated": false, "visible_evidence": "Metal micro-USB-shaped receptacle at upper board edge with rear solder contacts.", "identity": null, "refdes": null},
+        {"class": "switch", "bbox_xyxy": [0.239, 0.065, 0.363, 0.191], "confidence": 0.98, "truncated": false, "visible_evidence": "Tactile button with dark circular actuator beside BOOT marking.", "identity": null, "refdes": null},
+        {"class": "switch", "bbox_xyxy": [0.811, 0.063, 0.942, 0.191], "confidence": 0.98, "truncated": false, "visible_evidence": "Tactile button with dark circular actuator beside EN marking.", "identity": null, "refdes": null},
+        {"class": "integrated_circuit", "bbox_xyxy": [0.263, 0.237, 0.507, 0.374], "confidence": 0.95, "truncated": false, "visible_evidence": "Square black package with leads around multiple edges below USB; device marking unreadable.", "identity": null, "refdes": null},
+        {"class": "integrated_circuit", "bbox_xyxy": [0.610, 0.233, 0.915, 0.379], "confidence": 0.94, "truncated": false, "visible_evidence": "Black three-lead power-style package with large metallic tab. Package visible; regulator function/value not confirmed.", "identity": null, "refdes": null}
+      ],
+      "unannotated": ["Numerous resistors/capacitors/diodes/LEDs require closer inspection and matched layout.", "Outer pin solder joints are visible, but pin-header bodies are not reliably visible on this face.", "No net/value/manufacturer or exact refdes labels assigned."]
+    },
+    {
+      "image": "photos/raw/IMG_20261009_221941_1.jpg",
+      "width": 1016,
+      "height": 1866,
+      "board_family": "esp8266_board",
+      "board_evidence": "Metal shield and serpentine PCB antenna form an ESP-12-style radio module; NodeMCU-style A0/D0... silkscreen and two lower switches visible. Exact clone manufacturer not established.",
+      "clarity": "Close-up with amber cast/glare and soft markings. Lower switches and USB are clipped by the crop. Tiny passives are visible but semantic labels need source registration/review.",
+      "objects": [
+        {"class": "rf_module", "bbox_xyxy": [0.180, 0.018, 0.797, 0.466], "confidence": 0.97, "truncated": false, "visible_evidence": "Distinct module PCB with serpentine antenna, metal shield and perimeter castellated solder pads.", "identity": null, "refdes": null},
+        {"class": "integrated_circuit", "bbox_xyxy": [0.467, 0.527, 0.774, 0.659], "confidence": 0.96, "truncated": false, "visible_evidence": "Black three-lead power-style package plus exposed tab. Regulator-like package; exact function/identity not established.", "identity": null, "refdes": null},
+        {"class": "integrated_circuit", "bbox_xyxy": [0.210, 0.752, 0.573, 0.891], "confidence": 0.97, "truncated": false, "visible_evidence": "Rectangular black IC package with two rows of leads; top marking unreadable.", "identity": null, "refdes": null},
+        {"class": "switch", "bbox_xyxy": [0.173, 0.925, 0.285, 1.0], "confidence": 0.97, "truncated": true, "visible_evidence": "Lower-left tactile switch with circular actuator beside RST marking; bottom clipped.", "identity": null, "refdes": null},
+        {"class": "switch", "bbox_xyxy": [0.695, 0.923, 0.817, 1.0], "confidence": 0.97, "truncated": true, "visible_evidence": "Lower-right tactile switch with circular actuator beside FLASH marking; bottom clipped.", "identity": null, "refdes": null},
+        {"class": "usb_connector", "bbox_xyxy": [0.355, 0.950, 0.637, 1.0], "confidence": 0.96, "truncated": true, "visible_evidence": "Rear leads and visible upper metal shell of USB receptacle between switches; receptacle opening/bottom outside crop.", "identity": null, "refdes": null}
+      ],
+      "unannotated": ["Small three-lead packages near right side are visible but exact component family remains unresolved.", "Passive components, polarized parts and LED candidates not exhaustively annotated.", "Outer row solder joints visible; header bodies not confidently visible.", "No exact refdes or reference-NodeMCU BOM links assigned to physical clone."]
+    }
+  ]
+}

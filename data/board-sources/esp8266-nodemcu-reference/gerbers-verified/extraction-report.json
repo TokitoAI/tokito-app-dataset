@@ -1,0 +1,344 @@
+[
+  {
+    "archive": "NODEMCU_DEVKIT_V1.0_GERBER_V1.rar",
+    "expected_files": 15,
+    "extracted_files": 15,
+    "files": [
+      {
+        "name": "NODEMCU_AMICA_GERBER_V1/NODEMCU_DEVKIT_V1.0-RoundHoles-NonPlated.TXT",
+        "bytes": 138,
+        "sha256": "aa0a5b4d3cf4e88b9d8b1ce9d1f10a1dc613762ae2e1762b71a229f2e8116f8f"
+      },
+      {
+        "name": "NODEMCU_AMICA_GERBER_V1/NODEMCU_DEVKIT_V1.0-RoundHoles-Plated.TXT",
+        "bytes": 3359,
+        "sha256": "c82d742fde3c10161e93e33a652a4e66e0558e66c2b1dd010073d73b5cee61ea"
+      },
+      {
+        "name": "NODEMCU_AMICA_GERBER_V1/NODEMCU_DEVKIT_V1.0-SlotHoles-Plated.TXT",
+        "bytes": 168,
+        "sha256": "0a78fdcfba2ebe783076f1285f8b329918dfa175a9df4d9969305e5886aa6c71"
+      },
+      {
+        "name": "NODEMCU_AMICA_GERBER_V1/NODEMCU_DEVKIT_V1.0.GBL",
+        "bytes": 22260,
+        "sha256": "616b7e03629c7721a4e93314f4841be37e14b61731f920647faa1fb8f23e12de"
+      },
+      {
+        "name": "NODEMCU_AMICA_GERBER_V1/NODEMCU_DEVKIT_V1.0.GBO",
+        "bytes": 534797,
+        "sha256": "7e0af158d33950749a63bee0c2d7126d78296a7c6f40645605456685a902cdde"
+      },
+      {
+        "name": "NODEMCU_AMICA_GERBER_V1/NODEMCU_DEVKIT_V1.0.GBP",
+        "bytes": 70,
+        "sha256": "231b065feb06b91a87c0ecb2b486c90c0dadba87c5fbbcefff03dd72ae5ca6e2"
+      },
+      {
+        "name": "NODEMCU_AMICA_GERBER_V1/NODEMCU_DEVKIT_V1.0.GBS",
+        "bytes": 867,
+        "sha256": "730d5aa2229e2414a59621015284ed7b9b6b550a7b043849e2569b6fd99b1246"
+      },
+      {
+        "name": "NODEMCU_AMICA_GERBER_V1/NODEMCU_DEVKIT_V1.0.GD1",
+        "bytes": 72868,
+        "sha256": "0e602cc2a69801df7e75529c2d4e53f5c13999d8cfbf7a3306a7bbbc907e6f44"
+      },
+      {
+        "name": "NODEMCU_AMICA_GERBER_V1/NODEMCU_DEVKIT_V1.0.GKO",
+        "bytes": 697,
+        "sha256": "833eac0bcc90e70ab1ee79bf4fd694afa9b784ef0f10e876fbec047ab9be80f4"
+      },
+      {
+        "name": "NODEMCU_AMICA_GERBER_V1/NODEMCU_DEVKIT_V1.0.GPB",
+        "bytes": 968,
+        "sha256": "e5ac14ed0761b49c65bb35e6bfa0762a5710b29d7669ab5ee61136ef19032c72"
+      },
+      {
+        "name": "NODEMCU_AMICA_GERBER_V1/NODEMCU_DEVKIT_V1.0.GPT",
+        "bytes": 4024,
+        "sha256": "6355506e2501353de545f8256179baa2fa591a941b3a404241fa5d6ae08676e5"
+      },
+      {
+        "name": "NODEMCU_AMICA_GERBER_V1/NODEMCU_DEVKIT_V1.0.GTL",
+        "bytes": 32730,
+        "sha256": "2eb4a505dd57514993b4815afc041d9735ee1198beebe9a4364cbfc85f22722e"
+      },
+      {
+        "name": "NODEMCU_AMICA_GERBER_V1/NODEMCU_DEVKIT_V1.0.GTO",
+        "bytes": 262095,
+        "sha256": "86db11c0c995bcd1bd68ce0576bf926f618b0b19f88629fbb4094ea02149e5f2"
+      },
+      {
+        "name": "NODEMCU_AMICA_GERBER_V1/NODEMCU_DEVKIT_V1.0.GTP",
+        "bytes": 4388,
+        "sha256": "4539e427a4b46ca3febed31bbcd7bef60d3c3223becc18bde0fefb5691e59d83"
+      },
+      {
+        "name": "NODEMCU_AMICA_GERBER_V1/NODEMCU_DEVKIT_V1.0.GTS",
+        "bytes": 4108,
+        "sha256": "c70d546b54b89b82665d6e2cc86338fbb8329f2a55c3450a40ac4a2374cbee35"
+      }
+    ],
+    "status": "all members extracted successfully"
+  },
+  {
+    "archive": "NODEMCU_DEVKIT_V1.0_GERBER_V2.rar",
+    "expected_files": 16,
+    "extracted_files": 16,
+    "files": [
+      {
+        "name": "NODEMCU_AMICA_GERBER_V2/NODEMCU_DEVKIT_V1.0_OFFSET-RoundHoles-NonPlated.TXT",
+        "bytes": 138,
+        "sha256": "aa0a5b4d3cf4e88b9d8b1ce9d1f10a1dc613762ae2e1762b71a229f2e8116f8f"
+      },
+      {
+        "name": "NODEMCU_AMICA_GERBER_V2/NODEMCU_DEVKIT_V1.0_OFFSET-RoundHoles-Plated.TXT",
+        "bytes": 3372,
+        "sha256": "ee1d6ae2359e6e5e22eb727073cd24fb5c6906cb1df80119093e9fb311e33fcf"
+      },
+      {
+        "name": "NODEMCU_AMICA_GERBER_V2/NODEMCU_DEVKIT_V1.0_OFFSET-SlotHoles-Plated.TXT",
+        "bytes": 168,
+        "sha256": "0a78fdcfba2ebe783076f1285f8b329918dfa175a9df4d9969305e5886aa6c71"
+      },
+      {
+        "name": "NODEMCU_AMICA_GERBER_V2/钻孔说明.txt",
+        "bytes": 193,
+        "sha256": "fb6f624136e8d855f3e4ab9b7bb6ffaca906effcd66a9811ed8adf2c6fc45463"
+      },
+      {
+        "name": "NODEMCU_AMICA_GERBER_V2/NODEMCU_DEVKIT_V1.0_OFFSET.GBL",
+        "bytes": 22342,
+        "sha256": "cedadc84eb98d4f1057a8abc6fb681c04a3bc17bc220ebb13f181ac92d5b82e4"
+      },
+      {
+        "name": "NODEMCU_AMICA_GERBER_V2/NODEMCU_DEVKIT_V1.0_OFFSET.GBO",
+        "bytes": 534797,
+        "sha256": "7e0af158d33950749a63bee0c2d7126d78296a7c6f40645605456685a902cdde"
+      },
+      {
+        "name": "NODEMCU_AMICA_GERBER_V2/NODEMCU_DEVKIT_V1.0_OFFSET.GBP",
+        "bytes": 70,
+        "sha256": "231b065feb06b91a87c0ecb2b486c90c0dadba87c5fbbcefff03dd72ae5ca6e2"
+      },
+      {
+        "name": "NODEMCU_AMICA_GERBER_V2/NODEMCU_DEVKIT_V1.0_OFFSET.GBS",
+        "bytes": 866,
+        "sha256": "48f3e8d3fe7f2183bb2e3e87fac64a386dbad2f085ae17f82fe061f38a514a38"
+      },
+      {
+        "name": "NODEMCU_AMICA_GERBER_V2/NODEMCU_DEVKIT_V1.0_OFFSET.GD1",
+        "bytes": 72867,
+        "sha256": "d09c74e6b83713c9709c7b68a7502fc83a749fc6695d89a796f0d2140c6ce77f"
+      },
+      {
+        "name": "NODEMCU_AMICA_GERBER_V2/NODEMCU_DEVKIT_V1.0_OFFSET.GKO",
+        "bytes": 697,
+        "sha256": "833eac0bcc90e70ab1ee79bf4fd694afa9b784ef0f10e876fbec047ab9be80f4"
+      },
+      {
+        "name": "NODEMCU_AMICA_GERBER_V2/NODEMCU_DEVKIT_V1.0_OFFSET.GPB",
+        "bytes": 967,
+        "sha256": "3f6b06d6ec09c6362aa65f73ee0e9d5542b1f0f5ce84ceeefa21b516d2034c8c"
+      },
+      {
+        "name": "NODEMCU_AMICA_GERBER_V2/NODEMCU_DEVKIT_V1.0_OFFSET.GPT",
+        "bytes": 4023,
+        "sha256": "622f6ef08cd0ba49fb18317d9a8f05663428725fd6b5097599ea4a23c5084cd0"
+      },
+      {
+        "name": "NODEMCU_AMICA_GERBER_V2/NODEMCU_DEVKIT_V1.0_OFFSET.GTL",
+        "bytes": 33015,
+        "sha256": "20fa5d1271e5aa338e2df8a8001933cd2c9166701bb5ccc738ee8d92e3401250"
+      },
+      {
+        "name": "NODEMCU_AMICA_GERBER_V2/NODEMCU_DEVKIT_V1.0_OFFSET.GTO",
+        "bytes": 262095,
+        "sha256": "86db11c0c995bcd1bd68ce0576bf926f618b0b19f88629fbb4094ea02149e5f2"
+      },
+      {
+        "name": "NODEMCU_AMICA_GERBER_V2/NODEMCU_DEVKIT_V1.0_OFFSET.GTP",
+        "bytes": 4388,
+        "sha256": "4539e427a4b46ca3febed31bbcd7bef60d3c3223becc18bde0fefb5691e59d83"
+      },
+      {
+        "name": "NODEMCU_AMICA_GERBER_V2/NODEMCU_DEVKIT_V1.0_OFFSET.GTS",
+        "bytes": 4107,
+        "sha256": "e81206a91e51c99485fb74722579e4a9d78cc23d14edb8aa7736d5f6d89d8ed9"
+      }
+    ],
+    "status": "all members extracted successfully"
+  },
+  {
+    "archive": "NODEMCU_DEVKIT_V1.0_GERBER_V3.rar",
+    "expected_files": 16,
+    "extracted_files": 16,
+    "files": [
+      {
+        "name": "NODEMCU_AMICA_GERBER_V3/NODEMCU_DEVKIT_V1.0_OFFSET-RoundHoles-NonPlated.TXT",
+        "bytes": 138,
+        "sha256": "aa0a5b4d3cf4e88b9d8b1ce9d1f10a1dc613762ae2e1762b71a229f2e8116f8f"
+      },
+      {
+        "name": "NODEMCU_AMICA_GERBER_V3/NODEMCU_DEVKIT_V1.0_OFFSET-RoundHoles-Plated.TXT",
+        "bytes": 3372,
+        "sha256": "ee1d6ae2359e6e5e22eb727073cd24fb5c6906cb1df80119093e9fb311e33fcf"
+      },
+      {
+        "name": "NODEMCU_AMICA_GERBER_V3/NODEMCU_DEVKIT_V1.0_OFFSET-SlotHoles-Plated.TXT",
+        "bytes": 168,
+        "sha256": "0a78fdcfba2ebe783076f1285f8b329918dfa175a9df4d9969305e5886aa6c71"
+      },
+      {
+        "name": "NODEMCU_AMICA_GERBER_V3/NODEMCU_DEVKIT_V1.0_OFFSET.GBL",
+        "bytes": 22342,
+        "sha256": "cedadc84eb98d4f1057a8abc6fb681c04a3bc17bc220ebb13f181ac92d5b82e4"
+      },
+      {
+        "name": "NODEMCU_AMICA_GERBER_V3/NODEMCU_DEVKIT_V1.0_OFFSET.GBO",
+        "bytes": 475384,
+        "sha256": "08f67967b7d7d14437816b74bb41dc175258d23961dbc4547dfbac63ae62b837"
+      },
+      {
+        "name": "NODEMCU_AMICA_GERBER_V3/NODEMCU_DEVKIT_V1.0_OFFSET.GBP",
+        "bytes": 70,
+        "sha256": "231b065feb06b91a87c0ecb2b486c90c0dadba87c5fbbcefff03dd72ae5ca6e2"
+      },
+      {
+        "name": "NODEMCU_AMICA_GERBER_V3/NODEMCU_DEVKIT_V1.0_OFFSET.GBS",
+        "bytes": 866,
+        "sha256": "48f3e8d3fe7f2183bb2e3e87fac64a386dbad2f085ae17f82fe061f38a514a38"
+      },
+      {
+        "name": "NODEMCU_AMICA_GERBER_V3/NODEMCU_DEVKIT_V1.0_OFFSET.GD1",
+        "bytes": 72867,
+        "sha256": "d09c74e6b83713c9709c7b68a7502fc83a749fc6695d89a796f0d2140c6ce77f"
+      },
+      {
+        "name": "NODEMCU_AMICA_GERBER_V3/NODEMCU_DEVKIT_V1.0_OFFSET.GKO",
+        "bytes": 697,
+        "sha256": "833eac0bcc90e70ab1ee79bf4fd694afa9b784ef0f10e876fbec047ab9be80f4"
+      },
+      {
+        "name": "NODEMCU_AMICA_GERBER_V3/NODEMCU_DEVKIT_V1.0_OFFSET.GPB",
+        "bytes": 967,
+        "sha256": "3f6b06d6ec09c6362aa65f73ee0e9d5542b1f0f5ce84ceeefa21b516d2034c8c"
+      },
+      {
+        "name": "NODEMCU_AMICA_GERBER_V3/NODEMCU_DEVKIT_V1.0_OFFSET.GPT",
+        "bytes": 4023,
+        "sha256": "622f6ef08cd0ba49fb18317d9a8f05663428725fd6b5097599ea4a23c5084cd0"
+      },
+      {
+        "name": "NODEMCU_AMICA_GERBER_V3/NODEMCU_DEVKIT_V1.0_OFFSET.GTL",
+        "bytes": 33015,
+        "sha256": "20fa5d1271e5aa338e2df8a8001933cd2c9166701bb5ccc738ee8d92e3401250"
+      },
+      {
+        "name": "NODEMCU_AMICA_GERBER_V3/NODEMCU_DEVKIT_V1.0_OFFSET.GTO",
+        "bytes": 258952,
+        "sha256": "ef54da45921631032808f713903863bedf9e004607809ee6ae179a89ebc7ab59"
+      },
+      {
+        "name": "NODEMCU_AMICA_GERBER_V3/NODEMCU_DEVKIT_V1.0_OFFSET.GTP",
+        "bytes": 4388,
+        "sha256": "4539e427a4b46ca3febed31bbcd7bef60d3c3223becc18bde0fefb5691e59d83"
+      },
+      {
+        "name": "NODEMCU_AMICA_GERBER_V3/NODEMCU_DEVKIT_V1.0_OFFSET.GTS",
+        "bytes": 4107,
+        "sha256": "e81206a91e51c99485fb74722579e4a9d78cc23d14edb8aa7736d5f6d89d8ed9"
+      },
+      {
+        "name": "NODEMCU_AMICA_GERBER_V3/钻孔说明.txt",
+        "bytes": 193,
+        "sha256": "fb6f624136e8d855f3e4ab9b7bb6ffaca906effcd66a9811ed8adf2c6fc45463"
+      }
+    ],
+    "status": "all members extracted successfully"
+  },
+  {
+    "archive": "NODEMCU_DEVKIT_V1.0_GERBER_V4.rar",
+    "expected_files": 15,
+    "extracted_files": 15,
+    "files": [
+      {
+        "name": "NODEMCU_DEVKIT_V1.0_GERBER_V4/NODEMCU_DEVKIT_V1.0-RoundHoles-NonPlated.TXT",
+        "bytes": 138,
+        "sha256": "aa0a5b4d3cf4e88b9d8b1ce9d1f10a1dc613762ae2e1762b71a229f2e8116f8f"
+      },
+      {
+        "name": "NODEMCU_DEVKIT_V1.0_GERBER_V4/NODEMCU_DEVKIT_V1.0-RoundHoles-Plated.TXT",
+        "bytes": 3349,
+        "sha256": "e8e4c5a926c7b079cbbac1081e1ef9e0c62317dff1e361a14f5c4961a6f422f6"
+      },
+      {
+        "name": "NODEMCU_DEVKIT_V1.0_GERBER_V4/NODEMCU_DEVKIT_V1.0-SlotHoles-Plated.TXT",
+        "bytes": 168,
+        "sha256": "0a78fdcfba2ebe783076f1285f8b329918dfa175a9df4d9969305e5886aa6c71"
+      },
+      {
+        "name": "NODEMCU_DEVKIT_V1.0_GERBER_V4/NODEMCU_DEVKIT_V1.0.GBL",
+        "bytes": 22617,
+        "sha256": "f049eb85e0d6163d6825b0eeb6e8d71fe3951b5168c6f6dae449b69c3039e956"
+      },
+      {
+        "name": "NODEMCU_DEVKIT_V1.0_GERBER_V4/NODEMCU_DEVKIT_V1.0.GBO",
+        "bytes": 497649,
+        "sha256": "d1cf18c5fd38dab6cf5c64548d97a6763a9d2f4f4f5bbb386ca0b95dd04e62e1"
+      },
+      {
+        "name": "NODEMCU_DEVKIT_V1.0_GERBER_V4/NODEMCU_DEVKIT_V1.0.GBP",
+        "bytes": 70,
+        "sha256": "231b065feb06b91a87c0ecb2b486c90c0dadba87c5fbbcefff03dd72ae5ca6e2"
+      },
+      {
+        "name": "NODEMCU_DEVKIT_V1.0_GERBER_V4/NODEMCU_DEVKIT_V1.0.GBS",
+        "bytes": 867,
+        "sha256": "9b07ae3887178184fb11f71ad02b35d076a575a2cda6ce8c497344125d7b1281"
+      },
+      {
+        "name": "NODEMCU_DEVKIT_V1.0_GERBER_V4/NODEMCU_DEVKIT_V1.0.GD1",
+        "bytes": 72960,
+        "sha256": "5e3e66dc0c69603d0cb35fc292a37bdded127fae0962c56433f6dcf6c5d31a98"
+      },
+      {
+        "name": "NODEMCU_DEVKIT_V1.0_GERBER_V4/NODEMCU_DEVKIT_V1.0.GKO",
+        "bytes": 681,
+        "sha256": "576e9403fc831f9227bf8f1ffe52c3c1fde0cf2c978d1c04645a7709969fe57a"
+      },
+      {
+        "name": "NODEMCU_DEVKIT_V1.0_GERBER_V4/NODEMCU_DEVKIT_V1.0.GPB",
+        "bytes": 968,
+        "sha256": "4cf6c567729c968c68f795c1a3a6ba56c2530d803fa34bd7984e456cd34c51b8"
+      },
+      {
+        "name": "NODEMCU_DEVKIT_V1.0_GERBER_V4/NODEMCU_DEVKIT_V1.0.GPT",
+        "bytes": 4024,
+        "sha256": "06aca5d660b1433d32eab53b0e2c96fc71be237a41ec08621fde044174ffbcce"
+      },
+      {
+        "name": "NODEMCU_DEVKIT_V1.0_GERBER_V4/NODEMCU_DEVKIT_V1.0.GTL",
+        "bytes": 33880,
+        "sha256": "db24cad65d8cf71c707131488724e6c85a05abf7f8a14fd479a771e62e143de7"
+      },
+      {
+        "name": "NODEMCU_DEVKIT_V1.0_GERBER_V4/NODEMCU_DEVKIT_V1.0.GTO",
+        "bytes": 259069,
+        "sha256": "0c42236dccb3535ce87b76d42fb9d7fabc19636a6532c9bff87d6a5b44d27c9a"
+      },
+      {
+        "name": "NODEMCU_DEVKIT_V1.0_GERBER_V4/NODEMCU_DEVKIT_V1.0.GTP",
+        "bytes": 4388,
+        "sha256": "fd9c130cfb12363e1d4220d59e0d3483f258bd81abc39cb1ad761eb84ad5f4f9"
+      },
+      {
+        "name": "NODEMCU_DEVKIT_V1.0_GERBER_V4/NODEMCU_DEVKIT_V1.0.GTS",
+        "bytes": 4108,
+        "sha256": "dc4094f2cb9927aaa37c3903bf275d305a95d5f22e2c144b6b35ab2be8935347"
+      }
+    ],
+    "status": "all members extracted successfully"
+  }
+]

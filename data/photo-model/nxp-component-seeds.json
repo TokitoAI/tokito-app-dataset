@@ -1,0 +1,548 @@
+{
+  "schema_version": "1.0",
+  "source_image": "data/photo-model/photos\\raw\\IMG_20261009_221755_1.jpg",
+  "image_width": 1600,
+  "image_height": 3888,
+  "coordinate_format": "xyxy_normalized",
+  "board_identity": {
+    "family": "NXP FRDM",
+    "model": "FRDM-MCXN236",
+    "evidence": "Visible silkscreen reads FRDM-MCXN236.",
+    "revision": null,
+    "revision_status": "unconfirmed",
+    "incompatible_reference": "Do not attach FRDM-MCXN947 Rev C BOM/schematic as exact ground truth."
+  },
+  "annotation_origin": "manual visual inspection",
+  "coverage": {
+    "status": "partial_major_component_seeds",
+    "microcomponents_complete": false,
+    "notes": "Major clearly visible populated headers, USB receptacles, main ICs, tactile SW3, and two metal resonators annotated. Dense passives, minor packages, jumpers, LED identification, bare footprints, underside and obscured objects remain unannotated. Unannotated image regions are not verified negative training examples. No exact reference designator or BOM part identity asserted."
+  },
+  "annotations": [
+    {
+      "id": "nxp_seed_001",
+      "class_name": "connector_header",
+      "xyxy_normalized": [
+        0.033215,
+        0.0,
+        0.806643,
+        0.050781
+      ],
+      "xyxy_pixels": [
+        53,
+        0,
+        1291,
+        197
+      ],
+      "evidence": "Long populated dual-row female header; upper edge clipped.",
+      "clipped": true,
+      "review_status": "visual_seed_requires_box_review",
+      "reference_designator": null,
+      "manufacturer_part_number": null
+    },
+    {
+      "id": "nxp_seed_002",
+      "class_name": "connector_header",
+      "xyxy_normalized": [
+        0.124555,
+        0.138672,
+        0.212337,
+        0.321289
+      ],
+      "xyxy_pixels": [
+        199,
+        539,
+        340,
+        1249
+      ],
+      "evidence": "Populated vertical female header on left.",
+      "clipped": false,
+      "review_status": "visual_seed_requires_box_review",
+      "reference_designator": null,
+      "manufacturer_part_number": null
+    },
+    {
+      "id": "nxp_seed_003",
+      "class_name": "connector_header",
+      "xyxy_normalized": [
+        0.616845,
+        0.13623,
+        0.688019,
+        0.320801
+      ],
+      "xyxy_pixels": [
+        987,
+        530,
+        1101,
+        1247
+      ],
+      "evidence": "Populated vertical female header beside central ICs.",
+      "clipped": false,
+      "review_status": "visual_seed_requires_box_review",
+      "reference_designator": null,
+      "manufacturer_part_number": null
+    },
+    {
+      "id": "nxp_seed_004",
+      "class_name": "connector_header",
+      "xyxy_normalized": [
+        0.814947,
+        0.471191,
+        0.946619,
+        0.61084
+      ],
+      "xyxy_pixels": [
+        1304,
+        1832,
+        1515,
+        2375
+      ],
+      "evidence": "Populated dual-row female header on right.",
+      "clipped": false,
+      "review_status": "visual_seed_requires_box_review",
+      "reference_designator": null,
+      "manufacturer_part_number": null
+    },
+    {
+      "id": "nxp_seed_005",
+      "class_name": "connector_header",
+      "xyxy_normalized": [
+        0.818505,
+        0.623047,
+        0.948992,
+        0.813965
+      ],
+      "xyxy_pixels": [
+        1310,
+        2422,
+        1518,
+        3165
+      ],
+      "evidence": "Populated long dual-row female header on right.",
+      "clipped": false,
+      "review_status": "visual_seed_requires_box_review",
+      "reference_designator": null,
+      "manufacturer_part_number": null
+    },
+    {
+      "id": "nxp_seed_006",
+      "class_name": "connector_header",
+      "xyxy_normalized": [
+        0.755635,
+        0.931152,
+        0.839858,
+        0.994629
+      ],
+      "xyxy_pixels": [
+        1209,
+        3620,
+        1344,
+        3867
+      ],
+      "evidence": "Exposed dual-row pin header near lower edge.",
+      "clipped": false,
+      "review_status": "visual_seed_requires_box_review",
+      "reference_designator": null,
+      "manufacturer_part_number": null
+    },
+    {
+      "id": "nxp_seed_007",
+      "class_name": "usb_connector",
+      "xyxy_normalized": [
+        0.125741,
+        0.936035,
+        0.33452,
+        1.0
+      ],
+      "xyxy_pixels": [
+        201,
+        3639,
+        535,
+        3888
+      ],
+      "evidence": "Metal USB receptacle, clipped by lower photo boundary.",
+      "clipped": true,
+      "review_status": "visual_seed_requires_box_review",
+      "reference_designator": null,
+      "manufacturer_part_number": null
+    },
+    {
+      "id": "nxp_seed_008",
+      "class_name": "usb_connector",
+      "xyxy_normalized": [
+        0.448399,
+        0.935547,
+        0.654804,
+        1.0
+      ],
+      "xyxy_pixels": [
+        717,
+        3637,
+        1048,
+        3888
+      ],
+      "evidence": "Second metal USB receptacle, clipped by lower photo boundary.",
+      "clipped": true,
+      "review_status": "visual_seed_requires_box_review",
+      "reference_designator": null,
+      "manufacturer_part_number": null
+    },
+    {
+      "id": "nxp_seed_009",
+      "class_name": "button",
+      "xyxy_normalized": [
+        0.865955,
+        0.043457,
+        0.963227,
+        0.073242
+      ],
+      "xyxy_pixels": [
+        1386,
+        169,
+        1541,
+        285
+      ],
+      "evidence": "Tactile switch; adjacent SW3 silkscreen readable.",
+      "clipped": false,
+      "review_status": "visual_seed_requires_box_review",
+      "reference_designator": null,
+      "manufacturer_part_number": null
+    },
+    {
+      "id": "nxp_seed_010",
+      "class_name": "integrated_circuit",
+      "xyxy_normalized": [
+        0.321471,
+        0.399902,
+        0.520759,
+        0.48291
+      ],
+      "xyxy_pixels": [
+        514,
+        1555,
+        833,
+        1878
+      ],
+      "evidence": "Largest central square IC; package text cannot be reliably read.",
+      "clipped": false,
+      "review_status": "visual_seed_requires_box_review",
+      "reference_designator": null,
+      "manufacturer_part_number": null
+    },
+    {
+      "id": "nxp_seed_011",
+      "class_name": "integrated_circuit",
+      "xyxy_normalized": [
+        0.329775,
+        0.744629,
+        0.491103,
+        0.808594
+      ],
+      "xyxy_pixels": [
+        528,
+        2895,
+        786,
+        3144
+      ],
+      "evidence": "Large square IC in lower half; identity unverified.",
+      "clipped": false,
+      "review_status": "visual_seed_requires_box_review",
+      "reference_designator": null,
+      "manufacturer_part_number": null
+    },
+    {
+      "id": "nxp_seed_012",
+      "class_name": "integrated_circuit",
+      "xyxy_normalized": [
+        0.432977,
+        0.213867,
+        0.549229,
+        0.26123
+      ],
+      "xyxy_pixels": [
+        693,
+        832,
+        879,
+        1016
+      ],
+      "evidence": "Medium rectangular IC with visible perimeter pins.",
+      "clipped": false,
+      "review_status": "visual_seed_requires_box_review",
+      "reference_designator": null,
+      "manufacturer_part_number": null
+    },
+    {
+      "id": "nxp_seed_013",
+      "class_name": "integrated_circuit",
+      "xyxy_normalized": [
+        0.514828,
+        0.137207,
+        0.610913,
+        0.166504
+      ],
+      "xyxy_pixels": [
+        824,
+        533,
+        977,
+        647
+      ],
+      "evidence": "Square black IC package above medium IC.",
+      "clipped": false,
+      "review_status": "visual_seed_requires_box_review",
+      "reference_designator": null,
+      "manufacturer_part_number": null
+    },
+    {
+      "id": "nxp_seed_014",
+      "class_name": "integrated_circuit",
+      "xyxy_normalized": [
+        0.321471,
+        0.216797,
+        0.372479,
+        0.244629
+      ],
+      "xyxy_pixels": [
+        514,
+        843,
+        596,
+        951
+      ],
+      "evidence": "Small rectangular IC with visible fine pins.",
+      "clipped": false,
+      "review_status": "visual_seed_requires_box_review",
+      "reference_designator": null,
+      "manufacturer_part_number": null
+    },
+    {
+      "id": "nxp_seed_015",
+      "class_name": "integrated_circuit",
+      "xyxy_normalized": [
+        0.538553,
+        0.535645,
+        0.606168,
+        0.562012
+      ],
+      "xyxy_pixels": [
+        862,
+        2083,
+        970,
+        2185
+      ],
+      "evidence": "Small IC with visible pins.",
+      "clipped": false,
+      "review_status": "visual_seed_requires_box_review",
+      "reference_designator": null,
+      "manufacturer_part_number": null
+    },
+    {
+      "id": "nxp_seed_016",
+      "class_name": "integrated_circuit",
+      "xyxy_normalized": [
+        0.699881,
+        0.60791,
+        0.794781,
+        0.632324
+      ],
+      "xyxy_pixels": [
+        1120,
+        2364,
+        1272,
+        2458
+      ],
+      "evidence": "Black multi-pin IC package.",
+      "clipped": false,
+      "review_status": "visual_seed_requires_box_review",
+      "reference_designator": null,
+      "manufacturer_part_number": null
+    },
+    {
+      "id": "nxp_seed_017",
+      "class_name": "integrated_circuit",
+      "xyxy_normalized": [
+        0.666667,
+        0.092773,
+        0.711744,
+        0.118164
+      ],
+      "xyxy_pixels": [
+        1067,
+        361,
+        1139,
+        459
+      ],
+      "evidence": "Small black multi-pin package near upper edge.",
+      "clipped": false,
+      "review_status": "visual_seed_requires_box_review",
+      "reference_designator": null,
+      "manufacturer_part_number": null
+    },
+    {
+      "id": "nxp_seed_018",
+      "class_name": "integrated_circuit",
+      "xyxy_normalized": [
+        0.698695,
+        0.886719,
+        0.746145,
+        0.909668
+      ],
+      "xyxy_pixels": [
+        1118,
+        3448,
+        1194,
+        3537
+      ],
+      "evidence": "Small black multi-pin IC in lower right.",
+      "clipped": false,
+      "review_status": "visual_seed_requires_box_review",
+      "reference_designator": null,
+      "manufacturer_part_number": null
+    },
+    {
+      "id": "nxp_seed_019",
+      "class_name": "crystal_resonator",
+      "xyxy_normalized": [
+        0.580071,
+        0.385254,
+        0.629893,
+        0.42041
+      ],
+      "xyxy_pixels": [
+        928,
+        1498,
+        1008,
+        1635
+      ],
+      "evidence": "Metal rectangular resonator beside largest IC; specific part unknown.",
+      "clipped": false,
+      "review_status": "visual_seed_requires_box_review",
+      "reference_designator": null,
+      "manufacturer_part_number": null
+    },
+    {
+      "id": "nxp_seed_020",
+      "class_name": "crystal_resonator",
+      "xyxy_normalized": [
+        0.293001,
+        0.83252,
+        0.373665,
+        0.85791
+      ],
+      "xyxy_pixels": [
+        469,
+        3237,
+        598,
+        3336
+      ],
+      "evidence": "Metal rectangular resonator beside lower large IC; specific part unknown.",
+      "clipped": false,
+      "review_status": "visual_seed_requires_box_review",
+      "reference_designator": null,
+      "manufacturer_part_number": null
+    },
+    {
+      "id": "nxp_seed_021",
+      "class_name": "connector_header",
+      "xyxy_normalized": [
+        0.858837,
+        0.837402,
+        0.97153,
+        0.883789
+      ],
+      "xyxy_pixels": [
+        1374,
+        3256,
+        1554,
+        3436
+      ],
+      "evidence": "Two-position populated header with shunts; confirmed in rotated detail crop.",
+      "clipped": false,
+      "review_status": "visual_seed_requires_box_review",
+      "reference_designator": null,
+      "manufacturer_part_number": null
+    },
+    {
+      "id": "nxp_seed_022",
+      "class_name": "connector_header",
+      "xyxy_normalized": [
+        0.043891,
+        0.820801,
+        0.163701,
+        0.849121
+      ],
+      "xyxy_pixels": [
+        70,
+        3191,
+        262,
+        3301
+      ],
+      "evidence": "Two-pin jumper header with visible pins; confirmed in detail crop.",
+      "clipped": false,
+      "review_status": "visual_seed_requires_box_review",
+      "reference_designator": null,
+      "manufacturer_part_number": null
+    },
+    {
+      "id": "nxp_seed_023",
+      "class_name": "connector_header",
+      "xyxy_normalized": [
+        0.043891,
+        0.855469,
+        0.163701,
+        0.882324
+      ],
+      "xyxy_pixels": [
+        70,
+        3326,
+        262,
+        3430
+      ],
+      "evidence": "Second two-pin jumper header with visible pins; confirmed in detail crop.",
+      "clipped": false,
+      "review_status": "visual_seed_requires_box_review",
+      "reference_designator": null,
+      "manufacturer_part_number": null
+    },
+    {
+      "id": "nxp_seed_024",
+      "class_name": "connector_header",
+      "xyxy_normalized": [
+        0.099644,
+        0.725098,
+        0.223013,
+        0.754395
+      ],
+      "xyxy_pixels": [
+        159,
+        2819,
+        357,
+        2933
+      ],
+      "evidence": "Two-pin populated header; confirmed in rotated detail crop.",
+      "clipped": false,
+      "review_status": "visual_seed_requires_box_review",
+      "reference_designator": null,
+      "manufacturer_part_number": null
+    },
+    {
+      "id": "nxp_seed_025",
+      "class_name": "connector_header",
+      "xyxy_normalized": [
+        0.537367,
+        0.730469,
+        0.6121,
+        0.777344
+      ],
+      "xyxy_pixels": [
+        860,
+        2840,
+        979,
+        3022
+      ],
+      "evidence": "Vertical jumper header with shunt; confirmed in rotated detail crop.",
+      "clipped": false,
+      "review_status": "visual_seed_requires_box_review",
+      "reference_designator": null,
+      "manufacturer_part_number": null
+    }
+  ]
+}
