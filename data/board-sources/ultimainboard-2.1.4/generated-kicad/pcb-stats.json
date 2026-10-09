@@ -1,0 +1,214 @@
+{
+  "metadata": {
+    "date": "2026-10-10T02:54:50",
+    "generator": "KiCad 10.0.7",
+    "project": "Ultimainboard-2.1.4.imported",
+    "board_name": "Ultimainboard-2.1.4.imported"
+  },
+  "board": {
+    "has_outline": true,
+    "width": "175.0000 mm",
+    "height": "79.0000 mm",
+    "area": "13825.00 mm²",
+    "front_component_density": "5.50",
+    "back_component_density": "5.50",
+    "front_copper_area": "5326.929 mm²",
+    "back_copper_area": "13060.248 mm²",
+    "min_track_clearance": "0.2032 mm",
+    "min_track_width": "0.2032 mm",
+    "min_drill_diameter": "0.3000 mm",
+    "board_thickness": "1.7400 mm",
+    "front_footprint_area": "759.834 mm²",
+    "back_footprint_area": "759.834 mm²",
+    "front_footprint_density": "5.50",
+    "back_footprint_density": "5.50"
+  },
+  "pads": {
+    "through_hole": 148,
+    "smd": 1172,
+    "connector": 0,
+    "npth": 2,
+    "castellated": 0,
+    "press_fit": 0
+  },
+  "vias": {
+    "through": 511,
+    "blind": 0,
+    "buried": 0,
+    "micro": 0
+  },
+  "components": {
+    "tht": {
+      "front": 39,
+      "back": 0,
+      "total": 39
+    },
+    "smd": {
+      "front": 283,
+      "back": 252,
+      "total": 535
+    },
+    "unspecified": {
+      "front": 0,
+      "back": 0,
+      "total": 0
+    },
+    "total": {
+      "front": 322,
+      "back": 252,
+      "total": 574
+    }
+  },
+  "drill_holes": [
+    {
+      "count": 322,
+      "shape": "Round",
+      "x_size": "0.3000 mm",
+      "y_size": "0.3000 mm",
+      "plated": true,
+      "source": "Via",
+      "start_layer": "top",
+      "stop_layer": "bot (thermal)"
+    },
+    {
+      "count": 131,
+      "shape": "Round",
+      "x_size": "0.5000 mm",
+      "y_size": "0.5000 mm",
+      "plated": true,
+      "source": "Via",
+      "start_layer": "top",
+      "stop_layer": "bot (thermal)"
+    },
+    {
+      "count": 66,
+      "shape": "Round",
+      "x_size": "1.0200 mm",
+      "y_size": "1.0200 mm",
+      "plated": true,
+      "source": "Pad",
+      "start_layer": "top",
+      "stop_layer": "bot (thermal)"
+    },
+    {
+      "count": 58,
+      "shape": "Round",
+      "x_size": "0.3300 mm",
+      "y_size": "0.3300 mm",
+      "plated": true,
+      "source": "Via",
+      "start_layer": "top",
+      "stop_layer": "bot (thermal)"
+    },
+    {
+      "count": 51,
+      "shape": "Round",
+      "x_size": "1.0000 mm",
+      "y_size": "1.0000 mm",
+      "plated": true,
+      "source": "Pad",
+      "start_layer": "top",
+      "stop_layer": "bot (thermal)"
+    },
+    {
+      "count": 6,
+      "shape": "Round",
+      "x_size": "1.5000 mm",
+      "y_size": "1.5000 mm",
+      "plated": true,
+      "source": "Pad",
+      "start_layer": "top",
+      "stop_layer": "bot (thermal)"
+    },
+    {
+      "count": 6,
+      "shape": "Slot",
+      "x_size": "2.7000 mm",
+      "y_size": "0.6000 mm",
+      "plated": true,
+      "source": "Pad",
+      "start_layer": "top",
+      "stop_layer": "bot (thermal)"
+    },
+    {
+      "count": 5,
+      "shape": "Round",
+      "x_size": "1.0900 mm",
+      "y_size": "1.0900 mm",
+      "plated": true,
+      "source": "Pad",
+      "start_layer": "top",
+      "stop_layer": "bot (thermal)"
+    },
+    {
+      "count": 4,
+      "shape": "Round",
+      "x_size": "4.2200 mm",
+      "y_size": "4.2200 mm",
+      "plated": true,
+      "source": "Pad",
+      "start_layer": "top",
+      "stop_layer": "bot (thermal)"
+    },
+    {
+      "count": 3,
+      "shape": "Round",
+      "x_size": "1.4000 mm",
+      "y_size": "1.4000 mm",
+      "plated": true,
+      "source": "Pad",
+      "start_layer": "top",
+      "stop_layer": "bot (thermal)"
+    },
+    {
+      "count": 2,
+      "shape": "Round",
+      "x_size": "1.3000 mm",
+      "y_size": "1.3000 mm",
+      "plated": true,
+      "source": "Pad",
+      "start_layer": "top",
+      "stop_layer": "bot (thermal)"
+    },
+    {
+      "count": 2,
+      "shape": "Round",
+      "x_size": "2.3800 mm",
+      "y_size": "2.3800 mm",
+      "plated": true,
+      "source": "Pad",
+      "start_layer": "top",
+      "stop_layer": "bot (thermal)"
+    },
+    {
+      "count": 2,
+      "shape": "Round",
+      "x_size": "1.7000 mm",
+      "y_size": "1.7000 mm",
+      "plated": false,
+      "source": "Pad",
+      "start_layer": "top",
+      "stop_layer": "bot (thermal)"
+    },
+    {
+      "count": 2,
+      "shape": "Round",
+      "x_size": "2.2000 mm",
+      "y_size": "2.2000 mm",
+      "plated": true,
+      "source": "Pad",
+      "start_layer": "top",
+      "stop_layer": "bot (thermal)"
+    },
+    {
+      "count": 1,
+      "shape": "Slot",
+      "x_size": "2.2000 mm",
+      "y_size": "1.0000 mm",
+      "plated": true,
+      "source": "Pad",
+      "start_layer": "top",
+      "stop_layer": "bot (thermal)"
+    }
+  ]
+}

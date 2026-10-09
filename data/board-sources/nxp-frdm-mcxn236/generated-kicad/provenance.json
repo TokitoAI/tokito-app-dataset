@@ -1,0 +1,185 @@
+{
+  "schema_version": 1,
+  "board_family": "nxp",
+  "status": "generated_candidate_requires_engineering_review",
+  "source_board_relation": "official Rev C design; specimen revision unconfirmed",
+  "source": {
+    "path": "data/board-sources/nxp-frdm-mcxn236/original-design-files/Design Files/LAY-90828_C.brd",
+    "sha256": "e5330f7b8476a2b1cc461db4ad5da7182da83299ad4874aea8c7d06c675e851d"
+  },
+  "generator": "KiCad CLI 10.0.7 on Windows",
+  "conversion": {
+    "format": "Allegro",
+    "import_report": "import-report.json",
+    "import_errors": 0,
+    "import_warnings": 0,
+    "import_statistics": {
+      "footprints": 581,
+      "tracks": 5532,
+      "vias": 593,
+      "zones": 37
+    },
+    "command_warning_summary": "Allegro import printed padstack antipad/thermal warnings although import-report.json warning list is empty; subsequent reads printed 8 invalid zero-sized-pad warnings."
+  },
+  "pcb_statistics": {
+    "width_mm": 118.0,
+    "height_mm": 55.0,
+    "thickness_mm": 1.6,
+    "outline_present": true,
+    "component_count": 402,
+    "pad_count": 1337,
+    "via_count": 593
+  },
+  "drc": {
+    "report": "drc-report.json",
+    "violation_counts_by_severity": {
+      "error": 1087,
+      "warning": 315
+    },
+    "unconnected_item_count": 0,
+    "fabrication_approved": false
+  },
+  "board_only_3d": {
+    "valid_glb_v2": true,
+    "mesh_count": 1,
+    "position_accessor_count": 314,
+    "xyz_extent_mm": [
+      118.0,
+      1.51,
+      55.0
+    ],
+    "outline_dimensions_match_pcb_stats_within_0_2_mm": true,
+    "thickness_matches_pcb_stats_within_0_2_mm": true,
+    "valid_step_ap214_with_solid_brep": true
+  },
+  "generated_files": [
+    {
+      "path": "board-only.glb",
+      "bytes": 877416,
+      "sha256": "0f01ce7b2b3af4f93097616af874e2cd8f500daf11d5d030b8e3ee97e4f1543e"
+    },
+    {
+      "path": "board-only.step",
+      "bytes": 506466,
+      "sha256": "ad03b47240b47a52c752ea67a2437501aba5a84c2eb95e53b865847d659cb523"
+    },
+    {
+      "path": "drc-report.json",
+      "bytes": 990023,
+      "sha256": "58cd3e2f7d263ed279e73dea2d895e4d4bbc574bd56685979b256df1b3d9a653"
+    },
+    {
+      "path": "drc.log",
+      "bytes": 1567,
+      "sha256": "a8af051f750ca5430b808d92533d79303a2130fb43940bca348acfdb96af2dfc"
+    },
+    {
+      "path": "FRDM-MCXN236.imported.kicad_pcb",
+      "bytes": 9215431,
+      "sha256": "c0d1389ce0710539104a3f2c4ca5f382c6b5fa2cce0edde315b4d73360f75b26"
+    },
+    {
+      "path": "gerbers-drill/drill-report.txt",
+      "bytes": 1141,
+      "sha256": "896a814a3444bdee4d72dea51b6e046b5619cebc3d996ab0236a1d146c111b46"
+    },
+    {
+      "path": "gerbers-drill/FRDM-MCXN236.imported-Board Geometry_Outline.gm1",
+      "bytes": 1165,
+      "sha256": "d20b8c51492c1495c664febe09c5fad8f13fb870b9127cea8faf8adfcf247526"
+    },
+    {
+      "path": "gerbers-drill/FRDM-MCXN236.imported-Board Geometry_Soldermask Bottom.gbs",
+      "bytes": 22810,
+      "sha256": "8c4dfb3b868cc2b384050d3ce643e0d0de2c1e16b15b0fa7a066349a3f7ee846"
+    },
+    {
+      "path": "gerbers-drill/FRDM-MCXN236.imported-Board Geometry_Soldermask Top.gts",
+      "bytes": 49369,
+      "sha256": "e283bbd567db1cb1dbefcf4389f7dc829e697e2f36eede5afec699bfa9d23437"
+    },
+    {
+      "path": "gerbers-drill/FRDM-MCXN236.imported-BOTTOM.gbl",
+      "bytes": 166263,
+      "sha256": "ea4537cdca7140d7aecaf8719907fe372addb269205663d0d4934a92dbceb8a7"
+    },
+    {
+      "path": "gerbers-drill/FRDM-MCXN236.imported-GND.g1",
+      "bytes": 959535,
+      "sha256": "6244479a947ccef864226f50497a636ffd6ccc68e010e5e7cddb0e8c26b0c75b"
+    },
+    {
+      "path": "gerbers-drill/FRDM-MCXN236.imported-job.gbrjob",
+      "bytes": 4120,
+      "sha256": "73856c5bcde4a01ddd161ed416b0fcc5d400e2ab3b1c64415cad259c2bfe9a49"
+    },
+    {
+      "path": "gerbers-drill/FRDM-MCXN236.imported-Package Geometry_Pastemask Bottom.gbp",
+      "bytes": 3543,
+      "sha256": "20189e87f611100b34767823c98848013e05d16b24cbea9e89fda81bd4a42754"
+    },
+    {
+      "path": "gerbers-drill/FRDM-MCXN236.imported-Package Geometry_Pastemask Top.gtp",
+      "bytes": 33631,
+      "sha256": "c1a72a29ec23588b49042e36f058bfc1d1a29409f3c8d5e0726a11ecd94de781"
+    },
+    {
+      "path": "gerbers-drill/FRDM-MCXN236.imported-POWER.g2",
+      "bytes": 1027068,
+      "sha256": "24b3473577118691720ead8402c1d0f6f38a66898eabe929155f0c9ee52b1676"
+    },
+    {
+      "path": "gerbers-drill/FRDM-MCXN236.imported-Ref Des_Silkscreen Bottom.gbo",
+      "bytes": 454999,
+      "sha256": "935187ed7391503967be426f3a5caaa6d76310c5d3c47677e654d8b976d2db10"
+    },
+    {
+      "path": "gerbers-drill/FRDM-MCXN236.imported-Ref Des_Silkscreen Top.gto",
+      "bytes": 872340,
+      "sha256": "e74ccfa00c17d9d8cabc647952256409ce365b9c2f5711037bcdc8d400f918cd"
+    },
+    {
+      "path": "gerbers-drill/FRDM-MCXN236.imported-TOP.gtl",
+      "bytes": 287505,
+      "sha256": "2a4ebbc19befb0cd7d27f0f578ecaf80571910c9791ab56f102eb8bd59f3b101"
+    },
+    {
+      "path": "gerbers-drill/FRDM-MCXN236.imported.drl",
+      "bytes": 14281,
+      "sha256": "162b19b737e6aa349821e631d3f0ee6d37105d185acef5dd8064a53015dd7985"
+    },
+    {
+      "path": "glb-export.log",
+      "bytes": 1539,
+      "sha256": "818e51af5bf80bc51ec75cefd5eecab24ada31404c6aa3e16f04dea50483d2fb"
+    },
+    {
+      "path": "import-report.json",
+      "bytes": 5013,
+      "sha256": "327dd8f5e177ab68e4f79ab0fe75938d54f954bdf61a2baf12ca8a0f2db0f0ba"
+    },
+    {
+      "path": "pcb-stats.json",
+      "bytes": 4125,
+      "sha256": "9f5d230c67d3db0c7ec9e09252a786923f965e6d16147c55671b91f8b639391c"
+    },
+    {
+      "path": "step-export.log",
+      "bytes": 1533,
+      "sha256": "68a7d76bf1a908db81d078e897ebbbb8054743c11a78fb8abdd1f7179ce31bc7"
+    }
+  ],
+  "source_reference_designator_comparison": {
+    "source_count": 391,
+    "generated_count": 391,
+    "matched_count": 391,
+    "missing_count": 0,
+    "additional_count": 0
+  },
+  "review_limitations": [
+    "DRC violations remain; Gerber/drill files are for dataset reference, not fabrication.",
+    "STEP and GLB include board body only, not component bodies or populated assembly.",
+    "Photo-to-CAD registration is pending.",
+    "Physical board revision is unconfirmed against official Rev C; Allegro padstack conversion needs engineering review."
+  ]
+}

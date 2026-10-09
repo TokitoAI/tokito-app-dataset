@@ -1,0 +1,147 @@
+{
+  "schema_version": "1.0",
+  "board": "FRDM-MCXN236",
+  "source_revision": "C",
+  "source_files": {
+    "allegro/pstchip.dat": {
+      "path": "original-design-files/Design Files/allegro/pstchip.dat",
+      "sha256": "95cfe2098c5e149d34c25ce895fa114ffcbc255756ed9d930c245f1129da51d9",
+      "bytes": 80283
+    },
+    "allegro/pstxnet.dat": {
+      "path": "original-design-files/Design Files/allegro/pstxnet.dat",
+      "sha256": "c159a276a573e994fc54abaa9fd873b64d0190f8c70ccb76dc72a62a265a12c2",
+      "bytes": 193849
+    },
+    "allegro/pstxprt.dat": {
+      "path": "original-design-files/Design Files/allegro/pstxprt.dat",
+      "sha256": "e0e4e24d19f73d39d0907960920549599c85159233a7d7c5cf12bfa3afd96682",
+      "bytes": 166412
+    },
+    "LAY-90828_C.brd": {
+      "path": "original-design-files/Design Files/LAY-90828_C.brd",
+      "sha256": "e5330f7b8476a2b1cc461db4ad5da7182da83299ad4874aea8c7d06c675e851d",
+      "bytes": 19636488
+    },
+    "SCH-90828_C.BOM": {
+      "path": "original-design-files/Design Files/SCH-90828_C.BOM",
+      "sha256": "5a1bb1d1e5e0d4229c57db6ba0647c8a50e440a646e45718db05be68480f79c3",
+      "bytes": 4203
+    },
+    "SCH-90828_C.BOM.xlsx": {
+      "path": "original-design-files/Design Files/SCH-90828_C.BOM.xlsx",
+      "sha256": "bea3bf8eb9b4aaddfaac5a767ac0e40dcbacaa96d515b91600e977732b009cd7",
+      "bytes": 26247
+    },
+    "SCH-90828_C.DSN": {
+      "path": "original-design-files/Design Files/SCH-90828_C.DSN",
+      "sha256": "f1784f205885b10733e03553e5ab9056a288d3e8ea82b6084642c882cbfe8710",
+      "bytes": 1302016
+    },
+    "SCH-90828_C.opj": {
+      "path": "original-design-files/Design Files/SCH-90828_C.opj",
+      "sha256": "d412f3edc05c33e170b1f276ab7f9ff92559b96daa196fe53139a555100c09d6",
+      "bytes": 7785
+    }
+  },
+  "schematic_join_sources": {
+    "index": {
+      "path": "schematic-reference-index.json",
+      "sha256": "46c96ddf49f2a9e530c76b0f41ded049e1755796aa6b965d915976b79d1eeff2",
+      "bytes": 347272
+    },
+    "pdf": {
+      "path": "SPF-90828.pdf",
+      "sha256": "243b93184f692b0f7c0deb3a9a63f6262ea3083a05c30c0143b4a4faa54b1868",
+      "bytes": 3511914
+    },
+    "match_basis": "Same normalized reference text only; symbol identity and photo identity are not established by this join."
+  },
+  "statistics": {
+    "bom_items": 96,
+    "bom_reference_designators": 391,
+    "bom_declared_quantity_sum": 391,
+    "bom_items_marked_DNP": 22,
+    "bom_references_marked_DNP": 63,
+    "no_part_to_order_references": 37,
+    "native_parts": 391,
+    "primitive_definitions": 92,
+    "net_records_including_NC": 297,
+    "electrical_net_records": 296,
+    "node_records_including_NC": 1330,
+    "no_connect_group_nodes": 87,
+    "electrical_net_nodes": 1243,
+    "references_on_electrical_nets": 387,
+    "components_with_schematic_text_candidates": 379
+  },
+  "validation": {
+    "native_grammar_fully_consumed": true,
+    "record_markers_match_parsed_counts": true,
+    "bom_quantities_match_reference_lists": true,
+    "cross_source_discrepancies": {
+      "xlsx_refs_missing_from_text_bom": [],
+      "text_bom_refs_missing_from_xlsx": [],
+      "bom_refs_missing_from_pstxprt": [],
+      "pstxprt_refs_missing_from_bom": [],
+      "pstxprt_refs_missing_from_pstxnet": [],
+      "pstxnet_refs_missing_from_pstxprt": [],
+      "missing_primitive_definitions": [],
+      "unused_primitive_definitions": [],
+      "bom_text_common_field_differences": [],
+      "bom_native_part_number_differences": [],
+      "dnp_flag_differences": [],
+      "node_pin_not_defined_in_primitive": [],
+      "node_instance_not_in_component_sections": [],
+      "duplicate_pin_assignments": []
+    },
+    "cross_source_comparisons_passed": true
+  },
+  "preserved_source_observations": {
+    "value_text_differences": [],
+    "xlsx_cells_containing_unicode_replacement_character": [],
+    "references_only_in_no_connect_group": [
+      "BH1",
+      "BH2",
+      "BH3",
+      "BH4"
+    ],
+    "references_without_schematic_text_candidates": [
+      "BH1",
+      "BH2",
+      "BH3",
+      "BH4",
+      "R132",
+      "R135",
+      "R136",
+      "SJ1",
+      "SJ2",
+      "SJ3",
+      "SJ4",
+      "SJ5"
+    ],
+    "assembly_options_raw": [
+      {
+        "value": null,
+        "bom_item_count": 71
+      },
+      {
+        "value": "DNP",
+        "bom_item_count": 22
+      },
+      {
+        "value": " ",
+        "bom_item_count": 3
+      }
+    ]
+  },
+  "limitations": [
+    "These are Rev C design records, not observations of what is fitted to the photographed specimen; the specimen revision remains unconfirmed.",
+    "BOM quantity includes DNP rows, mounting holes, test pads and solder jumpers; it is not a count of parts to buy or parts visible in a photo.",
+    "Raw XLSX columns retain original typed values. Numeric MFG_PN cells also have an explicit text identifier for lookup; no digits are added.",
+    "ASSY_OPT and PRE_APN are preserved literally. No alternate manufacturer-part list is supplied in these BOM columns, and PRE_APN is not converted into one.",
+    "NC is preserved as a no-connect group and must not be used as an electrical short between all listed pins.",
+    "Primitive HEIGHT strings have no added units; JEDEC_TYPE is retained as the native footprint identifier, without inferring geometry.",
+    "This script parses BOM/XLSX and PST text only. It does not decode BRD/DSN geometry or create Gerbers, STEP, GLB or photo bounding boxes.",
+    "Schematic candidates match normalized text only. BGA ball names, notes and old references can share that text; a matching candidate is not a confirmed symbol instance."
+  ]
+}

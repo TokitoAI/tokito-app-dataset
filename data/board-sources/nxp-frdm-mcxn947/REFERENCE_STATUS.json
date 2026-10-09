@@ -4,5 +4,11 @@
   "relation_to_phone_photos": "different_board_reference_only",
   "phone_specimen": "FRDM-MCXN236",
   "exact_annotation_use": false,
-  "reason": "Readable new photo silkscreen identifies MCXN236. Preserve947 sources for comparison without assigning their BOM, schematic or netlist to236."
+  "reason": "Readable photo silkscreen identifies MCXN236. Preserve MCXN947 sources for comparison without assigning their BOM, schematic or netlist to MCXN236.",
+  "historical_photo_relocation": {
+    "path_at_initial_import": "data/board-sources/nxp-frdm-mcxn947/photos/original/reference-5.jpeg",
+    "current_path": "data/board-sources/nxp-frdm-mcxn236/photos/original/reference-5.jpeg",
+    "sha256": "5616b01857fa284b576c6aa06e573a369076884c3f119aab2596176e9b09f687",
+    "bytes_unchanged": true
+  }
 }

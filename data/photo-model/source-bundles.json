@@ -1,7 +1,34 @@
 {
-  "esp32_board": {"path":"data/board-sources/esp32-devkit-30pin","relation":"community_reference_clone","exact_component_mapping":false},
-  "esp8266_board": {"path":"data/board-sources/esp8266-nodemcu-reference","relation":"different_usb_uart_reference_variant","exact_component_mapping":false},
-  "ultimainboard": {"path":"data/board-sources/ultimainboard-2.1.4","relation":"revision_marking_matches_source","exact_component_mapping":"requires_pixel_to_pcb_registration"},
-  "nxp_frdm_mcxn236_board": {"path":"data/board-sources/nxp-frdm-mcxn236","relation":"model_matches_silkscreen_revision_unconfirmed","exact_component_mapping":false,"incompatible_bundle":"data/board-sources/nxp-frdm-mcxn947"},
-  "raspberry_pi_3b_board": {"path":"data/board-sources/raspberry-pi-3b-v1.2","relation":"model_revision_matches_reduced_documents","exact_component_mapping":false}
+  "esp32_board": {
+    "path": "data/board-sources/esp32-devkit-30pin",
+    "relation": "community_reference_clone",
+    "exact_component_mapping": false
+  },
+  "esp8266_board": {
+    "path": "data/board-sources/esp8266-nodemcu-reference",
+    "relation": "different_usb_uart_reference_variant",
+    "exact_component_mapping": false
+  },
+  "ultimainboard": {
+    "path": "data/board-sources/ultimainboard-2.1.4",
+    "relation": "revision_marking_matches_source",
+    "exact_component_mapping": "requires_pixel_to_pcb_registration"
+  },
+  "nxp_frdm_mcxn236_board": {
+    "path": "data/board-sources/nxp-frdm-mcxn236",
+    "relation": "model_matches_silkscreen_revision_unconfirmed",
+    "exact_component_mapping": false,
+    "incompatible_bundle": "data/board-sources/nxp-frdm-mcxn947",
+    "schematic_reference_index": "data/board-sources/nxp-frdm-mcxn236/schematic-reference-index.json",
+    "photo_component_links": "annotations/component-source-links.json",
+    "identification_photo": "data/board-sources/nxp-frdm-mcxn236/photos/original/reference-5.jpeg",
+    "design_archive_inventory": "data/board-sources/nxp-frdm-mcxn236/archive-inventory.json",
+    "structured_components": "data/board-sources/nxp-frdm-mcxn236/structured-rev-c/components.json",
+    "structured_extraction_report": "data/board-sources/nxp-frdm-mcxn236/structured-rev-c/extraction-report.json"
+  },
+  "raspberry_pi_3b_board": {
+    "path": "data/board-sources/raspberry-pi-3b-v1.2",
+    "relation": "model_revision_matches_reduced_documents",
+    "exact_component_mapping": false
+  }
 }

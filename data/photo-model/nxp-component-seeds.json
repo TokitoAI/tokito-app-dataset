@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "source_image": "data/photo-model/photos\\raw\\IMG_20261009_221755_1.jpg",
+  "source_image": "data/photo-model/photos/raw/IMG_20261009_221755_1.jpg",
   "image_width": 1600,
   "image_height": 3888,
   "coordinate_format": "xyxy_normalized",
@@ -16,7 +16,7 @@
   "coverage": {
     "status": "partial_major_component_seeds",
     "microcomponents_complete": false,
-    "notes": "Major clearly visible populated headers, USB receptacles, main ICs, tactile SW3, and two metal resonators annotated. Dense passives, minor packages, jumpers, LED identification, bare footprints, underside and obscured objects remain unannotated. Unannotated image regions are not verified negative training examples. No exact reference designator or BOM part identity asserted."
+    "notes": "Major clearly visible populated headers, USB receptacles, main ICs, tactile SW3, and two metal resonators annotated. Dense passives, minor packages, jumpers, LED identification, bare footprints, underside and obscured objects remain unannotated. Unannotated image regions are not verified negative training examples. Ten photo reference designators are visually reviewed and linked to Rev C source candidates. The specimen revision is unconfirmed; all links remain model-level candidates. J11 on seed008 remains tentative and is not promoted. No exact installed BOM part identity is asserted."
   },
   "annotations": [
     {
@@ -58,8 +58,10 @@
       "evidence": "Populated vertical female header on left.",
       "clipped": false,
       "review_status": "visual_seed_requires_box_review",
-      "reference_designator": null,
-      "manufacturer_part_number": null
+      "reference_designator": "J5",
+      "manufacturer_part_number": null,
+      "reference_designator_origin": "manual_read_of_adjacent_silkscreen",
+      "source_link_id": "mcxn236-j5-source-candidate"
     },
     {
       "id": "nxp_seed_003",
@@ -79,8 +81,10 @@
       "evidence": "Populated vertical female header beside central ICs.",
       "clipped": false,
       "review_status": "visual_seed_requires_box_review",
-      "reference_designator": null,
-      "manufacturer_part_number": null
+      "reference_designator": "J6",
+      "manufacturer_part_number": null,
+      "reference_designator_origin": "manual_read_of_adjacent_silkscreen",
+      "source_link_id": "mcxn236-j6-source-candidate"
     },
     {
       "id": "nxp_seed_004",
@@ -100,8 +104,10 @@
       "evidence": "Populated dual-row female header on right.",
       "clipped": false,
       "review_status": "visual_seed_requires_box_review",
-      "reference_designator": null,
-      "manufacturer_part_number": null
+      "reference_designator": "J4",
+      "manufacturer_part_number": null,
+      "reference_designator_origin": "manual_read_of_adjacent_silkscreen",
+      "source_link_id": "mcxn236-j4-source-candidate"
     },
     {
       "id": "nxp_seed_005",
@@ -121,8 +127,10 @@
       "evidence": "Populated long dual-row female header on right.",
       "clipped": false,
       "review_status": "visual_seed_requires_box_review",
-      "reference_designator": null,
-      "manufacturer_part_number": null
+      "reference_designator": "J3",
+      "manufacturer_part_number": null,
+      "reference_designator_origin": "manual_read_of_adjacent_silkscreen",
+      "source_link_id": "mcxn236-j3-source-candidate"
     },
     {
       "id": "nxp_seed_006",
@@ -142,8 +150,10 @@
       "evidence": "Exposed dual-row pin header near lower edge.",
       "clipped": false,
       "review_status": "visual_seed_requires_box_review",
-      "reference_designator": null,
-      "manufacturer_part_number": null
+      "reference_designator": "J12",
+      "manufacturer_part_number": null,
+      "reference_designator_origin": "manual_read_of_adjacent_silkscreen",
+      "source_link_id": "mcxn236-j12-source-candidate"
     },
     {
       "id": "nxp_seed_007",
@@ -205,8 +215,10 @@
       "evidence": "Tactile switch; adjacent SW3 silkscreen readable.",
       "clipped": false,
       "review_status": "visual_seed_requires_box_review",
-      "reference_designator": null,
-      "manufacturer_part_number": null
+      "reference_designator": "SW3",
+      "manufacturer_part_number": null,
+      "reference_designator_origin": "manual_reading_of_adjacent_photo_silkscreen",
+      "source_link_id": "mcxn236-sw3-schematic-candidate"
     },
     {
       "id": "nxp_seed_010",
@@ -226,8 +238,10 @@
       "evidence": "Largest central square IC; package text cannot be reliably read.",
       "clipped": false,
       "review_status": "visual_seed_requires_box_review",
-      "reference_designator": null,
-      "manufacturer_part_number": null
+      "reference_designator": "U1",
+      "manufacturer_part_number": null,
+      "reference_designator_origin": "manual_read_of_adjacent_silkscreen",
+      "source_link_id": "mcxn236-u1-source-candidate"
     },
     {
       "id": "nxp_seed_011",
@@ -247,8 +261,10 @@
       "evidence": "Large square IC in lower half; identity unverified.",
       "clipped": false,
       "review_status": "visual_seed_requires_box_review",
-      "reference_designator": null,
-      "manufacturer_part_number": null
+      "reference_designator": "U8",
+      "manufacturer_part_number": null,
+      "reference_designator_origin": "manual_read_of_adjacent_silkscreen",
+      "source_link_id": "mcxn236-u8-source-candidate"
     },
     {
       "id": "nxp_seed_012",
@@ -268,8 +284,10 @@
       "evidence": "Medium rectangular IC with visible perimeter pins.",
       "clipped": false,
       "review_status": "visual_seed_requires_box_review",
-      "reference_designator": null,
-      "manufacturer_part_number": null
+      "reference_designator": "U12",
+      "manufacturer_part_number": null,
+      "reference_designator_origin": "manual_read_of_adjacent_silkscreen",
+      "source_link_id": "mcxn236-u12-source-candidate"
     },
     {
       "id": "nxp_seed_013",
@@ -457,8 +475,10 @@
       "evidence": "Two-position populated header with shunts; confirmed in rotated detail crop.",
       "clipped": false,
       "review_status": "visual_seed_requires_box_review",
-      "reference_designator": null,
-      "manufacturer_part_number": null
+      "reference_designator": "J13",
+      "manufacturer_part_number": null,
+      "reference_designator_origin": "manual_read_of_adjacent_silkscreen",
+      "source_link_id": "mcxn236-j13-source-candidate"
     },
     {
       "id": "nxp_seed_022",
@@ -544,5 +564,7 @@
       "reference_designator": null,
       "manufacturer_part_number": null
     }
-  ]
+  ],
+  "path_base": "repository_root",
+  "source_image_sha256": "39fc7bf72f364c0b0e848dc9fe9492b85efbdef1481a28d9bbecf4787e51a47e"
 }

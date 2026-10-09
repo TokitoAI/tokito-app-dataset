@@ -1,0 +1,34 @@
+Drill report for FRDM-MCXN236.imported.kicad_pcb
+Created on 2026-10-10T02:55:38
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  TOP                       front
+    L2 :  GND                       in1
+    L3 :  POWER                     in2
+    L4 :  BOTTOM                    back
+
+
+Drill file 'FRDM-MCXN236.imported.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.203mm  0.0080"  (69 holes))
+    T2  0.254mm  0.0100"  (524 holes))
+    T3  0.406mm  0.0160"  (32 holes))
+    T4  0.610mm  0.0240"  (8 holes)  (with 8 slots)
+    T5  0.711mm  0.0280"  (10 holes))
+    T6  0.813mm  0.0320"  (10 holes)  (with 10 slots)
+    T7  1.016mm  0.0400"  (91 holes))
+    T8  1.041mm  0.0410"  (72 holes))
+    T9  1.118mm  0.0440"  (16 holes))
+
+    Total plated holes count 832
+
+
+Not plated through holes are merged with plated holes
+    unplated through holes:
+    =============================================================
+    T10  1.194mm  0.0470"  (4 holes))
+    T11  3.175mm  0.1250"  (4 holes))
+
+    Total unplated holes count 8

@@ -1,0 +1,15 @@
+# Source pin coverage and photo mapping gates
+
+Every photo label follows **board family → visible part → physical pin**. A schematic pin number is source evidence, not a photo pin box. A physical pin label becomes eligible only after the specimen variant, parent part, pin-1/orientation, and image position have been reviewed. Until then its `photo_bbox_xyxy_pixels` remains `null`.
+
+| Board family | Source available here | Source pin identity | Photo pin identity |
+| --- | --- | --- | --- |
+| `esp32_board` | DOIT 30-pin pinout and a 24-footprint community clone BOM/KiCad design | Reference pinout only; clone layout is not proven to match the photographed specimen | No reviewed individual pin positions |
+| `esp8266_board` | NodeMCU V1.0 Altium schematic/PCB and pin-map image | 151 native schematic pin records under 34 source symbols in `non-nxp-source-pins.json`; photographed clone has a different USB-UART variant | No source refdes or individual pin automatically transferred to the photographed clone |
+| `ultimainboard` | Ultimainboard 2.1.4 Altium schematic/PCB with 574 matching schematic/PCB refdes | 1,292 native schematic pin records under 567 of 574 source symbols in `non-nxp-source-pins.json`; 1,278 distinct refdes/number pairs because some source symbol records repeat | Four J22 contacts now have reviewed photo boxes and pad numbers 1–4; other pins remain unregistered |
+| `nxp_frdm_mcxn236_board` | Official Rev C BOM, Allegro/OrCAD design, derived netlist | Native source pin records and 10 visually reviewed candidate photo-to-refdes links are in the existing NXP source files; photographed specimen revision is unconfirmed | No individual pin boxes or pin-1 orientation reviewed yet |
+| `raspberry_pi_3b_board` | Model/revision-matching reduced schematic and mechanical PDF, plus community 3D reference | Reduced documentation supports connector-level review, but this repo has no extracted native pin/part catalog for this board | No individual pin positions reviewed |
+
+The new [source pin catalog](../data/board-sources/non-nxp-source-pins.json) is generated from the Altium schematic record streams with `python scripts/build_non_nxp_source_pins.py`. Each pin's `OWNERINDEX + 1` must resolve to a component symbol record on the same sheet and to the existing schematic component inventory; the generator fails otherwise. The catalog deliberately has no inferred net names or photo coordinates. Regenerate and verify it with `python scripts/build_non_nxp_source_pins.py --check`.
+
+The immediate labeling queue is: confirm the board and variant from the image; match a visible parent part using silkscreen and layout; inspect its source pin list; establish pin 1 and side/orientation in the image; then annotate the physical pin point or box. A source pin with no visible or confidently localized contact stays source-only. This rule is the same for all five families.

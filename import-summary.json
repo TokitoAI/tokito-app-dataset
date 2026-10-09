@@ -727,8 +727,11 @@
       "bytes": 1618
     },
     {
-      "path": "data/board-sources/nxp-frdm-mcxn947/photos/original/reference-5.jpeg",
-      "bytes": 88168
+      "path": "data/board-sources/nxp-frdm-mcxn236/photos/original/reference-5.jpeg",
+      "bytes": 88168,
+      "path_at_initial_import": "data/board-sources/nxp-frdm-mcxn947/photos/original/reference-5.jpeg",
+      "relocation_reason": "Photograph identifies FRDM-MCXN236; earlier MCXN947 hypothesis superseded.",
+      "sha256": "5616b01857fa284b576c6aa06e573a369076884c3f119aab2596176e9b09f687"
     },
     {
       "path": "data/board-sources/nxp-frdm-mcxn947/design-files-rev-c/Design Files/LAY_90818_C.brd",

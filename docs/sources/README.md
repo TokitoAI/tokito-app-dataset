@@ -1,21 +1,34 @@
 # Tokito board dataset
 
-Collection for the iQOO hackathon finale, with Afnan and Navaneeth. The final product aim will be supplied later. Repository work has not started.
+Collection for the iQOO hackathon finale, with Afnan and Navaneeth. The private dataset repository is [TokitoAI/tokito-app-dataset](https://github.com/TokitoAI/tokito-app-dataset), with dataset and model changes proposed through pull requests. The final application aim will be supplied later.
 
-Start with COVERAGE.md for current coverage and gaps. PROJECT_CONTEXT.md preserves the team context and acquisition history. PHOTO_CAPTURE.md describes the planned phone-photo collection.
+Start with COVERAGE.md for current coverage and gaps. PROJECT_CONTEXT.md preserves acquisition history, including the superseded MCXN947 identity hypothesis. PHOTO_CAPTURE.md remains the protocol for additional independent phone captures.
 
 ## Files for data work
 
-- asset-catalog.json and file-inventory.csv: saved assets, classifications, sizes and SHA-256 hashes. Partial downloads and superseded extractions are excluded.
-- manifest.csv: original acquisition results and URLs, including failed attempts. Use status=downloaded entries when checking source acquisitions.
-- dataset-audit.json: original-source checksums, photo checksums and verified GLB source chains. A passing checksum audit does not prove a physical-board match or engineering correctness.
-- LICENSE_NOTES.md: observed source terms and locations of retained evidence.
-- Each board folder contains original photographs, native source files and labeled structured/derived data where available.
-- auxiliary/DeepPCB: verified 1500-pair defect dataset with original splits and samples.jsonl. This data does not label components on our boards.
-- auxiliary/PCBVision: source metadata and archive-member inventory. Image/label acquisition remains incomplete.
+In the repository, native documents and derived source records are under `data/board-sources`, the phone corpus and reviewed board labels are under `data/photo-model`, and these notes are under `docs/sources`. The local acquisition collection is `outputs/board-dataset`.
 
-## Board matching
+- The local collection's asset-catalog.json, file-inventory.csv, manifest.csv and dataset-audit.json retain acquisition records, hashes and prior audit results. They are historical snapshots, not proof of a current physical-board match or complete coverage of later additions. Read each board's provenance alongside them.
+- The repository's import-summary.json records imported paths and sizes. Board annotations record phone-image hashes, identities, reviewed boxes and split membership; the acquisition photo-manifest.json retains its original ingest state.
+- LICENSE_NOTES.md and file-specific notices preserve observed source terms.
+- Board folders contain original photographs, native files and structured/derived records where available.
+- The local auxiliary/DeepPCB collection contains the 1500-pair defect dataset. Repository data/external preserves metadata/audits; bulk auxiliary images are not included there.
+- PCB-Vision metadata and archive-member inventory are preserved, but RGB image/label acquisition remains incomplete.
 
-The Pi photo identifies Model 3B V1.2 and the Ultimaker photo identifies Ultimainboard 2.1.4. The NXP suffix/revision and ESP board manufacturers/revisions require confirmation. Official NodeMCU reference files differ from the photographed wide CH340-style clone. The ESP32 and Pi community models are comparison references until geometry is checked.
+## Board matching and photos
 
-Missing files and remaining acquisition routes are recorded in REMAINING_SOURCE_LEADS.md. Keep original images intact. New phone photos and physical-board revision confirmations can be added without changing source design labels.
+The phone photos identify FRDM-MCXN236, Ultimainboard 2.1.4 and Raspberry Pi 3B V1.2. The MCXN236 PCB revision and ESP board manufacturers/revisions still require confirmation. MCXN947 files remain an incompatible reference and must not be used as the photographed NXP board's BOM, PCB or schematic.
+
+MCXN236 sources now include the preserved 13-page SPF-90828 Rev C schematic and the official design ZIP downloaded by the user on 2026-10-10. The ZIP passed CRC verification; its eight files include native Allegro BRD, OrCAD DSN/project, .BOM text/.BOM.xlsx and three connectivity DAT files. `archive-inventory.json` records hashes and member details. The earlier timeout/HTTP 403 attempts are retained as history in PROVENANCE.md.
+
+The archive contains no separate Gerber, drill, STEP or GLB exports. Verified structured extraction joins 96 source BOM items to 391 designators; text BOM, XLSX and native part/netlist reference sets agree. It preserves 92 primitives, 296 electrical nets / 1,243 pin records, and a separate NC group / 87 pins. The 63 DNP references and 37 NO PART TO ORDER references remain explicit; the total is not a fitted-part count. See `structured-rev-c/README.md` and `extraction-report.json`. Native CAD has not been engineering-validated, and the physical PCB revision is still unknown. The separate schematic's earlier local download provenance remains unknown.
+
+The schematic index provides 629 reference-like text occurrences across 410 normalized strings, with explicit ambiguity for BGA pin names, history and repeated symbols. These are search entries, not BOM/component counts. 379 native references have schematic-text candidates. SW3 links to the page-10 ISP switch and source BOM item 79, row 93, MPN `434123025826`; its photo association remains model-level, with exact installed-part identity unresolved.
+
+The corpus includes five original identification photos and 80 phone files (47 captures and 33 cropped variants). Board identities and boxes were reviewed. Component seeds cover 204 major visible objects across fifteen photos and remain incomplete. Exact part links require readable markings or reviewed registration to the correct PCB revision.
+
+Official NodeMCU reference files differ from the photographed wide CH340-style clone. ESP32 and Pi community models remain comparison references until geometry is checked. Ultimaker's matching revision marking supports further registration; it does not by itself locate every source designator in a photo.
+
+The board detector split has 62 training files, 11 validation originals and seven excluded validation crop variants. Each original and crop stays in the same fold. With one specimen/session per family and no separate ESP32 validation pose, current model diagnostics do not establish recognition across new specimens or sessions. Complete component labeling and independent evaluation data remain necessary.
+
+Missing files and remaining acquisition routes are recorded in REMAINING_SOURCE_LEADS.md. Preserve original images, uncertain links, source attribution and file-specific notices when adding data through PRs.

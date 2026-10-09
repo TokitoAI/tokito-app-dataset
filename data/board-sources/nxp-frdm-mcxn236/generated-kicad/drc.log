@@ -1,0 +1,35 @@
+2:56:04 AM: Warning: Invalid zero-sized pad pinned to 1µm in
+file: data/board-sources/nxp-frdm-mcxn236/generated-kicad/FRDM-MCXN236.imported.kicad_pcb
+line: 11029
+offset: 3
+2:56:04 AM: Warning: Invalid zero-sized pad pinned to 1µm in
+file: data/board-sources/nxp-frdm-mcxn236/generated-kicad/FRDM-MCXN236.imported.kicad_pcb
+line: 11054
+offset: 3
+2:56:04 AM: Warning: Invalid zero-sized pad pinned to 1µm in
+file: data/board-sources/nxp-frdm-mcxn236/generated-kicad/FRDM-MCXN236.imported.kicad_pcb
+line: 42391
+offset: 3
+2:56:04 AM: Warning: Invalid zero-sized pad pinned to 1µm in
+file: data/board-sources/nxp-frdm-mcxn236/generated-kicad/FRDM-MCXN236.imported.kicad_pcb
+line: 42416
+offset: 3
+2:56:04 AM: Warning: Invalid zero-sized pad pinned to 1µm in
+file: data/board-sources/nxp-frdm-mcxn236/generated-kicad/FRDM-MCXN236.imported.kicad_pcb
+line: 151780
+offset: 3
+2:56:04 AM: Warning: Invalid zero-sized pad pinned to 1µm in
+file: data/board-sources/nxp-frdm-mcxn236/generated-kicad/FRDM-MCXN236.imported.kicad_pcb
+line: 183559
+offset: 3
+2:56:04 AM: Warning: Invalid zero-sized pad pinned to 1µm in
+file: data/board-sources/nxp-frdm-mcxn236/generated-kicad/FRDM-MCXN236.imported.kicad_pcb
+line: 192962
+offset: 3
+2:56:04 AM: Warning: Invalid zero-sized pad pinned to 1µm in
+file: data/board-sources/nxp-frdm-mcxn236/generated-kicad/FRDM-MCXN236.imported.kicad_pcb
+line: 244943
+offset: 3
+Found 1402 violations
+Found 0 unconnected items
+Saved DRC Report to data/board-sources/nxp-frdm-mcxn236/generated-kicad/drc-report.json
