@@ -1,14 +1,15 @@
 from pathlib import Path
 from PIL import Image,ImageOps
-import json
+import json,hashlib
 root=Path('data/photo-model');rows=json.loads((root/'board-annotations.json').read_text());names=['esp32_board','esp8266_board','ultimainboard','nxp_frdm_mcxn236_board','raspberry_pi_3b_board']
 val_captures={'IMG_20261009_221154.jpg','IMG_20261009_221155.jpg','IMG_20261009_221156.jpg','IMG_20261009_221657.jpg','IMG_20261009_222033.jpg','IMG_20261009_222038.jpg','IMG_20261009_222042.jpg','IMG_20261009_222108.jpg','IMG_20261009_222113.jpg','IMG_20261009_222340.jpg','IMG_20261009_222343.jpg'}
 counts={'train':0,'val':0,'held_out_crop_variant':0};export=[]
+approved=json.loads((root/'board-review.json').read_text())['images']
 for row in rows:
- cid=row['class_id'];fn=row['file'];box=row['bbox_xyxy_normalized']
- # Visually reviewed contact sheets: tight phone crops bound the entire visible board.
- if '_1.' in fn:box=[0.,0.,1.,1.]
- elif cid==4:box=[max(0,box[0]-.02),max(0,box[1]-.02),min(1,box[2]+.025),min(1,box[3]+.04)]
+ fn=row['file'];review=approved.get(fn)
+ if review is None:raise ValueError('Photo needs board review before export: '+fn)
+ if hashlib.sha256((root/'photos/raw'/fn).read_bytes()).hexdigest()!=review['sha256']:raise ValueError('Reviewed image changed: '+fn)
+ cid=review['class_id'];box=review['bbox_xyxy_normalized'];row['class_id']=cid
  row['bbox_xyxy_normalized']=box;row['box_status']='visually-reviewed-board-box';row['review_notes']='80-box contact sheets reviewed; tight crop boxes expanded to full visible assembly; Pi boxes include port protrusions.'
  row['board_class']=names[cid]
  if cid==3:row['exact_model']='FRDM-MCXN236';row['model_evidence']='readable silkscreen on IMG_20261009_221755_1.jpg';row['reference_947_link']='not-a-match'

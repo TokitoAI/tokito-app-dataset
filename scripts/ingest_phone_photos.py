@@ -1,7 +1,7 @@
 from pathlib import Path
 from PIL import Image,ImageOps,ImageDraw
 import hashlib,json,re,shutil
-src=Path('C:/Users/Acer/Downloads');root=Path('data/photo-model');raw=root/'photos/raw';raw.mkdir(parents=True,exist_ok=True)
+src=Path.home()/'Downloads';root=Path('data/photo-model');raw=root/'photos/raw';raw.mkdir(parents=True,exist_ok=True)
 paths=sorted(src.glob('IMG_20261009*.jpg'));records=[]
 for p in paths:
  b=p.read_bytes();digest=hashlib.sha256(b).hexdigest()

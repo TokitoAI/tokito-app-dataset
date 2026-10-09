@@ -3,7 +3,9 @@ import json,hashlib
 root=Path(__file__).resolve().parents[1];p=root/'data/photo-model';rows=json.loads((p/'board-annotations.json').read_text())
 assert len(rows)==80,'Expected reviewed initial80-file snapshot; update this control in a reviewed PR'
 names=['esp32_board','esp8266_board','ultimainboard','nxp_frdm_mcxn236_board','raspberry_pi_3b_board'];folds={'train':set(),'val':set()};counts={'train':0,'val':0,'held_out_crop_variant':0}
+approved=json.loads((p/'board-review.json').read_text())['images']
 for row in rows:
+ review=approved[row['file']];assert review['sha256']==row['sha256'] and review['class_id']==row['class_id'] and review['bbox_xyxy_normalized']==row['bbox_xyxy_normalized']
  assert row['board_class']==names[row['class_id']]
  assert row['box_status']=='visually-reviewed-board-box'
  x1,y1,x2,y2=row['bbox_xyxy_normalized'];assert 0<=x1<x2<=1 and 0<=y1<y2<=1
