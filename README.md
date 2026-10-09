@@ -26,6 +26,8 @@ The first split has62 training images and11 validation originals. Seven validati
 
 Component seed annotations cover107 major visible objects across five photos. They are partial and are excluded from complete component-detector training. Tiny passives, exact part IDs, hidden components and board backs still require labeling/review. See `data/photo-model/MODEL_SCOPE.md`.
 
+The [board, part and pin hierarchy](docs/LABEL_HIERARCHY.md) records the labeling order across all 80 photos. Ten NXP parts have source links and 352 source pin records; individual pin positions have not yet been labeled in the photos.
+
 BOM entries, schematic pages and Gerber layers are linked documents. They are not YOLO object classes. Exact links need matched revisions and readable markings or registered PCB geometry. Unknown links remain unknown.
 
 The [MCXN236 schematic index](data/board-sources/nxp-frdm-mcxn236/README_INDEX.md) locates reference-designator text on PDF pages. Ten [component source links](annotations/component-source-links.json) pair readable photo markings with checked schematic symbols and source BOM records. Their installed part numbers and the specimen revision are still unknown. See [source-link conventions](docs/SOURCE_LINKS.md).

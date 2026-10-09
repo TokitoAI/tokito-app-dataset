@@ -4,7 +4,7 @@ Updated 2026-10-10 for the Tokito iQOO hackathon finale with Afnan and Navaneeth
 
 Build a board and component dataset for the photographed ESP32, ESP8266 ESP-12E clone, Ultimainboard 2.1.4, NXP FRDM-MCXN236 and Raspberry Pi 3B V1.2. Collect the available BOM, native board/layout files, schematics, Gerbers/manufacturing files, STEP/GLB models and relevant external datasets. Preserve source identity, revision, provenance, hashes and the limits of each reference match.
 
-Use the 80 downloaded phone images to recognize board families and label visible components. Link component detections to supported source records and train YOLO models for board and component tasks. Publish dataset, tooling and model artifacts in the private `TokitoAI/tokito-app-dataset` repository through pull requests. Application development remains a separate later task.
+Use the 80 downloaded phone images to label every board family first, then its visible parts, then the physical pins of those parts where position and identity can be verified. Apply this order to all five board families. Link detections to supported source records and train YOLO models for the reviewed board, component and pin tasks when labels are sufficient. Publish dataset, tooling and model artifacts in the private `TokitoAI/tokito-app-dataset` repository through pull requests. Application development remains a separate later task.
 
 ## Current evidence
 
@@ -18,12 +18,13 @@ Use the 80 downloaded phone images to recognize board families and label visible
 | Matching NXP sources | Published for review in [PR #5](https://github.com/TokitoAI/tokito-app-dataset/pull/5): CRC-verified Rev C archive with BRD, DSN/project, BOM text/XLSX and three netlist DAT files; structured extraction verified: 96 BOM items and 391 source references |
 | Schematic lookup | MCXN236 PDF indexed across 13 sheets; 629 reference-like text occurrences, not BOM quantities |
 | Component/source links | 10 readable photo reference labels linked to visually reviewed Rev C schematic symbols and BOM/native-part candidates; specimen revision and installed part identities unconfirmed |
+| Board → part → pin hierarchy | Same rule across all five families: 80 board entries, 107 partial part boxes and 352 source pin records under 10 linked NXP parts; zero individual pin locations reviewed in photos |
 | Source separation | MCXN947 retained as a different-board reference; its BOM and layout are excluded from MCXN236 ground truth |
 
 ## Remaining work
 
 1. Review the verified MCXN236 source bundle and structured BOM/connectivity in PR #5, and extend the 10 supported photo-to-source candidates across the remaining visible objects. The extraction covers 391 source references (including 63 DNP and 37 NO PART TO ORDER references), 296 electrical nets and a separate NC group; these are design records, not fitted-part counts.
-2. Complete component annotation and review. Cover small passives, connectors, ICs, occluded/clipped objects and any available back views; partial seeds must not supply false negative regions during training.
+2. Complete part and then physical-pin annotation and review across every board family. Cover small passives, connectors, ICs, occluded/clipped objects and any available back views; partial seeds must not supply false negative regions during training. Pin numbers require checked orientation or markings before becoming photo labels.
 3. Establish supported links from photo objects to matching board/revision source records. Preserve unknowns and distinguish source part numbers from identities confirmed on a physical specimen.
 4. Continue acquiring or producing missing manufacturing and 3D files where supported by the source. The MCXN236 ZIP has no separate Gerbers, drill files or STEP/GLB. Exact ESP clone files, complete Pi BOM/layout/manufacturing files, Ultimaker Gerber exports and some complete board models remain unresolved.
 5. Train and evaluate the component detector after reviewed labels exist. Retain checkpoints, configurations, data lineage, predictions and failure cases.
