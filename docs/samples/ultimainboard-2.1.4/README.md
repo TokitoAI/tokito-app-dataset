@@ -47,3 +47,11 @@ There are **61 extracted embedded STEP files**, representing **39 distinct byte 
 The NXP photographs identify **FRDM-MCXN236**; its physical revision remains **unverified**. Its [official Rev C sources](https://www.nxp.com/design/design-center/development-boards-and-designs/FRDM-MCXN236) are stored separately under `data/board-sources/nxp-frdm-mcxn236`. The `nxp-frdm-mcxn947` directory is a **different-board reference**, never a substitute for the photographed MCXN236 or evidence of its component UUIDs. Neither board is used to establish the Ultimainboard mapping.
 
 [manifest.json](manifest.json) records scope and evidence. [verification.json](verification.json) records file/hash, unit, UUID and J22 checks. Large binaries in this repository use Git LFS; hashes refer to the complete downloaded asset bytes, not pointer text.
+
+## Offline, conversion, model and AR records
+
+[offline-manifest.json](offline-manifest.json) distinguishes fully materialized files from Git LFS pointers. An offline bundle is valid only when it has no pointer entries and every byte hash matches.
+
+[conversion-provenance.md](conversion-provenance.md) records the input/output hashes, KiCad version, captured import report, export logs and the two zero-sized-pad warnings. [model-component-mapping.json](model-component-mapping.json) lists every imported model URI with its footprint UUID, reference designator and composed placement inputs; unknown native STEP associations are marked explicitly. [ar-registration.json](ar-registration.json) records the reviewed J22 landmark and four mounting-hole candidates, while withholding an AR transform until enough independently verified correspondences exist.
+
+The repository-wide [all-board index](../../ALL_BOARD_INDEX.json) records revision evidence, CAD/model coverage, verification status and missing inputs for each board family.
