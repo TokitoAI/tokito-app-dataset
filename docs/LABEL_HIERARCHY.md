@@ -8,6 +8,8 @@ Each current linked source pin record has `mapping_status: source_pin_unregister
 
 For example, the photographed NXP board contains a seeded MCU SWD header marked J12. The Rev C source lists J12 pin 1 on `JTAG_VREF`, pin 2 on `P0_0/SWDIO` and pin 4 on `P0_1/SWCLK`. The photo shows the header and the J12 marking. Assigning those numbers to individual photographed contacts still requires registration to the PCB layout or an independently checked pin-1 orientation.
 
+A [J12 review proposal](NXP_PIN_REGISTRATION_SPRINT.md) now records ten visible contact boxes and candidate Rev C pad/net numbers. It remains outside the canonical photo pin labels because the photographed revision and pin-1 mark have not been confirmed.
+
 The next review must follow this order for each photo, regardless of board manufacturer:
 
 1. Confirm board family, model and revision where visible. Keep unknown revisions explicit.

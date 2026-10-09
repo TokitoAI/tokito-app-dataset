@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0",
+  "status": "candidate_not_training_ground_truth",
+  "reason": "Physical board revision and image-visible pin-1 orientation remain unconfirmed.",
+  "board_family": "nxp_frdm_mcxn236_board",
+  "board_model": "FRDM-MCXN236",
+  "image_file": "IMG_20261009_221755_1.jpg",
+  "image_path": "data/photo-model/photos/raw/IMG_20261009_221755_1.jpg",
+  "image_sha256": "39fc7bf72f364c0b0e848dc9fe9492b85efbdef1481a28d9bbecf4787e51a47e",
+  "image_width": 1600,
+  "image_height": 3888,
+  "parent_part_annotation_id": "nxp_seed_006",
+  "parent_part_id": "IMG_20261009_221755_1.jpg:annotations/nxp-component-seeds.json:nxp_seed_006",
+  "parent_part_reference_designator": "J12",
+  "source_revision": "C",
+  "source_pcb": "data/board-sources/nxp-frdm-mcxn236/generated-kicad/FRDM-MCXN236.imported.kicad_pcb",
+  "coordinate_format": "xyxy_pixels",
+  "orientation_evidence": "J12 and MCU SWD silkscreen plus global component layout align the photo with the imported Rev C PCB; pin-1 numeral itself is unreadable.",
+  "proposals": [
+    {"pin_number": "10", "source_net": "MCU_RESET_B", "xyxy_pixels": [1233, 3651, 1249, 3667]},
+    {"pin_number": "9", "source_net": "N301213", "xyxy_pixels": [1271, 3651, 1287, 3667]},
+    {"pin_number": "8", "source_net": "P0_3/TDI", "xyxy_pixels": [1233, 3694, 1249, 3710]},
+    {"pin_number": "7", "source_net": "P0_6", "xyxy_pixels": [1271, 3694, 1287, 3710]},
+    {"pin_number": "6", "source_net": "P0_2/SWO", "xyxy_pixels": [1233, 3736, 1249, 3752]},
+    {"pin_number": "5", "source_net": "GND", "xyxy_pixels": [1271, 3736, 1287, 3752]},
+    {"pin_number": "4", "source_net": "P0_1/SWCLK", "xyxy_pixels": [1233, 3780, 1249, 3796]},
+    {"pin_number": "3", "source_net": "GND", "xyxy_pixels": [1271, 3780, 1287, 3796]},
+    {"pin_number": "2", "source_net": "P0_0/SWDIO", "xyxy_pixels": [1233, 3824, 1249, 3840]},
+    {"pin_number": "1", "source_net": "JTAG_VREF", "xyxy_pixels": [1271, 3824, 1287, 3840]}
+  ]
+}
