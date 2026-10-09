@@ -1,0 +1,95 @@
+{
+  "schema_version": "1.0",
+  "status": "source_verified_photo_pin_link",
+  "board_family": "ultimainboard",
+  "board_model": "Ultimainboard 2.1.4",
+  "photo": {
+    "path": "data/photo-model/by_board/ultimainboard/IMG_20261009_222135_1.jpg",
+    "sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+    "width": 1408,
+    "height": 3112,
+    "revision_evidence": "Visible Ultimainboard rev. 2.1.4 marking, J22 and SERIAL silkscreen, and pin-1 triangle beside leftmost header contact."
+  },
+  "photo_part": {
+    "seed_file": "annotations/large-board-component-seeds.json",
+    "seed_file_sha256": "207e36d742163ce30cd375c5f544495a1fac9188f5f681a3f5f591ccd300522f",
+    "seed_id": "major-020",
+    "part_id": "IMG_20261009_222135_1.jpg:annotations/large-board-component-seeds.json:major-020",
+    "reference_designator": "J22",
+    "bbox_xyxy_normalized": [0.633225, 0.007324, 0.773463, 0.026367]
+  },
+  "native_sources": {
+    "pcb": {
+      "path": "data/board-sources/ultimainboard-2.1.4/1546 ultimainboard V2.1.4/Ultimaker_V2.1.4.PcbDoc",
+      "sha256": "53696e9f6f38df54a0c4d6065f8f8336e9df918773ea949b0b687fdf659d0160",
+      "component_unique_id": "MWFWPWHQ",
+      "source_unique_id": "\\SIOTLFTE",
+      "footprint": "HEADER-1X4P-ST-2.54",
+      "source_hierarchical_path": "schema3"
+    },
+    "schematic": {
+      "path": "data/board-sources/ultimainboard-2.1.4/1546 ultimainboard V2.1.4/schema3.SchDoc",
+      "sha256": "3a973cae68d2be24da8b80093cb0b319ffbad06c690b3d9a9f6cfcfda4e2fb05",
+      "extracted_record_path": "data/board-sources/ultimainboard-2.1.4/structured-source/schematic-records/schema3.json",
+      "component_stream_record_index": 1182,
+      "pin_stream_record_indices": [1184, 1187, 1190, 1193],
+      "wire_stream_record_indices": [1204, 1205, 1206, 1207],
+      "net_label_stream_record_indices": [1208, 1209, 1211, 1212]
+    }
+  },
+  "imported_pcb": {
+    "path": "data/board-sources/ultimainboard-2.1.4/generated-kicad/Ultimainboard-2.1.4.imported.kicad_pcb",
+    "sha256": "f763641f75470b4fb5b95391ae1ec40ab4ffe2a80bc28dafd2685901c08680b7",
+    "footprint_uuid": "24ee97da-cf16-4509-add4-6886f42b21e0",
+    "reference_designator": "J22",
+    "footprint": "Database_Faber:HEADER-1X4P-ST-2.54",
+    "location_mm": [232.4511, 114.1506],
+    "rotation_degrees": -90,
+    "pad_pitch_mm": 2.54,
+    "pin_1_orientation_evidence": "Front silkscreen triangle at local pad-1 end; same triangle is at left of J22 in the photo."
+  },
+  "pins": [
+    {
+      "pin_number": "1",
+      "photo_pin_id": "ultimainboard-j22-1",
+      "photo_bbox_xyxy_pixels": [902, 27, 946, 73],
+      "source_net": "+5V",
+      "imported_pad_uuid": "ac7ff3ad-f15a-4c55-b12b-6b9a7458facd",
+      "imported_pad_local_at_mm": [0.0, 0.0],
+      "schematic_pin_record_index": 1184
+    },
+    {
+      "pin_number": "2",
+      "photo_pin_id": "ultimainboard-j22-2",
+      "photo_bbox_xyxy_pixels": [948, 27, 992, 73],
+      "source_net": "GND",
+      "imported_pad_uuid": "d99bdabb-151d-4a7f-b1a0-d6749a19c1f5",
+      "imported_pad_local_at_mm": [2.54, 0.0],
+      "schematic_pin_record_index": 1187
+    },
+    {
+      "pin_number": "3",
+      "photo_pin_id": "ultimainboard-j22-3",
+      "photo_bbox_xyxy_pixels": [995, 27, 1039, 73],
+      "source_net": "TXD2",
+      "imported_pad_uuid": "8caf5ed4-9f40-4626-9ac5-9dfd4c5afc4a",
+      "imported_pad_local_at_mm": [5.08, 0.0],
+      "schematic_pin_record_index": 1190
+    },
+    {
+      "pin_number": "4",
+      "photo_pin_id": "ultimainboard-j22-4",
+      "photo_bbox_xyxy_pixels": [1041, 27, 1085, 73],
+      "source_net": "RXD2",
+      "imported_pad_uuid": "0a262386-2509-4a20-853e-0d9116136726",
+      "imported_pad_local_at_mm": [7.62, 0.0],
+      "schematic_pin_record_index": 1193
+    }
+  ],
+  "caveats": [
+    "The four contact positions are visually reviewed on one photograph only; this is not exhaustive labeling of Ultimainboard parts or pins.",
+    "Imported KiCad board is a derived rendering of the original Altium PCB; the original PCB and schematic files are retained and hash-addressed above.",
+    "Net names describe the electrical source design, not a measured signal or voltage on the photographed physical specimen.",
+    "Do not propagate pin numbers to other photos until their orientation is individually registered."
+  ]
+}

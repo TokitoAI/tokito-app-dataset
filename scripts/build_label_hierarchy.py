@@ -2,7 +2,7 @@
 """Build the reviewed board -> partial part -> reviewed photo pin labeling view.
 
 Source pin records are design candidates. Reviewed pin annotations can be added
-for any board family, but none exists in this snapshot.
+for any board family with verified parent and orientation evidence.
 """
 from __future__ import annotations
 
@@ -26,6 +26,14 @@ def sha256(name):
     return hashlib.sha256((ROOT / name).read_bytes()).hexdigest()
 
 
+def verify_source_hash(name, expected):
+    data = (ROOT / name).read_bytes()
+    if data.startswith(b'version https://git-lfs.github.com/spec/v1\n'):
+        assert f'oid sha256:{expected}\n'.encode() in data
+    else:
+        assert hashlib.sha256(data).hexdigest() == expected
+
+
 def box(values):
     assert len(values) == 4 and all(isinstance(v, (int, float)) for v in values)
     x0, y0, x1, y1 = values
@@ -46,9 +54,11 @@ def main():
                   'annotations/large-board-component-seeds.json',
                   'annotations/nxp-component-seeds.json',
                   'annotations/component-seeds-expanded.json',
-                  'annotations/component-seeds-sprint.json']
+                  'annotations/component-seeds-sprint.json',
+                  'annotations/component-seeds-final.json']
     links_path = 'annotations/component-source-links.json'
     photo_pins_path = 'annotations/pin-annotations.json'
+    j22_link_path = 'annotations/ultimainboard-j22-source-link.json'
     components_path = 'data/board-sources/nxp-frdm-mcxn236/structured-rev-c/components.json'
     boards = read(board_path)
     review = read(review_path)['images']
@@ -160,7 +170,7 @@ def main():
             'pins': pins,
         })
 
-    for source in [seed_paths[0], seed_paths[1], seed_paths[3], seed_paths[4]]:
+    for source in [seed_paths[0], seed_paths[1], *seed_paths[3:]]:
         data = read(source)
         for image in data['images']:
             name = Path(image.get('filename', image.get('image'))).name
@@ -236,6 +246,37 @@ def main():
             })
         part['photo_pin_label_count'] += 1
         pin_count += 1
+    j22 = read(j22_link_path)
+    assert j22['schema_version'] == '1.0' and j22['status'] == 'source_verified_photo_pin_link'
+    assert j22['board_family'] == 'ultimainboard'
+    assert j22['photo_part']['seed_file_sha256'] == sha256('annotations/large-board-component-seeds.json')
+    for source in [j22['native_sources']['pcb'], j22['native_sources']['schematic'], j22['imported_pcb']]:
+        verify_source_hash(source['path'], source['sha256'])
+    j22_image = by_file[Path(j22['photo']['path']).name]
+    assert j22_image['image_sha256'] == j22['photo']['sha256']
+    j22_part = next(part for part in j22_image['parts'] if part['id'] == j22['photo_part']['part_id'])
+    assert j22_part['observed_reference_designator'] == j22['imported_pcb']['reference_designator'] == 'J22'
+    assert j22_part['bbox_xyxy_normalized'] == j22['photo_part']['bbox_xyxy_normalized']
+    j22_catalog = {(pin['refdes'], pin['pin_number']): pin for pin in other_pin_families['ultimainboard']['pins'] if pin['refdes'] == 'J22'}
+    assert len(j22_catalog) == len(j22['pins']) == 4
+    for source_pin in j22['pins']:
+        number = source_pin['pin_number']
+        photo_pin = next(pin for pin in j22_part['pins'] if pin['pin_number'] == number)
+        catalog_pin = j22_catalog['J22', number]
+        assert photo_pin['photo_pin_annotation_id'] == source_pin['photo_pin_id']
+        assert photo_pin['photo_bbox_xyxy_pixels'] == source_pin['photo_bbox_xyxy_pixels']
+        assert catalog_pin['source_record_index'] == source_pin['schematic_pin_record_index']
+        photo_pin['symbol_pin_name'] = catalog_pin['pin_name']
+        photo_pin['source_net_name'] = source_pin['source_net']
+        photo_pin['source_record_kind'] = 'revision_matched_pcb_pad_and_schematic_pin'
+        photo_pin['source_link_path'] = j22_link_path
+        photo_pin['mapping_status'] = 'reviewed_photo_pin_with_source_link'
+    j22_part['source_component_candidate'] = {
+        'source_refdes': 'J22',
+        'source_board_revision': '2.1.4',
+        'source_link_path': j22_link_path,
+        'installed_part_identity_status': 'unconfirmed',
+    }
     stats = {
         'board_images': len(by_file),
         'board_family_counts': dict(sorted(Counter(row['board']['family'] for row in by_file.values()).items())),
@@ -247,21 +288,24 @@ def main():
         'part_seed_boxes_by_family': dict(sorted({family: sum(
             len(row['parts']) for row in by_file.values()
             if row['board']['family'] == family) for family in CLASS_NAMES}.items())),
-        'source_linked_part_seeds': linked_count,
+        'source_linked_part_seeds': linked_count + 1,
+        'nxp_source_linked_part_seeds': linked_count,
         'source_pin_records_under_linked_parts': pin_record_count,
-        'unlinked_reference_source_pin_records': sum(row['source_pin_record_count'] for row in other_pin_families.values()),
+        'reference_source_pin_catalog_records': sum(row['source_pin_record_count'] for row in other_pin_families.values()),
+        'unlinked_reference_source_pin_records': sum(row['source_pin_record_count'] for row in other_pin_families.values()) - len(j22['pins']),
+        'source_linked_photo_pins': len(j22['pins']),
         'photo_pins_located': pin_count,
         'photo_pins_located_by_family': dict(sorted({family: sum(
             part['photo_pin_label_count'] for row in by_file.values()
             if row['board']['family'] == family for part in row['parts'])
             for family in CLASS_NAMES}.items())),
     }
-    assert stats['partial_part_images'] == 15 and stats['part_seed_boxes'] == 204
+    assert stats['partial_part_images'] == 19 and stats['part_seed_boxes'] == 233
     result = {
         'schema_version': '1.0',
         'label_order': ['board_family', 'part', 'pin'],
         'meaning': 'Board labels are reviewed; part boxes are partial review seeds; source pin records are not photo pin labels.',
-        'sources': {name: {'sha256': sha256(name)} for name in [board_path, review_path, manifest_path, source_bundles_path, other_pins_path, *seed_paths, links_path, components_path, photo_pins_path]},
+        'sources': {name: {'sha256': sha256(name)} for name in [board_path, review_path, manifest_path, source_bundles_path, other_pins_path, *seed_paths, links_path, components_path, photo_pins_path, j22_link_path]},
         'statistics': stats,
         'images': [by_file[row['file']] for row in boards],
     }

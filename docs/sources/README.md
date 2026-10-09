@@ -25,7 +25,7 @@ The archive contains no separate Gerber, drill, STEP or GLB exports. Verified st
 
 The schematic index provides 629 reference-like text occurrences across 410 normalized strings, with explicit ambiguity for BGA pin names, history and repeated symbols. These are search entries, not BOM/component counts. 379 native references have schematic-text candidates. SW3 links to the page-10 ISP switch and source BOM item 79, row 93, MPN `434123025826`; its photo association remains model-level, with exact installed-part identity unresolved.
 
-The corpus includes five original identification photos and 80 phone files (47 captures and 33 cropped variants). Board identities and boxes were reviewed. Component seeds cover 204 major visible objects across fifteen photos and remain incomplete. Exact part links require readable markings or reviewed registration to the correct PCB revision.
+The corpus includes five original identification photos and 80 phone files (47 captures and 33 cropped variants). Board identities and boxes were reviewed. Component seeds cover 233 major visible objects across nineteen photos and remain incomplete. Exact part links require readable markings or reviewed registration to the correct PCB revision.
 
 Official NodeMCU reference files differ from the photographed wide CH340-style clone. ESP32 and Pi community models remain comparison references until geometry is checked. Ultimaker's matching revision marking supports further registration; it does not by itself locate every source designator in a photo.
 

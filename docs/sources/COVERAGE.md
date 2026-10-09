@@ -27,7 +27,7 @@ Five original identification photographs are preserved, plus the 80 phone files 
 
 The board detector split contains 62 training images and 11 validation originals; seven corresponding validation crop variants are excluded. Original/crop groups do not cross folds. There is one physical specimen and one capture session per family. ESP32 has no separate validation pose group. This split cannot establish performance on new specimens, sessions or unseen ESP32 poses.
 
-Component seeds contain 204 major visible object boxes across fifteen photos. They are partial and require further box review and exhaustive labeling of the intended classes before component-detector training. Tiny passives, obscured parts and board backs remain incomplete. Source records and model-level candidate links do not establish exact populated-part identity.
+Component seeds contain 233 major visible object boxes across nineteen photos. They are partial and require further box review and exhaustive labeling of the intended classes before component-detector training. Tiny passives, obscured parts and board backs remain incomplete. Source records and model-level candidate links do not establish exact populated-part identity.
 
 Experimental YOLO board detector and crop-classifier training has been performed. Reported predictions on the same 80 known photos are diagnostics, including a front-view geometric filter chosen after inspecting errors; they are not independent accuracy measurements. No complete component detector or exact BOM/refdes/Gerber inference is established. Model artifacts are handled through separate repository PRs.
 

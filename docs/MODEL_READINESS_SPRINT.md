@@ -6,14 +6,14 @@ As audited on 2026-10-10, the board-family layer has 80 reviewed photo boxes: 62
 
 | Board family | Photos | Photos with partial part seeds | Part boxes | Photo pin boxes |
 | --- | ---: | ---: | ---: | ---: |
-| ESP32 | 12 | 3 | 18 | 0 |
-| ESP8266 | 14 | 3 | 15 | 0 |
+| ESP32 | 12 | 4 | 24 | 0 |
+| ESP8266 | 14 | 4 | 21 | 0 |
 | NXP FRDM-MCXN236 | 18 | 3 | 52 | 0 |
-| Raspberry Pi 3B | 18 | 3 | 33 | 0 |
-| Ultimainboard | 18 | 3 | 86 | 4 |
-| **Total** | **80** | **15** | **204** | **4** |
+| Raspberry Pi 3B | 18 | 4 | 42 | 0 |
+| Ultimainboard | 18 | 4 | 94 | 4 |
+| **Total** | **80** | **19** | **233** | **4** |
 
-The 204 part boxes span 13 broad visual classes. The largest are connector headers (64) and integrated circuits (49); several classes have only a few instances. Ninety-seven boxes carry the `visual_reviewed_major_component_box` status; 107 older seeds retain review-pending statuses. All fifteen part-annotated photos have **partial** major-part coverage, and the other 65 photos have no part review. Four validation originals now have 39 selected part boxes across ESP8266, NXP, Pi 3B and Ultimainboard. Their unboxed objects are not verified negatives, so component recall or mAP would still be misleading. ESP32 has no validation photo in the current split.
+The 233 part boxes span 17 broad visual classes, including aliases that need harmonization before training. The largest are connector headers (64) and integrated circuits (60). The final pass adds 29 visually reviewed boxes; the reviewed J22 parent is also promoted. All nineteen part-annotated photos have **partial** major-part coverage, and the other 61 photos have no part review. Four validation originals have 39 selected part boxes across ESP8266, NXP, Pi 3B and Ultimainboard. Their unboxed objects are not verified negatives, so component recall or mAP would still be misleading. ESP32 has no validation photo in the current split.
 
 Four contacts on the photographed Ultimainboard J22 header have reviewed pixel boxes and physical pin numbers. The 352 NXP pin records under ten source-linked part candidates describe electrical source pins and contain no registered pixel boxes. Other source pin catalogs also remain separate from photo pin labels. Four boxes on one specimen are not enough to train or evaluate a useful pin detector.
 

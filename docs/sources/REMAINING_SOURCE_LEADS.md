@@ -42,4 +42,4 @@ Official repository https://github.com/hifexplo/PCBVision links Zenodo record 10
 
 ## Photo and part-label work
 
-The 80 phone files and reviewed board boxes are collected. The 204 major-component seed boxes remain partial. Additional independent specimens/sessions, board-back photos, full visible-component review and photo-to-PCB registration are still needed for complete component labels and useful evaluation. Readable refdes may support a candidate source link while physical revision or installed-part identity remains unresolved.
+The 80 phone files and reviewed board boxes are collected. The 233 major-component seed boxes remain partial. Additional independent specimens/sessions, board-back photos, full visible-component review and photo-to-PCB registration are still needed for complete component labels and useful evaluation. Readable refdes may support a candidate source link while physical revision or installed-part identity remains unresolved.
