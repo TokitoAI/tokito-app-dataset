@@ -26,9 +26,9 @@ The first split has62 training images and11 validation originals. Seven validati
 
 ## Component labeling and document links
 
-Component seed annotations cover 236 visible part boxes across nineteen photos. They are partial and are excluded from complete component-detector training. Tiny passives, exact part IDs, hidden components and board backs still require labeling/review. See `data/photo-model/MODEL_SCOPE.md`, `docs/EXPANDED_COMPONENT_SEEDS.md` and `docs/COMPONENT_SPRINT.md`.
+Component seed annotations cover 240 visible part boxes across nineteen photos. They are partial and are excluded from complete component-detector training. Tiny passives, exact part IDs, hidden components and board backs still require labeling/review. See `data/photo-model/MODEL_SCOPE.md`, `docs/EXPANDED_COMPONENT_SEEDS.md` and `docs/COMPONENT_SPRINT.md`.
 
-The [board, part and pin hierarchy](docs/LABEL_HIERARCHY.md) records the labeling order across all 80 photos. Ultimainboard J22/J23/J1/J2 have 22 reviewed numbered contacts linked to source nets. ESP32 and ESP8266 have 44 [printed contact aliases](docs/ESP_HEADER_PIN_LABELS.md), with numeric pin numbers and source nets unknown. Ten NXP parts have source links and 352 unregistered source pin records. The ESP8266-reference and Ultimainboard [source catalog](docs/SOURCE_PIN_COVERAGE.md) has 1,443 records, including 22 now joined to photo pins.
+The [board, part and pin hierarchy](docs/LABEL_HIERARCHY.md) records the labeling order across all 80 photos. Ultimainboard J22/J23/J1/J2 have 22 reviewed numbered contacts linked to source nets; [Pi J8](docs/PI_J8_PIN_LABELS.md) adds 40 numbered contacts linked to its revision 1.2 schematic. ESP32 and ESP8266 have 103 [printed contact aliases](docs/ESP_ADDITIONAL_CONTACTS.md) across four photos, with numeric pin numbers and source nets unknown. Ten NXP parts have source links and 352 unregistered source pin records. The ESP8266-reference and Ultimainboard [source catalog](docs/SOURCE_PIN_COVERAGE.md) has 1,443 records, including 22 now joined to photo pins.
 
 BOM entries, schematic pages and Gerber layers are linked documents. They are not YOLO object classes. Exact links need matched revisions and readable markings or registered PCB geometry. Unknown links remain unknown.
 

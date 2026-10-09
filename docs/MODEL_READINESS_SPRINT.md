@@ -6,16 +6,16 @@ As audited on 2026-10-10, the board-family layer has 80 reviewed photo boxes: 62
 
 | Board family | Photos | Photos with partial part seeds | Part boxes | Numbered pins | Printed-alias contacts |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| ESP32 | 12 | 4 | 25 | 0 | 15 |
-| ESP8266 | 14 | 4 | 23 | 0 | 29 |
+| ESP32 | 12 | 4 | 27 | 0 | 45 |
+| ESP8266 | 14 | 4 | 25 | 0 | 58 |
 | NXP FRDM-MCXN236 | 18 | 3 | 52 | 0 | 0 |
-| Raspberry Pi 3B | 18 | 4 | 42 | 0 | 0 |
+| Raspberry Pi 3B | 18 | 4 | 42 | 40 | 0 |
 | Ultimainboard | 18 | 4 | 94 | 22 | 0 |
-| **Total** | **80** | **19** | **236** | **22** | **44** |
+| **Total** | **80** | **19** | **240** | **62** | **103** |
 
-The 236 part boxes span 18 broad visual classes, including aliases that need harmonization before training. The largest are connector headers (64) and integrated circuits (60). Three reviewed ESP contact-row parents were added, and four Ultimainboard header parents have reviewed reference designators. All nineteen part-annotated photos have **partial** major-part coverage, and the other 61 photos have no part review. Four validation originals have 39 selected part boxes across ESP8266, NXP, Pi 3B and Ultimainboard. Their unboxed objects are not verified negatives, so component recall or mAP would still be misleading. ESP32 has no validation photo in the current split.
+The 240 part boxes span 18 broad visual classes, including aliases that need harmonization before training. The largest are connector headers (64) and integrated circuits (60). Seven reviewed ESP contact-row parents were added, and the four Ultimainboard headers plus Pi J8 have reviewed reference designators. All nineteen part-annotated photos have **partial** major-part coverage, and the other 61 photos have no part review. Four validation originals have 39 selected part boxes across ESP8266, NXP, Pi 3B and Ultimainboard. Their unboxed objects are not verified negatives, so component recall or mAP would still be misleading. ESP32 has no validation photo in the current split.
 
-Ultimainboard J22/J23/J1/J2 provide 22 reviewed numbered contacts and source-net links. The 44 ESP contact boxes carry only directly observed silkscreen aliases: numeric pin numbers, chip-pin identities and source nets remain unknown. The 352 NXP pin records under ten source-linked part candidates describe electrical source pins and contain no registered pixel boxes. Only 22 of the separate 1,443 reference catalog records are registered to photos. These 66 contact boxes across three photos are partial seeds, insufficient to train or evaluate a useful general pin detector.
+Ultimainboard J22/J23/J1/J2 provide 22 reviewed numbered contacts and source-net links. Pi J8 adds 40 numbered contacts with revision 1.2 reduced-schematic net names; lower contact positions are less sharp. The 103 ESP contact boxes across four photos carry only directly observed silkscreen aliases: numeric pin numbers, chip-pin identities and source nets remain unknown. The 352 NXP pin records under ten source-linked part candidates describe electrical source pins and contain no registered pixel boxes. Only 22 of the separate 1,443 Altium reference catalog records are registered to photos. These 165 contact boxes across six photos are partial seeds from repeated physical specimens, insufficient to train or evaluate a useful general pin detector.
 
 For the requested board → part → pin workflow, the shortest sound path is:
 
