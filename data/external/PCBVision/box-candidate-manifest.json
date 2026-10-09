@@ -3,6 +3,13 @@
   "mask_variant": "General",
   "minimum_connected_region_pixels": 16,
   "annotation_status": "automatic_semantic_mask_box_candidates_not_reviewed_instances",
+  "split_method": "reproducible_random_split_of_53_distinct_PCB_images",
+  "split_seed": 42,
+  "split_counts": {
+    "train": 33,
+    "val": 9,
+    "test": 11
+  },
   "class_names": [
     "ic",
     "capacitor",
@@ -11,6 +18,7 @@
   "images": [
     {
       "image_id": "1",
+      "split": "train",
       "source_image": "PCBDataset/RGB/1.jpg",
       "source_mask": "PCBDataset/RGB/General/1.png",
       "width": 1450,
@@ -131,6 +139,7 @@
     },
     {
       "image_id": "10",
+      "split": "test",
       "source_image": "PCBDataset/RGB/10.jpg",
       "source_mask": "PCBDataset/RGB/General/10.png",
       "width": 2736,
@@ -1601,6 +1610,7 @@
     },
     {
       "image_id": "11",
+      "split": "val",
       "source_image": "PCBDataset/RGB/11.jpg",
       "source_mask": "PCBDataset/RGB/General/11.png",
       "width": 1285,
@@ -2011,6 +2021,7 @@
     },
     {
       "image_id": "12",
+      "split": "train",
       "source_image": "PCBDataset/RGB/12.jpg",
       "source_mask": "PCBDataset/RGB/General/12.png",
       "width": 1446,
@@ -2131,6 +2142,7 @@
     },
     {
       "image_id": "13",
+      "split": "train",
       "source_image": "PCBDataset/RGB/13.jpg",
       "source_mask": "PCBDataset/RGB/General/13.png",
       "width": 1559,
@@ -2411,6 +2423,7 @@
     },
     {
       "image_id": "14",
+      "split": "val",
       "source_image": "PCBDataset/RGB/14.jpg",
       "source_mask": "PCBDataset/RGB/General/14.png",
       "width": 1760,
@@ -2551,6 +2564,7 @@
     },
     {
       "image_id": "15",
+      "split": "test",
       "source_image": "PCBDataset/RGB/15.jpg",
       "source_mask": "PCBDataset/RGB/General/15.png",
       "width": 3517,
@@ -3091,6 +3105,7 @@
     },
     {
       "image_id": "16",
+      "split": "test",
       "source_image": "PCBDataset/RGB/16.jpg",
       "source_mask": "PCBDataset/RGB/General/16.png",
       "width": 4112,
@@ -3561,6 +3576,7 @@
     },
     {
       "image_id": "17",
+      "split": "test",
       "source_image": "PCBDataset/RGB/17.jpg",
       "source_mask": "PCBDataset/RGB/General/17.png",
       "width": 4112,
@@ -4391,6 +4407,7 @@
     },
     {
       "image_id": "18",
+      "split": "train",
       "source_image": "PCBDataset/RGB/18.jpg",
       "source_mask": "PCBDataset/RGB/General/18.png",
       "width": 1921,
@@ -4661,6 +4678,7 @@
     },
     {
       "image_id": "19",
+      "split": "train",
       "source_image": "PCBDataset/RGB/19.jpg",
       "source_mask": "PCBDataset/RGB/General/19.png",
       "width": 3204,
@@ -5441,6 +5459,7 @@
     },
     {
       "image_id": "2",
+      "split": "train",
       "source_image": "PCBDataset/RGB/2.jpg",
       "source_mask": "PCBDataset/RGB/General/2.png",
       "width": 3000,
@@ -7561,6 +7580,7 @@
     },
     {
       "image_id": "20",
+      "split": "train",
       "source_image": "PCBDataset/RGB/20.jpg",
       "source_mask": "PCBDataset/RGB/General/20.png",
       "width": 1985,
@@ -7651,6 +7671,7 @@
     },
     {
       "image_id": "21",
+      "split": "val",
       "source_image": "PCBDataset/RGB/21.jpg",
       "source_mask": "PCBDataset/RGB/General/21.png",
       "width": 2270,
@@ -8411,6 +8432,7 @@
     },
     {
       "image_id": "22",
+      "split": "test",
       "source_image": "PCBDataset/RGB/22.jpg",
       "source_mask": "PCBDataset/RGB/General/22.png",
       "width": 2219,
@@ -9261,6 +9283,7 @@
     },
     {
       "image_id": "23",
+      "split": "test",
       "source_image": "PCBDataset/RGB/23.jpg",
       "source_mask": "PCBDataset/RGB/General/23.png",
       "width": 2056,
@@ -9811,6 +9834,7 @@
     },
     {
       "image_id": "24",
+      "split": "train",
       "source_image": "PCBDataset/RGB/24.jpg",
       "source_mask": "PCBDataset/RGB/General/24.png",
       "width": 2925,
@@ -10291,6 +10315,7 @@
     },
     {
       "image_id": "25",
+      "split": "test",
       "source_image": "PCBDataset/RGB/25.jpg",
       "source_mask": "PCBDataset/RGB/General/25.png",
       "width": 2698,
@@ -10831,6 +10856,7 @@
     },
     {
       "image_id": "26",
+      "split": "train",
       "source_image": "PCBDataset/RGB/26.jpg",
       "source_mask": "PCBDataset/RGB/General/26.png",
       "width": 3098,
@@ -11121,6 +11147,7 @@
     },
     {
       "image_id": "27",
+      "split": "train",
       "source_image": "PCBDataset/RGB/27.jpg",
       "source_mask": "PCBDataset/RGB/General/27.png",
       "width": 2918,
@@ -11701,6 +11728,7 @@
     },
     {
       "image_id": "28",
+      "split": "train",
       "source_image": "PCBDataset/RGB/28.jpg",
       "source_mask": "PCBDataset/RGB/General/28.png",
       "width": 2641,
@@ -12471,6 +12499,7 @@
     },
     {
       "image_id": "29",
+      "split": "train",
       "source_image": "PCBDataset/RGB/29.jpg",
       "source_mask": "PCBDataset/RGB/General/29.png",
       "width": 2673,
@@ -12971,6 +13000,7 @@
     },
     {
       "image_id": "3",
+      "split": "train",
       "source_image": "PCBDataset/RGB/3.jpg",
       "source_mask": "PCBDataset/RGB/General/3.png",
       "width": 1820,
@@ -13241,6 +13271,7 @@
     },
     {
       "image_id": "30",
+      "split": "train",
       "source_image": "PCBDataset/RGB/30.jpg",
       "source_mask": "PCBDataset/RGB/General/30.png",
       "width": 2622,
@@ -13761,6 +13792,7 @@
     },
     {
       "image_id": "31",
+      "split": "train",
       "source_image": "PCBDataset/RGB/31.jpg",
       "source_mask": "PCBDataset/RGB/General/31.png",
       "width": 3282,
@@ -14441,6 +14473,7 @@
     },
     {
       "image_id": "32",
+      "split": "train",
       "source_image": "PCBDataset/RGB/32.jpg",
       "source_mask": "PCBDataset/RGB/General/32.png",
       "width": 2725,
@@ -14871,6 +14904,7 @@
     },
     {
       "image_id": "33",
+      "split": "train",
       "source_image": "PCBDataset/RGB/33.jpg",
       "source_mask": "PCBDataset/RGB/General/33.png",
       "width": 2902,
@@ -15311,6 +15345,7 @@
     },
     {
       "image_id": "34",
+      "split": "val",
       "source_image": "PCBDataset/RGB/34.jpg",
       "source_mask": "PCBDataset/RGB/General/34.png",
       "width": 2456,
@@ -15391,6 +15426,7 @@
     },
     {
       "image_id": "35",
+      "split": "train",
       "source_image": "PCBDataset/RGB/35.jpg",
       "source_mask": "PCBDataset/RGB/General/35.png",
       "width": 1803,
@@ -15501,6 +15537,7 @@
     },
     {
       "image_id": "36",
+      "split": "train",
       "source_image": "PCBDataset/RGB/36.jpg",
       "source_mask": "PCBDataset/RGB/General/36.png",
       "width": 2838,
@@ -15831,6 +15868,7 @@
     },
     {
       "image_id": "37",
+      "split": "train",
       "source_image": "PCBDataset/RGB/37.jpg",
       "source_mask": "PCBDataset/RGB/General/37.png",
       "width": 3365,
@@ -16331,6 +16369,7 @@
     },
     {
       "image_id": "38",
+      "split": "train",
       "source_image": "PCBDataset/RGB/38.jpg",
       "source_mask": "PCBDataset/RGB/General/38.png",
       "width": 3179,
@@ -16731,6 +16770,7 @@
     },
     {
       "image_id": "39",
+      "split": "val",
       "source_image": "PCBDataset/RGB/39.jpg",
       "source_mask": "PCBDataset/RGB/General/39.png",
       "width": 2641,
@@ -17081,6 +17121,7 @@
     },
     {
       "image_id": "4",
+      "split": "train",
       "source_image": "PCBDataset/RGB/4.jpg",
       "source_mask": "PCBDataset/RGB/General/4.png",
       "width": 1620,
@@ -17281,6 +17322,7 @@
     },
     {
       "image_id": "40",
+      "split": "test",
       "source_image": "PCBDataset/RGB/40.jpg",
       "source_mask": "PCBDataset/RGB/General/40.png",
       "width": 3583,
@@ -19511,6 +19553,7 @@
     },
     {
       "image_id": "41",
+      "split": "train",
       "source_image": "PCBDataset/RGB/41.jpg",
       "source_mask": "PCBDataset/RGB/General/41.png",
       "width": 1056,
@@ -19851,6 +19894,7 @@
     },
     {
       "image_id": "42",
+      "split": "train",
       "source_image": "PCBDataset/RGB/42.jpg",
       "source_mask": "PCBDataset/RGB/General/42.png",
       "width": 1466,
@@ -19961,6 +20005,7 @@
     },
     {
       "image_id": "43",
+      "split": "val",
       "source_image": "PCBDataset/RGB/43.jpg",
       "source_mask": "PCBDataset/RGB/General/43.png",
       "width": 846,
@@ -20071,6 +20116,7 @@
     },
     {
       "image_id": "44",
+      "split": "train",
       "source_image": "PCBDataset/RGB/44.jpg",
       "source_mask": "PCBDataset/RGB/General/44.png",
       "width": 1358,
@@ -20181,6 +20227,7 @@
     },
     {
       "image_id": "45",
+      "split": "train",
       "source_image": "PCBDataset/RGB/45.jpg",
       "source_mask": "PCBDataset/RGB/General/45.png",
       "width": 1049,
@@ -20521,6 +20568,7 @@
     },
     {
       "image_id": "46",
+      "split": "test",
       "source_image": "PCBDataset/RGB/46.jpg",
       "source_mask": "PCBDataset/RGB/General/46.png",
       "width": 1708,
@@ -20631,6 +20679,7 @@
     },
     {
       "image_id": "47",
+      "split": "val",
       "source_image": "PCBDataset/RGB/47.jpg",
       "source_mask": "PCBDataset/RGB/General/47.png",
       "width": 1607,
@@ -20741,6 +20790,7 @@
     },
     {
       "image_id": "48",
+      "split": "train",
       "source_image": "PCBDataset/RGB/48.jpg",
       "source_mask": "PCBDataset/RGB/General/48.png",
       "width": 1613,
@@ -20931,6 +20981,7 @@
     },
     {
       "image_id": "49",
+      "split": "test",
       "source_image": "PCBDataset/RGB/49.jpg",
       "source_mask": "PCBDataset/RGB/General/49.png",
       "width": 1643,
@@ -21021,6 +21072,7 @@
     },
     {
       "image_id": "5",
+      "split": "train",
       "source_image": "PCBDataset/RGB/5.jpg",
       "source_mask": "PCBDataset/RGB/General/5.png",
       "width": 1329,
@@ -21201,6 +21253,7 @@
     },
     {
       "image_id": "50",
+      "split": "train",
       "source_image": "PCBDataset/RGB/50.jpg",
       "source_mask": "PCBDataset/RGB/General/50.png",
       "width": 1655,
@@ -21321,6 +21374,7 @@
     },
     {
       "image_id": "51",
+      "split": "val",
       "source_image": "PCBDataset/RGB/51.jpg",
       "source_mask": "PCBDataset/RGB/General/51.png",
       "width": 1777,
@@ -21511,6 +21565,7 @@
     },
     {
       "image_id": "52",
+      "split": "test",
       "source_image": "PCBDataset/RGB/52.jpg",
       "source_mask": "PCBDataset/RGB/General/52.png",
       "width": 1492,
@@ -21911,6 +21966,7 @@
     },
     {
       "image_id": "53",
+      "split": "train",
       "source_image": "PCBDataset/RGB/53.jpg",
       "source_mask": "PCBDataset/RGB/General/53.png",
       "width": 2316,
@@ -22021,6 +22077,7 @@
     },
     {
       "image_id": "6",
+      "split": "train",
       "source_image": "PCBDataset/RGB/6.jpg",
       "source_mask": "PCBDataset/RGB/General/6.png",
       "width": 2700,
@@ -23351,6 +23408,7 @@
     },
     {
       "image_id": "7",
+      "split": "val",
       "source_image": "PCBDataset/RGB/7.jpg",
       "source_mask": "PCBDataset/RGB/General/7.png",
       "width": 1600,
@@ -23441,6 +23499,7 @@
     },
     {
       "image_id": "8",
+      "split": "train",
       "source_image": "PCBDataset/RGB/8.jpg",
       "source_mask": "PCBDataset/RGB/General/8.png",
       "width": 1805,
@@ -23561,6 +23620,7 @@
     },
     {
       "image_id": "9",
+      "split": "train",
       "source_image": "PCBDataset/RGB/9.jpg",
       "source_mask": "PCBDataset/RGB/General/9.png",
       "width": 2174,
