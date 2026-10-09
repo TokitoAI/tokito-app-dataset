@@ -1,0 +1,103 @@
+{
+  "top_confidence_class_matches": 64,
+  "photos": 80,
+  "class_errors": [
+    {
+      "image": "IMG_20261009_221838.jpg",
+      "expected": "esp32_board",
+      "predicted": "esp8266_board",
+      "confidence": 0.5615912079811096
+    },
+    {
+      "image": "IMG_20261009_221901.jpg",
+      "expected": "esp32_board",
+      "predicted": "esp8266_board",
+      "confidence": 0.43159201741218567
+    },
+    {
+      "image": "IMG_20261009_221908.jpg",
+      "expected": "esp32_board",
+      "predicted": "esp8266_board",
+      "confidence": 0.3918522000312805
+    },
+    {
+      "image": "IMG_20261009_221941_1.jpg",
+      "expected": "esp8266_board",
+      "predicted": "esp32_board",
+      "confidence": 0.39945220947265625
+    },
+    {
+      "image": "IMG_20261009_221944_1.jpg",
+      "expected": "esp8266_board",
+      "predicted": "esp32_board",
+      "confidence": 0.25737690925598145
+    },
+    {
+      "image": "IMG_20261009_221952_1.jpg",
+      "expected": "esp8266_board",
+      "predicted": "esp32_board",
+      "confidence": 0.45508652925491333
+    },
+    {
+      "image": "IMG_20261009_222033.jpg",
+      "expected": "ultimainboard",
+      "predicted": "raspberry_pi_3b_board",
+      "confidence": 0.6693180203437805
+    },
+    {
+      "image": "IMG_20261009_222038_1.jpg",
+      "expected": "ultimainboard",
+      "predicted": "nxp_frdm_mcxn236_board",
+      "confidence": 0.43912750482559204
+    },
+    {
+      "image": "IMG_20261009_222042_1.jpg",
+      "expected": "ultimainboard",
+      "predicted": "nxp_frdm_mcxn236_board",
+      "confidence": 0.3145199716091156
+    },
+    {
+      "image": "IMG_20261009_222108.jpg",
+      "expected": "ultimainboard",
+      "predicted": "nxp_frdm_mcxn236_board",
+      "confidence": 0.5543482899665833
+    },
+    {
+      "image": "IMG_20261009_222108_1.jpg",
+      "expected": "ultimainboard",
+      "predicted": "nxp_frdm_mcxn236_board",
+      "confidence": 0.3928152024745941
+    },
+    {
+      "image": "IMG_20261009_222113.jpg",
+      "expected": "ultimainboard",
+      "predicted": "raspberry_pi_3b_board",
+      "confidence": 0.5643177628517151
+    },
+    {
+      "image": "IMG_20261009_222113_1.jpg",
+      "expected": "ultimainboard",
+      "predicted": "nxp_frdm_mcxn236_board",
+      "confidence": 0.7166739702224731
+    },
+    {
+      "image": "IMG_20261009_222133.jpg",
+      "expected": "ultimainboard",
+      "predicted": "nxp_frdm_mcxn236_board",
+      "confidence": 0.7767559289932251
+    },
+    {
+      "image": "IMG_20261009_222137.jpg",
+      "expected": "ultimainboard",
+      "predicted": "nxp_frdm_mcxn236_board",
+      "confidence": 0.9088516235351562
+    },
+    {
+      "image": "IMG_20261009_222137_1.jpg",
+      "expected": "ultimainboard",
+      "predicted": "nxp_frdm_mcxn236_board",
+      "confidence": 0.6733269691467285
+    }
+  ],
+  "scope": "known training/validation/crop photo demo, not independent generalization test"
+}
