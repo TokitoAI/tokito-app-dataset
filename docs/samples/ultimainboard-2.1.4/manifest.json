@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "sample_id": "held-ultimainboard-2.1.4-photo-222135-1",
+  "board": {
+    "model": "Ultimainboard",
+    "physical_revision": "2.1.4",
+    "status": "verified_from_photo_silkscreen",
+    "manufacturer_authenticity": "unverified",
+    "serial_marking_candidate": "106831-0400",
+    "serial_status": "unverified"
+  },
+  "photo": {
+    "path": "data/photo-model/by_board/ultimainboard/IMG_20261009_222135_1.jpg",
+    "sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+    "width": 1408,
+    "height": 3112,
+    "units": "pixels",
+    "evidence_crop_pixel_xyxy": [
+      1040,
+      1720,
+      1200,
+      2310
+    ],
+    "evidence_file": "docs/samples/ultimainboard-2.1.4/revision-evidence.png",
+    "transformation": "crop, then 90 degree clockwise rotation; no retouching"
+  },
+  "source_pcb": {
+    "path": "data/board-sources/ultimainboard-2.1.4/1546 ultimainboard V2.1.4/Ultimaker_V2.1.4.PcbDoc",
+    "sha256": "53696e9f6f38df54a0c4d6065f8f8336e9df918773ea949b0b687fdf659d0160",
+    "git_blob_sha1": "4501461ca707656f95318c9919ea1b6c39e9a8fa",
+    "upstream_repository": "https://github.com/Ultimaker/Ultimaker2Go",
+    "upstream_commit": "b9a1bd0ce6d664a192067781673fec3aa40ad01d",
+    "upstream_path": "1546/1546 ultimainboard V2.1.4 electronics/Ultimaker_V2.1.4.PcbDoc",
+    "source_url": "https://github.com/Ultimaker/Ultimaker2Go/blob/b9a1bd0ce6d664a192067781673fec3aa40ad01d/1546/1546%20ultimainboard%20V2.1.4%20electronics/Ultimaker_V2.1.4.PcbDoc",
+    "revision_match": "same marked design revision; full physical geometric registration unverified",
+    "units": "mil in native component property records"
+  },
+  "derived_pcb": {
+    "path": "data/board-sources/ultimainboard-2.1.4/generated-kicad/Ultimainboard-2.1.4.imported.kicad_pcb",
+    "sha256": "f763641f75470b4fb5b95391ae1ec40ab4ffe2a80bc28dafd2685901c08680b7",
+    "units": "mm",
+    "rotations": "degrees",
+    "generator": "KiCad CLI 10.0.7",
+    "uuid_scope": "This exact imported PCB only; UUIDs are not native Altium identifiers"
+  },
+  "models": {
+    "embedded_step_count": 61,
+    "unique_embedded_content_hashes": 39,
+    "embedded_units": {
+      "centimetres": 9,
+      "millimetres": 49,
+      "metres": 3
+    },
+    "component_model_assignment": "unverified; numbered extracted streams are not joined to physical components",
+    "assembly_step": "data/board-sources/ultimainboard-2.1.4/official-3d/1546-A.STEP",
+    "assembly_geometry_match": "unverified",
+    "assembly_glb": "data/board-sources/ultimainboard-2.1.4/derived/ultimainboard-part1546.glb",
+    "board_only_step": "data/board-sources/ultimainboard-2.1.4/generated-kicad/board-only.step",
+    "board_only_glb": "data/board-sources/ultimainboard-2.1.4/generated-kicad/board-only.glb",
+    "units": "per-file units in assets.json"
+  },
+  "mapping": {
+    "source_uuid_refdes_rows": 574,
+    "verified_photo_components": [
+      "J22"
+    ],
+    "verified_photo_pin_count": 4,
+    "all_other_photo_mappings": "unverified",
+    "installed_supplier_identity": "unverified",
+    "continuous_photo_to_pcb_coordinate_transform": "unverified; no global transform supplied"
+  },
+  "source_licences": {
+    "electronics": "GPL-2.0 directory statement, byte-identical source verified at pinned official commit",
+    "electronics_notice_url": "https://github.com/Ultimaker/Ultimaker2Go/blob/b9a1bd0ce6d664a192067781673fec3aa40ad01d/1546/1546%20ultimainboard%20V2.1.4%20electronics/readme.txt",
+    "electronics_licence_text_url": "https://github.com/Ultimaker/Ultimaker2Go/blob/b9a1bd0ce6d664a192067781673fec3aa40ad01d/1546/1546%20ultimainboard%20V2.1.4%20electronics/gpl-2.0.txt",
+    "assembly_model": "CC-BY-NC-3.0 repository default; model-specific grant unverified",
+    "assembly_licence_url": "https://github.com/Ultimaker/Ultimaker2Go/blob/b9a1bd0ce6d664a192067781673fec3aa40ad01d/LICENSE",
+    "photo": "user supplied; independent redistribution licence unverified"
+  },
+  "nxp_separation": {
+    "photographed_model": "FRDM-MCXN236",
+    "physical_revision": "unverified",
+    "source_design_revision": "C",
+    "source_path": "data/board-sources/nxp-frdm-mcxn236",
+    "source_url": "https://www.nxp.com/design/design-center/development-boards-and-designs/FRDM-MCXN236",
+    "different_reference_model": "FRDM-MCXN947",
+    "reference_path": "data/board-sources/nxp-frdm-mcxn947",
+    "relationship": "different board; not a substitute source and not evidence of MCXN236 footprint identity"
+  },
+  "engineering_validation": {
+    "fabrication_approved": false,
+    "import_drc_errors": 293,
+    "import_drc_warnings": 569,
+    "board_outline_mm": [
+      175,
+      79
+    ],
+    "full_model_geometry_match": "unverified"
+  },
+  "snapshot_base_commit": "51f2f219b0a0eb72c98f4ec164a823dd6aaf6b78"
+}
