@@ -1,0 +1,2628 @@
+{
+  "imported_files": 655,
+  "bytes": 694160214,
+  "files": [
+    {
+      "path": "data/board-sources/esp32-devkit-30pin/pinoutDOIT32DevkitV1.pdf",
+      "bytes": 203367
+    },
+    {
+      "path": "data/board-sources/esp32-devkit-30pin/pinoutDOIT32devkitv1.png",
+      "bytes": 923743
+    },
+    {
+      "path": "data/board-sources/esp32-devkit-30pin/README.md",
+      "bytes": 753
+    },
+    {
+      "path": "data/board-sources/esp32-devkit-30pin/community-clone/archive-checksum.csv",
+      "bytes": 218
+    },
+    {
+      "path": "data/board-sources/esp32-devkit-30pin/community-clone/provenance.json",
+      "bytes": 229
+    },
+    {
+      "path": "data/board-sources/esp32-devkit-30pin/community-clone/source.zip",
+      "bytes": 1836366
+    },
+    {
+      "path": "data/board-sources/esp32-devkit-30pin/photos/original/reference-4.jpeg",
+      "bytes": 60514
+    },
+    {
+      "path": "data/board-sources/esp32-devkit-30pin/community-clone/derived/conversion.json",
+      "bytes": 890
+    },
+    {
+      "path": "data/board-sources/esp32-devkit-30pin/community-clone/derived/esp32-community-reference.glb",
+      "bytes": 4511124
+    },
+    {
+      "path": "data/board-sources/esp32-devkit-30pin/community-clone/structured/bom-components.csv",
+      "bytes": 1162
+    },
+    {
+      "path": "data/board-sources/esp32-devkit-30pin/community-clone/structured/interactive-bom-data.json",
+      "bytes": 818717
+    },
+    {
+      "path": "data/board-sources/esp32-devkit-30pin/community-clone/extracted/BrijModi-ESP32-Dev-Kit-Clone-ab7d649/.gitignore",
+      "bytes": 267
+    },
+    {
+      "path": "data/board-sources/esp32-devkit-30pin/community-clone/extracted/BrijModi-ESP32-Dev-Kit-Clone-ab7d649/BOM.html",
+      "bytes": 327791
+    },
+    {
+      "path": "data/board-sources/esp32-devkit-30pin/community-clone/extracted/BrijModi-ESP32-Dev-Kit-Clone-ab7d649/Connectors.kicad_sch",
+      "bytes": 19431
+    },
+    {
+      "path": "data/board-sources/esp32-devkit-30pin/community-clone/extracted/BrijModi-ESP32-Dev-Kit-Clone-ab7d649/ESP32 Dev Kit.kicad_pcb",
+      "bytes": 379580
+    },
+    {
+      "path": "data/board-sources/esp32-devkit-30pin/community-clone/extracted/BrijModi-ESP32-Dev-Kit-Clone-ab7d649/ESP32 Dev Kit.kicad_pro",
+      "bytes": 15341
+    },
+    {
+      "path": "data/board-sources/esp32-devkit-30pin/community-clone/extracted/BrijModi-ESP32-Dev-Kit-Clone-ab7d649/ESP32 Dev Kit.kicad_sch",
+      "bytes": 135394
+    },
+    {
+      "path": "data/board-sources/esp32-devkit-30pin/community-clone/extracted/BrijModi-ESP32-Dev-Kit-Clone-ab7d649/README.md",
+      "bytes": 2001
+    },
+    {
+      "path": "data/board-sources/esp32-devkit-30pin/community-clone/extracted/BrijModi-ESP32-Dev-Kit-Clone-ab7d649/View/ESP32 Dev Kit.step",
+      "bytes": 6736064
+    },
+    {
+      "path": "data/board-sources/esp32-devkit-30pin/community-clone/extracted/BrijModi-ESP32-Dev-Kit-Clone-ab7d649/View/ESP32 Dev Kit_Back.png",
+      "bytes": 76459
+    },
+    {
+      "path": "data/board-sources/esp32-devkit-30pin/community-clone/extracted/BrijModi-ESP32-Dev-Kit-Clone-ab7d649/View/ESP32 Dev Kit_Front.png",
+      "bytes": 96266
+    },
+    {
+      "path": "data/board-sources/esp32-devkit-30pin/community-clone/extracted/BrijModi-ESP32-Dev-Kit-Clone-ab7d649/View/PCB_View.pdf",
+      "bytes": 64328
+    },
+    {
+      "path": "data/board-sources/esp32-devkit-30pin/community-clone/extracted/BrijModi-ESP32-Dev-Kit-Clone-ab7d649/View/Schematic_View.pdf",
+      "bytes": 62889
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/.gitignore",
+      "bytes": 21
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/01_SYSTEM.SchDoc",
+      "bytes": 34304
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/02_ESP12_CORE.SchDoc",
+      "bytes": 74752
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/03_USB_TO_UART.SchDoc",
+      "bytes": 85504
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/04_POWER.SchDoc",
+      "bytes": 47104
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/05_IO_CONN.SchDoc",
+      "bytes": 57856
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/06_KEY.SchDoc",
+      "bytes": 54784
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/07_ADC.SchDoc",
+      "bytes": 40448
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/Clean.bat",
+      "bytes": 400
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/ESP12E_DEVKIT.lbr",
+      "bytes": 15940
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/LICENSE",
+      "bytes": 1112
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/NodeMCU.IntLib",
+      "bytes": 457216
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/NODEMCU_DEVKIT_V1.0.PcbDoc",
+      "bytes": 3975168
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/NODEMCU_DEVKIT_V1.0.PDF",
+      "bytes": 863930
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/NODEMCU_DEVKIT_V1.0.PrjPCB",
+      "bytes": 59305
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/NODEMCU_DEVKIT_V1.0_GERBER_V1.rar",
+      "bytes": 240609
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/NODEMCU_DEVKIT_V1.0_GERBER_V2.rar",
+      "bytes": 241081
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/NODEMCU_DEVKIT_V1.0_GERBER_V3.rar",
+      "bytes": 227480
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/NODEMCU_DEVKIT_V1.0_GERBER_V4.rar",
+      "bytes": 234168
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/NODEMCU_DEVKIT_V1.0_OFFSET.PcbDoc",
+      "bytes": 4443648
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/README.md",
+      "bytes": 1886
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/community-library/nodemcu.PcbLib",
+      "bytes": 307712
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/Documents/CP2102-9.pdf",
+      "bytes": 306547
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/Documents/NCP1117ST33T3G.PDF",
+      "bytes": 225898
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/Documents/NODEMCU-DEVKIT-V1.0-INSTRUCTION-EN.pdf",
+      "bytes": 267456
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/Documents/NodeMCU.png",
+      "bytes": 22614
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/Documents/NodeMCU_DEVKIT_1.0.jpg",
+      "bytes": 99927
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/Documents/NODEMCU_DEVKIT_V1.0_PINMAP.png",
+      "bytes": 73596
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/Documents/PTS820_4mar13-248116.pdf",
+      "bytes": 182070
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/Documents/SPX3819M5-L-3-3.pdf",
+      "bytes": 386257
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/Documents/ss14.pdf",
+      "bytes": 76958
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/Documents/\u4e2d\u4e4c\u9f9f\u6709\u5b9a\u4f4d-\u6309\u952e\u5f00\u5173-TS-015.pdf",
+      "bytes": 143123
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/Documents/\u65b0\u7248\u672c\u7ba1\u811a\u5bf9\u5e94\u5173\u7cfb.txt",
+      "bytes": 114
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/Documents/\u65e7\u7248\u672c\u7ba1\u811a\u5bf9\u5e94\u5173\u7cfb.txt",
+      "bytes": 158
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/gerbers-verified/extraction-report.json",
+      "bytes": 13158
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/structured-source/component-inventory.csv",
+      "bytes": 5289
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/structured-source/components.json",
+      "bytes": 31733
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/structured-source/extraction.json",
+      "bytes": 4389
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/structured-source/nets.json",
+      "bytes": 46886
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/structured-source/pcb-schematic-refdes-check.json",
+      "bytes": 181
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/structured-source/schematic-component-inventory.csv",
+      "bytes": 2603
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/structured-source/schematic-component-inventory.json",
+      "bytes": 10882
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/structured-source/schematic-inventory-report.json",
+      "bytes": 250
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/structured-source/embedded-models/0.step",
+      "bytes": 152191
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/structured-source/embedded-models/1.step",
+      "bytes": 934974
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/structured-source/embedded-models/10.step",
+      "bytes": 465851
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/structured-source/embedded-models/11.step",
+      "bytes": 652900
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/structured-source/embedded-models/12.step",
+      "bytes": 148105
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/structured-source/embedded-models/13.step",
+      "bytes": 148105
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/structured-source/embedded-models/14.step",
+      "bytes": 5280399
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/structured-source/embedded-models/15.step",
+      "bytes": 68317
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/structured-source/embedded-models/16.step",
+      "bytes": 823120
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/structured-source/embedded-models/2.step",
+      "bytes": 762504
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/structured-source/embedded-models/3.step",
+      "bytes": 762504
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/structured-source/embedded-models/4.step",
+      "bytes": 400024
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/structured-source/embedded-models/5.step",
+      "bytes": 762519
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/structured-source/embedded-models/6.step",
+      "bytes": 762519
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/structured-source/embedded-models/7.step",
+      "bytes": 762519
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/structured-source/embedded-models/8.step",
+      "bytes": 1114204
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/structured-source/embedded-models/9.step",
+      "bytes": 175435
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/structured-source/schematic-records/01_SYSTEM.json",
+      "bytes": 16010
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/structured-source/schematic-records/02_ESP12_CORE.json",
+      "bytes": 101082
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/structured-source/schematic-records/03_USB_TO_UART.json",
+      "bytes": 132370
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/structured-source/schematic-records/04_POWER.json",
+      "bytes": 44676
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/structured-source/schematic-records/05_IO_CONN.json",
+      "bytes": 72091
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/structured-source/schematic-records/06_KEY.json",
+      "bytes": 62102
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/structured-source/schematic-records/07_ADC.json",
+      "bytes": 29914
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/photos/original/reference-2.jpeg",
+      "bytes": 58226
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/gerbers-verified/NODEMCU_AMICA_GERBER_V1/NODEMCU_DEVKIT_V1.0-RoundHoles-NonPlated.TXT",
+      "bytes": 138
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/gerbers-verified/NODEMCU_AMICA_GERBER_V1/NODEMCU_DEVKIT_V1.0-RoundHoles-Plated.TXT",
+      "bytes": 3359
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/gerbers-verified/NODEMCU_AMICA_GERBER_V1/NODEMCU_DEVKIT_V1.0-SlotHoles-Plated.TXT",
+      "bytes": 168
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/gerbers-verified/NODEMCU_AMICA_GERBER_V1/NODEMCU_DEVKIT_V1.0.GBL",
+      "bytes": 22260
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/gerbers-verified/NODEMCU_AMICA_GERBER_V1/NODEMCU_DEVKIT_V1.0.GBO",
+      "bytes": 534797
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/gerbers-verified/NODEMCU_AMICA_GERBER_V1/NODEMCU_DEVKIT_V1.0.GBP",
+      "bytes": 70
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/gerbers-verified/NODEMCU_AMICA_GERBER_V1/NODEMCU_DEVKIT_V1.0.GBS",
+      "bytes": 867
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/gerbers-verified/NODEMCU_AMICA_GERBER_V1/NODEMCU_DEVKIT_V1.0.GD1",
+      "bytes": 72868
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/gerbers-verified/NODEMCU_AMICA_GERBER_V1/NODEMCU_DEVKIT_V1.0.GKO",
+      "bytes": 697
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/gerbers-verified/NODEMCU_AMICA_GERBER_V1/NODEMCU_DEVKIT_V1.0.GPB",
+      "bytes": 968
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/gerbers-verified/NODEMCU_AMICA_GERBER_V1/NODEMCU_DEVKIT_V1.0.GPT",
+      "bytes": 4024
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/gerbers-verified/NODEMCU_AMICA_GERBER_V1/NODEMCU_DEVKIT_V1.0.GTL",
+      "bytes": 32730
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/gerbers-verified/NODEMCU_AMICA_GERBER_V1/NODEMCU_DEVKIT_V1.0.GTO",
+      "bytes": 262095
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/gerbers-verified/NODEMCU_AMICA_GERBER_V1/NODEMCU_DEVKIT_V1.0.GTP",
+      "bytes": 4388
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/gerbers-verified/NODEMCU_AMICA_GERBER_V1/NODEMCU_DEVKIT_V1.0.GTS",
+      "bytes": 4108
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/gerbers-verified/NODEMCU_AMICA_GERBER_V2/NODEMCU_DEVKIT_V1.0_OFFSET-RoundHoles-NonPlated.TXT",
+      "bytes": 138
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/gerbers-verified/NODEMCU_AMICA_GERBER_V2/NODEMCU_DEVKIT_V1.0_OFFSET-RoundHoles-Plated.TXT",
+      "bytes": 3372
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/gerbers-verified/NODEMCU_AMICA_GERBER_V2/NODEMCU_DEVKIT_V1.0_OFFSET-SlotHoles-Plated.TXT",
+      "bytes": 168
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/gerbers-verified/NODEMCU_AMICA_GERBER_V2/NODEMCU_DEVKIT_V1.0_OFFSET.GBL",
+      "bytes": 22342
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/gerbers-verified/NODEMCU_AMICA_GERBER_V2/NODEMCU_DEVKIT_V1.0_OFFSET.GBO",
+      "bytes": 534797
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/gerbers-verified/NODEMCU_AMICA_GERBER_V2/NODEMCU_DEVKIT_V1.0_OFFSET.GBP",
+      "bytes": 70
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/gerbers-verified/NODEMCU_AMICA_GERBER_V2/NODEMCU_DEVKIT_V1.0_OFFSET.GBS",
+      "bytes": 866
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/gerbers-verified/NODEMCU_AMICA_GERBER_V2/NODEMCU_DEVKIT_V1.0_OFFSET.GD1",
+      "bytes": 72867
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/gerbers-verified/NODEMCU_AMICA_GERBER_V2/NODEMCU_DEVKIT_V1.0_OFFSET.GKO",
+      "bytes": 697
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/gerbers-verified/NODEMCU_AMICA_GERBER_V2/NODEMCU_DEVKIT_V1.0_OFFSET.GPB",
+      "bytes": 967
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/gerbers-verified/NODEMCU_AMICA_GERBER_V2/NODEMCU_DEVKIT_V1.0_OFFSET.GPT",
+      "bytes": 4023
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/gerbers-verified/NODEMCU_AMICA_GERBER_V2/NODEMCU_DEVKIT_V1.0_OFFSET.GTL",
+      "bytes": 33015
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/gerbers-verified/NODEMCU_AMICA_GERBER_V2/NODEMCU_DEVKIT_V1.0_OFFSET.GTO",
+      "bytes": 262095
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/gerbers-verified/NODEMCU_AMICA_GERBER_V2/NODEMCU_DEVKIT_V1.0_OFFSET.GTP",
+      "bytes": 4388
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/gerbers-verified/NODEMCU_AMICA_GERBER_V2/NODEMCU_DEVKIT_V1.0_OFFSET.GTS",
+      "bytes": 4107
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/gerbers-verified/NODEMCU_AMICA_GERBER_V2/\u94bb\u5b54\u8bf4\u660e.txt",
+      "bytes": 193
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/gerbers-verified/NODEMCU_AMICA_GERBER_V3/NODEMCU_DEVKIT_V1.0_OFFSET-RoundHoles-NonPlated.TXT",
+      "bytes": 138
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/gerbers-verified/NODEMCU_AMICA_GERBER_V3/NODEMCU_DEVKIT_V1.0_OFFSET-RoundHoles-Plated.TXT",
+      "bytes": 3372
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/gerbers-verified/NODEMCU_AMICA_GERBER_V3/NODEMCU_DEVKIT_V1.0_OFFSET-SlotHoles-Plated.TXT",
+      "bytes": 168
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/gerbers-verified/NODEMCU_AMICA_GERBER_V3/NODEMCU_DEVKIT_V1.0_OFFSET.GBL",
+      "bytes": 22342
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/gerbers-verified/NODEMCU_AMICA_GERBER_V3/NODEMCU_DEVKIT_V1.0_OFFSET.GBO",
+      "bytes": 475384
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/gerbers-verified/NODEMCU_AMICA_GERBER_V3/NODEMCU_DEVKIT_V1.0_OFFSET.GBP",
+      "bytes": 70
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/gerbers-verified/NODEMCU_AMICA_GERBER_V3/NODEMCU_DEVKIT_V1.0_OFFSET.GBS",
+      "bytes": 866
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/gerbers-verified/NODEMCU_AMICA_GERBER_V3/NODEMCU_DEVKIT_V1.0_OFFSET.GD1",
+      "bytes": 72867
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/gerbers-verified/NODEMCU_AMICA_GERBER_V3/NODEMCU_DEVKIT_V1.0_OFFSET.GKO",
+      "bytes": 697
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/gerbers-verified/NODEMCU_AMICA_GERBER_V3/NODEMCU_DEVKIT_V1.0_OFFSET.GPB",
+      "bytes": 967
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/gerbers-verified/NODEMCU_AMICA_GERBER_V3/NODEMCU_DEVKIT_V1.0_OFFSET.GPT",
+      "bytes": 4023
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/gerbers-verified/NODEMCU_AMICA_GERBER_V3/NODEMCU_DEVKIT_V1.0_OFFSET.GTL",
+      "bytes": 33015
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/gerbers-verified/NODEMCU_AMICA_GERBER_V3/NODEMCU_DEVKIT_V1.0_OFFSET.GTO",
+      "bytes": 258952
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/gerbers-verified/NODEMCU_AMICA_GERBER_V3/NODEMCU_DEVKIT_V1.0_OFFSET.GTP",
+      "bytes": 4388
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/gerbers-verified/NODEMCU_AMICA_GERBER_V3/NODEMCU_DEVKIT_V1.0_OFFSET.GTS",
+      "bytes": 4107
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/gerbers-verified/NODEMCU_AMICA_GERBER_V3/\u94bb\u5b54\u8bf4\u660e.txt",
+      "bytes": 193
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/gerbers-verified/NODEMCU_DEVKIT_V1.0_GERBER_V4/NODEMCU_DEVKIT_V1.0-RoundHoles-NonPlated.TXT",
+      "bytes": 138
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/gerbers-verified/NODEMCU_DEVKIT_V1.0_GERBER_V4/NODEMCU_DEVKIT_V1.0-RoundHoles-Plated.TXT",
+      "bytes": 3349
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/gerbers-verified/NODEMCU_DEVKIT_V1.0_GERBER_V4/NODEMCU_DEVKIT_V1.0-SlotHoles-Plated.TXT",
+      "bytes": 168
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/gerbers-verified/NODEMCU_DEVKIT_V1.0_GERBER_V4/NODEMCU_DEVKIT_V1.0.GBL",
+      "bytes": 22617
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/gerbers-verified/NODEMCU_DEVKIT_V1.0_GERBER_V4/NODEMCU_DEVKIT_V1.0.GBO",
+      "bytes": 497649
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/gerbers-verified/NODEMCU_DEVKIT_V1.0_GERBER_V4/NODEMCU_DEVKIT_V1.0.GBP",
+      "bytes": 70
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/gerbers-verified/NODEMCU_DEVKIT_V1.0_GERBER_V4/NODEMCU_DEVKIT_V1.0.GBS",
+      "bytes": 867
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/gerbers-verified/NODEMCU_DEVKIT_V1.0_GERBER_V4/NODEMCU_DEVKIT_V1.0.GD1",
+      "bytes": 72960
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/gerbers-verified/NODEMCU_DEVKIT_V1.0_GERBER_V4/NODEMCU_DEVKIT_V1.0.GKO",
+      "bytes": 681
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/gerbers-verified/NODEMCU_DEVKIT_V1.0_GERBER_V4/NODEMCU_DEVKIT_V1.0.GPB",
+      "bytes": 968
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/gerbers-verified/NODEMCU_DEVKIT_V1.0_GERBER_V4/NODEMCU_DEVKIT_V1.0.GPT",
+      "bytes": 4024
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/gerbers-verified/NODEMCU_DEVKIT_V1.0_GERBER_V4/NODEMCU_DEVKIT_V1.0.GTL",
+      "bytes": 33880
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/gerbers-verified/NODEMCU_DEVKIT_V1.0_GERBER_V4/NODEMCU_DEVKIT_V1.0.GTO",
+      "bytes": 259069
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/gerbers-verified/NODEMCU_DEVKIT_V1.0_GERBER_V4/NODEMCU_DEVKIT_V1.0.GTP",
+      "bytes": 4388
+    },
+    {
+      "path": "data/board-sources/esp8266-nodemcu-reference/gerbers-verified/NODEMCU_DEVKIT_V1.0_GERBER_V4/NODEMCU_DEVKIT_V1.0.GTS",
+      "bytes": 4108
+    },
+    {
+      "path": "data/board-sources/nxp-frdm-mcxn236/PROVENANCE.md",
+      "bytes": 2429
+    },
+    {
+      "path": "data/board-sources/nxp-frdm-mcxn236/schematic-text.txt",
+      "bytes": 48863
+    },
+    {
+      "path": "data/board-sources/nxp-frdm-mcxn236/SPF-90828.pdf",
+      "bytes": 3511914
+    },
+    {
+      "path": "data/board-sources/nxp-frdm-mcxn947/design-files-rev-c-checksum.csv",
+      "bytes": 212
+    },
+    {
+      "path": "data/board-sources/nxp-frdm-mcxn947/design-files-rev-c.zip",
+      "bytes": 17825023
+    },
+    {
+      "path": "data/board-sources/nxp-frdm-mcxn947/enclosure-3d.zip",
+      "bytes": 684720
+    },
+    {
+      "path": "data/board-sources/nxp-frdm-mcxn947/enclosure-only/FRDM-MCXN947_base-3D.STEP",
+      "bytes": 292288
+    },
+    {
+      "path": "data/board-sources/nxp-frdm-mcxn947/enclosure-only/FRDM-MCXN947_cover-3D.STEP",
+      "bytes": 2911408
+    },
+    {
+      "path": "data/board-sources/nxp-frdm-mcxn947/structured-rev-c/bom-ManufacturerBomReport.csv",
+      "bytes": 60023
+    },
+    {
+      "path": "data/board-sources/nxp-frdm-mcxn947/structured-rev-c/bom-normalization-report.json",
+      "bytes": 392
+    },
+    {
+      "path": "data/board-sources/nxp-frdm-mcxn947/structured-rev-c/bom-parts.json",
+      "bytes": 127359
+    },
+    {
+      "path": "data/board-sources/nxp-frdm-mcxn947/structured-rev-c/extraction-report.json",
+      "bytes": 901
+    },
+    {
+      "path": "data/board-sources/nxp-frdm-mcxn947/structured-rev-c/net-pins.csv",
+      "bytes": 28047
+    },
+    {
+      "path": "data/board-sources/nxp-frdm-mcxn947/structured-rev-c/netlist.json",
+      "bytes": 117729
+    },
+    {
+      "path": "data/board-sources/nxp-frdm-mcxn947/structured-rev-c/schematic-index.json",
+      "bytes": 1695
+    },
+    {
+      "path": "data/board-sources/nxp-frdm-mcxn947/structured-rev-c/schematic-page-01.txt",
+      "bytes": 2853
+    },
+    {
+      "path": "data/board-sources/nxp-frdm-mcxn947/structured-rev-c/schematic-page-02.txt",
+      "bytes": 724
+    },
+    {
+      "path": "data/board-sources/nxp-frdm-mcxn947/structured-rev-c/schematic-page-03.txt",
+      "bytes": 11229
+    },
+    {
+      "path": "data/board-sources/nxp-frdm-mcxn947/structured-rev-c/schematic-page-04.txt",
+      "bytes": 7344
+    },
+    {
+      "path": "data/board-sources/nxp-frdm-mcxn947/structured-rev-c/schematic-page-05.txt",
+      "bytes": 3850
+    },
+    {
+      "path": "data/board-sources/nxp-frdm-mcxn947/structured-rev-c/schematic-page-06.txt",
+      "bytes": 3418
+    },
+    {
+      "path": "data/board-sources/nxp-frdm-mcxn947/structured-rev-c/schematic-page-07.txt",
+      "bytes": 3037
+    },
+    {
+      "path": "data/board-sources/nxp-frdm-mcxn947/structured-rev-c/schematic-page-08.txt",
+      "bytes": 4955
+    },
+    {
+      "path": "data/board-sources/nxp-frdm-mcxn947/structured-rev-c/schematic-page-09.txt",
+      "bytes": 5303
+    },
+    {
+      "path": "data/board-sources/nxp-frdm-mcxn947/structured-rev-c/schematic-page-10.txt",
+      "bytes": 2434
+    },
+    {
+      "path": "data/board-sources/nxp-frdm-mcxn947/structured-rev-c/schematic-page-11.txt",
+      "bytes": 1240
+    },
+    {
+      "path": "data/board-sources/nxp-frdm-mcxn947/structured-rev-c/schematic-page-12.txt",
+      "bytes": 8419
+    },
+    {
+      "path": "data/board-sources/nxp-frdm-mcxn947/structured-rev-c/schematic-page-13.txt",
+      "bytes": 1618
+    },
+    {
+      "path": "data/board-sources/nxp-frdm-mcxn947/photos/original/reference-5.jpeg",
+      "bytes": 88168
+    },
+    {
+      "path": "data/board-sources/nxp-frdm-mcxn947/design-files-rev-c/Design Files/LAY_90818_C.brd",
+      "bytes": 21200324
+    },
+    {
+      "path": "data/board-sources/nxp-frdm-mcxn947/design-files-rev-c/Design Files/SCH-90818_C.BOM.xlsx",
+      "bytes": 34497
+    },
+    {
+      "path": "data/board-sources/nxp-frdm-mcxn947/design-files-rev-c/Design Files/SCH-90818_C.DSN",
+      "bytes": 1464320
+    },
+    {
+      "path": "data/board-sources/nxp-frdm-mcxn947/design-files-rev-c/Design Files/SCH-90818_C.opj",
+      "bytes": 8190
+    },
+    {
+      "path": "data/board-sources/nxp-frdm-mcxn947/design-files-rev-c/GRB-90818/fab.art.art",
+      "bytes": 1042389
+    },
+    {
+      "path": "data/board-sources/nxp-frdm-mcxn947/design-files-rev-c/GRB-90818/fab_viafill.art.art",
+      "bytes": 283935
+    },
+    {
+      "path": "data/board-sources/nxp-frdm-mcxn947/design-files-rev-c/GRB-90818/IPCD356.txt",
+      "bytes": 204262
+    },
+    {
+      "path": "data/board-sources/nxp-frdm-mcxn947/design-files-rev-c/GRB-90818/L1_PS.art.art",
+      "bytes": 187397
+    },
+    {
+      "path": "data/board-sources/nxp-frdm-mcxn947/design-files-rev-c/GRB-90818/L2_GND.art",
+      "bytes": 121780
+    },
+    {
+      "path": "data/board-sources/nxp-frdm-mcxn947/design-files-rev-c/GRB-90818/L3_POWER.art",
+      "bytes": 135641
+    },
+    {
+      "path": "data/board-sources/nxp-frdm-mcxn947/design-files-rev-c/GRB-90818/L4_SS.art.art",
+      "bytes": 178248
+    },
+    {
+      "path": "data/board-sources/nxp-frdm-mcxn947/design-files-rev-c/GRB-90818/ncdrill-1-4.drl",
+      "bytes": 18644
+    },
+    {
+      "path": "data/board-sources/nxp-frdm-mcxn947/design-files-rev-c/GRB-90818/ncroute_1-4.rou",
+      "bytes": 918
+    },
+    {
+      "path": "data/board-sources/nxp-frdm-mcxn947/design-files-rev-c/GRB-90818/psm.art.art",
+      "bytes": 83597
+    },
+    {
+      "path": "data/board-sources/nxp-frdm-mcxn947/design-files-rev-c/GRB-90818/psp.art.art",
+      "bytes": 78141
+    },
+    {
+      "path": "data/board-sources/nxp-frdm-mcxn947/design-files-rev-c/GRB-90818/pss.art.art",
+      "bytes": 340107
+    },
+    {
+      "path": "data/board-sources/nxp-frdm-mcxn947/design-files-rev-c/GRB-90818/ReadMe.txt",
+      "bytes": 1198
+    },
+    {
+      "path": "data/board-sources/nxp-frdm-mcxn947/design-files-rev-c/GRB-90818/ssm.art.art",
+      "bytes": 78444
+    },
+    {
+      "path": "data/board-sources/nxp-frdm-mcxn947/design-files-rev-c/GRB-90818/ssp.art.art",
+      "bytes": 70115
+    },
+    {
+      "path": "data/board-sources/nxp-frdm-mcxn947/design-files-rev-c/GRB-90818/sss.art.art",
+      "bytes": 391977
+    },
+    {
+      "path": "data/board-sources/nxp-frdm-mcxn947/design-files-rev-c/PDF/DNP-90818_C.pdf",
+      "bytes": 1178375
+    },
+    {
+      "path": "data/board-sources/nxp-frdm-mcxn947/design-files-rev-c/PDF/FAB_90818_C.pdf",
+      "bytes": 1093328
+    },
+    {
+      "path": "data/board-sources/nxp-frdm-mcxn947/design-files-rev-c/PDF/GBR-90818_C.pdf",
+      "bytes": 3477961
+    },
+    {
+      "path": "data/board-sources/nxp-frdm-mcxn947/design-files-rev-c/PDF/spf-90818_c.pdf",
+      "bytes": 3791406
+    },
+    {
+      "path": "data/board-sources/nxp-frdm-mcxn947/design-files-rev-c/Design Files/allegro/pstchip.dat",
+      "bytes": 89017
+    },
+    {
+      "path": "data/board-sources/nxp-frdm-mcxn947/design-files-rev-c/Design Files/allegro/pstxnet.dat",
+      "bytes": 224058
+    },
+    {
+      "path": "data/board-sources/nxp-frdm-mcxn947/design-files-rev-c/Design Files/allegro/pstxprt.dat",
+      "bytes": 186469
+    },
+    {
+      "path": "data/board-sources/raspberry-pi-3b-v1.2/mechanical.pdf",
+      "bytes": 67939
+    },
+    {
+      "path": "data/board-sources/raspberry-pi-3b-v1.2/reduced-schematic.pdf",
+      "bytes": 76735
+    },
+    {
+      "path": "data/board-sources/raspberry-pi-3b-v1.2/community-cluster-reference/assembly-names.json",
+      "bytes": 15032
+    },
+    {
+      "path": "data/board-sources/raspberry-pi-3b-v1.2/community-cluster-reference/cluster.step",
+      "bytes": 19053911
+    },
+    {
+      "path": "data/board-sources/raspberry-pi-3b-v1.2/community-cluster-reference/extraction.json",
+      "bytes": 254
+    },
+    {
+      "path": "data/board-sources/raspberry-pi-3b-v1.2/community-cluster-reference/provenance.json",
+      "bytes": 417
+    },
+    {
+      "path": "data/board-sources/raspberry-pi-3b-v1.2/community-cluster-reference/raspberry-pi-3b-reference.step",
+      "bytes": 21645305
+    },
+    {
+      "path": "data/board-sources/raspberry-pi-3b-v1.2/derived/conversion.json",
+      "bytes": 862
+    },
+    {
+      "path": "data/board-sources/raspberry-pi-3b-v1.2/derived/raspberry-pi-3b-community-reference.glb",
+      "bytes": 6683592
+    },
+    {
+      "path": "data/board-sources/raspberry-pi-3b-v1.2/photos/original/reference-1.jpeg",
+      "bytes": 83401
+    },
+    {
+      "path": "data/board-sources/ultimainboard-2.1.4/LICENSE",
+      "bytes": 170
+    },
+    {
+      "path": "data/board-sources/ultimainboard-2.1.4/README.md",
+      "bytes": 270
+    },
+    {
+      "path": "data/board-sources/ultimainboard-2.1.4/1546 ultimainboard V2.1.4/revisies.SchDoc",
+      "bytes": 15872
+    },
+    {
+      "path": "data/board-sources/ultimainboard-2.1.4/1546 ultimainboard V2.1.4/schema1.SchDoc",
+      "bytes": 453632
+    },
+    {
+      "path": "data/board-sources/ultimainboard-2.1.4/1546 ultimainboard V2.1.4/schema2.SchDoc",
+      "bytes": 342016
+    },
+    {
+      "path": "data/board-sources/ultimainboard-2.1.4/1546 ultimainboard V2.1.4/schema3.SchDoc",
+      "bytes": 483328
+    },
+    {
+      "path": "data/board-sources/ultimainboard-2.1.4/1546 ultimainboard V2.1.4/schema4.SchDoc",
+      "bytes": 419840
+    },
+    {
+      "path": "data/board-sources/ultimainboard-2.1.4/1546 ultimainboard V2.1.4/schema5.SchDoc",
+      "bytes": 272896
+    },
+    {
+      "path": "data/board-sources/ultimainboard-2.1.4/1546 ultimainboard V2.1.4/Ultimaker.PrjPcb",
+      "bytes": 89244
+    },
+    {
+      "path": "data/board-sources/ultimainboard-2.1.4/1546 ultimainboard V2.1.4/Ultimaker.PrjPcbStructure",
+      "bytes": 50
+    },
+    {
+      "path": "data/board-sources/ultimainboard-2.1.4/1546 ultimainboard V2.1.4/Ultimaker.PrjPcbVariants",
+      "bytes": 4096
+    },
+    {
+      "path": "data/board-sources/ultimainboard-2.1.4/1546 ultimainboard V2.1.4/Ultimaker_V2.1.4.PcbDoc",
+      "bytes": 10276352
+    },
+    {
+      "path": "data/board-sources/ultimainboard-2.1.4/derived/conversion.json",
+      "bytes": 807
+    },
+    {
+      "path": "data/board-sources/ultimainboard-2.1.4/derived/ultimainboard-part1546.glb",
+      "bytes": 43459172
+    },
+    {
+      "path": "data/board-sources/ultimainboard-2.1.4/official-3d/1546-A.STEP",
+      "bytes": 29997472
+    },
+    {
+      "path": "data/board-sources/ultimainboard-2.1.4/official-3d/electronics-gpl-2.0.txt",
+      "bytes": 18092
+    },
+    {
+      "path": "data/board-sources/ultimainboard-2.1.4/official-3d/electronics-readme.txt",
+      "bytes": 321
+    },
+    {
+      "path": "data/board-sources/ultimainboard-2.1.4/official-3d/electronics-source-matches.json",
+      "bytes": 3209
+    },
+    {
+      "path": "data/board-sources/ultimainboard-2.1.4/official-3d/provenance.json",
+      "bytes": 249
+    },
+    {
+      "path": "data/board-sources/ultimainboard-2.1.4/official-3d/repository-LICENSE.txt",
+      "bytes": 170
+    },
+    {
+      "path": "data/board-sources/ultimainboard-2.1.4/structured-source/component-inventory.csv",
+      "bytes": 71639
+    },
+    {
+      "path": "data/board-sources/ultimainboard-2.1.4/structured-source/components.json",
+      "bytes": 515773
+    },
+    {
+      "path": "data/board-sources/ultimainboard-2.1.4/structured-source/extraction.json",
+      "bytes": 14983
+    },
+    {
+      "path": "data/board-sources/ultimainboard-2.1.4/structured-source/nets.json",
+      "bytes": 317835
+    },
+    {
+      "path": "data/board-sources/ultimainboard-2.1.4/structured-source/pcb-schematic-refdes-check.json",
+      "bytes": 183
+    },
+    {
+      "path": "data/board-sources/ultimainboard-2.1.4/structured-source/schematic-component-inventory.csv",
+      "bytes": 35374
+    },
+    {
+      "path": "data/board-sources/ultimainboard-2.1.4/structured-source/schematic-component-inventory.json",
+      "bytes": 263604
+    },
+    {
+      "path": "data/board-sources/ultimainboard-2.1.4/structured-source/schematic-inventory-report.json",
+      "bytes": 253
+    },
+    {
+      "path": "data/board-sources/ultimainboard-2.1.4/structured-source/embedded-models/0.step",
+      "bytes": 1045557
+    },
+    {
+      "path": "data/board-sources/ultimainboard-2.1.4/structured-source/embedded-models/1.step",
+      "bytes": 1045557
+    },
+    {
+      "path": "data/board-sources/ultimainboard-2.1.4/structured-source/embedded-models/10.step",
+      "bytes": 289427
+    },
+    {
+      "path": "data/board-sources/ultimainboard-2.1.4/structured-source/embedded-models/11.step",
+      "bytes": 249673
+    },
+    {
+      "path": "data/board-sources/ultimainboard-2.1.4/structured-source/embedded-models/12.step",
+      "bytes": 249673
+    },
+    {
+      "path": "data/board-sources/ultimainboard-2.1.4/structured-source/embedded-models/13.step",
+      "bytes": 249673
+    },
+    {
+      "path": "data/board-sources/ultimainboard-2.1.4/structured-source/embedded-models/14.step",
+      "bytes": 249673
+    },
+    {
+      "path": "data/board-sources/ultimainboard-2.1.4/structured-source/embedded-models/15.step",
+      "bytes": 249673
+    },
+    {
+      "path": "data/board-sources/ultimainboard-2.1.4/structured-source/embedded-models/16.step",
+      "bytes": 141567
+    },
+    {
+      "path": "data/board-sources/ultimainboard-2.1.4/structured-source/embedded-models/17.step",
+      "bytes": 141567
+    },
+    {
+      "path": "data/board-sources/ultimainboard-2.1.4/structured-source/embedded-models/18.step",
+      "bytes": 711927
+    },
+    {
+      "path": "data/board-sources/ultimainboard-2.1.4/structured-source/embedded-models/19.step",
+      "bytes": 711927
+    },
+    {
+      "path": "data/board-sources/ultimainboard-2.1.4/structured-source/embedded-models/2.step",
+      "bytes": 1045557
+    },
+    {
+      "path": "data/board-sources/ultimainboard-2.1.4/structured-source/embedded-models/20.step",
+      "bytes": 391875
+    },
+    {
+      "path": "data/board-sources/ultimainboard-2.1.4/structured-source/embedded-models/21.step",
+      "bytes": 391875
+    },
+    {
+      "path": "data/board-sources/ultimainboard-2.1.4/structured-source/embedded-models/22.step",
+      "bytes": 690324
+    },
+    {
+      "path": "data/board-sources/ultimainboard-2.1.4/structured-source/embedded-models/23.step",
+      "bytes": 624670
+    },
+    {
+      "path": "data/board-sources/ultimainboard-2.1.4/structured-source/embedded-models/24.step",
+      "bytes": 238490
+    },
+    {
+      "path": "data/board-sources/ultimainboard-2.1.4/structured-source/embedded-models/25.step",
+      "bytes": 2060870
+    },
+    {
+      "path": "data/board-sources/ultimainboard-2.1.4/structured-source/embedded-models/26.step",
+      "bytes": 245100
+    },
+    {
+      "path": "data/board-sources/ultimainboard-2.1.4/structured-source/embedded-models/27.step",
+      "bytes": 245100
+    },
+    {
+      "path": "data/board-sources/ultimainboard-2.1.4/structured-source/embedded-models/28.step",
+      "bytes": 245100
+    },
+    {
+      "path": "data/board-sources/ultimainboard-2.1.4/structured-source/embedded-models/29.step",
+      "bytes": 632088
+    },
+    {
+      "path": "data/board-sources/ultimainboard-2.1.4/structured-source/embedded-models/3.step",
+      "bytes": 1045557
+    },
+    {
+      "path": "data/board-sources/ultimainboard-2.1.4/structured-source/embedded-models/30.step",
+      "bytes": 626914
+    },
+    {
+      "path": "data/board-sources/ultimainboard-2.1.4/structured-source/embedded-models/31.step",
+      "bytes": 267518
+    },
+    {
+      "path": "data/board-sources/ultimainboard-2.1.4/structured-source/embedded-models/32.step",
+      "bytes": 183024
+    },
+    {
+      "path": "data/board-sources/ultimainboard-2.1.4/structured-source/embedded-models/33.step",
+      "bytes": 183024
+    },
+    {
+      "path": "data/board-sources/ultimainboard-2.1.4/structured-source/embedded-models/34.step",
+      "bytes": 5171440
+    },
+    {
+      "path": "data/board-sources/ultimainboard-2.1.4/structured-source/embedded-models/35.step",
+      "bytes": 317700
+    },
+    {
+      "path": "data/board-sources/ultimainboard-2.1.4/structured-source/embedded-models/36.step",
+      "bytes": 334420
+    },
+    {
+      "path": "data/board-sources/ultimainboard-2.1.4/structured-source/embedded-models/37.step",
+      "bytes": 1004391
+    },
+    {
+      "path": "data/board-sources/ultimainboard-2.1.4/structured-source/embedded-models/38.step",
+      "bytes": 989939
+    },
+    {
+      "path": "data/board-sources/ultimainboard-2.1.4/structured-source/embedded-models/39.step",
+      "bytes": 989939
+    },
+    {
+      "path": "data/board-sources/ultimainboard-2.1.4/structured-source/embedded-models/4.step",
+      "bytes": 1045557
+    },
+    {
+      "path": "data/board-sources/ultimainboard-2.1.4/structured-source/embedded-models/40.step",
+      "bytes": 989939
+    },
+    {
+      "path": "data/board-sources/ultimainboard-2.1.4/structured-source/embedded-models/41.step",
+      "bytes": 126035
+    },
+    {
+      "path": "data/board-sources/ultimainboard-2.1.4/structured-source/embedded-models/42.step",
+      "bytes": 126035
+    },
+    {
+      "path": "data/board-sources/ultimainboard-2.1.4/structured-source/embedded-models/43.step",
+      "bytes": 126035
+    },
+    {
+      "path": "data/board-sources/ultimainboard-2.1.4/structured-source/embedded-models/44.step",
+      "bytes": 290871
+    },
+    {
+      "path": "data/board-sources/ultimainboard-2.1.4/structured-source/embedded-models/45.step",
+      "bytes": 385745
+    },
+    {
+      "path": "data/board-sources/ultimainboard-2.1.4/structured-source/embedded-models/46.step",
+      "bytes": 1608605
+    },
+    {
+      "path": "data/board-sources/ultimainboard-2.1.4/structured-source/embedded-models/47.step",
+      "bytes": 158412
+    },
+    {
+      "path": "data/board-sources/ultimainboard-2.1.4/structured-source/embedded-models/48.step",
+      "bytes": 158412
+    },
+    {
+      "path": "data/board-sources/ultimainboard-2.1.4/structured-source/embedded-models/49.step",
+      "bytes": 179175
+    },
+    {
+      "path": "data/board-sources/ultimainboard-2.1.4/structured-source/embedded-models/5.step",
+      "bytes": 312857
+    },
+    {
+      "path": "data/board-sources/ultimainboard-2.1.4/structured-source/embedded-models/50.step",
+      "bytes": 159176
+    },
+    {
+      "path": "data/board-sources/ultimainboard-2.1.4/structured-source/embedded-models/51.step",
+      "bytes": 159176
+    },
+    {
+      "path": "data/board-sources/ultimainboard-2.1.4/structured-source/embedded-models/52.step",
+      "bytes": 1169485
+    },
+    {
+      "path": "data/board-sources/ultimainboard-2.1.4/structured-source/embedded-models/53.step",
+      "bytes": 642147
+    },
+    {
+      "path": "data/board-sources/ultimainboard-2.1.4/structured-source/embedded-models/54.step",
+      "bytes": 281896
+    },
+    {
+      "path": "data/board-sources/ultimainboard-2.1.4/structured-source/embedded-models/55.step",
+      "bytes": 90841
+    },
+    {
+      "path": "data/board-sources/ultimainboard-2.1.4/structured-source/embedded-models/56.step",
+      "bytes": 319066
+    },
+    {
+      "path": "data/board-sources/ultimainboard-2.1.4/structured-source/embedded-models/57.step",
+      "bytes": 903554
+    },
+    {
+      "path": "data/board-sources/ultimainboard-2.1.4/structured-source/embedded-models/58.step",
+      "bytes": 530767
+    },
+    {
+      "path": "data/board-sources/ultimainboard-2.1.4/structured-source/embedded-models/59.step",
+      "bytes": 591461
+    },
+    {
+      "path": "data/board-sources/ultimainboard-2.1.4/structured-source/embedded-models/6.step",
+      "bytes": 312857
+    },
+    {
+      "path": "data/board-sources/ultimainboard-2.1.4/structured-source/embedded-models/60.step",
+      "bytes": 591461
+    },
+    {
+      "path": "data/board-sources/ultimainboard-2.1.4/structured-source/embedded-models/7.step",
+      "bytes": 397454
+    },
+    {
+      "path": "data/board-sources/ultimainboard-2.1.4/structured-source/embedded-models/8.step",
+      "bytes": 178694
+    },
+    {
+      "path": "data/board-sources/ultimainboard-2.1.4/structured-source/embedded-models/9.step",
+      "bytes": 178943
+    },
+    {
+      "path": "data/board-sources/ultimainboard-2.1.4/structured-source/schematic-records/revisies.json",
+      "bytes": 27335
+    },
+    {
+      "path": "data/board-sources/ultimainboard-2.1.4/structured-source/schematic-records/schema1.json",
+      "bytes": 1004377
+    },
+    {
+      "path": "data/board-sources/ultimainboard-2.1.4/structured-source/schematic-records/schema2.json",
+      "bytes": 754811
+    },
+    {
+      "path": "data/board-sources/ultimainboard-2.1.4/structured-source/schematic-records/schema3.json",
+      "bytes": 1075750
+    },
+    {
+      "path": "data/board-sources/ultimainboard-2.1.4/structured-source/schematic-records/schema4.json",
+      "bytes": 930124
+    },
+    {
+      "path": "data/board-sources/ultimainboard-2.1.4/structured-source/schematic-records/schema5.json",
+      "bytes": 603494
+    },
+    {
+      "path": "data/board-sources/ultimainboard-2.1.4/photos/original/reference-3.jpeg",
+      "bytes": 97911
+    },
+    {
+      "path": "docs/sources/COVERAGE.md",
+      "bytes": 4427
+    },
+    {
+      "path": "docs/sources/EXTERNAL_DATASETS.md",
+      "bytes": 1435
+    },
+    {
+      "path": "docs/sources/LICENSE_NOTES.md",
+      "bytes": 1714
+    },
+    {
+      "path": "docs/sources/PHOTO_CAPTURE.md",
+      "bytes": 1453
+    },
+    {
+      "path": "docs/sources/PHOTO_MODEL_ASSESSMENT.md",
+      "bytes": 6906
+    },
+    {
+      "path": "docs/sources/PROJECT_CONTEXT.md",
+      "bytes": 8597
+    },
+    {
+      "path": "docs/sources/README.md",
+      "bytes": 1944
+    },
+    {
+      "path": "docs/sources/REMAINING_SOURCE_LEADS.md",
+      "bytes": 1990
+    },
+    {
+      "path": "data/photo-model/board-annotations.json",
+      "bytes": 77281
+    },
+    {
+      "path": "data/photo-model/component-seed-annotations.json",
+      "bytes": 5344
+    },
+    {
+      "path": "data/photo-model/large-board-component-seeds.json",
+      "bytes": 28548
+    },
+    {
+      "path": "data/photo-model/MODEL_SCOPE.md",
+      "bytes": 2281
+    },
+    {
+      "path": "data/photo-model/nxp-component-seeds-preview.jpg",
+      "bytes": 631524
+    },
+    {
+      "path": "data/photo-model/nxp-component-seeds.json",
+      "bytes": 14271
+    },
+    {
+      "path": "data/photo-model/photo-manifest.json",
+      "bytes": 29961
+    },
+    {
+      "path": "data/photo-model/yolo-boards/data.yaml",
+      "bytes": 244
+    },
+    {
+      "path": "data/photo-model/yolo-boards/split-report.json",
+      "bytes": 477
+    },
+    {
+      "path": "data/photo-model/yolo-boards/labels/train/IMG_20261009_221210.txt",
+      "bytes": 47
+    },
+    {
+      "path": "data/photo-model/yolo-boards/labels/train/IMG_20261009_221220.txt",
+      "bytes": 47
+    },
+    {
+      "path": "data/photo-model/yolo-boards/labels/train/IMG_20261009_221222.txt",
+      "bytes": 47
+    },
+    {
+      "path": "data/photo-model/yolo-boards/labels/train/IMG_20261009_221225.txt",
+      "bytes": 47
+    },
+    {
+      "path": "data/photo-model/yolo-boards/labels/train/IMG_20261009_221230.txt",
+      "bytes": 47
+    },
+    {
+      "path": "data/photo-model/yolo-boards/labels/train/IMG_20261009_221340.txt",
+      "bytes": 47
+    },
+    {
+      "path": "data/photo-model/yolo-boards/labels/train/IMG_20261009_221343.txt",
+      "bytes": 47
+    },
+    {
+      "path": "data/photo-model/yolo-boards/labels/train/IMG_20261009_221348.txt",
+      "bytes": 47
+    },
+    {
+      "path": "data/photo-model/yolo-boards/labels/train/IMG_20261009_221350.txt",
+      "bytes": 47
+    },
+    {
+      "path": "data/photo-model/yolo-boards/labels/train/IMG_20261009_221646.txt",
+      "bytes": 47
+    },
+    {
+      "path": "data/photo-model/yolo-boards/labels/train/IMG_20261009_221717.txt",
+      "bytes": 47
+    },
+    {
+      "path": "data/photo-model/yolo-boards/labels/train/IMG_20261009_221717_1.txt",
+      "bytes": 47
+    },
+    {
+      "path": "data/photo-model/yolo-boards/labels/train/IMG_20261009_221719.txt",
+      "bytes": 47
+    },
+    {
+      "path": "data/photo-model/yolo-boards/labels/train/IMG_20261009_221719_1.txt",
+      "bytes": 47
+    },
+    {
+      "path": "data/photo-model/yolo-boards/labels/train/IMG_20261009_221755.txt",
+      "bytes": 47
+    },
+    {
+      "path": "data/photo-model/yolo-boards/labels/train/IMG_20261009_221755_1.txt",
+      "bytes": 47
+    },
+    {
+      "path": "data/photo-model/yolo-boards/labels/train/IMG_20261009_221800.txt",
+      "bytes": 47
+    },
+    {
+      "path": "data/photo-model/yolo-boards/labels/train/IMG_20261009_221800_1.txt",
+      "bytes": 47
+    },
+    {
+      "path": "data/photo-model/yolo-boards/labels/train/IMG_20261009_221803.txt",
+      "bytes": 47
+    },
+    {
+      "path": "data/photo-model/yolo-boards/labels/train/IMG_20261009_221803_1.txt",
+      "bytes": 47
+    },
+    {
+      "path": "data/photo-model/yolo-boards/labels/train/IMG_20261009_221806.txt",
+      "bytes": 47
+    },
+    {
+      "path": "data/photo-model/yolo-boards/labels/train/IMG_20261009_221806_1.txt",
+      "bytes": 47
+    },
+    {
+      "path": "data/photo-model/yolo-boards/labels/train/IMG_20261009_221838.txt",
+      "bytes": 47
+    },
+    {
+      "path": "data/photo-model/yolo-boards/labels/train/IMG_20261009_221838_1.txt",
+      "bytes": 47
+    },
+    {
+      "path": "data/photo-model/yolo-boards/labels/train/IMG_20261009_221841.txt",
+      "bytes": 47
+    },
+    {
+      "path": "data/photo-model/yolo-boards/labels/train/IMG_20261009_221841_1.txt",
+      "bytes": 47
+    },
+    {
+      "path": "data/photo-model/yolo-boards/labels/train/IMG_20261009_221901.txt",
+      "bytes": 47
+    },
+    {
+      "path": "data/photo-model/yolo-boards/labels/train/IMG_20261009_221901_1.txt",
+      "bytes": 47
+    },
+    {
+      "path": "data/photo-model/yolo-boards/labels/train/IMG_20261009_221908.txt",
+      "bytes": 47
+    },
+    {
+      "path": "data/photo-model/yolo-boards/labels/train/IMG_20261009_221908_1.txt",
+      "bytes": 47
+    },
+    {
+      "path": "data/photo-model/yolo-boards/labels/train/IMG_20261009_221911.txt",
+      "bytes": 47
+    },
+    {
+      "path": "data/photo-model/yolo-boards/labels/train/IMG_20261009_221911_1.txt",
+      "bytes": 47
+    },
+    {
+      "path": "data/photo-model/yolo-boards/labels/train/IMG_20261009_221914.txt",
+      "bytes": 47
+    },
+    {
+      "path": "data/photo-model/yolo-boards/labels/train/IMG_20261009_221914_1.txt",
+      "bytes": 47
+    },
+    {
+      "path": "data/photo-model/yolo-boards/labels/train/IMG_20261009_221941.txt",
+      "bytes": 47
+    },
+    {
+      "path": "data/photo-model/yolo-boards/labels/train/IMG_20261009_221941_1.txt",
+      "bytes": 47
+    },
+    {
+      "path": "data/photo-model/yolo-boards/labels/train/IMG_20261009_221944.txt",
+      "bytes": 47
+    },
+    {
+      "path": "data/photo-model/yolo-boards/labels/train/IMG_20261009_221944_1.txt",
+      "bytes": 47
+    },
+    {
+      "path": "data/photo-model/yolo-boards/labels/train/IMG_20261009_221952.txt",
+      "bytes": 47
+    },
+    {
+      "path": "data/photo-model/yolo-boards/labels/train/IMG_20261009_221952_1.txt",
+      "bytes": 47
+    },
+    {
+      "path": "data/photo-model/yolo-boards/labels/train/IMG_20261009_222024.txt",
+      "bytes": 47
+    },
+    {
+      "path": "data/photo-model/yolo-boards/labels/train/IMG_20261009_222024_1.txt",
+      "bytes": 47
+    },
+    {
+      "path": "data/photo-model/yolo-boards/labels/train/IMG_20261009_222133.txt",
+      "bytes": 47
+    },
+    {
+      "path": "data/photo-model/yolo-boards/labels/train/IMG_20261009_222133_1.txt",
+      "bytes": 47
+    },
+    {
+      "path": "data/photo-model/yolo-boards/labels/train/IMG_20261009_222135.txt",
+      "bytes": 47
+    },
+    {
+      "path": "data/photo-model/yolo-boards/labels/train/IMG_20261009_222135_1.txt",
+      "bytes": 47
+    },
+    {
+      "path": "data/photo-model/yolo-boards/labels/train/IMG_20261009_222137.txt",
+      "bytes": 47
+    },
+    {
+      "path": "data/photo-model/yolo-boards/labels/train/IMG_20261009_222137_1.txt",
+      "bytes": 47
+    },
+    {
+      "path": "data/photo-model/yolo-boards/labels/train/IMG_20261009_222219.txt",
+      "bytes": 47
+    },
+    {
+      "path": "data/photo-model/yolo-boards/labels/train/IMG_20261009_222219_1.txt",
+      "bytes": 47
+    },
+    {
+      "path": "data/photo-model/yolo-boards/labels/train/IMG_20261009_222222.txt",
+      "bytes": 47
+    },
+    {
+      "path": "data/photo-model/yolo-boards/labels/train/IMG_20261009_222222_1.txt",
+      "bytes": 47
+    },
+    {
+      "path": "data/photo-model/yolo-boards/labels/train/IMG_20261009_222225.txt",
+      "bytes": 47
+    },
+    {
+      "path": "data/photo-model/yolo-boards/labels/train/IMG_20261009_222225_1.txt",
+      "bytes": 47
+    },
+    {
+      "path": "data/photo-model/yolo-boards/labels/train/IMG_20261009_222248.txt",
+      "bytes": 47
+    },
+    {
+      "path": "data/photo-model/yolo-boards/labels/train/IMG_20261009_222248_1.txt",
+      "bytes": 47
+    },
+    {
+      "path": "data/photo-model/yolo-boards/labels/train/IMG_20261009_222252.txt",
+      "bytes": 47
+    },
+    {
+      "path": "data/photo-model/yolo-boards/labels/train/IMG_20261009_222252_1.txt",
+      "bytes": 47
+    },
+    {
+      "path": "data/photo-model/yolo-boards/labels/train/IMG_20261009_222305.txt",
+      "bytes": 47
+    },
+    {
+      "path": "data/photo-model/yolo-boards/labels/train/IMG_20261009_222305_1.txt",
+      "bytes": 47
+    },
+    {
+      "path": "data/photo-model/yolo-boards/labels/train/IMG_20261009_222308.txt",
+      "bytes": 47
+    },
+    {
+      "path": "data/photo-model/yolo-boards/labels/train/IMG_20261009_222308_1.txt",
+      "bytes": 47
+    },
+    {
+      "path": "data/photo-model/yolo-boards/labels/val/IMG_20261009_221154.txt",
+      "bytes": 47
+    },
+    {
+      "path": "data/photo-model/yolo-boards/labels/val/IMG_20261009_221155.txt",
+      "bytes": 47
+    },
+    {
+      "path": "data/photo-model/yolo-boards/labels/val/IMG_20261009_221156.txt",
+      "bytes": 47
+    },
+    {
+      "path": "data/photo-model/yolo-boards/labels/val/IMG_20261009_221657.txt",
+      "bytes": 47
+    },
+    {
+      "path": "data/photo-model/yolo-boards/labels/val/IMG_20261009_222033.txt",
+      "bytes": 47
+    },
+    {
+      "path": "data/photo-model/yolo-boards/labels/val/IMG_20261009_222038.txt",
+      "bytes": 47
+    },
+    {
+      "path": "data/photo-model/yolo-boards/labels/val/IMG_20261009_222042.txt",
+      "bytes": 47
+    },
+    {
+      "path": "data/photo-model/yolo-boards/labels/val/IMG_20261009_222108.txt",
+      "bytes": 47
+    },
+    {
+      "path": "data/photo-model/yolo-boards/labels/val/IMG_20261009_222113.txt",
+      "bytes": 47
+    },
+    {
+      "path": "data/photo-model/yolo-boards/labels/val/IMG_20261009_222340.txt",
+      "bytes": 47
+    },
+    {
+      "path": "data/photo-model/yolo-boards/labels/val/IMG_20261009_222343.txt",
+      "bytes": 47
+    },
+    {
+      "path": "data/photo-model/yolo-boards/images/train/IMG_20261009_221210.jpg",
+      "bytes": 254543
+    },
+    {
+      "path": "data/photo-model/yolo-boards/images/train/IMG_20261009_221220.jpg",
+      "bytes": 314468
+    },
+    {
+      "path": "data/photo-model/yolo-boards/images/train/IMG_20261009_221222.jpg",
+      "bytes": 270941
+    },
+    {
+      "path": "data/photo-model/yolo-boards/images/train/IMG_20261009_221225.jpg",
+      "bytes": 290722
+    },
+    {
+      "path": "data/photo-model/yolo-boards/images/train/IMG_20261009_221230.jpg",
+      "bytes": 294753
+    },
+    {
+      "path": "data/photo-model/yolo-boards/images/train/IMG_20261009_221340.jpg",
+      "bytes": 437777
+    },
+    {
+      "path": "data/photo-model/yolo-boards/images/train/IMG_20261009_221343.jpg",
+      "bytes": 394822
+    },
+    {
+      "path": "data/photo-model/yolo-boards/images/train/IMG_20261009_221348.jpg",
+      "bytes": 427896
+    },
+    {
+      "path": "data/photo-model/yolo-boards/images/train/IMG_20261009_221350.jpg",
+      "bytes": 410371
+    },
+    {
+      "path": "data/photo-model/yolo-boards/images/train/IMG_20261009_221646.jpg",
+      "bytes": 403555
+    },
+    {
+      "path": "data/photo-model/yolo-boards/images/train/IMG_20261009_221717.jpg",
+      "bytes": 464851
+    },
+    {
+      "path": "data/photo-model/yolo-boards/images/train/IMG_20261009_221717_1.jpg",
+      "bytes": 384341
+    },
+    {
+      "path": "data/photo-model/yolo-boards/images/train/IMG_20261009_221719.jpg",
+      "bytes": 473613
+    },
+    {
+      "path": "data/photo-model/yolo-boards/images/train/IMG_20261009_221719_1.jpg",
+      "bytes": 378959
+    },
+    {
+      "path": "data/photo-model/yolo-boards/images/train/IMG_20261009_221755.jpg",
+      "bytes": 431598
+    },
+    {
+      "path": "data/photo-model/yolo-boards/images/train/IMG_20261009_221755_1.jpg",
+      "bytes": 327965
+    },
+    {
+      "path": "data/photo-model/yolo-boards/images/train/IMG_20261009_221800.jpg",
+      "bytes": 477523
+    },
+    {
+      "path": "data/photo-model/yolo-boards/images/train/IMG_20261009_221800_1.jpg",
+      "bytes": 382668
+    },
+    {
+      "path": "data/photo-model/yolo-boards/images/train/IMG_20261009_221803.jpg",
+      "bytes": 497786
+    },
+    {
+      "path": "data/photo-model/yolo-boards/images/train/IMG_20261009_221803_1.jpg",
+      "bytes": 388994
+    },
+    {
+      "path": "data/photo-model/yolo-boards/images/train/IMG_20261009_221806.jpg",
+      "bytes": 428420
+    },
+    {
+      "path": "data/photo-model/yolo-boards/images/train/IMG_20261009_221806_1.jpg",
+      "bytes": 373925
+    },
+    {
+      "path": "data/photo-model/yolo-boards/images/train/IMG_20261009_221838.jpg",
+      "bytes": 297081
+    },
+    {
+      "path": "data/photo-model/yolo-boards/images/train/IMG_20261009_221838_1.jpg",
+      "bytes": 248490
+    },
+    {
+      "path": "data/photo-model/yolo-boards/images/train/IMG_20261009_221841.jpg",
+      "bytes": 342736
+    },
+    {
+      "path": "data/photo-model/yolo-boards/images/train/IMG_20261009_221841_1.jpg",
+      "bytes": 279177
+    },
+    {
+      "path": "data/photo-model/yolo-boards/images/train/IMG_20261009_221901.jpg",
+      "bytes": 233709
+    },
+    {
+      "path": "data/photo-model/yolo-boards/images/train/IMG_20261009_221901_1.jpg",
+      "bytes": 269953
+    },
+    {
+      "path": "data/photo-model/yolo-boards/images/train/IMG_20261009_221908.jpg",
+      "bytes": 217140
+    },
+    {
+      "path": "data/photo-model/yolo-boards/images/train/IMG_20261009_221908_1.jpg",
+      "bytes": 224211
+    },
+    {
+      "path": "data/photo-model/yolo-boards/images/train/IMG_20261009_221911.jpg",
+      "bytes": 228794
+    },
+    {
+      "path": "data/photo-model/yolo-boards/images/train/IMG_20261009_221911_1.jpg",
+      "bytes": 233163
+    },
+    {
+      "path": "data/photo-model/yolo-boards/images/train/IMG_20261009_221914.jpg",
+      "bytes": 226679
+    },
+    {
+      "path": "data/photo-model/yolo-boards/images/train/IMG_20261009_221914_1.jpg",
+      "bytes": 234878
+    },
+    {
+      "path": "data/photo-model/yolo-boards/images/train/IMG_20261009_221941.jpg",
+      "bytes": 368164
+    },
+    {
+      "path": "data/photo-model/yolo-boards/images/train/IMG_20261009_221941_1.jpg",
+      "bytes": 258598
+    },
+    {
+      "path": "data/photo-model/yolo-boards/images/train/IMG_20261009_221944.jpg",
+      "bytes": 309649
+    },
+    {
+      "path": "data/photo-model/yolo-boards/images/train/IMG_20261009_221944_1.jpg",
+      "bytes": 234314
+    },
+    {
+      "path": "data/photo-model/yolo-boards/images/train/IMG_20261009_221952.jpg",
+      "bytes": 329742
+    },
+    {
+      "path": "data/photo-model/yolo-boards/images/train/IMG_20261009_221952_1.jpg",
+      "bytes": 267382
+    },
+    {
+      "path": "data/photo-model/yolo-boards/images/train/IMG_20261009_222024.jpg",
+      "bytes": 599804
+    },
+    {
+      "path": "data/photo-model/yolo-boards/images/train/IMG_20261009_222024_1.jpg",
+      "bytes": 466818
+    },
+    {
+      "path": "data/photo-model/yolo-boards/images/train/IMG_20261009_222133.jpg",
+      "bytes": 521443
+    },
+    {
+      "path": "data/photo-model/yolo-boards/images/train/IMG_20261009_222133_1.jpg",
+      "bytes": 363276
+    },
+    {
+      "path": "data/photo-model/yolo-boards/images/train/IMG_20261009_222135.jpg",
+      "bytes": 549738
+    },
+    {
+      "path": "data/photo-model/yolo-boards/images/train/IMG_20261009_222135_1.jpg",
+      "bytes": 362349
+    },
+    {
+      "path": "data/photo-model/yolo-boards/images/train/IMG_20261009_222137.jpg",
+      "bytes": 526347
+    },
+    {
+      "path": "data/photo-model/yolo-boards/images/train/IMG_20261009_222137_1.jpg",
+      "bytes": 362868
+    },
+    {
+      "path": "data/photo-model/yolo-boards/images/train/IMG_20261009_222219.jpg",
+      "bytes": 547575
+    },
+    {
+      "path": "data/photo-model/yolo-boards/images/train/IMG_20261009_222219_1.jpg",
+      "bytes": 387402
+    },
+    {
+      "path": "data/photo-model/yolo-boards/images/train/IMG_20261009_222222.jpg",
+      "bytes": 550692
+    },
+    {
+      "path": "data/photo-model/yolo-boards/images/train/IMG_20261009_222222_1.jpg",
+      "bytes": 384950
+    },
+    {
+      "path": "data/photo-model/yolo-boards/images/train/IMG_20261009_222225.jpg",
+      "bytes": 545866
+    },
+    {
+      "path": "data/photo-model/yolo-boards/images/train/IMG_20261009_222225_1.jpg",
+      "bytes": 370465
+    },
+    {
+      "path": "data/photo-model/yolo-boards/images/train/IMG_20261009_222248.jpg",
+      "bytes": 424197
+    },
+    {
+      "path": "data/photo-model/yolo-boards/images/train/IMG_20261009_222248_1.jpg",
+      "bytes": 376126
+    },
+    {
+      "path": "data/photo-model/yolo-boards/images/train/IMG_20261009_222252.jpg",
+      "bytes": 392376
+    },
+    {
+      "path": "data/photo-model/yolo-boards/images/train/IMG_20261009_222252_1.jpg",
+      "bytes": 355011
+    },
+    {
+      "path": "data/photo-model/yolo-boards/images/train/IMG_20261009_222305.jpg",
+      "bytes": 433865
+    },
+    {
+      "path": "data/photo-model/yolo-boards/images/train/IMG_20261009_222305_1.jpg",
+      "bytes": 389033
+    },
+    {
+      "path": "data/photo-model/yolo-boards/images/train/IMG_20261009_222308.jpg",
+      "bytes": 429663
+    },
+    {
+      "path": "data/photo-model/yolo-boards/images/train/IMG_20261009_222308_1.jpg",
+      "bytes": 385904
+    },
+    {
+      "path": "data/photo-model/yolo-boards/images/val/IMG_20261009_221154.jpg",
+      "bytes": 282587
+    },
+    {
+      "path": "data/photo-model/yolo-boards/images/val/IMG_20261009_221155.jpg",
+      "bytes": 280579
+    },
+    {
+      "path": "data/photo-model/yolo-boards/images/val/IMG_20261009_221156.jpg",
+      "bytes": 290490
+    },
+    {
+      "path": "data/photo-model/yolo-boards/images/val/IMG_20261009_221657.jpg",
+      "bytes": 427898
+    },
+    {
+      "path": "data/photo-model/yolo-boards/images/val/IMG_20261009_222033.jpg",
+      "bytes": 587363
+    },
+    {
+      "path": "data/photo-model/yolo-boards/images/val/IMG_20261009_222038.jpg",
+      "bytes": 544563
+    },
+    {
+      "path": "data/photo-model/yolo-boards/images/val/IMG_20261009_222042.jpg",
+      "bytes": 576278
+    },
+    {
+      "path": "data/photo-model/yolo-boards/images/val/IMG_20261009_222108.jpg",
+      "bytes": 565822
+    },
+    {
+      "path": "data/photo-model/yolo-boards/images/val/IMG_20261009_222113.jpg",
+      "bytes": 543890
+    },
+    {
+      "path": "data/photo-model/yolo-boards/images/val/IMG_20261009_222340.jpg",
+      "bytes": 400472
+    },
+    {
+      "path": "data/photo-model/yolo-boards/images/val/IMG_20261009_222343.jpg",
+      "bytes": 400480
+    },
+    {
+      "path": "data/photo-model/photos/raw/IMG_20261009_221154.jpg",
+      "bytes": 2600140
+    },
+    {
+      "path": "data/photo-model/photos/raw/IMG_20261009_221155.jpg",
+      "bytes": 2602224
+    },
+    {
+      "path": "data/photo-model/photos/raw/IMG_20261009_221156.jpg",
+      "bytes": 2641362
+    },
+    {
+      "path": "data/photo-model/photos/raw/IMG_20261009_221210.jpg",
+      "bytes": 2553592
+    },
+    {
+      "path": "data/photo-model/photos/raw/IMG_20261009_221220.jpg",
+      "bytes": 2940229
+    },
+    {
+      "path": "data/photo-model/photos/raw/IMG_20261009_221222.jpg",
+      "bytes": 2571325
+    },
+    {
+      "path": "data/photo-model/photos/raw/IMG_20261009_221225.jpg",
+      "bytes": 2658712
+    },
+    {
+      "path": "data/photo-model/photos/raw/IMG_20261009_221230.jpg",
+      "bytes": 2662960
+    },
+    {
+      "path": "data/photo-model/photos/raw/IMG_20261009_221340.jpg",
+      "bytes": 3620845
+    },
+    {
+      "path": "data/photo-model/photos/raw/IMG_20261009_221343.jpg",
+      "bytes": 3420118
+    },
+    {
+      "path": "data/photo-model/photos/raw/IMG_20261009_221348.jpg",
+      "bytes": 3566054
+    },
+    {
+      "path": "data/photo-model/photos/raw/IMG_20261009_221350.jpg",
+      "bytes": 3438805
+    },
+    {
+      "path": "data/photo-model/photos/raw/IMG_20261009_221646.jpg",
+      "bytes": 3264450
+    },
+    {
+      "path": "data/photo-model/photos/raw/IMG_20261009_221657.jpg",
+      "bytes": 3599579
+    },
+    {
+      "path": "data/photo-model/photos/raw/IMG_20261009_221717.jpg",
+      "bytes": 3217701
+    },
+    {
+      "path": "data/photo-model/photos/raw/IMG_20261009_221717_1.jpg",
+      "bytes": 1910766
+    },
+    {
+      "path": "data/photo-model/photos/raw/IMG_20261009_221719.jpg",
+      "bytes": 3263166
+    },
+    {
+      "path": "data/photo-model/photos/raw/IMG_20261009_221719_1.jpg",
+      "bytes": 1908258
+    },
+    {
+      "path": "data/photo-model/photos/raw/IMG_20261009_221755.jpg",
+      "bytes": 3043908
+    },
+    {
+      "path": "data/photo-model/photos/raw/IMG_20261009_221755_1.jpg",
+      "bytes": 1626049
+    },
+    {
+      "path": "data/photo-model/photos/raw/IMG_20261009_221800.jpg",
+      "bytes": 3251237
+    },
+    {
+      "path": "data/photo-model/photos/raw/IMG_20261009_221800_1.jpg",
+      "bytes": 1945343
+    },
+    {
+      "path": "data/photo-model/photos/raw/IMG_20261009_221803.jpg",
+      "bytes": 3346367
+    },
+    {
+      "path": "data/photo-model/photos/raw/IMG_20261009_221803_1.jpg",
+      "bytes": 1998481
+    },
+    {
+      "path": "data/photo-model/photos/raw/IMG_20261009_221806.jpg",
+      "bytes": 3064772
+    },
+    {
+      "path": "data/photo-model/photos/raw/IMG_20261009_221806_1.jpg",
+      "bytes": 1955509
+    },
+    {
+      "path": "data/photo-model/photos/raw/IMG_20261009_221838.jpg",
+      "bytes": 2599126
+    },
+    {
+      "path": "data/photo-model/photos/raw/IMG_20261009_221838_1.jpg",
+      "bytes": 379124
+    },
+    {
+      "path": "data/photo-model/photos/raw/IMG_20261009_221841.jpg",
+      "bytes": 2697200
+    },
+    {
+      "path": "data/photo-model/photos/raw/IMG_20261009_221841_1.jpg",
+      "bytes": 424623
+    },
+    {
+      "path": "data/photo-model/photos/raw/IMG_20261009_221901.jpg",
+      "bytes": 2358637
+    },
+    {
+      "path": "data/photo-model/photos/raw/IMG_20261009_221901_1.jpg",
+      "bytes": 406114
+    },
+    {
+      "path": "data/photo-model/photos/raw/IMG_20261009_221908.jpg",
+      "bytes": 2318860
+    },
+    {
+      "path": "data/photo-model/photos/raw/IMG_20261009_221908_1.jpg",
+      "bytes": 346754
+    },
+    {
+      "path": "data/photo-model/photos/raw/IMG_20261009_221911.jpg",
+      "bytes": 2351978
+    },
+    {
+      "path": "data/photo-model/photos/raw/IMG_20261009_221911_1.jpg",
+      "bytes": 358430
+    },
+    {
+      "path": "data/photo-model/photos/raw/IMG_20261009_221914.jpg",
+      "bytes": 2341762
+    },
+    {
+      "path": "data/photo-model/photos/raw/IMG_20261009_221914_1.jpg",
+      "bytes": 360714
+    },
+    {
+      "path": "data/photo-model/photos/raw/IMG_20261009_221941.jpg",
+      "bytes": 2870071
+    },
+    {
+      "path": "data/photo-model/photos/raw/IMG_20261009_221941_1.jpg",
+      "bytes": 454393
+    },
+    {
+      "path": "data/photo-model/photos/raw/IMG_20261009_221944.jpg",
+      "bytes": 2555334
+    },
+    {
+      "path": "data/photo-model/photos/raw/IMG_20261009_221944_1.jpg",
+      "bytes": 404715
+    },
+    {
+      "path": "data/photo-model/photos/raw/IMG_20261009_221952.jpg",
+      "bytes": 2715442
+    },
+    {
+      "path": "data/photo-model/photos/raw/IMG_20261009_221952_1.jpg",
+      "bytes": 456754
+    },
+    {
+      "path": "data/photo-model/photos/raw/IMG_20261009_222024.jpg",
+      "bytes": 4078906
+    },
+    {
+      "path": "data/photo-model/photos/raw/IMG_20261009_222024_1.jpg",
+      "bytes": 2699201
+    },
+    {
+      "path": "data/photo-model/photos/raw/IMG_20261009_222033.jpg",
+      "bytes": 5783304
+    },
+    {
+      "path": "data/photo-model/photos/raw/IMG_20261009_222033_1.jpg",
+      "bytes": 650277
+    },
+    {
+      "path": "data/photo-model/photos/raw/IMG_20261009_222038.jpg",
+      "bytes": 4953805
+    },
+    {
+      "path": "data/photo-model/photos/raw/IMG_20261009_222038_1.jpg",
+      "bytes": 590272
+    },
+    {
+      "path": "data/photo-model/photos/raw/IMG_20261009_222042.jpg",
+      "bytes": 5389824
+    },
+    {
+      "path": "data/photo-model/photos/raw/IMG_20261009_222042_1.jpg",
+      "bytes": 619532
+    },
+    {
+      "path": "data/photo-model/photos/raw/IMG_20261009_222108.jpg",
+      "bytes": 5349310
+    },
+    {
+      "path": "data/photo-model/photos/raw/IMG_20261009_222108_1.jpg",
+      "bytes": 600945
+    },
+    {
+      "path": "data/photo-model/photos/raw/IMG_20261009_222113.jpg",
+      "bytes": 5001443
+    },
+    {
+      "path": "data/photo-model/photos/raw/IMG_20261009_222113_1.jpg",
+      "bytes": 580948
+    },
+    {
+      "path": "data/photo-model/photos/raw/IMG_20261009_222133.jpg",
+      "bytes": 3643993
+    },
+    {
+      "path": "data/photo-model/photos/raw/IMG_20261009_222133_1.jpg",
+      "bytes": 1327397
+    },
+    {
+      "path": "data/photo-model/photos/raw/IMG_20261009_222135.jpg",
+      "bytes": 3795005
+    },
+    {
+      "path": "data/photo-model/photos/raw/IMG_20261009_222135_1.jpg",
+      "bytes": 1324598
+    },
+    {
+      "path": "data/photo-model/photos/raw/IMG_20261009_222137.jpg",
+      "bytes": 3688514
+    },
+    {
+      "path": "data/photo-model/photos/raw/IMG_20261009_222137_1.jpg",
+      "bytes": 1339461
+    },
+    {
+      "path": "data/photo-model/photos/raw/IMG_20261009_222219.jpg",
+      "bytes": 3947894
+    },
+    {
+      "path": "data/photo-model/photos/raw/IMG_20261009_222219_1.jpg",
+      "bytes": 577418
+    },
+    {
+      "path": "data/photo-model/photos/raw/IMG_20261009_222222.jpg",
+      "bytes": 3965624
+    },
+    {
+      "path": "data/photo-model/photos/raw/IMG_20261009_222222_1.jpg",
+      "bytes": 590353
+    },
+    {
+      "path": "data/photo-model/photos/raw/IMG_20261009_222225.jpg",
+      "bytes": 3915210
+    },
+    {
+      "path": "data/photo-model/photos/raw/IMG_20261009_222225_1.jpg",
+      "bytes": 558689
+    },
+    {
+      "path": "data/photo-model/photos/raw/IMG_20261009_222248.jpg",
+      "bytes": 3121150
+    },
+    {
+      "path": "data/photo-model/photos/raw/IMG_20261009_222248_1.jpg",
+      "bytes": 1320887
+    },
+    {
+      "path": "data/photo-model/photos/raw/IMG_20261009_222252.jpg",
+      "bytes": 2952320
+    },
+    {
+      "path": "data/photo-model/photos/raw/IMG_20261009_222252_1.jpg",
+      "bytes": 1248952
+    },
+    {
+      "path": "data/photo-model/photos/raw/IMG_20261009_222305.jpg",
+      "bytes": 3138849
+    },
+    {
+      "path": "data/photo-model/photos/raw/IMG_20261009_222305_1.jpg",
+      "bytes": 1346291
+    },
+    {
+      "path": "data/photo-model/photos/raw/IMG_20261009_222308.jpg",
+      "bytes": 3118140
+    },
+    {
+      "path": "data/photo-model/photos/raw/IMG_20261009_222308_1.jpg",
+      "bytes": 1342188
+    },
+    {
+      "path": "data/photo-model/photos/raw/IMG_20261009_222340.jpg",
+      "bytes": 2999866
+    },
+    {
+      "path": "data/photo-model/photos/raw/IMG_20261009_222340_1.jpg",
+      "bytes": 1304783
+    },
+    {
+      "path": "data/photo-model/photos/raw/IMG_20261009_222343.jpg",
+      "bytes": 3003685
+    },
+    {
+      "path": "data/photo-model/photos/raw/IMG_20261009_222343_1.jpg",
+      "bytes": 1142832
+    },
+    {
+      "path": "data/photo-model/by_board/esp32_board/IMG_20261009_221838.jpg",
+      "bytes": 2599126
+    },
+    {
+      "path": "data/photo-model/by_board/esp32_board/IMG_20261009_221838_1.jpg",
+      "bytes": 379124
+    },
+    {
+      "path": "data/photo-model/by_board/esp32_board/IMG_20261009_221841.jpg",
+      "bytes": 2697200
+    },
+    {
+      "path": "data/photo-model/by_board/esp32_board/IMG_20261009_221841_1.jpg",
+      "bytes": 424623
+    },
+    {
+      "path": "data/photo-model/by_board/esp32_board/IMG_20261009_221901.jpg",
+      "bytes": 2358637
+    },
+    {
+      "path": "data/photo-model/by_board/esp32_board/IMG_20261009_221901_1.jpg",
+      "bytes": 406114
+    },
+    {
+      "path": "data/photo-model/by_board/esp32_board/IMG_20261009_221908.jpg",
+      "bytes": 2318860
+    },
+    {
+      "path": "data/photo-model/by_board/esp32_board/IMG_20261009_221908_1.jpg",
+      "bytes": 346754
+    },
+    {
+      "path": "data/photo-model/by_board/esp32_board/IMG_20261009_221911.jpg",
+      "bytes": 2351978
+    },
+    {
+      "path": "data/photo-model/by_board/esp32_board/IMG_20261009_221911_1.jpg",
+      "bytes": 358430
+    },
+    {
+      "path": "data/photo-model/by_board/esp32_board/IMG_20261009_221914.jpg",
+      "bytes": 2341762
+    },
+    {
+      "path": "data/photo-model/by_board/esp32_board/IMG_20261009_221914_1.jpg",
+      "bytes": 360714
+    },
+    {
+      "path": "data/photo-model/by_board/esp8266_board/IMG_20261009_221154.jpg",
+      "bytes": 2600140
+    },
+    {
+      "path": "data/photo-model/by_board/esp8266_board/IMG_20261009_221155.jpg",
+      "bytes": 2602224
+    },
+    {
+      "path": "data/photo-model/by_board/esp8266_board/IMG_20261009_221156.jpg",
+      "bytes": 2641362
+    },
+    {
+      "path": "data/photo-model/by_board/esp8266_board/IMG_20261009_221210.jpg",
+      "bytes": 2553592
+    },
+    {
+      "path": "data/photo-model/by_board/esp8266_board/IMG_20261009_221220.jpg",
+      "bytes": 2940229
+    },
+    {
+      "path": "data/photo-model/by_board/esp8266_board/IMG_20261009_221222.jpg",
+      "bytes": 2571325
+    },
+    {
+      "path": "data/photo-model/by_board/esp8266_board/IMG_20261009_221225.jpg",
+      "bytes": 2658712
+    },
+    {
+      "path": "data/photo-model/by_board/esp8266_board/IMG_20261009_221230.jpg",
+      "bytes": 2662960
+    },
+    {
+      "path": "data/photo-model/by_board/esp8266_board/IMG_20261009_221941.jpg",
+      "bytes": 2870071
+    },
+    {
+      "path": "data/photo-model/by_board/esp8266_board/IMG_20261009_221941_1.jpg",
+      "bytes": 454393
+    },
+    {
+      "path": "data/photo-model/by_board/esp8266_board/IMG_20261009_221944.jpg",
+      "bytes": 2555334
+    },
+    {
+      "path": "data/photo-model/by_board/esp8266_board/IMG_20261009_221944_1.jpg",
+      "bytes": 404715
+    },
+    {
+      "path": "data/photo-model/by_board/esp8266_board/IMG_20261009_221952.jpg",
+      "bytes": 2715442
+    },
+    {
+      "path": "data/photo-model/by_board/esp8266_board/IMG_20261009_221952_1.jpg",
+      "bytes": 456754
+    },
+    {
+      "path": "data/photo-model/by_board/nxp_frdm_mcxn_board/IMG_20261009_221340.jpg",
+      "bytes": 3620845
+    },
+    {
+      "path": "data/photo-model/by_board/nxp_frdm_mcxn_board/IMG_20261009_221343.jpg",
+      "bytes": 3420118
+    },
+    {
+      "path": "data/photo-model/by_board/nxp_frdm_mcxn_board/IMG_20261009_221348.jpg",
+      "bytes": 3566054
+    },
+    {
+      "path": "data/photo-model/by_board/nxp_frdm_mcxn_board/IMG_20261009_221350.jpg",
+      "bytes": 3438805
+    },
+    {
+      "path": "data/photo-model/by_board/nxp_frdm_mcxn_board/IMG_20261009_221646.jpg",
+      "bytes": 3264450
+    },
+    {
+      "path": "data/photo-model/by_board/nxp_frdm_mcxn_board/IMG_20261009_221657.jpg",
+      "bytes": 3599579
+    },
+    {
+      "path": "data/photo-model/by_board/nxp_frdm_mcxn_board/IMG_20261009_221717.jpg",
+      "bytes": 3217701
+    },
+    {
+      "path": "data/photo-model/by_board/nxp_frdm_mcxn_board/IMG_20261009_221717_1.jpg",
+      "bytes": 1910766
+    },
+    {
+      "path": "data/photo-model/by_board/nxp_frdm_mcxn_board/IMG_20261009_221719.jpg",
+      "bytes": 3263166
+    },
+    {
+      "path": "data/photo-model/by_board/nxp_frdm_mcxn_board/IMG_20261009_221719_1.jpg",
+      "bytes": 1908258
+    },
+    {
+      "path": "data/photo-model/by_board/nxp_frdm_mcxn_board/IMG_20261009_221755.jpg",
+      "bytes": 3043908
+    },
+    {
+      "path": "data/photo-model/by_board/nxp_frdm_mcxn_board/IMG_20261009_221755_1.jpg",
+      "bytes": 1626049
+    },
+    {
+      "path": "data/photo-model/by_board/nxp_frdm_mcxn_board/IMG_20261009_221800.jpg",
+      "bytes": 3251237
+    },
+    {
+      "path": "data/photo-model/by_board/nxp_frdm_mcxn_board/IMG_20261009_221800_1.jpg",
+      "bytes": 1945343
+    },
+    {
+      "path": "data/photo-model/by_board/nxp_frdm_mcxn_board/IMG_20261009_221803.jpg",
+      "bytes": 3346367
+    },
+    {
+      "path": "data/photo-model/by_board/nxp_frdm_mcxn_board/IMG_20261009_221803_1.jpg",
+      "bytes": 1998481
+    },
+    {
+      "path": "data/photo-model/by_board/nxp_frdm_mcxn_board/IMG_20261009_221806.jpg",
+      "bytes": 3064772
+    },
+    {
+      "path": "data/photo-model/by_board/nxp_frdm_mcxn_board/IMG_20261009_221806_1.jpg",
+      "bytes": 1955509
+    },
+    {
+      "path": "data/photo-model/by_board/raspberry_pi_3b_board/IMG_20261009_222219.jpg",
+      "bytes": 3947894
+    },
+    {
+      "path": "data/photo-model/by_board/raspberry_pi_3b_board/IMG_20261009_222219_1.jpg",
+      "bytes": 577418
+    },
+    {
+      "path": "data/photo-model/by_board/raspberry_pi_3b_board/IMG_20261009_222222.jpg",
+      "bytes": 3965624
+    },
+    {
+      "path": "data/photo-model/by_board/raspberry_pi_3b_board/IMG_20261009_222222_1.jpg",
+      "bytes": 590353
+    },
+    {
+      "path": "data/photo-model/by_board/raspberry_pi_3b_board/IMG_20261009_222225.jpg",
+      "bytes": 3915210
+    },
+    {
+      "path": "data/photo-model/by_board/raspberry_pi_3b_board/IMG_20261009_222225_1.jpg",
+      "bytes": 558689
+    },
+    {
+      "path": "data/photo-model/by_board/raspberry_pi_3b_board/IMG_20261009_222248.jpg",
+      "bytes": 3121150
+    },
+    {
+      "path": "data/photo-model/by_board/raspberry_pi_3b_board/IMG_20261009_222248_1.jpg",
+      "bytes": 1320887
+    },
+    {
+      "path": "data/photo-model/by_board/raspberry_pi_3b_board/IMG_20261009_222252.jpg",
+      "bytes": 2952320
+    },
+    {
+      "path": "data/photo-model/by_board/raspberry_pi_3b_board/IMG_20261009_222252_1.jpg",
+      "bytes": 1248952
+    },
+    {
+      "path": "data/photo-model/by_board/raspberry_pi_3b_board/IMG_20261009_222305.jpg",
+      "bytes": 3138849
+    },
+    {
+      "path": "data/photo-model/by_board/raspberry_pi_3b_board/IMG_20261009_222305_1.jpg",
+      "bytes": 1346291
+    },
+    {
+      "path": "data/photo-model/by_board/raspberry_pi_3b_board/IMG_20261009_222308.jpg",
+      "bytes": 3118140
+    },
+    {
+      "path": "data/photo-model/by_board/raspberry_pi_3b_board/IMG_20261009_222308_1.jpg",
+      "bytes": 1342188
+    },
+    {
+      "path": "data/photo-model/by_board/raspberry_pi_3b_board/IMG_20261009_222340.jpg",
+      "bytes": 2999866
+    },
+    {
+      "path": "data/photo-model/by_board/raspberry_pi_3b_board/IMG_20261009_222340_1.jpg",
+      "bytes": 1304783
+    },
+    {
+      "path": "data/photo-model/by_board/raspberry_pi_3b_board/IMG_20261009_222343.jpg",
+      "bytes": 3003685
+    },
+    {
+      "path": "data/photo-model/by_board/raspberry_pi_3b_board/IMG_20261009_222343_1.jpg",
+      "bytes": 1142832
+    },
+    {
+      "path": "data/photo-model/by_board/ultimainboard/IMG_20261009_222024.jpg",
+      "bytes": 4078906
+    },
+    {
+      "path": "data/photo-model/by_board/ultimainboard/IMG_20261009_222024_1.jpg",
+      "bytes": 2699201
+    },
+    {
+      "path": "data/photo-model/by_board/ultimainboard/IMG_20261009_222033.jpg",
+      "bytes": 5783304
+    },
+    {
+      "path": "data/photo-model/by_board/ultimainboard/IMG_20261009_222033_1.jpg",
+      "bytes": 650277
+    },
+    {
+      "path": "data/photo-model/by_board/ultimainboard/IMG_20261009_222038.jpg",
+      "bytes": 4953805
+    },
+    {
+      "path": "data/photo-model/by_board/ultimainboard/IMG_20261009_222038_1.jpg",
+      "bytes": 590272
+    },
+    {
+      "path": "data/photo-model/by_board/ultimainboard/IMG_20261009_222042.jpg",
+      "bytes": 5389824
+    },
+    {
+      "path": "data/photo-model/by_board/ultimainboard/IMG_20261009_222042_1.jpg",
+      "bytes": 619532
+    },
+    {
+      "path": "data/photo-model/by_board/ultimainboard/IMG_20261009_222108.jpg",
+      "bytes": 5349310
+    },
+    {
+      "path": "data/photo-model/by_board/ultimainboard/IMG_20261009_222108_1.jpg",
+      "bytes": 600945
+    },
+    {
+      "path": "data/photo-model/by_board/ultimainboard/IMG_20261009_222113.jpg",
+      "bytes": 5001443
+    },
+    {
+      "path": "data/photo-model/by_board/ultimainboard/IMG_20261009_222113_1.jpg",
+      "bytes": 580948
+    },
+    {
+      "path": "data/photo-model/by_board/ultimainboard/IMG_20261009_222133.jpg",
+      "bytes": 3643993
+    },
+    {
+      "path": "data/photo-model/by_board/ultimainboard/IMG_20261009_222133_1.jpg",
+      "bytes": 1327397
+    },
+    {
+      "path": "data/photo-model/by_board/ultimainboard/IMG_20261009_222135.jpg",
+      "bytes": 3795005
+    },
+    {
+      "path": "data/photo-model/by_board/ultimainboard/IMG_20261009_222135_1.jpg",
+      "bytes": 1324598
+    },
+    {
+      "path": "data/photo-model/by_board/ultimainboard/IMG_20261009_222137.jpg",
+      "bytes": 3688514
+    },
+    {
+      "path": "data/photo-model/by_board/ultimainboard/IMG_20261009_222137_1.jpg",
+      "bytes": 1339461
+    },
+    {
+      "path": "data/external/DeepPCB/annotation-audit.json",
+      "bytes": 349
+    },
+    {
+      "path": "data/external/DeepPCB/audit.json",
+      "bytes": 404
+    },
+    {
+      "path": "data/external/DeepPCB/DOWNLOAD_STATUS.md",
+      "bytes": 651
+    },
+    {
+      "path": "data/external/DeepPCB/provenance.json",
+      "bytes": 218
+    },
+    {
+      "path": "data/external/DeepPCB/samples.jsonl",
+      "bytes": 918155
+    },
+    {
+      "path": "data/external/PCBVision/full-download-status.json",
+      "bytes": 264
+    },
+    {
+      "path": "data/external/PCBVision/range-inspection-status.json",
+      "bytes": 156
+    },
+    {
+      "path": "data/external/PCBVision/record-metadata.json",
+      "bytes": 8446
+    },
+    {
+      "path": "data/external/PCBVision/remote-archive-members.json",
+      "bytes": 99719
+    },
+    {
+      "path": "data/external/PCBVision/rodare-metadata.json",
+      "bytes": 7573
+    },
+    {
+      "path": "scripts/ingest_phone_photos.py",
+      "bytes": 1656
+    },
+    {
+      "path": "scripts/prepare_board_labels.py",
+      "bytes": 2569
+    },
+    {
+      "path": "scripts/export_board_yolo.py",
+      "bytes": 2794
+    },
+    {
+      "path": "scripts/train_board_detector.py",
+      "bytes": 1080
+    },
+    {
+      "path": "scripts/normalize_nxp_bom.py",
+      "bytes": 2249
+    },
+    {
+      "path": "scripts/extract_schematic_records.py",
+      "bytes": 1775
+    },
+    {
+      "path": "scripts/build_schematic_inventory.py",
+      "bytes": 1940
+    }
+  ],
+  "source_snapshot": "2026-10-09",
+  "exclusions": "runtime dependencies, partial downloads, duplicate extraction, external dataset bulk images, generated training runs"
+}

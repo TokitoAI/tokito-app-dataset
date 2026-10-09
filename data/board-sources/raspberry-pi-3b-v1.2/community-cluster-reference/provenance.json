@@ -1,0 +1,7 @@
+{
+  "scope": "full cluster assembly; README identifies Pi3B model by Kevin Schneider; NOT standalone verified board",
+  "tree_sha": "6c99ecfd760140748a1c9a2939fee867128e1163",
+  "source_path": "Fusion360Files/RaspberrY Cluster v64.step",
+  "original_model": "https://www.autodesk.com/community/gallery/project/102488/raspberry-pi-3---b",
+  "repository": "https://github.com/FSkavlem/CAD_Raspberrypi_cluster"
+}

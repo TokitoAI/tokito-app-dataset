@@ -1,0 +1,805 @@
+{
+  "scope": "board-family and visible-board bounding box review only; components not exhaustive",
+  "images": {
+    "IMG_20261009_221154.jpg": {
+      "sha256": "d7b25d11620743ba01d5a7b9a70bfe4eed92bd5f3cc199cb6799e4714d9d8b7a",
+      "class_id": 1,
+      "bbox_xyxy_normalized": [
+        0.2,
+        0.17166666666666666,
+        0.8,
+        0.9383333333333334
+      ]
+    },
+    "IMG_20261009_221155.jpg": {
+      "sha256": "599494b4ca44338382148fc0c6d2cea0240707129b92732122cb6d9ec9eb01b0",
+      "class_id": 1,
+      "bbox_xyxy_normalized": [
+        0.2088888888888889,
+        0.175,
+        0.8111111111111111,
+        0.9416666666666667
+      ]
+    },
+    "IMG_20261009_221156.jpg": {
+      "sha256": "34c236439d51762eb94dd243228dd3da81f425aa2288ee45939d4bf658145075",
+      "class_id": 1,
+      "bbox_xyxy_normalized": [
+        0.21555555555555556,
+        0.16666666666666666,
+        0.8288888888888889,
+        0.9333333333333333
+      ]
+    },
+    "IMG_20261009_221210.jpg": {
+      "sha256": "cbb4ae28e4121b817ffeb4809c0c014ee379512bce5a1d3f6dfc190abebbfd15",
+      "class_id": 1,
+      "bbox_xyxy_normalized": [
+        0,
+        0.365,
+        1,
+        0.7766666666666666
+      ]
+    },
+    "IMG_20261009_221220.jpg": {
+      "sha256": "b4e7453d29a9b9c51b21c00ec845ff0d2a97aa0d5097416ef1b4d87592b6b688",
+      "class_id": 1,
+      "bbox_xyxy_normalized": [
+        0,
+        0.35333333333333333,
+        1,
+        0.77
+      ]
+    },
+    "IMG_20261009_221222.jpg": {
+      "sha256": "ceb487d6a6d4ff27ad414eccf6b493a4adf6cc3dd666be8eae0895cfd15eed94",
+      "class_id": 1,
+      "bbox_xyxy_normalized": [
+        0,
+        0.355,
+        0.9866666666666667,
+        0.77
+      ]
+    },
+    "IMG_20261009_221225.jpg": {
+      "sha256": "556787b7d8b13e69e2e896af5486079836c0fcfa67bd8cf97e62aabbefc6f282",
+      "class_id": 1,
+      "bbox_xyxy_normalized": [
+        0,
+        0.30333333333333334,
+        0.9866666666666667,
+        0.7116666666666667
+      ]
+    },
+    "IMG_20261009_221230.jpg": {
+      "sha256": "7932adce50561a34328b72eb39d6bb625ba80bcc02ffa5bbf5f36dc709547877",
+      "class_id": 1,
+      "bbox_xyxy_normalized": [
+        0,
+        0.31166666666666665,
+        0.9844444444444445,
+        0.7116666666666667
+      ]
+    },
+    "IMG_20261009_221340.jpg": {
+      "sha256": "13d92421cfd0e44681d75004758e97d26ea660a07cebfb3204a9bcdfb0dd02cb",
+      "class_id": 3,
+      "bbox_xyxy_normalized": [
+        0.10888888888888888,
+        0,
+        0.9,
+        0.965
+      ]
+    },
+    "IMG_20261009_221343.jpg": {
+      "sha256": "75c99a0fe0ab1be8a3cadea3adba067796ba711c65e47aec5d2f82ba2ce896ab",
+      "class_id": 3,
+      "bbox_xyxy_normalized": [
+        0.1,
+        0.011666666666666667,
+        0.88,
+        1
+      ]
+    },
+    "IMG_20261009_221348.jpg": {
+      "sha256": "572a9a05ed8a47a8632576a5921e58b99daf19358b0446c90fda70515a29ff81",
+      "class_id": 3,
+      "bbox_xyxy_normalized": [
+        0.1288888888888889,
+        0,
+        0.9111111111111111,
+        1
+      ]
+    },
+    "IMG_20261009_221350.jpg": {
+      "sha256": "44794cdb71f71fd7fca9972de1bf27d26537b50b36c27e9ac8029dfebbcec379",
+      "class_id": 3,
+      "bbox_xyxy_normalized": [
+        0.10444444444444445,
+        0,
+        0.8911111111111111,
+        0.8683333333333333
+      ]
+    },
+    "IMG_20261009_221646.jpg": {
+      "sha256": "62714d49a81c04fd140fd79474451173435c6b9773349e424e9e9390e7cc84ec",
+      "class_id": 3,
+      "bbox_xyxy_normalized": [
+        0.19777777777777777,
+        0,
+        0.8177777777777778,
+        1
+      ]
+    },
+    "IMG_20261009_221657.jpg": {
+      "sha256": "29c0ba1b17bc8848f133926f0c4ef24a543cd790ebe8daed48dbd06bc3ba7602",
+      "class_id": 3,
+      "bbox_xyxy_normalized": [
+        0.2911111111111111,
+        0.21833333333333332,
+        0.6888888888888889,
+        0.835
+      ]
+    },
+    "IMG_20261009_221717.jpg": {
+      "sha256": "093aa92d2b0385240f00363812c39a8a2b31c8f30875d122bdb7e868fcf2a6f7",
+      "class_id": 3,
+      "bbox_xyxy_normalized": [
+        0.15333333333333332,
+        0,
+        0.7955555555555556,
+        0.975
+      ]
+    },
+    "IMG_20261009_221717_1.jpg": {
+      "sha256": "7e401f3912b950f640a565c0fbd0b50b39588d7bca3a96b67ca7218f362ec161",
+      "class_id": 3,
+      "bbox_xyxy_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ]
+    },
+    "IMG_20261009_221719.jpg": {
+      "sha256": "fa7037e02bb946dbae39e813efab1bc155149e1df0ac7342e0dacffcd42290eb",
+      "class_id": 3,
+      "bbox_xyxy_normalized": [
+        0.15333333333333332,
+        0,
+        0.7955555555555556,
+        1
+      ]
+    },
+    "IMG_20261009_221719_1.jpg": {
+      "sha256": "815efbf180f9174f0f5b9ccc50362df13bf95de662962f90561041066b766e5b",
+      "class_id": 3,
+      "bbox_xyxy_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ]
+    },
+    "IMG_20261009_221755.jpg": {
+      "sha256": "20a002865f47408c131c38e8823adb2fabd7c783e9954a3a580d69e24bccfe4b",
+      "class_id": 3,
+      "bbox_xyxy_normalized": [
+        0.2,
+        0,
+        0.8555555555555555,
+        0.9883333333333333
+      ]
+    },
+    "IMG_20261009_221755_1.jpg": {
+      "sha256": "39fc7bf72f364c0b0e848dc9fe9492b85efbdef1481a28d9bbecf4787e51a47e",
+      "class_id": 3,
+      "bbox_xyxy_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ]
+    },
+    "IMG_20261009_221800.jpg": {
+      "sha256": "5b5cf45a9bd449f48570cad117b99f07ae95db625c1458cd3f207644a3ec2dbc",
+      "class_id": 3,
+      "bbox_xyxy_normalized": [
+        0.2111111111111111,
+        0,
+        0.8644444444444445,
+        1
+      ]
+    },
+    "IMG_20261009_221800_1.jpg": {
+      "sha256": "d8a23c539a73bbe59d50b79d8f109cb23a7fd79d57e3de895a57ba5c76ec5e39",
+      "class_id": 3,
+      "bbox_xyxy_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ]
+    },
+    "IMG_20261009_221803.jpg": {
+      "sha256": "a11ca8f17e39980aceeaa917a8c8fdbd7db365a1c539dcdd5eb0f1d97a42aa5a",
+      "class_id": 3,
+      "bbox_xyxy_normalized": [
+        0.2088888888888889,
+        0,
+        0.8622222222222222,
+        1
+      ]
+    },
+    "IMG_20261009_221803_1.jpg": {
+      "sha256": "467f779bde0a41f1e3d4b46957e70d7dcedb56dd58678df891f87eb9cb9009e9",
+      "class_id": 3,
+      "bbox_xyxy_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ]
+    },
+    "IMG_20261009_221806.jpg": {
+      "sha256": "6c66b24568d4ded856a3f83aa6827cfbabd1a33d503acdfa9ac38c7066ebbf87",
+      "class_id": 3,
+      "bbox_xyxy_normalized": [
+        0.21555555555555556,
+        0.005,
+        0.8755555555555555,
+        1
+      ]
+    },
+    "IMG_20261009_221806_1.jpg": {
+      "sha256": "bdbdccc2e850c62734ff9076cf527e5a4c3e971bc17584305001082126dff6f6",
+      "class_id": 3,
+      "bbox_xyxy_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ]
+    },
+    "IMG_20261009_221838.jpg": {
+      "sha256": "185d67bb33566b32bc20aabb426e4650370b09ba25c79da804fe27504252950b",
+      "class_id": 0,
+      "bbox_xyxy_normalized": [
+        0.38,
+        0.125,
+        0.7133333333333334,
+        0.56
+      ]
+    },
+    "IMG_20261009_221838_1.jpg": {
+      "sha256": "5f4dd67bcf13b8c716b7f6d7886d86cdcb8e764e3b3642986709fc0c771a600a",
+      "class_id": 0,
+      "bbox_xyxy_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ]
+    },
+    "IMG_20261009_221841.jpg": {
+      "sha256": "cf52eb7608677a4163598d40517233aa7824128ca013bcebf8876bfe24c632b6",
+      "class_id": 0,
+      "bbox_xyxy_normalized": [
+        0.3244444444444444,
+        0.13833333333333334,
+        0.66,
+        0.5733333333333334
+      ]
+    },
+    "IMG_20261009_221841_1.jpg": {
+      "sha256": "96feebbb125fab6a823afe695bcd02645056364f34ec18cdab46b7366a581033",
+      "class_id": 0,
+      "bbox_xyxy_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ]
+    },
+    "IMG_20261009_221901.jpg": {
+      "sha256": "66001fe8061b76c96a441da84dc0af4e920eede8cf4fe25bff50c4e7d76de977",
+      "class_id": 0,
+      "bbox_xyxy_normalized": [
+        0.4,
+        0.15166666666666667,
+        0.7444444444444445,
+        0.59
+      ]
+    },
+    "IMG_20261009_221901_1.jpg": {
+      "sha256": "7095d2d4e1ea9d34b7548383fef01845262f95150c470720104335ff86e3694f",
+      "class_id": 0,
+      "bbox_xyxy_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ]
+    },
+    "IMG_20261009_221908.jpg": {
+      "sha256": "a94f0f8f013c3c24b8a5e7b273cbd09b5d21041604f9daac581d862af1c58b48",
+      "class_id": 0,
+      "bbox_xyxy_normalized": [
+        0.32666666666666666,
+        0.23,
+        0.7,
+        0.675
+      ]
+    },
+    "IMG_20261009_221908_1.jpg": {
+      "sha256": "30f8bc183da085cfef7f0a661b02137c962406998b5d1a3157de119c401f54af",
+      "class_id": 0,
+      "bbox_xyxy_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ]
+    },
+    "IMG_20261009_221911.jpg": {
+      "sha256": "01ac5655c7fce2c857e805e67e8fd61ca0aa09996d68a8c2df2e08f07e2061c4",
+      "class_id": 0,
+      "bbox_xyxy_normalized": [
+        0.3466666666666667,
+        0.19,
+        0.7177777777777777,
+        0.6366666666666667
+      ]
+    },
+    "IMG_20261009_221911_1.jpg": {
+      "sha256": "64e1aa41567d1a3a79c2c9c890b9165effdc9402f4fc9bcdd1abdda1d5375985",
+      "class_id": 0,
+      "bbox_xyxy_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ]
+    },
+    "IMG_20261009_221914.jpg": {
+      "sha256": "f549621370e7d2aa1285e475d5913f612167a1d43e50aadb63e97b22addeb2ae",
+      "class_id": 0,
+      "bbox_xyxy_normalized": [
+        0.3488888888888889,
+        0.185,
+        0.7177777777777777,
+        0.63
+      ]
+    },
+    "IMG_20261009_221914_1.jpg": {
+      "sha256": "fb21d27386fd8f2155635f85b23d573f3c9d21ffa27a8a0dfbb6773c03d8ca80",
+      "class_id": 0,
+      "bbox_xyxy_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ]
+    },
+    "IMG_20261009_221941.jpg": {
+      "sha256": "9cd3d9dfdfa586b2e5ee570e2e53bb43f3c67d7a0ce8146a159b1bfdf5ad97d0",
+      "class_id": 1,
+      "bbox_xyxy_normalized": [
+        0.3422222222222222,
+        0.15666666666666668,
+        0.72,
+        0.6533333333333333
+      ]
+    },
+    "IMG_20261009_221941_1.jpg": {
+      "sha256": "ecd914ed2b69d26e3ff670951d946065a1d3a4001d03e00ffc07700209bd0b40",
+      "class_id": 1,
+      "bbox_xyxy_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ]
+    },
+    "IMG_20261009_221944.jpg": {
+      "sha256": "1c5fd02a85c0d4d1d2586b3e918e2b2e8784a550ebd535cf5ca4059b95ca8934",
+      "class_id": 1,
+      "bbox_xyxy_normalized": [
+        0.37555555555555553,
+        0.19166666666666668,
+        0.7444444444444445,
+        0.6866666666666666
+      ]
+    },
+    "IMG_20261009_221944_1.jpg": {
+      "sha256": "2c6d39bb748d8c2ad1513308c8db488b224250fc15215571d729e2914377553b",
+      "class_id": 1,
+      "bbox_xyxy_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ]
+    },
+    "IMG_20261009_221952.jpg": {
+      "sha256": "1acc49c7090302f12bd54f6f8f7f3396adee9b6a87cf58955432bf5f5f05873e",
+      "class_id": 1,
+      "bbox_xyxy_normalized": [
+        0.33111111111111113,
+        0.175,
+        0.6888888888888889,
+        0.6633333333333333
+      ]
+    },
+    "IMG_20261009_221952_1.jpg": {
+      "sha256": "620f63dd4adf200c45ac8e7fefa5ef48ecf21d69c0a54e96983ca7471d29bf9c",
+      "class_id": 1,
+      "bbox_xyxy_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ]
+    },
+    "IMG_20261009_222024.jpg": {
+      "sha256": "d6ecd7b9ed703c34f308fa0d38b4fd1b70eb9742e053165d62db79df5866fc45",
+      "class_id": 2,
+      "bbox_xyxy_normalized": [
+        0.13555555555555557,
+        0,
+        0.8888888888888888,
+        1
+      ]
+    },
+    "IMG_20261009_222024_1.jpg": {
+      "sha256": "48d835a42fe0166725d56b8f4f5262bb1ffd332a20d43bb270bb2282aa51178f",
+      "class_id": 2,
+      "bbox_xyxy_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ]
+    },
+    "IMG_20261009_222033.jpg": {
+      "sha256": "55e2bb95d0bc9d99ae6dda8c9e4a1721e29bbf6a8730657ddc66b535c792dd5b",
+      "class_id": 2,
+      "bbox_xyxy_normalized": [
+        0.35333333333333333,
+        0.21,
+        0.6577777777777778,
+        0.675
+      ]
+    },
+    "IMG_20261009_222033_1.jpg": {
+      "sha256": "ef20a232b28e80017e0cc0199f9069697197773d9ddfb8252e293263638d54df",
+      "class_id": 2,
+      "bbox_xyxy_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ]
+    },
+    "IMG_20261009_222038.jpg": {
+      "sha256": "38d9451c741cc9c10f435ab639b798601c0e237618f25d9ce5dba7edef1ac1f9",
+      "class_id": 2,
+      "bbox_xyxy_normalized": [
+        0.35333333333333333,
+        0.225,
+        0.6577777777777778,
+        0.6883333333333334
+      ]
+    },
+    "IMG_20261009_222038_1.jpg": {
+      "sha256": "faf52ecf39a65d1f315a177abe6542f716a3be1bf772f69fb4472b49c3c19806",
+      "class_id": 2,
+      "bbox_xyxy_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ]
+    },
+    "IMG_20261009_222042.jpg": {
+      "sha256": "d79b717eb04a4b36a27e409fdf443fdf1cb96ae6d51cb9ae1c73b7162c890552",
+      "class_id": 2,
+      "bbox_xyxy_normalized": [
+        0.3377777777777778,
+        0.19666666666666666,
+        0.6422222222222222,
+        0.66
+      ]
+    },
+    "IMG_20261009_222042_1.jpg": {
+      "sha256": "dc05f52ea7a04d8cf4465a1b8b53cda77fbca93744b6300fa0018b68cbf5bd5c",
+      "class_id": 2,
+      "bbox_xyxy_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ]
+    },
+    "IMG_20261009_222108.jpg": {
+      "sha256": "7aef39000c1c807c7177c0bc878288c10f589f18fd0bb1fab560537fa7f7fa5e",
+      "class_id": 2,
+      "bbox_xyxy_normalized": [
+        0.4088888888888889,
+        0.205,
+        0.7111111111111111,
+        0.6683333333333333
+      ]
+    },
+    "IMG_20261009_222108_1.jpg": {
+      "sha256": "71f5ceba7f81d627957c330245a49e9fe14c16493e3e2318e186555c1b2d4e72",
+      "class_id": 2,
+      "bbox_xyxy_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ]
+    },
+    "IMG_20261009_222113.jpg": {
+      "sha256": "a5bf7f92105fe748c3fd5918c6383240070455333673a055753cd14da84febb9",
+      "class_id": 2,
+      "bbox_xyxy_normalized": [
+        0.4,
+        0.22333333333333333,
+        0.7022222222222222,
+        0.6866666666666666
+      ]
+    },
+    "IMG_20261009_222113_1.jpg": {
+      "sha256": "e3446c2e566b5162ed421ec27203e63ac59e6fcc1272ddde372c0e815bf458d7",
+      "class_id": 2,
+      "bbox_xyxy_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ]
+    },
+    "IMG_20261009_222133.jpg": {
+      "sha256": "31fb977e9338a685a734e399998115d37a1b779e791978df4f025748cc9e15f2",
+      "class_id": 2,
+      "bbox_xyxy_normalized": [
+        0.3022222222222222,
+        0.09833333333333333,
+        0.8355555555555556,
+        0.9233333333333333
+      ]
+    },
+    "IMG_20261009_222133_1.jpg": {
+      "sha256": "58589252c4b1c53919f4e91839e7f0118194b000231b8f6c97f31a43520f3601",
+      "class_id": 2,
+      "bbox_xyxy_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ]
+    },
+    "IMG_20261009_222135.jpg": {
+      "sha256": "42dd36871516ccc2b5f1be9441ec31a7a5bf7e4f1686ee455ce83c21181a65f7",
+      "class_id": 2,
+      "bbox_xyxy_normalized": [
+        0.25333333333333335,
+        0.08666666666666667,
+        0.7888888888888889,
+        0.9116666666666666
+      ]
+    },
+    "IMG_20261009_222135_1.jpg": {
+      "sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "class_id": 2,
+      "bbox_xyxy_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ]
+    },
+    "IMG_20261009_222137.jpg": {
+      "sha256": "ef952d5c99289774b5c23e6eeb880cfe49955c80dade8e34e1dbd6a438bbf058",
+      "class_id": 2,
+      "bbox_xyxy_normalized": [
+        0.2866666666666667,
+        0.10166666666666667,
+        0.8244444444444444,
+        0.9266666666666666
+      ]
+    },
+    "IMG_20261009_222137_1.jpg": {
+      "sha256": "7b7a3c86bfdd4f992c155b49c42cc7f8665537c3c7d73cc17100f640ae6dc533",
+      "class_id": 2,
+      "bbox_xyxy_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ]
+    },
+    "IMG_20261009_222219.jpg": {
+      "sha256": "fff824729c32fd39b51c61a5d53741ef7f3fa4c74f8dcf6c45d07b51b84a99b3",
+      "class_id": 4,
+      "bbox_xyxy_normalized": [
+        0.29333333333333333,
+        0.1366666666666667,
+        0.7005555555555556,
+        0.5983333333333334
+      ]
+    },
+    "IMG_20261009_222219_1.jpg": {
+      "sha256": "7742f54dcd23508676d32d7eb0ce568ce4a1e49823da45a1891485fbc673caad",
+      "class_id": 4,
+      "bbox_xyxy_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ]
+    },
+    "IMG_20261009_222222.jpg": {
+      "sha256": "495b110ca307ad3d2305073866cdd09924763b4b13ebbc158dd7dad4d4362d76",
+      "class_id": 4,
+      "bbox_xyxy_normalized": [
+        0.27777777777777773,
+        0.135,
+        0.6827777777777778,
+        0.5950000000000001
+      ]
+    },
+    "IMG_20261009_222222_1.jpg": {
+      "sha256": "db3b728fb1131e8c4dd7c5eb3f26d91babad3d1e91819595be100db3aefb6e34",
+      "class_id": 4,
+      "bbox_xyxy_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ]
+    },
+    "IMG_20261009_222225.jpg": {
+      "sha256": "e59aec9aab0cfc4c9df3669886af5369c525e3c73276f15eda97c202818d2ae4",
+      "class_id": 4,
+      "bbox_xyxy_normalized": [
+        0.26888888888888884,
+        0.15666666666666668,
+        0.6738888888888889,
+        0.6083333333333334
+      ]
+    },
+    "IMG_20261009_222225_1.jpg": {
+      "sha256": "5e06d0bb1df984492dd7d6578e7ae7890077a8e708282f7a66d0e5e5f7262bd2",
+      "class_id": 4,
+      "bbox_xyxy_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ]
+    },
+    "IMG_20261009_222248.jpg": {
+      "sha256": "852cf3e184505ebfb9beb92a0da01c0341dd94f91c633a5a9975eef511637c9a",
+      "class_id": 4,
+      "bbox_xyxy_normalized": [
+        0.17333333333333334,
+        0.06666666666666667,
+        0.9072222222222223,
+        0.8833333333333334
+      ]
+    },
+    "IMG_20261009_222248_1.jpg": {
+      "sha256": "3a5504de5689de61986fecba368e65da3b4862d38e69106c9e7c5d6f3ebed3b8",
+      "class_id": 4,
+      "bbox_xyxy_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ]
+    },
+    "IMG_20261009_222252.jpg": {
+      "sha256": "4f68b1ddd6d564230b5b610dcb6113239d84cb9c7899d24a29f4b81d2ac11759",
+      "class_id": 4,
+      "bbox_xyxy_normalized": [
+        0.1688888888888889,
+        0.03666666666666667,
+        0.905,
+        0.855
+      ]
+    },
+    "IMG_20261009_222252_1.jpg": {
+      "sha256": "d4a2a5b57a368e6fbe8e4ecf5e08a9a2652c66d5aac640c177cd53ebb7df3bdb",
+      "class_id": 4,
+      "bbox_xyxy_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ]
+    },
+    "IMG_20261009_222305.jpg": {
+      "sha256": "0a7c76298bf017e6e692f3723fe9d97abe6835201a0ecf9b226f226b4a60a4cb",
+      "class_id": 4,
+      "bbox_xyxy_normalized": [
+        0.1577777777777778,
+        0.09166666666666666,
+        0.8494444444444444,
+        0.8400000000000001
+      ]
+    },
+    "IMG_20261009_222305_1.jpg": {
+      "sha256": "5a9d8894d00d08cfd3c9057ec259554798523f9f8824dc719521787a103c5a4b",
+      "class_id": 4,
+      "bbox_xyxy_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ]
+    },
+    "IMG_20261009_222308.jpg": {
+      "sha256": "fe3970280837a92e4d3a2cd28aa396afdd2254c2f3409a462b272d9b3d92c4a4",
+      "class_id": 4,
+      "bbox_xyxy_normalized": [
+        0.16222222222222224,
+        0.105,
+        0.8538888888888889,
+        0.8533333333333334
+      ]
+    },
+    "IMG_20261009_222308_1.jpg": {
+      "sha256": "e645b1ee0a82dd6085c994ee2af03f38032bc5296a0d6b2972121e282e1ea715",
+      "class_id": 4,
+      "bbox_xyxy_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ]
+    },
+    "IMG_20261009_222340.jpg": {
+      "sha256": "8b1faa39ebba313154439818fe85795256fa206117bd81e82d85beede8c0b553",
+      "class_id": 4,
+      "bbox_xyxy_normalized": [
+        0,
+        0.12000000000000001,
+        0.9783333333333334,
+        0.6733333333333333
+      ]
+    },
+    "IMG_20261009_222340_1.jpg": {
+      "sha256": "ccadaf2cb97a47798a82a91876a7c8d5dc19fabaa0dea32d13475137b94ac203",
+      "class_id": 4,
+      "bbox_xyxy_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ]
+    },
+    "IMG_20261009_222343.jpg": {
+      "sha256": "7a124743304516873e80f9cc37982eb1eb825180231ea4923af99a23a0cd5d85",
+      "class_id": 4,
+      "bbox_xyxy_normalized": [
+        0.01111111111111111,
+        0.13333333333333333,
+        0.9472222222222223,
+        0.6783333333333333
+      ]
+    },
+    "IMG_20261009_222343_1.jpg": {
+      "sha256": "a3f48ef972307178b3088dc56eb74a7fe0cbef76cf8e8ef1d63549281c386e5a",
+      "class_id": 4,
+      "bbox_xyxy_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ]
+    }
+  }
+}

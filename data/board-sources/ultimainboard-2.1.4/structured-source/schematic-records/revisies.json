@@ -1,0 +1,1156 @@
+[
+  {
+    "stream_record_index": 0,
+    "fields": {
+      "HEADER": "Protel for Windows - Schematic Capture Binary File Version 5.0",
+      "WEIGHT": "80"
+    }
+  },
+  {
+    "stream_record_index": 1,
+    "fields": {
+      "RECORD": "31",
+      "FONTIDCOUNT": "4",
+      "SIZE1": "10",
+      "FONTNAME1": "Times New Roman",
+      "SIZE2": "12",
+      "FONTNAME2": "Verdana",
+      "SIZE3": "10",
+      "FONTNAME3": "Verdana",
+      "SIZE4": "16",
+      "ITALIC4": "T",
+      "FONTNAME4": "Verdana",
+      "USEMBCS": "T",
+      "ISBOC": "T",
+      "HOTSPOTGRIDON": "T",
+      "HOTSPOTGRIDSIZE": "4",
+      "SHEETSTYLE": "1",
+      "SYSTEMFONT": "1",
+      "BORDERON": "T",
+      "SHEETNUMBERSPACESIZE": "4",
+      "AREACOLOR": "16317695",
+      "SNAPGRIDON": "T",
+      "SNAPGRIDSIZE": "1",
+      "VISIBLEGRIDON": "T",
+      "VISIBLEGRIDSIZE": "10",
+      "CUSTOMX": "1550",
+      "CUSTOMY": "1110",
+      "CUSTOMXZONES": "8",
+      "CUSTOMYZONES": "4",
+      "CUSTOMMARGINWIDTH": "20",
+      "SHOWTEMPLATEGRAPHICS": "T",
+      "TEMPLATEFILENAME": "E:\\Altium Workspace\\A3-template-FABER.SchDot",
+      "DISPLAY_UNIT": "4"
+    }
+  },
+  {
+    "stream_record_index": 2,
+    "fields": {
+      "RECORD": "39",
+      "ISNOTACCESIBLE": "T",
+      "OWNERPARTID": "-1",
+      "FILENAME": "E:\\Altium Workspace\\A3-template-FABER.SchDot"
+    }
+  },
+  {
+    "stream_record_index": 3,
+    "fields": {
+      "RECORD": "4",
+      "OWNERINDEX": "1",
+      "OWNERPARTID": "-1",
+      "LOCATION.X": "1288",
+      "LOCATION.Y": "31",
+      "COLOR": "8388608",
+      "FONTID": "3",
+      "TEXT": "=SheetTotal"
+    }
+  },
+  {
+    "stream_record_index": 4,
+    "fields": {
+      "RECORD": "4",
+      "OWNERINDEX": "1",
+      "INDEXINSHEET": "1",
+      "OWNERPARTID": "-1",
+      "LOCATION.X": "1068",
+      "LOCATION.Y": "32",
+      "COLOR": "8388608",
+      "FONTID": "3",
+      "TEXT": "=CurrentDate"
+    }
+  },
+  {
+    "stream_record_index": 5,
+    "fields": {
+      "RECORD": "4",
+      "OWNERINDEX": "1",
+      "INDEXINSHEET": "2",
+      "OWNERPARTID": "-1",
+      "LOCATION.X": "1149",
+      "LOCATION.Y": "32",
+      "COLOR": "8388608",
+      "FONTID": "3",
+      "TEXT": "=CurrentTime"
+    }
+  },
+  {
+    "stream_record_index": 6,
+    "fields": {
+      "RECORD": "4",
+      "OWNERINDEX": "1",
+      "INDEXINSHEET": "3",
+      "OWNERPARTID": "-1",
+      "LOCATION.X": "1068",
+      "LOCATION.Y": "22",
+      "COLOR": "8388608",
+      "FONTID": "3",
+      "TEXT": "=DocumentFullPathAndName"
+    }
+  },
+  {
+    "stream_record_index": 7,
+    "fields": {
+      "RECORD": "4",
+      "OWNERINDEX": "1",
+      "INDEXINSHEET": "4",
+      "OWNERPARTID": "-1",
+      "LOCATION.X": "1371",
+      "LOCATION.X_FRAC": "42188",
+      "LOCATION.Y": "43",
+      "COLOR": "8388608",
+      "FONTID": "2",
+      "TEXT": "A3"
+    }
+  },
+  {
+    "stream_record_index": 8,
+    "fields": {
+      "RECORD": "4",
+      "OWNERINDEX": "1",
+      "INDEXINSHEET": "5",
+      "OWNERPARTID": "-1",
+      "LOCATION.X": "1143",
+      "LOCATION.Y": "97",
+      "COLOR": "8388608",
+      "FONTID": "4",
+      "TEXT": "=ProjectName"
+    }
+  },
+  {
+    "stream_record_index": 9,
+    "fields": {
+      "RECORD": "4",
+      "OWNERINDEX": "1",
+      "INDEXINSHEET": "6",
+      "OWNERPARTID": "-1",
+      "LOCATION.X": "1043",
+      "LOCATION.Y": "97",
+      "COLOR": "8388608",
+      "FONTID": "4",
+      "TEXT": "Project name"
+    }
+  },
+  {
+    "stream_record_index": 10,
+    "fields": {
+      "RECORD": "4",
+      "OWNERINDEX": "1",
+      "INDEXINSHEET": "7",
+      "OWNERPARTID": "-1",
+      "LOCATION.X": "1043",
+      "LOCATION.Y": "57",
+      "COLOR": "8388608",
+      "FONTID": "3",
+      "TEXT": "Revision:"
+    }
+  },
+  {
+    "stream_record_index": 11,
+    "fields": {
+      "RECORD": "4",
+      "OWNERINDEX": "1",
+      "INDEXINSHEET": "8",
+      "OWNERPARTID": "-1",
+      "LOCATION.X": "1043",
+      "LOCATION.Y": "77",
+      "COLOR": "8388608",
+      "FONTID": "3",
+      "TEXT": "Document Name"
+    }
+  },
+  {
+    "stream_record_index": 12,
+    "fields": {
+      "RECORD": "4",
+      "OWNERINDEX": "1",
+      "INDEXINSHEET": "9",
+      "OWNERPARTID": "-1",
+      "LOCATION.X": "1124",
+      "LOCATION.Y": "32",
+      "COLOR": "8388608",
+      "FONTID": "3",
+      "TEXT": "Time:"
+    }
+  },
+  {
+    "stream_record_index": 13,
+    "fields": {
+      "RECORD": "4",
+      "OWNERINDEX": "1",
+      "INDEXINSHEET": "10",
+      "OWNERPARTID": "-1",
+      "LOCATION.X": "1043",
+      "LOCATION.Y": "32",
+      "COLOR": "8388608",
+      "FONTID": "3",
+      "TEXT": "Date:"
+    }
+  },
+  {
+    "stream_record_index": 14,
+    "fields": {
+      "RECORD": "4",
+      "OWNERINDEX": "1",
+      "INDEXINSHEET": "11",
+      "OWNERPARTID": "-1",
+      "LOCATION.X": "1369",
+      "LOCATION.Y": "58",
+      "COLOR": "8388608",
+      "FONTID": "3",
+      "TEXT": "Size:"
+    }
+  },
+  {
+    "stream_record_index": 15,
+    "fields": {
+      "RECORD": "4",
+      "OWNERINDEX": "1",
+      "INDEXINSHEET": "12",
+      "OWNERPARTID": "-1",
+      "LOCATION.X": "1397",
+      "LOCATION.Y": "51",
+      "COLOR": "8388608",
+      "FONTID": "3",
+      "TEXT": "=Address1"
+    }
+  },
+  {
+    "stream_record_index": 16,
+    "fields": {
+      "RECORD": "4",
+      "OWNERINDEX": "1",
+      "INDEXINSHEET": "13",
+      "OWNERPARTID": "-1",
+      "LOCATION.X": "1397",
+      "LOCATION.Y": "42",
+      "COLOR": "8388608",
+      "FONTID": "3",
+      "TEXT": "=Address3"
+    }
+  },
+  {
+    "stream_record_index": 17,
+    "fields": {
+      "RECORD": "4",
+      "OWNERINDEX": "1",
+      "INDEXINSHEET": "14",
+      "OWNERPARTID": "-1",
+      "LOCATION.X": "1398",
+      "LOCATION.Y": "33",
+      "COLOR": "8388608",
+      "FONTID": "3",
+      "TEXT": "=Address4"
+    }
+  },
+  {
+    "stream_record_index": 18,
+    "fields": {
+      "RECORD": "4",
+      "OWNERINDEX": "1",
+      "INDEXINSHEET": "15",
+      "OWNERPARTID": "-1",
+      "LOCATION.X": "1468",
+      "LOCATION.Y": "51",
+      "COLOR": "8388608",
+      "FONTID": "3",
+      "TEXT": "=Address2"
+    }
+  },
+  {
+    "stream_record_index": 19,
+    "fields": {
+      "RECORD": "4",
+      "OWNERINDEX": "1",
+      "INDEXINSHEET": "16",
+      "OWNERPARTID": "-1",
+      "LOCATION.X": "1228",
+      "LOCATION.Y": "31",
+      "COLOR": "8388608",
+      "FONTID": "3",
+      "TEXT": "Sheet"
+    }
+  },
+  {
+    "stream_record_index": 20,
+    "fields": {
+      "RECORD": "4",
+      "OWNERINDEX": "1",
+      "INDEXINSHEET": "17",
+      "OWNERPARTID": "-1",
+      "LOCATION.X": "1273",
+      "LOCATION.Y": "31",
+      "COLOR": "8388608",
+      "FONTID": "3",
+      "TEXT": "of"
+    }
+  },
+  {
+    "stream_record_index": 21,
+    "fields": {
+      "RECORD": "4",
+      "OWNERINDEX": "1",
+      "INDEXINSHEET": "18",
+      "OWNERPARTID": "-1",
+      "LOCATION.X": "1043",
+      "LOCATION.Y": "47",
+      "COLOR": "8388608",
+      "FONTID": "3",
+      "TEXT": "Status:"
+    }
+  },
+  {
+    "stream_record_index": 22,
+    "fields": {
+      "RECORD": "4",
+      "OWNERINDEX": "1",
+      "INDEXINSHEET": "19",
+      "OWNERPARTID": "-1",
+      "LOCATION.X": "1123",
+      "LOCATION.Y": "57",
+      "COLOR": "8388608",
+      "FONTID": "3",
+      "TEXT": "Engineer:"
+    }
+  },
+  {
+    "stream_record_index": 23,
+    "fields": {
+      "RECORD": "4",
+      "OWNERINDEX": "1",
+      "INDEXINSHEET": "20",
+      "OWNERPARTID": "-1",
+      "LOCATION.X": "1123",
+      "LOCATION.Y": "47",
+      "COLOR": "8388608",
+      "FONTID": "3",
+      "TEXT": "Drawing by:"
+    }
+  },
+  {
+    "stream_record_index": 24,
+    "fields": {
+      "RECORD": "4",
+      "OWNERINDEX": "1",
+      "INDEXINSHEET": "21",
+      "OWNERPARTID": "-1",
+      "LOCATION.X": "1043",
+      "LOCATION.Y": "22",
+      "COLOR": "8388608",
+      "FONTID": "3",
+      "TEXT": "File:"
+    }
+  },
+  {
+    "stream_record_index": 25,
+    "fields": {
+      "RECORD": "6",
+      "OWNERINDEX": "1",
+      "INDEXINSHEET": "22",
+      "OWNERPARTID": "-1",
+      "COLOR": "16711680",
+      "LOCATIONCOUNT": "5",
+      "X1": "1529",
+      "Y1": "116",
+      "X2": "1039",
+      "Y2": "116",
+      "X3": "1039",
+      "Y3": "21",
+      "X4": "1529",
+      "Y4": "21",
+      "X5": "1529",
+      "Y5": "116"
+    }
+  },
+  {
+    "stream_record_index": 26,
+    "fields": {
+      "RECORD": "6",
+      "OWNERINDEX": "1",
+      "INDEXINSHEET": "23",
+      "OWNERPARTID": "-1",
+      "COLOR": "16711680",
+      "LOCATIONCOUNT": "2",
+      "X1": "1039",
+      "Y1": "91",
+      "X2": "1395",
+      "Y2": "91"
+    }
+  },
+  {
+    "stream_record_index": 27,
+    "fields": {
+      "RECORD": "6",
+      "OWNERINDEX": "1",
+      "INDEXINSHEET": "24",
+      "OWNERPARTID": "-1",
+      "COLOR": "16711680",
+      "LOCATIONCOUNT": "2",
+      "X1": "1395",
+      "Y1": "116",
+      "X2": "1395",
+      "Y2": "21"
+    }
+  },
+  {
+    "stream_record_index": 28,
+    "fields": {
+      "RECORD": "6",
+      "OWNERINDEX": "1",
+      "INDEXINSHEET": "25",
+      "OWNERPARTID": "-1",
+      "COLOR": "16711680",
+      "LOCATIONCOUNT": "2",
+      "X1": "1039",
+      "Y1": "71",
+      "X2": "1395",
+      "Y2": "71"
+    }
+  },
+  {
+    "stream_record_index": 29,
+    "fields": {
+      "RECORD": "6",
+      "OWNERINDEX": "1",
+      "INDEXINSHEET": "26",
+      "OWNERPARTID": "-1",
+      "COLOR": "16711680",
+      "LOCATIONCOUNT": "2",
+      "X1": "1039",
+      "Y1": "31",
+      "X2": "1395",
+      "Y2": "31"
+    }
+  },
+  {
+    "stream_record_index": 30,
+    "fields": {
+      "RECORD": "6",
+      "OWNERINDEX": "1",
+      "INDEXINSHEET": "27",
+      "OWNERPARTID": "-1",
+      "COLOR": "16711680",
+      "LOCATIONCOUNT": "2",
+      "X1": "1039",
+      "Y1": "41",
+      "X2": "1395",
+      "Y2": "41"
+    }
+  },
+  {
+    "stream_record_index": 31,
+    "fields": {
+      "RECORD": "6",
+      "OWNERINDEX": "1",
+      "INDEXINSHEET": "28",
+      "OWNERPARTID": "-1",
+      "COLOR": "16711680",
+      "LOCATIONCOUNT": "2",
+      "X1": "1360",
+      "Y1": "71",
+      "X2": "1360",
+      "Y2": "41"
+    }
+  },
+  {
+    "stream_record_index": 32,
+    "fields": {
+      "RECORD": "4",
+      "OWNERINDEX": "1",
+      "INDEXINSHEET": "29",
+      "OWNERPARTID": "-1",
+      "LOCATION.X": "1258",
+      "LOCATION.Y": "31",
+      "COLOR": "8388608",
+      "FONTID": "3",
+      "TEXT": "=SheetNumber"
+    }
+  },
+  {
+    "stream_record_index": 33,
+    "fields": {
+      "RECORD": "6",
+      "OWNERINDEX": "1",
+      "INDEXINSHEET": "30",
+      "OWNERPARTID": "-1",
+      "COLOR": "16711680",
+      "LOCATIONCOUNT": "2",
+      "X1": "1117",
+      "Y1": "71",
+      "X2": "1117",
+      "Y2": "31"
+    }
+  },
+  {
+    "stream_record_index": 34,
+    "fields": {
+      "RECORD": "6",
+      "OWNERINDEX": "1",
+      "INDEXINSHEET": "31",
+      "OWNERPARTID": "-1",
+      "COLOR": "16711680",
+      "LOCATIONCOUNT": "2",
+      "X1": "1224",
+      "Y1": "71",
+      "X2": "1224",
+      "Y2": "31"
+    }
+  },
+  {
+    "stream_record_index": 35,
+    "fields": {
+      "RECORD": "4",
+      "OWNERINDEX": "1",
+      "INDEXINSHEET": "32",
+      "OWNERPARTID": "-1",
+      "LOCATION.X": "1227",
+      "LOCATION.Y": "51",
+      "COLOR": "8388608",
+      "FONTID": "3",
+      "TEXT": "Approved By:"
+    }
+  },
+  {
+    "stream_record_index": 36,
+    "fields": {
+      "RECORD": "4",
+      "OWNERINDEX": "1",
+      "INDEXINSHEET": "33",
+      "OWNERPARTID": "-1",
+      "LOCATION.X": "1227",
+      "LOCATION.Y": "61",
+      "COLOR": "8388608",
+      "FONTID": "3",
+      "TEXT": "Checked By:"
+    }
+  },
+  {
+    "stream_record_index": 37,
+    "fields": {
+      "RECORD": "4",
+      "OWNERINDEX": "1",
+      "INDEXINSHEET": "34",
+      "OWNERPARTID": "-1",
+      "LOCATION.X": "1227",
+      "LOCATION.Y": "41",
+      "COLOR": "8388608",
+      "FONTID": "3",
+      "TEXT": "Date of approval:"
+    }
+  },
+  {
+    "stream_record_index": 38,
+    "fields": {
+      "RECORD": "4",
+      "OWNERINDEX": "1",
+      "INDEXINSHEET": "35",
+      "OWNERPARTID": "-1",
+      "LOCATION.X": "1302",
+      "LOCATION.Y": "61",
+      "COLOR": "8388608",
+      "FONTID": "3",
+      "TEXT": "=CheckedBy"
+    }
+  },
+  {
+    "stream_record_index": 39,
+    "fields": {
+      "RECORD": "4",
+      "OWNERINDEX": "1",
+      "INDEXINSHEET": "36",
+      "OWNERPARTID": "-1",
+      "LOCATION.X": "1302",
+      "LOCATION.Y": "51",
+      "COLOR": "8388608",
+      "FONTID": "3",
+      "TEXT": "=approvedBy"
+    }
+  },
+  {
+    "stream_record_index": 40,
+    "fields": {
+      "RECORD": "4",
+      "OWNERINDEX": "1",
+      "INDEXINSHEET": "37",
+      "OWNERPARTID": "-1",
+      "LOCATION.X": "1302",
+      "LOCATION.Y": "41",
+      "COLOR": "8388608",
+      "FONTID": "3",
+      "TEXT": "=DateOfApproval"
+    }
+  },
+  {
+    "stream_record_index": 41,
+    "fields": {
+      "RECORD": "4",
+      "OWNERINDEX": "1",
+      "INDEXINSHEET": "38",
+      "OWNERPARTID": "-1",
+      "LOCATION.X": "1119",
+      "LOCATION.Y": "77",
+      "COLOR": "8388608",
+      "FONTID": "3",
+      "TEXT": "=DocumentName"
+    }
+  },
+  {
+    "stream_record_index": 42,
+    "fields": {
+      "RECORD": "4",
+      "OWNERINDEX": "1",
+      "INDEXINSHEET": "39",
+      "OWNERPARTID": "-1",
+      "LOCATION.X": "1083",
+      "LOCATION.Y": "57",
+      "COLOR": "8388608",
+      "FONTID": "3",
+      "TEXT": "=Revision"
+    }
+  },
+  {
+    "stream_record_index": 43,
+    "fields": {
+      "RECORD": "30",
+      "OWNERINDEX": "1",
+      "INDEXINSHEET": "40",
+      "OWNERPARTID": "-1",
+      "LOCATION.X": "1397",
+      "LOCATION.Y": "66",
+      "CORNER.X": "1527",
+      "CORNER.Y": "113",
+      "CORNER.Y_FRAC": "94940",
+      "KEEPASPECT": "T",
+      "FILENAME": "E:\\Altium Workspace\\Logo Faber.bmp"
+    }
+  },
+  {
+    "stream_record_index": 44,
+    "fields": {
+      "RECORD": "4",
+      "OWNERINDEX": "1",
+      "INDEXINSHEET": "41",
+      "OWNERPARTID": "-1",
+      "LOCATION.X": "1398",
+      "LOCATION.Y": "23",
+      "COLOR": "8388608",
+      "FONTID": "3",
+      "TEXT": "F: 026-36 48 244"
+    }
+  },
+  {
+    "stream_record_index": 45,
+    "fields": {
+      "RECORD": "4",
+      "OWNERINDEX": "1",
+      "INDEXINSHEET": "42",
+      "OWNERPARTID": "-1",
+      "LOCATION.X": "1078",
+      "LOCATION.Y": "47",
+      "COLOR": "8388608",
+      "FONTID": "3",
+      "TEXT": "=Status"
+    }
+  },
+  {
+    "stream_record_index": 46,
+    "fields": {
+      "RECORD": "4",
+      "OWNERINDEX": "1",
+      "INDEXINSHEET": "43",
+      "OWNERPARTID": "-1",
+      "LOCATION.X": "1166",
+      "LOCATION.Y": "57",
+      "COLOR": "8388608",
+      "FONTID": "3",
+      "TEXT": "=engineer"
+    }
+  },
+  {
+    "stream_record_index": 47,
+    "fields": {
+      "RECORD": "4",
+      "OWNERINDEX": "1",
+      "INDEXINSHEET": "44",
+      "OWNERPARTID": "-1",
+      "LOCATION.X": "1176",
+      "LOCATION.Y": "47",
+      "COLOR": "8388608",
+      "FONTID": "3",
+      "TEXT": "=drawnBy"
+    }
+  },
+  {
+    "stream_record_index": 48,
+    "fields": {
+      "RECORD": "41",
+      "INDEXINSHEET": "1",
+      "OWNERPARTID": "-1",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "ISHIDDEN": "T",
+      "NAME": "ConfigurationParameters",
+      "READONLYSTATE": "1",
+      "UNIQUEID": "RKLUKYEO"
+    }
+  },
+  {
+    "stream_record_index": 49,
+    "fields": {
+      "RECORD": "41",
+      "INDEXINSHEET": "2",
+      "OWNERPARTID": "-1",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "ISHIDDEN": "T",
+      "NAME": "ConfiguratorName",
+      "READONLYSTATE": "1",
+      "UNIQUEID": "RKLUKYEO"
+    }
+  },
+  {
+    "stream_record_index": 50,
+    "fields": {
+      "RECORD": "41",
+      "INDEXINSHEET": "3",
+      "OWNERPARTID": "-1",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "ISHIDDEN": "T",
+      "NAME": "VersionControl_RevNumber",
+      "READONLYSTATE": "1",
+      "UNIQUEID": "RKLUKYEO"
+    }
+  },
+  {
+    "stream_record_index": 51,
+    "fields": {
+      "RECORD": "41",
+      "INDEXINSHEET": "4",
+      "OWNERPARTID": "-1",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "ISHIDDEN": "T",
+      "NAME": "IsUserConfigurable",
+      "READONLYSTATE": "1",
+      "UNIQUEID": "RKLUKYEO"
+    }
+  },
+  {
+    "stream_record_index": 52,
+    "fields": {
+      "RECORD": "41",
+      "INDEXINSHEET": "5",
+      "OWNERPARTID": "-1",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "ISHIDDEN": "T",
+      "TEXT": "*",
+      "NAME": "CurrentTime"
+    }
+  },
+  {
+    "stream_record_index": 53,
+    "fields": {
+      "RECORD": "41",
+      "INDEXINSHEET": "6",
+      "OWNERPARTID": "-1",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "ISHIDDEN": "T",
+      "TEXT": "*",
+      "NAME": "CurrentDate"
+    }
+  },
+  {
+    "stream_record_index": 54,
+    "fields": {
+      "RECORD": "41",
+      "INDEXINSHEET": "7",
+      "OWNERPARTID": "-1",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "ISHIDDEN": "T",
+      "TEXT": "*",
+      "NAME": "Time"
+    }
+  },
+  {
+    "stream_record_index": 55,
+    "fields": {
+      "RECORD": "41",
+      "INDEXINSHEET": "8",
+      "OWNERPARTID": "-1",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "ISHIDDEN": "T",
+      "TEXT": "*",
+      "NAME": "Date"
+    }
+  },
+  {
+    "stream_record_index": 56,
+    "fields": {
+      "RECORD": "41",
+      "INDEXINSHEET": "9",
+      "OWNERPARTID": "-1",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "ISHIDDEN": "T",
+      "TEXT": "*",
+      "NAME": "DocumentFullPathAndName"
+    }
+  },
+  {
+    "stream_record_index": 57,
+    "fields": {
+      "RECORD": "41",
+      "INDEXINSHEET": "10",
+      "OWNERPARTID": "-1",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "ISHIDDEN": "T",
+      "TEXT": "*",
+      "NAME": "DocumentName"
+    }
+  },
+  {
+    "stream_record_index": 58,
+    "fields": {
+      "RECORD": "41",
+      "INDEXINSHEET": "11",
+      "OWNERPARTID": "-1",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "ISHIDDEN": "T",
+      "TEXT": "*",
+      "NAME": "ModifiedDate"
+    }
+  },
+  {
+    "stream_record_index": 59,
+    "fields": {
+      "RECORD": "41",
+      "INDEXINSHEET": "12",
+      "OWNERPARTID": "-1",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "ISHIDDEN": "T",
+      "TEXT": "CdB",
+      "NAME": "ApprovedBy"
+    }
+  },
+  {
+    "stream_record_index": 60,
+    "fields": {
+      "RECORD": "41",
+      "INDEXINSHEET": "13",
+      "OWNERPARTID": "-1",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "ISHIDDEN": "T",
+      "TEXT": "CdB",
+      "NAME": "CheckedBy"
+    }
+  },
+  {
+    "stream_record_index": 61,
+    "fields": {
+      "RECORD": "41",
+      "INDEXINSHEET": "14",
+      "OWNERPARTID": "-1",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "ISHIDDEN": "T",
+      "TEXT": "*",
+      "NAME": "Author"
+    }
+  },
+  {
+    "stream_record_index": 62,
+    "fields": {
+      "RECORD": "41",
+      "INDEXINSHEET": "15",
+      "OWNERPARTID": "-1",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "ISHIDDEN": "T",
+      "TEXT": "*",
+      "NAME": "CompanyName"
+    }
+  },
+  {
+    "stream_record_index": 63,
+    "fields": {
+      "RECORD": "41",
+      "INDEXINSHEET": "16",
+      "OWNERPARTID": "-1",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "ISHIDDEN": "T",
+      "TEXT": "RT",
+      "NAME": "DrawnBy",
+      "READONLYSTATE": "1"
+    }
+  },
+  {
+    "stream_record_index": 64,
+    "fields": {
+      "RECORD": "41",
+      "INDEXINSHEET": "17",
+      "OWNERPARTID": "-1",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "ISHIDDEN": "T",
+      "TEXT": "CdB",
+      "NAME": "Engineer",
+      "READONLYSTATE": "1"
+    }
+  },
+  {
+    "stream_record_index": 65,
+    "fields": {
+      "RECORD": "41",
+      "INDEXINSHEET": "18",
+      "OWNERPARTID": "-1",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "ISHIDDEN": "T",
+      "TEXT": "Faber Electronics B.V.",
+      "NAME": "Organization"
+    }
+  },
+  {
+    "stream_record_index": 66,
+    "fields": {
+      "RECORD": "41",
+      "INDEXINSHEET": "19",
+      "OWNERPARTID": "-1",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "ISHIDDEN": "T",
+      "TEXT": "Th. Dobbeweg 1,",
+      "NAME": "Address1"
+    }
+  },
+  {
+    "stream_record_index": 67,
+    "fields": {
+      "RECORD": "41",
+      "INDEXINSHEET": "20",
+      "OWNERPARTID": "-1",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "ISHIDDEN": "T",
+      "TEXT": "6883 GN Velp,",
+      "NAME": "Address2"
+    }
+  },
+  {
+    "stream_record_index": 68,
+    "fields": {
+      "RECORD": "41",
+      "INDEXINSHEET": "21",
+      "OWNERPARTID": "-1",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "ISHIDDEN": "T",
+      "TEXT": "Netherlands",
+      "NAME": "Address3"
+    }
+  },
+  {
+    "stream_record_index": 69,
+    "fields": {
+      "RECORD": "41",
+      "INDEXINSHEET": "22",
+      "OWNERPARTID": "-1",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "ISHIDDEN": "T",
+      "TEXT": "T: 026-38 46 800",
+      "NAME": "Address4"
+    }
+  },
+  {
+    "stream_record_index": 70,
+    "fields": {
+      "RECORD": "41",
+      "INDEXINSHEET": "23",
+      "OWNERPARTID": "-1",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "ISHIDDEN": "T",
+      "TEXT": "*",
+      "NAME": "Title"
+    }
+  },
+  {
+    "stream_record_index": 71,
+    "fields": {
+      "RECORD": "41",
+      "INDEXINSHEET": "24",
+      "OWNERPARTID": "-1",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "ISHIDDEN": "T",
+      "TEXT": "6",
+      "NAME": "DocumentNumber"
+    }
+  },
+  {
+    "stream_record_index": 72,
+    "fields": {
+      "RECORD": "41",
+      "INDEXINSHEET": "25",
+      "OWNERPARTID": "-1",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "ISHIDDEN": "T",
+      "TEXT": "2.1.3",
+      "NAME": "Revision",
+      "READONLYSTATE": "1"
+    }
+  },
+  {
+    "stream_record_index": 73,
+    "fields": {
+      "RECORD": "41",
+      "INDEXINSHEET": "26",
+      "OWNERPARTID": "-1",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "ISHIDDEN": "T",
+      "TEXT": "6",
+      "NAME": "SheetNumber"
+    }
+  },
+  {
+    "stream_record_index": 74,
+    "fields": {
+      "RECORD": "41",
+      "INDEXINSHEET": "27",
+      "OWNERPARTID": "-1",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "ISHIDDEN": "T",
+      "TEXT": "6",
+      "NAME": "SheetTotal"
+    }
+  },
+  {
+    "stream_record_index": 75,
+    "fields": {
+      "RECORD": "41",
+      "INDEXINSHEET": "28",
+      "OWNERPARTID": "-1",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "ISHIDDEN": "T",
+      "TEXT": "*",
+      "NAME": "ImagePath",
+      "READONLYSTATE": "1",
+      "UNIQUEID": "LBODSHRG"
+    }
+  },
+  {
+    "stream_record_index": 76,
+    "fields": {
+      "RECORD": "41",
+      "INDEXINSHEET": "29",
+      "OWNERPARTID": "-1",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "ISHIDDEN": "T",
+      "TEXT": "*",
+      "NAME": "Rule",
+      "READONLYSTATE": "1",
+      "UNIQUEID": "FPPQCEFS"
+    }
+  },
+  {
+    "stream_record_index": 77,
+    "fields": {
+      "RECORD": "41",
+      "INDEXINSHEET": "30",
+      "OWNERPARTID": "-1",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "ISHIDDEN": "T",
+      "TEXT": "*",
+      "NAME": "ProjectName",
+      "READONLYSTATE": "1",
+      "UNIQUEID": "LUOIEHAW"
+    }
+  },
+  {
+    "stream_record_index": 78,
+    "fields": {
+      "RECORD": "41",
+      "INDEXINSHEET": "31",
+      "OWNERPARTID": "-1",
+      "LOCATION.X": "1039",
+      "LOCATION.Y": "11",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "ISHIDDEN": "T",
+      "TEXT": "Final",
+      "NAME": "Status",
+      "UNIQUEID": "IVFIFNAV"
+    }
+  },
+  {
+    "stream_record_index": 79,
+    "fields": {
+      "RECORD": "41",
+      "INDEXINSHEET": "32",
+      "OWNERPARTID": "-1",
+      "LOCATION.X": "34",
+      "LOCATION.Y": "42",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "ISHIDDEN": "T",
+      "NAME": "DateOfApproval",
+      "READONLYSTATE": "1",
+      "UNIQUEID": "DCPYYTUX"
+    }
+  },
+  {
+    "stream_record_index": 80,
+    "fields": {
+      "RECORD": "28",
+      "INDEXINSHEET": "33",
+      "OWNERPARTID": "-1",
+      "LOCATION.X": "99",
+      "LOCATION.Y": "577",
+      "CORNER.X": "616",
+      "CORNER.Y": "1048",
+      "AREACOLOR": "16777215",
+      "FONTID": "1",
+      "ISSOLID": "T",
+      "ALIGNMENT": "1",
+      "WORDWRAP": "T",
+      "CLIPTORECT": "T",
+      "TEXT": "Revisies:~1~1rev. 2.1.4~1  Wijzigingen t.o.v. rev. 2.1.3: ~1  RT (20-05-2014) - BOM wijziging, ferriets bij motorsturing gewijzigd in fabrikant nummer: 742792118 (Wurth Elektronic)~1  RT (08-05-2014) - PCB verbreden (13mil) van de spoortjes van de sense weerstanden naar de stepper drivers ~1~1rev. 2.1.3~1  Wijzigingen t.o.v. rev. 2.1.2: ~1  RT (06-03-2014) - Wijziging revisie tekst PCB in rev. 2.1.3~1  RT (06-03-2014) - Verwijderd C120 t/m C123, C130 t/m C133, C140 t/m C143, C150 t/m C153, C160 t/m C163~1  RT (06-03-2014) - Gewijzigd L120 t/m L123,  L130 t/m L133, L140 t/m L143, L150 t/m L153, L160 t/m L163 in MLB-321611-0500PP~1~1rev. 2.1.2~1  Wijzigingen t.o.v. rev. 2.1.1: ~1  RT (03-01-2013) - Wijziging revisie tekst PCB in rev. 2.1.2~1  RT (03-01-2013) - Testpads toegevoegd voor MDA test ~1  RT (03-01-2013) - Tekst \"Ultimaker\" PCB aangepast~1  RT (03-01-2013) - Logo verwijderd PCB~1  RT (18-12-2013) - Toegevoegd cap (Voeding 5V): C110, C111, C112, C113, C114, C115, C116, C117   ~1  RT (18-12-2013) - Toegevoegd Ferriet (Voeding 5V): L100 ~1  RT (18-12-2013) - Verwijderd (Voeding 5V): C34, C89~1  RT (18-12-2013) - Toegevoegd (Fan 5V): D100, T100, R120~1  RT  (18-12-2013) - Toegevoegd (X-axes): L120, L121, L122, L124, C120, C121, C122, C123~1  RT  (18-12-2013) - Toegevoegd (X-axes): L130, L131, L132, L134, C130, C131, C132, C133~1  RT  (18-12-2013) - Toegevoegd (X-axes): L140, L141, L142, L144, C140, C141, C142, C143~1  RT  (18-12-2013) - Schemablad toegevoegd (schema5)~1  RT  (18-12-2013) - Toegevoegd (Extruder): L150, L151, L152, L154, C150, C151, C152, C153~1  RT  (18-12-2013) - Toegevoegd (Extra): L160, L161, L162, L164, C160, C161, C162, C163~1  RT  (18-12-2013) - Gewijzigd R106 en R107 in 0805~1  RT (18-12-2013) - Footprints aangepast van J1, J2, J3, J4, J23, J32 en J33 . Solder thiefs toegevoegd botttom side.~1  ~1rev. V2.1.1~1  Wijzigingen t.o.v. rev. V2.1:~1  RT (27-06-2013) - C100 t/m C105 (100nF) toegevoegd~1  RT (28-06-2013) - J34 (B2B-XH-A (LF)(SN)) toegevoegd~1  RT (28-06-2013) - SP1 t/m SP4 (M3-10ET ) toegevoegd~1  RT (28-06-2013) - Layout: Ultiboard 2.1 wordt Ultimainboard 2.1.1 (silkscreen tekst)~1  RT (28-06-2013) - Layout: www.ultimaker.com/ub21 wordt www.ultimaker.com/umb211 (silkscreen tekst)~1~1~1~1~1~1~1~1~1"
+    }
+  }
+]

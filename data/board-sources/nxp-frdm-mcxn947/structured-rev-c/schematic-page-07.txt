@@ -1,0 +1,224 @@
+5
+5
+4
+4
+3
+3
+2
+2
+1
+1
+D D
+C C
+B B
+A A
+I3C SENSOR 
+I2C ADDR: 1001000 
+SDHC 
+QSPI 
+Layout Notes: 
+====== 
+1.U7 & U8 footprint overlapped. 
+2.Equal length routing with 50ohm resistance. 
+3.Place TP31 close to TP12. 
+Octal Flash 
+HyperRAM compatiable design 
+Other QSPI Flash Option: MT25QL128ABA1ESE-0SIT (MICRON) 
+Layout Notes: 
+====== 
+1) SDHC signals: equal length routing with 50ohm resistance. And as short as possible. 
+2) Place R54 to easily rework. 
+133MHZ 
+P3V3 
+P3V3 
+P3V3 
+P3V3_I3C P3V3_I3C 
+P3V3_QSPI 
+P3V3_QSPI 
+P3V3_QSPI 
+P3V3_SDHC 
+P3V3_SDHC 
+P2_3/SDHC0_D0 [3,12] 
+P2_2/SDHC0_D1 [3,12] 
+P2_7/SDHC0_D2 [3,12] 
+P2_6/SDHC0_D3 [3,12] 
+P3_8/FLEXSPI0_A_DATA0 [4,7] 
+P3_9/FLEXSPI0_A_DATA1 [4,7] 
+P3_10/FLEXSPI0_A_DATA2 [4,7] 
+P3_11/FLEXSPI0_A_DATA3 [4,7] 
+P3_8/FLEXSPI0_A_DATA0 [4,7] 
+P3_9/FLEXSPI0_A_DATA1 [4,7] 
+P3_10/FLEXSPI0_A_DATA2 [4,7] 
+P3_11/FLEXSPI0_A_DATA3 [4,7] 
+RESET_B [5,10,11,12] 
+P3_12/FLEXSPI0_A_DATA4 [4] 
+P3_13/FLEXSPI0_A_DATA5 [4] 
+P3_14/FLEXSPI0_A_DATA6 [4] 
+P3_15/FLEXSPI0_A_DATA7 [4] 
+P1_16/I3C1_SDA [3,12] 
+P3_1/FLEXSPI0_A_SS1_b [4] 
+P2_5/SDHC0_CMD [3,12] 
+P2_4/SDHC0_CLK [3,12] 
+P3_7/FLEXSPI0_A_SCLK [4,7] 
+P3_0/FLEXSPI0_A_SS0_b [4,7] 
+P3_7/FLEXSPI0_A_SCLK [4,7] 
+P3_0/FLEXSPI0_A_SS0_b [4,7] 
+P3_6/FLEXSPI0_A_DQS [4] 
+P1_17/I3C1_SCL [3,12] 
+P1_11/I3C1_PUR [3] 
+P2_1/SDHC0_CD_B [3] 
+Drawing Title: 
+Size Document Number Rev 
+Date: Sheet of 
+Page Title: 
+Classification: 
+SCH-90818 PDF: SPF-90818 C
+FRDM-MCXN947 
+C
+Thursday, March 28, 2024 
+SD & QSPI & SENSOR 
+7 13 
+Company Internal/Proprietary 
+<Core Design> 
+Drawing Title: 
+Size Document Number Rev 
+Date: Sheet of 
+Page Title: 
+Classification: 
+SCH-90818 PDF: SPF-90818 C
+FRDM-MCXN947 
+C
+Thursday, March 28, 2024 
+SD & QSPI & SENSOR 
+7 13 
+Company Internal/Proprietary 
+<Core Design> 
+Drawing Title: 
+Size Document Number Rev 
+Date: Sheet of 
+Page Title: 
+Classification: 
+SCH-90818 PDF: SPF-90818 C
+FRDM-MCXN947 
+C
+Thursday, March 28, 2024 
+SD & QSPI & SENSOR 
+7 13 
+Company Internal/Proprietary 
+<Core Design> 
+U8 
+W25Q64JVSSIQ 
+DO/IO1 2
+CLK 6
+DI/IO0 5
+IO2 3
+IO3 7
+GND 4
+CS 1
+VCC 8
+C42 
+1uF 
+0603 
+J12 CON_SD_CARD_9 
+DNP 
+DAT2 1
+CD/DAT3 2
+CMD 3
+VDD 4
+CLK 5
+VSS 6
+DAT0 7
+DAT1 8
+GND1 G1 
+GND2 G2 
+GND3 G3 
+GND4 G4 
+DET 9
+TP14 
+MT35XL512ABA1G12 
+U7 
+DNP 
+CB2 
+RFU1 A5 
+RFU4 B5 
+DQ0 D3 
+DQ1 D2 
+DQ2/W C4 
+DQ3 D4 
+DQ4 D5 
+DQ5 E3 
+DQ6 E2 
+DQ7 E1 
+DQS C3 
+RESET A4 
+NC A2 
+RFU2 A3 
+RFU3 B1 
+SC2 
+VCC1 B4 
+VCC2 D1 
+VCC3 E4 
+VPP C5 VSS3 E5 
+VSS1 B3 
+VSS2 C1 
+R53 
+1.0K 
+C45 
+1uF 
+R202 0
+TP12 
+TP37 
+TP31 
+R56 0
+TP8 
+U6 
+P3T1755DP 
+3ALERT 
+4GND 8 VCC 7 A0 6 A1 5 A2 
+1 SDA 2 SCL 
+TP9 TP17 
+R58 
+10K 
+R201 0
+TP5 
+TP6 
+TP11 
+TP23 
+R59 
+10K 
+TP24 
+R57 
+10K 
+TP10 
+TP16 
+R54 
+100K 
+DNP 
+TP25 
+C43 
+0.1UF 
+R61 0
+TP26 
+TP18 
+R200 0
+R51 
+4.7K 
+DNP 
+TP7 
+TP27 
+C47 
+0.1UF 
+C46 
+1uF 
+TP15 
+C44 
+0.1UF 
+R52 
+4.7K 
+DNP 
+TP13 
+TP36 
+R55 0
+TP4 
+R60 
+10K 

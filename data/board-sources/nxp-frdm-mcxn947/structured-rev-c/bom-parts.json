@@ -1,0 +1,4620 @@
+[
+  {
+    "level": "4",
+    "item_number": "745000012851",
+    "name": "150-78886",
+    "description": "CAP CER 0.22UF 16V 10% X7R 0402",
+    "quantity": "4",
+    "reference_designators": [
+      "C26",
+      "C38",
+      "C40",
+      "C41"
+    ],
+    "source_rows": [
+      23,
+      24,
+      25
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "200381",
+        "Manufacturer Name": "0402B224K160CT",
+        "Manufacturer": "WALSIN TECHNOLOGY CORP.",
+        "Manufacturer Lifecycle": "Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Preferred",
+        "BOM Notes": ""
+      },
+      {
+        "Manufacturer Item Number": "200603",
+        "Manufacturer Name": "0402B224K160NT",
+        "Manufacturer": "FENGHUA",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": ""
+      },
+      {
+        "Manufacturer Item Number": "247691",
+        "Manufacturer Name": "GRM155R71C224KA12D",
+        "Manufacturer": "MURATA",
+        "Manufacturer Lifecycle": "Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": ""
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000013109",
+    "name": "150-79188",
+    "description": "CAP CER 100pF 16V 10% X7R 0402",
+    "quantity": "1",
+    "reference_designators": [
+      "C63"
+    ],
+    "source_rows": [
+      26
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "200554",
+        "Manufacturer Name": "0402YC101KAT2A",
+        "Manufacturer": "AVX",
+        "Manufacturer Lifecycle": "Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Preferred",
+        "BOM Notes": ""
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000013463",
+    "name": "150-79569",
+    "description": "CAP CER 10uF 25V 10% X5R 0603",
+    "quantity": "0",
+    "reference_designators": [
+      "C72",
+      "C73",
+      "C74",
+      "C75"
+    ],
+    "source_rows": [
+      27
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "228855",
+        "Manufacturer Name": "C0603X5R106K250NT",
+        "Manufacturer": "SANYEAR",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Preferred",
+        "BOM Notes": "DNP"
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000013463",
+    "name": "150-79569",
+    "description": "CAP CER 10uF 25V 10% X5R 0603",
+    "quantity": "9",
+    "reference_designators": [
+      "C37",
+      "C62",
+      "C69",
+      "C70",
+      "C71",
+      "C83",
+      "C84",
+      "C104",
+      "C105"
+    ],
+    "source_rows": [
+      28
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "228855",
+        "Manufacturer Name": "C0603X5R106K250NT",
+        "Manufacturer": "SANYEAR",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Preferred",
+        "BOM Notes": ""
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000014519",
+    "name": "150-80750",
+    "description": "CAP CER 4.7PF 50V 0.5pF C0G 0402",
+    "quantity": "4",
+    "reference_designators": [
+      "C1",
+      "C2",
+      "C100",
+      "C101"
+    ],
+    "source_rows": [
+      29
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "239686",
+        "Manufacturer Name": "885012005053",
+        "Manufacturer": "WURTH ELEKTRONIK EISOS GMBH & CO. KG (ELECTRONIC & ELECTROMEHANICAL COMP)",
+        "Manufacturer Lifecycle": "Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Preferred",
+        "BOM Notes": ""
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000015307",
+    "name": "150-81667",
+    "description": "CAP CER 15pF 50V 5% C0G 0402",
+    "quantity": "0",
+    "reference_designators": [
+      "C54",
+      "C55",
+      "C56",
+      "C57"
+    ],
+    "source_rows": [
+      30
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "273304",
+        "Manufacturer Name": "GJM1555C1H150JB01D",
+        "Manufacturer": "MURATA",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Preferred",
+        "BOM Notes": "DNP"
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000047746",
+    "name": "210-81775",
+    "description": "CON 2X8 SKT SHRD TH 100MIL CTR 345H AU 126L",
+    "quantity": "2",
+    "reference_designators": [
+      "J1",
+      "J3"
+    ],
+    "source_rows": [
+      31
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "201294",
+        "Manufacturer Name": "08010S31611-29RF",
+        "Manufacturer": "ANYTRONIC CORPORATION LIMITED",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Preferred",
+        "BOM Notes": ""
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000049109",
+    "name": "210-83442",
+    "description": "CON 2X14 SKT SHRD TH 100MIL CTR 345H AU 126L",
+    "quantity": "1",
+    "reference_designators": [
+      "J8"
+    ],
+    "source_rows": [
+      32
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "201317",
+        "Manufacturer Name": "08010S32811-29RF",
+        "Manufacturer": "ANYTRONIC CORPORATION LIMITED",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Preferred",
+        "BOM Notes": ""
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000031874",
+    "name": "230-78687",
+    "description": "OSC XO 50MHZ 3.3V SMD",
+    "quantity": "1",
+    "reference_designators": [
+      "Y3"
+    ],
+    "source_rows": [
+      33
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "266009",
+        "Manufacturer Name": "ECS-2333-500-BN-TR",
+        "Manufacturer": "ECS INC. INTERNATIONAL",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Preferred",
+        "BOM Notes": ""
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000019445",
+    "name": "312-81574",
+    "description": "IC USB PD TYPE C CURRENT LIMITED PWR SW 2.5-5.5V WLCSP12",
+    "quantity": "1",
+    "reference_designators": [
+      "U3"
+    ],
+    "source_rows": [
+      34,
+      35
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "289609",
+        "Manufacturer Name": "NX5P3090UK,012",
+        "Manufacturer": "NXP SEMICONDUCTOR",
+        "Manufacturer Lifecycle": "Active",
+        "Manufacturer Notes": "Pb-free assembly 260 \u00b0C",
+        "Preferred Status": "Preferred",
+        "BOM Notes": ""
+      },
+      {
+        "Manufacturer Item Number": "291065",
+        "Manufacturer Name": "NX5P3090UKZ",
+        "Manufacturer": "NXP SEMICONDUCTOR",
+        "Manufacturer Lifecycle": "Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": ""
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000020844",
+    "name": "312-83230",
+    "description": "IC XCVR CAN 5MBIT/S 4.75-5.25V AEC-Q100 HVSON8",
+    "quantity": "1",
+    "reference_designators": [
+      "U10"
+    ],
+    "source_rows": [
+      36
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "298760",
+        "Manufacturer Name": "TJA1057GTK/3Z",
+        "Manufacturer": "NXP SEMICONDUCTOR",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Preferred",
+        "BOM Notes": ""
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000033390",
+    "name": "470-30315",
+    "description": "RES MF 470 OHM 1/16W 5% 0402",
+    "quantity": "10",
+    "reference_designators": [
+      "R4",
+      "R5",
+      "R6",
+      "R7",
+      "R24",
+      "R66",
+      "R69",
+      "R108",
+      "R109",
+      "R114"
+    ],
+    "source_rows": [
+      37,
+      38,
+      39
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "267838",
+        "Manufacturer Name": "ERJ2GEJ471X",
+        "Manufacturer": "PANASONIC",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": ""
+      },
+      {
+        "Manufacturer Item Number": "269357",
+        "Manufacturer Name": "RC0402JR-07470RL",
+        "Manufacturer": "YAGEO AMERICA",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": ""
+      },
+      {
+        "Manufacturer Item Number": "293195",
+        "Manufacturer Name": "RC73L2Z471JTF",
+        "Manufacturer": "SMEC",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "Material Declaration is not available at this time.",
+        "Preferred Status": "Preferred",
+        "BOM Notes": ""
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000034521",
+    "name": "470-75394",
+    "description": "RES MF ZERO OHM 1/16W 5% 0402",
+    "quantity": "17",
+    "reference_designators": [
+      "R27",
+      "R47",
+      "R48",
+      "R110",
+      "R111",
+      "R129",
+      "R130",
+      "R132",
+      "R133",
+      "R167",
+      "R169",
+      "R198",
+      "R199",
+      "R200",
+      "R201",
+      "R202",
+      "R203"
+    ],
+    "source_rows": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "230716",
+        "Manufacturer Name": "CR-02JL6----0R",
+        "Manufacturer": "THYE MING TECH CO LTD",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "No MDS available per Mfg",
+        "Preferred Status": "Alternate",
+        "BOM Notes": ""
+      },
+      {
+        "Manufacturer Item Number": "230832",
+        "Manufacturer Name": "CR0402-J/-000GLF",
+        "Manufacturer": "BOURNS",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": ""
+      },
+      {
+        "Manufacturer Item Number": "252957",
+        "Manufacturer Name": "CR0402-16W-000T",
+        "Manufacturer": "VENKEL COMPANY",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": ""
+      },
+      {
+        "Manufacturer Item Number": "244207",
+        "Manufacturer Name": "ERJ2GE0R00X",
+        "Manufacturer": "PANASONIC",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": ""
+      },
+      {
+        "Manufacturer Item Number": "254525",
+        "Manufacturer Name": "MCR01MZPJ000",
+        "Manufacturer": "ROHM",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "ROHS Compliant",
+        "Preferred Status": "Preferred",
+        "BOM Notes": ""
+      },
+      {
+        "Manufacturer Item Number": "263983",
+        "Manufacturer Name": "RC-0402-0000T",
+        "Manufacturer": "SKYMOS",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "no MDS available",
+        "Preferred Status": "Alternate",
+        "BOM Notes": ""
+      },
+      {
+        "Manufacturer Item Number": "265937",
+        "Manufacturer Name": "RK73Z1ETTP",
+        "Manufacturer": "KOA SPEER",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": ""
+      },
+      {
+        "Manufacturer Item Number": "264257",
+        "Manufacturer Name": "RC73JP2ZF",
+        "Manufacturer": "SMEC",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": ""
+      },
+      {
+        "Manufacturer Item Number": "271567",
+        "Manufacturer Name": "RMCF1/16S0.005%R",
+        "Manufacturer": "SEI ELECTRONICS INC",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": ""
+      },
+      {
+        "Manufacturer Item Number": "292855",
+        "Manufacturer Name": "RC0402JR-070RL",
+        "Manufacturer": "YAGEO AMERICA",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": ""
+      },
+      {
+        "Manufacturer Item Number": "302450",
+        "Manufacturer Name": "WR04X000_PTL",
+        "Manufacturer": "WALSIN TECHNOLOGY CORP.",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": ""
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000034521",
+    "name": "470-75394",
+    "description": "RES MF ZERO OHM 1/16W 5% 0402",
+    "quantity": "0",
+    "reference_designators": [
+      "R43",
+      "R45",
+      "R46",
+      "R131",
+      "R136",
+      "R137",
+      "R138",
+      "R139",
+      "R142",
+      "R143"
+    ],
+    "source_rows": [
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "230716",
+        "Manufacturer Name": "CR-02JL6----0R",
+        "Manufacturer": "THYE MING TECH CO LTD",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "No MDS available per Mfg",
+        "Preferred Status": "Alternate",
+        "BOM Notes": "DNP"
+      },
+      {
+        "Manufacturer Item Number": "230832",
+        "Manufacturer Name": "CR0402-J/-000GLF",
+        "Manufacturer": "BOURNS",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": "DNP"
+      },
+      {
+        "Manufacturer Item Number": "252957",
+        "Manufacturer Name": "CR0402-16W-000T",
+        "Manufacturer": "VENKEL COMPANY",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": "DNP"
+      },
+      {
+        "Manufacturer Item Number": "244207",
+        "Manufacturer Name": "ERJ2GE0R00X",
+        "Manufacturer": "PANASONIC",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": "DNP"
+      },
+      {
+        "Manufacturer Item Number": "254525",
+        "Manufacturer Name": "MCR01MZPJ000",
+        "Manufacturer": "ROHM",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "ROHS Compliant",
+        "Preferred Status": "Preferred",
+        "BOM Notes": "DNP"
+      },
+      {
+        "Manufacturer Item Number": "263983",
+        "Manufacturer Name": "RC-0402-0000T",
+        "Manufacturer": "SKYMOS",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "no MDS available",
+        "Preferred Status": "Alternate",
+        "BOM Notes": "DNP"
+      },
+      {
+        "Manufacturer Item Number": "265937",
+        "Manufacturer Name": "RK73Z1ETTP",
+        "Manufacturer": "KOA SPEER",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": "DNP"
+      },
+      {
+        "Manufacturer Item Number": "264257",
+        "Manufacturer Name": "RC73JP2ZF",
+        "Manufacturer": "SMEC",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": "DNP"
+      },
+      {
+        "Manufacturer Item Number": "271567",
+        "Manufacturer Name": "RMCF1/16S0.005%R",
+        "Manufacturer": "SEI ELECTRONICS INC",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": "DNP"
+      },
+      {
+        "Manufacturer Item Number": "292855",
+        "Manufacturer Name": "RC0402JR-070RL",
+        "Manufacturer": "YAGEO AMERICA",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": "DNP"
+      },
+      {
+        "Manufacturer Item Number": "302450",
+        "Manufacturer Name": "WR04X000_PTL",
+        "Manufacturer": "WALSIN TECHNOLOGY CORP.",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": "DNP"
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000034893",
+    "name": "470-76037",
+    "description": "RES MF 1.0K 1/16W 1% 0402",
+    "quantity": "0",
+    "reference_designators": [
+      "R118",
+      "R119",
+      "R121",
+      "R123"
+    ],
+    "source_rows": [
+      62,
+      63,
+      64,
+      65,
+      66
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "234366",
+        "Manufacturer Name": "CR-02FL6----1K",
+        "Manufacturer": "THYE MING TECH CO LTD",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "No MDS available per Mfg",
+        "Preferred Status": "Alternate",
+        "BOM Notes": "DNP"
+      },
+      {
+        "Manufacturer Item Number": "254268",
+        "Manufacturer Name": "CRCW04021K00FKEDC",
+        "Manufacturer": "VISHAY",
+        "Manufacturer Lifecycle": "Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": "DNP"
+      },
+      {
+        "Manufacturer Item Number": "255279",
+        "Manufacturer Name": "CR0402-FX-1001GLF",
+        "Manufacturer": "BOURNS",
+        "Manufacturer Lifecycle": "Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": "DNP"
+      },
+      {
+        "Manufacturer Item Number": "264008",
+        "Manufacturer Name": "RC0402FR-071KL",
+        "Manufacturer": "YAGEO AMERICA",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "no md available",
+        "Preferred Status": "Preferred",
+        "BOM Notes": "DNP"
+      },
+      {
+        "Manufacturer Item Number": "281103",
+        "Manufacturer Name": "WR04X1001FTL",
+        "Manufacturer": "WALSIN TECHNOLOGY CORP.",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": "DNP"
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000034893",
+    "name": "470-76037",
+    "description": "RES MF 1.0K 1/16W 1% 0402",
+    "quantity": "4",
+    "reference_designators": [
+      "R53",
+      "R117",
+      "R120",
+      "R122"
+    ],
+    "source_rows": [
+      67,
+      68,
+      69,
+      70,
+      71
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "234366",
+        "Manufacturer Name": "CR-02FL6----1K",
+        "Manufacturer": "THYE MING TECH CO LTD",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "No MDS available per Mfg",
+        "Preferred Status": "Alternate",
+        "BOM Notes": ""
+      },
+      {
+        "Manufacturer Item Number": "254268",
+        "Manufacturer Name": "CRCW04021K00FKEDC",
+        "Manufacturer": "VISHAY",
+        "Manufacturer Lifecycle": "Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": ""
+      },
+      {
+        "Manufacturer Item Number": "255279",
+        "Manufacturer Name": "CR0402-FX-1001GLF",
+        "Manufacturer": "BOURNS",
+        "Manufacturer Lifecycle": "Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": ""
+      },
+      {
+        "Manufacturer Item Number": "264008",
+        "Manufacturer Name": "RC0402FR-071KL",
+        "Manufacturer": "YAGEO AMERICA",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "no md available",
+        "Preferred Status": "Preferred",
+        "BOM Notes": ""
+      },
+      {
+        "Manufacturer Item Number": "281103",
+        "Manufacturer Name": "WR04X1001FTL",
+        "Manufacturer": "WALSIN TECHNOLOGY CORP.",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": ""
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000036635",
+    "name": "470-80452",
+    "description": "RES MF 10K 1/16W 1% 0402",
+    "quantity": "0",
+    "reference_designators": [
+      "R37",
+      "R38",
+      "R40",
+      "R42",
+      "R49",
+      "R50",
+      "R97"
+    ],
+    "source_rows": [
+      72,
+      73,
+      74,
+      75
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "235532",
+        "Manufacturer Name": "CRCW040210K0FKEDC",
+        "Manufacturer": "VISHAY",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": "DNP"
+      },
+      {
+        "Manufacturer Item Number": "292775",
+        "Manufacturer Name": "RC0402FR-0710KL",
+        "Manufacturer": "Yageo",
+        "Manufacturer Lifecycle": "Active",
+        "Manufacturer Notes": "Reflow Profiles 260 \u00b0C",
+        "Preferred Status": "Alternate",
+        "BOM Notes": "DNP"
+      },
+      {
+        "Manufacturer Item Number": "290750",
+        "Manufacturer Name": "NRCL04F1002TRF",
+        "Manufacturer": "NIC COMPONENTS CORP",
+        "Manufacturer Lifecycle": "Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Preferred",
+        "BOM Notes": "DNP"
+      },
+      {
+        "Manufacturer Item Number": "294588",
+        "Manufacturer Name": "RC0402FR-1310KL",
+        "Manufacturer": "Yageo",
+        "Manufacturer Lifecycle": "Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": "DNP"
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000036635",
+    "name": "470-80452",
+    "description": "RES MF 10K 1/16W 1% 0402",
+    "quantity": "16",
+    "reference_designators": [
+      "R1",
+      "R2",
+      "R3",
+      "R21",
+      "R26",
+      "R36",
+      "R39",
+      "R41",
+      "R57",
+      "R58",
+      "R59",
+      "R60",
+      "R86",
+      "R106",
+      "R116",
+      "R207"
+    ],
+    "source_rows": [
+      76,
+      77,
+      78,
+      79
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "235532",
+        "Manufacturer Name": "CRCW040210K0FKEDC",
+        "Manufacturer": "VISHAY",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": ""
+      },
+      {
+        "Manufacturer Item Number": "292775",
+        "Manufacturer Name": "RC0402FR-0710KL",
+        "Manufacturer": "Yageo",
+        "Manufacturer Lifecycle": "Active",
+        "Manufacturer Notes": "Reflow Profiles 260 \u00b0C",
+        "Preferred Status": "Alternate",
+        "BOM Notes": ""
+      },
+      {
+        "Manufacturer Item Number": "290750",
+        "Manufacturer Name": "NRCL04F1002TRF",
+        "Manufacturer": "NIC COMPONENTS CORP",
+        "Manufacturer Lifecycle": "Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Preferred",
+        "BOM Notes": ""
+      },
+      {
+        "Manufacturer Item Number": "294588",
+        "Manufacturer Name": "RC0402FR-1310KL",
+        "Manufacturer": "Yageo",
+        "Manufacturer Lifecycle": "Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": ""
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000036664",
+    "name": "470-80487",
+    "description": "RES MF 1.5K 1/16W 1% 0402",
+    "quantity": "1",
+    "reference_designators": [
+      "R155"
+    ],
+    "source_rows": [
+      80
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "234489",
+        "Manufacturer Name": "CR0402-FX-1501GLF",
+        "Manufacturer": "BOURNS",
+        "Manufacturer Lifecycle": "Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Preferred",
+        "BOM Notes": ""
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000051831",
+    "name": "480-75317",
+    "description": "TRANS MOSFET N-CH 30V .1A SOT-323",
+    "quantity": "1",
+    "reference_designators": [
+      "Q1"
+    ],
+    "source_rows": [
+      81
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "213347",
+        "Manufacturer Name": "2SK3018T106",
+        "Manufacturer": "ROHM",
+        "Manufacturer Lifecycle": "Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Preferred",
+        "BOM Notes": ""
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000022294",
+    "name": "480-76978",
+    "description": "DIODE SCH 1A 30V MICROSMP SMT",
+    "quantity": "2",
+    "reference_designators": [
+      "D3",
+      "D4"
+    ],
+    "source_rows": [
+      82
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "257745",
+        "Manufacturer Name": "MSS1P3L-M3/89A",
+        "Manufacturer": "VISHAY INTERTECHNOLOGY",
+        "Manufacturer Lifecycle": "Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Preferred",
+        "BOM Notes": ""
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000022294",
+    "name": "480-76978",
+    "description": "DIODE SCH 1A 30V MICROSMP SMT",
+    "quantity": "0",
+    "reference_designators": [
+      "D6"
+    ],
+    "source_rows": [
+      83
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "257745",
+        "Manufacturer Name": "MSS1P3L-M3/89A",
+        "Manufacturer": "VISHAY INTERTECHNOLOGY",
+        "Manufacturer Lifecycle": "Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Preferred",
+        "BOM Notes": "DNP"
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000022836",
+    "name": "480-78454",
+    "description": "DIODE BIDIR 1-LINE ESD PROT 0.4pF 6V 2.5A AEC-Q101 SOD882",
+    "quantity": "2",
+    "reference_designators": [
+      "D7",
+      "D8"
+    ],
+    "source_rows": [
+      84
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "292671",
+        "Manufacturer Name": "PESD5V0F1BL,315",
+        "Manufacturer": "Nexperia",
+        "Manufacturer Lifecycle": "Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Preferred",
+        "BOM Notes": ""
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000044942",
+    "name": "510-78653",
+    "description": "SW SP PB 50mA 16V SMT",
+    "quantity": "3",
+    "reference_designators": [
+      "SW1",
+      "SW2",
+      "SW3"
+    ],
+    "source_rows": [
+      85
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "214376",
+        "Manufacturer Name": "434123025826",
+        "Manufacturer": "WURTH ELEKTRONIK EISOS GMBH & CO. KG (ELECTRONIC & ELECTROMEHANICAL COMP)",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Preferred",
+        "BOM Notes": ""
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000013038",
+    "name": "150-79103",
+    "description": "CAP CER 1000pF 2KV 10% X7R 1206",
+    "quantity": "2",
+    "reference_designators": [
+      "C60",
+      "C61"
+    ],
+    "source_rows": [
+      86,
+      87
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "202696",
+        "Manufacturer Name": "1206B102K202CT",
+        "Manufacturer": "WALSIN TECHNOLOGY CORP.",
+        "Manufacturer Lifecycle": "Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Preferred",
+        "BOM Notes": ""
+      },
+      {
+        "Manufacturer Item Number": "217829",
+        "Manufacturer Name": "202R18W102KV4E",
+        "Manufacturer": "JOHANSON DIELECTRICS",
+        "Manufacturer Lifecycle": "Active",
+        "Manufacturer Notes": "260\u00b15\u00b0C for 10 seconds.Test standards and procedures per MIL-STD-202 and MIL-C-123",
+        "Preferred Status": "Alternate",
+        "BOM Notes": ""
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000015494",
+    "name": "150-81891",
+    "description": "CAP CER 1uF 16V 20% X5R 0603",
+    "quantity": "11",
+    "reference_designators": [
+      "C6",
+      "C10",
+      "C13",
+      "C17",
+      "C25",
+      "C42",
+      "C45",
+      "C46",
+      "C49",
+      "C64",
+      "C65"
+    ],
+    "source_rows": [
+      88
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "239810",
+        "Manufacturer Name": "885012106017",
+        "Manufacturer": "Wurth Electronik GmbH & Co. KG (PCB)",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Preferred",
+        "BOM Notes": ""
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000026445",
+    "name": "180-78156",
+    "description": "IND FER BEAD 330OHM@100MHZ 1.7A 0603",
+    "quantity": "2",
+    "reference_designators": [
+      "L3",
+      "L6"
+    ],
+    "source_rows": [
+      89,
+      90
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "260841",
+        "Manufacturer Name": "MPZ1608S331A",
+        "Manufacturer": "TDK",
+        "Manufacturer Lifecycle": "Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Preferred",
+        "BOM Notes": ""
+      },
+      {
+        "Manufacturer Item Number": "300107",
+        "Manufacturer Name": "UPZ1608E331-1R7TF",
+        "Manufacturer": "Shenzhen Sunlord Electronics Co., Ltd",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": ""
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000026542",
+    "name": "180-78270",
+    "description": "IND WW PWR 1.5uH@1MHZ 2A 20% 2520",
+    "quantity": "1",
+    "reference_designators": [
+      "L2"
+    ],
+    "source_rows": [
+      91
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "276777",
+        "Manufacturer Name": "SPH252012H1R5MT",
+        "Manufacturer": "Shenzhen Sunlord Electronics Co., Ltd",
+        "Manufacturer Lifecycle": "Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Preferred",
+        "BOM Notes": ""
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000046511",
+    "name": "210-80192",
+    "description": "HDR 2X5 TH 50MIL CTR 167H AU 91L",
+    "quantity": "1",
+    "reference_designators": [
+      "J23"
+    ],
+    "source_rows": [
+      92,
+      93
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "201710",
+        "Manufacturer Name": "0922S0205011N6T-2LF",
+        "Manufacturer": "ANYTRONIC CORPORATION LIMITED",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Preferred",
+        "BOM Notes": ""
+      },
+      {
+        "Manufacturer Item Number": "272396",
+        "Manufacturer Name": "GRPB052VWVN-RC",
+        "Manufacturer": "SULLINS ELECTRONICS CORP",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": ""
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000047622",
+    "name": "210-81617",
+    "description": "CON 1X8 SKT TH 100MIL SP 344H AU 118L",
+    "quantity": "2",
+    "reference_designators": [
+      "J5",
+      "J6"
+    ],
+    "source_rows": [
+      94
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "201293",
+        "Manufacturer Name": "08001S3 0811-29RF",
+        "Manufacturer": "ANYTRONIC CORPORATION LIMITED",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Preferred",
+        "BOM Notes": ""
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000047745",
+    "name": "210-81774",
+    "description": "CON 2X6 SKT SHRD TH 100MIL CTR 345H AU 126L",
+    "quantity": "1",
+    "reference_designators": [
+      "J4"
+    ],
+    "source_rows": [
+      95
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "201297",
+        "Manufacturer Name": "08010S31211-29RF",
+        "Manufacturer": "ANYTRONIC CORPORATION LIMITED",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Preferred",
+        "BOM Notes": ""
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000040188",
+    "name": "211-76642",
+    "description": "TEST POINT PAD 30MIL DIA SMT, NO PART TO ORDER",
+    "quantity": "30",
+    "reference_designators": [
+      "TP2",
+      "TP3",
+      "TP4",
+      "TP5",
+      "TP6",
+      "TP7",
+      "TP8",
+      "TP9",
+      "TP10",
+      "TP11",
+      "TP12",
+      "TP13",
+      "TP14",
+      "TP15",
+      "TP16",
+      "TP17",
+      "TP18",
+      "TP19",
+      "TP20",
+      "TP21",
+      "TP22",
+      "TP23",
+      "TP24",
+      "TP25",
+      "TP26",
+      "TP27",
+      "TP28",
+      "TP29",
+      "TP30",
+      "TP31"
+    ],
+    "source_rows": [
+      96
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "",
+        "Manufacturer Name": "",
+        "Manufacturer": "",
+        "Manufacturer Lifecycle": "",
+        "Manufacturer Notes": "",
+        "Preferred Status": "",
+        "BOM Notes": ""
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000031863",
+    "name": "230-78676",
+    "description": "XTAL 32.768kHz 12.5pF 1.05pF 20ppm SMT",
+    "quantity": "1",
+    "reference_designators": [
+      "Y2"
+    ],
+    "source_rows": [
+      97
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "226270",
+        "Manufacturer Name": "830009678",
+        "Manufacturer": "Wurth Electronik GmbH & Co. KG (PCB)",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Preferred",
+        "BOM Notes": ""
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000019384",
+    "name": "312-81473",
+    "description": "IC CC LOGIC USB TYPE-C 2.7-5.5V X2QFN12",
+    "quantity": "1",
+    "reference_designators": [
+      "U5"
+    ],
+    "source_rows": [
+      98
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "263288",
+        "Manufacturer Name": "PTN5150AHXMP",
+        "Manufacturer": "NXP SEMICONDUCTOR",
+        "Manufacturer Lifecycle": "Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Preferred",
+        "BOM Notes": ""
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000034503",
+    "name": "470-75356",
+    "description": "RES MF 2.0K 1/16W 1% 0402",
+    "quantity": "3",
+    "reference_designators": [
+      "R134",
+      "R204",
+      "R205"
+    ],
+    "source_rows": [
+      99,
+      100,
+      101,
+      102,
+      103
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "234511",
+        "Manufacturer Name": "CR0402-FX-2001GLF",
+        "Manufacturer": "BOURNS",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Preferred",
+        "BOM Notes": ""
+      },
+      {
+        "Manufacturer Item Number": "255259",
+        "Manufacturer Name": "CR0402-16W-2001FT",
+        "Manufacturer": "VENKEL COMPANY",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": ""
+      },
+      {
+        "Manufacturer Item Number": "269306",
+        "Manufacturer Name": "RC0402FR-072KL",
+        "Manufacturer": "YAGEO AMERICA",
+        "Manufacturer Lifecycle": "Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": ""
+      },
+      {
+        "Manufacturer Item Number": "269343",
+        "Manufacturer Name": "RC0402FR-132KL",
+        "Manufacturer": "YAGEO AMERICA",
+        "Manufacturer Lifecycle": "Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": ""
+      },
+      {
+        "Manufacturer Item Number": "302462",
+        "Manufacturer Name": "WR04X2001FTL",
+        "Manufacturer": "WALSIN TECHNOLOGY CORP.",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": ""
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000034507",
+    "name": "470-75360",
+    "description": "RES MF 49.9 OHM 1/16W 1% 0402",
+    "quantity": "10",
+    "reference_designators": [
+      "R62",
+      "R63",
+      "R64",
+      "R65",
+      "R73",
+      "R76",
+      "R77",
+      "R78",
+      "R83",
+      "R84"
+    ],
+    "source_rows": [
+      104,
+      105,
+      106,
+      107,
+      108
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "252768",
+        "Manufacturer Name": "CR02FL6-49R9",
+        "Manufacturer": "THYE MING TECH CO LTD",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "No MDS available per Mfg",
+        "Preferred Status": "Alternate",
+        "BOM Notes": ""
+      },
+      {
+        "Manufacturer Item Number": "253025",
+        "Manufacturer Name": "CR040216W49R9FT",
+        "Manufacturer": "VENKEL COMPANY",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": ""
+      },
+      {
+        "Manufacturer Item Number": "255289",
+        "Manufacturer Name": "CR0402-FX-49R9GLF",
+        "Manufacturer": "BOURNS",
+        "Manufacturer Lifecycle": "Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Preferred",
+        "BOM Notes": ""
+      },
+      {
+        "Manufacturer Item Number": "264029",
+        "Manufacturer Name": "RC0402FR-0749R9L",
+        "Manufacturer": "Yageo",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": ""
+      },
+      {
+        "Manufacturer Item Number": "275650",
+        "Manufacturer Name": "WR04X49R9FTL",
+        "Manufacturer": "WALSIN TECHNOLOGY CORP.",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": ""
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000034694",
+    "name": "470-75626",
+    "description": "RES MF 4.7K 1/16W 5% 0402",
+    "quantity": "0",
+    "reference_designators": [
+      "R51",
+      "R52",
+      "R88",
+      "R89",
+      "R90",
+      "R91",
+      "R92",
+      "R93",
+      "R95",
+      "R96"
+    ],
+    "source_rows": [
+      109,
+      110,
+      111,
+      112,
+      113
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "230860",
+        "Manufacturer Name": "CR0402-JW-472GLF",
+        "Manufacturer": "BOURNS",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": "DNP"
+      },
+      {
+        "Manufacturer Item Number": "253022",
+        "Manufacturer Name": "CR040216W472JT",
+        "Manufacturer": "VENKEL COMPANY",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "260*C",
+        "Preferred Status": "Alternate",
+        "BOM Notes": "DNP"
+      },
+      {
+        "Manufacturer Item Number": "269656",
+        "Manufacturer Name": "RC73L2Z472JTF",
+        "Manufacturer": "SMEC",
+        "Manufacturer Lifecycle": "Obsolete",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Disqualified",
+        "BOM Notes": "DNP"
+      },
+      {
+        "Manufacturer Item Number": "275648",
+        "Manufacturer Name": "WR04X472 JTL",
+        "Manufacturer": "WALSIN TECHNOLOGY CORP.",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": "DNP"
+      },
+      {
+        "Manufacturer Item Number": "290761",
+        "Manufacturer Name": "NRCL04J472TRF",
+        "Manufacturer": "NIC COMPONENTS CORP",
+        "Manufacturer Lifecycle": "Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Preferred",
+        "BOM Notes": "DNP"
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000034673",
+    "name": "470-75591",
+    "description": "RES MF 100 OHM 1/16W 5% 0402",
+    "quantity": "2",
+    "reference_designators": [
+      "R188",
+      "R189"
+    ],
+    "source_rows": [
+      114,
+      115,
+      116
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "230754",
+        "Manufacturer Name": "CR040216W101JT",
+        "Manufacturer": "VENKEL COMPANY",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": ""
+      },
+      {
+        "Manufacturer Item Number": "262403",
+        "Manufacturer Name": "NRCL04J101TRF",
+        "Manufacturer": "NIC COMPONENTS CORP",
+        "Manufacturer Lifecycle": "Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Preferred",
+        "BOM Notes": ""
+      },
+      {
+        "Manufacturer Item Number": "255293",
+        "Manufacturer Name": "CR0402-JW-101GLF",
+        "Manufacturer": "BOURNS",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": ""
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000034694",
+    "name": "470-75626",
+    "description": "RES MF 4.7K 1/16W 5% 0402",
+    "quantity": "10",
+    "reference_designators": [
+      "R32",
+      "R67",
+      "R68",
+      "R94",
+      "R148",
+      "R149",
+      "R208",
+      "R209",
+      "R210",
+      "R211"
+    ],
+    "source_rows": [
+      117,
+      118,
+      119,
+      120,
+      121
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "230860",
+        "Manufacturer Name": "CR0402-JW-472GLF",
+        "Manufacturer": "BOURNS",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": ""
+      },
+      {
+        "Manufacturer Item Number": "253022",
+        "Manufacturer Name": "CR040216W472JT",
+        "Manufacturer": "VENKEL COMPANY",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "260*C",
+        "Preferred Status": "Alternate",
+        "BOM Notes": ""
+      },
+      {
+        "Manufacturer Item Number": "269656",
+        "Manufacturer Name": "RC73L2Z472JTF",
+        "Manufacturer": "SMEC",
+        "Manufacturer Lifecycle": "Obsolete",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Disqualified",
+        "BOM Notes": ""
+      },
+      {
+        "Manufacturer Item Number": "275648",
+        "Manufacturer Name": "WR04X472 JTL",
+        "Manufacturer": "WALSIN TECHNOLOGY CORP.",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": ""
+      },
+      {
+        "Manufacturer Item Number": "290761",
+        "Manufacturer Name": "NRCL04J472TRF",
+        "Manufacturer": "NIC COMPONENTS CORP",
+        "Manufacturer Lifecycle": "Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Preferred",
+        "BOM Notes": ""
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000035054",
+    "name": "470-76240",
+    "description": "RES MF 100K 1/16W 1% 0402",
+    "quantity": "7",
+    "reference_designators": [
+      "R33",
+      "R103",
+      "R124",
+      "R144",
+      "R145",
+      "R146",
+      "R147"
+    ],
+    "source_rows": [
+      122,
+      123,
+      124,
+      125,
+      126
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "230798",
+        "Manufacturer Name": "CR0402-FX-1003GLF",
+        "Manufacturer": "BOURNS",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": ""
+      },
+      {
+        "Manufacturer Item Number": "231714",
+        "Manufacturer Name": "CRCW0402100KFKEDC",
+        "Manufacturer": "VISHAY INTERTECHNOLOGY",
+        "Manufacturer Lifecycle": "Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": ""
+      },
+      {
+        "Manufacturer Item Number": "262399",
+        "Manufacturer Name": "NRCL04F1003TRF",
+        "Manufacturer": "NIC COMPONENTS CORP",
+        "Manufacturer Lifecycle": "Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Preferred",
+        "BOM Notes": ""
+      },
+      {
+        "Manufacturer Item Number": "255087",
+        "Manufacturer Name": "CR02FL6--100K",
+        "Manufacturer": "THYE MING TECH CO LTD",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "No MDS available per Mfg",
+        "Preferred Status": "Alternate",
+        "BOM Notes": ""
+      },
+      {
+        "Manufacturer Item Number": "292773",
+        "Manufacturer Name": "RC0402FR-07100KL",
+        "Manufacturer": "YAGEO AMERICA",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": ""
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000035054",
+    "name": "470-76240",
+    "description": "RES MF 100K 1/16W 1% 0402",
+    "quantity": "0",
+    "reference_designators": [
+      "R54"
+    ],
+    "source_rows": [
+      127,
+      128,
+      129,
+      130,
+      131
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "230798",
+        "Manufacturer Name": "CR0402-FX-1003GLF",
+        "Manufacturer": "BOURNS",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": "DNP"
+      },
+      {
+        "Manufacturer Item Number": "231714",
+        "Manufacturer Name": "CRCW0402100KFKEDC",
+        "Manufacturer": "VISHAY INTERTECHNOLOGY",
+        "Manufacturer Lifecycle": "Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": "DNP"
+      },
+      {
+        "Manufacturer Item Number": "262399",
+        "Manufacturer Name": "NRCL04F1003TRF",
+        "Manufacturer": "NIC COMPONENTS CORP",
+        "Manufacturer Lifecycle": "Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Preferred",
+        "BOM Notes": "DNP"
+      },
+      {
+        "Manufacturer Item Number": "255087",
+        "Manufacturer Name": "CR02FL6--100K",
+        "Manufacturer": "THYE MING TECH CO LTD",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "No MDS available per Mfg",
+        "Preferred Status": "Alternate",
+        "BOM Notes": "DNP"
+      },
+      {
+        "Manufacturer Item Number": "292773",
+        "Manufacturer Name": "RC0402FR-07100KL",
+        "Manufacturer": "YAGEO AMERICA",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": "DNP"
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000035098",
+    "name": "470-76474",
+    "description": "RES MF 5.1K 1/16W 1% 0402",
+    "quantity": "2",
+    "reference_designators": [
+      "R112",
+      "R113"
+    ],
+    "source_rows": [
+      132
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "252774",
+        "Manufacturer Name": "CR02FL6--5K1",
+        "Manufacturer": "THYE MING TECH CO LTD",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "No MDS available per Mfg",
+        "Preferred Status": "Preferred",
+        "BOM Notes": ""
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000039145",
+    "name": "470-83213",
+    "description": "RES MF 2.2K 1/16W 1% 0402",
+    "quantity": "1",
+    "reference_designators": [
+      "R135"
+    ],
+    "source_rows": [
+      133
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "253054",
+        "Manufacturer Name": "CR0402-FX-2201GLF",
+        "Manufacturer": "Bourns Inc.",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Preferred",
+        "BOM Notes": ""
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000039145",
+    "name": "470-83213",
+    "description": "RES MF 2.2K 1/16W 1% 0402",
+    "quantity": "0",
+    "reference_designators": [
+      "R140",
+      "R141"
+    ],
+    "source_rows": [
+      134
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "253054",
+        "Manufacturer Name": "CR0402-FX-2201GLF",
+        "Manufacturer": "Bourns Inc.",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Preferred",
+        "BOM Notes": "DNP"
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000039146",
+    "name": "470-83214",
+    "description": "RES MF 62 OHM 1/4W 1% AEC-Q200 0805",
+    "quantity": "2",
+    "reference_designators": [
+      "R98",
+      "R102"
+    ],
+    "source_rows": [
+      135
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "297932",
+        "Manufacturer Name": "SG73P2ATTD62R0F",
+        "Manufacturer": "KOA SPEER",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Preferred",
+        "BOM Notes": ""
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000022761",
+    "name": "480-78365",
+    "description": "DIODE SCH DUAL CC 200MA 30V SOT23",
+    "quantity": "1",
+    "reference_designators": [
+      "D17"
+    ],
+    "source_rows": [
+      136
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "227482",
+        "Manufacturer Name": "BAT54C-7-F",
+        "Manufacturer": "DIODES INC",
+        "Manufacturer Lifecycle": "Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Preferred",
+        "BOM Notes": ""
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000023142",
+    "name": "480-78843",
+    "description": "DIODE TVS ARRAY 3 5.5V SLP1616P6",
+    "quantity": "0",
+    "reference_designators": [
+      "U12"
+    ],
+    "source_rows": [
+      137
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "293219",
+        "Manufacturer Name": "RClamp0854P.TCT",
+        "Manufacturer": "SEMTECH CORP",
+        "Manufacturer Lifecycle": "Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Preferred",
+        "BOM Notes": "DNP"
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000023142",
+    "name": "480-78843",
+    "description": "DIODE TVS ARRAY 3 5.5V SLP1616P6",
+    "quantity": "1",
+    "reference_designators": [
+      "U4"
+    ],
+    "source_rows": [
+      138
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "293219",
+        "Manufacturer Name": "RClamp0854P.TCT",
+        "Manufacturer": "SEMTECH CORP",
+        "Manufacturer Lifecycle": "Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Preferred",
+        "BOM Notes": ""
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000011472",
+    "name": "150-30180",
+    "description": "CAP CER 12PF 25V 5% C0G 0402",
+    "quantity": "0",
+    "reference_designators": [
+      "C96",
+      "C97"
+    ],
+    "source_rows": [
+      139
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "249584",
+        "Manufacturer Name": "C0402C120J3GAC7867",
+        "Manufacturer": "KEMET",
+        "Manufacturer Lifecycle": "Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Preferred",
+        "BOM Notes": "DNP"
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000011542",
+    "name": "150-30269",
+    "description": "CAP CER 56PF 50V 5% C0G 0402",
+    "quantity": "2",
+    "reference_designators": [
+      "C66",
+      "C68"
+    ],
+    "source_rows": [
+      140
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "249544",
+        "Manufacturer Name": "C0402C0G500-560JNE",
+        "Manufacturer": "VENKEL COMPANY",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": ""
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000011706",
+    "name": "150-75169",
+    "description": "CAP CER 47pF 50V 5% C0G 0402",
+    "quantity": "4",
+    "reference_designators": [
+      "C87",
+      "C89",
+      "C92",
+      "C95"
+    ],
+    "source_rows": [
+      141,
+      142,
+      143,
+      144,
+      145,
+      146,
+      147
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "200452",
+        "Manufacturer Name": "04025A470JAT2A",
+        "Manufacturer": "AVX",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": ""
+      },
+      {
+        "Manufacturer Item Number": "200517",
+        "Manufacturer Name": "0402CG470J500NT",
+        "Manufacturer": "FENGHUA",
+        "Manufacturer Lifecycle": "Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": ""
+      },
+      {
+        "Manufacturer Item Number": "247298",
+        "Manufacturer Name": "GMC04CG470J50NT-LF",
+        "Manufacturer": "CAL-CHIP",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Preferred",
+        "BOM Notes": ""
+      },
+      {
+        "Manufacturer Item Number": "249543",
+        "Manufacturer Name": "C0402C0G500-470JNE",
+        "Manufacturer": "VENKEL COMPANY",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": ""
+      },
+      {
+        "Manufacturer Item Number": "249633",
+        "Manufacturer Name": "C0402C470J5GAC",
+        "Manufacturer": "KEMET",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": ""
+      },
+      {
+        "Manufacturer Item Number": "253401",
+        "Manufacturer Name": "CC0402JRNPO9BN470",
+        "Manufacturer": "YAGEO AMERICA",
+        "Manufacturer Lifecycle": "Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": ""
+      },
+      {
+        "Manufacturer Item Number": "285273",
+        "Manufacturer Name": "MCCE470J0NOTF",
+        "Manufacturer": "SMEC",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": ""
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000013427",
+    "name": "150-79530",
+    "description": "CAP CER 22uF 10V 20% X5R 0603",
+    "quantity": "2",
+    "reference_designators": [
+      "C90",
+      "C93"
+    ],
+    "source_rows": [
+      148,
+      149,
+      150
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "230248",
+        "Manufacturer Name": "CL10A226MP7LUNC",
+        "Manufacturer": "SAMSUNG",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": ""
+      },
+      {
+        "Manufacturer Item Number": "239920",
+        "Manufacturer Name": "GRM188R61A226ME15D",
+        "Manufacturer": "MURATA",
+        "Manufacturer Lifecycle": "Active",
+        "Manufacturer Notes": "Lead Free Solder 240~260?270\u00b15? for 10\u00b10.5 seconds",
+        "Preferred Status": "Alternate",
+        "BOM Notes": ""
+      },
+      {
+        "Manufacturer Item Number": "250189",
+        "Manufacturer Name": "C1608X5R1A226M080AC",
+        "Manufacturer": "TDK",
+        "Manufacturer Lifecycle": "Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Preferred",
+        "BOM Notes": ""
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000013427",
+    "name": "150-79530",
+    "description": "CAP CER 22uF 10V 20% X5R 0603",
+    "quantity": "0",
+    "reference_designators": [
+      "C50"
+    ],
+    "source_rows": [
+      151,
+      152,
+      153
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "230248",
+        "Manufacturer Name": "CL10A226MP7LUNC",
+        "Manufacturer": "SAMSUNG",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": "DNP"
+      },
+      {
+        "Manufacturer Item Number": "239920",
+        "Manufacturer Name": "GRM188R61A226ME15D",
+        "Manufacturer": "MURATA",
+        "Manufacturer Lifecycle": "Active",
+        "Manufacturer Notes": "Lead Free Solder 240~260?270\u00b15? for 10\u00b10.5 seconds",
+        "Preferred Status": "Alternate",
+        "BOM Notes": "DNP"
+      },
+      {
+        "Manufacturer Item Number": "250189",
+        "Manufacturer Name": "C1608X5R1A226M080AC",
+        "Manufacturer": "TDK",
+        "Manufacturer Lifecycle": "Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Preferred",
+        "BOM Notes": "DNP"
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000015496",
+    "name": "150-81893",
+    "description": "CAP CER 4.7uF 10V 20% X5R 0603",
+    "quantity": "6",
+    "reference_designators": [
+      "C21",
+      "C28",
+      "C33",
+      "C35",
+      "C39",
+      "C78"
+    ],
+    "source_rows": [
+      154
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "226467",
+        "Manufacturer Name": "885012106012",
+        "Manufacturer": "Wurth Electronik GmbH & Co. KG (PCB)",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Preferred",
+        "BOM Notes": ""
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000026111",
+    "name": "180-77771",
+    "description": "IND FER BEAD 120 OHM@100MHZ 0.5A 25% 0402",
+    "quantity": "1",
+    "reference_designators": [
+      "L1"
+    ],
+    "source_rows": [
+      155,
+      156
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "248430",
+        "Manufacturer Name": "BLM15AG121SN1D",
+        "Manufacturer": "MURATA",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Preferred",
+        "BOM Notes": ""
+      },
+      {
+        "Manufacturer Item Number": "274630",
+        "Manufacturer Name": "GZ1005E121CTF",
+        "Manufacturer": "Shenzhen Sunlord Electronics Co., Ltd",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": ""
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000001528",
+    "name": "344-02410",
+    "description": "IC MCU ARM FLASH 640KB SRAM 320KB 1.8-3.6V VFBGA 98",
+    "quantity": "1",
+    "reference_designators": [
+      "U11"
+    ],
+    "source_rows": [
+      157,
+      158
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "283597",
+        "Manufacturer Name": "LPC55S69JEV98",
+        "Manufacturer": "NXP SEMICONDUCTOR",
+        "Manufacturer Lifecycle": "Active",
+        "Manufacturer Notes": "8542.31.0025, 5A992C, SGI4",
+        "Preferred Status": "Preferred",
+        "BOM Notes": ""
+      },
+      {
+        "Manufacturer Item Number": "305507",
+        "Manufacturer Name": "LPC55S69JEV98K",
+        "Manufacturer": "NXP SEMICONDUCTOR",
+        "Manufacturer Lifecycle": "Active",
+        "Manufacturer Notes": "8542.31.0001, 5A992C G182992 Unrestric",
+        "Preferred Status": "Alternate",
+        "BOM Notes": ""
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000029557",
+    "name": "180-81632",
+    "description": "IND -- 4.7uH@1MHZ 800mA 0.23 OHM 30% 0805",
+    "quantity": "1",
+    "reference_designators": [
+      "L11"
+    ],
+    "source_rows": [
+      159
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "281016",
+        "Manufacturer Name": "LQM21PN4R7NGRD",
+        "Manufacturer": "MURATA",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Preferred",
+        "BOM Notes": ""
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000001648",
+    "name": "344-02549",
+    "description": "IC MCU LOW POWER 150MHz ARM Nirvana -- VFBGA184",
+    "quantity": "1",
+    "reference_designators": [
+      "U1"
+    ],
+    "source_rows": [
+      160
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "254787",
+        "Manufacturer Name": "MCXN947VDFT",
+        "Manufacturer": "NXP SEMICONDUCTOR",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "8542.31.0001, 5A992C G187956 Unrestric",
+        "Preferred Status": "Preferred",
+        "BOM Notes": ""
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000045377",
+    "name": "210-75442",
+    "description": "HDR 1X3 TH 100MIL SP 330H AU 98L",
+    "quantity": "0",
+    "reference_designators": [
+      "J15"
+    ],
+    "source_rows": [
+      161,
+      162
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "201551",
+        "Manufacturer Name": "090021S03018-2LF",
+        "Manufacturer": "ANYTRONIC CORPORATION LIMITED",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "no md available",
+        "Preferred Status": "Alternate",
+        "BOM Notes": "DNP"
+      },
+      {
+        "Manufacturer Item Number": "248968",
+        "Manufacturer Name": "HTSW-103-07-S-S",
+        "Manufacturer": "SAMTEC",
+        "Manufacturer Lifecycle": "Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Preferred",
+        "BOM Notes": "DNP"
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000030332",
+    "name": "370-76899",
+    "description": "LED RED/GRN/BL TRI 20/20/20MA SMT",
+    "quantity": "1",
+    "reference_designators": [
+      "D2"
+    ],
+    "source_rows": [
+      163
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "288090",
+        "Manufacturer Name": "MHPA2525RGBDT-S",
+        "Manufacturer": "Lianyungang Meihua Electronics Technology Co.,Ltd",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Preferred",
+        "BOM Notes": ""
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000033736",
+    "name": "470-30729",
+    "description": "RES MF 75.0 OHM 1/10W 1% AEC-Q200 0402",
+    "quantity": "2",
+    "reference_designators": [
+      "R72",
+      "R74"
+    ],
+    "source_rows": [
+      164,
+      165
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "265374",
+        "Manufacturer Name": "RK73H1ETTP75R0F",
+        "Manufacturer": "KOA SPEER",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Preferred",
+        "BOM Notes": ""
+      },
+      {
+        "Manufacturer Item Number": "267899",
+        "Manufacturer Name": "ERJ-2RKF75R0X",
+        "Manufacturer": "PANASONIC",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": ""
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000045500",
+    "name": "210-75767",
+    "description": "HDR 1X1 TH -- 330H AU 100L",
+    "quantity": "0",
+    "reference_designators": [
+      "JP1",
+      "JP2"
+    ],
+    "source_rows": [
+      166,
+      167,
+      168
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "201536",
+        "Manufacturer Name": "090021S01018-2LF",
+        "Manufacturer": "ANYTRONIC CORPORATION LIMITED",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": "DNP"
+      },
+      {
+        "Manufacturer Item Number": "215923",
+        "Manufacturer Name": "68001-601LF",
+        "Manufacturer": "FRAMATOME CONNECTORS INTERNATIONAL",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": "DNP"
+      },
+      {
+        "Manufacturer Item Number": "275724",
+        "Manufacturer Name": "HTSW-101-07-SM-S",
+        "Manufacturer": "SAMTEC",
+        "Manufacturer Lifecycle": "Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Preferred",
+        "BOM Notes": "DNP"
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000034565",
+    "name": "470-75451",
+    "description": "RES MF 330 OHM 1/10W 5% 0603",
+    "quantity": "0",
+    "reference_designators": [
+      "R178",
+      "R179"
+    ],
+    "source_rows": [
+      169,
+      170,
+      171,
+      172,
+      173,
+      174
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "232279",
+        "Manufacturer Name": "CRCW0603330RJNEA",
+        "Manufacturer": "VISHAY INTERTECHNOLOGY",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": "DNP"
+      },
+      {
+        "Manufacturer Item Number": "234957",
+        "Manufacturer Name": "CR0603-JW-331ELF",
+        "Manufacturer": "BOURNS",
+        "Manufacturer Lifecycle": "Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": "DNP"
+      },
+      {
+        "Manufacturer Item Number": "244401",
+        "Manufacturer Name": "ERJ3GEYJ331V",
+        "Manufacturer": "PANASONIC",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "Material Declaration is not available at this time.",
+        "Preferred Status": "Alternate",
+        "BOM Notes": "DNP"
+      },
+      {
+        "Manufacturer Item Number": "253206",
+        "Manufacturer Name": "CR0603-10W-331JT",
+        "Manufacturer": "VENKEL COMPANY",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Preferred",
+        "BOM Notes": "DNP"
+      },
+      {
+        "Manufacturer Item Number": "281173",
+        "Manufacturer Name": "WR06X331JTL",
+        "Manufacturer": "WALSIN TECHNOLOGY CORP.",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "no md available",
+        "Preferred Status": "Alternate",
+        "BOM Notes": "DNP"
+      },
+      {
+        "Manufacturer Item Number": "295383",
+        "Manufacturer Name": "RK73B1JTTD331J",
+        "Manufacturer": "KOA SPEER",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": "DNP"
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000034565",
+    "name": "470-75451",
+    "description": "RES MF 330 OHM 1/10W 5% 0603",
+    "quantity": "2",
+    "reference_designators": [
+      "R172",
+      "R173"
+    ],
+    "source_rows": [
+      175,
+      176,
+      177,
+      178,
+      179,
+      180
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "232279",
+        "Manufacturer Name": "CRCW0603330RJNEA",
+        "Manufacturer": "VISHAY INTERTECHNOLOGY",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": ""
+      },
+      {
+        "Manufacturer Item Number": "234957",
+        "Manufacturer Name": "CR0603-JW-331ELF",
+        "Manufacturer": "BOURNS",
+        "Manufacturer Lifecycle": "Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": ""
+      },
+      {
+        "Manufacturer Item Number": "244401",
+        "Manufacturer Name": "ERJ3GEYJ331V",
+        "Manufacturer": "PANASONIC",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "Material Declaration is not available at this time.",
+        "Preferred Status": "Alternate",
+        "BOM Notes": ""
+      },
+      {
+        "Manufacturer Item Number": "253206",
+        "Manufacturer Name": "CR0603-10W-331JT",
+        "Manufacturer": "VENKEL COMPANY",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Preferred",
+        "BOM Notes": ""
+      },
+      {
+        "Manufacturer Item Number": "281173",
+        "Manufacturer Name": "WR06X331JTL",
+        "Manufacturer": "WALSIN TECHNOLOGY CORP.",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "no md available",
+        "Preferred Status": "Alternate",
+        "BOM Notes": ""
+      },
+      {
+        "Manufacturer Item Number": "295383",
+        "Manufacturer Name": "RK73B1JTTD331J",
+        "Manufacturer": "KOA SPEER",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": ""
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000046710",
+    "name": "210-80468",
+    "description": "HDR 1X2 TH 100MIL SP 342H AU 118L",
+    "quantity": "5",
+    "reference_designators": [
+      "J18",
+      "J19",
+      "J21",
+      "J22",
+      "J24"
+    ],
+    "source_rows": [
+      181
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "215628",
+        "Manufacturer Name": "61300211121",
+        "Manufacturer": "WURTH ELEKTRONIK EISOS GMBH & CO. KG (ELECTRONIC & ELECTROMEHANICAL COMP)",
+        "Manufacturer Lifecycle": "Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Preferred",
+        "BOM Notes": ""
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000046710",
+    "name": "210-80468",
+    "description": "HDR 1X2 TH 100MIL SP 342H AU 118L",
+    "quantity": "0",
+    "reference_designators": [
+      "JP6",
+      "J25",
+      "J26",
+      "J27",
+      "J28"
+    ],
+    "source_rows": [
+      182
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "215628",
+        "Manufacturer Name": "61300211121",
+        "Manufacturer": "WURTH ELEKTRONIK EISOS GMBH & CO. KG (ELECTRONIC & ELECTROMEHANICAL COMP)",
+        "Manufacturer Lifecycle": "Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Preferred",
+        "BOM Notes": "DNP"
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000034943",
+    "name": "470-76103",
+    "description": "RES MF 20K 1/16W 1% 0402",
+    "quantity": "1",
+    "reference_designators": [
+      "R107"
+    ],
+    "source_rows": [
+      183,
+      184
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "275636",
+        "Manufacturer Name": "WR04X2002FTL",
+        "Manufacturer": "WALSIN TECHNOLOGY CORP.",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Preferred",
+        "BOM Notes": ""
+      },
+      {
+        "Manufacturer Item Number": "292793",
+        "Manufacturer Name": "RC0402FR-0720KL",
+        "Manufacturer": "YAGEO AMERICA",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": ""
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000036983",
+    "name": "470-80866",
+    "description": "RES MF ZERO OHM 1/10W -- 0603",
+    "quantity": "36",
+    "reference_designators": [
+      "R8",
+      "R9",
+      "R10",
+      "R11",
+      "R12",
+      "R14",
+      "R15",
+      "R16",
+      "R18",
+      "R19",
+      "R22",
+      "R25",
+      "R35",
+      "R44",
+      "R55",
+      "R56",
+      "R61",
+      "R85",
+      "R100",
+      "R101",
+      "R151",
+      "R152",
+      "R153",
+      "R156",
+      "R160",
+      "R161",
+      "R162",
+      "R163",
+      "R164",
+      "R165",
+      "R166",
+      "R168",
+      "R171",
+      "R190",
+      "R191",
+      "R212"
+    ],
+    "source_rows": [
+      185,
+      186,
+      187,
+      188,
+      189,
+      190,
+      191,
+      192,
+      193
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "200886",
+        "Manufacturer Name": "0603000J",
+        "Manufacturer": "LIKET CORPORATION",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "no md available",
+        "Preferred Status": "Alternate",
+        "BOM Notes": ""
+      },
+      {
+        "Manufacturer Item Number": "231198",
+        "Manufacturer Name": "CR0603J/000ELF",
+        "Manufacturer": "BOURNS",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": ""
+      },
+      {
+        "Manufacturer Item Number": "234563",
+        "Manufacturer Name": "CR0603-10W-000T",
+        "Manufacturer": "VENKEL COMPANY",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": ""
+      },
+      {
+        "Manufacturer Item Number": "255240",
+        "Manufacturer Name": "CR-03JL7----0R",
+        "Manufacturer": "THYE MING TECH CO LTD",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "No MDS available per Mfg",
+        "Preferred Status": "Alternate",
+        "BOM Notes": ""
+      },
+      {
+        "Manufacturer Item Number": "269359",
+        "Manufacturer Name": "RC-0603-000JT",
+        "Manufacturer": "SKYMOS",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "no MDS available",
+        "Preferred Status": "Alternate",
+        "BOM Notes": ""
+      },
+      {
+        "Manufacturer Item Number": "269366",
+        "Manufacturer Name": "RC0603FR-070RL",
+        "Manufacturer": "YAGEO AMERICA",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": ""
+      },
+      {
+        "Manufacturer Item Number": "271508",
+        "Manufacturer Name": "RM06J000CT-LF",
+        "Manufacturer": "CAL-CHIP",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": ""
+      },
+      {
+        "Manufacturer Item Number": "281155",
+        "Manufacturer Name": "WR06X000PTL",
+        "Manufacturer": "WALSIN TECHNOLOGY CORP.",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "no md available",
+        "Preferred Status": "Preferred",
+        "BOM Notes": ""
+      },
+      {
+        "Manufacturer Item Number": "294864",
+        "Manufacturer Name": "RC1608J000CS",
+        "Manufacturer": "SAMSUNG",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": ""
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000036983",
+    "name": "470-80866",
+    "description": "RES MF ZERO OHM 1/10W -- 0603",
+    "quantity": "0",
+    "reference_designators": [
+      "R17",
+      "R20",
+      "R23",
+      "R28",
+      "R34",
+      "R154",
+      "R194"
+    ],
+    "source_rows": [
+      194,
+      195,
+      196,
+      197,
+      198,
+      199,
+      200,
+      201,
+      202
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "200886",
+        "Manufacturer Name": "0603000J",
+        "Manufacturer": "LIKET CORPORATION",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "no md available",
+        "Preferred Status": "Alternate",
+        "BOM Notes": "DNP"
+      },
+      {
+        "Manufacturer Item Number": "231198",
+        "Manufacturer Name": "CR0603J/000ELF",
+        "Manufacturer": "BOURNS",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": "DNP"
+      },
+      {
+        "Manufacturer Item Number": "234563",
+        "Manufacturer Name": "CR0603-10W-000T",
+        "Manufacturer": "VENKEL COMPANY",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": "DNP"
+      },
+      {
+        "Manufacturer Item Number": "255240",
+        "Manufacturer Name": "CR-03JL7----0R",
+        "Manufacturer": "THYE MING TECH CO LTD",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "No MDS available per Mfg",
+        "Preferred Status": "Alternate",
+        "BOM Notes": "DNP"
+      },
+      {
+        "Manufacturer Item Number": "269359",
+        "Manufacturer Name": "RC-0603-000JT",
+        "Manufacturer": "SKYMOS",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "no MDS available",
+        "Preferred Status": "Alternate",
+        "BOM Notes": "DNP"
+      },
+      {
+        "Manufacturer Item Number": "269366",
+        "Manufacturer Name": "RC0603FR-070RL",
+        "Manufacturer": "YAGEO AMERICA",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": "DNP"
+      },
+      {
+        "Manufacturer Item Number": "271508",
+        "Manufacturer Name": "RM06J000CT-LF",
+        "Manufacturer": "CAL-CHIP",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": "DNP"
+      },
+      {
+        "Manufacturer Item Number": "281155",
+        "Manufacturer Name": "WR06X000PTL",
+        "Manufacturer": "WALSIN TECHNOLOGY CORP.",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "no md available",
+        "Preferred Status": "Preferred",
+        "BOM Notes": "DNP"
+      },
+      {
+        "Manufacturer Item Number": "294864",
+        "Manufacturer Name": "RC1608J000CS",
+        "Manufacturer": "SAMSUNG",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": "DNP"
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000048670",
+    "name": "210-82931",
+    "description": "CON 2X8 USB2.0_TYPE_C RCPT 0.85MM 144H AU 63L",
+    "quantity": "2",
+    "reference_designators": [
+      "J11",
+      "J17"
+    ],
+    "source_rows": [
+      203
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "274836",
+        "Manufacturer Name": "USB4085-GF-A",
+        "Manufacturer": "GLOBAL CONNECTOR TECHNOLOGY INC",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Preferred",
+        "BOM Notes": ""
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000049107",
+    "name": "210-83440",
+    "description": "CON 2X16 SKT SHRD TH 100MIL CTR 345H AU 126L",
+    "quantity": "1",
+    "reference_designators": [
+      "J9"
+    ],
+    "source_rows": [
+      204
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "201301",
+        "Manufacturer Name": "08010S33211-29RF",
+        "Manufacturer": "ANYTRONIC CORPORATION LIMITED",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Preferred",
+        "BOM Notes": ""
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000039497",
+    "name": "470-83592",
+    "description": "SOLDER BLOB JUMPER 3PIN 1-2 SHORT 0402 - NO PART TO ORDER",
+    "quantity": "27",
+    "reference_designators": [
+      "SJ1",
+      "SJ2",
+      "SJ3",
+      "SJ4",
+      "SJ5",
+      "SJ6",
+      "SJ7",
+      "SJ8",
+      "SJ9",
+      "SJ10",
+      "SJ11",
+      "SJ12",
+      "SJ13",
+      "SJ14",
+      "SJ15",
+      "SJ16",
+      "SJ17",
+      "SJ18",
+      "SJ19",
+      "SJ20",
+      "SJ21",
+      "SJ22",
+      "SJ23",
+      "SJ24",
+      "SJ25",
+      "SJ26",
+      "SJ27"
+    ],
+    "source_rows": [
+      205
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "",
+        "Manufacturer Name": "",
+        "Manufacturer": "",
+        "Manufacturer Lifecycle": "",
+        "Manufacturer Notes": "",
+        "Preferred Status": "",
+        "BOM Notes": ""
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000042446",
+    "name": "211-83462",
+    "description": "CON 9 MICRO SD CARD SKT SMT 1.1MM SP AU 57H",
+    "quantity": "0",
+    "reference_designators": [
+      "J12"
+    ],
+    "source_rows": [
+      206
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "258541",
+        "Manufacturer Name": "MEM2075-00-140-01-A",
+        "Manufacturer": "GLOBAL CONNECTOR TECHNOLOGY INC",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Preferred",
+        "BOM Notes": "DNP"
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000022312",
+    "name": "480-77157",
+    "description": "DIODE DUAL LINE CAN BUS PROTECTOR 27V 350W SOT-23",
+    "quantity": "1",
+    "reference_designators": [
+      "D9"
+    ],
+    "source_rows": [
+      207
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "289466",
+        "Manufacturer Name": "NUP2105LT1G",
+        "Manufacturer": "ON SEMICONDUCTOR",
+        "Manufacturer Lifecycle": "Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Preferred",
+        "BOM Notes": ""
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000023863",
+    "name": "480-79814",
+    "description": "DIODE TVS UNIDIR 3.3VWM 20VC SOD523",
+    "quantity": "0",
+    "reference_designators": [
+      "D14",
+      "D15"
+    ],
+    "source_rows": [
+      208
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "261526",
+        "Manufacturer Name": "PESD3V3S1UB,115",
+        "Manufacturer": "Nexperia",
+        "Manufacturer Lifecycle": "Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Preferred",
+        "BOM Notes": "DNP"
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000007588",
+    "name": "315-80827",
+    "description": "IC VREG LDO  3.3V 0.7A 1.7-6.0V SOT-89-5",
+    "quantity": "1",
+    "reference_designators": [
+      "U2"
+    ],
+    "source_rows": [
+      209
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "282006",
+        "Manufacturer Name": "XC6227C331PR-G",
+        "Manufacturer": "TOREX",
+        "Manufacturer Lifecycle": "Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Preferred",
+        "BOM Notes": ""
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000023885",
+    "name": "480-79841",
+    "description": "DIODE TVS UNIDIR 3.3VWM 12VC SOT363",
+    "quantity": "0",
+    "reference_designators": [
+      "D16"
+    ],
+    "source_rows": [
+      210
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "261524",
+        "Manufacturer Name": "PESD3V3L5UY,115",
+        "Manufacturer": "Nexperia",
+        "Manufacturer Lifecycle": "Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Preferred",
+        "BOM Notes": "DNP"
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000000229",
+    "name": "342-00710",
+    "description": "IC MEM SERIAL FLASH DUAL/QUAD SPI 64MBIT 2.7-3.6V SOIC8",
+    "quantity": "1",
+    "reference_designators": [
+      "U8"
+    ],
+    "source_rows": [
+      211
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "280816",
+        "Manufacturer Name": "W25Q64JVSSIQ",
+        "Manufacturer": "WINBOND ELECTRONICS CORP",
+        "Manufacturer Lifecycle": "Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Preferred",
+        "BOM Notes": ""
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000043962",
+    "name": "510-75297",
+    "description": "NON-PLATED MOUNTING HOLE 125 DRILL / 160 KEEPOUT NO PART TO ORDER",
+    "quantity": "4",
+    "reference_designators": [
+      "MH1",
+      "MH2",
+      "MH3",
+      "MH4"
+    ],
+    "source_rows": [
+      212
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "",
+        "Manufacturer Name": "",
+        "Manufacturer": "",
+        "Manufacturer Lifecycle": "",
+        "Manufacturer Notes": "",
+        "Preferred Status": "",
+        "BOM Notes": ""
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000000239",
+    "name": "342-00726",
+    "description": "IC MEM FLASH SERIAL NOR 512Mb 2.7-3.6V AEC-Q100 T-PBGA24",
+    "quantity": "0",
+    "reference_designators": [
+      "U7"
+    ],
+    "source_rows": [
+      213
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "257864",
+        "Manufacturer Name": "MT35XL512ABA1G12-0AATES",
+        "Manufacturer": "MICRON",
+        "Manufacturer Lifecycle": "Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Preferred",
+        "BOM Notes": "DNP"
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000011598",
+    "name": "150-75010",
+    "description": "CAP CER 0.01UF 50V 10% X7R 0805",
+    "quantity": "0",
+    "reference_designators": [
+      "C102",
+      "C103"
+    ],
+    "source_rows": [
+      214,
+      215,
+      216,
+      217,
+      218,
+      219,
+      220,
+      221
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "201361",
+        "Manufacturer Name": "0805B103K500N",
+        "Manufacturer": "NOVACAP",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "no MDS available",
+        "Preferred Status": "Alternate",
+        "BOM Notes": "DNP"
+      },
+      {
+        "Manufacturer Item Number": "201384",
+        "Manufacturer Name": "08055C103KAT2A",
+        "Manufacturer": "AVX",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": "DNP"
+      },
+      {
+        "Manufacturer Item Number": "201408",
+        "Manufacturer Name": "0805B103K500NT",
+        "Manufacturer": "FENGHUA",
+        "Manufacturer Lifecycle": "Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": "DNP"
+      },
+      {
+        "Manufacturer Item Number": "252483",
+        "Manufacturer Name": "C0805C103K5RAC",
+        "Manufacturer": "KEMET",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": "DNP"
+      },
+      {
+        "Manufacturer Item Number": "256559",
+        "Manufacturer Name": "MC0805B103K500CT",
+        "Manufacturer": "Multicomp",
+        "Manufacturer Lifecycle": "Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": "DNP"
+      },
+      {
+        "Manufacturer Item Number": "252593",
+        "Manufacturer Name": "C0805X7R500-103KNE",
+        "Manufacturer": "VENKEL COMPANY",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Preferred",
+        "BOM Notes": "DNP"
+      },
+      {
+        "Manufacturer Item Number": "276258",
+        "Manufacturer Name": "X7R0805HTTD103K",
+        "Manufacturer": "KOA SPEER",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": "DNP"
+      },
+      {
+        "Manufacturer Item Number": "287243",
+        "Manufacturer Name": "MCCE103K2NRTF",
+        "Manufacturer": "SMEC",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": "DNP"
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000011718",
+    "name": "150-75182",
+    "description": "CAP CER 0.1UF 16V 10% X7R 0402",
+    "quantity": "42",
+    "reference_designators": [
+      "C3",
+      "C4",
+      "C5",
+      "C7",
+      "C8",
+      "C9",
+      "C11",
+      "C12",
+      "C14",
+      "C15",
+      "C16",
+      "C18",
+      "C19",
+      "C20",
+      "C22",
+      "C23",
+      "C29",
+      "C30",
+      "C31",
+      "C32",
+      "C34",
+      "C36",
+      "C43",
+      "C44",
+      "C47",
+      "C51",
+      "C52",
+      "C53",
+      "C58",
+      "C76",
+      "C77",
+      "C79",
+      "C80",
+      "C81",
+      "C82",
+      "C85",
+      "C86",
+      "C88",
+      "C91",
+      "C94",
+      "C99",
+      "C106"
+    ],
+    "source_rows": [
+      222,
+      223,
+      224,
+      225,
+      226,
+      227,
+      228,
+      229,
+      230,
+      231,
+      232,
+      233,
+      234,
+      235
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "200378",
+        "Manufacturer Name": "0402B104K160NT",
+        "Manufacturer": "SKYMOS",
+        "Manufacturer Lifecycle": "Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": ""
+      },
+      {
+        "Manufacturer Item Number": "200383",
+        "Manufacturer Name": "0402B104K160NT",
+        "Manufacturer": "FENGHUA",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": ""
+      },
+      {
+        "Manufacturer Item Number": "200552",
+        "Manufacturer Name": "0402B104K160CT",
+        "Manufacturer": "WALSIN TECHNOLOGY CORP.",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "no MDS available",
+        "Preferred Status": "Alternate",
+        "BOM Notes": ""
+      },
+      {
+        "Manufacturer Item Number": "200597",
+        "Manufacturer Name": "0402YC104KAT2A",
+        "Manufacturer": "AVX",
+        "Manufacturer Lifecycle": "Active",
+        "Manufacturer Notes": "Invalid capacitance value",
+        "Preferred Status": "Preferred",
+        "BOM Notes": ""
+      },
+      {
+        "Manufacturer Item Number": "228739",
+        "Manufacturer Name": "C0402X7R160-104KNP",
+        "Manufacturer": "VENKEL COMPANY",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": ""
+      },
+      {
+        "Manufacturer Item Number": "230228",
+        "Manufacturer Name": "CL05B104KO5NNNC",
+        "Manufacturer": "Samsung Electro Mechanics",
+        "Manufacturer Lifecycle": "Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": ""
+      },
+      {
+        "Manufacturer Item Number": "232391",
+        "Manufacturer Name": "C0402X7R160-104KNE",
+        "Manufacturer": "VENKEL COMPANY",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": ""
+      },
+      {
+        "Manufacturer Item Number": "232724",
+        "Manufacturer Name": "C1005X7R1C104KT",
+        "Manufacturer": "TDK",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "Material Declaration is not available at this time.",
+        "Preferred Status": "Alternate",
+        "BOM Notes": ""
+      },
+      {
+        "Manufacturer Item Number": "239817",
+        "Manufacturer Name": "885012205037",
+        "Manufacturer": "WURTH ELEKTRONIK EISOS GMBH & CO. KG (ELECTRONIC & ELECTROMEHANICAL COMP)",
+        "Manufacturer Lifecycle": "Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": ""
+      },
+      {
+        "Manufacturer Item Number": "247300",
+        "Manufacturer Name": "GMC04X7R104K16NT-LF",
+        "Manufacturer": "CAL-CHIP",
+        "Manufacturer Lifecycle": "Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": ""
+      },
+      {
+        "Manufacturer Item Number": "250643",
+        "Manufacturer Name": "CC0402KRX7R7BB104",
+        "Manufacturer": "YAGEO AMERICA",
+        "Manufacturer Lifecycle": "Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": ""
+      },
+      {
+        "Manufacturer Item Number": "252230",
+        "Manufacturer Name": "C0402C104K4RAC",
+        "Manufacturer": "KEMET",
+        "Manufacturer Lifecycle": "Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": ""
+      },
+      {
+        "Manufacturer Item Number": "252311",
+        "Manufacturer Name": "C0402X7R160-104KSNE",
+        "Manufacturer": "VENKEL COMPANY",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": ""
+      },
+      {
+        "Manufacturer Item Number": "252638",
+        "Manufacturer Name": "C1005X7R1C104K050BC",
+        "Manufacturer": "TDK",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": ""
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000013589",
+    "name": "150-79711",
+    "description": "CAP CER 6.8uF 6.3V 10% X7S 0603",
+    "quantity": "1",
+    "reference_designators": [
+      "C27"
+    ],
+    "source_rows": [
+      236
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "250202",
+        "Manufacturer Name": "C1608X7S0J685K080AC",
+        "Manufacturer": "TDK",
+        "Manufacturer Lifecycle": "Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Preferred",
+        "BOM Notes": ""
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000025716",
+    "name": "180-75495",
+    "description": "IND FER BEAD 100 OHM@100MHZ 1A 25% 0603",
+    "quantity": "1",
+    "reference_designators": [
+      "L5"
+    ],
+    "source_rows": [
+      237
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "257530",
+        "Manufacturer Name": "MPZ1608D101B",
+        "Manufacturer": "TDK",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "no MDS available",
+        "Preferred Status": "Preferred",
+        "BOM Notes": ""
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000025788",
+    "name": "180-76336",
+    "description": "IND CHK 90 OHM@100MHZ 330MA 25% 0805",
+    "quantity": "1",
+    "reference_designators": [
+      "L13"
+    ],
+    "source_rows": [
+      238
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "241896",
+        "Manufacturer Name": "DLW21HN900SQ2L",
+        "Manufacturer": "MURATA",
+        "Manufacturer Lifecycle": "Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Preferred",
+        "BOM Notes": ""
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000026721",
+    "name": "180-78469",
+    "description": "IND FER BEAD 600OHM@100MHz 1A 25% 0603",
+    "quantity": "3",
+    "reference_designators": [
+      "L9",
+      "L10",
+      "L12"
+    ],
+    "source_rows": [
+      239
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "231044",
+        "Manufacturer Name": "742792651",
+        "Manufacturer": "WURTH ELEKTRONIK EISOS GMBH & CO. KG (ELECTRONIC & ELECTROMEHANICAL COMP)",
+        "Manufacturer Lifecycle": "Active",
+        "Manufacturer Notes": "Reflow Profiles 260 \u00b0C",
+        "Preferred Status": "Preferred",
+        "BOM Notes": ""
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000011341",
+    "name": "150-30004",
+    "description": "CAP CER 470pF 50V 5% C0G 0402",
+    "quantity": "1",
+    "reference_designators": [
+      "C48"
+    ],
+    "source_rows": [
+      240,
+      241
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "252280",
+        "Manufacturer Name": "C0402C471J5GACTU",
+        "Manufacturer": "KEMET",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Preferred",
+        "BOM Notes": ""
+      },
+      {
+        "Manufacturer Item Number": "272073",
+        "Manufacturer Name": "GRM1555C1H471JA01D",
+        "Manufacturer": "MURATA",
+        "Manufacturer Lifecycle": "Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": ""
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000047123",
+    "name": "210-80998",
+    "description": "CON 2X6 SKT RA TH 100MIL CTR 206H AU 124L",
+    "quantity": "0",
+    "reference_designators": [
+      "J7"
+    ],
+    "source_rows": [
+      242
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "291976",
+        "Manufacturer Name": "PPPC062LJBN-RC",
+        "Manufacturer": "SULLINS ELECTRONICS CORP",
+        "Manufacturer Lifecycle": "Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Preferred",
+        "BOM Notes": "DNP"
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000011422",
+    "name": "150-30114",
+    "description": "CAP CER 0.01UF 50V 10% X7R 0402",
+    "quantity": "0",
+    "reference_designators": [
+      "C67"
+    ],
+    "source_rows": [
+      243,
+      244,
+      245,
+      246,
+      247,
+      248,
+      249
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "200375",
+        "Manufacturer Name": "0402B103K500CT",
+        "Manufacturer": "WALSIN TECHNOLOGY CORP.",
+        "Manufacturer Lifecycle": "Active",
+        "Manufacturer Notes": "WFCR-0378",
+        "Preferred Status": "Alternate",
+        "BOM Notes": "DNP"
+      },
+      {
+        "Manufacturer Item Number": "200376",
+        "Manufacturer Name": "0402B103K500NT",
+        "Manufacturer": "SKYMOS",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "no MDS available",
+        "Preferred Status": "Alternate",
+        "BOM Notes": "DNP"
+      },
+      {
+        "Manufacturer Item Number": "232337",
+        "Manufacturer Name": "C0402C103K5RACTU",
+        "Manufacturer": "KEMET",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": "DNP"
+      },
+      {
+        "Manufacturer Item Number": "247699",
+        "Manufacturer Name": "GRM155R71H103KA88D",
+        "Manufacturer": "MURATA",
+        "Manufacturer Lifecycle": "Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": "DNP"
+      },
+      {
+        "Manufacturer Item Number": "249670",
+        "Manufacturer Name": "C0402X7R500-103KNE",
+        "Manufacturer": "VENKEL COMPANY",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": "DNP"
+      },
+      {
+        "Manufacturer Item Number": "252228",
+        "Manufacturer Name": "C0402C103K5RAC",
+        "Manufacturer": "KEMET",
+        "Manufacturer Lifecycle": "Active",
+        "Manufacturer Notes": "Material Declaration is not available at this time.",
+        "Preferred Status": "Preferred",
+        "BOM Notes": "DNP"
+      },
+      {
+        "Manufacturer Item Number": "254297",
+        "Manufacturer Name": "CL05B103KB5NNNC",
+        "Manufacturer": "SAMSUNG",
+        "Manufacturer Lifecycle": "Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": "DNP"
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000047747",
+    "name": "210-81776",
+    "description": "CON 2X10 SKT SHRD TH 100MIL CTR 345H AU 126L",
+    "quantity": "1",
+    "reference_designators": [
+      "J2"
+    ],
+    "source_rows": [
+      250
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "201303",
+        "Manufacturer Name": "08010S32011-29RF",
+        "Manufacturer": "ANYTRONIC CORPORATION LIMITED",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Preferred",
+        "BOM Notes": ""
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000049104",
+    "name": "210-83436",
+    "description": "CON 8 RJ-45 SHLD RA TH YG LEDS 40MIL SP 47H AU 79L",
+    "quantity": "1",
+    "reference_designators": [
+      "J16"
+    ],
+    "source_rows": [
+      251
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "312601",
+        "Manufacturer Name": "MJ88B-B011-RVL11-P",
+        "Manufacturer": "Donguan Heling Electronic Co., LTD",
+        "Manufacturer Lifecycle": "Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "",
+        "BOM Notes": ""
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000031864",
+    "name": "230-78677",
+    "description": "XTAL 24MHz 10ppm 8pF SMT",
+    "quantity": "1",
+    "reference_designators": [
+      "Y1"
+    ],
+    "source_rows": [
+      252
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "239437",
+        "Manufacturer Name": "830108212309",
+        "Manufacturer": "Wurth Electronik GmbH & Co. KG (PCB)",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Preferred",
+        "BOM Notes": ""
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000021066",
+    "name": "312-83484",
+    "description": "IC XCVR ETHERNET PHY MII/RMII 1.8-3.3V SQFN32",
+    "quantity": "1",
+    "reference_designators": [
+      "U9"
+    ],
+    "source_rows": [
+      253
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "280251",
+        "Manufacturer Name": "LAN8741A-EN",
+        "Manufacturer": "MICROCHIP TECHNOLOGY INC",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "8542.39.0001, EAR99",
+        "Preferred Status": "Preferred",
+        "BOM Notes": ""
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000031867",
+    "name": "230-78680",
+    "description": "XTAL 16MHz 20ppm 8pF SMT",
+    "quantity": "1",
+    "reference_designators": [
+      "Y4"
+    ],
+    "source_rows": [
+      254
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "241873",
+        "Manufacturer Name": "830064296",
+        "Manufacturer": "Wurth Electronik GmbH & Co. KG (PCB)",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Preferred",
+        "BOM Notes": ""
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000021243",
+    "name": "312-83689",
+    "description": "IC DIG TEMP SENSOR I3C/I2C 1.4-3.6V TSSOP8",
+    "quantity": "1",
+    "reference_designators": [
+      "U6"
+    ],
+    "source_rows": [
+      255
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "260338",
+        "Manufacturer Name": "P3T1755DPJ",
+        "Manufacturer": "NXP SEMICONDUCTOR",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Preferred",
+        "BOM Notes": ""
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000030333",
+    "name": "370-76900",
+    "description": "LED YEL-GRN SGL 25mA SMT 0402",
+    "quantity": "3",
+    "reference_designators": [
+      "D5",
+      "D10",
+      "D12"
+    ],
+    "source_rows": [
+      256
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "258666",
+        "Manufacturer Name": "MHT136CGCT",
+        "Manufacturer": "Lianyungang Meihua Electronics Technology Co.,Ltd",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Preferred",
+        "BOM Notes": ""
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000030375",
+    "name": "370-77428",
+    "description": "LED RED SGL 30mA 5V 0402",
+    "quantity": "2",
+    "reference_designators": [
+      "D1",
+      "D11"
+    ],
+    "source_rows": [
+      257
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "204352",
+        "Manufacturer Name": "150040SS73240",
+        "Manufacturer": "Wurth Electronik GmbH & Co. KG (PCB)",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Preferred",
+        "BOM Notes": ""
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000034747",
+    "name": "470-75790",
+    "description": "RES MF 33.0 OHM 1/16W 1% 0402",
+    "quantity": "6",
+    "reference_designators": [
+      "R70",
+      "R71",
+      "R75",
+      "R79",
+      "R80",
+      "R81"
+    ],
+    "source_rows": [
+      258,
+      259,
+      260,
+      261,
+      262
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "234375",
+        "Manufacturer Name": "CR-02FL6---33R",
+        "Manufacturer": "THYE MING TECH CO LTD",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "No MDS available per Mfg",
+        "Preferred Status": "Preferred",
+        "BOM Notes": ""
+      },
+      {
+        "Manufacturer Item Number": "253060",
+        "Manufacturer Name": "CR0402FX33R0GLF",
+        "Manufacturer": "BOURNS",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": ""
+      },
+      {
+        "Manufacturer Item Number": "254544",
+        "Manufacturer Name": "CRCW040233R0FKEDC",
+        "Manufacturer": "VISHAY",
+        "Manufacturer Lifecycle": "Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": ""
+      },
+      {
+        "Manufacturer Item Number": "292815",
+        "Manufacturer Name": "RC0402FR-0733RL",
+        "Manufacturer": "YAGEO AMERICA",
+        "Manufacturer Lifecycle": "Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": ""
+      },
+      {
+        "Manufacturer Item Number": "275642",
+        "Manufacturer Name": "WR04X33R0FTL",
+        "Manufacturer": "WALSIN TECHNOLOGY CORP.",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "no md available",
+        "Preferred Status": "Alternate",
+        "BOM Notes": ""
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000034942",
+    "name": "470-76098",
+    "description": "RES MF 12.1K 1/16W 1% 0402",
+    "quantity": "1",
+    "reference_designators": [
+      "R87"
+    ],
+    "source_rows": [
+      263
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "253038",
+        "Manufacturer Name": "CR0402-FX-1212GLF",
+        "Manufacturer": "BOURNS",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "RoHS Compliant reflow at 260*C",
+        "Preferred Status": "Preferred",
+        "BOM Notes": ""
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000044473",
+    "name": "510-78043",
+    "description": "CAPACITIVE SINGLE ELECTRODE 8MM SQUARE ROUNDED CORNERS, NO PART TO ORDER",
+    "quantity": "1",
+    "reference_designators": [
+      "E1"
+    ],
+    "source_rows": [
+      264
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "",
+        "Manufacturer Name": "",
+        "Manufacturer": "",
+        "Manufacturer Lifecycle": "",
+        "Manufacturer Notes": "",
+        "Preferred Status": "",
+        "BOM Notes": ""
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000051783",
+    "name": "560-77654",
+    "description": "XFMR LAN 10/100BASE-TX 1CT:1CT SMT",
+    "quantity": "1",
+    "reference_designators": [
+      "T1"
+    ],
+    "source_rows": [
+      265
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "263182",
+        "Manufacturer Name": "PT61018PEL",
+        "Manufacturer": "BOURNS",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Preferred",
+        "BOM Notes": ""
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000045866",
+    "name": "210-78429",
+    "description": "HDR 2X2 TH 100MIL CTR 340H SN 105L",
+    "quantity": "1",
+    "reference_designators": [
+      "J10"
+    ],
+    "source_rows": [
+      266,
+      267
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "212042",
+        "Manufacturer Name": "210-92-02GB01",
+        "Manufacturer": "Pinrex Enterprise Co., Ltd",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "no md available",
+        "Preferred Status": "Alternate",
+        "BOM Notes": ""
+      },
+      {
+        "Manufacturer Item Number": "221276",
+        "Manufacturer Name": "5-146258-2",
+        "Manufacturer": "TYCO ELECTRONICS",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Preferred",
+        "BOM Notes": ""
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000013545",
+    "name": "150-79665",
+    "description": "CAP CER 2.2UF 10V 20% X5R 0402",
+    "quantity": "1",
+    "reference_designators": [
+      "C24"
+    ],
+    "source_rows": [
+      268,
+      269,
+      270
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "223744",
+        "Manufacturer Name": "885012105013",
+        "Manufacturer": "WURTH ELEKTRONIK EISOS GMBH & CO. KG (ELECTRONIC & ELECTROMEHANICAL COMP)",
+        "Manufacturer Lifecycle": "Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": ""
+      },
+      {
+        "Manufacturer Item Number": "247678",
+        "Manufacturer Name": "GRM155R61A225ME01D",
+        "Manufacturer": "MURATA",
+        "Manufacturer Lifecycle": "Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Preferred",
+        "BOM Notes": ""
+      },
+      {
+        "Manufacturer Item Number": "249595",
+        "Manufacturer Name": "C0402C225M8PACTU",
+        "Manufacturer": "KEMET",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": ""
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000034591",
+    "name": "470-75494",
+    "description": "RES MF 1.0M 1/8W 5% 0805",
+    "quantity": "1",
+    "reference_designators": [
+      "R82"
+    ],
+    "source_rows": [
+      271,
+      272,
+      273,
+      274,
+      275,
+      276,
+      277
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "201465",
+        "Manufacturer Name": "0805105J",
+        "Manufacturer": "LIKET CORPORATION",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "no md available",
+        "Preferred Status": "Alternate",
+        "BOM Notes": ""
+      },
+      {
+        "Manufacturer Item Number": "231273",
+        "Manufacturer Name": "CR0805-8W-105JT",
+        "Manufacturer": "VENKEL COMPANY",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": ""
+      },
+      {
+        "Manufacturer Item Number": "235202",
+        "Manufacturer Name": "CR0805-JW-105ELF",
+        "Manufacturer": "BOURNS",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Preferred",
+        "BOM Notes": ""
+      },
+      {
+        "Manufacturer Item Number": "237034",
+        "Manufacturer Name": "CRCW08051M00JNEA",
+        "Manufacturer": "VISHAY INTERTECHNOLOGY",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": ""
+      },
+      {
+        "Manufacturer Item Number": "269512",
+        "Manufacturer Name": "RC0805JR-071ML",
+        "Manufacturer": "YAGEO AMERICA",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": ""
+      },
+      {
+        "Manufacturer Item Number": "293168",
+        "Manufacturer Name": "RC73L2D105JTF",
+        "Manufacturer": "SMEC",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": ""
+      },
+      {
+        "Manufacturer Item Number": "295413",
+        "Manufacturer Name": "RK73B2ATTD105J",
+        "Manufacturer": "KOA SPEER",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": ""
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000011718",
+    "name": "150-75182",
+    "description": "CAP CER 0.1UF 16V 10% X7R 0402",
+    "quantity": "0",
+    "reference_designators": [
+      "C107"
+    ],
+    "source_rows": [
+      278,
+      279,
+      280,
+      281,
+      282,
+      283,
+      284,
+      285,
+      286,
+      287,
+      288,
+      289,
+      290,
+      291
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "200378",
+        "Manufacturer Name": "0402B104K160NT",
+        "Manufacturer": "SKYMOS",
+        "Manufacturer Lifecycle": "Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": "DNP"
+      },
+      {
+        "Manufacturer Item Number": "200383",
+        "Manufacturer Name": "0402B104K160NT",
+        "Manufacturer": "FENGHUA",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": "DNP"
+      },
+      {
+        "Manufacturer Item Number": "200552",
+        "Manufacturer Name": "0402B104K160CT",
+        "Manufacturer": "WALSIN TECHNOLOGY CORP.",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "no MDS available",
+        "Preferred Status": "Alternate",
+        "BOM Notes": "DNP"
+      },
+      {
+        "Manufacturer Item Number": "200597",
+        "Manufacturer Name": "0402YC104KAT2A",
+        "Manufacturer": "AVX",
+        "Manufacturer Lifecycle": "Active",
+        "Manufacturer Notes": "Invalid capacitance value",
+        "Preferred Status": "Preferred",
+        "BOM Notes": "DNP"
+      },
+      {
+        "Manufacturer Item Number": "228739",
+        "Manufacturer Name": "C0402X7R160-104KNP",
+        "Manufacturer": "VENKEL COMPANY",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": "DNP"
+      },
+      {
+        "Manufacturer Item Number": "230228",
+        "Manufacturer Name": "CL05B104KO5NNNC",
+        "Manufacturer": "Samsung Electro Mechanics",
+        "Manufacturer Lifecycle": "Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": "DNP"
+      },
+      {
+        "Manufacturer Item Number": "232391",
+        "Manufacturer Name": "C0402X7R160-104KNE",
+        "Manufacturer": "VENKEL COMPANY",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": "DNP"
+      },
+      {
+        "Manufacturer Item Number": "232724",
+        "Manufacturer Name": "C1005X7R1C104KT",
+        "Manufacturer": "TDK",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "Material Declaration is not available at this time.",
+        "Preferred Status": "Alternate",
+        "BOM Notes": "DNP"
+      },
+      {
+        "Manufacturer Item Number": "239817",
+        "Manufacturer Name": "885012205037",
+        "Manufacturer": "WURTH ELEKTRONIK EISOS GMBH & CO. KG (ELECTRONIC & ELECTROMEHANICAL COMP)",
+        "Manufacturer Lifecycle": "Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": "DNP"
+      },
+      {
+        "Manufacturer Item Number": "247300",
+        "Manufacturer Name": "GMC04X7R104K16NT-LF",
+        "Manufacturer": "CAL-CHIP",
+        "Manufacturer Lifecycle": "Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": "DNP"
+      },
+      {
+        "Manufacturer Item Number": "250643",
+        "Manufacturer Name": "CC0402KRX7R7BB104",
+        "Manufacturer": "YAGEO AMERICA",
+        "Manufacturer Lifecycle": "Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": "DNP"
+      },
+      {
+        "Manufacturer Item Number": "252230",
+        "Manufacturer Name": "C0402C104K4RAC",
+        "Manufacturer": "KEMET",
+        "Manufacturer Lifecycle": "Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": "DNP"
+      },
+      {
+        "Manufacturer Item Number": "252311",
+        "Manufacturer Name": "C0402X7R160-104KSNE",
+        "Manufacturer": "VENKEL COMPANY",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": "DNP"
+      },
+      {
+        "Manufacturer Item Number": "252638",
+        "Manufacturer Name": "C1005X7R1C104K050BC",
+        "Manufacturer": "TDK",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": "DNP"
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000034943",
+    "name": "470-76103",
+    "description": "RES MF 20K 1/16W 1% 0402",
+    "quantity": "0",
+    "reference_designators": [
+      "R29"
+    ],
+    "source_rows": [
+      292,
+      293
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "275636",
+        "Manufacturer Name": "WR04X2002FTL",
+        "Manufacturer": "WALSIN TECHNOLOGY CORP.",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Preferred",
+        "BOM Notes": "DNP"
+      },
+      {
+        "Manufacturer Item Number": "292793",
+        "Manufacturer Name": "RC0402FR-0720KL",
+        "Manufacturer": "YAGEO AMERICA",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": "DNP"
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000034560",
+    "name": "470-75442",
+    "description": "RES MF ZERO OHM 1/8W -- 0805",
+    "quantity": "2",
+    "reference_designators": [
+      "R192",
+      "R193"
+    ],
+    "source_rows": [
+      294,
+      295,
+      296,
+      297,
+      298,
+      299
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "230864",
+        "Manufacturer Name": "CR-05JL7----0R",
+        "Manufacturer": "TMTEC",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": ""
+      },
+      {
+        "Manufacturer Item Number": "231458",
+        "Manufacturer Name": "CR0805-J/-000ELF",
+        "Manufacturer": "BOURNS",
+        "Manufacturer Lifecycle": "Active",
+        "Manufacturer Notes": "ROHS COMPLIANT",
+        "Preferred Status": "Alternate",
+        "BOM Notes": ""
+      },
+      {
+        "Manufacturer Item Number": "237758",
+        "Manufacturer Name": "ERJ6GEY0R00V",
+        "Manufacturer": "PANASONIC",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": ""
+      },
+      {
+        "Manufacturer Item Number": "253503",
+        "Manufacturer Name": "CR0805-8W-000T",
+        "Manufacturer": "VENKEL COMPANY",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": ""
+      },
+      {
+        "Manufacturer Item Number": "269503",
+        "Manufacturer Name": "RC0805JR-070RL",
+        "Manufacturer": "YAGEO AMERICA",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "ROHSC COMPLIANT",
+        "Preferred Status": "Preferred",
+        "BOM Notes": ""
+      },
+      {
+        "Manufacturer Item Number": "264255",
+        "Manufacturer Name": "RC73JP2DTF",
+        "Manufacturer": "SMEC",
+        "Manufacturer Lifecycle": "ROHS Active",
+        "Manufacturer Notes": "",
+        "Preferred Status": "Alternate",
+        "BOM Notes": ""
+      }
+    ]
+  },
+  {
+    "level": "4",
+    "item_number": "745000392341",
+    "name": "211-10066",
+    "description": "TEST POINT PAD 32MIL DIA SMT, NO PART TO ORDER",
+    "quantity": "12",
+    "reference_designators": [
+      "TP1",
+      "TP32",
+      "TP33",
+      "TP34",
+      "TP36",
+      "TP37",
+      "TP38",
+      "TP43",
+      "TP44",
+      "TP45",
+      "TP46",
+      "TP47"
+    ],
+    "source_rows": [
+      300
+    ],
+    "manufacturer_alternatives": [
+      {
+        "Manufacturer Item Number": "",
+        "Manufacturer Name": "",
+        "Manufacturer": "",
+        "Manufacturer Lifecycle": "",
+        "Manufacturer Notes": "",
+        "Preferred Status": "",
+        "BOM Notes": ""
+      }
+    ]
+  }
+]

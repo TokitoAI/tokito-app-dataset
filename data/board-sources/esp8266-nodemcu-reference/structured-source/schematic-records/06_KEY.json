@@ -1,0 +1,2725 @@
+[
+  {
+    "stream_record_index": 0,
+    "fields": {
+      "HEADER": "Protel for Windows - Schematic Capture Binary File Version 5.0",
+      "WEIGHT": "172",
+      "MINORVERSION": "2",
+      "UNIQUEID": "PJRMAGHV"
+    }
+  },
+  {
+    "stream_record_index": 1,
+    "fields": {
+      "RECORD": "31",
+      "FONTIDCOUNT": "8",
+      "SIZE1": "10",
+      "FONTNAME1": "Times New Roman",
+      "SIZE2": "10",
+      "ROTATION2": "90",
+      "FONTNAME2": "Times New Roman",
+      "SIZE3": "10",
+      "UNDERLINE3": "T",
+      "FONTNAME3": "Times New Roman",
+      "SIZE4": "10",
+      "ROTATION4": "270",
+      "FONTNAME4": "Times New Roman",
+      "SIZE5": "36",
+      "FONTNAME5": "Times New Roman",
+      "SIZE6": "15",
+      "BOLD6": "T",
+      "FONTNAME6": "Times New Roman",
+      "SIZE7": "15",
+      "ITALIC7": "T",
+      "FONTNAME7": "Times New Roman",
+      "SIZE8": "12",
+      "ITALIC8": "T",
+      "FONTNAME8": "Times New Roman",
+      "USEMBCS": "T",
+      "ISBOC": "T",
+      "HOTSPOTGRIDON": "T",
+      "HOTSPOTGRIDSIZE": "4",
+      "SYSTEMFONT": "1",
+      "BORDERON": "T",
+      "SHEETNUMBERSPACESIZE": "4",
+      "AREACOLOR": "16317695",
+      "SNAPGRIDON": "T",
+      "SNAPGRIDSIZE": "10",
+      "VISIBLEGRIDON": "T",
+      "VISIBLEGRIDSIZE": "10",
+      "CUSTOMX": "1500",
+      "CUSTOMY": "950",
+      "CUSTOMXZONES": "6",
+      "CUSTOMYZONES": "4",
+      "CUSTOMMARGINWIDTH": "20",
+      "SHOWTEMPLATEGRAPHICS": "T",
+      "DISPLAY_UNIT": "4"
+    }
+  },
+  {
+    "stream_record_index": 2,
+    "fields": {
+      "RECORD": "41",
+      "OWNERPARTID": "-1",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "ISHIDDEN": "T",
+      "TEXT": "*",
+      "NAME": "CurrentTime",
+      "READONLYSTATE": "1",
+      "UNIQUEID": "BSQOEUMU"
+    }
+  },
+  {
+    "stream_record_index": 3,
+    "fields": {
+      "RECORD": "41",
+      "INDEXINSHEET": "1",
+      "OWNERPARTID": "-1",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "ISHIDDEN": "T",
+      "TEXT": "*",
+      "NAME": "CurrentDate",
+      "READONLYSTATE": "1",
+      "UNIQUEID": "JTUKLLIA"
+    }
+  },
+  {
+    "stream_record_index": 4,
+    "fields": {
+      "RECORD": "41",
+      "INDEXINSHEET": "2",
+      "OWNERPARTID": "-1",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "ISHIDDEN": "T",
+      "TEXT": "*",
+      "NAME": "Time",
+      "READONLYSTATE": "1",
+      "UNIQUEID": "KGNOPYIP"
+    }
+  },
+  {
+    "stream_record_index": 5,
+    "fields": {
+      "RECORD": "41",
+      "INDEXINSHEET": "3",
+      "OWNERPARTID": "-1",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "ISHIDDEN": "T",
+      "TEXT": "20/11/2014",
+      "NAME": "Date",
+      "READONLYSTATE": "1",
+      "UNIQUEID": "FEKVTURX"
+    }
+  },
+  {
+    "stream_record_index": 6,
+    "fields": {
+      "RECORD": "41",
+      "INDEXINSHEET": "4",
+      "OWNERPARTID": "-1",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "ISHIDDEN": "T",
+      "TEXT": "*",
+      "NAME": "DocumentFullPathAndName",
+      "READONLYSTATE": "1",
+      "UNIQUEID": "UCDTWTVE"
+    }
+  },
+  {
+    "stream_record_index": 7,
+    "fields": {
+      "RECORD": "41",
+      "INDEXINSHEET": "5",
+      "OWNERPARTID": "-1",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "ISHIDDEN": "T",
+      "TEXT": "*",
+      "NAME": "DocumentName",
+      "READONLYSTATE": "1",
+      "UNIQUEID": "LPEBSDXW"
+    }
+  },
+  {
+    "stream_record_index": 8,
+    "fields": {
+      "RECORD": "41",
+      "INDEXINSHEET": "6",
+      "OWNERPARTID": "-1",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "ISHIDDEN": "T",
+      "TEXT": "*",
+      "NAME": "ModifiedDate",
+      "READONLYSTATE": "1",
+      "UNIQUEID": "XOOAGFEB"
+    }
+  },
+  {
+    "stream_record_index": 9,
+    "fields": {
+      "RECORD": "41",
+      "INDEXINSHEET": "7",
+      "OWNERPARTID": "-1",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "ISHIDDEN": "T",
+      "TEXT": "*",
+      "NAME": "ApprovedBy",
+      "READONLYSTATE": "1",
+      "UNIQUEID": "KQKDDRCP"
+    }
+  },
+  {
+    "stream_record_index": 10,
+    "fields": {
+      "RECORD": "41",
+      "INDEXINSHEET": "8",
+      "OWNERPARTID": "-1",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "ISHIDDEN": "T",
+      "TEXT": "*",
+      "NAME": "CheckedBy",
+      "READONLYSTATE": "1",
+      "UNIQUEID": "HSGOWIIK"
+    }
+  },
+  {
+    "stream_record_index": 11,
+    "fields": {
+      "RECORD": "41",
+      "INDEXINSHEET": "9",
+      "OWNERPARTID": "-1",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "ISHIDDEN": "T",
+      "TEXT": "HuangRui <vowstar@gmail.com>",
+      "NAME": "Author",
+      "READONLYSTATE": "1",
+      "UNIQUEID": "WQBYBLRH"
+    }
+  },
+  {
+    "stream_record_index": 12,
+    "fields": {
+      "RECORD": "41",
+      "INDEXINSHEET": "10",
+      "OWNERPARTID": "-1",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "ISHIDDEN": "T",
+      "TEXT": "*",
+      "NAME": "CompanyName",
+      "READONLYSTATE": "1",
+      "UNIQUEID": "URJBTUKU"
+    }
+  },
+  {
+    "stream_record_index": 13,
+    "fields": {
+      "RECORD": "41",
+      "INDEXINSHEET": "11",
+      "OWNERPARTID": "-1",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "ISHIDDEN": "T",
+      "TEXT": "JiYaping <jyp1817@gmail.com>",
+      "NAME": "DrawnBy",
+      "READONLYSTATE": "1",
+      "UNIQUEID": "BKVISYXP"
+    }
+  },
+  {
+    "stream_record_index": 14,
+    "fields": {
+      "RECORD": "41",
+      "INDEXINSHEET": "12",
+      "OWNERPARTID": "-1",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "ISHIDDEN": "T",
+      "TEXT": "*",
+      "NAME": "Engineer",
+      "READONLYSTATE": "1",
+      "UNIQUEID": "KGXGHKUG"
+    }
+  },
+  {
+    "stream_record_index": 15,
+    "fields": {
+      "RECORD": "41",
+      "INDEXINSHEET": "13",
+      "OWNERPARTID": "-1",
+      "COLOR": "8388608",
+      "FONTID": "3",
+      "ISHIDDEN": "T",
+      "TEXT": "WWW.NODEMCU.COM",
+      "NAME": "Organization",
+      "READONLYSTATE": "1",
+      "UNIQUEID": "YMJSCIXP"
+    }
+  },
+  {
+    "stream_record_index": 16,
+    "fields": {
+      "RECORD": "41",
+      "INDEXINSHEET": "14",
+      "OWNERPARTID": "-1",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "ISHIDDEN": "T",
+      "TEXT": "*",
+      "NAME": "Address1",
+      "READONLYSTATE": "1",
+      "UNIQUEID": "ACBIVKIA"
+    }
+  },
+  {
+    "stream_record_index": 17,
+    "fields": {
+      "RECORD": "41",
+      "INDEXINSHEET": "15",
+      "OWNERPARTID": "-1",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "ISHIDDEN": "T",
+      "TEXT": "*",
+      "NAME": "Address2",
+      "READONLYSTATE": "1",
+      "UNIQUEID": "IRJHNYVO"
+    }
+  },
+  {
+    "stream_record_index": 18,
+    "fields": {
+      "RECORD": "41",
+      "INDEXINSHEET": "16",
+      "OWNERPARTID": "-1",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "ISHIDDEN": "T",
+      "TEXT": "*",
+      "NAME": "Address3",
+      "READONLYSTATE": "1",
+      "UNIQUEID": "UKXNSYNP"
+    }
+  },
+  {
+    "stream_record_index": 19,
+    "fields": {
+      "RECORD": "41",
+      "INDEXINSHEET": "17",
+      "OWNERPARTID": "-1",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "ISHIDDEN": "T",
+      "TEXT": "*",
+      "NAME": "Address4",
+      "READONLYSTATE": "1",
+      "UNIQUEID": "FJBWOABB"
+    }
+  },
+  {
+    "stream_record_index": 20,
+    "fields": {
+      "RECORD": "41",
+      "INDEXINSHEET": "18",
+      "OWNERPARTID": "-1",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "ISHIDDEN": "T",
+      "TEXT": "KEY",
+      "NAME": "Title",
+      "READONLYSTATE": "1",
+      "UNIQUEID": "JHJFRQSW"
+    }
+  },
+  {
+    "stream_record_index": 21,
+    "fields": {
+      "RECORD": "41",
+      "INDEXINSHEET": "19",
+      "OWNERPARTID": "-1",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "ISHIDDEN": "T",
+      "TEXT": "*",
+      "NAME": "DocumentNumber",
+      "READONLYSTATE": "1",
+      "UNIQUEID": "SEYUPMKT"
+    }
+  },
+  {
+    "stream_record_index": 22,
+    "fields": {
+      "RECORD": "41",
+      "INDEXINSHEET": "20",
+      "OWNERPARTID": "-1",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "ISHIDDEN": "T",
+      "TEXT": "*",
+      "NAME": "Revision",
+      "READONLYSTATE": "1",
+      "UNIQUEID": "ADPSOTHR"
+    }
+  },
+  {
+    "stream_record_index": 23,
+    "fields": {
+      "RECORD": "41",
+      "INDEXINSHEET": "21",
+      "OWNERPARTID": "-1",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "ISHIDDEN": "T",
+      "TEXT": "*",
+      "NAME": "SheetNumber",
+      "READONLYSTATE": "1",
+      "UNIQUEID": "OEKALEJO"
+    }
+  },
+  {
+    "stream_record_index": 24,
+    "fields": {
+      "RECORD": "41",
+      "INDEXINSHEET": "22",
+      "OWNERPARTID": "-1",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "ISHIDDEN": "T",
+      "TEXT": "*",
+      "NAME": "SheetTotal",
+      "READONLYSTATE": "1",
+      "UNIQUEID": "PCTLDXVB"
+    }
+  },
+  {
+    "stream_record_index": 25,
+    "fields": {
+      "RECORD": "41",
+      "INDEXINSHEET": "23",
+      "OWNERPARTID": "-1",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "ISHIDDEN": "T",
+      "TEXT": "*",
+      "NAME": "Rule",
+      "READONLYSTATE": "1",
+      "UNIQUEID": "AJQTEQFI"
+    }
+  },
+  {
+    "stream_record_index": 26,
+    "fields": {
+      "RECORD": "41",
+      "INDEXINSHEET": "24",
+      "OWNERPARTID": "-1",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "ISHIDDEN": "T",
+      "TEXT": "*",
+      "NAME": "ImagePath",
+      "READONLYSTATE": "1",
+      "UNIQUEID": "ILAPQLIY"
+    }
+  },
+  {
+    "stream_record_index": 27,
+    "fields": {
+      "RECORD": "41",
+      "INDEXINSHEET": "25",
+      "OWNERPARTID": "-1",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "ISHIDDEN": "T",
+      "TEXT": "*",
+      "NAME": "ProjectName",
+      "READONLYSTATE": "1",
+      "UNIQUEID": "GJXUQYEW"
+    }
+  },
+  {
+    "stream_record_index": 28,
+    "fields": {
+      "RECORD": "4",
+      "INDEXINSHEET": "26",
+      "OWNERPARTID": "-1",
+      "LOCATION.X": "50",
+      "LOCATION.Y": "690",
+      "COLOR": "8388608",
+      "FONTID": "5",
+      "TEXT": "=Title"
+    }
+  },
+  {
+    "stream_record_index": 29,
+    "fields": {
+      "RECORD": "25",
+      "INDEXINSHEET": "27",
+      "OWNERPARTID": "-1",
+      "LOCATION.X": "200",
+      "LOCATION.Y": "540",
+      "COLOR": "128",
+      "FONTID": "1",
+      "TEXT": "GPIO16",
+      "UNIQUEID": "NAKHKFJN"
+    }
+  },
+  {
+    "stream_record_index": 30,
+    "fields": {
+      "RECORD": "1",
+      "LIBREFERENCE": "SMT_R_0402",
+      "COMPONENTDESCRIPTION": "Surface mount resistor 0402",
+      "PARTCOUNT": "2",
+      "DISPLAYMODECOUNT": "1",
+      "INDEXINSHEET": "28",
+      "OWNERPARTID": "-1",
+      "LOCATION.X": "240",
+      "LOCATION.Y": "610",
+      "ORIENTATION": "1",
+      "CURRENTPARTID": "1",
+      "LIBRARYPATH": "*",
+      "SOURCELIBRARYNAME": "Vowstar_Basic_Device.IntLib",
+      "TARGETFILENAME": "*",
+      "UNIQUEID": "HRTYWEWD",
+      "AREACOLOR": "11599871",
+      "COLOR": "128",
+      "PARTIDLOCKED": "F",
+      "DESIGNITEMID": "SMT_R_0402"
+    }
+  },
+  {
+    "stream_record_index": 31,
+    "fields": {
+      "RECORD": "2",
+      "OWNERINDEX": "29",
+      "OWNERPARTID": "1",
+      "FORMALTYPE": "1",
+      "ELECTRICAL": "4",
+      "PINCONGLOMERATE": "35",
+      "PINLENGTH": "10",
+      "LOCATION.X": "240",
+      "LOCATION.Y": "600",
+      "NAME": "1",
+      "DESIGNATOR": "1",
+      "SWAPIDPIN": "1"
+    }
+  },
+  {
+    "stream_record_index": 32,
+    "fields": {
+      "RECORD": "41",
+      "OWNERINDEX": "30",
+      "OWNERPARTID": "-1",
+      "LOCATION.X": "240",
+      "LOCATION.Y": "600",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "ISHIDDEN": "T",
+      "TEXT": "IYHXMAGF",
+      "NAME": "PinUniqueId",
+      "UNIQUEID": "VPANEPIJ"
+    }
+  },
+  {
+    "stream_record_index": 33,
+    "fields": {
+      "RECORD": "2",
+      "OWNERINDEX": "29",
+      "OWNERPARTID": "1",
+      "FORMALTYPE": "1",
+      "ELECTRICAL": "4",
+      "PINCONGLOMERATE": "33",
+      "PINLENGTH": "10",
+      "LOCATION.X": "240",
+      "LOCATION.Y": "620",
+      "NAME": "2",
+      "DESIGNATOR": "2",
+      "SWAPIDPIN": "2"
+    }
+  },
+  {
+    "stream_record_index": 34,
+    "fields": {
+      "RECORD": "41",
+      "OWNERINDEX": "32",
+      "OWNERPARTID": "-1",
+      "LOCATION.X": "240",
+      "LOCATION.Y": "620",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "ISHIDDEN": "T",
+      "TEXT": "EGOGOWCB",
+      "NAME": "PinUniqueId",
+      "UNIQUEID": "PBRFNQKY"
+    }
+  },
+  {
+    "stream_record_index": 35,
+    "fields": {
+      "RECORD": "13",
+      "OWNERINDEX": "29",
+      "ISNOTACCESIBLE": "T",
+      "INDEXINSHEET": "2",
+      "OWNERPARTID": "1",
+      "LOCATION.X": "237",
+      "LOCATION.Y": "620",
+      "CORNER.X": "243",
+      "CORNER.Y": "620",
+      "LINEWIDTH": "1",
+      "COLOR": "16711680"
+    }
+  },
+  {
+    "stream_record_index": 36,
+    "fields": {
+      "RECORD": "13",
+      "OWNERINDEX": "29",
+      "ISNOTACCESIBLE": "T",
+      "INDEXINSHEET": "3",
+      "OWNERPARTID": "1",
+      "LOCATION.X": "237",
+      "LOCATION.Y": "600",
+      "CORNER.X": "243",
+      "CORNER.Y": "600",
+      "LINEWIDTH": "1",
+      "COLOR": "16711680"
+    }
+  },
+  {
+    "stream_record_index": 37,
+    "fields": {
+      "RECORD": "13",
+      "OWNERINDEX": "29",
+      "ISNOTACCESIBLE": "T",
+      "INDEXINSHEET": "4",
+      "OWNERPARTID": "1",
+      "LOCATION.X": "243",
+      "LOCATION.Y": "600",
+      "CORNER.X": "243",
+      "CORNER.Y": "620",
+      "LINEWIDTH": "1",
+      "COLOR": "16711680"
+    }
+  },
+  {
+    "stream_record_index": 38,
+    "fields": {
+      "RECORD": "13",
+      "OWNERINDEX": "29",
+      "ISNOTACCESIBLE": "T",
+      "INDEXINSHEET": "5",
+      "OWNERPARTID": "1",
+      "LOCATION.X": "237",
+      "LOCATION.Y": "600",
+      "CORNER.X": "237",
+      "CORNER.Y": "620",
+      "LINEWIDTH": "1",
+      "COLOR": "16711680"
+    }
+  },
+  {
+    "stream_record_index": 39,
+    "fields": {
+      "RECORD": "34",
+      "OWNERINDEX": "29",
+      "INDEXINSHEET": "-1",
+      "OWNERPARTID": "-1",
+      "LOCATION.X": "244",
+      "LOCATION.Y": "611",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "TEXT": "R9",
+      "NAME": "Designator",
+      "READONLYSTATE": "1"
+    }
+  },
+  {
+    "stream_record_index": 40,
+    "fields": {
+      "RECORD": "41",
+      "OWNERINDEX": "29",
+      "INDEXINSHEET": "-1",
+      "OWNERPARTID": "-1",
+      "LOCATION.X": "244",
+      "LOCATION.Y": "601",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "TEXT": "470",
+      "NAME": "Comment",
+      "READONLYSTATE": "1",
+      "UNIQUEID": "NGTFS"
+    }
+  },
+  {
+    "stream_record_index": 41,
+    "fields": {
+      "RECORD": "44",
+      "OWNERINDEX": "29"
+    }
+  },
+  {
+    "stream_record_index": 42,
+    "fields": {
+      "RECORD": "45",
+      "OWNERINDEX": "40",
+      "INDEXINSHEET": "-1",
+      "DESCRIPTION": "Surface mount resistor 0402",
+      "USECOMPONENTLIBRARY": "T",
+      "MODELNAME": "SMT_R_0402",
+      "MODELTYPE": "PCBLIB",
+      "DATAFILECOUNT": "1",
+      "MODELDATAFILEENTITY0": "SMT_R_0402",
+      "MODELDATAFILEKIND0": "PCBLib",
+      "ISCURRENT": "T",
+      "DATALINKSLOCKED": "T",
+      "DATABASEDATALINKSLOCKED": "T",
+      "INTEGRATEDMODEL": "T",
+      "DATABASEMODEL": "T",
+      "UNIQUEID": "SCDYMSUL"
+    }
+  },
+  {
+    "stream_record_index": 43,
+    "fields": {
+      "RECORD": "46",
+      "OWNERINDEX": "41"
+    }
+  },
+  {
+    "stream_record_index": 44,
+    "fields": {
+      "RECORD": "48",
+      "OWNERINDEX": "41"
+    }
+  },
+  {
+    "stream_record_index": 45,
+    "fields": {
+      "RECORD": "1",
+      "LIBREFERENCE": "SMT_R_0402",
+      "COMPONENTDESCRIPTION": "Surface mount resistor 0402",
+      "PARTCOUNT": "2",
+      "DISPLAYMODECOUNT": "1",
+      "INDEXINSHEET": "29",
+      "OWNERPARTID": "-1",
+      "LOCATION.X": "240",
+      "LOCATION.Y": "520",
+      "ORIENTATION": "1",
+      "CURRENTPARTID": "1",
+      "LIBRARYPATH": "*",
+      "SOURCELIBRARYNAME": "Vowstar_Basic_Device.IntLib",
+      "TARGETFILENAME": "*",
+      "UNIQUEID": "XSUSHEEY",
+      "AREACOLOR": "11599871",
+      "COLOR": "128",
+      "PARTIDLOCKED": "F",
+      "DESIGNITEMID": "SMT_R_0402"
+    }
+  },
+  {
+    "stream_record_index": 46,
+    "fields": {
+      "RECORD": "2",
+      "OWNERINDEX": "44",
+      "OWNERPARTID": "1",
+      "FORMALTYPE": "1",
+      "ELECTRICAL": "4",
+      "PINCONGLOMERATE": "35",
+      "PINLENGTH": "10",
+      "LOCATION.X": "240",
+      "LOCATION.Y": "510",
+      "NAME": "1",
+      "DESIGNATOR": "1",
+      "SWAPIDPIN": "1"
+    }
+  },
+  {
+    "stream_record_index": 47,
+    "fields": {
+      "RECORD": "41",
+      "OWNERINDEX": "45",
+      "OWNERPARTID": "-1",
+      "LOCATION.X": "240",
+      "LOCATION.Y": "510",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "ISHIDDEN": "T",
+      "TEXT": "MPGBKSEO",
+      "NAME": "PinUniqueId",
+      "UNIQUEID": "BLYRAHBK"
+    }
+  },
+  {
+    "stream_record_index": 48,
+    "fields": {
+      "RECORD": "2",
+      "OWNERINDEX": "44",
+      "OWNERPARTID": "1",
+      "FORMALTYPE": "1",
+      "ELECTRICAL": "4",
+      "PINCONGLOMERATE": "33",
+      "PINLENGTH": "10",
+      "LOCATION.X": "240",
+      "LOCATION.Y": "530",
+      "NAME": "2",
+      "DESIGNATOR": "2",
+      "SWAPIDPIN": "2"
+    }
+  },
+  {
+    "stream_record_index": 49,
+    "fields": {
+      "RECORD": "41",
+      "OWNERINDEX": "47",
+      "OWNERPARTID": "-1",
+      "LOCATION.X": "240",
+      "LOCATION.Y": "530",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "ISHIDDEN": "T",
+      "TEXT": "ERFKLQFN",
+      "NAME": "PinUniqueId",
+      "UNIQUEID": "PEALWQKW"
+    }
+  },
+  {
+    "stream_record_index": 50,
+    "fields": {
+      "RECORD": "13",
+      "OWNERINDEX": "44",
+      "ISNOTACCESIBLE": "T",
+      "INDEXINSHEET": "2",
+      "OWNERPARTID": "1",
+      "LOCATION.X": "237",
+      "LOCATION.Y": "530",
+      "CORNER.X": "243",
+      "CORNER.Y": "530",
+      "LINEWIDTH": "1",
+      "COLOR": "16711680"
+    }
+  },
+  {
+    "stream_record_index": 51,
+    "fields": {
+      "RECORD": "13",
+      "OWNERINDEX": "44",
+      "ISNOTACCESIBLE": "T",
+      "INDEXINSHEET": "3",
+      "OWNERPARTID": "1",
+      "LOCATION.X": "237",
+      "LOCATION.Y": "510",
+      "CORNER.X": "243",
+      "CORNER.Y": "510",
+      "LINEWIDTH": "1",
+      "COLOR": "16711680"
+    }
+  },
+  {
+    "stream_record_index": 52,
+    "fields": {
+      "RECORD": "13",
+      "OWNERINDEX": "44",
+      "ISNOTACCESIBLE": "T",
+      "INDEXINSHEET": "4",
+      "OWNERPARTID": "1",
+      "LOCATION.X": "243",
+      "LOCATION.Y": "510",
+      "CORNER.X": "243",
+      "CORNER.Y": "530",
+      "LINEWIDTH": "1",
+      "COLOR": "16711680"
+    }
+  },
+  {
+    "stream_record_index": 53,
+    "fields": {
+      "RECORD": "13",
+      "OWNERINDEX": "44",
+      "ISNOTACCESIBLE": "T",
+      "INDEXINSHEET": "5",
+      "OWNERPARTID": "1",
+      "LOCATION.X": "237",
+      "LOCATION.Y": "510",
+      "CORNER.X": "237",
+      "CORNER.Y": "530",
+      "LINEWIDTH": "1",
+      "COLOR": "16711680"
+    }
+  },
+  {
+    "stream_record_index": 54,
+    "fields": {
+      "RECORD": "34",
+      "OWNERINDEX": "44",
+      "INDEXINSHEET": "-1",
+      "OWNERPARTID": "-1",
+      "LOCATION.X": "244",
+      "LOCATION.Y": "521",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "TEXT": "R10",
+      "NAME": "Designator",
+      "READONLYSTATE": "1"
+    }
+  },
+  {
+    "stream_record_index": 55,
+    "fields": {
+      "RECORD": "41",
+      "OWNERINDEX": "44",
+      "INDEXINSHEET": "-1",
+      "OWNERPARTID": "-1",
+      "LOCATION.X": "244",
+      "LOCATION.Y": "511",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "TEXT": "0(NC)",
+      "NAME": "Comment",
+      "READONLYSTATE": "1",
+      "UNIQUEID": "GINBUYIO"
+    }
+  },
+  {
+    "stream_record_index": 56,
+    "fields": {
+      "RECORD": "44",
+      "OWNERINDEX": "44"
+    }
+  },
+  {
+    "stream_record_index": 57,
+    "fields": {
+      "RECORD": "45",
+      "OWNERINDEX": "55",
+      "INDEXINSHEET": "-1",
+      "DESCRIPTION": "Surface mount resistor 0402",
+      "USECOMPONENTLIBRARY": "T",
+      "MODELNAME": "SMT_R_0402",
+      "MODELTYPE": "PCBLIB",
+      "DATAFILECOUNT": "1",
+      "MODELDATAFILEENTITY0": "SMT_R_0402",
+      "MODELDATAFILEKIND0": "PCBLib",
+      "ISCURRENT": "T",
+      "DATALINKSLOCKED": "T",
+      "DATABASEDATALINKSLOCKED": "T",
+      "INTEGRATEDMODEL": "T",
+      "DATABASEMODEL": "T",
+      "UNIQUEID": "SMLOCSYS"
+    }
+  },
+  {
+    "stream_record_index": 58,
+    "fields": {
+      "RECORD": "46",
+      "OWNERINDEX": "56"
+    }
+  },
+  {
+    "stream_record_index": 59,
+    "fields": {
+      "RECORD": "48",
+      "OWNERINDEX": "56"
+    }
+  },
+  {
+    "stream_record_index": 60,
+    "fields": {
+      "RECORD": "17",
+      "INDEXINSHEET": "30",
+      "OWNERPARTID": "-1",
+      "STYLE": "2",
+      "SHOWNETNAME": "T",
+      "LOCATION.X": "240",
+      "LOCATION.Y": "630",
+      "ORIENTATION": "1",
+      "COLOR": "128",
+      "FONTID": "2",
+      "TEXT": "VDD3V3",
+      "UNIQUEID": "TAUNQNOU"
+    }
+  },
+  {
+    "stream_record_index": 61,
+    "fields": {
+      "RECORD": "27",
+      "INDEXINSHEET": "31",
+      "OWNERPARTID": "-1",
+      "LINEWIDTH": "1",
+      "COLOR": "8388608",
+      "UNIQUEID": "MJDOOUWY",
+      "LOCATIONCOUNT": "2",
+      "X1": "240",
+      "Y1": "550",
+      "X2": "240",
+      "Y2": "540"
+    }
+  },
+  {
+    "stream_record_index": 62,
+    "fields": {
+      "RECORD": "17",
+      "INDEXINSHEET": "32",
+      "OWNERPARTID": "-1",
+      "STYLE": "4",
+      "SHOWNETNAME": "T",
+      "LOCATION.X": "260",
+      "LOCATION.Y": "450",
+      "ORIENTATION": "3",
+      "COLOR": "128",
+      "FONTID": "4",
+      "TEXT": "GND",
+      "UNIQUEID": "MJTEGVQJ"
+    }
+  },
+  {
+    "stream_record_index": 63,
+    "fields": {
+      "RECORD": "1",
+      "LIBREFERENCE": "SMT_SW_PTS_820",
+      "%UTF8%COMPONENTDESCRIPTION": "SMT Tactile \u00e2\u20ac\u017dSwitch PTS 820 Series",
+      "COMPONENTDESCRIPTION": "SMT Tactile ?Switch PTS 820 Series",
+      "PARTCOUNT": "2",
+      "DISPLAYMODECOUNT": "1",
+      "INDEXINSHEET": "33",
+      "OWNERPARTID": "-1",
+      "LOCATION.X": "260",
+      "LOCATION.Y": "470",
+      "ORIENTATION": "3",
+      "CURRENTPARTID": "1",
+      "LIBRARYPATH": "*",
+      "SOURCELIBRARYNAME": "Vowstar_Switch.IntLib",
+      "TARGETFILENAME": "*",
+      "UNIQUEID": "GXGWXVAW",
+      "AREACOLOR": "11599871",
+      "COLOR": "128",
+      "PARTIDLOCKED": "F",
+      "DESIGNITEMID": "SMT_SW_PTS_820"
+    }
+  },
+  {
+    "stream_record_index": 64,
+    "fields": {
+      "RECORD": "2",
+      "OWNERINDEX": "62",
+      "OWNERPARTID": "1",
+      "FORMALTYPE": "1",
+      "ELECTRICAL": "4",
+      "PINCONGLOMERATE": "33",
+      "PINLENGTH": "5",
+      "LOCATION.X": "260",
+      "LOCATION.Y": "485",
+      "NAME": "1",
+      "DESIGNATOR": "1",
+      "SWAPIDPIN": "1"
+    }
+  },
+  {
+    "stream_record_index": 65,
+    "fields": {
+      "RECORD": "41",
+      "OWNERINDEX": "63",
+      "OWNERPARTID": "-1",
+      "LOCATION.X": "260",
+      "LOCATION.Y": "485",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "ISHIDDEN": "T",
+      "TEXT": "VEOEBMNF",
+      "NAME": "PinUniqueId",
+      "UNIQUEID": "PGCVVMNB"
+    }
+  },
+  {
+    "stream_record_index": 66,
+    "fields": {
+      "RECORD": "2",
+      "OWNERINDEX": "62",
+      "OWNERPARTID": "1",
+      "FORMALTYPE": "1",
+      "ELECTRICAL": "4",
+      "PINCONGLOMERATE": "35",
+      "PINLENGTH": "5",
+      "LOCATION.X": "260",
+      "LOCATION.Y": "455",
+      "NAME": "2",
+      "DESIGNATOR": "2",
+      "SWAPIDPIN": "2"
+    }
+  },
+  {
+    "stream_record_index": 67,
+    "fields": {
+      "RECORD": "41",
+      "OWNERINDEX": "65",
+      "OWNERPARTID": "-1",
+      "LOCATION.X": "260",
+      "LOCATION.Y": "455",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "ISHIDDEN": "T",
+      "TEXT": "UIGETQQI",
+      "NAME": "PinUniqueId",
+      "UNIQUEID": "IYQBYVAY"
+    }
+  },
+  {
+    "stream_record_index": 68,
+    "fields": {
+      "RECORD": "7",
+      "OWNERINDEX": "62",
+      "ISNOTACCESIBLE": "T",
+      "INDEXINSHEET": "2",
+      "OWNERPARTID": "1",
+      "LINEWIDTH": "1",
+      "COLOR": "16711680",
+      "AREACOLOR": "16711680",
+      "ISSOLID": "T",
+      "LOCATIONCOUNT": "8",
+      "X1": "267",
+      "Y1": "485",
+      "X2": "266",
+      "Y2": "485",
+      "X3": "266",
+      "Y3": "455",
+      "X4": "267",
+      "Y4": "455",
+      "X5": "267",
+      "Y5": "466",
+      "X6": "270",
+      "Y6": "466",
+      "X7": "270",
+      "Y7": "474",
+      "X8": "267",
+      "Y8": "474"
+    }
+  },
+  {
+    "stream_record_index": 69,
+    "fields": {
+      "RECORD": "11",
+      "OWNERINDEX": "62",
+      "ISNOTACCESIBLE": "T",
+      "INDEXINSHEET": "3",
+      "OWNERPARTID": "1",
+      "LOCATION.X": "260",
+      "LOCATION.Y": "482",
+      "RADIUS": "3",
+      "SECONDARYRADIUS": "3",
+      "LINEWIDTH": "1",
+      "ENDANGLE": "360.000",
+      "COLOR": "16711680"
+    }
+  },
+  {
+    "stream_record_index": 70,
+    "fields": {
+      "RECORD": "11",
+      "OWNERINDEX": "62",
+      "ISNOTACCESIBLE": "T",
+      "INDEXINSHEET": "4",
+      "OWNERPARTID": "1",
+      "LOCATION.X": "260",
+      "LOCATION.Y": "458",
+      "RADIUS": "3",
+      "SECONDARYRADIUS": "3",
+      "LINEWIDTH": "1",
+      "ENDANGLE": "360.000",
+      "COLOR": "16711680"
+    }
+  },
+  {
+    "stream_record_index": 71,
+    "fields": {
+      "RECORD": "34",
+      "OWNERINDEX": "62",
+      "INDEXINSHEET": "-1",
+      "OWNERPARTID": "-1",
+      "LOCATION.X": "271",
+      "LOCATION.Y": "476",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "TEXT": "S1",
+      "NAME": "Designator",
+      "READONLYSTATE": "1"
+    }
+  },
+  {
+    "stream_record_index": 72,
+    "fields": {
+      "RECORD": "41",
+      "OWNERINDEX": "62",
+      "INDEXINSHEET": "-1",
+      "OWNERPARTID": "-1",
+      "LOCATION.X": "280",
+      "LOCATION.Y": "450",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "TEXT": "KEY_RST/USER",
+      "NAME": "Comment",
+      "READONLYSTATE": "1",
+      "UNIQUEID": "YRUBHVTN"
+    }
+  },
+  {
+    "stream_record_index": 73,
+    "fields": {
+      "RECORD": "44",
+      "OWNERINDEX": "62"
+    }
+  },
+  {
+    "stream_record_index": 74,
+    "fields": {
+      "RECORD": "45",
+      "OWNERINDEX": "72",
+      "INDEXINSHEET": "-1",
+      "DESCRIPTION": "SMT Switch PTS 820",
+      "USECOMPONENTLIBRARY": "T",
+      "MODELNAME": "SMT_SW_PTS_820",
+      "MODELTYPE": "PCBLIB",
+      "DATAFILECOUNT": "1",
+      "MODELDATAFILEENTITY0": "SMT_SW_PTS_820",
+      "MODELDATAFILEKIND0": "PCBLib",
+      "ISCURRENT": "T",
+      "DATALINKSLOCKED": "T",
+      "DATABASEDATALINKSLOCKED": "T",
+      "INTEGRATEDMODEL": "T",
+      "DATABASEMODEL": "T",
+      "UNIQUEID": "UJPOPXEV"
+    }
+  },
+  {
+    "stream_record_index": 75,
+    "fields": {
+      "RECORD": "46",
+      "OWNERINDEX": "73"
+    }
+  },
+  {
+    "stream_record_index": 76,
+    "fields": {
+      "RECORD": "48",
+      "OWNERINDEX": "73"
+    }
+  },
+  {
+    "stream_record_index": 77,
+    "fields": {
+      "RECORD": "25",
+      "INDEXINSHEET": "34",
+      "OWNERPARTID": "-1",
+      "LOCATION.X": "300",
+      "LOCATION.Y": "540",
+      "COLOR": "128",
+      "FONTID": "1",
+      "TEXT": "nRST",
+      "UNIQUEID": "ILNUMRTI"
+    }
+  },
+  {
+    "stream_record_index": 78,
+    "fields": {
+      "RECORD": "1",
+      "LIBREFERENCE": "SMT_R_0402",
+      "COMPONENTDESCRIPTION": "Surface mount resistor 0402",
+      "PARTCOUNT": "2",
+      "DISPLAYMODECOUNT": "1",
+      "INDEXINSHEET": "35",
+      "OWNERPARTID": "-1",
+      "LOCATION.X": "280",
+      "LOCATION.Y": "520",
+      "ORIENTATION": "1",
+      "CURRENTPARTID": "1",
+      "LIBRARYPATH": "*",
+      "SOURCELIBRARYNAME": "Vowstar_Basic_Device.IntLib",
+      "TARGETFILENAME": "*",
+      "UNIQUEID": "OUHNQTTJ",
+      "AREACOLOR": "11599871",
+      "COLOR": "128",
+      "PARTIDLOCKED": "F",
+      "DESIGNITEMID": "SMT_R_0402"
+    }
+  },
+  {
+    "stream_record_index": 79,
+    "fields": {
+      "RECORD": "2",
+      "OWNERINDEX": "77",
+      "OWNERPARTID": "1",
+      "FORMALTYPE": "1",
+      "ELECTRICAL": "4",
+      "PINCONGLOMERATE": "35",
+      "PINLENGTH": "10",
+      "LOCATION.X": "280",
+      "LOCATION.Y": "510",
+      "NAME": "1",
+      "DESIGNATOR": "1",
+      "SWAPIDPIN": "1"
+    }
+  },
+  {
+    "stream_record_index": 80,
+    "fields": {
+      "RECORD": "41",
+      "OWNERINDEX": "78",
+      "OWNERPARTID": "-1",
+      "LOCATION.X": "280",
+      "LOCATION.Y": "510",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "ISHIDDEN": "T",
+      "TEXT": "IXNCPXQN",
+      "NAME": "PinUniqueId",
+      "UNIQUEID": "NHKGEVDK"
+    }
+  },
+  {
+    "stream_record_index": 81,
+    "fields": {
+      "RECORD": "2",
+      "OWNERINDEX": "77",
+      "OWNERPARTID": "1",
+      "FORMALTYPE": "1",
+      "ELECTRICAL": "4",
+      "PINCONGLOMERATE": "33",
+      "PINLENGTH": "10",
+      "LOCATION.X": "280",
+      "LOCATION.Y": "530",
+      "NAME": "2",
+      "DESIGNATOR": "2",
+      "SWAPIDPIN": "2"
+    }
+  },
+  {
+    "stream_record_index": 82,
+    "fields": {
+      "RECORD": "41",
+      "OWNERINDEX": "80",
+      "OWNERPARTID": "-1",
+      "LOCATION.X": "280",
+      "LOCATION.Y": "530",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "ISHIDDEN": "T",
+      "TEXT": "NRORJAPX",
+      "NAME": "PinUniqueId",
+      "UNIQUEID": "JDILJVMF"
+    }
+  },
+  {
+    "stream_record_index": 83,
+    "fields": {
+      "RECORD": "13",
+      "OWNERINDEX": "77",
+      "ISNOTACCESIBLE": "T",
+      "INDEXINSHEET": "2",
+      "OWNERPARTID": "1",
+      "LOCATION.X": "277",
+      "LOCATION.Y": "530",
+      "CORNER.X": "283",
+      "CORNER.Y": "530",
+      "LINEWIDTH": "1",
+      "COLOR": "16711680"
+    }
+  },
+  {
+    "stream_record_index": 84,
+    "fields": {
+      "RECORD": "13",
+      "OWNERINDEX": "77",
+      "ISNOTACCESIBLE": "T",
+      "INDEXINSHEET": "3",
+      "OWNERPARTID": "1",
+      "LOCATION.X": "277",
+      "LOCATION.Y": "510",
+      "CORNER.X": "283",
+      "CORNER.Y": "510",
+      "LINEWIDTH": "1",
+      "COLOR": "16711680"
+    }
+  },
+  {
+    "stream_record_index": 85,
+    "fields": {
+      "RECORD": "13",
+      "OWNERINDEX": "77",
+      "ISNOTACCESIBLE": "T",
+      "INDEXINSHEET": "4",
+      "OWNERPARTID": "1",
+      "LOCATION.X": "283",
+      "LOCATION.Y": "510",
+      "CORNER.X": "283",
+      "CORNER.Y": "530",
+      "LINEWIDTH": "1",
+      "COLOR": "16711680"
+    }
+  },
+  {
+    "stream_record_index": 86,
+    "fields": {
+      "RECORD": "13",
+      "OWNERINDEX": "77",
+      "ISNOTACCESIBLE": "T",
+      "INDEXINSHEET": "5",
+      "OWNERPARTID": "1",
+      "LOCATION.X": "277",
+      "LOCATION.Y": "510",
+      "CORNER.X": "277",
+      "CORNER.Y": "530",
+      "LINEWIDTH": "1",
+      "COLOR": "16711680"
+    }
+  },
+  {
+    "stream_record_index": 87,
+    "fields": {
+      "RECORD": "34",
+      "OWNERINDEX": "77",
+      "INDEXINSHEET": "-1",
+      "OWNERPARTID": "-1",
+      "LOCATION.X": "284",
+      "LOCATION.Y": "521",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "TEXT": "R11",
+      "NAME": "Designator",
+      "READONLYSTATE": "1"
+    }
+  },
+  {
+    "stream_record_index": 88,
+    "fields": {
+      "RECORD": "41",
+      "OWNERINDEX": "77",
+      "INDEXINSHEET": "-1",
+      "OWNERPARTID": "-1",
+      "LOCATION.X": "284",
+      "LOCATION.Y": "511",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "TEXT": "470",
+      "NAME": "Comment",
+      "READONLYSTATE": "1",
+      "UNIQUEID": "DHDNWRBB"
+    }
+  },
+  {
+    "stream_record_index": 89,
+    "fields": {
+      "RECORD": "44",
+      "OWNERINDEX": "77"
+    }
+  },
+  {
+    "stream_record_index": 90,
+    "fields": {
+      "RECORD": "45",
+      "OWNERINDEX": "88",
+      "INDEXINSHEET": "-1",
+      "DESCRIPTION": "Surface mount resistor 0402",
+      "USECOMPONENTLIBRARY": "T",
+      "MODELNAME": "SMT_R_0402",
+      "MODELTYPE": "PCBLIB",
+      "DATAFILECOUNT": "1",
+      "MODELDATAFILEENTITY0": "SMT_R_0402",
+      "MODELDATAFILEKIND0": "PCBLib",
+      "ISCURRENT": "T",
+      "DATALINKSLOCKED": "T",
+      "DATABASEDATALINKSLOCKED": "T",
+      "INTEGRATEDMODEL": "T",
+      "DATABASEMODEL": "T",
+      "UNIQUEID": "MJNPXSQY"
+    }
+  },
+  {
+    "stream_record_index": 91,
+    "fields": {
+      "RECORD": "46",
+      "OWNERINDEX": "89"
+    }
+  },
+  {
+    "stream_record_index": 92,
+    "fields": {
+      "RECORD": "48",
+      "OWNERINDEX": "89"
+    }
+  },
+  {
+    "stream_record_index": 93,
+    "fields": {
+      "RECORD": "1",
+      "LIBREFERENCE": "SMT_R_0402",
+      "COMPONENTDESCRIPTION": "Surface mount resistor 0402",
+      "PARTCOUNT": "2",
+      "DISPLAYMODECOUNT": "1",
+      "INDEXINSHEET": "36",
+      "OWNERPARTID": "-1",
+      "LOCATION.X": "410",
+      "LOCATION.Y": "510",
+      "ORIENTATION": "1",
+      "CURRENTPARTID": "1",
+      "LIBRARYPATH": "*",
+      "SOURCELIBRARYNAME": "Vowstar_Basic_Device.IntLib",
+      "TARGETFILENAME": "*",
+      "UNIQUEID": "LFFKTXDQ",
+      "AREACOLOR": "11599871",
+      "COLOR": "128",
+      "PARTIDLOCKED": "F",
+      "DESIGNITEMID": "SMT_R_0402"
+    }
+  },
+  {
+    "stream_record_index": 94,
+    "fields": {
+      "RECORD": "2",
+      "OWNERINDEX": "92",
+      "OWNERPARTID": "1",
+      "FORMALTYPE": "1",
+      "ELECTRICAL": "4",
+      "PINCONGLOMERATE": "35",
+      "PINLENGTH": "10",
+      "LOCATION.X": "410",
+      "LOCATION.Y": "500",
+      "NAME": "1",
+      "DESIGNATOR": "1",
+      "SWAPIDPIN": "1"
+    }
+  },
+  {
+    "stream_record_index": 95,
+    "fields": {
+      "RECORD": "41",
+      "OWNERINDEX": "93",
+      "OWNERPARTID": "-1",
+      "LOCATION.X": "410",
+      "LOCATION.Y": "500",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "ISHIDDEN": "T",
+      "TEXT": "PNOTWGIJ",
+      "NAME": "PinUniqueId",
+      "UNIQUEID": "EHWHYSCF"
+    }
+  },
+  {
+    "stream_record_index": 96,
+    "fields": {
+      "RECORD": "2",
+      "OWNERINDEX": "92",
+      "OWNERPARTID": "1",
+      "FORMALTYPE": "1",
+      "ELECTRICAL": "4",
+      "PINCONGLOMERATE": "33",
+      "PINLENGTH": "10",
+      "LOCATION.X": "410",
+      "LOCATION.Y": "520",
+      "NAME": "2",
+      "DESIGNATOR": "2",
+      "SWAPIDPIN": "2"
+    }
+  },
+  {
+    "stream_record_index": 97,
+    "fields": {
+      "RECORD": "41",
+      "OWNERINDEX": "95",
+      "OWNERPARTID": "-1",
+      "LOCATION.X": "410",
+      "LOCATION.Y": "520",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "ISHIDDEN": "T",
+      "TEXT": "IAFAJPML",
+      "NAME": "PinUniqueId",
+      "UNIQUEID": "JJLHHWIL"
+    }
+  },
+  {
+    "stream_record_index": 98,
+    "fields": {
+      "RECORD": "13",
+      "OWNERINDEX": "92",
+      "ISNOTACCESIBLE": "T",
+      "INDEXINSHEET": "2",
+      "OWNERPARTID": "1",
+      "LOCATION.X": "407",
+      "LOCATION.Y": "520",
+      "CORNER.X": "413",
+      "CORNER.Y": "520",
+      "LINEWIDTH": "1",
+      "COLOR": "16711680"
+    }
+  },
+  {
+    "stream_record_index": 99,
+    "fields": {
+      "RECORD": "13",
+      "OWNERINDEX": "92",
+      "ISNOTACCESIBLE": "T",
+      "INDEXINSHEET": "3",
+      "OWNERPARTID": "1",
+      "LOCATION.X": "407",
+      "LOCATION.Y": "500",
+      "CORNER.X": "413",
+      "CORNER.Y": "500",
+      "LINEWIDTH": "1",
+      "COLOR": "16711680"
+    }
+  },
+  {
+    "stream_record_index": 100,
+    "fields": {
+      "RECORD": "13",
+      "OWNERINDEX": "92",
+      "ISNOTACCESIBLE": "T",
+      "INDEXINSHEET": "4",
+      "OWNERPARTID": "1",
+      "LOCATION.X": "413",
+      "LOCATION.Y": "500",
+      "CORNER.X": "413",
+      "CORNER.Y": "520",
+      "LINEWIDTH": "1",
+      "COLOR": "16711680"
+    }
+  },
+  {
+    "stream_record_index": 101,
+    "fields": {
+      "RECORD": "13",
+      "OWNERINDEX": "92",
+      "ISNOTACCESIBLE": "T",
+      "INDEXINSHEET": "5",
+      "OWNERPARTID": "1",
+      "LOCATION.X": "407",
+      "LOCATION.Y": "500",
+      "CORNER.X": "407",
+      "CORNER.Y": "520",
+      "LINEWIDTH": "1",
+      "COLOR": "16711680"
+    }
+  },
+  {
+    "stream_record_index": 102,
+    "fields": {
+      "RECORD": "34",
+      "OWNERINDEX": "92",
+      "INDEXINSHEET": "-1",
+      "OWNERPARTID": "-1",
+      "LOCATION.X": "414",
+      "LOCATION.Y": "511",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "TEXT": "R12",
+      "NAME": "Designator",
+      "READONLYSTATE": "1"
+    }
+  },
+  {
+    "stream_record_index": 103,
+    "fields": {
+      "RECORD": "41",
+      "OWNERINDEX": "92",
+      "INDEXINSHEET": "-1",
+      "OWNERPARTID": "-1",
+      "LOCATION.X": "414",
+      "LOCATION.Y": "501",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "TEXT": "470",
+      "NAME": "Comment",
+      "READONLYSTATE": "1",
+      "UNIQUEID": "BASHAPOV"
+    }
+  },
+  {
+    "stream_record_index": 104,
+    "fields": {
+      "RECORD": "44",
+      "OWNERINDEX": "92"
+    }
+  },
+  {
+    "stream_record_index": 105,
+    "fields": {
+      "RECORD": "45",
+      "OWNERINDEX": "103",
+      "INDEXINSHEET": "-1",
+      "DESCRIPTION": "Surface mount resistor 0402",
+      "USECOMPONENTLIBRARY": "T",
+      "MODELNAME": "SMT_R_0402",
+      "MODELTYPE": "PCBLIB",
+      "DATAFILECOUNT": "1",
+      "MODELDATAFILEENTITY0": "SMT_R_0402",
+      "MODELDATAFILEKIND0": "PCBLib",
+      "ISCURRENT": "T",
+      "DATALINKSLOCKED": "T",
+      "DATABASEDATALINKSLOCKED": "T",
+      "INTEGRATEDMODEL": "T",
+      "DATABASEMODEL": "T",
+      "UNIQUEID": "UAPUYESY"
+    }
+  },
+  {
+    "stream_record_index": 106,
+    "fields": {
+      "RECORD": "46",
+      "OWNERINDEX": "104"
+    }
+  },
+  {
+    "stream_record_index": 107,
+    "fields": {
+      "RECORD": "48",
+      "OWNERINDEX": "104"
+    }
+  },
+  {
+    "stream_record_index": 108,
+    "fields": {
+      "RECORD": "17",
+      "INDEXINSHEET": "37",
+      "OWNERPARTID": "-1",
+      "STYLE": "4",
+      "SHOWNETNAME": "T",
+      "LOCATION.X": "410",
+      "LOCATION.Y": "450",
+      "ORIENTATION": "3",
+      "COLOR": "128",
+      "FONTID": "4",
+      "TEXT": "GND",
+      "UNIQUEID": "WUFANXBR"
+    }
+  },
+  {
+    "stream_record_index": 109,
+    "fields": {
+      "RECORD": "1",
+      "LIBREFERENCE": "SMT_SW_PTS_820",
+      "%UTF8%COMPONENTDESCRIPTION": "SMT Tactile \u00e2\u20ac\u017dSwitch PTS 820 Series",
+      "COMPONENTDESCRIPTION": "SMT Tactile ?Switch PTS 820 Series",
+      "PARTCOUNT": "2",
+      "DISPLAYMODECOUNT": "1",
+      "INDEXINSHEET": "38",
+      "OWNERPARTID": "-1",
+      "LOCATION.X": "410",
+      "LOCATION.Y": "470",
+      "ORIENTATION": "3",
+      "CURRENTPARTID": "1",
+      "LIBRARYPATH": "*",
+      "SOURCELIBRARYNAME": "Vowstar_Switch.IntLib",
+      "TARGETFILENAME": "*",
+      "UNIQUEID": "OEFSQHJR",
+      "AREACOLOR": "11599871",
+      "COLOR": "128",
+      "PARTIDLOCKED": "F",
+      "DESIGNITEMID": "SMT_SW_PTS_820"
+    }
+  },
+  {
+    "stream_record_index": 110,
+    "fields": {
+      "RECORD": "2",
+      "OWNERINDEX": "108",
+      "OWNERPARTID": "1",
+      "FORMALTYPE": "1",
+      "ELECTRICAL": "4",
+      "PINCONGLOMERATE": "33",
+      "PINLENGTH": "5",
+      "LOCATION.X": "410",
+      "LOCATION.Y": "485",
+      "NAME": "1",
+      "DESIGNATOR": "1",
+      "SWAPIDPIN": "1"
+    }
+  },
+  {
+    "stream_record_index": 111,
+    "fields": {
+      "RECORD": "41",
+      "OWNERINDEX": "109",
+      "OWNERPARTID": "-1",
+      "LOCATION.X": "410",
+      "LOCATION.Y": "485",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "ISHIDDEN": "T",
+      "TEXT": "TKYANONQ",
+      "NAME": "PinUniqueId",
+      "UNIQUEID": "MLILECDN"
+    }
+  },
+  {
+    "stream_record_index": 112,
+    "fields": {
+      "RECORD": "2",
+      "OWNERINDEX": "108",
+      "OWNERPARTID": "1",
+      "FORMALTYPE": "1",
+      "ELECTRICAL": "4",
+      "PINCONGLOMERATE": "35",
+      "PINLENGTH": "5",
+      "LOCATION.X": "410",
+      "LOCATION.Y": "455",
+      "NAME": "2",
+      "DESIGNATOR": "2",
+      "SWAPIDPIN": "2"
+    }
+  },
+  {
+    "stream_record_index": 113,
+    "fields": {
+      "RECORD": "41",
+      "OWNERINDEX": "111",
+      "OWNERPARTID": "-1",
+      "LOCATION.X": "410",
+      "LOCATION.Y": "455",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "ISHIDDEN": "T",
+      "TEXT": "EMMWJLUB",
+      "NAME": "PinUniqueId",
+      "UNIQUEID": "INIBHADI"
+    }
+  },
+  {
+    "stream_record_index": 114,
+    "fields": {
+      "RECORD": "7",
+      "OWNERINDEX": "108",
+      "ISNOTACCESIBLE": "T",
+      "INDEXINSHEET": "2",
+      "OWNERPARTID": "1",
+      "LINEWIDTH": "1",
+      "COLOR": "16711680",
+      "AREACOLOR": "16711680",
+      "ISSOLID": "T",
+      "LOCATIONCOUNT": "8",
+      "X1": "417",
+      "Y1": "485",
+      "X2": "416",
+      "Y2": "485",
+      "X3": "416",
+      "Y3": "455",
+      "X4": "417",
+      "Y4": "455",
+      "X5": "417",
+      "Y5": "466",
+      "X6": "420",
+      "Y6": "466",
+      "X7": "420",
+      "Y7": "474",
+      "X8": "417",
+      "Y8": "474"
+    }
+  },
+  {
+    "stream_record_index": 115,
+    "fields": {
+      "RECORD": "11",
+      "OWNERINDEX": "108",
+      "ISNOTACCESIBLE": "T",
+      "INDEXINSHEET": "3",
+      "OWNERPARTID": "1",
+      "LOCATION.X": "410",
+      "LOCATION.Y": "482",
+      "RADIUS": "3",
+      "SECONDARYRADIUS": "3",
+      "LINEWIDTH": "1",
+      "ENDANGLE": "360.000",
+      "COLOR": "16711680"
+    }
+  },
+  {
+    "stream_record_index": 116,
+    "fields": {
+      "RECORD": "11",
+      "OWNERINDEX": "108",
+      "ISNOTACCESIBLE": "T",
+      "INDEXINSHEET": "4",
+      "OWNERPARTID": "1",
+      "LOCATION.X": "410",
+      "LOCATION.Y": "458",
+      "RADIUS": "3",
+      "SECONDARYRADIUS": "3",
+      "LINEWIDTH": "1",
+      "ENDANGLE": "360.000",
+      "COLOR": "16711680"
+    }
+  },
+  {
+    "stream_record_index": 117,
+    "fields": {
+      "RECORD": "34",
+      "OWNERINDEX": "108",
+      "INDEXINSHEET": "-1",
+      "OWNERPARTID": "-1",
+      "LOCATION.X": "421",
+      "LOCATION.Y": "476",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "TEXT": "S2",
+      "NAME": "Designator",
+      "READONLYSTATE": "1"
+    }
+  },
+  {
+    "stream_record_index": 118,
+    "fields": {
+      "RECORD": "41",
+      "OWNERINDEX": "108",
+      "INDEXINSHEET": "-1",
+      "OWNERPARTID": "-1",
+      "LOCATION.X": "430",
+      "LOCATION.Y": "450",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "TEXT": "KEY_FLASH",
+      "NAME": "Comment",
+      "READONLYSTATE": "1",
+      "UNIQUEID": "GTUSRRQR"
+    }
+  },
+  {
+    "stream_record_index": 119,
+    "fields": {
+      "RECORD": "44",
+      "OWNERINDEX": "108"
+    }
+  },
+  {
+    "stream_record_index": 120,
+    "fields": {
+      "RECORD": "45",
+      "OWNERINDEX": "118",
+      "INDEXINSHEET": "-1",
+      "DESCRIPTION": "SMT Switch PTS 820",
+      "USECOMPONENTLIBRARY": "T",
+      "MODELNAME": "SMT_SW_PTS_820",
+      "MODELTYPE": "PCBLIB",
+      "DATAFILECOUNT": "1",
+      "MODELDATAFILEENTITY0": "SMT_SW_PTS_820",
+      "MODELDATAFILEKIND0": "PCBLib",
+      "ISCURRENT": "T",
+      "DATALINKSLOCKED": "T",
+      "DATABASEDATALINKSLOCKED": "T",
+      "INTEGRATEDMODEL": "T",
+      "DATABASEMODEL": "T",
+      "UNIQUEID": "FGEXOWST"
+    }
+  },
+  {
+    "stream_record_index": 121,
+    "fields": {
+      "RECORD": "46",
+      "OWNERINDEX": "119"
+    }
+  },
+  {
+    "stream_record_index": 122,
+    "fields": {
+      "RECORD": "48",
+      "OWNERINDEX": "119"
+    }
+  },
+  {
+    "stream_record_index": 123,
+    "fields": {
+      "RECORD": "27",
+      "INDEXINSHEET": "39",
+      "OWNERPARTID": "-1",
+      "LINEWIDTH": "1",
+      "COLOR": "8388608",
+      "UNIQUEID": "YSSDUCSQ",
+      "LOCATIONCOUNT": "3",
+      "X1": "410",
+      "Y1": "530",
+      "X2": "410",
+      "Y2": "540",
+      "X3": "380",
+      "Y3": "540"
+    }
+  },
+  {
+    "stream_record_index": 124,
+    "fields": {
+      "RECORD": "25",
+      "INDEXINSHEET": "40",
+      "OWNERPARTID": "-1",
+      "LOCATION.X": "380",
+      "LOCATION.Y": "540",
+      "COLOR": "128",
+      "FONTID": "1",
+      "TEXT": "GPIO0",
+      "UNIQUEID": "FFIHUDDG"
+    }
+  },
+  {
+    "stream_record_index": 125,
+    "fields": {
+      "RECORD": "1",
+      "LIBREFERENCE": "SMT_LED_0603",
+      "COMPONENTDESCRIPTION": "SMT LED",
+      "PARTCOUNT": "2",
+      "DISPLAYMODECOUNT": "1",
+      "INDEXINSHEET": "41",
+      "OWNERPARTID": "-1",
+      "LOCATION.X": "240",
+      "LOCATION.Y": "570",
+      "ORIENTATION": "3",
+      "CURRENTPARTID": "1",
+      "LIBRARYPATH": "*",
+      "SOURCELIBRARYNAME": "Vowstar_Basic_Device.IntLib",
+      "TARGETFILENAME": "*",
+      "UNIQUEID": "OTWQAIAW",
+      "AREACOLOR": "11599871",
+      "COLOR": "128",
+      "PARTIDLOCKED": "F",
+      "DESIGNITEMID": "SMT_LED_0603"
+    }
+  },
+  {
+    "stream_record_index": 126,
+    "fields": {
+      "RECORD": "2",
+      "OWNERINDEX": "124",
+      "OWNERPARTID": "1",
+      "FORMALTYPE": "1",
+      "ELECTRICAL": "4",
+      "PINCONGLOMERATE": "33",
+      "PINLENGTH": "5",
+      "LOCATION.X": "240",
+      "LOCATION.Y": "585",
+      "NAME": "A",
+      "DESIGNATOR": "1",
+      "SWAPIDPIN": "A"
+    }
+  },
+  {
+    "stream_record_index": 127,
+    "fields": {
+      "RECORD": "41",
+      "OWNERINDEX": "125",
+      "OWNERPARTID": "-1",
+      "LOCATION.X": "240",
+      "LOCATION.Y": "585",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "ISHIDDEN": "T",
+      "TEXT": "QRSMIVGL",
+      "NAME": "PinUniqueId",
+      "UNIQUEID": "STDVCUSH"
+    }
+  },
+  {
+    "stream_record_index": 128,
+    "fields": {
+      "RECORD": "2",
+      "OWNERINDEX": "124",
+      "OWNERPARTID": "1",
+      "FORMALTYPE": "1",
+      "ELECTRICAL": "4",
+      "PINCONGLOMERATE": "35",
+      "PINLENGTH": "5",
+      "LOCATION.X": "240",
+      "LOCATION.Y": "555",
+      "NAME": "K",
+      "DESIGNATOR": "2",
+      "SWAPIDPIN": "K"
+    }
+  },
+  {
+    "stream_record_index": 129,
+    "fields": {
+      "RECORD": "41",
+      "OWNERINDEX": "127",
+      "OWNERPARTID": "-1",
+      "LOCATION.X": "240",
+      "LOCATION.Y": "555",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "ISHIDDEN": "T",
+      "TEXT": "XIQWKRGY",
+      "NAME": "PinUniqueId",
+      "UNIQUEID": "ESVQHIPR"
+    }
+  },
+  {
+    "stream_record_index": 130,
+    "fields": {
+      "RECORD": "13",
+      "OWNERINDEX": "124",
+      "ISNOTACCESIBLE": "T",
+      "INDEXINSHEET": "2",
+      "OWNERPARTID": "1",
+      "LOCATION.X": "256",
+      "LOCATION.Y": "562",
+      "CORNER.X": "252",
+      "CORNER.Y": "566",
+      "LINEWIDTH": "1",
+      "COLOR": "16711680"
+    }
+  },
+  {
+    "stream_record_index": 131,
+    "fields": {
+      "RECORD": "13",
+      "OWNERINDEX": "124",
+      "ISNOTACCESIBLE": "T",
+      "INDEXINSHEET": "3",
+      "OWNERPARTID": "1",
+      "LOCATION.X": "256",
+      "LOCATION.Y": "570",
+      "CORNER.X": "252",
+      "CORNER.Y": "574",
+      "LINEWIDTH": "1",
+      "COLOR": "16711680"
+    }
+  },
+  {
+    "stream_record_index": 132,
+    "fields": {
+      "RECORD": "13",
+      "OWNERINDEX": "124",
+      "ISNOTACCESIBLE": "T",
+      "INDEXINSHEET": "4",
+      "OWNERPARTID": "1",
+      "LOCATION.X": "240",
+      "LOCATION.Y": "585",
+      "CORNER.X": "240",
+      "CORNER.Y": "555",
+      "LINEWIDTH": "1",
+      "COLOR": "16711680"
+    }
+  },
+  {
+    "stream_record_index": 133,
+    "fields": {
+      "RECORD": "7",
+      "OWNERINDEX": "124",
+      "ISNOTACCESIBLE": "T",
+      "INDEXINSHEET": "5",
+      "OWNERPARTID": "1",
+      "LINEWIDTH": "1",
+      "COLOR": "16711680",
+      "AREACOLOR": "16711680",
+      "ISSOLID": "T",
+      "LOCATIONCOUNT": "3",
+      "X1": "249",
+      "Y1": "577",
+      "X2": "240",
+      "Y2": "567",
+      "X3": "231",
+      "Y3": "577"
+    }
+  },
+  {
+    "stream_record_index": 134,
+    "fields": {
+      "RECORD": "7",
+      "OWNERINDEX": "124",
+      "ISNOTACCESIBLE": "T",
+      "INDEXINSHEET": "6",
+      "OWNERPARTID": "1",
+      "LINEWIDTH": "1",
+      "COLOR": "16711680",
+      "AREACOLOR": "16711680",
+      "ISSOLID": "T",
+      "LOCATIONCOUNT": "4",
+      "X1": "249",
+      "Y1": "567",
+      "X2": "249",
+      "Y2": "566",
+      "X3": "231",
+      "Y3": "566",
+      "X4": "231",
+      "Y4": "567"
+    }
+  },
+  {
+    "stream_record_index": 135,
+    "fields": {
+      "RECORD": "7",
+      "OWNERINDEX": "124",
+      "ISNOTACCESIBLE": "T",
+      "INDEXINSHEET": "7",
+      "OWNERPARTID": "1",
+      "LINEWIDTH": "1",
+      "COLOR": "16711680",
+      "AREACOLOR": "16711680",
+      "ISSOLID": "T",
+      "LOCATIONCOUNT": "3",
+      "X1": "258",
+      "Y1": "563",
+      "X2": "258",
+      "Y2": "560",
+      "X3": "255",
+      "Y3": "560"
+    }
+  },
+  {
+    "stream_record_index": 136,
+    "fields": {
+      "RECORD": "7",
+      "OWNERINDEX": "124",
+      "ISNOTACCESIBLE": "T",
+      "INDEXINSHEET": "8",
+      "OWNERPARTID": "1",
+      "LINEWIDTH": "1",
+      "COLOR": "16711680",
+      "AREACOLOR": "16711680",
+      "ISSOLID": "T",
+      "LOCATIONCOUNT": "3",
+      "X1": "258",
+      "Y1": "571",
+      "X2": "258",
+      "Y2": "568",
+      "X3": "255",
+      "Y3": "568"
+    }
+  },
+  {
+    "stream_record_index": 137,
+    "fields": {
+      "RECORD": "34",
+      "OWNERINDEX": "124",
+      "INDEXINSHEET": "-1",
+      "OWNERPARTID": "-1",
+      "LOCATION.X": "259",
+      "LOCATION.Y": "576",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "TEXT": "LED1",
+      "NAME": "Designator",
+      "READONLYSTATE": "1"
+    }
+  },
+  {
+    "stream_record_index": 138,
+    "fields": {
+      "RECORD": "41",
+      "OWNERINDEX": "124",
+      "INDEXINSHEET": "-1",
+      "OWNERPARTID": "-1",
+      "LOCATION.X": "259",
+      "LOCATION.Y": "566",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "TEXT": "BLUE",
+      "NAME": "Comment",
+      "READONLYSTATE": "1",
+      "UNIQUEID": "CD"
+    }
+  },
+  {
+    "stream_record_index": 139,
+    "fields": {
+      "RECORD": "44",
+      "OWNERINDEX": "124"
+    }
+  },
+  {
+    "stream_record_index": 140,
+    "fields": {
+      "RECORD": "45",
+      "OWNERINDEX": "138",
+      "INDEXINSHEET": "-1",
+      "DESCRIPTION": "SMT LED",
+      "USECOMPONENTLIBRARY": "T",
+      "MODELNAME": "SMT_LED_0603",
+      "MODELTYPE": "PCBLIB",
+      "DATAFILECOUNT": "1",
+      "MODELDATAFILEENTITY0": "SMT_LED_0603",
+      "MODELDATAFILEKIND0": "PCBLib",
+      "ISCURRENT": "T",
+      "DATALINKSLOCKED": "T",
+      "DATABASEDATALINKSLOCKED": "T",
+      "INTEGRATEDMODEL": "T",
+      "DATABASEMODEL": "T",
+      "UNIQUEID": "VHKTMIJV"
+    }
+  },
+  {
+    "stream_record_index": 141,
+    "fields": {
+      "RECORD": "46",
+      "OWNERINDEX": "139"
+    }
+  },
+  {
+    "stream_record_index": 142,
+    "fields": {
+      "RECORD": "48",
+      "OWNERINDEX": "139"
+    }
+  },
+  {
+    "stream_record_index": 143,
+    "fields": {
+      "RECORD": "28",
+      "INDEXINSHEET": "42",
+      "OWNERPARTID": "-1",
+      "LOCATION.X": "74",
+      "LOCATION.Y": "484",
+      "CORNER.X": "204",
+      "CORNER.Y": "496",
+      "AREACOLOR": "16777215",
+      "FONTID": "1",
+      "ALIGNMENT": "1",
+      "WORDWRAP": "T",
+      "CLIPTORECT": "T",
+      "TEXT": "Use this resistor only in sleep mode",
+      "TEXTMARGIN_FRAC": "5"
+    }
+  },
+  {
+    "stream_record_index": 144,
+    "fields": {
+      "RECORD": "6",
+      "INDEXINSHEET": "43",
+      "OWNERPARTID": "-1",
+      "LINEWIDTH": "1",
+      "LINESTYLE": "1",
+      "LOCATIONCOUNT": "5",
+      "X1": "70",
+      "Y1": "500",
+      "X2": "220",
+      "Y2": "500",
+      "X3": "220",
+      "Y3": "480",
+      "X4": "70",
+      "Y4": "480",
+      "X5": "70",
+      "Y5": "500",
+      "LINESTYLEEXT": "1"
+    }
+  },
+  {
+    "stream_record_index": 145,
+    "fields": {
+      "RECORD": "6",
+      "INDEXINSHEET": "44",
+      "OWNERPARTID": "-1",
+      "LINEWIDTH": "1",
+      "LINESTYLE": "1",
+      "LOCATIONCOUNT": "2",
+      "X1": "230",
+      "Y1": "510",
+      "X2": "220",
+      "Y2": "500",
+      "LINESTYLEEXT": "1"
+    }
+  },
+  {
+    "stream_record_index": 146,
+    "fields": {
+      "RECORD": "7",
+      "INDEXINSHEET": "45",
+      "OWNERPARTID": "-1",
+      "LINEWIDTH": "1",
+      "ISSOLID": "T",
+      "LOCATIONCOUNT": "3",
+      "X1": "230",
+      "Y1": "510",
+      "X2": "226",
+      "Y2": "503",
+      "X3": "223",
+      "Y3": "506"
+    }
+  },
+  {
+    "stream_record_index": 147,
+    "fields": {
+      "RECORD": "4",
+      "INDEXINSHEET": "46",
+      "OWNERPARTID": "-1",
+      "LOCATION.X": "1000",
+      "LOCATION.Y": "40",
+      "COLOR": "8388608",
+      "FONTID": "8",
+      "TEXT": "=Organization"
+    }
+  },
+  {
+    "stream_record_index": 148,
+    "fields": {
+      "RECORD": "6",
+      "INDEXINSHEET": "47",
+      "OWNERPARTID": "-1",
+      "LINEWIDTH": "2",
+      "COLOR": "8323857",
+      "LOCATIONCOUNT": "5",
+      "X1": "510",
+      "Y1": "670",
+      "X2": "50",
+      "Y2": "670",
+      "X3": "50",
+      "Y3": "410",
+      "X4": "510",
+      "Y4": "410",
+      "X5": "510",
+      "Y5": "670",
+      "LINESTYLEEXT": "3"
+    }
+  },
+  {
+    "stream_record_index": 149,
+    "fields": {
+      "RECORD": "30",
+      "INDEXINSHEET": "48",
+      "OWNERPARTID": "-1",
+      "GRAPHICALLYLOCKED": "T",
+      "LOCATION.X": "840",
+      "LOCATION.Y": "40",
+      "CORNER.X": "979",
+      "CORNER.X_FRAC": "99999",
+      "CORNER.Y": "179",
+      "CORNER.Y_FRAC": "99999",
+      "KEEPASPECT": "T",
+      "EMBEDIMAGE": "T",
+      "%UTF8%FILENAME": "D:\\Clouds\\Dropbox\\Projects\\Hardware\\Design\\2015\u00e5\u00b9\u00b4\u00e7\u201d\u00b5\u00e8\u00b7\u00af\u00e8\u00ae\u00be\u00e8\u00ae\u00a1\\NodeMCU\\nodemcu-amica\\Documents\\NodeMCU.png",
+      "FILENAME": "D:\\Clouds\\Dropbox\\Projects\\Hardware\\Design\\2015\u00c4\u00ea\u00b5\u00e7\u00c2\u00b7\u00c9\u00e8\u00bc\u00c6\\NodeMCU\\nodemcu-amica\\Documents\\NodeMCU.png"
+    }
+  },
+  {
+    "stream_record_index": 150,
+    "fields": {
+      "RECORD": "4",
+      "INDEXINSHEET": "49",
+      "OWNERPARTID": "-1",
+      "LOCATION.X": "1060",
+      "LOCATION.Y": "166",
+      "COLOR": "8388608",
+      "FONTID": "6",
+      "TEXT": "DATE"
+    }
+  },
+  {
+    "stream_record_index": 151,
+    "fields": {
+      "RECORD": "4",
+      "INDEXINSHEET": "50",
+      "OWNERPARTID": "-1",
+      "LOCATION.X": "1050",
+      "LOCATION.Y": "140",
+      "LOCATION.Y_FRAC": "50000",
+      "COLOR": "8388608",
+      "FONTID": "7",
+      "TEXT": "=date"
+    }
+  },
+  {
+    "stream_record_index": 152,
+    "fields": {
+      "RECORD": "4",
+      "INDEXINSHEET": "51",
+      "OWNERPARTID": "-1",
+      "LOCATION.X": "1000",
+      "LOCATION.Y": "115",
+      "COLOR": "8388608",
+      "FONTID": "6",
+      "TEXT": "ORGANIZATION"
+    }
+  },
+  {
+    "stream_record_index": 153,
+    "fields": {
+      "RECORD": "4",
+      "INDEXINSHEET": "52",
+      "OWNERPARTID": "-1",
+      "LOCATION.X": "1005",
+      "LOCATION.Y": "140",
+      "LOCATION.Y_FRAC": "50000",
+      "COLOR": "8388608",
+      "FONTID": "7",
+      "TEXT": "0.9"
+    }
+  },
+  {
+    "stream_record_index": 154,
+    "fields": {
+      "RECORD": "4",
+      "INDEXINSHEET": "53",
+      "OWNERPARTID": "-1",
+      "LOCATION.X": "1000",
+      "LOCATION.Y": "89",
+      "LOCATION.Y_FRAC": "50000",
+      "COLOR": "8388608",
+      "FONTID": "7",
+      "TEXT": "NODE MCU TEAM"
+    }
+  },
+  {
+    "stream_record_index": 155,
+    "fields": {
+      "RECORD": "4",
+      "INDEXINSHEET": "54",
+      "OWNERPARTID": "-1",
+      "LOCATION.X": "1000",
+      "LOCATION.Y": "166",
+      "COLOR": "8388608",
+      "FONTID": "6",
+      "TEXT": "VER"
+    }
+  },
+  {
+    "stream_record_index": 156,
+    "fields": {
+      "RECORD": "4",
+      "INDEXINSHEET": "55",
+      "OWNERPARTID": "-1",
+      "LOCATION.X": "1020",
+      "LOCATION.Y": "64",
+      "COLOR": "8388608",
+      "FONTID": "6",
+      "TEXT": "WEBSITE"
+    }
+  },
+  {
+    "stream_record_index": 157,
+    "fields": {
+      "RECORD": "6",
+      "INDEXINSHEET": "56",
+      "OWNERPARTID": "-1",
+      "LINEWIDTH": "2",
+      "LOCATIONCOUNT": "5",
+      "X1": "830",
+      "Y1": "30",
+      "X2": "1120",
+      "Y2": "30",
+      "X3": "1120",
+      "Y3": "190",
+      "X4": "830",
+      "Y4": "190",
+      "X5": "830",
+      "Y5": "30"
+    }
+  },
+  {
+    "stream_record_index": 158,
+    "fields": {
+      "RECORD": "6",
+      "INDEXINSHEET": "57",
+      "OWNERPARTID": "-1",
+      "LINEWIDTH": "2",
+      "LOCATIONCOUNT": "2",
+      "X1": "990",
+      "Y1": "190",
+      "X2": "990",
+      "Y2": "30"
+    }
+  },
+  {
+    "stream_record_index": 159,
+    "fields": {
+      "RECORD": "6",
+      "INDEXINSHEET": "58",
+      "OWNERPARTID": "-1",
+      "LINEWIDTH": "1",
+      "LOCATIONCOUNT": "2",
+      "X1": "990",
+      "Y1": "160",
+      "X2": "1120",
+      "Y2": "160"
+    }
+  },
+  {
+    "stream_record_index": 160,
+    "fields": {
+      "RECORD": "6",
+      "INDEXINSHEET": "59",
+      "OWNERPARTID": "-1",
+      "LINEWIDTH": "1",
+      "LOCATIONCOUNT": "2",
+      "X1": "990",
+      "Y1": "135",
+      "X2": "1120",
+      "Y2": "135"
+    }
+  },
+  {
+    "stream_record_index": 161,
+    "fields": {
+      "RECORD": "6",
+      "INDEXINSHEET": "60",
+      "OWNERPARTID": "-1",
+      "LINEWIDTH": "1",
+      "LOCATIONCOUNT": "2",
+      "X1": "1040",
+      "Y1": "190",
+      "X2": "1040",
+      "Y2": "137"
+    }
+  },
+  {
+    "stream_record_index": 162,
+    "fields": {
+      "RECORD": "6",
+      "INDEXINSHEET": "61",
+      "OWNERPARTID": "-1",
+      "LINEWIDTH": "1",
+      "LOCATIONCOUNT": "2",
+      "X1": "990",
+      "Y1": "110",
+      "X2": "1120",
+      "Y2": "110"
+    }
+  },
+  {
+    "stream_record_index": 163,
+    "fields": {
+      "RECORD": "6",
+      "INDEXINSHEET": "62",
+      "OWNERPARTID": "-1",
+      "LINEWIDTH": "1",
+      "LOCATIONCOUNT": "2",
+      "X1": "990",
+      "Y1": "85",
+      "X2": "1120",
+      "Y2": "85"
+    }
+  },
+  {
+    "stream_record_index": 164,
+    "fields": {
+      "RECORD": "6",
+      "INDEXINSHEET": "63",
+      "OWNERPARTID": "-1",
+      "LINEWIDTH": "1",
+      "LOCATIONCOUNT": "2",
+      "X1": "990",
+      "Y1": "60",
+      "X2": "1120",
+      "Y2": "60"
+    }
+  },
+  {
+    "stream_record_index": 165,
+    "fields": {
+      "RECORD": "27",
+      "INDEXINSHEET": "64",
+      "OWNERPARTID": "-1",
+      "LINEWIDTH": "1",
+      "COLOR": "8388608",
+      "UNIQUEID": "FXFLFKXY",
+      "LOCATIONCOUNT": "2",
+      "X1": "280",
+      "Y1": "540",
+      "X2": "330",
+      "Y2": "540"
+    }
+  },
+  {
+    "stream_record_index": 166,
+    "fields": {
+      "RECORD": "27",
+      "INDEXINSHEET": "65",
+      "OWNERPARTID": "-1",
+      "LINEWIDTH": "1",
+      "COLOR": "8388608",
+      "UNIQUEID": "CGWBOIII",
+      "LOCATIONCOUNT": "2",
+      "X1": "280",
+      "Y1": "500",
+      "X2": "240",
+      "Y2": "500"
+    }
+  },
+  {
+    "stream_record_index": 167,
+    "fields": {
+      "RECORD": "27",
+      "INDEXINSHEET": "66",
+      "OWNERPARTID": "-1",
+      "LINEWIDTH": "1",
+      "COLOR": "8388608",
+      "UNIQUEID": "MODKWWFF",
+      "LOCATIONCOUNT": "2",
+      "X1": "260",
+      "Y1": "500",
+      "X2": "260",
+      "Y2": "490"
+    }
+  },
+  {
+    "stream_record_index": 168,
+    "fields": {
+      "RECORD": "27",
+      "INDEXINSHEET": "67",
+      "OWNERPARTID": "-1",
+      "LINEWIDTH": "1",
+      "COLOR": "8388608",
+      "UNIQUEID": "UOBVYARR",
+      "LOCATIONCOUNT": "2",
+      "X1": "240",
+      "Y1": "540",
+      "X2": "190",
+      "Y2": "540"
+    }
+  },
+  {
+    "stream_record_index": 169,
+    "fields": {
+      "RECORD": "28",
+      "INDEXINSHEET": "68",
+      "OWNERPARTID": "-1",
+      "LOCATION.X": "290",
+      "LOCATION.Y": "600",
+      "CORNER.X": "490",
+      "CORNER.Y": "632",
+      "AREACOLOR": "16777215",
+      "FONTID": "1",
+      "ALIGNMENT": "1",
+      "WORDWRAP": "T",
+      "CLIPTORECT": "T",
+      "TEXT": "This LED SHOULD BLUE or WHITE to make sure enough voltage drop",
+      "TEXTMARGIN_FRAC": "5"
+    }
+  },
+  {
+    "stream_record_index": 170,
+    "fields": {
+      "RECORD": "41",
+      "INDEXINSHEET": "69",
+      "OWNERPARTID": "-1",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "ISHIDDEN": "T",
+      "TEXT": "*",
+      "NAME": "Application_BuildNumber",
+      "READONLYSTATE": "1",
+      "UNIQUEID": "FPAGRRWL"
+    }
+  },
+  {
+    "stream_record_index": 171,
+    "fields": {
+      "RECORD": "29",
+      "INDEXINSHEET": "-1",
+      "OWNERPARTID": "-1",
+      "LOCATION.X": "240",
+      "LOCATION.Y": "540",
+      "COLOR": "128"
+    }
+  },
+  {
+    "stream_record_index": 172,
+    "fields": {
+      "RECORD": "29",
+      "INDEXINSHEET": "-1",
+      "OWNERPARTID": "-1",
+      "LOCATION.X": "260",
+      "LOCATION.Y": "500",
+      "COLOR": "128"
+    }
+  }
+]

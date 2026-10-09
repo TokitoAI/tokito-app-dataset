@@ -1,0 +1,9 @@
+path: data/photo-model/yolo-boards
+train: images/train
+val: images/val
+names:
+  0: esp32_board
+  1: esp8266_board
+  2: ultimainboard
+  3: nxp_frdm_mcxn236_board
+  4: raspberry_pi_3b_board

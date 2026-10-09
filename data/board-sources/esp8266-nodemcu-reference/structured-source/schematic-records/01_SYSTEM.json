@@ -1,0 +1,714 @@
+[
+  {
+    "stream_record_index": 0,
+    "fields": {
+      "HEADER": "Protel for Windows - Schematic Capture Binary File Version 5.0",
+      "WEIGHT": "46",
+      "MINORVERSION": "2",
+      "UNIQUEID": "VDSMMWIO"
+    }
+  },
+  {
+    "stream_record_index": 1,
+    "fields": {
+      "RECORD": "31",
+      "FONTIDCOUNT": "6",
+      "SIZE1": "10",
+      "FONTNAME1": "Times New Roman",
+      "SIZE2": "10",
+      "UNDERLINE2": "T",
+      "FONTNAME2": "Times New Roman",
+      "SIZE3": "36",
+      "FONTNAME3": "Times New Roman",
+      "SIZE4": "15",
+      "BOLD4": "T",
+      "FONTNAME4": "Times New Roman",
+      "SIZE5": "15",
+      "ITALIC5": "T",
+      "FONTNAME5": "Times New Roman",
+      "SIZE6": "12",
+      "ITALIC6": "T",
+      "FONTNAME6": "Times New Roman",
+      "USEMBCS": "T",
+      "ISBOC": "T",
+      "HOTSPOTGRIDON": "T",
+      "HOTSPOTGRIDSIZE": "4",
+      "SYSTEMFONT": "1",
+      "BORDERON": "T",
+      "SHEETNUMBERSPACESIZE": "4",
+      "AREACOLOR": "16317695",
+      "SNAPGRIDON": "T",
+      "SNAPGRIDSIZE": "10",
+      "VISIBLEGRIDON": "T",
+      "VISIBLEGRIDSIZE": "10",
+      "CUSTOMX": "1500",
+      "CUSTOMY": "950",
+      "CUSTOMXZONES": "6",
+      "CUSTOMYZONES": "4",
+      "CUSTOMMARGINWIDTH": "20",
+      "SHOWTEMPLATEGRAPHICS": "T",
+      "DISPLAY_UNIT": "4"
+    }
+  },
+  {
+    "stream_record_index": 2,
+    "fields": {
+      "RECORD": "41",
+      "OWNERPARTID": "-1",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "ISHIDDEN": "T",
+      "TEXT": "*",
+      "NAME": "CurrentTime",
+      "READONLYSTATE": "1",
+      "UNIQUEID": "BSQOEUMU"
+    }
+  },
+  {
+    "stream_record_index": 3,
+    "fields": {
+      "RECORD": "41",
+      "INDEXINSHEET": "1",
+      "OWNERPARTID": "-1",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "ISHIDDEN": "T",
+      "TEXT": "*",
+      "NAME": "CurrentDate",
+      "READONLYSTATE": "1",
+      "UNIQUEID": "JTUKLLIA"
+    }
+  },
+  {
+    "stream_record_index": 4,
+    "fields": {
+      "RECORD": "41",
+      "INDEXINSHEET": "2",
+      "OWNERPARTID": "-1",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "ISHIDDEN": "T",
+      "TEXT": "*",
+      "NAME": "Time",
+      "READONLYSTATE": "1",
+      "UNIQUEID": "KGNOPYIP"
+    }
+  },
+  {
+    "stream_record_index": 5,
+    "fields": {
+      "RECORD": "41",
+      "INDEXINSHEET": "3",
+      "OWNERPARTID": "-1",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "ISHIDDEN": "T",
+      "TEXT": "25/01/2015",
+      "NAME": "Date",
+      "READONLYSTATE": "1",
+      "UNIQUEID": "FEKVTURX"
+    }
+  },
+  {
+    "stream_record_index": 6,
+    "fields": {
+      "RECORD": "41",
+      "INDEXINSHEET": "4",
+      "OWNERPARTID": "-1",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "ISHIDDEN": "T",
+      "TEXT": "*",
+      "NAME": "DocumentFullPathAndName",
+      "READONLYSTATE": "1",
+      "UNIQUEID": "UCDTWTVE"
+    }
+  },
+  {
+    "stream_record_index": 7,
+    "fields": {
+      "RECORD": "41",
+      "INDEXINSHEET": "5",
+      "OWNERPARTID": "-1",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "ISHIDDEN": "T",
+      "TEXT": "*",
+      "NAME": "DocumentName",
+      "READONLYSTATE": "1",
+      "UNIQUEID": "LPEBSDXW"
+    }
+  },
+  {
+    "stream_record_index": 8,
+    "fields": {
+      "RECORD": "41",
+      "INDEXINSHEET": "6",
+      "OWNERPARTID": "-1",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "ISHIDDEN": "T",
+      "TEXT": "*",
+      "NAME": "ModifiedDate",
+      "READONLYSTATE": "1",
+      "UNIQUEID": "XOOAGFEB"
+    }
+  },
+  {
+    "stream_record_index": 9,
+    "fields": {
+      "RECORD": "41",
+      "INDEXINSHEET": "7",
+      "OWNERPARTID": "-1",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "ISHIDDEN": "T",
+      "TEXT": "*",
+      "NAME": "ApprovedBy",
+      "READONLYSTATE": "1",
+      "UNIQUEID": "KQKDDRCP"
+    }
+  },
+  {
+    "stream_record_index": 10,
+    "fields": {
+      "RECORD": "41",
+      "INDEXINSHEET": "8",
+      "OWNERPARTID": "-1",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "ISHIDDEN": "T",
+      "TEXT": "*",
+      "NAME": "CheckedBy",
+      "READONLYSTATE": "1",
+      "UNIQUEID": "HSGOWIIK"
+    }
+  },
+  {
+    "stream_record_index": 11,
+    "fields": {
+      "RECORD": "41",
+      "INDEXINSHEET": "9",
+      "OWNERPARTID": "-1",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "ISHIDDEN": "T",
+      "TEXT": "HuangRui <vowstar@gmail.com>",
+      "NAME": "Author",
+      "READONLYSTATE": "1",
+      "UNIQUEID": "WQBYBLRH"
+    }
+  },
+  {
+    "stream_record_index": 12,
+    "fields": {
+      "RECORD": "41",
+      "INDEXINSHEET": "10",
+      "OWNERPARTID": "-1",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "ISHIDDEN": "T",
+      "TEXT": "*",
+      "NAME": "CompanyName",
+      "READONLYSTATE": "1",
+      "UNIQUEID": "URJBTUKU"
+    }
+  },
+  {
+    "stream_record_index": 13,
+    "fields": {
+      "RECORD": "41",
+      "INDEXINSHEET": "11",
+      "OWNERPARTID": "-1",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "ISHIDDEN": "T",
+      "TEXT": "JiYaping <jyp1817@gmail.com>",
+      "NAME": "DrawnBy",
+      "READONLYSTATE": "1",
+      "UNIQUEID": "BKVISYXP"
+    }
+  },
+  {
+    "stream_record_index": 14,
+    "fields": {
+      "RECORD": "41",
+      "INDEXINSHEET": "12",
+      "OWNERPARTID": "-1",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "ISHIDDEN": "T",
+      "TEXT": "*",
+      "NAME": "Engineer",
+      "READONLYSTATE": "1",
+      "UNIQUEID": "KGXGHKUG"
+    }
+  },
+  {
+    "stream_record_index": 15,
+    "fields": {
+      "RECORD": "41",
+      "INDEXINSHEET": "13",
+      "OWNERPARTID": "-1",
+      "COLOR": "8388608",
+      "FONTID": "2",
+      "ISHIDDEN": "T",
+      "TEXT": "WWW.NODEMCU.COM",
+      "NAME": "Organization",
+      "READONLYSTATE": "1",
+      "UNIQUEID": "YMJSCIXP"
+    }
+  },
+  {
+    "stream_record_index": 16,
+    "fields": {
+      "RECORD": "41",
+      "INDEXINSHEET": "14",
+      "OWNERPARTID": "-1",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "ISHIDDEN": "T",
+      "TEXT": "*",
+      "NAME": "Address1",
+      "READONLYSTATE": "1",
+      "UNIQUEID": "ACBIVKIA"
+    }
+  },
+  {
+    "stream_record_index": 17,
+    "fields": {
+      "RECORD": "41",
+      "INDEXINSHEET": "15",
+      "OWNERPARTID": "-1",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "ISHIDDEN": "T",
+      "TEXT": "*",
+      "NAME": "Address2",
+      "READONLYSTATE": "1",
+      "UNIQUEID": "IRJHNYVO"
+    }
+  },
+  {
+    "stream_record_index": 18,
+    "fields": {
+      "RECORD": "41",
+      "INDEXINSHEET": "16",
+      "OWNERPARTID": "-1",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "ISHIDDEN": "T",
+      "TEXT": "*",
+      "NAME": "Address3",
+      "READONLYSTATE": "1",
+      "UNIQUEID": "UKXNSYNP"
+    }
+  },
+  {
+    "stream_record_index": 19,
+    "fields": {
+      "RECORD": "41",
+      "INDEXINSHEET": "17",
+      "OWNERPARTID": "-1",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "ISHIDDEN": "T",
+      "TEXT": "*",
+      "NAME": "Address4",
+      "READONLYSTATE": "1",
+      "UNIQUEID": "FJBWOABB"
+    }
+  },
+  {
+    "stream_record_index": 20,
+    "fields": {
+      "RECORD": "41",
+      "INDEXINSHEET": "18",
+      "OWNERPARTID": "-1",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "ISHIDDEN": "T",
+      "TEXT": "NODE MCU DEVKIT V1.0",
+      "NAME": "Title",
+      "READONLYSTATE": "1",
+      "UNIQUEID": "JHJFRQSW"
+    }
+  },
+  {
+    "stream_record_index": 21,
+    "fields": {
+      "RECORD": "41",
+      "INDEXINSHEET": "19",
+      "OWNERPARTID": "-1",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "ISHIDDEN": "T",
+      "TEXT": "*",
+      "NAME": "DocumentNumber",
+      "READONLYSTATE": "1",
+      "UNIQUEID": "SEYUPMKT"
+    }
+  },
+  {
+    "stream_record_index": 22,
+    "fields": {
+      "RECORD": "41",
+      "INDEXINSHEET": "20",
+      "OWNERPARTID": "-1",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "ISHIDDEN": "T",
+      "TEXT": "*",
+      "NAME": "Revision",
+      "READONLYSTATE": "1",
+      "UNIQUEID": "ADPSOTHR"
+    }
+  },
+  {
+    "stream_record_index": 23,
+    "fields": {
+      "RECORD": "41",
+      "INDEXINSHEET": "21",
+      "OWNERPARTID": "-1",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "ISHIDDEN": "T",
+      "TEXT": "*",
+      "NAME": "SheetNumber",
+      "READONLYSTATE": "1",
+      "UNIQUEID": "OEKALEJO"
+    }
+  },
+  {
+    "stream_record_index": 24,
+    "fields": {
+      "RECORD": "41",
+      "INDEXINSHEET": "22",
+      "OWNERPARTID": "-1",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "ISHIDDEN": "T",
+      "TEXT": "*",
+      "NAME": "SheetTotal",
+      "READONLYSTATE": "1",
+      "UNIQUEID": "PCTLDXVB"
+    }
+  },
+  {
+    "stream_record_index": 25,
+    "fields": {
+      "RECORD": "41",
+      "INDEXINSHEET": "23",
+      "OWNERPARTID": "-1",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "ISHIDDEN": "T",
+      "TEXT": "*",
+      "NAME": "Rule",
+      "READONLYSTATE": "1",
+      "UNIQUEID": "AJQTEQFI"
+    }
+  },
+  {
+    "stream_record_index": 26,
+    "fields": {
+      "RECORD": "41",
+      "INDEXINSHEET": "24",
+      "OWNERPARTID": "-1",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "ISHIDDEN": "T",
+      "TEXT": "*",
+      "NAME": "ImagePath",
+      "READONLYSTATE": "1",
+      "UNIQUEID": "ILAPQLIY"
+    }
+  },
+  {
+    "stream_record_index": 27,
+    "fields": {
+      "RECORD": "41",
+      "INDEXINSHEET": "25",
+      "OWNERPARTID": "-1",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "ISHIDDEN": "T",
+      "TEXT": "*",
+      "NAME": "ProjectName",
+      "READONLYSTATE": "1",
+      "UNIQUEID": "GJXUQYEW"
+    }
+  },
+  {
+    "stream_record_index": 28,
+    "fields": {
+      "RECORD": "4",
+      "INDEXINSHEET": "26",
+      "OWNERPARTID": "-1",
+      "LOCATION.X": "50",
+      "LOCATION.Y": "690",
+      "COLOR": "8388608",
+      "FONTID": "3",
+      "TEXT": "=Title"
+    }
+  },
+  {
+    "stream_record_index": 29,
+    "fields": {
+      "RECORD": "4",
+      "INDEXINSHEET": "27",
+      "OWNERPARTID": "-1",
+      "LOCATION.X": "1000",
+      "LOCATION.Y": "40",
+      "COLOR": "8388608",
+      "FONTID": "6",
+      "TEXT": "=Organization"
+    }
+  },
+  {
+    "stream_record_index": 30,
+    "fields": {
+      "RECORD": "30",
+      "INDEXINSHEET": "28",
+      "OWNERPARTID": "-1",
+      "GRAPHICALLYLOCKED": "T",
+      "LOCATION.X": "840",
+      "LOCATION.Y": "40",
+      "CORNER.X": "979",
+      "CORNER.X_FRAC": "99999",
+      "CORNER.Y": "179",
+      "CORNER.Y_FRAC": "99999",
+      "KEEPASPECT": "T",
+      "EMBEDIMAGE": "T",
+      "%UTF8%FILENAME": "D:\\Clouds\\Dropbox\\Projects\\Hardware\\Design\\2015\u00e5\u00b9\u00b4\u00e7\u201d\u00b5\u00e8\u00b7\u00af\u00e8\u00ae\u00be\u00e8\u00ae\u00a1\\NodeMCU\\nodemcu-amica\\Documents\\NodeMCU.png",
+      "FILENAME": "D:\\Clouds\\Dropbox\\Projects\\Hardware\\Design\\2015\u00c4\u00ea\u00b5\u00e7\u00c2\u00b7\u00c9\u00e8\u00bc\u00c6\\NodeMCU\\nodemcu-amica\\Documents\\NodeMCU.png"
+    }
+  },
+  {
+    "stream_record_index": 31,
+    "fields": {
+      "RECORD": "4",
+      "INDEXINSHEET": "29",
+      "OWNERPARTID": "-1",
+      "LOCATION.X": "1060",
+      "LOCATION.Y": "166",
+      "COLOR": "8388608",
+      "FONTID": "4",
+      "TEXT": "DATE"
+    }
+  },
+  {
+    "stream_record_index": 32,
+    "fields": {
+      "RECORD": "4",
+      "INDEXINSHEET": "30",
+      "OWNERPARTID": "-1",
+      "LOCATION.X": "1050",
+      "LOCATION.Y": "140",
+      "LOCATION.Y_FRAC": "50000",
+      "COLOR": "8388608",
+      "FONTID": "5",
+      "TEXT": "=date"
+    }
+  },
+  {
+    "stream_record_index": 33,
+    "fields": {
+      "RECORD": "4",
+      "INDEXINSHEET": "31",
+      "OWNERPARTID": "-1",
+      "LOCATION.X": "1000",
+      "LOCATION.Y": "115",
+      "COLOR": "8388608",
+      "FONTID": "4",
+      "TEXT": "ORGANIZATION"
+    }
+  },
+  {
+    "stream_record_index": 34,
+    "fields": {
+      "RECORD": "4",
+      "INDEXINSHEET": "32",
+      "OWNERPARTID": "-1",
+      "LOCATION.X": "1005",
+      "LOCATION.Y": "140",
+      "LOCATION.Y_FRAC": "50000",
+      "COLOR": "8388608",
+      "FONTID": "5",
+      "TEXT": "1.0"
+    }
+  },
+  {
+    "stream_record_index": 35,
+    "fields": {
+      "RECORD": "4",
+      "INDEXINSHEET": "33",
+      "OWNERPARTID": "-1",
+      "LOCATION.X": "1000",
+      "LOCATION.Y": "89",
+      "LOCATION.Y_FRAC": "50000",
+      "COLOR": "8388608",
+      "FONTID": "5",
+      "TEXT": "NODE MCU TEAM"
+    }
+  },
+  {
+    "stream_record_index": 36,
+    "fields": {
+      "RECORD": "4",
+      "INDEXINSHEET": "34",
+      "OWNERPARTID": "-1",
+      "LOCATION.X": "1000",
+      "LOCATION.Y": "166",
+      "COLOR": "8388608",
+      "FONTID": "4",
+      "TEXT": "VER"
+    }
+  },
+  {
+    "stream_record_index": 37,
+    "fields": {
+      "RECORD": "4",
+      "INDEXINSHEET": "35",
+      "OWNERPARTID": "-1",
+      "LOCATION.X": "1020",
+      "LOCATION.Y": "64",
+      "COLOR": "8388608",
+      "FONTID": "4",
+      "TEXT": "WEBSITE"
+    }
+  },
+  {
+    "stream_record_index": 38,
+    "fields": {
+      "RECORD": "6",
+      "INDEXINSHEET": "36",
+      "OWNERPARTID": "-1",
+      "LINEWIDTH": "2",
+      "LOCATIONCOUNT": "5",
+      "X1": "830",
+      "Y1": "30",
+      "X2": "1120",
+      "Y2": "30",
+      "X3": "1120",
+      "Y3": "190",
+      "X4": "830",
+      "Y4": "190",
+      "X5": "830",
+      "Y5": "30"
+    }
+  },
+  {
+    "stream_record_index": 39,
+    "fields": {
+      "RECORD": "6",
+      "INDEXINSHEET": "37",
+      "OWNERPARTID": "-1",
+      "LINEWIDTH": "2",
+      "LOCATIONCOUNT": "2",
+      "X1": "990",
+      "Y1": "190",
+      "X2": "990",
+      "Y2": "30"
+    }
+  },
+  {
+    "stream_record_index": 40,
+    "fields": {
+      "RECORD": "6",
+      "INDEXINSHEET": "38",
+      "OWNERPARTID": "-1",
+      "LINEWIDTH": "1",
+      "LOCATIONCOUNT": "2",
+      "X1": "990",
+      "Y1": "160",
+      "X2": "1120",
+      "Y2": "160"
+    }
+  },
+  {
+    "stream_record_index": 41,
+    "fields": {
+      "RECORD": "6",
+      "INDEXINSHEET": "39",
+      "OWNERPARTID": "-1",
+      "LINEWIDTH": "1",
+      "LOCATIONCOUNT": "2",
+      "X1": "990",
+      "Y1": "135",
+      "X2": "1120",
+      "Y2": "135"
+    }
+  },
+  {
+    "stream_record_index": 42,
+    "fields": {
+      "RECORD": "6",
+      "INDEXINSHEET": "40",
+      "OWNERPARTID": "-1",
+      "LINEWIDTH": "1",
+      "LOCATIONCOUNT": "2",
+      "X1": "1040",
+      "Y1": "190",
+      "X2": "1040",
+      "Y2": "137"
+    }
+  },
+  {
+    "stream_record_index": 43,
+    "fields": {
+      "RECORD": "6",
+      "INDEXINSHEET": "41",
+      "OWNERPARTID": "-1",
+      "LINEWIDTH": "1",
+      "LOCATIONCOUNT": "2",
+      "X1": "990",
+      "Y1": "110",
+      "X2": "1120",
+      "Y2": "110"
+    }
+  },
+  {
+    "stream_record_index": 44,
+    "fields": {
+      "RECORD": "6",
+      "INDEXINSHEET": "42",
+      "OWNERPARTID": "-1",
+      "LINEWIDTH": "1",
+      "LOCATIONCOUNT": "2",
+      "X1": "990",
+      "Y1": "85",
+      "X2": "1120",
+      "Y2": "85"
+    }
+  },
+  {
+    "stream_record_index": 45,
+    "fields": {
+      "RECORD": "6",
+      "INDEXINSHEET": "43",
+      "OWNERPARTID": "-1",
+      "LINEWIDTH": "1",
+      "LOCATIONCOUNT": "2",
+      "X1": "990",
+      "Y1": "60",
+      "X2": "1120",
+      "Y2": "60"
+    }
+  },
+  {
+    "stream_record_index": 46,
+    "fields": {
+      "RECORD": "41",
+      "INDEXINSHEET": "44",
+      "OWNERPARTID": "-1",
+      "COLOR": "8388608",
+      "FONTID": "1",
+      "ISHIDDEN": "T",
+      "TEXT": "*",
+      "NAME": "Application_BuildNumber",
+      "READONLYSTATE": "1",
+      "UNIQUEID": "CDDSUVSW"
+    }
+  }
+]

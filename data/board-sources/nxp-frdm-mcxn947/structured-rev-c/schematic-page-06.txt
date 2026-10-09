@@ -1,0 +1,305 @@
+5
+5
+4
+4
+3
+3
+2
+2
+1
+1
+D D
+C C
+B B
+A A
+USB1_HIGH SPEED 
+MOUNTING HOLE 
+USB2.0 Type C 
+VBUS Power Control 
+CC Logic 
+Max current: 700mA 
+Layout Note: 
+====== 
+90ohms differential impedance 
+Layout Note: 
+====== 
+Place TVS and resistors 
+close to USB connector 
+SYSTEM POWER 
+ADR/CON_DET: 
+When Power-up, ADR(input) function: 
+ADR=1: I2C Address: 0x7A(ADR) 
+ADR=0: I2C Address: 0x3A(ADR) 
+ADR=MID/FLOATING 
+After TINPUTLATCH, CON_DET(output) function: 
+CON_DET=1: Connection Detected 
+CON_DET=0: No Connection 
+EXT_SEL: External selection 
+High = CC1 orientation or no valid CC1/CC2 detection 
+Low = CC2 orientation 
+PORT=: 
+1: DFP mode 
+0: UFP mode 
+Floating: DRP mode 
+OD 
+Test Points 
+P5V_HDR_IN 
+P3V3 P5V_MCU_LINK_USB 
+USB_OTG_VBUS_5V 
+P5V0 LDO_3V3 
+P3V3 
+P5V0 
+P5V_USB_HS 
+P3V3 
+MCX_USB1_VBUS 
+P5V_USB_HS 
+P5V_USB_HS 
+USB_OTG_VBUS_5V 
+P3V3 
+P3V3 
+P3V3_PTN P3V3_PTN 
+P3V3_PTN 
+P3V3_MCU 
+MCX_USB1_DM [5] 
+MCX_USB1_DP [5] 
+P4_0/FC2_I2C_SDA-FXIO_HDR [4,12] 
+P4_1/FC2_I2C_SCL-FXIO_HDR [4,12] 
+P5_7/ME_INT [4,12] 
+HS_USB_ID [5,6] 
+P4_16/USB1_OTG_PWR [4,12] 
+P4_17/USB1_OTG_OC [4,12] 
+HS_USB_ID [5,6] 
+Drawing Title: 
+Size Document Number Rev 
+Date: Sheet of 
+Page Title: 
+Classification: 
+SCH-90818 PDF: SPF-90818 C
+FRDM-MCXN947 
+C
+Thursday, March 28, 2024 
+USB & PWR 
+6 13 
+Company Internal/Proprietary 
+<Core Design> 
+Drawing Title: 
+Size Document Number Rev 
+Date: Sheet of 
+Page Title: 
+Classification: 
+SCH-90818 PDF: SPF-90818 C
+FRDM-MCXN947 
+C
+Thursday, March 28, 2024 
+USB & PWR 
+6 13 
+Company Internal/Proprietary 
+<Core Design> 
+Drawing Title: 
+Size Document Number Rev 
+Date: Sheet of 
+Page Title: 
+Classification: 
+SCH-90818 PDF: SPF-90818 C
+FRDM-MCXN947 
+C
+Thursday, March 28, 2024 
+USB & PWR 
+6 13 
+Company Internal/Proprietary 
+<Core Design> 
+D6 MSS1P3L 
+DNP 
+A C
+R44 0
+JP2 
+HDR 1X1 
+DNP 
+GND 
+1
+TP34 
+C37 
+10uF 
+D8 
+PESD5V0F1BL 
+12
+R46 0 DNP 
+R47 0
+TP46 
+MH1 
+125 
+C102 
+0.01UF 
+DNP 
+R192 0
+C39 
+4.7uF 
+R35 0
+R40 
+10K 
+DNP 
+GND VBUS 
+USB ID 
+DP 
+DM 
+U4 
+RClamp0854P.TCT 
+1
+5
+2
+3
+4
+6 7
+C33 
+4.7uF 
+D3 MSS1P3L 
+A C
+R41 
+10K 
+R50 
+10K 
+DNP 
+R27 
+0
+R38 
+10K 
+DNP 
+R36 
+10K 
+C36 
+0.1UF 
+R29 
+20K 
+DNP 
+1% 
+J24 
+IDD_MCU 
+1
+2
+R48 0
+R25 0
+C41 
+0.22uF 
+D7 
+PESD5V0F1BL 
+12
+R43 0 DNP 
+U5 
+PTN5150A 
+PORT 3
+VBUS_DET 4
+ADR/CON_DET 5INTB/OUT3 6
+SDA/OUT1 7
+SCL/OUT2 8 ID 9
+GND 10 
+EXT_SEL 11 
+VDD 12 
+CC1 1
+CC2 2
+JP1 
+HDR 1X1 
+DNP 
+GND 
+1
+MH4 
+125 
+R33 
+100K 
+R26 
+10K 
+XC6227C331PR-G 
+U2 
+CE 1
+VSS 2
+NC 3
+VIN 4 VOUT 5
+U3 
+NX5P3090UK 
+EN A1 
+FAULT A2 ILIM A3 
+VINT1 B1 
+VINT2 B2 
+GND1 B3 
+VINT3 C1 
+VBUS1 C2 
+GND2 C3 
+VBUS2 D1 
+VBUS3 D2 
+GND3 D3 
+D4 MSS1P3L 
+A C
+R203 0
+C35 
+4.7uF 
+R39 
+10K 
+R49 
+10K 
+DNP 
+C40 
+0.22uF 
+MH3 
+125 
+R37 
+10K 
+DNP 
+R28 0
+DNP 
+R32 4.7K 
+R42 
+10K 
+DNP 
+R24 
+470 
+TP47 
+R34 0
+DNP 
+L13 
+90OHM 
+21
+4 3
+J11 
+USB_TYPE_C 
+HS-USB 
+GND1 A1 
+VBUS1 A4 
+CC1 A5 
+DP1 A6 
+DN1 A7 
+SBU1 A8 
+VBUS2 A9 
+GND2 A12 
+GND3 B12 
+VBUS3 B9 
+SBU2 B8 
+DN2 B7 
+DP2 B6 
+CC2 B5 
+VBUS4 B4 
+GND4 B1 
+SH1 SH1 
+SH3 SH3 SH2 SH2 
+SH4 SH4 
+Q1 
+2SK3018 
+2
+13
+R45 0 DNP MH2 
+125 
+C34 
+0.1UF 
+D5 
+YEL-GRN 
+A C
+L3 
+330 OHM 
+1 2
+C38 
+0.22uF 
+HS_USB_DN 
+HS_USB_CC1 
+HS_USB_DP 
+HS_USB_DN HS_USB_DP 
+HS_USB_CC2 
+HS_USB_CC1 
+HS_USB_CC2 

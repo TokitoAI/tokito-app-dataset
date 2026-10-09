@@ -1,0 +1,128 @@
+{
+  "source": "NODEMCU_DEVKIT_V1.0.PcbDoc",
+  "source_sha256": "007d603df0effe46bc254c978def4d3225a9c5123803cd115ad99c087a26ea74",
+  "components": 34,
+  "nets": 41,
+  "models": [
+    {
+      "stream": "Models/0",
+      "file": "structured-source\\embedded-models\\0.step",
+      "bytes": 152191,
+      "sha256": "2cb8d8e9861561c2daa3ba17b0611e13ecffba884d815240ddb5c02b59bc2542",
+      "format": "STEP"
+    },
+    {
+      "stream": "Models/1",
+      "file": "structured-source\\embedded-models\\1.step",
+      "bytes": 934974,
+      "sha256": "a3ec061f192d57424f6106933eeb9964e2fa424cf94715e74accf006b99f1752",
+      "format": "STEP"
+    },
+    {
+      "stream": "Models/10",
+      "file": "structured-source\\embedded-models\\10.step",
+      "bytes": 465851,
+      "sha256": "949c47424f38a214f81346c71c22aa22e78c8dc7eb511bf93622f7cad9f2b270",
+      "format": "STEP"
+    },
+    {
+      "stream": "Models/11",
+      "file": "structured-source\\embedded-models\\11.step",
+      "bytes": 652900,
+      "sha256": "7563140d288a810d2378b7f6121ff7475d7f639089e969282e78a22f63ea637a",
+      "format": "STEP"
+    },
+    {
+      "stream": "Models/12",
+      "file": "structured-source\\embedded-models\\12.step",
+      "bytes": 148105,
+      "sha256": "77578ffaed9a5f7420fea2fdbee5d675658a40a6c39d8d653fb3042e2e5656e5",
+      "format": "STEP"
+    },
+    {
+      "stream": "Models/13",
+      "file": "structured-source\\embedded-models\\13.step",
+      "bytes": 148105,
+      "sha256": "77578ffaed9a5f7420fea2fdbee5d675658a40a6c39d8d653fb3042e2e5656e5",
+      "format": "STEP"
+    },
+    {
+      "stream": "Models/14",
+      "file": "structured-source\\embedded-models\\14.step",
+      "bytes": 5280399,
+      "sha256": "78db318947fa4d67e3d1f5ad9e7fbe3c44c9b0ffca621a8b8a0bb6dd93282b2b",
+      "format": "STEP"
+    },
+    {
+      "stream": "Models/15",
+      "file": "structured-source\\embedded-models\\15.step",
+      "bytes": 68317,
+      "sha256": "2af97f10d6f1dad4aa9486f40471d2c5b6be941c93b906735515e591b059a7ca",
+      "format": "STEP"
+    },
+    {
+      "stream": "Models/16",
+      "file": "structured-source\\embedded-models\\16.step",
+      "bytes": 823120,
+      "sha256": "7234dff19581f670dd0f65f1b3c5d76abb6054004ffea8627bf0ef505f66138f",
+      "format": "STEP"
+    },
+    {
+      "stream": "Models/2",
+      "file": "structured-source\\embedded-models\\2.step",
+      "bytes": 762504,
+      "sha256": "a9f0bb1212f97a4091789809380ca59a54676f504a952cd55a0d85cd3064390a",
+      "format": "STEP"
+    },
+    {
+      "stream": "Models/3",
+      "file": "structured-source\\embedded-models\\3.step",
+      "bytes": 762504,
+      "sha256": "a9f0bb1212f97a4091789809380ca59a54676f504a952cd55a0d85cd3064390a",
+      "format": "STEP"
+    },
+    {
+      "stream": "Models/4",
+      "file": "structured-source\\embedded-models\\4.step",
+      "bytes": 400024,
+      "sha256": "688cac32f7fb71be1abd6ef8e69e65003e93566c6a1e09f087daee2b0d5b1e31",
+      "format": "STEP"
+    },
+    {
+      "stream": "Models/5",
+      "file": "structured-source\\embedded-models\\5.step",
+      "bytes": 762519,
+      "sha256": "055c62283bad884be6bbce7cc5d96b90da4c30cc498bf668946fee0b64138d79",
+      "format": "STEP"
+    },
+    {
+      "stream": "Models/6",
+      "file": "structured-source\\embedded-models\\6.step",
+      "bytes": 762519,
+      "sha256": "055c62283bad884be6bbce7cc5d96b90da4c30cc498bf668946fee0b64138d79",
+      "format": "STEP"
+    },
+    {
+      "stream": "Models/7",
+      "file": "structured-source\\embedded-models\\7.step",
+      "bytes": 762519,
+      "sha256": "055c62283bad884be6bbce7cc5d96b90da4c30cc498bf668946fee0b64138d79",
+      "format": "STEP"
+    },
+    {
+      "stream": "Models/8",
+      "file": "structured-source\\embedded-models\\8.step",
+      "bytes": 1114204,
+      "sha256": "bbcd25b11a5355983ccea421fdfc4dd0b73175a2954fc2dfb52e53b7c3bbc658",
+      "format": "STEP"
+    },
+    {
+      "stream": "Models/9",
+      "file": "structured-source\\embedded-models\\9.step",
+      "bytes": 175435,
+      "sha256": "25acf4ce257097d9814bf8fc6b0b1e1c72abcfe62cdc919c4eacfc3ecaa59689",
+      "format": "STEP"
+    }
+  ],
+  "scope": "PCB property records and embedded model bytes; not procurement BOM or photo labels; coordinate strings retain source units"
+}

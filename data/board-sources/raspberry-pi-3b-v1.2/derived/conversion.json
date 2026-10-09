@@ -1,0 +1,23 @@
+{
+  "source": "outputs\\board-dataset\\raspberry-pi-3b-v1.2\\community-cluster-reference\\raspberry-pi-3b-reference.step",
+  "source_sha256": "3fe20d9dfbe7a28483893fdc18e34b2f2a29bb9452ce00f4be1b9db846cd4098",
+  "output": "outputs\\board-dataset\\raspberry-pi-3b-v1.2\\derived\\raspberry-pi-3b-community-reference.glb",
+  "output_sha256": "8f1c5b27a17b55502422e7246fa37122415f1cac8ddd81f78c16e881169b8ea6",
+  "vertices": 273179,
+  "triangles": 283722,
+  "bounds_metres": [
+    [
+      -0.04116091939919,
+      -0.00225,
+      -0.090235354746241
+    ],
+    [
+      0.044930000000000005,
+      0.016489999999999998,
+      -0.03409999999999
+    ]
+  ],
+  "tessellation_linear_mm": 0.05,
+  "tessellation_angular_rad": 0.1,
+  "status": "derived from collected STEP; physical board match unverified; geometry only, original colours not retained"
+}

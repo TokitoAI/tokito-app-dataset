@@ -1,0 +1,12 @@
+{
+  "source_header_row": 15,
+  "grouped_parts": 108,
+  "distinct_bom_refdes": 434,
+  "manufacturer_rows": 278,
+  "duplicate_refdes_groups": {},
+  "non_simple_refdes_tokens": [],
+  "quantity_issues": [],
+  "netlist_only_refdes": [],
+  "bom_only_refdes": [],
+  "scope": "source BOM grouping preserves manufacturer alternatives; distinct counts are not verified physical population"
+}

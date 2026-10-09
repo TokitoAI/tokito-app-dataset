@@ -1,0 +1,14 @@
+{
+  "counts": {
+    "train": 62,
+    "val": 11,
+    "held_out_crop_variant": 7
+  },
+  "validation_classes": [
+    "esp8266_board",
+    "ultimainboard",
+    "nxp_frdm_mcxn236_board",
+    "raspberry_pi_3b_board"
+  ],
+  "limitations": "One physical specimen per family, one session; no independent specimen test; ESP32 only one pose burst so held in training, no validation metric for ESP32; crop/original groups never split across folds. Validation is diagnostic."
+}

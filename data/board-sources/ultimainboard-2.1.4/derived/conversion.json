@@ -1,0 +1,23 @@
+{
+  "source": "outputs\\board-dataset\\ultimainboard-2.1.4\\official-3d\\1546-A.STEP",
+  "source_sha256": "cc26f03e5c7db5e962b7a00f287fa6b4451f2cc74a8b82faea169e7de4760417",
+  "output": "outputs\\board-dataset\\ultimainboard-2.1.4\\derived\\ultimainboard-part1546.glb",
+  "output_sha256": "fad1530309ec35e6ba3101832703534319e8cbf10fbade1279f45311844015c4",
+  "vertices": 1588021,
+  "triangles": 2033511,
+  "bounds_metres": [
+    [
+      -0.08461670194355395,
+      -0.05492779972,
+      -0.004421397613948574
+    ],
+    [
+      0.1024668004,
+      0.02407219976,
+      0.01579999888
+    ]
+  ],
+  "tessellation_linear_mm": 0.05,
+  "tessellation_angular_rad": 0.1,
+  "status": "derived from collected STEP; physical board match unverified; geometry only, original colours not retained"
+}

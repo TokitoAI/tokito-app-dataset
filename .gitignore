@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.venv/
+work/
+yolov8n.pt
+data/photo-model/runs/
+data/photo-model/board-training-report.json
+.DS_Store

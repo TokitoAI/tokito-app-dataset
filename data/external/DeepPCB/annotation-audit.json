@@ -1,0 +1,17 @@
+{
+  "split_counts": {
+    "trainval": 1000,
+    "test": 500
+  },
+  "samples": 1500,
+  "class_counts": {
+    "3": 1965,
+    "4": 1625,
+    "5": 1474,
+    "6": 1501,
+    "1": 1942,
+    "2": 1506
+  },
+  "box_issues": [],
+  "scope": "original dataset split respected; all image/template/label files exist; defects not component labels"
+}

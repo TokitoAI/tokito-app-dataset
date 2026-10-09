@@ -1,0 +1,316 @@
+5
+5
+4
+4
+3
+3
+2
+2
+1
+1
+D D
+C C
+B B
+A A
+SOC POWER
+Layout Note: 
+====== 
+90Ohms differential impedance 
+SOC USB & Analog Signals
+DCDC Inductor 
+Layout notes: 
+====== 
+1.Keep trace lengths short and components close to pins. 
+2.Place inductor and cap close to MCU 
+IN 
+LDO_SYS 
+LDO_CORE 
+DCDC_CORE 
+IN DNP R23(default): Enable internal LDO_SYS. 
+Solder R23: Disable internal LDO_SYS. 
+DCDC_CORE---Enable 
+LDO_CORE---Disable 
+(Default) 
+Populate R14, R18, R19; 
+DNP R17, R194, R20. 
+DCDC_CORE---Disable 
+LDO_CORE---Enable 
+Populate R17, R194, R20; 
+DNP R14, R18, R19. 
+Solder Option Mode 
+IN 
+Layout notes: 
+====== 
+Place these caps close to MCU pins. 
+OUT AGND 
+AGND 
+AGND 
+AGND 
+AGND 
+MCX_USB1_VBUS 
+P3V3_MCU VDD_IO_USB 
+VDD_IO_USB 
+VDD_IO_USB 
+VDD_P2 
+VDD_P0/1 
+VDD_P3 
+VDD_P4 
+DCDC_LX 
+VDD_P0/1 
+VDD_P2 
+VDD_P3 
+VDD_P4 
+VDD_ANA 
+DCDC_VDD_CORE DCDC_LX 
+VDD_LDO_CORE_IN 
+VDD_CORE 
+VDD_BAT 
+VDD_ANA 
+VDD_CORE_SYS 
+VDD_CORE_SYS VDD_DCDC 
+VDD_LDO_CORE_IN VDD_CORE 
+VDD_LDO_SYS_IN VDD_SYS 
+DCDC_VDD_CORE 
+VDD_LDO_SYS_IN 
+VDD_SYS 
+VDD_DCDC 
+VREFO 
+VDD_BAT 
+RESET_B [7,10,11,12] 
+HS_USB_ID [6] 
+MCX_USB1_DM [6] 
+MCX_USB1_DP [6] 
+OPAMP2_INN/RSHUNT_CURC_N [12] 
+OPAMP1_INN/RSHUNT_CURB_N [12] 
+OPAMP0_INN/RSHUNT_CURA_N [12] 
+ADC0_A0/ARD_A0 [12] 
+ADC0_B0/ARD_A1 [12] 
+ANA_6/ADC0_A3 [12] 
+ADC1_B0/MC_BEMF_A [12] 
+ANA_4/ADC1_A0 [12] 
+Drawing Title: 
+Size Document Number Rev 
+Date: Sheet of 
+Page Title: 
+Classification: 
+SCH-90818 PDF: SPF-90818 C
+FRDM-MCXN947 
+C
+Thursday, March 28, 2024 
+SOC_PWR 
+5 13 
+Company Internal/Proprietary 
+<Core Design> 
+Drawing Title: 
+Size Document Number Rev 
+Date: Sheet of 
+Page Title: 
+Classification: 
+SCH-90818 PDF: SPF-90818 C
+FRDM-MCXN947 
+C
+Thursday, March 28, 2024 
+SOC_PWR 
+5 13 
+Company Internal/Proprietary 
+<Core Design> 
+Drawing Title: 
+Size Document Number Rev 
+Date: Sheet of 
+Page Title: 
+Classification: 
+SCH-90818 PDF: SPF-90818 C
+FRDM-MCXN947 
+C
+Thursday, March 28, 2024 
+SOC_PWR 
+5 13 
+Company Internal/Proprietary 
+<Core Design> 
+JP6 
+DNP 
+1:BAT 2:GND 
+1
+2
+L2 
+1.5UH 12
+C16 
+0.1UF 
+C6 
+1uF 
+C25 
+1uF 
+R14 0
+C107 
+0.1UF 
+DNP 
+R17 0
+DNP 
+R18 0
+C27 
+6.8uF 
+R212 0
+C29 
+0.1UF 
+C22 
+0.1UF 
+C21 
+4.7uF 
+J28 
+HDR1X2 
+DNP 
+1
+2
+L1 
+120 Ohm 
+C7 
+0.1UF 
+R194 
+0
+DNP 
+C30 
+0.1UF 
+R20 0
+DNP 
+R171 0
+C13 
+1uF 
+TP1 
+C17 
+1uF 
+C26 
+0.22uF 
+R11 
+0
+C8 
+0.1UF 
+C10 
+1uF 
+C23 
+0.1UF 
+C31 
+0.1UF 
+D17 
+BAT54C-7-F 
+2
+3
+1
+R151 0
+TP32 
+R16 0
+C14 
+0.1UF 
+R15 0
+C9 
+0.1UF 
+C11 
+0.1UF 
+R10 
+0
+C32 
+0.1UF 
+C28 
+4.7uF 
+C18 
+0.1UF 
+C20 
+0.1UF 
+R9 
+0
+C15 
+0.1UF 
+TP33 
+U1G 
+MCXN947VDFT 
+RESET_b F3 
+USB0_DM/WUU0_IN28 T14 
+USB0_DP/WUU0_IN29 T15 
+USB1_DM R14 
+USB1_DP R13 
+USB1_ID P11 
+USB1_VBUS U14 
+ANA_0/ADC0_A0 P3 
+ANA_1/ADC0_B0 R3 
+ANA_4/ADC1_A0 T2 
+ANA_5/ADC1_B0 T3 
+ANA_6/DAC2_OUT/ADC0_A3/ADC1_A3 U2 
+ANA_14/OPAMP0_INN U6 
+ANA_18/OPAMP1_INN U8 
+ANA_22/OPAMP2_INN U10 
+C12 
+0.1UF 
+C19 
+0.1UF 
+R12 0
+R19 0
+TP3 
+U1H 
+MCXN947VDFT 
+VDD_P3_1 G11 VSS_7 H5 
+VDD_2 H6 
+VDD_3 H8 
+VSS_8 H9 
+VDD_P3_2 H10 
+VDD_P3_3 H12 VSS_9 H13 
+VSS_10 J4 
+VSS_11 J8 
+VSS_12 J10 
+VSS_13 J14 
+VDD_P2_1 K8 
+VSS_14 K9 
+VDD_CORE_1 K10 
+VDD_P2_2 L7 
+VDD_CORE_2 L11 
+VDD_P4_1 N5 
+VSS_15 N13 
+VDD_SYS N14 
+VDD_P4_2 P4 
+VSS_P4_1 P6 
+VSS_P4_2 P7 
+VSS_P4_3 P9 
+VSS_16 P12 
+VSS_17 P14 
+VSS_DCDC P16 
+VDD_ANA R4 
+VREFH R5 
+VREFL R6 
+VDD_USB R12 
+VDD_DCDC R15 
+VSS_18 T16 VDD_BAT T17 
+ANA_7/VREFI/VREFO/ADC0_A7/ADC1_A7 U4 
+VSS_1 D6 
+VSS_2 D9 
+VSS_3 D12 
+VSS_4 E5 
+VSS_5 E13 
+VSS_6 G2 
+VDD_1 G7 
+DCDC_LX P17 
+VDD_LDO_SYS P15 
+VDD_LDO_CORE K6 
+J27 
+HDR1X2 
+DNP 
+1
+2
+R21 
+10K 
+R23 0
+DNP 
+R22 0
+TP2 
+C24 
+2.2UF 
+R8 
+0
+R152 0
+J26 
+HDR1X2 
+DNP 
+1
+2
+J25 
+HDR1X2 
+DNP 
+1
+2

@@ -1,0 +1,446 @@
+[
+  {
+    "sheet": "02_ESP12_CORE",
+    "record_index": 36,
+    "designator": "R2",
+    "comment": "12k",
+    "library_reference": "SMT_R_0402",
+    "description": "Surface mount resistor 0402",
+    "part_id": "1",
+    "parameters": {
+      "Designator": "R2",
+      "Comment": "12k"
+    }
+  },
+  {
+    "sheet": "02_ESP12_CORE",
+    "record_index": 51,
+    "designator": "R5",
+    "comment": "12k",
+    "library_reference": "SMT_R_0402",
+    "description": "Surface mount resistor 0402",
+    "part_id": "1",
+    "parameters": {
+      "Designator": "R5",
+      "Comment": "12k"
+    }
+  },
+  {
+    "sheet": "02_ESP12_CORE",
+    "record_index": 66,
+    "designator": "R1",
+    "comment": "12k",
+    "library_reference": "SMT_R_0402",
+    "description": "Surface mount resistor 0402",
+    "part_id": "1",
+    "parameters": {
+      "Designator": "R1",
+      "Comment": "12k"
+    }
+  },
+  {
+    "sheet": "02_ESP12_CORE",
+    "record_index": 88,
+    "designator": "R3",
+    "comment": "12k",
+    "library_reference": "SMT_R_0402",
+    "description": "Surface mount resistor 0402",
+    "part_id": "1",
+    "parameters": {
+      "Designator": "R3",
+      "Comment": "12k"
+    }
+  },
+  {
+    "sheet": "02_ESP12_CORE",
+    "record_index": 137,
+    "designator": "C2",
+    "comment": "100uF TAJB107M006RNJ",
+    "library_reference": "SMT_C_Tantalum_B",
+    "description": "Capacitor, SM Tantalum; Body 3.5 x 2.8 mm (LxW typ)",
+    "part_id": "1",
+    "parameters": {
+      "Designator": "C2",
+      "Comment": "100uF TAJB107M006RNJ"
+    }
+  },
+  {
+    "sheet": "02_ESP12_CORE",
+    "record_index": 175,
+    "designator": "R4",
+    "comment": "12k",
+    "library_reference": "SMT_R_0402",
+    "description": "Surface mount resistor 0402",
+    "part_id": "1",
+    "parameters": {
+      "Designator": "R4",
+      "Comment": "12k"
+    }
+  },
+  {
+    "sheet": "02_ESP12_CORE",
+    "record_index": 191,
+    "designator": "C1",
+    "comment": "100nF",
+    "library_reference": "SMT_C_0402",
+    "description": "Surface mount capacitor 0402",
+    "part_id": "1",
+    "parameters": {
+      "Designator": "C1",
+      "Comment": "100nF"
+    }
+  },
+  {
+    "sheet": "02_ESP12_CORE",
+    "record_index": 210,
+    "designator": "U1",
+    "comment": "ESP_12_E",
+    "library_reference": "ESP_12_E",
+    "description": "ESP-12 Wi-Fi Module by AI-Thinker",
+    "part_id": "1",
+    "parameters": {
+      "IC": "ESP8266-EX",
+      "Vendor": "Ai-thinker",
+      "Designator": "U1",
+      "Comment": "ESP_12_E"
+    }
+  },
+  {
+    "sheet": "03_USB_TO_UART",
+    "record_index": 42,
+    "designator": "R6",
+    "comment": "470",
+    "library_reference": "SMT_R_0402",
+    "description": "Surface mount resistor 0402",
+    "part_id": "1",
+    "parameters": {
+      "Designator": "R6",
+      "Comment": "470"
+    }
+  },
+  {
+    "sheet": "03_USB_TO_UART",
+    "record_index": 59,
+    "designator": "U3",
+    "comment": "USB_Micro_5S_B",
+    "library_reference": "USB_Micro_5S_B",
+    "description": "USB micro female SMT with 4 fixed foot",
+    "part_id": "1",
+    "parameters": {
+      "Designator": "U3",
+      "Comment": "USB_Micro_5S_B"
+    }
+  },
+  {
+    "sheet": "03_USB_TO_UART",
+    "record_index": 93,
+    "designator": "C6",
+    "comment": "100nF",
+    "library_reference": "SMT_C_0402",
+    "description": "Surface mount capacitor 0402",
+    "part_id": "1",
+    "parameters": {
+      "Designator": "C6",
+      "Comment": "100nF"
+    }
+  },
+  {
+    "sheet": "03_USB_TO_UART",
+    "record_index": 109,
+    "designator": "C5",
+    "comment": "10uF",
+    "library_reference": "SMT_C_0402",
+    "description": "Surface mount capacitor 0402",
+    "part_id": "1",
+    "parameters": {
+      "Designator": "C5",
+      "Comment": "10uF"
+    }
+  },
+  {
+    "sheet": "03_USB_TO_UART",
+    "record_index": 142,
+    "designator": "VT2",
+    "comment": "S8050",
+    "library_reference": "SMT_TRIODE_NPN",
+    "description": "Surface mount NPN transistor, package SOT-23",
+    "part_id": "1",
+    "parameters": {
+      "Designator": "VT2",
+      "Comment": "S8050"
+    }
+  },
+  {
+    "sheet": "03_USB_TO_UART",
+    "record_index": 159,
+    "designator": "VT1",
+    "comment": "S8050",
+    "library_reference": "SMT_TRIODE_NPN",
+    "description": "Surface mount NPN transistor, package SOT-23",
+    "part_id": "1",
+    "parameters": {
+      "Designator": "VT1",
+      "Comment": "S8050"
+    }
+  },
+  {
+    "sheet": "03_USB_TO_UART",
+    "record_index": 176,
+    "designator": "R7",
+    "comment": "12k",
+    "library_reference": "SMT_R_0402",
+    "description": "Surface mount resistor 0402",
+    "part_id": "1",
+    "parameters": {
+      "Designator": "R7",
+      "Comment": "12k"
+    }
+  },
+  {
+    "sheet": "03_USB_TO_UART",
+    "record_index": 191,
+    "designator": "R8",
+    "comment": "12k",
+    "library_reference": "SMT_R_0402",
+    "description": "Surface mount resistor 0402",
+    "part_id": "1",
+    "parameters": {
+      "Designator": "R8",
+      "Comment": "12k"
+    }
+  },
+  {
+    "sheet": "03_USB_TO_UART",
+    "record_index": 214,
+    "designator": "U2",
+    "comment": "CP2102",
+    "library_reference": "CP2102",
+    "description": "CP2102",
+    "part_id": "1",
+    "parameters": {
+      "Designator": "U2",
+      "Comment": "CP2102"
+    }
+  },
+  {
+    "sheet": "03_USB_TO_UART",
+    "record_index": 320,
+    "designator": "C4",
+    "comment": "100nF",
+    "library_reference": "SMT_C_0402",
+    "description": "Surface mount capacitor 0402",
+    "part_id": "1",
+    "parameters": {
+      "Designator": "C4",
+      "Comment": "100nF"
+    }
+  },
+  {
+    "sheet": "03_USB_TO_UART",
+    "record_index": 335,
+    "designator": "C3",
+    "comment": "10uF",
+    "library_reference": "SMT_C_0402",
+    "description": "Surface mount capacitor 0402",
+    "part_id": "1",
+    "parameters": {
+      "Designator": "C3",
+      "Comment": "10uF"
+    }
+  },
+  {
+    "sheet": "04_POWER",
+    "record_index": 52,
+    "designator": "U4",
+    "comment": "NCP1117ST33T3G",
+    "library_reference": "NCP1117",
+    "description": "NCP1117, NCV1117. 1.0 A Low-Dropout Positive  Fixed and Adjustable  Voltage Regulators",
+    "part_id": "1",
+    "parameters": {
+      "Designator": "U4",
+      "Comment": "NCP1117ST33T3G"
+    }
+  },
+  {
+    "sheet": "04_POWER",
+    "record_index": 71,
+    "designator": "C8",
+    "comment": "10uF",
+    "library_reference": "SMT_C_0402",
+    "description": "Surface mount capacitor 0402",
+    "part_id": "1",
+    "parameters": {
+      "Designator": "C8",
+      "Comment": "10uF"
+    }
+  },
+  {
+    "sheet": "04_POWER",
+    "record_index": 89,
+    "designator": "C7",
+    "comment": "10uF 25V",
+    "library_reference": "SMT_C_0805",
+    "description": "Surface mount capacitor 0805",
+    "part_id": "1",
+    "parameters": {
+      "Designator": "C7",
+      "Comment": "10uF 25V"
+    }
+  },
+  {
+    "sheet": "04_POWER",
+    "record_index": 104,
+    "designator": "D1",
+    "comment": "1N5819/SS14/S4(SOD_323)",
+    "library_reference": "SMT_DIODE_SCHOTTKY_SOD_323",
+    "description": "Surface mount schottky diode SOD-323(0805) Package",
+    "part_id": "1",
+    "parameters": {
+      "Designator": "D1",
+      "Comment": "1N5819/SS14/S4(SOD_323)"
+    }
+  },
+  {
+    "sheet": "05_IO_CONN",
+    "record_index": 48,
+    "designator": "J1",
+    "comment": "THT_Male_P_1x15",
+    "library_reference": "THT_Male_P_1x15",
+    "description": "THT Male pin header strip 1x15",
+    "part_id": "1",
+    "parameters": {
+      "Designator": "J1",
+      "Comment": "THT_Male_P_1x15"
+    }
+  },
+  {
+    "sheet": "05_IO_CONN",
+    "record_index": 86,
+    "designator": "J2",
+    "comment": "THT_Male_P_1x15",
+    "library_reference": "THT_Male_P_1x15",
+    "description": "THT Male pin header strip 1x15",
+    "part_id": "1",
+    "parameters": {
+      "Designator": "J2",
+      "Comment": "THT_Male_P_1x15"
+    }
+  },
+  {
+    "sheet": "06_KEY",
+    "record_index": 30,
+    "designator": "R9",
+    "comment": "470",
+    "library_reference": "SMT_R_0402",
+    "description": "Surface mount resistor 0402",
+    "part_id": "1",
+    "parameters": {
+      "Designator": "R9",
+      "Comment": "470"
+    }
+  },
+  {
+    "sheet": "06_KEY",
+    "record_index": 45,
+    "designator": "R10",
+    "comment": "0(NC)",
+    "library_reference": "SMT_R_0402",
+    "description": "Surface mount resistor 0402",
+    "part_id": "1",
+    "parameters": {
+      "Designator": "R10",
+      "Comment": "0(NC)"
+    }
+  },
+  {
+    "sheet": "06_KEY",
+    "record_index": 63,
+    "designator": "S1",
+    "comment": "KEY_RST/USER",
+    "library_reference": "SMT_SW_PTS_820",
+    "description": "SMT Tactile ?Switch PTS 820 Series",
+    "part_id": "1",
+    "parameters": {
+      "Designator": "S1",
+      "Comment": "KEY_RST/USER"
+    }
+  },
+  {
+    "sheet": "06_KEY",
+    "record_index": 78,
+    "designator": "R11",
+    "comment": "470",
+    "library_reference": "SMT_R_0402",
+    "description": "Surface mount resistor 0402",
+    "part_id": "1",
+    "parameters": {
+      "Designator": "R11",
+      "Comment": "470"
+    }
+  },
+  {
+    "sheet": "06_KEY",
+    "record_index": 93,
+    "designator": "R12",
+    "comment": "470",
+    "library_reference": "SMT_R_0402",
+    "description": "Surface mount resistor 0402",
+    "part_id": "1",
+    "parameters": {
+      "Designator": "R12",
+      "Comment": "470"
+    }
+  },
+  {
+    "sheet": "06_KEY",
+    "record_index": 109,
+    "designator": "S2",
+    "comment": "KEY_FLASH",
+    "library_reference": "SMT_SW_PTS_820",
+    "description": "SMT Tactile ?Switch PTS 820 Series",
+    "part_id": "1",
+    "parameters": {
+      "Designator": "S2",
+      "Comment": "KEY_FLASH"
+    }
+  },
+  {
+    "sheet": "06_KEY",
+    "record_index": 125,
+    "designator": "LED1",
+    "comment": "BLUE",
+    "library_reference": "SMT_LED_0603",
+    "description": "SMT LED",
+    "part_id": "1",
+    "parameters": {
+      "Designator": "LED1",
+      "Comment": "BLUE"
+    }
+  },
+  {
+    "sheet": "07_ADC",
+    "record_index": 31,
+    "designator": "R13",
+    "comment": "220k(1%)",
+    "library_reference": "SMT_R_0402",
+    "description": "Surface mount resistor 0402",
+    "part_id": "1",
+    "parameters": {
+      "Designator": "R13",
+      "Comment": "220k(1%)"
+    }
+  },
+  {
+    "sheet": "07_ADC",
+    "record_index": 46,
+    "designator": "R14",
+    "comment": "100k(1%)",
+    "library_reference": "SMT_R_0402",
+    "description": "Surface mount resistor 0402",
+    "part_id": "1",
+    "parameters": {
+      "Designator": "R14",
+      "Comment": "100k(1%)"
+    }
+  }
+]

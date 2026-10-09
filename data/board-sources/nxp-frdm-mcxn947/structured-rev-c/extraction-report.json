@@ -1,0 +1,45 @@
+{
+  "bom_sheets": {
+    "ManufacturerBomReport": {
+      "rows": 315,
+      "columns": 19,
+      "preview": [
+        [
+          null,
+          "ManufacturerBomReport"
+        ],
+        [
+          "Type",
+          "Part"
+        ],
+        [
+          "Classification",
+          "Sales Item/Commercial Boards/Evaluation Board or Silicon Validation"
+        ],
+        [
+          "Item Number",
+          "935455837598"
+        ],
+        [
+          "Name",
+          "FRDM-MCXN947"
+        ],
+        [
+          "Description",
+          "FRDM-MCXN947"
+        ],
+        [
+          "Lifecycle",
+          "RFS"
+        ],
+        [
+          "Item Revision",
+          "A1"
+        ]
+      ]
+    }
+  },
+  "nets": 354,
+  "pin_connections": 1470,
+  "scope": "Official Rev C source extraction; physical board revision unconfirmed; not photo labels"
+}

@@ -1,0 +1,13 @@
+{
+  "source_sha256": "e2380725de34ad8e897a51d83a6ced863c95f1c0d2ed25ac9e810903840c9cd4",
+  "zip_crc_checked": true,
+  "test_images": 1503,
+  "template_images": 1504,
+  "pairs_with_template": 1503,
+  "missing_templates": [],
+  "license_files": [
+    "LICENSE"
+  ],
+  "annotation_semantics_check": "pending",
+  "physical_board_scope": "auxiliary copper-defect dataset, not photo ground truth"
+}

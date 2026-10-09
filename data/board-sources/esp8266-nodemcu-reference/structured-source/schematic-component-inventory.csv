@@ -1,0 +1,35 @@
+﻿sheet,record_index,designator,comment,library_reference,description,part_id
+02_ESP12_CORE,36,R2,12k,SMT_R_0402,Surface mount resistor 0402,1
+02_ESP12_CORE,51,R5,12k,SMT_R_0402,Surface mount resistor 0402,1
+02_ESP12_CORE,66,R1,12k,SMT_R_0402,Surface mount resistor 0402,1
+02_ESP12_CORE,88,R3,12k,SMT_R_0402,Surface mount resistor 0402,1
+02_ESP12_CORE,137,C2,100uF TAJB107M006RNJ,SMT_C_Tantalum_B,"Capacitor, SM Tantalum; Body 3.5 x 2.8 mm (LxW typ)",1
+02_ESP12_CORE,175,R4,12k,SMT_R_0402,Surface mount resistor 0402,1
+02_ESP12_CORE,191,C1,100nF,SMT_C_0402,Surface mount capacitor 0402,1
+02_ESP12_CORE,210,U1,ESP_12_E,ESP_12_E,ESP-12 Wi-Fi Module by AI-Thinker,1
+03_USB_TO_UART,42,R6,470,SMT_R_0402,Surface mount resistor 0402,1
+03_USB_TO_UART,59,U3,USB_Micro_5S_B,USB_Micro_5S_B,USB micro female SMT with 4 fixed foot,1
+03_USB_TO_UART,93,C6,100nF,SMT_C_0402,Surface mount capacitor 0402,1
+03_USB_TO_UART,109,C5,10uF,SMT_C_0402,Surface mount capacitor 0402,1
+03_USB_TO_UART,142,VT2,S8050,SMT_TRIODE_NPN,"Surface mount NPN transistor, package SOT-23",1
+03_USB_TO_UART,159,VT1,S8050,SMT_TRIODE_NPN,"Surface mount NPN transistor, package SOT-23",1
+03_USB_TO_UART,176,R7,12k,SMT_R_0402,Surface mount resistor 0402,1
+03_USB_TO_UART,191,R8,12k,SMT_R_0402,Surface mount resistor 0402,1
+03_USB_TO_UART,214,U2,CP2102,CP2102,CP2102,1
+03_USB_TO_UART,320,C4,100nF,SMT_C_0402,Surface mount capacitor 0402,1
+03_USB_TO_UART,335,C3,10uF,SMT_C_0402,Surface mount capacitor 0402,1
+04_POWER,52,U4,NCP1117ST33T3G,NCP1117,"NCP1117, NCV1117. 1.0 A Low-Dropout Positive  Fixed and Adjustable  Voltage Regulators",1
+04_POWER,71,C8,10uF,SMT_C_0402,Surface mount capacitor 0402,1
+04_POWER,89,C7,10uF 25V,SMT_C_0805,Surface mount capacitor 0805,1
+04_POWER,104,D1,1N5819/SS14/S4(SOD_323),SMT_DIODE_SCHOTTKY_SOD_323,Surface mount schottky diode SOD-323(0805) Package,1
+05_IO_CONN,48,J1,THT_Male_P_1x15,THT_Male_P_1x15,THT Male pin header strip 1x15,1
+05_IO_CONN,86,J2,THT_Male_P_1x15,THT_Male_P_1x15,THT Male pin header strip 1x15,1
+06_KEY,30,R9,470,SMT_R_0402,Surface mount resistor 0402,1
+06_KEY,45,R10,0(NC),SMT_R_0402,Surface mount resistor 0402,1
+06_KEY,63,S1,KEY_RST/USER,SMT_SW_PTS_820,SMT Tactile ?Switch PTS 820 Series,1
+06_KEY,78,R11,470,SMT_R_0402,Surface mount resistor 0402,1
+06_KEY,93,R12,470,SMT_R_0402,Surface mount resistor 0402,1
+06_KEY,109,S2,KEY_FLASH,SMT_SW_PTS_820,SMT Tactile ?Switch PTS 820 Series,1
+06_KEY,125,LED1,BLUE,SMT_LED_0603,SMT LED,1
+07_ADC,31,R13,220k(1%),SMT_R_0402,Surface mount resistor 0402,1
+07_ADC,46,R14,100k(1%),SMT_R_0402,Surface mount resistor 0402,1

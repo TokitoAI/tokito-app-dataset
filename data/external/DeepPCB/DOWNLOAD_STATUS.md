@@ -1,0 +1,3 @@
+The initial source.zip download timed out and is incomplete. Do not use it as data. A new source-complete.zip download is being acquired from the pinned GitHub tree. Completion requires ZIP integrity validation, extraction, dataset pair counts and annotation checks. This auxiliary dataset concerns copper defects, not board-specific component/refdes labels.
+
+The replacement source-complete.zip download succeeded and passed full ZIP CRC checks. Extracted originals and source LICENSE are preserved. See audit.json for raw repository counts and annotation-audit.json/samples.jsonl for official split validation. Initial source.zip remains excluded.
