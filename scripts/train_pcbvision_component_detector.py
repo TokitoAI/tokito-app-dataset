@@ -76,7 +76,11 @@ def main():
                      'results.png', 'PR_curve.png', 'F1_curve.png'):
         source = run / filename
         if source.is_file():
-            shutil.copy2(source, PUBLISH / filename)
+            destination = PUBLISH / filename
+            if source.suffix == '.csv':
+                destination.write_bytes(('\n'.join(source.read_text(encoding='utf-8').splitlines()) + '\n').encode('utf-8'))
+            else:
+                shutil.copy2(source, destination)
     report = {
         'schema_version': 1,
         'status': 'external_three_class_candidate_box_experiment',
