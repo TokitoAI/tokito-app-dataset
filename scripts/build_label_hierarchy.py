@@ -10,6 +10,7 @@ import argparse
 from collections import Counter, defaultdict
 import hashlib
 import json
+import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -41,6 +42,36 @@ def box(values):
     return values
 
 
+def through_hole_pad_records(name):
+    """Read explicit through-hole pad number/net/UUID; exclude duplicate SMD additions."""
+    data = (ROOT / name).read_bytes()
+    if data.startswith(b'version https://git-lfs.github.com/spec/v1\n'):
+        return None
+    source = data.decode('utf-8')
+    records = {}
+    for match in re.finditer(r'\(pad "([^"]+)" thru_hole\b', source):
+        depth, quoted, escaped = 0, False, False
+        end = match.start()
+        for end in range(match.start(), len(source)):
+            char = source[end]
+            if escaped:
+                escaped = False
+            elif quoted and char == '\\':
+                escaped = True
+            elif char == '"':
+                quoted = not quoted
+            elif not quoted:
+                depth += (char == '(') - (char == ')')
+                if depth == 0:
+                    break
+        block = source[match.start():end+1]
+        uuid = re.search(r'\(uuid "([^"]+)"\)', block).group(1)
+        net = re.search(r'\(net "([^"]+)"\)', block)
+        assert uuid not in records
+        records[uuid] = (match.group(1), net.group(1) if net else None)
+    return records
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--check', action='store_true', help='Compare saved hierarchy with regenerated source joins')
@@ -59,6 +90,8 @@ def main():
     links_path = 'annotations/component-source-links.json'
     photo_pins_path = 'annotations/pin-annotations.json'
     j22_link_path = 'annotations/ultimainboard-j22-source-link.json'
+    pin_expansion_path = 'annotations/ultimainboard-pin-expansion.json'
+    esp_contacts_path = 'annotations/esp-header-pin-labels.json'
     components_path = 'data/board-sources/nxp-frdm-mcxn236/structured-rev-c/components.json'
     boards = read(board_path)
     review = read(review_path)['images']
@@ -205,11 +238,26 @@ def main():
         add_part(name, source, 'annotations', number, original)
 
     assert linked_count == len(links)
+    expansion = read(pin_expansion_path)
+    assert expansion['photo']['sha256'] == by_file[Path(expansion['photo']['path']).name]['image_sha256']
+    for source in expansion['sources'].values():
+        verify_source_hash(source['path'], source['sha256'])
+    for update in expansion['reviewed_parent_updates']:
+        image = by_file[update['image_file']]
+        assert image['board']['family'] == 'ultimainboard'
+        part = next(part for part in image['parts'] if part['id'] == update['part_id'])
+        assert part['annotation_source'] == update['seed_file']
+        assert part['annotation_id'] == update['seed_id']
+        assert part['bbox_xyxy_normalized'] == update['bbox_xyxy_normalized']
+        part['observed_reference_designator'] = update['reference_designator']
+        part['box_review_status'] = update['annotation_status']
+        part['parent_review_source'] = pin_expansion_path
+
     photo_pins = read(photo_pins_path)
     assert photo_pins['schema_version'] == '1.0'
     pin_count = 0
     pin_ids = set()
-    for entry in photo_pins['pins']:
+    for entry in [*photo_pins['pins'], *expansion['pins']]:
         image = by_file[entry['image_file']]
         assert entry['image_sha256'] == image['image_sha256']
         assert entry['board_family'] == image['board']['family']
@@ -223,6 +271,9 @@ def main():
         x0, y0, x1, y1 = pixels
         assert 0 <= x0 < x1 <= image['image_width']
         assert 0 <= y0 < y1 <= image['image_height']
+        parent_bounds = part['bbox_xyxy_normalized']
+        assert parent_bounds[0]*image['image_width'] <= x0 < x1 <= parent_bounds[2]*image['image_width']
+        assert parent_bounds[1]*image['image_height'] <= y0 < y1 <= parent_bounds[3]*image['image_height']
         assert entry['review_status'] == 'visually_reviewed_pin_location'
         assert entry['pin_identity_evidence']
         number = entry['pin_number']
@@ -246,6 +297,51 @@ def main():
             })
         part['photo_pin_label_count'] += 1
         pin_count += 1
+
+    alias_count = 0
+    contacts = read(esp_contacts_path)
+    assert contacts['schema_version'] == '1.0' and contacts['training_eligible'] is False
+    for image_entry in contacts['images']:
+        image = by_file[image_entry['image_file']]
+        assert image_entry['image_sha256'] == image['image_sha256']
+        assert image_entry['board_family'] == image['board']['family']
+        assert [image_entry['image_width'], image_entry['image_height']] == [image['image_width'], image['image_height']]
+        for number, original in enumerate(image_entry['parts'], 1):
+            assert original['review_status'] == 'visually_reviewed_part_location'
+            w, h = image['image_width'], image['image_height']
+            x0, y0, x1, y1 = original['photo_bbox_xyxy_pixels']
+            add_part(image['image_file'], esp_contacts_path, 'parts', number, {
+                'id': original['id'], 'class': original['class'],
+                'bbox_xyxy': [x0/w, y0/h, x1/w, y1/h],
+                'review_status': 'visual_reviewed_contact_row_box',
+            })
+            part = image['parts'][-1]
+            for entry in original['pins']:
+                assert entry['id'] not in pin_ids
+                pin_ids.add(entry['id'])
+                assert entry['parent_part_id'] == original['id']
+                assert entry['label_semantics'] == 'board_silkscreen_alias'
+                assert entry['pin_number'] is None and entry['source_net'] is None and entry['source_refdes'] is None
+                assert entry['review_status'] == 'visually_reviewed_contact_and_printed_alias'
+                assert entry['printed_alias'] and entry['evidence']
+                a, b, c, d = entry['photo_bbox_xyxy_pixels']
+                assert x0 <= a < c <= x1 and y0 <= b < d <= y1
+                box([v/scale for v, scale in zip(entry['silkscreen_bbox_xyxy_pixels'], [w, h, w, h])])
+                part['pins'].append({
+                    'pin_number': None, 'printed_alias': entry['printed_alias'],
+                    'pin_identifier_kind': 'board_silkscreen_alias',
+                    'symbol_pin_name': None, 'source_net_name': None,
+                    'source_record_kind': None,
+                    'photo_bbox_xyxy_pixels': entry['photo_bbox_xyxy_pixels'],
+                    'silkscreen_bbox_xyxy_pixels': entry['silkscreen_bbox_xyxy_pixels'],
+                    'mapping_status': 'reviewed_photo_contact_with_printed_alias',
+                    'photo_pin_annotation_id': entry['id'],
+                    'annotation_source': esp_contacts_path,
+                    'identity_evidence': entry['evidence'],
+                    'truncated': entry['truncated'],
+                })
+                part['photo_pin_label_count'] += 1
+                alias_count += 1
     j22 = read(j22_link_path)
     assert j22['schema_version'] == '1.0' and j22['status'] == 'source_verified_photo_pin_link'
     assert j22['board_family'] == 'ultimainboard'
@@ -277,6 +373,43 @@ def main():
         'source_link_path': j22_link_path,
         'installed_part_identity_status': 'unconfirmed',
     }
+    expansion_catalog = {(pin['refdes'], pin['pin_number']): pin
+                         for pin in other_pin_families['ultimainboard']['pins']
+                         if pin['refdes'] in {entry['reference_designator'] for entry in expansion['connectors']}}
+    pad_records = through_hole_pad_records(expansion['sources']['imported_pcb']['path'])
+    expansion_source_records = set()
+    for entry in expansion['pins']:
+        image = by_file[entry['image_file']]
+        part = next(part for part in image['parts'] if part['id'] == entry['part_id'])
+        assert part['observed_reference_designator'] == entry['reference_designator']
+        pin = next(pin for pin in part['pins'] if pin['pin_number'] == entry['pin_number'])
+        catalog = expansion_catalog[entry['reference_designator'], entry['pin_number']]
+        assert catalog['source_record_index'] == entry['source_schematic_pin_record_index']
+        assert catalog['source_sheet'] == entry['source_schematic_sheet']
+        path = entry['source_schematic_pin_records_path']
+        records = {row['stream_record_index']: row['fields'] for row in read(path)}
+        assert records[catalog['source_record_index']]['RECORD'] == '2'
+        assert records[catalog['source_record_index']]['DESIGNATOR'] == entry['pin_number']
+        expansion_source_records.add(path)
+        connector = next(connector for connector in expansion['connectors'] if connector['part_id'] == part['id'])
+        pad = next(pad for pad in connector['verified_through_hole_pads'] if pad['pin_number'] == entry['pin_number'])
+        assert pad['uuid'] == entry['imported_pad_uuid'] and pad['net'] == entry['source_net']
+        if pad_records is not None:
+            assert pad_records[pad['uuid']] == (entry['pin_number'], entry['source_net'])
+        pin['symbol_pin_name'] = catalog['pin_name']
+        pin['source_net_name'] = entry['source_net']
+        pin['source_record_kind'] = 'revision_matched_through_hole_pad_and_schematic_pin'
+        pin['source_link_path'] = pin_expansion_path
+        pin['mapping_status'] = 'reviewed_photo_pin_with_source_link'
+        part['source_component_candidate'] = {
+            'source_refdes': entry['reference_designator'],
+            'source_board_revision': '2.1.4',
+            'source_link_path': pin_expansion_path,
+            'installed_part_identity_status': 'unconfirmed',
+        }
+    for image in by_file.values():
+        if image['board']['family'] == 'ultimainboard':
+            image['board']['source_reference']['unlinked_source_pin_record_count'] -= len(j22['pins']) + len(expansion['pins'])
     stats = {
         'board_images': len(by_file),
         'board_family_counts': dict(sorted(Counter(row['board']['family'] for row in by_file.values()).items())),
@@ -288,24 +421,26 @@ def main():
         'part_seed_boxes_by_family': dict(sorted({family: sum(
             len(row['parts']) for row in by_file.values()
             if row['board']['family'] == family) for family in CLASS_NAMES}.items())),
-        'source_linked_part_seeds': linked_count + 1,
+        'source_linked_part_seeds': linked_count + 1 + len(expansion['connectors']),
         'nxp_source_linked_part_seeds': linked_count,
-        'source_pin_records_under_linked_parts': pin_record_count,
+        'source_pin_records_under_linked_parts': pin_record_count + len(j22['pins']) + len(expansion['pins']),
         'reference_source_pin_catalog_records': sum(row['source_pin_record_count'] for row in other_pin_families.values()),
-        'unlinked_reference_source_pin_records': sum(row['source_pin_record_count'] for row in other_pin_families.values()) - len(j22['pins']),
-        'source_linked_photo_pins': len(j22['pins']),
-        'photo_pins_located': pin_count,
+        'unlinked_reference_source_pin_records': sum(row['source_pin_record_count'] for row in other_pin_families.values()) - len(j22['pins']) - len(expansion['pins']),
+        'source_linked_photo_pins': len(j22['pins']) + len(expansion['pins']),
+        'photo_pins_located': pin_count + alias_count,
+        'photo_pins_numbered': pin_count,
+        'photo_contacts_with_printed_alias': alias_count,
         'photo_pins_located_by_family': dict(sorted({family: sum(
             part['photo_pin_label_count'] for row in by_file.values()
             if row['board']['family'] == family for part in row['parts'])
             for family in CLASS_NAMES}.items())),
     }
-    assert stats['partial_part_images'] == 19 and stats['part_seed_boxes'] == 233
+    assert stats['partial_part_images'] == 19 and stats['part_seed_boxes'] == 236
     result = {
         'schema_version': '1.0',
         'label_order': ['board_family', 'part', 'pin'],
-        'meaning': 'Board labels are reviewed; part boxes are partial review seeds; source pin records are not photo pin labels.',
-        'sources': {name: {'sha256': sha256(name)} for name in [board_path, review_path, manifest_path, source_bundles_path, other_pins_path, *seed_paths, links_path, components_path, photo_pins_path, j22_link_path]},
+        'meaning': 'Board labels are reviewed; parts have partial coverage. Source-only pin records, reviewed numeric photo pins and directly printed photo contact aliases retain distinct status.',
+        'sources': {name: {'sha256': sha256(name)} for name in [board_path, review_path, manifest_path, source_bundles_path, other_pins_path, *seed_paths, links_path, components_path, photo_pins_path, j22_link_path, pin_expansion_path, esp_contacts_path, *sorted(expansion_source_records)]},
         'statistics': stats,
         'images': [by_file[row['file']] for row in boards],
     }

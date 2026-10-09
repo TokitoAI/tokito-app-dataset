@@ -5,7 +5,7 @@
     "part",
     "pin"
   ],
-  "meaning": "Board labels are reviewed; part boxes are partial review seeds; source pin records are not photo pin labels.",
+  "meaning": "Board labels are reviewed; parts have partial coverage. Source-only pin records, reviewed numeric photo pins and directly printed photo contact aliases retain distinct status.",
   "sources": {
     "data/photo-model/board-annotations.json": {
       "sha256": "ed4a4d23976b2a5a5cc9745754d3d16b9c6556ef4cdeb6a960c0c130bc0038b4"
@@ -51,6 +51,18 @@
     },
     "annotations/ultimainboard-j22-source-link.json": {
       "sha256": "af3abe5126d5bdcbe810dd11119673bf0fdb58e49105f05125700bd2dc9cd520"
+    },
+    "annotations/ultimainboard-pin-expansion.json": {
+      "sha256": "367ea070d93ade8dcafeadd55bc33fe3327a2d501542a4b7fbcac1869ec4b4fb"
+    },
+    "annotations/esp-header-pin-labels.json": {
+      "sha256": "6fbcf5387c876ba2b85fde664c8dcf2282625a0d20979d2534400469e84a2f8f"
+    },
+    "data/board-sources/ultimainboard-2.1.4/structured-source/schematic-records/schema1.json": {
+      "sha256": "06a938e0cf74b7d0cf623378b298f5fcc4b9dd877553ece89f0d061b50b17ea6"
+    },
+    "data/board-sources/ultimainboard-2.1.4/structured-source/schematic-records/schema3.json": {
+      "sha256": "9b9582b48443e12a6f7c43b1ef1232d01424cd742a1a400d3aa94b434c16b4cf"
     }
   },
   "statistics": {
@@ -70,27 +82,29 @@
       "raspberry_pi_3b_board": 4,
       "ultimainboard": 4
     },
-    "part_seed_boxes": 233,
+    "part_seed_boxes": 236,
     "part_seed_boxes_by_family": {
-      "esp32_board": 24,
-      "esp8266_board": 21,
+      "esp32_board": 25,
+      "esp8266_board": 23,
       "nxp_frdm_mcxn236_board": 52,
       "raspberry_pi_3b_board": 42,
       "ultimainboard": 94
     },
-    "source_linked_part_seeds": 11,
+    "source_linked_part_seeds": 14,
     "nxp_source_linked_part_seeds": 10,
-    "source_pin_records_under_linked_parts": 352,
+    "source_pin_records_under_linked_parts": 374,
     "reference_source_pin_catalog_records": 1443,
-    "unlinked_reference_source_pin_records": 1439,
-    "source_linked_photo_pins": 4,
-    "photo_pins_located": 4,
+    "unlinked_reference_source_pin_records": 1421,
+    "source_linked_photo_pins": 22,
+    "photo_pins_located": 66,
+    "photo_pins_numbered": 22,
+    "photo_contacts_with_printed_alias": 44,
     "photo_pins_located_by_family": {
-      "esp32_board": 0,
-      "esp8266_board": 0,
+      "esp32_board": 15,
+      "esp8266_board": 29,
       "nxp_frdm_mcxn236_board": 0,
       "raspberry_pi_3b_board": 0,
-      "ultimainboard": 4
+      "ultimainboard": 22
     }
   },
   "images": [
@@ -4922,6 +4936,399 @@
           "source_component_candidate": null,
           "photo_pin_label_count": 0,
           "pins": []
+        },
+        {
+          "id": "IMG_20261009_221838_1.jpg:annotations/esp-header-pin-labels.json:esp32-left-contact-row",
+          "annotation_source": "annotations/esp-header-pin-labels.json",
+          "annotation_id": "esp32-left-contact-row",
+          "class_name": "through_hole_contact_row",
+          "bbox_xyxy_normalized": [
+            0.11206896551724138,
+            0.24231678486997635,
+            0.18211206896551724,
+            0.9828605200945626
+          ],
+          "box_review_status": "visual_reviewed_contact_row_box",
+          "observed_reference_designator": null,
+          "source_component_candidate": null,
+          "photo_pin_label_count": 15,
+          "pins": [
+            {
+              "pin_number": null,
+              "printed_alias": "3V3",
+              "pin_identifier_kind": "board_silkscreen_alias",
+              "symbol_pin_name": null,
+              "source_net_name": null,
+              "source_record_kind": null,
+              "photo_bbox_xyxy_pixels": [
+                106,
+                417,
+                168,
+                475
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                170,
+                409,
+                220,
+                480
+              ],
+              "mapping_status": "reviewed_photo_contact_with_printed_alias",
+              "photo_pin_annotation_id": "esp32-left-contact-row-1-3v3",
+              "annotation_source": "annotations/esp-header-pin-labels.json",
+              "identity_evidence": "Printed 3V3 is immediately beside this isolated outer-edge solder contact in the reviewed original photo. Alias is transcribed as printed; no numeric pin or net identity inferred.",
+              "truncated": false
+            },
+            {
+              "pin_number": null,
+              "printed_alias": "GND",
+              "pin_identifier_kind": "board_silkscreen_alias",
+              "symbol_pin_name": null,
+              "source_net_name": null,
+              "source_record_kind": null,
+              "photo_bbox_xyxy_pixels": [
+                106,
+                500,
+                168,
+                558
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                170,
+                492,
+                220,
+                563
+              ],
+              "mapping_status": "reviewed_photo_contact_with_printed_alias",
+              "photo_pin_annotation_id": "esp32-left-contact-row-2-gnd",
+              "annotation_source": "annotations/esp-header-pin-labels.json",
+              "identity_evidence": "Printed GND is immediately beside this isolated outer-edge solder contact in the reviewed original photo. Alias is transcribed as printed; no numeric pin or net identity inferred.",
+              "truncated": false
+            },
+            {
+              "pin_number": null,
+              "printed_alias": "D15",
+              "pin_identifier_kind": "board_silkscreen_alias",
+              "symbol_pin_name": null,
+              "source_net_name": null,
+              "source_record_kind": null,
+              "photo_bbox_xyxy_pixels": [
+                106,
+                584,
+                168,
+                642
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                170,
+                576,
+                220,
+                647
+              ],
+              "mapping_status": "reviewed_photo_contact_with_printed_alias",
+              "photo_pin_annotation_id": "esp32-left-contact-row-3-d15",
+              "annotation_source": "annotations/esp-header-pin-labels.json",
+              "identity_evidence": "Printed D15 is immediately beside this isolated outer-edge solder contact in the reviewed original photo. Alias is transcribed as printed; no numeric pin or net identity inferred.",
+              "truncated": false
+            },
+            {
+              "pin_number": null,
+              "printed_alias": "D2",
+              "pin_identifier_kind": "board_silkscreen_alias",
+              "symbol_pin_name": null,
+              "source_net_name": null,
+              "source_record_kind": null,
+              "photo_bbox_xyxy_pixels": [
+                106,
+                667,
+                168,
+                725
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                170,
+                659,
+                220,
+                730
+              ],
+              "mapping_status": "reviewed_photo_contact_with_printed_alias",
+              "photo_pin_annotation_id": "esp32-left-contact-row-4-d2",
+              "annotation_source": "annotations/esp-header-pin-labels.json",
+              "identity_evidence": "Printed D2 is immediately beside this isolated outer-edge solder contact in the reviewed original photo. Alias is transcribed as printed; no numeric pin or net identity inferred.",
+              "truncated": false
+            },
+            {
+              "pin_number": null,
+              "printed_alias": "D4",
+              "pin_identifier_kind": "board_silkscreen_alias",
+              "symbol_pin_name": null,
+              "source_net_name": null,
+              "source_record_kind": null,
+              "photo_bbox_xyxy_pixels": [
+                106,
+                751,
+                168,
+                809
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                170,
+                743,
+                220,
+                814
+              ],
+              "mapping_status": "reviewed_photo_contact_with_printed_alias",
+              "photo_pin_annotation_id": "esp32-left-contact-row-5-d4",
+              "annotation_source": "annotations/esp-header-pin-labels.json",
+              "identity_evidence": "Printed D4 is immediately beside this isolated outer-edge solder contact in the reviewed original photo. Alias is transcribed as printed; no numeric pin or net identity inferred.",
+              "truncated": false
+            },
+            {
+              "pin_number": null,
+              "printed_alias": "RX2",
+              "pin_identifier_kind": "board_silkscreen_alias",
+              "symbol_pin_name": null,
+              "source_net_name": null,
+              "source_record_kind": null,
+              "photo_bbox_xyxy_pixels": [
+                106,
+                836,
+                168,
+                894
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                170,
+                828,
+                220,
+                899
+              ],
+              "mapping_status": "reviewed_photo_contact_with_printed_alias",
+              "photo_pin_annotation_id": "esp32-left-contact-row-6-rx2",
+              "annotation_source": "annotations/esp-header-pin-labels.json",
+              "identity_evidence": "Printed RX2 is immediately beside this isolated outer-edge solder contact in the reviewed original photo. Alias is transcribed as printed; no numeric pin or net identity inferred.",
+              "truncated": false
+            },
+            {
+              "pin_number": null,
+              "printed_alias": "TX2",
+              "pin_identifier_kind": "board_silkscreen_alias",
+              "symbol_pin_name": null,
+              "source_net_name": null,
+              "source_record_kind": null,
+              "photo_bbox_xyxy_pixels": [
+                106,
+                920,
+                168,
+                978
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                170,
+                912,
+                220,
+                983
+              ],
+              "mapping_status": "reviewed_photo_contact_with_printed_alias",
+              "photo_pin_annotation_id": "esp32-left-contact-row-7-tx2",
+              "annotation_source": "annotations/esp-header-pin-labels.json",
+              "identity_evidence": "Printed TX2 is immediately beside this isolated outer-edge solder contact in the reviewed original photo. Alias is transcribed as printed; no numeric pin or net identity inferred.",
+              "truncated": false
+            },
+            {
+              "pin_number": null,
+              "printed_alias": "D5",
+              "pin_identifier_kind": "board_silkscreen_alias",
+              "symbol_pin_name": null,
+              "source_net_name": null,
+              "source_record_kind": null,
+              "photo_bbox_xyxy_pixels": [
+                106,
+                1007,
+                168,
+                1065
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                170,
+                999,
+                220,
+                1070
+              ],
+              "mapping_status": "reviewed_photo_contact_with_printed_alias",
+              "photo_pin_annotation_id": "esp32-left-contact-row-8-d5",
+              "annotation_source": "annotations/esp-header-pin-labels.json",
+              "identity_evidence": "Printed D5 is immediately beside this isolated outer-edge solder contact in the reviewed original photo. Alias is transcribed as printed; no numeric pin or net identity inferred.",
+              "truncated": false
+            },
+            {
+              "pin_number": null,
+              "printed_alias": "D18",
+              "pin_identifier_kind": "board_silkscreen_alias",
+              "symbol_pin_name": null,
+              "source_net_name": null,
+              "source_record_kind": null,
+              "photo_bbox_xyxy_pixels": [
+                106,
+                1091,
+                168,
+                1149
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                170,
+                1083,
+                220,
+                1154
+              ],
+              "mapping_status": "reviewed_photo_contact_with_printed_alias",
+              "photo_pin_annotation_id": "esp32-left-contact-row-9-d18",
+              "annotation_source": "annotations/esp-header-pin-labels.json",
+              "identity_evidence": "Printed D18 is immediately beside this isolated outer-edge solder contact in the reviewed original photo. Alias is transcribed as printed; no numeric pin or net identity inferred.",
+              "truncated": false
+            },
+            {
+              "pin_number": null,
+              "printed_alias": "D19",
+              "pin_identifier_kind": "board_silkscreen_alias",
+              "symbol_pin_name": null,
+              "source_net_name": null,
+              "source_record_kind": null,
+              "photo_bbox_xyxy_pixels": [
+                106,
+                1179,
+                168,
+                1237
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                170,
+                1171,
+                220,
+                1242
+              ],
+              "mapping_status": "reviewed_photo_contact_with_printed_alias",
+              "photo_pin_annotation_id": "esp32-left-contact-row-10-d19",
+              "annotation_source": "annotations/esp-header-pin-labels.json",
+              "identity_evidence": "Printed D19 is immediately beside this isolated outer-edge solder contact in the reviewed original photo. Alias is transcribed as printed; no numeric pin or net identity inferred.",
+              "truncated": false
+            },
+            {
+              "pin_number": null,
+              "printed_alias": "D21",
+              "pin_identifier_kind": "board_silkscreen_alias",
+              "symbol_pin_name": null,
+              "source_net_name": null,
+              "source_record_kind": null,
+              "photo_bbox_xyxy_pixels": [
+                106,
+                1265,
+                168,
+                1323
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                170,
+                1257,
+                220,
+                1328
+              ],
+              "mapping_status": "reviewed_photo_contact_with_printed_alias",
+              "photo_pin_annotation_id": "esp32-left-contact-row-11-d21",
+              "annotation_source": "annotations/esp-header-pin-labels.json",
+              "identity_evidence": "Printed D21 is immediately beside this isolated outer-edge solder contact in the reviewed original photo. Alias is transcribed as printed; no numeric pin or net identity inferred.",
+              "truncated": false
+            },
+            {
+              "pin_number": null,
+              "printed_alias": "RX0",
+              "pin_identifier_kind": "board_silkscreen_alias",
+              "symbol_pin_name": null,
+              "source_net_name": null,
+              "source_record_kind": null,
+              "photo_bbox_xyxy_pixels": [
+                106,
+                1349,
+                168,
+                1407
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                170,
+                1341,
+                220,
+                1412
+              ],
+              "mapping_status": "reviewed_photo_contact_with_printed_alias",
+              "photo_pin_annotation_id": "esp32-left-contact-row-12-rx0",
+              "annotation_source": "annotations/esp-header-pin-labels.json",
+              "identity_evidence": "Printed RX0 is immediately beside this isolated outer-edge solder contact in the reviewed original photo. Alias is transcribed as printed; no numeric pin or net identity inferred.",
+              "truncated": false
+            },
+            {
+              "pin_number": null,
+              "printed_alias": "TX0",
+              "pin_identifier_kind": "board_silkscreen_alias",
+              "symbol_pin_name": null,
+              "source_net_name": null,
+              "source_record_kind": null,
+              "photo_bbox_xyxy_pixels": [
+                106,
+                1434,
+                168,
+                1492
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                170,
+                1426,
+                220,
+                1497
+              ],
+              "mapping_status": "reviewed_photo_contact_with_printed_alias",
+              "photo_pin_annotation_id": "esp32-left-contact-row-13-tx0",
+              "annotation_source": "annotations/esp-header-pin-labels.json",
+              "identity_evidence": "Printed TX0 is immediately beside this isolated outer-edge solder contact in the reviewed original photo. Alias is transcribed as printed; no numeric pin or net identity inferred.",
+              "truncated": false
+            },
+            {
+              "pin_number": null,
+              "printed_alias": "D22",
+              "pin_identifier_kind": "board_silkscreen_alias",
+              "symbol_pin_name": null,
+              "source_net_name": null,
+              "source_record_kind": null,
+              "photo_bbox_xyxy_pixels": [
+                106,
+                1519,
+                168,
+                1577
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                170,
+                1511,
+                220,
+                1582
+              ],
+              "mapping_status": "reviewed_photo_contact_with_printed_alias",
+              "photo_pin_annotation_id": "esp32-left-contact-row-14-d22",
+              "annotation_source": "annotations/esp-header-pin-labels.json",
+              "identity_evidence": "Printed D22 is immediately beside this isolated outer-edge solder contact in the reviewed original photo. Alias is transcribed as printed; no numeric pin or net identity inferred.",
+              "truncated": false
+            },
+            {
+              "pin_number": null,
+              "printed_alias": "D23",
+              "pin_identifier_kind": "board_silkscreen_alias",
+              "symbol_pin_name": null,
+              "source_net_name": null,
+              "source_record_kind": null,
+              "photo_bbox_xyxy_pixels": [
+                106,
+                1605,
+                168,
+                1663
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                170,
+                1597,
+                220,
+                1668
+              ],
+              "mapping_status": "reviewed_photo_contact_with_printed_alias",
+              "photo_pin_annotation_id": "esp32-left-contact-row-15-d23",
+              "annotation_source": "annotations/esp-header-pin-labels.json",
+              "identity_evidence": "Printed D23 is immediately beside this isolated outer-edge solder contact in the reviewed original photo. Alias is transcribed as printed; no numeric pin or net identity inferred.",
+              "truncated": false
+            }
+          ]
         }
       ]
     },
@@ -5682,6 +6089,767 @@
           "source_component_candidate": null,
           "photo_pin_label_count": 0,
           "pins": []
+        },
+        {
+          "id": "IMG_20261009_221941_1.jpg:annotations/esp-header-pin-labels.json:esp8266-left-contact-row",
+          "annotation_source": "annotations/esp-header-pin-labels.json",
+          "annotation_id": "esp8266-left-contact-row",
+          "class_name": "through_hole_contact_row",
+          "bbox_xyxy_normalized": [
+            0.0,
+            0.18810289389067525,
+            0.06692913385826772,
+            0.8697749196141479
+          ],
+          "box_review_status": "visual_reviewed_contact_row_box",
+          "observed_reference_designator": null,
+          "source_component_candidate": null,
+          "photo_pin_label_count": 14,
+          "pins": [
+            {
+              "pin_number": null,
+              "printed_alias": "A0",
+              "pin_identifier_kind": "board_silkscreen_alias",
+              "symbol_pin_name": null,
+              "source_net_name": null,
+              "source_record_kind": null,
+              "photo_bbox_xyxy_pixels": [
+                0,
+                362,
+                67,
+                420
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                74,
+                354,
+                201,
+                425
+              ],
+              "mapping_status": "reviewed_photo_contact_with_printed_alias",
+              "photo_pin_annotation_id": "esp8266-left-contact-row-1-a0",
+              "annotation_source": "annotations/esp-header-pin-labels.json",
+              "identity_evidence": "Printed A0 is immediately beside this isolated outer-edge solder contact in the reviewed original photo. Alias is transcribed as printed; no numeric pin or net identity inferred.",
+              "truncated": true
+            },
+            {
+              "pin_number": null,
+              "printed_alias": "G",
+              "pin_identifier_kind": "board_silkscreen_alias",
+              "symbol_pin_name": null,
+              "source_net_name": null,
+              "source_record_kind": null,
+              "photo_bbox_xyxy_pixels": [
+                0,
+                449,
+                67,
+                507
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                74,
+                441,
+                201,
+                512
+              ],
+              "mapping_status": "reviewed_photo_contact_with_printed_alias",
+              "photo_pin_annotation_id": "esp8266-left-contact-row-2-g",
+              "annotation_source": "annotations/esp-header-pin-labels.json",
+              "identity_evidence": "Printed G is immediately beside this isolated outer-edge solder contact in the reviewed original photo. Alias is transcribed as printed; no numeric pin or net identity inferred.",
+              "truncated": true
+            },
+            {
+              "pin_number": null,
+              "printed_alias": "VU",
+              "pin_identifier_kind": "board_silkscreen_alias",
+              "symbol_pin_name": null,
+              "source_net_name": null,
+              "source_record_kind": null,
+              "photo_bbox_xyxy_pixels": [
+                0,
+                536,
+                67,
+                594
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                74,
+                528,
+                201,
+                599
+              ],
+              "mapping_status": "reviewed_photo_contact_with_printed_alias",
+              "photo_pin_annotation_id": "esp8266-left-contact-row-3-vu",
+              "annotation_source": "annotations/esp-header-pin-labels.json",
+              "identity_evidence": "Printed VU is immediately beside this isolated outer-edge solder contact in the reviewed original photo. Alias is transcribed as printed; no numeric pin or net identity inferred.",
+              "truncated": true
+            },
+            {
+              "pin_number": null,
+              "printed_alias": "S3",
+              "pin_identifier_kind": "board_silkscreen_alias",
+              "symbol_pin_name": null,
+              "source_net_name": null,
+              "source_record_kind": null,
+              "photo_bbox_xyxy_pixels": [
+                0,
+                622,
+                67,
+                680
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                74,
+                614,
+                201,
+                685
+              ],
+              "mapping_status": "reviewed_photo_contact_with_printed_alias",
+              "photo_pin_annotation_id": "esp8266-left-contact-row-4-s3",
+              "annotation_source": "annotations/esp-header-pin-labels.json",
+              "identity_evidence": "Printed S3 is immediately beside this isolated outer-edge solder contact in the reviewed original photo. Alias is transcribed as printed; no numeric pin or net identity inferred.",
+              "truncated": true
+            },
+            {
+              "pin_number": null,
+              "printed_alias": "S2",
+              "pin_identifier_kind": "board_silkscreen_alias",
+              "symbol_pin_name": null,
+              "source_net_name": null,
+              "source_record_kind": null,
+              "photo_bbox_xyxy_pixels": [
+                0,
+                708,
+                67,
+                766
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                74,
+                700,
+                201,
+                771
+              ],
+              "mapping_status": "reviewed_photo_contact_with_printed_alias",
+              "photo_pin_annotation_id": "esp8266-left-contact-row-5-s2",
+              "annotation_source": "annotations/esp-header-pin-labels.json",
+              "identity_evidence": "Printed S2 is immediately beside this isolated outer-edge solder contact in the reviewed original photo. Alias is transcribed as printed; no numeric pin or net identity inferred.",
+              "truncated": true
+            },
+            {
+              "pin_number": null,
+              "printed_alias": "S1",
+              "pin_identifier_kind": "board_silkscreen_alias",
+              "symbol_pin_name": null,
+              "source_net_name": null,
+              "source_record_kind": null,
+              "photo_bbox_xyxy_pixels": [
+                0,
+                794,
+                67,
+                852
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                74,
+                786,
+                201,
+                857
+              ],
+              "mapping_status": "reviewed_photo_contact_with_printed_alias",
+              "photo_pin_annotation_id": "esp8266-left-contact-row-6-s1",
+              "annotation_source": "annotations/esp-header-pin-labels.json",
+              "identity_evidence": "Printed S1 is immediately beside this isolated outer-edge solder contact in the reviewed original photo. Alias is transcribed as printed; no numeric pin or net identity inferred.",
+              "truncated": true
+            },
+            {
+              "pin_number": null,
+              "printed_alias": "SC",
+              "pin_identifier_kind": "board_silkscreen_alias",
+              "symbol_pin_name": null,
+              "source_net_name": null,
+              "source_record_kind": null,
+              "photo_bbox_xyxy_pixels": [
+                0,
+                878,
+                67,
+                936
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                74,
+                870,
+                201,
+                941
+              ],
+              "mapping_status": "reviewed_photo_contact_with_printed_alias",
+              "photo_pin_annotation_id": "esp8266-left-contact-row-7-sc",
+              "annotation_source": "annotations/esp-header-pin-labels.json",
+              "identity_evidence": "Printed SC is immediately beside this isolated outer-edge solder contact in the reviewed original photo. Alias is transcribed as printed; no numeric pin or net identity inferred.",
+              "truncated": true
+            },
+            {
+              "pin_number": null,
+              "printed_alias": "SK",
+              "pin_identifier_kind": "board_silkscreen_alias",
+              "symbol_pin_name": null,
+              "source_net_name": null,
+              "source_record_kind": null,
+              "photo_bbox_xyxy_pixels": [
+                0,
+                1048,
+                67,
+                1106
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                74,
+                1040,
+                201,
+                1111
+              ],
+              "mapping_status": "reviewed_photo_contact_with_printed_alias",
+              "photo_pin_annotation_id": "esp8266-left-contact-row-8-sk",
+              "annotation_source": "annotations/esp-header-pin-labels.json",
+              "identity_evidence": "Printed SK is immediately beside this isolated outer-edge solder contact in the reviewed original photo. Alias is transcribed as printed; no numeric pin or net identity inferred.",
+              "truncated": true
+            },
+            {
+              "pin_number": null,
+              "printed_alias": "G",
+              "pin_identifier_kind": "board_silkscreen_alias",
+              "symbol_pin_name": null,
+              "source_net_name": null,
+              "source_record_kind": null,
+              "photo_bbox_xyxy_pixels": [
+                0,
+                1136,
+                67,
+                1194
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                74,
+                1128,
+                201,
+                1199
+              ],
+              "mapping_status": "reviewed_photo_contact_with_printed_alias",
+              "photo_pin_annotation_id": "esp8266-left-contact-row-9-g",
+              "annotation_source": "annotations/esp-header-pin-labels.json",
+              "identity_evidence": "Printed G is immediately beside this isolated outer-edge solder contact in the reviewed original photo. Alias is transcribed as printed; no numeric pin or net identity inferred.",
+              "truncated": true
+            },
+            {
+              "pin_number": null,
+              "printed_alias": "3V",
+              "pin_identifier_kind": "board_silkscreen_alias",
+              "symbol_pin_name": null,
+              "source_net_name": null,
+              "source_record_kind": null,
+              "photo_bbox_xyxy_pixels": [
+                0,
+                1219,
+                67,
+                1277
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                74,
+                1211,
+                201,
+                1282
+              ],
+              "mapping_status": "reviewed_photo_contact_with_printed_alias",
+              "photo_pin_annotation_id": "esp8266-left-contact-row-10-3v",
+              "annotation_source": "annotations/esp-header-pin-labels.json",
+              "identity_evidence": "Printed 3V is immediately beside this isolated outer-edge solder contact in the reviewed original photo. Alias is transcribed as printed; no numeric pin or net identity inferred.",
+              "truncated": true
+            },
+            {
+              "pin_number": null,
+              "printed_alias": "EN",
+              "pin_identifier_kind": "board_silkscreen_alias",
+              "symbol_pin_name": null,
+              "source_net_name": null,
+              "source_record_kind": null,
+              "photo_bbox_xyxy_pixels": [
+                0,
+                1305,
+                67,
+                1363
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                74,
+                1297,
+                201,
+                1368
+              ],
+              "mapping_status": "reviewed_photo_contact_with_printed_alias",
+              "photo_pin_annotation_id": "esp8266-left-contact-row-11-en",
+              "annotation_source": "annotations/esp-header-pin-labels.json",
+              "identity_evidence": "Printed EN is immediately beside this isolated outer-edge solder contact in the reviewed original photo. Alias is transcribed as printed; no numeric pin or net identity inferred.",
+              "truncated": true
+            },
+            {
+              "pin_number": null,
+              "printed_alias": "RST",
+              "pin_identifier_kind": "board_silkscreen_alias",
+              "symbol_pin_name": null,
+              "source_net_name": null,
+              "source_record_kind": null,
+              "photo_bbox_xyxy_pixels": [
+                0,
+                1389,
+                67,
+                1447
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                74,
+                1381,
+                201,
+                1452
+              ],
+              "mapping_status": "reviewed_photo_contact_with_printed_alias",
+              "photo_pin_annotation_id": "esp8266-left-contact-row-12-rst",
+              "annotation_source": "annotations/esp-header-pin-labels.json",
+              "identity_evidence": "Printed RST is immediately beside this isolated outer-edge solder contact in the reviewed original photo. Alias is transcribed as printed; no numeric pin or net identity inferred.",
+              "truncated": true
+            },
+            {
+              "pin_number": null,
+              "printed_alias": "G",
+              "pin_identifier_kind": "board_silkscreen_alias",
+              "symbol_pin_name": null,
+              "source_net_name": null,
+              "source_record_kind": null,
+              "photo_bbox_xyxy_pixels": [
+                0,
+                1475,
+                67,
+                1533
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                74,
+                1467,
+                201,
+                1538
+              ],
+              "mapping_status": "reviewed_photo_contact_with_printed_alias",
+              "photo_pin_annotation_id": "esp8266-left-contact-row-13-g",
+              "annotation_source": "annotations/esp-header-pin-labels.json",
+              "identity_evidence": "Printed G is immediately beside this isolated outer-edge solder contact in the reviewed original photo. Alias is transcribed as printed; no numeric pin or net identity inferred.",
+              "truncated": true
+            },
+            {
+              "pin_number": null,
+              "printed_alias": "VIN",
+              "pin_identifier_kind": "board_silkscreen_alias",
+              "symbol_pin_name": null,
+              "source_net_name": null,
+              "source_record_kind": null,
+              "photo_bbox_xyxy_pixels": [
+                0,
+                1559,
+                67,
+                1617
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                74,
+                1537,
+                201,
+                1622
+              ],
+              "mapping_status": "reviewed_photo_contact_with_printed_alias",
+              "photo_pin_annotation_id": "esp8266-left-contact-row-14-vin",
+              "annotation_source": "annotations/esp-header-pin-labels.json",
+              "identity_evidence": "Printed VIN is immediately beside this isolated outer-edge solder contact in the reviewed original photo. Alias is transcribed as printed; no numeric pin or net identity inferred.",
+              "truncated": true
+            }
+          ]
+        },
+        {
+          "id": "IMG_20261009_221941_1.jpg:annotations/esp-header-pin-labels.json:esp8266-right-contact-row",
+          "annotation_source": "annotations/esp-header-pin-labels.json",
+          "annotation_id": "esp8266-right-contact-row",
+          "class_name": "through_hole_contact_row",
+          "bbox_xyxy_normalized": [
+            0.9084645669291339,
+            0.18756698821007503,
+            0.9911417322834646,
+            0.8697749196141479
+          ],
+          "box_review_status": "visual_reviewed_contact_row_box",
+          "observed_reference_designator": null,
+          "source_component_candidate": null,
+          "photo_pin_label_count": 15,
+          "pins": [
+            {
+              "pin_number": null,
+              "printed_alias": "D0",
+              "pin_identifier_kind": "board_silkscreen_alias",
+              "symbol_pin_name": null,
+              "source_net_name": null,
+              "source_record_kind": null,
+              "photo_bbox_xyxy_pixels": [
+                929,
+                362,
+                1004,
+                420
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                817,
+                354,
+                919,
+                425
+              ],
+              "mapping_status": "reviewed_photo_contact_with_printed_alias",
+              "photo_pin_annotation_id": "esp8266-right-contact-row-1-d0",
+              "annotation_source": "annotations/esp-header-pin-labels.json",
+              "identity_evidence": "Printed D0 is immediately beside this isolated outer-edge solder contact in the reviewed original photo. Alias is transcribed as printed; no numeric pin or net identity inferred.",
+              "truncated": false
+            },
+            {
+              "pin_number": null,
+              "printed_alias": "D1",
+              "pin_identifier_kind": "board_silkscreen_alias",
+              "symbol_pin_name": null,
+              "source_net_name": null,
+              "source_record_kind": null,
+              "photo_bbox_xyxy_pixels": [
+                929,
+                449,
+                1004,
+                507
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                817,
+                441,
+                919,
+                512
+              ],
+              "mapping_status": "reviewed_photo_contact_with_printed_alias",
+              "photo_pin_annotation_id": "esp8266-right-contact-row-2-d1",
+              "annotation_source": "annotations/esp-header-pin-labels.json",
+              "identity_evidence": "Printed D1 is immediately beside this isolated outer-edge solder contact in the reviewed original photo. Alias is transcribed as printed; no numeric pin or net identity inferred.",
+              "truncated": false
+            },
+            {
+              "pin_number": null,
+              "printed_alias": "D2",
+              "pin_identifier_kind": "board_silkscreen_alias",
+              "symbol_pin_name": null,
+              "source_net_name": null,
+              "source_record_kind": null,
+              "photo_bbox_xyxy_pixels": [
+                929,
+                536,
+                1004,
+                594
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                817,
+                528,
+                919,
+                599
+              ],
+              "mapping_status": "reviewed_photo_contact_with_printed_alias",
+              "photo_pin_annotation_id": "esp8266-right-contact-row-3-d2",
+              "annotation_source": "annotations/esp-header-pin-labels.json",
+              "identity_evidence": "Printed D2 is immediately beside this isolated outer-edge solder contact in the reviewed original photo. Alias is transcribed as printed; no numeric pin or net identity inferred.",
+              "truncated": false
+            },
+            {
+              "pin_number": null,
+              "printed_alias": "D3",
+              "pin_identifier_kind": "board_silkscreen_alias",
+              "symbol_pin_name": null,
+              "source_net_name": null,
+              "source_record_kind": null,
+              "photo_bbox_xyxy_pixels": [
+                929,
+                622,
+                1004,
+                680
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                817,
+                614,
+                919,
+                685
+              ],
+              "mapping_status": "reviewed_photo_contact_with_printed_alias",
+              "photo_pin_annotation_id": "esp8266-right-contact-row-4-d3",
+              "annotation_source": "annotations/esp-header-pin-labels.json",
+              "identity_evidence": "Printed D3 is immediately beside this isolated outer-edge solder contact in the reviewed original photo. Alias is transcribed as printed; no numeric pin or net identity inferred.",
+              "truncated": false
+            },
+            {
+              "pin_number": null,
+              "printed_alias": "D4",
+              "pin_identifier_kind": "board_silkscreen_alias",
+              "symbol_pin_name": null,
+              "source_net_name": null,
+              "source_record_kind": null,
+              "photo_bbox_xyxy_pixels": [
+                929,
+                710,
+                1004,
+                768
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                817,
+                702,
+                919,
+                773
+              ],
+              "mapping_status": "reviewed_photo_contact_with_printed_alias",
+              "photo_pin_annotation_id": "esp8266-right-contact-row-5-d4",
+              "annotation_source": "annotations/esp-header-pin-labels.json",
+              "identity_evidence": "Printed D4 is immediately beside this isolated outer-edge solder contact in the reviewed original photo. Alias is transcribed as printed; no numeric pin or net identity inferred.",
+              "truncated": false
+            },
+            {
+              "pin_number": null,
+              "printed_alias": "3V",
+              "pin_identifier_kind": "board_silkscreen_alias",
+              "symbol_pin_name": null,
+              "source_net_name": null,
+              "source_record_kind": null,
+              "photo_bbox_xyxy_pixels": [
+                929,
+                795,
+                1004,
+                853
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                817,
+                787,
+                919,
+                858
+              ],
+              "mapping_status": "reviewed_photo_contact_with_printed_alias",
+              "photo_pin_annotation_id": "esp8266-right-contact-row-6-3v",
+              "annotation_source": "annotations/esp-header-pin-labels.json",
+              "identity_evidence": "Printed 3V is immediately beside this isolated outer-edge solder contact in the reviewed original photo. Alias is transcribed as printed; no numeric pin or net identity inferred.",
+              "truncated": false
+            },
+            {
+              "pin_number": null,
+              "printed_alias": "G",
+              "pin_identifier_kind": "board_silkscreen_alias",
+              "symbol_pin_name": null,
+              "source_net_name": null,
+              "source_record_kind": null,
+              "photo_bbox_xyxy_pixels": [
+                929,
+                880,
+                1004,
+                938
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                817,
+                872,
+                919,
+                943
+              ],
+              "mapping_status": "reviewed_photo_contact_with_printed_alias",
+              "photo_pin_annotation_id": "esp8266-right-contact-row-7-g",
+              "annotation_source": "annotations/esp-header-pin-labels.json",
+              "identity_evidence": "Printed G is immediately beside this isolated outer-edge solder contact in the reviewed original photo. Alias is transcribed as printed; no numeric pin or net identity inferred.",
+              "truncated": false
+            },
+            {
+              "pin_number": null,
+              "printed_alias": "D5",
+              "pin_identifier_kind": "board_silkscreen_alias",
+              "symbol_pin_name": null,
+              "source_net_name": null,
+              "source_record_kind": null,
+              "photo_bbox_xyxy_pixels": [
+                929,
+                967,
+                1004,
+                1025
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                817,
+                959,
+                919,
+                1030
+              ],
+              "mapping_status": "reviewed_photo_contact_with_printed_alias",
+              "photo_pin_annotation_id": "esp8266-right-contact-row-8-d5",
+              "annotation_source": "annotations/esp-header-pin-labels.json",
+              "identity_evidence": "Printed D5 is immediately beside this isolated outer-edge solder contact in the reviewed original photo. Alias is transcribed as printed; no numeric pin or net identity inferred.",
+              "truncated": false
+            },
+            {
+              "pin_number": null,
+              "printed_alias": "D6",
+              "pin_identifier_kind": "board_silkscreen_alias",
+              "symbol_pin_name": null,
+              "source_net_name": null,
+              "source_record_kind": null,
+              "photo_bbox_xyxy_pixels": [
+                929,
+                1051,
+                1004,
+                1109
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                817,
+                1043,
+                919,
+                1114
+              ],
+              "mapping_status": "reviewed_photo_contact_with_printed_alias",
+              "photo_pin_annotation_id": "esp8266-right-contact-row-9-d6",
+              "annotation_source": "annotations/esp-header-pin-labels.json",
+              "identity_evidence": "Printed D6 is immediately beside this isolated outer-edge solder contact in the reviewed original photo. Alias is transcribed as printed; no numeric pin or net identity inferred.",
+              "truncated": false
+            },
+            {
+              "pin_number": null,
+              "printed_alias": "D7",
+              "pin_identifier_kind": "board_silkscreen_alias",
+              "symbol_pin_name": null,
+              "source_net_name": null,
+              "source_record_kind": null,
+              "photo_bbox_xyxy_pixels": [
+                929,
+                1137,
+                1004,
+                1195
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                817,
+                1129,
+                919,
+                1200
+              ],
+              "mapping_status": "reviewed_photo_contact_with_printed_alias",
+              "photo_pin_annotation_id": "esp8266-right-contact-row-10-d7",
+              "annotation_source": "annotations/esp-header-pin-labels.json",
+              "identity_evidence": "Printed D7 is immediately beside this isolated outer-edge solder contact in the reviewed original photo. Alias is transcribed as printed; no numeric pin or net identity inferred.",
+              "truncated": false
+            },
+            {
+              "pin_number": null,
+              "printed_alias": "D8",
+              "pin_identifier_kind": "board_silkscreen_alias",
+              "symbol_pin_name": null,
+              "source_net_name": null,
+              "source_record_kind": null,
+              "photo_bbox_xyxy_pixels": [
+                929,
+                1221,
+                1004,
+                1279
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                817,
+                1213,
+                919,
+                1284
+              ],
+              "mapping_status": "reviewed_photo_contact_with_printed_alias",
+              "photo_pin_annotation_id": "esp8266-right-contact-row-11-d8",
+              "annotation_source": "annotations/esp-header-pin-labels.json",
+              "identity_evidence": "Printed D8 is immediately beside this isolated outer-edge solder contact in the reviewed original photo. Alias is transcribed as printed; no numeric pin or net identity inferred.",
+              "truncated": false
+            },
+            {
+              "pin_number": null,
+              "printed_alias": "RX",
+              "pin_identifier_kind": "board_silkscreen_alias",
+              "symbol_pin_name": null,
+              "source_net_name": null,
+              "source_record_kind": null,
+              "photo_bbox_xyxy_pixels": [
+                929,
+                1308,
+                1004,
+                1366
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                817,
+                1300,
+                919,
+                1371
+              ],
+              "mapping_status": "reviewed_photo_contact_with_printed_alias",
+              "photo_pin_annotation_id": "esp8266-right-contact-row-12-rx",
+              "annotation_source": "annotations/esp-header-pin-labels.json",
+              "identity_evidence": "Printed RX is immediately beside this isolated outer-edge solder contact in the reviewed original photo. Alias is transcribed as printed; no numeric pin or net identity inferred.",
+              "truncated": false
+            },
+            {
+              "pin_number": null,
+              "printed_alias": "TX",
+              "pin_identifier_kind": "board_silkscreen_alias",
+              "symbol_pin_name": null,
+              "source_net_name": null,
+              "source_record_kind": null,
+              "photo_bbox_xyxy_pixels": [
+                929,
+                1391,
+                1004,
+                1449
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                817,
+                1383,
+                919,
+                1454
+              ],
+              "mapping_status": "reviewed_photo_contact_with_printed_alias",
+              "photo_pin_annotation_id": "esp8266-right-contact-row-13-tx",
+              "annotation_source": "annotations/esp-header-pin-labels.json",
+              "identity_evidence": "Printed TX is immediately beside this isolated outer-edge solder contact in the reviewed original photo. Alias is transcribed as printed; no numeric pin or net identity inferred.",
+              "truncated": false
+            },
+            {
+              "pin_number": null,
+              "printed_alias": "G",
+              "pin_identifier_kind": "board_silkscreen_alias",
+              "symbol_pin_name": null,
+              "source_net_name": null,
+              "source_record_kind": null,
+              "photo_bbox_xyxy_pixels": [
+                929,
+                1478,
+                1004,
+                1536
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                817,
+                1470,
+                919,
+                1541
+              ],
+              "mapping_status": "reviewed_photo_contact_with_printed_alias",
+              "photo_pin_annotation_id": "esp8266-right-contact-row-14-g",
+              "annotation_source": "annotations/esp-header-pin-labels.json",
+              "identity_evidence": "Printed G is immediately beside this isolated outer-edge solder contact in the reviewed original photo. Alias is transcribed as printed; no numeric pin or net identity inferred.",
+              "truncated": false
+            },
+            {
+              "pin_number": null,
+              "printed_alias": "3V",
+              "pin_identifier_kind": "board_silkscreen_alias",
+              "symbol_pin_name": null,
+              "source_net_name": null,
+              "source_record_kind": null,
+              "photo_bbox_xyxy_pixels": [
+                929,
+                1564,
+                1004,
+                1622
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                817,
+                1540,
+                919,
+                1627
+              ],
+              "mapping_status": "reviewed_photo_contact_with_printed_alias",
+              "photo_pin_annotation_id": "esp8266-right-contact-row-15-3v",
+              "annotation_source": "annotations/esp-header-pin-labels.json",
+              "identity_evidence": "Printed 3V is immediately beside this isolated outer-edge solder contact in the reviewed original photo. Alias is transcribed as printed; no numeric pin or net identity inferred.",
+              "truncated": false
+            }
+          ]
         }
       ]
     },
@@ -5979,7 +7147,7 @@
           "relation": "revision_marking_matches_source",
           "exact_component_mapping": "requires_pixel_to_pcb_registration",
           "unlinked_source_pin_catalog_path": "data/board-sources/non-nxp-source-pins.json",
-          "unlinked_source_pin_record_count": 1292
+          "unlinked_source_pin_record_count": 1270
         }
       },
       "part_coverage": "not_reviewed",
@@ -6008,7 +7176,7 @@
           "relation": "revision_marking_matches_source",
           "exact_component_mapping": "requires_pixel_to_pcb_registration",
           "unlinked_source_pin_catalog_path": "data/board-sources/non-nxp-source-pins.json",
-          "unlinked_source_pin_record_count": 1292
+          "unlinked_source_pin_record_count": 1270
         }
       },
       "part_coverage": "not_reviewed",
@@ -6037,7 +7205,7 @@
           "relation": "revision_marking_matches_source",
           "exact_component_mapping": "requires_pixel_to_pcb_registration",
           "unlinked_source_pin_catalog_path": "data/board-sources/non-nxp-source-pins.json",
-          "unlinked_source_pin_record_count": 1292
+          "unlinked_source_pin_record_count": 1270
         }
       },
       "part_coverage": "partial_major_component_seeds",
@@ -6237,7 +7405,7 @@
           "relation": "revision_marking_matches_source",
           "exact_component_mapping": "requires_pixel_to_pcb_registration",
           "unlinked_source_pin_catalog_path": "data/board-sources/non-nxp-source-pins.json",
-          "unlinked_source_pin_record_count": 1292
+          "unlinked_source_pin_record_count": 1270
         }
       },
       "part_coverage": "not_reviewed",
@@ -6266,7 +7434,7 @@
           "relation": "revision_marking_matches_source",
           "exact_component_mapping": "requires_pixel_to_pcb_registration",
           "unlinked_source_pin_catalog_path": "data/board-sources/non-nxp-source-pins.json",
-          "unlinked_source_pin_record_count": 1292
+          "unlinked_source_pin_record_count": 1270
         }
       },
       "part_coverage": "not_reviewed",
@@ -6295,7 +7463,7 @@
           "relation": "revision_marking_matches_source",
           "exact_component_mapping": "requires_pixel_to_pcb_registration",
           "unlinked_source_pin_catalog_path": "data/board-sources/non-nxp-source-pins.json",
-          "unlinked_source_pin_record_count": 1292
+          "unlinked_source_pin_record_count": 1270
         }
       },
       "part_coverage": "not_reviewed",
@@ -6324,7 +7492,7 @@
           "relation": "revision_marking_matches_source",
           "exact_component_mapping": "requires_pixel_to_pcb_registration",
           "unlinked_source_pin_catalog_path": "data/board-sources/non-nxp-source-pins.json",
-          "unlinked_source_pin_record_count": 1292
+          "unlinked_source_pin_record_count": 1270
         }
       },
       "part_coverage": "not_reviewed",
@@ -6353,7 +7521,7 @@
           "relation": "revision_marking_matches_source",
           "exact_component_mapping": "requires_pixel_to_pcb_registration",
           "unlinked_source_pin_catalog_path": "data/board-sources/non-nxp-source-pins.json",
-          "unlinked_source_pin_record_count": 1292
+          "unlinked_source_pin_record_count": 1270
         }
       },
       "part_coverage": "not_reviewed",
@@ -6382,7 +7550,7 @@
           "relation": "revision_marking_matches_source",
           "exact_component_mapping": "requires_pixel_to_pcb_registration",
           "unlinked_source_pin_catalog_path": "data/board-sources/non-nxp-source-pins.json",
-          "unlinked_source_pin_record_count": 1292
+          "unlinked_source_pin_record_count": 1270
         }
       },
       "part_coverage": "not_reviewed",
@@ -6411,7 +7579,7 @@
           "relation": "revision_marking_matches_source",
           "exact_component_mapping": "requires_pixel_to_pcb_registration",
           "unlinked_source_pin_catalog_path": "data/board-sources/non-nxp-source-pins.json",
-          "unlinked_source_pin_record_count": 1292
+          "unlinked_source_pin_record_count": 1270
         }
       },
       "part_coverage": "not_reviewed",
@@ -6440,7 +7608,7 @@
           "relation": "revision_marking_matches_source",
           "exact_component_mapping": "requires_pixel_to_pcb_registration",
           "unlinked_source_pin_catalog_path": "data/board-sources/non-nxp-source-pins.json",
-          "unlinked_source_pin_record_count": 1292
+          "unlinked_source_pin_record_count": 1270
         }
       },
       "part_coverage": "not_reviewed",
@@ -6469,7 +7637,7 @@
           "relation": "revision_marking_matches_source",
           "exact_component_mapping": "requires_pixel_to_pcb_registration",
           "unlinked_source_pin_catalog_path": "data/board-sources/non-nxp-source-pins.json",
-          "unlinked_source_pin_record_count": 1292
+          "unlinked_source_pin_record_count": 1270
         }
       },
       "part_coverage": "not_reviewed",
@@ -6498,7 +7666,7 @@
           "relation": "revision_marking_matches_source",
           "exact_component_mapping": "requires_pixel_to_pcb_registration",
           "unlinked_source_pin_catalog_path": "data/board-sources/non-nxp-source-pins.json",
-          "unlinked_source_pin_record_count": 1292
+          "unlinked_source_pin_record_count": 1270
         }
       },
       "part_coverage": "not_reviewed",
@@ -6527,7 +7695,7 @@
           "relation": "revision_marking_matches_source",
           "exact_component_mapping": "requires_pixel_to_pcb_registration",
           "unlinked_source_pin_catalog_path": "data/board-sources/non-nxp-source-pins.json",
-          "unlinked_source_pin_record_count": 1292
+          "unlinked_source_pin_record_count": 1270
         }
       },
       "part_coverage": "partial_major_component_seeds",
@@ -6693,7 +7861,7 @@
           "relation": "revision_marking_matches_source",
           "exact_component_mapping": "requires_pixel_to_pcb_registration",
           "unlinked_source_pin_catalog_path": "data/board-sources/non-nxp-source-pins.json",
-          "unlinked_source_pin_record_count": 1292
+          "unlinked_source_pin_record_count": 1270
         }
       },
       "part_coverage": "not_reviewed",
@@ -6722,7 +7890,7 @@
           "relation": "revision_marking_matches_source",
           "exact_component_mapping": "requires_pixel_to_pcb_registration",
           "unlinked_source_pin_catalog_path": "data/board-sources/non-nxp-source-pins.json",
-          "unlinked_source_pin_record_count": 1292
+          "unlinked_source_pin_record_count": 1270
         }
       },
       "part_coverage": "partial_major_component_seeds",
@@ -7027,11 +8195,108 @@
             0.60302,
             0.040527
           ],
-          "box_review_status": "visual_seed_requires_review",
-          "observed_reference_designator": null,
-          "source_component_candidate": null,
-          "photo_pin_label_count": 0,
-          "pins": []
+          "box_review_status": "visual_reviewed_connector_box_and_refdes",
+          "observed_reference_designator": "J23",
+          "source_component_candidate": {
+            "source_refdes": "J23",
+            "source_board_revision": "2.1.4",
+            "source_link_path": "annotations/ultimainboard-pin-expansion.json",
+            "installed_part_identity_status": "unconfirmed"
+          },
+          "photo_pin_label_count": 6,
+          "pins": [
+            {
+              "pin_number": "1",
+              "symbol_pin_name": "1",
+              "source_net_name": "GND",
+              "source_record_kind": "revision_matched_through_hole_pad_and_schematic_pin",
+              "photo_bbox_xyxy_pixels": [
+                720,
+                82,
+                750,
+                117
+              ],
+              "mapping_status": "reviewed_photo_pin_with_source_link",
+              "photo_pin_annotation_id": "ultimainboard-j23-1",
+              "source_link_path": "annotations/ultimainboard-pin-expansion.json"
+            },
+            {
+              "pin_number": "2",
+              "symbol_pin_name": "2",
+              "source_net_name": "GND",
+              "source_record_kind": "revision_matched_through_hole_pad_and_schematic_pin",
+              "photo_bbox_xyxy_pixels": [
+                720,
+                32,
+                750,
+                69
+              ],
+              "mapping_status": "reviewed_photo_pin_with_source_link",
+              "photo_pin_annotation_id": "ultimainboard-j23-2",
+              "source_link_path": "annotations/ultimainboard-pin-expansion.json"
+            },
+            {
+              "pin_number": "3",
+              "symbol_pin_name": "3",
+              "source_net_name": "+5V",
+              "source_record_kind": "revision_matched_through_hole_pad_and_schematic_pin",
+              "photo_bbox_xyxy_pixels": [
+                766,
+                82,
+                796,
+                117
+              ],
+              "mapping_status": "reviewed_photo_pin_with_source_link",
+              "photo_pin_annotation_id": "ultimainboard-j23-3",
+              "source_link_path": "annotations/ultimainboard-pin-expansion.json"
+            },
+            {
+              "pin_number": "4",
+              "symbol_pin_name": "4",
+              "source_net_name": "+5V",
+              "source_record_kind": "revision_matched_through_hole_pad_and_schematic_pin",
+              "photo_bbox_xyxy_pixels": [
+                766,
+                32,
+                796,
+                69
+              ],
+              "mapping_status": "reviewed_photo_pin_with_source_link",
+              "photo_pin_annotation_id": "ultimainboard-j23-4",
+              "source_link_path": "annotations/ultimainboard-pin-expansion.json"
+            },
+            {
+              "pin_number": "5",
+              "symbol_pin_name": "5",
+              "source_net_name": "PC7",
+              "source_record_kind": "revision_matched_through_hole_pad_and_schematic_pin",
+              "photo_bbox_xyxy_pixels": [
+                811,
+                82,
+                841,
+                117
+              ],
+              "mapping_status": "reviewed_photo_pin_with_source_link",
+              "photo_pin_annotation_id": "ultimainboard-j23-5",
+              "source_link_path": "annotations/ultimainboard-pin-expansion.json"
+            },
+            {
+              "pin_number": "6",
+              "symbol_pin_name": "6",
+              "source_net_name": "PD7",
+              "source_record_kind": "revision_matched_through_hole_pad_and_schematic_pin",
+              "photo_bbox_xyxy_pixels": [
+                811,
+                32,
+                841,
+                69
+              ],
+              "mapping_status": "reviewed_photo_pin_with_source_link",
+              "photo_pin_annotation_id": "ultimainboard-j23-6",
+              "source_link_path": "annotations/ultimainboard-pin-expansion.json"
+            }
+          ],
+          "parent_review_source": "annotations/ultimainboard-pin-expansion.json"
         },
         {
           "id": "IMG_20261009_222135_1.jpg:annotations/large-board-component-seeds.json:major-019",
@@ -7044,11 +8309,108 @@
             0.60302,
             0.083496
           ],
-          "box_review_status": "visual_seed_requires_review",
-          "observed_reference_designator": null,
-          "source_component_candidate": null,
-          "photo_pin_label_count": 0,
-          "pins": []
+          "box_review_status": "visual_reviewed_connector_box_and_refdes",
+          "observed_reference_designator": "J1",
+          "source_component_candidate": {
+            "source_refdes": "J1",
+            "source_board_revision": "2.1.4",
+            "source_link_path": "annotations/ultimainboard-pin-expansion.json",
+            "installed_part_identity_status": "unconfirmed"
+          },
+          "photo_pin_label_count": 6,
+          "pins": [
+            {
+              "pin_number": "1",
+              "symbol_pin_name": "1",
+              "source_net_name": "PB3",
+              "source_record_kind": "revision_matched_through_hole_pad_and_schematic_pin",
+              "photo_bbox_xyxy_pixels": [
+                720,
+                216,
+                750,
+                251
+              ],
+              "mapping_status": "reviewed_photo_pin_with_source_link",
+              "photo_pin_annotation_id": "ultimainboard-j1-1",
+              "source_link_path": "annotations/ultimainboard-pin-expansion.json"
+            },
+            {
+              "pin_number": "2",
+              "symbol_pin_name": "2",
+              "source_net_name": "+5V",
+              "source_record_kind": "revision_matched_through_hole_pad_and_schematic_pin",
+              "photo_bbox_xyxy_pixels": [
+                720,
+                170,
+                750,
+                208
+              ],
+              "mapping_status": "reviewed_photo_pin_with_source_link",
+              "photo_pin_annotation_id": "ultimainboard-j1-2",
+              "source_link_path": "annotations/ultimainboard-pin-expansion.json"
+            },
+            {
+              "pin_number": "3",
+              "symbol_pin_name": "3",
+              "source_net_name": "PB1",
+              "source_record_kind": "revision_matched_through_hole_pad_and_schematic_pin",
+              "photo_bbox_xyxy_pixels": [
+                766,
+                216,
+                796,
+                251
+              ],
+              "mapping_status": "reviewed_photo_pin_with_source_link",
+              "photo_pin_annotation_id": "ultimainboard-j1-3",
+              "source_link_path": "annotations/ultimainboard-pin-expansion.json"
+            },
+            {
+              "pin_number": "4",
+              "symbol_pin_name": "4",
+              "source_net_name": "PB2",
+              "source_record_kind": "revision_matched_through_hole_pad_and_schematic_pin",
+              "photo_bbox_xyxy_pixels": [
+                766,
+                170,
+                796,
+                208
+              ],
+              "mapping_status": "reviewed_photo_pin_with_source_link",
+              "photo_pin_annotation_id": "ultimainboard-j1-4",
+              "source_link_path": "annotations/ultimainboard-pin-expansion.json"
+            },
+            {
+              "pin_number": "5",
+              "symbol_pin_name": "5",
+              "source_net_name": "NRESET",
+              "source_record_kind": "revision_matched_through_hole_pad_and_schematic_pin",
+              "photo_bbox_xyxy_pixels": [
+                811,
+                216,
+                841,
+                251
+              ],
+              "mapping_status": "reviewed_photo_pin_with_source_link",
+              "photo_pin_annotation_id": "ultimainboard-j1-5",
+              "source_link_path": "annotations/ultimainboard-pin-expansion.json"
+            },
+            {
+              "pin_number": "6",
+              "symbol_pin_name": "6",
+              "source_net_name": "GND",
+              "source_record_kind": "revision_matched_through_hole_pad_and_schematic_pin",
+              "photo_bbox_xyxy_pixels": [
+                811,
+                170,
+                841,
+                208
+              ],
+              "mapping_status": "reviewed_photo_pin_with_source_link",
+              "photo_pin_annotation_id": "ultimainboard-j1-6",
+              "source_link_path": "annotations/ultimainboard-pin-expansion.json"
+            }
+          ],
+          "parent_review_source": "annotations/ultimainboard-pin-expansion.json"
         },
         {
           "id": "IMG_20261009_222135_1.jpg:annotations/large-board-component-seeds.json:major-020",
@@ -7212,11 +8574,108 @@
             0.489752,
             0.813477
           ],
-          "box_review_status": "visual_seed_requires_review",
-          "observed_reference_designator": null,
-          "source_component_candidate": null,
-          "photo_pin_label_count": 0,
-          "pins": []
+          "box_review_status": "visual_reviewed_connector_box_and_refdes",
+          "observed_reference_designator": "J2",
+          "source_component_candidate": {
+            "source_refdes": "J2",
+            "source_board_revision": "2.1.4",
+            "source_link_path": "annotations/ultimainboard-pin-expansion.json",
+            "installed_part_identity_status": "unconfirmed"
+          },
+          "photo_pin_label_count": 6,
+          "pins": [
+            {
+              "pin_number": "1",
+              "symbol_pin_name": "1",
+              "source_net_name": "NetJ2_1",
+              "source_record_kind": "revision_matched_through_hole_pad_and_schematic_pin",
+              "photo_bbox_xyxy_pixels": [
+                651,
+                2432,
+                685,
+                2482
+              ],
+              "mapping_status": "reviewed_photo_pin_with_source_link",
+              "photo_pin_annotation_id": "ultimainboard-j2-1",
+              "source_link_path": "annotations/ultimainboard-pin-expansion.json"
+            },
+            {
+              "pin_number": "2",
+              "symbol_pin_name": "2",
+              "source_net_name": "+5V",
+              "source_record_kind": "revision_matched_through_hole_pad_and_schematic_pin",
+              "photo_bbox_xyxy_pixels": [
+                651,
+                2489,
+                685,
+                2529
+              ],
+              "mapping_status": "reviewed_photo_pin_with_source_link",
+              "photo_pin_annotation_id": "ultimainboard-j2-2",
+              "source_link_path": "annotations/ultimainboard-pin-expansion.json"
+            },
+            {
+              "pin_number": "3",
+              "symbol_pin_name": "3",
+              "source_net_name": "NetJ2_3",
+              "source_record_kind": "revision_matched_through_hole_pad_and_schematic_pin",
+              "photo_bbox_xyxy_pixels": [
+                606,
+                2432,
+                640,
+                2482
+              ],
+              "mapping_status": "reviewed_photo_pin_with_source_link",
+              "photo_pin_annotation_id": "ultimainboard-j2-3",
+              "source_link_path": "annotations/ultimainboard-pin-expansion.json"
+            },
+            {
+              "pin_number": "4",
+              "symbol_pin_name": "4",
+              "source_net_name": "NetJ2_4",
+              "source_record_kind": "revision_matched_through_hole_pad_and_schematic_pin",
+              "photo_bbox_xyxy_pixels": [
+                606,
+                2489,
+                640,
+                2529
+              ],
+              "mapping_status": "reviewed_photo_pin_with_source_link",
+              "photo_pin_annotation_id": "ultimainboard-j2-4",
+              "source_link_path": "annotations/ultimainboard-pin-expansion.json"
+            },
+            {
+              "pin_number": "5",
+              "symbol_pin_name": "5",
+              "source_net_name": "NetD2_1",
+              "source_record_kind": "revision_matched_through_hole_pad_and_schematic_pin",
+              "photo_bbox_xyxy_pixels": [
+                562,
+                2432,
+                596,
+                2482
+              ],
+              "mapping_status": "reviewed_photo_pin_with_source_link",
+              "photo_pin_annotation_id": "ultimainboard-j2-5",
+              "source_link_path": "annotations/ultimainboard-pin-expansion.json"
+            },
+            {
+              "pin_number": "6",
+              "symbol_pin_name": "6",
+              "source_net_name": "GND",
+              "source_record_kind": "revision_matched_through_hole_pad_and_schematic_pin",
+              "photo_bbox_xyxy_pixels": [
+                562,
+                2489,
+                596,
+                2529
+              ],
+              "mapping_status": "reviewed_photo_pin_with_source_link",
+              "photo_pin_annotation_id": "ultimainboard-j2-6",
+              "source_link_path": "annotations/ultimainboard-pin-expansion.json"
+            }
+          ],
+          "parent_review_source": "annotations/ultimainboard-pin-expansion.json"
         },
         {
           "id": "IMG_20261009_222135_1.jpg:annotations/large-board-component-seeds.json:major-026",
@@ -7787,7 +9246,7 @@
           "relation": "revision_marking_matches_source",
           "exact_component_mapping": "requires_pixel_to_pcb_registration",
           "unlinked_source_pin_catalog_path": "data/board-sources/non-nxp-source-pins.json",
-          "unlinked_source_pin_record_count": 1292
+          "unlinked_source_pin_record_count": 1270
         }
       },
       "part_coverage": "not_reviewed",
@@ -7816,7 +9275,7 @@
           "relation": "revision_marking_matches_source",
           "exact_component_mapping": "requires_pixel_to_pcb_registration",
           "unlinked_source_pin_catalog_path": "data/board-sources/non-nxp-source-pins.json",
-          "unlinked_source_pin_record_count": 1292
+          "unlinked_source_pin_record_count": 1270
         }
       },
       "part_coverage": "partial_major_component_seeds",

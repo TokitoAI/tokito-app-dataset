@@ -10,7 +10,7 @@ The [active goal tracker](docs/DATASET_GOAL.md) records the full dataset, labeli
 
 The clearer NXP photos identify **MCXN236**. The previously collected MCXN947 files are a different-board reference and must not be used as its exact BOM or schematic.
 
-`data/board-sources` preserves native source documents, inventories, Gerbers, models, and licenses where collected. `docs/sources` records coverage and limitations. External vision-dataset metadata is under `data/external`; bulk auxiliary images and partial downloads are excluded from this repository.
+`data/board-sources` preserves native source documents, inventories, Gerbers, models, and licenses where collected. `docs/sources` records coverage and limitations. External vision datasets are under `data/external`, including the verified [PCB-Vision RGB package](docs/PCB_VISION_RGB_ACQUISITION.md): 53 photos and 106 masks in Git LFS. Partial downloads remain local.
 
 KiCad-derived [CAD reference exports](data/board-sources/CAD_EXPORTS.md) now cover the ESP32 community clone, Ultimainboard 2.1.4 and FRDM-MCXN236. They include Gerber/drill and board-only STEP/GLB files, with DRC reports and hashes. All require engineering review before fabrication.
 
@@ -26,9 +26,9 @@ The first split has62 training images and11 validation originals. Seven validati
 
 ## Component labeling and document links
 
-Component seed annotations cover 233 major visible objects across nineteen photos. They are partial and are excluded from complete component-detector training. Tiny passives, exact part IDs, hidden components and board backs still require labeling/review. See `data/photo-model/MODEL_SCOPE.md`, `docs/EXPANDED_COMPONENT_SEEDS.md` and `docs/COMPONENT_SPRINT.md`.
+Component seed annotations cover 236 visible part boxes across nineteen photos. They are partial and are excluded from complete component-detector training. Tiny passives, exact part IDs, hidden components and board backs still require labeling/review. See `data/photo-model/MODEL_SCOPE.md`, `docs/EXPANDED_COMPONENT_SEEDS.md` and `docs/COMPONENT_SPRINT.md`.
 
-The [board, part and pin hierarchy](docs/LABEL_HIERARCHY.md) records the labeling order across all 80 photos. Four Ultimainboard J22 contacts have reviewed photo boxes, pin numbers and verified source nets. Ten NXP parts have source links and 352 unregistered source pin records. The ESP8266-reference and Ultimainboard [source catalog](docs/SOURCE_PIN_COVERAGE.md) has 1,443 records, including the four J22 records now joined to photo pins.
+The [board, part and pin hierarchy](docs/LABEL_HIERARCHY.md) records the labeling order across all 80 photos. Ultimainboard J22/J23/J1/J2 have 22 reviewed numbered contacts linked to source nets. ESP32 and ESP8266 have 44 [printed contact aliases](docs/ESP_HEADER_PIN_LABELS.md), with numeric pin numbers and source nets unknown. Ten NXP parts have source links and 352 unregistered source pin records. The ESP8266-reference and Ultimainboard [source catalog](docs/SOURCE_PIN_COVERAGE.md) has 1,443 records, including 22 now joined to photo pins.
 
 BOM entries, schematic pages and Gerber layers are linked documents. They are not YOLO object classes. Exact links need matched revisions and readable markings or registered PCB geometry. Unknown links remain unknown.
 

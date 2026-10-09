@@ -4,7 +4,7 @@ Updated 2026-10-10 from the saved source and phone datasets. The 80 phone files 
 
 ## Model outputs
 
-Use board-instance detection in full photographs and a separately annotated component dataset for board crops. Keep document and engineering associations in structured records. BOM entries, schematic pages and Gerber layers are linked documents.
+For every board family, identify the board instance first, then its visible part, then a reviewed physical contact/pin under that part. Use board-instance detection in full photographs and a separately annotated component dataset for board crops. Keep document and engineering associations in structured records. BOM entries, schematic pages and Gerber layers are linked documents.
 
 The current board detector has five classes:
 
@@ -54,7 +54,9 @@ The following source relationships are available:
 - The MCXN236 schematic index has 629 reference-like text occurrences and 410 distinct normalized strings. BGA pin names, change history, aliases and repeated symbols can resemble refdes; these counts are not BOM quantities or populated components. 379 native references have schematic-text candidates, with symbol identity still unverified by text matching. SW3 joins to source BOM item 79, worksheet row 93 and source MPN `434123025826`, and its readable photo silkscreen links to the page-10 ISP pushbutton with model-level status. Exact specimen revision and installed manufacturer part remain unresolved.
 - ESP32 interactive BOM/KiCad geometry remains reference-only until clone matching. Pi's reduced schematic and community STEP cannot establish a complete BOM/refdes map.
 
-The user completed the official MCXN236 download on 2026-10-10 after earlier timeout/HTTP 403 attempts. The 21,418,523-byte ZIP passed CRC verification; `archive-inventory.json` records its SHA-256 and all eight members. There are no separate Gerber/drill/STEP/GLB exports in this archive. The earlier failures are acquisition history, not a current archive-access blocker.
+The user completed the official MCXN236 download on 2026-10-10 after earlier timeout/HTTP 403 attempts. The 21,418,523-byte ZIP passed CRC verification; `archive-inventory.json` records its SHA-256 and all eight members. There are no separate Gerber/drill/STEP/GLB exports in this archive. A KiCad import now provides provisional Gerber/drill and board-only STEP/GLB references, with 1,087 DRC errors and 315 warnings. The earlier failures are acquisition history, not a current archive-access blocker.
+
+The same generated formats exist for the ESP32 community clone and Ultimainboard 2.1.4, with 19/128 and 293/569 DRC errors/warnings. None of these exports is fabrication-approved; board-body geometry does not provide component-body boxes or a populated assembly. Source sets and import limitations are documented in [CAD_EXPORTS.md](../../data/board-sources/CAD_EXPORTS.md).
 
 Gerber links should identify board/revision, layer and file provenance. Copper/mask shapes do not uniquely identify component values or manufacturer BOM entries. Document screenshots should receive document/OCR processing and source attribution separately from phone-image object labels.
 
@@ -66,8 +68,10 @@ There is one physical specimen and one capture session per family. Four families
 
 Experimental board detector and crop-classifier models have been trained. Reports on the same 80 supplied files are known-photo diagnostics. The front-view geometric filter was selected after reviewing errors on those files, so its improved result is also exploratory. Preserve the ungated result and filter provenance. Model artifacts and reports are proposed through separate repository PRs.
 
-Component seeds contain 233 major visible objects across nineteen photos. Their coverage is partial; dense passives, obscured parts and board backs remain unfinished. Unlabeled regions are not verified negative training examples. Review every visible instance of the chosen classes before component training. Hidden parts cannot be claimed as visually detected.
+Component seeds contain 236 major visible objects across nineteen photos. Their coverage is partial; dense passives, obscured parts and board backs remain unfinished. Unlabeled regions are not verified negative training examples. Review every visible instance of the chosen classes before component training. Hidden parts cannot be claimed as visually detected.
 
-DeepPCB's 1500 pairs and 10013 boxes concern bare-PCB defects and cannot train these component classes. PCB-Vision RGB images/labels remain unavailable in the saved collection.
+The hierarchy has 66 reviewed contact boxes. Ultimainboard has 22 numbered contacts across J22, J23, J1 and J2 with source pin/net links; ESP32 has 15 and ESP8266 29 contacts labeled by their observed printed aliases. The 44 ESP aliases do not assert physical connector pin numbers, source refdes or nets. NXP and Pi have zero reviewed photo pin locations. Contact annotations are partial and remain ineligible as complete detector ground truth. See [Ultimainboard evidence](../ULTIMAINBOARD_PIN_EXPANSION.md) and [ESP evidence](../ESP_HEADER_PIN_LABELS.md).
 
-Remaining work includes complete component labels, matching physical revisions and PCB geometry, photo registration, independent specimens/capture sessions, component training and separate held-out evaluation. Exact Pi BOM/Gerbers, photographed ESP clone source fidelity, MCXN236 native PCB geometry registration, separate MCXN236 manufacturing exports and complete populated-board models remain unresolved.
+DeepPCB's 1500 pairs and 10013 boxes concern bare-PCB defects and cannot train these component classes. PCB-Vision's complete RGB subset is now verified and packaged through Git LFS: 53 RGB photos and two sets of 53 masks for others, IC, capacitor and connector classes. All source-member CRCs, hashes, decoding and mask/photo dimensions passed checks. These are external segmentation references; they do not identify our boards, exact parts or pins. General/Monoseg variants of one image must share a split. See [acquisition/package evidence](../PCB_VISION_RGB_ACQUISITION.md).
+
+Remaining work includes complete component/pin labels, matching physical revisions and PCB geometry, broader photo registration, independent specimens/capture sessions, component/pin training and separate held-out evaluation. Exact Pi BOM/layout/Gerbers, photographed ESP clone source fidelity, MCXN236 physical revision and geometry registration, engineering validation of generated manufacturing exports and complete populated-board models remain unresolved.

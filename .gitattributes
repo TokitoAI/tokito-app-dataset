@@ -22,3 +22,10 @@
 data/board-sources/nxp-frdm-mcxn236/original-design-files/** -text
 data/board-sources/nxp-frdm-mcxn236/schematic-reference-index.json -text
 data/board-sources/nxp-frdm-mcxn236/structured-rev-c/** -text
+# Preserve hash-addressed generated export payloads and source metadata.
+data/board-sources/**/generated-kicad/** -text
+# Annotation and acquisition manifests participate in raw-byte SHA-256 joins.
+annotations/*.json -text
+data/external/PCBVision/*.json -text
+data/photo-model/*.json -text
+data/board-sources/**/structured-source/*.json -text

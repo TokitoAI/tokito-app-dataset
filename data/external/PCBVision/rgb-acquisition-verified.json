@@ -1,0 +1,4296 @@
+{
+  "schema_version": 1,
+  "verified_at_utc": "2026-10-09T22:09:17.055993+00:00",
+  "state": "rgb_subset_acquired_and_member_crc_verified",
+  "official_record": "https://rodare.hzdr.de/record/2704",
+  "official_mirror": "https://zenodo.org/records/10617721",
+  "doi": "10.14278/rodare.2704",
+  "dataset_license": "CC BY 4.0",
+  "source_archive_bytes": 11392398155,
+  "published_full_archive_md5": "caeee8bafb7857e9bef3479d5ab3f9b4",
+  "full_archive_checksum_verified": false,
+  "inventory_sha256": "24c34e9bad9497e98a6a7a7a6b8aa0dfffde29bdc09eaf278076836d18828b16",
+  "prefix_bytes": 20525037,
+  "prefix_sha256": "9edfbe822e7fdf20e5ce9320cf7644564c7b43a74d792d8b22966f3ed6c1ce9d",
+  "attempts": [
+    {
+      "url": "https://zenodo.org/api/records/10617721/files/PCBDataset.zip/content",
+      "requested_range": "bytes=0-20525036",
+      "http_status": 206,
+      "final_url": "https://zenodo.org/api/records/10617721/files/PCBDataset.zip/content",
+      "content_range": "bytes 0-20525036/11392398155",
+      "downloaded_bytes": 20525037
+    }
+  ],
+  "rgb_images": 53,
+  "general_masks": 53,
+  "monoseg_masks": 53,
+  "all_mask_pairs_match_dimensions": true,
+  "scope": "External component-segmentation reference; does not identify our board models, reference designators, or pins. HSI excluded.",
+  "bulk_workspace_path": "C:\\Users\\Acer\\Documents\\Codex\\2026-10-09\\in\\outputs\\board-dataset\\auxiliary\\PCBVision\\rgb-subset",
+  "members": [
+    {
+      "name": "PCBDataset/RGB/48.jpg",
+      "bytes": 68333,
+      "sha256": "9448d3f54f7117f03908b481732adeccf699c011d5f92b354dc4424d8526acbd",
+      "crc32": "d1efc98e",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        1613,
+        570
+      ],
+      "mode": "RGB",
+      "mask_values": null
+    },
+    {
+      "name": "PCBDataset/RGB/49.jpg",
+      "bytes": 66628,
+      "sha256": "454e38e7d2bfc6bb31f20eb2344ca6669ab349c07777809905da358e1c73f03e",
+      "crc32": "f49be606",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        1643,
+        594
+      ],
+      "mode": "RGB",
+      "mask_values": null
+    },
+    {
+      "name": "PCBDataset/RGB/8.jpg",
+      "bytes": 354153,
+      "sha256": "8d5fa227849931becdbe27cce3e086d49bc4da82c0fbb88b107d75ee78fdc4ca",
+      "crc32": "e8ac46f7",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        1805,
+        975
+      ],
+      "mode": "RGB",
+      "mask_values": null
+    },
+    {
+      "name": "PCBDataset/RGB/9.jpg",
+      "bytes": 263621,
+      "sha256": "05071bf5643e25e951082beb60600cac784186952d707002738b355cd9855f06",
+      "crc32": "db76cecb",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        2174,
+        1124
+      ],
+      "mode": "RGB",
+      "mask_values": null
+    },
+    {
+      "name": "PCBDataset/RGB/14.jpg",
+      "bytes": 194108,
+      "sha256": "4d89a90cfcb6a3a2f43752a613bceb64048c125ce7aa210e1aa975a3e1ed7847",
+      "crc32": "c272010a",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        1760,
+        1014
+      ],
+      "mode": "RGB",
+      "mask_values": null
+    },
+    {
+      "name": "PCBDataset/RGB/28.jpg",
+      "bytes": 262183,
+      "sha256": "7672c70d92f48e211c5586479034e67007056873c62bed7f8fdbba44ae6ed878",
+      "crc32": "e538325e",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        2641,
+        1236
+      ],
+      "mode": "RGB",
+      "mask_values": null
+    },
+    {
+      "name": "PCBDataset/RGB/29.jpg",
+      "bytes": 458035,
+      "sha256": "90283e647b7679c4b1408ba71d9d53889c18924decbe4f814711842e4be503e1",
+      "crc32": "73815bb5",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        2673,
+        1771
+      ],
+      "mode": "RGB",
+      "mask_values": null
+    },
+    {
+      "name": "PCBDataset/RGB/15.jpg",
+      "bytes": 532675,
+      "sha256": "89db1628a4f1fc3995100b8d926f30cf7d816fd298f5150a9cfdc1d4ed413719",
+      "crc32": "ac732b43",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        3517,
+        1642
+      ],
+      "mode": "RGB",
+      "mask_values": null
+    },
+    {
+      "name": "PCBDataset/RGB/17.jpg",
+      "bytes": 910840,
+      "sha256": "0b627b2769f352fdde56c7d6c4073820359d8996c6578b02da5106dfef8c58e5",
+      "crc32": "66f8f4ee",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        4112,
+        3008
+      ],
+      "mode": "RGB",
+      "mask_values": null
+    },
+    {
+      "name": "PCBDataset/RGB/16.jpg",
+      "bytes": 884556,
+      "sha256": "7f1ccfcbb8fa694fdb8f5841f76d00b5f20323ec2618f6f4dcd801fcf149817f",
+      "crc32": "33da89fb",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        4112,
+        3008
+      ],
+      "mode": "RGB",
+      "mask_values": null
+    },
+    {
+      "name": "PCBDataset/RGB/12.jpg",
+      "bytes": 117173,
+      "sha256": "4bdfa3b0773d8dc5336b24117e726efda8d400c1fdd38050002d8c3ff26c8bdd",
+      "crc32": "0f766557",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        1446,
+        782
+      ],
+      "mode": "RGB",
+      "mask_values": null
+    },
+    {
+      "name": "PCBDataset/RGB/13.jpg",
+      "bytes": 177057,
+      "sha256": "c09bd60ffc067fa057fb3e5e87c100c5890cc546dd907681750377794cf1a7bf",
+      "crc32": "df493bf8",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        1559,
+        1127
+      ],
+      "mode": "RGB",
+      "mask_values": null
+    },
+    {
+      "name": "PCBDataset/RGB/39.jpg",
+      "bytes": 634763,
+      "sha256": "e2d975589e153a819900733ad0ddda4e619d9350678ecb11e05c148eb5403d4a",
+      "crc32": "bc28a27b",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        2641,
+        2142
+      ],
+      "mode": "RGB",
+      "mask_values": null
+    },
+    {
+      "name": "PCBDataset/RGB/11.jpg",
+      "bytes": 166206,
+      "sha256": "c344e5fd26a50457d850c68da4db7ef90bf46ae70b38d22ddf15e7ff9767d30a",
+      "crc32": "b06c2cc2",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        1285,
+        1268
+      ],
+      "mode": "RGB",
+      "mask_values": null
+    },
+    {
+      "name": "PCBDataset/RGB/10.jpg",
+      "bytes": 485601,
+      "sha256": "a8b6be9c5ec5d52e85578f66066415cf92070825696ffa0f65d1e26ca95cba66",
+      "crc32": "11fb97fb",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        2736,
+        1730
+      ],
+      "mode": "RGB",
+      "mask_values": null
+    },
+    {
+      "name": "PCBDataset/RGB/38.jpg",
+      "bytes": 718520,
+      "sha256": "3a555f24b793d5b18bcc86c292ebfc5d0bdf24fded2f26ac59ede5bef652d913",
+      "crc32": "9dc61cc1",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        3179,
+        2134
+      ],
+      "mode": "RGB",
+      "mask_values": null
+    },
+    {
+      "name": "PCBDataset/RGB/21.jpg",
+      "bytes": 276447,
+      "sha256": "a0462615dee994d586cf50369a2e12ba47a3f68d5a8fe1fd7e43d95b9315e0c7",
+      "crc32": "886fcc27",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        2270,
+        1355
+      ],
+      "mode": "RGB",
+      "mask_values": null
+    },
+    {
+      "name": "PCBDataset/RGB/35.jpg",
+      "bytes": 156287,
+      "sha256": "03c7ae60de32c0a9c62155be970b80fec659f6729bf151e62b4d3e22f5f71271",
+      "crc32": "03b7c54e",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        1803,
+        1108
+      ],
+      "mode": "RGB",
+      "mask_values": null
+    },
+    {
+      "name": "PCBDataset/RGB/34.jpg",
+      "bytes": 143933,
+      "sha256": "dfdbd3784c6bf522f4cd9ccf5c03a99e2b2892024daf63574c8625c20e18ac4f",
+      "crc32": "30481ebe",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        2456,
+        1044
+      ],
+      "mode": "RGB",
+      "mask_values": null
+    },
+    {
+      "name": "PCBDataset/RGB/20.jpg",
+      "bytes": 176956,
+      "sha256": "cc38b7e66df0d7dd4fd740b94490859175b8ab6fc570c18606f5ef5c21316d84",
+      "crc32": "24d96131",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        1985,
+        1101
+      ],
+      "mode": "RGB",
+      "mask_values": null
+    },
+    {
+      "name": "PCBDataset/RGB/36.jpg",
+      "bytes": 569373,
+      "sha256": "7a2322e4e2e7abaead8f3658850ff44d5c14a7fddf1da7249deb8f41fb8300b5",
+      "crc32": "9b5c9400",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        2838,
+        1967
+      ],
+      "mode": "RGB",
+      "mask_values": null
+    },
+    {
+      "name": "PCBDataset/RGB/22.jpg",
+      "bytes": 284518,
+      "sha256": "7bad3988150693350d37ecc0f6fafcd21998cfcb3bdc152a3152f55d0cda6936",
+      "crc32": "920263f6",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        2219,
+        1209
+      ],
+      "mode": "RGB",
+      "mask_values": null
+    },
+    {
+      "name": "PCBDataset/RGB/23.jpg",
+      "bytes": 183716,
+      "sha256": "ec4b71f7ea0a3449c8d42f778bcdead0a85930a8ef93265035bbd4e9ba7a2893",
+      "crc32": "4178c5e5",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        2056,
+        1318
+      ],
+      "mode": "RGB",
+      "mask_values": null
+    },
+    {
+      "name": "PCBDataset/RGB/37.jpg",
+      "bytes": 750202,
+      "sha256": "880dec6a1181bf12d8c755f0813f98fae221a1721b7bdb745c94076fe5bcb44c",
+      "crc32": "02b10dfc",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        3365,
+        2518
+      ],
+      "mode": "RGB",
+      "mask_values": null
+    },
+    {
+      "name": "PCBDataset/RGB/33.jpg",
+      "bytes": 592865,
+      "sha256": "66ea90c8f5e1f9e139a59754844b60c59efbf31b93ae1679ba5f1e6cf5dcc942",
+      "crc32": "44120b27",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        2902,
+        1715
+      ],
+      "mode": "RGB",
+      "mask_values": null
+    },
+    {
+      "name": "PCBDataset/RGB/27.jpg",
+      "bytes": 526792,
+      "sha256": "25b5ce1865e95c785065a066b7b9a027fdbbd721cd2d8bd1195195e527b2c357",
+      "crc32": "70cc2bc8",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        2918,
+        2115
+      ],
+      "mode": "RGB",
+      "mask_values": null
+    },
+    {
+      "name": "PCBDataset/RGB/26.jpg",
+      "bytes": 663620,
+      "sha256": "320ef1f08f8299f2bb0da32ab623fa39df392ee968da118437c375872822d34f",
+      "crc32": "dff95a9a",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        3098,
+        2302
+      ],
+      "mode": "RGB",
+      "mask_values": null
+    },
+    {
+      "name": "PCBDataset/RGB/32.jpg",
+      "bytes": 532775,
+      "sha256": "ad7d2a11d392fee92ded8ce3d26951f0ca7bbf4b509230870508aab0b1c18e11",
+      "crc32": "6270177c",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        2725,
+        2192
+      ],
+      "mode": "RGB",
+      "mask_values": null
+    },
+    {
+      "name": "PCBDataset/RGB/18.jpg",
+      "bytes": 189152,
+      "sha256": "aaa5b8cfe7df00ca6ad5b2949a4935d1d01c6e018532097674852e8a2dac8cae",
+      "crc32": "13f1d6ac",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        1921,
+        1095
+      ],
+      "mode": "RGB",
+      "mask_values": null
+    },
+    {
+      "name": "PCBDataset/RGB/24.jpg",
+      "bytes": 722401,
+      "sha256": "43442ada8c295869d7a80735074fc43b16d2ab2a66be608b52f85052238f22da",
+      "crc32": "f453654b",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        2925,
+        2100
+      ],
+      "mode": "RGB",
+      "mask_values": null
+    },
+    {
+      "name": "PCBDataset/RGB/30.jpg",
+      "bytes": 508565,
+      "sha256": "a2f2e0618abbf2e0f989a38208cb0d675e7ee1dfea194a5ba3b53686f1a19fe2",
+      "crc32": "8186b3b4",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        2622,
+        1908
+      ],
+      "mode": "RGB",
+      "mask_values": null
+    },
+    {
+      "name": "PCBDataset/RGB/31.jpg",
+      "bytes": 297331,
+      "sha256": "6e2a475a0ea487ad5f78c9fca1f37bb6a920ae7e46e0f5e28ec37124d6c47a63",
+      "crc32": "d96bf25b",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        3282,
+        1172
+      ],
+      "mode": "RGB",
+      "mask_values": null
+    },
+    {
+      "name": "PCBDataset/RGB/25.jpg",
+      "bytes": 854641,
+      "sha256": "beb06e8529dd4a065cc798b95d9d3279e749c42d6190a7b7a2ecc67a69ce8b38",
+      "crc32": "9897517d",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        2698,
+        2227
+      ],
+      "mode": "RGB",
+      "mask_values": null
+    },
+    {
+      "name": "PCBDataset/RGB/19.jpg",
+      "bytes": 377210,
+      "sha256": "d5fb9e4265dcf51f43f40687bd6982618cd1cfb9a0428e965d75c53ed0edb974",
+      "crc32": "2a750a2a",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        3204,
+        1351
+      ],
+      "mode": "RGB",
+      "mask_values": null
+    },
+    {
+      "name": "PCBDataset/RGB/42.jpg",
+      "bytes": 53886,
+      "sha256": "b2d3a79da85455cbf01e1269dc9e6ebc6534dd3207fc08f9a8f504490655ca07",
+      "crc32": "409ad1ec",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        1466,
+        531
+      ],
+      "mode": "RGB",
+      "mask_values": null
+    },
+    {
+      "name": "PCBDataset/RGB/4.jpg",
+      "bytes": 510764,
+      "sha256": "7f506718e7f8adea9328b33e0f75ab320e3346a22be36422a9137d9c3e1a268a",
+      "crc32": "097de919",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        1620,
+        1000
+      ],
+      "mode": "RGB",
+      "mask_values": null
+    },
+    {
+      "name": "PCBDataset/RGB/5.jpg",
+      "bytes": 151756,
+      "sha256": "0a94a7e0339e0cf960e5cd1bd32f90d4f3e958b5d25c956a2a3c27260907855b",
+      "crc32": "961fda09",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        1329,
+        422
+      ],
+      "mode": "RGB",
+      "mask_values": null
+    },
+    {
+      "name": "PCBDataset/RGB/43.jpg",
+      "bytes": 24768,
+      "sha256": "f0832527d9c629a0fe73b87040bfd106f59409071b4938e078c0c163bc226659",
+      "crc32": "49b57275",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        846,
+        494
+      ],
+      "mode": "RGB",
+      "mask_values": null
+    },
+    {
+      "name": "PCBDataset/RGB/7.jpg",
+      "bytes": 179590,
+      "sha256": "46609d5059d461517acf591a3e9d91310a48308e462900bd102d44796b810550",
+      "crc32": "b7725b2a",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        1600,
+        470
+      ],
+      "mode": "RGB",
+      "mask_values": null
+    },
+    {
+      "name": "PCBDataset/RGB/41.jpg",
+      "bytes": 31930,
+      "sha256": "bf7b5cc612e55753b1e78f80b609152f17d3bb9b3847a9b50d33b1fdf9ded579",
+      "crc32": "1c0887f8",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        1056,
+        386
+      ],
+      "mode": "RGB",
+      "mask_values": null
+    },
+    {
+      "name": "PCBDataset/RGB/40.jpg",
+      "bytes": 904570,
+      "sha256": "a597c9d2e93eed41c9fa50f09db5faeaddc8c4483a8bf54a66d01845182d42ba",
+      "crc32": "96b6360d",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        3583,
+        2433
+      ],
+      "mode": "RGB",
+      "mask_values": null
+    },
+    {
+      "name": "PCBDataset/RGB/6.jpg",
+      "bytes": 927468,
+      "sha256": "d0d033a27c9c77f1430029919d2514310625c57c88bd52ca009f73a87f8b1f5e",
+      "crc32": "c1ebb87e",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        2700,
+        1600
+      ],
+      "mode": "RGB",
+      "mask_values": null
+    },
+    {
+      "name": "PCBDataset/RGB/2.jpg",
+      "bytes": 2312357,
+      "sha256": "adf6927ec6041ae11fcb46f364806c2885ace1f3364ca9037329446c6ea3d8df",
+      "crc32": "d6914bf5",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        3000,
+        3008
+      ],
+      "mode": "RGB",
+      "mask_values": null
+    },
+    {
+      "name": "PCBDataset/RGB/50.jpg",
+      "bytes": 88150,
+      "sha256": "76d32bbc314af8bccc1a73deaf849ba220d53b9777e7f210f516e0f0abe85bd2",
+      "crc32": "77a7e521",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        1655,
+        742
+      ],
+      "mode": "RGB",
+      "mask_values": null
+    },
+    {
+      "name": "PCBDataset/RGB/44.jpg",
+      "bytes": 54632,
+      "sha256": "90ecc61e6356c143417fd0b6ab90f38ffc16a7a4ed8ac091f956bc3463e66823",
+      "crc32": "266bc5b6",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        1358,
+        428
+      ],
+      "mode": "RGB",
+      "mask_values": null
+    },
+    {
+      "name": "PCBDataset/RGB/45.jpg",
+      "bytes": 24467,
+      "sha256": "06a72c51ac3121a40221f9f4676ebcf9d8a159ada97ff6164fa7769499a5b1a8",
+      "crc32": "4082fafc",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        1049,
+        399
+      ],
+      "mode": "RGB",
+      "mask_values": null
+    },
+    {
+      "name": "PCBDataset/RGB/3.jpg",
+      "bytes": 371176,
+      "sha256": "c39fd6aeef670793b7d566426d1557ca3dba79f533761446163e36791209b93e",
+      "crc32": "ee090783",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        1820,
+        1300
+      ],
+      "mode": "RGB",
+      "mask_values": null
+    },
+    {
+      "name": "PCBDataset/RGB/51.jpg",
+      "bytes": 71572,
+      "sha256": "8ccf8411d79f9f0ca56d44b1048dd97872bb92d2fc97978a10637cf55b43adca",
+      "crc32": "19f122d2",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        1777,
+        583
+      ],
+      "mode": "RGB",
+      "mask_values": null
+    },
+    {
+      "name": "PCBDataset/RGB/47.jpg",
+      "bytes": 60930,
+      "sha256": "e591ba59258dec53096add9ff7f6d7e1e7864b99e0a8cb5d2fbc196bddb433b8",
+      "crc32": "146c3d34",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        1607,
+        530
+      ],
+      "mode": "RGB",
+      "mask_values": null
+    },
+    {
+      "name": "PCBDataset/RGB/53.jpg",
+      "bytes": 189638,
+      "sha256": "629b37b2644c128ffd1cf4b9633723b912b99ffc9b6230519c943a0528fa4a44",
+      "crc32": "013acd27",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        2316,
+        1403
+      ],
+      "mode": "RGB",
+      "mask_values": null
+    },
+    {
+      "name": "PCBDataset/RGB/1.jpg",
+      "bytes": 341242,
+      "sha256": "3ccdbac3a509c96ab3b73a084b3a9b64961b17548ac0305e44540d5460ed155d",
+      "crc32": "6430d9aa",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        1450,
+        700
+      ],
+      "mode": "RGB",
+      "mask_values": null
+    },
+    {
+      "name": "PCBDataset/RGB/52.jpg",
+      "bytes": 107459,
+      "sha256": "0aa0a002275d340c94de5975c6b9b78e9e6a8ad4dc608af3fdf0a3bbfc5fbff1",
+      "crc32": "439c0595",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        1492,
+        820
+      ],
+      "mode": "RGB",
+      "mask_values": null
+    },
+    {
+      "name": "PCBDataset/RGB/46.jpg",
+      "bytes": 79739,
+      "sha256": "ffeda056618372357a6952add01d7d89d9cfd5a182529546339a0aea783458d1",
+      "crc32": "e67907bb",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        1708,
+        569
+      ],
+      "mode": "RGB",
+      "mask_values": null
+    },
+    {
+      "name": "PCBDataset/RGB/General/48.png",
+      "bytes": 1657,
+      "sha256": "0f1f053887339d57d6036fae9325985ec6309de643206060549454e267819788",
+      "crc32": "08dd7c21",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        1613,
+        570
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/General/49.png",
+      "bytes": 1531,
+      "sha256": "f411e8f444422ce02085a2b3ccd6f652c9da1709e5c4437f8b1781c0fe5d6321",
+      "crc32": "750e5120",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        1643,
+        594
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/General/8.png",
+      "bytes": 6301,
+      "sha256": "b3bafb9bdee207d0ef5027f4f4afefad576b1cbfc33adfdae1c0a64212a4a1f9",
+      "crc32": "991b1270",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        1805,
+        975
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/General/9.png",
+      "bytes": 7955,
+      "sha256": "3b096ebf605c9b14e87535ac8748d2dd3d73d6d21323de16fe1b5938af15afbf",
+      "crc32": "423a1790",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        2174,
+        1124
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/General/14.png",
+      "bytes": 2995,
+      "sha256": "db4ba7a3a6315c549379303647c52e05101848cf05cd3d7ad369604fc4de7f84",
+      "crc32": "cd46bfb4",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        1760,
+        1014
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/General/28.png",
+      "bytes": 6143,
+      "sha256": "e8ca3824d85b2f0b6a65c1a0424732650484e0d24663b61eaf99beb8435d4d16",
+      "crc32": "e7170091",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        2641,
+        1236
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/General/29.png",
+      "bytes": 7630,
+      "sha256": "e84f7fec84f26e7f4b9b129b647987fa94b7c5781f52ef45aad7412938d30976",
+      "crc32": "3ea40f48",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        2673,
+        1771
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/General/15.png",
+      "bytes": 11565,
+      "sha256": "5e8ec6fd1d6878a173eb57fc1c911e75414813a38fdf5a133b5aab1546c5ff40",
+      "crc32": "a8e06257",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        3517,
+        1642
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/General/17.png",
+      "bytes": 25847,
+      "sha256": "da159e36ad199eabdb227142cb7ef24b927ab6d0a40c3bc995d58d7dcade85ad",
+      "crc32": "fa633837",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        4112,
+        3008
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/General/16.png",
+      "bytes": 19487,
+      "sha256": "a96c77cda78964f9a72569869d355154714fea4a5b71af50155174e3e95e69a1",
+      "crc32": "ad03388d",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        4112,
+        3008
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/General/12.png",
+      "bytes": 1607,
+      "sha256": "a649232880af1dbc0472580f6e3f2136bd4fcca7adeb3bcd27d0d934c06b8d9e",
+      "crc32": "db335e4b",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        1446,
+        782
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/General/13.png",
+      "bytes": 3576,
+      "sha256": "678c7333b48ecc12783d6951278c89559ce8c33e7ef3a323782f9e2e8af9da85",
+      "crc32": "73bd041e",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        1559,
+        1127
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/General/39.png",
+      "bytes": 10011,
+      "sha256": "d236bb81cc2291c3990f9e597e5380abd5ea10a1e926bce3f48c1c53e251e2fd",
+      "crc32": "b1458437",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        2641,
+        2142
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/General/11.png",
+      "bytes": 5818,
+      "sha256": "dbcc2662cee1ff330911453fb0e4317acec16d62eb60db75b415f9e49101cc36",
+      "crc32": "d7571de1",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        1285,
+        1268
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/General/10.png",
+      "bytes": 12548,
+      "sha256": "54eb8b164b222576e4b5db5a6a7bffe647cdc4870e65300b791f673822aa85cf",
+      "crc32": "d3273ad6",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        2736,
+        1730
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/General/38.png",
+      "bytes": 12590,
+      "sha256": "18adcd6d3a9bda5fa935541ea1fa8a20726a801754e9f408f54cfe22dbca9c21",
+      "crc32": "1a924de3",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        3179,
+        2134
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/General/35.png",
+      "bytes": 3356,
+      "sha256": "b52a6ac5f9c973caf8ef26ec10b46b37b2aa48949644505570c8f653817117bc",
+      "crc32": "b1e28d5f",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        1803,
+        1108
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/General/21.png",
+      "bytes": 9960,
+      "sha256": "a59dffc15b7257fd10dfc49d8ae9cb6af34bafddd17a71d3f2c599f9581a9347",
+      "crc32": "71e408fd",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        2270,
+        1355
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/General/20.png",
+      "bytes": 4279,
+      "sha256": "d1758eb8d48ea38127f3512e2651d8b7a56cb9271c7505d1bd59f58afcf4226e",
+      "crc32": "351b5ba3",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        1985,
+        1101
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/General/34.png",
+      "bytes": 4464,
+      "sha256": "d15b73074982e1cfcac2a807abd9d7ee11a159fe6a3f9f477a6f345ff2a3888b",
+      "crc32": "a8af9933",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        2456,
+        1044
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/General/22.png",
+      "bytes": 8083,
+      "sha256": "a570ec7ce0665902a07b5e9e59c99c881e0a6e03cd2d0b8dee068af2c30d27af",
+      "crc32": "65291f43",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        2219,
+        1209
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/General/36.png",
+      "bytes": 11443,
+      "sha256": "4f27cb64551ad02cfdf033935a4ee32eb4e63f1436910a72cd6e45dd0e285dc7",
+      "crc32": "30a1236b",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        2838,
+        1967
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/General/37.png",
+      "bytes": 18887,
+      "sha256": "fca6fe94348c0d575fe808816384636d2553a1ce5e8e636f7016aa87c13d9473",
+      "crc32": "77d7904a",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        3365,
+        2518
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/General/23.png",
+      "bytes": 4980,
+      "sha256": "68f2e937f76cd60d4c710f043d72b5abb7aedc17c196b4c046b6011ea62bf25e",
+      "crc32": "a534cb97",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        2056,
+        1318
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/General/27.png",
+      "bytes": 17139,
+      "sha256": "4f4c5d858bc44e07f7251145935d442ea2a711383dcc98582ca2f5d7780f127d",
+      "crc32": "e872938a",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        2918,
+        2115
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/General/33.png",
+      "bytes": 13592,
+      "sha256": "438b13cd8d58069463f4548f30a79778acebcbd3627f807d2c8d043fc679cb6b",
+      "crc32": "23fe7916",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        2902,
+        1715
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/General/32.png",
+      "bytes": 13017,
+      "sha256": "078c9e6dad88fb36c2426e7ebc4abf97ba5973a41491236d72e3ddb906020a6b",
+      "crc32": "996e395c",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        2725,
+        2192
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/General/26.png",
+      "bytes": 11698,
+      "sha256": "a38ad8bf3f6e4af03bf2b18877d7e81cd7640eb2064af6ba98c8fff17fe57958",
+      "crc32": "7bcc53d9",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        3098,
+        2302
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/General/18.png",
+      "bytes": 6036,
+      "sha256": "ec7a0ca8557a08a54ad24daa9ec001e1b9959b721847446d65e680061a61d5a1",
+      "crc32": "6e5f0513",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        1921,
+        1095
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/General/30.png",
+      "bytes": 14341,
+      "sha256": "8a554839b02c1e7a32088f080718759c1b88b8927e9f833519550d52a2ebf700",
+      "crc32": "d6e4ffed",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        2622,
+        1908
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/General/24.png",
+      "bytes": 15941,
+      "sha256": "82a83b33e1b6517b1586119db727c8d374f1de6e657203cb1f5670454c0ad976",
+      "crc32": "e634d82e",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        2925,
+        2100
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/General/25.png",
+      "bytes": 15921,
+      "sha256": "4515a6b745073d6f0f44bfe5281e911748130d34977a7ef7f84f1d5a39d6907b",
+      "crc32": "1036e135",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        2698,
+        2227
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/General/31.png",
+      "bytes": 6585,
+      "sha256": "1ce6fdeeef7da080170c099843ffdfe312ca42db0cd712bc3a8a7843442270bb",
+      "crc32": "75c83f60",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        3282,
+        1172
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/General/19.png",
+      "bytes": 11335,
+      "sha256": "500444362bff6e1bcfb3c09ea19c370553c8dc0d8f27d5db6e775664e498eb33",
+      "crc32": "e3a0a710",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        3204,
+        1351
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/General/4.png",
+      "bytes": 4003,
+      "sha256": "489c95529b471f0c654c3219ee66a1daa0930ce0b6c1d6b79ee055d4b835b11a",
+      "crc32": "af5caba7",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        1620,
+        1000
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/General/42.png",
+      "bytes": 1330,
+      "sha256": "3b1166e581cfaa650dbcecd00cd02ff35880e7066f004e7f167b4438f0e32fba",
+      "crc32": "a596a6f5",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        1466,
+        531
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/General/43.png",
+      "bytes": 1192,
+      "sha256": "50fea066510a099a31266d13f7b0f5781a07685ee2d688a93c49d902f99632b3",
+      "crc32": "50ef7b08",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        846,
+        494
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/General/5.png",
+      "bytes": 1491,
+      "sha256": "c3ffa80575179045d9e5afe704bffbc34ab2bcbe8f9483e1d41fd1960afe5cd7",
+      "crc32": "7900c117",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        1329,
+        422
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/General/41.png",
+      "bytes": 903,
+      "sha256": "89df89ff17f742f8724ca8cb344f16046ec65acd73e32b802a18767aa9434754",
+      "crc32": "061c7c11",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        1056,
+        386
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/General/7.png",
+      "bytes": 1826,
+      "sha256": "e5617fa93e6ece3671582524ab25edf70f8c6d16b86b87fd0ee6c52d64ca8a6d",
+      "crc32": "72bafcd5",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        1600,
+        470
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/General/6.png",
+      "bytes": 66013,
+      "sha256": "19151330b5856c550dc8ba9fc36d5a1fad922c99c6fcec21fc07e8577fa26fd5",
+      "crc32": "749e28e7",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        2700,
+        1600
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/General/40.png",
+      "bytes": 14790,
+      "sha256": "5aa493c4405b442a57f0b72a703fe84beb71399ac3ad13b2e87d423bc506720b",
+      "crc32": "0cae0a94",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        3583,
+        2433
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/General/44.png",
+      "bytes": 1343,
+      "sha256": "a46334403d453becaa781d129b196816405c5af13865427d763540a2042bd86a",
+      "crc32": "c48de8a2",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        1358,
+        428
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/General/2.png",
+      "bytes": 22984,
+      "sha256": "4593cb70ed36e80b91c2a58e3177482609d2ff9cb1aa761454109cfb7871a0a3",
+      "crc32": "4d4bec52",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        3000,
+        3008
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/General/50.png",
+      "bytes": 2473,
+      "sha256": "bfa8fcc4327cab55ea310d1d09db3a9ab441032a518605300af9dfcbb2ecc26e",
+      "crc32": "1c309fe5",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        1655,
+        742
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/General/3.png",
+      "bytes": 7847,
+      "sha256": "67575c86705bb13b799d242a559e3fcbbb6febe34432c686ca9b2a3b0b0f8979",
+      "crc32": "7bf31c7e",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        1820,
+        1300
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/General/51.png",
+      "bytes": 2059,
+      "sha256": "4e436afa45b514eec4b7b0836984c47a54df8dd9f769e468baf7390bbf04cc02",
+      "crc32": "dc4b1597",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        1777,
+        583
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/General/45.png",
+      "bytes": 967,
+      "sha256": "8c66f757cb43bb042fb702ec3d637dd26f9e7d740361929d2706f8495a50bb74",
+      "crc32": "00635350",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        1049,
+        399
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/General/53.png",
+      "bytes": 5865,
+      "sha256": "477b097a86168e415b52b17462231909500b2b72961bf897e1901164a610b8d8",
+      "crc32": "1dbd6077",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        2316,
+        1403
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/General/1.png",
+      "bytes": 3588,
+      "sha256": "f0526d2eef775cc847757e99818eac92977041f963b3d59019fecad3388e07f0",
+      "crc32": "a1126354",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        1450,
+        700
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/General/47.png",
+      "bytes": 1530,
+      "sha256": "a51f2882a1d88736e59f39b8910185691f2728d8bcda2c88d55836f31f7de9ae",
+      "crc32": "1b182a30",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        1607,
+        530
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/General/46.png",
+      "bytes": 1473,
+      "sha256": "b4fe174634851ae42e7d93131eba0722a2dbb0d804d78a90564fc93ead085811",
+      "crc32": "f455ff50",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        1708,
+        569
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/General/52.png",
+      "bytes": 3461,
+      "sha256": "10f8c02f542c184102ceaf21d517ad554ff624953b1359d750746889cdcb926c",
+      "crc32": "529f7f1c",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        1492,
+        820
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/Monoseg/48.png",
+      "bytes": 2052,
+      "sha256": "81a5badf84da4ab03c766aa2c1f889cb929eac82d61bf77168f25a72d5347023",
+      "crc32": "31755531",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        1613,
+        570
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/Monoseg/49.png",
+      "bytes": 1528,
+      "sha256": "9b74b7da592b3a1943669d04647abc01fb20ca1574d65b7f000a9540b2b30eb0",
+      "crc32": "49032c9c",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        1643,
+        594
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/Monoseg/8.png",
+      "bytes": 6301,
+      "sha256": "b3bafb9bdee207d0ef5027f4f4afefad576b1cbfc33adfdae1c0a64212a4a1f9",
+      "crc32": "991b1270",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        1805,
+        975
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/Monoseg/9.png",
+      "bytes": 7751,
+      "sha256": "593e5d85ce85a17ed564dddcae2badfebec33713e80684124841078592cfa9fc",
+      "crc32": "fa18a595",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        2174,
+        1124
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/Monoseg/14.png",
+      "bytes": 2990,
+      "sha256": "2da0d78ff06ef1139a39ac4b65bcf5b099b56c6eaecbb74474377546b9f8b613",
+      "crc32": "85cc3c6a",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        1760,
+        1014
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/Monoseg/28.png",
+      "bytes": 8443,
+      "sha256": "c21f0a027ffe9db3d2d236cc13ce7c93b9a2d539ba648050404de4812bf70b4d",
+      "crc32": "c0f1fb31",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        2641,
+        1236
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/Monoseg/29.png",
+      "bytes": 9702,
+      "sha256": "cccd44e1dffb17eba9d7470e625e4cd6312292529489a27b912d9f249840b484",
+      "crc32": "e9da75bc",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        2673,
+        1771
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/Monoseg/15.png",
+      "bytes": 10892,
+      "sha256": "cc1b621c8f8266d7cc1d889a274d9d1b9c60669a047f5f360daf6094e66f51b6",
+      "crc32": "89b3447b",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        3517,
+        1642
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/Monoseg/17.png",
+      "bytes": 25578,
+      "sha256": "2c0f0f46d0470ab45d82d5ac42448b30b49cd0dbcbe813ca67c7d29911520659",
+      "crc32": "017d4016",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        4112,
+        3008
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/Monoseg/16.png",
+      "bytes": 20052,
+      "sha256": "e0a821772766e3fde23cae6742348940e2a3dc8f7389bc41250a97020457dd6a",
+      "crc32": "b8ff1011",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        4112,
+        3008
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/Monoseg/12.png",
+      "bytes": 1732,
+      "sha256": "2c87ec9b2d8cec9ffea613663f5a9fe0d5f7b1d0681be42c4e1e062e696923de",
+      "crc32": "9587a6a0",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        1446,
+        782
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/Monoseg/13.png",
+      "bytes": 3987,
+      "sha256": "277a7753a4b523a6666489a77c56de2c03cb337037f8d8a50ddaf67a7c8bb0aa",
+      "crc32": "8e7dc489",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        1559,
+        1127
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/Monoseg/39.png",
+      "bytes": 11327,
+      "sha256": "336697ad9dc808c6bfa17a62730dc17bf5e3eb1bc770c0b8b9b93282b642d0a7",
+      "crc32": "e1d7f6e2",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        2641,
+        2142
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/Monoseg/11.png",
+      "bytes": 5706,
+      "sha256": "395003293596725808f2f6e2f79af6cc41c048db4f3cff5cf6a484a98b99e438",
+      "crc32": "baa16d6c",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        1285,
+        1268
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/Monoseg/10.png",
+      "bytes": 13720,
+      "sha256": "b05dfefb19f617577b8083de3b139ff79ff65d329204f779f167a70f046a274b",
+      "crc32": "60f5f350",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        2736,
+        1730
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/Monoseg/38.png",
+      "bytes": 14304,
+      "sha256": "ece6665d5066e0478c75edf87a2125a5c82ca84bc14bef969851df8a1bcf7061",
+      "crc32": "bbe26b70",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        3179,
+        2134
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/Monoseg/35.png",
+      "bytes": 3526,
+      "sha256": "3fd5f1f3106b95fdc8b141891d772e6e92706655a99b1cec9fa3f2e41f9535cc",
+      "crc32": "efd2b189",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        1803,
+        1108
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/Monoseg/21.png",
+      "bytes": 10263,
+      "sha256": "af965d4b76a56d5794a1a4957271081a7bd79bd9cf68d0fea39050d76c2e5d2b",
+      "crc32": "057a7d36",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        2270,
+        1355
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/Monoseg/20.png",
+      "bytes": 4829,
+      "sha256": "2ce439b55bfe18b729e1ad34d39227a3c5a65d6f4baf5abb6e0eb2eb476ed0ec",
+      "crc32": "d33a227c",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        1985,
+        1101
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/Monoseg/34.png",
+      "bytes": 4558,
+      "sha256": "34c7803898d2a193bec388da3cf58319bbc76f72c175a6b7025c48186d482a7e",
+      "crc32": "c7c227cd",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        2456,
+        1044
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/Monoseg/22.png",
+      "bytes": 7756,
+      "sha256": "4dce00c4a427f3795e95dbbb5a1fab0d94ecd6a91c2e52e912da7ffc2c246513",
+      "crc32": "6768d478",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        2219,
+        1209
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/Monoseg/36.png",
+      "bytes": 13408,
+      "sha256": "ec49bbda2b474e70a3f8c3f2fc8863937994c405d82f02e6de5623f120ee7538",
+      "crc32": "930a212c",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        2838,
+        1967
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/Monoseg/37.png",
+      "bytes": 15397,
+      "sha256": "85efd88bc07c73ec02140cf81a3f0ede6b7cea4950b7531e8f8a3e7c6fd4c7bd",
+      "crc32": "d1a0f223",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        3365,
+        2518
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/Monoseg/23.png",
+      "bytes": 5031,
+      "sha256": "c24786eb975b2a0367ed4a07e140b92dd12bb6e387e722db9857f796a3a43222",
+      "crc32": "b8bdd4c1",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        2056,
+        1318
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/Monoseg/27.png",
+      "bytes": 15889,
+      "sha256": "5512deb515f04987f04bdb7da63269d84a564bd9fb0418c0d6e53f6c4d4453a6",
+      "crc32": "d1157c17",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        2918,
+        2115
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/Monoseg/33.png",
+      "bytes": 13707,
+      "sha256": "77c8a1d11a455bf5a69b667341225d1a0e2b89b705b229a1e47547970ae75ba6",
+      "crc32": "8d60294c",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        2902,
+        1715
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/Monoseg/32.png",
+      "bytes": 13264,
+      "sha256": "b9749e9edc380a37dff93b2101f7a1b0fad8bde9c6cccf70f7a42ce2259a7566",
+      "crc32": "45d055c9",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        2725,
+        2192
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/Monoseg/26.png",
+      "bytes": 12651,
+      "sha256": "aa566077af00bdd036dda4d327e0a83c006aa72765d1a13bfcd7ad29abd532a2",
+      "crc32": "afd0cfea",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        3098,
+        2302
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/Monoseg/18.png",
+      "bytes": 5457,
+      "sha256": "6a544484ab5b8f37410c4c6da892b8b42072fd248042acdda2f084173ab81e65",
+      "crc32": "ba7fc743",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        1921,
+        1095
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/Monoseg/30.png",
+      "bytes": 13613,
+      "sha256": "a7aedd672230c9d0eff53665868a1ccfc12b0d7e49853aa88c092bfe2a9b6b25",
+      "crc32": "bf955f3f",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        2622,
+        1908
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/Monoseg/24.png",
+      "bytes": 13650,
+      "sha256": "c00342bfc2fadc68c226004cfe0ee63828ab6dd53d5904e96ca7ba2526cac89b",
+      "crc32": "4cf9927c",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        2925,
+        2100
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/Monoseg/25.png",
+      "bytes": 15012,
+      "sha256": "62c46f54c9876a4751a12c8c34b284c48fdb19b88464cf9092346e23055c0d75",
+      "crc32": "56ec745b",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        2698,
+        2227
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/Monoseg/31.png",
+      "bytes": 7928,
+      "sha256": "cd5be749e6634eec357ccd2fd6c330a366dd6821df535e197ea9b24f6200df54",
+      "crc32": "25c0a203",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        3282,
+        1172
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/Monoseg/19.png",
+      "bytes": 13351,
+      "sha256": "bf4df7b9fb63fb50f8b09ce2b0efdacb4ad8c9b1099470b770cefc2e306a3cf8",
+      "crc32": "7d5abfd3",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        3204,
+        1351
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/Monoseg/4.png",
+      "bytes": 4700,
+      "sha256": "de3cb1bdba993e528ca578a3a7aff713edfcf2d5163c1499d01e4f46c777cb1e",
+      "crc32": "f8e852cc",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        1620,
+        1000
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/Monoseg/42.png",
+      "bytes": 1786,
+      "sha256": "99778c8e2aca7cbded9bc0fe847045760a9afc0c62d5f1df10c6b1d861f3f18a",
+      "crc32": "a72b5bcd",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        1466,
+        531
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/Monoseg/43.png",
+      "bytes": 1505,
+      "sha256": "b4207883d669e6a88517f99aa97d8a0fb105116d4ada0dbe3c27bbaa039f400c",
+      "crc32": "fc1678b9",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        846,
+        494
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/Monoseg/5.png",
+      "bytes": 1755,
+      "sha256": "06f07aef10797f95e06883f8e174c817752e3a60b95a9f5ca14f86b74fb71112",
+      "crc32": "a323e7dc",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        1329,
+        422
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/Monoseg/41.png",
+      "bytes": 1099,
+      "sha256": "2e7f8ed9bbbde8f1b42ee26619d2bc1aa4d50cac39dbe37a91a12a8b24cc59b0",
+      "crc32": "0e373eb7",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        1056,
+        386
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/Monoseg/7.png",
+      "bytes": 1826,
+      "sha256": "e5617fa93e6ece3671582524ab25edf70f8c6d16b86b87fd0ee6c52d64ca8a6d",
+      "crc32": "72bafcd5",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        1600,
+        470
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/Monoseg/6.png",
+      "bytes": 71119,
+      "sha256": "7074e8e790597ca31f542eefa4be66ebdaf47f02bd288e8b3121d66fbc87d682",
+      "crc32": "deeb86d2",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        2700,
+        1600
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/Monoseg/40.png",
+      "bytes": 24684,
+      "sha256": "cf53296747dfe0fe73ae4747ac2363db8f4c80ea20af05fcb9b130bd83bce103",
+      "crc32": "3ff6b2af",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        3583,
+        2433
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/Monoseg/44.png",
+      "bytes": 1499,
+      "sha256": "ec3a35fab47ab099194b4beff8d2adf202ab2b3295732abd12d14a5d4291c983",
+      "crc32": "a3a2bc71",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        1358,
+        428
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/Monoseg/2.png",
+      "bytes": 27443,
+      "sha256": "f8f8fb45f8fb52f106d51356cda76be8551f151ca9d6c6197a9c22a79948eb85",
+      "crc32": "32f30cb3",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        3000,
+        3008
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/Monoseg/50.png",
+      "bytes": 2431,
+      "sha256": "87c1d65b3e7f462d0b629b428ee3147123c9ee982e5cce9035cfb1fcdf81ad38",
+      "crc32": "8dbd2b59",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        1655,
+        742
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/Monoseg/3.png",
+      "bytes": 8029,
+      "sha256": "f83efb8dc30e9a4308d88c19ec8630e21ee438ec096cd6b7793de00bb2cda458",
+      "crc32": "9d6df738",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        1820,
+        1300
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/Monoseg/51.png",
+      "bytes": 2537,
+      "sha256": "79b8d81cea427692287ac098a3aa0b00bef6715b7c273885ce2e22911983d669",
+      "crc32": "d41cdde8",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        1777,
+        583
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/Monoseg/45.png",
+      "bytes": 1296,
+      "sha256": "c6a467adf678234bd6112c569b0027609e7368df415e159c60c2de91cb2556c1",
+      "crc32": "fe8e3ca0",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        1049,
+        399
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/Monoseg/53.png",
+      "bytes": 5341,
+      "sha256": "23c42eb057a5063ae08c439802a8d5439981c748869fe3d8e5058efa5ca7e15f",
+      "crc32": "b41de4fa",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        2316,
+        1403
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/Monoseg/1.png",
+      "bytes": 3783,
+      "sha256": "64a0397e33522024625a95ea02e60d9d1c092e9979487852426b47ea438673be",
+      "crc32": "b9b2cba8",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        1450,
+        700
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/Monoseg/47.png",
+      "bytes": 1482,
+      "sha256": "4f05c30f31c92f5381d7d865889d28f4e745556367a18880a4c43a6ee80cdd57",
+      "crc32": "1d1e4caa",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        1607,
+        530
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/Monoseg/46.png",
+      "bytes": 1461,
+      "sha256": "9af67cdee74f7c555efcc4b80cacf9b823bbdc0f6893d3c7e47b339d12fe8dd7",
+      "crc32": "dae16144",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        1708,
+        569
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "name": "PCBDataset/RGB/Monoseg/52.png",
+      "bytes": 2927,
+      "sha256": "dfb5b16769b444e8ef1b94211adbd6a51ffa654a3a3692c13eb8841c6cca3f51",
+      "crc32": "416723b1",
+      "zip_crc_verified": true,
+      "image_decoded": true,
+      "size_width_height": [
+        1492,
+        820
+      ],
+      "mode": "L",
+      "mask_values": [
+        0,
+        1,
+        3
+      ]
+    }
+  ],
+  "mask_pairs": [
+    {
+      "image_id": "1",
+      "mask_family": "General",
+      "rgb": "PCBDataset/RGB/1.jpg",
+      "mask": "PCBDataset/RGB/General/1.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        1450,
+        700
+      ],
+      "mask_size": [
+        1450,
+        700
+      ]
+    },
+    {
+      "image_id": "2",
+      "mask_family": "General",
+      "rgb": "PCBDataset/RGB/2.jpg",
+      "mask": "PCBDataset/RGB/General/2.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        3000,
+        3008
+      ],
+      "mask_size": [
+        3000,
+        3008
+      ]
+    },
+    {
+      "image_id": "3",
+      "mask_family": "General",
+      "rgb": "PCBDataset/RGB/3.jpg",
+      "mask": "PCBDataset/RGB/General/3.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        1820,
+        1300
+      ],
+      "mask_size": [
+        1820,
+        1300
+      ]
+    },
+    {
+      "image_id": "4",
+      "mask_family": "General",
+      "rgb": "PCBDataset/RGB/4.jpg",
+      "mask": "PCBDataset/RGB/General/4.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        1620,
+        1000
+      ],
+      "mask_size": [
+        1620,
+        1000
+      ]
+    },
+    {
+      "image_id": "5",
+      "mask_family": "General",
+      "rgb": "PCBDataset/RGB/5.jpg",
+      "mask": "PCBDataset/RGB/General/5.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        1329,
+        422
+      ],
+      "mask_size": [
+        1329,
+        422
+      ]
+    },
+    {
+      "image_id": "6",
+      "mask_family": "General",
+      "rgb": "PCBDataset/RGB/6.jpg",
+      "mask": "PCBDataset/RGB/General/6.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        2700,
+        1600
+      ],
+      "mask_size": [
+        2700,
+        1600
+      ]
+    },
+    {
+      "image_id": "7",
+      "mask_family": "General",
+      "rgb": "PCBDataset/RGB/7.jpg",
+      "mask": "PCBDataset/RGB/General/7.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        1600,
+        470
+      ],
+      "mask_size": [
+        1600,
+        470
+      ]
+    },
+    {
+      "image_id": "8",
+      "mask_family": "General",
+      "rgb": "PCBDataset/RGB/8.jpg",
+      "mask": "PCBDataset/RGB/General/8.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        1805,
+        975
+      ],
+      "mask_size": [
+        1805,
+        975
+      ]
+    },
+    {
+      "image_id": "9",
+      "mask_family": "General",
+      "rgb": "PCBDataset/RGB/9.jpg",
+      "mask": "PCBDataset/RGB/General/9.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        2174,
+        1124
+      ],
+      "mask_size": [
+        2174,
+        1124
+      ]
+    },
+    {
+      "image_id": "10",
+      "mask_family": "General",
+      "rgb": "PCBDataset/RGB/10.jpg",
+      "mask": "PCBDataset/RGB/General/10.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        2736,
+        1730
+      ],
+      "mask_size": [
+        2736,
+        1730
+      ]
+    },
+    {
+      "image_id": "11",
+      "mask_family": "General",
+      "rgb": "PCBDataset/RGB/11.jpg",
+      "mask": "PCBDataset/RGB/General/11.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        1285,
+        1268
+      ],
+      "mask_size": [
+        1285,
+        1268
+      ]
+    },
+    {
+      "image_id": "12",
+      "mask_family": "General",
+      "rgb": "PCBDataset/RGB/12.jpg",
+      "mask": "PCBDataset/RGB/General/12.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        1446,
+        782
+      ],
+      "mask_size": [
+        1446,
+        782
+      ]
+    },
+    {
+      "image_id": "13",
+      "mask_family": "General",
+      "rgb": "PCBDataset/RGB/13.jpg",
+      "mask": "PCBDataset/RGB/General/13.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        1559,
+        1127
+      ],
+      "mask_size": [
+        1559,
+        1127
+      ]
+    },
+    {
+      "image_id": "14",
+      "mask_family": "General",
+      "rgb": "PCBDataset/RGB/14.jpg",
+      "mask": "PCBDataset/RGB/General/14.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        1760,
+        1014
+      ],
+      "mask_size": [
+        1760,
+        1014
+      ]
+    },
+    {
+      "image_id": "15",
+      "mask_family": "General",
+      "rgb": "PCBDataset/RGB/15.jpg",
+      "mask": "PCBDataset/RGB/General/15.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        3517,
+        1642
+      ],
+      "mask_size": [
+        3517,
+        1642
+      ]
+    },
+    {
+      "image_id": "16",
+      "mask_family": "General",
+      "rgb": "PCBDataset/RGB/16.jpg",
+      "mask": "PCBDataset/RGB/General/16.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        4112,
+        3008
+      ],
+      "mask_size": [
+        4112,
+        3008
+      ]
+    },
+    {
+      "image_id": "17",
+      "mask_family": "General",
+      "rgb": "PCBDataset/RGB/17.jpg",
+      "mask": "PCBDataset/RGB/General/17.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        4112,
+        3008
+      ],
+      "mask_size": [
+        4112,
+        3008
+      ]
+    },
+    {
+      "image_id": "18",
+      "mask_family": "General",
+      "rgb": "PCBDataset/RGB/18.jpg",
+      "mask": "PCBDataset/RGB/General/18.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        1921,
+        1095
+      ],
+      "mask_size": [
+        1921,
+        1095
+      ]
+    },
+    {
+      "image_id": "19",
+      "mask_family": "General",
+      "rgb": "PCBDataset/RGB/19.jpg",
+      "mask": "PCBDataset/RGB/General/19.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        3204,
+        1351
+      ],
+      "mask_size": [
+        3204,
+        1351
+      ]
+    },
+    {
+      "image_id": "20",
+      "mask_family": "General",
+      "rgb": "PCBDataset/RGB/20.jpg",
+      "mask": "PCBDataset/RGB/General/20.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        1985,
+        1101
+      ],
+      "mask_size": [
+        1985,
+        1101
+      ]
+    },
+    {
+      "image_id": "21",
+      "mask_family": "General",
+      "rgb": "PCBDataset/RGB/21.jpg",
+      "mask": "PCBDataset/RGB/General/21.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        2270,
+        1355
+      ],
+      "mask_size": [
+        2270,
+        1355
+      ]
+    },
+    {
+      "image_id": "22",
+      "mask_family": "General",
+      "rgb": "PCBDataset/RGB/22.jpg",
+      "mask": "PCBDataset/RGB/General/22.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        2219,
+        1209
+      ],
+      "mask_size": [
+        2219,
+        1209
+      ]
+    },
+    {
+      "image_id": "23",
+      "mask_family": "General",
+      "rgb": "PCBDataset/RGB/23.jpg",
+      "mask": "PCBDataset/RGB/General/23.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        2056,
+        1318
+      ],
+      "mask_size": [
+        2056,
+        1318
+      ]
+    },
+    {
+      "image_id": "24",
+      "mask_family": "General",
+      "rgb": "PCBDataset/RGB/24.jpg",
+      "mask": "PCBDataset/RGB/General/24.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        2925,
+        2100
+      ],
+      "mask_size": [
+        2925,
+        2100
+      ]
+    },
+    {
+      "image_id": "25",
+      "mask_family": "General",
+      "rgb": "PCBDataset/RGB/25.jpg",
+      "mask": "PCBDataset/RGB/General/25.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        2698,
+        2227
+      ],
+      "mask_size": [
+        2698,
+        2227
+      ]
+    },
+    {
+      "image_id": "26",
+      "mask_family": "General",
+      "rgb": "PCBDataset/RGB/26.jpg",
+      "mask": "PCBDataset/RGB/General/26.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        3098,
+        2302
+      ],
+      "mask_size": [
+        3098,
+        2302
+      ]
+    },
+    {
+      "image_id": "27",
+      "mask_family": "General",
+      "rgb": "PCBDataset/RGB/27.jpg",
+      "mask": "PCBDataset/RGB/General/27.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        2918,
+        2115
+      ],
+      "mask_size": [
+        2918,
+        2115
+      ]
+    },
+    {
+      "image_id": "28",
+      "mask_family": "General",
+      "rgb": "PCBDataset/RGB/28.jpg",
+      "mask": "PCBDataset/RGB/General/28.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        2641,
+        1236
+      ],
+      "mask_size": [
+        2641,
+        1236
+      ]
+    },
+    {
+      "image_id": "29",
+      "mask_family": "General",
+      "rgb": "PCBDataset/RGB/29.jpg",
+      "mask": "PCBDataset/RGB/General/29.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        2673,
+        1771
+      ],
+      "mask_size": [
+        2673,
+        1771
+      ]
+    },
+    {
+      "image_id": "30",
+      "mask_family": "General",
+      "rgb": "PCBDataset/RGB/30.jpg",
+      "mask": "PCBDataset/RGB/General/30.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        2622,
+        1908
+      ],
+      "mask_size": [
+        2622,
+        1908
+      ]
+    },
+    {
+      "image_id": "31",
+      "mask_family": "General",
+      "rgb": "PCBDataset/RGB/31.jpg",
+      "mask": "PCBDataset/RGB/General/31.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        3282,
+        1172
+      ],
+      "mask_size": [
+        3282,
+        1172
+      ]
+    },
+    {
+      "image_id": "32",
+      "mask_family": "General",
+      "rgb": "PCBDataset/RGB/32.jpg",
+      "mask": "PCBDataset/RGB/General/32.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        2725,
+        2192
+      ],
+      "mask_size": [
+        2725,
+        2192
+      ]
+    },
+    {
+      "image_id": "33",
+      "mask_family": "General",
+      "rgb": "PCBDataset/RGB/33.jpg",
+      "mask": "PCBDataset/RGB/General/33.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        2902,
+        1715
+      ],
+      "mask_size": [
+        2902,
+        1715
+      ]
+    },
+    {
+      "image_id": "34",
+      "mask_family": "General",
+      "rgb": "PCBDataset/RGB/34.jpg",
+      "mask": "PCBDataset/RGB/General/34.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        2456,
+        1044
+      ],
+      "mask_size": [
+        2456,
+        1044
+      ]
+    },
+    {
+      "image_id": "35",
+      "mask_family": "General",
+      "rgb": "PCBDataset/RGB/35.jpg",
+      "mask": "PCBDataset/RGB/General/35.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        1803,
+        1108
+      ],
+      "mask_size": [
+        1803,
+        1108
+      ]
+    },
+    {
+      "image_id": "36",
+      "mask_family": "General",
+      "rgb": "PCBDataset/RGB/36.jpg",
+      "mask": "PCBDataset/RGB/General/36.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        2838,
+        1967
+      ],
+      "mask_size": [
+        2838,
+        1967
+      ]
+    },
+    {
+      "image_id": "37",
+      "mask_family": "General",
+      "rgb": "PCBDataset/RGB/37.jpg",
+      "mask": "PCBDataset/RGB/General/37.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        3365,
+        2518
+      ],
+      "mask_size": [
+        3365,
+        2518
+      ]
+    },
+    {
+      "image_id": "38",
+      "mask_family": "General",
+      "rgb": "PCBDataset/RGB/38.jpg",
+      "mask": "PCBDataset/RGB/General/38.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        3179,
+        2134
+      ],
+      "mask_size": [
+        3179,
+        2134
+      ]
+    },
+    {
+      "image_id": "39",
+      "mask_family": "General",
+      "rgb": "PCBDataset/RGB/39.jpg",
+      "mask": "PCBDataset/RGB/General/39.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        2641,
+        2142
+      ],
+      "mask_size": [
+        2641,
+        2142
+      ]
+    },
+    {
+      "image_id": "40",
+      "mask_family": "General",
+      "rgb": "PCBDataset/RGB/40.jpg",
+      "mask": "PCBDataset/RGB/General/40.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        3583,
+        2433
+      ],
+      "mask_size": [
+        3583,
+        2433
+      ]
+    },
+    {
+      "image_id": "41",
+      "mask_family": "General",
+      "rgb": "PCBDataset/RGB/41.jpg",
+      "mask": "PCBDataset/RGB/General/41.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        1056,
+        386
+      ],
+      "mask_size": [
+        1056,
+        386
+      ]
+    },
+    {
+      "image_id": "42",
+      "mask_family": "General",
+      "rgb": "PCBDataset/RGB/42.jpg",
+      "mask": "PCBDataset/RGB/General/42.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        1466,
+        531
+      ],
+      "mask_size": [
+        1466,
+        531
+      ]
+    },
+    {
+      "image_id": "43",
+      "mask_family": "General",
+      "rgb": "PCBDataset/RGB/43.jpg",
+      "mask": "PCBDataset/RGB/General/43.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        846,
+        494
+      ],
+      "mask_size": [
+        846,
+        494
+      ]
+    },
+    {
+      "image_id": "44",
+      "mask_family": "General",
+      "rgb": "PCBDataset/RGB/44.jpg",
+      "mask": "PCBDataset/RGB/General/44.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        1358,
+        428
+      ],
+      "mask_size": [
+        1358,
+        428
+      ]
+    },
+    {
+      "image_id": "45",
+      "mask_family": "General",
+      "rgb": "PCBDataset/RGB/45.jpg",
+      "mask": "PCBDataset/RGB/General/45.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        1049,
+        399
+      ],
+      "mask_size": [
+        1049,
+        399
+      ]
+    },
+    {
+      "image_id": "46",
+      "mask_family": "General",
+      "rgb": "PCBDataset/RGB/46.jpg",
+      "mask": "PCBDataset/RGB/General/46.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        1708,
+        569
+      ],
+      "mask_size": [
+        1708,
+        569
+      ]
+    },
+    {
+      "image_id": "47",
+      "mask_family": "General",
+      "rgb": "PCBDataset/RGB/47.jpg",
+      "mask": "PCBDataset/RGB/General/47.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        1607,
+        530
+      ],
+      "mask_size": [
+        1607,
+        530
+      ]
+    },
+    {
+      "image_id": "48",
+      "mask_family": "General",
+      "rgb": "PCBDataset/RGB/48.jpg",
+      "mask": "PCBDataset/RGB/General/48.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        1613,
+        570
+      ],
+      "mask_size": [
+        1613,
+        570
+      ]
+    },
+    {
+      "image_id": "49",
+      "mask_family": "General",
+      "rgb": "PCBDataset/RGB/49.jpg",
+      "mask": "PCBDataset/RGB/General/49.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        1643,
+        594
+      ],
+      "mask_size": [
+        1643,
+        594
+      ]
+    },
+    {
+      "image_id": "50",
+      "mask_family": "General",
+      "rgb": "PCBDataset/RGB/50.jpg",
+      "mask": "PCBDataset/RGB/General/50.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        1655,
+        742
+      ],
+      "mask_size": [
+        1655,
+        742
+      ]
+    },
+    {
+      "image_id": "51",
+      "mask_family": "General",
+      "rgb": "PCBDataset/RGB/51.jpg",
+      "mask": "PCBDataset/RGB/General/51.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        1777,
+        583
+      ],
+      "mask_size": [
+        1777,
+        583
+      ]
+    },
+    {
+      "image_id": "52",
+      "mask_family": "General",
+      "rgb": "PCBDataset/RGB/52.jpg",
+      "mask": "PCBDataset/RGB/General/52.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        1492,
+        820
+      ],
+      "mask_size": [
+        1492,
+        820
+      ]
+    },
+    {
+      "image_id": "53",
+      "mask_family": "General",
+      "rgb": "PCBDataset/RGB/53.jpg",
+      "mask": "PCBDataset/RGB/General/53.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        2316,
+        1403
+      ],
+      "mask_size": [
+        2316,
+        1403
+      ]
+    },
+    {
+      "image_id": "1",
+      "mask_family": "Monoseg",
+      "rgb": "PCBDataset/RGB/1.jpg",
+      "mask": "PCBDataset/RGB/Monoseg/1.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        1450,
+        700
+      ],
+      "mask_size": [
+        1450,
+        700
+      ]
+    },
+    {
+      "image_id": "2",
+      "mask_family": "Monoseg",
+      "rgb": "PCBDataset/RGB/2.jpg",
+      "mask": "PCBDataset/RGB/Monoseg/2.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        3000,
+        3008
+      ],
+      "mask_size": [
+        3000,
+        3008
+      ]
+    },
+    {
+      "image_id": "3",
+      "mask_family": "Monoseg",
+      "rgb": "PCBDataset/RGB/3.jpg",
+      "mask": "PCBDataset/RGB/Monoseg/3.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        1820,
+        1300
+      ],
+      "mask_size": [
+        1820,
+        1300
+      ]
+    },
+    {
+      "image_id": "4",
+      "mask_family": "Monoseg",
+      "rgb": "PCBDataset/RGB/4.jpg",
+      "mask": "PCBDataset/RGB/Monoseg/4.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        1620,
+        1000
+      ],
+      "mask_size": [
+        1620,
+        1000
+      ]
+    },
+    {
+      "image_id": "5",
+      "mask_family": "Monoseg",
+      "rgb": "PCBDataset/RGB/5.jpg",
+      "mask": "PCBDataset/RGB/Monoseg/5.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        1329,
+        422
+      ],
+      "mask_size": [
+        1329,
+        422
+      ]
+    },
+    {
+      "image_id": "6",
+      "mask_family": "Monoseg",
+      "rgb": "PCBDataset/RGB/6.jpg",
+      "mask": "PCBDataset/RGB/Monoseg/6.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        2700,
+        1600
+      ],
+      "mask_size": [
+        2700,
+        1600
+      ]
+    },
+    {
+      "image_id": "7",
+      "mask_family": "Monoseg",
+      "rgb": "PCBDataset/RGB/7.jpg",
+      "mask": "PCBDataset/RGB/Monoseg/7.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        1600,
+        470
+      ],
+      "mask_size": [
+        1600,
+        470
+      ]
+    },
+    {
+      "image_id": "8",
+      "mask_family": "Monoseg",
+      "rgb": "PCBDataset/RGB/8.jpg",
+      "mask": "PCBDataset/RGB/Monoseg/8.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        1805,
+        975
+      ],
+      "mask_size": [
+        1805,
+        975
+      ]
+    },
+    {
+      "image_id": "9",
+      "mask_family": "Monoseg",
+      "rgb": "PCBDataset/RGB/9.jpg",
+      "mask": "PCBDataset/RGB/Monoseg/9.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        2174,
+        1124
+      ],
+      "mask_size": [
+        2174,
+        1124
+      ]
+    },
+    {
+      "image_id": "10",
+      "mask_family": "Monoseg",
+      "rgb": "PCBDataset/RGB/10.jpg",
+      "mask": "PCBDataset/RGB/Monoseg/10.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        2736,
+        1730
+      ],
+      "mask_size": [
+        2736,
+        1730
+      ]
+    },
+    {
+      "image_id": "11",
+      "mask_family": "Monoseg",
+      "rgb": "PCBDataset/RGB/11.jpg",
+      "mask": "PCBDataset/RGB/Monoseg/11.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        1285,
+        1268
+      ],
+      "mask_size": [
+        1285,
+        1268
+      ]
+    },
+    {
+      "image_id": "12",
+      "mask_family": "Monoseg",
+      "rgb": "PCBDataset/RGB/12.jpg",
+      "mask": "PCBDataset/RGB/Monoseg/12.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        1446,
+        782
+      ],
+      "mask_size": [
+        1446,
+        782
+      ]
+    },
+    {
+      "image_id": "13",
+      "mask_family": "Monoseg",
+      "rgb": "PCBDataset/RGB/13.jpg",
+      "mask": "PCBDataset/RGB/Monoseg/13.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        1559,
+        1127
+      ],
+      "mask_size": [
+        1559,
+        1127
+      ]
+    },
+    {
+      "image_id": "14",
+      "mask_family": "Monoseg",
+      "rgb": "PCBDataset/RGB/14.jpg",
+      "mask": "PCBDataset/RGB/Monoseg/14.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        1760,
+        1014
+      ],
+      "mask_size": [
+        1760,
+        1014
+      ]
+    },
+    {
+      "image_id": "15",
+      "mask_family": "Monoseg",
+      "rgb": "PCBDataset/RGB/15.jpg",
+      "mask": "PCBDataset/RGB/Monoseg/15.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        3517,
+        1642
+      ],
+      "mask_size": [
+        3517,
+        1642
+      ]
+    },
+    {
+      "image_id": "16",
+      "mask_family": "Monoseg",
+      "rgb": "PCBDataset/RGB/16.jpg",
+      "mask": "PCBDataset/RGB/Monoseg/16.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        4112,
+        3008
+      ],
+      "mask_size": [
+        4112,
+        3008
+      ]
+    },
+    {
+      "image_id": "17",
+      "mask_family": "Monoseg",
+      "rgb": "PCBDataset/RGB/17.jpg",
+      "mask": "PCBDataset/RGB/Monoseg/17.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        4112,
+        3008
+      ],
+      "mask_size": [
+        4112,
+        3008
+      ]
+    },
+    {
+      "image_id": "18",
+      "mask_family": "Monoseg",
+      "rgb": "PCBDataset/RGB/18.jpg",
+      "mask": "PCBDataset/RGB/Monoseg/18.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        1921,
+        1095
+      ],
+      "mask_size": [
+        1921,
+        1095
+      ]
+    },
+    {
+      "image_id": "19",
+      "mask_family": "Monoseg",
+      "rgb": "PCBDataset/RGB/19.jpg",
+      "mask": "PCBDataset/RGB/Monoseg/19.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        3204,
+        1351
+      ],
+      "mask_size": [
+        3204,
+        1351
+      ]
+    },
+    {
+      "image_id": "20",
+      "mask_family": "Monoseg",
+      "rgb": "PCBDataset/RGB/20.jpg",
+      "mask": "PCBDataset/RGB/Monoseg/20.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        1985,
+        1101
+      ],
+      "mask_size": [
+        1985,
+        1101
+      ]
+    },
+    {
+      "image_id": "21",
+      "mask_family": "Monoseg",
+      "rgb": "PCBDataset/RGB/21.jpg",
+      "mask": "PCBDataset/RGB/Monoseg/21.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        2270,
+        1355
+      ],
+      "mask_size": [
+        2270,
+        1355
+      ]
+    },
+    {
+      "image_id": "22",
+      "mask_family": "Monoseg",
+      "rgb": "PCBDataset/RGB/22.jpg",
+      "mask": "PCBDataset/RGB/Monoseg/22.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        2219,
+        1209
+      ],
+      "mask_size": [
+        2219,
+        1209
+      ]
+    },
+    {
+      "image_id": "23",
+      "mask_family": "Monoseg",
+      "rgb": "PCBDataset/RGB/23.jpg",
+      "mask": "PCBDataset/RGB/Monoseg/23.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        2056,
+        1318
+      ],
+      "mask_size": [
+        2056,
+        1318
+      ]
+    },
+    {
+      "image_id": "24",
+      "mask_family": "Monoseg",
+      "rgb": "PCBDataset/RGB/24.jpg",
+      "mask": "PCBDataset/RGB/Monoseg/24.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        2925,
+        2100
+      ],
+      "mask_size": [
+        2925,
+        2100
+      ]
+    },
+    {
+      "image_id": "25",
+      "mask_family": "Monoseg",
+      "rgb": "PCBDataset/RGB/25.jpg",
+      "mask": "PCBDataset/RGB/Monoseg/25.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        2698,
+        2227
+      ],
+      "mask_size": [
+        2698,
+        2227
+      ]
+    },
+    {
+      "image_id": "26",
+      "mask_family": "Monoseg",
+      "rgb": "PCBDataset/RGB/26.jpg",
+      "mask": "PCBDataset/RGB/Monoseg/26.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        3098,
+        2302
+      ],
+      "mask_size": [
+        3098,
+        2302
+      ]
+    },
+    {
+      "image_id": "27",
+      "mask_family": "Monoseg",
+      "rgb": "PCBDataset/RGB/27.jpg",
+      "mask": "PCBDataset/RGB/Monoseg/27.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        2918,
+        2115
+      ],
+      "mask_size": [
+        2918,
+        2115
+      ]
+    },
+    {
+      "image_id": "28",
+      "mask_family": "Monoseg",
+      "rgb": "PCBDataset/RGB/28.jpg",
+      "mask": "PCBDataset/RGB/Monoseg/28.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        2641,
+        1236
+      ],
+      "mask_size": [
+        2641,
+        1236
+      ]
+    },
+    {
+      "image_id": "29",
+      "mask_family": "Monoseg",
+      "rgb": "PCBDataset/RGB/29.jpg",
+      "mask": "PCBDataset/RGB/Monoseg/29.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        2673,
+        1771
+      ],
+      "mask_size": [
+        2673,
+        1771
+      ]
+    },
+    {
+      "image_id": "30",
+      "mask_family": "Monoseg",
+      "rgb": "PCBDataset/RGB/30.jpg",
+      "mask": "PCBDataset/RGB/Monoseg/30.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        2622,
+        1908
+      ],
+      "mask_size": [
+        2622,
+        1908
+      ]
+    },
+    {
+      "image_id": "31",
+      "mask_family": "Monoseg",
+      "rgb": "PCBDataset/RGB/31.jpg",
+      "mask": "PCBDataset/RGB/Monoseg/31.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        3282,
+        1172
+      ],
+      "mask_size": [
+        3282,
+        1172
+      ]
+    },
+    {
+      "image_id": "32",
+      "mask_family": "Monoseg",
+      "rgb": "PCBDataset/RGB/32.jpg",
+      "mask": "PCBDataset/RGB/Monoseg/32.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        2725,
+        2192
+      ],
+      "mask_size": [
+        2725,
+        2192
+      ]
+    },
+    {
+      "image_id": "33",
+      "mask_family": "Monoseg",
+      "rgb": "PCBDataset/RGB/33.jpg",
+      "mask": "PCBDataset/RGB/Monoseg/33.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        2902,
+        1715
+      ],
+      "mask_size": [
+        2902,
+        1715
+      ]
+    },
+    {
+      "image_id": "34",
+      "mask_family": "Monoseg",
+      "rgb": "PCBDataset/RGB/34.jpg",
+      "mask": "PCBDataset/RGB/Monoseg/34.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        2456,
+        1044
+      ],
+      "mask_size": [
+        2456,
+        1044
+      ]
+    },
+    {
+      "image_id": "35",
+      "mask_family": "Monoseg",
+      "rgb": "PCBDataset/RGB/35.jpg",
+      "mask": "PCBDataset/RGB/Monoseg/35.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        1803,
+        1108
+      ],
+      "mask_size": [
+        1803,
+        1108
+      ]
+    },
+    {
+      "image_id": "36",
+      "mask_family": "Monoseg",
+      "rgb": "PCBDataset/RGB/36.jpg",
+      "mask": "PCBDataset/RGB/Monoseg/36.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        2838,
+        1967
+      ],
+      "mask_size": [
+        2838,
+        1967
+      ]
+    },
+    {
+      "image_id": "37",
+      "mask_family": "Monoseg",
+      "rgb": "PCBDataset/RGB/37.jpg",
+      "mask": "PCBDataset/RGB/Monoseg/37.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        3365,
+        2518
+      ],
+      "mask_size": [
+        3365,
+        2518
+      ]
+    },
+    {
+      "image_id": "38",
+      "mask_family": "Monoseg",
+      "rgb": "PCBDataset/RGB/38.jpg",
+      "mask": "PCBDataset/RGB/Monoseg/38.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        3179,
+        2134
+      ],
+      "mask_size": [
+        3179,
+        2134
+      ]
+    },
+    {
+      "image_id": "39",
+      "mask_family": "Monoseg",
+      "rgb": "PCBDataset/RGB/39.jpg",
+      "mask": "PCBDataset/RGB/Monoseg/39.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        2641,
+        2142
+      ],
+      "mask_size": [
+        2641,
+        2142
+      ]
+    },
+    {
+      "image_id": "40",
+      "mask_family": "Monoseg",
+      "rgb": "PCBDataset/RGB/40.jpg",
+      "mask": "PCBDataset/RGB/Monoseg/40.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        3583,
+        2433
+      ],
+      "mask_size": [
+        3583,
+        2433
+      ]
+    },
+    {
+      "image_id": "41",
+      "mask_family": "Monoseg",
+      "rgb": "PCBDataset/RGB/41.jpg",
+      "mask": "PCBDataset/RGB/Monoseg/41.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        1056,
+        386
+      ],
+      "mask_size": [
+        1056,
+        386
+      ]
+    },
+    {
+      "image_id": "42",
+      "mask_family": "Monoseg",
+      "rgb": "PCBDataset/RGB/42.jpg",
+      "mask": "PCBDataset/RGB/Monoseg/42.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        1466,
+        531
+      ],
+      "mask_size": [
+        1466,
+        531
+      ]
+    },
+    {
+      "image_id": "43",
+      "mask_family": "Monoseg",
+      "rgb": "PCBDataset/RGB/43.jpg",
+      "mask": "PCBDataset/RGB/Monoseg/43.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        846,
+        494
+      ],
+      "mask_size": [
+        846,
+        494
+      ]
+    },
+    {
+      "image_id": "44",
+      "mask_family": "Monoseg",
+      "rgb": "PCBDataset/RGB/44.jpg",
+      "mask": "PCBDataset/RGB/Monoseg/44.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        1358,
+        428
+      ],
+      "mask_size": [
+        1358,
+        428
+      ]
+    },
+    {
+      "image_id": "45",
+      "mask_family": "Monoseg",
+      "rgb": "PCBDataset/RGB/45.jpg",
+      "mask": "PCBDataset/RGB/Monoseg/45.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        1049,
+        399
+      ],
+      "mask_size": [
+        1049,
+        399
+      ]
+    },
+    {
+      "image_id": "46",
+      "mask_family": "Monoseg",
+      "rgb": "PCBDataset/RGB/46.jpg",
+      "mask": "PCBDataset/RGB/Monoseg/46.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        1708,
+        569
+      ],
+      "mask_size": [
+        1708,
+        569
+      ]
+    },
+    {
+      "image_id": "47",
+      "mask_family": "Monoseg",
+      "rgb": "PCBDataset/RGB/47.jpg",
+      "mask": "PCBDataset/RGB/Monoseg/47.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        1607,
+        530
+      ],
+      "mask_size": [
+        1607,
+        530
+      ]
+    },
+    {
+      "image_id": "48",
+      "mask_family": "Monoseg",
+      "rgb": "PCBDataset/RGB/48.jpg",
+      "mask": "PCBDataset/RGB/Monoseg/48.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        1613,
+        570
+      ],
+      "mask_size": [
+        1613,
+        570
+      ]
+    },
+    {
+      "image_id": "49",
+      "mask_family": "Monoseg",
+      "rgb": "PCBDataset/RGB/49.jpg",
+      "mask": "PCBDataset/RGB/Monoseg/49.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        1643,
+        594
+      ],
+      "mask_size": [
+        1643,
+        594
+      ]
+    },
+    {
+      "image_id": "50",
+      "mask_family": "Monoseg",
+      "rgb": "PCBDataset/RGB/50.jpg",
+      "mask": "PCBDataset/RGB/Monoseg/50.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        1655,
+        742
+      ],
+      "mask_size": [
+        1655,
+        742
+      ]
+    },
+    {
+      "image_id": "51",
+      "mask_family": "Monoseg",
+      "rgb": "PCBDataset/RGB/51.jpg",
+      "mask": "PCBDataset/RGB/Monoseg/51.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        1777,
+        583
+      ],
+      "mask_size": [
+        1777,
+        583
+      ]
+    },
+    {
+      "image_id": "52",
+      "mask_family": "Monoseg",
+      "rgb": "PCBDataset/RGB/52.jpg",
+      "mask": "PCBDataset/RGB/Monoseg/52.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        1492,
+        820
+      ],
+      "mask_size": [
+        1492,
+        820
+      ]
+    },
+    {
+      "image_id": "53",
+      "mask_family": "Monoseg",
+      "rgb": "PCBDataset/RGB/53.jpg",
+      "mask": "PCBDataset/RGB/Monoseg/53.png",
+      "same_dimensions": true,
+      "rgb_size": [
+        2316,
+        1403
+      ],
+      "mask_size": [
+        2316,
+        1403
+      ]
+    }
+  ]
+}

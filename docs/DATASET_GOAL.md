@@ -14,15 +14,16 @@ Use the 80 downloaded phone images to label every board family first, then its v
 | Phone photos | 80 files preserved: 47 captures and 33 crop variants |
 | Board labels | Five families reviewed; 62 training images, 11 validation originals and 7 excluded validation crop variants |
 | Board models | Experimental detector and crop classifier trained; publication to main proposed in PR #4 |
-| Component labels | 233 partial major-component seeds across nineteen photos, including four validation originals; exhaustive labels and a component detector remain pending |
-| Matching NXP sources | Published for review in [PR #5](https://github.com/TokitoAI/tokito-app-dataset/pull/5): CRC-verified Rev C archive with BRD, DSN/project, BOM text/XLSX and three netlist DAT files; structured extraction verified: 96 BOM items and 391 source references |
+| Component labels | 236 partial part boxes across nineteen photos, including four validation originals; exhaustive labels and a component detector remain pending |
+| Matching NXP sources | Merged in [PR #5](https://github.com/TokitoAI/tokito-app-dataset/pull/5): CRC-verified Rev C archive with BRD, DSN/project, BOM text/XLSX and three netlist DAT files; structured extraction verified: 96 BOM items and 391 source references |
 | Schematic lookup | MCXN236 PDF indexed across 13 sheets; 629 reference-like text occurrences, not BOM quantities |
 | Component/source links | 10 readable photo reference labels linked to visually reviewed Rev C schematic symbols and BOM/native-part candidates; specimen revision and installed part identities unconfirmed |
-| Board → part → pin hierarchy | Same rule across all five families: 80 board entries, 233 partial part boxes, four reviewed J22 photo pin boxes on Ultimainboard, 352 unregistered NXP source pin records under 10 candidate photo parts, and 1,443 separate ESP8266/Ultimainboard source pin records |
-| Photo pin registration queue | Ten J12 contact boxes have provisional Rev C pad/net candidates; physical pin-1 mark and photographed revision still need checking, so no pin is promoted to training ground truth |
+| Board → part → pin hierarchy | Same rule across all five families: 80 board entries, 236 partial part boxes, 22 numbered source-linked Ultimainboard photo pins and 44 ESP contacts with printed aliases. The 352 NXP source pin records remain unregistered; 22 of the 1,443 ESP8266/Ultimainboard reference records now join photo pins |
+| Photo pin registration queue | Ten NXP J12 contact boxes remain proposals; physical pin-1 and photographed revision need checking. Ultimainboard J22/J23/J1/J2 have reviewed numbered contacts. ESP32 has 15 and ESP8266 has 29 printed contact aliases; numeric pin numbers and source nets remain unknown |
+| External component images | PCB-Vision's 53 RGB photographs and 106 segmentation masks are verified and packaged with attribution in Git LFS; external segmentation labels do not establish our boards' part or pin identities |
 | Source separation | MCXN947 retained as a different-board reference; its BOM and layout are excluded from MCXN236 ground truth |
 | Generated CAD references | ESP32 community clone, Ultimainboard 2.1.4 and FRDM-MCXN236 now have KiCad PCB, Gerber/drill and board-only STEP/GLB candidates; all have DRC errors and require engineering review before fabrication |
-| Model readiness | Board-family experiment exists in PR #4; component labels are partial and absent from validation photos; no photo pin boxes or component/pin model yet |
+| Model readiness | Board-family experiment exists in PR #4; 39 selected part boxes are on four validation originals, but coverage is partial. The 66 reviewed pin/contact boxes are partial seeds; component/pin models remain pending |
 
 ## Remaining work
 

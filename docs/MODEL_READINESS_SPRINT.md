@@ -4,18 +4,18 @@ Run `python scripts/model_readiness.py` from the repository root for a live repo
 
 As audited on 2026-10-10, the board-family layer has 80 reviewed photo boxes: 62 train, 11 validation, and seven crop variants held out. The five families are represented by 12 ESP32, 14 ESP8266, 18 NXP FRDM-MCXN236, 18 Raspberry Pi 3B, and 18 Ultimainboard photos. The 80 files form 47 capture groups, with no original/crop group crossing train and validation. This split can support a **diagnostic board-family experiment**, but the validation set has no ESP32 photo and all photos come from one capture session and one specimen per family. It cannot establish generalization to other physical boards, lighting, cameras, or revisions.
 
-| Board family | Photos | Photos with partial part seeds | Part boxes | Photo pin boxes |
-| --- | ---: | ---: | ---: | ---: |
-| ESP32 | 12 | 4 | 24 | 0 |
-| ESP8266 | 14 | 4 | 21 | 0 |
-| NXP FRDM-MCXN236 | 18 | 3 | 52 | 0 |
-| Raspberry Pi 3B | 18 | 4 | 42 | 0 |
-| Ultimainboard | 18 | 4 | 94 | 4 |
-| **Total** | **80** | **19** | **233** | **4** |
+| Board family | Photos | Photos with partial part seeds | Part boxes | Numbered pins | Printed-alias contacts |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| ESP32 | 12 | 4 | 25 | 0 | 15 |
+| ESP8266 | 14 | 4 | 23 | 0 | 29 |
+| NXP FRDM-MCXN236 | 18 | 3 | 52 | 0 | 0 |
+| Raspberry Pi 3B | 18 | 4 | 42 | 0 | 0 |
+| Ultimainboard | 18 | 4 | 94 | 22 | 0 |
+| **Total** | **80** | **19** | **236** | **22** | **44** |
 
-The 233 part boxes span 17 broad visual classes, including aliases that need harmonization before training. The largest are connector headers (64) and integrated circuits (60). The final pass adds 29 visually reviewed boxes; the reviewed J22 parent is also promoted. All nineteen part-annotated photos have **partial** major-part coverage, and the other 61 photos have no part review. Four validation originals have 39 selected part boxes across ESP8266, NXP, Pi 3B and Ultimainboard. Their unboxed objects are not verified negatives, so component recall or mAP would still be misleading. ESP32 has no validation photo in the current split.
+The 236 part boxes span 18 broad visual classes, including aliases that need harmonization before training. The largest are connector headers (64) and integrated circuits (60). Three reviewed ESP contact-row parents were added, and four Ultimainboard header parents have reviewed reference designators. All nineteen part-annotated photos have **partial** major-part coverage, and the other 61 photos have no part review. Four validation originals have 39 selected part boxes across ESP8266, NXP, Pi 3B and Ultimainboard. Their unboxed objects are not verified negatives, so component recall or mAP would still be misleading. ESP32 has no validation photo in the current split.
 
-Four contacts on the photographed Ultimainboard J22 header have reviewed pixel boxes and physical pin numbers. The 352 NXP pin records under ten source-linked part candidates describe electrical source pins and contain no registered pixel boxes. Other source pin catalogs also remain separate from photo pin labels. Four boxes on one specimen are not enough to train or evaluate a useful pin detector.
+Ultimainboard J22/J23/J1/J2 provide 22 reviewed numbered contacts and source-net links. The 44 ESP contact boxes carry only directly observed silkscreen aliases: numeric pin numbers, chip-pin identities and source nets remain unknown. The 352 NXP pin records under ten source-linked part candidates describe electrical source pins and contain no registered pixel boxes. Only 22 of the separate 1,443 reference catalog records are registered to photos. These 66 contact boxes across three photos are partial seeds, insufficient to train or evaluate a useful general pin detector.
 
 For the requested board → part → pin workflow, the shortest sound path is:
 
