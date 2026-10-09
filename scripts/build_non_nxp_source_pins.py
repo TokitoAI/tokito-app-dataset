@@ -86,7 +86,7 @@ def main() -> None:
         if not OUTPUT.exists() or OUTPUT.read_text(encoding="utf-8") != payload:
             raise SystemExit(f"Outdated: {OUTPUT}")
     else:
-        OUTPUT.write_text(payload, encoding="utf-8")
+        OUTPUT.write_text(payload, encoding="utf-8", newline="\n")
     print("; ".join(f"{entry['board_family']}: {entry['source_pin_record_count']} source pins" for entry in families))
 
 
