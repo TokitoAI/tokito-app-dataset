@@ -27,3 +27,12 @@ for row in rows:
 assert not folds['train']&folds['val'],'Capture group leakage'
 assert counts=={'train':62,'val':11,'held_out_crop_variant':7},counts
 print('Validated80 source hashes/board boxes, YOLO labels,62/11/7 split and no original/crop leakage.')
+models=root/'models/board-family-v1'
+if (models/'manifest.json').exists():
+ for item in json.loads((models/'manifest.json').read_text())['artifacts']:
+  raw=(models/item['file']).read_bytes()
+  if raw.startswith(b'version https://git-lfs.github.com/spec/v1'):
+   digest=next(line.split(':',1)[1] for line in raw.decode().splitlines() if line.startswith('oid sha256:'))
+  else:digest=hashlib.sha256(raw).hexdigest()
+  assert digest==item['sha256'],item['file']
+ print('Validated model artifact checksums and LFS pointer hashes.')

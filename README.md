@@ -22,6 +22,8 @@ The first split has62 training images and11 validation originals. Seven validati
 
 ## Component labeling and document links
 
+Experimental trained checkpoints and measured error reports are proposed in the model-results PR under `models/board-family-v1`. The detector/crop-classifier CLI is `scripts/predict_boards.py`; its model card distinguishes known-photo diagnostics from independent accuracy and documents the front-view geometric gate.
+
 Component seed annotations cover107 major visible objects across five photos. They are partial and are excluded from complete component-detector training. Tiny passives, exact part IDs, hidden components and board backs still require labeling/review. See `data/photo-model/MODEL_SCOPE.md`.
 
 BOM entries, schematic pages and Gerber layers are linked documents. They are not YOLO object classes. Exact links need matched revisions and readable markings or registered PCB geometry. Unknown links remain unknown.

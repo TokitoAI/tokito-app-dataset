@@ -1,0 +1,1404 @@
+{
+  "scope": "known80-file single-specimen/session diagnostic; detector highest-confidence crops, not manual crops; train and validation examples included; not independent accuracy",
+  "photos": 80,
+  "correct_classes": 78,
+  "class_and_iou50": 78,
+  "errors": [
+    {
+      "image": "IMG_20261009_222033.jpg",
+      "detector_class": "raspberry_pi_3b_board",
+      "predicted_class": "raspberry_pi_3b_board",
+      "class_confidence": 0.8735581636428833,
+      "box_confidence": 0.6693180203437805,
+      "bbox_xyxy_normalized": [
+        0.1687800089518229,
+        0.7979495525360107,
+        1.0,
+        0.9990683197975159
+      ],
+      "expected_class": "ultimainboard",
+      "class_correct": false,
+      "iou_with_reviewed_box": 0.0,
+      "expected_split": "val"
+    },
+    {
+      "image": "IMG_20261009_222113.jpg",
+      "detector_class": "raspberry_pi_3b_board",
+      "predicted_class": "esp32_board",
+      "class_confidence": 0.8866284489631653,
+      "box_confidence": 0.5643177628517151,
+      "bbox_xyxy_normalized": [
+        0.07091639439264934,
+        0.8071491718292236,
+        0.9817953109741211,
+        0.9990800619125366
+      ],
+      "expected_class": "ultimainboard",
+      "class_correct": false,
+      "iou_with_reviewed_box": 0.0,
+      "expected_split": "val"
+    }
+  ],
+  "predictions": [
+    {
+      "image": "IMG_20261009_221154.jpg",
+      "detector_class": "esp8266_board",
+      "predicted_class": "esp8266_board",
+      "class_confidence": 0.9999936819076538,
+      "box_confidence": 0.6363458633422852,
+      "bbox_xyxy_normalized": [
+        0.19625826676686606,
+        0.17571038007736206,
+        0.8200340270996094,
+        0.9523277282714844
+      ],
+      "expected_class": "esp8266_board",
+      "class_correct": true,
+      "iou_with_reviewed_box": 0.9398441965807727,
+      "expected_split": "val"
+    },
+    {
+      "image": "IMG_20261009_221155.jpg",
+      "detector_class": "esp8266_board",
+      "predicted_class": "esp8266_board",
+      "class_confidence": 0.999992847442627,
+      "box_confidence": 0.646704375743866,
+      "bbox_xyxy_normalized": [
+        0.2187684178352356,
+        0.17698229849338531,
+        0.8270803292592367,
+        0.9580431580543518
+      ],
+      "expected_class": "esp8266_board",
+      "class_correct": true,
+      "iou_with_reviewed_box": 0.9360954880755507,
+      "expected_split": "val"
+    },
+    {
+      "image": "IMG_20261009_221156.jpg",
+      "detector_class": "esp8266_board",
+      "predicted_class": "esp8266_board",
+      "class_confidence": 0.999995231628418,
+      "box_confidence": 0.5700562596321106,
+      "bbox_xyxy_normalized": [
+        0.2311950127283732,
+        0.16659846901893616,
+        0.857314666112264,
+        0.9494228363037109
+      ],
+      "expected_class": "esp8266_board",
+      "class_correct": true,
+      "iou_with_reviewed_box": 0.9125727841911686,
+      "expected_split": "val"
+    },
+    {
+      "image": "IMG_20261009_221210.jpg",
+      "detector_class": "esp8266_board",
+      "predicted_class": "esp8266_board",
+      "class_confidence": 1.0,
+      "box_confidence": 0.8313973546028137,
+      "bbox_xyxy_normalized": [
+        0.0,
+        0.3543815016746521,
+        1.0,
+        0.7857746481895447
+      ],
+      "expected_class": "esp8266_board",
+      "class_correct": true,
+      "iou_with_reviewed_box": 0.9542726165040154,
+      "expected_split": "train"
+    },
+    {
+      "image": "IMG_20261009_221220.jpg",
+      "detector_class": "esp8266_board",
+      "predicted_class": "esp8266_board",
+      "class_confidence": 0.9999998807907104,
+      "box_confidence": 0.8427783846855164,
+      "bbox_xyxy_normalized": [
+        0.0,
+        0.3495909571647644,
+        1.0,
+        0.7787485718727112
+      ],
+      "expected_class": "esp8266_board",
+      "class_correct": true,
+      "iou_with_reviewed_box": 0.9708942644539104,
+      "expected_split": "train"
+    },
+    {
+      "image": "IMG_20261009_221222.jpg",
+      "detector_class": "esp8266_board",
+      "predicted_class": "esp8266_board",
+      "class_confidence": 1.0,
+      "box_confidence": 0.8204658031463623,
+      "bbox_xyxy_normalized": [
+        0.0,
+        0.3478112518787384,
+        1.0,
+        0.7794708609580994
+      ],
+      "expected_class": "esp8266_board",
+      "class_correct": true,
+      "iou_with_reviewed_box": 0.9485869376103382,
+      "expected_split": "train"
+    },
+    {
+      "image": "IMG_20261009_221225.jpg",
+      "detector_class": "esp8266_board",
+      "predicted_class": "esp8266_board",
+      "class_confidence": 1.0,
+      "box_confidence": 0.7160466313362122,
+      "bbox_xyxy_normalized": [
+        0.0,
+        0.29478493332862854,
+        1.0,
+        0.7356054782867432
+      ],
+      "expected_class": "esp8266_board",
+      "class_correct": true,
+      "iou_with_reviewed_box": 0.9139521592106606,
+      "expected_split": "train"
+    },
+    {
+      "image": "IMG_20261009_221230.jpg",
+      "detector_class": "esp8266_board",
+      "predicted_class": "esp8266_board",
+      "class_confidence": 1.0,
+      "box_confidence": 0.7143208384513855,
+      "bbox_xyxy_normalized": [
+        0.0,
+        0.305702805519104,
+        0.9980173110961914,
+        0.7305733561515808
+      ],
+      "expected_class": "esp8266_board",
+      "class_correct": true,
+      "iou_with_reviewed_box": 0.9286594871271484,
+      "expected_split": "train"
+    },
+    {
+      "image": "IMG_20261009_221340.jpg",
+      "detector_class": "nxp_frdm_mcxn236_board",
+      "predicted_class": "nxp_frdm_mcxn236_board",
+      "class_confidence": 0.9999997615814209,
+      "box_confidence": 0.7950775027275085,
+      "bbox_xyxy_normalized": [
+        0.09104087948799133,
+        0.004172325134277344,
+        0.9314092000325521,
+        0.973595917224884
+      ],
+      "expected_class": "nxp_frdm_mcxn236_board",
+      "class_correct": true,
+      "iou_with_reviewed_box": 0.9292737615776179,
+      "expected_split": "train"
+    },
+    {
+      "image": "IMG_20261009_221343.jpg",
+      "detector_class": "nxp_frdm_mcxn236_board",
+      "predicted_class": "nxp_frdm_mcxn236_board",
+      "class_confidence": 0.9999998807907104,
+      "box_confidence": 0.826276957988739,
+      "bbox_xyxy_normalized": [
+        0.07588596642017365,
+        0.002800281159579754,
+        0.8860240777333578,
+        1.0
+      ],
+      "expected_class": "nxp_frdm_mcxn236_board",
+      "class_correct": true,
+      "iou_with_reviewed_box": 0.9542382810976496,
+      "expected_split": "train"
+    },
+    {
+      "image": "IMG_20261009_221348.jpg",
+      "detector_class": "nxp_frdm_mcxn236_board",
+      "predicted_class": "nxp_frdm_mcxn236_board",
+      "class_confidence": 0.9999997615814209,
+      "box_confidence": 0.8957093954086304,
+      "bbox_xyxy_normalized": [
+        0.10010460019111633,
+        0.0033996289130300283,
+        0.9072292645772299,
+        0.9995161294937134
+      ],
+      "expected_class": "nxp_frdm_mcxn236_board",
+      "class_correct": true,
+      "iou_with_reviewed_box": 0.9561261965715337,
+      "expected_split": "train"
+    },
+    {
+      "image": "IMG_20261009_221350.jpg",
+      "detector_class": "nxp_frdm_mcxn236_board",
+      "predicted_class": "nxp_frdm_mcxn236_board",
+      "class_confidence": 0.9999990463256836,
+      "box_confidence": 0.8815616965293884,
+      "bbox_xyxy_normalized": [
+        0.08831828832626343,
+        0.03814440593123436,
+        0.9061117172241211,
+        0.8593639135360718
+      ],
+      "expected_class": "nxp_frdm_mcxn236_board",
+      "class_correct": true,
+      "iou_with_reviewed_box": 0.9116281514254646,
+      "expected_split": "train"
+    },
+    {
+      "image": "IMG_20261009_221646.jpg",
+      "detector_class": "nxp_frdm_mcxn236_board",
+      "predicted_class": "nxp_frdm_mcxn236_board",
+      "class_confidence": 1.0,
+      "box_confidence": 0.8413044810295105,
+      "bbox_xyxy_normalized": [
+        0.1604395111401876,
+        0.0,
+        0.8161444664001465,
+        0.9941197037696838
+      ],
+      "expected_class": "nxp_frdm_mcxn236_board",
+      "class_correct": true,
+      "iou_with_reviewed_box": 0.9354938509115903,
+      "expected_split": "train"
+    },
+    {
+      "image": "IMG_20261009_221657.jpg",
+      "detector_class": "nxp_frdm_mcxn236_board",
+      "predicted_class": "nxp_frdm_mcxn236_board",
+      "class_confidence": 0.9999983310699463,
+      "box_confidence": 0.9246336817741394,
+      "bbox_xyxy_normalized": [
+        0.28029851118723553,
+        0.20287646353244781,
+        0.6993200778961182,
+        0.8291736245155334
+      ],
+      "expected_class": "nxp_frdm_mcxn236_board",
+      "class_correct": true,
+      "iou_with_reviewed_box": 0.9177678642793553,
+      "expected_split": "val"
+    },
+    {
+      "image": "IMG_20261009_221717.jpg",
+      "detector_class": "nxp_frdm_mcxn236_board",
+      "predicted_class": "nxp_frdm_mcxn236_board",
+      "class_confidence": 1.0,
+      "box_confidence": 0.7875956296920776,
+      "bbox_xyxy_normalized": [
+        0.13161970178286234,
+        0.0,
+        0.7909994920094808,
+        0.9852228760719299
+      ],
+      "expected_class": "nxp_frdm_mcxn236_board",
+      "class_correct": true,
+      "iou_with_reviewed_box": 0.9505354102281038,
+      "expected_split": "train"
+    },
+    {
+      "image": "IMG_20261009_221717_1.jpg",
+      "detector_class": "nxp_frdm_mcxn236_board",
+      "predicted_class": "nxp_frdm_mcxn236_board",
+      "class_confidence": 0.9999998807907104,
+      "box_confidence": 0.7626575827598572,
+      "bbox_xyxy_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        0.9983975359802089
+      ],
+      "expected_class": "nxp_frdm_mcxn236_board",
+      "class_correct": true,
+      "iou_with_reviewed_box": 0.9983975359802089,
+      "expected_split": "train"
+    },
+    {
+      "image": "IMG_20261009_221719.jpg",
+      "detector_class": "nxp_frdm_mcxn236_board",
+      "predicted_class": "nxp_frdm_mcxn236_board",
+      "class_confidence": 1.0,
+      "box_confidence": 0.8460220098495483,
+      "bbox_xyxy_normalized": [
+        0.13673293590545654,
+        0.0,
+        0.7994266351064047,
+        0.990654706954956
+      ],
+      "expected_class": "nxp_frdm_mcxn236_board",
+      "class_correct": true,
+      "iou_with_reviewed_box": 0.9603293204676374,
+      "expected_split": "train"
+    },
+    {
+      "image": "IMG_20261009_221719_1.jpg",
+      "detector_class": "nxp_frdm_mcxn236_board",
+      "predicted_class": "nxp_frdm_mcxn236_board",
+      "class_confidence": 0.9999960660934448,
+      "box_confidence": 0.7456647157669067,
+      "bbox_xyxy_normalized": [
+        0.0,
+        0.004986645934149493,
+        0.9953318956163194,
+        0.9985720218605547
+      ],
+      "expected_class": "nxp_frdm_mcxn236_board",
+      "class_correct": true,
+      "iou_with_reviewed_box": 0.9889472156774823,
+      "expected_split": "train"
+    },
+    {
+      "image": "IMG_20261009_221755.jpg",
+      "detector_class": "nxp_frdm_mcxn236_board",
+      "predicted_class": "nxp_frdm_mcxn236_board",
+      "class_confidence": 0.9999995231628418,
+      "box_confidence": 0.7601391077041626,
+      "bbox_xyxy_normalized": [
+        0.1776419480641683,
+        0.0,
+        0.875053882598877,
+        0.9889363646507263
+      ],
+      "expected_class": "nxp_frdm_mcxn236_board",
+      "class_correct": true,
+      "iou_with_reviewed_box": 0.9394100960575045,
+      "expected_split": "train"
+    },
+    {
+      "image": "IMG_20261009_221755_1.jpg",
+      "detector_class": "nxp_frdm_mcxn236_board",
+      "predicted_class": "nxp_frdm_mcxn236_board",
+      "class_confidence": 0.9999971389770508,
+      "box_confidence": 0.7415172457695007,
+      "bbox_xyxy_normalized": [
+        0.0,
+        0.0021579447106569393,
+        1.0,
+        0.9798550075954862
+      ],
+      "expected_class": "nxp_frdm_mcxn236_board",
+      "class_correct": true,
+      "iou_with_reviewed_box": 0.9776970628848293,
+      "expected_split": "train"
+    },
+    {
+      "image": "IMG_20261009_221800.jpg",
+      "detector_class": "nxp_frdm_mcxn236_board",
+      "predicted_class": "nxp_frdm_mcxn236_board",
+      "class_confidence": 0.9999998807907104,
+      "box_confidence": 0.7340301275253296,
+      "bbox_xyxy_normalized": [
+        0.1877677043279012,
+        0.0012151277624070644,
+        0.8755526542663574,
+        0.9967639446258545
+      ],
+      "expected_class": "nxp_frdm_mcxn236_board",
+      "class_correct": true,
+      "iou_with_reviewed_box": 0.945891997264108,
+      "expected_split": "train"
+    },
+    {
+      "image": "IMG_20261009_221800_1.jpg",
+      "detector_class": "nxp_frdm_mcxn236_board",
+      "predicted_class": "nxp_frdm_mcxn236_board",
+      "class_confidence": 0.9999998807907104,
+      "box_confidence": 0.5583212375640869,
+      "bbox_xyxy_normalized": [
+        0.0,
+        0.04102794940655048,
+        1.0,
+        0.9976970188725802
+      ],
+      "expected_class": "nxp_frdm_mcxn236_board",
+      "class_correct": true,
+      "iou_with_reviewed_box": 0.9566690694660298,
+      "expected_split": "train"
+    },
+    {
+      "image": "IMG_20261009_221803.jpg",
+      "detector_class": "nxp_frdm_mcxn236_board",
+      "predicted_class": "nxp_frdm_mcxn236_board",
+      "class_confidence": 0.9999991655349731,
+      "box_confidence": 0.7659465670585632,
+      "bbox_xyxy_normalized": [
+        0.1862571636835734,
+        0.0,
+        0.8749416669209799,
+        0.9985053539276123
+      ],
+      "expected_class": "nxp_frdm_mcxn236_board",
+      "class_correct": true,
+      "iou_with_reviewed_box": 0.9473233132868895,
+      "expected_split": "train"
+    },
+    {
+      "image": "IMG_20261009_221803_1.jpg",
+      "detector_class": "nxp_frdm_mcxn236_board",
+      "predicted_class": "nxp_frdm_mcxn236_board",
+      "class_confidence": 0.9999998807907104,
+      "box_confidence": 0.4518519937992096,
+      "bbox_xyxy_normalized": [
+        0.0,
+        0.003831569871688812,
+        1.0,
+        0.9986004178732816
+      ],
+      "expected_class": "nxp_frdm_mcxn236_board",
+      "class_correct": true,
+      "iou_with_reviewed_box": 0.9947688480015928,
+      "expected_split": "train"
+    },
+    {
+      "image": "IMG_20261009_221806.jpg",
+      "detector_class": "nxp_frdm_mcxn236_board",
+      "predicted_class": "nxp_frdm_mcxn236_board",
+      "class_confidence": 1.0,
+      "box_confidence": 0.757723331451416,
+      "bbox_xyxy_normalized": [
+        0.18994816144307455,
+        0.0003308516170363873,
+        0.8825629552205404,
+        1.0
+      ],
+      "expected_class": "nxp_frdm_mcxn236_board",
+      "class_correct": true,
+      "iou_with_reviewed_box": 0.9484598770727085,
+      "expected_split": "train"
+    },
+    {
+      "image": "IMG_20261009_221806_1.jpg",
+      "detector_class": "nxp_frdm_mcxn236_board",
+      "predicted_class": "nxp_frdm_mcxn236_board",
+      "class_confidence": 0.9999998807907104,
+      "box_confidence": 0.7741512060165405,
+      "bbox_xyxy_normalized": [
+        0.0,
+        0.003865021778397771,
+        1.0,
+        0.9997836806209212
+      ],
+      "expected_class": "nxp_frdm_mcxn236_board",
+      "class_correct": true,
+      "iou_with_reviewed_box": 0.9959186588425235,
+      "expected_split": "train"
+    },
+    {
+      "image": "IMG_20261009_221838.jpg",
+      "detector_class": "esp8266_board",
+      "predicted_class": "esp32_board",
+      "class_confidence": 0.9999939203262329,
+      "box_confidence": 0.5615912079811096,
+      "bbox_xyxy_normalized": [
+        0.36275410652160645,
+        0.11163175851106644,
+        0.7132136821746826,
+        0.5713118314743042
+      ],
+      "expected_class": "esp32_board",
+      "class_correct": true,
+      "iou_with_reviewed_box": 0.8994523988231787,
+      "expected_split": "train"
+    },
+    {
+      "image": "IMG_20261009_221838_1.jpg",
+      "detector_class": "esp32_board",
+      "predicted_class": "esp32_board",
+      "class_confidence": 0.9999985694885254,
+      "box_confidence": 0.5645712018013,
+      "bbox_xyxy_normalized": [
+        0.041532047863664295,
+        0.02097658062657566,
+        1.0,
+        0.9962241891991725
+      ],
+      "expected_class": "esp32_board",
+      "class_correct": true,
+      "iou_with_reviewed_box": 0.9347435782144358,
+      "expected_split": "train"
+    },
+    {
+      "image": "IMG_20261009_221841.jpg",
+      "detector_class": "esp32_board",
+      "predicted_class": "esp32_board",
+      "class_confidence": 0.9999852180480957,
+      "box_confidence": 0.4307326376438141,
+      "bbox_xyxy_normalized": [
+        0.31958194573720294,
+        0.130064457654953,
+        0.6590452988942465,
+        0.5777219533920288
+      ],
+      "expected_class": "esp32_board",
+      "class_correct": true,
+      "iou_with_reviewed_box": 0.955195562656053,
+      "expected_split": "train"
+    },
+    {
+      "image": "IMG_20261009_221841_1.jpg",
+      "detector_class": "esp32_board",
+      "predicted_class": "esp32_board",
+      "class_confidence": 0.9999986886978149,
+      "box_confidence": 0.5684878826141357,
+      "bbox_xyxy_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        0.9470281374962974
+      ],
+      "expected_class": "esp32_board",
+      "class_correct": true,
+      "iou_with_reviewed_box": 0.9470281374962974,
+      "expected_split": "train"
+    },
+    {
+      "image": "IMG_20261009_221901.jpg",
+      "detector_class": "esp8266_board",
+      "predicted_class": "esp32_board",
+      "class_confidence": 0.9999879598617554,
+      "box_confidence": 0.43159201741218567,
+      "bbox_xyxy_normalized": [
+        0.373105525970459,
+        0.13210810720920563,
+        0.7566845417022705,
+        0.5969238877296448
+      ],
+      "expected_class": "esp32_board",
+      "class_correct": true,
+      "iou_with_reviewed_box": 0.8468139000283892,
+      "expected_split": "train"
+    },
+    {
+      "image": "IMG_20261009_221901_1.jpg",
+      "detector_class": "esp32_board",
+      "predicted_class": "esp32_board",
+      "class_confidence": 0.9999953508377075,
+      "box_confidence": 0.5536808967590332,
+      "bbox_xyxy_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        0.9516301092869588
+      ],
+      "expected_class": "esp32_board",
+      "class_correct": true,
+      "iou_with_reviewed_box": 0.9516301092869588,
+      "expected_split": "train"
+    },
+    {
+      "image": "IMG_20261009_221908.jpg",
+      "detector_class": "esp8266_board",
+      "predicted_class": "esp32_board",
+      "class_confidence": 0.9999896287918091,
+      "box_confidence": 0.3918522000312805,
+      "bbox_xyxy_normalized": [
+        0.32584957281748456,
+        0.20908237993717194,
+        0.7111262480417887,
+        0.6896742582321167
+      ],
+      "expected_class": "esp32_board",
+      "class_correct": true,
+      "iou_with_reviewed_box": 0.8972379495997601,
+      "expected_split": "train"
+    },
+    {
+      "image": "IMG_20261009_221908_1.jpg",
+      "detector_class": "esp32_board",
+      "predicted_class": "esp32_board",
+      "class_confidence": 0.9996448755264282,
+      "box_confidence": 0.42733603715896606,
+      "bbox_xyxy_normalized": [
+        0.0,
+        0.014171013465294471,
+        1.0,
+        0.9888943758877841
+      ],
+      "expected_class": "esp32_board",
+      "class_correct": true,
+      "iou_with_reviewed_box": 0.9747233624224896,
+      "expected_split": "train"
+    },
+    {
+      "image": "IMG_20261009_221911.jpg",
+      "detector_class": "esp32_board",
+      "predicted_class": "esp32_board",
+      "class_confidence": 0.9999966621398926,
+      "box_confidence": 0.48319971561431885,
+      "bbox_xyxy_normalized": [
+        0.3383025328318278,
+        0.1816934496164322,
+        0.7186328570048014,
+        0.6413545608520508
+      ],
+      "expected_class": "esp32_board",
+      "class_correct": true,
+      "iou_with_reviewed_box": 0.9481756210439155,
+      "expected_split": "train"
+    },
+    {
+      "image": "IMG_20261009_221911_1.jpg",
+      "detector_class": "esp32_board",
+      "predicted_class": "esp32_board",
+      "class_confidence": 0.9999781847000122,
+      "box_confidence": 0.49505534768104553,
+      "bbox_xyxy_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        0.9537145538687427
+      ],
+      "expected_class": "esp32_board",
+      "class_correct": true,
+      "iou_with_reviewed_box": 0.9537145538687428,
+      "expected_split": "train"
+    },
+    {
+      "image": "IMG_20261009_221914.jpg",
+      "detector_class": "esp32_board",
+      "predicted_class": "esp32_board",
+      "class_confidence": 0.9999896287918091,
+      "box_confidence": 0.4942913055419922,
+      "bbox_xyxy_normalized": [
+        0.3387570381164551,
+        0.1774410605430603,
+        0.7240960597991943,
+        0.6341797709465027
+      ],
+      "expected_class": "esp32_board",
+      "class_correct": true,
+      "iou_with_reviewed_box": 0.932706006293379,
+      "expected_split": "train"
+    },
+    {
+      "image": "IMG_20261009_221914_1.jpg",
+      "detector_class": "esp32_board",
+      "predicted_class": "esp32_board",
+      "class_confidence": 0.9999996423721313,
+      "box_confidence": 0.5324932336807251,
+      "bbox_xyxy_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        0.9341772689908778
+      ],
+      "expected_class": "esp32_board",
+      "class_correct": true,
+      "iou_with_reviewed_box": 0.9341772689908778,
+      "expected_split": "train"
+    },
+    {
+      "image": "IMG_20261009_221941.jpg",
+      "detector_class": "esp8266_board",
+      "predicted_class": "esp8266_board",
+      "class_confidence": 0.999996542930603,
+      "box_confidence": 0.6179745197296143,
+      "bbox_xyxy_normalized": [
+        0.3376636902491252,
+        0.1446499526500702,
+        0.7118398348490397,
+        0.6505746245384216
+      ],
+      "expected_class": "esp8266_board",
+      "class_correct": true,
+      "iou_with_reviewed_box": 0.9391883691538333,
+      "expected_split": "train"
+    },
+    {
+      "image": "IMG_20261009_221941_1.jpg",
+      "detector_class": "esp32_board",
+      "predicted_class": "esp8266_board",
+      "class_confidence": 0.9999796152114868,
+      "box_confidence": 0.39945220947265625,
+      "bbox_xyxy_normalized": [
+        0.0,
+        0.3429270066632335,
+        1.0,
+        1.0
+      ],
+      "expected_class": "esp8266_board",
+      "class_correct": true,
+      "iou_with_reviewed_box": 0.6570729933367665,
+      "expected_split": "train"
+    },
+    {
+      "image": "IMG_20261009_221944.jpg",
+      "detector_class": "esp8266_board",
+      "predicted_class": "esp8266_board",
+      "class_confidence": 0.9999966621398926,
+      "box_confidence": 0.5382762551307678,
+      "bbox_xyxy_normalized": [
+        0.3599715232849121,
+        0.18745452165603638,
+        0.7565921147664388,
+        0.6931232213973999
+      ],
+      "expected_class": "esp8266_board",
+      "class_correct": true,
+      "iou_with_reviewed_box": 0.9104570080612908,
+      "expected_split": "train"
+    },
+    {
+      "image": "IMG_20261009_221944_1.jpg",
+      "detector_class": "esp32_board",
+      "predicted_class": "esp8266_board",
+      "class_confidence": 0.9999958276748657,
+      "box_confidence": 0.25737690925598145,
+      "bbox_xyxy_normalized": [
+        0.04389610744657971,
+        0.02491437535482477,
+        1.0,
+        0.9050021554280776
+      ],
+      "expected_class": "esp8266_board",
+      "class_correct": true,
+      "iou_with_reviewed_box": 0.8414553523167355,
+      "expected_split": "train"
+    },
+    {
+      "image": "IMG_20261009_221952.jpg",
+      "detector_class": "esp8266_board",
+      "predicted_class": "esp8266_board",
+      "class_confidence": 0.9999947547912598,
+      "box_confidence": 0.5857380032539368,
+      "bbox_xyxy_normalized": [
+        0.3273210922876994,
+        0.17485485970973969,
+        0.70864470799764,
+        0.657332181930542
+      ],
+      "expected_class": "esp8266_board",
+      "class_correct": true,
+      "iou_with_reviewed_box": 0.9271500969255482,
+      "expected_split": "train"
+    },
+    {
+      "image": "IMG_20261009_221952_1.jpg",
+      "detector_class": "esp32_board",
+      "predicted_class": "esp8266_board",
+      "class_confidence": 0.9999983310699463,
+      "box_confidence": 0.45508652925491333,
+      "bbox_xyxy_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        0.9963713765795765
+      ],
+      "expected_class": "esp8266_board",
+      "class_correct": true,
+      "iou_with_reviewed_box": 0.9963713765795765,
+      "expected_split": "train"
+    },
+    {
+      "image": "IMG_20261009_222024.jpg",
+      "detector_class": "ultimainboard",
+      "predicted_class": "ultimainboard",
+      "class_confidence": 1.0,
+      "box_confidence": 0.4488152861595154,
+      "bbox_xyxy_normalized": [
+        0.10675632953643799,
+        0.0,
+        0.9031254450480143,
+        0.9998838901519775
+      ],
+      "expected_class": "ultimainboard",
+      "class_correct": true,
+      "iou_with_reviewed_box": 0.9458561056304885,
+      "expected_split": "train"
+    },
+    {
+      "image": "IMG_20261009_222024_1.jpg",
+      "detector_class": "ultimainboard",
+      "predicted_class": "ultimainboard",
+      "class_confidence": 1.0,
+      "box_confidence": 0.5254432559013367,
+      "bbox_xyxy_normalized": [
+        0.0,
+        0.0008979210350524087,
+        1.0,
+        0.9987798410220097
+      ],
+      "expected_class": "ultimainboard",
+      "class_correct": true,
+      "iou_with_reviewed_box": 0.9978819199869573,
+      "expected_split": "train"
+    },
+    {
+      "image": "IMG_20261009_222033.jpg",
+      "detector_class": "raspberry_pi_3b_board",
+      "predicted_class": "raspberry_pi_3b_board",
+      "class_confidence": 0.8735581636428833,
+      "box_confidence": 0.6693180203437805,
+      "bbox_xyxy_normalized": [
+        0.1687800089518229,
+        0.7979495525360107,
+        1.0,
+        0.9990683197975159
+      ],
+      "expected_class": "ultimainboard",
+      "class_correct": false,
+      "iou_with_reviewed_box": 0.0,
+      "expected_split": "val"
+    },
+    {
+      "image": "IMG_20261009_222033_1.jpg",
+      "detector_class": "ultimainboard",
+      "predicted_class": "ultimainboard",
+      "class_confidence": 0.9999997615814209,
+      "box_confidence": 0.956423819065094,
+      "bbox_xyxy_normalized": [
+        0.0,
+        0.01563123556283804,
+        1.0,
+        1.0
+      ],
+      "expected_class": "ultimainboard",
+      "class_correct": true,
+      "iou_with_reviewed_box": 0.9843687644371619,
+      "expected_split": "held_out_crop_variant"
+    },
+    {
+      "image": "IMG_20261009_222038.jpg",
+      "detector_class": "ultimainboard",
+      "predicted_class": "ultimainboard",
+      "class_confidence": 1.0,
+      "box_confidence": 0.4218546152114868,
+      "bbox_xyxy_normalized": [
+        0.3426512877146403,
+        0.20689868927001953,
+        0.6514324347178141,
+        0.695631742477417
+      ],
+      "expected_class": "ultimainboard",
+      "class_correct": true,
+      "iou_with_reviewed_box": 0.8977435703804516,
+      "expected_split": "val"
+    },
+    {
+      "image": "IMG_20261009_222038_1.jpg",
+      "detector_class": "nxp_frdm_mcxn236_board",
+      "predicted_class": "ultimainboard",
+      "class_confidence": 1.0,
+      "box_confidence": 0.43912750482559204,
+      "bbox_xyxy_normalized": [
+        0.0,
+        0.024455730731670674,
+        1.0,
+        1.0
+      ],
+      "expected_class": "ultimainboard",
+      "class_correct": true,
+      "iou_with_reviewed_box": 0.9755442692683294,
+      "expected_split": "held_out_crop_variant"
+    },
+    {
+      "image": "IMG_20261009_222042.jpg",
+      "detector_class": "ultimainboard",
+      "predicted_class": "ultimainboard",
+      "class_confidence": 1.0,
+      "box_confidence": 0.6765094995498657,
+      "bbox_xyxy_normalized": [
+        0.335423747698466,
+        0.18757115304470062,
+        0.6535022258758545,
+        0.6535412669181824
+      ],
+      "expected_class": "ultimainboard",
+      "class_correct": true,
+      "iou_with_reviewed_box": 0.9261662431007318,
+      "expected_split": "val"
+    },
+    {
+      "image": "IMG_20261009_222042_1.jpg",
+      "detector_class": "nxp_frdm_mcxn236_board",
+      "predicted_class": "ultimainboard",
+      "class_confidence": 1.0,
+      "box_confidence": 0.3145199716091156,
+      "bbox_xyxy_normalized": [
+        0.0,
+        0.01160680313556515,
+        1.0,
+        1.0
+      ],
+      "expected_class": "ultimainboard",
+      "class_correct": true,
+      "iou_with_reviewed_box": 0.9883931968644348,
+      "expected_split": "held_out_crop_variant"
+    },
+    {
+      "image": "IMG_20261009_222108.jpg",
+      "detector_class": "nxp_frdm_mcxn236_board",
+      "predicted_class": "ultimainboard",
+      "class_confidence": 1.0,
+      "box_confidence": 0.5543482899665833,
+      "bbox_xyxy_normalized": [
+        0.3935789267222087,
+        0.20003311336040497,
+        0.723924477895101,
+        0.6709479093551636
+      ],
+      "expected_class": "ultimainboard",
+      "class_correct": true,
+      "iou_with_reviewed_box": 0.9001380942323923,
+      "expected_split": "val"
+    },
+    {
+      "image": "IMG_20261009_222108_1.jpg",
+      "detector_class": "nxp_frdm_mcxn236_board",
+      "predicted_class": "ultimainboard",
+      "class_confidence": 1.0,
+      "box_confidence": 0.3928152024745941,
+      "bbox_xyxy_normalized": [
+        0.0,
+        0.026494833830529023,
+        1.0,
+        0.9815323720691622
+      ],
+      "expected_class": "ultimainboard",
+      "class_correct": true,
+      "iou_with_reviewed_box": 0.9550375382386334,
+      "expected_split": "held_out_crop_variant"
+    },
+    {
+      "image": "IMG_20261009_222113.jpg",
+      "detector_class": "raspberry_pi_3b_board",
+      "predicted_class": "esp32_board",
+      "class_confidence": 0.8866284489631653,
+      "box_confidence": 0.5643177628517151,
+      "bbox_xyxy_normalized": [
+        0.07091639439264934,
+        0.8071491718292236,
+        0.9817953109741211,
+        0.9990800619125366
+      ],
+      "expected_class": "ultimainboard",
+      "class_correct": false,
+      "iou_with_reviewed_box": 0.0,
+      "expected_split": "val"
+    },
+    {
+      "image": "IMG_20261009_222113_1.jpg",
+      "detector_class": "nxp_frdm_mcxn236_board",
+      "predicted_class": "ultimainboard",
+      "class_confidence": 0.9999998807907104,
+      "box_confidence": 0.7166739702224731,
+      "bbox_xyxy_normalized": [
+        0.0,
+        0.0043009978504807735,
+        1.0,
+        1.0
+      ],
+      "expected_class": "ultimainboard",
+      "class_correct": true,
+      "iou_with_reviewed_box": 0.9956990021495192,
+      "expected_split": "held_out_crop_variant"
+    },
+    {
+      "image": "IMG_20261009_222133.jpg",
+      "detector_class": "nxp_frdm_mcxn236_board",
+      "predicted_class": "ultimainboard",
+      "class_confidence": 1.0,
+      "box_confidence": 0.7767559289932251,
+      "bbox_xyxy_normalized": [
+        0.29558151960372925,
+        0.08879859745502472,
+        0.8138128121693929,
+        0.9264822602272034
+      ],
+      "expected_class": "ultimainboard",
+      "class_correct": true,
+      "iou_with_reviewed_box": 0.9336593199780217,
+      "expected_split": "train"
+    },
+    {
+      "image": "IMG_20261009_222133_1.jpg",
+      "detector_class": "ultimainboard",
+      "predicted_class": "ultimainboard",
+      "class_confidence": 1.0,
+      "box_confidence": 0.6443343758583069,
+      "bbox_xyxy_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "expected_class": "ultimainboard",
+      "class_correct": true,
+      "iou_with_reviewed_box": 1.0,
+      "expected_split": "train"
+    },
+    {
+      "image": "IMG_20261009_222135.jpg",
+      "detector_class": "ultimainboard",
+      "predicted_class": "ultimainboard",
+      "class_confidence": 1.0,
+      "box_confidence": 0.8370363116264343,
+      "bbox_xyxy_normalized": [
+        0.24017049868901572,
+        0.08527403324842453,
+        0.773243268330892,
+        0.9167696237564087
+      ],
+      "expected_class": "ultimainboard",
+      "class_correct": true,
+      "iou_with_reviewed_box": 0.9403062985292974,
+      "expected_split": "train"
+    },
+    {
+      "image": "IMG_20261009_222135_1.jpg",
+      "detector_class": "ultimainboard",
+      "predicted_class": "ultimainboard",
+      "class_confidence": 1.0,
+      "box_confidence": 0.5495374798774719,
+      "bbox_xyxy_normalized": [
+        0.0,
+        0.0024456610103499306,
+        1.0,
+        0.99785976851201
+      ],
+      "expected_class": "ultimainboard",
+      "class_correct": true,
+      "iou_with_reviewed_box": 0.99541410750166,
+      "expected_split": "train"
+    },
+    {
+      "image": "IMG_20261009_222137.jpg",
+      "detector_class": "nxp_frdm_mcxn236_board",
+      "predicted_class": "ultimainboard",
+      "class_confidence": 1.0,
+      "box_confidence": 0.9088516235351562,
+      "bbox_xyxy_normalized": [
+        0.25998397668202716,
+        0.09175726026296616,
+        0.8205392360687256,
+        0.9312278032302856
+      ],
+      "expected_class": "ultimainboard",
+      "class_correct": true,
+      "iou_with_reviewed_box": 0.9296176474217073,
+      "expected_split": "train"
+    },
+    {
+      "image": "IMG_20261009_222137_1.jpg",
+      "detector_class": "nxp_frdm_mcxn236_board",
+      "predicted_class": "ultimainboard",
+      "class_confidence": 1.0,
+      "box_confidence": 0.6733269691467285,
+      "bbox_xyxy_normalized": [
+        0.0,
+        0.023237521548746483,
+        1.0,
+        0.982842330687299
+      ],
+      "expected_class": "ultimainboard",
+      "class_correct": true,
+      "iou_with_reviewed_box": 0.9596048091385525,
+      "expected_split": "train"
+    },
+    {
+      "image": "IMG_20261009_222219.jpg",
+      "detector_class": "raspberry_pi_3b_board",
+      "predicted_class": "raspberry_pi_3b_board",
+      "class_confidence": 0.9999979734420776,
+      "box_confidence": 0.6803902387619019,
+      "bbox_xyxy_normalized": [
+        0.28604090213775635,
+        0.12429743260145187,
+        0.6982916990915934,
+        0.5769635438919067
+      ],
+      "expected_class": "raspberry_pi_3b_board",
+      "class_correct": true,
+      "iou_with_reviewed_box": 0.9082624787528286,
+      "expected_split": "train"
+    },
+    {
+      "image": "IMG_20261009_222219_1.jpg",
+      "detector_class": "raspberry_pi_3b_board",
+      "predicted_class": "raspberry_pi_3b_board",
+      "class_confidence": 0.9999995231628418,
+      "box_confidence": 0.7999048233032227,
+      "bbox_xyxy_normalized": [
+        0.0,
+        0.00868672608751939,
+        1.0,
+        0.9866601237373259
+      ],
+      "expected_class": "raspberry_pi_3b_board",
+      "class_correct": true,
+      "iou_with_reviewed_box": 0.9779733976498066,
+      "expected_split": "train"
+    },
+    {
+      "image": "IMG_20261009_222222.jpg",
+      "detector_class": "raspberry_pi_3b_board",
+      "predicted_class": "raspberry_pi_3b_board",
+      "class_confidence": 0.9999997615814209,
+      "box_confidence": 0.9034377336502075,
+      "bbox_xyxy_normalized": [
+        0.2751773198445638,
+        0.12512992322444916,
+        0.6933782895406088,
+        0.5757335424423218
+      ],
+      "expected_class": "raspberry_pi_3b_board",
+      "class_correct": true,
+      "iou_with_reviewed_box": 0.9095588164945706,
+      "expected_split": "train"
+    },
+    {
+      "image": "IMG_20261009_222222_1.jpg",
+      "detector_class": "raspberry_pi_3b_board",
+      "predicted_class": "raspberry_pi_3b_board",
+      "class_confidence": 0.9999994039535522,
+      "box_confidence": 0.9322721362113953,
+      "bbox_xyxy_normalized": [
+        0.0,
+        0.002400471679379058,
+        1.0,
+        0.9545974640727185
+      ],
+      "expected_class": "raspberry_pi_3b_board",
+      "class_correct": true,
+      "iou_with_reviewed_box": 0.9521969923933395,
+      "expected_split": "train"
+    },
+    {
+      "image": "IMG_20261009_222225.jpg",
+      "detector_class": "raspberry_pi_3b_board",
+      "predicted_class": "raspberry_pi_3b_board",
+      "class_confidence": 0.9999995231628418,
+      "box_confidence": 0.5824199318885803,
+      "bbox_xyxy_normalized": [
+        0.2703148325284322,
+        0.16055011749267578,
+        0.6598221063613892,
+        0.5966318845748901
+      ],
+      "expected_class": "raspberry_pi_3b_board",
+      "class_correct": true,
+      "iou_with_reviewed_box": 0.9285609963889672,
+      "expected_split": "train"
+    },
+    {
+      "image": "IMG_20261009_222225_1.jpg",
+      "detector_class": "raspberry_pi_3b_board",
+      "predicted_class": "raspberry_pi_3b_board",
+      "class_confidence": 0.9999943971633911,
+      "box_confidence": 0.8275220394134521,
+      "bbox_xyxy_normalized": [
+        0.0,
+        0.002544989775691015,
+        1.0,
+        0.982020544919519
+      ],
+      "expected_class": "raspberry_pi_3b_board",
+      "class_correct": true,
+      "iou_with_reviewed_box": 0.9794755551438279,
+      "expected_split": "train"
+    },
+    {
+      "image": "IMG_20261009_222248.jpg",
+      "detector_class": "raspberry_pi_3b_board",
+      "predicted_class": "raspberry_pi_3b_board",
+      "class_confidence": 0.999996542930603,
+      "box_confidence": 0.9229986667633057,
+      "bbox_xyxy_normalized": [
+        0.1826417644818624,
+        0.06689834594726562,
+        0.9100370407104492,
+        0.8434867262840271
+      ],
+      "expected_class": "raspberry_pi_3b_board",
+      "class_correct": true,
+      "iou_with_reviewed_box": 0.9354514694986643,
+      "expected_split": "train"
+    },
+    {
+      "image": "IMG_20261009_222248_1.jpg",
+      "detector_class": "raspberry_pi_3b_board",
+      "predicted_class": "raspberry_pi_3b_board",
+      "class_confidence": 0.9999973773956299,
+      "box_confidence": 0.6165271401405334,
+      "bbox_xyxy_normalized": [
+        0.0,
+        0.005535272892586931,
+        1.0,
+        0.9936724849438461
+      ],
+      "expected_class": "raspberry_pi_3b_board",
+      "class_correct": true,
+      "iou_with_reviewed_box": 0.9881372120512592,
+      "expected_split": "train"
+    },
+    {
+      "image": "IMG_20261009_222252.jpg",
+      "detector_class": "raspberry_pi_3b_board",
+      "predicted_class": "raspberry_pi_3b_board",
+      "class_confidence": 0.999995231628418,
+      "box_confidence": 0.9668748378753662,
+      "bbox_xyxy_normalized": [
+        0.1764141321182251,
+        0.03140962868928909,
+        0.9112265110015869,
+        0.8227463960647583
+      ],
+      "expected_class": "raspberry_pi_3b_board",
+      "class_correct": true,
+      "iou_with_reviewed_box": 0.9371419980411366,
+      "expected_split": "train"
+    },
+    {
+      "image": "IMG_20261009_222252_1.jpg",
+      "detector_class": "raspberry_pi_3b_board",
+      "predicted_class": "raspberry_pi_3b_board",
+      "class_confidence": 0.9999997615814209,
+      "box_confidence": 0.6972057819366455,
+      "bbox_xyxy_normalized": [
+        0.0,
+        0.0007344026200968015,
+        1.0,
+        0.9903275446952549
+      ],
+      "expected_class": "raspberry_pi_3b_board",
+      "class_correct": true,
+      "iou_with_reviewed_box": 0.989593142075158,
+      "expected_split": "train"
+    },
+    {
+      "image": "IMG_20261009_222305.jpg",
+      "detector_class": "raspberry_pi_3b_board",
+      "predicted_class": "raspberry_pi_3b_board",
+      "class_confidence": 0.9999982118606567,
+      "box_confidence": 0.9354798793792725,
+      "bbox_xyxy_normalized": [
+        0.1392380396525065,
+        0.07538971304893494,
+        0.9003291924794515,
+        0.8514994382858276
+      ],
+      "expected_class": "raspberry_pi_3b_board",
+      "class_correct": true,
+      "iou_with_reviewed_box": 0.8762582862417774,
+      "expected_split": "train"
+    },
+    {
+      "image": "IMG_20261009_222305_1.jpg",
+      "detector_class": "raspberry_pi_3b_board",
+      "predicted_class": "raspberry_pi_3b_board",
+      "class_confidence": 0.9999991655349731,
+      "box_confidence": 0.6991699934005737,
+      "bbox_xyxy_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        0.991873076467803
+      ],
+      "expected_class": "raspberry_pi_3b_board",
+      "class_correct": true,
+      "iou_with_reviewed_box": 0.991873076467803,
+      "expected_split": "train"
+    },
+    {
+      "image": "IMG_20261009_222308.jpg",
+      "detector_class": "raspberry_pi_3b_board",
+      "predicted_class": "raspberry_pi_3b_board",
+      "class_confidence": 0.9999994039535522,
+      "box_confidence": 0.9503294825553894,
+      "bbox_xyxy_normalized": [
+        0.13871363798777261,
+        0.09298449009656906,
+        0.9034882386525472,
+        0.8699118494987488
+      ],
+      "expected_class": "raspberry_pi_3b_board",
+      "class_correct": true,
+      "iou_with_reviewed_box": 0.8711201622347661,
+      "expected_split": "train"
+    },
+    {
+      "image": "IMG_20261009_222308_1.jpg",
+      "detector_class": "raspberry_pi_3b_board",
+      "predicted_class": "raspberry_pi_3b_board",
+      "class_confidence": 0.9999995231628418,
+      "box_confidence": 0.7353025078773499,
+      "bbox_xyxy_normalized": [
+        0.0,
+        0.0031895271947741427,
+        1.0,
+        0.9916905991247058
+      ],
+      "expected_class": "raspberry_pi_3b_board",
+      "class_correct": true,
+      "iou_with_reviewed_box": 0.9885010719299316,
+      "expected_split": "train"
+    },
+    {
+      "image": "IMG_20261009_222340.jpg",
+      "detector_class": "raspberry_pi_3b_board",
+      "predicted_class": "raspberry_pi_3b_board",
+      "class_confidence": 0.9999792575836182,
+      "box_confidence": 0.9807311296463013,
+      "bbox_xyxy_normalized": [
+        0.0,
+        0.09980355948209763,
+        1.0,
+        0.6352800130844116
+      ],
+      "expected_class": "raspberry_pi_3b_board",
+      "class_correct": true,
+      "iou_with_reviewed_box": 0.8802356566074241,
+      "expected_split": "val"
+    },
+    {
+      "image": "IMG_20261009_222340_1.jpg",
+      "detector_class": "raspberry_pi_3b_board",
+      "predicted_class": "raspberry_pi_3b_board",
+      "class_confidence": 0.9999977350234985,
+      "box_confidence": 0.8187528252601624,
+      "bbox_xyxy_normalized": [
+        0.14330013378246412,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "expected_class": "raspberry_pi_3b_board",
+      "class_correct": true,
+      "iou_with_reviewed_box": 0.856699866217536,
+      "expected_split": "held_out_crop_variant"
+    },
+    {
+      "image": "IMG_20261009_222343.jpg",
+      "detector_class": "raspberry_pi_3b_board",
+      "predicted_class": "raspberry_pi_3b_board",
+      "class_confidence": 0.9999979734420776,
+      "box_confidence": 0.9768930673599243,
+      "bbox_xyxy_normalized": [
+        0.0,
+        0.10854865610599518,
+        1.0,
+        0.6416863799095154
+      ],
+      "expected_class": "raspberry_pi_3b_board",
+      "class_correct": true,
+      "iou_with_reviewed_box": 0.8386298653809835,
+      "expected_split": "val"
+    },
+    {
+      "image": "IMG_20261009_222343_1.jpg",
+      "detector_class": "raspberry_pi_3b_board",
+      "predicted_class": "raspberry_pi_3b_board",
+      "class_confidence": 0.9978811144828796,
+      "box_confidence": 0.8357324600219727,
+      "bbox_xyxy_normalized": [
+        0.22850762123585555,
+        0.0,
+        1.0,
+        0.9985313299813574
+      ],
+      "expected_class": "raspberry_pi_3b_board",
+      "class_correct": true,
+      "iou_with_reviewed_box": 0.7703593110378424,
+      "expected_split": "held_out_crop_variant"
+    }
+  ]
+}
