@@ -66,7 +66,7 @@ There is one physical specimen and one capture session per family. Four families
 
 Experimental board detector and crop-classifier models have been trained. Reports on the same 80 supplied files are known-photo diagnostics. The front-view geometric filter was selected after reviewing errors on those files, so its improved result is also exploratory. Preserve the ungated result and filter provenance. Model artifacts and reports are proposed through separate repository PRs.
 
-Component seeds contain 107 major visible objects across five close-ups. Their coverage is partial; dense passives, obscured parts and board backs remain unfinished. Unlabeled regions are not verified negative training examples. Review every visible instance of the chosen classes before component training. Hidden parts cannot be claimed as visually detected.
+Component seeds contain 204 major visible objects across fifteen photos. Their coverage is partial; dense passives, obscured parts and board backs remain unfinished. Unlabeled regions are not verified negative training examples. Review every visible instance of the chosen classes before component training. Hidden parts cannot be claimed as visually detected.
 
 DeepPCB's 1500 pairs and 10013 boxes concern bare-PCB defects and cannot train these component classes. PCB-Vision RGB images/labels remain unavailable in the saved collection.
 

@@ -1,0 +1,965 @@
+{
+  "schema_version": "1.0",
+  "coordinate_format": "normalized_xyxy",
+  "annotation_source": "assistant_visual_review_of_original_pixels",
+  "coverage": "partial_major_visible_components_only",
+  "training_eligible": false,
+  "warning": "Unannotated objects and image regions are not negatives. These selected part boxes are not exhaustive component ground truth. No exact BOM reference designator, manufacturer part number, or physical pin identity is asserted.",
+  "images": [
+    {
+      "image": "photos/raw/IMG_20261009_221901_1.jpg",
+      "width": 928,
+      "height": 1686,
+      "sha256": "7095d2d4e1ea9d34b7548383fef01845262f95150c470720104335ff86e3694f",
+      "board_family": "esp32_board",
+      "split": "train",
+      "coverage": "partial_major_visible_components_only",
+      "objects": [
+        {
+          "id": "sprint_221901_001",
+          "class": "usb_connector",
+          "bbox_xyxy": [
+            0.375,
+            0.0,
+            0.643319,
+            0.1293
+          ],
+          "bbox_xyxy_pixels": [
+            348,
+            0,
+            597,
+            218
+          ],
+          "visible_evidence": "Metal USB receptacle at board end.",
+          "review_status": "visual_reviewed_major_component_box",
+          "reference_designator": null,
+          "pin_labels": []
+        },
+        {
+          "id": "sprint_221901_002",
+          "class": "switch",
+          "bbox_xyxy": [
+            0.167026,
+            0.008897,
+            0.290948,
+            0.1293
+          ],
+          "bbox_xyxy_pixels": [
+            155,
+            15,
+            270,
+            218
+          ],
+          "visible_evidence": "Tactile switch beside BOOT silkscreen.",
+          "review_status": "visual_reviewed_major_component_box",
+          "reference_designator": null,
+          "pin_labels": []
+        },
+        {
+          "id": "sprint_221901_003",
+          "class": "switch",
+          "bbox_xyxy": [
+            0.734914,
+            0.008897,
+            0.862069,
+            0.1293
+          ],
+          "bbox_xyxy_pixels": [
+            682,
+            15,
+            800,
+            218
+          ],
+          "visible_evidence": "Tactile switch beside EN silkscreen.",
+          "review_status": "visual_reviewed_major_component_box",
+          "reference_designator": null,
+          "pin_labels": []
+        },
+        {
+          "id": "sprint_221901_004",
+          "class": "integrated_circuit",
+          "bbox_xyxy": [
+            0.162716,
+            0.17675,
+            0.420259,
+            0.301898
+          ],
+          "bbox_xyxy_pixels": [
+            151,
+            298,
+            390,
+            509
+          ],
+          "visible_evidence": "Black leaded IC; package marking is not readable.",
+          "review_status": "visual_reviewed_major_component_box",
+          "reference_designator": null,
+          "pin_labels": []
+        },
+        {
+          "id": "sprint_221901_005",
+          "class": "integrated_circuit",
+          "bbox_xyxy": [
+            0.53125,
+            0.17497,
+            0.824353,
+            0.319098
+          ],
+          "bbox_xyxy_pixels": [
+            493,
+            295,
+            765,
+            538
+          ],
+          "visible_evidence": "Black power-style package with broad metal tab; function unresolved.",
+          "review_status": "visual_reviewed_major_component_box",
+          "reference_designator": null,
+          "pin_labels": []
+        },
+        {
+          "id": "sprint_221901_006",
+          "class": "rf_module",
+          "bbox_xyxy": [
+            0.15625,
+            0.481613,
+            0.871767,
+            0.899763
+          ],
+          "bbox_xyxy_pixels": [
+            145,
+            812,
+            809,
+            1517
+          ],
+          "visible_evidence": "ESP-32 metal-shielded RF module with surrounding castellated contacts; no individual pin locations assigned.",
+          "review_status": "visual_reviewed_major_component_box",
+          "reference_designator": null,
+          "pin_labels": []
+        }
+      ]
+    },
+    {
+      "image": "photos/raw/IMG_20261009_221154.jpg",
+      "width": 3072,
+      "height": 4096,
+      "sha256": "d7b25d11620743ba01d5a7b9a70bfe4eed92bd5f3cc199cb6799e4714d9d8b7a",
+      "board_family": "esp8266_board",
+      "split": "val",
+      "coverage": "partial_major_visible_components_only",
+      "objects": [
+        {
+          "id": "sprint_221154_001",
+          "class": "usb_connector",
+          "bbox_xyxy": [
+            0.390951,
+            0.179199,
+            0.522786,
+            0.266357
+          ],
+          "bbox_xyxy_pixels": [
+            1201,
+            734,
+            1606,
+            1091
+          ],
+          "visible_evidence": "Metal USB receptacle at top of board.",
+          "review_status": "visual_reviewed_major_component_box",
+          "reference_designator": null,
+          "pin_labels": []
+        },
+        {
+          "id": "sprint_221154_002",
+          "class": "switch",
+          "bbox_xyxy": [
+            0.302734,
+            0.223145,
+            0.361979,
+            0.291016
+          ],
+          "bbox_xyxy_pixels": [
+            930,
+            914,
+            1112,
+            1192
+          ],
+          "visible_evidence": "Tactile switch beside FLASH marking.",
+          "review_status": "visual_reviewed_major_component_box",
+          "reference_designator": null,
+          "pin_labels": []
+        },
+        {
+          "id": "sprint_221154_003",
+          "class": "switch",
+          "bbox_xyxy": [
+            0.568034,
+            0.207275,
+            0.627279,
+            0.277344
+          ],
+          "bbox_xyxy_pixels": [
+            1745,
+            849,
+            1927,
+            1136
+          ],
+          "visible_evidence": "Tactile switch beside RST marking.",
+          "review_status": "visual_reviewed_major_component_box",
+          "reference_designator": null,
+          "pin_labels": []
+        },
+        {
+          "id": "sprint_221154_004",
+          "class": "integrated_circuit",
+          "bbox_xyxy": [
+            0.439453,
+            0.308105,
+            0.619141,
+            0.393066
+          ],
+          "bbox_xyxy_pixels": [
+            1350,
+            1262,
+            1902,
+            1610
+          ],
+          "visible_evidence": "Black two-row leaded IC below USB; device marking unresolved.",
+          "review_status": "visual_reviewed_major_component_box",
+          "reference_designator": null,
+          "pin_labels": []
+        },
+        {
+          "id": "sprint_221154_005",
+          "class": "integrated_circuit",
+          "bbox_xyxy": [
+            0.391927,
+            0.477051,
+            0.496419,
+            0.563477
+          ],
+          "bbox_xyxy_pixels": [
+            1204,
+            1954,
+            1525,
+            2308
+          ],
+          "visible_evidence": "Three-lead power-style IC with metal tab; exact function unresolved.",
+          "review_status": "visual_reviewed_major_component_box",
+          "reference_designator": null,
+          "pin_labels": []
+        },
+        {
+          "id": "sprint_221154_006",
+          "class": "rf_module",
+          "bbox_xyxy": [
+            0.366211,
+            0.611816,
+            0.673828,
+            0.936523
+          ],
+          "bbox_xyxy_pixels": [
+            1125,
+            2506,
+            2070,
+            3836
+          ],
+          "visible_evidence": "ESP-12E metal shield, castellated pads, and antenna-bearing module PCB.",
+          "review_status": "visual_reviewed_major_component_box",
+          "reference_designator": null,
+          "pin_labels": []
+        }
+      ]
+    },
+    {
+      "image": "photos/raw/IMG_20261009_221657.jpg",
+      "width": 3072,
+      "height": 4096,
+      "sha256": "29c0ba1b17bc8848f133926f0c4ef24a543cd790ebe8daed48dbd06bc3ba7602",
+      "board_family": "nxp_frdm_mcxn236_board",
+      "split": "val",
+      "coverage": "partial_major_visible_components_only",
+      "objects": [
+        {
+          "id": "sprint_221657_001",
+          "class": "connector_header",
+          "bbox_xyxy": [
+            0.35612,
+            0.241699,
+            0.61263,
+            0.277344
+          ],
+          "bbox_xyxy_pixels": [
+            1094,
+            990,
+            1882,
+            1136
+          ],
+          "visible_evidence": "Populated dual-row female header at upper edge.",
+          "review_status": "visual_reviewed_major_component_box",
+          "reference_designator": null,
+          "pin_labels": []
+        },
+        {
+          "id": "sprint_221657_002",
+          "class": "connector_header",
+          "bbox_xyxy": [
+            0.309245,
+            0.300537,
+            0.360352,
+            0.517578
+          ],
+          "bbox_xyxy_pixels": [
+            950,
+            1231,
+            1107,
+            2120
+          ],
+          "visible_evidence": "Long populated female header on left upper edge.",
+          "review_status": "visual_reviewed_major_component_box",
+          "reference_designator": null,
+          "pin_labels": []
+        },
+        {
+          "id": "sprint_221657_003",
+          "class": "connector_header",
+          "bbox_xyxy": [
+            0.311523,
+            0.521973,
+            0.361003,
+            0.761475
+          ],
+          "bbox_xyxy_pixels": [
+            957,
+            2138,
+            1109,
+            3119
+          ],
+          "visible_evidence": "Long populated female header on left lower edge.",
+          "review_status": "visual_reviewed_major_component_box",
+          "reference_designator": null,
+          "pin_labels": []
+        },
+        {
+          "id": "sprint_221657_004",
+          "class": "connector_header",
+          "bbox_xyxy": [
+            0.385091,
+            0.325195,
+            0.426758,
+            0.435791
+          ],
+          "bbox_xyxy_pixels": [
+            1183,
+            1332,
+            1311,
+            1785
+          ],
+          "visible_evidence": "Populated narrow female header inside upper left board area.",
+          "review_status": "visual_reviewed_major_component_box",
+          "reference_designator": null,
+          "pin_labels": []
+        },
+        {
+          "id": "sprint_221657_005",
+          "class": "connector_header",
+          "bbox_xyxy": [
+            0.537435,
+            0.323975,
+            0.573893,
+            0.439209
+          ],
+          "bbox_xyxy_pixels": [
+            1651,
+            1327,
+            1763,
+            1799
+          ],
+          "visible_evidence": "Populated narrow female header inside upper right board area.",
+          "review_status": "visual_reviewed_major_component_box",
+          "reference_designator": null,
+          "pin_labels": []
+        },
+        {
+          "id": "sprint_221657_006",
+          "class": "connector_header",
+          "bbox_xyxy": [
+            0.609049,
+            0.514893,
+            0.663737,
+            0.597656
+          ],
+          "bbox_xyxy_pixels": [
+            1871,
+            2109,
+            2039,
+            2448
+          ],
+          "visible_evidence": "Populated female header on right upper-middle edge.",
+          "review_status": "visual_reviewed_major_component_box",
+          "reference_designator": null,
+          "pin_labels": []
+        },
+        {
+          "id": "sprint_221657_007",
+          "class": "connector_header",
+          "bbox_xyxy": [
+            0.613932,
+            0.597656,
+            0.666016,
+            0.724121
+          ],
+          "bbox_xyxy_pixels": [
+            1886,
+            2448,
+            2046,
+            2966
+          ],
+          "visible_evidence": "Populated female header on right lower-middle edge.",
+          "review_status": "visual_reviewed_major_component_box",
+          "reference_designator": null,
+          "pin_labels": []
+        },
+        {
+          "id": "sprint_221657_008",
+          "class": "integrated_circuit",
+          "bbox_xyxy": [
+            0.449544,
+            0.470459,
+            0.525716,
+            0.530273
+          ],
+          "bbox_xyxy_pixels": [
+            1381,
+            1927,
+            1615,
+            2172
+          ],
+          "visible_evidence": "Large square IC near center of board; source reference not assigned in this photo.",
+          "review_status": "visual_reviewed_major_component_box",
+          "reference_designator": null,
+          "pin_labels": []
+        },
+        {
+          "id": "sprint_221657_009",
+          "class": "integrated_circuit",
+          "bbox_xyxy": [
+            0.457682,
+            0.662354,
+            0.517578,
+            0.707764
+          ],
+          "bbox_xyxy_pixels": [
+            1406,
+            2713,
+            1590,
+            2899
+          ],
+          "visible_evidence": "Square IC below central test-pad array.",
+          "review_status": "visual_reviewed_major_component_box",
+          "reference_designator": null,
+          "pin_labels": []
+        },
+        {
+          "id": "sprint_221657_010",
+          "class": "usb_connector",
+          "bbox_xyxy": [
+            0.404297,
+            0.77417,
+            0.471354,
+            0.833252
+          ],
+          "bbox_xyxy_pixels": [
+            1242,
+            3171,
+            1448,
+            3413
+          ],
+          "visible_evidence": "Left metal USB receptacle at lower board edge.",
+          "review_status": "visual_reviewed_major_component_box",
+          "reference_designator": null,
+          "pin_labels": []
+        },
+        {
+          "id": "sprint_221657_011",
+          "class": "usb_connector",
+          "bbox_xyxy": [
+            0.504232,
+            0.775879,
+            0.570964,
+            0.833252
+          ],
+          "bbox_xyxy_pixels": [
+            1549,
+            3178,
+            1754,
+            3413
+          ],
+          "visible_evidence": "Right metal USB receptacle at lower board edge.",
+          "review_status": "visual_reviewed_major_component_box",
+          "reference_designator": null,
+          "pin_labels": []
+        },
+        {
+          "id": "sprint_221657_012",
+          "class": "button",
+          "bbox_xyxy": [
+            0.309245,
+            0.269775,
+            0.347982,
+            0.296631
+          ],
+          "bbox_xyxy_pixels": [
+            950,
+            1105,
+            1069,
+            1215
+          ],
+          "visible_evidence": "Upper-left tactile button.",
+          "review_status": "visual_reviewed_major_component_box",
+          "reference_designator": null,
+          "pin_labels": []
+        },
+        {
+          "id": "sprint_221657_013",
+          "class": "button",
+          "bbox_xyxy": [
+            0.616862,
+            0.268066,
+            0.657878,
+            0.296143
+          ],
+          "bbox_xyxy_pixels": [
+            1895,
+            1098,
+            2021,
+            1213
+          ],
+          "visible_evidence": "Upper-right tactile button.",
+          "review_status": "visual_reviewed_major_component_box",
+          "reference_designator": null,
+          "pin_labels": []
+        }
+      ]
+    },
+    {
+      "image": "photos/raw/IMG_20261009_222033.jpg",
+      "width": 3072,
+      "height": 4096,
+      "sha256": "55e2bb95d0bc9d99ae6dda8c9e4a1721e29bbf6a8730657ddc66b535c792dd5b",
+      "board_family": "ultimainboard",
+      "split": "val",
+      "coverage": "partial_major_visible_components_only",
+      "objects": [
+        {
+          "id": "sprint_222033_001",
+          "class": "integrated_circuit",
+          "bbox_xyxy": [
+            0.51237,
+            0.278564,
+            0.573893,
+            0.320801
+          ],
+          "bbox_xyxy_pixels": [
+            1574,
+            1141,
+            1763,
+            1314
+          ],
+          "visible_evidence": "Large square leaded controller IC in upper board area.",
+          "review_status": "visual_reviewed_major_component_box",
+          "reference_designator": null,
+          "pin_labels": []
+        },
+        {
+          "id": "sprint_222033_002",
+          "class": "power_connector",
+          "bbox_xyxy": [
+            0.373698,
+            0.258301,
+            0.421875,
+            0.294434
+          ],
+          "bbox_xyxy_pixels": [
+            1148,
+            1058,
+            1296,
+            1206
+          ],
+          "visible_evidence": "White multi-position socket on left upper board edge.",
+          "review_status": "visual_reviewed_major_component_box",
+          "reference_designator": null,
+          "pin_labels": []
+        },
+        {
+          "id": "sprint_222033_003",
+          "class": "power_connector",
+          "bbox_xyxy": [
+            0.374349,
+            0.303711,
+            0.421875,
+            0.338867
+          ],
+          "bbox_xyxy_pixels": [
+            1150,
+            1244,
+            1296,
+            1388
+          ],
+          "visible_evidence": "White multi-position socket on left side.",
+          "review_status": "visual_reviewed_major_component_box",
+          "reference_designator": null,
+          "pin_labels": []
+        },
+        {
+          "id": "sprint_222033_004",
+          "class": "power_connector",
+          "bbox_xyxy": [
+            0.374349,
+            0.351318,
+            0.422526,
+            0.386963
+          ],
+          "bbox_xyxy_pixels": [
+            1150,
+            1439,
+            1298,
+            1585
+          ],
+          "visible_evidence": "White multi-position socket on left side.",
+          "review_status": "visual_reviewed_major_component_box",
+          "reference_designator": null,
+          "pin_labels": []
+        },
+        {
+          "id": "sprint_222033_005",
+          "class": "power_connector",
+          "bbox_xyxy": [
+            0.374349,
+            0.400146,
+            0.423177,
+            0.435303
+          ],
+          "bbox_xyxy_pixels": [
+            1150,
+            1639,
+            1300,
+            1783
+          ],
+          "visible_evidence": "White multi-position socket on left side.",
+          "review_status": "visual_reviewed_major_component_box",
+          "reference_designator": null,
+          "pin_labels": []
+        },
+        {
+          "id": "sprint_222033_006",
+          "class": "power_connector",
+          "bbox_xyxy": [
+            0.373698,
+            0.45166,
+            0.423177,
+            0.490234
+          ],
+          "bbox_xyxy_pixels": [
+            1148,
+            1850,
+            1300,
+            2008
+          ],
+          "visible_evidence": "White multi-position socket on left lower board edge.",
+          "review_status": "visual_reviewed_major_component_box",
+          "reference_designator": null,
+          "pin_labels": []
+        },
+        {
+          "id": "sprint_222033_007",
+          "class": "power_connector",
+          "bbox_xyxy": [
+            0.359701,
+            0.492432,
+            0.411458,
+            0.573486
+          ],
+          "bbox_xyxy_pixels": [
+            1105,
+            2017,
+            1264,
+            2349
+          ],
+          "visible_evidence": "Green multi-position screw terminal block.",
+          "review_status": "visual_reviewed_major_component_box",
+          "reference_designator": null,
+          "pin_labels": []
+        },
+        {
+          "id": "sprint_222033_008",
+          "class": "connector_header",
+          "bbox_xyxy": [
+            0.583984,
+            0.258789,
+            0.633138,
+            0.312012
+          ],
+          "bbox_xyxy_pixels": [
+            1794,
+            1060,
+            1945,
+            1278
+          ],
+          "visible_evidence": "Dark multi-position socket on right upper edge.",
+          "review_status": "visual_reviewed_major_component_box",
+          "reference_designator": null,
+          "pin_labels": []
+        },
+        {
+          "id": "sprint_222033_009",
+          "class": "connector_header",
+          "bbox_xyxy": [
+            0.583984,
+            0.3125,
+            0.633789,
+            0.365234
+          ],
+          "bbox_xyxy_pixels": [
+            1794,
+            1280,
+            1947,
+            1496
+          ],
+          "visible_evidence": "Dark multi-position socket below first right socket.",
+          "review_status": "visual_reviewed_major_component_box",
+          "reference_designator": null,
+          "pin_labels": []
+        },
+        {
+          "id": "sprint_222033_010",
+          "class": "relay",
+          "bbox_xyxy": [
+            0.374349,
+            0.577393,
+            0.443685,
+            0.615234
+          ],
+          "bbox_xyxy_pixels": [
+            1150,
+            2365,
+            1363,
+            2520
+          ],
+          "visible_evidence": "Rectangular electromechanical relay at lower left.",
+          "review_status": "visual_reviewed_major_component_box",
+          "reference_designator": null,
+          "pin_labels": []
+        }
+      ]
+    },
+    {
+      "image": "photos/raw/IMG_20261009_222340.jpg",
+      "width": 3072,
+      "height": 4096,
+      "sha256": "8b1faa39ebba313154439818fe85795256fa206117bd81e82d85beede8c0b553",
+      "board_family": "raspberry_pi_3b_board",
+      "split": "val",
+      "coverage": "partial_major_visible_components_only",
+      "objects": [
+        {
+          "id": "sprint_222340_001",
+          "class": "connector_header",
+          "bbox_xyxy": [
+            0.083984,
+            0.155762,
+            0.653646,
+            0.209961
+          ],
+          "bbox_xyxy_pixels": [
+            258,
+            638,
+            2008,
+            860
+          ],
+          "visible_evidence": "Populated 40-position GPIO header along top edge; individual pins are not localized.",
+          "review_status": "visual_reviewed_major_component_box",
+          "reference_designator": null,
+          "pin_labels": []
+        },
+        {
+          "id": "sprint_222340_002",
+          "class": "heatsink",
+          "bbox_xyxy": [
+            0.190755,
+            0.292725,
+            0.417969,
+            0.424805
+          ],
+          "bbox_xyxy_pixels": [
+            586,
+            1199,
+            1284,
+            1740
+          ],
+          "visible_evidence": "Black finned heatsink over center-left package.",
+          "review_status": "visual_reviewed_major_component_box",
+          "reference_designator": null,
+          "pin_labels": []
+        },
+        {
+          "id": "sprint_222340_003",
+          "class": "integrated_circuit",
+          "bbox_xyxy": [
+            0.625651,
+            0.292236,
+            0.736003,
+            0.371826
+          ],
+          "bbox_xyxy_pixels": [
+            1922,
+            1197,
+            2261,
+            1523
+          ],
+          "visible_evidence": "Exposed square black IC at upper right.",
+          "review_status": "visual_reviewed_major_component_box",
+          "reference_designator": null,
+          "pin_labels": []
+        },
+        {
+          "id": "sprint_222340_004",
+          "class": "usb_connector",
+          "bbox_xyxy": [
+            0.776367,
+            0.165527,
+            0.988932,
+            0.296631
+          ],
+          "bbox_xyxy_pixels": [
+            2385,
+            678,
+            3038,
+            1215
+          ],
+          "visible_evidence": "Upper stacked USB-A port shell.",
+          "review_status": "visual_reviewed_major_component_box",
+          "reference_designator": null,
+          "pin_labels": []
+        },
+        {
+          "id": "sprint_222340_005",
+          "class": "usb_connector",
+          "bbox_xyxy": [
+            0.765951,
+            0.304199,
+            0.99056,
+            0.440674
+          ],
+          "bbox_xyxy_pixels": [
+            2353,
+            1246,
+            3043,
+            1805
+          ],
+          "visible_evidence": "Lower stacked USB-A port shell.",
+          "review_status": "visual_reviewed_major_component_box",
+          "reference_designator": null,
+          "pin_labels": []
+        },
+        {
+          "id": "sprint_222340_006",
+          "class": "ethernet_connector",
+          "bbox_xyxy": [
+            0.744792,
+            0.45166,
+            0.991862,
+            0.609131
+          ],
+          "bbox_xyxy_pixels": [
+            2288,
+            1850,
+            3047,
+            2495
+          ],
+          "visible_evidence": "Large metal RJ45 socket at lower right.",
+          "review_status": "visual_reviewed_major_component_box",
+          "reference_designator": null,
+          "pin_labels": []
+        },
+        {
+          "id": "sprint_222340_007",
+          "class": "hdmi_connector",
+          "bbox_xyxy": [
+            0.288086,
+            0.518555,
+            0.471354,
+            0.636475
+          ],
+          "bbox_xyxy_pixels": [
+            885,
+            2124,
+            1448,
+            2607
+          ],
+          "visible_evidence": "Full-size metal HDMI receptacle at lower edge.",
+          "review_status": "visual_reviewed_major_component_box",
+          "reference_designator": null,
+          "pin_labels": []
+        },
+        {
+          "id": "sprint_222340_008",
+          "class": "usb_connector",
+          "bbox_xyxy": [
+            0.101562,
+            0.566895,
+            0.209635,
+            0.628906
+          ],
+          "bbox_xyxy_pixels": [
+            312,
+            2322,
+            644,
+            2576
+          ],
+          "visible_evidence": "Micro-USB power receptacle at lower left.",
+          "review_status": "visual_reviewed_major_component_box",
+          "reference_designator": null,
+          "pin_labels": []
+        },
+        {
+          "id": "sprint_222340_009",
+          "class": "connector_header",
+          "bbox_xyxy": [
+            0.038737,
+            0.293213,
+            0.101562,
+            0.481934
+          ],
+          "bbox_xyxy_pixels": [
+            119,
+            1201,
+            312,
+            1974
+          ],
+          "visible_evidence": "Long narrow display flex connector at left edge.",
+          "review_status": "visual_reviewed_major_component_box",
+          "reference_designator": null,
+          "pin_labels": []
+        },
+        {
+          "id": "sprint_222340_010",
+          "class": "connector_header",
+          "bbox_xyxy": [
+            0.49349,
+            0.422119,
+            0.556966,
+            0.601318
+          ],
+          "bbox_xyxy_pixels": [
+            1516,
+            1729,
+            1711,
+            2463
+          ],
+          "visible_evidence": "Long narrow camera flex connector near lower middle.",
+          "review_status": "visual_reviewed_major_component_box",
+          "reference_designator": null,
+          "pin_labels": []
+        }
+      ]
+    }
+  ]
+}

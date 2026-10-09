@@ -6,14 +6,14 @@ As audited on 2026-10-10, the board-family layer has 80 reviewed photo boxes: 62
 
 | Board family | Photos | Photos with partial part seeds | Part boxes | Photo pin boxes |
 | --- | ---: | ---: | ---: | ---: |
-| ESP32 | 12 | 2 | 12 | 0 |
-| ESP8266 | 14 | 2 | 9 | 0 |
-| NXP FRDM-MCXN236 | 18 | 2 | 39 | 0 |
-| Raspberry Pi 3B | 18 | 2 | 23 | 0 |
-| Ultimainboard | 18 | 2 | 76 | 0 |
-| **Total** | **80** | **10** | **159** | **0** |
+| ESP32 | 12 | 3 | 18 | 0 |
+| ESP8266 | 14 | 3 | 15 | 0 |
+| NXP FRDM-MCXN236 | 18 | 3 | 52 | 0 |
+| Raspberry Pi 3B | 18 | 3 | 33 | 0 |
+| Ultimainboard | 18 | 3 | 86 | 0 |
+| **Total** | **80** | **15** | **204** | **0** |
 
-The 159 part boxes span 13 broad visual classes. The largest are connector headers (52) and integrated circuits (41); several classes have only one or two instances. Only 52 boxes currently carry the `visual_reviewed_major_component_box` status. The other 107 carry seed or review-pending statuses. All ten part-annotated photos have **partial** major-part coverage, and the other 70 photos have no part review. Critically, the current validation split has **zero part boxes** for every family. Treating unlabeled regions as negatives would teach false background; using this split for component mAP would produce a misleading score.
+The 204 part boxes span 13 broad visual classes. The largest are connector headers (64) and integrated circuits (49); several classes have only a few instances. Ninety-seven boxes carry the `visual_reviewed_major_component_box` status; 107 older seeds retain review-pending statuses. All fifteen part-annotated photos have **partial** major-part coverage, and the other 65 photos have no part review. Four validation originals now have 39 selected part boxes across ESP8266, NXP, Pi 3B and Ultimainboard. Their unboxed objects are not verified negatives, so component recall or mAP would still be misleading. ESP32 has no validation photo in the current split.
 
 The 352 NXP pin records under ten source-linked part candidates describe electrical source pins. They contain no registered pixel boxes. Other source pin catalogs also remain separate from photo pin labels. A photo pin detector has zero annotated targets across all five families and cannot yet be trained or evaluated honestly.
 

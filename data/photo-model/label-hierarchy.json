@@ -34,6 +34,9 @@
     "annotations/component-seeds-expanded.json": {
       "sha256": "41c1c6bf56c97519ab1c36971f12a4ff6db4cfbb2455c0ac3ed6460e87802457"
     },
+    "annotations/component-seeds-sprint.json": {
+      "sha256": "31087948715a5ee1abbcae69f9237498e08c0aa870b6952851e3be8f292cb3b7"
+    },
     "annotations/component-source-links.json": {
       "sha256": "524c55e39c2878de748ed0e531cd9acd861a0ed7a7ed28aca7a587b84ab39f23"
     },
@@ -53,21 +56,21 @@
       "raspberry_pi_3b_board": 18,
       "ultimainboard": 18
     },
-    "partial_part_images": 10,
+    "partial_part_images": 15,
     "partial_part_images_by_family": {
-      "esp32_board": 2,
-      "esp8266_board": 2,
-      "nxp_frdm_mcxn236_board": 2,
-      "raspberry_pi_3b_board": 2,
-      "ultimainboard": 2
+      "esp32_board": 3,
+      "esp8266_board": 3,
+      "nxp_frdm_mcxn236_board": 3,
+      "raspberry_pi_3b_board": 3,
+      "ultimainboard": 3
     },
-    "part_seed_boxes": 159,
+    "part_seed_boxes": 204,
     "part_seed_boxes_by_family": {
-      "esp32_board": 12,
-      "esp8266_board": 9,
-      "nxp_frdm_mcxn236_board": 39,
-      "raspberry_pi_3b_board": 23,
-      "ultimainboard": 76
+      "esp32_board": 18,
+      "esp8266_board": 15,
+      "nxp_frdm_mcxn236_board": 52,
+      "raspberry_pi_3b_board": 33,
+      "ultimainboard": 86
     },
     "source_linked_part_seeds": 10,
     "source_pin_records_under_linked_parts": 352,
@@ -108,8 +111,111 @@
           "unlinked_source_pin_record_count": 151
         }
       },
-      "part_coverage": "not_reviewed",
-      "parts": []
+      "part_coverage": "partial_major_component_seeds",
+      "parts": [
+        {
+          "id": "IMG_20261009_221154.jpg:annotations/component-seeds-sprint.json:sprint_221154_001",
+          "annotation_source": "annotations/component-seeds-sprint.json",
+          "annotation_id": "sprint_221154_001",
+          "class_name": "usb_connector",
+          "bbox_xyxy_normalized": [
+            0.390951,
+            0.179199,
+            0.522786,
+            0.266357
+          ],
+          "box_review_status": "visual_reviewed_major_component_box",
+          "observed_reference_designator": null,
+          "source_component_candidate": null,
+          "photo_pin_label_count": 0,
+          "pins": []
+        },
+        {
+          "id": "IMG_20261009_221154.jpg:annotations/component-seeds-sprint.json:sprint_221154_002",
+          "annotation_source": "annotations/component-seeds-sprint.json",
+          "annotation_id": "sprint_221154_002",
+          "class_name": "switch",
+          "bbox_xyxy_normalized": [
+            0.302734,
+            0.223145,
+            0.361979,
+            0.291016
+          ],
+          "box_review_status": "visual_reviewed_major_component_box",
+          "observed_reference_designator": null,
+          "source_component_candidate": null,
+          "photo_pin_label_count": 0,
+          "pins": []
+        },
+        {
+          "id": "IMG_20261009_221154.jpg:annotations/component-seeds-sprint.json:sprint_221154_003",
+          "annotation_source": "annotations/component-seeds-sprint.json",
+          "annotation_id": "sprint_221154_003",
+          "class_name": "switch",
+          "bbox_xyxy_normalized": [
+            0.568034,
+            0.207275,
+            0.627279,
+            0.277344
+          ],
+          "box_review_status": "visual_reviewed_major_component_box",
+          "observed_reference_designator": null,
+          "source_component_candidate": null,
+          "photo_pin_label_count": 0,
+          "pins": []
+        },
+        {
+          "id": "IMG_20261009_221154.jpg:annotations/component-seeds-sprint.json:sprint_221154_004",
+          "annotation_source": "annotations/component-seeds-sprint.json",
+          "annotation_id": "sprint_221154_004",
+          "class_name": "integrated_circuit",
+          "bbox_xyxy_normalized": [
+            0.439453,
+            0.308105,
+            0.619141,
+            0.393066
+          ],
+          "box_review_status": "visual_reviewed_major_component_box",
+          "observed_reference_designator": null,
+          "source_component_candidate": null,
+          "photo_pin_label_count": 0,
+          "pins": []
+        },
+        {
+          "id": "IMG_20261009_221154.jpg:annotations/component-seeds-sprint.json:sprint_221154_005",
+          "annotation_source": "annotations/component-seeds-sprint.json",
+          "annotation_id": "sprint_221154_005",
+          "class_name": "integrated_circuit",
+          "bbox_xyxy_normalized": [
+            0.391927,
+            0.477051,
+            0.496419,
+            0.563477
+          ],
+          "box_review_status": "visual_reviewed_major_component_box",
+          "observed_reference_designator": null,
+          "source_component_candidate": null,
+          "photo_pin_label_count": 0,
+          "pins": []
+        },
+        {
+          "id": "IMG_20261009_221154.jpg:annotations/component-seeds-sprint.json:sprint_221154_006",
+          "annotation_source": "annotations/component-seeds-sprint.json",
+          "annotation_id": "sprint_221154_006",
+          "class_name": "rf_module",
+          "bbox_xyxy_normalized": [
+            0.366211,
+            0.611816,
+            0.673828,
+            0.936523
+          ],
+          "box_review_status": "visual_reviewed_major_component_box",
+          "observed_reference_designator": null,
+          "source_component_candidate": null,
+          "photo_pin_label_count": 0,
+          "pins": []
+        }
+      ]
     },
     {
       "image_file": "IMG_20261009_221155.jpg",
@@ -485,8 +591,230 @@
           "unlinked_source_pin_record_count": 0
         }
       },
-      "part_coverage": "not_reviewed",
-      "parts": []
+      "part_coverage": "partial_major_component_seeds",
+      "parts": [
+        {
+          "id": "IMG_20261009_221657.jpg:annotations/component-seeds-sprint.json:sprint_221657_001",
+          "annotation_source": "annotations/component-seeds-sprint.json",
+          "annotation_id": "sprint_221657_001",
+          "class_name": "connector_header",
+          "bbox_xyxy_normalized": [
+            0.35612,
+            0.241699,
+            0.61263,
+            0.277344
+          ],
+          "box_review_status": "visual_reviewed_major_component_box",
+          "observed_reference_designator": null,
+          "source_component_candidate": null,
+          "photo_pin_label_count": 0,
+          "pins": []
+        },
+        {
+          "id": "IMG_20261009_221657.jpg:annotations/component-seeds-sprint.json:sprint_221657_002",
+          "annotation_source": "annotations/component-seeds-sprint.json",
+          "annotation_id": "sprint_221657_002",
+          "class_name": "connector_header",
+          "bbox_xyxy_normalized": [
+            0.309245,
+            0.300537,
+            0.360352,
+            0.517578
+          ],
+          "box_review_status": "visual_reviewed_major_component_box",
+          "observed_reference_designator": null,
+          "source_component_candidate": null,
+          "photo_pin_label_count": 0,
+          "pins": []
+        },
+        {
+          "id": "IMG_20261009_221657.jpg:annotations/component-seeds-sprint.json:sprint_221657_003",
+          "annotation_source": "annotations/component-seeds-sprint.json",
+          "annotation_id": "sprint_221657_003",
+          "class_name": "connector_header",
+          "bbox_xyxy_normalized": [
+            0.311523,
+            0.521973,
+            0.361003,
+            0.761475
+          ],
+          "box_review_status": "visual_reviewed_major_component_box",
+          "observed_reference_designator": null,
+          "source_component_candidate": null,
+          "photo_pin_label_count": 0,
+          "pins": []
+        },
+        {
+          "id": "IMG_20261009_221657.jpg:annotations/component-seeds-sprint.json:sprint_221657_004",
+          "annotation_source": "annotations/component-seeds-sprint.json",
+          "annotation_id": "sprint_221657_004",
+          "class_name": "connector_header",
+          "bbox_xyxy_normalized": [
+            0.385091,
+            0.325195,
+            0.426758,
+            0.435791
+          ],
+          "box_review_status": "visual_reviewed_major_component_box",
+          "observed_reference_designator": null,
+          "source_component_candidate": null,
+          "photo_pin_label_count": 0,
+          "pins": []
+        },
+        {
+          "id": "IMG_20261009_221657.jpg:annotations/component-seeds-sprint.json:sprint_221657_005",
+          "annotation_source": "annotations/component-seeds-sprint.json",
+          "annotation_id": "sprint_221657_005",
+          "class_name": "connector_header",
+          "bbox_xyxy_normalized": [
+            0.537435,
+            0.323975,
+            0.573893,
+            0.439209
+          ],
+          "box_review_status": "visual_reviewed_major_component_box",
+          "observed_reference_designator": null,
+          "source_component_candidate": null,
+          "photo_pin_label_count": 0,
+          "pins": []
+        },
+        {
+          "id": "IMG_20261009_221657.jpg:annotations/component-seeds-sprint.json:sprint_221657_006",
+          "annotation_source": "annotations/component-seeds-sprint.json",
+          "annotation_id": "sprint_221657_006",
+          "class_name": "connector_header",
+          "bbox_xyxy_normalized": [
+            0.609049,
+            0.514893,
+            0.663737,
+            0.597656
+          ],
+          "box_review_status": "visual_reviewed_major_component_box",
+          "observed_reference_designator": null,
+          "source_component_candidate": null,
+          "photo_pin_label_count": 0,
+          "pins": []
+        },
+        {
+          "id": "IMG_20261009_221657.jpg:annotations/component-seeds-sprint.json:sprint_221657_007",
+          "annotation_source": "annotations/component-seeds-sprint.json",
+          "annotation_id": "sprint_221657_007",
+          "class_name": "connector_header",
+          "bbox_xyxy_normalized": [
+            0.613932,
+            0.597656,
+            0.666016,
+            0.724121
+          ],
+          "box_review_status": "visual_reviewed_major_component_box",
+          "observed_reference_designator": null,
+          "source_component_candidate": null,
+          "photo_pin_label_count": 0,
+          "pins": []
+        },
+        {
+          "id": "IMG_20261009_221657.jpg:annotations/component-seeds-sprint.json:sprint_221657_008",
+          "annotation_source": "annotations/component-seeds-sprint.json",
+          "annotation_id": "sprint_221657_008",
+          "class_name": "integrated_circuit",
+          "bbox_xyxy_normalized": [
+            0.449544,
+            0.470459,
+            0.525716,
+            0.530273
+          ],
+          "box_review_status": "visual_reviewed_major_component_box",
+          "observed_reference_designator": null,
+          "source_component_candidate": null,
+          "photo_pin_label_count": 0,
+          "pins": []
+        },
+        {
+          "id": "IMG_20261009_221657.jpg:annotations/component-seeds-sprint.json:sprint_221657_009",
+          "annotation_source": "annotations/component-seeds-sprint.json",
+          "annotation_id": "sprint_221657_009",
+          "class_name": "integrated_circuit",
+          "bbox_xyxy_normalized": [
+            0.457682,
+            0.662354,
+            0.517578,
+            0.707764
+          ],
+          "box_review_status": "visual_reviewed_major_component_box",
+          "observed_reference_designator": null,
+          "source_component_candidate": null,
+          "photo_pin_label_count": 0,
+          "pins": []
+        },
+        {
+          "id": "IMG_20261009_221657.jpg:annotations/component-seeds-sprint.json:sprint_221657_010",
+          "annotation_source": "annotations/component-seeds-sprint.json",
+          "annotation_id": "sprint_221657_010",
+          "class_name": "usb_connector",
+          "bbox_xyxy_normalized": [
+            0.404297,
+            0.77417,
+            0.471354,
+            0.833252
+          ],
+          "box_review_status": "visual_reviewed_major_component_box",
+          "observed_reference_designator": null,
+          "source_component_candidate": null,
+          "photo_pin_label_count": 0,
+          "pins": []
+        },
+        {
+          "id": "IMG_20261009_221657.jpg:annotations/component-seeds-sprint.json:sprint_221657_011",
+          "annotation_source": "annotations/component-seeds-sprint.json",
+          "annotation_id": "sprint_221657_011",
+          "class_name": "usb_connector",
+          "bbox_xyxy_normalized": [
+            0.504232,
+            0.775879,
+            0.570964,
+            0.833252
+          ],
+          "box_review_status": "visual_reviewed_major_component_box",
+          "observed_reference_designator": null,
+          "source_component_candidate": null,
+          "photo_pin_label_count": 0,
+          "pins": []
+        },
+        {
+          "id": "IMG_20261009_221657.jpg:annotations/component-seeds-sprint.json:sprint_221657_012",
+          "annotation_source": "annotations/component-seeds-sprint.json",
+          "annotation_id": "sprint_221657_012",
+          "class_name": "button",
+          "bbox_xyxy_normalized": [
+            0.309245,
+            0.269775,
+            0.347982,
+            0.296631
+          ],
+          "box_review_status": "visual_reviewed_major_component_box",
+          "observed_reference_designator": null,
+          "source_component_candidate": null,
+          "photo_pin_label_count": 0,
+          "pins": []
+        },
+        {
+          "id": "IMG_20261009_221657.jpg:annotations/component-seeds-sprint.json:sprint_221657_013",
+          "annotation_source": "annotations/component-seeds-sprint.json",
+          "annotation_id": "sprint_221657_013",
+          "class_name": "button",
+          "bbox_xyxy_normalized": [
+            0.616862,
+            0.268066,
+            0.657878,
+            0.296143
+          ],
+          "box_review_status": "visual_reviewed_major_component_box",
+          "observed_reference_designator": null,
+          "source_component_candidate": null,
+          "photo_pin_label_count": 0,
+          "pins": []
+        }
+      ]
     },
     {
       "image_file": "IMG_20261009_221717.jpg",
@@ -4804,8 +5132,111 @@
           "unlinked_source_pin_record_count": 0
         }
       },
-      "part_coverage": "not_reviewed",
-      "parts": []
+      "part_coverage": "partial_major_component_seeds",
+      "parts": [
+        {
+          "id": "IMG_20261009_221901_1.jpg:annotations/component-seeds-sprint.json:sprint_221901_001",
+          "annotation_source": "annotations/component-seeds-sprint.json",
+          "annotation_id": "sprint_221901_001",
+          "class_name": "usb_connector",
+          "bbox_xyxy_normalized": [
+            0.375,
+            0.0,
+            0.643319,
+            0.1293
+          ],
+          "box_review_status": "visual_reviewed_major_component_box",
+          "observed_reference_designator": null,
+          "source_component_candidate": null,
+          "photo_pin_label_count": 0,
+          "pins": []
+        },
+        {
+          "id": "IMG_20261009_221901_1.jpg:annotations/component-seeds-sprint.json:sprint_221901_002",
+          "annotation_source": "annotations/component-seeds-sprint.json",
+          "annotation_id": "sprint_221901_002",
+          "class_name": "switch",
+          "bbox_xyxy_normalized": [
+            0.167026,
+            0.008897,
+            0.290948,
+            0.1293
+          ],
+          "box_review_status": "visual_reviewed_major_component_box",
+          "observed_reference_designator": null,
+          "source_component_candidate": null,
+          "photo_pin_label_count": 0,
+          "pins": []
+        },
+        {
+          "id": "IMG_20261009_221901_1.jpg:annotations/component-seeds-sprint.json:sprint_221901_003",
+          "annotation_source": "annotations/component-seeds-sprint.json",
+          "annotation_id": "sprint_221901_003",
+          "class_name": "switch",
+          "bbox_xyxy_normalized": [
+            0.734914,
+            0.008897,
+            0.862069,
+            0.1293
+          ],
+          "box_review_status": "visual_reviewed_major_component_box",
+          "observed_reference_designator": null,
+          "source_component_candidate": null,
+          "photo_pin_label_count": 0,
+          "pins": []
+        },
+        {
+          "id": "IMG_20261009_221901_1.jpg:annotations/component-seeds-sprint.json:sprint_221901_004",
+          "annotation_source": "annotations/component-seeds-sprint.json",
+          "annotation_id": "sprint_221901_004",
+          "class_name": "integrated_circuit",
+          "bbox_xyxy_normalized": [
+            0.162716,
+            0.17675,
+            0.420259,
+            0.301898
+          ],
+          "box_review_status": "visual_reviewed_major_component_box",
+          "observed_reference_designator": null,
+          "source_component_candidate": null,
+          "photo_pin_label_count": 0,
+          "pins": []
+        },
+        {
+          "id": "IMG_20261009_221901_1.jpg:annotations/component-seeds-sprint.json:sprint_221901_005",
+          "annotation_source": "annotations/component-seeds-sprint.json",
+          "annotation_id": "sprint_221901_005",
+          "class_name": "integrated_circuit",
+          "bbox_xyxy_normalized": [
+            0.53125,
+            0.17497,
+            0.824353,
+            0.319098
+          ],
+          "box_review_status": "visual_reviewed_major_component_box",
+          "observed_reference_designator": null,
+          "source_component_candidate": null,
+          "photo_pin_label_count": 0,
+          "pins": []
+        },
+        {
+          "id": "IMG_20261009_221901_1.jpg:annotations/component-seeds-sprint.json:sprint_221901_006",
+          "annotation_source": "annotations/component-seeds-sprint.json",
+          "annotation_id": "sprint_221901_006",
+          "class_name": "rf_module",
+          "bbox_xyxy_normalized": [
+            0.15625,
+            0.481613,
+            0.871767,
+            0.899763
+          ],
+          "box_review_status": "visual_reviewed_major_component_box",
+          "observed_reference_designator": null,
+          "source_component_candidate": null,
+          "photo_pin_label_count": 0,
+          "pins": []
+        }
+      ]
     },
     {
       "image_file": "IMG_20261009_221908.jpg",
@@ -5394,8 +5825,179 @@
           "unlinked_source_pin_record_count": 1292
         }
       },
-      "part_coverage": "not_reviewed",
-      "parts": []
+      "part_coverage": "partial_major_component_seeds",
+      "parts": [
+        {
+          "id": "IMG_20261009_222033.jpg:annotations/component-seeds-sprint.json:sprint_222033_001",
+          "annotation_source": "annotations/component-seeds-sprint.json",
+          "annotation_id": "sprint_222033_001",
+          "class_name": "integrated_circuit",
+          "bbox_xyxy_normalized": [
+            0.51237,
+            0.278564,
+            0.573893,
+            0.320801
+          ],
+          "box_review_status": "visual_reviewed_major_component_box",
+          "observed_reference_designator": null,
+          "source_component_candidate": null,
+          "photo_pin_label_count": 0,
+          "pins": []
+        },
+        {
+          "id": "IMG_20261009_222033.jpg:annotations/component-seeds-sprint.json:sprint_222033_002",
+          "annotation_source": "annotations/component-seeds-sprint.json",
+          "annotation_id": "sprint_222033_002",
+          "class_name": "power_connector",
+          "bbox_xyxy_normalized": [
+            0.373698,
+            0.258301,
+            0.421875,
+            0.294434
+          ],
+          "box_review_status": "visual_reviewed_major_component_box",
+          "observed_reference_designator": null,
+          "source_component_candidate": null,
+          "photo_pin_label_count": 0,
+          "pins": []
+        },
+        {
+          "id": "IMG_20261009_222033.jpg:annotations/component-seeds-sprint.json:sprint_222033_003",
+          "annotation_source": "annotations/component-seeds-sprint.json",
+          "annotation_id": "sprint_222033_003",
+          "class_name": "power_connector",
+          "bbox_xyxy_normalized": [
+            0.374349,
+            0.303711,
+            0.421875,
+            0.338867
+          ],
+          "box_review_status": "visual_reviewed_major_component_box",
+          "observed_reference_designator": null,
+          "source_component_candidate": null,
+          "photo_pin_label_count": 0,
+          "pins": []
+        },
+        {
+          "id": "IMG_20261009_222033.jpg:annotations/component-seeds-sprint.json:sprint_222033_004",
+          "annotation_source": "annotations/component-seeds-sprint.json",
+          "annotation_id": "sprint_222033_004",
+          "class_name": "power_connector",
+          "bbox_xyxy_normalized": [
+            0.374349,
+            0.351318,
+            0.422526,
+            0.386963
+          ],
+          "box_review_status": "visual_reviewed_major_component_box",
+          "observed_reference_designator": null,
+          "source_component_candidate": null,
+          "photo_pin_label_count": 0,
+          "pins": []
+        },
+        {
+          "id": "IMG_20261009_222033.jpg:annotations/component-seeds-sprint.json:sprint_222033_005",
+          "annotation_source": "annotations/component-seeds-sprint.json",
+          "annotation_id": "sprint_222033_005",
+          "class_name": "power_connector",
+          "bbox_xyxy_normalized": [
+            0.374349,
+            0.400146,
+            0.423177,
+            0.435303
+          ],
+          "box_review_status": "visual_reviewed_major_component_box",
+          "observed_reference_designator": null,
+          "source_component_candidate": null,
+          "photo_pin_label_count": 0,
+          "pins": []
+        },
+        {
+          "id": "IMG_20261009_222033.jpg:annotations/component-seeds-sprint.json:sprint_222033_006",
+          "annotation_source": "annotations/component-seeds-sprint.json",
+          "annotation_id": "sprint_222033_006",
+          "class_name": "power_connector",
+          "bbox_xyxy_normalized": [
+            0.373698,
+            0.45166,
+            0.423177,
+            0.490234
+          ],
+          "box_review_status": "visual_reviewed_major_component_box",
+          "observed_reference_designator": null,
+          "source_component_candidate": null,
+          "photo_pin_label_count": 0,
+          "pins": []
+        },
+        {
+          "id": "IMG_20261009_222033.jpg:annotations/component-seeds-sprint.json:sprint_222033_007",
+          "annotation_source": "annotations/component-seeds-sprint.json",
+          "annotation_id": "sprint_222033_007",
+          "class_name": "power_connector",
+          "bbox_xyxy_normalized": [
+            0.359701,
+            0.492432,
+            0.411458,
+            0.573486
+          ],
+          "box_review_status": "visual_reviewed_major_component_box",
+          "observed_reference_designator": null,
+          "source_component_candidate": null,
+          "photo_pin_label_count": 0,
+          "pins": []
+        },
+        {
+          "id": "IMG_20261009_222033.jpg:annotations/component-seeds-sprint.json:sprint_222033_008",
+          "annotation_source": "annotations/component-seeds-sprint.json",
+          "annotation_id": "sprint_222033_008",
+          "class_name": "connector_header",
+          "bbox_xyxy_normalized": [
+            0.583984,
+            0.258789,
+            0.633138,
+            0.312012
+          ],
+          "box_review_status": "visual_reviewed_major_component_box",
+          "observed_reference_designator": null,
+          "source_component_candidate": null,
+          "photo_pin_label_count": 0,
+          "pins": []
+        },
+        {
+          "id": "IMG_20261009_222033.jpg:annotations/component-seeds-sprint.json:sprint_222033_009",
+          "annotation_source": "annotations/component-seeds-sprint.json",
+          "annotation_id": "sprint_222033_009",
+          "class_name": "connector_header",
+          "bbox_xyxy_normalized": [
+            0.583984,
+            0.3125,
+            0.633789,
+            0.365234
+          ],
+          "box_review_status": "visual_reviewed_major_component_box",
+          "observed_reference_designator": null,
+          "source_component_candidate": null,
+          "photo_pin_label_count": 0,
+          "pins": []
+        },
+        {
+          "id": "IMG_20261009_222033.jpg:annotations/component-seeds-sprint.json:sprint_222033_010",
+          "annotation_source": "annotations/component-seeds-sprint.json",
+          "annotation_id": "sprint_222033_010",
+          "class_name": "relay",
+          "bbox_xyxy_normalized": [
+            0.374349,
+            0.577393,
+            0.443685,
+            0.615234
+          ],
+          "box_review_status": "visual_reviewed_major_component_box",
+          "observed_reference_designator": null,
+          "source_component_candidate": null,
+          "photo_pin_label_count": 0,
+          "pins": []
+        }
+      ]
     },
     {
       "image_file": "IMG_20261009_222033_1.jpg",
@@ -7951,8 +8553,179 @@
           "unlinked_source_pin_record_count": 0
         }
       },
-      "part_coverage": "not_reviewed",
-      "parts": []
+      "part_coverage": "partial_major_component_seeds",
+      "parts": [
+        {
+          "id": "IMG_20261009_222340.jpg:annotations/component-seeds-sprint.json:sprint_222340_001",
+          "annotation_source": "annotations/component-seeds-sprint.json",
+          "annotation_id": "sprint_222340_001",
+          "class_name": "connector_header",
+          "bbox_xyxy_normalized": [
+            0.083984,
+            0.155762,
+            0.653646,
+            0.209961
+          ],
+          "box_review_status": "visual_reviewed_major_component_box",
+          "observed_reference_designator": null,
+          "source_component_candidate": null,
+          "photo_pin_label_count": 0,
+          "pins": []
+        },
+        {
+          "id": "IMG_20261009_222340.jpg:annotations/component-seeds-sprint.json:sprint_222340_002",
+          "annotation_source": "annotations/component-seeds-sprint.json",
+          "annotation_id": "sprint_222340_002",
+          "class_name": "heatsink",
+          "bbox_xyxy_normalized": [
+            0.190755,
+            0.292725,
+            0.417969,
+            0.424805
+          ],
+          "box_review_status": "visual_reviewed_major_component_box",
+          "observed_reference_designator": null,
+          "source_component_candidate": null,
+          "photo_pin_label_count": 0,
+          "pins": []
+        },
+        {
+          "id": "IMG_20261009_222340.jpg:annotations/component-seeds-sprint.json:sprint_222340_003",
+          "annotation_source": "annotations/component-seeds-sprint.json",
+          "annotation_id": "sprint_222340_003",
+          "class_name": "integrated_circuit",
+          "bbox_xyxy_normalized": [
+            0.625651,
+            0.292236,
+            0.736003,
+            0.371826
+          ],
+          "box_review_status": "visual_reviewed_major_component_box",
+          "observed_reference_designator": null,
+          "source_component_candidate": null,
+          "photo_pin_label_count": 0,
+          "pins": []
+        },
+        {
+          "id": "IMG_20261009_222340.jpg:annotations/component-seeds-sprint.json:sprint_222340_004",
+          "annotation_source": "annotations/component-seeds-sprint.json",
+          "annotation_id": "sprint_222340_004",
+          "class_name": "usb_connector",
+          "bbox_xyxy_normalized": [
+            0.776367,
+            0.165527,
+            0.988932,
+            0.296631
+          ],
+          "box_review_status": "visual_reviewed_major_component_box",
+          "observed_reference_designator": null,
+          "source_component_candidate": null,
+          "photo_pin_label_count": 0,
+          "pins": []
+        },
+        {
+          "id": "IMG_20261009_222340.jpg:annotations/component-seeds-sprint.json:sprint_222340_005",
+          "annotation_source": "annotations/component-seeds-sprint.json",
+          "annotation_id": "sprint_222340_005",
+          "class_name": "usb_connector",
+          "bbox_xyxy_normalized": [
+            0.765951,
+            0.304199,
+            0.99056,
+            0.440674
+          ],
+          "box_review_status": "visual_reviewed_major_component_box",
+          "observed_reference_designator": null,
+          "source_component_candidate": null,
+          "photo_pin_label_count": 0,
+          "pins": []
+        },
+        {
+          "id": "IMG_20261009_222340.jpg:annotations/component-seeds-sprint.json:sprint_222340_006",
+          "annotation_source": "annotations/component-seeds-sprint.json",
+          "annotation_id": "sprint_222340_006",
+          "class_name": "ethernet_connector",
+          "bbox_xyxy_normalized": [
+            0.744792,
+            0.45166,
+            0.991862,
+            0.609131
+          ],
+          "box_review_status": "visual_reviewed_major_component_box",
+          "observed_reference_designator": null,
+          "source_component_candidate": null,
+          "photo_pin_label_count": 0,
+          "pins": []
+        },
+        {
+          "id": "IMG_20261009_222340.jpg:annotations/component-seeds-sprint.json:sprint_222340_007",
+          "annotation_source": "annotations/component-seeds-sprint.json",
+          "annotation_id": "sprint_222340_007",
+          "class_name": "hdmi_connector",
+          "bbox_xyxy_normalized": [
+            0.288086,
+            0.518555,
+            0.471354,
+            0.636475
+          ],
+          "box_review_status": "visual_reviewed_major_component_box",
+          "observed_reference_designator": null,
+          "source_component_candidate": null,
+          "photo_pin_label_count": 0,
+          "pins": []
+        },
+        {
+          "id": "IMG_20261009_222340.jpg:annotations/component-seeds-sprint.json:sprint_222340_008",
+          "annotation_source": "annotations/component-seeds-sprint.json",
+          "annotation_id": "sprint_222340_008",
+          "class_name": "usb_connector",
+          "bbox_xyxy_normalized": [
+            0.101562,
+            0.566895,
+            0.209635,
+            0.628906
+          ],
+          "box_review_status": "visual_reviewed_major_component_box",
+          "observed_reference_designator": null,
+          "source_component_candidate": null,
+          "photo_pin_label_count": 0,
+          "pins": []
+        },
+        {
+          "id": "IMG_20261009_222340.jpg:annotations/component-seeds-sprint.json:sprint_222340_009",
+          "annotation_source": "annotations/component-seeds-sprint.json",
+          "annotation_id": "sprint_222340_009",
+          "class_name": "connector_header",
+          "bbox_xyxy_normalized": [
+            0.038737,
+            0.293213,
+            0.101562,
+            0.481934
+          ],
+          "box_review_status": "visual_reviewed_major_component_box",
+          "observed_reference_designator": null,
+          "source_component_candidate": null,
+          "photo_pin_label_count": 0,
+          "pins": []
+        },
+        {
+          "id": "IMG_20261009_222340.jpg:annotations/component-seeds-sprint.json:sprint_222340_010",
+          "annotation_source": "annotations/component-seeds-sprint.json",
+          "annotation_id": "sprint_222340_010",
+          "class_name": "connector_header",
+          "bbox_xyxy_normalized": [
+            0.49349,
+            0.422119,
+            0.556966,
+            0.601318
+          ],
+          "box_review_status": "visual_reviewed_major_component_box",
+          "observed_reference_designator": null,
+          "source_component_candidate": null,
+          "photo_pin_label_count": 0,
+          "pins": []
+        }
+      ]
     },
     {
       "image_file": "IMG_20261009_222340_1.jpg",

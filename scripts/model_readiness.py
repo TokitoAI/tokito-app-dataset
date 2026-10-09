@@ -97,6 +97,7 @@ def audit() -> dict:
         "families": dict(sorted(families.items())),
         "part_class_distribution": dict(sorted(all_classes.items())),
         "total_part_boxes": sum(all_classes.values()),
+        "validation_part_boxes": sum(record["part_boxes_by_split"].get("val", 0) for record in families.values()),
         "source_only_pin_records_under_linked_parts": source_pin_records,
         "photo_pin_boxes": photo_pin_boxes,
         "readiness": {
@@ -128,6 +129,7 @@ def main() -> None:
     for family, data in report["families"].items():
         print(f"{family} | {data['images']} | {data['partial_part_images']} | {data['part_boxes']} | {data['photo_pin_boxes']} | {data['source_only_pin_records_under_linked_parts']}")
     print("Part classes:", json.dumps(report["part_class_distribution"], sort_keys=True))
+    print("Partial part boxes on validation photos:", report["validation_part_boxes"])
     print("Training readiness:", json.dumps(report["readiness"], sort_keys=True))
     print("Crop/original train-val leakage groups:", len(report["crop_group_train_val_leaks"]))
     for limit in report["limits"]:

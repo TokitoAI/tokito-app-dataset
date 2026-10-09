@@ -45,7 +45,8 @@ def main():
     seed_paths = ['annotations/component-seed-annotations.json',
                   'annotations/large-board-component-seeds.json',
                   'annotations/nxp-component-seeds.json',
-                  'annotations/component-seeds-expanded.json']
+                  'annotations/component-seeds-expanded.json',
+                  'annotations/component-seeds-sprint.json']
     links_path = 'annotations/component-source-links.json'
     photo_pins_path = 'annotations/pin-annotations.json'
     components_path = 'data/board-sources/nxp-frdm-mcxn236/structured-rev-c/components.json'
@@ -159,7 +160,7 @@ def main():
             'pins': pins,
         })
 
-    for source in [seed_paths[0], seed_paths[1], seed_paths[3]]:
+    for source in [seed_paths[0], seed_paths[1], seed_paths[3], seed_paths[4]]:
         data = read(source)
         for image in data['images']:
             name = Path(image.get('filename', image.get('image'))).name
@@ -168,6 +169,8 @@ def main():
             assert [board['image_width'], board['image_height']] == [image['width'], image['height']]
             if 'sha256' in image:
                 assert board['image_sha256'] == image['sha256']
+            if 'split' in image:
+                assert board['split'] == image['split']
             source_family_to_class = {
                 'ultimainboard_2_1_4': 'ultimainboard',
                 'raspberry_pi_3b_v1_2': 'raspberry_pi_3b_board',
@@ -252,7 +255,7 @@ def main():
             if row['board']['family'] == family for part in row['parts'])
             for family in CLASS_NAMES}.items())),
     }
-    assert stats['partial_part_images'] == 10 and stats['part_seed_boxes'] == 159
+    assert stats['partial_part_images'] == 15 and stats['part_seed_boxes'] == 204
     result = {
         'schema_version': '1.0',
         'label_order': ['board_family', 'part', 'pin'],
