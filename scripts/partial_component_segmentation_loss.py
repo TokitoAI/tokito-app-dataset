@@ -22,8 +22,8 @@ def partial_classification_bce(logits, targets, reviewed_background_anchors):
     """
     if logits.shape != targets.shape or logits.ndim != 3:
         raise ValueError('logits and targets must share [batch, anchors, classes] shape')
-    if reviewed_background_anchors.shape != logits.shape[:2]:
-        raise ValueError('background anchor raster shape mismatch')
+    if reviewed_background_anchors.shape not in (logits.shape[:2], logits.shape):
+        raise ValueError('background anchor raster must be [batch, anchors] or [batch, anchors, classes]')
     if reviewed_background_anchors.dtype != torch.bool:
         raise ValueError('reviewed background must be boolean, not implicit confidence')
     if not torch.isfinite(targets).all():
@@ -31,8 +31,10 @@ def partial_classification_bce(logits, targets, reviewed_background_anchors):
     if ((targets < 0) | (targets > 1.001)).any():
         raise ValueError(f'invalid classification target range: min={targets.min().item()} max={targets.max().item()} dtype={targets.dtype}')
     targets = targets.float().clamp_(0.0, 1.0)
-    supervised = targets.gt(0).any(-1) | reviewed_background_anchors
-    return F.binary_cross_entropy_with_logits(logits, targets, reduction='none') * supervised.unsqueeze(-1)
+    if reviewed_background_anchors.ndim == 2:
+        reviewed_background_anchors = reviewed_background_anchors.unsqueeze(-1)
+    supervised = targets.gt(0).any(-1, keepdim=True) | reviewed_background_anchors
+    return F.binary_cross_entropy_with_logits(logits, targets, reduction='none') * supervised
 
 
 def sample_reviewed_background(background, anchor_xy_pixels, image_hw):
@@ -41,17 +43,20 @@ def sample_reviewed_background(background, anchor_xy_pixels, image_hw):
     No interpolation/resizing happens here: unknown transforms are prohibited.
     Out-of-canvas points fail instead of being clamped into reviewed background.
     """
-    if background.ndim != 3 or background.dtype != torch.bool:
-        raise ValueError('background must be boolean [batch, height, width]')
+    if background.ndim not in (3, 4) or background.dtype != torch.bool:
+        raise ValueError('background must be boolean [batch, height, width] or [batch, classes, height, width]')
     height, width = map(int, image_hw)
-    if background.shape[-2:] != (height, width):
+    if background.shape[0] < 1 or background.shape[-2:] != (height, width):
         raise ValueError('background is not in the actual training-image canvas')
     if anchor_xy_pixels.ndim != 2 or anchor_xy_pixels.shape[-1] != 2:
         raise ValueError('anchor coordinates must be [anchors, 2]')
     xy = anchor_xy_pixels.floor().long()
     if ((xy[:, 0] < 0) | (xy[:, 0] >= width) | (xy[:, 1] < 0) | (xy[:, 1] >= height)).any():
         raise ValueError('anchor centre outside supplied canvas')
-    return background[:, xy[:, 1], xy[:, 0]]
+    if background.ndim == 3:
+        return background[:, xy[:, 1], xy[:, 0]]
+    # Index each class-specific negative raster at every anchor and return [B,A,C].
+    return background[:, :, xy[:, 1], xy[:, 0]].permute(0, 2, 1)
 
 
 class _PartialClassificationBCE(nn.Module):
@@ -68,6 +73,7 @@ class _PartialClassificationBCE(nn.Module):
 try:
     from ultralytics.utils.loss import v8SegmentationLoss
     from ultralytics.utils.tal import make_anchors
+    from ultralytics.utils.ops import xyxy2xywh
 except ImportError:
     # Numerical helper tests remain usable where only torch is installed.
     v8SegmentationLoss = object
@@ -118,6 +124,46 @@ class PartialComponentSegmentationLoss(v8SegmentationLoss):
                 value = v8SegmentationLoss.single_mask_loss(*inputs)
             total = total + value
         return total
+
+    def calculate_segmentation_loss(
+        self, fg_mask, masks, target_gt_idx, target_bboxes, batch_idx,
+        proto, pred_masks, imgsz,
+    ):
+        """Calculate mask loss in bounded chunks without repeated-mask OOMs.
+
+        Dense images can assign hundreds of anchors to the same few objects.
+        The stock implementation gathers every assigned full-resolution mask
+        into one tensor before computing loss. Gather at most eight at a time;
+        byte-packed source masks stay compact on the GPU until each chunk is
+        converted to float.
+        """
+        _, _, mask_h, mask_w = proto.shape
+        target_bboxes_normalized = target_bboxes / imgsz[[1, 0, 1, 0]]
+        marea = xyxy2xywh(target_bboxes_normalized)[..., 2:].prod(2)
+        scale = torch.tensor([mask_w, mask_h, mask_w, mask_h], device=proto.device)
+        mxyxy = target_bboxes_normalized * scale
+        per_image_masks = [masks[batch_idx.view(-1) == i] for i in range(len(fg_mask))]
+        loss = proto.sum() * 0
+        for i, (fg_i, gt_idx_i, pred_i, proto_i, boxes_i, area_i) in enumerate(
+            zip(fg_mask, target_gt_idx, pred_masks, proto, mxyxy, marea)
+        ):
+            if fg_i.any():
+                assigned = gt_idx_i[fg_i]
+                pred_fg = pred_i[fg_i]
+                boxes_fg = boxes_i[fg_i]
+                area_fg = area_i[fg_i]
+                image_masks = per_image_masks[i]
+                for start in range(0, len(assigned), 8):
+                    stop = start + 8
+                    gt_chunk = image_masks[assigned[start:stop]].float()
+                    loss = loss + self.single_mask_loss(
+                        gt_chunk, pred_fg[start:stop], proto_i,
+                        boxes_fg[start:stop], area_fg[start:stop],
+                    )
+            else:
+                # Preserve the stock zero-gradient links required by DDP.
+                loss = loss + (proto * 0).sum() + (pred_masks * 0).sum()
+        return loss / fg_mask.sum()
 
     def loss(self, preds, batch):
         if isinstance(preds['proto'], tuple):

@@ -41,6 +41,23 @@ class TestPartialClassificationLoss(unittest.TestCase):
         bg=torch.zeros(1,8,8,dtype=torch.bool);bg[:,0:4,0:4]=True
         sampled=sample_reviewed_background(bg,torch.tensor([[2.,2.],[6.,6.]]),(8,8))
         self.assertEqual(sampled.tolist(),[[True,False]])
+    def test_class_scoped_negatives_do_not_suppress_unknown_classes(self):
+        logits=torch.zeros(1,2,3,requires_grad=True)
+        targets=torch.zeros_like(logits)
+        targets[0,0,0]=.7
+        scoped=torch.tensor([[[False,True,True],[True,True,False]]])
+        loss=partial_classification_bce(logits,targets,scoped)
+        self.assertEqual(loss[0,0].tolist(),[F.binary_cross_entropy_with_logits(logits[0,0,0],targets[0,0,0]).item(),
+                                             F.binary_cross_entropy_with_logits(logits[0,0,1],targets[0,0,1]).item(),
+                                             F.binary_cross_entropy_with_logits(logits[0,0,2],targets[0,0,2]).item()])
+        self.assertEqual(loss[0,1,0].item(),F.binary_cross_entropy_with_logits(logits[0,1,0],targets[0,1,0]).item())
+        self.assertEqual(loss[0,1,1].item(),F.binary_cross_entropy_with_logits(logits[0,1,1],targets[0,1,1]).item())
+        self.assertEqual(loss[0,1,2].item(),0)
+    def test_sampling_class_scoped_negative_rasters(self):
+        bg=torch.zeros(1,2,8,8,dtype=torch.bool)
+        bg[:,0,:,:4]=True;bg[:,1,:,4:]=True
+        sampled=sample_reviewed_background(bg,torch.tensor([[2.,2.],[6.,2.]]),(8,8))
+        self.assertEqual(sampled.tolist(),[[[True,False],[False,True]]])
 
 class TestActualSegmentationLoss(unittest.TestCase):
     @unittest.skipUnless(torch.cuda.is_available(),'Actual model integration tested on CUDA')
