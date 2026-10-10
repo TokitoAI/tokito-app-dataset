@@ -53,8 +53,11 @@ class AlignmentContracts(unittest.TestCase):
             self.assertEqual(mask['source_component_id'], f'nxp-frdm-mcxn236:C:{ref}')
             self.assertEqual(mask['source_mapping_status'], 'source_candidate_photographed_revision_unverified')
             self.assertFalse(mask['installed_order_code_confirmed'])
-            polygon = reviewed_polygon(mask, label, template)
+            polygon = [[x / mask['image_width'], y / mask['image_height']]
+                       for x, y in mask['polygon_xy_pixels']]
             self.assertEqual(len(polygon), 12)
+            x1, y1, x2, y2 = label['bbox_xyxy_normalized']
+            self.assertTrue(all(x1 <= x <= x2 and y1 <= y <= y2 for x, y in polygon))
 
     def test_shared_mesh_is_rejected_for_independent_highlighting(self):
         document = {'nodes': [
