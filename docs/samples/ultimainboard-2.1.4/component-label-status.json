@@ -1,0 +1,1032 @@
+{
+  "photo": "data/photo-model/by_board/ultimainboard/IMG_20261009_222135_1.jpg",
+  "scope": "Snapshot of available seed labels for this photo; uncertain classes and reference labels are unverified. No exhaustive annotation claim.",
+  "candidates": [
+    {
+      "source": "annotations/large-board-component-seeds.json",
+      "seed": {
+        "id": "major-001",
+        "class_name": "connector_header",
+        "bbox_xyxy_normalized": [
+          0.038835,
+          0.091797,
+          0.199569,
+          0.165039
+        ],
+        "truncated_by_image": false,
+        "reference_designator": null,
+        "annotation_status": "visual_seed_requires_review"
+      },
+      "label_status": "unverified",
+      "installed_component_identity": "unverified"
+    },
+    {
+      "source": "annotations/large-board-component-seeds.json",
+      "seed": {
+        "id": "major-002",
+        "class_name": "connector_header",
+        "bbox_xyxy_normalized": [
+          0.038835,
+          0.208008,
+          0.199569,
+          0.279785
+        ],
+        "truncated_by_image": false,
+        "reference_designator": null,
+        "annotation_status": "visual_seed_requires_review"
+      },
+      "label_status": "unverified",
+      "installed_component_identity": "unverified"
+    },
+    {
+      "source": "annotations/large-board-component-seeds.json",
+      "seed": {
+        "id": "major-003",
+        "class_name": "connector_header",
+        "bbox_xyxy_normalized": [
+          0.039914,
+          0.32373,
+          0.199569,
+          0.396973
+        ],
+        "truncated_by_image": false,
+        "reference_designator": null,
+        "annotation_status": "visual_seed_requires_review"
+      },
+      "label_status": "unverified",
+      "installed_component_identity": "unverified"
+    },
+    {
+      "source": "annotations/large-board-component-seeds.json",
+      "seed": {
+        "id": "major-004",
+        "class_name": "connector_header",
+        "bbox_xyxy_normalized": [
+          0.039914,
+          0.439453,
+          0.199569,
+          0.511719
+        ],
+        "truncated_by_image": false,
+        "reference_designator": null,
+        "annotation_status": "visual_seed_requires_review"
+      },
+      "label_status": "unverified",
+      "installed_component_identity": "unverified"
+    },
+    {
+      "source": "annotations/large-board-component-seeds.json",
+      "seed": {
+        "id": "major-005",
+        "class_name": "connector_header",
+        "bbox_xyxy_normalized": [
+          0.039914,
+          0.554199,
+          0.199569,
+          0.633789
+        ],
+        "truncated_by_image": false,
+        "reference_designator": null,
+        "annotation_status": "visual_seed_requires_review"
+      },
+      "label_status": "unverified",
+      "installed_component_identity": "unverified"
+    },
+    {
+      "source": "annotations/large-board-component-seeds.json",
+      "seed": {
+        "id": "major-006",
+        "class_name": "connector_header",
+        "bbox_xyxy_normalized": [
+          0.295577,
+          0.0,
+          0.391586,
+          0.073242
+        ],
+        "truncated_by_image": true,
+        "reference_designator": null,
+        "annotation_status": "visual_seed_requires_review"
+      },
+      "label_status": "unverified",
+      "installed_component_identity": "unverified"
+    },
+    {
+      "source": "annotations/large-board-component-seeds.json",
+      "seed": {
+        "id": "major-007",
+        "class_name": "connector_header",
+        "bbox_xyxy_normalized": [
+          0.84466,
+          0.34668,
+          1.0,
+          0.394531
+        ],
+        "truncated_by_image": true,
+        "reference_designator": null,
+        "annotation_status": "visual_seed_requires_review"
+      },
+      "label_status": "unverified",
+      "installed_component_identity": "unverified"
+    },
+    {
+      "source": "annotations/large-board-component-seeds.json",
+      "seed": {
+        "id": "major-008",
+        "class_name": "connector_header",
+        "bbox_xyxy_normalized": [
+          0.843581,
+          0.396484,
+          1.0,
+          0.441406
+        ],
+        "truncated_by_image": true,
+        "reference_designator": null,
+        "annotation_status": "visual_seed_requires_review"
+      },
+      "label_status": "unverified",
+      "installed_component_identity": "unverified"
+    },
+    {
+      "source": "annotations/large-board-component-seeds.json",
+      "seed": {
+        "id": "major-009",
+        "class_name": "connector_header",
+        "bbox_xyxy_normalized": [
+          0.843581,
+          0.450195,
+          1.0,
+          0.493164
+        ],
+        "truncated_by_image": true,
+        "reference_designator": null,
+        "annotation_status": "visual_seed_requires_review"
+      },
+      "label_status": "unverified",
+      "installed_component_identity": "unverified"
+    },
+    {
+      "source": "annotations/large-board-component-seeds.json",
+      "seed": {
+        "id": "major-010",
+        "class_name": "connector_header",
+        "bbox_xyxy_normalized": [
+          0.888889,
+          0.495605,
+          1.0,
+          0.558594
+        ],
+        "truncated_by_image": true,
+        "reference_designator": null,
+        "annotation_status": "visual_seed_requires_review"
+      },
+      "label_status": "unverified",
+      "installed_component_identity": "unverified"
+    },
+    {
+      "source": "annotations/large-board-component-seeds.json",
+      "seed": {
+        "id": "major-011",
+        "class_name": "connector_header",
+        "bbox_xyxy_normalized": [
+          0.88781,
+          0.567383,
+          1.0,
+          0.620605
+        ],
+        "truncated_by_image": true,
+        "reference_designator": null,
+        "annotation_status": "visual_seed_requires_review"
+      },
+      "label_status": "unverified",
+      "installed_component_identity": "unverified"
+    },
+    {
+      "source": "annotations/large-board-component-seeds.json",
+      "seed": {
+        "id": "major-012",
+        "class_name": "connector_header",
+        "bbox_xyxy_normalized": [
+          0.88781,
+          0.634766,
+          1.0,
+          0.684082
+        ],
+        "truncated_by_image": true,
+        "reference_designator": null,
+        "annotation_status": "visual_seed_requires_review"
+      },
+      "label_status": "unverified",
+      "installed_component_identity": "unverified"
+    },
+    {
+      "source": "annotations/large-board-component-seeds.json",
+      "seed": {
+        "id": "major-013",
+        "class_name": "connector_header",
+        "bbox_xyxy_normalized": [
+          0.88781,
+          0.684082,
+          1.0,
+          0.731934
+        ],
+        "truncated_by_image": true,
+        "reference_designator": null,
+        "annotation_status": "visual_seed_requires_review"
+      },
+      "label_status": "unverified",
+      "installed_component_identity": "unverified"
+    },
+    {
+      "source": "annotations/large-board-component-seeds.json",
+      "seed": {
+        "id": "major-014",
+        "class_name": "connector_header",
+        "bbox_xyxy_normalized": [
+          0.88781,
+          0.741699,
+          1.0,
+          0.788574
+        ],
+        "truncated_by_image": true,
+        "reference_designator": null,
+        "annotation_status": "visual_seed_requires_review"
+      },
+      "label_status": "unverified",
+      "installed_component_identity": "unverified"
+    },
+    {
+      "source": "annotations/large-board-component-seeds.json",
+      "seed": {
+        "id": "major-015",
+        "class_name": "connector_header",
+        "bbox_xyxy_normalized": [
+          0.888889,
+          0.797852,
+          1.0,
+          0.847656
+        ],
+        "truncated_by_image": true,
+        "reference_designator": null,
+        "annotation_status": "visual_seed_requires_review"
+      },
+      "label_status": "unverified",
+      "installed_component_identity": "unverified"
+    },
+    {
+      "source": "annotations/large-board-component-seeds.json",
+      "seed": {
+        "id": "major-016",
+        "class_name": "connector_header",
+        "bbox_xyxy_normalized": [
+          0.838188,
+          0.848145,
+          1.0,
+          0.884277
+        ],
+        "truncated_by_image": true,
+        "reference_designator": null,
+        "annotation_status": "visual_seed_requires_review"
+      },
+      "label_status": "unverified",
+      "installed_component_identity": "unverified"
+    },
+    {
+      "source": "annotations/large-board-component-seeds.json",
+      "seed": {
+        "id": "major-017",
+        "class_name": "connector_header",
+        "bbox_xyxy_normalized": [
+          0.838188,
+          0.887695,
+          1.0,
+          0.932129
+        ],
+        "truncated_by_image": true,
+        "reference_designator": null,
+        "annotation_status": "visual_seed_requires_review"
+      },
+      "label_status": "unverified",
+      "installed_component_identity": "unverified"
+    },
+    {
+      "source": "annotations/large-board-component-seeds.json",
+      "seed": {
+        "id": "major-018",
+        "class_name": "connector_header",
+        "bbox_xyxy_normalized": [
+          0.504854,
+          0.007812,
+          0.60302,
+          0.040527
+        ],
+        "truncated_by_image": false,
+        "reference_designator": null,
+        "annotation_status": "visual_seed_requires_review"
+      },
+      "label_status": "unverified",
+      "installed_component_identity": "unverified"
+    },
+    {
+      "source": "annotations/large-board-component-seeds.json",
+      "seed": {
+        "id": "major-019",
+        "class_name": "connector_header",
+        "bbox_xyxy_normalized": [
+          0.504854,
+          0.051758,
+          0.60302,
+          0.083496
+        ],
+        "truncated_by_image": false,
+        "reference_designator": null,
+        "annotation_status": "visual_seed_requires_review"
+      },
+      "label_status": "unverified",
+      "installed_component_identity": "unverified"
+    },
+    {
+      "source": "annotations/large-board-component-seeds.json",
+      "seed": {
+        "id": "major-020",
+        "class_name": "connector_header",
+        "bbox_xyxy_normalized": [
+          0.633225,
+          0.007324,
+          0.773463,
+          0.026367
+        ],
+        "truncated_by_image": false,
+        "reference_designator": "J22",
+        "annotation_status": "visual_reviewed_connector_box_and_refdes"
+      },
+      "label_status": "verified_J22_photo_link",
+      "installed_component_identity": "unverified"
+    },
+    {
+      "source": "annotations/large-board-component-seeds.json",
+      "seed": {
+        "id": "major-021",
+        "class_name": "connector_header",
+        "bbox_xyxy_normalized": [
+          0.636462,
+          0.037598,
+          0.898598,
+          0.056152
+        ],
+        "truncated_by_image": false,
+        "reference_designator": null,
+        "annotation_status": "visual_seed_requires_review"
+      },
+      "label_status": "unverified",
+      "installed_component_identity": "unverified"
+    },
+    {
+      "source": "annotations/large-board-component-seeds.json",
+      "seed": {
+        "id": "major-022",
+        "class_name": "connector_header",
+        "bbox_xyxy_normalized": [
+          0.636462,
+          0.06543,
+          0.898598,
+          0.082031
+        ],
+        "truncated_by_image": false,
+        "reference_designator": null,
+        "annotation_status": "visual_seed_requires_review"
+      },
+      "label_status": "unverified",
+      "installed_component_identity": "unverified"
+    },
+    {
+      "source": "annotations/large-board-component-seeds.json",
+      "seed": {
+        "id": "major-023",
+        "class_name": "connector_header",
+        "bbox_xyxy_normalized": [
+          0.850054,
+          0.089355,
+          1.0,
+          0.212402
+        ],
+        "truncated_by_image": true,
+        "reference_designator": null,
+        "annotation_status": "visual_seed_requires_review"
+      },
+      "label_status": "unverified",
+      "installed_component_identity": "unverified"
+    },
+    {
+      "source": "annotations/large-board-component-seeds.json",
+      "seed": {
+        "id": "major-024",
+        "class_name": "connector_header",
+        "bbox_xyxy_normalized": [
+          0.850054,
+          0.212891,
+          1.0,
+          0.33252
+        ],
+        "truncated_by_image": true,
+        "reference_designator": null,
+        "annotation_status": "visual_seed_requires_review"
+      },
+      "label_status": "unverified",
+      "installed_component_identity": "unverified"
+    },
+    {
+      "source": "annotations/large-board-component-seeds.json",
+      "seed": {
+        "id": "major-025",
+        "class_name": "connector_header",
+        "bbox_xyxy_normalized": [
+          0.39698,
+          0.778809,
+          0.489752,
+          0.813477
+        ],
+        "truncated_by_image": false,
+        "reference_designator": null,
+        "annotation_status": "visual_seed_requires_review"
+      },
+      "label_status": "unverified",
+      "installed_component_identity": "unverified"
+    },
+    {
+      "source": "annotations/large-board-component-seeds.json",
+      "seed": {
+        "id": "major-026",
+        "class_name": "connector_header",
+        "bbox_xyxy_normalized": [
+          0.395901,
+          0.820801,
+          0.458468,
+          0.856445
+        ],
+        "truncated_by_image": false,
+        "reference_designator": null,
+        "annotation_status": "visual_seed_requires_review"
+      },
+      "label_status": "unverified",
+      "installed_component_identity": "unverified"
+    },
+    {
+      "source": "annotations/large-board-component-seeds.json",
+      "seed": {
+        "id": "major-027",
+        "class_name": "connector_header",
+        "bbox_xyxy_normalized": [
+          0.484358,
+          0.356934,
+          0.518878,
+          0.390625
+        ],
+        "truncated_by_image": false,
+        "reference_designator": null,
+        "annotation_status": "visual_seed_requires_review"
+      },
+      "label_status": "unverified",
+      "installed_component_identity": "unverified"
+    },
+    {
+      "source": "annotations/large-board-component-seeds.json",
+      "seed": {
+        "id": "major-028",
+        "class_name": "polarized_capacitor",
+        "bbox_xyxy_normalized": [
+          0.125135,
+          0.04834,
+          0.227616,
+          0.089355
+        ],
+        "truncated_by_image": false,
+        "reference_designator": null,
+        "annotation_status": "visual_seed_requires_review"
+      },
+      "label_status": "unverified",
+      "installed_component_identity": "unverified"
+    },
+    {
+      "source": "annotations/large-board-component-seeds.json",
+      "seed": {
+        "id": "major-029",
+        "class_name": "polarized_capacitor",
+        "bbox_xyxy_normalized": [
+          0.125135,
+          0.164551,
+          0.227616,
+          0.206543
+        ],
+        "truncated_by_image": false,
+        "reference_designator": null,
+        "annotation_status": "visual_seed_requires_review"
+      },
+      "label_status": "unverified",
+      "installed_component_identity": "unverified"
+    },
+    {
+      "source": "annotations/large-board-component-seeds.json",
+      "seed": {
+        "id": "major-030",
+        "class_name": "polarized_capacitor",
+        "bbox_xyxy_normalized": [
+          0.125135,
+          0.280273,
+          0.227616,
+          0.322266
+        ],
+        "truncated_by_image": false,
+        "reference_designator": null,
+        "annotation_status": "visual_seed_requires_review"
+      },
+      "label_status": "unverified",
+      "installed_component_identity": "unverified"
+    },
+    {
+      "source": "annotations/large-board-component-seeds.json",
+      "seed": {
+        "id": "major-031",
+        "class_name": "polarized_capacitor",
+        "bbox_xyxy_normalized": [
+          0.125135,
+          0.395508,
+          0.227616,
+          0.4375
+        ],
+        "truncated_by_image": false,
+        "reference_designator": null,
+        "annotation_status": "visual_seed_requires_review"
+      },
+      "label_status": "unverified",
+      "installed_component_identity": "unverified"
+    },
+    {
+      "source": "annotations/large-board-component-seeds.json",
+      "seed": {
+        "id": "major-032",
+        "class_name": "polarized_capacitor",
+        "bbox_xyxy_normalized": [
+          0.125135,
+          0.513184,
+          0.228695,
+          0.553223
+        ],
+        "truncated_by_image": false,
+        "reference_designator": null,
+        "annotation_status": "visual_seed_requires_review"
+      },
+      "label_status": "unverified",
+      "installed_component_identity": "unverified"
+    },
+    {
+      "source": "annotations/large-board-component-seeds.json",
+      "seed": {
+        "id": "major-033",
+        "class_name": "polarized_capacitor",
+        "bbox_xyxy_normalized": [
+          0.307443,
+          0.864746,
+          0.392665,
+          0.914551
+        ],
+        "truncated_by_image": false,
+        "reference_designator": null,
+        "annotation_status": "visual_seed_requires_review"
+      },
+      "label_status": "unverified",
+      "installed_component_identity": "unverified"
+    },
+    {
+      "source": "annotations/large-board-component-seeds.json",
+      "seed": {
+        "id": "major-034",
+        "class_name": "polarized_capacitor",
+        "bbox_xyxy_normalized": [
+          0.393743,
+          0.866211,
+          0.480043,
+          0.915039
+        ],
+        "truncated_by_image": false,
+        "reference_designator": null,
+        "annotation_status": "visual_seed_requires_review"
+      },
+      "label_status": "unverified",
+      "installed_component_identity": "unverified"
+    },
+    {
+      "source": "annotations/large-board-component-seeds.json",
+      "seed": {
+        "id": "major-035",
+        "class_name": "integrated_circuit",
+        "bbox_xyxy_normalized": [
+          0.316073,
+          0.10791,
+          0.402373,
+          0.144043
+        ],
+        "truncated_by_image": false,
+        "reference_designator": null,
+        "annotation_status": "visual_seed_requires_review"
+      },
+      "label_status": "unverified",
+      "installed_component_identity": "unverified"
+    },
+    {
+      "source": "annotations/large-board-component-seeds.json",
+      "seed": {
+        "id": "major-036",
+        "class_name": "integrated_circuit",
+        "bbox_xyxy_normalized": [
+          0.316073,
+          0.222656,
+          0.402373,
+          0.259277
+        ],
+        "truncated_by_image": false,
+        "reference_designator": null,
+        "annotation_status": "visual_seed_requires_review"
+      },
+      "label_status": "unverified",
+      "installed_component_identity": "unverified"
+    },
+    {
+      "source": "annotations/large-board-component-seeds.json",
+      "seed": {
+        "id": "major-037",
+        "class_name": "integrated_circuit",
+        "bbox_xyxy_normalized": [
+          0.317152,
+          0.336914,
+          0.402373,
+          0.375
+        ],
+        "truncated_by_image": false,
+        "reference_designator": null,
+        "annotation_status": "visual_seed_requires_review"
+      },
+      "label_status": "unverified",
+      "installed_component_identity": "unverified"
+    },
+    {
+      "source": "annotations/large-board-component-seeds.json",
+      "seed": {
+        "id": "major-038",
+        "class_name": "integrated_circuit",
+        "bbox_xyxy_normalized": [
+          0.317152,
+          0.452637,
+          0.402373,
+          0.48877
+        ],
+        "truncated_by_image": false,
+        "reference_designator": null,
+        "annotation_status": "visual_seed_requires_review"
+      },
+      "label_status": "unverified",
+      "installed_component_identity": "unverified"
+    },
+    {
+      "source": "annotations/large-board-component-seeds.json",
+      "seed": {
+        "id": "major-039",
+        "class_name": "integrated_circuit",
+        "bbox_xyxy_normalized": [
+          0.317152,
+          0.569336,
+          0.402373,
+          0.606445
+        ],
+        "truncated_by_image": false,
+        "reference_designator": null,
+        "annotation_status": "visual_seed_requires_review"
+      },
+      "label_status": "unverified",
+      "installed_component_identity": "unverified"
+    },
+    {
+      "source": "annotations/large-board-component-seeds.json",
+      "seed": {
+        "id": "major-040",
+        "class_name": "integrated_circuit",
+        "bbox_xyxy_normalized": [
+          0.558792,
+          0.134766,
+          0.777778,
+          0.233887
+        ],
+        "truncated_by_image": false,
+        "reference_designator": null,
+        "annotation_status": "visual_seed_requires_review"
+      },
+      "label_status": "unverified",
+      "installed_component_identity": "unverified"
+    },
+    {
+      "source": "annotations/large-board-component-seeds.json",
+      "seed": {
+        "id": "major-041",
+        "class_name": "integrated_circuit",
+        "bbox_xyxy_normalized": [
+          0.664509,
+          0.349121,
+          0.73247,
+          0.370605
+        ],
+        "truncated_by_image": false,
+        "reference_designator": null,
+        "annotation_status": "visual_seed_requires_review"
+      },
+      "label_status": "unverified",
+      "installed_component_identity": "unverified"
+    },
+    {
+      "source": "annotations/large-board-component-seeds.json",
+      "seed": {
+        "id": "major-042",
+        "class_name": "integrated_circuit",
+        "bbox_xyxy_normalized": [
+          0.664509,
+          0.400391,
+          0.73247,
+          0.420898
+        ],
+        "truncated_by_image": false,
+        "reference_designator": null,
+        "annotation_status": "visual_seed_requires_review"
+      },
+      "label_status": "unverified",
+      "installed_component_identity": "unverified"
+    },
+    {
+      "source": "annotations/large-board-component-seeds.json",
+      "seed": {
+        "id": "major-043",
+        "class_name": "integrated_circuit",
+        "bbox_xyxy_normalized": [
+          0.664509,
+          0.452637,
+          0.73247,
+          0.473145
+        ],
+        "truncated_by_image": false,
+        "reference_designator": null,
+        "annotation_status": "visual_seed_requires_review"
+      },
+      "label_status": "unverified",
+      "installed_component_identity": "unverified"
+    },
+    {
+      "source": "annotations/large-board-component-seeds.json",
+      "seed": {
+        "id": "major-044",
+        "class_name": "integrated_circuit",
+        "bbox_xyxy_normalized": [
+          0.596548,
+          0.685547,
+          0.668824,
+          0.71875
+        ],
+        "truncated_by_image": false,
+        "reference_designator": null,
+        "annotation_status": "visual_seed_requires_review"
+      },
+      "label_status": "unverified",
+      "installed_component_identity": "unverified"
+    },
+    {
+      "source": "annotations/large-board-component-seeds.json",
+      "seed": {
+        "id": "major-045",
+        "class_name": "integrated_circuit",
+        "bbox_xyxy_normalized": [
+          0.789644,
+          0.789551,
+          0.877023,
+          0.818848
+        ],
+        "truncated_by_image": false,
+        "reference_designator": null,
+        "annotation_status": "visual_seed_requires_review"
+      },
+      "label_status": "unverified",
+      "installed_component_identity": "unverified"
+    },
+    {
+      "source": "annotations/large-board-component-seeds.json",
+      "seed": {
+        "id": "major-046",
+        "class_name": "integrated_circuit",
+        "bbox_xyxy_normalized": [
+          0.494067,
+          0.824219,
+          0.577131,
+          0.859863
+        ],
+        "truncated_by_image": false,
+        "reference_designator": null,
+        "annotation_status": "visual_seed_requires_review"
+      },
+      "label_status": "unverified",
+      "installed_component_identity": "unverified"
+    },
+    {
+      "source": "annotations/large-board-component-seeds.json",
+      "seed": {
+        "id": "major-047",
+        "class_name": "relay",
+        "bbox_xyxy_normalized": [
+          0.04315,
+          0.825195,
+          0.297735,
+          0.935547
+        ],
+        "truncated_by_image": false,
+        "reference_designator": null,
+        "annotation_status": "visual_seed_requires_review"
+      },
+      "label_status": "unverified",
+      "installed_component_identity": "unverified"
+    },
+    {
+      "source": "annotations/large-board-component-seeds.json",
+      "seed": {
+        "id": "major-048",
+        "class_name": "crystal_resonator",
+        "bbox_xyxy_normalized": [
+          0.629989,
+          0.843262,
+          0.694714,
+          0.915039
+        ],
+        "truncated_by_image": false,
+        "reference_designator": null,
+        "annotation_status": "visual_seed_requires_review"
+      },
+      "label_status": "unverified",
+      "installed_component_identity": "unverified"
+    },
+    {
+      "source": "annotations/large-board-component-seeds.json",
+      "seed": {
+        "id": "major-049",
+        "class_name": "usb_connector",
+        "bbox_xyxy_normalized": [
+          0.778857,
+          0.935059,
+          0.899676,
+          1.0
+        ],
+        "truncated_by_image": true,
+        "reference_designator": null,
+        "annotation_status": "visual_seed_requires_review"
+      },
+      "label_status": "unverified",
+      "installed_component_identity": "unverified"
+    },
+    {
+      "source": "annotations/large-board-component-seeds.json",
+      "seed": {
+        "id": "major-050",
+        "class_name": "power_connector",
+        "bbox_xyxy_normalized": [
+          0.460626,
+          0.927246,
+          0.645092,
+          1.0
+        ],
+        "truncated_by_image": true,
+        "reference_designator": null,
+        "annotation_status": "visual_seed_requires_review"
+      },
+      "label_status": "unverified",
+      "installed_component_identity": "unverified"
+    },
+    {
+      "source": "annotations/large-board-component-seeds.json",
+      "seed": {
+        "id": "major-051",
+        "class_name": "power_connector",
+        "bbox_xyxy_normalized": [
+          0.0,
+          0.644531,
+          0.168285,
+          0.677734
+        ],
+        "truncated_by_image": true,
+        "reference_designator": null,
+        "annotation_status": "visual_seed_requires_review"
+      },
+      "label_status": "unverified",
+      "installed_component_identity": "unverified"
+    },
+    {
+      "source": "annotations/large-board-component-seeds.json",
+      "seed": {
+        "id": "major-052",
+        "class_name": "power_connector",
+        "bbox_xyxy_normalized": [
+          0.0,
+          0.676758,
+          0.168285,
+          0.70752
+        ],
+        "truncated_by_image": true,
+        "reference_designator": null,
+        "annotation_status": "visual_seed_requires_review"
+      },
+      "label_status": "unverified",
+      "installed_component_identity": "unverified"
+    },
+    {
+      "source": "annotations/large-board-component-seeds.json",
+      "seed": {
+        "id": "major-053",
+        "class_name": "power_connector",
+        "bbox_xyxy_normalized": [
+          0.0,
+          0.707031,
+          0.168285,
+          0.740234
+        ],
+        "truncated_by_image": true,
+        "reference_designator": null,
+        "annotation_status": "visual_seed_requires_review"
+      },
+      "label_status": "unverified",
+      "installed_component_identity": "unverified"
+    },
+    {
+      "source": "annotations/large-board-component-seeds.json",
+      "seed": {
+        "id": "major-054",
+        "class_name": "power_connector",
+        "bbox_xyxy_normalized": [
+          0.0,
+          0.739258,
+          0.168285,
+          0.771484
+        ],
+        "truncated_by_image": true,
+        "reference_designator": null,
+        "annotation_status": "visual_seed_requires_review"
+      },
+      "label_status": "unverified",
+      "installed_component_identity": "unverified"
+    },
+    {
+      "source": "annotations/large-board-component-seeds.json",
+      "seed": {
+        "id": "major-055",
+        "class_name": "power_connector",
+        "bbox_xyxy_normalized": [
+          0.0,
+          0.77002,
+          0.168285,
+          0.800781
+        ],
+        "truncated_by_image": true,
+        "reference_designator": null,
+        "annotation_status": "visual_seed_requires_review"
+      },
+      "label_status": "unverified",
+      "installed_component_identity": "unverified"
+    },
+    {
+      "source": "annotations/large-board-component-seeds.json",
+      "seed": {
+        "id": "major-056",
+        "class_name": "power_connector",
+        "bbox_xyxy_normalized": [
+          0.0,
+          0.799805,
+          0.168285,
+          0.833496
+        ],
+        "truncated_by_image": true,
+        "reference_designator": null,
+        "annotation_status": "visual_seed_requires_review"
+      },
+      "label_status": "unverified",
+      "installed_component_identity": "unverified"
+    },
+    {
+      "source": "annotations/large-board-component-seeds.json",
+      "seed": {
+        "id": "major-057",
+        "class_name": "connector_header",
+        "bbox_xyxy_normalized": [
+          0.695793,
+          0.509277,
+          0.778857,
+          0.564453
+        ],
+        "truncated_by_image": false,
+        "reference_designator": null,
+        "annotation_status": "visual_seed_requires_review"
+      },
+      "label_status": "unverified",
+      "installed_component_identity": "unverified"
+    }
+  ]
+}
