@@ -80,4 +80,3 @@ for center,oblique in [(300,False),(900,True)]:
  dr.text((center-180,40),'PROVISIONAL - no metric calibration',fill='black')
 im.save(ROOT/'preview.jpg',quality=95)
 print(json.dumps(report,indent=2))
-

@@ -18,4 +18,3 @@ holes=[(x,z) for x in [-11.5,11.5] for z in [-22.5,22.5]]+[(x,(i-7)*2.54) for x 
 assert all(not hit(h) for h in holes);assert hit((0,0));assert all(not n['extras']['calibration_eligible'] for n in d['nodes'])
 report={'selectors_unique':True,'independent_meshes':True,'component_selectors':15,'opening_centers_without_surface':len(holes),'central_pcb_surface_present':True,'sha256':hashlib.sha256(raw).hexdigest(),'glb_bytes':len(raw),'calibration_disabled':True,'visual_review':'Top and oblique preview inspected; shaped USB/switch/QFN/regulator/module bodies and top header contacts; underside pin population unknown visible; placement still unverified'}
 (p/'validation.json').write_text(json.dumps(report,indent=2)+'\n');print(json.dumps(report,indent=2))
-
