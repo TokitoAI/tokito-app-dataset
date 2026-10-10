@@ -12,6 +12,8 @@ The clearer NXP photos identify **MCXN236**. The previously collected MCXN947 fi
 
 `data/board-sources` preserves native source documents, inventories, Gerbers, models, and licenses where collected. The Raspberry Pi 3B folder now includes the official mechanical PDF and DXF with a hash-verified source record; the DXF is mechanical geometry, not an electrical PCB project or Gerber set. `docs/sources` records coverage and limitations. External vision datasets are under `data/external`, including the verified [PCB-Vision RGB package](docs/PCB_VISION_RGB_ACQUISITION.md): 53 photos and 106 masks in Git LFS. Partial downloads remain local.
 
+The board-by-board source inventory is in [`docs/ALL_BOARD_SOURCE_COVERAGE.md`](docs/ALL_BOARD_SOURCE_COVERAGE.md). It covers the ESP32, ESP8266, Ultimainboard, NXP and Raspberry Pi packages and clearly marks where a community/reference design is not proven to match the photographed specimen. The NXP download is not the only source bundle.
+
 KiCad-derived [CAD reference exports](data/board-sources/CAD_EXPORTS.md) now cover the ESP32 community clone, Ultimainboard 2.1.4 and FRDM-MCXN236. They include Gerber/drill and board-only STEP/GLB files, with DRC reports and hashes. All require engineering review before fabrication.
 
 ## Clone and validate
@@ -30,7 +32,7 @@ The first split has62 training images and11 validation originals. Seven validati
 
 ## Component labeling and document links
 
-Component seed annotations cover 240 visible part boxes across nineteen photos. They are partial and are excluded from complete component-detector training. Tiny passives, exact part IDs, hidden components and board backs still require labeling/review. See `data/photo-model/MODEL_SCOPE.md`, `docs/EXPANDED_COMPONENT_SEEDS.md` and `docs/COMPONENT_SPRINT.md`.
+Component seed annotations cover 240 visible part boxes across nineteen original photos. They are partial and are excluded from complete component-detector training. On 2026-10-10, 33 additional original iQOO photos (full-board and high-resolution close-ups spanning all five board families) were copied and hash-indexed in [`data/phone-captures/2026-10-10`](data/phone-captures/2026-10-10/manifest.json); their board, part and pin boxes still need review before training. Tiny passives, exact installed part IDs, hidden components and board backs still require labeling/review. See `data/photo-model/MODEL_SCOPE.md`, `docs/EXPANDED_COMPONENT_SEEDS.md`, `docs/COMPONENT_SPRINT.md` and [`docs/PHONE_CAPTURE_INTAKE.md`](docs/PHONE_CAPTURE_INTAKE.md).
 
 The [board, part and pin hierarchy](docs/LABEL_HIERARCHY.md) records the labeling order across all 80 photos. Ultimainboard J22/J23/J1/J2 have 22 reviewed numbered contacts linked to source nets; [Pi J8](docs/PI_J8_PIN_LABELS.md) adds 40 numbered contacts linked to its revision 1.2 schematic. ESP32 and ESP8266 have 103 [printed contact aliases](docs/ESP_ADDITIONAL_CONTACTS.md) across four photos, with numeric pin numbers and source nets unknown. Ten NXP parts have source links and 352 unregistered source pin records. The ESP8266-reference and Ultimainboard [source catalog](docs/SOURCE_PIN_COVERAGE.md) has 1,443 records, including 22 now joined to photo pins.
 

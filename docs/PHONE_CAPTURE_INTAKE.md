@@ -1,0 +1,15 @@
+# iQOO high-resolution capture intake — 2026-10-10
+
+Thirty-three original camera files were copied from the connected iQOO I2501 DCIM/Camera directory. Their byte hashes, EXIF-oriented dimensions, local capture time, board-family review and capture role are recorded in [`data/phone-captures/2026-10-10/manifest.json`](../data/phone-captures/2026-10-10/manifest.json). The contact sheet is [`previews/phone-capture-review-20261010.jpg`](../previews/phone-capture-review-20261010.jpg). Originals are preserved; they have not been recompressed or used as training labels.
+
+| Board family | Files | Review from contact sheet |
+| --- | ---: | --- |
+| ESP32 30-pin DevKit, exact clone variant unknown | 5 | Full board and close-up of the ESP32 module, header silkscreen, USB connector and nearby ICs.
+| NXP FRDM-MCXN236, hardware revision unverified | 6 | Full board plus close board detail; MCU top marking and many reference designators are substantially clearer.
+| ESP8266 NodeMCU-style ESP-12E clone, exact variant unknown | 8 | Full board plus readable close-up of printed header aliases and ESP-12E module.
+| Ultimaker Ultimainboard 2.1.4 | 6 | Full board and high-resolution silkscreen/component close-up; 2.1.4 marking is visible.
+| Raspberry Pi 3 Model B v1.2 | 8 | Full board and close-ups; the 3B v1.2 silkscreen is readable. The board sits in a black holder and its heat sink/holder occludes some parts.
+
+The `*_1.jpg` files are close-up frames; the other files are full-board/context frames. A burst of similar frames from one specimen is one capture session, not independent validation data. All 33 remain `not_yet_annotated` for board box, parts and pins. Do not train on them until boxes and labels are reviewed against the matching source package. The family assignment follows the visible board and capture sequence; the exact clone maker, ESP hardware revision, and NXP PCB revision are still unknown.
+
+Use the full-resolution originals to inspect silkscreen and package markings. The live board detector currently resizes preview frames for inference, which cannot recover characters lost at low resolution. A useful camera flow is coarse board identification on the preview followed by a focused high-resolution still/crop for part markings and contact labels. A generic `IC` box is not an exact part identity; a BOM candidate becomes an installed-part label only after photo-to-PCB registration and marking/revision confirmation.
