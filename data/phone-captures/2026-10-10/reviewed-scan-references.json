@@ -1211,6 +1211,46 @@
             "observed_marking": "MCXN236V",
             "evidence": "MCU marking and U1 silkscreen visible; full order code and PCB revision remain unconfirmed"
           }
+        },
+        {
+          "id": "IMG_20261010_092203.jpg:J11",
+          "label": "J11 \u2014 GCT USB4085-GF-A USB Type-C receptacle [Rev C source candidate]",
+          "kind": "part",
+          "bbox_xyxy_normalized": [
+            0.416015625,
+            0.09521484375,
+            0.5048828125,
+            0.166259765625
+          ],
+          "identity_status": "visually_reviewed_connector_type_source_candidate_revision_unverified",
+          "source": {
+            "observed_refdes": "J11",
+            "observed_marking": null,
+            "evidence": "USB4085-GF-A Type-C receptacle silhouette reviewed in original-pixel crop; left port maps to J11 by Rev C placement relative to mounting holes. Board revision and installed order code are not independently confirmed.",
+            "source_component_id": "nxp-frdm-mcxn236:C:J11",
+            "source_revision": "C",
+            "installed_order_code_confirmed": false
+          }
+        },
+        {
+          "id": "IMG_20261010_092203.jpg:J10",
+          "label": "J10 \u2014 GCT USB4085-GF-A USB Type-C receptacle [Rev C source candidate]",
+          "kind": "part",
+          "bbox_xyxy_normalized": [
+            0.552734375,
+            0.089599609375,
+            0.6412760416666666,
+            0.16552734375
+          ],
+          "identity_status": "visually_reviewed_connector_type_source_candidate_revision_unverified",
+          "source": {
+            "observed_refdes": "J10",
+            "observed_marking": null,
+            "evidence": "USB4085-GF-A Type-C receptacle silhouette reviewed in original-pixel crop; right port maps to J10 by Rev C placement relative to mounting holes. Board revision and installed order code are not independently confirmed.",
+            "source_component_id": "nxp-frdm-mcxn236:C:J10",
+            "source_revision": "C",
+            "installed_order_code_confirmed": false
+          }
         }
       ],
       "pose_corners_normalized": [
@@ -1236,7 +1276,12 @@
       "pose_alignment_scope": "Rev C source model; photographed PCB revision unverified; source geometry comparison only",
       "corner_uncertainty_pixels": 12,
       "pose_landmark_kind": "mounting_hole_centres",
-      "pose_landmark_ids": ["BH1", "BH4", "BH2", "BH3"],
+      "pose_landmark_ids": [
+        "BH1",
+        "BH4",
+        "BH2",
+        "BH3"
+      ],
       "pose_metric_landmarks_metres": [
         [
           0.0,

@@ -40,6 +40,22 @@ class AlignmentContracts(unittest.TestCase):
             with self.assertRaisesRegex(ValueError, 'dimensions do not match'):
                 reviewed_polygon(mask, label, row)
 
+    def test_nxp_usb_masks_keep_revision_candidate_links_cautious(self):
+        image = 'data/phone-captures/2026-10-10/IMG_20261010_092203.jpg'
+        template = next(t for t in read(ROOT/'data/phone-captures/2026-10-10/reviewed-scan-references.json')['templates']
+                        if t['image_path'] == image)
+        mask_rows = {m['instance_id']: m for m in read(ROOT/'annotations/ar-instance-masks.json')['masks']}
+        labels = {row['id']: row for row in template['labels']}
+        for ref in ('J10', 'J11'):
+            identifier = f'IMG_20261010_092203.jpg:{ref}'
+            mask, label = mask_rows[identifier], labels[identifier]
+            self.assertEqual(mask['class_name'], 'usb_connector')
+            self.assertEqual(mask['source_component_id'], f'nxp-frdm-mcxn236:C:{ref}')
+            self.assertEqual(mask['source_mapping_status'], 'source_candidate_photographed_revision_unverified')
+            self.assertFalse(mask['installed_order_code_confirmed'])
+            polygon = reviewed_polygon(mask, label, template)
+            self.assertEqual(len(polygon), 12)
+
     def test_shared_mesh_is_rejected_for_independent_highlighting(self):
         document = {'nodes': [
             {'name': 'ref:U1', 'mesh': 0, 'extras': {'tokito_component': {'reference': 'U1'}}},

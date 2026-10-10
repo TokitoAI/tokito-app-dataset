@@ -9,8 +9,8 @@
   },
   "inputs": {
     "data/photo-model/label-hierarchy.json": "08adbb7651caf2f71b31d30f91a4f4c4973a7cf663aa2d1feceb056d8fcfe7a4",
-    "data/phone-captures/2026-10-10/reviewed-scan-references.json": "63fb39565beb003372f956d657a6eccaeb0f87f7c37aab646f80f0128e237970",
-    "annotations/ar-instance-masks.json": "dcde9985f9ec86d087a16aeb2822747bfad93796712270db9d215c816bc1c33d",
+    "data/phone-captures/2026-10-10/reviewed-scan-references.json": "9a8ee0daaa79d39cce152a5c7d9de5ed18e07f324144cecf62e7bc03637bae2d",
+    "annotations/ar-instance-masks.json": "9c00dc1dcadaa2457943b66a1cb22a163399bb15e3e985c7f2d6643d890e9faf",
     "annotations/multiview-capture-review.json": "bfa82a1ae61613982ba97e2c08e594bcdd746ced2f9f35d86830be67f75f850f",
     "data/board-sources/nxp-frdm-mcxn236/ar-reference/component-map.json": "8fd8a25b1c53da7a8a7dfb414d4410dfa1b76c916ee76315e82cb3027015fedd",
     "data/board-sources/nxp-frdm-mcxn236/ar-reference/digital-twin-manifest.json": "74fa245678566d04902dc2b80b56967ec96c2068d1679ce3a75faeaf0591eff5",
@@ -6048,10 +6048,10 @@
   ],
   "coverage": {
     "paired_metric_landmarks": 4,
-    "instances": 243,
+    "instances": 245,
     "unparented_contacts": 60,
-    "reviewed_body_polygons": 1,
-    "candidate_mesh_bindings": 11,
+    "reviewed_body_polygons": 3,
+    "candidate_mesh_bindings": 13,
     "photo_located_parented_contacts": 165
   },
   "images": [
@@ -18234,6 +18234,156 @@
           },
           "pins": [],
           "physical_component_instance_id": "bench-frdm-mcxn236-01:U1"
+        },
+        {
+          "instance_id": "IMG_20261010_092203.jpg:J11",
+          "class_name": "usb_connector",
+          "observed_reference_designator": "J11",
+          "observed_label": "J11 \u2014 GCT USB4085-GF-A USB Type-C receptacle [Rev C source candidate]",
+          "bbox_xyxy_normalized": [
+            0.416015625,
+            0.09521484375,
+            0.5048828125,
+            0.166259765625
+          ],
+          "visible_body_polygon_xy_normalized": [
+            [
+              0.4169921875,
+              0.09912109375
+            ],
+            [
+              0.4212239583333333,
+              0.096923828125
+            ],
+            [
+              0.4905598958333333,
+              0.09521484375
+            ],
+            [
+              0.4986979166666667,
+              0.09814453125
+            ],
+            [
+              0.5026041666666666,
+              0.102783203125
+            ],
+            [
+              0.501953125,
+              0.15673828125
+            ],
+            [
+              0.5048828125,
+              0.160888671875
+            ],
+            [
+              0.5006510416666666,
+              0.16455078125
+            ],
+            [
+              0.423828125,
+              0.166259765625
+            ],
+            [
+              0.41796875,
+              0.1630859375
+            ],
+            [
+              0.416015625,
+              0.158203125
+            ],
+            [
+              0.416015625,
+              0.10546875
+            ]
+          ],
+          "polygon_review_status": "visually_reviewed_body_polygon",
+          "cad_binding": {
+            "source_component_id": "nxp-frdm-mcxn236:C:J11",
+            "source_board_revision": "C",
+            "asset_id": "frdm-mcxn236-populated-v5-visible",
+            "glb_sha256": "sha256:ba9db807d2141189facb33039f57861d99a460cf595dd71bf80eb5f9cbe1268c",
+            "selector": "ref:J11",
+            "source_dnp": false,
+            "mapping_status": "source_candidate_photographed_revision_unverified",
+            "installed_order_code_confirmed": false
+          },
+          "pins": [],
+          "physical_component_instance_id": "bench-frdm-mcxn236-01:J11"
+        },
+        {
+          "instance_id": "IMG_20261010_092203.jpg:J10",
+          "class_name": "usb_connector",
+          "observed_reference_designator": "J10",
+          "observed_label": "J10 \u2014 GCT USB4085-GF-A USB Type-C receptacle [Rev C source candidate]",
+          "bbox_xyxy_normalized": [
+            0.552734375,
+            0.089599609375,
+            0.6412760416666666,
+            0.16552734375
+          ],
+          "visible_body_polygon_xy_normalized": [
+            [
+              0.5537109375,
+              0.093505859375
+            ],
+            [
+              0.5592447916666666,
+              0.091064453125
+            ],
+            [
+              0.630859375,
+              0.089599609375
+            ],
+            [
+              0.6370442708333334,
+              0.0927734375
+            ],
+            [
+              0.6396484375,
+              0.097900390625
+            ],
+            [
+              0.638671875,
+              0.15380859375
+            ],
+            [
+              0.6412760416666666,
+              0.15869140625
+            ],
+            [
+              0.6370442708333334,
+              0.16357421875
+            ],
+            [
+              0.5598958333333334,
+              0.16552734375
+            ],
+            [
+              0.5543619791666666,
+              0.162109375
+            ],
+            [
+              0.552734375,
+              0.15673828125
+            ],
+            [
+              0.552734375,
+              0.098876953125
+            ]
+          ],
+          "polygon_review_status": "visually_reviewed_body_polygon",
+          "cad_binding": {
+            "source_component_id": "nxp-frdm-mcxn236:C:J10",
+            "source_board_revision": "C",
+            "asset_id": "frdm-mcxn236-populated-v5-visible",
+            "glb_sha256": "sha256:ba9db807d2141189facb33039f57861d99a460cf595dd71bf80eb5f9cbe1268c",
+            "selector": "ref:J10",
+            "source_dnp": false,
+            "mapping_status": "source_candidate_photographed_revision_unverified",
+            "installed_order_code_confirmed": false
+          },
+          "pins": [],
+          "physical_component_instance_id": "bench-frdm-mcxn236-01:J10"
         }
       ],
       "asset_anchor_override_required": true,
