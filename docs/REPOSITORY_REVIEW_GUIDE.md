@@ -52,7 +52,9 @@ Git internals and local scratch state do not belong in dataset delivery.
 
 Repository organization and passing metadata checks are not production model
 readiness. None of the four active boards is yet proven complete end to end.
-NXP final geometry must resolve the B-marked specimen versus C source; full labels,
+NXP underside labels confirm schematic Rev C and assembly Rev A1 in separate
+domains; front `NXP B.V.` copyright is not a Rev B marking. Physical layout and
+population alignment, full labels,
 medium-model training/evaluation and real phone calibration/flip/highlight tests
 remain required before final delivery. Raspberry Pi work is deferred; its data is
 retained. See [goal](DATASET_GOAL.md), [NXP revision review](NXP_REVISION_COMPATIBILITY.md)
