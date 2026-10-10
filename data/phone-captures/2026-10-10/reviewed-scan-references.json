@@ -2,8 +2,8 @@
   "schema_version": "1.0",
   "release_eligible": false,
   "evaluation_valid": false,
-  "review_method": "Manual inspection of the five EXIF-oriented high-resolution originals on 2026-10-10",
-  "scope": "Known photographed specimens; board-body feature regions, 60 literal printed contacts, three readable part/module families, four named NXP mounting-hole image/metric landmark pairs. This is not exhaustive training annotation.",
+  "review_method": "Manual inspection of five high-resolution intake originals and the additional original NXP macro photo with enlarged package crops.",
+  "scope": "Known photographed specimens; board-body feature regions, 60 literal printed contacts, three readable part/module families, four named NXP mounting-hole image/metric landmark pairs. This is not exhaustive training annotation. Two additional NXP IC package-body masks (U1, U8) are reviewed; exact installed order codes and photographed PCB revision remain unconfirmed.",
   "templates": [
     {
       "id": "IMG_20261010_092144.jpg",
@@ -1326,6 +1326,66 @@
         "specimen_revision_status": "readable_board_revision"
       },
       "labels": []
+    },
+    {
+      "id": "IMG_20261009_221755_1.jpg",
+      "class_id": 3,
+      "board": "NXP FRDM-MCXN236 (revision unverified)",
+      "image_path": "data/photo-model/photos/raw/IMG_20261009_221755_1.jpg",
+      "image_sha256": "39fc7bf72f364c0b0e848dc9fe9492b85efbdef1481a28d9bbecf4787e51a47e",
+      "board_bbox_xyxy_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "board_box_scope": "Cropped close-up with board edges partly outside the frame; not a board-boundary training label",
+      "source_reference": {
+        "annotation": "annotations/nxp-component-seeds.json",
+        "specimen_revision_status": "unverified"
+      },
+      "labels": [
+        {
+          "id": "IMG_20261009_221755_1.jpg:U1",
+          "label": "U1 \u2014 MCXN236VDFT [Rev C BOM candidate]",
+          "kind": "part",
+          "bbox_xyxy_normalized": [
+            0.32125,
+            0.3999485596707819,
+            0.520625,
+            0.48302469135802467
+          ],
+          "identity_status": "reviewed_photo_refdes_source_candidate_specimen_revision_unverified",
+          "source": {
+            "observed_refdes": "U1",
+            "observed_marking": null,
+            "source_component_id": "nxp-frdm-mcxn236:C:U1",
+            "source_revision": "C",
+            "installed_order_code_confirmed": false,
+            "evidence": "Adjacent U1 silkscreen and square package body reviewed in the original photo and enlarged crop. MCXN236VDFT is a Rev C BOM candidate only; the photographed PCB layout revision and installed order code are unconfirmed."
+          }
+        },
+        {
+          "id": "IMG_20261009_221755_1.jpg:U8",
+          "label": "U8 \u2014 LPC55S69JEV98 [Rev C BOM candidate]",
+          "kind": "part",
+          "bbox_xyxy_normalized": [
+            0.33,
+            0.7445987654320988,
+            0.49125,
+            0.808641975308642
+          ],
+          "identity_status": "reviewed_photo_refdes_source_candidate_specimen_revision_unverified",
+          "source": {
+            "observed_refdes": "U8",
+            "observed_marking": null,
+            "source_component_id": "nxp-frdm-mcxn236:C:U8",
+            "source_revision": "C",
+            "installed_order_code_confirmed": false,
+            "evidence": "Adjacent U8 silkscreen and square package body reviewed in the original photo and enlarged crop. LPC55S69JEV98 is a Rev C BOM candidate only; the photographed PCB layout revision and installed order code are unconfirmed."
+          }
+        }
+      ]
     }
   ]
 }

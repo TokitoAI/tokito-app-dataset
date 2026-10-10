@@ -172,6 +172,76 @@
       "source_component_id": "nxp-frdm-mcxn236:C:J10",
       "source_mapping_status": "source_candidate_photographed_revision_unverified",
       "installed_order_code_confirmed": false
+    },
+    {
+      "image_path": "data/photo-model/photos/raw/IMG_20261009_221755_1.jpg",
+      "image_sha256": "39fc7bf72f364c0b0e848dc9fe9492b85efbdef1481a28d9bbecf4787e51a47e",
+      "image_width": 1600,
+      "image_height": 3888,
+      "instance_id": "IMG_20261009_221755_1.jpg:U1",
+      "class_name": "integrated_circuit",
+      "observed_reference_designator": "U1",
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          514,
+          1555
+        ],
+        [
+          833,
+          1555
+        ],
+        [
+          833,
+          1878
+        ],
+        [
+          514,
+          1878
+        ]
+      ],
+      "boundary_scope": "visible_square_package_body; excludes surrounding silkscreen and adjacent passives",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original EXIF-upright photo inspected with original-pixel crop enlarged 3x. Adjacent U1 silkscreen is legible; the square package body perimeter is visually distinct. Rev C BOM association is only a source candidate because the photographed PCB revision and installed order code are unconfirmed.",
+      "boundary_uncertainty_pixels": 10,
+      "source_component_id": "nxp-frdm-mcxn236:C:U1",
+      "source_mapping_status": "source_candidate_photographed_revision_unverified",
+      "installed_order_code_confirmed": false
+    },
+    {
+      "image_path": "data/photo-model/photos/raw/IMG_20261009_221755_1.jpg",
+      "image_sha256": "39fc7bf72f364c0b0e848dc9fe9492b85efbdef1481a28d9bbecf4787e51a47e",
+      "image_width": 1600,
+      "image_height": 3888,
+      "instance_id": "IMG_20261009_221755_1.jpg:U8",
+      "class_name": "integrated_circuit",
+      "observed_reference_designator": "U8",
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          528,
+          2895
+        ],
+        [
+          786,
+          2895
+        ],
+        [
+          786,
+          3144
+        ],
+        [
+          528,
+          3144
+        ]
+      ],
+      "boundary_scope": "visible_square_package_body; excludes surrounding silkscreen and adjacent passives",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original EXIF-upright photo inspected with original-pixel crop enlarged 3x. Adjacent U8 silkscreen is legible; the square package body perimeter is visually distinct. Rev C BOM association is only a source candidate because the photographed PCB revision and installed order code are unconfirmed.",
+      "boundary_uncertainty_pixels": 8,
+      "source_component_id": "nxp-frdm-mcxn236:C:U8",
+      "source_mapping_status": "source_candidate_photographed_revision_unverified",
+      "installed_order_code_confirmed": false
     }
   ]
 }

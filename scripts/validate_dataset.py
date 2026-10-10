@@ -81,8 +81,18 @@ if phone_folder.is_dir():
   assert {row['class_id'] for row in scan['templates']}==set(range(5))
   label_ids=set();pin_count=0
   for template in scan['templates']:
-   photo=phone_by_name[template['id']];assert template['image_sha256']==photo['image_sha256']
-   assert template['image_path']==photo['image_path']
+   photo=phone_by_name.get(template['id'])
+   if photo:
+    assert template['image_sha256']==photo['image_sha256']
+    assert template['image_path']==photo['image_path']
+   else:
+    image_path=(root/template['image_path']).resolve()
+    assert image_path.is_relative_to(root.resolve()) and image_path.is_file()
+    image_bytes=image_path.read_bytes()
+    if image_bytes.startswith(b'version https://git-lfs.github.com/spec/v1'):
+     image_digest=next(line.split(':',1)[1] for line in image_bytes.decode().splitlines() if line.startswith('oid sha256:'))
+    else:image_digest=hashlib.sha256(image_bytes).hexdigest()
+    assert image_digest==template['image_sha256']
    assert template['board']==class_map[template['class_id']]['display_name']
    x1,y1,x2,y2=template['board_bbox_xyxy_normalized'];assert 0<=x1<x2<=1 and 0<=y1<y2<=1
    for label in template['labels']:
@@ -92,7 +102,7 @@ if phone_folder.is_dir():
      pin_count+=1;assert label['identity_status']=='reviewed_photo_contact_with_printed_alias'
      assert label['source']['printed_alias'] and 'Literal silkscreen' in label['source']['mapping_scope']
     else:
-     assert label['kind']=='part' and label['identity_status'] in {'reviewed_photo_module_marking','reviewed_photo_marking_family_order_code_unconfirmed','visually_reviewed_connector_type_source_candidate_revision_unverified'}
+     assert label['kind']=='part' and label['identity_status'] in {'reviewed_photo_module_marking','reviewed_photo_marking_family_order_code_unconfirmed','visually_reviewed_connector_type_source_candidate_revision_unverified','reviewed_photo_refdes_source_candidate_specimen_revision_unverified'}
      if label['identity_status']=='visually_reviewed_connector_type_source_candidate_revision_unverified':
       assert label['source']['source_revision']=='C' and not label['source']['installed_order_code_confirmed']
    if 'pose_corners_normalized' in template:
@@ -109,7 +119,8 @@ if phone_folder.is_dir():
     assert template['corner_uncertainty_pixels']>0
     assert len(template['pose_corners_normalized'])==4
     assert all(x1<=x<=x2 and y1<=y<=y2 for x,y in template['pose_corners_normalized'])
-  assert len(label_ids)==65 and pin_count==60
+  assert len(label_ids)==67 and pin_count==60
 print('Validated80 source hashes/board boxes, YOLO labels,62/11/7 split, no original/crop leakage and Pi mechanical DXF provenance.' + (' Fine-tune artifact hashes also checked.' if model_dir.is_dir() else ' Diagnostic model artifacts are outside this capture-only checkout.'))
 if phone_folder.is_dir():
- print(f'Validated {len(phone_rows)} intake hashes.' + (' Five partial scan references with 60 literal contact aliases and three marking families also checked.' if (phone_folder/'reviewed-scan-references.json').is_file() else ' Scan-reference additions are outside this capture-only checkout.'))
+ scan_file=phone_folder/'reviewed-scan-references.json'
+ print(f'Validated {len(phone_rows)} intake hashes.' + (f' {len(scan["templates"])} partial scan references with {pin_count} literal contact aliases and three marking families also checked.' if scan_file.is_file() else ' Scan-reference additions are outside this capture-only checkout.'))

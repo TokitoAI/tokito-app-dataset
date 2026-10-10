@@ -28,6 +28,20 @@ class AlignmentContracts(unittest.TestCase):
         self.assertEqual(manifest['multiview_coverage']['reviewed_real_view_count'], 6)
         self.assertEqual(manifest['multiview_coverage']['specimens_with_all_required_real_views'], 0)
 
+    def test_nxp_source_candidate_masks_attach_to_existing_photo_record(self):
+        manifest = read(ROOT/'data/ar-alignment/manifest.json')
+        path = 'data/photo-model/photos/raw/IMG_20261009_221755_1.jpg'
+        matches = [row for row in manifest['images'] if row['image_path'] == path]
+        self.assertEqual(len(matches), 1)
+        image = matches[0]
+        instances = {item['instance_id']: item for item in image['instances']}
+        for ref, part_number in [('U1', 'MCXN236VDFT'), ('U8', 'LPC55S69JEV98')]:
+            instance = instances[f'IMG_20261009_221755_1.jpg:{ref}']
+            self.assertIn(part_number, instance['observed_label'])
+            self.assertIsNotNone(instance['visible_body_polygon_xy_normalized'])
+            self.assertEqual(instance['cad_binding']['mapping_status'], 'source_candidate_photographed_revision_unverified')
+            self.assertFalse(instance['cad_binding']['installed_order_code_confirmed'])
+
     def test_swapping_hole_identities_cannot_silently_change_calibration(self):
         row = next(t for t in read(ROOT/'data/phone-captures/2026-10-10/reviewed-scan-references.json')['templates'] if t['class_id'] == 3)
         components = {c['reference']: c for c in read(AR/'component-map.json')['components']}
