@@ -1,0 +1,47 @@
+camera_id=0 android.lens.intrinsicCalibration (8000a): float[5]
+        [2779.99975586 2780.00000000 2048.00000000 1536.00000000 0.00000000 ]
+
+camera_id=0 android.lens.distortion (8000d): float[5]
+        [0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 ]
+
+camera_id=0 android.lens.info.availableFocalLengths (90002): float[1]
+        [5.55999994 ]
+
+camera_id=0 android.sensor.info.activeArraySize (f0000): int32[4]
+        [0 0 4096 3072 ]
+
+camera_id=0 android.sensor.info.preCorrectionActiveArraySize (f000a): int32[4]
+        [0 0 4096 3072 ]
+
+camera_id=0 android.sensor.info.physicalSize (f0005): float[2]
+        [8.19200039 6.14400005 ]
+
+camera_id=0 android.sensor.orientation (e000e): int32[1]
+        [90 ]
+
+camera_id=0 android.lens.facing (80005): byte[1]
+        [BACK ]
+
+camera_id=2 android.lens.intrinsicCalibration (8000a): float[5]
+        [2779.99975586 2780.00000000 2048.00000000 1536.00000000 0.00000000 ]
+
+camera_id=2 android.lens.distortion (8000d): float[5]
+        [0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 ]
+
+camera_id=2 android.lens.info.availableFocalLengths (90002): float[1]
+        [5.55999994 ]
+
+camera_id=2 android.sensor.info.activeArraySize (f0000): int32[4]
+        [0 0 4096 3072 ]
+
+camera_id=2 android.sensor.info.preCorrectionActiveArraySize (f000a): int32[4]
+        [0 0 4096 3072 ]
+
+camera_id=2 android.sensor.info.physicalSize (f0005): float[2]
+        [8.19200039 6.14400005 ]
+
+camera_id=2 android.sensor.orientation (e000e): int32[1]
+        [90 ]
+
+camera_id=2 android.lens.facing (80005): byte[1]
+        [BACK ]

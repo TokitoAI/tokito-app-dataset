@@ -1,0 +1,104 @@
+{
+  "schema_version": "1.0",
+  "device_android_model": "I2501",
+  "photo_exif_model": "iQOO 15",
+  "source": "ADB dumpsys media.camera, selected static characteristics only",
+  "selected_metadata_sha256": "2fdba202432237de94376a85c1e84b8c6e8c49430aa41c48d936b4a5258edfce",
+  "cameras": [
+    {
+      "camera_id": "0",
+      "reported_characteristics": {
+        "android.lens.intrinsicCalibration": [
+          2779.99975586,
+          2780.0,
+          2048.0,
+          1536.0,
+          0.0
+        ],
+        "android.lens.distortion": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "android.lens.info.availableFocalLengths": [
+          5.55999994
+        ],
+        "android.sensor.info.activeArraySize": [
+          0.0,
+          0.0,
+          4096.0,
+          3072.0
+        ],
+        "android.sensor.info.preCorrectionActiveArraySize": [
+          0.0,
+          0.0,
+          4096.0,
+          3072.0
+        ],
+        "android.sensor.info.physicalSize": [
+          8.19200039,
+          6.14400005
+        ],
+        "android.sensor.orientation": [
+          90.0
+        ],
+        "android.lens.facing": [
+          "BACK"
+        ]
+      }
+    },
+    {
+      "camera_id": "2",
+      "reported_characteristics": {
+        "android.lens.intrinsicCalibration": [
+          2779.99975586,
+          2780.0,
+          2048.0,
+          1536.0,
+          0.0
+        ],
+        "android.lens.distortion": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "android.lens.info.availableFocalLengths": [
+          5.55999994
+        ],
+        "android.sensor.info.activeArraySize": [
+          0.0,
+          0.0,
+          4096.0,
+          3072.0
+        ],
+        "android.sensor.info.preCorrectionActiveArraySize": [
+          0.0,
+          0.0,
+          4096.0,
+          3072.0
+        ],
+        "android.sensor.info.physicalSize": [
+          8.19200039,
+          6.14400005
+        ],
+        "android.sensor.orientation": [
+          90.0
+        ],
+        "android.lens.facing": [
+          "BACK"
+        ]
+      }
+    }
+  ],
+  "factory_metadata_available": true,
+  "independent_optical_calibration_verified": false,
+  "capture_crop_and_rotation_required": true,
+  "document_mode_warp_verified": false,
+  "mobile_projection_evaluated": false,
+  "production_eligible": false,
+  "documentation": "https://developer.android.com/reference/android/hardware/camera2/CameraCharacteristics#LENS_INTRINSIC_CALIBRATION"
+}
