@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0",
+  "board_family": "nxp_frdm_mcxn236_board",
+  "board_model": "FRDM-MCXN236",
+  "reference_designator": "J12",
+  "status": "candidate_not_training_ground_truth",
+  "training_eligible": false,
+  "proposal_path": "annotations/nxp-pin-proposals.json",
+  "proposal_sha256": "1de679d598950d36dd9b4be790a2b65845a6acd305fc7b6ed0d9a7dbefa8a3e0",
+  "review_overlay": "previews/photo-pins/nxp-j12-candidate-overlay.png",
+  "photo_path": "data/photo-model/photos/raw/IMG_20261009_221755_1.jpg",
+  "photo_sha256": "39fc7bf72f364c0b0e848dc9fe9492b85efbdef1481a28d9bbecf4787e51a47e",
+  "source_pcb_path": "data/board-sources/nxp-frdm-mcxn236/original-design-files/Design Files/LAY-90828_C.brd",
+  "source_pcb_sha256": "e5330f7b8476a2b1cc461db4ad5da7182da83299ad4874aea8c7d06c675e851d",
+  "source_netlist_path": "data/board-sources/nxp-frdm-mcxn236/structured-rev-c/netlist.json",
+  "source_netlist_sha256": "6b21889621a21e6e1f7e51e5ddeed93d6a1f8ed3b52a79185a247b101fb721a9",
+  "evidence": {
+    "visible_contact_count": 10,
+    "source_j12_pin_count": 10,
+    "source_j12_pin_numbers": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"],
+    "photo_capture_count_reviewed": 18,
+    "photo_views_reviewed": "All listed NXP photos and their crop variants show the front of the same board; no back-side revision view is present.",
+    "source_revision_text": "170-90828 REV C",
+    "source_revision_text_layer": "B.Cu",
+    "specimen_revision_readable": false,
+    "physical_pin1_mark_readable": false,
+    "model_and_j12_refdes_visible": true
+  },
+  "promotion_requires": [
+    "Readable physical board revision, preferably a sharp back-side image showing the revision mark, matched to the official Rev C source.",
+    "Independent physical J12 pin-1 indication or keyed orientation in a sharp close-up tied to the same specimen.",
+    "Recheck each photo contact box against that confirmed orientation before adding pin-number or source-net training labels."
+  ]
+}

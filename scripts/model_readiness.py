@@ -32,6 +32,8 @@ def audit() -> dict:
     groups: dict[str, list[dict]] = defaultdict(list)
     source_pin_records = 0
     photo_pin_boxes = 0
+    numbered_pin_boxes = 0
+    printed_alias_boxes = 0
     for image in images:
         name = image["image_file"]
         item = manifest_by_name[name]
@@ -49,6 +51,8 @@ def audit() -> dict:
                 "part_classes": Counter(),
                 "part_box_review_statuses": Counter(),
                 "photo_pin_boxes": 0,
+                "numbered_photo_pin_boxes": 0,
+                "printed_alias_contact_boxes": 0,
                 "source_only_pin_records_under_linked_parts": 0,
             }
         record = families[family]
@@ -73,6 +77,13 @@ def audit() -> dict:
                 else:
                     photo_pin_boxes += 1
                     record["photo_pin_boxes"] += 1
+                    if pin.get("pin_identifier_kind") == "board_silkscreen_alias":
+                        printed_alias_boxes += 1
+                        record["printed_alias_contact_boxes"] += 1
+                    else:
+                        assert pin.get("pin_number")
+                        numbered_pin_boxes += 1
+                        record["numbered_photo_pin_boxes"] += 1
 
     split_leaks = []
     for group, members in sorted(groups.items()):
@@ -100,6 +111,8 @@ def audit() -> dict:
         "validation_part_boxes": sum(record["part_boxes_by_split"].get("val", 0) for record in families.values()),
         "source_only_pin_records_under_linked_parts": source_pin_records,
         "photo_pin_boxes": photo_pin_boxes,
+        "numbered_photo_pin_boxes": numbered_pin_boxes,
+        "printed_alias_contact_boxes": printed_alias_boxes,
         "readiness": {
             "board_family_diagnostic_training": True,
             "part_detector_complete_supervision": False,
@@ -131,6 +144,7 @@ def main() -> None:
         print(f"{family} | {data['images']} | {data['partial_part_images']} | {data['part_boxes']} | {data['photo_pin_boxes']} | {data['source_only_pin_records_under_linked_parts']}")
     print("Part classes:", json.dumps(report["part_class_distribution"], sort_keys=True))
     print("Partial part boxes on validation photos:", report["validation_part_boxes"])
+    print("Reviewed numeric pin boxes:", report["numbered_photo_pin_boxes"], "| printed-alias contact boxes:", report["printed_alias_contact_boxes"])
     print("Training readiness:", json.dumps(report["readiness"], sort_keys=True))
     print("Crop/original train-val leakage groups:", len(report["crop_group_train_val_leaks"]))
     for limit in report["limits"]:

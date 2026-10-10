@@ -12,7 +12,7 @@ Five classes: ESP32, ESP8266, Ultimainboard, FRDM-MCXN236, Pi3B. Board boxes pro
 
 ## Component and engineering data
 
-Subagent seed annotations identify major visible components on three photos of each family. Seeds are partial, retain uncertainty/truncation and are not complete component-training ground truth. Small passives require further labeling. Hidden parts cannot be claimed as visually detected.
+Subagent seed annotations identify major visible components on three or four photos of each family. Seeds are partial, retain uncertainty/truncation and are not complete component-training ground truth. Small passives require further labeling. Hidden parts cannot be claimed as visually detected.
 
 A full component detector needs exhaustive reviewed boxes for its defined classes and additional clear views, including backs of boards. Exact component reference-designator or part-number assignment additionally needs readable OCR or registered matched PCB geometry. Manufacturer alternatives and DNP/unpopulated parts must remain distinct from observed physical components.
 

@@ -1,0 +1,905 @@
+{
+  "schema_version": "1.0",
+  "status": "visually_reviewed_pin_locations_integrated_into_hierarchy",
+  "coordinate_system": "pixel_xyxy_origin_top_left",
+  "target_region": "Visible exposed metal at each header contact opening; full unrotated source image coordinates",
+  "coverage": "40 physical J8 contacts in one sharpest phone view; no propagation to the other Pi photos",
+  "photo": {
+    "path": "data/photo-model/by_board/raspberry_pi_3b_board/IMG_20261009_222248_1.jpg",
+    "sha256": "3a5504de5689de61986fecba368e65da3b4862d38e69106c9e7c5d6f3ebed3b8",
+    "width": 1872,
+    "height": 2994,
+    "revision_evidence": "Raspberry Pi 3 Model B V1.2 visibly printed beside J8"
+  },
+  "sources": {
+    "reduced_schematic": {
+      "path": "data/board-sources/raspberry-pi-3b-v1.2/reduced-schematic.pdf",
+      "sha256": "59ab7a171a199975525169b233bc2918d5b9208e3b42e456439da6dbbff82626",
+      "scope": "Revision 1.2 reduced schematic, J8 40-way GPIO expansion pinout"
+    },
+    "mechanical": {
+      "path": "data/board-sources/raspberry-pi-3b-v1.2/mechanical.pdf",
+      "sha256": "6f6ecb21b7ba2576c9982d4d555cddb6b697ad2677c250f52bdb57f713d79e7f",
+      "scope": "Revision 1.2 top assembly locates the 40-pin header beside the long board edge"
+    },
+    "original_parent_seeds": {
+      "path": "annotations/large-board-component-seeds.json",
+      "sha256": "207e36d742163ce30cd375c5f544495a1fac9188f5f681a3f5f591ccd300522f"
+    },
+    "orientation_reference_url": "https://forums.raspberrypi.com/viewtopic.php?t=216304"
+  },
+  "reviewed_parent_updates": [
+    {
+      "image_file": "IMG_20261009_222248_1.jpg",
+      "seed_file": "annotations/large-board-component-seeds.json",
+      "seed_id": "major-003",
+      "part_id": "IMG_20261009_222248_1.jpg:annotations/large-board-component-seeds.json:major-003",
+      "reference_designator": "J8",
+      "bbox_xyxy_normalized": [
+        0.865385,
+        0.084712,
+        0.985577,
+        0.641604
+      ],
+      "annotation_status": "visual_reviewed_connector_box_and_refdes",
+      "evidence": "Visible J8 silkscreen at the upper end of the 40-contact header, board marking Raspberry Pi 3 Model B V1.2, and chamfered/rounded top-inner silkscreen corner place physical pin 1 at the upper inner contact. Raspberry Pi connector guidance corroborates odd pins in the row away from the PCB edge; the revision-matched reduced schematic numbers J8 left column 1,3,...,39 and right column 2,4,...,40."
+    }
+  ],
+  "connector": {
+    "reference_designator": "J8",
+    "part_id": "IMG_20261009_222248_1.jpg:annotations/large-board-component-seeds.json:major-003",
+    "pin_1_position": "upper_inner_in_original_photo",
+    "odd_pins": "inner_row_away_from_right_PCB_edge_in_photo",
+    "even_pins": "outer_row_near_right_PCB_edge_in_photo",
+    "orientation_evidence": "Visible J8 silkscreen at the upper end of the 40-contact header, board marking Raspberry Pi 3 Model B V1.2, and chamfered/rounded top-inner silkscreen corner place physical pin 1 at the upper inner contact. Raspberry Pi connector guidance corroborates odd pins in the row away from the PCB edge; the revision-matched reduced schematic numbers J8 left column 1,3,...,39 and right column 2,4,...,40.",
+    "source_pin_count": 40,
+    "photo_contact_count": 40
+  },
+  "pins": [
+    {
+      "id": "pi-j8-01",
+      "image_file": "IMG_20261009_222248_1.jpg",
+      "image_sha256": "3a5504de5689de61986fecba368e65da3b4862d38e69106c9e7c5d6f3ebed3b8",
+      "board_family": "raspberry_pi_3b_board",
+      "part_id": "IMG_20261009_222248_1.jpg:annotations/large-board-component-seeds.json:major-003",
+      "reference_designator": "J8",
+      "pin_number": "1",
+      "photo_bbox_xyxy_pixels": [
+        1675,
+        347,
+        1711,
+        373
+      ],
+      "source_net": "3V3",
+      "source_net_semantics": "reduced_schematic_net_name_not_measured_on_photo",
+      "source_document_path": "data/board-sources/raspberry-pi-3b-v1.2/reduced-schematic.pdf",
+      "pin_identity_evidence": "Visible J8 silkscreen at the upper end of the 40-contact header, board marking Raspberry Pi 3 Model B V1.2, and chamfered/rounded top-inner silkscreen corner place physical pin 1 at the upper inner contact. Raspberry Pi connector guidance corroborates odd pins in the row away from the PCB edge; the revision-matched reduced schematic numbers J8 left column 1,3,...,39 and right column 2,4,...,40.",
+      "review_status": "visually_reviewed_pin_location",
+      "contact_location_confidence": "high"
+    },
+    {
+      "id": "pi-j8-02",
+      "image_file": "IMG_20261009_222248_1.jpg",
+      "image_sha256": "3a5504de5689de61986fecba368e65da3b4862d38e69106c9e7c5d6f3ebed3b8",
+      "board_family": "raspberry_pi_3b_board",
+      "part_id": "IMG_20261009_222248_1.jpg:annotations/large-board-component-seeds.json:major-003",
+      "reference_designator": "J8",
+      "pin_number": "2",
+      "photo_bbox_xyxy_pixels": [
+        1753,
+        347,
+        1791,
+        373
+      ],
+      "source_net": "5V",
+      "source_net_semantics": "reduced_schematic_net_name_not_measured_on_photo",
+      "source_document_path": "data/board-sources/raspberry-pi-3b-v1.2/reduced-schematic.pdf",
+      "pin_identity_evidence": "Visible J8 silkscreen at the upper end of the 40-contact header, board marking Raspberry Pi 3 Model B V1.2, and chamfered/rounded top-inner silkscreen corner place physical pin 1 at the upper inner contact. Raspberry Pi connector guidance corroborates odd pins in the row away from the PCB edge; the revision-matched reduced schematic numbers J8 left column 1,3,...,39 and right column 2,4,...,40.",
+      "review_status": "visually_reviewed_pin_location",
+      "contact_location_confidence": "high"
+    },
+    {
+      "id": "pi-j8-03",
+      "image_file": "IMG_20261009_222248_1.jpg",
+      "image_sha256": "3a5504de5689de61986fecba368e65da3b4862d38e69106c9e7c5d6f3ebed3b8",
+      "board_family": "raspberry_pi_3b_board",
+      "part_id": "IMG_20261009_222248_1.jpg:annotations/large-board-component-seeds.json:major-003",
+      "reference_designator": "J8",
+      "pin_number": "3",
+      "photo_bbox_xyxy_pixels": [
+        1675,
+        427,
+        1711,
+        453
+      ],
+      "source_net": "GPIO2",
+      "source_net_semantics": "reduced_schematic_net_name_not_measured_on_photo",
+      "source_document_path": "data/board-sources/raspberry-pi-3b-v1.2/reduced-schematic.pdf",
+      "pin_identity_evidence": "Visible J8 silkscreen at the upper end of the 40-contact header, board marking Raspberry Pi 3 Model B V1.2, and chamfered/rounded top-inner silkscreen corner place physical pin 1 at the upper inner contact. Raspberry Pi connector guidance corroborates odd pins in the row away from the PCB edge; the revision-matched reduced schematic numbers J8 left column 1,3,...,39 and right column 2,4,...,40.",
+      "review_status": "visually_reviewed_pin_location",
+      "contact_location_confidence": "high"
+    },
+    {
+      "id": "pi-j8-04",
+      "image_file": "IMG_20261009_222248_1.jpg",
+      "image_sha256": "3a5504de5689de61986fecba368e65da3b4862d38e69106c9e7c5d6f3ebed3b8",
+      "board_family": "raspberry_pi_3b_board",
+      "part_id": "IMG_20261009_222248_1.jpg:annotations/large-board-component-seeds.json:major-003",
+      "reference_designator": "J8",
+      "pin_number": "4",
+      "photo_bbox_xyxy_pixels": [
+        1753,
+        427,
+        1791,
+        453
+      ],
+      "source_net": "5V",
+      "source_net_semantics": "reduced_schematic_net_name_not_measured_on_photo",
+      "source_document_path": "data/board-sources/raspberry-pi-3b-v1.2/reduced-schematic.pdf",
+      "pin_identity_evidence": "Visible J8 silkscreen at the upper end of the 40-contact header, board marking Raspberry Pi 3 Model B V1.2, and chamfered/rounded top-inner silkscreen corner place physical pin 1 at the upper inner contact. Raspberry Pi connector guidance corroborates odd pins in the row away from the PCB edge; the revision-matched reduced schematic numbers J8 left column 1,3,...,39 and right column 2,4,...,40.",
+      "review_status": "visually_reviewed_pin_location",
+      "contact_location_confidence": "high"
+    },
+    {
+      "id": "pi-j8-05",
+      "image_file": "IMG_20261009_222248_1.jpg",
+      "image_sha256": "3a5504de5689de61986fecba368e65da3b4862d38e69106c9e7c5d6f3ebed3b8",
+      "board_family": "raspberry_pi_3b_board",
+      "part_id": "IMG_20261009_222248_1.jpg:annotations/large-board-component-seeds.json:major-003",
+      "reference_designator": "J8",
+      "pin_number": "5",
+      "photo_bbox_xyxy_pixels": [
+        1675,
+        507,
+        1711,
+        533
+      ],
+      "source_net": "GPIO3",
+      "source_net_semantics": "reduced_schematic_net_name_not_measured_on_photo",
+      "source_document_path": "data/board-sources/raspberry-pi-3b-v1.2/reduced-schematic.pdf",
+      "pin_identity_evidence": "Visible J8 silkscreen at the upper end of the 40-contact header, board marking Raspberry Pi 3 Model B V1.2, and chamfered/rounded top-inner silkscreen corner place physical pin 1 at the upper inner contact. Raspberry Pi connector guidance corroborates odd pins in the row away from the PCB edge; the revision-matched reduced schematic numbers J8 left column 1,3,...,39 and right column 2,4,...,40.",
+      "review_status": "visually_reviewed_pin_location",
+      "contact_location_confidence": "high"
+    },
+    {
+      "id": "pi-j8-06",
+      "image_file": "IMG_20261009_222248_1.jpg",
+      "image_sha256": "3a5504de5689de61986fecba368e65da3b4862d38e69106c9e7c5d6f3ebed3b8",
+      "board_family": "raspberry_pi_3b_board",
+      "part_id": "IMG_20261009_222248_1.jpg:annotations/large-board-component-seeds.json:major-003",
+      "reference_designator": "J8",
+      "pin_number": "6",
+      "photo_bbox_xyxy_pixels": [
+        1753,
+        507,
+        1791,
+        533
+      ],
+      "source_net": "GND",
+      "source_net_semantics": "reduced_schematic_net_name_not_measured_on_photo",
+      "source_document_path": "data/board-sources/raspberry-pi-3b-v1.2/reduced-schematic.pdf",
+      "pin_identity_evidence": "Visible J8 silkscreen at the upper end of the 40-contact header, board marking Raspberry Pi 3 Model B V1.2, and chamfered/rounded top-inner silkscreen corner place physical pin 1 at the upper inner contact. Raspberry Pi connector guidance corroborates odd pins in the row away from the PCB edge; the revision-matched reduced schematic numbers J8 left column 1,3,...,39 and right column 2,4,...,40.",
+      "review_status": "visually_reviewed_pin_location",
+      "contact_location_confidence": "high"
+    },
+    {
+      "id": "pi-j8-07",
+      "image_file": "IMG_20261009_222248_1.jpg",
+      "image_sha256": "3a5504de5689de61986fecba368e65da3b4862d38e69106c9e7c5d6f3ebed3b8",
+      "board_family": "raspberry_pi_3b_board",
+      "part_id": "IMG_20261009_222248_1.jpg:annotations/large-board-component-seeds.json:major-003",
+      "reference_designator": "J8",
+      "pin_number": "7",
+      "photo_bbox_xyxy_pixels": [
+        1675,
+        587,
+        1711,
+        613
+      ],
+      "source_net": "GPIO4",
+      "source_net_semantics": "reduced_schematic_net_name_not_measured_on_photo",
+      "source_document_path": "data/board-sources/raspberry-pi-3b-v1.2/reduced-schematic.pdf",
+      "pin_identity_evidence": "Visible J8 silkscreen at the upper end of the 40-contact header, board marking Raspberry Pi 3 Model B V1.2, and chamfered/rounded top-inner silkscreen corner place physical pin 1 at the upper inner contact. Raspberry Pi connector guidance corroborates odd pins in the row away from the PCB edge; the revision-matched reduced schematic numbers J8 left column 1,3,...,39 and right column 2,4,...,40.",
+      "review_status": "visually_reviewed_pin_location",
+      "contact_location_confidence": "high"
+    },
+    {
+      "id": "pi-j8-08",
+      "image_file": "IMG_20261009_222248_1.jpg",
+      "image_sha256": "3a5504de5689de61986fecba368e65da3b4862d38e69106c9e7c5d6f3ebed3b8",
+      "board_family": "raspberry_pi_3b_board",
+      "part_id": "IMG_20261009_222248_1.jpg:annotations/large-board-component-seeds.json:major-003",
+      "reference_designator": "J8",
+      "pin_number": "8",
+      "photo_bbox_xyxy_pixels": [
+        1753,
+        587,
+        1791,
+        613
+      ],
+      "source_net": "GPIO14",
+      "source_net_semantics": "reduced_schematic_net_name_not_measured_on_photo",
+      "source_document_path": "data/board-sources/raspberry-pi-3b-v1.2/reduced-schematic.pdf",
+      "pin_identity_evidence": "Visible J8 silkscreen at the upper end of the 40-contact header, board marking Raspberry Pi 3 Model B V1.2, and chamfered/rounded top-inner silkscreen corner place physical pin 1 at the upper inner contact. Raspberry Pi connector guidance corroborates odd pins in the row away from the PCB edge; the revision-matched reduced schematic numbers J8 left column 1,3,...,39 and right column 2,4,...,40.",
+      "review_status": "visually_reviewed_pin_location",
+      "contact_location_confidence": "high"
+    },
+    {
+      "id": "pi-j8-09",
+      "image_file": "IMG_20261009_222248_1.jpg",
+      "image_sha256": "3a5504de5689de61986fecba368e65da3b4862d38e69106c9e7c5d6f3ebed3b8",
+      "board_family": "raspberry_pi_3b_board",
+      "part_id": "IMG_20261009_222248_1.jpg:annotations/large-board-component-seeds.json:major-003",
+      "reference_designator": "J8",
+      "pin_number": "9",
+      "photo_bbox_xyxy_pixels": [
+        1675,
+        667,
+        1711,
+        693
+      ],
+      "source_net": "GND",
+      "source_net_semantics": "reduced_schematic_net_name_not_measured_on_photo",
+      "source_document_path": "data/board-sources/raspberry-pi-3b-v1.2/reduced-schematic.pdf",
+      "pin_identity_evidence": "Visible J8 silkscreen at the upper end of the 40-contact header, board marking Raspberry Pi 3 Model B V1.2, and chamfered/rounded top-inner silkscreen corner place physical pin 1 at the upper inner contact. Raspberry Pi connector guidance corroborates odd pins in the row away from the PCB edge; the revision-matched reduced schematic numbers J8 left column 1,3,...,39 and right column 2,4,...,40.",
+      "review_status": "visually_reviewed_pin_location",
+      "contact_location_confidence": "high"
+    },
+    {
+      "id": "pi-j8-10",
+      "image_file": "IMG_20261009_222248_1.jpg",
+      "image_sha256": "3a5504de5689de61986fecba368e65da3b4862d38e69106c9e7c5d6f3ebed3b8",
+      "board_family": "raspberry_pi_3b_board",
+      "part_id": "IMG_20261009_222248_1.jpg:annotations/large-board-component-seeds.json:major-003",
+      "reference_designator": "J8",
+      "pin_number": "10",
+      "photo_bbox_xyxy_pixels": [
+        1753,
+        667,
+        1791,
+        693
+      ],
+      "source_net": "GPIO15",
+      "source_net_semantics": "reduced_schematic_net_name_not_measured_on_photo",
+      "source_document_path": "data/board-sources/raspberry-pi-3b-v1.2/reduced-schematic.pdf",
+      "pin_identity_evidence": "Visible J8 silkscreen at the upper end of the 40-contact header, board marking Raspberry Pi 3 Model B V1.2, and chamfered/rounded top-inner silkscreen corner place physical pin 1 at the upper inner contact. Raspberry Pi connector guidance corroborates odd pins in the row away from the PCB edge; the revision-matched reduced schematic numbers J8 left column 1,3,...,39 and right column 2,4,...,40.",
+      "review_status": "visually_reviewed_pin_location",
+      "contact_location_confidence": "high"
+    },
+    {
+      "id": "pi-j8-11",
+      "image_file": "IMG_20261009_222248_1.jpg",
+      "image_sha256": "3a5504de5689de61986fecba368e65da3b4862d38e69106c9e7c5d6f3ebed3b8",
+      "board_family": "raspberry_pi_3b_board",
+      "part_id": "IMG_20261009_222248_1.jpg:annotations/large-board-component-seeds.json:major-003",
+      "reference_designator": "J8",
+      "pin_number": "11",
+      "photo_bbox_xyxy_pixels": [
+        1675,
+        747,
+        1711,
+        773
+      ],
+      "source_net": "GPIO17",
+      "source_net_semantics": "reduced_schematic_net_name_not_measured_on_photo",
+      "source_document_path": "data/board-sources/raspberry-pi-3b-v1.2/reduced-schematic.pdf",
+      "pin_identity_evidence": "Visible J8 silkscreen at the upper end of the 40-contact header, board marking Raspberry Pi 3 Model B V1.2, and chamfered/rounded top-inner silkscreen corner place physical pin 1 at the upper inner contact. Raspberry Pi connector guidance corroborates odd pins in the row away from the PCB edge; the revision-matched reduced schematic numbers J8 left column 1,3,...,39 and right column 2,4,...,40.",
+      "review_status": "visually_reviewed_pin_location",
+      "contact_location_confidence": "high"
+    },
+    {
+      "id": "pi-j8-12",
+      "image_file": "IMG_20261009_222248_1.jpg",
+      "image_sha256": "3a5504de5689de61986fecba368e65da3b4862d38e69106c9e7c5d6f3ebed3b8",
+      "board_family": "raspberry_pi_3b_board",
+      "part_id": "IMG_20261009_222248_1.jpg:annotations/large-board-component-seeds.json:major-003",
+      "reference_designator": "J8",
+      "pin_number": "12",
+      "photo_bbox_xyxy_pixels": [
+        1753,
+        747,
+        1791,
+        773
+      ],
+      "source_net": "GPIO18",
+      "source_net_semantics": "reduced_schematic_net_name_not_measured_on_photo",
+      "source_document_path": "data/board-sources/raspberry-pi-3b-v1.2/reduced-schematic.pdf",
+      "pin_identity_evidence": "Visible J8 silkscreen at the upper end of the 40-contact header, board marking Raspberry Pi 3 Model B V1.2, and chamfered/rounded top-inner silkscreen corner place physical pin 1 at the upper inner contact. Raspberry Pi connector guidance corroborates odd pins in the row away from the PCB edge; the revision-matched reduced schematic numbers J8 left column 1,3,...,39 and right column 2,4,...,40.",
+      "review_status": "visually_reviewed_pin_location",
+      "contact_location_confidence": "high"
+    },
+    {
+      "id": "pi-j8-13",
+      "image_file": "IMG_20261009_222248_1.jpg",
+      "image_sha256": "3a5504de5689de61986fecba368e65da3b4862d38e69106c9e7c5d6f3ebed3b8",
+      "board_family": "raspberry_pi_3b_board",
+      "part_id": "IMG_20261009_222248_1.jpg:annotations/large-board-component-seeds.json:major-003",
+      "reference_designator": "J8",
+      "pin_number": "13",
+      "photo_bbox_xyxy_pixels": [
+        1675,
+        831,
+        1711,
+        857
+      ],
+      "source_net": "GPIO27",
+      "source_net_semantics": "reduced_schematic_net_name_not_measured_on_photo",
+      "source_document_path": "data/board-sources/raspberry-pi-3b-v1.2/reduced-schematic.pdf",
+      "pin_identity_evidence": "Visible J8 silkscreen at the upper end of the 40-contact header, board marking Raspberry Pi 3 Model B V1.2, and chamfered/rounded top-inner silkscreen corner place physical pin 1 at the upper inner contact. Raspberry Pi connector guidance corroborates odd pins in the row away from the PCB edge; the revision-matched reduced schematic numbers J8 left column 1,3,...,39 and right column 2,4,...,40.",
+      "review_status": "visually_reviewed_pin_location",
+      "contact_location_confidence": "high"
+    },
+    {
+      "id": "pi-j8-14",
+      "image_file": "IMG_20261009_222248_1.jpg",
+      "image_sha256": "3a5504de5689de61986fecba368e65da3b4862d38e69106c9e7c5d6f3ebed3b8",
+      "board_family": "raspberry_pi_3b_board",
+      "part_id": "IMG_20261009_222248_1.jpg:annotations/large-board-component-seeds.json:major-003",
+      "reference_designator": "J8",
+      "pin_number": "14",
+      "photo_bbox_xyxy_pixels": [
+        1753,
+        831,
+        1791,
+        857
+      ],
+      "source_net": "GND",
+      "source_net_semantics": "reduced_schematic_net_name_not_measured_on_photo",
+      "source_document_path": "data/board-sources/raspberry-pi-3b-v1.2/reduced-schematic.pdf",
+      "pin_identity_evidence": "Visible J8 silkscreen at the upper end of the 40-contact header, board marking Raspberry Pi 3 Model B V1.2, and chamfered/rounded top-inner silkscreen corner place physical pin 1 at the upper inner contact. Raspberry Pi connector guidance corroborates odd pins in the row away from the PCB edge; the revision-matched reduced schematic numbers J8 left column 1,3,...,39 and right column 2,4,...,40.",
+      "review_status": "visually_reviewed_pin_location",
+      "contact_location_confidence": "high"
+    },
+    {
+      "id": "pi-j8-15",
+      "image_file": "IMG_20261009_222248_1.jpg",
+      "image_sha256": "3a5504de5689de61986fecba368e65da3b4862d38e69106c9e7c5d6f3ebed3b8",
+      "board_family": "raspberry_pi_3b_board",
+      "part_id": "IMG_20261009_222248_1.jpg:annotations/large-board-component-seeds.json:major-003",
+      "reference_designator": "J8",
+      "pin_number": "15",
+      "photo_bbox_xyxy_pixels": [
+        1675,
+        912,
+        1711,
+        938
+      ],
+      "source_net": "GPIO22",
+      "source_net_semantics": "reduced_schematic_net_name_not_measured_on_photo",
+      "source_document_path": "data/board-sources/raspberry-pi-3b-v1.2/reduced-schematic.pdf",
+      "pin_identity_evidence": "Visible J8 silkscreen at the upper end of the 40-contact header, board marking Raspberry Pi 3 Model B V1.2, and chamfered/rounded top-inner silkscreen corner place physical pin 1 at the upper inner contact. Raspberry Pi connector guidance corroborates odd pins in the row away from the PCB edge; the revision-matched reduced schematic numbers J8 left column 1,3,...,39 and right column 2,4,...,40.",
+      "review_status": "visually_reviewed_pin_location",
+      "contact_location_confidence": "high"
+    },
+    {
+      "id": "pi-j8-16",
+      "image_file": "IMG_20261009_222248_1.jpg",
+      "image_sha256": "3a5504de5689de61986fecba368e65da3b4862d38e69106c9e7c5d6f3ebed3b8",
+      "board_family": "raspberry_pi_3b_board",
+      "part_id": "IMG_20261009_222248_1.jpg:annotations/large-board-component-seeds.json:major-003",
+      "reference_designator": "J8",
+      "pin_number": "16",
+      "photo_bbox_xyxy_pixels": [
+        1753,
+        912,
+        1791,
+        938
+      ],
+      "source_net": "GPIO23",
+      "source_net_semantics": "reduced_schematic_net_name_not_measured_on_photo",
+      "source_document_path": "data/board-sources/raspberry-pi-3b-v1.2/reduced-schematic.pdf",
+      "pin_identity_evidence": "Visible J8 silkscreen at the upper end of the 40-contact header, board marking Raspberry Pi 3 Model B V1.2, and chamfered/rounded top-inner silkscreen corner place physical pin 1 at the upper inner contact. Raspberry Pi connector guidance corroborates odd pins in the row away from the PCB edge; the revision-matched reduced schematic numbers J8 left column 1,3,...,39 and right column 2,4,...,40.",
+      "review_status": "visually_reviewed_pin_location",
+      "contact_location_confidence": "high"
+    },
+    {
+      "id": "pi-j8-17",
+      "image_file": "IMG_20261009_222248_1.jpg",
+      "image_sha256": "3a5504de5689de61986fecba368e65da3b4862d38e69106c9e7c5d6f3ebed3b8",
+      "board_family": "raspberry_pi_3b_board",
+      "part_id": "IMG_20261009_222248_1.jpg:annotations/large-board-component-seeds.json:major-003",
+      "reference_designator": "J8",
+      "pin_number": "17",
+      "photo_bbox_xyxy_pixels": [
+        1675,
+        992,
+        1711,
+        1018
+      ],
+      "source_net": "3V3",
+      "source_net_semantics": "reduced_schematic_net_name_not_measured_on_photo",
+      "source_document_path": "data/board-sources/raspberry-pi-3b-v1.2/reduced-schematic.pdf",
+      "pin_identity_evidence": "Visible J8 silkscreen at the upper end of the 40-contact header, board marking Raspberry Pi 3 Model B V1.2, and chamfered/rounded top-inner silkscreen corner place physical pin 1 at the upper inner contact. Raspberry Pi connector guidance corroborates odd pins in the row away from the PCB edge; the revision-matched reduced schematic numbers J8 left column 1,3,...,39 and right column 2,4,...,40.",
+      "review_status": "visually_reviewed_pin_location",
+      "contact_location_confidence": "high"
+    },
+    {
+      "id": "pi-j8-18",
+      "image_file": "IMG_20261009_222248_1.jpg",
+      "image_sha256": "3a5504de5689de61986fecba368e65da3b4862d38e69106c9e7c5d6f3ebed3b8",
+      "board_family": "raspberry_pi_3b_board",
+      "part_id": "IMG_20261009_222248_1.jpg:annotations/large-board-component-seeds.json:major-003",
+      "reference_designator": "J8",
+      "pin_number": "18",
+      "photo_bbox_xyxy_pixels": [
+        1753,
+        992,
+        1791,
+        1018
+      ],
+      "source_net": "GPIO24",
+      "source_net_semantics": "reduced_schematic_net_name_not_measured_on_photo",
+      "source_document_path": "data/board-sources/raspberry-pi-3b-v1.2/reduced-schematic.pdf",
+      "pin_identity_evidence": "Visible J8 silkscreen at the upper end of the 40-contact header, board marking Raspberry Pi 3 Model B V1.2, and chamfered/rounded top-inner silkscreen corner place physical pin 1 at the upper inner contact. Raspberry Pi connector guidance corroborates odd pins in the row away from the PCB edge; the revision-matched reduced schematic numbers J8 left column 1,3,...,39 and right column 2,4,...,40.",
+      "review_status": "visually_reviewed_pin_location",
+      "contact_location_confidence": "high"
+    },
+    {
+      "id": "pi-j8-19",
+      "image_file": "IMG_20261009_222248_1.jpg",
+      "image_sha256": "3a5504de5689de61986fecba368e65da3b4862d38e69106c9e7c5d6f3ebed3b8",
+      "board_family": "raspberry_pi_3b_board",
+      "part_id": "IMG_20261009_222248_1.jpg:annotations/large-board-component-seeds.json:major-003",
+      "reference_designator": "J8",
+      "pin_number": "19",
+      "photo_bbox_xyxy_pixels": [
+        1675,
+        1074,
+        1711,
+        1100
+      ],
+      "source_net": "GPIO10",
+      "source_net_semantics": "reduced_schematic_net_name_not_measured_on_photo",
+      "source_document_path": "data/board-sources/raspberry-pi-3b-v1.2/reduced-schematic.pdf",
+      "pin_identity_evidence": "Visible J8 silkscreen at the upper end of the 40-contact header, board marking Raspberry Pi 3 Model B V1.2, and chamfered/rounded top-inner silkscreen corner place physical pin 1 at the upper inner contact. Raspberry Pi connector guidance corroborates odd pins in the row away from the PCB edge; the revision-matched reduced schematic numbers J8 left column 1,3,...,39 and right column 2,4,...,40.",
+      "review_status": "visually_reviewed_pin_location",
+      "contact_location_confidence": "high"
+    },
+    {
+      "id": "pi-j8-20",
+      "image_file": "IMG_20261009_222248_1.jpg",
+      "image_sha256": "3a5504de5689de61986fecba368e65da3b4862d38e69106c9e7c5d6f3ebed3b8",
+      "board_family": "raspberry_pi_3b_board",
+      "part_id": "IMG_20261009_222248_1.jpg:annotations/large-board-component-seeds.json:major-003",
+      "reference_designator": "J8",
+      "pin_number": "20",
+      "photo_bbox_xyxy_pixels": [
+        1753,
+        1074,
+        1791,
+        1100
+      ],
+      "source_net": "GND",
+      "source_net_semantics": "reduced_schematic_net_name_not_measured_on_photo",
+      "source_document_path": "data/board-sources/raspberry-pi-3b-v1.2/reduced-schematic.pdf",
+      "pin_identity_evidence": "Visible J8 silkscreen at the upper end of the 40-contact header, board marking Raspberry Pi 3 Model B V1.2, and chamfered/rounded top-inner silkscreen corner place physical pin 1 at the upper inner contact. Raspberry Pi connector guidance corroborates odd pins in the row away from the PCB edge; the revision-matched reduced schematic numbers J8 left column 1,3,...,39 and right column 2,4,...,40.",
+      "review_status": "visually_reviewed_pin_location",
+      "contact_location_confidence": "high"
+    },
+    {
+      "id": "pi-j8-21",
+      "image_file": "IMG_20261009_222248_1.jpg",
+      "image_sha256": "3a5504de5689de61986fecba368e65da3b4862d38e69106c9e7c5d6f3ebed3b8",
+      "board_family": "raspberry_pi_3b_board",
+      "part_id": "IMG_20261009_222248_1.jpg:annotations/large-board-component-seeds.json:major-003",
+      "reference_designator": "J8",
+      "pin_number": "21",
+      "photo_bbox_xyxy_pixels": [
+        1675,
+        1157,
+        1711,
+        1183
+      ],
+      "source_net": "GPIO9",
+      "source_net_semantics": "reduced_schematic_net_name_not_measured_on_photo",
+      "source_document_path": "data/board-sources/raspberry-pi-3b-v1.2/reduced-schematic.pdf",
+      "pin_identity_evidence": "Visible J8 silkscreen at the upper end of the 40-contact header, board marking Raspberry Pi 3 Model B V1.2, and chamfered/rounded top-inner silkscreen corner place physical pin 1 at the upper inner contact. Raspberry Pi connector guidance corroborates odd pins in the row away from the PCB edge; the revision-matched reduced schematic numbers J8 left column 1,3,...,39 and right column 2,4,...,40.",
+      "review_status": "visually_reviewed_pin_location",
+      "contact_location_confidence": "high"
+    },
+    {
+      "id": "pi-j8-22",
+      "image_file": "IMG_20261009_222248_1.jpg",
+      "image_sha256": "3a5504de5689de61986fecba368e65da3b4862d38e69106c9e7c5d6f3ebed3b8",
+      "board_family": "raspberry_pi_3b_board",
+      "part_id": "IMG_20261009_222248_1.jpg:annotations/large-board-component-seeds.json:major-003",
+      "reference_designator": "J8",
+      "pin_number": "22",
+      "photo_bbox_xyxy_pixels": [
+        1753,
+        1157,
+        1791,
+        1183
+      ],
+      "source_net": "GPIO25",
+      "source_net_semantics": "reduced_schematic_net_name_not_measured_on_photo",
+      "source_document_path": "data/board-sources/raspberry-pi-3b-v1.2/reduced-schematic.pdf",
+      "pin_identity_evidence": "Visible J8 silkscreen at the upper end of the 40-contact header, board marking Raspberry Pi 3 Model B V1.2, and chamfered/rounded top-inner silkscreen corner place physical pin 1 at the upper inner contact. Raspberry Pi connector guidance corroborates odd pins in the row away from the PCB edge; the revision-matched reduced schematic numbers J8 left column 1,3,...,39 and right column 2,4,...,40.",
+      "review_status": "visually_reviewed_pin_location",
+      "contact_location_confidence": "high"
+    },
+    {
+      "id": "pi-j8-23",
+      "image_file": "IMG_20261009_222248_1.jpg",
+      "image_sha256": "3a5504de5689de61986fecba368e65da3b4862d38e69106c9e7c5d6f3ebed3b8",
+      "board_family": "raspberry_pi_3b_board",
+      "part_id": "IMG_20261009_222248_1.jpg:annotations/large-board-component-seeds.json:major-003",
+      "reference_designator": "J8",
+      "pin_number": "23",
+      "photo_bbox_xyxy_pixels": [
+        1675,
+        1237,
+        1711,
+        1263
+      ],
+      "source_net": "GPIO11",
+      "source_net_semantics": "reduced_schematic_net_name_not_measured_on_photo",
+      "source_document_path": "data/board-sources/raspberry-pi-3b-v1.2/reduced-schematic.pdf",
+      "pin_identity_evidence": "Visible J8 silkscreen at the upper end of the 40-contact header, board marking Raspberry Pi 3 Model B V1.2, and chamfered/rounded top-inner silkscreen corner place physical pin 1 at the upper inner contact. Raspberry Pi connector guidance corroborates odd pins in the row away from the PCB edge; the revision-matched reduced schematic numbers J8 left column 1,3,...,39 and right column 2,4,...,40.",
+      "review_status": "visually_reviewed_pin_location",
+      "contact_location_confidence": "high"
+    },
+    {
+      "id": "pi-j8-24",
+      "image_file": "IMG_20261009_222248_1.jpg",
+      "image_sha256": "3a5504de5689de61986fecba368e65da3b4862d38e69106c9e7c5d6f3ebed3b8",
+      "board_family": "raspberry_pi_3b_board",
+      "part_id": "IMG_20261009_222248_1.jpg:annotations/large-board-component-seeds.json:major-003",
+      "reference_designator": "J8",
+      "pin_number": "24",
+      "photo_bbox_xyxy_pixels": [
+        1753,
+        1237,
+        1791,
+        1263
+      ],
+      "source_net": "GPIO8",
+      "source_net_semantics": "reduced_schematic_net_name_not_measured_on_photo",
+      "source_document_path": "data/board-sources/raspberry-pi-3b-v1.2/reduced-schematic.pdf",
+      "pin_identity_evidence": "Visible J8 silkscreen at the upper end of the 40-contact header, board marking Raspberry Pi 3 Model B V1.2, and chamfered/rounded top-inner silkscreen corner place physical pin 1 at the upper inner contact. Raspberry Pi connector guidance corroborates odd pins in the row away from the PCB edge; the revision-matched reduced schematic numbers J8 left column 1,3,...,39 and right column 2,4,...,40.",
+      "review_status": "visually_reviewed_pin_location",
+      "contact_location_confidence": "high"
+    },
+    {
+      "id": "pi-j8-25",
+      "image_file": "IMG_20261009_222248_1.jpg",
+      "image_sha256": "3a5504de5689de61986fecba368e65da3b4862d38e69106c9e7c5d6f3ebed3b8",
+      "board_family": "raspberry_pi_3b_board",
+      "part_id": "IMG_20261009_222248_1.jpg:annotations/large-board-component-seeds.json:major-003",
+      "reference_designator": "J8",
+      "pin_number": "25",
+      "photo_bbox_xyxy_pixels": [
+        1675,
+        1320,
+        1711,
+        1346
+      ],
+      "source_net": "GND",
+      "source_net_semantics": "reduced_schematic_net_name_not_measured_on_photo",
+      "source_document_path": "data/board-sources/raspberry-pi-3b-v1.2/reduced-schematic.pdf",
+      "pin_identity_evidence": "Visible J8 silkscreen at the upper end of the 40-contact header, board marking Raspberry Pi 3 Model B V1.2, and chamfered/rounded top-inner silkscreen corner place physical pin 1 at the upper inner contact. Raspberry Pi connector guidance corroborates odd pins in the row away from the PCB edge; the revision-matched reduced schematic numbers J8 left column 1,3,...,39 and right column 2,4,...,40.",
+      "review_status": "visually_reviewed_pin_location",
+      "contact_location_confidence": "high"
+    },
+    {
+      "id": "pi-j8-26",
+      "image_file": "IMG_20261009_222248_1.jpg",
+      "image_sha256": "3a5504de5689de61986fecba368e65da3b4862d38e69106c9e7c5d6f3ebed3b8",
+      "board_family": "raspberry_pi_3b_board",
+      "part_id": "IMG_20261009_222248_1.jpg:annotations/large-board-component-seeds.json:major-003",
+      "reference_designator": "J8",
+      "pin_number": "26",
+      "photo_bbox_xyxy_pixels": [
+        1753,
+        1320,
+        1791,
+        1346
+      ],
+      "source_net": "GPIO7",
+      "source_net_semantics": "reduced_schematic_net_name_not_measured_on_photo",
+      "source_document_path": "data/board-sources/raspberry-pi-3b-v1.2/reduced-schematic.pdf",
+      "pin_identity_evidence": "Visible J8 silkscreen at the upper end of the 40-contact header, board marking Raspberry Pi 3 Model B V1.2, and chamfered/rounded top-inner silkscreen corner place physical pin 1 at the upper inner contact. Raspberry Pi connector guidance corroborates odd pins in the row away from the PCB edge; the revision-matched reduced schematic numbers J8 left column 1,3,...,39 and right column 2,4,...,40.",
+      "review_status": "visually_reviewed_pin_location",
+      "contact_location_confidence": "high"
+    },
+    {
+      "id": "pi-j8-27",
+      "image_file": "IMG_20261009_222248_1.jpg",
+      "image_sha256": "3a5504de5689de61986fecba368e65da3b4862d38e69106c9e7c5d6f3ebed3b8",
+      "board_family": "raspberry_pi_3b_board",
+      "part_id": "IMG_20261009_222248_1.jpg:annotations/large-board-component-seeds.json:major-003",
+      "reference_designator": "J8",
+      "pin_number": "27",
+      "photo_bbox_xyxy_pixels": [
+        1675,
+        1401,
+        1711,
+        1427
+      ],
+      "source_net": "ID_SD",
+      "source_net_semantics": "reduced_schematic_net_name_not_measured_on_photo",
+      "source_document_path": "data/board-sources/raspberry-pi-3b-v1.2/reduced-schematic.pdf",
+      "pin_identity_evidence": "Visible J8 silkscreen at the upper end of the 40-contact header, board marking Raspberry Pi 3 Model B V1.2, and chamfered/rounded top-inner silkscreen corner place physical pin 1 at the upper inner contact. Raspberry Pi connector guidance corroborates odd pins in the row away from the PCB edge; the revision-matched reduced schematic numbers J8 left column 1,3,...,39 and right column 2,4,...,40.",
+      "review_status": "visually_reviewed_pin_location",
+      "contact_location_confidence": "high"
+    },
+    {
+      "id": "pi-j8-28",
+      "image_file": "IMG_20261009_222248_1.jpg",
+      "image_sha256": "3a5504de5689de61986fecba368e65da3b4862d38e69106c9e7c5d6f3ebed3b8",
+      "board_family": "raspberry_pi_3b_board",
+      "part_id": "IMG_20261009_222248_1.jpg:annotations/large-board-component-seeds.json:major-003",
+      "reference_designator": "J8",
+      "pin_number": "28",
+      "photo_bbox_xyxy_pixels": [
+        1753,
+        1401,
+        1791,
+        1427
+      ],
+      "source_net": "ID_SC",
+      "source_net_semantics": "reduced_schematic_net_name_not_measured_on_photo",
+      "source_document_path": "data/board-sources/raspberry-pi-3b-v1.2/reduced-schematic.pdf",
+      "pin_identity_evidence": "Visible J8 silkscreen at the upper end of the 40-contact header, board marking Raspberry Pi 3 Model B V1.2, and chamfered/rounded top-inner silkscreen corner place physical pin 1 at the upper inner contact. Raspberry Pi connector guidance corroborates odd pins in the row away from the PCB edge; the revision-matched reduced schematic numbers J8 left column 1,3,...,39 and right column 2,4,...,40.",
+      "review_status": "visually_reviewed_pin_location",
+      "contact_location_confidence": "high"
+    },
+    {
+      "id": "pi-j8-29",
+      "image_file": "IMG_20261009_222248_1.jpg",
+      "image_sha256": "3a5504de5689de61986fecba368e65da3b4862d38e69106c9e7c5d6f3ebed3b8",
+      "board_family": "raspberry_pi_3b_board",
+      "part_id": "IMG_20261009_222248_1.jpg:annotations/large-board-component-seeds.json:major-003",
+      "reference_designator": "J8",
+      "pin_number": "29",
+      "photo_bbox_xyxy_pixels": [
+        1675,
+        1486,
+        1711,
+        1512
+      ],
+      "source_net": "GPIO5",
+      "source_net_semantics": "reduced_schematic_net_name_not_measured_on_photo",
+      "source_document_path": "data/board-sources/raspberry-pi-3b-v1.2/reduced-schematic.pdf",
+      "pin_identity_evidence": "Visible J8 silkscreen at the upper end of the 40-contact header, board marking Raspberry Pi 3 Model B V1.2, and chamfered/rounded top-inner silkscreen corner place physical pin 1 at the upper inner contact. Raspberry Pi connector guidance corroborates odd pins in the row away from the PCB edge; the revision-matched reduced schematic numbers J8 left column 1,3,...,39 and right column 2,4,...,40.",
+      "review_status": "visually_reviewed_pin_location",
+      "contact_location_confidence": "high"
+    },
+    {
+      "id": "pi-j8-30",
+      "image_file": "IMG_20261009_222248_1.jpg",
+      "image_sha256": "3a5504de5689de61986fecba368e65da3b4862d38e69106c9e7c5d6f3ebed3b8",
+      "board_family": "raspberry_pi_3b_board",
+      "part_id": "IMG_20261009_222248_1.jpg:annotations/large-board-component-seeds.json:major-003",
+      "reference_designator": "J8",
+      "pin_number": "30",
+      "photo_bbox_xyxy_pixels": [
+        1753,
+        1486,
+        1791,
+        1512
+      ],
+      "source_net": "GND",
+      "source_net_semantics": "reduced_schematic_net_name_not_measured_on_photo",
+      "source_document_path": "data/board-sources/raspberry-pi-3b-v1.2/reduced-schematic.pdf",
+      "pin_identity_evidence": "Visible J8 silkscreen at the upper end of the 40-contact header, board marking Raspberry Pi 3 Model B V1.2, and chamfered/rounded top-inner silkscreen corner place physical pin 1 at the upper inner contact. Raspberry Pi connector guidance corroborates odd pins in the row away from the PCB edge; the revision-matched reduced schematic numbers J8 left column 1,3,...,39 and right column 2,4,...,40.",
+      "review_status": "visually_reviewed_pin_location",
+      "contact_location_confidence": "high"
+    },
+    {
+      "id": "pi-j8-31",
+      "image_file": "IMG_20261009_222248_1.jpg",
+      "image_sha256": "3a5504de5689de61986fecba368e65da3b4862d38e69106c9e7c5d6f3ebed3b8",
+      "board_family": "raspberry_pi_3b_board",
+      "part_id": "IMG_20261009_222248_1.jpg:annotations/large-board-component-seeds.json:major-003",
+      "reference_designator": "J8",
+      "pin_number": "31",
+      "photo_bbox_xyxy_pixels": [
+        1675,
+        1569,
+        1711,
+        1595
+      ],
+      "source_net": "GPIO6",
+      "source_net_semantics": "reduced_schematic_net_name_not_measured_on_photo",
+      "source_document_path": "data/board-sources/raspberry-pi-3b-v1.2/reduced-schematic.pdf",
+      "pin_identity_evidence": "Visible J8 silkscreen at the upper end of the 40-contact header, board marking Raspberry Pi 3 Model B V1.2, and chamfered/rounded top-inner silkscreen corner place physical pin 1 at the upper inner contact. Raspberry Pi connector guidance corroborates odd pins in the row away from the PCB edge; the revision-matched reduced schematic numbers J8 left column 1,3,...,39 and right column 2,4,...,40.",
+      "review_status": "visually_reviewed_pin_location",
+      "contact_location_confidence": "high"
+    },
+    {
+      "id": "pi-j8-32",
+      "image_file": "IMG_20261009_222248_1.jpg",
+      "image_sha256": "3a5504de5689de61986fecba368e65da3b4862d38e69106c9e7c5d6f3ebed3b8",
+      "board_family": "raspberry_pi_3b_board",
+      "part_id": "IMG_20261009_222248_1.jpg:annotations/large-board-component-seeds.json:major-003",
+      "reference_designator": "J8",
+      "pin_number": "32",
+      "photo_bbox_xyxy_pixels": [
+        1753,
+        1569,
+        1791,
+        1595
+      ],
+      "source_net": "GPIO12",
+      "source_net_semantics": "reduced_schematic_net_name_not_measured_on_photo",
+      "source_document_path": "data/board-sources/raspberry-pi-3b-v1.2/reduced-schematic.pdf",
+      "pin_identity_evidence": "Visible J8 silkscreen at the upper end of the 40-contact header, board marking Raspberry Pi 3 Model B V1.2, and chamfered/rounded top-inner silkscreen corner place physical pin 1 at the upper inner contact. Raspberry Pi connector guidance corroborates odd pins in the row away from the PCB edge; the revision-matched reduced schematic numbers J8 left column 1,3,...,39 and right column 2,4,...,40.",
+      "review_status": "visually_reviewed_pin_location",
+      "contact_location_confidence": "high"
+    },
+    {
+      "id": "pi-j8-33",
+      "image_file": "IMG_20261009_222248_1.jpg",
+      "image_sha256": "3a5504de5689de61986fecba368e65da3b4862d38e69106c9e7c5d6f3ebed3b8",
+      "board_family": "raspberry_pi_3b_board",
+      "part_id": "IMG_20261009_222248_1.jpg:annotations/large-board-component-seeds.json:major-003",
+      "reference_designator": "J8",
+      "pin_number": "33",
+      "photo_bbox_xyxy_pixels": [
+        1675,
+        1650,
+        1711,
+        1676
+      ],
+      "source_net": "GPIO13",
+      "source_net_semantics": "reduced_schematic_net_name_not_measured_on_photo",
+      "source_document_path": "data/board-sources/raspberry-pi-3b-v1.2/reduced-schematic.pdf",
+      "pin_identity_evidence": "Visible J8 silkscreen at the upper end of the 40-contact header, board marking Raspberry Pi 3 Model B V1.2, and chamfered/rounded top-inner silkscreen corner place physical pin 1 at the upper inner contact. Raspberry Pi connector guidance corroborates odd pins in the row away from the PCB edge; the revision-matched reduced schematic numbers J8 left column 1,3,...,39 and right column 2,4,...,40.",
+      "review_status": "visually_reviewed_pin_location",
+      "contact_location_confidence": "moderate"
+    },
+    {
+      "id": "pi-j8-34",
+      "image_file": "IMG_20261009_222248_1.jpg",
+      "image_sha256": "3a5504de5689de61986fecba368e65da3b4862d38e69106c9e7c5d6f3ebed3b8",
+      "board_family": "raspberry_pi_3b_board",
+      "part_id": "IMG_20261009_222248_1.jpg:annotations/large-board-component-seeds.json:major-003",
+      "reference_designator": "J8",
+      "pin_number": "34",
+      "photo_bbox_xyxy_pixels": [
+        1753,
+        1650,
+        1791,
+        1676
+      ],
+      "source_net": "GND",
+      "source_net_semantics": "reduced_schematic_net_name_not_measured_on_photo",
+      "source_document_path": "data/board-sources/raspberry-pi-3b-v1.2/reduced-schematic.pdf",
+      "pin_identity_evidence": "Visible J8 silkscreen at the upper end of the 40-contact header, board marking Raspberry Pi 3 Model B V1.2, and chamfered/rounded top-inner silkscreen corner place physical pin 1 at the upper inner contact. Raspberry Pi connector guidance corroborates odd pins in the row away from the PCB edge; the revision-matched reduced schematic numbers J8 left column 1,3,...,39 and right column 2,4,...,40.",
+      "review_status": "visually_reviewed_pin_location",
+      "contact_location_confidence": "moderate"
+    },
+    {
+      "id": "pi-j8-35",
+      "image_file": "IMG_20261009_222248_1.jpg",
+      "image_sha256": "3a5504de5689de61986fecba368e65da3b4862d38e69106c9e7c5d6f3ebed3b8",
+      "board_family": "raspberry_pi_3b_board",
+      "part_id": "IMG_20261009_222248_1.jpg:annotations/large-board-component-seeds.json:major-003",
+      "reference_designator": "J8",
+      "pin_number": "35",
+      "photo_bbox_xyxy_pixels": [
+        1675,
+        1734,
+        1711,
+        1760
+      ],
+      "source_net": "GPIO19",
+      "source_net_semantics": "reduced_schematic_net_name_not_measured_on_photo",
+      "source_document_path": "data/board-sources/raspberry-pi-3b-v1.2/reduced-schematic.pdf",
+      "pin_identity_evidence": "Visible J8 silkscreen at the upper end of the 40-contact header, board marking Raspberry Pi 3 Model B V1.2, and chamfered/rounded top-inner silkscreen corner place physical pin 1 at the upper inner contact. Raspberry Pi connector guidance corroborates odd pins in the row away from the PCB edge; the revision-matched reduced schematic numbers J8 left column 1,3,...,39 and right column 2,4,...,40.",
+      "review_status": "visually_reviewed_pin_location",
+      "contact_location_confidence": "moderate"
+    },
+    {
+      "id": "pi-j8-36",
+      "image_file": "IMG_20261009_222248_1.jpg",
+      "image_sha256": "3a5504de5689de61986fecba368e65da3b4862d38e69106c9e7c5d6f3ebed3b8",
+      "board_family": "raspberry_pi_3b_board",
+      "part_id": "IMG_20261009_222248_1.jpg:annotations/large-board-component-seeds.json:major-003",
+      "reference_designator": "J8",
+      "pin_number": "36",
+      "photo_bbox_xyxy_pixels": [
+        1753,
+        1734,
+        1791,
+        1760
+      ],
+      "source_net": "GPIO16",
+      "source_net_semantics": "reduced_schematic_net_name_not_measured_on_photo",
+      "source_document_path": "data/board-sources/raspberry-pi-3b-v1.2/reduced-schematic.pdf",
+      "pin_identity_evidence": "Visible J8 silkscreen at the upper end of the 40-contact header, board marking Raspberry Pi 3 Model B V1.2, and chamfered/rounded top-inner silkscreen corner place physical pin 1 at the upper inner contact. Raspberry Pi connector guidance corroborates odd pins in the row away from the PCB edge; the revision-matched reduced schematic numbers J8 left column 1,3,...,39 and right column 2,4,...,40.",
+      "review_status": "visually_reviewed_pin_location",
+      "contact_location_confidence": "moderate"
+    },
+    {
+      "id": "pi-j8-37",
+      "image_file": "IMG_20261009_222248_1.jpg",
+      "image_sha256": "3a5504de5689de61986fecba368e65da3b4862d38e69106c9e7c5d6f3ebed3b8",
+      "board_family": "raspberry_pi_3b_board",
+      "part_id": "IMG_20261009_222248_1.jpg:annotations/large-board-component-seeds.json:major-003",
+      "reference_designator": "J8",
+      "pin_number": "37",
+      "photo_bbox_xyxy_pixels": [
+        1675,
+        1820,
+        1711,
+        1846
+      ],
+      "source_net": "GPIO26",
+      "source_net_semantics": "reduced_schematic_net_name_not_measured_on_photo",
+      "source_document_path": "data/board-sources/raspberry-pi-3b-v1.2/reduced-schematic.pdf",
+      "pin_identity_evidence": "Visible J8 silkscreen at the upper end of the 40-contact header, board marking Raspberry Pi 3 Model B V1.2, and chamfered/rounded top-inner silkscreen corner place physical pin 1 at the upper inner contact. Raspberry Pi connector guidance corroborates odd pins in the row away from the PCB edge; the revision-matched reduced schematic numbers J8 left column 1,3,...,39 and right column 2,4,...,40.",
+      "review_status": "visually_reviewed_pin_location",
+      "contact_location_confidence": "moderate"
+    },
+    {
+      "id": "pi-j8-38",
+      "image_file": "IMG_20261009_222248_1.jpg",
+      "image_sha256": "3a5504de5689de61986fecba368e65da3b4862d38e69106c9e7c5d6f3ebed3b8",
+      "board_family": "raspberry_pi_3b_board",
+      "part_id": "IMG_20261009_222248_1.jpg:annotations/large-board-component-seeds.json:major-003",
+      "reference_designator": "J8",
+      "pin_number": "38",
+      "photo_bbox_xyxy_pixels": [
+        1753,
+        1820,
+        1791,
+        1846
+      ],
+      "source_net": "GPIO20",
+      "source_net_semantics": "reduced_schematic_net_name_not_measured_on_photo",
+      "source_document_path": "data/board-sources/raspberry-pi-3b-v1.2/reduced-schematic.pdf",
+      "pin_identity_evidence": "Visible J8 silkscreen at the upper end of the 40-contact header, board marking Raspberry Pi 3 Model B V1.2, and chamfered/rounded top-inner silkscreen corner place physical pin 1 at the upper inner contact. Raspberry Pi connector guidance corroborates odd pins in the row away from the PCB edge; the revision-matched reduced schematic numbers J8 left column 1,3,...,39 and right column 2,4,...,40.",
+      "review_status": "visually_reviewed_pin_location",
+      "contact_location_confidence": "moderate"
+    },
+    {
+      "id": "pi-j8-39",
+      "image_file": "IMG_20261009_222248_1.jpg",
+      "image_sha256": "3a5504de5689de61986fecba368e65da3b4862d38e69106c9e7c5d6f3ebed3b8",
+      "board_family": "raspberry_pi_3b_board",
+      "part_id": "IMG_20261009_222248_1.jpg:annotations/large-board-component-seeds.json:major-003",
+      "reference_designator": "J8",
+      "pin_number": "39",
+      "photo_bbox_xyxy_pixels": [
+        1675,
+        1897,
+        1711,
+        1920
+      ],
+      "source_net": "GND",
+      "source_net_semantics": "reduced_schematic_net_name_not_measured_on_photo",
+      "source_document_path": "data/board-sources/raspberry-pi-3b-v1.2/reduced-schematic.pdf",
+      "pin_identity_evidence": "Visible J8 silkscreen at the upper end of the 40-contact header, board marking Raspberry Pi 3 Model B V1.2, and chamfered/rounded top-inner silkscreen corner place physical pin 1 at the upper inner contact. Raspberry Pi connector guidance corroborates odd pins in the row away from the PCB edge; the revision-matched reduced schematic numbers J8 left column 1,3,...,39 and right column 2,4,...,40.",
+      "review_status": "visually_reviewed_pin_location",
+      "contact_location_confidence": "moderate"
+    },
+    {
+      "id": "pi-j8-40",
+      "image_file": "IMG_20261009_222248_1.jpg",
+      "image_sha256": "3a5504de5689de61986fecba368e65da3b4862d38e69106c9e7c5d6f3ebed3b8",
+      "board_family": "raspberry_pi_3b_board",
+      "part_id": "IMG_20261009_222248_1.jpg:annotations/large-board-component-seeds.json:major-003",
+      "reference_designator": "J8",
+      "pin_number": "40",
+      "photo_bbox_xyxy_pixels": [
+        1753,
+        1897,
+        1791,
+        1920
+      ],
+      "source_net": "GPIO21",
+      "source_net_semantics": "reduced_schematic_net_name_not_measured_on_photo",
+      "source_document_path": "data/board-sources/raspberry-pi-3b-v1.2/reduced-schematic.pdf",
+      "pin_identity_evidence": "Visible J8 silkscreen at the upper end of the 40-contact header, board marking Raspberry Pi 3 Model B V1.2, and chamfered/rounded top-inner silkscreen corner place physical pin 1 at the upper inner contact. Raspberry Pi connector guidance corroborates odd pins in the row away from the PCB edge; the revision-matched reduced schematic numbers J8 left column 1,3,...,39 and right column 2,4,...,40.",
+      "review_status": "visually_reviewed_pin_location",
+      "contact_location_confidence": "moderate"
+    }
+  ],
+  "caveats": [
+    "The reduced schematic proves documented net names and physical numbering but does not provide a native PCB pad export or electrical measurement of this specimen.",
+    "Contact tips are partially dark/soft in the lower rows; boxes localize exposed metal, not the whole plastic header cavity.",
+    "Only this original phone crop is labeled; related whole-frame shots and crop variants are not independent specimens."
+  ]
+}

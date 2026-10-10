@@ -1,0 +1,1515 @@
+{
+  "schema_version": "1.0",
+  "coordinate_system": "pixel_xyxy_origin_top_left",
+  "annotation_source": "assistant_visual_review_of_original_pixels",
+  "coverage": "Partial: two additional phone crop variants from other original captures. The ESP32 photograph has both outer contact rows. The ESP8266 photograph has 29 of 30 visible aliases; one ambiguous SO/S0 alias is deliberately excluded.",
+  "training_eligible": false,
+  "identity_policy": "board -> photographed contact-row part -> visible contact with printed alias. Alias strings establish neither physical numeric pin numbers nor schematic nets. Repeated captures of the same physical specimen are correlated and must stay in the same train/validation fold.",
+  "images": [
+    {
+      "image_file": "IMG_20261009_221841_1.jpg",
+      "image_sha256": "96feebbb125fab6a823afe695bcd02645056364f34ec18cdab46b7366a581033",
+      "image_width": 924,
+      "image_height": 1688,
+      "board_family": "esp32_board",
+      "parts": [
+        {
+          "id": "esp32-IMG_20261009_221841_1-left-contact-row",
+          "class": "through_hole_contact_row",
+          "photo_bbox_xyxy_pixels": [
+            2,
+            307,
+            66,
+            1546
+          ],
+          "review_status": "visually_reviewed_part_location",
+          "source_refdes": null,
+          "evidence": "Outer-edge through-hole solder contacts and adjacent silkscreen were checked against this photograph's pixels. The row is a photographed part identity, not an inferred header body or connector refdes.",
+          "truncated": false,
+          "pins": [
+            {
+              "id": "esp32-IMG_20261009_221841_1-left-contact-row-01-3v3",
+              "parent_part_id": "esp32-IMG_20261009_221841_1-left-contact-row",
+              "label_semantics": "board_silkscreen_alias",
+              "printed_alias": "3V3",
+              "pin_number": null,
+              "source_net": null,
+              "source_refdes": null,
+              "photo_bbox_xyxy_pixels": [
+                3,
+                314,
+                65,
+                378
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                68,
+                308,
+                143,
+                384
+              ],
+              "review_status": "visually_reviewed_contact_and_printed_alias",
+              "evidence": "The 3V3 silkscreen is adjacent to this individual outer-edge through-hole solder contact in the inspected original pixels. It is a transcribed alias, without inferred numeric pin number or schematic net.",
+              "truncated": false
+            },
+            {
+              "id": "esp32-IMG_20261009_221841_1-left-contact-row-02-gnd",
+              "parent_part_id": "esp32-IMG_20261009_221841_1-left-contact-row",
+              "label_semantics": "board_silkscreen_alias",
+              "printed_alias": "GND",
+              "pin_number": null,
+              "source_net": null,
+              "source_refdes": null,
+              "photo_bbox_xyxy_pixels": [
+                3,
+                396,
+                65,
+                460
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                68,
+                390,
+                143,
+                466
+              ],
+              "review_status": "visually_reviewed_contact_and_printed_alias",
+              "evidence": "The GND silkscreen is adjacent to this individual outer-edge through-hole solder contact in the inspected original pixels. It is a transcribed alias, without inferred numeric pin number or schematic net.",
+              "truncated": false
+            },
+            {
+              "id": "esp32-IMG_20261009_221841_1-left-contact-row-03-d15",
+              "parent_part_id": "esp32-IMG_20261009_221841_1-left-contact-row",
+              "label_semantics": "board_silkscreen_alias",
+              "printed_alias": "D15",
+              "pin_number": null,
+              "source_net": null,
+              "source_refdes": null,
+              "photo_bbox_xyxy_pixels": [
+                3,
+                479,
+                65,
+                543
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                68,
+                473,
+                143,
+                549
+              ],
+              "review_status": "visually_reviewed_contact_and_printed_alias",
+              "evidence": "The D15 silkscreen is adjacent to this individual outer-edge through-hole solder contact in the inspected original pixels. It is a transcribed alias, without inferred numeric pin number or schematic net.",
+              "truncated": false
+            },
+            {
+              "id": "esp32-IMG_20261009_221841_1-left-contact-row-04-d2",
+              "parent_part_id": "esp32-IMG_20261009_221841_1-left-contact-row",
+              "label_semantics": "board_silkscreen_alias",
+              "printed_alias": "D2",
+              "pin_number": null,
+              "source_net": null,
+              "source_refdes": null,
+              "photo_bbox_xyxy_pixels": [
+                3,
+                562,
+                65,
+                626
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                68,
+                556,
+                143,
+                632
+              ],
+              "review_status": "visually_reviewed_contact_and_printed_alias",
+              "evidence": "The D2 silkscreen is adjacent to this individual outer-edge through-hole solder contact in the inspected original pixels. It is a transcribed alias, without inferred numeric pin number or schematic net.",
+              "truncated": false
+            },
+            {
+              "id": "esp32-IMG_20261009_221841_1-left-contact-row-05-d4",
+              "parent_part_id": "esp32-IMG_20261009_221841_1-left-contact-row",
+              "label_semantics": "board_silkscreen_alias",
+              "printed_alias": "D4",
+              "pin_number": null,
+              "source_net": null,
+              "source_refdes": null,
+              "photo_bbox_xyxy_pixels": [
+                3,
+                645,
+                65,
+                709
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                68,
+                639,
+                143,
+                715
+              ],
+              "review_status": "visually_reviewed_contact_and_printed_alias",
+              "evidence": "The D4 silkscreen is adjacent to this individual outer-edge through-hole solder contact in the inspected original pixels. It is a transcribed alias, without inferred numeric pin number or schematic net.",
+              "truncated": false
+            },
+            {
+              "id": "esp32-IMG_20261009_221841_1-left-contact-row-06-rx2",
+              "parent_part_id": "esp32-IMG_20261009_221841_1-left-contact-row",
+              "label_semantics": "board_silkscreen_alias",
+              "printed_alias": "RX2",
+              "pin_number": null,
+              "source_net": null,
+              "source_refdes": null,
+              "photo_bbox_xyxy_pixels": [
+                3,
+                728,
+                65,
+                792
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                68,
+                722,
+                143,
+                798
+              ],
+              "review_status": "visually_reviewed_contact_and_printed_alias",
+              "evidence": "The RX2 silkscreen is adjacent to this individual outer-edge through-hole solder contact in the inspected original pixels. It is a transcribed alias, without inferred numeric pin number or schematic net.",
+              "truncated": false
+            },
+            {
+              "id": "esp32-IMG_20261009_221841_1-left-contact-row-07-tx2",
+              "parent_part_id": "esp32-IMG_20261009_221841_1-left-contact-row",
+              "label_semantics": "board_silkscreen_alias",
+              "printed_alias": "TX2",
+              "pin_number": null,
+              "source_net": null,
+              "source_refdes": null,
+              "photo_bbox_xyxy_pixels": [
+                3,
+                811,
+                65,
+                875
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                68,
+                805,
+                143,
+                881
+              ],
+              "review_status": "visually_reviewed_contact_and_printed_alias",
+              "evidence": "The TX2 silkscreen is adjacent to this individual outer-edge through-hole solder contact in the inspected original pixels. It is a transcribed alias, without inferred numeric pin number or schematic net.",
+              "truncated": false
+            },
+            {
+              "id": "esp32-IMG_20261009_221841_1-left-contact-row-08-d5",
+              "parent_part_id": "esp32-IMG_20261009_221841_1-left-contact-row",
+              "label_semantics": "board_silkscreen_alias",
+              "printed_alias": "D5",
+              "pin_number": null,
+              "source_net": null,
+              "source_refdes": null,
+              "photo_bbox_xyxy_pixels": [
+                3,
+                894,
+                65,
+                958
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                68,
+                888,
+                143,
+                964
+              ],
+              "review_status": "visually_reviewed_contact_and_printed_alias",
+              "evidence": "The D5 silkscreen is adjacent to this individual outer-edge through-hole solder contact in the inspected original pixels. It is a transcribed alias, without inferred numeric pin number or schematic net.",
+              "truncated": false
+            },
+            {
+              "id": "esp32-IMG_20261009_221841_1-left-contact-row-09-d18",
+              "parent_part_id": "esp32-IMG_20261009_221841_1-left-contact-row",
+              "label_semantics": "board_silkscreen_alias",
+              "printed_alias": "D18",
+              "pin_number": null,
+              "source_net": null,
+              "source_refdes": null,
+              "photo_bbox_xyxy_pixels": [
+                3,
+                977,
+                65,
+                1041
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                68,
+                971,
+                143,
+                1047
+              ],
+              "review_status": "visually_reviewed_contact_and_printed_alias",
+              "evidence": "The D18 silkscreen is adjacent to this individual outer-edge through-hole solder contact in the inspected original pixels. It is a transcribed alias, without inferred numeric pin number or schematic net.",
+              "truncated": false
+            },
+            {
+              "id": "esp32-IMG_20261009_221841_1-left-contact-row-10-d19",
+              "parent_part_id": "esp32-IMG_20261009_221841_1-left-contact-row",
+              "label_semantics": "board_silkscreen_alias",
+              "printed_alias": "D19",
+              "pin_number": null,
+              "source_net": null,
+              "source_refdes": null,
+              "photo_bbox_xyxy_pixels": [
+                3,
+                1060,
+                65,
+                1124
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                68,
+                1054,
+                143,
+                1130
+              ],
+              "review_status": "visually_reviewed_contact_and_printed_alias",
+              "evidence": "The D19 silkscreen is adjacent to this individual outer-edge through-hole solder contact in the inspected original pixels. It is a transcribed alias, without inferred numeric pin number or schematic net.",
+              "truncated": false
+            },
+            {
+              "id": "esp32-IMG_20261009_221841_1-left-contact-row-11-d21",
+              "parent_part_id": "esp32-IMG_20261009_221841_1-left-contact-row",
+              "label_semantics": "board_silkscreen_alias",
+              "printed_alias": "D21",
+              "pin_number": null,
+              "source_net": null,
+              "source_refdes": null,
+              "photo_bbox_xyxy_pixels": [
+                3,
+                1143,
+                65,
+                1207
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                68,
+                1137,
+                143,
+                1213
+              ],
+              "review_status": "visually_reviewed_contact_and_printed_alias",
+              "evidence": "The D21 silkscreen is adjacent to this individual outer-edge through-hole solder contact in the inspected original pixels. It is a transcribed alias, without inferred numeric pin number or schematic net.",
+              "truncated": false
+            },
+            {
+              "id": "esp32-IMG_20261009_221841_1-left-contact-row-12-rx0",
+              "parent_part_id": "esp32-IMG_20261009_221841_1-left-contact-row",
+              "label_semantics": "board_silkscreen_alias",
+              "printed_alias": "RX0",
+              "pin_number": null,
+              "source_net": null,
+              "source_refdes": null,
+              "photo_bbox_xyxy_pixels": [
+                3,
+                1226,
+                65,
+                1290
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                68,
+                1220,
+                143,
+                1296
+              ],
+              "review_status": "visually_reviewed_contact_and_printed_alias",
+              "evidence": "The RX0 silkscreen is adjacent to this individual outer-edge through-hole solder contact in the inspected original pixels. It is a transcribed alias, without inferred numeric pin number or schematic net.",
+              "truncated": false
+            },
+            {
+              "id": "esp32-IMG_20261009_221841_1-left-contact-row-13-tx0",
+              "parent_part_id": "esp32-IMG_20261009_221841_1-left-contact-row",
+              "label_semantics": "board_silkscreen_alias",
+              "printed_alias": "TX0",
+              "pin_number": null,
+              "source_net": null,
+              "source_refdes": null,
+              "photo_bbox_xyxy_pixels": [
+                3,
+                1309,
+                65,
+                1373
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                68,
+                1303,
+                143,
+                1379
+              ],
+              "review_status": "visually_reviewed_contact_and_printed_alias",
+              "evidence": "The TX0 silkscreen is adjacent to this individual outer-edge through-hole solder contact in the inspected original pixels. It is a transcribed alias, without inferred numeric pin number or schematic net.",
+              "truncated": false
+            },
+            {
+              "id": "esp32-IMG_20261009_221841_1-left-contact-row-14-d22",
+              "parent_part_id": "esp32-IMG_20261009_221841_1-left-contact-row",
+              "label_semantics": "board_silkscreen_alias",
+              "printed_alias": "D22",
+              "pin_number": null,
+              "source_net": null,
+              "source_refdes": null,
+              "photo_bbox_xyxy_pixels": [
+                3,
+                1392,
+                65,
+                1456
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                68,
+                1386,
+                143,
+                1462
+              ],
+              "review_status": "visually_reviewed_contact_and_printed_alias",
+              "evidence": "The D22 silkscreen is adjacent to this individual outer-edge through-hole solder contact in the inspected original pixels. It is a transcribed alias, without inferred numeric pin number or schematic net.",
+              "truncated": false
+            },
+            {
+              "id": "esp32-IMG_20261009_221841_1-left-contact-row-15-d23",
+              "parent_part_id": "esp32-IMG_20261009_221841_1-left-contact-row",
+              "label_semantics": "board_silkscreen_alias",
+              "printed_alias": "D23",
+              "pin_number": null,
+              "source_net": null,
+              "source_refdes": null,
+              "photo_bbox_xyxy_pixels": [
+                3,
+                1475,
+                65,
+                1539
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                68,
+                1469,
+                143,
+                1545
+              ],
+              "review_status": "visually_reviewed_contact_and_printed_alias",
+              "evidence": "The D23 silkscreen is adjacent to this individual outer-edge through-hole solder contact in the inspected original pixels. It is a transcribed alias, without inferred numeric pin number or schematic net.",
+              "truncated": false
+            }
+          ]
+        },
+        {
+          "id": "esp32-IMG_20261009_221841_1-right-contact-row",
+          "class": "through_hole_contact_row",
+          "photo_bbox_xyxy_pixels": [
+            852,
+            307,
+            921,
+            1546
+          ],
+          "review_status": "visually_reviewed_part_location",
+          "source_refdes": null,
+          "evidence": "Outer-edge through-hole solder contacts and adjacent silkscreen were checked against this photograph's pixels. The row is a photographed part identity, not an inferred header body or connector refdes.",
+          "truncated": false,
+          "pins": [
+            {
+              "id": "esp32-IMG_20261009_221841_1-right-contact-row-01-vn",
+              "parent_part_id": "esp32-IMG_20261009_221841_1-right-contact-row",
+              "label_semantics": "board_silkscreen_alias",
+              "printed_alias": "VN",
+              "pin_number": null,
+              "source_net": null,
+              "source_refdes": null,
+              "photo_bbox_xyxy_pixels": [
+                854,
+                314,
+                919,
+                378
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                773,
+                308,
+                851,
+                384
+              ],
+              "review_status": "visually_reviewed_contact_and_printed_alias",
+              "evidence": "The VN silkscreen is adjacent to this individual outer-edge through-hole solder contact in the inspected original pixels. It is a transcribed alias, without inferred numeric pin number or schematic net.",
+              "truncated": false
+            },
+            {
+              "id": "esp32-IMG_20261009_221841_1-right-contact-row-02-gnd",
+              "parent_part_id": "esp32-IMG_20261009_221841_1-right-contact-row",
+              "label_semantics": "board_silkscreen_alias",
+              "printed_alias": "GND",
+              "pin_number": null,
+              "source_net": null,
+              "source_refdes": null,
+              "photo_bbox_xyxy_pixels": [
+                854,
+                396,
+                919,
+                460
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                773,
+                390,
+                851,
+                466
+              ],
+              "review_status": "visually_reviewed_contact_and_printed_alias",
+              "evidence": "The GND silkscreen is adjacent to this individual outer-edge through-hole solder contact in the inspected original pixels. It is a transcribed alias, without inferred numeric pin number or schematic net.",
+              "truncated": false
+            },
+            {
+              "id": "esp32-IMG_20261009_221841_1-right-contact-row-03-d13",
+              "parent_part_id": "esp32-IMG_20261009_221841_1-right-contact-row",
+              "label_semantics": "board_silkscreen_alias",
+              "printed_alias": "D13",
+              "pin_number": null,
+              "source_net": null,
+              "source_refdes": null,
+              "photo_bbox_xyxy_pixels": [
+                854,
+                479,
+                919,
+                543
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                773,
+                473,
+                851,
+                549
+              ],
+              "review_status": "visually_reviewed_contact_and_printed_alias",
+              "evidence": "The D13 silkscreen is adjacent to this individual outer-edge through-hole solder contact in the inspected original pixels. It is a transcribed alias, without inferred numeric pin number or schematic net.",
+              "truncated": false
+            },
+            {
+              "id": "esp32-IMG_20261009_221841_1-right-contact-row-04-d12",
+              "parent_part_id": "esp32-IMG_20261009_221841_1-right-contact-row",
+              "label_semantics": "board_silkscreen_alias",
+              "printed_alias": "D12",
+              "pin_number": null,
+              "source_net": null,
+              "source_refdes": null,
+              "photo_bbox_xyxy_pixels": [
+                854,
+                562,
+                919,
+                626
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                773,
+                556,
+                851,
+                632
+              ],
+              "review_status": "visually_reviewed_contact_and_printed_alias",
+              "evidence": "The D12 silkscreen is adjacent to this individual outer-edge through-hole solder contact in the inspected original pixels. It is a transcribed alias, without inferred numeric pin number or schematic net.",
+              "truncated": false
+            },
+            {
+              "id": "esp32-IMG_20261009_221841_1-right-contact-row-05-d14",
+              "parent_part_id": "esp32-IMG_20261009_221841_1-right-contact-row",
+              "label_semantics": "board_silkscreen_alias",
+              "printed_alias": "D14",
+              "pin_number": null,
+              "source_net": null,
+              "source_refdes": null,
+              "photo_bbox_xyxy_pixels": [
+                854,
+                645,
+                919,
+                709
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                773,
+                639,
+                851,
+                715
+              ],
+              "review_status": "visually_reviewed_contact_and_printed_alias",
+              "evidence": "The D14 silkscreen is adjacent to this individual outer-edge through-hole solder contact in the inspected original pixels. It is a transcribed alias, without inferred numeric pin number or schematic net.",
+              "truncated": false
+            },
+            {
+              "id": "esp32-IMG_20261009_221841_1-right-contact-row-06-d27",
+              "parent_part_id": "esp32-IMG_20261009_221841_1-right-contact-row",
+              "label_semantics": "board_silkscreen_alias",
+              "printed_alias": "D27",
+              "pin_number": null,
+              "source_net": null,
+              "source_refdes": null,
+              "photo_bbox_xyxy_pixels": [
+                854,
+                728,
+                919,
+                792
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                773,
+                722,
+                851,
+                798
+              ],
+              "review_status": "visually_reviewed_contact_and_printed_alias",
+              "evidence": "The D27 silkscreen is adjacent to this individual outer-edge through-hole solder contact in the inspected original pixels. It is a transcribed alias, without inferred numeric pin number or schematic net.",
+              "truncated": false
+            },
+            {
+              "id": "esp32-IMG_20261009_221841_1-right-contact-row-07-d26",
+              "parent_part_id": "esp32-IMG_20261009_221841_1-right-contact-row",
+              "label_semantics": "board_silkscreen_alias",
+              "printed_alias": "D26",
+              "pin_number": null,
+              "source_net": null,
+              "source_refdes": null,
+              "photo_bbox_xyxy_pixels": [
+                854,
+                811,
+                919,
+                875
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                773,
+                805,
+                851,
+                881
+              ],
+              "review_status": "visually_reviewed_contact_and_printed_alias",
+              "evidence": "The D26 silkscreen is adjacent to this individual outer-edge through-hole solder contact in the inspected original pixels. It is a transcribed alias, without inferred numeric pin number or schematic net.",
+              "truncated": false
+            },
+            {
+              "id": "esp32-IMG_20261009_221841_1-right-contact-row-08-d25",
+              "parent_part_id": "esp32-IMG_20261009_221841_1-right-contact-row",
+              "label_semantics": "board_silkscreen_alias",
+              "printed_alias": "D25",
+              "pin_number": null,
+              "source_net": null,
+              "source_refdes": null,
+              "photo_bbox_xyxy_pixels": [
+                854,
+                894,
+                919,
+                958
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                773,
+                888,
+                851,
+                964
+              ],
+              "review_status": "visually_reviewed_contact_and_printed_alias",
+              "evidence": "The D25 silkscreen is adjacent to this individual outer-edge through-hole solder contact in the inspected original pixels. It is a transcribed alias, without inferred numeric pin number or schematic net.",
+              "truncated": false
+            },
+            {
+              "id": "esp32-IMG_20261009_221841_1-right-contact-row-09-d33",
+              "parent_part_id": "esp32-IMG_20261009_221841_1-right-contact-row",
+              "label_semantics": "board_silkscreen_alias",
+              "printed_alias": "D33",
+              "pin_number": null,
+              "source_net": null,
+              "source_refdes": null,
+              "photo_bbox_xyxy_pixels": [
+                854,
+                977,
+                919,
+                1041
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                773,
+                971,
+                851,
+                1047
+              ],
+              "review_status": "visually_reviewed_contact_and_printed_alias",
+              "evidence": "The D33 silkscreen is adjacent to this individual outer-edge through-hole solder contact in the inspected original pixels. It is a transcribed alias, without inferred numeric pin number or schematic net.",
+              "truncated": false
+            },
+            {
+              "id": "esp32-IMG_20261009_221841_1-right-contact-row-10-d32",
+              "parent_part_id": "esp32-IMG_20261009_221841_1-right-contact-row",
+              "label_semantics": "board_silkscreen_alias",
+              "printed_alias": "D32",
+              "pin_number": null,
+              "source_net": null,
+              "source_refdes": null,
+              "photo_bbox_xyxy_pixels": [
+                854,
+                1060,
+                919,
+                1124
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                773,
+                1054,
+                851,
+                1130
+              ],
+              "review_status": "visually_reviewed_contact_and_printed_alias",
+              "evidence": "The D32 silkscreen is adjacent to this individual outer-edge through-hole solder contact in the inspected original pixels. It is a transcribed alias, without inferred numeric pin number or schematic net.",
+              "truncated": false
+            },
+            {
+              "id": "esp32-IMG_20261009_221841_1-right-contact-row-11-d35",
+              "parent_part_id": "esp32-IMG_20261009_221841_1-right-contact-row",
+              "label_semantics": "board_silkscreen_alias",
+              "printed_alias": "D35",
+              "pin_number": null,
+              "source_net": null,
+              "source_refdes": null,
+              "photo_bbox_xyxy_pixels": [
+                854,
+                1143,
+                919,
+                1207
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                773,
+                1137,
+                851,
+                1213
+              ],
+              "review_status": "visually_reviewed_contact_and_printed_alias",
+              "evidence": "The D35 silkscreen is adjacent to this individual outer-edge through-hole solder contact in the inspected original pixels. It is a transcribed alias, without inferred numeric pin number or schematic net.",
+              "truncated": false
+            },
+            {
+              "id": "esp32-IMG_20261009_221841_1-right-contact-row-12-d34",
+              "parent_part_id": "esp32-IMG_20261009_221841_1-right-contact-row",
+              "label_semantics": "board_silkscreen_alias",
+              "printed_alias": "D34",
+              "pin_number": null,
+              "source_net": null,
+              "source_refdes": null,
+              "photo_bbox_xyxy_pixels": [
+                854,
+                1226,
+                919,
+                1290
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                773,
+                1220,
+                851,
+                1296
+              ],
+              "review_status": "visually_reviewed_contact_and_printed_alias",
+              "evidence": "The D34 silkscreen is adjacent to this individual outer-edge through-hole solder contact in the inspected original pixels. It is a transcribed alias, without inferred numeric pin number or schematic net.",
+              "truncated": false
+            },
+            {
+              "id": "esp32-IMG_20261009_221841_1-right-contact-row-13-vn",
+              "parent_part_id": "esp32-IMG_20261009_221841_1-right-contact-row",
+              "label_semantics": "board_silkscreen_alias",
+              "printed_alias": "VN",
+              "pin_number": null,
+              "source_net": null,
+              "source_refdes": null,
+              "photo_bbox_xyxy_pixels": [
+                854,
+                1309,
+                919,
+                1373
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                773,
+                1303,
+                851,
+                1379
+              ],
+              "review_status": "visually_reviewed_contact_and_printed_alias",
+              "evidence": "The VN silkscreen is adjacent to this individual outer-edge through-hole solder contact in the inspected original pixels. It is a transcribed alias, without inferred numeric pin number or schematic net.",
+              "truncated": false
+            },
+            {
+              "id": "esp32-IMG_20261009_221841_1-right-contact-row-14-vp",
+              "parent_part_id": "esp32-IMG_20261009_221841_1-right-contact-row",
+              "label_semantics": "board_silkscreen_alias",
+              "printed_alias": "VP",
+              "pin_number": null,
+              "source_net": null,
+              "source_refdes": null,
+              "photo_bbox_xyxy_pixels": [
+                854,
+                1392,
+                919,
+                1456
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                773,
+                1386,
+                851,
+                1462
+              ],
+              "review_status": "visually_reviewed_contact_and_printed_alias",
+              "evidence": "The VP silkscreen is adjacent to this individual outer-edge through-hole solder contact in the inspected original pixels. It is a transcribed alias, without inferred numeric pin number or schematic net.",
+              "truncated": false
+            },
+            {
+              "id": "esp32-IMG_20261009_221841_1-right-contact-row-15-en",
+              "parent_part_id": "esp32-IMG_20261009_221841_1-right-contact-row",
+              "label_semantics": "board_silkscreen_alias",
+              "printed_alias": "EN",
+              "pin_number": null,
+              "source_net": null,
+              "source_refdes": null,
+              "photo_bbox_xyxy_pixels": [
+                854,
+                1475,
+                919,
+                1539
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                773,
+                1469,
+                851,
+                1545
+              ],
+              "review_status": "visually_reviewed_contact_and_printed_alias",
+              "evidence": "The EN silkscreen is adjacent to this individual outer-edge through-hole solder contact in the inspected original pixels. It is a transcribed alias, without inferred numeric pin number or schematic net.",
+              "truncated": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image_file": "IMG_20261009_221952_1.jpg",
+      "image_sha256": "620f63dd4adf200c45ac8e7fefa5ef48ecf21d69c0a54e96983ca7471d29bf9c",
+      "image_width": 1004,
+      "image_height": 1830,
+      "board_family": "esp8266_board",
+      "parts": [
+        {
+          "id": "esp8266-IMG_20261009_221952_1-left-contact-row",
+          "class": "through_hole_contact_row",
+          "photo_bbox_xyxy_pixels": [
+            13,
+            289,
+            85,
+            1543
+          ],
+          "review_status": "visually_reviewed_part_location",
+          "source_refdes": null,
+          "evidence": "Outer-edge through-hole solder contacts and adjacent silkscreen were checked against this photograph's pixels. The row is a photographed part identity, not an inferred header body or connector refdes.",
+          "truncated": false,
+          "pins": [
+            {
+              "id": "esp8266-IMG_20261009_221952_1-left-contact-row-01-a0",
+              "parent_part_id": "esp8266-IMG_20261009_221952_1-left-contact-row",
+              "label_semantics": "board_silkscreen_alias",
+              "printed_alias": "A0",
+              "pin_number": null,
+              "source_net": null,
+              "source_refdes": null,
+              "photo_bbox_xyxy_pixels": [
+                15,
+                296,
+                83,
+                360
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                86,
+                290,
+                202,
+                366
+              ],
+              "review_status": "visually_reviewed_contact_and_printed_alias",
+              "evidence": "The A0 silkscreen is adjacent to this individual outer-edge through-hole solder contact in the inspected original pixels. It is a transcribed alias, without inferred numeric pin number or schematic net.",
+              "truncated": false
+            },
+            {
+              "id": "esp8266-IMG_20261009_221952_1-left-contact-row-02-g",
+              "parent_part_id": "esp8266-IMG_20261009_221952_1-left-contact-row",
+              "label_semantics": "board_silkscreen_alias",
+              "printed_alias": "G",
+              "pin_number": null,
+              "source_net": null,
+              "source_refdes": null,
+              "photo_bbox_xyxy_pixels": [
+                15,
+                380,
+                83,
+                444
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                86,
+                374,
+                202,
+                450
+              ],
+              "review_status": "visually_reviewed_contact_and_printed_alias",
+              "evidence": "The G silkscreen is adjacent to this individual outer-edge through-hole solder contact in the inspected original pixels. It is a transcribed alias, without inferred numeric pin number or schematic net.",
+              "truncated": false
+            },
+            {
+              "id": "esp8266-IMG_20261009_221952_1-left-contact-row-03-vu",
+              "parent_part_id": "esp8266-IMG_20261009_221952_1-left-contact-row",
+              "label_semantics": "board_silkscreen_alias",
+              "printed_alias": "VU",
+              "pin_number": null,
+              "source_net": null,
+              "source_refdes": null,
+              "photo_bbox_xyxy_pixels": [
+                15,
+                464,
+                83,
+                528
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                86,
+                458,
+                202,
+                534
+              ],
+              "review_status": "visually_reviewed_contact_and_printed_alias",
+              "evidence": "The VU silkscreen is adjacent to this individual outer-edge through-hole solder contact in the inspected original pixels. It is a transcribed alias, without inferred numeric pin number or schematic net.",
+              "truncated": false
+            },
+            {
+              "id": "esp8266-IMG_20261009_221952_1-left-contact-row-04-s3",
+              "parent_part_id": "esp8266-IMG_20261009_221952_1-left-contact-row",
+              "label_semantics": "board_silkscreen_alias",
+              "printed_alias": "S3",
+              "pin_number": null,
+              "source_net": null,
+              "source_refdes": null,
+              "photo_bbox_xyxy_pixels": [
+                15,
+                548,
+                83,
+                612
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                86,
+                542,
+                202,
+                618
+              ],
+              "review_status": "visually_reviewed_contact_and_printed_alias",
+              "evidence": "The S3 silkscreen is adjacent to this individual outer-edge through-hole solder contact in the inspected original pixels. It is a transcribed alias, without inferred numeric pin number or schematic net.",
+              "truncated": false
+            },
+            {
+              "id": "esp8266-IMG_20261009_221952_1-left-contact-row-05-s2",
+              "parent_part_id": "esp8266-IMG_20261009_221952_1-left-contact-row",
+              "label_semantics": "board_silkscreen_alias",
+              "printed_alias": "S2",
+              "pin_number": null,
+              "source_net": null,
+              "source_refdes": null,
+              "photo_bbox_xyxy_pixels": [
+                15,
+                632,
+                83,
+                696
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                86,
+                626,
+                202,
+                702
+              ],
+              "review_status": "visually_reviewed_contact_and_printed_alias",
+              "evidence": "The S2 silkscreen is adjacent to this individual outer-edge through-hole solder contact in the inspected original pixels. It is a transcribed alias, without inferred numeric pin number or schematic net.",
+              "truncated": false
+            },
+            {
+              "id": "esp8266-IMG_20261009_221952_1-left-contact-row-06-s1",
+              "parent_part_id": "esp8266-IMG_20261009_221952_1-left-contact-row",
+              "label_semantics": "board_silkscreen_alias",
+              "printed_alias": "S1",
+              "pin_number": null,
+              "source_net": null,
+              "source_refdes": null,
+              "photo_bbox_xyxy_pixels": [
+                15,
+                716,
+                83,
+                780
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                86,
+                710,
+                202,
+                786
+              ],
+              "review_status": "visually_reviewed_contact_and_printed_alias",
+              "evidence": "The S1 silkscreen is adjacent to this individual outer-edge through-hole solder contact in the inspected original pixels. It is a transcribed alias, without inferred numeric pin number or schematic net.",
+              "truncated": false
+            },
+            {
+              "id": "esp8266-IMG_20261009_221952_1-left-contact-row-07-sc",
+              "parent_part_id": "esp8266-IMG_20261009_221952_1-left-contact-row",
+              "label_semantics": "board_silkscreen_alias",
+              "printed_alias": "SC",
+              "pin_number": null,
+              "source_net": null,
+              "source_refdes": null,
+              "photo_bbox_xyxy_pixels": [
+                15,
+                800,
+                83,
+                864
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                86,
+                794,
+                202,
+                870
+              ],
+              "review_status": "visually_reviewed_contact_and_printed_alias",
+              "evidence": "The SC silkscreen is adjacent to this individual outer-edge through-hole solder contact in the inspected original pixels. It is a transcribed alias, without inferred numeric pin number or schematic net.",
+              "truncated": false
+            },
+            {
+              "id": "esp8266-IMG_20261009_221952_1-left-contact-row-09-sk",
+              "parent_part_id": "esp8266-IMG_20261009_221952_1-left-contact-row",
+              "label_semantics": "board_silkscreen_alias",
+              "printed_alias": "SK",
+              "pin_number": null,
+              "source_net": null,
+              "source_refdes": null,
+              "photo_bbox_xyxy_pixels": [
+                15,
+                968,
+                83,
+                1032
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                86,
+                962,
+                202,
+                1038
+              ],
+              "review_status": "visually_reviewed_contact_and_printed_alias",
+              "evidence": "The SK silkscreen is adjacent to this individual outer-edge through-hole solder contact in the inspected original pixels. It is a transcribed alias, without inferred numeric pin number or schematic net.",
+              "truncated": false
+            },
+            {
+              "id": "esp8266-IMG_20261009_221952_1-left-contact-row-10-g",
+              "parent_part_id": "esp8266-IMG_20261009_221952_1-left-contact-row",
+              "label_semantics": "board_silkscreen_alias",
+              "printed_alias": "G",
+              "pin_number": null,
+              "source_net": null,
+              "source_refdes": null,
+              "photo_bbox_xyxy_pixels": [
+                15,
+                1052,
+                83,
+                1116
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                86,
+                1046,
+                202,
+                1122
+              ],
+              "review_status": "visually_reviewed_contact_and_printed_alias",
+              "evidence": "The G silkscreen is adjacent to this individual outer-edge through-hole solder contact in the inspected original pixels. It is a transcribed alias, without inferred numeric pin number or schematic net.",
+              "truncated": false
+            },
+            {
+              "id": "esp8266-IMG_20261009_221952_1-left-contact-row-11-3v",
+              "parent_part_id": "esp8266-IMG_20261009_221952_1-left-contact-row",
+              "label_semantics": "board_silkscreen_alias",
+              "printed_alias": "3V",
+              "pin_number": null,
+              "source_net": null,
+              "source_refdes": null,
+              "photo_bbox_xyxy_pixels": [
+                15,
+                1136,
+                83,
+                1200
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                86,
+                1130,
+                202,
+                1206
+              ],
+              "review_status": "visually_reviewed_contact_and_printed_alias",
+              "evidence": "The 3V silkscreen is adjacent to this individual outer-edge through-hole solder contact in the inspected original pixels. It is a transcribed alias, without inferred numeric pin number or schematic net.",
+              "truncated": false
+            },
+            {
+              "id": "esp8266-IMG_20261009_221952_1-left-contact-row-12-en",
+              "parent_part_id": "esp8266-IMG_20261009_221952_1-left-contact-row",
+              "label_semantics": "board_silkscreen_alias",
+              "printed_alias": "EN",
+              "pin_number": null,
+              "source_net": null,
+              "source_refdes": null,
+              "photo_bbox_xyxy_pixels": [
+                15,
+                1220,
+                83,
+                1284
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                86,
+                1214,
+                202,
+                1290
+              ],
+              "review_status": "visually_reviewed_contact_and_printed_alias",
+              "evidence": "The EN silkscreen is adjacent to this individual outer-edge through-hole solder contact in the inspected original pixels. It is a transcribed alias, without inferred numeric pin number or schematic net.",
+              "truncated": false
+            },
+            {
+              "id": "esp8266-IMG_20261009_221952_1-left-contact-row-13-rst",
+              "parent_part_id": "esp8266-IMG_20261009_221952_1-left-contact-row",
+              "label_semantics": "board_silkscreen_alias",
+              "printed_alias": "RST",
+              "pin_number": null,
+              "source_net": null,
+              "source_refdes": null,
+              "photo_bbox_xyxy_pixels": [
+                15,
+                1304,
+                83,
+                1368
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                86,
+                1298,
+                202,
+                1374
+              ],
+              "review_status": "visually_reviewed_contact_and_printed_alias",
+              "evidence": "The RST silkscreen is adjacent to this individual outer-edge through-hole solder contact in the inspected original pixels. It is a transcribed alias, without inferred numeric pin number or schematic net.",
+              "truncated": false
+            },
+            {
+              "id": "esp8266-IMG_20261009_221952_1-left-contact-row-14-g",
+              "parent_part_id": "esp8266-IMG_20261009_221952_1-left-contact-row",
+              "label_semantics": "board_silkscreen_alias",
+              "printed_alias": "G",
+              "pin_number": null,
+              "source_net": null,
+              "source_refdes": null,
+              "photo_bbox_xyxy_pixels": [
+                15,
+                1388,
+                83,
+                1452
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                86,
+                1382,
+                202,
+                1458
+              ],
+              "review_status": "visually_reviewed_contact_and_printed_alias",
+              "evidence": "The G silkscreen is adjacent to this individual outer-edge through-hole solder contact in the inspected original pixels. It is a transcribed alias, without inferred numeric pin number or schematic net.",
+              "truncated": false
+            },
+            {
+              "id": "esp8266-IMG_20261009_221952_1-left-contact-row-15-vin",
+              "parent_part_id": "esp8266-IMG_20261009_221952_1-left-contact-row",
+              "label_semantics": "board_silkscreen_alias",
+              "printed_alias": "VIN",
+              "pin_number": null,
+              "source_net": null,
+              "source_refdes": null,
+              "photo_bbox_xyxy_pixels": [
+                15,
+                1472,
+                83,
+                1536
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                86,
+                1466,
+                202,
+                1542
+              ],
+              "review_status": "visually_reviewed_contact_and_printed_alias",
+              "evidence": "The VIN silkscreen is adjacent to this individual outer-edge through-hole solder contact in the inspected original pixels. It is a transcribed alias, without inferred numeric pin number or schematic net.",
+              "truncated": false
+            }
+          ]
+        },
+        {
+          "id": "esp8266-IMG_20261009_221952_1-right-contact-row",
+          "class": "through_hole_contact_row",
+          "photo_bbox_xyxy_pixels": [
+            930,
+            289,
+            1000,
+            1543
+          ],
+          "review_status": "visually_reviewed_part_location",
+          "source_refdes": null,
+          "evidence": "Outer-edge through-hole solder contacts and adjacent silkscreen were checked against this photograph's pixels. The row is a photographed part identity, not an inferred header body or connector refdes.",
+          "truncated": false,
+          "pins": [
+            {
+              "id": "esp8266-IMG_20261009_221952_1-right-contact-row-01-d0",
+              "parent_part_id": "esp8266-IMG_20261009_221952_1-right-contact-row",
+              "label_semantics": "board_silkscreen_alias",
+              "printed_alias": "D0",
+              "pin_number": null,
+              "source_net": null,
+              "source_refdes": null,
+              "photo_bbox_xyxy_pixels": [
+                932,
+                296,
+                998,
+                360
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                816,
+                290,
+                928,
+                366
+              ],
+              "review_status": "visually_reviewed_contact_and_printed_alias",
+              "evidence": "The D0 silkscreen is adjacent to this individual outer-edge through-hole solder contact in the inspected original pixels. It is a transcribed alias, without inferred numeric pin number or schematic net.",
+              "truncated": false
+            },
+            {
+              "id": "esp8266-IMG_20261009_221952_1-right-contact-row-02-d1",
+              "parent_part_id": "esp8266-IMG_20261009_221952_1-right-contact-row",
+              "label_semantics": "board_silkscreen_alias",
+              "printed_alias": "D1",
+              "pin_number": null,
+              "source_net": null,
+              "source_refdes": null,
+              "photo_bbox_xyxy_pixels": [
+                932,
+                380,
+                998,
+                444
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                816,
+                374,
+                928,
+                450
+              ],
+              "review_status": "visually_reviewed_contact_and_printed_alias",
+              "evidence": "The D1 silkscreen is adjacent to this individual outer-edge through-hole solder contact in the inspected original pixels. It is a transcribed alias, without inferred numeric pin number or schematic net.",
+              "truncated": false
+            },
+            {
+              "id": "esp8266-IMG_20261009_221952_1-right-contact-row-03-d2",
+              "parent_part_id": "esp8266-IMG_20261009_221952_1-right-contact-row",
+              "label_semantics": "board_silkscreen_alias",
+              "printed_alias": "D2",
+              "pin_number": null,
+              "source_net": null,
+              "source_refdes": null,
+              "photo_bbox_xyxy_pixels": [
+                932,
+                464,
+                998,
+                528
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                816,
+                458,
+                928,
+                534
+              ],
+              "review_status": "visually_reviewed_contact_and_printed_alias",
+              "evidence": "The D2 silkscreen is adjacent to this individual outer-edge through-hole solder contact in the inspected original pixels. It is a transcribed alias, without inferred numeric pin number or schematic net.",
+              "truncated": false
+            },
+            {
+              "id": "esp8266-IMG_20261009_221952_1-right-contact-row-04-d3",
+              "parent_part_id": "esp8266-IMG_20261009_221952_1-right-contact-row",
+              "label_semantics": "board_silkscreen_alias",
+              "printed_alias": "D3",
+              "pin_number": null,
+              "source_net": null,
+              "source_refdes": null,
+              "photo_bbox_xyxy_pixels": [
+                932,
+                548,
+                998,
+                612
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                816,
+                542,
+                928,
+                618
+              ],
+              "review_status": "visually_reviewed_contact_and_printed_alias",
+              "evidence": "The D3 silkscreen is adjacent to this individual outer-edge through-hole solder contact in the inspected original pixels. It is a transcribed alias, without inferred numeric pin number or schematic net.",
+              "truncated": false
+            },
+            {
+              "id": "esp8266-IMG_20261009_221952_1-right-contact-row-05-d4",
+              "parent_part_id": "esp8266-IMG_20261009_221952_1-right-contact-row",
+              "label_semantics": "board_silkscreen_alias",
+              "printed_alias": "D4",
+              "pin_number": null,
+              "source_net": null,
+              "source_refdes": null,
+              "photo_bbox_xyxy_pixels": [
+                932,
+                632,
+                998,
+                696
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                816,
+                626,
+                928,
+                702
+              ],
+              "review_status": "visually_reviewed_contact_and_printed_alias",
+              "evidence": "The D4 silkscreen is adjacent to this individual outer-edge through-hole solder contact in the inspected original pixels. It is a transcribed alias, without inferred numeric pin number or schematic net.",
+              "truncated": false
+            },
+            {
+              "id": "esp8266-IMG_20261009_221952_1-right-contact-row-06-3v",
+              "parent_part_id": "esp8266-IMG_20261009_221952_1-right-contact-row",
+              "label_semantics": "board_silkscreen_alias",
+              "printed_alias": "3V",
+              "pin_number": null,
+              "source_net": null,
+              "source_refdes": null,
+              "photo_bbox_xyxy_pixels": [
+                932,
+                716,
+                998,
+                780
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                816,
+                710,
+                928,
+                786
+              ],
+              "review_status": "visually_reviewed_contact_and_printed_alias",
+              "evidence": "The 3V silkscreen is adjacent to this individual outer-edge through-hole solder contact in the inspected original pixels. It is a transcribed alias, without inferred numeric pin number or schematic net.",
+              "truncated": false
+            },
+            {
+              "id": "esp8266-IMG_20261009_221952_1-right-contact-row-07-g",
+              "parent_part_id": "esp8266-IMG_20261009_221952_1-right-contact-row",
+              "label_semantics": "board_silkscreen_alias",
+              "printed_alias": "G",
+              "pin_number": null,
+              "source_net": null,
+              "source_refdes": null,
+              "photo_bbox_xyxy_pixels": [
+                932,
+                800,
+                998,
+                864
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                816,
+                794,
+                928,
+                870
+              ],
+              "review_status": "visually_reviewed_contact_and_printed_alias",
+              "evidence": "The G silkscreen is adjacent to this individual outer-edge through-hole solder contact in the inspected original pixels. It is a transcribed alias, without inferred numeric pin number or schematic net.",
+              "truncated": false
+            },
+            {
+              "id": "esp8266-IMG_20261009_221952_1-right-contact-row-08-d5",
+              "parent_part_id": "esp8266-IMG_20261009_221952_1-right-contact-row",
+              "label_semantics": "board_silkscreen_alias",
+              "printed_alias": "D5",
+              "pin_number": null,
+              "source_net": null,
+              "source_refdes": null,
+              "photo_bbox_xyxy_pixels": [
+                932,
+                884,
+                998,
+                948
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                816,
+                878,
+                928,
+                954
+              ],
+              "review_status": "visually_reviewed_contact_and_printed_alias",
+              "evidence": "The D5 silkscreen is adjacent to this individual outer-edge through-hole solder contact in the inspected original pixels. It is a transcribed alias, without inferred numeric pin number or schematic net.",
+              "truncated": false
+            },
+            {
+              "id": "esp8266-IMG_20261009_221952_1-right-contact-row-09-d6",
+              "parent_part_id": "esp8266-IMG_20261009_221952_1-right-contact-row",
+              "label_semantics": "board_silkscreen_alias",
+              "printed_alias": "D6",
+              "pin_number": null,
+              "source_net": null,
+              "source_refdes": null,
+              "photo_bbox_xyxy_pixels": [
+                932,
+                968,
+                998,
+                1032
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                816,
+                962,
+                928,
+                1038
+              ],
+              "review_status": "visually_reviewed_contact_and_printed_alias",
+              "evidence": "The D6 silkscreen is adjacent to this individual outer-edge through-hole solder contact in the inspected original pixels. It is a transcribed alias, without inferred numeric pin number or schematic net.",
+              "truncated": false
+            },
+            {
+              "id": "esp8266-IMG_20261009_221952_1-right-contact-row-10-d7",
+              "parent_part_id": "esp8266-IMG_20261009_221952_1-right-contact-row",
+              "label_semantics": "board_silkscreen_alias",
+              "printed_alias": "D7",
+              "pin_number": null,
+              "source_net": null,
+              "source_refdes": null,
+              "photo_bbox_xyxy_pixels": [
+                932,
+                1052,
+                998,
+                1116
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                816,
+                1046,
+                928,
+                1122
+              ],
+              "review_status": "visually_reviewed_contact_and_printed_alias",
+              "evidence": "The D7 silkscreen is adjacent to this individual outer-edge through-hole solder contact in the inspected original pixels. It is a transcribed alias, without inferred numeric pin number or schematic net.",
+              "truncated": false
+            },
+            {
+              "id": "esp8266-IMG_20261009_221952_1-right-contact-row-11-d8",
+              "parent_part_id": "esp8266-IMG_20261009_221952_1-right-contact-row",
+              "label_semantics": "board_silkscreen_alias",
+              "printed_alias": "D8",
+              "pin_number": null,
+              "source_net": null,
+              "source_refdes": null,
+              "photo_bbox_xyxy_pixels": [
+                932,
+                1136,
+                998,
+                1200
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                816,
+                1130,
+                928,
+                1206
+              ],
+              "review_status": "visually_reviewed_contact_and_printed_alias",
+              "evidence": "The D8 silkscreen is adjacent to this individual outer-edge through-hole solder contact in the inspected original pixels. It is a transcribed alias, without inferred numeric pin number or schematic net.",
+              "truncated": false
+            },
+            {
+              "id": "esp8266-IMG_20261009_221952_1-right-contact-row-12-rx",
+              "parent_part_id": "esp8266-IMG_20261009_221952_1-right-contact-row",
+              "label_semantics": "board_silkscreen_alias",
+              "printed_alias": "RX",
+              "pin_number": null,
+              "source_net": null,
+              "source_refdes": null,
+              "photo_bbox_xyxy_pixels": [
+                932,
+                1220,
+                998,
+                1284
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                816,
+                1214,
+                928,
+                1290
+              ],
+              "review_status": "visually_reviewed_contact_and_printed_alias",
+              "evidence": "The RX silkscreen is adjacent to this individual outer-edge through-hole solder contact in the inspected original pixels. It is a transcribed alias, without inferred numeric pin number or schematic net.",
+              "truncated": false
+            },
+            {
+              "id": "esp8266-IMG_20261009_221952_1-right-contact-row-13-tx",
+              "parent_part_id": "esp8266-IMG_20261009_221952_1-right-contact-row",
+              "label_semantics": "board_silkscreen_alias",
+              "printed_alias": "TX",
+              "pin_number": null,
+              "source_net": null,
+              "source_refdes": null,
+              "photo_bbox_xyxy_pixels": [
+                932,
+                1304,
+                998,
+                1368
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                816,
+                1298,
+                928,
+                1374
+              ],
+              "review_status": "visually_reviewed_contact_and_printed_alias",
+              "evidence": "The TX silkscreen is adjacent to this individual outer-edge through-hole solder contact in the inspected original pixels. It is a transcribed alias, without inferred numeric pin number or schematic net.",
+              "truncated": false
+            },
+            {
+              "id": "esp8266-IMG_20261009_221952_1-right-contact-row-14-g",
+              "parent_part_id": "esp8266-IMG_20261009_221952_1-right-contact-row",
+              "label_semantics": "board_silkscreen_alias",
+              "printed_alias": "G",
+              "pin_number": null,
+              "source_net": null,
+              "source_refdes": null,
+              "photo_bbox_xyxy_pixels": [
+                932,
+                1388,
+                998,
+                1452
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                816,
+                1382,
+                928,
+                1458
+              ],
+              "review_status": "visually_reviewed_contact_and_printed_alias",
+              "evidence": "The G silkscreen is adjacent to this individual outer-edge through-hole solder contact in the inspected original pixels. It is a transcribed alias, without inferred numeric pin number or schematic net.",
+              "truncated": false
+            },
+            {
+              "id": "esp8266-IMG_20261009_221952_1-right-contact-row-15-3v",
+              "parent_part_id": "esp8266-IMG_20261009_221952_1-right-contact-row",
+              "label_semantics": "board_silkscreen_alias",
+              "printed_alias": "3V",
+              "pin_number": null,
+              "source_net": null,
+              "source_refdes": null,
+              "photo_bbox_xyxy_pixels": [
+                932,
+                1472,
+                998,
+                1536
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                816,
+                1466,
+                928,
+                1542
+              ],
+              "review_status": "visually_reviewed_contact_and_printed_alias",
+              "evidence": "The 3V silkscreen is adjacent to this individual outer-edge through-hole solder contact in the inspected original pixels. It is a transcribed alias, without inferred numeric pin number or schematic net.",
+              "truncated": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "images": 2,
+    "reviewed_parent_parts": 4,
+    "reviewed_alias_contacts": 59,
+    "numeric_physical_pin_labels": 0,
+    "schematic_net_assignments": 0
+  }
+}
