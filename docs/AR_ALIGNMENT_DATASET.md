@@ -39,6 +39,15 @@ those three are excluded. These joins identify selectable candidates only:
 physical board revision, fitted part identity, metric photo-to-GLB pose and
 continuous flip have not been verified, so no link is release eligible.
 
+The [Ultimaker planar anchor candidates](../data/ar-alignment/ultimaker-planar-anchor-candidates.json)
+pair the same four native SP1–SP4 spacer-hole centers with both an iQOO
+component-face and solder-face photo. The native outline projected from each
+four-point homography visually follows the photographed board edge; the
+[review overlay](../previews/ultimaker-planar-anchor-candidates.jpg) shows the
+correspondences. This is a fixed source-frame candidate for a two-face AR
+handoff. Four points fit a homography exactly and do not independently prove
+camera intrinsics, 3D pose, specimen equivalence or a continuous flip.
+
 The released NXP manifest uses board-outline corner landmarks. The reviewed
 phone photo instead uses mounting holes. The alignment index records
 `asset_anchor_override_required` and the paired hole positions; a pose model
