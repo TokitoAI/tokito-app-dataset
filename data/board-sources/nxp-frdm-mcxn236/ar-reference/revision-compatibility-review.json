@@ -5,14 +5,22 @@
   "source_pdf_sha256": "243b93184f692b0f7c0deb3a9a63f6262ea3083a05c30c0143b4a4faa54b1868",
   "source_page_one_based": 1,
   "review_status": "revision_history_text_and_rendered_cover_visually_reviewed",
-  "photographed_marking": "B",
+  "photographed_marking": null,
   "photographed_subrevision_confirmed": false,
   "available_design_revision": "C",
   "revision_equivalence_verified": false,
   "b1_changes": {
     "date": "2024-01-24",
-    "dnp_references": ["U6", "J14", "J21"],
-    "capacitor_value_changes": ["C28", "C18", "C30"]
+    "dnp_references": [
+      "U6",
+      "J14",
+      "J21"
+    ],
+    "capacitor_value_changes": [
+      "C28",
+      "C18",
+      "C30"
+    ]
   },
   "b2_changes": {
     "date": "2024-01-26",
@@ -21,11 +29,49 @@
   },
   "c_changes": {
     "date": "2024-03-25",
-    "changed_header_contacts": ["J8:6", "J8:8"],
-    "deleted_references": ["C157", "C155", "R301", "R300"],
-    "resistors_changed_to_zero_ohm": ["R89", "R121"],
-    "resistors_changed_to_dnp": ["R91", "R122"],
-    "added_testpoints": ["TP10", "TP11", "TP12", "TP13", "TP14", "TP15", "TP16", "TP17", "TP18", "TP19", "TP20", "TP21", "TP22", "TP23", "TP24", "TP25", "TP26", "TP27", "TP28", "TP29", "TP30", "TP31", "TP32"]
+    "changed_header_contacts": [
+      "J8:6",
+      "J8:8"
+    ],
+    "deleted_references": [
+      "C157",
+      "C155",
+      "R301",
+      "R300"
+    ],
+    "resistors_changed_to_zero_ohm": [
+      "R89",
+      "R121"
+    ],
+    "resistors_changed_to_dnp": [
+      "R91",
+      "R122"
+    ],
+    "added_testpoints": [
+      "TP10",
+      "TP11",
+      "TP12",
+      "TP13",
+      "TP14",
+      "TP15",
+      "TP16",
+      "TP17",
+      "TP18",
+      "TP19",
+      "TP20",
+      "TP21",
+      "TP22",
+      "TP23",
+      "TP24",
+      "TP25",
+      "TP26",
+      "TP27",
+      "TP28",
+      "TP29",
+      "TP30",
+      "TP31",
+      "TP32"
+    ]
   },
   "policy": {
     "changed_contacts_require_revision_matched_pinout": true,
@@ -34,5 +80,7 @@
     "population_and_values_require_specimen_review": true,
     "unlisted_references_are_not_automatically_confirmed": true
   },
-  "remaining": "Establish B/B1/B2 specimen population and obtain revision-matched placement/net records or document reviewed physical equivalence per component."
+  "remaining": "Verify the physical underside revision identifier or establish per-component source correspondence. Documented revision differences are sensitivity flags, not proof this specimen is B.",
+  "photographed_copyright_text": "2024 NXP B.V.",
+  "prior_B_revision_inference_retracted": true
 }

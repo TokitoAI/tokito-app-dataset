@@ -120,8 +120,9 @@
       "source_candidate_part_number": "RClamp0854P.TCT"
     }
   ],
-  "review_evidence": "Original upright frame and magnified lower crop reviewed. Observed U41, U2 and U5 labels paired with visible bodies. Small metal package designator is ambiguous; no source identity assigned. Full ordering codes unconfirmed; C sources remain candidates for B specimen.",
-  "source_mapping_status": "C_reference_candidates; B_marked_specimen_mapping_unverified",
+  "review_evidence": "Original upright frame and magnified lower crop reviewed. Observed U41, U2 and U5 labels paired with visible bodies. Small metal package designator is ambiguous; no source identity assigned. Full ordering codes unconfirmed; C sources remain candidates for revision-unverified specimen.",
+  "source_mapping_status": "C_source_candidates; photographed_revision_unverified",
   "image_sha256": "30d6691cbcc88d32142802dc6f3894ce7e128ac64d6be2477dc5c2eaff03fa64",
-  "source_component_map_sha256": "8fd8a25b1c53da7a8a7dfb414d4410dfa1b76c916ee76315e82cb3027015fedd"
+  "source_component_map_sha256": "8fd8a25b1c53da7a8a7dfb414d4410dfa1b76c916ee76315e82cb3027015fedd",
+  "revision_inference_correction": "The photographed B belongs to NXP B.V. copyright; it does not establish Rev B."
 }

@@ -47,7 +47,7 @@ for idx,c in records.items():
  poly=hull(project(points[:,[0,2]]))
  source_dnp=population[c['reference']]['dnp_explicit_in_bom']
  suppressed=c['reference'] in conflict or c['side']!='top' or source_dnp
- record={'source_candidate_component_id':c['component_id'],'reference':c['reference'],'source_side':c['side'],'polygon_xy_pixels':[list(p) for p in poly],'height_bounds_metres':[float(points[:,1].min()),float(points[:,1].max())],'status':'suppressed_revision_conflict_or_bottom' if suppressed else 'candidate_planar_projection_second_review_required','installed_identity_confirmed':False,'source_geometry_quality':c['model_quality']}
+ record={'source_candidate_component_id':c['component_id'],'reference':c['reference'],'source_side':c['side'],'polygon_xy_pixels':[list(p) for p in poly],'height_bounds_metres':[float(points[:,1].min()),float(points[:,1].max())],'status':'suppressed_revision_sensitive_reference_or_bottom' if suppressed else 'candidate_planar_projection_second_review_required','installed_identity_confirmed':False,'source_geometry_quality':c['model_quality']}
  catalog.append(record)
  record['source_dnp']=source_dnp
  if source_dnp and c['reference'] not in conflict and c['side']=='top':

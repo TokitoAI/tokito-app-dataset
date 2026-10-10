@@ -1310,7 +1310,7 @@
     }
   ],
   "review_evidence": "Original upright frame inspected. Dense body polygons annotate observed bodies, with no C-to-B identity transfer. New bounds require a second reviewer before training. Header shells and large clipped connectors excluded explicitly.",
-  "source_mapping_status": "C_reference_candidates; B_marked_specimen_mapping_unverified",
+  "source_mapping_status": "C_source_candidates; photographed_revision_unverified",
   "image_sha256": "30d6691cbcc88d32142802dc6f3894ce7e128ac64d6be2477dc5c2eaff03fa64",
   "source_component_map_sha256": "8fd8a25b1c53da7a8a7dfb414d4410dfa1b76c916ee76315e82cb3027015fedd",
   "ignored_regions": [
@@ -1427,5 +1427,6 @@
     "evidence": "Magnified crop x240..425 y390..465 on original frame reads R189; earlier R89 assertion rejected. This is not the revision-history R89 reference.",
     "crop_path": "work/nxp-finalization/resistor-reference-crop.png",
     "source_join_withheld": true
-  }
+  },
+  "revision_inference_correction": "The photographed B belongs to NXP B.V. copyright; it does not establish Rev B."
 }
