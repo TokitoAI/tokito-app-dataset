@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "source_release": "https://github.com/TokitoAI/tokito-physical-runtime/releases/tag/v0.1-frdm-mcxn236-3d-asset",
+  "source_board_revision": "C",
+  "photographed_specimen_revision": "unverified",
+  "files": [
+    {
+      "path": "component-map.json",
+      "release_asset": "frdm_mcxn236_component_map.json",
+      "sha256": "8fd8a25b1c53da7a8a7dfb414d4410dfa1b76c916ee76315e82cb3027015fedd",
+      "bytes": 300105,
+      "url": "https://github.com/TokitoAI/tokito-physical-runtime/releases/download/v0.1-frdm-mcxn236-3d-asset/frdm_mcxn236_component_map.json"
+    },
+    {
+      "path": "digital-twin-manifest.json",
+      "release_asset": "frdm_mcxn236_digital_twin_manifest.json",
+      "sha256": "74fa245678566d04902dc2b80b56967ec96c2068d1679ce3a75faeaf0591eff5",
+      "bytes": 1321,
+      "url": "https://github.com/TokitoAI/tokito-physical-runtime/releases/download/v0.1-frdm-mcxn236-3d-asset/frdm_mcxn236_digital_twin_manifest.json"
+    }
+  ],
+  "geometry_asset": {
+    "name": "frdm_mcxn236_ar_visible.glb",
+    "sha256": "ba9db807d2141189facb33039f57861d99a460cf595dd71bf80eb5f9cbe1268c",
+    "bytes": 5250580,
+    "url": "https://github.com/TokitoAI/tokito-physical-runtime/releases/download/v0.1-frdm-mcxn236-3d-asset/frdm_mcxn236_ar_visible.glb",
+    "storage": "external_hash_addressed_artifact; not copied into dataset Git"
+  },
+  "scope": "Source design identity and per-component mesh lookup; not proof of photographed revision, fitted BOM, visual segmentation, or detector accuracy"
+}
