@@ -2,6 +2,10 @@
 
 Private dataset repository for the Tokito iQOO hackathon work with Afnan and Navaneeth. Dataset changes go through pull requests. The Tokito application code belongs in a separate repository.
 
+Use the [repository layout and review guide](docs/REPOSITORY_REVIEW_GUIDE.md) for
+focused PR scopes, dependency/merge order, file locations and current readiness.
+The former broad PR #6 is preserved and replaced by the ordered PRs #9–#16.
+
 The [active goal tracker](docs/DATASET_GOAL.md) records the full dataset, labeling, training and publication scope and remaining work.
 
 The [AR alignment dataset](docs/AR_ALIGNMENT_DATASET.md) connects reviewed image instances and named metric anchors to per-component 3D selectors, and keeps one board coordinate frame across top, underside and four side views. It includes a checked NXP mesh registry and six synthetic CAD views; real multi-view masks and phone flip-tracking validation remain incomplete.
