@@ -25,6 +25,8 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--name", default="board-yolo11m-dynamic")
     parser.add_argument("--seed", type=int, default=42)
     parser.add_argument("--freeze", type=int, default=10)
+    parser.add_argument("--lr0", type=float, default=0.001)
+    parser.add_argument("--lrf", type=float, default=0.01)
     parser.add_argument("--amp", action=argparse.BooleanOptionalAction, default=True)
     return parser.parse_args()
 
@@ -60,8 +62,8 @@ def main() -> None:
         seed=args.seed,
         deterministic=True,
         optimizer="AdamW",
-        lr0=0.001,
-        lrf=0.01,
+        lr0=args.lr0,
+        lrf=args.lrf,
         cos_lr=True,
         warmup_epochs=3,
         freeze=args.freeze,
@@ -91,6 +93,8 @@ def main() -> None:
         "device": args.device,
         "amp": args.amp,
         "freeze_layers": args.freeze,
+        "initial_learning_rate": args.lr0,
+        "final_learning_rate_factor": args.lrf,
         "seed": args.seed,
         "started_from_pretrained": True,
         "selection_rule": "best validation fitness checkpoint; never deploy last.pt by default",
