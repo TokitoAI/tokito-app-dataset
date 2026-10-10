@@ -97,8 +97,12 @@ if phone_folder.is_dir():
    x1,y1,x2,y2=template['board_bbox_xyxy_normalized'];assert 0<=x1<x2<=1 and 0<=y1<y2<=1
    for label in template['labels']:
     assert label['id'] not in label_ids;label_ids.add(label['id'])
-    a,b,c,d=label['bbox_xyxy_normalized'];assert x1<=a<c<=x2 and y1<=b<d<=y2,label['id']
+    a,b,c,d=label['bbox_xyxy_normalized'];assert 0<=a<c<=1 and 0<=b<d<=1,label['id']
+    # The board box is a feature ROI; a connector shell can overhang its edge.
+    # Component centres must belong to the board, without clipping real bodies.
+    assert x1<=(a+c)/2<=x2 and y1<=(b+d)/2<=y2,label['id']
     if label['kind']=='pin':
+     assert x1<=a<c<=x2 and y1<=b<d<=y2,label['id']
      pin_count+=1;assert label['identity_status']=='reviewed_photo_contact_with_printed_alias'
      assert label['source']['printed_alias'] and 'Literal silkscreen' in label['source']['mapping_scope']
     else:
@@ -119,7 +123,7 @@ if phone_folder.is_dir():
     assert template['corner_uncertainty_pixels']>0
     assert len(template['pose_corners_normalized'])==4
     assert all(x1<=x<=x2 and y1<=y<=y2 for x,y in template['pose_corners_normalized'])
-  assert len(label_ids)==77 and pin_count==60
+  assert len(label_ids)==147 and pin_count==120
 print('Validated80 source hashes/board boxes, YOLO labels,62/11/7 split, no original/crop leakage and Pi mechanical DXF provenance.' + (' Fine-tune artifact hashes also checked.' if model_dir.is_dir() else ' Diagnostic model artifacts are outside this capture-only checkout.'))
 if phone_folder.is_dir():
  scan_file=phone_folder/'reviewed-scan-references.json'
