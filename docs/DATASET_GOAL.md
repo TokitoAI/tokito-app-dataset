@@ -15,6 +15,19 @@ Use the 80 downloaded phone images to label every board family first, then its v
 
 ## Current evidence
 
+Latest follow-up (2026-10-10): four additional iQOO videos covering ESP32,
+ESP-12E, Ultimainboard and NXP have been hash-verified and preserved. Full-clip
+sampling shows component-side pans; it does not show the underside, four side
+views or a continuous flip. NXP underside stills remain available separately.
+ESP32 now has a reviewed partial macro seed with 19 visible body masks and 12
+literal printed-contact centers. U2's same-specimen photo supports the visible
+family marking `SILABS / CP2102`; the full order suffix remains unreadable.
+Camera2 factory intrinsics for the connected iQOO and an explicit crop/resize/
+rotation transform are recorded, but independent optical and physical pose
+validation remain false. The YOLO trainer now verifies that the actual YAML
+loader selects the exact reviewed images and labels. No exhaustive component
+export or final model is available.
+
 The updated end goal is calibrated, multi-view AR with independent component
 selection: reviewed board boundaries and semantic metric anchors, visible
 component masks, source/refdes/pin links and per-component 3D mesh selectors.

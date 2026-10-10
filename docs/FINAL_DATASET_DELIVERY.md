@@ -24,4 +24,7 @@ verifies ZIP integrity and writes a separate `.zip.sha256` file. It refuses to
 overwrite an existing ZIP. The resulting archive can be shared directly without
 requiring Git LFS or access to the private GitHub repository.
 
-Current status: delivery requested; final construction is not yet complete.
+Current status: delivery requested; four additional front-face video sources
+and a partial ESP32 macro review are preserved. Exhaustive labels, independent
+camera/pose checks, final model training and phone validation are still pending;
+final construction is not complete.
