@@ -1,0 +1,11 @@
+{
+  "selectors_unique": true,
+  "independent_meshes": true,
+  "component_selectors": 15,
+  "opening_centers_without_surface": 34,
+  "central_pcb_surface_present": true,
+  "sha256": "4eea44e372ad86dce651eb424f7b289dd4093422463ef8e1528366c58e1ef953",
+  "glb_bytes": 294660,
+  "calibration_disabled": true,
+  "visual_review": "Top and oblique preview inspected; shaped USB/switch/QFN/regulator/module bodies and top header contacts; underside pin population unknown visible; placement still unverified"
+}

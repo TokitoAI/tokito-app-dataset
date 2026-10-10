@@ -1,0 +1,22 @@
+{
+  "release_eligible": false,
+  "calibration_eligible": false,
+  "photo_registration_verified": false,
+  "source_glb_sha256": "945492f2ef9bc7a53bacd39a04ae4a4bfab822e57a583da6987a1a0d7deee6d6",
+  "source_component_map_sha256": "3eb4dbcdc23c81f9876a4419f3a54199e02a5db1ce6200fb4ede7ca8bacf21a0",
+  "output_sha256": "4eea44e372ad86dce651eb424f7b289dd4093422463ef8e1528366c58e1ef953",
+  "selectable_components": 15,
+  "true_nominal_openings": 34,
+  "observations": [
+    "Four mounting holes visible in source video sheet",
+    "Top view shows header contacts without protruding pins; underside pin population unverified",
+    "RF shield literal marking ESP-32; WROOM32 exact identity unverified"
+  ],
+  "limitations": [
+    "All metric dimensions inherited nominal assumptions, not measurements",
+    "Remaining small part references/positions copied as provisional, not photograph source joins",
+    "No calibrated camera or complete real underside/four-side/flip set",
+    "Only approximate package shapes; no production activation"
+  ],
+  "triangle_count": 7224
+}
