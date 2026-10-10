@@ -6,4 +6,6 @@ Training used 10 images, 394 reviewed body masks, 21 observable body classes, 64
 
 At mask IoU 0.5 and confidence 0.25, audited-region evaluation found 3 true positives, 4 false positives within reviewed regions and 41 missed reviewed instances: precision 0.429 and recall 0.068. Predictions outside reviewed background/positive regions are ignored. These values are not full-scene accuracy and show that this checkpoint is not useful for production use.
 
+Confidence-threshold sensitivity on these same four validation frames was also measured: at 0.01, reviewed-region precision was 0.288 and reviewed-instance recall 0.477; at 0.03, 0.326 and 0.341; at 0.05, 0.286 and 0.227; at 0.10, 0.333 and 0.182; and at 0.25, 0.429 and 0.068. Lower thresholds recover more reviewed parts but add false detections. This small, reused-specimen validation set cannot select a production threshold. Reproduce the sweep with `python scripts/evaluate_partial_model_thresholds.py`; the results are saved to `models/partial-component-diagnostic/threshold-sweep.json`.
+
 The files beside this model include the exact source/annotation manifest, epoch history, and scoped metric counts. Checkpoint SHA-256: `c49095ae6802c418a1c1d04094b6a7f0740a46df820fde48cb3afca94f02b38e`.
