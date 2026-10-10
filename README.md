@@ -10,7 +10,7 @@ The [active goal tracker](docs/DATASET_GOAL.md) records the full dataset, labeli
 
 The clearer NXP photos identify **MCXN236**. The previously collected MCXN947 files are a different-board reference and must not be used as its exact BOM or schematic.
 
-`data/board-sources` preserves native source documents, inventories, Gerbers, models, and licenses where collected. `docs/sources` records coverage and limitations. External vision datasets are under `data/external`, including the verified [PCB-Vision RGB package](docs/PCB_VISION_RGB_ACQUISITION.md): 53 photos and 106 masks in Git LFS. Partial downloads remain local.
+`data/board-sources` preserves native source documents, inventories, Gerbers, models, and licenses where collected. The Raspberry Pi 3B folder now includes the official mechanical PDF and DXF with a hash-verified source record; the DXF is mechanical geometry, not an electrical PCB project or Gerber set. `docs/sources` records coverage and limitations. External vision datasets are under `data/external`, including the verified [PCB-Vision RGB package](docs/PCB_VISION_RGB_ACQUISITION.md): 53 photos and 106 masks in Git LFS. Partial downloads remain local.
 
 KiCad-derived [CAD reference exports](data/board-sources/CAD_EXPORTS.md) now cover the ESP32 community clone, Ultimainboard 2.1.4 and FRDM-MCXN236. They include Gerber/drill and board-only STEP/GLB files, with DRC reports and hashes. All require engineering review before fabrication.
 
@@ -20,11 +20,11 @@ Install Git LFS before cloning, then run `git lfs pull`. Large photos, CAD files
 
 ## Train the first board detector
 
-Use a virtual environment with a CUDA-enabled PyTorch build and install `requirements-training.txt`. Run `python scripts/train_board_detector.py` from the repository root. The default is a pretrained YOLO11m model with a 500-epoch ceiling and 60-epoch early-stopping patience; the actual duration is selected dynamically from validation fitness, and `best.pt` is the deployment candidate. Training uses the reviewed five-class YOLO dataset at `data/photo-model/yolo-boards`.
+Use a virtual environment with a CUDA-enabled PyTorch build and install `requirements-training.txt`. Run `python scripts/train_board_detector.py` from the repository root. The default is a pretrained YOLO11m model with a 1,000-epoch ceiling and 100-epoch early-stopping patience; the actual duration is selected dynamically from validation fitness, and `best.pt` is selected instead of the last epoch. Training uses the reviewed five-class YOLO dataset at `data/photo-model/yolo-boards`.
 
 The detector identifies the five currently reviewed board identities. Exact component reference designators, manufacturer part numbers and pins are resolved after board registration against a revision-matched PCB/BOM/netlist; they are not global YOLO classes.
 
-The current release-ineligible [YOLO11m experiment](data/photo-model/board-yolo11m-experiment/README.md) includes the selected PyTorch checkpoint, float32 LiteRT export, training curves, hashes and diagnostic validation report.
+The board model uses readable labels from [`board-class-display-names.json`](data/photo-model/board-class-display-names.json). The release-ineligible [YOLO11m baseline](data/photo-model/board-yolo11m-experiment/README.md) retains its LiteRT export. A newer [dynamic fine-tune candidate](data/photo-model/board-yolo11m-finetune-experiment/README.md) reached mAP50-95 0.942 versus 0.919 for the baseline, but fixed-threshold review found one Raspberry Pi false positive on an Ultimainboard photo at confidence 0.761. The baseline had none on the same 11-image fold. The fine-tuned `.pt` is saved; its LiteRT conversion is pending because the available exporter is not supported on Windows. This fold omits ESP32 and shares physical specimens with training, so these results are diagnostic only.
 
 The first split has62 training images and11 validation originals. Seven validation crop variants are excluded, and no original/crop pair crosses folds. There is one physical specimen per family and no independent specimen test. ESP32 has no separate validation pose group, so no held-out ESP32 accuracy can be reported.
 
@@ -36,7 +36,7 @@ The [board, part and pin hierarchy](docs/LABEL_HIERARCHY.md) records the labelin
 
 BOM entries, schematic pages and Gerber layers are linked documents. They are not YOLO object classes. Exact links need matched revisions and readable markings or registered PCB geometry. Unknown links remain unknown.
 
-The [MCXN236 schematic index](data/board-sources/nxp-frdm-mcxn236/README_INDEX.md) locates reference-designator text on PDF pages. Ten [component source links](annotations/component-source-links.json) pair readable photo markings with checked schematic symbols and source BOM records. Their installed part numbers and the specimen revision are still unknown. See [source-link conventions](docs/SOURCE_LINKS.md).
+The [MCXN236 schematic index](data/board-sources/nxp-frdm-mcxn236/README_INDEX.md) locates reference-designator text on PDF pages. Ten [component source links](annotations/component-source-links.json) pair readable photo markings with checked schematic symbols and source BOM records. Their [Rev C part-number candidates](docs/NXP_COMPONENT_SOURCE_CANDIDATES.md) are available for display with the revision uncertainty attached; installed part numbers and the specimen revision are still unverified. See [source-link conventions](docs/SOURCE_LINKS.md).
 
 The downloaded [MCXN236 Rev C design bundle](data/board-sources/nxp-frdm-mcxn236/PROVENANCE.md) includes the native BRD, schematic project, BOM and netlists. Its [structured extraction](data/board-sources/nxp-frdm-mcxn236/structured-rev-c/README.md) joins 96 BOM items to 391 reference designators and 296 electrical nets. DNP entries and the separate no-connect group are preserved. The archive contains no separate Gerber, drill or STEP/GLB exports.
 

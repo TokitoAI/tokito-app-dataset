@@ -1,0 +1,16 @@
+{
+  "file": "mechanical.dxf",
+  "source": "Raspberry Pi Product Information Portal, Raspberry Pi 3 Model B",
+  "url": "https://pip-assets.raspberrypi.com/categories/520-raspberry-pi-3-model-b/documents/RP-008334-DS-1-raspberry-pi-3-b-mechanical-drawing.dxf",
+  "retrieved_date": "2026-10-10",
+  "bytes": 1435223,
+  "sha256": "788c104664752c761553c57b11424adeabca06eb73d9a75d5bfff265219b6da5",
+  "format": "ASCII AutoCAD DXF AC1009",
+  "validation": {
+    "sections": ["HEADER", "TABLES", "BLOCKS", "ENTITIES"],
+    "entity_counts": {"POLYLINE": 1947, "VERTEX": 10396, "TEXT": 305, "CIRCLE": 819},
+    "layers": ["BOARD_OUTLINE", "PARTS_BOTTOM", "PARTS_TOP", "PINS_BOTTOM", "PINS_TOP", "SILK_BOTTOM", "SILK_TOP"],
+    "header_extents": {"min": [-25.0, -25.0], "max": [275.0, 175.0]}
+  },
+  "scope_limit": "Official mechanical drawing geometry only; it is not a native electrically routed PCB project, procurement BOM, Gerber package or proof of the exact photographed specimen's installed parts."
+}

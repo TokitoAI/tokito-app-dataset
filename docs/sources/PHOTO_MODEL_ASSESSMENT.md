@@ -10,11 +10,11 @@ The current board detector has five classes:
 
 | ID | Class | Current source matching limit |
 |---|---|---|
-| 0 | esp32_board | 30-pin sources are a community clone; manufacturer/revision unconfirmed |
-| 1 | esp8266_board | Photographed CH340-style clone differs from official NodeMCU reference |
-| 2 | ultimainboard | Phone silkscreen reads 2.1.4; source geometry still requires image registration |
-| 3 | nxp_frdm_mcxn236_board | Phone silkscreen reads MCXN236; Rev C schematic and official native design archive acquired, physical PCB revision unconfirmed; MCXN947 sources incompatible |
-| 4 | raspberry_pi_3b_board | Phone silkscreen reads Model 3B V1.2; reduced documents and community model do not give a complete part map |
+| 0 | ESP32 30-pin DevKit (variant unknown) | Family only; photographed clone maker and exact variant unconfirmed |
+| 1 | ESP8266 NodeMCU-style ESP-12E clone (variant unknown) | Family only; photographed clone differs from the official NodeMCU reference |
+| 2 | Ultimaker Ultimainboard 2.1.4 | Silkscreen identifies the version; source geometry still needs photo registration |
+| 3 | NXP FRDM-MCXN236 (revision unverified) | Board family is reviewed; physical PCB revision is unverified; MCXN947 sources are incompatible |
+| 4 | Raspberry Pi 3 Model B v1.2 | Board family/revision is reviewed; reduced documents do not provide a complete part map |
 
 An ambiguous image stays in review. An `other_pcb` class would require positively identified examples and a deliberate schema change; it is not part of the current trained five-class dataset. Record model/revision as metadata only when markings or geometry support it. Multiple boards in one photograph require separate annotations.
 
@@ -66,7 +66,7 @@ The saved phone corpus has 80 files: 47 captures and 33 cropped variants. Board-
 
 There is one physical specimen and one capture session per family. Four families appear in validation; all ESP32 views belong to a similar pose group retained in training. Validation measures limited variation of known specimens/sessions and cannot establish independent specimen/session accuracy or held-out ESP32 performance. Additional captures must preserve lineage and keep related views together.
 
-Experimental board detector and crop-classifier models have been trained. Reports on the same 80 supplied files are known-photo diagnostics. The front-view geometric filter was selected after reviewing errors on those files, so its improved result is also exploratory. Preserve the ungated result and filter provenance. Model artifacts and reports are proposed through separate repository PRs.
+The YOLO11m fine-tune used a 1,000-epoch ceiling with 100-epoch patience and stopped dynamically at epoch 113; validation selected epoch 13. Its confidence-integrated mAP50-95 is 0.9417 versus 0.9186 for the baseline. A fixed 0.75-confidence/0.5-IoU audit found one extra Raspberry Pi prediction on an Ultimainboard image for the fine-tune; the baseline had no false positives on the same 11 photos. Raising only the Pi cutoff to 0.78 removes that error on this fold, but the threshold was chosen after reviewing the error and remains exploratory. The 11-image fold omits ESP32 and uses the same physical specimens as training. Its new LiteRT export is pending. Reports on the known-photo corpus are diagnostic. The front-view geometric filter was selected after reviewing errors on those files, so its result is also exploratory. Preserve the ungated result and filter provenance. See the [fine-tune report](../../data/photo-model/board-yolo11m-finetune-experiment/README.md) and [class display names](../../data/photo-model/board-class-display-names.json).
 
 Component seeds contain 240 visible part boxes across nineteen photos. Their coverage is partial; dense passives, obscured parts and board backs remain unfinished. Unlabeled regions are not verified negative training examples. Review every visible instance of the chosen classes before component training. Hidden parts cannot be claimed as visually detected.
 

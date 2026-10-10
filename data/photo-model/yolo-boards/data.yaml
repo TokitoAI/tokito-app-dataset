@@ -2,8 +2,8 @@ path: data/photo-model/yolo-boards
 train: images/train
 val: images/val
 names:
-  0: esp32_devkit_30pin_unknown_variant
-  1: esp8266_nodemcu_esp12e_clone_unknown_variant
-  2: ultimainboard_2_1_4
-  3: nxp_frdm_mcxn236_unknown_rev
-  4: raspberry_pi_3b_v1_2
+  0: "ESP32 30-pin DevKit (variant unknown)"
+  1: "ESP8266 NodeMCU-style ESP-12E clone (variant unknown)"
+  2: "Ultimaker Ultimainboard 2.1.4"
+  3: "NXP FRDM-MCXN236 (revision unverified)"
+  4: "Raspberry Pi 3 Model B v1.2"

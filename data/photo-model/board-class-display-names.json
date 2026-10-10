@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0",
+  "model_scope": "YOLO11m board-family detection",
+  "class_ids_are_stable": true,
+  "ordered_classes": [
+    {
+      "class_id": 0,
+      "internal_key": "esp32_devkit_30pin_unknown_variant",
+      "display_name": "ESP32 30-pin DevKit (variant unknown)",
+      "identity_scope": "ESP32 30-pin DevKit family; photographed clone maker and exact variant are unverified"
+    },
+    {
+      "class_id": 1,
+      "internal_key": "esp8266_nodemcu_esp12e_clone_unknown_variant",
+      "display_name": "ESP8266 NodeMCU-style ESP-12E clone (variant unknown)",
+      "identity_scope": "ESP8266 NodeMCU-style ESP-12E family; photographed clone maker and exact variant are unverified"
+    },
+    {
+      "class_id": 2,
+      "internal_key": "ultimainboard_2_1_4",
+      "display_name": "Ultimaker Ultimainboard 2.1.4",
+      "identity_scope": "Board identity and 2.1.4 marking are reviewed"
+    },
+    {
+      "class_id": 3,
+      "internal_key": "nxp_frdm_mcxn236_unknown_rev",
+      "display_name": "NXP FRDM-MCXN236 (revision unverified)",
+      "identity_scope": "FRDM-MCXN236 family is reviewed; photographed hardware revision is unverified"
+    },
+    {
+      "class_id": 4,
+      "internal_key": "raspberry_pi_3b_v1_2",
+      "display_name": "Raspberry Pi 3 Model B v1.2",
+      "identity_scope": "Board family/revision identification is reviewed"
+    }
+  ],
+  "parts_and_pins": {
+    "produced_by_this_model": false,
+    "policy": "Resolve parts and pins only after board-family detection, using reviewed photo-to-source links. A design BOM candidate is not an asserted installed part number when specimen revision or physical marking is unverified."
+  },
+  "evaluation_limit": "Current validation has 11 images from one physical specimen per family and no ESP32 examples. It is diagnostic and does not establish unseen-specimen accuracy."
+}

@@ -5,4 +5,6 @@ work/
 yolov8n.pt
 data/photo-model/runs/
 data/photo-model/board-training-report.json
+/data/photo-model/yolo-boards/labels/*.cache
+/weights/yolo26n.pt
 .DS_Store
