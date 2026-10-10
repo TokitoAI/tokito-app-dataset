@@ -203,6 +203,7 @@ def build(glb):
         images.append({'image_path': image['image_path'], 'image_sha256': image['image_sha256'],
                        'class_id': image['board']['class_id'], 'component_coverage': image['part_coverage'],
                        'calibration_landmarks': [], 'instances': instances, 'unparented_contacts': []})
+    image_by_path = {image['image_path']: image for image in images}
     for template in scan['templates']:
         instances, unparented = [], []
         for label in template['labels']:
@@ -222,15 +223,44 @@ def build(glb):
                               'cad_binding': binding(ref) if template['class_id'] == 3 else None,
                               'pins': []})
         paired = anchors(template, by_ref) if template['class_id'] == 3 else []
-        images.append({'image_path': template['image_path'], 'image_sha256': template['image_sha256'],
-                       'class_id': template['class_id'], 'component_coverage': 'partial',
-                       'calibration_landmarks': paired, 'instances': instances,
-                       'asset_anchor_override_required': bool(paired),
-                       'anchor_override_reason': 'Reviewed mounting-hole centers differ from released outline-corner landmarks' if paired else None,
-                       'unparented_contacts': unparented})
+        if template['image_path'] in image_by_path:
+            image = image_by_path[template['image_path']]
+            if image['image_sha256'] != template['image_sha256'] or image['class_id'] != template['class_id']:
+                raise ValueError('Scan reference disagrees with the existing image identity')
+            image['instances'].extend(instances)
+            image['unparented_contacts'].extend(unparented)
+            if paired:
+                image['calibration_landmarks'] = paired
+                image['asset_anchor_override_required'] = True
+                image['anchor_override_reason'] = 'Reviewed mounting-hole centers differ from released outline-corner landmarks'
+        else:
+            image = {'image_path': template['image_path'], 'image_sha256': template['image_sha256'],
+                     'class_id': template['class_id'], 'component_coverage': 'partial',
+                     'calibration_landmarks': paired, 'instances': instances,
+                     'asset_anchor_override_required': bool(paired),
+                     'anchor_override_reason': 'Reviewed mounting-hole centers differ from released outline-corner landmarks' if paired else None,
+                     'unparented_contacts': unparented}
+            images.append(image)
+            image_by_path[template['image_path']] = image
     if masks:
         raise ValueError('A reviewed mask has no corresponding instance')
-    image_by_path = {image['image_path']: image for image in images}
+    # Preserve reviewed additional physical views even when their parts have not
+    # been annotated yet. An empty instance list here means "unreviewed", never
+    # an exhaustive negative image for component training.
+    for capture in captures.values():
+        if capture['image_path'] in image_by_path:
+            continue
+        capture_path = ROOT / capture['image_path']
+        if not capture_path.is_file() or content_sha(capture_path) != capture['image_sha256']:
+            raise ValueError(f'Additional multi-view capture is missing or has changed: {capture["image_path"]}')
+        with Image.open(capture_path) as raw:
+            width, height = ImageOps.exif_transpose(raw).size
+        image = {'image_path': capture['image_path'], 'image_sha256': capture['image_sha256'],
+                 'class_id': capture['class_id'], 'component_coverage': 'unreviewed',
+                 'image_width': width, 'image_height': height, 'calibration_landmarks': [],
+                 'instances': [], 'unparented_contacts': []}
+        images.append(image)
+        image_by_path[capture['image_path']] = image
     specimen_views = {}
     for capture in captures.values():
         if capture['image_path'] not in image_by_path or capture['class_id'] != image_by_path[capture['image_path']]['class_id']:

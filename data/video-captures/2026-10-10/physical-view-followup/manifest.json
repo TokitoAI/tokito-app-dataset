@@ -1,0 +1,106 @@
+{
+  "schema_version": "1.0",
+  "source_device": "iQOO I2501",
+  "retrieval": "adb pull from /sdcard/DCIM/Camera on 2026-10-10",
+  "training_export_eligible": false,
+  "metric_pose_verified": false,
+  "continuous_flip_verified": false,
+  "recordings": [
+    {
+      "board_family": "ultimainboard_2_1_4",
+      "identity_basis": "visible Ultimaker board markings in sampled frames",
+      "path": "data/video-captures/2026-10-10/physical-view-followup/ultimaker/video_20261010_202209.mp4",
+      "device_path": "/sdcard/DCIM/Camera/video_20261010_202209.mp4",
+      "sha256": "6bf8666a4ea9c4994eb7d40b215fb4e1909a778c447118875a9ce2d89696f7b2",
+      "bytes": 43400183,
+      "codec": "hevc",
+      "width": 1920,
+      "height": 1080,
+      "display_rotation_degrees": -90,
+      "duration_seconds": 27.5948,
+      "sample_interval_seconds": 1,
+      "review_contact_sheets": [
+        {"path": "data/video-captures/2026-10-10/physical-view-followup/review-contact-sheets/video_20261010_202209-fps1-page1.jpg", "sha256": "5d9fd0f201d181394510e6e18f36d2b7d452d3229d5024c052f220823f911fc1"},
+        {"path": "data/video-captures/2026-10-10/physical-view-followup/review-contact-sheets/video_20261010_202209-fps1-page2.jpg", "sha256": "ace6c8b2c716e5ca5b715683ccc162b2ce792b6c4184ce3898f81d1ce9b3939a"}
+      ],
+      "observed_views": ["component_bearing_face", "overview", "close_pan"],
+      "underside_seen": false,
+      "four_oblique_sides_seen": false,
+      "continuous_rotate_flip_seen": false
+    },
+    {
+      "board_family": "esp8266_esp12e_clone",
+      "identity_basis": "visible ESP-12E module shield marking in sampled frames",
+      "path": "data/video-captures/2026-10-10/physical-view-followup/esp12e/video_20261010_202254.mp4",
+      "device_path": "/sdcard/DCIM/Camera/video_20261010_202254.mp4",
+      "sha256": "3f1add246d0daeaf132471aad4bed45ab405f754aa4539b2b5f318c653aa6c1d",
+      "bytes": 15747427,
+      "codec": "hevc",
+      "width": 1920,
+      "height": 1080,
+      "display_rotation_degrees": -90,
+      "duration_seconds": 12.7976,
+      "sample_interval_seconds": 1,
+      "review_contact_sheets": [
+        {"path": "data/video-captures/2026-10-10/physical-view-followup/review-contact-sheets/video_20261010_202254-fps1-page1.jpg", "sha256": "6e31773e6f24d910b01c8f7ce3fe0d510467b3885a032a5d83b899c735eb3f07"}
+      ],
+      "observed_views": ["component_bearing_face", "overview", "close_pan"],
+      "underside_seen": false,
+      "four_oblique_sides_seen": false,
+      "continuous_rotate_flip_seen": false
+    },
+    {
+      "board_family": "nxp_frdm_mcxn236",
+      "identity_basis": "visible NXP and FRDM-MCXN236 markings in sampled frames",
+      "path": "data/video-captures/2026-10-10/physical-view-followup/nxp/video_20261010_202323.mp4",
+      "device_path": "/sdcard/DCIM/Camera/video_20261010_202323.mp4",
+      "sha256": "f9025417ad360eaa51276eccd04733849d22d426727ad343da4e994fe3a2195f",
+      "bytes": 79130948,
+      "codec": "hevc",
+      "width": 1920,
+      "height": 1080,
+      "display_rotation_degrees": -90,
+      "duration_seconds": 50.048,
+      "sample_interval_seconds": 1,
+      "tail_sampled_at_seconds": 45,
+      "review_contact_sheets": [
+        {"path": "data/video-captures/2026-10-10/physical-view-followup/review-contact-sheets/video_20261010_202323-fps1-page1.jpg", "sha256": "c509fe2b43c6d0544d69baa0337c2ef25099d05188bd5948b24f75b48cbe7ec6"},
+        {"path": "data/video-captures/2026-10-10/physical-view-followup/review-contact-sheets/video_20261010_202323-fps1-page2.jpg", "sha256": "f20cca83a331a259819a1f93f8bb5d67fe3ac9b8cb35b439ada44c29914c68ee"},
+        {"path": "data/video-captures/2026-10-10/physical-view-followup/review-contact-sheets/video_20261010_202323-fps1-page3.jpg", "sha256": "48e5f84683149076220370dc95a9b6d2137facd4543795b8bd236203e0f7d9dc"},
+        {"path": "data/video-captures/2026-10-10/physical-view-followup/review-contact-sheets/video_20261010_202323-fps1-page4.jpg", "sha256": "1f71af7a01093472812f4d92faf07bf4ed6cec6974d6e618aad5864166467513"}
+      ],
+      "observed_views": ["component_bearing_face", "overview", "close_pan"],
+      "underside_seen": false,
+      "four_oblique_sides_seen": false,
+      "continuous_rotate_flip_seen": false
+    },
+    {
+      "board_family": "esp32_devkit_30pin_clone",
+      "identity_basis": "visible ESP-32 module shield marking in sampled frames",
+      "path": "data/video-captures/2026-10-10/physical-view-followup/esp32/video_20261010_202431.mp4",
+      "device_path": "/sdcard/DCIM/Camera/video_20261010_202431.mp4",
+      "sha256": "781f4a1d7ca54af691e8d84477e1710809efba81fb1a8434c61fd44367695570",
+      "bytes": 27679621,
+      "codec": "hevc",
+      "width": 1920,
+      "height": 1080,
+      "display_rotation_degrees": -90,
+      "duration_seconds": 21.8959,
+      "sample_interval_seconds": 1,
+      "review_contact_sheets": [
+        {"path": "data/video-captures/2026-10-10/physical-view-followup/review-contact-sheets/video_20261010_202431-fps1-page1.jpg", "sha256": "15ce273d2a4aebe0be6cd1df3edef96c019a69b22dd69b26c3f6af1cc872e907"},
+        {"path": "data/video-captures/2026-10-10/physical-view-followup/review-contact-sheets/video_20261010_202431-fps1-page2.jpg", "sha256": "262f8c0774b99288edbe9693b0d498789dcd430df22be97016be49ef6b6da5e0"}
+      ],
+      "observed_views": ["component_bearing_face", "overview", "close_pan"],
+      "underside_seen": false,
+      "four_oblique_sides_seen": false,
+      "continuous_rotate_flip_seen": false
+    }
+  ],
+  "limitations": [
+    "The videos show the component-bearing face; the underside and four side views are not verified.",
+    "Sparse temporal sampling does not prove every unsampled instant was observed.",
+    "No capture crop, document warp, metric camera pose, or independent calibration is present.",
+    "These views are not independent specimens and provide no reviewed training labels."
+  ]
+}

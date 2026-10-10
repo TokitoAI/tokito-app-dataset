@@ -13,13 +13,1321 @@
       "class_name": "integrated_circuit",
       "observed_reference_designator": "U1",
       "observed_marking_family": "NXP MCXN236V",
-      "polygon_xy_pixels": [[1483, 2145], [1742, 2140], [1746, 2393], [1487, 2397]],
+      "polygon_xy_pixels": [
+        [
+          1483,
+          2145
+        ],
+        [
+          1742,
+          2140
+        ],
+        [
+          1746,
+          2393
+        ],
+        [
+          1487,
+          2397
+        ]
+      ],
       "boundary_scope": "visible_package_body; excludes surrounding silkscreen and board surface",
       "review_status": "visually_reviewed_body_polygon",
       "review_evidence": "Original EXIF-upright photo inspected, followed by original-pixel crop x=1413..1828,y=2048..2499; four visible package edges reviewed. U1 marking is readable. BGA contacts are under the package and are not visible pin labels.",
       "boundary_uncertainty_pixels": 4,
       "source_component_id": "nxp-frdm-mcxn236:C:U1",
       "source_mapping_status": "source_candidate_photographed_revision_unverified",
+      "installed_order_code_confirmed": false
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "image_sha256": "00bdc20da4286033a2c2f1c1d146ee3ece21be8ca322f4d33b7fdc8738038170",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261010_092203.jpg:J11",
+      "class_name": "usb_connector",
+      "observed_reference_designator": "J11",
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1281,
+          406
+        ],
+        [
+          1294,
+          397
+        ],
+        [
+          1507,
+          390
+        ],
+        [
+          1532,
+          402
+        ],
+        [
+          1544,
+          421
+        ],
+        [
+          1542,
+          642
+        ],
+        [
+          1551,
+          659
+        ],
+        [
+          1538,
+          674
+        ],
+        [
+          1302,
+          681
+        ],
+        [
+          1284,
+          668
+        ],
+        [
+          1278,
+          648
+        ],
+        [
+          1278,
+          432
+        ]
+      ],
+      "boundary_scope": "visible connector package and shield body; excludes PCB, silkscreen, and cast shadow",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original EXIF-upright photo and original-pixel crop x=1180..1990,y=300..720 reviewed. USB4085-GF-A Type-C receptacle silhouette reviewed in original-pixel crop; left port maps to J11 by Rev C placement relative to mounting holes. Board revision and installed order code are not independently confirmed.",
+      "boundary_uncertainty_pixels": 8,
+      "source_component_id": "nxp-frdm-mcxn236:C:J11",
+      "source_mapping_status": "source_candidate_photographed_revision_unverified",
+      "installed_order_code_confirmed": false
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "image_sha256": "00bdc20da4286033a2c2f1c1d146ee3ece21be8ca322f4d33b7fdc8738038170",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261010_092203.jpg:J10",
+      "class_name": "usb_connector",
+      "observed_reference_designator": "J10",
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1701,
+          383
+        ],
+        [
+          1718,
+          373
+        ],
+        [
+          1938,
+          367
+        ],
+        [
+          1957,
+          380
+        ],
+        [
+          1965,
+          401
+        ],
+        [
+          1962,
+          630
+        ],
+        [
+          1970,
+          650
+        ],
+        [
+          1957,
+          670
+        ],
+        [
+          1720,
+          678
+        ],
+        [
+          1703,
+          664
+        ],
+        [
+          1698,
+          642
+        ],
+        [
+          1698,
+          405
+        ]
+      ],
+      "boundary_scope": "visible connector package and shield body; excludes PCB, silkscreen, and cast shadow",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original EXIF-upright photo and original-pixel crop x=1180..1990,y=300..720 reviewed. USB4085-GF-A Type-C receptacle silhouette reviewed in original-pixel crop; right port maps to J10 by Rev C placement relative to mounting holes. Board revision and installed order code are not independently confirmed.",
+      "boundary_uncertainty_pixels": 8,
+      "source_component_id": "nxp-frdm-mcxn236:C:J10",
+      "source_mapping_status": "source_candidate_photographed_revision_unverified",
+      "installed_order_code_confirmed": false
+    },
+    {
+      "image_path": "data/photo-model/photos/raw/IMG_20261009_221755_1.jpg",
+      "image_sha256": "39fc7bf72f364c0b0e848dc9fe9492b85efbdef1481a28d9bbecf4787e51a47e",
+      "image_width": 1600,
+      "image_height": 3888,
+      "instance_id": "IMG_20261009_221755_1.jpg:U1",
+      "class_name": "integrated_circuit",
+      "observed_reference_designator": "U1",
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          514,
+          1555
+        ],
+        [
+          833,
+          1555
+        ],
+        [
+          833,
+          1878
+        ],
+        [
+          514,
+          1878
+        ]
+      ],
+      "boundary_scope": "visible_square_package_body; excludes surrounding silkscreen and adjacent passives",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original EXIF-upright photo inspected with original-pixel crop enlarged 3x. Adjacent U1 silkscreen is legible; the square package body perimeter is visually distinct. Rev C BOM association is only a source candidate because the photographed PCB revision and installed order code are unconfirmed.",
+      "boundary_uncertainty_pixels": 10,
+      "source_component_id": "nxp-frdm-mcxn236:C:U1",
+      "source_mapping_status": "source_candidate_photographed_revision_unverified",
+      "installed_order_code_confirmed": false
+    },
+    {
+      "image_path": "data/photo-model/photos/raw/IMG_20261009_221755_1.jpg",
+      "image_sha256": "39fc7bf72f364c0b0e848dc9fe9492b85efbdef1481a28d9bbecf4787e51a47e",
+      "image_width": 1600,
+      "image_height": 3888,
+      "instance_id": "IMG_20261009_221755_1.jpg:U8",
+      "class_name": "integrated_circuit",
+      "observed_reference_designator": "U8",
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          528,
+          2895
+        ],
+        [
+          786,
+          2895
+        ],
+        [
+          786,
+          3144
+        ],
+        [
+          528,
+          3144
+        ]
+      ],
+      "boundary_scope": "visible_square_package_body; excludes surrounding silkscreen and adjacent passives",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original EXIF-upright photo inspected with original-pixel crop enlarged 3x. Adjacent U8 silkscreen is legible; the square package body perimeter is visually distinct. Rev C BOM association is only a source candidate because the photographed PCB revision and installed order code are unconfirmed.",
+      "boundary_uncertainty_pixels": 8,
+      "source_component_id": "nxp-frdm-mcxn236:C:U8",
+      "source_mapping_status": "source_candidate_photographed_revision_unverified",
+      "installed_order_code_confirmed": false
+    },
+    {
+      "image_path": "data/photo-model/photos/raw/IMG_20261009_221755_1.jpg",
+      "image_sha256": "39fc7bf72f364c0b0e848dc9fe9492b85efbdef1481a28d9bbecf4787e51a47e",
+      "image_width": 1600,
+      "image_height": 3888,
+      "instance_id": "IMG_20261009_221755_1.jpg:J5",
+      "class_name": "connector_header",
+      "observed_reference_designator": "J5",
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          199,
+          539
+        ],
+        [
+          340,
+          539
+        ],
+        [
+          340,
+          1249
+        ],
+        [
+          199,
+          1249
+        ]
+      ],
+      "boundary_scope": "visible connector housing silhouette",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Adjacent J5 silkscreen and the component outline were reviewed in the original EXIF-upright image and a 3x crop. 08001S3 0811-29RF is a Rev C BOM candidate only; photographed PCB layout revision and installed order code remain unconfirmed.",
+      "boundary_uncertainty_pixels": 12,
+      "source_component_id": "nxp-frdm-mcxn236:C:J5",
+      "source_mapping_status": "source_candidate_photographed_revision_unverified",
+      "installed_order_code_confirmed": false
+    },
+    {
+      "image_path": "data/photo-model/photos/raw/IMG_20261009_221755_1.jpg",
+      "image_sha256": "39fc7bf72f364c0b0e848dc9fe9492b85efbdef1481a28d9bbecf4787e51a47e",
+      "image_width": 1600,
+      "image_height": 3888,
+      "instance_id": "IMG_20261009_221755_1.jpg:J6",
+      "class_name": "connector_header",
+      "observed_reference_designator": "J6",
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          987,
+          530
+        ],
+        [
+          1101,
+          530
+        ],
+        [
+          1101,
+          1247
+        ],
+        [
+          987,
+          1247
+        ]
+      ],
+      "boundary_scope": "visible connector housing silhouette",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Adjacent J6 silkscreen and the component outline were reviewed in the original EXIF-upright image and a 3x crop. 08001S3 0811-29RF is a Rev C BOM candidate only; photographed PCB layout revision and installed order code remain unconfirmed.",
+      "boundary_uncertainty_pixels": 12,
+      "source_component_id": "nxp-frdm-mcxn236:C:J6",
+      "source_mapping_status": "source_candidate_photographed_revision_unverified",
+      "installed_order_code_confirmed": false
+    },
+    {
+      "image_path": "data/photo-model/photos/raw/IMG_20261009_221755_1.jpg",
+      "image_sha256": "39fc7bf72f364c0b0e848dc9fe9492b85efbdef1481a28d9bbecf4787e51a47e",
+      "image_width": 1600,
+      "image_height": 3888,
+      "instance_id": "IMG_20261009_221755_1.jpg:J4",
+      "class_name": "connector_header",
+      "observed_reference_designator": "J4",
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1304,
+          1832
+        ],
+        [
+          1515,
+          1832
+        ],
+        [
+          1515,
+          2375
+        ],
+        [
+          1304,
+          2375
+        ]
+      ],
+      "boundary_scope": "visible connector housing silhouette",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Adjacent J4 silkscreen and the component outline were reviewed in the original EXIF-upright image and a 3x crop. 08010S31211-29RF is a Rev C BOM candidate only; photographed PCB layout revision and installed order code remain unconfirmed.",
+      "boundary_uncertainty_pixels": 12,
+      "source_component_id": "nxp-frdm-mcxn236:C:J4",
+      "source_mapping_status": "source_candidate_photographed_revision_unverified",
+      "installed_order_code_confirmed": false
+    },
+    {
+      "image_path": "data/photo-model/photos/raw/IMG_20261009_221755_1.jpg",
+      "image_sha256": "39fc7bf72f364c0b0e848dc9fe9492b85efbdef1481a28d9bbecf4787e51a47e",
+      "image_width": 1600,
+      "image_height": 3888,
+      "instance_id": "IMG_20261009_221755_1.jpg:J3",
+      "class_name": "connector_header",
+      "observed_reference_designator": "J3",
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1310,
+          2422
+        ],
+        [
+          1518,
+          2422
+        ],
+        [
+          1518,
+          3165
+        ],
+        [
+          1310,
+          3165
+        ]
+      ],
+      "boundary_scope": "visible connector housing silhouette",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Adjacent J3 silkscreen and the component outline were reviewed in the original EXIF-upright image and a 3x crop. 08010S31611-29RF is a Rev C BOM candidate only; photographed PCB layout revision and installed order code remain unconfirmed.",
+      "boundary_uncertainty_pixels": 12,
+      "source_component_id": "nxp-frdm-mcxn236:C:J3",
+      "source_mapping_status": "source_candidate_photographed_revision_unverified",
+      "installed_order_code_confirmed": false
+    },
+    {
+      "image_path": "data/photo-model/photos/raw/IMG_20261009_221755_1.jpg",
+      "image_sha256": "39fc7bf72f364c0b0e848dc9fe9492b85efbdef1481a28d9bbecf4787e51a47e",
+      "image_width": 1600,
+      "image_height": 3888,
+      "instance_id": "IMG_20261009_221755_1.jpg:SW3",
+      "class_name": "button",
+      "observed_reference_designator": "SW3",
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1386,
+          169
+        ],
+        [
+          1541,
+          169
+        ],
+        [
+          1541,
+          285
+        ],
+        [
+          1386,
+          285
+        ]
+      ],
+      "boundary_scope": "visible switch housing and actuator",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Adjacent SW3 silkscreen and the component outline were reviewed in the original EXIF-upright image and a 3x crop. 434123025826 is a Rev C BOM candidate only; photographed PCB layout revision and installed order code remain unconfirmed.",
+      "boundary_uncertainty_pixels": 12,
+      "source_component_id": "nxp-frdm-mcxn236:C:SW3",
+      "source_mapping_status": "source_candidate_photographed_revision_unverified",
+      "installed_order_code_confirmed": false
+    },
+    {
+      "image_path": "data/photo-model/photos/raw/IMG_20261009_221755_1.jpg",
+      "image_sha256": "39fc7bf72f364c0b0e848dc9fe9492b85efbdef1481a28d9bbecf4787e51a47e",
+      "image_width": 1600,
+      "image_height": 3888,
+      "instance_id": "IMG_20261009_221755_1.jpg:U12",
+      "class_name": "integrated_circuit",
+      "observed_reference_designator": "U12",
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          703,
+          851
+        ],
+        [
+          868,
+          851
+        ],
+        [
+          873,
+          858
+        ],
+        [
+          873,
+          992
+        ],
+        [
+          866,
+          1000
+        ],
+        [
+          704,
+          1000
+        ],
+        [
+          699,
+          993
+        ],
+        [
+          699,
+          858
+        ]
+      ],
+      "boundary_scope": "visible package body; excludes gullwing leads and surrounding silkscreen",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Adjacent U12 silkscreen and the component outline were reviewed in the original EXIF-upright image and a 3x crop. W25Q64JVSSIQ is a Rev C BOM candidate only; photographed PCB layout revision and installed order code remain unconfirmed.",
+      "boundary_uncertainty_pixels": 8,
+      "source_component_id": "nxp-frdm-mcxn236:C:U12",
+      "source_mapping_status": "source_candidate_photographed_revision_unverified",
+      "installed_order_code_confirmed": false
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092144.jpg",
+      "image_sha256": "d33bf83877365f57dc03d36388518207090acbd5b57db93ca96742c1ecd05ed7",
+      "image_width": 3072,
+      "image_height": 4080,
+      "instance_id": "IMG_20261010_092144.jpg:U2",
+      "class_name": "integrated_circuit",
+      "observed_reference_designator": "U2",
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1165,
+          1684
+        ],
+        [
+          1355,
+          1684
+        ],
+        [
+          1367,
+          1695
+        ],
+        [
+          1367,
+          1857
+        ],
+        [
+          1355,
+          1872
+        ],
+        [
+          1165,
+          1872
+        ],
+        [
+          1154,
+          1857
+        ],
+        [
+          1154,
+          1695
+        ]
+      ],
+      "boundary_scope": "Visible CP2102 package body; pins and silkscreen excluded.",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original-pixel 25-pixel grid crops and ungridded originals inspected. Corrected earlier boundary placement; no geometry or alignment claim.",
+      "boundary_uncertainty_pixels": 8,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
+      "installed_order_code_confirmed": false
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092144.jpg",
+      "image_sha256": "d33bf83877365f57dc03d36388518207090acbd5b57db93ca96742c1ecd05ed7",
+      "image_width": 3072,
+      "image_height": 4080,
+      "instance_id": "IMG_20261010_092144.jpg:RF_MODULE",
+      "class_name": "rf_module",
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1090,
+          2304
+        ],
+        [
+          1835,
+          2312
+        ],
+        [
+          1832,
+          3346
+        ],
+        [
+          1086,
+          3318
+        ]
+      ],
+      "boundary_scope": "visible complete RF module substrate including the antenna PCB below the shield; host PCB and external solder fillets excluded",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original-pixel 25-pixel grid crops and ungridded originals inspected. Corrected earlier boundary placement; no geometry or alignment claim.",
+      "boundary_uncertainty_pixels": 8,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
+      "installed_order_code_confirmed": false
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092144.jpg",
+      "image_sha256": "d33bf83877365f57dc03d36388518207090acbd5b57db93ca96742c1ecd05ed7",
+      "image_width": 3072,
+      "image_height": 4080,
+      "instance_id": "IMG_20261010_092144.jpg:USB",
+      "class_name": "usb_connector",
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1345,
+          1294
+        ],
+        [
+          1650,
+          1294
+        ],
+        [
+          1660,
+          1308
+        ],
+        [
+          1660,
+          1351
+        ],
+        [
+          1683,
+          1350
+        ],
+        [
+          1696,
+          1369
+        ],
+        [
+          1696,
+          1428
+        ],
+        [
+          1685,
+          1440
+        ],
+        [
+          1660,
+          1440
+        ],
+        [
+          1660,
+          1500
+        ],
+        [
+          1643,
+          1512
+        ],
+        [
+          1357,
+          1512
+        ],
+        [
+          1342,
+          1500
+        ],
+        [
+          1342,
+          1440
+        ],
+        [
+          1322,
+          1440
+        ],
+        [
+          1308,
+          1425
+        ],
+        [
+          1308,
+          1375
+        ],
+        [
+          1320,
+          1359
+        ],
+        [
+          1342,
+          1355
+        ],
+        [
+          1342,
+          1308
+        ]
+      ],
+      "boundary_scope": "visible connector shell including mounting ears; surrounding PCB and solder fillets excluded",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original-pixel 25-pixel grid crops and ungridded originals inspected. Corrected earlier boundary placement; no geometry or alignment claim.",
+      "boundary_uncertainty_pixels": 8,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
+      "installed_order_code_confirmed": false
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092144.jpg",
+      "image_sha256": "d33bf83877365f57dc03d36388518207090acbd5b57db93ca96742c1ecd05ed7",
+      "image_width": 3072,
+      "image_height": 4080,
+      "instance_id": "IMG_20261010_092144.jpg:BOOT_SWITCH",
+      "class_name": "switch",
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1112,
+          1358
+        ],
+        [
+          1228,
+          1358
+        ],
+        [
+          1236,
+          1371
+        ],
+        [
+          1236,
+          1498
+        ],
+        [
+          1228,
+          1512
+        ],
+        [
+          1112,
+          1512
+        ],
+        [
+          1105,
+          1498
+        ],
+        [
+          1105,
+          1371
+        ]
+      ],
+      "boundary_scope": "Visible BOOT tactile-switch housing, including actuator; adjacent silkscreen excluded.",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original-pixel 25-pixel grid crops and ungridded originals inspected. Corrected earlier boundary placement; no geometry or alignment claim.",
+      "boundary_uncertainty_pixels": 8,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
+      "installed_order_code_confirmed": false
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092144.jpg",
+      "image_sha256": "d33bf83877365f57dc03d36388518207090acbd5b57db93ca96742c1ecd05ed7",
+      "image_width": 3072,
+      "image_height": 4080,
+      "instance_id": "IMG_20261010_092144.jpg:EN_SWITCH",
+      "class_name": "switch",
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1758,
+          1370
+        ],
+        [
+          1875,
+          1370
+        ],
+        [
+          1881,
+          1380
+        ],
+        [
+          1881,
+          1515
+        ],
+        [
+          1873,
+          1523
+        ],
+        [
+          1758,
+          1523
+        ],
+        [
+          1751,
+          1515
+        ],
+        [
+          1751,
+          1380
+        ]
+      ],
+      "boundary_scope": "Visible EN tactile-switch housing, including actuator; adjacent silkscreen excluded.",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original-pixel 25-pixel grid crops and ungridded originals inspected. Corrected earlier boundary placement; no geometry or alignment claim.",
+      "boundary_uncertainty_pixels": 8,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
+      "installed_order_code_confirmed": false
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092149.jpg",
+      "image_sha256": "f99756a1c369609e24570c76d5600eff9eb3b3d749644f2d9664c63b075bd2c2",
+      "image_width": 3072,
+      "image_height": 4080,
+      "instance_id": "IMG_20261010_092149.jpg:U2",
+      "class_name": "integrated_circuit",
+      "observed_reference_designator": "U2",
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1075,
+          1659
+        ],
+        [
+          1252,
+          1661
+        ],
+        [
+          1263,
+          1671
+        ],
+        [
+          1263,
+          1823
+        ],
+        [
+          1252,
+          1837
+        ],
+        [
+          1075,
+          1835
+        ],
+        [
+          1065,
+          1821
+        ],
+        [
+          1065,
+          1670
+        ]
+      ],
+      "boundary_scope": "Visible CP2102 package body; pins and silkscreen excluded.",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "ORB/RANSAC transfer from the manually corrected 092144 source with 2547/2699 feature inliers. Full target and original-resolution top-area overlays visually inspected; package boundaries align with the visible bodies. Same specimen/session; not independent evaluation.",
+      "boundary_uncertainty_pixels": 10,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
+      "installed_order_code_confirmed": false
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092149.jpg",
+      "image_sha256": "f99756a1c369609e24570c76d5600eff9eb3b3d749644f2d9664c63b075bd2c2",
+      "image_width": 3072,
+      "image_height": 4080,
+      "instance_id": "IMG_20261010_092149.jpg:RF_MODULE",
+      "class_name": "rf_module",
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1004,
+          2241
+        ],
+        [
+          1705,
+          2256
+        ],
+        [
+          1710,
+          3253
+        ],
+        [
+          999,
+          3214
+        ]
+      ],
+      "boundary_scope": "visible complete RF module substrate including the antenna PCB below the shield; host PCB and external solder fillets excluded",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "ORB/RANSAC transfer from the manually corrected 092144 source with 2547/2699 feature inliers. Full target and original-resolution top-area overlays visually inspected; package boundaries align with the visible bodies. Same specimen/session; not independent evaluation.",
+      "boundary_uncertainty_pixels": 10,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
+      "installed_order_code_confirmed": false
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092149.jpg",
+      "image_sha256": "f99756a1c369609e24570c76d5600eff9eb3b3d749644f2d9664c63b075bd2c2",
+      "image_width": 3072,
+      "image_height": 4080,
+      "instance_id": "IMG_20261010_092149.jpg:USB",
+      "class_name": "usb_connector",
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1242,
+          1298
+        ],
+        [
+          1525,
+          1300
+        ],
+        [
+          1534,
+          1313
+        ],
+        [
+          1534,
+          1352
+        ],
+        [
+          1556,
+          1352
+        ],
+        [
+          1568,
+          1369
+        ],
+        [
+          1568,
+          1424
+        ],
+        [
+          1558,
+          1435
+        ],
+        [
+          1535,
+          1435
+        ],
+        [
+          1535,
+          1491
+        ],
+        [
+          1519,
+          1502
+        ],
+        [
+          1253,
+          1500
+        ],
+        [
+          1239,
+          1489
+        ],
+        [
+          1239,
+          1433
+        ],
+        [
+          1221,
+          1433
+        ],
+        [
+          1208,
+          1419
+        ],
+        [
+          1207,
+          1373
+        ],
+        [
+          1219,
+          1358
+        ],
+        [
+          1239,
+          1355
+        ],
+        [
+          1239,
+          1311
+        ]
+      ],
+      "boundary_scope": "visible connector shell including mounting ears; surrounding PCB and solder fillets excluded",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "ORB/RANSAC transfer from the manually corrected 092144 source with 2547/2699 feature inliers. Full target and original-resolution top-area overlays visually inspected; package boundaries align with the visible bodies. Same specimen/session; not independent evaluation.",
+      "boundary_uncertainty_pixels": 10,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
+      "installed_order_code_confirmed": false
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092149.jpg",
+      "image_sha256": "f99756a1c369609e24570c76d5600eff9eb3b3d749644f2d9664c63b075bd2c2",
+      "image_width": 3072,
+      "image_height": 4080,
+      "instance_id": "IMG_20261010_092149.jpg:BOOT_SWITCH",
+      "class_name": "switch",
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1026,
+          1356
+        ],
+        [
+          1133,
+          1357
+        ],
+        [
+          1141,
+          1369
+        ],
+        [
+          1141,
+          1487
+        ],
+        [
+          1133,
+          1500
+        ],
+        [
+          1026,
+          1499
+        ],
+        [
+          1019,
+          1486
+        ],
+        [
+          1019,
+          1368
+        ]
+      ],
+      "boundary_scope": "Visible BOOT tactile-switch housing, including actuator; adjacent silkscreen excluded.",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "ORB/RANSAC transfer from the manually corrected 092144 source with 2547/2699 feature inliers. Full target and original-resolution top-area overlays visually inspected; package boundaries align with the visible bodies. Same specimen/session; not independent evaluation.",
+      "boundary_uncertainty_pixels": 10,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
+      "installed_order_code_confirmed": false
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092149.jpg",
+      "image_sha256": "f99756a1c369609e24570c76d5600eff9eb3b3d749644f2d9664c63b075bd2c2",
+      "image_width": 3072,
+      "image_height": 4080,
+      "instance_id": "IMG_20261010_092149.jpg:EN_SWITCH",
+      "class_name": "switch",
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1626,
+          1371
+        ],
+        [
+          1735,
+          1371
+        ],
+        [
+          1741,
+          1380
+        ],
+        [
+          1742,
+          1506
+        ],
+        [
+          1734,
+          1514
+        ],
+        [
+          1627,
+          1513
+        ],
+        [
+          1620,
+          1505
+        ],
+        [
+          1619,
+          1380
+        ]
+      ],
+      "boundary_scope": "Visible EN tactile-switch housing, including actuator; adjacent silkscreen excluded.",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "ORB/RANSAC transfer from the manually corrected 092144 source with 2547/2699 feature inliers. Full target and original-resolution top-area overlays visually inspected; package boundaries align with the visible bodies. Same specimen/session; not independent evaluation.",
+      "boundary_uncertainty_pixels": 10,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
+      "installed_order_code_confirmed": false
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092153.jpg",
+      "image_sha256": "14b4208819a0e8f20bd75204cf7bdd8676f2a89fd3419412ab0f06b53d2c3854",
+      "image_width": 3072,
+      "image_height": 4080,
+      "instance_id": "IMG_20261010_092153.jpg:U2",
+      "class_name": "integrated_circuit",
+      "observed_reference_designator": "U2",
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1015,
+          1667
+        ],
+        [
+          1189,
+          1667
+        ],
+        [
+          1200,
+          1678
+        ],
+        [
+          1201,
+          1827
+        ],
+        [
+          1190,
+          1841
+        ],
+        [
+          1015,
+          1841
+        ],
+        [
+          1005,
+          1827
+        ],
+        [
+          1005,
+          1677
+        ]
+      ],
+      "boundary_scope": "Visible CP2102 package body; pins and silkscreen excluded.",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "ORB/RANSAC transfer from the manually corrected 092144 source with 1883/2018 feature inliers. Full target and original-resolution top-area overlays visually inspected; package boundaries align with the visible bodies. Same specimen/session; not independent evaluation.",
+      "boundary_uncertainty_pixels": 10,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
+      "installed_order_code_confirmed": false
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092153.jpg",
+      "image_sha256": "14b4208819a0e8f20bd75204cf7bdd8676f2a89fd3419412ab0f06b53d2c3854",
+      "image_width": 3072,
+      "image_height": 4080,
+      "instance_id": "IMG_20261010_092153.jpg:RF_MODULE",
+      "class_name": "rf_module",
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          947,
+          2242
+        ],
+        [
+          1639,
+          2254
+        ],
+        [
+          1648,
+          3241
+        ],
+        [
+          945,
+          3205
+        ]
+      ],
+      "boundary_scope": "visible complete RF module substrate including the antenna PCB below the shield; host PCB and external solder fillets excluded",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "ORB/RANSAC transfer from the manually corrected 092144 source with 1883/2018 feature inliers. Full target and original-resolution top-area overlays visually inspected; package boundaries align with the visible bodies. Same specimen/session; not independent evaluation.",
+      "boundary_uncertainty_pixels": 10,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
+      "installed_order_code_confirmed": false
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092153.jpg",
+      "image_sha256": "14b4208819a0e8f20bd75204cf7bdd8676f2a89fd3419412ab0f06b53d2c3854",
+      "image_width": 3072,
+      "image_height": 4080,
+      "instance_id": "IMG_20261010_092153.jpg:USB",
+      "class_name": "usb_connector",
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1178,
+          1310
+        ],
+        [
+          1458,
+          1310
+        ],
+        [
+          1467,
+          1323
+        ],
+        [
+          1467,
+          1362
+        ],
+        [
+          1488,
+          1361
+        ],
+        [
+          1501,
+          1379
+        ],
+        [
+          1501,
+          1433
+        ],
+        [
+          1491,
+          1444
+        ],
+        [
+          1468,
+          1444
+        ],
+        [
+          1469,
+          1499
+        ],
+        [
+          1453,
+          1510
+        ],
+        [
+          1190,
+          1509
+        ],
+        [
+          1177,
+          1498
+        ],
+        [
+          1176,
+          1443
+        ],
+        [
+          1158,
+          1443
+        ],
+        [
+          1145,
+          1429
+        ],
+        [
+          1145,
+          1384
+        ],
+        [
+          1156,
+          1369
+        ],
+        [
+          1176,
+          1366
+        ],
+        [
+          1176,
+          1323
+        ]
+      ],
+      "boundary_scope": "visible connector shell including mounting ears; surrounding PCB and solder fillets excluded",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "ORB/RANSAC transfer from the manually corrected 092144 source with 1883/2018 feature inliers. Full target and original-resolution top-area overlays visually inspected; package boundaries align with the visible bodies. Same specimen/session; not independent evaluation.",
+      "boundary_uncertainty_pixels": 10,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
+      "installed_order_code_confirmed": false
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092153.jpg",
+      "image_sha256": "14b4208819a0e8f20bd75204cf7bdd8676f2a89fd3419412ab0f06b53d2c3854",
+      "image_width": 3072,
+      "image_height": 4080,
+      "instance_id": "IMG_20261010_092153.jpg:BOOT_SWITCH",
+      "class_name": "switch",
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          966,
+          1368
+        ],
+        [
+          1072,
+          1368
+        ],
+        [
+          1079,
+          1380
+        ],
+        [
+          1079,
+          1496
+        ],
+        [
+          1072,
+          1509
+        ],
+        [
+          966,
+          1509
+        ],
+        [
+          960,
+          1496
+        ],
+        [
+          959,
+          1380
+        ]
+      ],
+      "boundary_scope": "Visible BOOT tactile-switch housing, including actuator; adjacent silkscreen excluded.",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "ORB/RANSAC transfer from the manually corrected 092144 source with 1883/2018 feature inliers. Full target and original-resolution top-area overlays visually inspected; package boundaries align with the visible bodies. Same specimen/session; not independent evaluation.",
+      "boundary_uncertainty_pixels": 10,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
+      "installed_order_code_confirmed": false
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092153.jpg",
+      "image_sha256": "14b4208819a0e8f20bd75204cf7bdd8676f2a89fd3419412ab0f06b53d2c3854",
+      "image_width": 3072,
+      "image_height": 4080,
+      "instance_id": "IMG_20261010_092153.jpg:EN_SWITCH",
+      "class_name": "switch",
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1558,
+          1380
+        ],
+        [
+          1665,
+          1380
+        ],
+        [
+          1671,
+          1389
+        ],
+        [
+          1672,
+          1513
+        ],
+        [
+          1665,
+          1520
+        ],
+        [
+          1559,
+          1520
+        ],
+        [
+          1553,
+          1513
+        ],
+        [
+          1551,
+          1389
+        ]
+      ],
+      "boundary_scope": "Visible EN tactile-switch housing, including actuator; adjacent silkscreen excluded.",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "ORB/RANSAC transfer from the manually corrected 092144 source with 1883/2018 feature inliers. Full target and original-resolution top-area overlays visually inspected; package boundaries align with the visible bodies. Same specimen/session; not independent evaluation.",
+      "boundary_uncertainty_pixels": 10,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
       "installed_order_code_confirmed": false
     }
   ]

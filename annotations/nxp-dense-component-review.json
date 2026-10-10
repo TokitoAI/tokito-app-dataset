@@ -1,0 +1,4377 @@
+{
+  "schema_version": "1.0",
+  "coordinate_frame": "exif_upright_original_image_pixels",
+  "board_family": "NXP FRDM-MCXN236",
+  "photographed_pcb_revision": "unverified",
+  "coverage": "partial_visible_component_bodies",
+  "training_export_eligible": false,
+  "evaluation_valid": false,
+  "release_eligible": false,
+  "annotation_policy": "Observed package body, observed silkscreen refdes and readable family only. CAD/BOM Rev C candidates do not prove installed identity. Photo-local IDs preserve unresolved identities. Header socket holes remain part of the housing, bare PCB holes/pads are not component instances.",
+  "remaining_review": [
+    "Resolve all remaining tiny resistor/capacitor bodies and crowded arrays using closer views",
+    "Verify ambiguous upper IC reference designator and family from macro photos",
+    "Complete every supported class instance before training export",
+    "Review underside and independent capture sessions; no generated back-side instances"
+  ],
+  "masks": [
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "image_sha256": "00bdc20da4286033a2c2f1c1d146ee3ece21be8ca322f4d33b7fdc8738038170",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261010_092203.jpg:U1",
+      "class_name": "integrated_circuit",
+      "observed_reference_designator": "U1",
+      "observed_marking_family": "NXP MCXN236V",
+      "polygon_xy_pixels": [
+        [
+          1483,
+          2145
+        ],
+        [
+          1742,
+          2140
+        ],
+        [
+          1746,
+          2393
+        ],
+        [
+          1487,
+          2397
+        ]
+      ],
+      "boundary_scope": "visible package body including intrinsic end terminals where inseparable; excludes solder lands, detached/exposed leads, silkscreen and board surface",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original EXIF-upright photo inspected, followed by original-pixel crop x=1413..1828,y=2048..2499; four visible package edges reviewed. U1 marking is readable. BGA contacts are under the package and are not visible pin labels.",
+      "boundary_uncertainty_pixels": 8,
+      "source_component_id": "nxp-frdm-mcxn236:C:U1",
+      "source_mapping_status": "source_candidate_photographed_revision_unverified",
+      "installed_order_code_confirmed": false,
+      "capture_session_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_id": "nxp-user-board-01",
+      "capture_group_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_relation_evidence": "User board capture set; no independent specimen documented"
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "image_sha256": "00bdc20da4286033a2c2f1c1d146ee3ece21be8ca322f4d33b7fdc8738038170",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261010_092203.jpg:J11",
+      "class_name": "usb_connector",
+      "observed_reference_designator": "J11",
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1281,
+          406
+        ],
+        [
+          1294,
+          397
+        ],
+        [
+          1507,
+          390
+        ],
+        [
+          1532,
+          402
+        ],
+        [
+          1544,
+          421
+        ],
+        [
+          1542,
+          642
+        ],
+        [
+          1551,
+          659
+        ],
+        [
+          1538,
+          674
+        ],
+        [
+          1302,
+          681
+        ],
+        [
+          1284,
+          668
+        ],
+        [
+          1278,
+          648
+        ],
+        [
+          1278,
+          432
+        ]
+      ],
+      "boundary_scope": "visible package body including intrinsic end terminals where inseparable; excludes solder lands, detached/exposed leads, silkscreen and board surface",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original EXIF-upright photo and original-pixel crop x=1180..1990,y=300..720 reviewed. USB4085-GF-A Type-C receptacle silhouette reviewed in original-pixel crop; left port maps to J11 by Rev C placement relative to mounting holes. Board revision and installed order code are not independently confirmed.",
+      "boundary_uncertainty_pixels": 8,
+      "source_component_id": "nxp-frdm-mcxn236:C:J11",
+      "source_mapping_status": "source_candidate_photographed_revision_unverified",
+      "installed_order_code_confirmed": false,
+      "capture_session_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_id": "nxp-user-board-01",
+      "capture_group_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_relation_evidence": "User board capture set; no independent specimen documented"
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "image_sha256": "00bdc20da4286033a2c2f1c1d146ee3ece21be8ca322f4d33b7fdc8738038170",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261010_092203.jpg:J10",
+      "class_name": "usb_connector",
+      "observed_reference_designator": "J10",
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1701,
+          383
+        ],
+        [
+          1718,
+          373
+        ],
+        [
+          1938,
+          367
+        ],
+        [
+          1957,
+          380
+        ],
+        [
+          1965,
+          401
+        ],
+        [
+          1962,
+          630
+        ],
+        [
+          1970,
+          650
+        ],
+        [
+          1957,
+          670
+        ],
+        [
+          1720,
+          678
+        ],
+        [
+          1703,
+          664
+        ],
+        [
+          1698,
+          642
+        ],
+        [
+          1698,
+          405
+        ]
+      ],
+      "boundary_scope": "visible package body including intrinsic end terminals where inseparable; excludes solder lands, detached/exposed leads, silkscreen and board surface",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original EXIF-upright photo and original-pixel crop x=1180..1990,y=300..720 reviewed. USB4085-GF-A Type-C receptacle silhouette reviewed in original-pixel crop; right port maps to J10 by Rev C placement relative to mounting holes. Board revision and installed order code are not independently confirmed.",
+      "boundary_uncertainty_pixels": 8,
+      "source_component_id": "nxp-frdm-mcxn236:C:J10",
+      "source_mapping_status": "source_candidate_photographed_revision_unverified",
+      "installed_order_code_confirmed": false,
+      "capture_session_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_id": "nxp-user-board-01",
+      "capture_group_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_relation_evidence": "User board capture set; no independent specimen documented"
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "image_sha256": "00bdc20da4286033a2c2f1c1d146ee3ece21be8ca322f4d33b7fdc8738038170",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261010_092203.jpg:upper-large-ic-body",
+      "class_name": "integrated_circuit",
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1505,
+          1102
+        ],
+        [
+          1694,
+          1102
+        ],
+        [
+          1694,
+          1289
+        ],
+        [
+          1505,
+          1289
+        ]
+      ],
+      "boundary_scope": "visible package body including intrinsic end terminals where inseparable; excludes solder lands, detached/exposed leads, silkscreen and board surface",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original-pixel top/middle/bottom grid and clean detail crops reviewed manually; package body edges traced. Identity is observed body/refdes only unless a readable marking family is explicitly recorded.",
+      "boundary_uncertainty_pixels": 8,
+      "installed_order_code_confirmed": false,
+      "identity_status": "observed_refdes_or_photo_local_body; installed exact order code unresolved",
+      "capture_session_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_id": "nxp-user-board-01",
+      "capture_group_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_relation_evidence": "User board capture set; no independent specimen documented"
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "image_sha256": "00bdc20da4286033a2c2f1c1d146ee3ece21be8ca322f4d33b7fdc8738038170",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261010_092203.jpg:U2",
+      "class_name": "integrated_circuit",
+      "observed_reference_designator": "U2",
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1111,
+          1670
+        ],
+        [
+          1202,
+          1670
+        ],
+        [
+          1202,
+          1729
+        ],
+        [
+          1111,
+          1729
+        ]
+      ],
+      "boundary_scope": "visible package body including intrinsic end terminals where inseparable; excludes solder lands, detached/exposed leads, silkscreen and board surface",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original-pixel top/middle/bottom grid and clean detail crops reviewed manually; package body edges traced. Identity is observed body/refdes only unless a readable marking family is explicitly recorded.",
+      "boundary_uncertainty_pixels": 8,
+      "installed_order_code_confirmed": false,
+      "identity_status": "observed_refdes_or_photo_local_body; installed exact order code unresolved",
+      "capture_session_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_id": "nxp-user-board-01",
+      "capture_group_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_relation_evidence": "User board capture set; no independent specimen documented"
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "image_sha256": "00bdc20da4286033a2c2f1c1d146ee3ece21be8ca322f4d33b7fdc8738038170",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261010_092203.jpg:U11",
+      "class_name": "integrated_circuit",
+      "observed_reference_designator": "U11",
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1361,
+          1896
+        ],
+        [
+          1451,
+          1896
+        ],
+        [
+          1451,
+          1975
+        ],
+        [
+          1361,
+          1975
+        ]
+      ],
+      "boundary_scope": "visible package body including intrinsic end terminals where inseparable; excludes solder lands, detached/exposed leads, silkscreen and board surface",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original-pixel top/middle/bottom grid and clean detail crops reviewed manually; package body edges traced. Identity is observed body/refdes only unless a readable marking family is explicitly recorded.",
+      "boundary_uncertainty_pixels": 8,
+      "installed_order_code_confirmed": false,
+      "identity_status": "observed_refdes_or_photo_local_body; installed exact order code unresolved",
+      "capture_session_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_id": "nxp-user-board-01",
+      "capture_group_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_relation_evidence": "User board capture set; no independent specimen documented"
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "image_sha256": "00bdc20da4286033a2c2f1c1d146ee3ece21be8ca322f4d33b7fdc8738038170",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261010_092203.jpg:U12",
+      "class_name": "integrated_circuit",
+      "observed_reference_designator": "U12",
+      "observed_marking_family": "Winbond 25Q64JV",
+      "polygon_xy_pixels": [
+        [
+          1438,
+          2890
+        ],
+        [
+          1599,
+          2890
+        ],
+        [
+          1599,
+          3039
+        ],
+        [
+          1438,
+          3039
+        ]
+      ],
+      "boundary_scope": "visible package body including intrinsic end terminals where inseparable; excludes solder lands, detached/exposed leads, silkscreen and board surface",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original-pixel top/middle/bottom grid and clean detail crops reviewed manually; package body edges traced. Identity is observed body/refdes only unless a readable marking family is explicitly recorded.",
+      "boundary_uncertainty_pixels": 8,
+      "installed_order_code_confirmed": false,
+      "identity_status": "observed_refdes_or_photo_local_body; installed exact order code unresolved",
+      "capture_session_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_id": "nxp-user-board-01",
+      "capture_group_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_relation_evidence": "User board capture set; no independent specimen documented"
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "image_sha256": "00bdc20da4286033a2c2f1c1d146ee3ece21be8ca322f4d33b7fdc8738038170",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261010_092203.jpg:U10",
+      "class_name": "integrated_circuit",
+      "observed_reference_designator": "U10",
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1706,
+          2940
+        ],
+        [
+          1758,
+          2940
+        ],
+        [
+          1758,
+          3008
+        ],
+        [
+          1706,
+          3008
+        ]
+      ],
+      "boundary_scope": "visible package body including intrinsic end terminals where inseparable; excludes solder lands, detached/exposed leads, silkscreen and board surface",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original-pixel top/middle/bottom grid and clean detail crops reviewed manually; package body edges traced. Identity is observed body/refdes only unless a readable marking family is explicitly recorded.",
+      "boundary_uncertainty_pixels": 8,
+      "installed_order_code_confirmed": false,
+      "identity_status": "observed_refdes_or_photo_local_body; installed exact order code unresolved",
+      "capture_session_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_id": "nxp-user-board-01",
+      "capture_group_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_relation_evidence": "User board capture set; no independent specimen documented"
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "image_sha256": "00bdc20da4286033a2c2f1c1d146ee3ece21be8ca322f4d33b7fdc8738038170",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261010_092203.jpg:U7",
+      "class_name": "integrated_circuit",
+      "observed_reference_designator": "U7",
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1381,
+          3207
+        ],
+        [
+          1499,
+          3207
+        ],
+        [
+          1499,
+          3310
+        ],
+        [
+          1381,
+          3310
+        ]
+      ],
+      "boundary_scope": "visible package body including intrinsic end terminals where inseparable; excludes solder lands, detached/exposed leads, silkscreen and board surface",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original-pixel top/middle/bottom grid and clean detail crops reviewed manually; package body edges traced. Identity is observed body/refdes only unless a readable marking family is explicitly recorded.",
+      "boundary_uncertainty_pixels": 8,
+      "installed_order_code_confirmed": false,
+      "identity_status": "observed_refdes_or_photo_local_body; installed exact order code unresolved",
+      "capture_session_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_id": "nxp-user-board-01",
+      "capture_group_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_relation_evidence": "User board capture set; no independent specimen documented"
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "image_sha256": "00bdc20da4286033a2c2f1c1d146ee3ece21be8ca322f4d33b7fdc8738038170",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261010_092203.jpg:upper-small-ic-body",
+      "class_name": "integrated_circuit",
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1238,
+          907
+        ],
+        [
+          1286,
+          907
+        ],
+        [
+          1286,
+          954
+        ],
+        [
+          1238,
+          954
+        ]
+      ],
+      "boundary_scope": "visible package body including intrinsic end terminals where inseparable; excludes solder lands, detached/exposed leads, silkscreen and board surface",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original-pixel top/middle/bottom grid and clean detail crops reviewed manually; package body edges traced. Identity is observed body/refdes only unless a readable marking family is explicitly recorded.",
+      "boundary_uncertainty_pixels": 8,
+      "installed_order_code_confirmed": false,
+      "identity_status": "observed_refdes_or_photo_local_body; installed exact order code unresolved",
+      "capture_session_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_id": "nxp-user-board-01",
+      "capture_group_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_relation_evidence": "User board capture set; no independent specimen documented"
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "image_sha256": "00bdc20da4286033a2c2f1c1d146ee3ece21be8ca322f4d33b7fdc8738038170",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261010_092203.jpg:midleft-small-ic-body",
+      "class_name": "integrated_circuit",
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1145,
+          1519
+        ],
+        [
+          1194,
+          1519
+        ],
+        [
+          1194,
+          1560
+        ],
+        [
+          1145,
+          1560
+        ]
+      ],
+      "boundary_scope": "visible package body including intrinsic end terminals where inseparable; excludes solder lands, detached/exposed leads, silkscreen and board surface",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original-pixel top/middle/bottom grid and clean detail crops reviewed manually; package body edges traced. Identity is observed body/refdes only unless a readable marking family is explicitly recorded.",
+      "boundary_uncertainty_pixels": 8,
+      "installed_order_code_confirmed": false,
+      "identity_status": "observed_refdes_or_photo_local_body; installed exact order code unresolved",
+      "capture_session_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_id": "nxp-user-board-01",
+      "capture_group_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_relation_evidence": "User board capture set; no independent specimen documented"
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "image_sha256": "00bdc20da4286033a2c2f1c1d146ee3ece21be8ca322f4d33b7fdc8738038170",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261010_092203.jpg:Q1",
+      "class_name": "transistor_package",
+      "observed_reference_designator": "Q1",
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1236,
+          1408
+        ],
+        [
+          1285,
+          1408
+        ],
+        [
+          1285,
+          1440
+        ],
+        [
+          1236,
+          1440
+        ]
+      ],
+      "boundary_scope": "visible package body including intrinsic end terminals where inseparable; excludes solder lands, detached/exposed leads, silkscreen and board surface",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original-pixel top/middle/bottom grid and clean detail crops reviewed manually; package body edges traced. Identity is observed body/refdes only unless a readable marking family is explicitly recorded.",
+      "boundary_uncertainty_pixels": 8,
+      "installed_order_code_confirmed": false,
+      "identity_status": "observed_refdes_or_photo_local_body; installed exact order code unresolved",
+      "capture_session_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_id": "nxp-user-board-01",
+      "capture_group_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_relation_evidence": "User board capture set; no independent specimen documented"
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "image_sha256": "00bdc20da4286033a2c2f1c1d146ee3ece21be8ca322f4d33b7fdc8738038170",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261010_092203.jpg:left-upper-female-header",
+      "class_name": "header_connector",
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          825,
+          1040
+        ],
+        [
+          964,
+          1034
+        ],
+        [
+          977,
+          1654
+        ],
+        [
+          832,
+          1651
+        ]
+      ],
+      "boundary_scope": "visible package body including intrinsic end terminals where inseparable; excludes solder lands, detached/exposed leads, silkscreen and board surface",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original-pixel top/middle/bottom grid and clean detail crops reviewed manually; package body edges traced. Identity is observed body/refdes only unless a readable marking family is explicitly recorded.",
+      "boundary_uncertainty_pixels": 8,
+      "installed_order_code_confirmed": false,
+      "identity_status": "observed_refdes_or_photo_local_body; installed exact order code unresolved",
+      "capture_session_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_id": "nxp-user-board-01",
+      "capture_group_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_relation_evidence": "User board capture set; no independent specimen documented"
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "image_sha256": "00bdc20da4286033a2c2f1c1d146ee3ece21be8ca322f4d33b7fdc8738038170",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261010_092203.jpg:left-middle-female-header",
+      "class_name": "header_connector",
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          830,
+          1721
+        ],
+        [
+          970,
+          1717
+        ],
+        [
+          987,
+          2179
+        ],
+        [
+          839,
+          2179
+        ]
+      ],
+      "boundary_scope": "visible package body including intrinsic end terminals where inseparable; excludes solder lands, detached/exposed leads, silkscreen and board surface",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original-pixel top/middle/bottom grid and clean detail crops reviewed manually; package body edges traced. Identity is observed body/refdes only unless a readable marking family is explicitly recorded.",
+      "boundary_uncertainty_pixels": 8,
+      "installed_order_code_confirmed": false,
+      "identity_status": "observed_refdes_or_photo_local_body; installed exact order code unresolved",
+      "capture_session_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_id": "nxp-user-board-01",
+      "capture_group_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_relation_evidence": "User board capture set; no independent specimen documented"
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "image_sha256": "00bdc20da4286033a2c2f1c1d146ee3ece21be8ca322f4d33b7fdc8738038170",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261010_092203.jpg:right-upper-female-header",
+      "class_name": "header_connector",
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          2174,
+          754
+        ],
+        [
+          2313,
+          754
+        ],
+        [
+          2318,
+          1487
+        ],
+        [
+          2179,
+          1517
+        ]
+      ],
+      "boundary_scope": "visible package body including intrinsic end terminals where inseparable; excludes solder lands, detached/exposed leads, silkscreen and board surface",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original-pixel top/middle/bottom grid and clean detail crops reviewed manually; package body edges traced. Identity is observed body/refdes only unless a readable marking family is explicitly recorded.",
+      "boundary_uncertainty_pixels": 8,
+      "installed_order_code_confirmed": false,
+      "identity_status": "observed_refdes_or_photo_local_body; installed exact order code unresolved",
+      "capture_session_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_id": "nxp-user-board-01",
+      "capture_group_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_relation_evidence": "User board capture set; no independent specimen documented"
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "image_sha256": "00bdc20da4286033a2c2f1c1d146ee3ece21be8ca322f4d33b7fdc8738038170",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261010_092203.jpg:right-middle-female-header",
+      "class_name": "header_connector",
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          2201,
+          1544
+        ],
+        [
+          2335,
+          1524
+        ],
+        [
+          2342,
+          2117
+        ],
+        [
+          2212,
+          2139
+        ]
+      ],
+      "boundary_scope": "visible package body including intrinsic end terminals where inseparable; excludes solder lands, detached/exposed leads, silkscreen and board surface",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original-pixel top/middle/bottom grid and clean detail crops reviewed manually; package body edges traced. Identity is observed body/refdes only unless a readable marking family is explicitly recorded.",
+      "boundary_uncertainty_pixels": 8,
+      "installed_order_code_confirmed": false,
+      "identity_status": "observed_refdes_or_photo_local_body; installed exact order code unresolved",
+      "capture_session_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_id": "nxp-user-board-01",
+      "capture_group_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_relation_evidence": "User board capture set; no independent specimen documented"
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "image_sha256": "00bdc20da4286033a2c2f1c1d146ee3ece21be8ca322f4d33b7fdc8738038170",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261010_092203.jpg:right-lower-female-header",
+      "class_name": "header_connector",
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          2224,
+          2210
+        ],
+        [
+          2356,
+          2205
+        ],
+        [
+          2378,
+          3497
+        ],
+        [
+          2245,
+          3523
+        ]
+      ],
+      "boundary_scope": "visible package body including intrinsic end terminals where inseparable; excludes solder lands, detached/exposed leads, silkscreen and board surface",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original-pixel top/middle/bottom grid and clean detail crops reviewed manually; package body edges traced. Identity is observed body/refdes only unless a readable marking family is explicitly recorded.",
+      "boundary_uncertainty_pixels": 8,
+      "installed_order_code_confirmed": false,
+      "identity_status": "observed_refdes_or_photo_local_body; installed exact order code unresolved",
+      "capture_session_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_id": "nxp-user-board-01",
+      "capture_group_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_relation_evidence": "User board capture set; no independent specimen documented"
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "image_sha256": "00bdc20da4286033a2c2f1c1d146ee3ece21be8ca322f4d33b7fdc8738038170",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261010_092203.jpg:bottom-female-header",
+      "class_name": "header_connector",
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1090,
+          3634
+        ],
+        [
+          2164,
+          3629
+        ],
+        [
+          2167,
+          3866
+        ],
+        [
+          1101,
+          3863
+        ]
+      ],
+      "boundary_scope": "visible package body including intrinsic end terminals where inseparable; excludes solder lands, detached/exposed leads, silkscreen and board surface",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original-pixel top/middle/bottom grid and clean detail crops reviewed manually; package body edges traced. Identity is observed body/refdes only unless a readable marking family is explicitly recorded.",
+      "boundary_uncertainty_pixels": 8,
+      "installed_order_code_confirmed": false,
+      "identity_status": "observed_refdes_or_photo_local_body; installed exact order code unresolved",
+      "capture_session_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_id": "nxp-user-board-01",
+      "capture_group_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_relation_evidence": "User board capture set; no independent specimen documented"
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "image_sha256": "00bdc20da4286033a2c2f1c1d146ee3ece21be8ca322f4d33b7fdc8738038170",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261010_092203.jpg:J5",
+      "class_name": "header_connector",
+      "observed_reference_designator": "J5",
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1911,
+          2661
+        ],
+        [
+          2010,
+          2657
+        ],
+        [
+          2026,
+          3462
+        ],
+        [
+          1915,
+          3466
+        ]
+      ],
+      "boundary_scope": "visible package body including intrinsic end terminals where inseparable; excludes solder lands, detached/exposed leads, silkscreen and board surface",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original-pixel top/middle/bottom grid and clean detail crops reviewed manually; package body edges traced. Identity is observed body/refdes only unless a readable marking family is explicitly recorded.",
+      "boundary_uncertainty_pixels": 8,
+      "installed_order_code_confirmed": false,
+      "identity_status": "observed_refdes_or_photo_local_body; installed exact order code unresolved",
+      "capture_session_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_id": "nxp-user-board-01",
+      "capture_group_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_relation_evidence": "User board capture set; no independent specimen documented"
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "image_sha256": "00bdc20da4286033a2c2f1c1d146ee3ece21be8ca322f4d33b7fdc8738038170",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261010_092203.jpg:J6",
+      "class_name": "header_connector",
+      "observed_reference_designator": "J6",
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1222,
+          2757
+        ],
+        [
+          1320,
+          2757
+        ],
+        [
+          1340,
+          3424
+        ],
+        [
+          1236,
+          3425
+        ]
+      ],
+      "boundary_scope": "visible package body including intrinsic end terminals where inseparable; excludes solder lands, detached/exposed leads, silkscreen and board surface",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original-pixel top/middle/bottom grid and clean detail crops reviewed manually; package body edges traced. Identity is observed body/refdes only unless a readable marking family is explicitly recorded.",
+      "boundary_uncertainty_pixels": 8,
+      "installed_order_code_confirmed": false,
+      "identity_status": "observed_refdes_or_photo_local_body; installed exact order code unresolved",
+      "capture_session_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_id": "nxp-user-board-01",
+      "capture_group_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_relation_evidence": "User board capture set; no independent specimen documented"
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "image_sha256": "00bdc20da4286033a2c2f1c1d146ee3ece21be8ca322f4d33b7fdc8738038170",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261010_092203.jpg:top-left-male-header-body",
+      "class_name": "header_connector",
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1041,
+          570
+        ],
+        [
+          1100,
+          560
+        ],
+        [
+          1105,
+          736
+        ],
+        [
+          1044,
+          737
+        ]
+      ],
+      "boundary_scope": "visible package body including intrinsic end terminals where inseparable; excludes solder lands, detached/exposed leads, silkscreen and board surface",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original-pixel top/middle/bottom grid and clean detail crops reviewed manually; package body edges traced. Identity is observed body/refdes only unless a readable marking family is explicitly recorded.",
+      "boundary_uncertainty_pixels": 8,
+      "installed_order_code_confirmed": false,
+      "identity_status": "observed_refdes_or_photo_local_body; installed exact order code unresolved",
+      "capture_session_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_id": "nxp-user-board-01",
+      "capture_group_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_relation_evidence": "User board capture set; no independent specimen documented"
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "image_sha256": "00bdc20da4286033a2c2f1c1d146ee3ece21be8ca322f4d33b7fdc8738038170",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261010_092203.jpg:left-upper-male-header-body",
+      "class_name": "header_connector",
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          837,
+          982
+        ],
+        [
+          992,
+          965
+        ],
+        [
+          992,
+          1031
+        ],
+        [
+          840,
+          1040
+        ]
+      ],
+      "boundary_scope": "visible package body including intrinsic end terminals where inseparable; excludes solder lands, detached/exposed leads, silkscreen and board surface",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original-pixel top/middle/bottom grid and clean detail crops reviewed manually; package body edges traced. Identity is observed body/refdes only unless a readable marking family is explicitly recorded.",
+      "boundary_uncertainty_pixels": 8,
+      "installed_order_code_confirmed": false,
+      "identity_status": "observed_refdes_or_photo_local_body; installed exact order code unresolved",
+      "capture_session_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_id": "nxp-user-board-01",
+      "capture_group_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_relation_evidence": "User board capture set; no independent specimen documented"
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "image_sha256": "00bdc20da4286033a2c2f1c1d146ee3ece21be8ca322f4d33b7fdc8738038170",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261010_092203.jpg:upper-right-4pin-header-body",
+      "class_name": "header_connector",
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1942,
+          965
+        ],
+        [
+          2070,
+          955
+        ],
+        [
+          2071,
+          1033
+        ],
+        [
+          1943,
+          1031
+        ]
+      ],
+      "boundary_scope": "visible package body including intrinsic end terminals where inseparable; excludes solder lands, detached/exposed leads, silkscreen and board surface",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original-pixel top/middle/bottom grid and clean detail crops reviewed manually; package body edges traced. Identity is observed body/refdes only unless a readable marking family is explicitly recorded.",
+      "boundary_uncertainty_pixels": 8,
+      "installed_order_code_confirmed": false,
+      "identity_status": "observed_refdes_or_photo_local_body; installed exact order code unresolved",
+      "capture_session_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_id": "nxp-user-board-01",
+      "capture_group_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_relation_evidence": "User board capture set; no independent specimen documented"
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "image_sha256": "00bdc20da4286033a2c2f1c1d146ee3ece21be8ca322f4d33b7fdc8738038170",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261010_092203.jpg:upper-right-2pin-header-body",
+      "class_name": "header_connector",
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1887,
+          1264
+        ],
+        [
+          2010,
+          1260
+        ],
+        [
+          2011,
+          1325
+        ],
+        [
+          1889,
+          1329
+        ]
+      ],
+      "boundary_scope": "visible package body including intrinsic end terminals where inseparable; excludes solder lands, detached/exposed leads, silkscreen and board surface",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original-pixel top/middle/bottom grid and clean detail crops reviewed manually; package body edges traced. Identity is observed body/refdes only unless a readable marking family is explicitly recorded.",
+      "boundary_uncertainty_pixels": 8,
+      "installed_order_code_confirmed": false,
+      "identity_status": "observed_refdes_or_photo_local_body; installed exact order code unresolved",
+      "capture_session_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_id": "nxp-user-board-01",
+      "capture_group_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_relation_evidence": "User board capture set; no independent specimen documented"
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "image_sha256": "00bdc20da4286033a2c2f1c1d146ee3ece21be8ca322f4d33b7fdc8738038170",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261010_092203.jpg:upper-center-jumper-body",
+      "class_name": "header_connector",
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1316,
+          1148
+        ],
+        [
+          1363,
+          1139
+        ],
+        [
+          1417,
+          1308
+        ],
+        [
+          1347,
+          1358
+        ],
+        [
+          1319,
+          1254
+        ]
+      ],
+      "boundary_scope": "visible package body including intrinsic end terminals where inseparable; excludes solder lands, detached/exposed leads, silkscreen and board surface",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original-pixel top/middle/bottom grid and clean detail crops reviewed manually; package body edges traced. Identity is observed body/refdes only unless a readable marking family is explicitly recorded.",
+      "boundary_uncertainty_pixels": 8,
+      "installed_order_code_confirmed": false,
+      "identity_status": "observed_refdes_or_photo_local_body; installed exact order code unresolved",
+      "capture_session_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_id": "nxp-user-board-01",
+      "capture_group_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_relation_evidence": "User board capture set; no independent specimen documented"
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "image_sha256": "00bdc20da4286033a2c2f1c1d146ee3ece21be8ca322f4d33b7fdc8738038170",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261010_092203.jpg:top-right-tactile-switch",
+      "class_name": "tactile_switch",
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          2184,
+          657
+        ],
+        [
+          2266,
+          654
+        ],
+        [
+          2300,
+          672
+        ],
+        [
+          2291,
+          722
+        ],
+        [
+          2180,
+          725
+        ]
+      ],
+      "boundary_scope": "visible package body including intrinsic end terminals where inseparable; excludes solder lands, detached/exposed leads, silkscreen and board surface",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original-pixel top/middle/bottom grid and clean detail crops reviewed manually; package body edges traced. Identity is observed body/refdes only unless a readable marking family is explicitly recorded.",
+      "boundary_uncertainty_pixels": 8,
+      "installed_order_code_confirmed": false,
+      "identity_status": "observed_refdes_or_photo_local_body; installed exact order code unresolved",
+      "capture_session_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_id": "nxp-user-board-01",
+      "capture_group_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_relation_evidence": "User board capture set; no independent specimen documented"
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "image_sha256": "00bdc20da4286033a2c2f1c1d146ee3ece21be8ca322f4d33b7fdc8738038170",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261010_092203.jpg:SW3",
+      "class_name": "tactile_switch",
+      "observed_reference_designator": "SW3",
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          894,
+          3522
+        ],
+        [
+          1009,
+          3522
+        ],
+        [
+          1010,
+          3627
+        ],
+        [
+          894,
+          3629
+        ]
+      ],
+      "boundary_scope": "visible package body including intrinsic end terminals where inseparable; excludes solder lands, detached/exposed leads, silkscreen and board surface",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original-pixel top/middle/bottom grid and clean detail crops reviewed manually; package body edges traced. Identity is observed body/refdes only unless a readable marking family is explicitly recorded.",
+      "boundary_uncertainty_pixels": 8,
+      "installed_order_code_confirmed": false,
+      "identity_status": "observed_refdes_or_photo_local_body; installed exact order code unresolved",
+      "capture_session_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_id": "nxp-user-board-01",
+      "capture_group_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_relation_evidence": "User board capture set; no independent specimen documented"
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "image_sha256": "00bdc20da4286033a2c2f1c1d146ee3ece21be8ca322f4d33b7fdc8738038170",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261010_092203.jpg:SW2",
+      "class_name": "tactile_switch",
+      "observed_reference_designator": "SW2",
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          2271,
+          3539
+        ],
+        [
+          2382,
+          3536
+        ],
+        [
+          2396,
+          3648
+        ],
+        [
+          2275,
+          3650
+        ]
+      ],
+      "boundary_scope": "visible package body including intrinsic end terminals where inseparable; excludes solder lands, detached/exposed leads, silkscreen and board surface",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original-pixel top/middle/bottom grid and clean detail crops reviewed manually; package body edges traced. Identity is observed body/refdes only unless a readable marking family is explicitly recorded.",
+      "boundary_uncertainty_pixels": 8,
+      "installed_order_code_confirmed": false,
+      "identity_status": "observed_refdes_or_photo_local_body; installed exact order code unresolved",
+      "capture_session_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_id": "nxp-user-board-01",
+      "capture_group_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_relation_evidence": "User board capture set; no independent specimen documented"
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "image_sha256": "00bdc20da4286033a2c2f1c1d146ee3ece21be8ca322f4d33b7fdc8738038170",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261010_092203.jpg:midlower-left-tactile-switch",
+      "class_name": "tactile_switch",
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1042,
+          3236
+        ],
+        [
+          1140,
+          3236
+        ],
+        [
+          1140,
+          3304
+        ],
+        [
+          1042,
+          3304
+        ]
+      ],
+      "boundary_scope": "visible package body including intrinsic end terminals where inseparable; excludes solder lands, detached/exposed leads, silkscreen and board surface",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original-pixel top/middle/bottom grid and clean detail crops reviewed manually; package body edges traced. Identity is observed body/refdes only unless a readable marking family is explicitly recorded.",
+      "boundary_uncertainty_pixels": 8,
+      "installed_order_code_confirmed": false,
+      "identity_status": "observed_refdes_or_photo_local_body; installed exact order code unresolved",
+      "capture_session_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_id": "nxp-user-board-01",
+      "capture_group_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_relation_evidence": "User board capture set; no independent specimen documented"
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "image_sha256": "00bdc20da4286033a2c2f1c1d146ee3ece21be8ca322f4d33b7fdc8738038170",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261010_092203.jpg:Y2",
+      "class_name": "crystal_oscillator",
+      "observed_reference_designator": "Y2",
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1340,
+          2362
+        ],
+        [
+          1385,
+          2362
+        ],
+        [
+          1385,
+          2443
+        ],
+        [
+          1340,
+          2443
+        ]
+      ],
+      "boundary_scope": "visible package body including intrinsic end terminals where inseparable; excludes solder lands, detached/exposed leads, silkscreen and board surface",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original-pixel top/middle/bottom grid and clean detail crops reviewed manually; package body edges traced. Identity is observed body/refdes only unless a readable marking family is explicitly recorded.",
+      "boundary_uncertainty_pixels": 8,
+      "installed_order_code_confirmed": false,
+      "identity_status": "observed_refdes_or_photo_local_body; installed exact order code unresolved",
+      "capture_session_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_id": "nxp-user-board-01",
+      "capture_group_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_relation_evidence": "User board capture set; no independent specimen documented"
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "image_sha256": "00bdc20da4286033a2c2f1c1d146ee3ece21be8ca322f4d33b7fdc8738038170",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261010_092203.jpg:Y1",
+      "class_name": "crystal_oscillator",
+      "observed_reference_designator": "Y1",
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1627,
+          1960
+        ],
+        [
+          1689,
+          1960
+        ],
+        [
+          1689,
+          2010
+        ],
+        [
+          1627,
+          2010
+        ]
+      ],
+      "boundary_scope": "visible package body including intrinsic end terminals where inseparable; excludes solder lands, detached/exposed leads, silkscreen and board surface",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original-pixel top/middle/bottom grid and clean detail crops reviewed manually; package body edges traced. Identity is observed body/refdes only unless a readable marking family is explicitly recorded.",
+      "boundary_uncertainty_pixels": 8,
+      "installed_order_code_confirmed": false,
+      "identity_status": "observed_refdes_or_photo_local_body; installed exact order code unresolved",
+      "capture_session_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_id": "nxp-user-board-01",
+      "capture_group_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_relation_evidence": "User board capture set; no independent specimen documented"
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "image_sha256": "00bdc20da4286033a2c2f1c1d146ee3ece21be8ca322f4d33b7fdc8738038170",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261010_092203.jpg:upper-metal-resonator",
+      "class_name": "crystal_oscillator",
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1660,
+          936
+        ],
+        [
+          1743,
+          936
+        ],
+        [
+          1743,
+          989
+        ],
+        [
+          1660,
+          989
+        ]
+      ],
+      "boundary_scope": "visible package body including intrinsic end terminals where inseparable; excludes solder lands, detached/exposed leads, silkscreen and board surface",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original-pixel top/middle/bottom grid and clean detail crops reviewed manually; package body edges traced. Identity is observed body/refdes only unless a readable marking family is explicitly recorded.",
+      "boundary_uncertainty_pixels": 8,
+      "installed_order_code_confirmed": false,
+      "identity_status": "observed_refdes_or_photo_local_body; installed exact order code unresolved",
+      "capture_session_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_id": "nxp-user-board-01",
+      "capture_group_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_relation_evidence": "User board capture set; no independent specimen documented"
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "image_sha256": "00bdc20da4286033a2c2f1c1d146ee3ece21be8ca322f4d33b7fdc8738038170",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261010_092203.jpg:C1",
+      "class_name": "capacitor",
+      "observed_reference_designator": "C1",
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1101,
+          1814
+        ],
+        [
+          1151,
+          1814
+        ],
+        [
+          1151,
+          1841
+        ],
+        [
+          1101,
+          1841
+        ]
+      ],
+      "boundary_scope": "visible package body including intrinsic end terminals where inseparable; excludes solder lands, detached/exposed leads, silkscreen and board surface",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original-pixel top/middle/bottom grid and clean detail crops reviewed manually; package body edges traced. Identity is observed body/refdes only unless a readable marking family is explicitly recorded.",
+      "boundary_uncertainty_pixels": 8,
+      "installed_order_code_confirmed": false,
+      "identity_status": "observed_refdes_or_photo_local_body; installed exact order code unresolved",
+      "capture_session_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_id": "nxp-user-board-01",
+      "capture_group_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_relation_evidence": "User board capture set; no independent specimen documented"
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "image_sha256": "00bdc20da4286033a2c2f1c1d146ee3ece21be8ca322f4d33b7fdc8738038170",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261010_092203.jpg:C4",
+      "class_name": "capacitor",
+      "observed_reference_designator": "C4",
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1180,
+          1811
+        ],
+        [
+          1232,
+          1811
+        ],
+        [
+          1232,
+          1840
+        ],
+        [
+          1180,
+          1840
+        ]
+      ],
+      "boundary_scope": "visible package body including intrinsic end terminals where inseparable; excludes solder lands, detached/exposed leads, silkscreen and board surface",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original-pixel top/middle/bottom grid and clean detail crops reviewed manually; package body edges traced. Identity is observed body/refdes only unless a readable marking family is explicitly recorded.",
+      "boundary_uncertainty_pixels": 8,
+      "installed_order_code_confirmed": false,
+      "identity_status": "observed_refdes_or_photo_local_body; installed exact order code unresolved",
+      "capture_session_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_id": "nxp-user-board-01",
+      "capture_group_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_relation_evidence": "User board capture set; no independent specimen documented"
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "image_sha256": "00bdc20da4286033a2c2f1c1d146ee3ece21be8ca322f4d33b7fdc8738038170",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261010_092203.jpg:C38",
+      "class_name": "capacitor",
+      "observed_reference_designator": "C38",
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1143,
+          1412
+        ],
+        [
+          1171,
+          1412
+        ],
+        [
+          1171,
+          1453
+        ],
+        [
+          1143,
+          1453
+        ]
+      ],
+      "boundary_scope": "visible package body including intrinsic end terminals where inseparable; excludes solder lands, detached/exposed leads, silkscreen and board surface",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original-pixel top/middle/bottom grid and clean detail crops reviewed manually; package body edges traced. Identity is observed body/refdes only unless a readable marking family is explicitly recorded.",
+      "boundary_uncertainty_pixels": 8,
+      "installed_order_code_confirmed": false,
+      "identity_status": "observed_refdes_or_photo_local_body; installed exact order code unresolved",
+      "capture_session_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_id": "nxp-user-board-01",
+      "capture_group_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_relation_evidence": "User board capture set; no independent specimen documented"
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "image_sha256": "00bdc20da4286033a2c2f1c1d146ee3ece21be8ca322f4d33b7fdc8738038170",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261010_092203.jpg:C41",
+      "class_name": "capacitor",
+      "observed_reference_designator": "C41",
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1074,
+          1418
+        ],
+        [
+          1093,
+          1418
+        ],
+        [
+          1093,
+          1452
+        ],
+        [
+          1074,
+          1452
+        ]
+      ],
+      "boundary_scope": "visible package body including intrinsic end terminals where inseparable; excludes solder lands, detached/exposed leads, silkscreen and board surface",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original-pixel top/middle/bottom grid and clean detail crops reviewed manually; package body edges traced. Identity is observed body/refdes only unless a readable marking family is explicitly recorded.",
+      "boundary_uncertainty_pixels": 8,
+      "installed_order_code_confirmed": false,
+      "identity_status": "observed_refdes_or_photo_local_body; installed exact order code unresolved",
+      "capture_session_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_id": "nxp-user-board-01",
+      "capture_group_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_relation_evidence": "User board capture set; no independent specimen documented"
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "image_sha256": "00bdc20da4286033a2c2f1c1d146ee3ece21be8ca322f4d33b7fdc8738038170",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261010_092203.jpg:R90",
+      "class_name": "resistor",
+      "observed_reference_designator": "R90",
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1234,
+          1490
+        ],
+        [
+          1268,
+          1490
+        ],
+        [
+          1268,
+          1503
+        ],
+        [
+          1234,
+          1503
+        ]
+      ],
+      "boundary_scope": "visible package body including intrinsic end terminals where inseparable; excludes solder lands, detached/exposed leads, silkscreen and board surface",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original-pixel top/middle/bottom grid and clean detail crops reviewed manually; package body edges traced. Identity is observed body/refdes only unless a readable marking family is explicitly recorded.",
+      "boundary_uncertainty_pixels": 8,
+      "installed_order_code_confirmed": false,
+      "identity_status": "observed_refdes_or_photo_local_body; installed exact order code unresolved",
+      "capture_session_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_id": "nxp-user-board-01",
+      "capture_group_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_relation_evidence": "User board capture set; no independent specimen documented"
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "image_sha256": "00bdc20da4286033a2c2f1c1d146ee3ece21be8ca322f4d33b7fdc8738038170",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261010_092203.jpg:R89",
+      "class_name": "resistor",
+      "observed_reference_designator": "R89",
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1162,
+          1582
+        ],
+        [
+          1183,
+          1582
+        ],
+        [
+          1183,
+          1595
+        ],
+        [
+          1162,
+          1595
+        ]
+      ],
+      "boundary_scope": "visible package body including intrinsic end terminals where inseparable; excludes solder lands, detached/exposed leads, silkscreen and board surface",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original-pixel top/middle/bottom grid and clean detail crops reviewed manually; package body edges traced. Identity is observed body/refdes only unless a readable marking family is explicitly recorded.",
+      "boundary_uncertainty_pixels": 8,
+      "installed_order_code_confirmed": false,
+      "identity_status": "observed_refdes_or_photo_local_body; installed exact order code unresolved",
+      "capture_session_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_id": "nxp-user-board-01",
+      "capture_group_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_relation_evidence": "User board capture set; no independent specimen documented"
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "image_sha256": "00bdc20da4286033a2c2f1c1d146ee3ece21be8ca322f4d33b7fdc8738038170",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261010_092203.jpg:R70",
+      "class_name": "resistor",
+      "observed_reference_designator": "R70",
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1140,
+          1995
+        ],
+        [
+          1170,
+          1995
+        ],
+        [
+          1170,
+          2005
+        ],
+        [
+          1140,
+          2005
+        ]
+      ],
+      "boundary_scope": "visible package body including intrinsic end terminals where inseparable; excludes solder lands, detached/exposed leads, silkscreen and board surface",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original-pixel top/middle/bottom grid and clean detail crops reviewed manually; package body edges traced. Identity is observed body/refdes only unless a readable marking family is explicitly recorded.",
+      "boundary_uncertainty_pixels": 8,
+      "installed_order_code_confirmed": false,
+      "identity_status": "observed_refdes_or_photo_local_body; installed exact order code unresolved",
+      "capture_session_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_id": "nxp-user-board-01",
+      "capture_group_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_relation_evidence": "User board capture set; no independent specimen documented"
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "image_sha256": "00bdc20da4286033a2c2f1c1d146ee3ece21be8ca322f4d33b7fdc8738038170",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261010_092203.jpg:D3",
+      "class_name": "led",
+      "observed_reference_designator": "D3",
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1130,
+          2038
+        ],
+        [
+          1176,
+          2038
+        ],
+        [
+          1176,
+          2055
+        ],
+        [
+          1130,
+          2055
+        ]
+      ],
+      "boundary_scope": "visible package body including intrinsic end terminals where inseparable; excludes solder lands, detached/exposed leads, silkscreen and board surface",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original-pixel top/middle/bottom grid and clean detail crops reviewed manually; package body edges traced. Identity is observed body/refdes only unless a readable marking family is explicitly recorded.",
+      "boundary_uncertainty_pixels": 8,
+      "installed_order_code_confirmed": false,
+      "identity_status": "observed_refdes_or_photo_local_body; installed exact order code unresolved",
+      "capture_session_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_id": "nxp-user-board-01",
+      "capture_group_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_relation_evidence": "User board capture set; no independent specimen documented"
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "image_sha256": "00bdc20da4286033a2c2f1c1d146ee3ece21be8ca322f4d33b7fdc8738038170",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261010_092203.jpg:R15",
+      "class_name": "resistor",
+      "observed_reference_designator": "R15",
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1886,
+          2150
+        ],
+        [
+          1916,
+          2150
+        ],
+        [
+          1916,
+          2160
+        ],
+        [
+          1886,
+          2160
+        ]
+      ],
+      "boundary_scope": "visible package body including intrinsic end terminals where inseparable; excludes solder lands, detached/exposed leads, silkscreen and board surface",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original-pixel top/middle/bottom grid and clean detail crops reviewed manually; package body edges traced. Identity is observed body/refdes only unless a readable marking family is explicitly recorded.",
+      "boundary_uncertainty_pixels": 8,
+      "installed_order_code_confirmed": false,
+      "identity_status": "observed_refdes_or_photo_local_body; installed exact order code unresolved",
+      "capture_session_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_id": "nxp-user-board-01",
+      "capture_group_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_relation_evidence": "User board capture set; no independent specimen documented"
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "image_sha256": "00bdc20da4286033a2c2f1c1d146ee3ece21be8ca322f4d33b7fdc8738038170",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261010_092203.jpg:R38",
+      "class_name": "resistor",
+      "observed_reference_designator": "R38",
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1885,
+          2179
+        ],
+        [
+          1915,
+          2179
+        ],
+        [
+          1915,
+          2189
+        ],
+        [
+          1885,
+          2189
+        ]
+      ],
+      "boundary_scope": "visible package body including intrinsic end terminals where inseparable; excludes solder lands, detached/exposed leads, silkscreen and board surface",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original-pixel top/middle/bottom grid and clean detail crops reviewed manually; package body edges traced. Identity is observed body/refdes only unless a readable marking family is explicitly recorded.",
+      "boundary_uncertainty_pixels": 8,
+      "installed_order_code_confirmed": false,
+      "identity_status": "observed_refdes_or_photo_local_body; installed exact order code unresolved",
+      "capture_session_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_id": "nxp-user-board-01",
+      "capture_group_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_relation_evidence": "User board capture set; no independent specimen documented"
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "image_sha256": "00bdc20da4286033a2c2f1c1d146ee3ece21be8ca322f4d33b7fdc8738038170",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261010_092203.jpg:R14",
+      "class_name": "resistor",
+      "observed_reference_designator": "R14",
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1883,
+          2209
+        ],
+        [
+          1914,
+          2209
+        ],
+        [
+          1914,
+          2219
+        ],
+        [
+          1883,
+          2219
+        ]
+      ],
+      "boundary_scope": "visible package body including intrinsic end terminals where inseparable; excludes solder lands, detached/exposed leads, silkscreen and board surface",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original-pixel top/middle/bottom grid and clean detail crops reviewed manually; package body edges traced. Identity is observed body/refdes only unless a readable marking family is explicitly recorded.",
+      "boundary_uncertainty_pixels": 8,
+      "installed_order_code_confirmed": false,
+      "identity_status": "observed_refdes_or_photo_local_body; installed exact order code unresolved",
+      "capture_session_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_id": "nxp-user-board-01",
+      "capture_group_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_relation_evidence": "User board capture set; no independent specimen documented"
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "image_sha256": "00bdc20da4286033a2c2f1c1d146ee3ece21be8ca322f4d33b7fdc8738038170",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261010_092203.jpg:R4",
+      "class_name": "resistor",
+      "observed_reference_designator": "R4",
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1868,
+          2345
+        ],
+        [
+          1899,
+          2345
+        ],
+        [
+          1899,
+          2356
+        ],
+        [
+          1868,
+          2356
+        ]
+      ],
+      "boundary_scope": "visible package body including intrinsic end terminals where inseparable; excludes solder lands, detached/exposed leads, silkscreen and board surface",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original-pixel top/middle/bottom grid and clean detail crops reviewed manually; package body edges traced. Identity is observed body/refdes only unless a readable marking family is explicitly recorded.",
+      "boundary_uncertainty_pixels": 8,
+      "installed_order_code_confirmed": false,
+      "identity_status": "observed_refdes_or_photo_local_body; installed exact order code unresolved",
+      "capture_session_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_id": "nxp-user-board-01",
+      "capture_group_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_relation_evidence": "User board capture set; no independent specimen documented"
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "image_sha256": "00bdc20da4286033a2c2f1c1d146ee3ece21be8ca322f4d33b7fdc8738038170",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261010_092203.jpg:R5",
+      "class_name": "resistor",
+      "observed_reference_designator": "R5",
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1869,
+          2379
+        ],
+        [
+          1900,
+          2379
+        ],
+        [
+          1900,
+          2389
+        ],
+        [
+          1869,
+          2389
+        ]
+      ],
+      "boundary_scope": "visible package body including intrinsic end terminals where inseparable; excludes solder lands, detached/exposed leads, silkscreen and board surface",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original-pixel top/middle/bottom grid and clean detail crops reviewed manually; package body edges traced. Identity is observed body/refdes only unless a readable marking family is explicitly recorded.",
+      "boundary_uncertainty_pixels": 8,
+      "installed_order_code_confirmed": false,
+      "identity_status": "observed_refdes_or_photo_local_body; installed exact order code unresolved",
+      "capture_session_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_id": "nxp-user-board-01",
+      "capture_group_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_relation_evidence": "User board capture set; no independent specimen documented"
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "image_sha256": "00bdc20da4286033a2c2f1c1d146ee3ece21be8ca322f4d33b7fdc8738038170",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261010_092203.jpg:R2",
+      "class_name": "resistor",
+      "observed_reference_designator": "R2",
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1868,
+          2410
+        ],
+        [
+          1899,
+          2410
+        ],
+        [
+          1899,
+          2420
+        ],
+        [
+          1868,
+          2420
+        ]
+      ],
+      "boundary_scope": "visible package body including intrinsic end terminals where inseparable; excludes solder lands, detached/exposed leads, silkscreen and board surface",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original-pixel top/middle/bottom grid and clean detail crops reviewed manually; package body edges traced. Identity is observed body/refdes only unless a readable marking family is explicitly recorded.",
+      "boundary_uncertainty_pixels": 8,
+      "installed_order_code_confirmed": false,
+      "identity_status": "observed_refdes_or_photo_local_body; installed exact order code unresolved",
+      "capture_session_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_id": "nxp-user-board-01",
+      "capture_group_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_relation_evidence": "User board capture set; no independent specimen documented"
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "image_sha256": "00bdc20da4286033a2c2f1c1d146ee3ece21be8ca322f4d33b7fdc8738038170",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261010_092203.jpg:R22",
+      "class_name": "resistor",
+      "observed_reference_designator": "R22",
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1885,
+          2048
+        ],
+        [
+          1916,
+          2048
+        ],
+        [
+          1916,
+          2059
+        ],
+        [
+          1885,
+          2059
+        ]
+      ],
+      "boundary_scope": "visible package body including intrinsic end terminals where inseparable; excludes solder lands, detached/exposed leads, silkscreen and board surface",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original-pixel top/middle/bottom grid and clean detail crops reviewed manually; package body edges traced. Identity is observed body/refdes only unless a readable marking family is explicitly recorded.",
+      "boundary_uncertainty_pixels": 8,
+      "installed_order_code_confirmed": false,
+      "identity_status": "observed_refdes_or_photo_local_body; installed exact order code unresolved",
+      "capture_session_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_id": "nxp-user-board-01",
+      "capture_group_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_relation_evidence": "User board capture set; no independent specimen documented"
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "image_sha256": "00bdc20da4286033a2c2f1c1d146ee3ece21be8ca322f4d33b7fdc8738038170",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261010_092203.jpg:right-middle-resistor-body",
+      "class_name": "resistor",
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          2004,
+          2268
+        ],
+        [
+          2033,
+          2268
+        ],
+        [
+          2033,
+          2278
+        ],
+        [
+          2004,
+          2278
+        ]
+      ],
+      "boundary_scope": "visible package body including intrinsic end terminals where inseparable; excludes solder lands, detached/exposed leads, silkscreen and board surface",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original-pixel top/middle/bottom grid and clean detail crops reviewed manually; package body edges traced. Identity is observed body/refdes only unless a readable marking family is explicitly recorded.",
+      "boundary_uncertainty_pixels": 8,
+      "installed_order_code_confirmed": false,
+      "identity_status": "observed_refdes_or_photo_local_body; installed exact order code unresolved",
+      "capture_session_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_id": "nxp-user-board-01",
+      "capture_group_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_relation_evidence": "User board capture set; no independent specimen documented"
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "image_sha256": "00bdc20da4286033a2c2f1c1d146ee3ece21be8ca322f4d33b7fdc8738038170",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261010_092203.jpg:R53",
+      "class_name": "resistor",
+      "observed_reference_designator": "R53",
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1781,
+          2045
+        ],
+        [
+          1790,
+          2045
+        ],
+        [
+          1790,
+          2071
+        ],
+        [
+          1781,
+          2071
+        ]
+      ],
+      "boundary_scope": "visible package body including intrinsic end terminals where inseparable; excludes solder lands, detached/exposed leads, silkscreen and board surface",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original-pixel top/middle/bottom grid and clean detail crops reviewed manually; package body edges traced. Identity is observed body/refdes only unless a readable marking family is explicitly recorded.",
+      "boundary_uncertainty_pixels": 8,
+      "installed_order_code_confirmed": false,
+      "identity_status": "observed_refdes_or_photo_local_body; installed exact order code unresolved",
+      "capture_session_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_id": "nxp-user-board-01",
+      "capture_group_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_relation_evidence": "User board capture set; no independent specimen documented"
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "image_sha256": "00bdc20da4286033a2c2f1c1d146ee3ece21be8ca322f4d33b7fdc8738038170",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261010_092203.jpg:R54",
+      "class_name": "resistor",
+      "observed_reference_designator": "R54",
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1812,
+          2044
+        ],
+        [
+          1822,
+          2044
+        ],
+        [
+          1822,
+          2070
+        ],
+        [
+          1812,
+          2070
+        ]
+      ],
+      "boundary_scope": "visible package body including intrinsic end terminals where inseparable; excludes solder lands, detached/exposed leads, silkscreen and board surface",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original-pixel top/middle/bottom grid and clean detail crops reviewed manually; package body edges traced. Identity is observed body/refdes only unless a readable marking family is explicitly recorded.",
+      "boundary_uncertainty_pixels": 8,
+      "installed_order_code_confirmed": false,
+      "identity_status": "observed_refdes_or_photo_local_body; installed exact order code unresolved",
+      "capture_session_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_id": "nxp-user-board-01",
+      "capture_group_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_relation_evidence": "User board capture set; no independent specimen documented"
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "image_sha256": "00bdc20da4286033a2c2f1c1d146ee3ece21be8ca322f4d33b7fdc8738038170",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261010_092203.jpg:C102",
+      "class_name": "capacitor",
+      "observed_reference_designator": "C102",
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1383,
+          2020
+        ],
+        [
+          1404,
+          2020
+        ],
+        [
+          1404,
+          2032
+        ],
+        [
+          1383,
+          2032
+        ]
+      ],
+      "boundary_scope": "visible package body including intrinsic end terminals where inseparable; excludes solder lands, detached/exposed leads, silkscreen and board surface",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original-pixel top/middle/bottom grid and clean detail crops reviewed manually; package body edges traced. Identity is observed body/refdes only unless a readable marking family is explicitly recorded.",
+      "boundary_uncertainty_pixels": 8,
+      "installed_order_code_confirmed": false,
+      "identity_status": "observed_refdes_or_photo_local_body; installed exact order code unresolved",
+      "capture_session_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_id": "nxp-user-board-01",
+      "capture_group_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_relation_evidence": "User board capture set; no independent specimen documented"
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "image_sha256": "00bdc20da4286033a2c2f1c1d146ee3ece21be8ca322f4d33b7fdc8738038170",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261010_092203.jpg:C103",
+      "class_name": "capacitor",
+      "observed_reference_designator": "C103",
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1382,
+          2046
+        ],
+        [
+          1405,
+          2046
+        ],
+        [
+          1405,
+          2059
+        ],
+        [
+          1382,
+          2059
+        ]
+      ],
+      "boundary_scope": "visible package body including intrinsic end terminals where inseparable; excludes solder lands, detached/exposed leads, silkscreen and board surface",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original-pixel top/middle/bottom grid and clean detail crops reviewed manually; package body edges traced. Identity is observed body/refdes only unless a readable marking family is explicitly recorded.",
+      "boundary_uncertainty_pixels": 8,
+      "installed_order_code_confirmed": false,
+      "identity_status": "observed_refdes_or_photo_local_body; installed exact order code unresolved",
+      "capture_session_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_id": "nxp-user-board-01",
+      "capture_group_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_relation_evidence": "User board capture set; no independent specimen documented"
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "image_sha256": "00bdc20da4286033a2c2f1c1d146ee3ece21be8ca322f4d33b7fdc8738038170",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261010_092203.jpg:R79",
+      "class_name": "resistor",
+      "observed_reference_designator": "R79",
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1365,
+          2568
+        ],
+        [
+          1401,
+          2568
+        ],
+        [
+          1401,
+          2586
+        ],
+        [
+          1365,
+          2586
+        ]
+      ],
+      "boundary_scope": "visible package body including intrinsic end terminals where inseparable; excludes solder lands, detached/exposed leads, silkscreen and board surface",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original-pixel top/middle/bottom grid and clean detail crops reviewed manually; package body edges traced. Identity is observed body/refdes only unless a readable marking family is explicitly recorded.",
+      "boundary_uncertainty_pixels": 8,
+      "installed_order_code_confirmed": false,
+      "identity_status": "observed_refdes_or_photo_local_body; installed exact order code unresolved",
+      "capture_session_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_id": "nxp-user-board-01",
+      "capture_group_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_relation_evidence": "User board capture set; no independent specimen documented"
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "image_sha256": "00bdc20da4286033a2c2f1c1d146ee3ece21be8ca322f4d33b7fdc8738038170",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261010_092203.jpg:R78",
+      "class_name": "resistor",
+      "observed_reference_designator": "R78",
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1580,
+          2641
+        ],
+        [
+          1630,
+          2641
+        ],
+        [
+          1630,
+          2669
+        ],
+        [
+          1580,
+          2669
+        ]
+      ],
+      "boundary_scope": "visible package body including intrinsic end terminals where inseparable; excludes solder lands, detached/exposed leads, silkscreen and board surface",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original-pixel top/middle/bottom grid and clean detail crops reviewed manually; package body edges traced. Identity is observed body/refdes only unless a readable marking family is explicitly recorded.",
+      "boundary_uncertainty_pixels": 8,
+      "installed_order_code_confirmed": false,
+      "identity_status": "observed_refdes_or_photo_local_body; installed exact order code unresolved",
+      "capture_session_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_id": "nxp-user-board-01",
+      "capture_group_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_relation_evidence": "User board capture set; no independent specimen documented"
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "image_sha256": "00bdc20da4286033a2c2f1c1d146ee3ece21be8ca322f4d33b7fdc8738038170",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261010_092203.jpg:C100",
+      "class_name": "capacitor",
+      "observed_reference_designator": "C100",
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          2078,
+          1480
+        ],
+        [
+          2094,
+          1480
+        ],
+        [
+          2094,
+          1525
+        ],
+        [
+          2078,
+          1525
+        ]
+      ],
+      "boundary_scope": "visible package body including intrinsic end terminals where inseparable; excludes solder lands, detached/exposed leads, silkscreen and board surface",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original-pixel top/middle/bottom grid and clean detail crops reviewed manually; package body edges traced. Identity is observed body/refdes only unless a readable marking family is explicitly recorded.",
+      "boundary_uncertainty_pixels": 8,
+      "installed_order_code_confirmed": false,
+      "identity_status": "observed_refdes_or_photo_local_body; installed exact order code unresolved",
+      "capture_session_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_id": "nxp-user-board-01",
+      "capture_group_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_relation_evidence": "User board capture set; no independent specimen documented"
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "image_sha256": "00bdc20da4286033a2c2f1c1d146ee3ece21be8ca322f4d33b7fdc8738038170",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261010_092203.jpg:mid-cap-01",
+      "class_name": "capacitor",
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1427,
+          2486
+        ],
+        [
+          1451,
+          2486
+        ],
+        [
+          1451,
+          2535
+        ],
+        [
+          1427,
+          2535
+        ]
+      ],
+      "boundary_scope": "visible package body including intrinsic end terminals where inseparable; excludes solder lands, detached/exposed leads, silkscreen and board surface",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original-pixel top/middle/bottom grid and clean detail crops reviewed manually; package body edges traced. Identity is observed body/refdes only unless a readable marking family is explicitly recorded.",
+      "boundary_uncertainty_pixels": 8,
+      "installed_order_code_confirmed": false,
+      "identity_status": "observed_refdes_or_photo_local_body; installed exact order code unresolved",
+      "capture_session_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_id": "nxp-user-board-01",
+      "capture_group_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_relation_evidence": "User board capture set; no independent specimen documented"
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "image_sha256": "00bdc20da4286033a2c2f1c1d146ee3ece21be8ca322f4d33b7fdc8738038170",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261010_092203.jpg:lower-cap-02",
+      "class_name": "capacitor",
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          2080,
+          3093
+        ],
+        [
+          2114,
+          3093
+        ],
+        [
+          2114,
+          3116
+        ],
+        [
+          2080,
+          3116
+        ]
+      ],
+      "boundary_scope": "visible package body including intrinsic end terminals where inseparable; excludes solder lands, detached/exposed leads, silkscreen and board surface",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original-pixel top/middle/bottom grid and clean detail crops reviewed manually; package body edges traced. Identity is observed body/refdes only unless a readable marking family is explicitly recorded.",
+      "boundary_uncertainty_pixels": 8,
+      "installed_order_code_confirmed": false,
+      "identity_status": "observed_refdes_or_photo_local_body; installed exact order code unresolved",
+      "capture_session_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_id": "nxp-user-board-01",
+      "capture_group_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_relation_evidence": "User board capture set; no independent specimen documented"
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "image_sha256": "00bdc20da4286033a2c2f1c1d146ee3ece21be8ca322f4d33b7fdc8738038170",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261010_092203.jpg:lower-resistor-01",
+      "class_name": "resistor",
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          2082,
+          3141
+        ],
+        [
+          2114,
+          3141
+        ],
+        [
+          2114,
+          3163
+        ],
+        [
+          2082,
+          3163
+        ]
+      ],
+      "boundary_scope": "visible package body including intrinsic end terminals where inseparable; excludes solder lands, detached/exposed leads, silkscreen and board surface",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original-pixel top/middle/bottom grid and clean detail crops reviewed manually; package body edges traced. Identity is observed body/refdes only unless a readable marking family is explicitly recorded.",
+      "boundary_uncertainty_pixels": 8,
+      "installed_order_code_confirmed": false,
+      "identity_status": "observed_refdes_or_photo_local_body; installed exact order code unresolved",
+      "capture_session_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_id": "nxp-user-board-01",
+      "capture_group_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_relation_evidence": "User board capture set; no independent specimen documented"
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "image_sha256": "00bdc20da4286033a2c2f1c1d146ee3ece21be8ca322f4d33b7fdc8738038170",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261010_092203.jpg:upper-cap-01",
+      "class_name": "capacitor",
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1440,
+          879
+        ],
+        [
+          1462,
+          879
+        ],
+        [
+          1462,
+          922
+        ],
+        [
+          1440,
+          922
+        ]
+      ],
+      "boundary_scope": "visible package body including intrinsic end terminals where inseparable; excludes solder lands, detached/exposed leads, silkscreen and board surface",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original-pixel top/middle/bottom grid and clean detail crops reviewed manually; package body edges traced. Identity is observed body/refdes only unless a readable marking family is explicitly recorded.",
+      "boundary_uncertainty_pixels": 8,
+      "installed_order_code_confirmed": false,
+      "identity_status": "observed_refdes_or_photo_local_body; installed exact order code unresolved",
+      "capture_session_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_id": "nxp-user-board-01",
+      "capture_group_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_relation_evidence": "User board capture set; no independent specimen documented"
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "image_sha256": "00bdc20da4286033a2c2f1c1d146ee3ece21be8ca322f4d33b7fdc8738038170",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261010_092203.jpg:upper-cap-02",
+      "class_name": "capacitor",
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1490,
+          881
+        ],
+        [
+          1508,
+          881
+        ],
+        [
+          1508,
+          922
+        ],
+        [
+          1490,
+          922
+        ]
+      ],
+      "boundary_scope": "visible package body including intrinsic end terminals where inseparable; excludes solder lands, detached/exposed leads, silkscreen and board surface",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original-pixel top/middle/bottom grid and clean detail crops reviewed manually; package body edges traced. Identity is observed body/refdes only unless a readable marking family is explicitly recorded.",
+      "boundary_uncertainty_pixels": 8,
+      "installed_order_code_confirmed": false,
+      "identity_status": "observed_refdes_or_photo_local_body; installed exact order code unresolved",
+      "capture_session_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_id": "nxp-user-board-01",
+      "capture_group_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_relation_evidence": "User board capture set; no independent specimen documented"
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "image_sha256": "00bdc20da4286033a2c2f1c1d146ee3ece21be8ca322f4d33b7fdc8738038170",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261010_092203.jpg:upper-cap-05",
+      "class_name": "capacitor",
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1372,
+          1042
+        ],
+        [
+          1416,
+          1042
+        ],
+        [
+          1416,
+          1064
+        ],
+        [
+          1372,
+          1064
+        ]
+      ],
+      "boundary_scope": "visible package body including intrinsic end terminals where inseparable; excludes solder lands, detached/exposed leads, silkscreen and board surface",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original-pixel top/middle/bottom grid and clean detail crops reviewed manually; package body edges traced. Identity is observed body/refdes only unless a readable marking family is explicitly recorded.",
+      "boundary_uncertainty_pixels": 8,
+      "installed_order_code_confirmed": false,
+      "identity_status": "observed_refdes_or_photo_local_body; installed exact order code unresolved",
+      "capture_session_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_id": "nxp-user-board-01",
+      "capture_group_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_relation_evidence": "User board capture set; no independent specimen documented"
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "image_sha256": "00bdc20da4286033a2c2f1c1d146ee3ece21be8ca322f4d33b7fdc8738038170",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261010_092203.jpg:upper-cap-06",
+      "class_name": "capacitor",
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1370,
+          1087
+        ],
+        [
+          1413,
+          1087
+        ],
+        [
+          1413,
+          1110
+        ],
+        [
+          1370,
+          1110
+        ]
+      ],
+      "boundary_scope": "visible package body including intrinsic end terminals where inseparable; excludes solder lands, detached/exposed leads, silkscreen and board surface",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original-pixel top/middle/bottom grid and clean detail crops reviewed manually; package body edges traced. Identity is observed body/refdes only unless a readable marking family is explicitly recorded.",
+      "boundary_uncertainty_pixels": 8,
+      "installed_order_code_confirmed": false,
+      "identity_status": "observed_refdes_or_photo_local_body; installed exact order code unresolved",
+      "capture_session_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_id": "nxp-user-board-01",
+      "capture_group_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_relation_evidence": "User board capture set; no independent specimen documented"
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "image_sha256": "00bdc20da4286033a2c2f1c1d146ee3ece21be8ca322f4d33b7fdc8738038170",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261010_092203.jpg:upper-cap-07",
+      "class_name": "capacitor",
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1597,
+          1430
+        ],
+        [
+          1620,
+          1430
+        ],
+        [
+          1620,
+          1465
+        ],
+        [
+          1597,
+          1465
+        ]
+      ],
+      "boundary_scope": "visible package body including intrinsic end terminals where inseparable; excludes solder lands, detached/exposed leads, silkscreen and board surface",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original-pixel top/middle/bottom grid and clean detail crops reviewed manually; package body edges traced. Identity is observed body/refdes only unless a readable marking family is explicitly recorded.",
+      "boundary_uncertainty_pixels": 8,
+      "installed_order_code_confirmed": false,
+      "identity_status": "observed_refdes_or_photo_local_body; installed exact order code unresolved",
+      "capture_session_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_id": "nxp-user-board-01",
+      "capture_group_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_relation_evidence": "User board capture set; no independent specimen documented"
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "image_sha256": "00bdc20da4286033a2c2f1c1d146ee3ece21be8ca322f4d33b7fdc8738038170",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261010_092203.jpg:upper-cap-09",
+      "class_name": "capacitor",
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1664,
+          1454
+        ],
+        [
+          1708,
+          1454
+        ],
+        [
+          1708,
+          1477
+        ],
+        [
+          1664,
+          1477
+        ]
+      ],
+      "boundary_scope": "visible package body including intrinsic end terminals where inseparable; excludes solder lands, detached/exposed leads, silkscreen and board surface",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original-pixel top/middle/bottom grid and clean detail crops reviewed manually; package body edges traced. Identity is observed body/refdes only unless a readable marking family is explicitly recorded.",
+      "boundary_uncertainty_pixels": 8,
+      "installed_order_code_confirmed": false,
+      "identity_status": "observed_refdes_or_photo_local_body; installed exact order code unresolved",
+      "capture_session_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_id": "nxp-user-board-01",
+      "capture_group_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_relation_evidence": "User board capture set; no independent specimen documented"
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "image_sha256": "00bdc20da4286033a2c2f1c1d146ee3ece21be8ca322f4d33b7fdc8738038170",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261010_092203.jpg:L2",
+      "class_name": "inductor",
+      "observed_reference_designator": "L2",
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1478,
+          2484
+        ],
+        [
+          1537,
+          2484
+        ],
+        [
+          1537,
+          2544
+        ],
+        [
+          1478,
+          2544
+        ]
+      ],
+      "boundary_scope": "visible package body including intrinsic end terminals where inseparable; excludes solder lands, detached/exposed leads, silkscreen and board surface",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original-pixel top/middle/bottom grid and clean detail crops reviewed manually; package body edges traced. Identity is observed body/refdes only unless a readable marking family is explicitly recorded.",
+      "boundary_uncertainty_pixels": 8,
+      "installed_order_code_confirmed": false,
+      "identity_status": "observed_refdes_or_photo_local_body; installed exact order code unresolved",
+      "capture_session_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_id": "nxp-user-board-01",
+      "capture_group_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_relation_evidence": "User board capture set; no independent specimen documented"
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "image_sha256": "00bdc20da4286033a2c2f1c1d146ee3ece21be8ca322f4d33b7fdc8738038170",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261010_092203.jpg:upper-sixlead-ic-body",
+      "class_name": "integrated_circuit",
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1388,
+          753
+        ],
+        [
+          1423,
+          753
+        ],
+        [
+          1423,
+          779
+        ],
+        [
+          1388,
+          779
+        ]
+      ],
+      "boundary_scope": "visible package body including intrinsic end terminals where inseparable; excludes solder lands, detached/exposed leads, silkscreen and board surface",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original-pixel top/middle/bottom grid and clean detail crops reviewed manually; package body edges traced. Identity is observed body/refdes only unless a readable marking family is explicitly recorded.",
+      "boundary_uncertainty_pixels": 8,
+      "installed_order_code_confirmed": false,
+      "identity_status": "observed_refdes_or_photo_local_body; installed exact order code unresolved",
+      "capture_session_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_id": "nxp-user-board-01",
+      "capture_group_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_relation_evidence": "User board capture set; no independent specimen documented"
+    },
+    {
+      "image_path": "data/photo-model/by_board/nxp_frdm_mcxn_board/IMG_20261009_221755.jpg",
+      "image_sha256": "20a002865f47408c131c38e8823adb2fabd7c783e9954a3a580d69e24bccfe4b",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261009_221755.jpg:U1",
+      "class_name": "integrated_circuit",
+      "observed_reference_designator": "U1",
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1764,
+          1906
+        ],
+        [
+          1460,
+          1911
+        ],
+        [
+          1455,
+          1615
+        ],
+        [
+          1757,
+          1608
+        ]
+      ],
+      "boundary_scope": "visible package body including intrinsic end terminals where inseparable; excludes solder lands, detached/exposed leads, silkscreen and board surface",
+      "review_status": "visually_reviewed_target_body_polygon",
+      "review_evidence": "SIFT/RANSAC registration initialized a provisional polygon only. Target original-pixel upper/middle/bottom and package detail crops were inspected; package edges were visually accepted or manually corrected. Registration is not proof of target installed identity.",
+      "boundary_uncertainty_pixels": 10,
+      "installed_order_code_confirmed": false,
+      "source_annotation_instance_id": "IMG_20261010_092203.jpg:U1",
+      "source_annotation_image": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "capture_session_id": "nxp-phone-2026-10-09-night",
+      "capture_group_id": "nxp-phone-2026-10-09-night",
+      "physical_specimen_id": "nxp-user-board-01",
+      "physical_specimen_relation_evidence": "Likely same user board across dated capture sets; not an independent specimen evaluation",
+      "observed_refdes_evidence": "Target adjacent silkscreen checked where readable; otherwise instance linkage is contextual rather than a fresh target marking read.",
+      "linked_marking_family_from_other_photo": "NXP MCXN236V",
+      "identity_status": "same-board feature/context correspondence; target order code/marking not readable"
+    },
+    {
+      "image_path": "data/photo-model/by_board/nxp_frdm_mcxn_board/IMG_20261009_221755.jpg",
+      "image_sha256": "20a002865f47408c131c38e8823adb2fabd7c783e9954a3a580d69e24bccfe4b",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261009_221755.jpg:J11",
+      "class_name": "usb_connector",
+      "observed_reference_designator": "J11",
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          2027,
+          4040
+        ],
+        [
+          2011,
+          4051
+        ],
+        [
+          1750,
+          4048
+        ],
+        [
+          1720,
+          4031
+        ],
+        [
+          1705,
+          4007
+        ],
+        [
+          1706,
+          3730
+        ],
+        [
+          1695,
+          3709
+        ],
+        [
+          1711,
+          3691
+        ],
+        [
+          1997,
+          3693
+        ],
+        [
+          2019,
+          3710
+        ],
+        [
+          2027,
+          3736
+        ],
+        [
+          2030,
+          4008
+        ]
+      ],
+      "boundary_scope": "visible package body including intrinsic end terminals where inseparable; excludes solder lands, detached/exposed leads, silkscreen and board surface",
+      "review_status": "visually_reviewed_target_body_polygon",
+      "review_evidence": "SIFT/RANSAC registration initialized a provisional polygon only. Target original-pixel upper/middle/bottom and package detail crops were inspected; package edges were visually accepted or manually corrected. Registration is not proof of target installed identity.",
+      "boundary_uncertainty_pixels": 10,
+      "installed_order_code_confirmed": false,
+      "source_annotation_instance_id": "IMG_20261010_092203.jpg:J11",
+      "source_annotation_image": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "capture_session_id": "nxp-phone-2026-10-09-night",
+      "capture_group_id": "nxp-phone-2026-10-09-night",
+      "physical_specimen_id": "nxp-user-board-01",
+      "physical_specimen_relation_evidence": "Likely same user board across dated capture sets; not an independent specimen evaluation",
+      "observed_refdes_evidence": "Target adjacent silkscreen checked where readable; otherwise instance linkage is contextual rather than a fresh target marking read.",
+      "linked_marking_family_from_other_photo": null,
+      "identity_status": "same-board feature/context correspondence; target order code/marking not readable"
+    },
+    {
+      "image_path": "data/photo-model/by_board/nxp_frdm_mcxn_board/IMG_20261009_221755.jpg",
+      "image_sha256": "20a002865f47408c131c38e8823adb2fabd7c783e9954a3a580d69e24bccfe4b",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261009_221755.jpg:J10",
+      "class_name": "usb_connector",
+      "observed_reference_designator": "J10",
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1516,
+          4046
+        ],
+        [
+          1495,
+          4057
+        ],
+        [
+          1232,
+          4052
+        ],
+        [
+          1210,
+          4035
+        ],
+        [
+          1200,
+          4009
+        ],
+        [
+          1204,
+          3725
+        ],
+        [
+          1194,
+          3700
+        ],
+        [
+          1210,
+          3676
+        ],
+        [
+          1492,
+          3677
+        ],
+        [
+          1512,
+          3695
+        ],
+        [
+          1518,
+          3723
+        ],
+        [
+          1519,
+          4018
+        ]
+      ],
+      "boundary_scope": "visible package body including intrinsic end terminals where inseparable; excludes solder lands, detached/exposed leads, silkscreen and board surface",
+      "review_status": "visually_reviewed_target_body_polygon",
+      "review_evidence": "SIFT/RANSAC registration initialized a provisional polygon only. Target original-pixel upper/middle/bottom and package detail crops were inspected; package edges were visually accepted or manually corrected. Registration is not proof of target installed identity.",
+      "boundary_uncertainty_pixels": 10,
+      "installed_order_code_confirmed": false,
+      "source_annotation_instance_id": "IMG_20261010_092203.jpg:J10",
+      "source_annotation_image": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "capture_session_id": "nxp-phone-2026-10-09-night",
+      "capture_group_id": "nxp-phone-2026-10-09-night",
+      "physical_specimen_id": "nxp-user-board-01",
+      "physical_specimen_relation_evidence": "Likely same user board across dated capture sets; not an independent specimen evaluation",
+      "observed_refdes_evidence": "Target adjacent silkscreen checked where readable; otherwise instance linkage is contextual rather than a fresh target marking read.",
+      "linked_marking_family_from_other_photo": null,
+      "identity_status": "same-board feature/context correspondence; target order code/marking not readable"
+    },
+    {
+      "image_path": "data/photo-model/by_board/nxp_frdm_mcxn_board/IMG_20261009_221755.jpg",
+      "image_sha256": "20a002865f47408c131c38e8823adb2fabd7c783e9954a3a580d69e24bccfe4b",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261009_221755.jpg:upper-large-ic-body",
+      "class_name": "integrated_circuit",
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1747,
+          3163
+        ],
+        [
+          1521,
+          3157
+        ],
+        [
+          1520,
+          2929
+        ],
+        [
+          1745,
+          2934
+        ]
+      ],
+      "boundary_scope": "visible package body including intrinsic end terminals where inseparable; excludes solder lands, detached/exposed leads, silkscreen and board surface",
+      "review_status": "visually_reviewed_target_body_polygon",
+      "review_evidence": "SIFT/RANSAC registration initialized a provisional polygon only. Target original-pixel upper/middle/bottom and package detail crops were inspected; package edges were visually accepted or manually corrected. Registration is not proof of target installed identity.",
+      "boundary_uncertainty_pixels": 10,
+      "installed_order_code_confirmed": false,
+      "identity_status": "same-board feature/context correspondence; target order code/marking not readable",
+      "source_annotation_instance_id": "IMG_20261010_092203.jpg:upper-large-ic-body",
+      "source_annotation_image": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "capture_session_id": "nxp-phone-2026-10-09-night",
+      "capture_group_id": "nxp-phone-2026-10-09-night",
+      "physical_specimen_id": "nxp-user-board-01",
+      "physical_specimen_relation_evidence": "Likely same user board across dated capture sets; not an independent specimen evaluation",
+      "observed_refdes_evidence": "Target adjacent silkscreen checked where readable; otherwise instance linkage is contextual rather than a fresh target marking read.",
+      "linked_marking_family_from_other_photo": null
+    },
+    {
+      "image_path": "data/photo-model/by_board/nxp_frdm_mcxn_board/IMG_20261009_221755.jpg",
+      "image_sha256": "20a002865f47408c131c38e8823adb2fabd7c783e9954a3a580d69e24bccfe4b",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261009_221755.jpg:U2",
+      "class_name": "integrated_circuit",
+      "observed_reference_designator": "U2",
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          2215,
+          2479
+        ],
+        [
+          2105,
+          2477
+        ],
+        [
+          2104,
+          2406
+        ],
+        [
+          2214,
+          2407
+        ]
+      ],
+      "boundary_scope": "visible package body including intrinsic end terminals where inseparable; excludes solder lands, detached/exposed leads, silkscreen and board surface",
+      "review_status": "visually_reviewed_target_body_polygon",
+      "review_evidence": "SIFT/RANSAC registration initialized a provisional polygon only. Target original-pixel upper/middle/bottom and package detail crops were inspected; package edges were visually accepted or manually corrected. Registration is not proof of target installed identity.",
+      "boundary_uncertainty_pixels": 10,
+      "installed_order_code_confirmed": false,
+      "identity_status": "same-board feature/context correspondence; target order code/marking not readable",
+      "source_annotation_instance_id": "IMG_20261010_092203.jpg:U2",
+      "source_annotation_image": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "capture_session_id": "nxp-phone-2026-10-09-night",
+      "capture_group_id": "nxp-phone-2026-10-09-night",
+      "physical_specimen_id": "nxp-user-board-01",
+      "physical_specimen_relation_evidence": "Likely same user board across dated capture sets; not an independent specimen evaluation",
+      "observed_refdes_evidence": "Target adjacent silkscreen checked where readable; otherwise instance linkage is contextual rather than a fresh target marking read.",
+      "linked_marking_family_from_other_photo": null
+    },
+    {
+      "image_path": "data/photo-model/by_board/nxp_frdm_mcxn_board/IMG_20261009_221755.jpg",
+      "image_sha256": "20a002865f47408c131c38e8823adb2fabd7c783e9954a3a580d69e24bccfe4b",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261009_221755.jpg:U11",
+      "class_name": "integrated_circuit",
+      "observed_reference_designator": "U11",
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1911,
+          2203
+        ],
+        [
+          1804,
+          2202
+        ],
+        [
+          1803,
+          2108
+        ],
+        [
+          1910,
+          2108
+        ]
+      ],
+      "boundary_scope": "visible package body including intrinsic end terminals where inseparable; excludes solder lands, detached/exposed leads, silkscreen and board surface",
+      "review_status": "visually_reviewed_target_body_polygon",
+      "review_evidence": "SIFT/RANSAC registration initialized a provisional polygon only. Target original-pixel upper/middle/bottom and package detail crops were inspected; package edges were visually accepted or manually corrected. Registration is not proof of target installed identity.",
+      "boundary_uncertainty_pixels": 10,
+      "installed_order_code_confirmed": false,
+      "identity_status": "same-board feature/context correspondence; target order code/marking not readable",
+      "source_annotation_instance_id": "IMG_20261010_092203.jpg:U11",
+      "source_annotation_image": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "capture_session_id": "nxp-phone-2026-10-09-night",
+      "capture_group_id": "nxp-phone-2026-10-09-night",
+      "physical_specimen_id": "nxp-user-board-01",
+      "physical_specimen_relation_evidence": "Likely same user board across dated capture sets; not an independent specimen evaluation",
+      "observed_refdes_evidence": "Target adjacent silkscreen checked where readable; otherwise instance linkage is contextual rather than a fresh target marking read.",
+      "linked_marking_family_from_other_photo": null
+    },
+    {
+      "image_path": "data/photo-model/by_board/nxp_frdm_mcxn_board/IMG_20261009_221755.jpg",
+      "image_sha256": "20a002865f47408c131c38e8823adb2fabd7c783e9954a3a580d69e24bccfe4b",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261009_221755.jpg:U12",
+      "class_name": "integrated_circuit",
+      "observed_reference_designator": "U12",
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1615,
+          873
+        ],
+        [
+          1802,
+          873
+        ],
+        [
+          1802,
+          1049
+        ],
+        [
+          1615,
+          1049
+        ]
+      ],
+      "boundary_scope": "visible package body including intrinsic end terminals where inseparable; excludes solder lands, detached/exposed leads, silkscreen and board surface",
+      "review_status": "visually_reviewed_target_body_polygon",
+      "review_evidence": "SIFT/RANSAC registration initialized a provisional polygon only. Target original-pixel upper/middle/bottom and package detail crops were inspected; package edges were visually accepted or manually corrected. Registration is not proof of target installed identity.",
+      "boundary_uncertainty_pixels": 10,
+      "installed_order_code_confirmed": false,
+      "identity_status": "same-board feature/context correspondence; target order code/marking not readable",
+      "source_annotation_instance_id": "IMG_20261010_092203.jpg:U12",
+      "source_annotation_image": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "capture_session_id": "nxp-phone-2026-10-09-night",
+      "capture_group_id": "nxp-phone-2026-10-09-night",
+      "physical_specimen_id": "nxp-user-board-01",
+      "physical_specimen_relation_evidence": "Likely same user board across dated capture sets; not an independent specimen evaluation",
+      "observed_refdes_evidence": "Target adjacent silkscreen checked where readable; otherwise instance linkage is contextual rather than a fresh target marking read.",
+      "linked_marking_family_from_other_photo": "Winbond 25Q64JV"
+    },
+    {
+      "image_path": "data/photo-model/by_board/nxp_frdm_mcxn_board/IMG_20261009_221755.jpg",
+      "image_sha256": "20a002865f47408c131c38e8823adb2fabd7c783e9954a3a580d69e24bccfe4b",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261009_221755.jpg:U10",
+      "class_name": "integrated_circuit",
+      "observed_reference_designator": "U10",
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1423,
+          919
+        ],
+        [
+          1504,
+          919
+        ],
+        [
+          1504,
+          995
+        ],
+        [
+          1423,
+          995
+        ]
+      ],
+      "boundary_scope": "visible package body including intrinsic end terminals where inseparable; excludes solder lands, detached/exposed leads, silkscreen and board surface",
+      "review_status": "visually_reviewed_target_body_polygon",
+      "review_evidence": "SIFT/RANSAC registration initialized a provisional polygon only. Target original-pixel upper/middle/bottom and package detail crops were inspected; package edges were visually accepted or manually corrected. Registration is not proof of target installed identity.",
+      "boundary_uncertainty_pixels": 10,
+      "installed_order_code_confirmed": false,
+      "identity_status": "same-board feature/context correspondence; target order code/marking not readable",
+      "source_annotation_instance_id": "IMG_20261010_092203.jpg:U10",
+      "source_annotation_image": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "capture_session_id": "nxp-phone-2026-10-09-night",
+      "capture_group_id": "nxp-phone-2026-10-09-night",
+      "physical_specimen_id": "nxp-user-board-01",
+      "physical_specimen_relation_evidence": "Likely same user board across dated capture sets; not an independent specimen evaluation",
+      "observed_refdes_evidence": "Target adjacent silkscreen checked where readable; otherwise instance linkage is contextual rather than a fresh target marking read.",
+      "linked_marking_family_from_other_photo": null
+    },
+    {
+      "image_path": "data/photo-model/by_board/nxp_frdm_mcxn_board/IMG_20261009_221755.jpg",
+      "image_sha256": "20a002865f47408c131c38e8823adb2fabd7c783e9954a3a580d69e24bccfe4b",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261009_221755.jpg:U7",
+      "class_name": "integrated_circuit",
+      "observed_reference_designator": "U7",
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1737,
+          566
+        ],
+        [
+          1875,
+          566
+        ],
+        [
+          1875,
+          684
+        ],
+        [
+          1737,
+          684
+        ]
+      ],
+      "boundary_scope": "visible package body including intrinsic end terminals where inseparable; excludes solder lands, detached/exposed leads, silkscreen and board surface",
+      "review_status": "visually_reviewed_target_body_polygon",
+      "review_evidence": "SIFT/RANSAC registration initialized a provisional polygon only. Target original-pixel upper/middle/bottom and package detail crops were inspected; package edges were visually accepted or manually corrected. Registration is not proof of target installed identity.",
+      "boundary_uncertainty_pixels": 10,
+      "installed_order_code_confirmed": false,
+      "identity_status": "same-board feature/context correspondence; target order code/marking not readable",
+      "source_annotation_instance_id": "IMG_20261010_092203.jpg:U7",
+      "source_annotation_image": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "capture_session_id": "nxp-phone-2026-10-09-night",
+      "capture_group_id": "nxp-phone-2026-10-09-night",
+      "physical_specimen_id": "nxp-user-board-01",
+      "physical_specimen_relation_evidence": "Likely same user board across dated capture sets; not an independent specimen evaluation",
+      "observed_refdes_evidence": "Target adjacent silkscreen checked where readable; otherwise instance linkage is contextual rather than a fresh target marking read.",
+      "linked_marking_family_from_other_photo": null
+    },
+    {
+      "image_path": "data/photo-model/by_board/nxp_frdm_mcxn_board/IMG_20261009_221755.jpg",
+      "image_sha256": "20a002865f47408c131c38e8823adb2fabd7c783e9954a3a580d69e24bccfe4b",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261009_221755.jpg:upper-small-ic-body",
+      "class_name": "integrated_circuit",
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          2006,
+          3377
+        ],
+        [
+          2071,
+          3377
+        ],
+        [
+          2071,
+          3430
+        ],
+        [
+          2006,
+          3430
+        ]
+      ],
+      "boundary_scope": "visible package body including intrinsic end terminals where inseparable; excludes solder lands, detached/exposed leads, silkscreen and board surface",
+      "review_status": "visually_reviewed_target_body_polygon",
+      "review_evidence": "SIFT/RANSAC registration initialized a provisional polygon only. Target original-pixel upper/middle/bottom and package detail crops were inspected; package edges were visually accepted or manually corrected. Registration is not proof of target installed identity.",
+      "boundary_uncertainty_pixels": 10,
+      "installed_order_code_confirmed": false,
+      "identity_status": "same-board feature/context correspondence; target order code/marking not readable",
+      "source_annotation_instance_id": "IMG_20261010_092203.jpg:upper-small-ic-body",
+      "source_annotation_image": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "capture_session_id": "nxp-phone-2026-10-09-night",
+      "capture_group_id": "nxp-phone-2026-10-09-night",
+      "physical_specimen_id": "nxp-user-board-01",
+      "physical_specimen_relation_evidence": "Likely same user board across dated capture sets; not an independent specimen evaluation",
+      "observed_refdes_evidence": "Target adjacent silkscreen checked where readable; otherwise instance linkage is contextual rather than a fresh target marking read.",
+      "linked_marking_family_from_other_photo": null
+    },
+    {
+      "image_path": "data/photo-model/by_board/nxp_frdm_mcxn_board/IMG_20261009_221755.jpg",
+      "image_sha256": "20a002865f47408c131c38e8823adb2fabd7c783e9954a3a580d69e24bccfe4b",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261009_221755.jpg:midleft-small-ic-body",
+      "class_name": "integrated_circuit",
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          2176,
+          2662
+        ],
+        [
+          2117,
+          2661
+        ],
+        [
+          2116,
+          2611
+        ],
+        [
+          2176,
+          2612
+        ]
+      ],
+      "boundary_scope": "visible package body including intrinsic end terminals where inseparable; excludes solder lands, detached/exposed leads, silkscreen and board surface",
+      "review_status": "visually_reviewed_target_body_polygon",
+      "review_evidence": "SIFT/RANSAC registration initialized a provisional polygon only. Target original-pixel upper/middle/bottom and package detail crops were inspected; package edges were visually accepted or manually corrected. Registration is not proof of target installed identity.",
+      "boundary_uncertainty_pixels": 10,
+      "installed_order_code_confirmed": false,
+      "identity_status": "same-board feature/context correspondence; target order code/marking not readable",
+      "source_annotation_instance_id": "IMG_20261010_092203.jpg:midleft-small-ic-body",
+      "source_annotation_image": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "capture_session_id": "nxp-phone-2026-10-09-night",
+      "capture_group_id": "nxp-phone-2026-10-09-night",
+      "physical_specimen_id": "nxp-user-board-01",
+      "physical_specimen_relation_evidence": "Likely same user board across dated capture sets; not an independent specimen evaluation",
+      "observed_refdes_evidence": "Target adjacent silkscreen checked where readable; otherwise instance linkage is contextual rather than a fresh target marking read.",
+      "linked_marking_family_from_other_photo": null
+    },
+    {
+      "image_path": "data/photo-model/by_board/nxp_frdm_mcxn_board/IMG_20261009_221755.jpg",
+      "image_sha256": "20a002865f47408c131c38e8823adb2fabd7c783e9954a3a580d69e24bccfe4b",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261009_221755.jpg:top-right-tactile-switch",
+      "class_name": "tactile_switch",
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          943,
+          3682
+        ],
+        [
+          847,
+          3682
+        ],
+        [
+          808,
+          3658
+        ],
+        [
+          819,
+          3598
+        ],
+        [
+          948,
+          3599
+        ]
+      ],
+      "boundary_scope": "visible package body including intrinsic end terminals where inseparable; excludes solder lands, detached/exposed leads, silkscreen and board surface",
+      "review_status": "visually_reviewed_target_body_polygon",
+      "review_evidence": "SIFT/RANSAC registration initialized a provisional polygon only. Target original-pixel upper/middle/bottom and package detail crops were inspected; package edges were visually accepted or manually corrected. Registration is not proof of target installed identity.",
+      "boundary_uncertainty_pixels": 10,
+      "installed_order_code_confirmed": false,
+      "identity_status": "same-board feature/context correspondence; target order code/marking not readable",
+      "source_annotation_instance_id": "IMG_20261010_092203.jpg:top-right-tactile-switch",
+      "source_annotation_image": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "capture_session_id": "nxp-phone-2026-10-09-night",
+      "capture_group_id": "nxp-phone-2026-10-09-night",
+      "physical_specimen_id": "nxp-user-board-01",
+      "physical_specimen_relation_evidence": "Likely same user board across dated capture sets; not an independent specimen evaluation",
+      "observed_refdes_evidence": "Target adjacent silkscreen checked where readable; otherwise instance linkage is contextual rather than a fresh target marking read.",
+      "linked_marking_family_from_other_photo": null
+    },
+    {
+      "image_path": "data/photo-model/by_board/nxp_frdm_mcxn_board/IMG_20261009_221755.jpg",
+      "image_sha256": "20a002865f47408c131c38e8823adb2fabd7c783e9954a3a580d69e24bccfe4b",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261009_221755.jpg:SW3",
+      "class_name": "tactile_switch",
+      "observed_reference_designator": "SW3",
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          2285,
+          187
+        ],
+        [
+          2430,
+          187
+        ],
+        [
+          2430,
+          306
+        ],
+        [
+          2285,
+          306
+        ]
+      ],
+      "boundary_scope": "visible package body including intrinsic end terminals where inseparable; excludes solder lands, detached/exposed leads, silkscreen and board surface",
+      "review_status": "visually_reviewed_target_body_polygon",
+      "review_evidence": "SIFT/RANSAC registration initialized a provisional polygon only. Target original-pixel upper/middle/bottom and package detail crops were inspected; package edges were visually accepted or manually corrected. Registration is not proof of target installed identity.",
+      "boundary_uncertainty_pixels": 10,
+      "installed_order_code_confirmed": false,
+      "identity_status": "same-board feature/context correspondence; target order code/marking not readable",
+      "source_annotation_instance_id": "IMG_20261010_092203.jpg:SW3",
+      "source_annotation_image": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "capture_session_id": "nxp-phone-2026-10-09-night",
+      "capture_group_id": "nxp-phone-2026-10-09-night",
+      "physical_specimen_id": "nxp-user-board-01",
+      "physical_specimen_relation_evidence": "Likely same user board across dated capture sets; not an independent specimen evaluation",
+      "observed_refdes_evidence": "Target adjacent silkscreen checked where readable; otherwise instance linkage is contextual rather than a fresh target marking read.",
+      "linked_marking_family_from_other_photo": null
+    },
+    {
+      "image_path": "data/photo-model/by_board/nxp_frdm_mcxn_board/IMG_20261009_221755.jpg",
+      "image_sha256": "20a002865f47408c131c38e8823adb2fabd7c783e9954a3a580d69e24bccfe4b",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261009_221755.jpg:SW2",
+      "class_name": "tactile_switch",
+      "observed_reference_designator": "SW2",
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          714,
+          220
+        ],
+        [
+          850,
+          220
+        ],
+        [
+          850,
+          345
+        ],
+        [
+          714,
+          345
+        ]
+      ],
+      "boundary_scope": "visible package body including intrinsic end terminals where inseparable; excludes solder lands, detached/exposed leads, silkscreen and board surface",
+      "review_status": "visually_reviewed_target_body_polygon",
+      "review_evidence": "SIFT/RANSAC registration initialized a provisional polygon only. Target original-pixel upper/middle/bottom and package detail crops were inspected; package edges were visually accepted or manually corrected. Registration is not proof of target installed identity.",
+      "boundary_uncertainty_pixels": 10,
+      "installed_order_code_confirmed": false,
+      "identity_status": "same-board feature/context correspondence; target order code/marking not readable",
+      "source_annotation_instance_id": "IMG_20261010_092203.jpg:SW2",
+      "source_annotation_image": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "capture_session_id": "nxp-phone-2026-10-09-night",
+      "capture_group_id": "nxp-phone-2026-10-09-night",
+      "physical_specimen_id": "nxp-user-board-01",
+      "physical_specimen_relation_evidence": "Likely same user board across dated capture sets; not an independent specimen evaluation",
+      "observed_refdes_evidence": "Target adjacent silkscreen checked where readable; otherwise instance linkage is contextual rather than a fresh target marking read.",
+      "linked_marking_family_from_other_photo": null
+    },
+    {
+      "image_path": "data/photo-model/by_board/nxp_frdm_mcxn_board/IMG_20261009_221755.jpg",
+      "image_sha256": "20a002865f47408c131c38e8823adb2fabd7c783e9954a3a580d69e24bccfe4b",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261009_221755.jpg:midlower-left-tactile-switch",
+      "class_name": "tactile_switch",
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          2118,
+          548
+        ],
+        [
+          2220,
+          548
+        ],
+        [
+          2220,
+          634
+        ],
+        [
+          2118,
+          634
+        ]
+      ],
+      "boundary_scope": "visible package body including intrinsic end terminals where inseparable; excludes solder lands, detached/exposed leads, silkscreen and board surface",
+      "review_status": "visually_reviewed_target_body_polygon",
+      "review_evidence": "SIFT/RANSAC registration initialized a provisional polygon only. Target original-pixel upper/middle/bottom and package detail crops were inspected; package edges were visually accepted or manually corrected. Registration is not proof of target installed identity.",
+      "boundary_uncertainty_pixels": 10,
+      "installed_order_code_confirmed": false,
+      "identity_status": "same-board feature/context correspondence; target order code/marking not readable",
+      "source_annotation_instance_id": "IMG_20261010_092203.jpg:midlower-left-tactile-switch",
+      "source_annotation_image": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "capture_session_id": "nxp-phone-2026-10-09-night",
+      "capture_group_id": "nxp-phone-2026-10-09-night",
+      "physical_specimen_id": "nxp-user-board-01",
+      "physical_specimen_relation_evidence": "Likely same user board across dated capture sets; not an independent specimen evaluation",
+      "observed_refdes_evidence": "Target adjacent silkscreen checked where readable; otherwise instance linkage is contextual rather than a fresh target marking read.",
+      "linked_marking_family_from_other_photo": null
+    },
+    {
+      "image_path": "data/photo-model/by_board/nxp_frdm_mcxn_board/IMG_20261009_221755.jpg",
+      "image_sha256": "20a002865f47408c131c38e8823adb2fabd7c783e9954a3a580d69e24bccfe4b",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261009_221755.jpg:Y2",
+      "class_name": "crystal_oscillator",
+      "observed_reference_designator": "Y2",
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1931,
+          1648
+        ],
+        [
+          1878,
+          1649
+        ],
+        [
+          1877,
+          1553
+        ],
+        [
+          1930,
+          1553
+        ]
+      ],
+      "boundary_scope": "visible package body including intrinsic end terminals where inseparable; excludes solder lands, detached/exposed leads, silkscreen and board surface",
+      "review_status": "visually_reviewed_target_body_polygon",
+      "review_evidence": "SIFT/RANSAC registration initialized a provisional polygon only. Target original-pixel upper/middle/bottom and package detail crops were inspected; package edges were visually accepted or manually corrected. Registration is not proof of target installed identity.",
+      "boundary_uncertainty_pixels": 10,
+      "installed_order_code_confirmed": false,
+      "identity_status": "same-board feature/context correspondence; target order code/marking not readable",
+      "source_annotation_instance_id": "IMG_20261010_092203.jpg:Y2",
+      "source_annotation_image": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "capture_session_id": "nxp-phone-2026-10-09-night",
+      "capture_group_id": "nxp-phone-2026-10-09-night",
+      "physical_specimen_id": "nxp-user-board-01",
+      "physical_specimen_relation_evidence": "Likely same user board across dated capture sets; not an independent specimen evaluation",
+      "observed_refdes_evidence": "Target adjacent silkscreen checked where readable; otherwise instance linkage is contextual rather than a fresh target marking read.",
+      "linked_marking_family_from_other_photo": null
+    },
+    {
+      "image_path": "data/photo-model/by_board/nxp_frdm_mcxn_board/IMG_20261009_221755.jpg",
+      "image_sha256": "20a002865f47408c131c38e8823adb2fabd7c783e9954a3a580d69e24bccfe4b",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261009_221755.jpg:Y1",
+      "class_name": "crystal_oscillator",
+      "observed_reference_designator": "Y1",
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1596,
+          2125
+        ],
+        [
+          1523,
+          2124
+        ],
+        [
+          1523,
+          2065
+        ],
+        [
+          1595,
+          2065
+        ]
+      ],
+      "boundary_scope": "visible package body including intrinsic end terminals where inseparable; excludes solder lands, detached/exposed leads, silkscreen and board surface",
+      "review_status": "visually_reviewed_target_body_polygon",
+      "review_evidence": "SIFT/RANSAC registration initialized a provisional polygon only. Target original-pixel upper/middle/bottom and package detail crops were inspected; package edges were visually accepted or manually corrected. Registration is not proof of target installed identity.",
+      "boundary_uncertainty_pixels": 10,
+      "installed_order_code_confirmed": false,
+      "identity_status": "same-board feature/context correspondence; target order code/marking not readable",
+      "source_annotation_instance_id": "IMG_20261010_092203.jpg:Y1",
+      "source_annotation_image": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "capture_session_id": "nxp-phone-2026-10-09-night",
+      "capture_group_id": "nxp-phone-2026-10-09-night",
+      "physical_specimen_id": "nxp-user-board-01",
+      "physical_specimen_relation_evidence": "Likely same user board across dated capture sets; not an independent specimen evaluation",
+      "observed_refdes_evidence": "Target adjacent silkscreen checked where readable; otherwise instance linkage is contextual rather than a fresh target marking read.",
+      "linked_marking_family_from_other_photo": null
+    },
+    {
+      "image_path": "data/photo-model/by_board/nxp_frdm_mcxn_board/IMG_20261009_221755.jpg",
+      "image_sha256": "20a002865f47408c131c38e8823adb2fabd7c783e9954a3a580d69e24bccfe4b",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261009_221755.jpg:upper-metal-resonator",
+      "class_name": "crystal_oscillator",
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1562,
+          3361
+        ],
+        [
+          1463,
+          3358
+        ],
+        [
+          1463,
+          3293
+        ],
+        [
+          1562,
+          3296
+        ]
+      ],
+      "boundary_scope": "visible package body including intrinsic end terminals where inseparable; excludes solder lands, detached/exposed leads, silkscreen and board surface",
+      "review_status": "visually_reviewed_target_body_polygon",
+      "review_evidence": "SIFT/RANSAC registration initialized a provisional polygon only. Target original-pixel upper/middle/bottom and package detail crops were inspected; package edges were visually accepted or manually corrected. Registration is not proof of target installed identity.",
+      "boundary_uncertainty_pixels": 10,
+      "installed_order_code_confirmed": false,
+      "identity_status": "same-board feature/context correspondence; target order code/marking not readable",
+      "source_annotation_instance_id": "IMG_20261010_092203.jpg:upper-metal-resonator",
+      "source_annotation_image": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "capture_session_id": "nxp-phone-2026-10-09-night",
+      "capture_group_id": "nxp-phone-2026-10-09-night",
+      "physical_specimen_id": "nxp-user-board-01",
+      "physical_specimen_relation_evidence": "Likely same user board across dated capture sets; not an independent specimen evaluation",
+      "observed_refdes_evidence": "Target adjacent silkscreen checked where readable; otherwise instance linkage is contextual rather than a fresh target marking read.",
+      "linked_marking_family_from_other_photo": null
+    },
+    {
+      "image_path": "data/photo-model/by_board/nxp_frdm_mcxn_board/IMG_20261009_221755.jpg",
+      "image_sha256": "20a002865f47408c131c38e8823adb2fabd7c783e9954a3a580d69e24bccfe4b",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261009_221755.jpg:upper-sixlead-ic-body",
+      "class_name": "integrated_circuit",
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1845,
+          3570
+        ],
+        [
+          1886,
+          3570
+        ],
+        [
+          1886,
+          3607
+        ],
+        [
+          1845,
+          3607
+        ]
+      ],
+      "boundary_scope": "visible package body including intrinsic end terminals where inseparable; excludes solder lands, detached/exposed leads, silkscreen and board surface",
+      "review_status": "visually_reviewed_target_body_polygon",
+      "review_evidence": "SIFT/RANSAC registration initialized a provisional polygon only. Target original-pixel upper/middle/bottom and package detail crops were inspected; package edges were visually accepted or manually corrected. Registration is not proof of target installed identity.",
+      "boundary_uncertainty_pixels": 10,
+      "installed_order_code_confirmed": false,
+      "identity_status": "same-board feature/context correspondence; target order code/marking not readable",
+      "source_annotation_instance_id": "IMG_20261010_092203.jpg:upper-sixlead-ic-body",
+      "source_annotation_image": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "capture_session_id": "nxp-phone-2026-10-09-night",
+      "capture_group_id": "nxp-phone-2026-10-09-night",
+      "physical_specimen_id": "nxp-user-board-01",
+      "physical_specimen_relation_evidence": "Likely same user board across dated capture sets; not an independent specimen evaluation",
+      "observed_refdes_evidence": "Target adjacent silkscreen checked where readable; otherwise instance linkage is contextual rather than a fresh target marking read.",
+      "linked_marking_family_from_other_photo": null
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092206.jpg",
+      "image_sha256": "f2fc47a803bd2066131be6edd2503137a955b6606f8ce7fa77b9559c2c8d93b0",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261010_092206.jpg:U1",
+      "class_name": "integrated_circuit",
+      "observed_reference_designator": "U1",
+      "observed_marking_family": "NXP MCXN236V",
+      "polygon_xy_pixels": [
+        [
+          1458,
+          2212
+        ],
+        [
+          1690,
+          2203
+        ],
+        [
+          1698,
+          2429
+        ],
+        [
+          1467,
+          2437
+        ]
+      ],
+      "boundary_scope": "visible package body including intrinsic end terminals where inseparable; excludes solder lands, detached/exposed leads, silkscreen and board surface",
+      "review_status": "visually_reviewed_target_body_polygon",
+      "review_evidence": "SIFT/RANSAC registration initialized a provisional polygon only. Target original-pixel upper/middle/bottom and package detail crops were inspected; package edges were visually accepted or manually corrected. Registration is not proof of target installed identity.",
+      "boundary_uncertainty_pixels": 8,
+      "installed_order_code_confirmed": false,
+      "source_annotation_instance_id": "IMG_20261010_092203.jpg:U1",
+      "source_annotation_image": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "capture_session_id": "nxp-phone-2026-10-10-morning",
+      "capture_group_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_id": "nxp-user-board-01",
+      "physical_specimen_relation_evidence": "Likely same user board across dated capture sets; not an independent specimen evaluation",
+      "observed_refdes_evidence": "Target adjacent silkscreen checked where readable; otherwise instance linkage is contextual rather than a fresh target marking read."
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092206.jpg",
+      "image_sha256": "f2fc47a803bd2066131be6edd2503137a955b6606f8ce7fa77b9559c2c8d93b0",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261010_092206.jpg:J11",
+      "class_name": "usb_connector",
+      "observed_reference_designator": "J11",
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1234,
+          609
+        ],
+        [
+          1246,
+          601
+        ],
+        [
+          1442,
+          590
+        ],
+        [
+          1465,
+          600
+        ],
+        [
+          1477,
+          618
+        ],
+        [
+          1480,
+          828
+        ],
+        [
+          1488,
+          844
+        ],
+        [
+          1477,
+          858
+        ],
+        [
+          1260,
+          869
+        ],
+        [
+          1243,
+          857
+        ],
+        [
+          1237,
+          839
+        ],
+        [
+          1232,
+          634
+        ]
+      ],
+      "boundary_scope": "visible package body including intrinsic end terminals where inseparable; excludes solder lands, detached/exposed leads, silkscreen and board surface",
+      "review_status": "visually_reviewed_target_body_polygon",
+      "review_evidence": "SIFT/RANSAC registration initialized a provisional polygon only. Target original-pixel upper/middle/bottom and package detail crops were inspected; package edges were visually accepted or manually corrected. Registration is not proof of target installed identity.",
+      "boundary_uncertainty_pixels": 8,
+      "installed_order_code_confirmed": false,
+      "source_annotation_instance_id": "IMG_20261010_092203.jpg:J11",
+      "source_annotation_image": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "capture_session_id": "nxp-phone-2026-10-10-morning",
+      "capture_group_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_id": "nxp-user-board-01",
+      "physical_specimen_relation_evidence": "Likely same user board across dated capture sets; not an independent specimen evaluation",
+      "observed_refdes_evidence": "Target adjacent silkscreen checked where readable; otherwise instance linkage is contextual rather than a fresh target marking read."
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092206.jpg",
+      "image_sha256": "f2fc47a803bd2066131be6edd2503137a955b6606f8ce7fa77b9559c2c8d93b0",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261010_092206.jpg:J10",
+      "class_name": "usb_connector",
+      "observed_reference_designator": "J10",
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1621,
+          579
+        ],
+        [
+          1636,
+          569
+        ],
+        [
+          1839,
+          559
+        ],
+        [
+          1857,
+          571
+        ],
+        [
+          1865,
+          591
+        ],
+        [
+          1865,
+          808
+        ],
+        [
+          1873,
+          827
+        ],
+        [
+          1861,
+          846
+        ],
+        [
+          1644,
+          858
+        ],
+        [
+          1628,
+          845
+        ],
+        [
+          1623,
+          825
+        ],
+        [
+          1618,
+          600
+        ]
+      ],
+      "boundary_scope": "visible package body including intrinsic end terminals where inseparable; excludes solder lands, detached/exposed leads, silkscreen and board surface",
+      "review_status": "visually_reviewed_target_body_polygon",
+      "review_evidence": "SIFT/RANSAC registration initialized a provisional polygon only. Target original-pixel upper/middle/bottom and package detail crops were inspected; package edges were visually accepted or manually corrected. Registration is not proof of target installed identity.",
+      "boundary_uncertainty_pixels": 8,
+      "installed_order_code_confirmed": false,
+      "source_annotation_instance_id": "IMG_20261010_092203.jpg:J10",
+      "source_annotation_image": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "capture_session_id": "nxp-phone-2026-10-10-morning",
+      "capture_group_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_id": "nxp-user-board-01",
+      "physical_specimen_relation_evidence": "Likely same user board across dated capture sets; not an independent specimen evaluation",
+      "observed_refdes_evidence": "Target adjacent silkscreen checked where readable; otherwise instance linkage is contextual rather than a fresh target marking read."
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092206.jpg",
+      "image_sha256": "f2fc47a803bd2066131be6edd2503137a955b6606f8ce7fa77b9559c2c8d93b0",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261010_092206.jpg:upper-large-ic-body",
+      "class_name": "integrated_circuit",
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1456,
+          1259
+        ],
+        [
+          1628,
+          1256
+        ],
+        [
+          1631,
+          1429
+        ],
+        [
+          1460,
+          1433
+        ]
+      ],
+      "boundary_scope": "visible package body including intrinsic end terminals where inseparable; excludes solder lands, detached/exposed leads, silkscreen and board surface",
+      "review_status": "visually_reviewed_target_body_polygon",
+      "review_evidence": "SIFT/RANSAC registration initialized a provisional polygon only. Target original-pixel upper/middle/bottom and package detail crops were inspected; package edges were visually accepted or manually corrected. Registration is not proof of target installed identity.",
+      "boundary_uncertainty_pixels": 8,
+      "installed_order_code_confirmed": false,
+      "identity_status": "observed_refdes_or_photo_local_body; installed exact order code unresolved",
+      "source_annotation_instance_id": "IMG_20261010_092203.jpg:upper-large-ic-body",
+      "source_annotation_image": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "capture_session_id": "nxp-phone-2026-10-10-morning",
+      "capture_group_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_id": "nxp-user-board-01",
+      "physical_specimen_relation_evidence": "Likely same user board across dated capture sets; not an independent specimen evaluation",
+      "observed_refdes_evidence": "Target adjacent silkscreen checked where readable; otherwise instance linkage is contextual rather than a fresh target marking read."
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092206.jpg",
+      "image_sha256": "f2fc47a803bd2066131be6edd2503137a955b6606f8ce7fa77b9559c2c8d93b0",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261010_092206.jpg:U2",
+      "class_name": "integrated_circuit",
+      "observed_reference_designator": "U2",
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1113,
+          1789
+        ],
+        [
+          1195,
+          1787
+        ],
+        [
+          1196,
+          1841
+        ],
+        [
+          1114,
+          1843
+        ]
+      ],
+      "boundary_scope": "visible package body including intrinsic end terminals where inseparable; excludes solder lands, detached/exposed leads, silkscreen and board surface",
+      "review_status": "visually_reviewed_target_body_polygon",
+      "review_evidence": "SIFT/RANSAC registration initialized a provisional polygon only. Target original-pixel upper/middle/bottom and package detail crops were inspected; package edges were visually accepted or manually corrected. Registration is not proof of target installed identity.",
+      "boundary_uncertainty_pixels": 8,
+      "installed_order_code_confirmed": false,
+      "identity_status": "observed_refdes_or_photo_local_body; installed exact order code unresolved",
+      "source_annotation_instance_id": "IMG_20261010_092203.jpg:U2",
+      "source_annotation_image": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "capture_session_id": "nxp-phone-2026-10-10-morning",
+      "capture_group_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_id": "nxp-user-board-01",
+      "physical_specimen_relation_evidence": "Likely same user board across dated capture sets; not an independent specimen evaluation",
+      "observed_refdes_evidence": "Target adjacent silkscreen checked where readable; otherwise instance linkage is contextual rather than a fresh target marking read."
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092206.jpg",
+      "image_sha256": "f2fc47a803bd2066131be6edd2503137a955b6606f8ce7fa77b9559c2c8d93b0",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261010_092206.jpg:U11",
+      "class_name": "integrated_circuit",
+      "observed_reference_designator": "U11",
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1343,
+          1990
+        ],
+        [
+          1424,
+          1988
+        ],
+        [
+          1426,
+          2060
+        ],
+        [
+          1345,
+          2061
+        ]
+      ],
+      "boundary_scope": "visible package body including intrinsic end terminals where inseparable; excludes solder lands, detached/exposed leads, silkscreen and board surface",
+      "review_status": "visually_reviewed_target_body_polygon",
+      "review_evidence": "SIFT/RANSAC registration initialized a provisional polygon only. Target original-pixel upper/middle/bottom and package detail crops were inspected; package edges were visually accepted or manually corrected. Registration is not proof of target installed identity.",
+      "boundary_uncertainty_pixels": 8,
+      "installed_order_code_confirmed": false,
+      "identity_status": "observed_refdes_or_photo_local_body; installed exact order code unresolved",
+      "source_annotation_instance_id": "IMG_20261010_092203.jpg:U11",
+      "source_annotation_image": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "capture_session_id": "nxp-phone-2026-10-10-morning",
+      "capture_group_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_id": "nxp-user-board-01",
+      "physical_specimen_relation_evidence": "Likely same user board across dated capture sets; not an independent specimen evaluation",
+      "observed_refdes_evidence": "Target adjacent silkscreen checked where readable; otherwise instance linkage is contextual rather than a fresh target marking read."
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092206.jpg",
+      "image_sha256": "f2fc47a803bd2066131be6edd2503137a955b6606f8ce7fa77b9559c2c8d93b0",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261010_092206.jpg:U12",
+      "class_name": "integrated_circuit",
+      "observed_reference_designator": "U12",
+      "observed_marking_family": "Winbond 25Q64JV",
+      "polygon_xy_pixels": [
+        [
+          1434,
+          2873
+        ],
+        [
+          1577,
+          2870
+        ],
+        [
+          1580,
+          3000
+        ],
+        [
+          1438,
+          3003
+        ]
+      ],
+      "boundary_scope": "visible package body including intrinsic end terminals where inseparable; excludes solder lands, detached/exposed leads, silkscreen and board surface",
+      "review_status": "visually_reviewed_target_body_polygon",
+      "review_evidence": "SIFT/RANSAC registration initialized a provisional polygon only. Target original-pixel upper/middle/bottom and package detail crops were inspected; package edges were visually accepted or manually corrected. Registration is not proof of target installed identity.",
+      "boundary_uncertainty_pixels": 8,
+      "installed_order_code_confirmed": false,
+      "identity_status": "observed_refdes_or_photo_local_body; installed exact order code unresolved",
+      "source_annotation_instance_id": "IMG_20261010_092203.jpg:U12",
+      "source_annotation_image": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "capture_session_id": "nxp-phone-2026-10-10-morning",
+      "capture_group_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_id": "nxp-user-board-01",
+      "physical_specimen_relation_evidence": "Likely same user board across dated capture sets; not an independent specimen evaluation",
+      "observed_refdes_evidence": "Target adjacent silkscreen checked where readable; otherwise instance linkage is contextual rather than a fresh target marking read."
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092206.jpg",
+      "image_sha256": "f2fc47a803bd2066131be6edd2503137a955b6606f8ce7fa77b9559c2c8d93b0",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261010_092206.jpg:U10",
+      "class_name": "integrated_circuit",
+      "observed_reference_designator": "U10",
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1672,
+          2913
+        ],
+        [
+          1718,
+          2912
+        ],
+        [
+          1720,
+          2971
+        ],
+        [
+          1674,
+          2972
+        ]
+      ],
+      "boundary_scope": "visible package body including intrinsic end terminals where inseparable; excludes solder lands, detached/exposed leads, silkscreen and board surface",
+      "review_status": "visually_reviewed_target_body_polygon",
+      "review_evidence": "SIFT/RANSAC registration initialized a provisional polygon only. Target original-pixel upper/middle/bottom and package detail crops were inspected; package edges were visually accepted or manually corrected. Registration is not proof of target installed identity.",
+      "boundary_uncertainty_pixels": 8,
+      "installed_order_code_confirmed": false,
+      "identity_status": "observed_refdes_or_photo_local_body; installed exact order code unresolved",
+      "source_annotation_instance_id": "IMG_20261010_092203.jpg:U10",
+      "source_annotation_image": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "capture_session_id": "nxp-phone-2026-10-10-morning",
+      "capture_group_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_id": "nxp-user-board-01",
+      "physical_specimen_relation_evidence": "Likely same user board across dated capture sets; not an independent specimen evaluation",
+      "observed_refdes_evidence": "Target adjacent silkscreen checked where readable; otherwise instance linkage is contextual rather than a fresh target marking read."
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092206.jpg",
+      "image_sha256": "f2fc47a803bd2066131be6edd2503137a955b6606f8ce7fa77b9559c2c8d93b0",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261010_092206.jpg:U7",
+      "class_name": "integrated_circuit",
+      "observed_reference_designator": "U7",
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1391,
+          3149
+        ],
+        [
+          1495,
+          3148
+        ],
+        [
+          1497,
+          3237
+        ],
+        [
+          1393,
+          3238
+        ]
+      ],
+      "boundary_scope": "visible package body including intrinsic end terminals where inseparable; excludes solder lands, detached/exposed leads, silkscreen and board surface",
+      "review_status": "visually_reviewed_target_body_polygon",
+      "review_evidence": "SIFT/RANSAC registration initialized a provisional polygon only. Target original-pixel upper/middle/bottom and package detail crops were inspected; package edges were visually accepted or manually corrected. Registration is not proof of target installed identity.",
+      "boundary_uncertainty_pixels": 8,
+      "installed_order_code_confirmed": false,
+      "identity_status": "observed_refdes_or_photo_local_body; installed exact order code unresolved",
+      "source_annotation_instance_id": "IMG_20261010_092203.jpg:U7",
+      "source_annotation_image": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "capture_session_id": "nxp-phone-2026-10-10-morning",
+      "capture_group_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_id": "nxp-user-board-01",
+      "physical_specimen_relation_evidence": "Likely same user board across dated capture sets; not an independent specimen evaluation",
+      "observed_refdes_evidence": "Target adjacent silkscreen checked where readable; otherwise instance linkage is contextual rather than a fresh target marking read."
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092206.jpg",
+      "image_sha256": "f2fc47a803bd2066131be6edd2503137a955b6606f8ce7fa77b9559c2c8d93b0",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261010_092206.jpg:upper-small-ic-body",
+      "class_name": "integrated_circuit",
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1206,
+          1048
+        ],
+        [
+          1252,
+          1048
+        ],
+        [
+          1252,
+          1090
+        ],
+        [
+          1206,
+          1090
+        ]
+      ],
+      "boundary_scope": "visible package body including intrinsic end terminals where inseparable; excludes solder lands, detached/exposed leads, silkscreen and board surface",
+      "review_status": "visually_reviewed_target_body_polygon",
+      "review_evidence": "SIFT/RANSAC registration initialized a provisional polygon only. Target original-pixel upper/middle/bottom and package detail crops were inspected; package edges were visually accepted or manually corrected. Registration is not proof of target installed identity.",
+      "boundary_uncertainty_pixels": 8,
+      "installed_order_code_confirmed": false,
+      "identity_status": "observed_refdes_or_photo_local_body; installed exact order code unresolved",
+      "source_annotation_instance_id": "IMG_20261010_092203.jpg:upper-small-ic-body",
+      "source_annotation_image": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "capture_session_id": "nxp-phone-2026-10-10-morning",
+      "capture_group_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_id": "nxp-user-board-01",
+      "physical_specimen_relation_evidence": "Likely same user board across dated capture sets; not an independent specimen evaluation",
+      "observed_refdes_evidence": "Target adjacent silkscreen checked where readable; otherwise instance linkage is contextual rather than a fresh target marking read."
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092206.jpg",
+      "image_sha256": "f2fc47a803bd2066131be6edd2503137a955b6606f8ce7fa77b9559c2c8d93b0",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261010_092206.jpg:midleft-small-ic-body",
+      "class_name": "integrated_circuit",
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1139,
+          1650
+        ],
+        [
+          1184,
+          1650
+        ],
+        [
+          1185,
+          1687
+        ],
+        [
+          1140,
+          1688
+        ]
+      ],
+      "boundary_scope": "visible package body including intrinsic end terminals where inseparable; excludes solder lands, detached/exposed leads, silkscreen and board surface",
+      "review_status": "visually_reviewed_target_body_polygon",
+      "review_evidence": "SIFT/RANSAC registration initialized a provisional polygon only. Target original-pixel upper/middle/bottom and package detail crops were inspected; package edges were visually accepted or manually corrected. Registration is not proof of target installed identity.",
+      "boundary_uncertainty_pixels": 8,
+      "installed_order_code_confirmed": false,
+      "identity_status": "observed_refdes_or_photo_local_body; installed exact order code unresolved",
+      "source_annotation_instance_id": "IMG_20261010_092203.jpg:midleft-small-ic-body",
+      "source_annotation_image": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "capture_session_id": "nxp-phone-2026-10-10-morning",
+      "capture_group_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_id": "nxp-user-board-01",
+      "physical_specimen_relation_evidence": "Likely same user board across dated capture sets; not an independent specimen evaluation",
+      "observed_refdes_evidence": "Target adjacent silkscreen checked where readable; otherwise instance linkage is contextual rather than a fresh target marking read."
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092206.jpg",
+      "image_sha256": "f2fc47a803bd2066131be6edd2503137a955b6606f8ce7fa77b9559c2c8d93b0",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261010_092206.jpg:top-right-tactile-switch",
+      "class_name": "tactile_switch",
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          2070,
+          829
+        ],
+        [
+          2146,
+          825
+        ],
+        [
+          2177,
+          841
+        ],
+        [
+          2169,
+          888
+        ],
+        [
+          2067,
+          893
+        ]
+      ],
+      "boundary_scope": "visible package body including intrinsic end terminals where inseparable; excludes solder lands, detached/exposed leads, silkscreen and board surface",
+      "review_status": "visually_reviewed_target_body_polygon",
+      "review_evidence": "SIFT/RANSAC registration initialized a provisional polygon only. Target original-pixel upper/middle/bottom and package detail crops were inspected; package edges were visually accepted or manually corrected. Registration is not proof of target installed identity.",
+      "boundary_uncertainty_pixels": 8,
+      "installed_order_code_confirmed": false,
+      "identity_status": "observed_refdes_or_photo_local_body; installed exact order code unresolved",
+      "source_annotation_instance_id": "IMG_20261010_092203.jpg:top-right-tactile-switch",
+      "source_annotation_image": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "capture_session_id": "nxp-phone-2026-10-10-morning",
+      "capture_group_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_id": "nxp-user-board-01",
+      "physical_specimen_relation_evidence": "Likely same user board across dated capture sets; not an independent specimen evaluation",
+      "observed_refdes_evidence": "Target adjacent silkscreen checked where readable; otherwise instance linkage is contextual rather than a fresh target marking read."
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092206.jpg",
+      "image_sha256": "f2fc47a803bd2066131be6edd2503137a955b6606f8ce7fa77b9559c2c8d93b0",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261010_092206.jpg:SW3",
+      "class_name": "tactile_switch",
+      "observed_reference_designator": "SW3",
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          973,
+          3427
+        ],
+        [
+          1073,
+          3425
+        ],
+        [
+          1077,
+          3515
+        ],
+        [
+          976,
+          3518
+        ]
+      ],
+      "boundary_scope": "visible package body including intrinsic end terminals where inseparable; excludes solder lands, detached/exposed leads, silkscreen and board surface",
+      "review_status": "visually_reviewed_target_body_polygon",
+      "review_evidence": "SIFT/RANSAC registration initialized a provisional polygon only. Target original-pixel upper/middle/bottom and package detail crops were inspected; package edges were visually accepted or manually corrected. Registration is not proof of target installed identity.",
+      "boundary_uncertainty_pixels": 8,
+      "installed_order_code_confirmed": false,
+      "identity_status": "observed_refdes_or_photo_local_body; installed exact order code unresolved",
+      "source_annotation_instance_id": "IMG_20261010_092203.jpg:SW3",
+      "source_annotation_image": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "capture_session_id": "nxp-phone-2026-10-10-morning",
+      "capture_group_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_id": "nxp-user-board-01",
+      "physical_specimen_relation_evidence": "Likely same user board across dated capture sets; not an independent specimen evaluation",
+      "observed_refdes_evidence": "Target adjacent silkscreen checked where readable; otherwise instance linkage is contextual rather than a fresh target marking read."
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092206.jpg",
+      "image_sha256": "f2fc47a803bd2066131be6edd2503137a955b6606f8ce7fa77b9559c2c8d93b0",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261010_092206.jpg:SW2",
+      "class_name": "tactile_switch",
+      "observed_reference_designator": "SW2",
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          2178,
+          3424
+        ],
+        [
+          2276,
+          3420
+        ],
+        [
+          2289,
+          3516
+        ],
+        [
+          2183,
+          3519
+        ]
+      ],
+      "boundary_scope": "visible package body including intrinsic end terminals where inseparable; excludes solder lands, detached/exposed leads, silkscreen and board surface",
+      "review_status": "visually_reviewed_target_body_polygon",
+      "review_evidence": "SIFT/RANSAC registration initialized a provisional polygon only. Target original-pixel upper/middle/bottom and package detail crops were inspected; package edges were visually accepted or manually corrected. Registration is not proof of target installed identity.",
+      "boundary_uncertainty_pixels": 8,
+      "installed_order_code_confirmed": false,
+      "identity_status": "observed_refdes_or_photo_local_body; installed exact order code unresolved",
+      "source_annotation_instance_id": "IMG_20261010_092203.jpg:SW2",
+      "source_annotation_image": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "capture_session_id": "nxp-phone-2026-10-10-morning",
+      "capture_group_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_id": "nxp-user-board-01",
+      "physical_specimen_relation_evidence": "Likely same user board across dated capture sets; not an independent specimen evaluation",
+      "observed_refdes_evidence": "Target adjacent silkscreen checked where readable; otherwise instance linkage is contextual rather than a fresh target marking read."
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092206.jpg",
+      "image_sha256": "f2fc47a803bd2066131be6edd2503137a955b6606f8ce7fa77b9559c2c8d93b0",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261010_092206.jpg:midlower-left-tactile-switch",
+      "class_name": "tactile_switch",
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1094,
+          3179
+        ],
+        [
+          1180,
+          3178
+        ],
+        [
+          1182,
+          3236
+        ],
+        [
+          1096,
+          3238
+        ]
+      ],
+      "boundary_scope": "visible package body including intrinsic end terminals where inseparable; excludes solder lands, detached/exposed leads, silkscreen and board surface",
+      "review_status": "visually_reviewed_target_body_polygon",
+      "review_evidence": "SIFT/RANSAC registration initialized a provisional polygon only. Target original-pixel upper/middle/bottom and package detail crops were inspected; package edges were visually accepted or manually corrected. Registration is not proof of target installed identity.",
+      "boundary_uncertainty_pixels": 8,
+      "installed_order_code_confirmed": false,
+      "identity_status": "observed_refdes_or_photo_local_body; installed exact order code unresolved",
+      "source_annotation_instance_id": "IMG_20261010_092203.jpg:midlower-left-tactile-switch",
+      "source_annotation_image": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "capture_session_id": "nxp-phone-2026-10-10-morning",
+      "capture_group_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_id": "nxp-user-board-01",
+      "physical_specimen_relation_evidence": "Likely same user board across dated capture sets; not an independent specimen evaluation",
+      "observed_refdes_evidence": "Target adjacent silkscreen checked where readable; otherwise instance linkage is contextual rather than a fresh target marking read."
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092206.jpg",
+      "image_sha256": "f2fc47a803bd2066131be6edd2503137a955b6606f8ce7fa77b9559c2c8d93b0",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261010_092206.jpg:Y2",
+      "class_name": "crystal_oscillator",
+      "observed_reference_designator": "Y2",
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1336,
+          2408
+        ],
+        [
+          1376,
+          2407
+        ],
+        [
+          1378,
+          2479
+        ],
+        [
+          1337,
+          2480
+        ]
+      ],
+      "boundary_scope": "visible package body including intrinsic end terminals where inseparable; excludes solder lands, detached/exposed leads, silkscreen and board surface",
+      "review_status": "visually_reviewed_target_body_polygon",
+      "review_evidence": "SIFT/RANSAC registration initialized a provisional polygon only. Target original-pixel upper/middle/bottom and package detail crops were inspected; package edges were visually accepted or manually corrected. Registration is not proof of target installed identity.",
+      "boundary_uncertainty_pixels": 8,
+      "installed_order_code_confirmed": false,
+      "identity_status": "observed_refdes_or_photo_local_body; installed exact order code unresolved",
+      "source_annotation_instance_id": "IMG_20261010_092203.jpg:Y2",
+      "source_annotation_image": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "capture_session_id": "nxp-phone-2026-10-10-morning",
+      "capture_group_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_id": "nxp-user-board-01",
+      "physical_specimen_relation_evidence": "Likely same user board across dated capture sets; not an independent specimen evaluation",
+      "observed_refdes_evidence": "Target adjacent silkscreen checked where readable; otherwise instance linkage is contextual rather than a fresh target marking read."
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092206.jpg",
+      "image_sha256": "f2fc47a803bd2066131be6edd2503137a955b6606f8ce7fa77b9559c2c8d93b0",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261010_092206.jpg:Y1",
+      "class_name": "crystal_oscillator",
+      "observed_reference_designator": "Y1",
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1584,
+          2043
+        ],
+        [
+          1640,
+          2042
+        ],
+        [
+          1640,
+          2087
+        ],
+        [
+          1585,
+          2088
+        ]
+      ],
+      "boundary_scope": "visible package body including intrinsic end terminals where inseparable; excludes solder lands, detached/exposed leads, silkscreen and board surface",
+      "review_status": "visually_reviewed_target_body_polygon",
+      "review_evidence": "SIFT/RANSAC registration initialized a provisional polygon only. Target original-pixel upper/middle/bottom and package detail crops were inspected; package edges were visually accepted or manually corrected. Registration is not proof of target installed identity.",
+      "boundary_uncertainty_pixels": 8,
+      "installed_order_code_confirmed": false,
+      "identity_status": "observed_refdes_or_photo_local_body; installed exact order code unresolved",
+      "source_annotation_instance_id": "IMG_20261010_092203.jpg:Y1",
+      "source_annotation_image": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "capture_session_id": "nxp-phone-2026-10-10-morning",
+      "capture_group_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_id": "nxp-user-board-01",
+      "physical_specimen_relation_evidence": "Likely same user board across dated capture sets; not an independent specimen evaluation",
+      "observed_refdes_evidence": "Target adjacent silkscreen checked where readable; otherwise instance linkage is contextual rather than a fresh target marking read."
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092206.jpg",
+      "image_sha256": "f2fc47a803bd2066131be6edd2503137a955b6606f8ce7fa77b9559c2c8d93b0",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261010_092206.jpg:upper-metal-resonator",
+      "class_name": "crystal_oscillator",
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1594,
+          1102
+        ],
+        [
+          1670,
+          1100
+        ],
+        [
+          1671,
+          1150
+        ],
+        [
+          1595,
+          1151
+        ]
+      ],
+      "boundary_scope": "visible package body including intrinsic end terminals where inseparable; excludes solder lands, detached/exposed leads, silkscreen and board surface",
+      "review_status": "visually_reviewed_target_body_polygon",
+      "review_evidence": "SIFT/RANSAC registration initialized a provisional polygon only. Target original-pixel upper/middle/bottom and package detail crops were inspected; package edges were visually accepted or manually corrected. Registration is not proof of target installed identity.",
+      "boundary_uncertainty_pixels": 8,
+      "installed_order_code_confirmed": false,
+      "identity_status": "observed_refdes_or_photo_local_body; installed exact order code unresolved",
+      "source_annotation_instance_id": "IMG_20261010_092203.jpg:upper-metal-resonator",
+      "source_annotation_image": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "capture_session_id": "nxp-phone-2026-10-10-morning",
+      "capture_group_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_id": "nxp-user-board-01",
+      "physical_specimen_relation_evidence": "Likely same user board across dated capture sets; not an independent specimen evaluation",
+      "observed_refdes_evidence": "Target adjacent silkscreen checked where readable; otherwise instance linkage is contextual rather than a fresh target marking read."
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092206.jpg",
+      "image_sha256": "f2fc47a803bd2066131be6edd2503137a955b6606f8ce7fa77b9559c2c8d93b0",
+      "image_width": 3072,
+      "image_height": 4096,
+      "instance_id": "IMG_20261010_092206.jpg:upper-sixlead-ic-body",
+      "class_name": "integrated_circuit",
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1340,
+          927
+        ],
+        [
+          1376,
+          927
+        ],
+        [
+          1376,
+          955
+        ],
+        [
+          1340,
+          955
+        ]
+      ],
+      "boundary_scope": "visible package body including intrinsic end terminals where inseparable; excludes solder lands, detached/exposed leads, silkscreen and board surface",
+      "review_status": "visually_reviewed_target_body_polygon",
+      "review_evidence": "SIFT/RANSAC registration initialized a provisional polygon only. Target original-pixel upper/middle/bottom and package detail crops were inspected; package edges were visually accepted or manually corrected. Registration is not proof of target installed identity.",
+      "boundary_uncertainty_pixels": 8,
+      "installed_order_code_confirmed": false,
+      "identity_status": "observed_refdes_or_photo_local_body; installed exact order code unresolved",
+      "source_annotation_instance_id": "IMG_20261010_092203.jpg:upper-sixlead-ic-body",
+      "source_annotation_image": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "capture_session_id": "nxp-phone-2026-10-10-morning",
+      "capture_group_id": "nxp-phone-2026-10-10-morning",
+      "physical_specimen_id": "nxp-user-board-01",
+      "physical_specimen_relation_evidence": "Likely same user board across dated capture sets; not an independent specimen evaluation",
+      "observed_refdes_evidence": "Target adjacent silkscreen checked where readable; otherwise instance linkage is contextual rather than a fresh target marking read."
+    }
+  ],
+  "per_observable_class_audit": {
+    "usb_connector": {
+      "visible_body_count": 2,
+      "reviewed_body_count": 2,
+      "coverage": "complete_visible_bodies_on_this_photo"
+    },
+    "tactile_switch": {
+      "visible_body_count": 4,
+      "reviewed_body_count": 4,
+      "coverage": "complete_visible_bodies_on_this_photo"
+    },
+    "crystal_oscillator": {
+      "visible_metal_resonator_body_count": 3,
+      "reviewed_body_count": 3,
+      "coverage": "complete_visible_metal_resonator_bodies_on_this_photo; exact device families/order codes unresolved"
+    },
+    "integrated_circuit": {
+      "reviewed_body_count": 10,
+      "coverage": "partial; upper packages/markings still require review"
+    },
+    "header_connector": {
+      "reviewed_body_count": 13,
+      "coverage": "partial; body silhouettes need further edge refinement"
+    },
+    "capacitor": {
+      "reviewed_body_count": 15,
+      "coverage": "partial; many crowded tiny bodies omitted"
+    },
+    "resistor": {
+      "reviewed_body_count": 16,
+      "coverage": "partial; many crowded tiny bodies omitted"
+    }
+  },
+  "image_coverage_reviews": [
+    {
+      "image_path": "data/photo-model/by_board/nxp_frdm_mcxn_board/IMG_20261009_221755.jpg",
+      "capture_session_id": "nxp-phone-2026-10-09-night",
+      "reviewed_body_count": 19,
+      "coverage": "partial_visible_component_bodies",
+      "usb_connector_visible_count": 2,
+      "tactile_switch_visible_count": 4,
+      "metal_resonator_visible_count": 3,
+      "remaining_review": [
+        "Other small semiconductor packages/class disambiguation",
+        "Dense passive bodies and header/contact silhouettes",
+        "Installed exact identities; target markings are only evidence when readable"
+      ],
+      "training_export_eligible": false
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092206.jpg",
+      "capture_session_id": "nxp-phone-2026-10-10-morning",
+      "reviewed_body_count": 19,
+      "coverage": "partial_visible_component_bodies",
+      "usb_connector_visible_count": 2,
+      "tactile_switch_visible_count": 4,
+      "metal_resonator_visible_count": 3,
+      "remaining_review": [
+        "Other small semiconductor packages/class disambiguation",
+        "Dense passive bodies and header/contact silhouettes",
+        "Installed exact identities; target markings are only evidence when readable"
+      ],
+      "training_export_eligible": false
+    }
+  ]
+}

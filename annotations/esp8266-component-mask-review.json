@@ -1,0 +1,266 @@
+{
+  "schema_version": "1.0",
+  "board_family": "esp8266_nodemcu_esp12e_clone_unknown_variant",
+  "physical_specimen_id": "bench-esp8266-01",
+  "capture_session_id": "bench-esp8266-01:20261010_092221",
+  "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092221.jpg",
+  "image_sha256": "9d68458beac56198249982eda3de4dfc02904a701ea5d7496c6774af4c994461",
+  "image_width": 3072,
+  "image_height": 4080,
+  "coordinate_frame": "exif_upright_original_image_pixels",
+  "coverage": "partial_visible_component_bodies",
+  "training_export_eligible": false,
+  "evaluation_valid": false,
+  "review_scope": [
+    "rf_shield",
+    "integrated_circuit",
+    "usb_connector",
+    "switch"
+  ],
+  "unreviewed_visible_instances": [
+    "other IC and three-terminal packages",
+    "passives",
+    "capacitors",
+    "LEDs/diodes",
+    "header contacts and pin endpoints"
+  ],
+  "identity_limits": [
+    "ESP-12E shield marking is legible; clone variant/order suffix unknown.",
+    "USB-serial controller exact marking is unreadable.",
+    "No BOM or schematic-to-photograph part mapping is asserted."
+  ],
+  "masks": [
+    {
+      "instance_id": "IMG_20261010_092221.jpg:esp12e_rf_shield",
+      "class_name": "rf_shield",
+      "observed_reference_designator": null,
+      "observed_marking_family": "ESP-12E",
+      "polygon_xy_pixels": [
+        [
+          1162,
+          1642
+        ],
+        [
+          1532,
+          1642
+        ],
+        [
+          1550,
+          1658
+        ],
+        [
+          1562,
+          2110
+        ],
+        [
+          1542,
+          2132
+        ],
+        [
+          1180,
+          2134
+        ],
+        [
+          1162,
+          2115
+        ]
+      ],
+      "boundary_scope": "Visible RF module shield body only; printed antenna, perimeter pads and host board excluded.",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original 3072x4080 EXIF-upright photo inspected with 100 px and 50 px grid crops. ESP-12E marking is legible on the shield. Exact module ordering suffix and clone manufacturer are not established.",
+      "boundary_uncertainty_pixels": 8,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
+      "installed_order_code_confirmed": false
+    },
+    {
+      "instance_id": "IMG_20261010_092221.jpg:usb_serial_controller",
+      "class_name": "integrated_circuit",
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1102,
+          2827
+        ],
+        [
+          1418,
+          2827
+        ],
+        [
+          1434,
+          2840
+        ],
+        [
+          1432,
+          2998
+        ],
+        [
+          1418,
+          3012
+        ],
+        [
+          1102,
+          3012
+        ],
+        [
+          1088,
+          2998
+        ],
+        [
+          1088,
+          2842
+        ]
+      ],
+      "boundary_scope": "Visible black package body, excluding gullwing leads and surrounding silkscreen.",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original high-resolution photo and enlarged 25 px grid crop inspected. Package class and USB-serial-controller function are supported by board placement/layout context; top marking is unreadable, so exact chip name/order code is unresolved.",
+      "boundary_uncertainty_pixels": 16,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
+      "installed_order_code_confirmed": false
+    },
+    {
+      "instance_id": "IMG_20261010_092221.jpg:micro_usb",
+      "class_name": "usb_connector",
+      "observed_reference_designator": null,
+      "observed_marking_family": "Micro-USB receptacle (visual family only)",
+      "polygon_xy_pixels": [
+        [
+          1258,
+          3212
+        ],
+        [
+          1281,
+          3193
+        ],
+        [
+          1527,
+          3193
+        ],
+        [
+          1552,
+          3211
+        ],
+        [
+          1562,
+          3398
+        ],
+        [
+          1544,
+          3425
+        ],
+        [
+          1283,
+          3425
+        ],
+        [
+          1260,
+          3406
+        ]
+      ],
+      "boundary_scope": "Visible metal connector shell/body; PCB pads and cast shadow excluded.",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original high-resolution photo and enlarged 50 px grid crop inspected. Receptacle outline is visible; manufacturer and order code are not readable.",
+      "boundary_uncertainty_pixels": 12,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
+      "installed_order_code_confirmed": false
+    },
+    {
+      "instance_id": "IMG_20261010_092221.jpg:rst_button",
+      "class_name": "switch",
+      "observed_reference_designator": null,
+      "observed_marking_family": "RST control (adjacent silkscreen)",
+      "polygon_xy_pixels": [
+        [
+          1062,
+          3102
+        ],
+        [
+          1080,
+          3088
+        ],
+        [
+          1162,
+          3088
+        ],
+        [
+          1178,
+          3104
+        ],
+        [
+          1178,
+          3268
+        ],
+        [
+          1162,
+          3283
+        ],
+        [
+          1078,
+          3283
+        ],
+        [
+          1060,
+          3268
+        ]
+      ],
+      "boundary_scope": "Visible tactile-switch housing and actuator; adjacent RST silkscreen excluded.",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original high-resolution photo and enlarged 50 px grid crop inspected. Adjacent board text reads RST; switch manufacturer/order code is unknown.",
+      "boundary_uncertainty_pixels": 10,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
+      "installed_order_code_confirmed": false
+    },
+    {
+      "instance_id": "IMG_20261010_092221.jpg:flash_button",
+      "class_name": "switch",
+      "observed_reference_designator": null,
+      "observed_marking_family": "FLASH control (adjacent silkscreen)",
+      "polygon_xy_pixels": [
+        [
+          1592,
+          3100
+        ],
+        [
+          1610,
+          3088
+        ],
+        [
+          1690,
+          3088
+        ],
+        [
+          1707,
+          3103
+        ],
+        [
+          1707,
+          3268
+        ],
+        [
+          1690,
+          3282
+        ],
+        [
+          1610,
+          3282
+        ],
+        [
+          1592,
+          3267
+        ]
+      ],
+      "boundary_scope": "Visible tactile-switch housing and actuator; adjacent FLASH silkscreen excluded.",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original high-resolution photo and enlarged 50 px grid crop inspected. Adjacent board text reads FLASH; switch manufacturer/order code is unknown.",
+      "boundary_uncertainty_pixels": 10,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
+      "installed_order_code_confirmed": false
+    }
+  ],
+  "class_scope_note": "rf_shield is the visible metal shield only, distinct from a complete RF module substrate/antenna mask."
+}

@@ -2,8 +2,8 @@
   "schema_version": "1.0",
   "release_eligible": false,
   "evaluation_valid": false,
-  "review_method": "Manual inspection of the five EXIF-oriented high-resolution originals on 2026-10-10",
-  "scope": "Known photographed specimens; board-body feature regions, 60 literal printed contacts, three readable part/module families, four named NXP mounting-hole image/metric landmark pairs. This is not exhaustive training annotation.",
+  "review_method": "Manual inspection of five high-resolution intake originals and the additional original NXP macro photo with enlarged package crops. Two additional full-board ESP32 originals were reviewed by robust planar registration to the first annotated original, then visually checked in target-resolution overlays.",
+  "scope": "Known photographed specimens; board-body feature regions, 60 literal printed contacts, three readable part/module families, four named NXP mounting-hole image/metric landmark pairs. This is not exhaustive training annotation. Eight additional NXP masks on the macro photo cover U1, U8, U12, J3, J4, J5, J6 and SW3. Rev C links remain source candidates; installed identities and photographed PCB revision are unconfirmed. Four new ESP32 labels add a shielded RF module, Micro-USB receptacle and BOOT/EN switches alongside the previously reviewed U2; module identity and switch refdes remain unknown. The five chosen ESP32 body classes (U2 IC, shielded RF module, Micro-USB receptacle, BOOT and EN switches) are reviewed in three full-board originals (15 masks); two derived macro crops remain outside this three-photo annotation group to avoid duplicate/crop leakage. Contact aliases and board identity remain separate metadata.",
   "templates": [
     {
       "id": "IMG_20261010_092144.jpg",
@@ -13,7 +13,7 @@
       "image_sha256": "d33bf83877365f57dc03d36388518207090acbd5b57db93ca96742c1ecd05ed7",
       "board_bbox_xyxy_normalized": [
         0.29934450109249816,
-        0.31798245614035087,
+        0.3174019607843137,
         0.6678805535324108,
         0.8223684210526315
       ],
@@ -25,13 +25,13 @@
       "labels": [
         {
           "id": "IMG_20261010_092144.jpg:U2",
-          "label": "U2 \u2014 Silicon Labs CP2102 USB-UART [marking family]",
+          "label": "U2 — Silicon Labs CP2102 USB-UART [marking family]",
           "kind": "part",
           "bbox_xyxy_normalized": [
-            0.37144938091769847,
-            0.40460526315789475,
-            0.4493809176984705,
-            0.46326754385964913
+            0.3756510416666667,
+            0.41274509803921566,
+            0.4449869791666667,
+            0.4588235294117647
           ],
           "identity_status": "reviewed_photo_marking_family_order_code_unconfirmed",
           "source": {
@@ -578,6 +578,74 @@
             "contact_side": "right",
             "contact_index_from_top": 15,
             "mapping_scope": "Literal silkscreen alias only; does not assert GPIO, net, header numbering or chip pin"
+          }
+        },
+        {
+          "id": "IMG_20261010_092144.jpg:RF_MODULE",
+          "label": "ESP32 RF module [shielded module family; exact model unconfirmed]",
+          "kind": "part",
+          "bbox_xyxy_normalized": [
+            0.353515625,
+            0.5647058823529412,
+            0.5973307291666666,
+            0.8200980392156862
+          ],
+          "identity_status": "reviewed_photo_module_family_order_code_unconfirmed",
+          "source": {
+            "observed_refdes": null,
+            "observed_marking": null,
+            "evidence": "Shielded radio module footprint and castellated perimeter are distinct in original pixels; ESP32 family is identified from the host board. Module model/order code is not sufficiently legible to assert."
+          }
+        },
+        {
+          "id": "IMG_20261010_092144.jpg:USB",
+          "label": "Micro-USB receptacle [visual class]",
+          "kind": "part",
+          "bbox_xyxy_normalized": [
+            0.42578125,
+            0.317156862745098,
+            0.5520833333333334,
+            0.37058823529411766
+          ],
+          "identity_status": "reviewed_photo_component_visual_class_only",
+          "source": {
+            "observed_refdes": null,
+            "observed_marking": null,
+            "evidence": "Single metal Micro-USB receptacle is visible at the board edge; visual connector family only, no installed manufacturer part number asserted."
+          }
+        },
+        {
+          "id": "IMG_20261010_092144.jpg:BOOT_SWITCH",
+          "label": "BOOT tactile switch [printed control label]",
+          "kind": "part",
+          "bbox_xyxy_normalized": [
+            0.3597005208333333,
+            0.33284313725490194,
+            0.40234375,
+            0.37058823529411766
+          ],
+          "identity_status": "reviewed_photo_component_visual_class_only",
+          "source": {
+            "observed_refdes": null,
+            "observed_marking": "BOOT",
+            "evidence": "Tactile switch body immediately beside the printed BOOT label; no schematic reference designator or part number asserted."
+          }
+        },
+        {
+          "id": "IMG_20261010_092144.jpg:EN_SWITCH",
+          "label": "EN tactile switch [printed control label]",
+          "kind": "part",
+          "bbox_xyxy_normalized": [
+            0.5699869791666666,
+            0.33578431372549017,
+            0.6123046875,
+            0.3732843137254902
+          ],
+          "identity_status": "reviewed_photo_component_visual_class_only",
+          "source": {
+            "observed_refdes": null,
+            "observed_marking": "EN",
+            "evidence": "Tactile switch body immediately beside the printed EN label; no schematic reference designator or part number asserted."
           }
         }
       ]
@@ -1185,11 +1253,11 @@
       "image_sha256": "00bdc20da4286033a2c2f1c1d146ee3ece21be8ca322f4d33b7fdc8738038170",
       "board_bbox_xyxy_normalized": [
         0.2733918128654971,
-        0.11513157894736842,
+        0.089599609375,
         0.8004385964912281,
         0.9402412280701754
       ],
-      "board_box_scope": "Reviewed board-body feature ROI; not a complete YOLO training annotation",
+      "board_box_scope": "Expanded reviewed board and attached-component ROI includes the top-edge Type-C receptacles; it is still not an exhaustive board-object annotation",
       "source_reference": {
         "photo_manifest": "data/phone-captures/2026-10-10/manifest.json",
         "specimen_revision_status": "unverified"
@@ -1197,7 +1265,7 @@
       "labels": [
         {
           "id": "IMG_20261010_092203.jpg:U1",
-          "label": "U1 \u2014 NXP MCXN236 MCU [marking family]",
+          "label": "U1 — NXP MCXN236 MCU [marking family]",
           "kind": "part",
           "bbox_xyxy_normalized": [
             0.47733918128654973,
@@ -1210,6 +1278,46 @@
             "observed_refdes": "U1",
             "observed_marking": "MCXN236V",
             "evidence": "MCU marking and U1 silkscreen visible; full order code and PCB revision remain unconfirmed"
+          }
+        },
+        {
+          "id": "IMG_20261010_092203.jpg:J11",
+          "label": "J11 — GCT USB4085-GF-A USB Type-C receptacle [Rev C source candidate]",
+          "kind": "part",
+          "bbox_xyxy_normalized": [
+            0.416015625,
+            0.09521484375,
+            0.5048828125,
+            0.166259765625
+          ],
+          "identity_status": "visually_reviewed_connector_type_source_candidate_revision_unverified",
+          "source": {
+            "observed_refdes": "J11",
+            "observed_marking": null,
+            "evidence": "USB4085-GF-A Type-C receptacle silhouette reviewed in original-pixel crop; left port maps to J11 by Rev C placement relative to mounting holes. Board revision and installed order code are not independently confirmed.",
+            "source_component_id": "nxp-frdm-mcxn236:C:J11",
+            "source_revision": "C",
+            "installed_order_code_confirmed": false
+          }
+        },
+        {
+          "id": "IMG_20261010_092203.jpg:J10",
+          "label": "J10 — GCT USB4085-GF-A USB Type-C receptacle [Rev C source candidate]",
+          "kind": "part",
+          "bbox_xyxy_normalized": [
+            0.552734375,
+            0.089599609375,
+            0.6412760416666666,
+            0.16552734375
+          ],
+          "identity_status": "visually_reviewed_connector_type_source_candidate_revision_unverified",
+          "source": {
+            "observed_refdes": "J10",
+            "observed_marking": null,
+            "evidence": "USB4085-GF-A Type-C receptacle silhouette reviewed in original-pixel crop; right port maps to J10 by Rev C placement relative to mounting holes. Board revision and installed order code are not independently confirmed.",
+            "source_component_id": "nxp-frdm-mcxn236:C:J10",
+            "source_revision": "C",
+            "installed_order_code_confirmed": false
           }
         }
       ],
@@ -1236,7 +1344,12 @@
       "pose_alignment_scope": "Rev C source model; photographed PCB revision unverified; source geometry comparison only",
       "corner_uncertainty_pixels": 12,
       "pose_landmark_kind": "mounting_hole_centres",
-      "pose_landmark_ids": ["BH1", "BH4", "BH2", "BH3"],
+      "pose_landmark_ids": [
+        "BH1",
+        "BH4",
+        "BH2",
+        "BH3"
+      ],
       "pose_metric_landmarks_metres": [
         [
           0.0,
@@ -1281,6 +1394,1476 @@
         "specimen_revision_status": "readable_board_revision"
       },
       "labels": []
+    },
+    {
+      "id": "IMG_20261009_221755_1.jpg",
+      "class_id": 3,
+      "board": "NXP FRDM-MCXN236 (revision unverified)",
+      "image_path": "data/photo-model/photos/raw/IMG_20261009_221755_1.jpg",
+      "image_sha256": "39fc7bf72f364c0b0e848dc9fe9492b85efbdef1481a28d9bbecf4787e51a47e",
+      "board_bbox_xyxy_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "board_box_scope": "Cropped close-up with board edges partly outside the frame; not a board-boundary training label",
+      "source_reference": {
+        "annotation": "annotations/nxp-component-seeds.json",
+        "specimen_revision_status": "unverified"
+      },
+      "labels": [
+        {
+          "id": "IMG_20261009_221755_1.jpg:U1",
+          "label": "U1 — MCXN236VDFT [Rev C BOM candidate]",
+          "kind": "part",
+          "bbox_xyxy_normalized": [
+            0.32125,
+            0.3999485596707819,
+            0.520625,
+            0.48302469135802467
+          ],
+          "identity_status": "reviewed_photo_refdes_source_candidate_specimen_revision_unverified",
+          "source": {
+            "observed_refdes": "U1",
+            "observed_marking": null,
+            "source_component_id": "nxp-frdm-mcxn236:C:U1",
+            "source_revision": "C",
+            "installed_order_code_confirmed": false,
+            "evidence": "Adjacent U1 silkscreen and square package body reviewed in the original photo and enlarged crop. MCXN236VDFT is a Rev C BOM candidate only; the photographed PCB layout revision and installed order code are unconfirmed."
+          }
+        },
+        {
+          "id": "IMG_20261009_221755_1.jpg:U8",
+          "label": "U8 — LPC55S69JEV98 [Rev C BOM candidate]",
+          "kind": "part",
+          "bbox_xyxy_normalized": [
+            0.33,
+            0.7445987654320988,
+            0.49125,
+            0.808641975308642
+          ],
+          "identity_status": "reviewed_photo_refdes_source_candidate_specimen_revision_unverified",
+          "source": {
+            "observed_refdes": "U8",
+            "observed_marking": null,
+            "source_component_id": "nxp-frdm-mcxn236:C:U8",
+            "source_revision": "C",
+            "installed_order_code_confirmed": false,
+            "evidence": "Adjacent U8 silkscreen and square package body reviewed in the original photo and enlarged crop. LPC55S69JEV98 is a Rev C BOM candidate only; the photographed PCB layout revision and installed order code are unconfirmed."
+          }
+        },
+        {
+          "id": "IMG_20261009_221755_1.jpg:J5",
+          "label": "J5 — 1x8 socket header [08001S3 0811-29RF Rev C BOM candidate]",
+          "kind": "part",
+          "bbox_xyxy_normalized": [
+            0.124375,
+            0.13863168724279834,
+            0.2125,
+            0.3212448559670782
+          ],
+          "identity_status": "reviewed_photo_refdes_source_candidate_specimen_revision_unverified",
+          "source": {
+            "observed_refdes": "J5",
+            "observed_marking": null,
+            "source_component_id": "nxp-frdm-mcxn236:C:J5",
+            "source_revision": "C",
+            "installed_order_code_confirmed": false,
+            "evidence": "Adjacent J5 silkscreen and the component outline were reviewed in the original EXIF-upright image and a 3x crop. 08001S3 0811-29RF is a Rev C BOM candidate only; photographed PCB layout revision and installed order code remain unconfirmed."
+          }
+        },
+        {
+          "id": "IMG_20261009_221755_1.jpg:J6",
+          "label": "J6 — 1x8 socket header [08001S3 0811-29RF Rev C BOM candidate]",
+          "kind": "part",
+          "bbox_xyxy_normalized": [
+            0.616875,
+            0.13631687242798354,
+            0.688125,
+            0.32073045267489714
+          ],
+          "identity_status": "reviewed_photo_refdes_source_candidate_specimen_revision_unverified",
+          "source": {
+            "observed_refdes": "J6",
+            "observed_marking": null,
+            "source_component_id": "nxp-frdm-mcxn236:C:J6",
+            "source_revision": "C",
+            "installed_order_code_confirmed": false,
+            "evidence": "Adjacent J6 silkscreen and the component outline were reviewed in the original EXIF-upright image and a 3x crop. 08001S3 0811-29RF is a Rev C BOM candidate only; photographed PCB layout revision and installed order code remain unconfirmed."
+          }
+        },
+        {
+          "id": "IMG_20261009_221755_1.jpg:J4",
+          "label": "J4 — 2x6 socket header [08010S31211-29RF Rev C BOM candidate]",
+          "kind": "part",
+          "bbox_xyxy_normalized": [
+            0.815,
+            0.4711934156378601,
+            0.946875,
+            0.6108539094650206
+          ],
+          "identity_status": "reviewed_photo_refdes_source_candidate_specimen_revision_unverified",
+          "source": {
+            "observed_refdes": "J4",
+            "observed_marking": null,
+            "source_component_id": "nxp-frdm-mcxn236:C:J4",
+            "source_revision": "C",
+            "installed_order_code_confirmed": false,
+            "evidence": "Adjacent J4 silkscreen and the component outline were reviewed in the original EXIF-upright image and a 3x crop. 08010S31211-29RF is a Rev C BOM candidate only; photographed PCB layout revision and installed order code remain unconfirmed."
+          }
+        },
+        {
+          "id": "IMG_20261009_221755_1.jpg:J3",
+          "label": "J3 — 2x8 socket header [08010S31611-29RF Rev C BOM candidate]",
+          "kind": "part",
+          "bbox_xyxy_normalized": [
+            0.81875,
+            0.6229423868312757,
+            0.94875,
+            0.8140432098765432
+          ],
+          "identity_status": "reviewed_photo_refdes_source_candidate_specimen_revision_unverified",
+          "source": {
+            "observed_refdes": "J3",
+            "observed_marking": null,
+            "source_component_id": "nxp-frdm-mcxn236:C:J3",
+            "source_revision": "C",
+            "installed_order_code_confirmed": false,
+            "evidence": "Adjacent J3 silkscreen and the component outline were reviewed in the original EXIF-upright image and a 3x crop. 08010S31611-29RF is a Rev C BOM candidate only; photographed PCB layout revision and installed order code remain unconfirmed."
+          }
+        },
+        {
+          "id": "IMG_20261009_221755_1.jpg:SW3",
+          "label": "SW3 — ISP tactile switch [434123025826 Rev C BOM candidate]",
+          "kind": "part",
+          "bbox_xyxy_normalized": [
+            0.86625,
+            0.043467078189300415,
+            0.963125,
+            0.07330246913580248
+          ],
+          "identity_status": "reviewed_photo_refdes_source_candidate_specimen_revision_unverified",
+          "source": {
+            "observed_refdes": "SW3",
+            "observed_marking": null,
+            "source_component_id": "nxp-frdm-mcxn236:C:SW3",
+            "source_revision": "C",
+            "installed_order_code_confirmed": false,
+            "evidence": "Adjacent SW3 silkscreen and the component outline were reviewed in the original EXIF-upright image and a 3x crop. 434123025826 is a Rev C BOM candidate only; photographed PCB layout revision and installed order code remain unconfirmed."
+          }
+        },
+        {
+          "id": "IMG_20261009_221755_1.jpg:U12",
+          "label": "U12 — serial flash IC [W25Q64JVSSIQ Rev C BOM candidate]",
+          "kind": "part",
+          "bbox_xyxy_normalized": [
+            0.433125,
+            0.2139917695473251,
+            0.549375,
+            0.2613168724279835
+          ],
+          "identity_status": "reviewed_photo_refdes_source_candidate_specimen_revision_unverified",
+          "source": {
+            "observed_refdes": "U12",
+            "observed_marking": null,
+            "source_component_id": "nxp-frdm-mcxn236:C:U12",
+            "source_revision": "C",
+            "installed_order_code_confirmed": false,
+            "evidence": "Adjacent U12 silkscreen and the component outline were reviewed in the original EXIF-upright image and a 3x crop. W25Q64JVSSIQ is a Rev C BOM candidate only; photographed PCB layout revision and installed order code remain unconfirmed."
+          }
+        }
+      ]
+    },
+    {
+      "id": "IMG_20261010_092149.jpg",
+      "class_id": 0,
+      "board": "ESP32 30-pin DevKit (variant unknown)",
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092149.jpg",
+      "image_sha256": "f99756a1c369609e24570c76d5600eff9eb3b3d749644f2d9664c63b075bd2c2",
+      "board_bbox_xyxy_normalized": [
+        0.2741209864616394,
+        0.3179740309715271,
+        0.6250606179237366,
+        0.8002545237541199
+      ],
+      "board_box_scope": "Reviewed board-body feature ROI; not a complete YOLO training annotation",
+      "source_reference": {
+        "photo_manifest": "data/phone-captures/2026-10-10/manifest.json",
+        "specimen_revision_status": "unverified"
+      },
+      "labels": [
+        {
+          "id": "IMG_20261010_092149.jpg:U2",
+          "label": "U2 — Silicon Labs CP2102 USB-UART [marking family]",
+          "kind": "part",
+          "bbox_xyxy_normalized": [
+            0.3466796875,
+            0.40661764705882353,
+            0.4111328125,
+            0.4502450980392157
+          ],
+          "identity_status": "reviewed_photo_marking_family_order_code_unconfirmed",
+          "source": {
+            "observed_refdes": "U2",
+            "observed_marking": "SILABS CP2102",
+            "evidence": "High-resolution source photo; complete ordering suffix unconfirmed Boundary and label reviewed on IMG_20261010_092149.jpg; same physical board as the registered source image."
+          }
+        },
+        {
+          "id": "IMG_20261010_092149.jpg:left-1",
+          "label": "3V3 [printed alias]",
+          "kind": "pin",
+          "bbox_xyxy_normalized": [
+            0.2898523509502411,
+            0.40142548084259033,
+            0.3033908009529114,
+            0.4117087721824646
+          ],
+          "identity_status": "reviewed_photo_contact_with_printed_alias",
+          "source": {
+            "printed_alias": "3V3",
+            "contact_side": "left",
+            "contact_index_from_top": 1,
+            "mapping_scope": "Literal silkscreen alias only; does not assert GPIO, net, header numbering or chip pin"
+          }
+        },
+        {
+          "id": "IMG_20261010_092149.jpg:left-2",
+          "label": "GND [printed alias]",
+          "kind": "pin",
+          "bbox_xyxy_normalized": [
+            0.28948864340782166,
+            0.4238467514514923,
+            0.3030431568622589,
+            0.43416038155555725
+          ],
+          "identity_status": "reviewed_photo_contact_with_printed_alias",
+          "source": {
+            "printed_alias": "GND",
+            "contact_side": "left",
+            "contact_index_from_top": 2,
+            "mapping_scope": "Literal silkscreen alias only; does not assert GPIO, net, header numbering or chip pin"
+          }
+        },
+        {
+          "id": "IMG_20261010_092149.jpg:left-3",
+          "label": "D15 [printed alias]",
+          "kind": "pin",
+          "bbox_xyxy_normalized": [
+            0.28912410140037537,
+            0.4463208019733429,
+            0.3026946783065796,
+            0.4566648602485657
+          ],
+          "identity_status": "reviewed_photo_contact_with_printed_alias",
+          "source": {
+            "printed_alias": "D15",
+            "contact_side": "left",
+            "contact_index_from_top": 3,
+            "mapping_scope": "Literal silkscreen alias only; does not assert GPIO, net, header numbering or chip pin"
+          }
+        },
+        {
+          "id": "IMG_20261010_092149.jpg:left-4",
+          "label": "D2 [printed alias]",
+          "kind": "pin",
+          "bbox_xyxy_normalized": [
+            0.2887587249279022,
+            0.4688478708267212,
+            0.3023453652858734,
+            0.4792224168777466
+          ],
+          "identity_status": "reviewed_photo_contact_with_printed_alias",
+          "source": {
+            "printed_alias": "D2",
+            "contact_side": "left",
+            "contact_index_from_top": 4,
+            "mapping_scope": "Literal silkscreen alias only; does not assert GPIO, net, header numbering or chip pin"
+          }
+        },
+        {
+          "id": "IMG_20261010_092149.jpg:left-5",
+          "label": "D4 [printed alias]",
+          "kind": "pin",
+          "bbox_xyxy_normalized": [
+            0.28839248418807983,
+            0.491428017616272,
+            0.30199524760246277,
+            0.5018332600593567
+          ],
+          "identity_status": "reviewed_photo_contact_with_printed_alias",
+          "source": {
+            "printed_alias": "D4",
+            "contact_side": "left",
+            "contact_index_from_top": 5,
+            "mapping_scope": "Literal silkscreen alias only; does not assert GPIO, net, header numbering or chip pin"
+          }
+        },
+        {
+          "id": "IMG_20261010_092149.jpg:left-6",
+          "label": "RX2 [printed alias]",
+          "kind": "pin",
+          "bbox_xyxy_normalized": [
+            0.2880253493785858,
+            0.5140615701675415,
+            0.30164429545402527,
+            0.5244975090026855
+          ],
+          "identity_status": "reviewed_photo_contact_with_printed_alias",
+          "source": {
+            "printed_alias": "RX2",
+            "contact_side": "left",
+            "contact_index_from_top": 6,
+            "mapping_scope": "Literal silkscreen alias only; does not assert GPIO, net, header numbering or chip pin"
+          }
+        },
+        {
+          "id": "IMG_20261010_092149.jpg:left-7",
+          "label": "TX2 [printed alias]",
+          "kind": "pin",
+          "bbox_xyxy_normalized": [
+            0.28765735030174255,
+            0.5367485284805298,
+            0.3012925088405609,
+            0.547215461730957
+          ],
+          "identity_status": "reviewed_photo_contact_with_printed_alias",
+          "source": {
+            "printed_alias": "TX2",
+            "contact_side": "left",
+            "contact_index_from_top": 7,
+            "mapping_scope": "Literal silkscreen alias only; does not assert GPIO, net, header numbering or chip pin"
+          }
+        },
+        {
+          "id": "IMG_20261010_092149.jpg:left-8",
+          "label": "D5 [printed alias]",
+          "kind": "pin",
+          "bbox_xyxy_normalized": [
+            0.28728851675987244,
+            0.5594894289970398,
+            0.3009398877620697,
+            0.5699872970581055
+          ],
+          "identity_status": "reviewed_photo_contact_with_printed_alias",
+          "source": {
+            "printed_alias": "D5",
+            "contact_side": "left",
+            "contact_index_from_top": 8,
+            "mapping_scope": "Literal silkscreen alias only; does not assert GPIO, net, header numbering or chip pin"
+          }
+        },
+        {
+          "id": "IMG_20261010_092149.jpg:left-9",
+          "label": "D18 [printed alias]",
+          "kind": "pin",
+          "bbox_xyxy_normalized": [
+            0.2869187593460083,
+            0.5822840929031372,
+            0.30058643221855164,
+            0.5928130745887756
+          ],
+          "identity_status": "reviewed_photo_contact_with_printed_alias",
+          "source": {
+            "printed_alias": "D18",
+            "contact_side": "left",
+            "contact_index_from_top": 9,
+            "mapping_scope": "Literal silkscreen alias only; does not assert GPIO, net, header numbering or chip pin"
+          }
+        },
+        {
+          "id": "IMG_20261010_092149.jpg:left-10",
+          "label": "D19 [printed alias]",
+          "kind": "pin",
+          "bbox_xyxy_normalized": [
+            0.2865481674671173,
+            0.6051328182220459,
+            0.3002321422100067,
+            0.6156931519508362
+          ],
+          "identity_status": "reviewed_photo_contact_with_printed_alias",
+          "source": {
+            "printed_alias": "D19",
+            "contact_side": "left",
+            "contact_index_from_top": 10,
+            "mapping_scope": "Literal silkscreen alias only; does not assert GPIO, net, header numbering or chip pin"
+          }
+        },
+        {
+          "id": "IMG_20261010_092149.jpg:left-11",
+          "label": "D21 [printed alias]",
+          "kind": "pin",
+          "bbox_xyxy_normalized": [
+            0.2861766517162323,
+            0.6280359029769897,
+            0.29987701773643494,
+            0.6386275887489319
+          ],
+          "identity_status": "reviewed_photo_contact_with_printed_alias",
+          "source": {
+            "printed_alias": "D21",
+            "contact_side": "left",
+            "contact_index_from_top": 11,
+            "mapping_scope": "Literal silkscreen alias only; does not assert GPIO, net, header numbering or chip pin"
+          }
+        },
+        {
+          "id": "IMG_20261010_092149.jpg:left-12",
+          "label": "RX0 [printed alias]",
+          "kind": "pin",
+          "bbox_xyxy_normalized": [
+            0.28580430150032043,
+            0.6509935855865479,
+            0.2995210587978363,
+            0.6616166830062866
+          ],
+          "identity_status": "reviewed_photo_contact_with_printed_alias",
+          "source": {
+            "printed_alias": "RX0",
+            "contact_side": "left",
+            "contact_index_from_top": 12,
+            "mapping_scope": "Literal silkscreen alias only; does not assert GPIO, net, header numbering or chip pin"
+          }
+        },
+        {
+          "id": "IMG_20261010_092149.jpg:left-13",
+          "label": "TX0 [printed alias]",
+          "kind": "pin",
+          "bbox_xyxy_normalized": [
+            0.28543102741241455,
+            0.6740058064460754,
+            0.29916420578956604,
+            0.6846604943275452
+          ],
+          "identity_status": "reviewed_photo_contact_with_printed_alias",
+          "source": {
+            "printed_alias": "TX0",
+            "contact_side": "left",
+            "contact_index_from_top": 13,
+            "mapping_scope": "Literal silkscreen alias only; does not assert GPIO, net, header numbering or chip pin"
+          }
+        },
+        {
+          "id": "IMG_20261010_092149.jpg:left-14",
+          "label": "D22 [printed alias]",
+          "kind": "pin",
+          "bbox_xyxy_normalized": [
+            0.28505685925483704,
+            0.6970728635787964,
+            0.2988065481185913,
+            0.7077593803405762
+          ],
+          "identity_status": "reviewed_photo_contact_with_printed_alias",
+          "source": {
+            "printed_alias": "D22",
+            "contact_side": "left",
+            "contact_index_from_top": 14,
+            "mapping_scope": "Literal silkscreen alias only; does not assert GPIO, net, header numbering or chip pin"
+          }
+        },
+        {
+          "id": "IMG_20261010_092149.jpg:left-15",
+          "label": "D23 [printed alias]",
+          "kind": "pin",
+          "bbox_xyxy_normalized": [
+            0.2846817970275879,
+            0.7201951146125793,
+            0.29844802618026733,
+            0.7309134006500244
+          ],
+          "identity_status": "reviewed_photo_contact_with_printed_alias",
+          "source": {
+            "printed_alias": "D23",
+            "contact_side": "left",
+            "contact_index_from_top": 15,
+            "mapping_scope": "Literal silkscreen alias only; does not assert GPIO, net, header numbering or chip pin"
+          }
+        },
+        {
+          "id": "IMG_20261010_092149.jpg:right-1",
+          "label": "VIN [printed alias]",
+          "kind": "pin",
+          "bbox_xyxy_normalized": [
+            0.5969310402870178,
+            0.4048832058906555,
+            0.6107453107833862,
+            0.4152342975139618
+          ],
+          "identity_status": "reviewed_photo_contact_with_printed_alias",
+          "source": {
+            "printed_alias": "VIN",
+            "contact_side": "right",
+            "contact_index_from_top": 1,
+            "mapping_scope": "Literal silkscreen alias only; does not assert GPIO, net, header numbering or chip pin"
+          }
+        },
+        {
+          "id": "IMG_20261010_092149.jpg:right-2",
+          "label": "GND [printed alias]",
+          "kind": "pin",
+          "bbox_xyxy_normalized": [
+            0.5967932343482971,
+            0.42833274602890015,
+            0.6106244325637817,
+            0.4387156665325165
+          ],
+          "identity_status": "reviewed_photo_contact_with_printed_alias",
+          "source": {
+            "printed_alias": "GND",
+            "contact_side": "right",
+            "contact_index_from_top": 2,
+            "mapping_scope": "Literal silkscreen alias only; does not assert GPIO, net, header numbering or chip pin"
+          }
+        },
+        {
+          "id": "IMG_20261010_092149.jpg:right-3",
+          "label": "D13 [printed alias]",
+          "kind": "pin",
+          "bbox_xyxy_normalized": [
+            0.5966550707817078,
+            0.4518398642539978,
+            0.6105031967163086,
+            0.4622547924518585
+          ],
+          "identity_status": "reviewed_photo_contact_with_printed_alias",
+          "source": {
+            "printed_alias": "D13",
+            "contact_side": "right",
+            "contact_index_from_top": 3,
+            "mapping_scope": "Literal silkscreen alias only; does not assert GPIO, net, header numbering or chip pin"
+          }
+        },
+        {
+          "id": "IMG_20261010_092149.jpg:right-4",
+          "label": "D12 [printed alias]",
+          "kind": "pin",
+          "bbox_xyxy_normalized": [
+            0.5965166687965393,
+            0.4754047989845276,
+            0.6103816628456116,
+            0.48585185408592224
+          ],
+          "identity_status": "reviewed_photo_contact_with_printed_alias",
+          "source": {
+            "printed_alias": "D12",
+            "contact_side": "right",
+            "contact_index_from_top": 4,
+            "mapping_scope": "Literal silkscreen alias only; does not assert GPIO, net, header numbering or chip pin"
+          }
+        },
+        {
+          "id": "IMG_20261010_092149.jpg:right-5",
+          "label": "D14 [printed alias]",
+          "kind": "pin",
+          "bbox_xyxy_normalized": [
+            0.5963777899742126,
+            0.4990277886390686,
+            0.6102598309516907,
+            0.5095070004463196
+          ],
+          "identity_status": "reviewed_photo_contact_with_printed_alias",
+          "source": {
+            "printed_alias": "D14",
+            "contact_side": "right",
+            "contact_index_from_top": 5,
+            "mapping_scope": "Literal silkscreen alias only; does not assert GPIO, net, header numbering or chip pin"
+          }
+        },
+        {
+          "id": "IMG_20261010_092149.jpg:right-6",
+          "label": "D27 [printed alias]",
+          "kind": "pin",
+          "bbox_xyxy_normalized": [
+            0.5962387323379517,
+            0.5227089524269104,
+            0.6101377606391907,
+            0.533220648765564
+          ],
+          "identity_status": "reviewed_photo_contact_with_printed_alias",
+          "source": {
+            "printed_alias": "D27",
+            "contact_side": "right",
+            "contact_index_from_top": 6,
+            "mapping_scope": "Literal silkscreen alias only; does not assert GPIO, net, header numbering or chip pin"
+          }
+        },
+        {
+          "id": "IMG_20261010_092149.jpg:right-7",
+          "label": "D26 [printed alias]",
+          "kind": "pin",
+          "bbox_xyxy_normalized": [
+            0.5960992574691772,
+            0.5464485883712769,
+            0.6100152730941772,
+            0.5569928288459778
+          ],
+          "identity_status": "reviewed_photo_contact_with_printed_alias",
+          "source": {
+            "printed_alias": "D26",
+            "contact_side": "right",
+            "contact_index_from_top": 7,
+            "mapping_scope": "Literal silkscreen alias only; does not assert GPIO, net, header numbering or chip pin"
+          }
+        },
+        {
+          "id": "IMG_20261010_092149.jpg:right-8",
+          "label": "D25 [printed alias]",
+          "kind": "pin",
+          "bbox_xyxy_normalized": [
+            0.5959593653678894,
+            0.5702468752861023,
+            0.6098925471305847,
+            0.5808237195014954
+          ],
+          "identity_status": "reviewed_photo_contact_with_printed_alias",
+          "source": {
+            "printed_alias": "D25",
+            "contact_side": "right",
+            "contact_index_from_top": 8,
+            "mapping_scope": "Literal silkscreen alias only; does not assert GPIO, net, header numbering or chip pin"
+          }
+        },
+        {
+          "id": "IMG_20261010_092149.jpg:right-9",
+          "label": "D33 [printed alias]",
+          "kind": "pin",
+          "bbox_xyxy_normalized": [
+            0.5958192348480225,
+            0.5941040515899658,
+            0.6097695231437683,
+            0.6047137975692749
+          ],
+          "identity_status": "reviewed_photo_contact_with_printed_alias",
+          "source": {
+            "printed_alias": "D33",
+            "contact_side": "right",
+            "contact_index_from_top": 9,
+            "mapping_scope": "Literal silkscreen alias only; does not assert GPIO, net, header numbering or chip pin"
+          }
+        },
+        {
+          "id": "IMG_20261010_092149.jpg:right-10",
+          "label": "D32 [printed alias]",
+          "kind": "pin",
+          "bbox_xyxy_normalized": [
+            0.5956787467002869,
+            0.6180204749107361,
+            0.6096461415290833,
+            0.6286628842353821
+          ],
+          "identity_status": "reviewed_photo_contact_with_printed_alias",
+          "source": {
+            "printed_alias": "D32",
+            "contact_side": "right",
+            "contact_index_from_top": 10,
+            "mapping_scope": "Literal silkscreen alias only; does not assert GPIO, net, header numbering or chip pin"
+          }
+        },
+        {
+          "id": "IMG_20261010_092149.jpg:right-11",
+          "label": "D35 [printed alias]",
+          "kind": "pin",
+          "bbox_xyxy_normalized": [
+            0.5955378413200378,
+            0.6419960856437683,
+            0.6095225214958191,
+            0.6526715755462646
+          ],
+          "identity_status": "reviewed_photo_contact_with_printed_alias",
+          "source": {
+            "printed_alias": "D35",
+            "contact_side": "right",
+            "contact_index_from_top": 11,
+            "mapping_scope": "Literal silkscreen alias only; does not assert GPIO, net, header numbering or chip pin"
+          }
+        },
+        {
+          "id": "IMG_20261010_092149.jpg:right-12",
+          "label": "D34 [printed alias]",
+          "kind": "pin",
+          "bbox_xyxy_normalized": [
+            0.5953966379165649,
+            0.6660312414169312,
+            0.609398603439331,
+            0.6767400503158569
+          ],
+          "identity_status": "reviewed_photo_contact_with_printed_alias",
+          "source": {
+            "printed_alias": "D34",
+            "contact_side": "right",
+            "contact_index_from_top": 12,
+            "mapping_scope": "Literal silkscreen alias only; does not assert GPIO, net, header numbering or chip pin"
+          }
+        },
+        {
+          "id": "IMG_20261010_092149.jpg:right-13",
+          "label": "VN [printed alias]",
+          "kind": "pin",
+          "bbox_xyxy_normalized": [
+            0.5952550768852234,
+            0.6901261806488037,
+            0.6092742681503296,
+            0.7008681893348694
+          ],
+          "identity_status": "reviewed_photo_contact_with_printed_alias",
+          "source": {
+            "printed_alias": "VN",
+            "contact_side": "right",
+            "contact_index_from_top": 13,
+            "mapping_scope": "Literal silkscreen alias only; does not assert GPIO, net, header numbering or chip pin"
+          }
+        },
+        {
+          "id": "IMG_20261010_092149.jpg:right-14",
+          "label": "VP [printed alias]",
+          "kind": "pin",
+          "bbox_xyxy_normalized": [
+            0.5951130986213684,
+            0.7142811417579651,
+            0.6091497540473938,
+            0.7250565886497498
+          ],
+          "identity_status": "reviewed_photo_contact_with_printed_alias",
+          "source": {
+            "printed_alias": "VP",
+            "contact_side": "right",
+            "contact_index_from_top": 14,
+            "mapping_scope": "Literal silkscreen alias only; does not assert GPIO, net, header numbering or chip pin"
+          }
+        },
+        {
+          "id": "IMG_20261010_092149.jpg:right-15",
+          "label": "EN [printed alias]",
+          "kind": "pin",
+          "bbox_xyxy_normalized": [
+            0.5949708819389343,
+            0.7384963035583496,
+            0.6090248823165894,
+            0.7493053078651428
+          ],
+          "identity_status": "reviewed_photo_contact_with_printed_alias",
+          "source": {
+            "printed_alias": "EN",
+            "contact_side": "right",
+            "contact_index_from_top": 15,
+            "mapping_scope": "Literal silkscreen alias only; does not assert GPIO, net, header numbering or chip pin"
+          }
+        },
+        {
+          "id": "IMG_20261010_092149.jpg:RF_MODULE",
+          "label": "ESP32 RF module [shielded module family; exact model unconfirmed]",
+          "kind": "part",
+          "bbox_xyxy_normalized": [
+            0.3251953125,
+            0.549264705882353,
+            0.556640625,
+            0.7973039215686275
+          ],
+          "identity_status": "reviewed_photo_module_family_order_code_unconfirmed",
+          "source": {
+            "observed_refdes": null,
+            "observed_marking": null,
+            "evidence": "Shielded radio module footprint and castellated perimeter are distinct in original pixels; ESP32 family is identified from the host board. Module model/order code is not sufficiently legible to assert. Boundary and label reviewed on IMG_20261010_092149.jpg; same physical board as the registered source image."
+          }
+        },
+        {
+          "id": "IMG_20261010_092149.jpg:USB",
+          "label": "Micro-USB receptacle [visual class]",
+          "kind": "part",
+          "bbox_xyxy_normalized": [
+            0.3929036458333333,
+            0.31813725490196076,
+            0.5104166666666666,
+            0.3681372549019608
+          ],
+          "identity_status": "reviewed_photo_component_visual_class_only",
+          "source": {
+            "observed_refdes": null,
+            "observed_marking": null,
+            "evidence": "Single metal Micro-USB receptacle is visible at the board edge; visual connector family only, no installed manufacturer part number asserted. Boundary and label reviewed on IMG_20261010_092149.jpg; same physical board as the registered source image."
+          }
+        },
+        {
+          "id": "IMG_20261010_092149.jpg:BOOT_SWITCH",
+          "label": "BOOT tactile switch [printed control label]",
+          "kind": "part",
+          "bbox_xyxy_normalized": [
+            0.3317057291666667,
+            0.3323529411764706,
+            0.3714192708333333,
+            0.36764705882352944
+          ],
+          "identity_status": "reviewed_photo_component_visual_class_only",
+          "source": {
+            "observed_refdes": null,
+            "observed_marking": "BOOT",
+            "evidence": "Tactile switch body immediately beside the printed BOOT label; no schematic reference designator or part number asserted. Boundary and label reviewed on IMG_20261010_092149.jpg; same physical board as the registered source image."
+          }
+        },
+        {
+          "id": "IMG_20261010_092149.jpg:EN_SWITCH",
+          "label": "EN tactile switch [printed control label]",
+          "kind": "part",
+          "bbox_xyxy_normalized": [
+            0.5270182291666666,
+            0.3360294117647059,
+            0.5670572916666666,
+            0.37107843137254903
+          ],
+          "identity_status": "reviewed_photo_component_visual_class_only",
+          "source": {
+            "observed_refdes": null,
+            "observed_marking": "EN",
+            "evidence": "Tactile switch body immediately beside the printed EN label; no schematic reference designator or part number asserted. Boundary and label reviewed on IMG_20261010_092149.jpg; same physical board as the registered source image."
+          }
+        }
+      ]
+    },
+    {
+      "id": "IMG_20261010_092153.jpg",
+      "class_id": 0,
+      "board": "ESP32 30-pin DevKit (variant unknown)",
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092153.jpg",
+      "image_sha256": "14b4208819a0e8f20bd75204cf7bdd8676f2a89fd3419412ab0f06b53d2c3854",
+      "board_bbox_xyxy_normalized": [
+        0.2567242383956909,
+        0.32100775837898254,
+        0.6041412353515625,
+        0.797084629535675
+      ],
+      "board_box_scope": "Reviewed board-body feature ROI; not a complete YOLO training annotation",
+      "source_reference": {
+        "photo_manifest": "data/phone-captures/2026-10-10/manifest.json",
+        "specimen_revision_status": "unverified"
+      },
+      "labels": [
+        {
+          "id": "IMG_20261010_092153.jpg:U2",
+          "label": "U2 — Silicon Labs CP2102 USB-UART [marking family]",
+          "kind": "part",
+          "bbox_xyxy_normalized": [
+            0.3271484375,
+            0.408578431372549,
+            0.3909505208333333,
+            0.45122549019607844
+          ],
+          "identity_status": "reviewed_photo_marking_family_order_code_unconfirmed",
+          "source": {
+            "observed_refdes": "U2",
+            "observed_marking": "SILABS CP2102",
+            "evidence": "High-resolution source photo; complete ordering suffix unconfirmed Boundary and label reviewed on IMG_20261010_092153.jpg; same physical board as the registered source image."
+          }
+        },
+        {
+          "id": "IMG_20261010_092153.jpg:left-1",
+          "label": "3V3 [printed alias]",
+          "kind": "pin",
+          "bbox_xyxy_normalized": [
+            0.2707589268684387,
+            0.4037047326564789,
+            0.28412124514579773,
+            0.4138156771659851
+          ],
+          "identity_status": "reviewed_photo_contact_with_printed_alias",
+          "source": {
+            "printed_alias": "3V3",
+            "contact_side": "left",
+            "contact_index_from_top": 1,
+            "mapping_scope": "Literal silkscreen alias only; does not assert GPIO, net, header numbering or chip pin"
+          }
+        },
+        {
+          "id": "IMG_20261010_092153.jpg:left-2",
+          "label": "GND [printed alias]",
+          "kind": "pin",
+          "bbox_xyxy_normalized": [
+            0.27049896121025085,
+            0.42586007714271545,
+            0.2838776409626007,
+            0.4360024333000183
+          ],
+          "identity_status": "reviewed_photo_contact_with_printed_alias",
+          "source": {
+            "printed_alias": "GND",
+            "contact_side": "left",
+            "contact_index_from_top": 2,
+            "mapping_scope": "Literal silkscreen alias only; does not assert GPIO, net, header numbering or chip pin"
+          }
+        },
+        {
+          "id": "IMG_20261010_092153.jpg:left-3",
+          "label": "D15 [printed alias]",
+          "kind": "pin",
+          "bbox_xyxy_normalized": [
+            0.27023839950561523,
+            0.4480701684951782,
+            0.28363341093063354,
+            0.45824411511421204
+          ],
+          "identity_status": "reviewed_photo_contact_with_printed_alias",
+          "source": {
+            "printed_alias": "D15",
+            "contact_side": "left",
+            "contact_index_from_top": 3,
+            "mapping_scope": "Literal silkscreen alias only; does not assert GPIO, net, header numbering or chip pin"
+          }
+        },
+        {
+          "id": "IMG_20261010_092153.jpg:left-4",
+          "label": "D2 [printed alias]",
+          "kind": "pin",
+          "bbox_xyxy_normalized": [
+            0.2699771821498871,
+            0.47033533453941345,
+            0.28338852524757385,
+            0.4805409014225006
+          ],
+          "identity_status": "reviewed_photo_contact_with_printed_alias",
+          "source": {
+            "printed_alias": "D2",
+            "contact_side": "left",
+            "contact_index_from_top": 4,
+            "mapping_scope": "Literal silkscreen alias only; does not assert GPIO, net, header numbering or chip pin"
+          }
+        },
+        {
+          "id": "IMG_20261010_092153.jpg:left-5",
+          "label": "D4 [printed alias]",
+          "kind": "pin",
+          "bbox_xyxy_normalized": [
+            0.2697153091430664,
+            0.4926556646823883,
+            0.2831430733203888,
+            0.5028930902481079
+          ],
+          "identity_status": "reviewed_photo_contact_with_printed_alias",
+          "source": {
+            "printed_alias": "D4",
+            "contact_side": "left",
+            "contact_index_from_top": 5,
+            "mapping_scope": "Literal silkscreen alias only; does not assert GPIO, net, header numbering or chip pin"
+          }
+        },
+        {
+          "id": "IMG_20261010_092153.jpg:left-6",
+          "label": "RX2 [printed alias]",
+          "kind": "pin",
+          "bbox_xyxy_normalized": [
+            0.2694527804851532,
+            0.5150314569473267,
+            0.282897025346756,
+            0.5253007411956787
+          ],
+          "identity_status": "reviewed_photo_contact_with_printed_alias",
+          "source": {
+            "printed_alias": "RX2",
+            "contact_side": "left",
+            "contact_index_from_top": 6,
+            "mapping_scope": "Literal silkscreen alias only; does not assert GPIO, net, header numbering or chip pin"
+          }
+        },
+        {
+          "id": "IMG_20261010_092153.jpg:left-7",
+          "label": "TX2 [printed alias]",
+          "kind": "pin",
+          "bbox_xyxy_normalized": [
+            0.26918962597846985,
+            0.5374627709388733,
+            0.282650351524353,
+            0.547764241695404
+          ],
+          "identity_status": "reviewed_photo_contact_with_printed_alias",
+          "source": {
+            "printed_alias": "TX2",
+            "contact_side": "left",
+            "contact_index_from_top": 7,
+            "mapping_scope": "Literal silkscreen alias only; does not assert GPIO, net, header numbering or chip pin"
+          }
+        },
+        {
+          "id": "IMG_20261010_092153.jpg:left-8",
+          "label": "D5 [printed alias]",
+          "kind": "pin",
+          "bbox_xyxy_normalized": [
+            0.26892581582069397,
+            0.5599501132965088,
+            0.2824030816555023,
+            0.5702837109565735
+          ],
+          "identity_status": "reviewed_photo_contact_with_printed_alias",
+          "source": {
+            "printed_alias": "D5",
+            "contact_side": "left",
+            "contact_index_from_top": 8,
+            "mapping_scope": "Literal silkscreen alias only; does not assert GPIO, net, header numbering or chip pin"
+          }
+        },
+        {
+          "id": "IMG_20261010_092153.jpg:left-9",
+          "label": "D18 [printed alias]",
+          "kind": "pin",
+          "bbox_xyxy_normalized": [
+            0.2686612904071808,
+            0.5824933052062988,
+            0.2821551561355591,
+            0.5928592681884766
+          ],
+          "identity_status": "reviewed_photo_contact_with_printed_alias",
+          "source": {
+            "printed_alias": "D18",
+            "contact_side": "left",
+            "contact_index_from_top": 9,
+            "mapping_scope": "Literal silkscreen alias only; does not assert GPIO, net, header numbering or chip pin"
+          }
+        },
+        {
+          "id": "IMG_20261010_092153.jpg:left-10",
+          "label": "D19 [printed alias]",
+          "kind": "pin",
+          "bbox_xyxy_normalized": [
+            0.26839616894721985,
+            0.6050928235054016,
+            0.2819066345691681,
+            0.6154913306236267
+          ],
+          "identity_status": "reviewed_photo_contact_with_printed_alias",
+          "source": {
+            "printed_alias": "D19",
+            "contact_side": "left",
+            "contact_index_from_top": 10,
+            "mapping_scope": "Literal silkscreen alias only; does not assert GPIO, net, header numbering or chip pin"
+          }
+        },
+        {
+          "id": "IMG_20261010_092153.jpg:left-11",
+          "label": "D21 [printed alias]",
+          "kind": "pin",
+          "bbox_xyxy_normalized": [
+            0.2681303322315216,
+            0.6277487874031067,
+            0.28165748715400696,
+            0.6381798386573792
+          ],
+          "identity_status": "reviewed_photo_contact_with_printed_alias",
+          "source": {
+            "printed_alias": "D21",
+            "contact_side": "left",
+            "contact_index_from_top": 11,
+            "mapping_scope": "Literal silkscreen alias only; does not assert GPIO, net, header numbering or chip pin"
+          }
+        },
+        {
+          "id": "IMG_20261010_092153.jpg:left-12",
+          "label": "RX0 [printed alias]",
+          "kind": "pin",
+          "bbox_xyxy_normalized": [
+            0.2678638994693756,
+            0.6504615545272827,
+            0.2814077138900757,
+            0.6609252095222473
+          ],
+          "identity_status": "reviewed_photo_contact_with_printed_alias",
+          "source": {
+            "printed_alias": "RX0",
+            "contact_side": "left",
+            "contact_index_from_top": 12,
+            "mapping_scope": "Literal silkscreen alias only; does not assert GPIO, net, header numbering or chip pin"
+          }
+        },
+        {
+          "id": "IMG_20261010_092153.jpg:left-13",
+          "label": "TX0 [printed alias]",
+          "kind": "pin",
+          "bbox_xyxy_normalized": [
+            0.2675967216491699,
+            0.6732311248779297,
+            0.2811572849750519,
+            0.6837276220321655
+          ],
+          "identity_status": "reviewed_photo_contact_with_printed_alias",
+          "source": {
+            "printed_alias": "TX0",
+            "contact_side": "left",
+            "contact_index_from_top": 13,
+            "mapping_scope": "Literal silkscreen alias only; does not assert GPIO, net, header numbering or chip pin"
+          }
+        },
+        {
+          "id": "IMG_20261010_092153.jpg:left-14",
+          "label": "D22 [printed alias]",
+          "kind": "pin",
+          "bbox_xyxy_normalized": [
+            0.2673289179801941,
+            0.6960577368736267,
+            0.2809062898159027,
+            0.7065872550010681
+          ],
+          "identity_status": "reviewed_photo_contact_with_printed_alias",
+          "source": {
+            "printed_alias": "D22",
+            "contact_side": "left",
+            "contact_index_from_top": 14,
+            "mapping_scope": "Literal silkscreen alias only; does not assert GPIO, net, header numbering or chip pin"
+          }
+        },
+        {
+          "id": "IMG_20261010_092153.jpg:left-15",
+          "label": "D23 [printed alias]",
+          "kind": "pin",
+          "bbox_xyxy_normalized": [
+            0.26706042885780334,
+            0.7189417481422424,
+            0.280654639005661,
+            0.7295043468475342
+          ],
+          "identity_status": "reviewed_photo_contact_with_printed_alias",
+          "source": {
+            "printed_alias": "D23",
+            "contact_side": "left",
+            "contact_index_from_top": 15,
+            "mapping_scope": "Literal silkscreen alias only; does not assert GPIO, net, header numbering or chip pin"
+          }
+        },
+        {
+          "id": "IMG_20261010_092153.jpg:right-1",
+          "label": "VIN [printed alias]",
+          "kind": "pin",
+          "bbox_xyxy_normalized": [
+            0.5742282867431641,
+            0.40599170327186584,
+            0.5879403352737427,
+            0.4161719083786011
+          ],
+          "identity_status": "reviewed_photo_contact_with_printed_alias",
+          "source": {
+            "printed_alias": "VIN",
+            "contact_side": "right",
+            "contact_index_from_top": 1,
+            "mapping_scope": "Literal silkscreen alias only; does not assert GPIO, net, header numbering or chip pin"
+          }
+        },
+        {
+          "id": "IMG_20261010_092153.jpg:right-2",
+          "label": "GND [printed alias]",
+          "kind": "pin",
+          "bbox_xyxy_normalized": [
+            0.5742148756980896,
+            0.42917031049728394,
+            0.5879446864128113,
+            0.4393835663795471
+          ],
+          "identity_status": "reviewed_photo_contact_with_printed_alias",
+          "source": {
+            "printed_alias": "GND",
+            "contact_side": "right",
+            "contact_index_from_top": 2,
+            "mapping_scope": "Literal silkscreen alias only; does not assert GPIO, net, header numbering or chip pin"
+          }
+        },
+        {
+          "id": "IMG_20261010_092153.jpg:right-3",
+          "label": "D13 [printed alias]",
+          "kind": "pin",
+          "bbox_xyxy_normalized": [
+            0.5742014050483704,
+            0.45240873098373413,
+            0.5879489779472351,
+            0.4626552164554596
+          ],
+          "identity_status": "reviewed_photo_contact_with_printed_alias",
+          "source": {
+            "printed_alias": "D13",
+            "contact_side": "right",
+            "contact_index_from_top": 3,
+            "mapping_scope": "Literal silkscreen alias only; does not assert GPIO, net, header numbering or chip pin"
+          }
+        },
+        {
+          "id": "IMG_20261010_092153.jpg:right-4",
+          "label": "D12 [printed alias]",
+          "kind": "pin",
+          "bbox_xyxy_normalized": [
+            0.5741879343986511,
+            0.4757072627544403,
+            0.5879532098770142,
+            0.4859870672225952
+          ],
+          "identity_status": "reviewed_photo_contact_with_printed_alias",
+          "source": {
+            "printed_alias": "D12",
+            "contact_side": "right",
+            "contact_index_from_top": 4,
+            "mapping_scope": "Literal silkscreen alias only; does not assert GPIO, net, header numbering or chip pin"
+          }
+        },
+        {
+          "id": "IMG_20261010_092153.jpg:right-5",
+          "label": "D14 [printed alias]",
+          "kind": "pin",
+          "bbox_xyxy_normalized": [
+            0.5741743445396423,
+            0.4990661144256592,
+            0.587957501411438,
+            0.5093793869018555
+          ],
+          "identity_status": "reviewed_photo_contact_with_printed_alias",
+          "source": {
+            "printed_alias": "D14",
+            "contact_side": "right",
+            "contact_index_from_top": 5,
+            "mapping_scope": "Literal silkscreen alias only; does not assert GPIO, net, header numbering or chip pin"
+          }
+        },
+        {
+          "id": "IMG_20261010_092153.jpg:right-6",
+          "label": "D27 [printed alias]",
+          "kind": "pin",
+          "bbox_xyxy_normalized": [
+            0.5741608738899231,
+            0.5224854946136475,
+            0.5879618525505066,
+            0.5328324437141418
+          ],
+          "identity_status": "reviewed_photo_contact_with_printed_alias",
+          "source": {
+            "printed_alias": "D27",
+            "contact_side": "right",
+            "contact_index_from_top": 6,
+            "mapping_scope": "Literal silkscreen alias only; does not assert GPIO, net, header numbering or chip pin"
+          }
+        },
+        {
+          "id": "IMG_20261010_092153.jpg:right-7",
+          "label": "D26 [printed alias]",
+          "kind": "pin",
+          "bbox_xyxy_normalized": [
+            0.5741472840309143,
+            0.5459656119346619,
+            0.5879661440849304,
+            0.5563464760780334
+          ],
+          "identity_status": "reviewed_photo_contact_with_printed_alias",
+          "source": {
+            "printed_alias": "D26",
+            "contact_side": "right",
+            "contact_index_from_top": 7,
+            "mapping_scope": "Literal silkscreen alias only; does not assert GPIO, net, header numbering or chip pin"
+          }
+        },
+        {
+          "id": "IMG_20261010_092153.jpg:right-8",
+          "label": "D25 [printed alias]",
+          "kind": "pin",
+          "bbox_xyxy_normalized": [
+            0.5741336345672607,
+            0.569506824016571,
+            0.5879705548286438,
+            0.5799214839935303
+          ],
+          "identity_status": "reviewed_photo_contact_with_printed_alias",
+          "source": {
+            "printed_alias": "D25",
+            "contact_side": "right",
+            "contact_index_from_top": 8,
+            "mapping_scope": "Literal silkscreen alias only; does not assert GPIO, net, header numbering or chip pin"
+          }
+        },
+        {
+          "id": "IMG_20261010_092153.jpg:right-9",
+          "label": "D33 [printed alias]",
+          "kind": "pin",
+          "bbox_xyxy_normalized": [
+            0.5741199851036072,
+            0.5931092500686646,
+            0.5879748463630676,
+            0.6035580039024353
+          ],
+          "identity_status": "reviewed_photo_contact_with_printed_alias",
+          "source": {
+            "printed_alias": "D33",
+            "contact_side": "right",
+            "contact_index_from_top": 9,
+            "mapping_scope": "Literal silkscreen alias only; does not assert GPIO, net, header numbering or chip pin"
+          }
+        },
+        {
+          "id": "IMG_20261010_092153.jpg:right-10",
+          "label": "D32 [printed alias]",
+          "kind": "pin",
+          "bbox_xyxy_normalized": [
+            0.5741062760353088,
+            0.616773247718811,
+            0.5879791975021362,
+            0.6272560954093933
+          ],
+          "identity_status": "reviewed_photo_contact_with_printed_alias",
+          "source": {
+            "printed_alias": "D32",
+            "contact_side": "right",
+            "contact_index_from_top": 10,
+            "mapping_scope": "Literal silkscreen alias only; does not assert GPIO, net, header numbering or chip pin"
+          }
+        },
+        {
+          "id": "IMG_20261010_092153.jpg:right-11",
+          "label": "D35 [printed alias]",
+          "kind": "pin",
+          "bbox_xyxy_normalized": [
+            0.5740925073623657,
+            0.6404989361763,
+            0.5879835486412048,
+            0.6510161757469177
+          ],
+          "identity_status": "reviewed_photo_contact_with_printed_alias",
+          "source": {
+            "printed_alias": "D35",
+            "contact_side": "right",
+            "contact_index_from_top": 11,
+            "mapping_scope": "Literal silkscreen alias only; does not assert GPIO, net, header numbering or chip pin"
+          }
+        },
+        {
+          "id": "IMG_20261010_092153.jpg:right-12",
+          "label": "D34 [printed alias]",
+          "kind": "pin",
+          "bbox_xyxy_normalized": [
+            0.5740787982940674,
+            0.6642866134643555,
+            0.5879879593849182,
+            0.6748383641242981
+          ],
+          "identity_status": "reviewed_photo_contact_with_printed_alias",
+          "source": {
+            "printed_alias": "D34",
+            "contact_side": "right",
+            "contact_index_from_top": 12,
+            "mapping_scope": "Literal silkscreen alias only; does not assert GPIO, net, header numbering or chip pin"
+          }
+        },
+        {
+          "id": "IMG_20261010_092153.jpg:right-13",
+          "label": "VN [printed alias]",
+          "kind": "pin",
+          "bbox_xyxy_normalized": [
+            0.5740650296211243,
+            0.6881364583969116,
+            0.5879923701286316,
+            0.698722779750824
+          ],
+          "identity_status": "reviewed_photo_contact_with_printed_alias",
+          "source": {
+            "printed_alias": "VN",
+            "contact_side": "right",
+            "contact_index_from_top": 13,
+            "mapping_scope": "Literal silkscreen alias only; does not assert GPIO, net, header numbering or chip pin"
+          }
+        },
+        {
+          "id": "IMG_20261010_092153.jpg:right-14",
+          "label": "VP [printed alias]",
+          "kind": "pin",
+          "bbox_xyxy_normalized": [
+            0.5740511417388916,
+            0.7120488882064819,
+            0.587996780872345,
+            0.7226700186729431
+          ],
+          "identity_status": "reviewed_photo_contact_with_printed_alias",
+          "source": {
+            "printed_alias": "VP",
+            "contact_side": "right",
+            "contact_index_from_top": 14,
+            "mapping_scope": "Literal silkscreen alias only; does not assert GPIO, net, header numbering or chip pin"
+          }
+        },
+        {
+          "id": "IMG_20261010_092153.jpg:right-15",
+          "label": "EN [printed alias]",
+          "kind": "pin",
+          "bbox_xyxy_normalized": [
+            0.5740372538566589,
+            0.7360239028930664,
+            0.5880011916160583,
+            0.746679961681366
+          ],
+          "identity_status": "reviewed_photo_contact_with_printed_alias",
+          "source": {
+            "printed_alias": "EN",
+            "contact_side": "right",
+            "contact_index_from_top": 15,
+            "mapping_scope": "Literal silkscreen alias only; does not assert GPIO, net, header numbering or chip pin"
+          }
+        },
+        {
+          "id": "IMG_20261010_092153.jpg:RF_MODULE",
+          "label": "ESP32 RF module [shielded module family; exact model unconfirmed]",
+          "kind": "part",
+          "bbox_xyxy_normalized": [
+            0.3076171875,
+            0.5495098039215687,
+            0.5364583333333334,
+            0.7943627450980392
+          ],
+          "identity_status": "reviewed_photo_module_family_order_code_unconfirmed",
+          "source": {
+            "observed_refdes": null,
+            "observed_marking": null,
+            "evidence": "Shielded radio module footprint and castellated perimeter are distinct in original pixels; ESP32 family is identified from the host board. Module model/order code is not sufficiently legible to assert. Boundary and label reviewed on IMG_20261010_092153.jpg; same physical board as the registered source image."
+          }
+        },
+        {
+          "id": "IMG_20261010_092153.jpg:USB",
+          "label": "Micro-USB receptacle [visual class]",
+          "kind": "part",
+          "bbox_xyxy_normalized": [
+            0.3727213541666667,
+            0.32107843137254904,
+            0.4886067708333333,
+            0.3700980392156863
+          ],
+          "identity_status": "reviewed_photo_component_visual_class_only",
+          "source": {
+            "observed_refdes": null,
+            "observed_marking": null,
+            "evidence": "Single metal Micro-USB receptacle is visible at the board edge; visual connector family only, no installed manufacturer part number asserted. Boundary and label reviewed on IMG_20261010_092153.jpg; same physical board as the registered source image."
+          }
+        },
+        {
+          "id": "IMG_20261010_092153.jpg:BOOT_SWITCH",
+          "label": "BOOT tactile switch [printed control label]",
+          "kind": "part",
+          "bbox_xyxy_normalized": [
+            0.3121744791666667,
+            0.3352941176470588,
+            0.3512369791666667,
+            0.3698529411764706
+          ],
+          "identity_status": "reviewed_photo_component_visual_class_only",
+          "source": {
+            "observed_refdes": null,
+            "observed_marking": "BOOT",
+            "evidence": "Tactile switch body immediately beside the printed BOOT label; no schematic reference designator or part number asserted. Boundary and label reviewed on IMG_20261010_092153.jpg; same physical board as the registered source image."
+          }
+        },
+        {
+          "id": "IMG_20261010_092153.jpg:EN_SWITCH",
+          "label": "EN tactile switch [printed control label]",
+          "kind": "part",
+          "bbox_xyxy_normalized": [
+            0.5048828125,
+            0.3382352941176471,
+            0.5442708333333334,
+            0.37254901960784315
+          ],
+          "identity_status": "reviewed_photo_component_visual_class_only",
+          "source": {
+            "observed_refdes": null,
+            "observed_marking": "EN",
+            "evidence": "Tactile switch body immediately beside the printed EN label; no schematic reference designator or part number asserted. Boundary and label reviewed on IMG_20261010_092153.jpg; same physical board as the registered source image."
+          }
+        }
+      ]
     }
   ]
 }

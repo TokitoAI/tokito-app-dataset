@@ -46,13 +46,76 @@ def validate(manifest):
     return sorted(set(errors))
 
 
+def validate_loader_inputs(manifest, data, data_file):
+    """Bind the actual YOLO dataset to the reviewed manifest before any training."""
+    errors = []
+    root = Path(data.get('path', data_file.parent)).expanduser()
+    if not root.is_absolute():
+        errors.append('Dataset path must be absolute to avoid Ultralytics datasets_dir rebasing.')
+        root = data_file.parent / root
+    root = root.resolve()
+    suffixes = {'.bmp', '.dng', '.jpeg', '.jpg', '.mpo', '.png', '.tif',
+                '.tiff', '.webp', '.pfm', '.heic'}
+    for split in ('train', 'val', 'test'):
+        entries = data.get(split)
+        if not entries:
+            errors.append('Dataset YAML missing explicit ' + split + ' input.')
+            continue
+        entries = entries if isinstance(entries, list) else [entries]
+        actual = set()
+        for entry in entries:
+            path = Path(entry)
+            path = path if path.is_absolute() else root / path
+            path = path.resolve()
+            if path.is_dir():
+                actual.update(p.resolve() for p in path.rglob('*')
+                              if p.is_file() and p.suffix.lower() in suffixes)
+            elif path.is_file() and path.suffix.lower() == '.txt':
+                for line in path.read_text(encoding='utf-8').splitlines():
+                    line = line.strip()
+                    if not line:
+                        continue
+                    item = Path(line)
+                    if not item.is_absolute():
+                        if not line.startswith('./'):
+                            errors.append('Image list relative paths must begin ./: ' + line)
+                            continue
+                        item = path.parent / item
+                    actual.add(item.resolve())
+            else:
+                errors.append('Unsupported or missing dataset input: ' + str(path))
+        expected = {Path(r['image_path']).resolve() for r in manifest.get('images', [])
+                    if r.get('split') == split and r.get('image_path')}
+        if actual != expected:
+            errors.append('Dataset ' + split + ' differs from reviewed manifest: '
+                          + str(len(actual - expected)) + ' unreviewed, '
+                          + str(len(expected - actual)) + ' missing images.')
+    for row in manifest.get('images', []):
+        image = Path(row.get('image_path', '')).resolve()
+        # Ultralytics replaces the final /images/ path segment with /labels/.
+        value = image.as_posix()
+        if '/images/' not in value:
+            errors.append('Image lacks conventional /images/ label mapping: ' + value)
+            continue
+        prefix, tail = value.rsplit('/images/', 1)
+        loaded_label = Path(prefix + '/labels/' + tail).with_suffix('.txt').resolve()
+        if loaded_label != Path(row.get('label_path', '')).resolve():
+            errors.append('YOLO label mapping differs from reviewed label: ' + value)
+    if data.get('download'):
+        errors.append('Dataset download hooks are prohibited for a reviewed export.')
+    return sorted(set(errors))
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--manifest', type=Path, required=True)
     parser.add_argument('--data', type=Path, required=True)
     parser.add_argument('--run', action='store_true')
     args = parser.parse_args()
-    errors = validate(json.loads(args.manifest.read_text(encoding='utf-8')))
+    import yaml
+    manifest = json.loads(args.manifest.read_text(encoding='utf-8'))
+    data = yaml.safe_load(args.data.read_text(encoding='utf-8'))
+    errors = validate(manifest) + validate_loader_inputs(manifest, data, args.data.resolve())
     print(json.dumps({'ready': not errors, 'errors': errors}, indent=2))
     if errors:
         raise SystemExit(2)
@@ -71,7 +134,7 @@ def main():
         cos_lr=True, warmup_epochs=3, close_mosaic=20, seed=42,
         deterministic=True, cache=False, amp=True, freeze=0,
         fliplr=0, flipud=0, degrees=180, save=True, save_period=25,
-        project=str(Path(__file__).parent / 'runs'), name='reviewed-medium-seg',
+        project=str(Path(__file__).resolve().parents[1] / 'work/training-runs'), name='reviewed-medium-seg',
         exist_ok=False)
     best = Path(result.save_dir) / 'weights' / 'best.pt'
     validation = YOLO(str(best)).val(data=str(args.data.resolve()), split='test', device=0)

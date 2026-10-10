@@ -1,0 +1,82 @@
+{
+  "schema_version": "1.0",
+  "physical_specimen_id": "bench-esp32-01",
+  "capture_session_id": "bench-esp32-01:20261010_132302",
+  "board_family": "esp32_devkit_30pin_unknown_variant",
+  "source_image_path": "data/video-captures/2026-10-10/esp32-keyframes/video_20261010_132302_n000000_pts00000000ms.jpg",
+  "source_image_sha256": "11ed65f09c691c0dcb861ccc6eaaca5dee12888595175a6a2e64cb15b55ea57c",
+  "source_crop_xyxy_pixels": [
+    570,
+    875,
+    835,
+    1105
+  ],
+  "image_path": "data/video-captures/2026-10-10/esp32-keyframes/U2-body-isolated-roi.jpg",
+  "image_sha256": "82c5cd23c8edc8595ef7aee64ca57f1228ed5b7db0c2902d4aad5ec7be9ca3a7",
+  "image_width": 265,
+  "image_height": 230,
+  "coordinate_frame": "cropped_upright_saved_image_pixels",
+  "coverage": "complete_visible_IC_package_bodies_within_declared_ROI",
+  "class_scope": [
+    "integrated_circuit"
+  ],
+  "excluded_feature_scope": [
+    "electrical_leads",
+    "solder",
+    "silkscreen",
+    "bare_PCB"
+  ],
+  "masks": [
+    {
+      "instance_id": "bench-esp32-01:U2",
+      "class_name": "integrated_circuit",
+      "polygon_xy_pixels": [
+        [
+          55,
+          33
+        ],
+        [
+          222,
+          34
+        ],
+        [
+          230,
+          194
+        ],
+        [
+          69,
+          201
+        ]
+      ],
+      "observed_reference_designator": "U2",
+      "observed_marking": "SILABS / CP2102",
+      "exact_part_name": null,
+      "installed_order_code_confirmed": false,
+      "boundary_scope": "visible_body_excluding_leads_contacts_and_solder",
+      "boundary_uncertainty_pixels": 7,
+      "identity_status": "family_marking_reviewed_in_same_specimen_photo",
+      "observed_part_family": "CP2102",
+      "identity_evidence": {
+        "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092153_1.jpg",
+        "image_sha256": "6082fb093ff363d69de7949cf2ebdad4bc2315e6e2b93899d4dc41824e4d17cd",
+        "source_crop_xyxy_pixels": [
+          175,
+          310,
+          430,
+          565
+        ],
+        "display_rotation_degrees": 180,
+        "crop_path": "data/video-captures/2026-10-10/esp32-keyframes/U2-marking-review.png",
+        "same_specimen_association": "same_bench_specimen_assumed_for_leakage_control",
+        "unreadable_fields": [
+          "full_ordering_suffix",
+          "lot_or_date_code"
+        ]
+      }
+    }
+  ],
+  "training_export_eligible": false,
+  "production_eligible": false,
+  "evaluation_scope": "same_specimen_crop_only_no_independent_board_or_pose_validation",
+  "notes": "Exhaustive only for package-body class within this declared ROI. Does not establish exhaustive source-frame or all-board coverage, exact order suffix, pin mapping, calibration or release readiness."
+}

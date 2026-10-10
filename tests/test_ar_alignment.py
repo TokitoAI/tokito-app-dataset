@@ -16,6 +16,49 @@ from render_ar_multiview import camera, load_triangles, rasterize
 
 
 class AlignmentContracts(unittest.TestCase):
+    def test_unreviewed_nxp_bottom_view_is_preserved_without_training_negatives(self):
+        manifest = read(ROOT/'data/ar-alignment/manifest.json')
+        path = 'data/phone-captures/2026-10-10/IMG_20261010_192033.jpg'
+        image = next(row for row in manifest['images'] if row['image_path'] == path)
+        self.assertEqual(image['component_coverage'], 'unreviewed')
+        self.assertEqual(image['instances'], [])
+        self.assertEqual(image['calibration_landmarks'], [])
+        self.assertEqual(image['view_metadata']['view_slot'], 'bottom')
+        self.assertIsNone(image['view_metadata']['camera_calibration_id'])
+        self.assertEqual(manifest['multiview_coverage']['reviewed_real_view_count'], 6)
+        self.assertEqual(manifest['multiview_coverage']['specimens_with_all_required_real_views'], 0)
+
+    def test_nxp_source_candidate_masks_attach_to_existing_photo_record(self):
+        manifest = read(ROOT/'data/ar-alignment/manifest.json')
+        path = 'data/photo-model/photos/raw/IMG_20261009_221755_1.jpg'
+        matches = [row for row in manifest['images'] if row['image_path'] == path]
+        self.assertEqual(len(matches), 1)
+        image = matches[0]
+        instances = {item['instance_id']: item for item in image['instances']}
+        for ref, part_number in [('U1', 'MCXN236VDFT'), ('U8', 'LPC55S69JEV98'), ('U12', 'W25Q64JVSSIQ')]:
+            instance = instances[f'IMG_20261009_221755_1.jpg:{ref}']
+            self.assertIn(part_number, instance['observed_label'])
+            self.assertIsNotNone(instance['visible_body_polygon_xy_normalized'])
+            self.assertEqual(instance['cad_binding']['mapping_status'], 'source_candidate_photographed_revision_unverified')
+            self.assertFalse(instance['cad_binding']['installed_order_code_confirmed'])
+
+    def test_esp32_photo_masks_keep_unmapped_parts_separate_from_verified_u2(self):
+        manifest = read(ROOT/'data/ar-alignment/manifest.json')
+        path = 'data/phone-captures/2026-10-10/IMG_20261010_092144.jpg'
+        image = next(row for row in manifest['images'] if row['image_path'] == path)
+        instances = {item['instance_id']: item for item in image['instances']}
+        u2 = instances['IMG_20261010_092144.jpg:U2']
+        self.assertEqual(u2['class_name'], 'integrated_circuit')
+        self.assertIsNotNone(u2['visible_body_polygon_xy_normalized'])
+        self.assertEqual(u2['observed_reference_designator'], 'U2')
+        for suffix, class_name in [('RF_MODULE','rf_module'),('USB','usb_connector'),
+                                   ('BOOT_SWITCH','switch'),('EN_SWITCH','switch')]:
+            instance = instances[f'IMG_20261010_092144.jpg:{suffix}']
+            self.assertEqual(instance['class_name'], class_name)
+            self.assertIsNotNone(instance['visible_body_polygon_xy_normalized'])
+            self.assertIsNone(instance['observed_reference_designator'])
+            self.assertIsNone(instance['cad_binding'])
+
     def test_swapping_hole_identities_cannot_silently_change_calibration(self):
         row = next(t for t in read(ROOT/'data/phone-captures/2026-10-10/reviewed-scan-references.json')['templates'] if t['class_id'] == 3)
         components = {c['reference']: c for c in read(AR/'component-map.json')['components']}
@@ -39,6 +82,25 @@ class AlignmentContracts(unittest.TestCase):
             mask['image_height'] = 8
             with self.assertRaisesRegex(ValueError, 'dimensions do not match'):
                 reviewed_polygon(mask, label, row)
+
+    def test_nxp_usb_masks_keep_revision_candidate_links_cautious(self):
+        image = 'data/phone-captures/2026-10-10/IMG_20261010_092203.jpg'
+        template = next(t for t in read(ROOT/'data/phone-captures/2026-10-10/reviewed-scan-references.json')['templates']
+                        if t['image_path'] == image)
+        mask_rows = {m['instance_id']: m for m in read(ROOT/'annotations/ar-instance-masks.json')['masks']}
+        labels = {row['id']: row for row in template['labels']}
+        for ref in ('J10', 'J11'):
+            identifier = f'IMG_20261010_092203.jpg:{ref}'
+            mask, label = mask_rows[identifier], labels[identifier]
+            self.assertEqual(mask['class_name'], 'usb_connector')
+            self.assertEqual(mask['source_component_id'], f'nxp-frdm-mcxn236:C:{ref}')
+            self.assertEqual(mask['source_mapping_status'], 'source_candidate_photographed_revision_unverified')
+            self.assertFalse(mask['installed_order_code_confirmed'])
+            polygon = [[x / mask['image_width'], y / mask['image_height']]
+                       for x, y in mask['polygon_xy_pixels']]
+            self.assertEqual(len(polygon), 12)
+            x1, y1, x2, y2 = label['bbox_xyxy_normalized']
+            self.assertTrue(all(x1 <= x <= x2 and y1 <= y <= y2 for x, y in polygon))
 
     def test_shared_mesh_is_rejected_for_independent_highlighting(self):
         document = {'nodes': [

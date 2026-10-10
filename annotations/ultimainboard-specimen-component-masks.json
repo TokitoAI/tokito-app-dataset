@@ -1,0 +1,129 @@
+{
+  "schema_version": "1.0",
+  "board_family": "ultimainboard_2_1_4",
+  "coordinate_frame": "exif_upright_original_image_pixels",
+  "coverage": "three reviewed visible IC package-body masks on one marked rev. 2.1.4 specimen photo",
+  "release_eligible": false,
+  "photo": {
+    "path": "data/photo-model/by_board/ultimainboard/IMG_20261009_222135_1.jpg",
+    "sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+    "width": 1408,
+    "height": 3112,
+    "revision_evidence": "Ultimainboard rev. 2.1.4 text is visible on the photographed board."
+  },
+  "review_previews": [
+    "previews/ultimainboard-component-mask-review.jpg",
+    "previews/ultimainboard-component-mask-review-detail.jpg"
+  ],
+  "source_candidate": {
+    "components_path": "data/board-sources/ultimainboard-2.1.4/structured-source/components.json",
+    "components_sha256": "1660e93265bb9c9b897df7567bbbcae78e6abcae69bdacaac21c11bc83fb7625",
+    "native_pcb_path": "data/board-sources/ultimainboard-2.1.4/1546 ultimainboard V2.1.4/Ultimaker_V2.1.4.PcbDoc",
+    "native_pcb_sha256": "53696e9f6f38df54a0c4d6065f8f8336e9df918773ea949b0b687fdf659d0160",
+    "mapping_policy": "Readable photo silkscreen refdes is joined to the same refdes in the exact-version source inventory. Source identity is a candidate only; package-top markings and installed population have not been verified."
+  },
+  "instances": [
+    {
+      "instance_id": "IMG_20261009_222135_1.jpg:U13",
+      "class_name": "integrated_circuit",
+      "observed_reference_designator": "U13",
+      "observed_marking": null,
+      "source_part_candidate": "RO IC A4988 QFN-28 ALLEGRO",
+      "polygon_xy_pixels": [
+        [
+          459,
+          347
+        ],
+        [
+          550,
+          347
+        ],
+        [
+          550,
+          438
+        ],
+        [
+          459,
+          438
+        ]
+      ],
+      "boundary_scope": "visible_physical_body_excluding_leads_solder_and_silkscreen",
+      "review_status": "visually_reviewed_body_polygon_source_refdes_candidate",
+      "review_evidence": "Re-reviewed original image pixels with coordinate grid. Adjacent silkscreen reads U13. Package is a square QFN driver; source A4988 is candidate only, installed top code unreadable.",
+      "boundary_uncertainty_pixels": 4,
+      "source_mapping_status": "source_candidate_by_refdes_only",
+      "installed_order_code_confirmed": false,
+      "physical_population_confirmed": false
+    },
+    {
+      "instance_id": "IMG_20261009_222135_1.jpg:U12",
+      "class_name": "integrated_circuit",
+      "observed_reference_designator": "U12",
+      "observed_marking": null,
+      "source_part_candidate": "RO IC A4988 QFN-28 ALLEGRO",
+      "polygon_xy_pixels": [
+        [
+          459,
+          709
+        ],
+        [
+          550,
+          709
+        ],
+        [
+          550,
+          797
+        ],
+        [
+          459,
+          797
+        ]
+      ],
+      "boundary_scope": "visible_physical_body_excluding_leads_solder_and_silkscreen",
+      "review_status": "visually_reviewed_body_polygon_source_refdes_candidate",
+      "review_evidence": "Re-reviewed original image pixels with coordinate grid. Adjacent silkscreen reads U12. Package is a square QFN driver; source A4988 is candidate only, installed top code unreadable.",
+      "boundary_uncertainty_pixels": 4,
+      "source_mapping_status": "source_candidate_by_refdes_only",
+      "installed_order_code_confirmed": false,
+      "physical_population_confirmed": false
+    },
+    {
+      "instance_id": "IMG_20261009_222135_1.jpg:U11",
+      "class_name": "integrated_circuit",
+      "observed_reference_designator": "U11",
+      "observed_marking": null,
+      "source_part_candidate": "RO IC A4988 QFN-28 ALLEGRO",
+      "polygon_xy_pixels": [
+        [
+          459,
+          1055
+        ],
+        [
+          550,
+          1055
+        ],
+        [
+          550,
+          1148
+        ],
+        [
+          459,
+          1148
+        ]
+      ],
+      "boundary_scope": "visible_physical_body_excluding_leads_solder_and_silkscreen",
+      "review_status": "visually_reviewed_body_polygon_source_refdes_candidate",
+      "review_evidence": "Re-reviewed original image pixels with coordinate grid. Adjacent silkscreen reads U11. Package is a square QFN driver; source A4988 is candidate only, installed top code unreadable.",
+      "boundary_uncertainty_pixels": 4,
+      "source_mapping_status": "source_candidate_by_refdes_only",
+      "installed_order_code_confirmed": false,
+      "physical_population_confirmed": false
+    }
+  ],
+  "limitations": [
+    "This is a sparse annotation supplement, not an exhaustive board segmentation dataset.",
+    "The source inventory describes the 2.1.4 design and does not prove the photographed specimen's installed order codes or population.",
+    "No camera calibration, metric pose, multi-view binding, or physical flip validation is included."
+  ],
+  "correction_note": "Corrected mistaken U3/U2 joins to visually readable U13/U12; original mistaken masks removed. Body-only polygons now exclude leads."
+}
