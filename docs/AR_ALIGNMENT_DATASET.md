@@ -30,6 +30,15 @@ connector parents. They cannot become numeric pin identities by proximity.
 - The photographed NXP revision is unverified. Its mesh joins are source
   candidates; the design BOM order code is not a confirmed fitted part number.
 
+The [Ultimaker photo-to-mesh crosswalk](../data/ar-alignment/ultimaker-photo-mesh-crosswalk.json)
+now joins 90 of 93 reviewed photographed body instances to distinct
+`ref:<designator>` selectors in the source GLB candidate. All 90 selectors
+resolve to non-empty, exclusive subtrees (111 meshes total). Two header-strip
+instances have conflicting source identity and C106 remains unresolved, so
+those three are excluded. These joins identify selectable candidates only:
+physical board revision, fitted part identity, metric photo-to-GLB pose and
+continuous flip have not been verified, so no link is release eligible.
+
 The released NXP manifest uses board-outline corner landmarks. The reviewed
 phone photo instead uses mounting holes. The alignment index records
 `asset_anchor_override_required` and the paired hole positions; a pose model

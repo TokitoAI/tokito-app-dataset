@@ -1,0 +1,3507 @@
+{
+  "schema_version": "1.0",
+  "board_family": "ultimainboard_2_1_4",
+  "source_files_sha256": {
+    "annotations\\ultimainboard-dense-component-review.json": "be1fbaec06d4a7215b1a5ba3d0a6aab44dde691b46e96a325ee7bcfea804e488",
+    "data\\board-sources\\ultimainboard-2.1.4\\ar-source-candidate\\component-map.json": "8f5637ca8cf3ddb6dfdb31227fe453ec81c749a0bc44911fa4b0f6b38945af64",
+    "data\\board-sources\\ultimainboard-2.1.4\\ar-source-candidate\\contact-completion\\geometry-coverage.json": "08c29adb129daab4f425c87569ee579fbe04155c35c377c78fd136d63e547f6b",
+    "data\\board-sources\\ultimainboard-2.1.4\\ar-source-candidate\\contact-completion\\validation.json": "ca20663c8b5c47ec3539dc8fcf15cf7bb559f396ad6790a41cb4f320556f6673"
+  },
+  "source_glb_sha256": "3abc19ce4a20c9170fc9b96f7ecdde18f860a874fce2a2a1ee29b37bc50a7a8c",
+  "source_glb_path": "data\\board-sources\\ultimainboard-2.1.4\\ar-source-candidate\\contact-completion\\ultimaker-source-contact-selectable-candidate.glb",
+  "photo_instance_count": 93,
+  "candidate_selector_links": 90,
+  "excluded_count": 3,
+  "excluded_reasons": {
+    "photo_source_header_refdes_or_pin_count_conflict": 2,
+    "unresolved": 1
+  },
+  "release_eligible": false,
+  "limitations": [
+    "Source reference match does not confirm the physical PCB revision or installed part.",
+    "No photo-to-3D metric pose or same-specimen continuous flip has been verified.",
+    "The photographed frame has partial visible-instance coverage."
+  ],
+  "links": [
+    {
+      "photo_instance_id": "IMG_20261009_222135_1.jpg:U13",
+      "photo_image_path": "data\\photo-model\\by_board\\ultimainboard\\IMG_20261009_222135_1.jpg",
+      "photo_image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "photo_polygon_xy_pixels": [
+        [
+          459,
+          347
+        ],
+        [
+          550,
+          347
+        ],
+        [
+          550,
+          438
+        ],
+        [
+          459,
+          438
+        ]
+      ],
+      "photo_class_name": "integrated_circuit",
+      "observed_reference_designator": "U13",
+      "source_component_id_candidate": "ultimainboard:2.1.4:U13",
+      "glb_selector_candidate": "ref:U13",
+      "selector_origin": "original_source_glb",
+      "geometry_kind": "original_source_component",
+      "join_basis": "visually_reviewed_photo_refdes_to_source_reference",
+      "installed_part_identity_confirmed": false,
+      "photo_to_3d_pose_verified": false,
+      "physical_flip_verified": false,
+      "ar_highlight_release_eligible": false,
+      "glb_mesh_ids": [
+        358
+      ]
+    },
+    {
+      "photo_instance_id": "IMG_20261009_222135_1.jpg:U12",
+      "photo_image_path": "data\\photo-model\\by_board\\ultimainboard\\IMG_20261009_222135_1.jpg",
+      "photo_image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "photo_polygon_xy_pixels": [
+        [
+          459,
+          709
+        ],
+        [
+          550,
+          709
+        ],
+        [
+          550,
+          797
+        ],
+        [
+          459,
+          797
+        ]
+      ],
+      "photo_class_name": "integrated_circuit",
+      "observed_reference_designator": "U12",
+      "source_component_id_candidate": "ultimainboard:2.1.4:U12",
+      "glb_selector_candidate": "ref:U12",
+      "selector_origin": "original_source_glb",
+      "geometry_kind": "original_source_component",
+      "join_basis": "visually_reviewed_photo_refdes_to_source_reference",
+      "installed_part_identity_confirmed": false,
+      "photo_to_3d_pose_verified": false,
+      "physical_flip_verified": false,
+      "ar_highlight_release_eligible": false,
+      "glb_mesh_ids": [
+        157
+      ]
+    },
+    {
+      "photo_instance_id": "IMG_20261009_222135_1.jpg:U11",
+      "photo_image_path": "data\\photo-model\\by_board\\ultimainboard\\IMG_20261009_222135_1.jpg",
+      "photo_image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "photo_polygon_xy_pixels": [
+        [
+          459,
+          1055
+        ],
+        [
+          550,
+          1055
+        ],
+        [
+          550,
+          1148
+        ],
+        [
+          459,
+          1148
+        ]
+      ],
+      "photo_class_name": "integrated_circuit",
+      "observed_reference_designator": "U11",
+      "source_component_id_candidate": "ultimainboard:2.1.4:U11",
+      "glb_selector_candidate": "ref:U11",
+      "selector_origin": "original_source_glb",
+      "geometry_kind": "original_source_component",
+      "join_basis": "visually_reviewed_photo_refdes_to_source_reference",
+      "installed_part_identity_confirmed": false,
+      "photo_to_3d_pose_verified": false,
+      "physical_flip_verified": false,
+      "ar_highlight_release_eligible": false,
+      "glb_mesh_ids": [
+        199
+      ]
+    },
+    {
+      "photo_instance_id": "IMG_20261009_222135_1.jpg:U10",
+      "photo_image_path": "data\\photo-model\\by_board\\ultimainboard\\IMG_20261009_222135_1.jpg",
+      "photo_image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "photo_polygon_xy_pixels": [
+        [
+          460,
+          1428
+        ],
+        [
+          551,
+          1428
+        ],
+        [
+          551,
+          1513
+        ],
+        [
+          460,
+          1513
+        ]
+      ],
+      "photo_class_name": "integrated_circuit",
+      "observed_reference_designator": "U10",
+      "source_component_id_candidate": "ultimainboard:2.1.4:U10",
+      "glb_selector_candidate": "ref:U10",
+      "selector_origin": "original_source_glb",
+      "geometry_kind": "original_source_component",
+      "join_basis": "visually_reviewed_photo_refdes_to_source_reference",
+      "installed_part_identity_confirmed": false,
+      "photo_to_3d_pose_verified": false,
+      "physical_flip_verified": false,
+      "ar_highlight_release_eligible": false,
+      "glb_mesh_ids": [
+        298
+      ]
+    },
+    {
+      "photo_instance_id": "IMG_20261009_222135_1.jpg:U8",
+      "photo_image_path": "data\\photo-model\\by_board\\ultimainboard\\IMG_20261009_222135_1.jpg",
+      "photo_image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "photo_polygon_xy_pixels": [
+        [
+          459,
+          1776
+        ],
+        [
+          550,
+          1776
+        ],
+        [
+          550,
+          1866
+        ],
+        [
+          459,
+          1866
+        ]
+      ],
+      "photo_class_name": "integrated_circuit",
+      "observed_reference_designator": "U8",
+      "source_component_id_candidate": "ultimainboard:2.1.4:U8",
+      "glb_selector_candidate": "ref:U8",
+      "selector_origin": "original_source_glb",
+      "geometry_kind": "original_source_component",
+      "join_basis": "visually_reviewed_photo_refdes_to_source_reference",
+      "installed_part_identity_confirmed": false,
+      "photo_to_3d_pose_verified": false,
+      "physical_flip_verified": false,
+      "ar_highlight_release_eligible": false,
+      "glb_mesh_ids": [
+        82
+      ]
+    },
+    {
+      "photo_instance_id": "IMG_20261009_222135_1.jpg:U1",
+      "photo_image_path": "data\\photo-model\\by_board\\ultimainboard\\IMG_20261009_222135_1.jpg",
+      "photo_image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "photo_polygon_xy_pixels": [
+        [
+          813,
+          449
+        ],
+        [
+          1067,
+          449
+        ],
+        [
+          1067,
+          696
+        ],
+        [
+          813,
+          696
+        ]
+      ],
+      "photo_class_name": "integrated_circuit",
+      "observed_reference_designator": "U1",
+      "source_component_id_candidate": "ultimainboard:2.1.4:U1",
+      "glb_selector_candidate": "ref:U1",
+      "selector_origin": "original_source_glb",
+      "geometry_kind": "original_source_component",
+      "join_basis": "visually_reviewed_photo_refdes_to_source_reference",
+      "installed_part_identity_confirmed": false,
+      "photo_to_3d_pose_verified": false,
+      "physical_flip_verified": false,
+      "ar_highlight_release_eligible": false,
+      "glb_mesh_ids": [
+        348
+      ]
+    },
+    {
+      "photo_instance_id": "IMG_20261009_222135_1.jpg:U2",
+      "photo_image_path": "data\\photo-model\\by_board\\ultimainboard\\IMG_20261009_222135_1.jpg",
+      "photo_image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "photo_polygon_xy_pixels": [
+        [
+          708,
+          2584
+        ],
+        [
+          800,
+          2584
+        ],
+        [
+          800,
+          2669
+        ],
+        [
+          708,
+          2669
+        ]
+      ],
+      "photo_class_name": "integrated_circuit",
+      "observed_reference_designator": "U2",
+      "source_component_id_candidate": "ultimainboard:2.1.4:U2",
+      "glb_selector_candidate": "ref:U2",
+      "selector_origin": "original_source_glb",
+      "geometry_kind": "original_source_component",
+      "join_basis": "visually_reviewed_photo_refdes_to_source_reference",
+      "installed_part_identity_confirmed": false,
+      "photo_to_3d_pose_verified": false,
+      "physical_flip_verified": false,
+      "ar_highlight_release_eligible": false,
+      "glb_mesh_ids": [
+        135,
+        136,
+        137
+      ]
+    },
+    {
+      "photo_instance_id": "IMG_20261009_222135_1.jpg:U3",
+      "photo_image_path": "data\\photo-model\\by_board\\ultimainboard\\IMG_20261009_222135_1.jpg",
+      "photo_image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "photo_polygon_xy_pixels": [
+        [
+          946,
+          1426
+        ],
+        [
+          997,
+          1426
+        ],
+        [
+          997,
+          1472
+        ],
+        [
+          946,
+          1472
+        ]
+      ],
+      "photo_class_name": "integrated_circuit",
+      "observed_reference_designator": "U3",
+      "source_component_id_candidate": "ultimainboard:2.1.4:U3",
+      "glb_selector_candidate": "ref:U3",
+      "selector_origin": "original_source_glb",
+      "geometry_kind": "original_source_component",
+      "join_basis": "visually_reviewed_photo_refdes_to_source_reference",
+      "installed_part_identity_confirmed": false,
+      "photo_to_3d_pose_verified": false,
+      "physical_flip_verified": false,
+      "ar_highlight_release_eligible": false,
+      "glb_mesh_ids": [
+        178
+      ]
+    },
+    {
+      "photo_instance_id": "IMG_20261009_222135_1.jpg:U4",
+      "photo_image_path": "data\\photo-model\\by_board\\ultimainboard\\IMG_20261009_222135_1.jpg",
+      "photo_image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "photo_polygon_xy_pixels": [
+        [
+          947,
+          1257
+        ],
+        [
+          997,
+          1257
+        ],
+        [
+          997,
+          1304
+        ],
+        [
+          947,
+          1304
+        ]
+      ],
+      "photo_class_name": "integrated_circuit",
+      "observed_reference_designator": "U4",
+      "source_component_id_candidate": "ultimainboard:2.1.4:U4",
+      "glb_selector_candidate": "ref:U4",
+      "selector_origin": "original_source_glb",
+      "geometry_kind": "original_source_component",
+      "join_basis": "visually_reviewed_photo_refdes_to_source_reference",
+      "installed_part_identity_confirmed": false,
+      "photo_to_3d_pose_verified": false,
+      "physical_flip_verified": false,
+      "ar_highlight_release_eligible": false,
+      "glb_mesh_ids": [
+        352
+      ]
+    },
+    {
+      "photo_instance_id": "IMG_20261009_222135_1.jpg:U5",
+      "photo_image_path": "data\\photo-model\\by_board\\ultimainboard\\IMG_20261009_222135_1.jpg",
+      "photo_image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "photo_polygon_xy_pixels": [
+        [
+          947,
+          1099
+        ],
+        [
+          997,
+          1099
+        ],
+        [
+          997,
+          1147
+        ],
+        [
+          947,
+          1147
+        ]
+      ],
+      "photo_class_name": "integrated_circuit",
+      "observed_reference_designator": "U5",
+      "source_component_id_candidate": "ultimainboard:2.1.4:U5",
+      "glb_selector_candidate": "ref:U5",
+      "selector_origin": "original_source_glb",
+      "geometry_kind": "original_source_component",
+      "join_basis": "visually_reviewed_photo_refdes_to_source_reference",
+      "installed_part_identity_confirmed": false,
+      "photo_to_3d_pose_verified": false,
+      "physical_flip_verified": false,
+      "ar_highlight_release_eligible": false,
+      "glb_mesh_ids": [
+        156
+      ]
+    },
+    {
+      "photo_instance_id": "IMG_20261009_222135_1.jpg:U6",
+      "photo_image_path": "data\\photo-model\\by_board\\ultimainboard\\IMG_20261009_222135_1.jpg",
+      "photo_image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "photo_polygon_xy_pixels": [
+        [
+          848,
+          2145
+        ],
+        [
+          918,
+          2145
+        ],
+        [
+          918,
+          2215
+        ],
+        [
+          848,
+          2215
+        ]
+      ],
+      "photo_class_name": "integrated_circuit",
+      "observed_reference_designator": "U6",
+      "source_component_id_candidate": "ultimainboard:2.1.4:U6",
+      "glb_selector_candidate": "ref:U6",
+      "selector_origin": "original_source_glb",
+      "geometry_kind": "original_source_component",
+      "join_basis": "visually_reviewed_photo_refdes_to_source_reference",
+      "installed_part_identity_confirmed": false,
+      "photo_to_3d_pose_verified": false,
+      "physical_flip_verified": false,
+      "ar_highlight_release_eligible": false,
+      "glb_mesh_ids": [
+        184
+      ]
+    },
+    {
+      "photo_instance_id": "IMG_20261009_222135_1.jpg:U7",
+      "photo_image_path": "data\\photo-model\\by_board\\ultimainboard\\IMG_20261009_222135_1.jpg",
+      "photo_image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "photo_polygon_xy_pixels": [
+        [
+          1124,
+          2464
+        ],
+        [
+          1196,
+          2464
+        ],
+        [
+          1196,
+          2534
+        ],
+        [
+          1124,
+          2534
+        ]
+      ],
+      "photo_class_name": "integrated_circuit",
+      "observed_reference_designator": "U7",
+      "source_component_id_candidate": "ultimainboard:2.1.4:U7",
+      "glb_selector_candidate": "ref:U7",
+      "selector_origin": "original_source_glb",
+      "geometry_kind": "original_source_component",
+      "join_basis": "visually_reviewed_photo_refdes_to_source_reference",
+      "installed_part_identity_confirmed": false,
+      "photo_to_3d_pose_verified": false,
+      "physical_flip_verified": false,
+      "ar_highlight_release_eligible": false,
+      "glb_mesh_ids": [
+        361
+      ]
+    },
+    {
+      "photo_instance_id": "IMG_20261009_222135_1.jpg:U9",
+      "photo_image_path": "data\\photo-model\\by_board\\ultimainboard\\IMG_20261009_222135_1.jpg",
+      "photo_image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "photo_polygon_xy_pixels": [
+        [
+          1181,
+          31
+        ],
+        [
+          1210,
+          31
+        ],
+        [
+          1210,
+          85
+        ],
+        [
+          1181,
+          85
+        ]
+      ],
+      "photo_class_name": "integrated_circuit",
+      "observed_reference_designator": "U9",
+      "source_component_id_candidate": "ultimainboard:2.1.4:U9",
+      "glb_selector_candidate": "ref:U9",
+      "selector_origin": "contact_completion_glb",
+      "geometry_kind": "library_package",
+      "join_basis": "visually_reviewed_photo_refdes_to_source_reference",
+      "installed_part_identity_confirmed": false,
+      "photo_to_3d_pose_verified": false,
+      "physical_flip_verified": false,
+      "ar_highlight_release_eligible": false,
+      "glb_mesh_ids": [
+        698
+      ]
+    },
+    {
+      "photo_instance_id": "IMG_20261009_222135_1.jpg:Q1",
+      "photo_image_path": "data\\photo-model\\by_board\\ultimainboard\\IMG_20261009_222135_1.jpg",
+      "photo_image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "photo_polygon_xy_pixels": [
+        [
+          385,
+          2062
+        ],
+        [
+          447,
+          2062
+        ],
+        [
+          447,
+          2139
+        ],
+        [
+          385,
+          2139
+        ]
+      ],
+      "photo_class_name": "transistor",
+      "observed_reference_designator": "Q1",
+      "source_component_id_candidate": "ultimainboard:2.1.4:Q1",
+      "glb_selector_candidate": "ref:Q1",
+      "selector_origin": "original_source_glb",
+      "geometry_kind": "original_source_component",
+      "join_basis": "visually_reviewed_photo_refdes_to_source_reference",
+      "installed_part_identity_confirmed": false,
+      "photo_to_3d_pose_verified": false,
+      "physical_flip_verified": false,
+      "ar_highlight_release_eligible": false,
+      "glb_mesh_ids": [
+        205
+      ]
+    },
+    {
+      "photo_instance_id": "IMG_20261009_222135_1.jpg:Q2",
+      "photo_image_path": "data\\photo-model\\by_board\\ultimainboard\\IMG_20261009_222135_1.jpg",
+      "photo_image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "photo_polygon_xy_pixels": [
+        [
+          385,
+          2242
+        ],
+        [
+          447,
+          2242
+        ],
+        [
+          447,
+          2319
+        ],
+        [
+          385,
+          2319
+        ]
+      ],
+      "photo_class_name": "transistor",
+      "observed_reference_designator": "Q2",
+      "source_component_id_candidate": "ultimainboard:2.1.4:Q2",
+      "glb_selector_candidate": "ref:Q2",
+      "selector_origin": "original_source_glb",
+      "geometry_kind": "original_source_component",
+      "join_basis": "visually_reviewed_photo_refdes_to_source_reference",
+      "installed_part_identity_confirmed": false,
+      "photo_to_3d_pose_verified": false,
+      "physical_flip_verified": false,
+      "ar_highlight_release_eligible": false,
+      "glb_mesh_ids": [
+        65
+      ]
+    },
+    {
+      "photo_instance_id": "IMG_20261009_222135_1.jpg:Q3",
+      "photo_image_path": "data\\photo-model\\by_board\\ultimainboard\\IMG_20261009_222135_1.jpg",
+      "photo_image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "photo_polygon_xy_pixels": [
+        [
+          385,
+          2419
+        ],
+        [
+          447,
+          2419
+        ],
+        [
+          447,
+          2496
+        ],
+        [
+          385,
+          2496
+        ]
+      ],
+      "photo_class_name": "transistor",
+      "observed_reference_designator": "Q3",
+      "source_component_id_candidate": "ultimainboard:2.1.4:Q3",
+      "glb_selector_candidate": "ref:Q3",
+      "selector_origin": "original_source_glb",
+      "geometry_kind": "original_source_component",
+      "join_basis": "visually_reviewed_photo_refdes_to_source_reference",
+      "installed_part_identity_confirmed": false,
+      "photo_to_3d_pose_verified": false,
+      "physical_flip_verified": false,
+      "ar_highlight_release_eligible": false,
+      "glb_mesh_ids": [
+        176
+      ]
+    },
+    {
+      "photo_instance_id": "IMG_20261009_222135_1.jpg:T1",
+      "photo_image_path": "data\\photo-model\\by_board\\ultimainboard\\IMG_20261009_222135_1.jpg",
+      "photo_image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "photo_polygon_xy_pixels": [
+        [
+          1033,
+          2798
+        ],
+        [
+          1063,
+          2798
+        ],
+        [
+          1063,
+          2844
+        ],
+        [
+          1033,
+          2844
+        ]
+      ],
+      "photo_class_name": "transistor",
+      "observed_reference_designator": "T1",
+      "source_component_id_candidate": "ultimainboard:2.1.4:T1",
+      "glb_selector_candidate": "ref:T1",
+      "selector_origin": "original_source_glb",
+      "geometry_kind": "original_source_component",
+      "join_basis": "visually_reviewed_photo_refdes_to_source_reference",
+      "installed_part_identity_confirmed": false,
+      "photo_to_3d_pose_verified": false,
+      "physical_flip_verified": false,
+      "ar_highlight_release_eligible": false,
+      "glb_mesh_ids": [
+        312
+      ]
+    },
+    {
+      "photo_instance_id": "IMG_20261009_222135_1.jpg:T2",
+      "photo_image_path": "data\\photo-model\\by_board\\ultimainboard\\IMG_20261009_222135_1.jpg",
+      "photo_image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "photo_polygon_xy_pixels": [
+        [
+          1033,
+          2655
+        ],
+        [
+          1063,
+          2655
+        ],
+        [
+          1063,
+          2701
+        ],
+        [
+          1033,
+          2701
+        ]
+      ],
+      "photo_class_name": "transistor",
+      "observed_reference_designator": "T2",
+      "source_component_id_candidate": "ultimainboard:2.1.4:T2",
+      "glb_selector_candidate": "ref:T2",
+      "selector_origin": "original_source_glb",
+      "geometry_kind": "original_source_component",
+      "join_basis": "visually_reviewed_photo_refdes_to_source_reference",
+      "installed_part_identity_confirmed": false,
+      "photo_to_3d_pose_verified": false,
+      "physical_flip_verified": false,
+      "ar_highlight_release_eligible": false,
+      "glb_mesh_ids": [
+        428
+      ]
+    },
+    {
+      "photo_instance_id": "IMG_20261009_222135_1.jpg:T3",
+      "photo_image_path": "data\\photo-model\\by_board\\ultimainboard\\IMG_20261009_222135_1.jpg",
+      "photo_image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "photo_polygon_xy_pixels": [
+        [
+          1092,
+          2344
+        ],
+        [
+          1118,
+          2344
+        ],
+        [
+          1118,
+          2387
+        ],
+        [
+          1092,
+          2387
+        ]
+      ],
+      "photo_class_name": "transistor",
+      "observed_reference_designator": "T3",
+      "source_component_id_candidate": "ultimainboard:2.1.4:T3",
+      "glb_selector_candidate": "ref:T3",
+      "selector_origin": "original_source_glb",
+      "geometry_kind": "original_source_component",
+      "join_basis": "visually_reviewed_photo_refdes_to_source_reference",
+      "installed_part_identity_confirmed": false,
+      "photo_to_3d_pose_verified": false,
+      "physical_flip_verified": false,
+      "ar_highlight_release_eligible": false,
+      "glb_mesh_ids": [
+        385
+      ]
+    },
+    {
+      "photo_instance_id": "IMG_20261009_222135_1.jpg:J22",
+      "photo_image_path": "data\\photo-model\\by_board\\ultimainboard\\IMG_20261009_222135_1.jpg",
+      "photo_image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "photo_polygon_xy_pixels": [
+        [
+          900,
+          20
+        ],
+        [
+          1080,
+          20
+        ],
+        [
+          1080,
+          74
+        ],
+        [
+          900,
+          74
+        ]
+      ],
+      "photo_class_name": "pin_header",
+      "observed_reference_designator": "J22",
+      "source_component_id_candidate": "ultimainboard:2.1.4:J22",
+      "glb_selector_candidate": "ref:J22",
+      "selector_origin": "original_source_glb",
+      "geometry_kind": "original_source_component",
+      "join_basis": "visually_reviewed_photo_refdes_to_source_reference",
+      "installed_part_identity_confirmed": false,
+      "photo_to_3d_pose_verified": false,
+      "physical_flip_verified": false,
+      "ar_highlight_release_eligible": false,
+      "glb_mesh_ids": [
+        62
+      ]
+    },
+    {
+      "photo_instance_id": "IMG_20261009_222135_1.jpg:J23",
+      "photo_image_path": "data\\photo-model\\by_board\\ultimainboard\\IMG_20261009_222135_1.jpg",
+      "photo_image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "photo_polygon_xy_pixels": [
+        [
+          714,
+          34
+        ],
+        [
+          836,
+          34
+        ],
+        [
+          836,
+          110
+        ],
+        [
+          714,
+          110
+        ]
+      ],
+      "photo_class_name": "pin_header",
+      "observed_reference_designator": "J23",
+      "source_component_id_candidate": "ultimainboard:2.1.4:J23",
+      "glb_selector_candidate": "ref:J23",
+      "selector_origin": "original_source_glb",
+      "geometry_kind": "original_source_component",
+      "join_basis": "visually_reviewed_photo_refdes_to_source_reference",
+      "installed_part_identity_confirmed": false,
+      "photo_to_3d_pose_verified": false,
+      "physical_flip_verified": false,
+      "ar_highlight_release_eligible": false,
+      "glb_mesh_ids": [
+        423
+      ]
+    },
+    {
+      "photo_instance_id": "IMG_20261009_222135_1.jpg:J1",
+      "photo_image_path": "data\\photo-model\\by_board\\ultimainboard\\IMG_20261009_222135_1.jpg",
+      "photo_image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "photo_polygon_xy_pixels": [
+        [
+          714,
+          167
+        ],
+        [
+          836,
+          167
+        ],
+        [
+          836,
+          244
+        ],
+        [
+          714,
+          244
+        ]
+      ],
+      "photo_class_name": "pin_header",
+      "observed_reference_designator": "J1",
+      "source_component_id_candidate": "ultimainboard:2.1.4:J1",
+      "glb_selector_candidate": "ref:J1",
+      "selector_origin": "original_source_glb",
+      "geometry_kind": "original_source_component",
+      "join_basis": "visually_reviewed_photo_refdes_to_source_reference",
+      "installed_part_identity_confirmed": false,
+      "photo_to_3d_pose_verified": false,
+      "physical_flip_verified": false,
+      "ar_highlight_release_eligible": false,
+      "glb_mesh_ids": [
+        119
+      ]
+    },
+    {
+      "photo_instance_id": "IMG_20261009_222135_1.jpg:J31",
+      "photo_image_path": "data\\photo-model\\by_board\\ultimainboard\\IMG_20261009_222135_1.jpg",
+      "photo_image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "photo_polygon_xy_pixels": [
+        [
+          64,
+          292
+        ],
+        [
+          285,
+          292
+        ],
+        [
+          285,
+          488
+        ],
+        [
+          64,
+          488
+        ]
+      ],
+      "photo_class_name": "connector",
+      "observed_reference_designator": "J31",
+      "source_component_id_candidate": "ultimainboard:2.1.4:J31",
+      "glb_selector_candidate": "ref:J31",
+      "selector_origin": "original_source_glb",
+      "geometry_kind": "original_source_component",
+      "join_basis": "visually_reviewed_photo_refdes_to_source_reference",
+      "installed_part_identity_confirmed": false,
+      "photo_to_3d_pose_verified": false,
+      "physical_flip_verified": false,
+      "ar_highlight_release_eligible": false,
+      "glb_mesh_ids": [
+        392
+      ]
+    },
+    {
+      "photo_instance_id": "IMG_20261009_222135_1.jpg:J30",
+      "photo_image_path": "data\\photo-model\\by_board\\ultimainboard\\IMG_20261009_222135_1.jpg",
+      "photo_image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "photo_polygon_xy_pixels": [
+        [
+          64,
+          647
+        ],
+        [
+          285,
+          647
+        ],
+        [
+          285,
+          847
+        ],
+        [
+          64,
+          847
+        ]
+      ],
+      "photo_class_name": "connector",
+      "observed_reference_designator": "J30",
+      "source_component_id_candidate": "ultimainboard:2.1.4:J30",
+      "glb_selector_candidate": "ref:J30",
+      "selector_origin": "original_source_glb",
+      "geometry_kind": "original_source_component",
+      "join_basis": "visually_reviewed_photo_refdes_to_source_reference",
+      "installed_part_identity_confirmed": false,
+      "photo_to_3d_pose_verified": false,
+      "physical_flip_verified": false,
+      "ar_highlight_release_eligible": false,
+      "glb_mesh_ids": [
+        274
+      ]
+    },
+    {
+      "photo_instance_id": "IMG_20261009_222135_1.jpg:J29",
+      "photo_image_path": "data\\photo-model\\by_board\\ultimainboard\\IMG_20261009_222135_1.jpg",
+      "photo_image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "photo_polygon_xy_pixels": [
+        [
+          64,
+          1001
+        ],
+        [
+          285,
+          1001
+        ],
+        [
+          285,
+          1210
+        ],
+        [
+          64,
+          1210
+        ]
+      ],
+      "photo_class_name": "connector",
+      "observed_reference_designator": "J29",
+      "source_component_id_candidate": "ultimainboard:2.1.4:J29",
+      "glb_selector_candidate": "ref:J29",
+      "selector_origin": "original_source_glb",
+      "geometry_kind": "original_source_component",
+      "join_basis": "visually_reviewed_photo_refdes_to_source_reference",
+      "installed_part_identity_confirmed": false,
+      "photo_to_3d_pose_verified": false,
+      "physical_flip_verified": false,
+      "ar_highlight_release_eligible": false,
+      "glb_mesh_ids": [
+        75
+      ]
+    },
+    {
+      "photo_instance_id": "IMG_20261009_222135_1.jpg:J28",
+      "photo_image_path": "data\\photo-model\\by_board\\ultimainboard\\IMG_20261009_222135_1.jpg",
+      "photo_image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "photo_polygon_xy_pixels": [
+        [
+          64,
+          1365
+        ],
+        [
+          285,
+          1365
+        ],
+        [
+          285,
+          1565
+        ],
+        [
+          64,
+          1565
+        ]
+      ],
+      "photo_class_name": "connector",
+      "observed_reference_designator": "J28",
+      "source_component_id_candidate": "ultimainboard:2.1.4:J28",
+      "glb_selector_candidate": "ref:J28",
+      "selector_origin": "original_source_glb",
+      "geometry_kind": "original_source_component",
+      "join_basis": "visually_reviewed_photo_refdes_to_source_reference",
+      "installed_part_identity_confirmed": false,
+      "photo_to_3d_pose_verified": false,
+      "physical_flip_verified": false,
+      "ar_highlight_release_eligible": false,
+      "glb_mesh_ids": [
+        402
+      ]
+    },
+    {
+      "photo_instance_id": "IMG_20261009_222135_1.jpg:J27",
+      "photo_image_path": "data\\photo-model\\by_board\\ultimainboard\\IMG_20261009_222135_1.jpg",
+      "photo_image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "photo_polygon_xy_pixels": [
+        [
+          64,
+          1717
+        ],
+        [
+          285,
+          1717
+        ],
+        [
+          285,
+          1923
+        ],
+        [
+          64,
+          1923
+        ]
+      ],
+      "photo_class_name": "connector",
+      "observed_reference_designator": "J27",
+      "source_component_id_candidate": "ultimainboard:2.1.4:J27",
+      "glb_selector_candidate": "ref:J27",
+      "selector_origin": "original_source_glb",
+      "geometry_kind": "original_source_component",
+      "join_basis": "visually_reviewed_photo_refdes_to_source_reference",
+      "installed_part_identity_confirmed": false,
+      "photo_to_3d_pose_verified": false,
+      "physical_flip_verified": false,
+      "ar_highlight_release_eligible": false,
+      "glb_mesh_ids": [
+        398
+      ]
+    },
+    {
+      "photo_instance_id": "IMG_20261009_222135_1.jpg:J33",
+      "photo_image_path": "data\\photo-model\\by_board\\ultimainboard\\IMG_20261009_222135_1.jpg",
+      "photo_image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "photo_polygon_xy_pixels": [
+        [
+          1188,
+          287
+        ],
+        [
+          1407,
+          287
+        ],
+        [
+          1407,
+          646
+        ],
+        [
+          1188,
+          646
+        ]
+      ],
+      "photo_class_name": "connector",
+      "observed_reference_designator": "J33",
+      "source_component_id_candidate": "ultimainboard:2.1.4:J33",
+      "glb_selector_candidate": "ref:J33",
+      "selector_origin": "original_source_glb",
+      "geometry_kind": "original_source_component",
+      "join_basis": "visually_reviewed_photo_refdes_to_source_reference",
+      "installed_part_identity_confirmed": false,
+      "photo_to_3d_pose_verified": false,
+      "physical_flip_verified": false,
+      "ar_highlight_release_eligible": false,
+      "glb_mesh_ids": [
+        179
+      ]
+    },
+    {
+      "photo_instance_id": "IMG_20261009_222135_1.jpg:J32",
+      "photo_image_path": "data\\photo-model\\by_board\\ultimainboard\\IMG_20261009_222135_1.jpg",
+      "photo_image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "photo_polygon_xy_pixels": [
+        [
+          1188,
+          646
+        ],
+        [
+          1407,
+          646
+        ],
+        [
+          1407,
+          1033
+        ],
+        [
+          1188,
+          1033
+        ]
+      ],
+      "photo_class_name": "connector",
+      "observed_reference_designator": "J32",
+      "source_component_id_candidate": "ultimainboard:2.1.4:J32",
+      "glb_selector_candidate": "ref:J32",
+      "selector_origin": "original_source_glb",
+      "geometry_kind": "original_source_component",
+      "join_basis": "visually_reviewed_photo_refdes_to_source_reference",
+      "installed_part_identity_confirmed": false,
+      "photo_to_3d_pose_verified": false,
+      "physical_flip_verified": false,
+      "ar_highlight_release_eligible": false,
+      "glb_mesh_ids": [
+        209
+      ]
+    },
+    {
+      "photo_instance_id": "IMG_20261009_222135_1.jpg:J13",
+      "photo_image_path": "data\\photo-model\\by_board\\ultimainboard\\IMG_20261009_222135_1.jpg",
+      "photo_image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "photo_polygon_xy_pixels": [
+        [
+          1178,
+          1081
+        ],
+        [
+          1407,
+          1081
+        ],
+        [
+          1407,
+          1230
+        ],
+        [
+          1178,
+          1230
+        ]
+      ],
+      "photo_class_name": "connector",
+      "observed_reference_designator": "J13",
+      "source_component_id_candidate": "ultimainboard:2.1.4:J13",
+      "glb_selector_candidate": "ref:J13",
+      "selector_origin": "original_source_glb",
+      "geometry_kind": "original_source_component",
+      "join_basis": "visually_reviewed_photo_refdes_to_source_reference",
+      "installed_part_identity_confirmed": false,
+      "photo_to_3d_pose_verified": false,
+      "physical_flip_verified": false,
+      "ar_highlight_release_eligible": false,
+      "glb_mesh_ids": [
+        24,
+        25
+      ]
+    },
+    {
+      "photo_instance_id": "IMG_20261009_222135_1.jpg:J11",
+      "photo_image_path": "data\\photo-model\\by_board\\ultimainboard\\IMG_20261009_222135_1.jpg",
+      "photo_image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "photo_polygon_xy_pixels": [
+        [
+          1178,
+          1231
+        ],
+        [
+          1407,
+          1231
+        ],
+        [
+          1407,
+          1378
+        ],
+        [
+          1178,
+          1378
+        ]
+      ],
+      "photo_class_name": "connector",
+      "observed_reference_designator": "J11",
+      "source_component_id_candidate": "ultimainboard:2.1.4:J11",
+      "glb_selector_candidate": "ref:J11",
+      "selector_origin": "original_source_glb",
+      "geometry_kind": "original_source_component",
+      "join_basis": "visually_reviewed_photo_refdes_to_source_reference",
+      "installed_part_identity_confirmed": false,
+      "photo_to_3d_pose_verified": false,
+      "physical_flip_verified": false,
+      "ar_highlight_release_eligible": false,
+      "glb_mesh_ids": [
+        154,
+        155
+      ]
+    },
+    {
+      "photo_instance_id": "IMG_20261009_222135_1.jpg:J7",
+      "photo_image_path": "data\\photo-model\\by_board\\ultimainboard\\IMG_20261009_222135_1.jpg",
+      "photo_image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "photo_polygon_xy_pixels": [
+        [
+          1178,
+          1375
+        ],
+        [
+          1407,
+          1375
+        ],
+        [
+          1407,
+          1528
+        ],
+        [
+          1178,
+          1528
+        ]
+      ],
+      "photo_class_name": "connector",
+      "observed_reference_designator": "J7",
+      "source_component_id_candidate": "ultimainboard:2.1.4:J7",
+      "glb_selector_candidate": "ref:J7",
+      "selector_origin": "original_source_glb",
+      "geometry_kind": "original_source_component",
+      "join_basis": "visually_reviewed_photo_refdes_to_source_reference",
+      "installed_part_identity_confirmed": false,
+      "photo_to_3d_pose_verified": false,
+      "physical_flip_verified": false,
+      "ar_highlight_release_eligible": false,
+      "glb_mesh_ids": [
+        369,
+        370
+      ]
+    },
+    {
+      "photo_instance_id": "IMG_20261009_222135_1.jpg:J34",
+      "photo_image_path": "data\\photo-model\\by_board\\ultimainboard\\IMG_20261009_222135_1.jpg",
+      "photo_image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "photo_polygon_xy_pixels": [
+        [
+          983,
+          1588
+        ],
+        [
+          1092,
+          1588
+        ],
+        [
+          1092,
+          1713
+        ],
+        [
+          983,
+          1713
+        ]
+      ],
+      "photo_class_name": "connector",
+      "observed_reference_designator": "J34",
+      "source_component_id_candidate": "ultimainboard:2.1.4:J34",
+      "glb_selector_candidate": "ref:J34",
+      "selector_origin": "contact_completion_glb",
+      "geometry_kind": "library_package",
+      "join_basis": "visually_reviewed_photo_refdes_to_source_reference",
+      "installed_part_identity_confirmed": false,
+      "photo_to_3d_pose_verified": false,
+      "physical_flip_verified": false,
+      "ar_highlight_release_eligible": false,
+      "glb_mesh_ids": [
+        697
+      ]
+    },
+    {
+      "photo_instance_id": "IMG_20261009_222135_1.jpg:J9",
+      "photo_image_path": "data\\photo-model\\by_board\\ultimainboard\\IMG_20261009_222135_1.jpg",
+      "photo_image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "photo_polygon_xy_pixels": [
+        [
+          1303,
+          1598
+        ],
+        [
+          1407,
+          1598
+        ],
+        [
+          1407,
+          1754
+        ],
+        [
+          1303,
+          1754
+        ]
+      ],
+      "photo_class_name": "connector",
+      "observed_reference_designator": "J9",
+      "source_component_id_candidate": "ultimainboard:2.1.4:J9",
+      "glb_selector_candidate": "ref:J9",
+      "selector_origin": "original_source_glb",
+      "geometry_kind": "original_source_component",
+      "join_basis": "visually_reviewed_photo_refdes_to_source_reference",
+      "installed_part_identity_confirmed": false,
+      "photo_to_3d_pose_verified": false,
+      "physical_flip_verified": false,
+      "ar_highlight_release_eligible": false,
+      "glb_mesh_ids": [
+        81
+      ]
+    },
+    {
+      "photo_instance_id": "IMG_20261009_222135_1.jpg:J8",
+      "photo_image_path": "data\\photo-model\\by_board\\ultimainboard\\IMG_20261009_222135_1.jpg",
+      "photo_image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "photo_polygon_xy_pixels": [
+        [
+          1186,
+          1755
+        ],
+        [
+          1407,
+          1755
+        ],
+        [
+          1407,
+          1898
+        ],
+        [
+          1186,
+          1898
+        ]
+      ],
+      "photo_class_name": "connector",
+      "observed_reference_designator": "J8",
+      "source_component_id_candidate": "ultimainboard:2.1.4:J8",
+      "glb_selector_candidate": "ref:J8",
+      "selector_origin": "original_source_glb",
+      "geometry_kind": "original_source_component",
+      "join_basis": "visually_reviewed_photo_refdes_to_source_reference",
+      "installed_part_identity_confirmed": false,
+      "photo_to_3d_pose_verified": false,
+      "physical_flip_verified": false,
+      "ar_highlight_release_eligible": false,
+      "glb_mesh_ids": [
+        120
+      ]
+    },
+    {
+      "photo_instance_id": "IMG_20261009_222135_1.jpg:J6",
+      "photo_image_path": "data\\photo-model\\by_board\\ultimainboard\\IMG_20261009_222135_1.jpg",
+      "photo_image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "photo_polygon_xy_pixels": [
+        [
+          1186,
+          1897
+        ],
+        [
+          1407,
+          1897
+        ],
+        [
+          1407,
+          2038
+        ],
+        [
+          1186,
+          2038
+        ]
+      ],
+      "photo_class_name": "connector",
+      "observed_reference_designator": "J6",
+      "source_component_id_candidate": "ultimainboard:2.1.4:J6",
+      "glb_selector_candidate": "ref:J6",
+      "selector_origin": "original_source_glb",
+      "geometry_kind": "original_source_component",
+      "join_basis": "visually_reviewed_photo_refdes_to_source_reference",
+      "installed_part_identity_confirmed": false,
+      "photo_to_3d_pose_verified": false,
+      "physical_flip_verified": false,
+      "ar_highlight_release_eligible": false,
+      "glb_mesh_ids": [
+        371
+      ]
+    },
+    {
+      "photo_instance_id": "IMG_20261009_222135_1.jpg:J5",
+      "photo_image_path": "data\\photo-model\\by_board\\ultimainboard\\IMG_20261009_222135_1.jpg",
+      "photo_image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "photo_polygon_xy_pixels": [
+        [
+          1186,
+          2046
+        ],
+        [
+          1407,
+          2046
+        ],
+        [
+          1407,
+          2188
+        ],
+        [
+          1186,
+          2188
+        ]
+      ],
+      "photo_class_name": "connector",
+      "observed_reference_designator": "J5",
+      "source_component_id_candidate": "ultimainboard:2.1.4:J5",
+      "glb_selector_candidate": "ref:J5",
+      "selector_origin": "original_source_glb",
+      "geometry_kind": "original_source_component",
+      "join_basis": "visually_reviewed_photo_refdes_to_source_reference",
+      "installed_part_identity_confirmed": false,
+      "photo_to_3d_pose_verified": false,
+      "physical_flip_verified": false,
+      "ar_highlight_release_eligible": false,
+      "glb_mesh_ids": [
+        202
+      ]
+    },
+    {
+      "photo_instance_id": "IMG_20261009_222135_1.jpg:J17",
+      "photo_image_path": "data\\photo-model\\by_board\\ultimainboard\\IMG_20261009_222135_1.jpg",
+      "photo_image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "photo_polygon_xy_pixels": [
+        [
+          1302,
+          2291
+        ],
+        [
+          1407,
+          2291
+        ],
+        [
+          1407,
+          2441
+        ],
+        [
+          1302,
+          2441
+        ]
+      ],
+      "photo_class_name": "connector",
+      "observed_reference_designator": "J17",
+      "source_component_id_candidate": "ultimainboard:2.1.4:J17",
+      "glb_selector_candidate": "ref:J17",
+      "selector_origin": "original_source_glb",
+      "geometry_kind": "original_source_component",
+      "join_basis": "visually_reviewed_photo_refdes_to_source_reference",
+      "installed_part_identity_confirmed": false,
+      "photo_to_3d_pose_verified": false,
+      "physical_flip_verified": false,
+      "ar_highlight_release_eligible": false,
+      "glb_mesh_ids": [
+        368
+      ]
+    },
+    {
+      "photo_instance_id": "IMG_20261009_222135_1.jpg:J16",
+      "photo_image_path": "data\\photo-model\\by_board\\ultimainboard\\IMG_20261009_222135_1.jpg",
+      "photo_image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "photo_polygon_xy_pixels": [
+        [
+          1302,
+          2461
+        ],
+        [
+          1407,
+          2461
+        ],
+        [
+          1407,
+          2609
+        ],
+        [
+          1302,
+          2609
+        ]
+      ],
+      "photo_class_name": "connector",
+      "observed_reference_designator": "J16",
+      "source_component_id_candidate": "ultimainboard:2.1.4:J16",
+      "glb_selector_candidate": "ref:J16",
+      "selector_origin": "original_source_glb",
+      "geometry_kind": "original_source_component",
+      "join_basis": "visually_reviewed_photo_refdes_to_source_reference",
+      "installed_part_identity_confirmed": false,
+      "photo_to_3d_pose_verified": false,
+      "physical_flip_verified": false,
+      "ar_highlight_release_eligible": false,
+      "glb_mesh_ids": [
+        397
+      ]
+    },
+    {
+      "photo_instance_id": "IMG_20261009_222135_1.jpg:J15",
+      "photo_image_path": "data\\photo-model\\by_board\\ultimainboard\\IMG_20261009_222135_1.jpg",
+      "photo_image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "photo_polygon_xy_pixels": [
+        [
+          1186,
+          2608
+        ],
+        [
+          1407,
+          2608
+        ],
+        [
+          1407,
+          2752
+        ],
+        [
+          1186,
+          2752
+        ]
+      ],
+      "photo_class_name": "connector",
+      "observed_reference_designator": "J15",
+      "source_component_id_candidate": "ultimainboard:2.1.4:J15",
+      "glb_selector_candidate": "ref:J15",
+      "selector_origin": "original_source_glb",
+      "geometry_kind": "original_source_component",
+      "join_basis": "visually_reviewed_photo_refdes_to_source_reference",
+      "installed_part_identity_confirmed": false,
+      "photo_to_3d_pose_verified": false,
+      "physical_flip_verified": false,
+      "ar_highlight_release_eligible": false,
+      "glb_mesh_ids": [
+        36,
+        37
+      ]
+    },
+    {
+      "photo_instance_id": "IMG_20261009_222135_1.jpg:J14",
+      "photo_image_path": "data\\photo-model\\by_board\\ultimainboard\\IMG_20261009_222135_1.jpg",
+      "photo_image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "photo_polygon_xy_pixels": [
+        [
+          1186,
+          2751
+        ],
+        [
+          1407,
+          2751
+        ],
+        [
+          1407,
+          2894
+        ],
+        [
+          1186,
+          2894
+        ]
+      ],
+      "photo_class_name": "connector",
+      "observed_reference_designator": "J14",
+      "source_component_id_candidate": "ultimainboard:2.1.4:J14",
+      "glb_selector_candidate": "ref:J14",
+      "selector_origin": "original_source_glb",
+      "geometry_kind": "original_source_component",
+      "join_basis": "visually_reviewed_photo_refdes_to_source_reference",
+      "installed_part_identity_confirmed": false,
+      "photo_to_3d_pose_verified": false,
+      "physical_flip_verified": false,
+      "ar_highlight_release_eligible": false,
+      "glb_mesh_ids": [
+        88,
+        89
+      ]
+    },
+    {
+      "photo_instance_id": "IMG_20261009_222135_1.jpg:J2",
+      "photo_image_path": "data\\photo-model\\by_board\\ultimainboard\\IMG_20261009_222135_1.jpg",
+      "photo_image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "photo_polygon_xy_pixels": [
+        [
+          566,
+          2431
+        ],
+        [
+          678,
+          2431
+        ],
+        [
+          678,
+          2512
+        ],
+        [
+          566,
+          2512
+        ]
+      ],
+      "photo_class_name": "pin_header",
+      "observed_reference_designator": "J2",
+      "source_component_id_candidate": "ultimainboard:2.1.4:J2",
+      "glb_selector_candidate": "ref:J2",
+      "selector_origin": "original_source_glb",
+      "geometry_kind": "original_source_component",
+      "join_basis": "visually_reviewed_photo_refdes_to_source_reference",
+      "installed_part_identity_confirmed": false,
+      "photo_to_3d_pose_verified": false,
+      "physical_flip_verified": false,
+      "ar_highlight_release_eligible": false,
+      "glb_mesh_ids": [
+        49
+      ]
+    },
+    {
+      "photo_instance_id": "IMG_20261009_222135_1.jpg:J4",
+      "photo_image_path": "data\\photo-model\\by_board\\ultimainboard\\IMG_20261009_222135_1.jpg",
+      "photo_image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "photo_polygon_xy_pixels": [
+        [
+          564,
+          2570
+        ],
+        [
+          625,
+          2570
+        ],
+        [
+          625,
+          2651
+        ],
+        [
+          564,
+          2651
+        ]
+      ],
+      "photo_class_name": "pin_header",
+      "observed_reference_designator": "J4",
+      "source_component_id_candidate": "ultimainboard:2.1.4:J4",
+      "glb_selector_candidate": "ref:J4",
+      "selector_origin": "original_source_glb",
+      "geometry_kind": "original_source_component",
+      "join_basis": "visually_reviewed_photo_refdes_to_source_reference",
+      "installed_part_identity_confirmed": false,
+      "photo_to_3d_pose_verified": false,
+      "physical_flip_verified": false,
+      "ar_highlight_release_eligible": false,
+      "glb_mesh_ids": [
+        164
+      ]
+    },
+    {
+      "photo_instance_id": "IMG_20261009_222135_1.jpg:J21",
+      "photo_image_path": "data\\photo-model\\by_board\\ultimainboard\\IMG_20261009_222135_1.jpg",
+      "photo_image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "photo_polygon_xy_pixels": [
+        [
+          0,
+          2035
+        ],
+        [
+          233,
+          2035
+        ],
+        [
+          233,
+          2586
+        ],
+        [
+          0,
+          2586
+        ]
+      ],
+      "photo_class_name": "terminal_block",
+      "observed_reference_designator": "J21",
+      "source_component_id_candidate": "ultimainboard:2.1.4:J21",
+      "glb_selector_candidate": "ref:J21",
+      "selector_origin": "original_source_glb",
+      "geometry_kind": "original_source_component",
+      "join_basis": "visually_reviewed_photo_refdes_to_source_reference",
+      "installed_part_identity_confirmed": false,
+      "photo_to_3d_pose_verified": false,
+      "physical_flip_verified": false,
+      "ar_highlight_release_eligible": false,
+      "glb_mesh_ids": [
+        138
+      ]
+    },
+    {
+      "photo_instance_id": "IMG_20261009_222135_1.jpg:J3",
+      "photo_image_path": "data\\photo-model\\by_board\\ultimainboard\\IMG_20261009_222135_1.jpg",
+      "photo_image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "photo_polygon_xy_pixels": [
+        [
+          646,
+          2936
+        ],
+        [
+          875,
+          2936
+        ],
+        [
+          875,
+          3111
+        ],
+        [
+          646,
+          3111
+        ]
+      ],
+      "photo_class_name": "usb_b_connector",
+      "observed_reference_designator": "J3",
+      "source_component_id_candidate": "ultimainboard:2.1.4:J3",
+      "glb_selector_candidate": "ref:J3",
+      "selector_origin": "original_source_glb",
+      "geometry_kind": "original_source_component",
+      "join_basis": "visually_reviewed_photo_refdes_to_source_reference",
+      "installed_part_identity_confirmed": false,
+      "photo_to_3d_pose_verified": false,
+      "physical_flip_verified": false,
+      "ar_highlight_release_eligible": false,
+      "glb_mesh_ids": [
+        21
+      ]
+    },
+    {
+      "photo_instance_id": "IMG_20261009_222135_1.jpg:J19",
+      "photo_image_path": "data\\photo-model\\by_board\\ultimainboard\\IMG_20261009_222135_1.jpg",
+      "photo_image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "photo_polygon_xy_pixels": [
+        [
+          1113,
+          2943
+        ],
+        [
+          1284,
+          2943
+        ],
+        [
+          1284,
+          2990
+        ],
+        [
+          1113,
+          2990
+        ]
+      ],
+      "photo_class_name": "pin_header",
+      "observed_reference_designator": "J19",
+      "source_component_id_candidate": "ultimainboard:2.1.4:J19",
+      "glb_selector_candidate": "ref:J19",
+      "selector_origin": "original_source_glb",
+      "geometry_kind": "original_source_component",
+      "join_basis": "visually_reviewed_photo_refdes_to_source_reference",
+      "installed_part_identity_confirmed": false,
+      "photo_to_3d_pose_verified": false,
+      "physical_flip_verified": false,
+      "ar_highlight_release_eligible": false,
+      "glb_mesh_ids": [
+        194
+      ]
+    },
+    {
+      "photo_instance_id": "IMG_20261009_222135_1.jpg:C77",
+      "photo_image_path": "data\\photo-model\\by_board\\ultimainboard\\IMG_20261009_222135_1.jpg",
+      "photo_image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "photo_polygon_xy_pixels": [
+        [
+          197,
+          149
+        ],
+        [
+          292,
+          149
+        ],
+        [
+          312,
+          169
+        ],
+        [
+          312,
+          258
+        ],
+        [
+          292,
+          278
+        ],
+        [
+          197,
+          278
+        ],
+        [
+          177,
+          258
+        ],
+        [
+          177,
+          169
+        ]
+      ],
+      "photo_class_name": "electrolytic_capacitor",
+      "observed_reference_designator": "C77",
+      "source_component_id_candidate": "ultimainboard:2.1.4:C77",
+      "glb_selector_candidate": "ref:C77",
+      "selector_origin": "original_source_glb",
+      "geometry_kind": "original_source_component",
+      "join_basis": "visually_reviewed_photo_refdes_to_source_reference",
+      "installed_part_identity_confirmed": false,
+      "photo_to_3d_pose_verified": false,
+      "physical_flip_verified": false,
+      "ar_highlight_release_eligible": false,
+      "glb_mesh_ids": [
+        140
+      ]
+    },
+    {
+      "photo_instance_id": "IMG_20261009_222135_1.jpg:C76",
+      "photo_image_path": "data\\photo-model\\by_board\\ultimainboard\\IMG_20261009_222135_1.jpg",
+      "photo_image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "photo_polygon_xy_pixels": [
+        [
+          197,
+          510
+        ],
+        [
+          292,
+          510
+        ],
+        [
+          312,
+          530
+        ],
+        [
+          312,
+          619
+        ],
+        [
+          292,
+          639
+        ],
+        [
+          197,
+          639
+        ],
+        [
+          177,
+          619
+        ],
+        [
+          177,
+          530
+        ]
+      ],
+      "photo_class_name": "electrolytic_capacitor",
+      "observed_reference_designator": "C76",
+      "source_component_id_candidate": "ultimainboard:2.1.4:C76",
+      "glb_selector_candidate": "ref:C76",
+      "selector_origin": "original_source_glb",
+      "geometry_kind": "original_source_component",
+      "join_basis": "visually_reviewed_photo_refdes_to_source_reference",
+      "installed_part_identity_confirmed": false,
+      "photo_to_3d_pose_verified": false,
+      "physical_flip_verified": false,
+      "ar_highlight_release_eligible": false,
+      "glb_mesh_ids": [
+        79
+      ]
+    },
+    {
+      "photo_instance_id": "IMG_20261009_222135_1.jpg:C58",
+      "photo_image_path": "data\\photo-model\\by_board\\ultimainboard\\IMG_20261009_222135_1.jpg",
+      "photo_image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "photo_polygon_xy_pixels": [
+        [
+          198,
+          868
+        ],
+        [
+          293,
+          868
+        ],
+        [
+          313,
+          888
+        ],
+        [
+          313,
+          977
+        ],
+        [
+          293,
+          997
+        ],
+        [
+          198,
+          997
+        ],
+        [
+          178,
+          977
+        ],
+        [
+          178,
+          888
+        ]
+      ],
+      "photo_class_name": "electrolytic_capacitor",
+      "observed_reference_designator": "C58",
+      "source_component_id_candidate": "ultimainboard:2.1.4:C58",
+      "glb_selector_candidate": "ref:C58",
+      "selector_origin": "original_source_glb",
+      "geometry_kind": "original_source_component",
+      "join_basis": "visually_reviewed_photo_refdes_to_source_reference",
+      "installed_part_identity_confirmed": false,
+      "photo_to_3d_pose_verified": false,
+      "physical_flip_verified": false,
+      "ar_highlight_release_eligible": false,
+      "glb_mesh_ids": [
+        46,
+        47
+      ]
+    },
+    {
+      "photo_instance_id": "IMG_20261009_222135_1.jpg:C54",
+      "photo_image_path": "data\\photo-model\\by_board\\ultimainboard\\IMG_20261009_222135_1.jpg",
+      "photo_image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "photo_polygon_xy_pixels": [
+        [
+          198,
+          1228
+        ],
+        [
+          293,
+          1228
+        ],
+        [
+          313,
+          1248
+        ],
+        [
+          313,
+          1337
+        ],
+        [
+          293,
+          1357
+        ],
+        [
+          198,
+          1357
+        ],
+        [
+          178,
+          1337
+        ],
+        [
+          178,
+          1248
+        ]
+      ],
+      "photo_class_name": "electrolytic_capacitor",
+      "observed_reference_designator": "C54",
+      "source_component_id_candidate": "ultimainboard:2.1.4:C54",
+      "glb_selector_candidate": "ref:C54",
+      "selector_origin": "original_source_glb",
+      "geometry_kind": "original_source_component",
+      "join_basis": "visually_reviewed_photo_refdes_to_source_reference",
+      "installed_part_identity_confirmed": false,
+      "photo_to_3d_pose_verified": false,
+      "physical_flip_verified": false,
+      "ar_highlight_release_eligible": false,
+      "glb_mesh_ids": [
+        64
+      ]
+    },
+    {
+      "photo_instance_id": "IMG_20261009_222135_1.jpg:C53",
+      "photo_image_path": "data\\photo-model\\by_board\\ultimainboard\\IMG_20261009_222135_1.jpg",
+      "photo_image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "photo_polygon_xy_pixels": [
+        [
+          200,
+          1590
+        ],
+        [
+          295,
+          1590
+        ],
+        [
+          315,
+          1610
+        ],
+        [
+          315,
+          1699
+        ],
+        [
+          295,
+          1719
+        ],
+        [
+          200,
+          1719
+        ],
+        [
+          180,
+          1699
+        ],
+        [
+          180,
+          1610
+        ]
+      ],
+      "photo_class_name": "electrolytic_capacitor",
+      "observed_reference_designator": "C53",
+      "source_component_id_candidate": "ultimainboard:2.1.4:C53",
+      "glb_selector_candidate": "ref:C53",
+      "selector_origin": "original_source_glb",
+      "geometry_kind": "original_source_component",
+      "join_basis": "visually_reviewed_photo_refdes_to_source_reference",
+      "installed_part_identity_confirmed": false,
+      "photo_to_3d_pose_verified": false,
+      "physical_flip_verified": false,
+      "ar_highlight_release_eligible": false,
+      "glb_mesh_ids": [
+        367
+      ]
+    },
+    {
+      "photo_instance_id": "IMG_20261009_222135_1.jpg:C1",
+      "photo_image_path": "data\\photo-model\\by_board\\ultimainboard\\IMG_20261009_222135_1.jpg",
+      "photo_image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "photo_polygon_xy_pixels": [
+        [
+          462,
+          2707
+        ],
+        [
+          538,
+          2707
+        ],
+        [
+          562,
+          2732
+        ],
+        [
+          562,
+          2823
+        ],
+        [
+          538,
+          2848
+        ],
+        [
+          462,
+          2848
+        ],
+        [
+          438,
+          2823
+        ],
+        [
+          438,
+          2732
+        ]
+      ],
+      "photo_class_name": "electrolytic_capacitor",
+      "observed_reference_designator": "C1",
+      "source_component_id_candidate": "ultimainboard:2.1.4:C1",
+      "glb_selector_candidate": "ref:C1",
+      "selector_origin": "original_source_glb",
+      "geometry_kind": "original_source_component",
+      "join_basis": "visually_reviewed_photo_refdes_to_source_reference",
+      "installed_part_identity_confirmed": false,
+      "photo_to_3d_pose_verified": false,
+      "physical_flip_verified": false,
+      "ar_highlight_release_eligible": false,
+      "glb_mesh_ids": [
+        393,
+        394
+      ]
+    },
+    {
+      "photo_instance_id": "IMG_20261009_222135_1.jpg:C3",
+      "photo_image_path": "data\\photo-model\\by_board\\ultimainboard\\IMG_20261009_222135_1.jpg",
+      "photo_image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "photo_polygon_xy_pixels": [
+        [
+          590,
+          2707
+        ],
+        [
+          666,
+          2707
+        ],
+        [
+          690,
+          2732
+        ],
+        [
+          690,
+          2823
+        ],
+        [
+          666,
+          2848
+        ],
+        [
+          590,
+          2848
+        ],
+        [
+          566,
+          2823
+        ],
+        [
+          566,
+          2732
+        ]
+      ],
+      "photo_class_name": "electrolytic_capacitor",
+      "observed_reference_designator": "C3",
+      "source_component_id_candidate": "ultimainboard:2.1.4:C3",
+      "glb_selector_candidate": "ref:C3",
+      "selector_origin": "original_source_glb",
+      "geometry_kind": "original_source_component",
+      "join_basis": "visually_reviewed_photo_refdes_to_source_reference",
+      "installed_part_identity_confirmed": false,
+      "photo_to_3d_pose_verified": false,
+      "physical_flip_verified": false,
+      "ar_highlight_release_eligible": false,
+      "glb_mesh_ids": [
+        213,
+        214
+      ]
+    },
+    {
+      "photo_instance_id": "IMG_20261009_222135_1.jpg:K1",
+      "photo_image_path": "data\\photo-model\\by_board\\ultimainboard\\IMG_20261009_222135_1.jpg",
+      "photo_image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "photo_polygon_xy_pixels": [
+        [
+          77,
+          2594
+        ],
+        [
+          410,
+          2594
+        ],
+        [
+          410,
+          2887
+        ],
+        [
+          77,
+          2887
+        ]
+      ],
+      "photo_class_name": "relay",
+      "observed_reference_designator": "K1",
+      "source_component_id_candidate": "ultimainboard:2.1.4:K1",
+      "glb_selector_candidate": "ref:K1",
+      "selector_origin": "contact_completion_glb",
+      "geometry_kind": "approximate_package",
+      "join_basis": "visually_reviewed_photo_refdes_to_source_reference",
+      "installed_part_identity_confirmed": false,
+      "photo_to_3d_pose_verified": false,
+      "physical_flip_verified": false,
+      "ar_highlight_release_eligible": false,
+      "glb_mesh_ids": [
+        695
+      ]
+    },
+    {
+      "photo_instance_id": "IMG_20261009_222135_1.jpg:L2",
+      "photo_image_path": "data\\photo-model\\by_board\\ultimainboard\\IMG_20261009_222135_1.jpg",
+      "photo_image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "photo_polygon_xy_pixels": [
+        [
+          768,
+          2008
+        ],
+        [
+          878,
+          2008
+        ],
+        [
+          878,
+          2095
+        ],
+        [
+          768,
+          2095
+        ]
+      ],
+      "photo_class_name": "inductor",
+      "observed_reference_designator": "L2",
+      "source_component_id_candidate": "ultimainboard:2.1.4:L2",
+      "glb_selector_candidate": "ref:L2",
+      "selector_origin": "contact_completion_glb",
+      "geometry_kind": "approximate_package",
+      "join_basis": "visually_reviewed_photo_refdes_to_source_reference",
+      "installed_part_identity_confirmed": false,
+      "photo_to_3d_pose_verified": false,
+      "physical_flip_verified": false,
+      "ar_highlight_release_eligible": false,
+      "glb_mesh_ids": [
+        696
+      ]
+    },
+    {
+      "photo_instance_id": "IMG_20261009_222135_1.jpg:Y2",
+      "photo_image_path": "data\\photo-model\\by_board\\ultimainboard\\IMG_20261009_222135_1.jpg",
+      "photo_image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "photo_polygon_xy_pixels": [
+        [
+          900,
+          2630
+        ],
+        [
+          979,
+          2630
+        ],
+        [
+          979,
+          2829
+        ],
+        [
+          900,
+          2829
+        ]
+      ],
+      "photo_class_name": "crystal",
+      "observed_reference_designator": "Y2",
+      "source_component_id_candidate": "ultimainboard:2.1.4:Y2",
+      "glb_selector_candidate": "ref:Y2",
+      "selector_origin": "original_source_glb",
+      "geometry_kind": "original_source_component",
+      "join_basis": "visually_reviewed_photo_refdes_to_source_reference",
+      "installed_part_identity_confirmed": false,
+      "photo_to_3d_pose_verified": false,
+      "physical_flip_verified": false,
+      "ar_highlight_release_eligible": false,
+      "glb_mesh_ids": [
+        121,
+        122,
+        123
+      ]
+    },
+    {
+      "photo_instance_id": "IMG_20261009_222135_1.jpg:D16",
+      "photo_image_path": "data\\photo-model\\by_board\\ultimainboard\\IMG_20261009_222135_1.jpg",
+      "photo_image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "photo_polygon_xy_pixels": [
+        [
+          968,
+          2038
+        ],
+        [
+          1039,
+          2038
+        ],
+        [
+          1039,
+          2117
+        ],
+        [
+          968,
+          2117
+        ]
+      ],
+      "photo_class_name": "diode",
+      "observed_reference_designator": "D16",
+      "source_component_id_candidate": "ultimainboard:2.1.4:D16",
+      "glb_selector_candidate": "ref:D16",
+      "selector_origin": "original_source_glb",
+      "geometry_kind": "original_source_component",
+      "join_basis": "visually_reviewed_photo_refdes_to_source_reference",
+      "installed_part_identity_confirmed": false,
+      "photo_to_3d_pose_verified": false,
+      "physical_flip_verified": false,
+      "ar_highlight_release_eligible": false,
+      "glb_mesh_ids": [
+        142
+      ]
+    },
+    {
+      "photo_instance_id": "IMG_20261009_222135_1.jpg:D13",
+      "photo_image_path": "data\\photo-model\\by_board\\ultimainboard\\IMG_20261009_222135_1.jpg",
+      "photo_image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "photo_polygon_xy_pixels": [
+        [
+          283,
+          2065
+        ],
+        [
+          330,
+          2065
+        ],
+        [
+          330,
+          2131
+        ],
+        [
+          283,
+          2131
+        ]
+      ],
+      "photo_class_name": "diode",
+      "observed_reference_designator": "D13",
+      "source_component_id_candidate": "ultimainboard:2.1.4:D13",
+      "glb_selector_candidate": "ref:D13",
+      "selector_origin": "original_source_glb",
+      "geometry_kind": "original_source_component",
+      "join_basis": "visually_reviewed_photo_refdes_to_source_reference",
+      "installed_part_identity_confirmed": false,
+      "photo_to_3d_pose_verified": false,
+      "physical_flip_verified": false,
+      "ar_highlight_release_eligible": false,
+      "glb_mesh_ids": [
+        400
+      ]
+    },
+    {
+      "photo_instance_id": "IMG_20261009_222135_1.jpg:D14",
+      "photo_image_path": "data\\photo-model\\by_board\\ultimainboard\\IMG_20261009_222135_1.jpg",
+      "photo_image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "photo_polygon_xy_pixels": [
+        [
+          283,
+          2244
+        ],
+        [
+          330,
+          2244
+        ],
+        [
+          330,
+          2310
+        ],
+        [
+          283,
+          2310
+        ]
+      ],
+      "photo_class_name": "diode",
+      "observed_reference_designator": "D14",
+      "source_component_id_candidate": "ultimainboard:2.1.4:D14",
+      "glb_selector_candidate": "ref:D14",
+      "selector_origin": "original_source_glb",
+      "geometry_kind": "original_source_component",
+      "join_basis": "visually_reviewed_photo_refdes_to_source_reference",
+      "installed_part_identity_confirmed": false,
+      "photo_to_3d_pose_verified": false,
+      "physical_flip_verified": false,
+      "ar_highlight_release_eligible": false,
+      "glb_mesh_ids": [
+        12
+      ]
+    },
+    {
+      "photo_instance_id": "IMG_20261009_222135_1.jpg:D15",
+      "photo_image_path": "data\\photo-model\\by_board\\ultimainboard\\IMG_20261009_222135_1.jpg",
+      "photo_image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "photo_polygon_xy_pixels": [
+        [
+          283,
+          2422
+        ],
+        [
+          330,
+          2422
+        ],
+        [
+          330,
+          2489
+        ],
+        [
+          283,
+          2489
+        ]
+      ],
+      "photo_class_name": "diode",
+      "observed_reference_designator": "D15",
+      "source_component_id_candidate": "ultimainboard:2.1.4:D15",
+      "glb_selector_candidate": "ref:D15",
+      "selector_origin": "original_source_glb",
+      "geometry_kind": "original_source_component",
+      "join_basis": "visually_reviewed_photo_refdes_to_source_reference",
+      "installed_part_identity_confirmed": false,
+      "photo_to_3d_pose_verified": false,
+      "physical_flip_verified": false,
+      "ar_highlight_release_eligible": false,
+      "glb_mesh_ids": [
+        414
+      ]
+    },
+    {
+      "photo_instance_id": "IMG_20261009_222135_1.jpg:D100",
+      "photo_image_path": "data\\photo-model\\by_board\\ultimainboard\\IMG_20261009_222135_1.jpg",
+      "photo_image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "photo_polygon_xy_pixels": [
+        [
+          1108,
+          1624
+        ],
+        [
+          1155,
+          1624
+        ],
+        [
+          1155,
+          1677
+        ],
+        [
+          1108,
+          1677
+        ]
+      ],
+      "photo_class_name": "diode",
+      "observed_reference_designator": "D100",
+      "source_component_id_candidate": "ultimainboard:2.1.4:D100",
+      "glb_selector_candidate": "ref:D100",
+      "selector_origin": "original_source_glb",
+      "geometry_kind": "original_source_component",
+      "join_basis": "visually_reviewed_photo_refdes_to_source_reference",
+      "installed_part_identity_confirmed": false,
+      "photo_to_3d_pose_verified": false,
+      "physical_flip_verified": false,
+      "ar_highlight_release_eligible": false,
+      "glb_mesh_ids": [
+        186
+      ]
+    },
+    {
+      "photo_instance_id": "IMG_20261009_222135_1.jpg:D6",
+      "photo_image_path": "data\\photo-model\\by_board\\ultimainboard\\IMG_20261009_222135_1.jpg",
+      "photo_image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "photo_polygon_xy_pixels": [
+        [
+          1104,
+          2644
+        ],
+        [
+          1149,
+          2644
+        ],
+        [
+          1149,
+          2718
+        ],
+        [
+          1104,
+          2718
+        ]
+      ],
+      "photo_class_name": "diode",
+      "observed_reference_designator": "D6",
+      "source_component_id_candidate": "ultimainboard:2.1.4:D6",
+      "glb_selector_candidate": "ref:D6",
+      "selector_origin": "original_source_glb",
+      "geometry_kind": "original_source_component",
+      "join_basis": "visually_reviewed_photo_refdes_to_source_reference",
+      "installed_part_identity_confirmed": false,
+      "photo_to_3d_pose_verified": false,
+      "physical_flip_verified": false,
+      "ar_highlight_release_eligible": false,
+      "glb_mesh_ids": [
+        99
+      ]
+    },
+    {
+      "photo_instance_id": "IMG_20261009_222135_1.jpg:D5",
+      "photo_image_path": "data\\photo-model\\by_board\\ultimainboard\\IMG_20261009_222135_1.jpg",
+      "photo_image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "photo_polygon_xy_pixels": [
+        [
+          1104,
+          2789
+        ],
+        [
+          1149,
+          2789
+        ],
+        [
+          1149,
+          2864
+        ],
+        [
+          1104,
+          2864
+        ]
+      ],
+      "photo_class_name": "diode",
+      "observed_reference_designator": "D5",
+      "source_component_id_candidate": "ultimainboard:2.1.4:D5",
+      "glb_selector_candidate": "ref:D5",
+      "selector_origin": "original_source_glb",
+      "geometry_kind": "original_source_component",
+      "join_basis": "visually_reviewed_photo_refdes_to_source_reference",
+      "installed_part_identity_confirmed": false,
+      "photo_to_3d_pose_verified": false,
+      "physical_flip_verified": false,
+      "ar_highlight_release_eligible": false,
+      "glb_mesh_ids": [
+        192
+      ]
+    },
+    {
+      "photo_instance_id": "IMG_20261009_222135_1.jpg:D9",
+      "photo_image_path": "data\\photo-model\\by_board\\ultimainboard\\IMG_20261009_222135_1.jpg",
+      "photo_image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "photo_polygon_xy_pixels": [
+        [
+          354,
+          100
+        ],
+        [
+          397,
+          100
+        ],
+        [
+          397,
+          164
+        ],
+        [
+          354,
+          164
+        ]
+      ],
+      "photo_class_name": "diode",
+      "observed_reference_designator": "D9",
+      "source_component_id_candidate": "ultimainboard:2.1.4:D9",
+      "glb_selector_candidate": "ref:D9",
+      "selector_origin": "original_source_glb",
+      "geometry_kind": "original_source_component",
+      "join_basis": "visually_reviewed_photo_refdes_to_source_reference",
+      "installed_part_identity_confirmed": false,
+      "photo_to_3d_pose_verified": false,
+      "physical_flip_verified": false,
+      "ar_highlight_release_eligible": false,
+      "glb_mesh_ids": [
+        48
+      ]
+    },
+    {
+      "photo_instance_id": "IMG_20261009_222135_1.jpg:D8",
+      "photo_image_path": "data\\photo-model\\by_board\\ultimainboard\\IMG_20261009_222135_1.jpg",
+      "photo_image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "photo_polygon_xy_pixels": [
+        [
+          475,
+          2564
+        ],
+        [
+          525,
+          2564
+        ],
+        [
+          525,
+          2636
+        ],
+        [
+          475,
+          2636
+        ]
+      ],
+      "photo_class_name": "diode",
+      "observed_reference_designator": "D8",
+      "source_component_id_candidate": "ultimainboard:2.1.4:D8",
+      "glb_selector_candidate": "ref:D8",
+      "selector_origin": "original_source_glb",
+      "geometry_kind": "original_source_component",
+      "join_basis": "visually_reviewed_photo_refdes_to_source_reference",
+      "installed_part_identity_confirmed": false,
+      "photo_to_3d_pose_verified": false,
+      "physical_flip_verified": false,
+      "ar_highlight_release_eligible": false,
+      "glb_mesh_ids": [
+        50
+      ]
+    },
+    {
+      "photo_instance_id": "IMG_20261009_222135_1.jpg:C5",
+      "photo_image_path": "data\\photo-model\\by_board\\ultimainboard\\IMG_20261009_222135_1.jpg",
+      "photo_image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "photo_polygon_xy_pixels": [
+        [
+          961,
+          344
+        ],
+        [
+          997,
+          344
+        ],
+        [
+          997,
+          363
+        ],
+        [
+          961,
+          363
+        ]
+      ],
+      "photo_class_name": "ceramic_capacitor",
+      "observed_reference_designator": "C5",
+      "source_component_id_candidate": "ultimainboard:2.1.4:C5",
+      "glb_selector_candidate": "ref:C5",
+      "selector_origin": "original_source_glb",
+      "geometry_kind": "original_source_component",
+      "join_basis": "visually_reviewed_photo_refdes_to_source_reference",
+      "installed_part_identity_confirmed": false,
+      "photo_to_3d_pose_verified": false,
+      "physical_flip_verified": false,
+      "ar_highlight_release_eligible": false,
+      "glb_mesh_ids": [
+        211,
+        212
+      ]
+    },
+    {
+      "photo_instance_id": "IMG_20261009_222135_1.jpg:C2",
+      "photo_image_path": "data\\photo-model\\by_board\\ultimainboard\\IMG_20261009_222135_1.jpg",
+      "photo_image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "photo_polygon_xy_pixels": [
+        [
+          1069,
+          398
+        ],
+        [
+          1098,
+          398
+        ],
+        [
+          1098,
+          416
+        ],
+        [
+          1069,
+          416
+        ]
+      ],
+      "photo_class_name": "ceramic_capacitor",
+      "observed_reference_designator": "C2",
+      "source_component_id_candidate": "ultimainboard:2.1.4:C2",
+      "glb_selector_candidate": "ref:C2",
+      "selector_origin": "original_source_glb",
+      "geometry_kind": "original_source_component",
+      "join_basis": "visually_reviewed_photo_refdes_to_source_reference",
+      "installed_part_identity_confirmed": false,
+      "photo_to_3d_pose_verified": false,
+      "physical_flip_verified": false,
+      "ar_highlight_release_eligible": false,
+      "glb_mesh_ids": [
+        242,
+        243
+      ]
+    },
+    {
+      "photo_instance_id": "IMG_20261009_222135_1.jpg:C4",
+      "photo_image_path": "data\\photo-model\\by_board\\ultimainboard\\IMG_20261009_222135_1.jpg",
+      "photo_image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "photo_polygon_xy_pixels": [
+        [
+          933,
+          775
+        ],
+        [
+          973,
+          775
+        ],
+        [
+          973,
+          793
+        ],
+        [
+          933,
+          793
+        ]
+      ],
+      "photo_class_name": "ceramic_capacitor",
+      "observed_reference_designator": "C4",
+      "source_component_id_candidate": "ultimainboard:2.1.4:C4",
+      "glb_selector_candidate": "ref:C4",
+      "selector_origin": "original_source_glb",
+      "geometry_kind": "original_source_component",
+      "join_basis": "visually_reviewed_photo_refdes_to_source_reference",
+      "installed_part_identity_confirmed": false,
+      "photo_to_3d_pose_verified": false,
+      "physical_flip_verified": false,
+      "ar_highlight_release_eligible": false,
+      "glb_mesh_ids": [
+        92,
+        93
+      ]
+    },
+    {
+      "photo_instance_id": "IMG_20261009_222135_1.jpg:C82",
+      "photo_image_path": "data\\photo-model\\by_board\\ultimainboard\\IMG_20261009_222135_1.jpg",
+      "photo_image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "photo_polygon_xy_pixels": [
+        [
+          341,
+          210
+        ],
+        [
+          366,
+          210
+        ],
+        [
+          366,
+          261
+        ],
+        [
+          341,
+          261
+        ]
+      ],
+      "photo_class_name": "ceramic_capacitor",
+      "observed_reference_designator": "C82",
+      "source_component_id_candidate": "ultimainboard:2.1.4:C82",
+      "glb_selector_candidate": "ref:C82",
+      "selector_origin": "original_source_glb",
+      "geometry_kind": "original_source_component",
+      "join_basis": "visually_reviewed_photo_refdes_to_source_reference",
+      "installed_part_identity_confirmed": false,
+      "photo_to_3d_pose_verified": false,
+      "physical_flip_verified": false,
+      "ar_highlight_release_eligible": false,
+      "glb_mesh_ids": [
+        8
+      ]
+    },
+    {
+      "photo_instance_id": "IMG_20261009_222135_1.jpg:C78",
+      "photo_image_path": "data\\photo-model\\by_board\\ultimainboard\\IMG_20261009_222135_1.jpg",
+      "photo_image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "photo_polygon_xy_pixels": [
+        [
+          341,
+          574
+        ],
+        [
+          366,
+          574
+        ],
+        [
+          366,
+          622
+        ],
+        [
+          341,
+          622
+        ]
+      ],
+      "photo_class_name": "ceramic_capacitor",
+      "observed_reference_designator": "C78",
+      "source_component_id_candidate": "ultimainboard:2.1.4:C78",
+      "glb_selector_candidate": "ref:C78",
+      "selector_origin": "original_source_glb",
+      "geometry_kind": "original_source_component",
+      "join_basis": "visually_reviewed_photo_refdes_to_source_reference",
+      "installed_part_identity_confirmed": false,
+      "photo_to_3d_pose_verified": false,
+      "physical_flip_verified": false,
+      "ar_highlight_release_eligible": false,
+      "glb_mesh_ids": [
+        11
+      ]
+    },
+    {
+      "photo_instance_id": "IMG_20261009_222135_1.jpg:C64",
+      "photo_image_path": "data\\photo-model\\by_board\\ultimainboard\\IMG_20261009_222135_1.jpg",
+      "photo_image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "photo_polygon_xy_pixels": [
+        [
+          341,
+          938
+        ],
+        [
+          366,
+          938
+        ],
+        [
+          366,
+          983
+        ],
+        [
+          341,
+          983
+        ]
+      ],
+      "photo_class_name": "ceramic_capacitor",
+      "observed_reference_designator": "C64",
+      "source_component_id_candidate": "ultimainboard:2.1.4:C64",
+      "glb_selector_candidate": "ref:C64",
+      "selector_origin": "original_source_glb",
+      "geometry_kind": "original_source_component",
+      "join_basis": "visually_reviewed_photo_refdes_to_source_reference",
+      "installed_part_identity_confirmed": false,
+      "photo_to_3d_pose_verified": false,
+      "physical_flip_verified": false,
+      "ar_highlight_release_eligible": false,
+      "glb_mesh_ids": [
+        74
+      ]
+    },
+    {
+      "photo_instance_id": "IMG_20261009_222135_1.jpg:C60",
+      "photo_image_path": "data\\photo-model\\by_board\\ultimainboard\\IMG_20261009_222135_1.jpg",
+      "photo_image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "photo_polygon_xy_pixels": [
+        [
+          342,
+          1300
+        ],
+        [
+          367,
+          1300
+        ],
+        [
+          367,
+          1346
+        ],
+        [
+          342,
+          1346
+        ]
+      ],
+      "photo_class_name": "ceramic_capacitor",
+      "observed_reference_designator": "C60",
+      "source_component_id_candidate": "ultimainboard:2.1.4:C60",
+      "glb_selector_candidate": "ref:C60",
+      "selector_origin": "original_source_glb",
+      "geometry_kind": "original_source_component",
+      "join_basis": "visually_reviewed_photo_refdes_to_source_reference",
+      "installed_part_identity_confirmed": false,
+      "photo_to_3d_pose_verified": false,
+      "physical_flip_verified": false,
+      "ar_highlight_release_eligible": false,
+      "glb_mesh_ids": [
+        379
+      ]
+    },
+    {
+      "photo_instance_id": "IMG_20261009_222135_1.jpg:C55",
+      "photo_image_path": "data\\photo-model\\by_board\\ultimainboard\\IMG_20261009_222135_1.jpg",
+      "photo_image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "photo_polygon_xy_pixels": [
+        [
+          343,
+          1657
+        ],
+        [
+          369,
+          1657
+        ],
+        [
+          369,
+          1703
+        ],
+        [
+          343,
+          1703
+        ]
+      ],
+      "photo_class_name": "ceramic_capacitor",
+      "observed_reference_designator": "C55",
+      "source_component_id_candidate": "ultimainboard:2.1.4:C55",
+      "glb_selector_candidate": "ref:C55",
+      "selector_origin": "original_source_glb",
+      "geometry_kind": "original_source_component",
+      "join_basis": "visually_reviewed_photo_refdes_to_source_reference",
+      "installed_part_identity_confirmed": false,
+      "photo_to_3d_pose_verified": false,
+      "physical_flip_verified": false,
+      "ar_highlight_release_eligible": false,
+      "glb_mesh_ids": [
+        360
+      ]
+    },
+    {
+      "photo_instance_id": "IMG_20261009_222135_1.jpg:C110",
+      "photo_image_path": "data\\photo-model\\by_board\\ultimainboard\\IMG_20261009_222135_1.jpg",
+      "photo_image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "photo_polygon_xy_pixels": [
+        [
+          726,
+          2161
+        ],
+        [
+          756,
+          2161
+        ],
+        [
+          756,
+          2214
+        ],
+        [
+          726,
+          2214
+        ]
+      ],
+      "photo_class_name": "ceramic_capacitor",
+      "observed_reference_designator": "C110",
+      "source_component_id_candidate": "ultimainboard:2.1.4:C110",
+      "glb_selector_candidate": "ref:C110",
+      "selector_origin": "original_source_glb",
+      "geometry_kind": "original_source_component",
+      "join_basis": "visually_reviewed_photo_refdes_to_source_reference",
+      "installed_part_identity_confirmed": false,
+      "photo_to_3d_pose_verified": false,
+      "physical_flip_verified": false,
+      "ar_highlight_release_eligible": false,
+      "glb_mesh_ids": [
+        278,
+        279
+      ]
+    },
+    {
+      "photo_instance_id": "IMG_20261009_222135_1.jpg:C10",
+      "photo_image_path": "data\\photo-model\\by_board\\ultimainboard\\IMG_20261009_222135_1.jpg",
+      "photo_image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "photo_polygon_xy_pixels": [
+        [
+          869,
+          2605
+        ],
+        [
+          892,
+          2605
+        ],
+        [
+          892,
+          2648
+        ],
+        [
+          869,
+          2648
+        ]
+      ],
+      "photo_class_name": "ceramic_capacitor",
+      "observed_reference_designator": "C10",
+      "source_component_id_candidate": "ultimainboard:2.1.4:C10",
+      "glb_selector_candidate": "ref:C10",
+      "selector_origin": "original_source_glb",
+      "geometry_kind": "original_source_component",
+      "join_basis": "visually_reviewed_photo_refdes_to_source_reference",
+      "installed_part_identity_confirmed": false,
+      "photo_to_3d_pose_verified": false,
+      "physical_flip_verified": false,
+      "ar_highlight_release_eligible": false,
+      "glb_mesh_ids": [
+        314,
+        315
+      ]
+    },
+    {
+      "photo_instance_id": "IMG_20261009_222135_1.jpg:C8",
+      "photo_image_path": "data\\photo-model\\by_board\\ultimainboard\\IMG_20261009_222135_1.jpg",
+      "photo_image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "photo_polygon_xy_pixels": [
+        [
+          827,
+          2736
+        ],
+        [
+          863,
+          2736
+        ],
+        [
+          863,
+          2756
+        ],
+        [
+          827,
+          2756
+        ]
+      ],
+      "photo_class_name": "ceramic_capacitor",
+      "observed_reference_designator": "C8",
+      "source_component_id_candidate": "ultimainboard:2.1.4:C8",
+      "glb_selector_candidate": "ref:C8",
+      "selector_origin": "original_source_glb",
+      "geometry_kind": "original_source_component",
+      "join_basis": "visually_reviewed_photo_refdes_to_source_reference",
+      "installed_part_identity_confirmed": false,
+      "photo_to_3d_pose_verified": false,
+      "physical_flip_verified": false,
+      "ar_highlight_release_eligible": false,
+      "glb_mesh_ids": [
+        72,
+        73
+      ]
+    },
+    {
+      "photo_instance_id": "IMG_20261009_222135_1.jpg:C7",
+      "photo_image_path": "data\\photo-model\\by_board\\ultimainboard\\IMG_20261009_222135_1.jpg",
+      "photo_image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "photo_polygon_xy_pixels": [
+        [
+          981,
+          2788
+        ],
+        [
+          1003,
+          2788
+        ],
+        [
+          1003,
+          2828
+        ],
+        [
+          981,
+          2828
+        ]
+      ],
+      "photo_class_name": "ceramic_capacitor",
+      "observed_reference_designator": "C7",
+      "source_component_id_candidate": "ultimainboard:2.1.4:C7",
+      "glb_selector_candidate": "ref:C7",
+      "selector_origin": "original_source_glb",
+      "geometry_kind": "original_source_component",
+      "join_basis": "visually_reviewed_photo_refdes_to_source_reference",
+      "installed_part_identity_confirmed": false,
+      "photo_to_3d_pose_verified": false,
+      "physical_flip_verified": false,
+      "ar_highlight_release_eligible": false,
+      "glb_mesh_ids": [
+        294,
+        295
+      ]
+    },
+    {
+      "photo_instance_id": "IMG_20261009_222135_1.jpg:C9",
+      "photo_image_path": "data\\photo-model\\by_board\\ultimainboard\\IMG_20261009_222135_1.jpg",
+      "photo_image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "photo_polygon_xy_pixels": [
+        [
+          927,
+          2592
+        ],
+        [
+          965,
+          2592
+        ],
+        [
+          965,
+          2610
+        ],
+        [
+          927,
+          2610
+        ]
+      ],
+      "photo_class_name": "ceramic_capacitor",
+      "observed_reference_designator": "C9",
+      "source_component_id_candidate": "ultimainboard:2.1.4:C9",
+      "glb_selector_candidate": "ref:C9",
+      "selector_origin": "original_source_glb",
+      "geometry_kind": "original_source_component",
+      "join_basis": "visually_reviewed_photo_refdes_to_source_reference",
+      "installed_part_identity_confirmed": false,
+      "photo_to_3d_pose_verified": false,
+      "physical_flip_verified": false,
+      "ar_highlight_release_eligible": false,
+      "glb_mesh_ids": [
+        260,
+        261
+      ]
+    },
+    {
+      "photo_instance_id": "IMG_20261009_222135_1.jpg:C6",
+      "photo_image_path": "data\\photo-model\\by_board\\ultimainboard\\IMG_20261009_222135_1.jpg",
+      "photo_image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "photo_polygon_xy_pixels": [
+        [
+          711,
+          2735
+        ],
+        [
+          752,
+          2735
+        ],
+        [
+          752,
+          2756
+        ],
+        [
+          711,
+          2756
+        ]
+      ],
+      "photo_class_name": "ceramic_capacitor",
+      "observed_reference_designator": "C6",
+      "source_component_id_candidate": "ultimainboard:2.1.4:C6",
+      "glb_selector_candidate": "ref:C6",
+      "selector_origin": "original_source_glb",
+      "geometry_kind": "original_source_component",
+      "join_basis": "visually_reviewed_photo_refdes_to_source_reference",
+      "installed_part_identity_confirmed": false,
+      "photo_to_3d_pose_verified": false,
+      "physical_flip_verified": false,
+      "ar_highlight_release_eligible": false,
+      "glb_mesh_ids": [
+        431,
+        432
+      ]
+    },
+    {
+      "photo_instance_id": "IMG_20261009_222135_1.jpg:R1",
+      "photo_image_path": "data\\photo-model\\by_board\\ultimainboard\\IMG_20261009_222135_1.jpg",
+      "photo_image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "photo_polygon_xy_pixels": [
+        [
+          1099,
+          820
+        ],
+        [
+          1147,
+          820
+        ],
+        [
+          1147,
+          839
+        ],
+        [
+          1099,
+          839
+        ]
+      ],
+      "photo_class_name": "resistor",
+      "observed_reference_designator": "R1",
+      "source_component_id_candidate": "ultimainboard:2.1.4:R1",
+      "glb_selector_candidate": "ref:R1",
+      "selector_origin": "original_source_glb",
+      "geometry_kind": "original_source_component",
+      "join_basis": "visually_reviewed_photo_refdes_to_source_reference",
+      "installed_part_identity_confirmed": false,
+      "photo_to_3d_pose_verified": false,
+      "physical_flip_verified": false,
+      "ar_highlight_release_eligible": false,
+      "glb_mesh_ids": [
+        128
+      ]
+    },
+    {
+      "photo_instance_id": "IMG_20261009_222135_1.jpg:R2",
+      "photo_image_path": "data\\photo-model\\by_board\\ultimainboard\\IMG_20261009_222135_1.jpg",
+      "photo_image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "photo_polygon_xy_pixels": [
+        [
+          1099,
+          862
+        ],
+        [
+          1147,
+          862
+        ],
+        [
+          1147,
+          881
+        ],
+        [
+          1099,
+          881
+        ]
+      ],
+      "photo_class_name": "resistor",
+      "observed_reference_designator": "R2",
+      "source_component_id_candidate": "ultimainboard:2.1.4:R2",
+      "glb_selector_candidate": "ref:R2",
+      "selector_origin": "original_source_glb",
+      "geometry_kind": "original_source_component",
+      "join_basis": "visually_reviewed_photo_refdes_to_source_reference",
+      "installed_part_identity_confirmed": false,
+      "photo_to_3d_pose_verified": false,
+      "physical_flip_verified": false,
+      "ar_highlight_release_eligible": false,
+      "glb_mesh_ids": [
+        270
+      ]
+    },
+    {
+      "photo_instance_id": "IMG_20261009_222135_1.jpg:R45",
+      "photo_image_path": "data\\photo-model\\by_board\\ultimainboard\\IMG_20261009_222135_1.jpg",
+      "photo_image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "photo_polygon_xy_pixels": [
+        [
+          844,
+          2396
+        ],
+        [
+          886,
+          2396
+        ],
+        [
+          886,
+          2414
+        ],
+        [
+          844,
+          2414
+        ]
+      ],
+      "photo_class_name": "resistor",
+      "observed_reference_designator": "R45",
+      "source_component_id_candidate": "ultimainboard:2.1.4:R45",
+      "glb_selector_candidate": "ref:R45",
+      "selector_origin": "original_source_glb",
+      "geometry_kind": "original_source_component",
+      "join_basis": "visually_reviewed_photo_refdes_to_source_reference",
+      "installed_part_identity_confirmed": false,
+      "photo_to_3d_pose_verified": false,
+      "physical_flip_verified": false,
+      "ar_highlight_release_eligible": false,
+      "glb_mesh_ids": [
+        146
+      ]
+    },
+    {
+      "photo_instance_id": "IMG_20261009_222135_1.jpg:R12",
+      "photo_image_path": "data\\photo-model\\by_board\\ultimainboard\\IMG_20261009_222135_1.jpg",
+      "photo_image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "photo_polygon_xy_pixels": [
+        [
+          844,
+          2437
+        ],
+        [
+          886,
+          2437
+        ],
+        [
+          886,
+          2455
+        ],
+        [
+          844,
+          2455
+        ]
+      ],
+      "photo_class_name": "resistor",
+      "observed_reference_designator": "R12",
+      "source_component_id_candidate": "ultimainboard:2.1.4:R12",
+      "glb_selector_candidate": "ref:R12",
+      "selector_origin": "original_source_glb",
+      "geometry_kind": "original_source_component",
+      "join_basis": "visually_reviewed_photo_refdes_to_source_reference",
+      "installed_part_identity_confirmed": false,
+      "photo_to_3d_pose_verified": false,
+      "physical_flip_verified": false,
+      "ar_highlight_release_eligible": false,
+      "glb_mesh_ids": [
+        415
+      ]
+    },
+    {
+      "photo_instance_id": "IMG_20261009_222135_1.jpg:R11",
+      "photo_image_path": "data\\photo-model\\by_board\\ultimainboard\\IMG_20261009_222135_1.jpg",
+      "photo_image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "photo_polygon_xy_pixels": [
+        [
+          844,
+          2477
+        ],
+        [
+          886,
+          2477
+        ],
+        [
+          886,
+          2495
+        ],
+        [
+          844,
+          2495
+        ]
+      ],
+      "photo_class_name": "resistor",
+      "observed_reference_designator": "R11",
+      "source_component_id_candidate": "ultimainboard:2.1.4:R11",
+      "glb_selector_candidate": "ref:R11",
+      "selector_origin": "original_source_glb",
+      "geometry_kind": "original_source_component",
+      "join_basis": "visually_reviewed_photo_refdes_to_source_reference",
+      "installed_part_identity_confirmed": false,
+      "photo_to_3d_pose_verified": false,
+      "physical_flip_verified": false,
+      "ar_highlight_release_eligible": false,
+      "glb_mesh_ids": [
+        206
+      ]
+    },
+    {
+      "photo_instance_id": "IMG_20261009_222135_1.jpg:R14",
+      "photo_image_path": "data\\photo-model\\by_board\\ultimainboard\\IMG_20261009_222135_1.jpg",
+      "photo_image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "photo_polygon_xy_pixels": [
+        [
+          844,
+          2509
+        ],
+        [
+          886,
+          2509
+        ],
+        [
+          886,
+          2527
+        ],
+        [
+          844,
+          2527
+        ]
+      ],
+      "photo_class_name": "resistor",
+      "observed_reference_designator": "R14",
+      "source_component_id_candidate": "ultimainboard:2.1.4:R14",
+      "glb_selector_candidate": "ref:R14",
+      "selector_origin": "original_source_glb",
+      "geometry_kind": "original_source_component",
+      "join_basis": "visually_reviewed_photo_refdes_to_source_reference",
+      "installed_part_identity_confirmed": false,
+      "photo_to_3d_pose_verified": false,
+      "physical_flip_verified": false,
+      "ar_highlight_release_eligible": false,
+      "glb_mesh_ids": [
+        100
+      ]
+    },
+    {
+      "photo_instance_id": "IMG_20261009_222135_1.jpg:R13",
+      "photo_image_path": "data\\photo-model\\by_board\\ultimainboard\\IMG_20261009_222135_1.jpg",
+      "photo_image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "photo_polygon_xy_pixels": [
+        [
+          844,
+          2538
+        ],
+        [
+          886,
+          2538
+        ],
+        [
+          886,
+          2556
+        ],
+        [
+          844,
+          2556
+        ]
+      ],
+      "photo_class_name": "resistor",
+      "observed_reference_designator": "R13",
+      "source_component_id_candidate": "ultimainboard:2.1.4:R13",
+      "glb_selector_candidate": "ref:R13",
+      "selector_origin": "original_source_glb",
+      "geometry_kind": "original_source_component",
+      "join_basis": "visually_reviewed_photo_refdes_to_source_reference",
+      "installed_part_identity_confirmed": false,
+      "photo_to_3d_pose_verified": false,
+      "physical_flip_verified": false,
+      "ar_highlight_release_eligible": false,
+      "glb_mesh_ids": [
+        419
+      ]
+    },
+    {
+      "photo_instance_id": "IMG_20261009_222135_1.jpg:R9",
+      "photo_image_path": "data\\photo-model\\by_board\\ultimainboard\\IMG_20261009_222135_1.jpg",
+      "photo_image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "photo_polygon_xy_pixels": [
+        [
+          706,
+          2817
+        ],
+        [
+          725,
+          2817
+        ],
+        [
+          725,
+          2858
+        ],
+        [
+          706,
+          2858
+        ]
+      ],
+      "photo_class_name": "resistor",
+      "observed_reference_designator": "R9",
+      "source_component_id_candidate": "ultimainboard:2.1.4:R9",
+      "glb_selector_candidate": "ref:R9",
+      "selector_origin": "original_source_glb",
+      "geometry_kind": "original_source_component",
+      "join_basis": "visually_reviewed_photo_refdes_to_source_reference",
+      "installed_part_identity_confirmed": false,
+      "photo_to_3d_pose_verified": false,
+      "physical_flip_verified": false,
+      "ar_highlight_release_eligible": false,
+      "glb_mesh_ids": [
+        27
+      ]
+    },
+    {
+      "photo_instance_id": "IMG_20261009_222135_1.jpg:R7",
+      "photo_image_path": "data\\photo-model\\by_board\\ultimainboard\\IMG_20261009_222135_1.jpg",
+      "photo_image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "photo_polygon_xy_pixels": [
+        [
+          748,
+          2817
+        ],
+        [
+          767,
+          2817
+        ],
+        [
+          767,
+          2858
+        ],
+        [
+          748,
+          2858
+        ]
+      ],
+      "photo_class_name": "resistor",
+      "observed_reference_designator": "R7",
+      "source_component_id_candidate": "ultimainboard:2.1.4:R7",
+      "glb_selector_candidate": "ref:R7",
+      "selector_origin": "original_source_glb",
+      "geometry_kind": "original_source_component",
+      "join_basis": "visually_reviewed_photo_refdes_to_source_reference",
+      "installed_part_identity_confirmed": false,
+      "photo_to_3d_pose_verified": false,
+      "physical_flip_verified": false,
+      "ar_highlight_release_eligible": false,
+      "glb_mesh_ids": [
+        127
+      ]
+    },
+    {
+      "photo_instance_id": "IMG_20261009_222135_1.jpg:R6",
+      "photo_image_path": "data\\photo-model\\by_board\\ultimainboard\\IMG_20261009_222135_1.jpg",
+      "photo_image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "photo_polygon_xy_pixels": [
+        [
+          789,
+          2817
+        ],
+        [
+          808,
+          2817
+        ],
+        [
+          808,
+          2858
+        ],
+        [
+          789,
+          2858
+        ]
+      ],
+      "photo_class_name": "resistor",
+      "observed_reference_designator": "R6",
+      "source_component_id_candidate": "ultimainboard:2.1.4:R6",
+      "glb_selector_candidate": "ref:R6",
+      "selector_origin": "original_source_glb",
+      "geometry_kind": "original_source_component",
+      "join_basis": "visually_reviewed_photo_refdes_to_source_reference",
+      "installed_part_identity_confirmed": false,
+      "photo_to_3d_pose_verified": false,
+      "physical_flip_verified": false,
+      "ar_highlight_release_eligible": false,
+      "glb_mesh_ids": [
+        343
+      ]
+    },
+    {
+      "photo_instance_id": "IMG_20261009_222135_1.jpg:R8",
+      "photo_image_path": "data\\photo-model\\by_board\\ultimainboard\\IMG_20261009_222135_1.jpg",
+      "photo_image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "photo_polygon_xy_pixels": [
+        [
+          831,
+          2817
+        ],
+        [
+          850,
+          2817
+        ],
+        [
+          850,
+          2858
+        ],
+        [
+          831,
+          2858
+        ]
+      ],
+      "photo_class_name": "resistor",
+      "observed_reference_designator": "R8",
+      "source_component_id_candidate": "ultimainboard:2.1.4:R8",
+      "glb_selector_candidate": "ref:R8",
+      "selector_origin": "original_source_glb",
+      "geometry_kind": "original_source_component",
+      "join_basis": "visually_reviewed_photo_refdes_to_source_reference",
+      "installed_part_identity_confirmed": false,
+      "photo_to_3d_pose_verified": false,
+      "physical_flip_verified": false,
+      "ar_highlight_release_eligible": false,
+      "glb_mesh_ids": [
+        57
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "photo_instance_id": "IMG_20261009_222135_1.jpg:upper_eight_position_strip",
+      "observed_reference_designator": null,
+      "reason": "photo_source_header_refdes_or_pin_count_conflict"
+    },
+    {
+      "photo_instance_id": "IMG_20261009_222135_1.jpg:lower_eight_position_strip",
+      "observed_reference_designator": null,
+      "reason": "photo_source_header_refdes_or_pin_count_conflict"
+    },
+    {
+      "photo_instance_id": "IMG_20261009_222135_1.jpg:C106",
+      "observed_reference_designator": "C106",
+      "reason": "unresolved"
+    }
+  ]
+}
