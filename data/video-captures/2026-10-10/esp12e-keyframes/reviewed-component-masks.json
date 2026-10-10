@@ -1,0 +1,659 @@
+{
+  "schema_version": "1.0",
+  "board_family": "esp8266_nodemcu_esp12e_clone_unknown_variant",
+  "physical_specimen_id": "bench-esp8266-01",
+  "capture_session_id": "bench-esp8266-01:20261010_122211",
+  "coordinate_frame": "upright_saved_image_pixels",
+  "image_path": "data/video-captures/2026-10-10/esp12e-keyframes/video_20261010_122211_n000523_pts00017497ms.jpg",
+  "image_width": 1080,
+  "image_height": 1920,
+  "coverage": "partial_visible_bodies",
+  "training_export_eligible": false,
+  "review_evidence": "Upright original frame visually inspected. Board top and left edge are clipped. Visible PCB text reads Ver 0.1; module shield reads MODEL: ESP-12E. Controller and regulator ordering codes are unreadable. Polygons describe package bodies rather than electrical leads or complete assembly extents. Additional switch, passive and three-terminal bodies reviewed in the same original frame. Printed resistor and capacitor strings are retained literally; no component value or manufacturer ordering code inferred.",
+  "observed_pcb_text": "Ver 0.1",
+  "source_reference_designators_confirmed": false,
+  "masks": [
+    {
+      "instance_id": "bench-esp8266-01:usb_serial_controller_body",
+      "class_name": "integrated_circuit",
+      "exact_part_name": null,
+      "identity_status": "unresolved_marking",
+      "polygon_xy_pixels": [
+        [
+          99,
+          1217
+        ],
+        [
+          453,
+          1220
+        ],
+        [
+          451,
+          1349
+        ],
+        [
+          95,
+          1346
+        ]
+      ],
+      "boundary_scope": "visible_package_body_excluding_leads",
+      "boundary_uncertainty_pixels": 6
+    },
+    {
+      "instance_id": "bench-esp8266-01:regulator_body",
+      "class_name": "integrated_circuit",
+      "exact_part_name": null,
+      "identity_status": "unresolved_marking",
+      "polygon_xy_pixels": [
+        [
+          500,
+          735
+        ],
+        [
+          607,
+          737
+        ],
+        [
+          602,
+          934
+        ],
+        [
+          496,
+          932
+        ]
+      ],
+      "boundary_scope": "visible_package_body_excluding_leads_and_tab",
+      "boundary_uncertainty_pixels": 6
+    },
+    {
+      "instance_id": "bench-esp8266-01:rf_module_shield",
+      "class_name": "rf_shield",
+      "parent_component_id": "bench-esp8266-01:esp12e_module",
+      "observed_parent_marking": "MODEL: ESP-12E",
+      "polygon_xy_pixels": [
+        [
+          220,
+          23
+        ],
+        [
+          615,
+          29
+        ],
+        [
+          607,
+          478
+        ],
+        [
+          203,
+          476
+        ]
+      ],
+      "boundary_scope": "shield_top_surface_only_excludes_module_antenna_pcb_and_contacts",
+      "boundary_uncertainty_pixels": 8
+    },
+    {
+      "instance_id": "bench-esp8266-01:micro_usb_shell",
+      "class_name": "connector_shell",
+      "exact_part_name": null,
+      "connector_family": "micro_usb",
+      "polygon_xy_pixels": [
+        [
+          246,
+          1570
+        ],
+        [
+          519,
+          1570
+        ],
+        [
+          523,
+          1765
+        ],
+        [
+          236,
+          1770
+        ]
+      ],
+      "boundary_scope": "visible_metal_shell_excluding_side_mounting_tabs",
+      "boundary_uncertainty_pixels": 8
+    },
+    {
+      "instance_id": "bench-esp8266-01:rst_button_body",
+      "class_name": "tactile_switch",
+      "exact_part_name": null,
+      "observed_marking": null,
+      "identity_status": "visible_body_and_marking_only; exact_ordering_code_unconfirmed",
+      "polygon_xy_pixels": [
+        [
+          34,
+          1519
+        ],
+        [
+          125,
+          1521
+        ],
+        [
+          124,
+          1657
+        ],
+        [
+          30,
+          1656
+        ]
+      ],
+      "boundary_scope": "visible_body_excluding_external_leads_and_solder",
+      "boundary_uncertainty_pixels": 6,
+      "review_status": "visually_reviewed_body_polygon"
+    },
+    {
+      "instance_id": "bench-esp8266-01:flash_button_body",
+      "class_name": "tactile_switch",
+      "exact_part_name": null,
+      "observed_marking": null,
+      "identity_status": "visible_body_and_marking_only; exact_ordering_code_unconfirmed",
+      "polygon_xy_pixels": [
+        [
+          625,
+          1534
+        ],
+        [
+          726,
+          1534
+        ],
+        [
+          725,
+          1654
+        ],
+        [
+          619,
+          1653
+        ]
+      ],
+      "boundary_scope": "visible_body_excluding_external_leads_and_solder",
+      "boundary_uncertainty_pixels": 6,
+      "review_status": "visually_reviewed_body_polygon"
+    },
+    {
+      "instance_id": "bench-esp8266-01:resistor_103_above_regulator",
+      "class_name": "resistor",
+      "exact_part_name": null,
+      "observed_marking": "103",
+      "identity_status": "visible_body_and_marking_only; exact_ordering_code_unconfirmed",
+      "polygon_xy_pixels": [
+        [
+          391,
+          651
+        ],
+        [
+          496,
+          653
+        ],
+        [
+          494,
+          684
+        ],
+        [
+          390,
+          684
+        ]
+      ],
+      "boundary_scope": "visible_body_excluding_external_leads_and_solder",
+      "boundary_uncertainty_pixels": 6,
+      "review_status": "visually_reviewed_body_polygon"
+    },
+    {
+      "instance_id": "bench-esp8266-01:resistor_above_transistor",
+      "class_name": "resistor",
+      "exact_part_name": null,
+      "observed_marking": "?21",
+      "identity_status": "visible_body_and_marking_only; exact_ordering_code_unconfirmed",
+      "polygon_xy_pixels": [
+        [
+          436,
+          1026
+        ],
+        [
+          541,
+          1026
+        ],
+        [
+          541,
+          1060
+        ],
+        [
+          437,
+          1060
+        ]
+      ],
+      "boundary_scope": "visible_body_excluding_external_leads_and_solder",
+      "boundary_uncertainty_pixels": 6,
+      "review_status": "visually_reviewed_body_polygon",
+      "marking_status": "first_character_ambiguous"
+    },
+    {
+      "instance_id": "bench-esp8266-01:resistor_103_between_transistors",
+      "class_name": "resistor",
+      "exact_part_name": null,
+      "observed_marking": "103",
+      "identity_status": "visible_body_and_marking_only; exact_ordering_code_unconfirmed",
+      "polygon_xy_pixels": [
+        [
+          580,
+          1154
+        ],
+        [
+          687,
+          1157
+        ],
+        [
+          686,
+          1195
+        ],
+        [
+          579,
+          1194
+        ]
+      ],
+      "boundary_scope": "visible_body_excluding_external_leads_and_solder",
+      "boundary_uncertainty_pixels": 6,
+      "review_status": "visually_reviewed_body_polygon"
+    },
+    {
+      "instance_id": "bench-esp8266-01:three_lead_body_upper",
+      "class_name": "three_terminal_semiconductor",
+      "exact_part_name": null,
+      "observed_marking": null,
+      "identity_status": "visible_body_and_marking_only; exact_ordering_code_unconfirmed",
+      "polygon_xy_pixels": [
+        [
+          586,
+          1039
+        ],
+        [
+          683,
+          1042
+        ],
+        [
+          682,
+          1082
+        ],
+        [
+          585,
+          1080
+        ]
+      ],
+      "boundary_scope": "visible_body_excluding_external_leads_and_solder",
+      "boundary_uncertainty_pixels": 6,
+      "review_status": "visually_reviewed_body_polygon"
+    },
+    {
+      "instance_id": "bench-esp8266-01:three_lead_body_lower",
+      "class_name": "three_terminal_semiconductor",
+      "exact_part_name": null,
+      "observed_marking": null,
+      "identity_status": "visible_body_and_marking_only; exact_ordering_code_unconfirmed",
+      "polygon_xy_pixels": [
+        [
+          585,
+          1290
+        ],
+        [
+          683,
+          1293
+        ],
+        [
+          682,
+          1324
+        ],
+        [
+          584,
+          1322
+        ]
+      ],
+      "boundary_scope": "visible_body_excluding_external_leads_and_solder",
+      "boundary_uncertainty_pixels": 6,
+      "review_status": "visually_reviewed_body_polygon"
+    },
+    {
+      "instance_id": "bench-esp8266-01:capacitor_marked_106",
+      "class_name": "capacitor",
+      "exact_part_name": null,
+      "observed_marking": "106",
+      "identity_status": "visible_body_and_marking_only; exact_ordering_code_unconfirmed",
+      "polygon_xy_pixels": [
+        [
+          242,
+          795
+        ],
+        [
+          332,
+          796
+        ],
+        [
+          327,
+          919
+        ],
+        [
+          239,
+          917
+        ]
+      ],
+      "boundary_scope": "visible_body_excluding_external_leads_and_solder",
+      "boundary_uncertainty_pixels": 6,
+      "review_status": "visually_reviewed_body_polygon"
+    },
+    {
+      "instance_id": "bench-esp8266-01:capacitor_marked_10_16V",
+      "class_name": "capacitor",
+      "exact_part_name": null,
+      "observed_marking": "10 16V",
+      "identity_status": "visible_body_and_marking_only; exact_ordering_code_unconfirmed",
+      "polygon_xy_pixels": [
+        [
+          111,
+          776
+        ],
+        [
+          204,
+          776
+        ],
+        [
+          206,
+          883
+        ],
+        [
+          109,
+          884
+        ]
+      ],
+      "boundary_scope": "visible_body_excluding_external_leads_and_solder",
+      "boundary_uncertainty_pixels": 6,
+      "review_status": "visually_reviewed_body_polygon"
+    },
+    {
+      "instance_id": "bench-esp8266-01:passive_left_below_module",
+      "class_name": "passive_component",
+      "exact_part_name": null,
+      "observed_marking": null,
+      "identity_status": "visible_body_and_marking_only; exact_ordering_code_unconfirmed",
+      "polygon_xy_pixels": [
+        [
+          134,
+          640
+        ],
+        [
+          173,
+          641
+        ],
+        [
+          171,
+          686
+        ],
+        [
+          133,
+          686
+        ]
+      ],
+      "boundary_scope": "visible_body_excluding_external_leads_and_solder",
+      "boundary_uncertainty_pixels": 6,
+      "review_status": "visually_reviewed_body_polygon"
+    },
+    {
+      "instance_id": "bench-esp8266-01:passive_right_below_module",
+      "class_name": "passive_component",
+      "exact_part_name": null,
+      "observed_marking": null,
+      "identity_status": "visible_body_and_marking_only; exact_ordering_code_unconfirmed",
+      "polygon_xy_pixels": [
+        [
+          247,
+          641
+        ],
+        [
+          289,
+          641
+        ],
+        [
+          285,
+          691
+        ],
+        [
+          245,
+          690
+        ]
+      ],
+      "boundary_scope": "visible_body_excluding_external_leads_and_solder",
+      "boundary_uncertainty_pixels": 6,
+      "review_status": "visually_reviewed_body_polygon"
+    },
+    {
+      "instance_id": "bench-esp8266-01:passive_above_regulator_right",
+      "class_name": "passive_component",
+      "exact_part_name": null,
+      "observed_marking": null,
+      "identity_status": "visible_body_and_marking_only; exact_ordering_code_unconfirmed",
+      "polygon_xy_pixels": [
+        [
+          597,
+          650
+        ],
+        [
+          641,
+          652
+        ],
+        [
+          638,
+          672
+        ],
+        [
+          595,
+          671
+        ]
+      ],
+      "boundary_scope": "visible_body_excluding_external_leads_and_solder",
+      "boundary_uncertainty_pixels": 6,
+      "review_status": "visually_reviewed_body_polygon"
+    },
+    {
+      "instance_id": "bench-esp8266-01:passive_below_controller_upper",
+      "class_name": "passive_component",
+      "exact_part_name": null,
+      "observed_marking": null,
+      "identity_status": "visible_body_and_marking_only; exact_ordering_code_unconfirmed",
+      "polygon_xy_pixels": [
+        [
+          510,
+          1417
+        ],
+        [
+          560,
+          1416
+        ],
+        [
+          560,
+          1439
+        ],
+        [
+          510,
+          1440
+        ]
+      ],
+      "boundary_scope": "visible_body_excluding_external_leads_and_solder",
+      "boundary_uncertainty_pixels": 6,
+      "review_status": "visually_reviewed_body_polygon"
+    },
+    {
+      "instance_id": "bench-esp8266-01:passive_below_controller_lower",
+      "class_name": "passive_component",
+      "exact_part_name": null,
+      "observed_marking": null,
+      "identity_status": "visible_body_and_marking_only; exact_ordering_code_unconfirmed",
+      "polygon_xy_pixels": [
+        [
+          510,
+          1492
+        ],
+        [
+          559,
+          1492
+        ],
+        [
+          559,
+          1515
+        ],
+        [
+          510,
+          1515
+        ]
+      ],
+      "boundary_scope": "visible_body_excluding_external_leads_and_solder",
+      "boundary_uncertainty_pixels": 6,
+      "review_status": "visually_reviewed_body_polygon"
+    }
+  ],
+  "pin_coordinate_contract": "visible solder-contact centers in upright pixels; circles are approximate visible contact regions, not calibration landmarks",
+  "pin_identity_contract": "printed aliases only; no source electrical number or GPIO mapping asserted",
+  "pin_annotations": [
+    {
+      "instance_id": "bench-esp8266-01:right_header:D0",
+      "printed_alias": "D0",
+      "center_xy_pixels": [
+        888,
+        180
+      ],
+      "visible_radius_pixels": 32
+    },
+    {
+      "instance_id": "bench-esp8266-01:right_header:D1",
+      "printed_alias": "D1",
+      "center_xy_pixels": [
+        889,
+        259
+      ],
+      "visible_radius_pixels": 32
+    },
+    {
+      "instance_id": "bench-esp8266-01:right_header:D2",
+      "printed_alias": "D2",
+      "center_xy_pixels": [
+        892,
+        338
+      ],
+      "visible_radius_pixels": 32
+    },
+    {
+      "instance_id": "bench-esp8266-01:right_header:D3",
+      "printed_alias": "D3",
+      "center_xy_pixels": [
+        891,
+        416
+      ],
+      "visible_radius_pixels": 32
+    },
+    {
+      "instance_id": "bench-esp8266-01:right_header:D4",
+      "printed_alias": "D4",
+      "center_xy_pixels": [
+        892,
+        494
+      ],
+      "visible_radius_pixels": 32
+    },
+    {
+      "instance_id": "bench-esp8266-01:right_header:3V_upper",
+      "printed_alias": "3V",
+      "center_xy_pixels": [
+        892,
+        574
+      ],
+      "visible_radius_pixels": 32
+    },
+    {
+      "instance_id": "bench-esp8266-01:right_header:G_upper",
+      "printed_alias": "G",
+      "center_xy_pixels": [
+        894,
+        655
+      ],
+      "visible_radius_pixels": 32
+    },
+    {
+      "instance_id": "bench-esp8266-01:right_header:D5",
+      "printed_alias": "D5",
+      "center_xy_pixels": [
+        893,
+        737
+      ],
+      "visible_radius_pixels": 32
+    },
+    {
+      "instance_id": "bench-esp8266-01:right_header:D6",
+      "printed_alias": "D6",
+      "center_xy_pixels": [
+        892,
+        821
+      ],
+      "visible_radius_pixels": 32
+    },
+    {
+      "instance_id": "bench-esp8266-01:right_header:D7",
+      "printed_alias": "D7",
+      "center_xy_pixels": [
+        892,
+        903
+      ],
+      "visible_radius_pixels": 32
+    },
+    {
+      "instance_id": "bench-esp8266-01:right_header:D8",
+      "printed_alias": "D8",
+      "center_xy_pixels": [
+        892,
+        988
+      ],
+      "visible_radius_pixels": 32
+    },
+    {
+      "instance_id": "bench-esp8266-01:right_header:RX",
+      "printed_alias": "RX",
+      "center_xy_pixels": [
+        891,
+        1075
+      ],
+      "visible_radius_pixels": 32
+    },
+    {
+      "instance_id": "bench-esp8266-01:right_header:TX",
+      "printed_alias": "TX",
+      "center_xy_pixels": [
+        891,
+        1161
+      ],
+      "visible_radius_pixels": 32
+    },
+    {
+      "instance_id": "bench-esp8266-01:right_header:G_lower",
+      "printed_alias": "G",
+      "center_xy_pixels": [
+        890,
+        1248
+      ],
+      "visible_radius_pixels": 32
+    },
+    {
+      "instance_id": "bench-esp8266-01:right_header:3V_lower",
+      "printed_alias": "3V",
+      "center_xy_pixels": [
+        888,
+        1338
+      ],
+      "visible_radius_pixels": 32
+    }
+  ],
+  "pin_parent_board_id": "bench-esp8266-01",
+  "pin_review_status": "visually_reviewed_right_header_printed_aliases; left_header_clipped; source_orientation_pending",
+  "pin_center_uncertainty_pixels": 6,
+  "physical_view_status": "component_side_macro_pan; no underside_or_flip_observed_in_sampled_frames",
+  "production_eligible": false,
+  "image_sha256": "bcf9d38b8de7e5792fd9795f9d7a8b855279ab15fa1f0135a930f786485fba09"
+}
