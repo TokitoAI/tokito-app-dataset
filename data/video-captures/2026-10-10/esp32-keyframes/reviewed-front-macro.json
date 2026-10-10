@@ -1,0 +1,788 @@
+{
+  "schema_version": "1.0",
+  "board_family": "esp32_devkit_30pin_unknown_variant",
+  "physical_specimen_id": "bench-esp32-01",
+  "capture_session_id": "bench-esp32-01:20261010_132302",
+  "image_path": "data/video-captures/2026-10-10/esp32-keyframes/video_20261010_132302_n000000_pts00000000ms.jpg",
+  "image_sha256": "11ed65f09c691c0dcb861ccc6eaaca5dee12888595175a6a2e64cb15b55ea57c",
+  "image_width": 1080,
+  "image_height": 1920,
+  "coordinate_frame": "upright_saved_image_pixels",
+  "coverage": "partial_visible_bodies_and_printed_header_contacts",
+  "training_export_eligible": false,
+  "production_eligible": false,
+  "review_evidence": "Original frame visually reviewed. Board extends beyond right and bottom edges. U2 silkscreen is readable; full package ordering code is not readable. A separately reviewed HD photo shows SILABS / CP2102 family marking on U2; suffix and lot/date remain unreadable. BOOT switch text is literal. Header aliases are literal PCB text, not verified GPIO functions. Annular header holes are contacts, never ICs or ports. Mounting hole near top left is excluded from component masks. Module shield and regulator are clipped and deliberately absent; USB shell excludes cable opening and leads. Small passive ordering codes and values remain unassigned. Visible unreviewed regions remain unknown, not negative training background.",
+  "masks": [
+    {
+      "instance_id": "bench-esp32-01:U2",
+      "class_name": "integrated_circuit",
+      "polygon_xy_pixels": [
+        [
+          625,
+          908
+        ],
+        [
+          792,
+          909
+        ],
+        [
+          800,
+          1069
+        ],
+        [
+          639,
+          1076
+        ]
+      ],
+      "observed_reference_designator": "U2",
+      "observed_marking": "SILABS / CP2102",
+      "exact_part_name": null,
+      "installed_order_code_confirmed": false,
+      "boundary_scope": "visible_body_excluding_leads_contacts_and_solder",
+      "boundary_uncertainty_pixels": 7,
+      "identity_status": "family_marking_reviewed_in_same_specimen_photo",
+      "observed_part_family": "CP2102",
+      "identity_evidence": {
+        "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092153_1.jpg",
+        "image_sha256": "6082fb093ff363d69de7949cf2ebdad4bc2315e6e2b93899d4dc41824e4d17cd",
+        "source_crop_xyxy_pixels": [
+          175,
+          310,
+          430,
+          565
+        ],
+        "display_rotation_degrees": 180,
+        "crop_path": "data/video-captures/2026-10-10/esp32-keyframes/U2-marking-review.png",
+        "same_specimen_association": "same_bench_specimen_assumed_for_leakage_control",
+        "unreadable_fields": [
+          "full_ordering_suffix",
+          "lot_or_date_code"
+        ]
+      }
+    },
+    {
+      "instance_id": "bench-esp32-01:boot_switch",
+      "class_name": "tactile_switch",
+      "polygon_xy_pixels": [
+        [
+          594,
+          646
+        ],
+        [
+          680,
+          646
+        ],
+        [
+          684,
+          768
+        ],
+        [
+          596,
+          772
+        ]
+      ],
+      "observed_reference_designator": null,
+      "observed_marking": "BOOT",
+      "exact_part_name": null,
+      "installed_order_code_confirmed": false,
+      "boundary_scope": "visible_body_excluding_leads_contacts_and_solder",
+      "boundary_uncertainty_pixels": 7,
+      "identity_status": "visible_package_kind_only"
+    },
+    {
+      "instance_id": "bench-esp32-01:micro_usb_shell",
+      "class_name": "usb_connector",
+      "polygon_xy_pixels": [
+        [
+          801,
+          578
+        ],
+        [
+          1008,
+          571
+        ],
+        [
+          1028,
+          752
+        ],
+        [
+          789,
+          758
+        ]
+      ],
+      "observed_reference_designator": null,
+      "observed_marking": null,
+      "exact_part_name": null,
+      "installed_order_code_confirmed": false,
+      "boundary_scope": "visible_body_excluding_leads_contacts_and_solder",
+      "boundary_uncertainty_pixels": 7,
+      "identity_status": "visible_package_kind_only"
+    },
+    {
+      "instance_id": "bench-esp32-01:passive_01",
+      "class_name": "passive_component",
+      "polygon_xy_pixels": [
+        [
+          635,
+          835
+        ],
+        [
+          668,
+          835
+        ],
+        [
+          668,
+          857
+        ],
+        [
+          635,
+          857
+        ]
+      ],
+      "observed_reference_designator": null,
+      "observed_marking": null,
+      "exact_part_name": null,
+      "installed_order_code_confirmed": false,
+      "boundary_scope": "visible_body_excluding_leads_contacts_and_solder",
+      "boundary_uncertainty_pixels": 7,
+      "identity_status": "visible_package_kind_only"
+    },
+    {
+      "instance_id": "bench-esp32-01:passive_02",
+      "class_name": "passive_component",
+      "polygon_xy_pixels": [
+        [
+          742,
+          831
+        ],
+        [
+          780,
+          831
+        ],
+        [
+          780,
+          855
+        ],
+        [
+          742,
+          855
+        ]
+      ],
+      "observed_reference_designator": null,
+      "observed_marking": null,
+      "exact_part_name": null,
+      "installed_order_code_confirmed": false,
+      "boundary_scope": "visible_body_excluding_leads_contacts_and_solder",
+      "boundary_uncertainty_pixels": 7,
+      "identity_status": "visible_package_kind_only"
+    },
+    {
+      "instance_id": "bench-esp32-01:passive_03",
+      "class_name": "passive_component",
+      "polygon_xy_pixels": [
+        [
+          895,
+          828
+        ],
+        [
+          933,
+          828
+        ],
+        [
+          933,
+          851
+        ],
+        [
+          895,
+          851
+        ]
+      ],
+      "observed_reference_designator": null,
+      "observed_marking": null,
+      "exact_part_name": null,
+      "installed_order_code_confirmed": false,
+      "boundary_scope": "visible_body_excluding_leads_contacts_and_solder",
+      "boundary_uncertainty_pixels": 7,
+      "identity_status": "visible_package_kind_only"
+    },
+    {
+      "instance_id": "bench-esp32-01:passive_04",
+      "class_name": "passive_component",
+      "polygon_xy_pixels": [
+        [
+          1002,
+          824
+        ],
+        [
+          1037,
+          824
+        ],
+        [
+          1037,
+          849
+        ],
+        [
+          1002,
+          849
+        ]
+      ],
+      "observed_reference_designator": null,
+      "observed_marking": null,
+      "exact_part_name": null,
+      "installed_order_code_confirmed": false,
+      "boundary_scope": "visible_body_excluding_leads_contacts_and_solder",
+      "boundary_uncertainty_pixels": 7,
+      "identity_status": "visible_package_kind_only"
+    },
+    {
+      "instance_id": "bench-esp32-01:passive_05",
+      "class_name": "passive_component",
+      "polygon_xy_pixels": [
+        [
+          614,
+          1159
+        ],
+        [
+          636,
+          1159
+        ],
+        [
+          636,
+          1197
+        ],
+        [
+          614,
+          1197
+        ]
+      ],
+      "observed_reference_designator": null,
+      "observed_marking": null,
+      "exact_part_name": null,
+      "installed_order_code_confirmed": false,
+      "boundary_scope": "visible_body_excluding_leads_contacts_and_solder",
+      "boundary_uncertainty_pixels": 7,
+      "identity_status": "visible_package_kind_only"
+    },
+    {
+      "instance_id": "bench-esp32-01:three_terminal_01",
+      "class_name": "three_terminal_package",
+      "polygon_xy_pixels": [
+        [
+          694,
+          1139
+        ],
+        [
+          737,
+          1145
+        ],
+        [
+          739,
+          1199
+        ],
+        [
+          694,
+          1194
+        ]
+      ],
+      "observed_reference_designator": null,
+      "observed_marking": null,
+      "exact_part_name": null,
+      "installed_order_code_confirmed": false,
+      "boundary_scope": "visible_body_excluding_leads_contacts_and_solder",
+      "boundary_uncertainty_pixels": 7,
+      "identity_status": "visible_package_kind_only"
+    },
+    {
+      "instance_id": "bench-esp32-01:three_terminal_02",
+      "class_name": "three_terminal_package",
+      "polygon_xy_pixels": [
+        [
+          886,
+          1122
+        ],
+        [
+          926,
+          1120
+        ],
+        [
+          927,
+          1177
+        ],
+        [
+          889,
+          1183
+        ]
+      ],
+      "observed_reference_designator": null,
+      "observed_marking": null,
+      "exact_part_name": null,
+      "installed_order_code_confirmed": false,
+      "boundary_scope": "visible_body_excluding_leads_contacts_and_solder",
+      "boundary_uncertainty_pixels": 7,
+      "identity_status": "visible_package_kind_only"
+    },
+    {
+      "instance_id": "bench-esp32-01:passive_06",
+      "class_name": "passive_component",
+      "polygon_xy_pixels": [
+        [
+          976,
+          1140
+        ],
+        [
+          998,
+          1140
+        ],
+        [
+          998,
+          1178
+        ],
+        [
+          976,
+          1178
+        ]
+      ],
+      "observed_reference_designator": null,
+      "observed_marking": null,
+      "exact_part_name": null,
+      "installed_order_code_confirmed": false,
+      "boundary_scope": "visible_body_excluding_leads_contacts_and_solder",
+      "boundary_uncertainty_pixels": 7,
+      "identity_status": "visible_package_kind_only"
+    },
+    {
+      "instance_id": "bench-esp32-01:passive_07",
+      "class_name": "passive_component",
+      "polygon_xy_pixels": [
+        [
+          638,
+          1268
+        ],
+        [
+          684,
+          1268
+        ],
+        [
+          684,
+          1292
+        ],
+        [
+          638,
+          1292
+        ]
+      ],
+      "observed_reference_designator": null,
+      "observed_marking": null,
+      "exact_part_name": null,
+      "installed_order_code_confirmed": false,
+      "boundary_scope": "visible_body_excluding_leads_contacts_and_solder",
+      "boundary_uncertainty_pixels": 7,
+      "identity_status": "visible_package_kind_only"
+    },
+    {
+      "instance_id": "bench-esp32-01:passive_08",
+      "class_name": "passive_component",
+      "polygon_xy_pixels": [
+        [
+          640,
+          1327
+        ],
+        [
+          687,
+          1327
+        ],
+        [
+          687,
+          1353
+        ],
+        [
+          640,
+          1353
+        ]
+      ],
+      "observed_reference_designator": null,
+      "observed_marking": null,
+      "exact_part_name": null,
+      "installed_order_code_confirmed": false,
+      "boundary_scope": "visible_body_excluding_leads_contacts_and_solder",
+      "boundary_uncertainty_pixels": 7,
+      "identity_status": "visible_package_kind_only"
+    },
+    {
+      "instance_id": "bench-esp32-01:passive_09",
+      "class_name": "passive_component",
+      "polygon_xy_pixels": [
+        [
+          748,
+          1281
+        ],
+        [
+          770,
+          1281
+        ],
+        [
+          770,
+          1317
+        ],
+        [
+          748,
+          1317
+        ]
+      ],
+      "observed_reference_designator": null,
+      "observed_marking": null,
+      "exact_part_name": null,
+      "installed_order_code_confirmed": false,
+      "boundary_scope": "visible_body_excluding_leads_contacts_and_solder",
+      "boundary_uncertainty_pixels": 7,
+      "identity_status": "visible_package_kind_only"
+    },
+    {
+      "instance_id": "bench-esp32-01:passive_10",
+      "class_name": "passive_component",
+      "polygon_xy_pixels": [
+        [
+          803,
+          1278
+        ],
+        [
+          825,
+          1278
+        ],
+        [
+          825,
+          1316
+        ],
+        [
+          803,
+          1316
+        ]
+      ],
+      "observed_reference_designator": null,
+      "observed_marking": null,
+      "exact_part_name": null,
+      "installed_order_code_confirmed": false,
+      "boundary_scope": "visible_body_excluding_leads_contacts_and_solder",
+      "boundary_uncertainty_pixels": 7,
+      "identity_status": "visible_package_kind_only"
+    },
+    {
+      "instance_id": "bench-esp32-01:passive_11",
+      "class_name": "passive_component",
+      "polygon_xy_pixels": [
+        [
+          852,
+          1275
+        ],
+        [
+          875,
+          1275
+        ],
+        [
+          875,
+          1316
+        ],
+        [
+          852,
+          1316
+        ]
+      ],
+      "observed_reference_designator": null,
+      "observed_marking": null,
+      "exact_part_name": null,
+      "installed_order_code_confirmed": false,
+      "boundary_scope": "visible_body_excluding_leads_contacts_and_solder",
+      "boundary_uncertainty_pixels": 7,
+      "identity_status": "visible_package_kind_only"
+    },
+    {
+      "instance_id": "bench-esp32-01:passive_12",
+      "class_name": "passive_component",
+      "polygon_xy_pixels": [
+        [
+          903,
+          1271
+        ],
+        [
+          926,
+          1271
+        ],
+        [
+          926,
+          1313
+        ],
+        [
+          903,
+          1313
+        ]
+      ],
+      "observed_reference_designator": null,
+      "observed_marking": null,
+      "exact_part_name": null,
+      "installed_order_code_confirmed": false,
+      "boundary_scope": "visible_body_excluding_leads_contacts_and_solder",
+      "boundary_uncertainty_pixels": 7,
+      "identity_status": "visible_package_kind_only"
+    },
+    {
+      "instance_id": "bench-esp32-01:passive_13",
+      "class_name": "passive_component",
+      "polygon_xy_pixels": [
+        [
+          953,
+          1268
+        ],
+        [
+          976,
+          1268
+        ],
+        [
+          976,
+          1308
+        ],
+        [
+          953,
+          1308
+        ]
+      ],
+      "observed_reference_designator": null,
+      "observed_marking": null,
+      "exact_part_name": null,
+      "installed_order_code_confirmed": false,
+      "boundary_scope": "visible_body_excluding_leads_contacts_and_solder",
+      "boundary_uncertainty_pixels": 7,
+      "identity_status": "visible_package_kind_only"
+    },
+    {
+      "instance_id": "bench-esp32-01:passive_14",
+      "class_name": "passive_component",
+      "polygon_xy_pixels": [
+        [
+          1002,
+          1264
+        ],
+        [
+          1024,
+          1264
+        ],
+        [
+          1024,
+          1305
+        ],
+        [
+          1002,
+          1305
+        ]
+      ],
+      "observed_reference_designator": null,
+      "observed_marking": null,
+      "exact_part_name": null,
+      "installed_order_code_confirmed": false,
+      "boundary_scope": "visible_body_excluding_leads_contacts_and_solder",
+      "boundary_uncertainty_pixels": 7,
+      "identity_status": "visible_package_kind_only"
+    }
+  ],
+  "contacts": [
+    {
+      "instance_id": "bench-esp32-01:left_header:3V3",
+      "parent_component_id": "bench-esp32-01:left_header",
+      "printed_alias": "3V3",
+      "point_xy_pixels": [
+        486,
+        922
+      ],
+      "point_scope": "visible_plated_through_hole_center",
+      "feature_kind": "header_contact",
+      "not_component_body": true,
+      "numeric_chip_pin": null,
+      "function_mapping_verified": false,
+      "source_metric_xyz_m": null,
+      "uncertainty_pixels": 7
+    },
+    {
+      "instance_id": "bench-esp32-01:left_header:GND",
+      "parent_component_id": "bench-esp32-01:left_header",
+      "printed_alias": "GND",
+      "point_xy_pixels": [
+        487,
+        1002
+      ],
+      "point_scope": "visible_plated_through_hole_center",
+      "feature_kind": "header_contact",
+      "not_component_body": true,
+      "numeric_chip_pin": null,
+      "function_mapping_verified": false,
+      "source_metric_xyz_m": null,
+      "uncertainty_pixels": 7
+    },
+    {
+      "instance_id": "bench-esp32-01:left_header:D15",
+      "parent_component_id": "bench-esp32-01:left_header",
+      "printed_alias": "D15",
+      "point_xy_pixels": [
+        489,
+        1088
+      ],
+      "point_scope": "visible_plated_through_hole_center",
+      "feature_kind": "header_contact",
+      "not_component_body": true,
+      "numeric_chip_pin": null,
+      "function_mapping_verified": false,
+      "source_metric_xyz_m": null,
+      "uncertainty_pixels": 7
+    },
+    {
+      "instance_id": "bench-esp32-01:left_header:D2",
+      "parent_component_id": "bench-esp32-01:left_header",
+      "printed_alias": "D2",
+      "point_xy_pixels": [
+        492,
+        1171
+      ],
+      "point_scope": "visible_plated_through_hole_center",
+      "feature_kind": "header_contact",
+      "not_component_body": true,
+      "numeric_chip_pin": null,
+      "function_mapping_verified": false,
+      "source_metric_xyz_m": null,
+      "uncertainty_pixels": 7
+    },
+    {
+      "instance_id": "bench-esp32-01:left_header:D4",
+      "parent_component_id": "bench-esp32-01:left_header",
+      "printed_alias": "D4",
+      "point_xy_pixels": [
+        493,
+        1254
+      ],
+      "point_scope": "visible_plated_through_hole_center",
+      "feature_kind": "header_contact",
+      "not_component_body": true,
+      "numeric_chip_pin": null,
+      "function_mapping_verified": false,
+      "source_metric_xyz_m": null,
+      "uncertainty_pixels": 7
+    },
+    {
+      "instance_id": "bench-esp32-01:left_header:RX2",
+      "parent_component_id": "bench-esp32-01:left_header",
+      "printed_alias": "RX2",
+      "point_xy_pixels": [
+        497,
+        1336
+      ],
+      "point_scope": "visible_plated_through_hole_center",
+      "feature_kind": "header_contact",
+      "not_component_body": true,
+      "numeric_chip_pin": null,
+      "function_mapping_verified": false,
+      "source_metric_xyz_m": null,
+      "uncertainty_pixels": 7
+    },
+    {
+      "instance_id": "bench-esp32-01:left_header:TX2",
+      "parent_component_id": "bench-esp32-01:left_header",
+      "printed_alias": "TX2",
+      "point_xy_pixels": [
+        499,
+        1420
+      ],
+      "point_scope": "visible_plated_through_hole_center",
+      "feature_kind": "header_contact",
+      "not_component_body": true,
+      "numeric_chip_pin": null,
+      "function_mapping_verified": false,
+      "source_metric_xyz_m": null,
+      "uncertainty_pixels": 7
+    },
+    {
+      "instance_id": "bench-esp32-01:left_header:D5",
+      "parent_component_id": "bench-esp32-01:left_header",
+      "printed_alias": "D5",
+      "point_xy_pixels": [
+        504,
+        1506
+      ],
+      "point_scope": "visible_plated_through_hole_center",
+      "feature_kind": "header_contact",
+      "not_component_body": true,
+      "numeric_chip_pin": null,
+      "function_mapping_verified": false,
+      "source_metric_xyz_m": null,
+      "uncertainty_pixels": 7
+    },
+    {
+      "instance_id": "bench-esp32-01:left_header:D18",
+      "parent_component_id": "bench-esp32-01:left_header",
+      "printed_alias": "D18",
+      "point_xy_pixels": [
+        509,
+        1590
+      ],
+      "point_scope": "visible_plated_through_hole_center",
+      "feature_kind": "header_contact",
+      "not_component_body": true,
+      "numeric_chip_pin": null,
+      "function_mapping_verified": false,
+      "source_metric_xyz_m": null,
+      "uncertainty_pixels": 7
+    },
+    {
+      "instance_id": "bench-esp32-01:left_header:D19",
+      "parent_component_id": "bench-esp32-01:left_header",
+      "printed_alias": "D19",
+      "point_xy_pixels": [
+        513,
+        1677
+      ],
+      "point_scope": "visible_plated_through_hole_center",
+      "feature_kind": "header_contact",
+      "not_component_body": true,
+      "numeric_chip_pin": null,
+      "function_mapping_verified": false,
+      "source_metric_xyz_m": null,
+      "uncertainty_pixels": 7
+    },
+    {
+      "instance_id": "bench-esp32-01:left_header:D21",
+      "parent_component_id": "bench-esp32-01:left_header",
+      "printed_alias": "D21",
+      "point_xy_pixels": [
+        519,
+        1767
+      ],
+      "point_scope": "visible_plated_through_hole_center",
+      "feature_kind": "header_contact",
+      "not_component_body": true,
+      "numeric_chip_pin": null,
+      "function_mapping_verified": false,
+      "source_metric_xyz_m": null,
+      "uncertainty_pixels": 7
+    },
+    {
+      "instance_id": "bench-esp32-01:left_header:RX0",
+      "parent_component_id": "bench-esp32-01:left_header",
+      "printed_alias": "RX0",
+      "point_xy_pixels": [
+        522,
+        1855
+      ],
+      "point_scope": "visible_plated_through_hole_center",
+      "feature_kind": "header_contact",
+      "not_component_body": true,
+      "numeric_chip_pin": null,
+      "function_mapping_verified": false,
+      "source_metric_xyz_m": null,
+      "uncertainty_pixels": 7
+    }
+  ],
+  "unreviewed_regions": [
+    "right_clipped_regulator_and_nearby_passives",
+    "bottom_clipped_rf_module",
+    "small_passives_between_U2_and_module",
+    "switch_contacts_and_USB_leads",
+    "remaining_header_contacts",
+    "PCB_and_mounting_holes"
+  ]
+}

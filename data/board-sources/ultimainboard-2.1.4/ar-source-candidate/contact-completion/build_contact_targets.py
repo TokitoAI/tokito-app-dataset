@@ -1,0 +1,8 @@
+import json,hashlib
+from pathlib import Path
+H=Path(__file__).resolve().parent;inv=json.loads((H/'source-pad-inventory.json').read_text());report=json.loads((H/'geometry-coverage.json').read_text());o=report['source_export_origin_mm'];targets=[]
+for f in inv['footprints']:
+ for i,p in enumerate(f['pads']):
+  targets.append({'source_contact_id':f"ultimainboard-2.1.4:{f['ref']}:pad:{p['number'] or 'unnumbered'}:{i}",'parent_component_reference':f['ref'],'source_pad_number':p['number'] or None,'source_pad_sequence_index':i,'feature_kind':'source_copper_land_centre','source_board_xy_mm':p['position_mm'],'asset_xz_metres':[(p['position_mm'][0]-o[0])/1000,(p['position_mm'][1]-o[1])/1000],'source_drill_mm':p['drill_mm'],'source_copper_sides':[side for side,key in [('top','top_copper'),('bottom','bottom_copper')] if p[key]],'parent_glb_selector':None if f['ref'] in report['missing_refs'] else 'ref:'+f['ref'],'source_relation_verified':'native_imported_pcb','photograph_correspondence_verified':False,'physical_visibility_verified':False,'electrical_function':None,'electrical_function_status':'not_extracted','training_eligible':False})
+assert len(targets)==1322 and len({t['source_contact_id'] for t in targets})==1322
+out={'source_pcb_sha256':inv['pcb_sha256'],'source_pad_inventory_sha256':hashlib.sha256((H/'source-pad-inventory.json').read_bytes()).hexdigest(),'coordinate_frame':'metres; x=PCB_X-148.5011mm; z=PCB_Y-105.003595mm; y must be chosen from reviewed physical feature, not copper land inference','release_eligible':False,'calibration_observability_reviewed':False,'contacts':targets};(H/'source-contact-targets.json').write_text(json.dumps(out,indent=2)+'\n');print(len(targets),'source contact targets')

@@ -1,0 +1,37 @@
+{
+  "status": "passed",
+  "asset_files_hashed": 120,
+  "native_and_imported_unique_refdes": 574,
+  "exact_refdes_and_footprint_name_joins": 572,
+  "reference_and_value_joins_with_importer_name_truncation": [
+    "J32",
+    "J33"
+  ],
+  "unique_imported_footprint_uuids": 574,
+  "native_official_git_blob_match": true,
+  "j22_photo_hash_match": true,
+  "j22_pcb_and_schematic_hashes_match": true,
+  "j22_pad_uuid_and_local_coordinate_matches": 4,
+  "j22_schematic_pin_endpoint_wire_and_net_label_checks": 4,
+  "embedded_model_unit_counts": {
+    "centimetres": 9,
+    "millimetres": 49,
+    "metres": 3
+  },
+  "visual_review": "Revision marking and J22 contacts independently inspected in original photo crops",
+  "limits": [
+    "No global photo registration",
+    "No electrical measurement",
+    "No fitted-part supplier authentication",
+    "No full assembly geometry verification",
+    "No fabrication approval"
+  ],
+  "all_asset_hashes_match_committed_blobs_or_lfs_oids": true,
+  "repository_checks": {
+    "validate_dataset.py": "passed",
+    "validate_source_links.py": "passed",
+    "build_non_nxp_source_pins.py --check": "passed",
+    "build_label_hierarchy.py --check": "passed",
+    "git diff --cached --check": "passed"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "schema_version": "1.0",
+  "source_device": "iQOO I2501",
+  "retrieval": "adb pull from /sdcard/DCIM/Camera on 2026-10-10",
+  "training_export_eligible": false,
+  "metric_pose_verified": false,
+  "continuous_flip_verified": false,
+  "recordings": [
+    {
+      "board_family": "ultimainboard_2_1_4",
+      "identity_basis": "visible Ultimaker silkscreen and board layout",
+      "path": "data/video-captures/2026-10-10/physical-view-followup/additional-flip-clips/ultimaker_video_20261010_211011.mp4",
+      "device_path": "/sdcard/DCIM/Camera/video_20261010_211011.mp4",
+      "sha256": "ea3123298f6ffa291de10f70c1cd5442eadfb03af41c7fcf934e01b840959cec",
+      "bytes": 22098052,
+      "codec": "hevc",
+      "width": 1920,
+      "height": 1080,
+      "duration_seconds": 19.114667,
+      "sample_interval_seconds": 1,
+      "review_contact_sheet": {
+        "path": "data/video-captures/2026-10-10/physical-view-followup/additional-flip-clips/ultimaker_video_20261010_211011-fps1-review.jpg",
+        "sha256": "261251f4c3e152376b4fa1404b91886ad01fdf3eb4e5a88605bc155ef1ebc822",
+        "bytes": 1266795
+      },
+      "observed_views": ["component_bearing_face", "underside", "edge_on_side"],
+      "underside_seen": true,
+      "four_oblique_sides_seen": false,
+      "continuous_flip_video_present": true,
+      "continuous_flip_verified": false,
+      "notes": "The clip shows a hand-held transition from the component face to the underside. A brief edge-on view is visible; four distinct oblique sides are not documented."
+    },
+    {
+      "board_family": "esp32_devkit_30pin_clone",
+      "identity_basis": "visible ESP-32 module shield marking and board layout",
+      "path": "data/video-captures/2026-10-10/physical-view-followup/additional-flip-clips/esp32_video_20261010_211108.mp4",
+      "device_path": "/sdcard/DCIM/Camera/video_20261010_211108.mp4",
+      "sha256": "5fef0f008bdae7546a5bb74a974a94d6a178050f99fbc3535855b92eeae4e520",
+      "bytes": 27738973,
+      "codec": "hevc",
+      "width": 1920,
+      "height": 1080,
+      "duration_seconds": 13.550833,
+      "sample_interval_seconds": 1,
+      "review_contact_sheet": {
+        "path": "data/video-captures/2026-10-10/physical-view-followup/additional-flip-clips/esp32_video_20261010_211108-fps1-review.jpg",
+        "sha256": "6f13e524050c2242ee3e161c404fe5780cfbbc7cf2c380d9dfedcc3bbb60a2ef",
+        "bytes": 458465
+      },
+      "observed_views": ["component_bearing_face", "underside", "oblique_partial"],
+      "underside_seen": true,
+      "four_oblique_sides_seen": false,
+      "continuous_flip_video_present": true,
+      "continuous_flip_verified": false,
+      "notes": "The clip shows both board faces and movement while the board is handled. Sampled frames do not establish four distinct oblique side views or a calibrated continuous rotation."
+    }
+  ],
+  "limitations": [
+    "These supplementary clips cover Ultimaker and ESP32 only; ESP-12E and NXP still need the requested new flip recordings.",
+    "Four distinct oblique-side views are not verified for either board.",
+    "Continuous flip-video presence is recorded, but full temporal review and metric pose validation remain pending.",
+    "The clips provide no reviewed component masks or pin labels and are not training-export eligible.",
+    "No capture crop, document warp, metric camera pose, or independent calibration is present."
+  ]
+}

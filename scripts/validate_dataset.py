@@ -60,9 +60,12 @@ if model_dir.is_dir():
 phone_folder=root/'data/phone-captures/2026-10-10'
 if phone_folder.is_dir():
  phone_manifest=json.loads((phone_folder/'manifest.json').read_text())
- phone_rows=phone_manifest['photos'];assert len(phone_rows)==33
+ phone_rows=phone_manifest['photos'];assert len(phone_rows)==34
  assert len({row['board_family'] for row in phone_rows})==5
- phone_by_name={row['image_file']:row for row in phone_rows};assert len(phone_by_name)==33
+ phone_by_name={row['image_file']:row for row in phone_rows};assert len(phone_by_name)==34
+ nxp_back=phone_by_name['IMG_20261010_192033.jpg']
+ assert nxp_back['view_slot']=='bottom' and nxp_back['board_surface']=='bottom'
+ assert nxp_back['variant_revision_status']=='schematic_revision_label_visible; PCB layout revision unverified'
  for row in phone_rows:
   photo=(root/row['image_path']).resolve();assert photo.is_relative_to(phone_folder.resolve())
   b=photo.read_bytes()
@@ -78,18 +81,34 @@ if phone_folder.is_dir():
   assert {row['class_id'] for row in scan['templates']}==set(range(5))
   label_ids=set();pin_count=0
   for template in scan['templates']:
-   photo=phone_by_name[template['id']];assert template['image_sha256']==photo['image_sha256']
-   assert template['image_path']==photo['image_path']
+   photo=phone_by_name.get(template['id'])
+   if photo:
+    assert template['image_sha256']==photo['image_sha256']
+    assert template['image_path']==photo['image_path']
+   else:
+    image_path=(root/template['image_path']).resolve()
+    assert image_path.is_relative_to(root.resolve()) and image_path.is_file()
+    image_bytes=image_path.read_bytes()
+    if image_bytes.startswith(b'version https://git-lfs.github.com/spec/v1'):
+     image_digest=next(line.split(':',1)[1] for line in image_bytes.decode().splitlines() if line.startswith('oid sha256:'))
+    else:image_digest=hashlib.sha256(image_bytes).hexdigest()
+    assert image_digest==template['image_sha256']
    assert template['board']==class_map[template['class_id']]['display_name']
    x1,y1,x2,y2=template['board_bbox_xyxy_normalized'];assert 0<=x1<x2<=1 and 0<=y1<y2<=1
    for label in template['labels']:
     assert label['id'] not in label_ids;label_ids.add(label['id'])
-    a,b,c,d=label['bbox_xyxy_normalized'];assert x1<=a<c<=x2 and y1<=b<d<=y2,label['id']
+    a,b,c,d=label['bbox_xyxy_normalized'];assert 0<=a<c<=1 and 0<=b<d<=1,label['id']
+    # The board box is a feature ROI; a connector shell can overhang its edge.
+    # Component centres must belong to the board, without clipping real bodies.
+    assert x1<=(a+c)/2<=x2 and y1<=(b+d)/2<=y2,label['id']
     if label['kind']=='pin':
+     assert x1<=a<c<=x2 and y1<=b<d<=y2,label['id']
      pin_count+=1;assert label['identity_status']=='reviewed_photo_contact_with_printed_alias'
      assert label['source']['printed_alias'] and 'Literal silkscreen' in label['source']['mapping_scope']
     else:
-     assert label['kind']=='part' and label['identity_status'] in {'reviewed_photo_module_marking','reviewed_photo_marking_family_order_code_unconfirmed'}
+     assert label['kind']=='part' and label['identity_status'] in {'reviewed_photo_module_marking','reviewed_photo_marking_family_order_code_unconfirmed','visually_reviewed_connector_type_source_candidate_revision_unverified','reviewed_photo_refdes_source_candidate_specimen_revision_unverified','reviewed_photo_module_family_order_code_unconfirmed','reviewed_photo_component_visual_class_only'}
+     if label['identity_status']=='visually_reviewed_connector_type_source_candidate_revision_unverified':
+      assert label['source']['source_revision']=='C' and not label['source']['installed_order_code_confirmed']
    if 'pose_corners_normalized' in template:
     assert template['pose_corner_status']=='reviewed_photo_metric_landmarks'
     assert template['pose_landmark_kind']=='mounting_hole_centres'
@@ -104,7 +123,17 @@ if phone_folder.is_dir():
     assert template['corner_uncertainty_pixels']>0
     assert len(template['pose_corners_normalized'])==4
     assert all(x1<=x<=x2 and y1<=y<=y2 for x,y in template['pose_corners_normalized'])
-  assert len(label_ids)==63 and pin_count==60
+  assert len(label_ids)==147 and pin_count==120
 print('Validated80 source hashes/board boxes, YOLO labels,62/11/7 split, no original/crop leakage and Pi mechanical DXF provenance.' + (' Fine-tune artifact hashes also checked.' if model_dir.is_dir() else ' Diagnostic model artifacts are outside this capture-only checkout.'))
 if phone_folder.is_dir():
- print('Validated 33 intake hashes.' + (' Five partial scan references with 60 literal contact aliases and three marking families also checked.' if (phone_folder/'reviewed-scan-references.json').is_file() else ' Scan-reference additions are outside this capture-only checkout.'))
+ scan_file=phone_folder/'reviewed-scan-references.json'
+ print(f'Validated {len(phone_rows)} intake hashes.' + (f' {len(scan["templates"])} partial scan references with {pin_count} literal contact aliases and three marking families also checked.' if scan_file.is_file() else ' Scan-reference additions are outside this capture-only checkout.'))
+board_model_dir=root/'models/board-family-v1'
+if (board_model_dir/'manifest.json').is_file():
+ for artifact in json.loads((board_model_dir/'manifest.json').read_text())['artifacts']:
+  raw=(board_model_dir/artifact['file']).read_bytes()
+  if raw.startswith(b'version https://git-lfs.github.com/spec/v1'):
+   digest=next(line.split(':',1)[1] for line in raw.decode('ascii').splitlines() if line.startswith('oid sha256:'))
+  else:digest=hashlib.sha256(raw).hexdigest()
+  assert digest==artifact['sha256'],artifact['file']
+ print('Validated experimental board-family model artifact checksums.')

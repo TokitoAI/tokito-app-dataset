@@ -1,0 +1,1051 @@
+{
+  "scope": "single-specimen single-session diagnostic; no independent test",
+  "extra_esp32_validation_group": "IMG_20261009_221914.jpg",
+  "counts": {
+    "val": 12,
+    "train": 60,
+    "excluded_val_variant": 8
+  },
+  "images": [
+    {
+      "file": "IMG_20261009_221154.jpg",
+      "board_class": "esp8266_board",
+      "capture_group": "IMG_20261009_221154.jpg",
+      "split": "val",
+      "crop": "data/photo-model/classifier-dataset/val/esp8266_board/IMG_20261009_221154.jpg",
+      "crop_box_pixels": [
+        614,
+        703,
+        2458,
+        3843
+      ]
+    },
+    {
+      "file": "IMG_20261009_221155.jpg",
+      "board_class": "esp8266_board",
+      "capture_group": "IMG_20261009_221155.jpg",
+      "split": "val",
+      "crop": "data/photo-model/classifier-dataset/val/esp8266_board/IMG_20261009_221155.jpg",
+      "crop_box_pixels": [
+        642,
+        717,
+        2492,
+        3857
+      ]
+    },
+    {
+      "file": "IMG_20261009_221156.jpg",
+      "board_class": "esp8266_board",
+      "capture_group": "IMG_20261009_221156.jpg",
+      "split": "val",
+      "crop": "data/photo-model/classifier-dataset/val/esp8266_board/IMG_20261009_221156.jpg",
+      "crop_box_pixels": [
+        662,
+        683,
+        2546,
+        3823
+      ]
+    },
+    {
+      "file": "IMG_20261009_221210.jpg",
+      "board_class": "esp8266_board",
+      "capture_group": "IMG_20261009_221210.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/esp8266_board/IMG_20261009_221210.jpg",
+      "crop_box_pixels": [
+        0,
+        1495,
+        3072,
+        3181
+      ]
+    },
+    {
+      "file": "IMG_20261009_221220.jpg",
+      "board_class": "esp8266_board",
+      "capture_group": "IMG_20261009_221220.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/esp8266_board/IMG_20261009_221220.jpg",
+      "crop_box_pixels": [
+        0,
+        1447,
+        3072,
+        3154
+      ]
+    },
+    {
+      "file": "IMG_20261009_221222.jpg",
+      "board_class": "esp8266_board",
+      "capture_group": "IMG_20261009_221222.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/esp8266_board/IMG_20261009_221222.jpg",
+      "crop_box_pixels": [
+        0,
+        1454,
+        3031,
+        3154
+      ]
+    },
+    {
+      "file": "IMG_20261009_221225.jpg",
+      "board_class": "esp8266_board",
+      "capture_group": "IMG_20261009_221225.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/esp8266_board/IMG_20261009_221225.jpg",
+      "crop_box_pixels": [
+        0,
+        1242,
+        3031,
+        2915
+      ]
+    },
+    {
+      "file": "IMG_20261009_221230.jpg",
+      "board_class": "esp8266_board",
+      "capture_group": "IMG_20261009_221230.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/esp8266_board/IMG_20261009_221230.jpg",
+      "crop_box_pixels": [
+        0,
+        1277,
+        3024,
+        2915
+      ]
+    },
+    {
+      "file": "IMG_20261009_221340.jpg",
+      "board_class": "nxp_frdm_mcxn236_board",
+      "capture_group": "IMG_20261009_221340.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/nxp_frdm_mcxn236_board/IMG_20261009_221340.jpg",
+      "crop_box_pixels": [
+        335,
+        0,
+        2765,
+        3953
+      ]
+    },
+    {
+      "file": "IMG_20261009_221343.jpg",
+      "board_class": "nxp_frdm_mcxn236_board",
+      "capture_group": "IMG_20261009_221343.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/nxp_frdm_mcxn236_board/IMG_20261009_221343.jpg",
+      "crop_box_pixels": [
+        307,
+        48,
+        2703,
+        4096
+      ]
+    },
+    {
+      "file": "IMG_20261009_221348.jpg",
+      "board_class": "nxp_frdm_mcxn236_board",
+      "capture_group": "IMG_20261009_221348.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/nxp_frdm_mcxn236_board/IMG_20261009_221348.jpg",
+      "crop_box_pixels": [
+        396,
+        0,
+        2799,
+        4096
+      ]
+    },
+    {
+      "file": "IMG_20261009_221350.jpg",
+      "board_class": "nxp_frdm_mcxn236_board",
+      "capture_group": "IMG_20261009_221350.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/nxp_frdm_mcxn236_board/IMG_20261009_221350.jpg",
+      "crop_box_pixels": [
+        321,
+        0,
+        2737,
+        3557
+      ]
+    },
+    {
+      "file": "IMG_20261009_221646.jpg",
+      "board_class": "nxp_frdm_mcxn236_board",
+      "capture_group": "IMG_20261009_221646.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/nxp_frdm_mcxn236_board/IMG_20261009_221646.jpg",
+      "crop_box_pixels": [
+        608,
+        0,
+        2512,
+        4096
+      ]
+    },
+    {
+      "file": "IMG_20261009_221657.jpg",
+      "board_class": "nxp_frdm_mcxn236_board",
+      "capture_group": "IMG_20261009_221657.jpg",
+      "split": "val",
+      "crop": "data/photo-model/classifier-dataset/val/nxp_frdm_mcxn236_board/IMG_20261009_221657.jpg",
+      "crop_box_pixels": [
+        894,
+        894,
+        2116,
+        3420
+      ]
+    },
+    {
+      "file": "IMG_20261009_221717.jpg",
+      "board_class": "nxp_frdm_mcxn236_board",
+      "capture_group": "IMG_20261009_221717.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/nxp_frdm_mcxn236_board/IMG_20261009_221717.jpg",
+      "crop_box_pixels": [
+        471,
+        0,
+        2444,
+        3994
+      ]
+    },
+    {
+      "file": "IMG_20261009_221717_1.jpg",
+      "board_class": "nxp_frdm_mcxn236_board",
+      "capture_group": "IMG_20261009_221717.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/nxp_frdm_mcxn236_board/IMG_20261009_221717_1.jpg",
+      "crop_box_pixels": [
+        0,
+        0,
+        1840,
+        3878
+      ]
+    },
+    {
+      "file": "IMG_20261009_221719.jpg",
+      "board_class": "nxp_frdm_mcxn236_board",
+      "capture_group": "IMG_20261009_221719.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/nxp_frdm_mcxn236_board/IMG_20261009_221719.jpg",
+      "crop_box_pixels": [
+        471,
+        0,
+        2444,
+        4096
+      ]
+    },
+    {
+      "file": "IMG_20261009_221719_1.jpg",
+      "board_class": "nxp_frdm_mcxn236_board",
+      "capture_group": "IMG_20261009_221719.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/nxp_frdm_mcxn236_board/IMG_20261009_221719_1.jpg",
+      "crop_box_pixels": [
+        0,
+        0,
+        1800,
+        3894
+      ]
+    },
+    {
+      "file": "IMG_20261009_221755.jpg",
+      "board_class": "nxp_frdm_mcxn236_board",
+      "capture_group": "IMG_20261009_221755.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/nxp_frdm_mcxn236_board/IMG_20261009_221755.jpg",
+      "crop_box_pixels": [
+        614,
+        0,
+        2628,
+        4048
+      ]
+    },
+    {
+      "file": "IMG_20261009_221755_1.jpg",
+      "board_class": "nxp_frdm_mcxn236_board",
+      "capture_group": "IMG_20261009_221755.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/nxp_frdm_mcxn236_board/IMG_20261009_221755_1.jpg",
+      "crop_box_pixels": [
+        0,
+        0,
+        1600,
+        3888
+      ]
+    },
+    {
+      "file": "IMG_20261009_221800.jpg",
+      "board_class": "nxp_frdm_mcxn236_board",
+      "capture_group": "IMG_20261009_221800.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/nxp_frdm_mcxn236_board/IMG_20261009_221800.jpg",
+      "crop_box_pixels": [
+        649,
+        0,
+        2656,
+        4096
+      ]
+    },
+    {
+      "file": "IMG_20261009_221800_1.jpg",
+      "board_class": "nxp_frdm_mcxn236_board",
+      "capture_group": "IMG_20261009_221800.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/nxp_frdm_mcxn236_board/IMG_20261009_221800_1.jpg",
+      "crop_box_pixels": [
+        0,
+        0,
+        1836,
+        3926
+      ]
+    },
+    {
+      "file": "IMG_20261009_221803.jpg",
+      "board_class": "nxp_frdm_mcxn236_board",
+      "capture_group": "IMG_20261009_221803.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/nxp_frdm_mcxn236_board/IMG_20261009_221803.jpg",
+      "crop_box_pixels": [
+        642,
+        0,
+        2649,
+        4096
+      ]
+    },
+    {
+      "file": "IMG_20261009_221803_1.jpg",
+      "board_class": "nxp_frdm_mcxn236_board",
+      "capture_group": "IMG_20261009_221803.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/nxp_frdm_mcxn236_board/IMG_20261009_221803_1.jpg",
+      "crop_box_pixels": [
+        0,
+        0,
+        1860,
+        3928
+      ]
+    },
+    {
+      "file": "IMG_20261009_221806.jpg",
+      "board_class": "nxp_frdm_mcxn236_board",
+      "capture_group": "IMG_20261009_221806.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/nxp_frdm_mcxn236_board/IMG_20261009_221806.jpg",
+      "crop_box_pixels": [
+        662,
+        20,
+        2690,
+        4096
+      ]
+    },
+    {
+      "file": "IMG_20261009_221806_1.jpg",
+      "board_class": "nxp_frdm_mcxn236_board",
+      "capture_group": "IMG_20261009_221806.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/nxp_frdm_mcxn236_board/IMG_20261009_221806_1.jpg",
+      "crop_box_pixels": [
+        0,
+        0,
+        1964,
+        3984
+      ]
+    },
+    {
+      "file": "IMG_20261009_221838.jpg",
+      "board_class": "esp32_board",
+      "capture_group": "IMG_20261009_221838.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/esp32_board/IMG_20261009_221838.jpg",
+      "crop_box_pixels": [
+        1167,
+        512,
+        2191,
+        2294
+      ]
+    },
+    {
+      "file": "IMG_20261009_221838_1.jpg",
+      "board_class": "esp32_board",
+      "capture_group": "IMG_20261009_221838.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/esp32_board/IMG_20261009_221838_1.jpg",
+      "crop_box_pixels": [
+        0,
+        0,
+        928,
+        1692
+      ]
+    },
+    {
+      "file": "IMG_20261009_221841.jpg",
+      "board_class": "esp32_board",
+      "capture_group": "IMG_20261009_221841.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/esp32_board/IMG_20261009_221841.jpg",
+      "crop_box_pixels": [
+        997,
+        567,
+        2028,
+        2348
+      ]
+    },
+    {
+      "file": "IMG_20261009_221841_1.jpg",
+      "board_class": "esp32_board",
+      "capture_group": "IMG_20261009_221841.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/esp32_board/IMG_20261009_221841_1.jpg",
+      "crop_box_pixels": [
+        0,
+        0,
+        924,
+        1688
+      ]
+    },
+    {
+      "file": "IMG_20261009_221901.jpg",
+      "board_class": "esp32_board",
+      "capture_group": "IMG_20261009_221901.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/esp32_board/IMG_20261009_221901.jpg",
+      "crop_box_pixels": [
+        1229,
+        621,
+        2287,
+        2417
+      ]
+    },
+    {
+      "file": "IMG_20261009_221901_1.jpg",
+      "board_class": "esp32_board",
+      "capture_group": "IMG_20261009_221901.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/esp32_board/IMG_20261009_221901_1.jpg",
+      "crop_box_pixels": [
+        0,
+        0,
+        928,
+        1686
+      ]
+    },
+    {
+      "file": "IMG_20261009_221908.jpg",
+      "board_class": "esp32_board",
+      "capture_group": "IMG_20261009_221908.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/esp32_board/IMG_20261009_221908.jpg",
+      "crop_box_pixels": [
+        1004,
+        942,
+        2150,
+        2765
+      ]
+    },
+    {
+      "file": "IMG_20261009_221908_1.jpg",
+      "board_class": "esp32_board",
+      "capture_group": "IMG_20261009_221908.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/esp32_board/IMG_20261009_221908_1.jpg",
+      "crop_box_pixels": [
+        0,
+        0,
+        808,
+        1716
+      ]
+    },
+    {
+      "file": "IMG_20261009_221911.jpg",
+      "board_class": "esp32_board",
+      "capture_group": "IMG_20261009_221911.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/esp32_board/IMG_20261009_221911.jpg",
+      "crop_box_pixels": [
+        1065,
+        778,
+        2205,
+        2608
+      ]
+    },
+    {
+      "file": "IMG_20261009_221911_1.jpg",
+      "board_class": "esp32_board",
+      "capture_group": "IMG_20261009_221911.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/esp32_board/IMG_20261009_221911_1.jpg",
+      "crop_box_pixels": [
+        0,
+        0,
+        800,
+        1708
+      ]
+    },
+    {
+      "file": "IMG_20261009_221914.jpg",
+      "board_class": "esp32_board",
+      "capture_group": "IMG_20261009_221914.jpg",
+      "split": "val",
+      "crop": "data/photo-model/classifier-dataset/val/esp32_board/IMG_20261009_221914.jpg",
+      "crop_box_pixels": [
+        1072,
+        758,
+        2205,
+        2580
+      ]
+    },
+    {
+      "file": "IMG_20261009_221914_1.jpg",
+      "board_class": "esp32_board",
+      "capture_group": "IMG_20261009_221914.jpg",
+      "split": "excluded_val_variant",
+      "crop": "data/photo-model/classifier-dataset/excluded_val_variant/esp32_board/IMG_20261009_221914_1.jpg",
+      "crop_box_pixels": [
+        0,
+        0,
+        804,
+        1706
+      ]
+    },
+    {
+      "file": "IMG_20261009_221941.jpg",
+      "board_class": "esp8266_board",
+      "capture_group": "IMG_20261009_221941.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/esp8266_board/IMG_20261009_221941.jpg",
+      "crop_box_pixels": [
+        1051,
+        642,
+        2212,
+        2676
+      ]
+    },
+    {
+      "file": "IMG_20261009_221941_1.jpg",
+      "board_class": "esp8266_board",
+      "capture_group": "IMG_20261009_221941.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/esp8266_board/IMG_20261009_221941_1.jpg",
+      "crop_box_pixels": [
+        0,
+        0,
+        1016,
+        1866
+      ]
+    },
+    {
+      "file": "IMG_20261009_221944.jpg",
+      "board_class": "esp8266_board",
+      "capture_group": "IMG_20261009_221944.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/esp8266_board/IMG_20261009_221944.jpg",
+      "crop_box_pixels": [
+        1154,
+        785,
+        2287,
+        2813
+      ]
+    },
+    {
+      "file": "IMG_20261009_221944_1.jpg",
+      "board_class": "esp8266_board",
+      "capture_group": "IMG_20261009_221944.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/esp8266_board/IMG_20261009_221944_1.jpg",
+      "crop_box_pixels": [
+        0,
+        0,
+        1008,
+        1844
+      ]
+    },
+    {
+      "file": "IMG_20261009_221952.jpg",
+      "board_class": "esp8266_board",
+      "capture_group": "IMG_20261009_221952.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/esp8266_board/IMG_20261009_221952.jpg",
+      "crop_box_pixels": [
+        1017,
+        717,
+        2116,
+        2717
+      ]
+    },
+    {
+      "file": "IMG_20261009_221952_1.jpg",
+      "board_class": "esp8266_board",
+      "capture_group": "IMG_20261009_221952.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/esp8266_board/IMG_20261009_221952_1.jpg",
+      "crop_box_pixels": [
+        0,
+        0,
+        1004,
+        1830
+      ]
+    },
+    {
+      "file": "IMG_20261009_222024.jpg",
+      "board_class": "ultimainboard",
+      "capture_group": "IMG_20261009_222024.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/ultimainboard/IMG_20261009_222024.jpg",
+      "crop_box_pixels": [
+        416,
+        0,
+        2731,
+        4096
+      ]
+    },
+    {
+      "file": "IMG_20261009_222024_1.jpg",
+      "board_class": "ultimainboard",
+      "capture_group": "IMG_20261009_222024.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/ultimainboard/IMG_20261009_222024_1.jpg",
+      "crop_box_pixels": [
+        0,
+        0,
+        2052,
+        4038
+      ]
+    },
+    {
+      "file": "IMG_20261009_222033.jpg",
+      "board_class": "ultimainboard",
+      "capture_group": "IMG_20261009_222033.jpg",
+      "split": "val",
+      "crop": "data/photo-model/classifier-dataset/val/ultimainboard/IMG_20261009_222033.jpg",
+      "crop_box_pixels": [
+        1085,
+        860,
+        2021,
+        2765
+      ]
+    },
+    {
+      "file": "IMG_20261009_222033_1.jpg",
+      "board_class": "ultimainboard",
+      "capture_group": "IMG_20261009_222033.jpg",
+      "split": "excluded_val_variant",
+      "crop": "data/photo-model/classifier-dataset/excluded_val_variant/ultimainboard/IMG_20261009_222033_1.jpg",
+      "crop_box_pixels": [
+        0,
+        0,
+        728,
+        1716
+      ]
+    },
+    {
+      "file": "IMG_20261009_222038.jpg",
+      "board_class": "ultimainboard",
+      "capture_group": "IMG_20261009_222038.jpg",
+      "split": "val",
+      "crop": "data/photo-model/classifier-dataset/val/ultimainboard/IMG_20261009_222038.jpg",
+      "crop_box_pixels": [
+        1085,
+        922,
+        2021,
+        2819
+      ]
+    },
+    {
+      "file": "IMG_20261009_222038_1.jpg",
+      "board_class": "ultimainboard",
+      "capture_group": "IMG_20261009_222038.jpg",
+      "split": "excluded_val_variant",
+      "crop": "data/photo-model/classifier-dataset/excluded_val_variant/ultimainboard/IMG_20261009_222038_1.jpg",
+      "crop_box_pixels": [
+        0,
+        0,
+        728,
+        1716
+      ]
+    },
+    {
+      "file": "IMG_20261009_222042.jpg",
+      "board_class": "ultimainboard",
+      "capture_group": "IMG_20261009_222042.jpg",
+      "split": "val",
+      "crop": "data/photo-model/classifier-dataset/val/ultimainboard/IMG_20261009_222042.jpg",
+      "crop_box_pixels": [
+        1038,
+        806,
+        1973,
+        2703
+      ]
+    },
+    {
+      "file": "IMG_20261009_222042_1.jpg",
+      "board_class": "ultimainboard",
+      "capture_group": "IMG_20261009_222042.jpg",
+      "split": "excluded_val_variant",
+      "crop": "data/photo-model/classifier-dataset/excluded_val_variant/ultimainboard/IMG_20261009_222042_1.jpg",
+      "crop_box_pixels": [
+        0,
+        0,
+        728,
+        1710
+      ]
+    },
+    {
+      "file": "IMG_20261009_222108.jpg",
+      "board_class": "ultimainboard",
+      "capture_group": "IMG_20261009_222108.jpg",
+      "split": "val",
+      "crop": "data/photo-model/classifier-dataset/val/ultimainboard/IMG_20261009_222108.jpg",
+      "crop_box_pixels": [
+        1256,
+        840,
+        2185,
+        2737
+      ]
+    },
+    {
+      "file": "IMG_20261009_222108_1.jpg",
+      "board_class": "ultimainboard",
+      "capture_group": "IMG_20261009_222108.jpg",
+      "split": "excluded_val_variant",
+      "crop": "data/photo-model/classifier-dataset/excluded_val_variant/ultimainboard/IMG_20261009_222108_1.jpg",
+      "crop_box_pixels": [
+        0,
+        0,
+        748,
+        1698
+      ]
+    },
+    {
+      "file": "IMG_20261009_222113.jpg",
+      "board_class": "ultimainboard",
+      "capture_group": "IMG_20261009_222113.jpg",
+      "split": "val",
+      "crop": "data/photo-model/classifier-dataset/val/ultimainboard/IMG_20261009_222113.jpg",
+      "crop_box_pixels": [
+        1229,
+        915,
+        2157,
+        2813
+      ]
+    },
+    {
+      "file": "IMG_20261009_222113_1.jpg",
+      "board_class": "ultimainboard",
+      "capture_group": "IMG_20261009_222113.jpg",
+      "split": "excluded_val_variant",
+      "crop": "data/photo-model/classifier-dataset/excluded_val_variant/ultimainboard/IMG_20261009_222113_1.jpg",
+      "crop_box_pixels": [
+        0,
+        0,
+        752,
+        1704
+      ]
+    },
+    {
+      "file": "IMG_20261009_222133.jpg",
+      "board_class": "ultimainboard",
+      "capture_group": "IMG_20261009_222133.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/ultimainboard/IMG_20261009_222133.jpg",
+      "crop_box_pixels": [
+        928,
+        403,
+        2567,
+        3782
+      ]
+    },
+    {
+      "file": "IMG_20261009_222133_1.jpg",
+      "board_class": "ultimainboard",
+      "capture_group": "IMG_20261009_222133.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/ultimainboard/IMG_20261009_222133_1.jpg",
+      "crop_box_pixels": [
+        0,
+        0,
+        1408,
+        3110
+      ]
+    },
+    {
+      "file": "IMG_20261009_222135.jpg",
+      "board_class": "ultimainboard",
+      "capture_group": "IMG_20261009_222135.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/ultimainboard/IMG_20261009_222135.jpg",
+      "crop_box_pixels": [
+        778,
+        355,
+        2423,
+        3734
+      ]
+    },
+    {
+      "file": "IMG_20261009_222135_1.jpg",
+      "board_class": "ultimainboard",
+      "capture_group": "IMG_20261009_222135.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/ultimainboard/IMG_20261009_222135_1.jpg",
+      "crop_box_pixels": [
+        0,
+        0,
+        1408,
+        3112
+      ]
+    },
+    {
+      "file": "IMG_20261009_222137.jpg",
+      "board_class": "ultimainboard",
+      "capture_group": "IMG_20261009_222137.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/ultimainboard/IMG_20261009_222137.jpg",
+      "crop_box_pixels": [
+        881,
+        416,
+        2533,
+        3796
+      ]
+    },
+    {
+      "file": "IMG_20261009_222137_1.jpg",
+      "board_class": "ultimainboard",
+      "capture_group": "IMG_20261009_222137.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/ultimainboard/IMG_20261009_222137_1.jpg",
+      "crop_box_pixels": [
+        0,
+        0,
+        1408,
+        3110
+      ]
+    },
+    {
+      "file": "IMG_20261009_222219.jpg",
+      "board_class": "raspberry_pi_3b_board",
+      "capture_group": "IMG_20261009_222219.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/raspberry_pi_3b_board/IMG_20261009_222219.jpg",
+      "crop_box_pixels": [
+        901,
+        560,
+        2152,
+        2451
+      ]
+    },
+    {
+      "file": "IMG_20261009_222219_1.jpg",
+      "board_class": "raspberry_pi_3b_board",
+      "capture_group": "IMG_20261009_222219.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/raspberry_pi_3b_board/IMG_20261009_222219_1.jpg",
+      "crop_box_pixels": [
+        0,
+        0,
+        1064,
+        1652
+      ]
+    },
+    {
+      "file": "IMG_20261009_222222.jpg",
+      "board_class": "raspberry_pi_3b_board",
+      "capture_group": "IMG_20261009_222222.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/raspberry_pi_3b_board/IMG_20261009_222222.jpg",
+      "crop_box_pixels": [
+        853,
+        553,
+        2097,
+        2437
+      ]
+    },
+    {
+      "file": "IMG_20261009_222222_1.jpg",
+      "board_class": "raspberry_pi_3b_board",
+      "capture_group": "IMG_20261009_222222.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/raspberry_pi_3b_board/IMG_20261009_222222_1.jpg",
+      "crop_box_pixels": [
+        0,
+        0,
+        1056,
+        1682
+      ]
+    },
+    {
+      "file": "IMG_20261009_222225.jpg",
+      "board_class": "raspberry_pi_3b_board",
+      "capture_group": "IMG_20261009_222225.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/raspberry_pi_3b_board/IMG_20261009_222225.jpg",
+      "crop_box_pixels": [
+        826,
+        642,
+        2070,
+        2492
+      ]
+    },
+    {
+      "file": "IMG_20261009_222225_1.jpg",
+      "board_class": "raspberry_pi_3b_board",
+      "capture_group": "IMG_20261009_222225.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/raspberry_pi_3b_board/IMG_20261009_222225_1.jpg",
+      "crop_box_pixels": [
+        0,
+        0,
+        1036,
+        1658
+      ]
+    },
+    {
+      "file": "IMG_20261009_222248.jpg",
+      "board_class": "raspberry_pi_3b_board",
+      "capture_group": "IMG_20261009_222248.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/raspberry_pi_3b_board/IMG_20261009_222248.jpg",
+      "crop_box_pixels": [
+        532,
+        273,
+        2787,
+        3618
+      ]
+    },
+    {
+      "file": "IMG_20261009_222248_1.jpg",
+      "board_class": "raspberry_pi_3b_board",
+      "capture_group": "IMG_20261009_222248.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/raspberry_pi_3b_board/IMG_20261009_222248_1.jpg",
+      "crop_box_pixels": [
+        0,
+        0,
+        1872,
+        2994
+      ]
+    },
+    {
+      "file": "IMG_20261009_222252.jpg",
+      "board_class": "raspberry_pi_3b_board",
+      "capture_group": "IMG_20261009_222252.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/raspberry_pi_3b_board/IMG_20261009_222252.jpg",
+      "crop_box_pixels": [
+        519,
+        150,
+        2780,
+        3502
+      ]
+    },
+    {
+      "file": "IMG_20261009_222252_1.jpg",
+      "board_class": "raspberry_pi_3b_board",
+      "capture_group": "IMG_20261009_222252.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/raspberry_pi_3b_board/IMG_20261009_222252_1.jpg",
+      "crop_box_pixels": [
+        0,
+        0,
+        1864,
+        2982
+      ]
+    },
+    {
+      "file": "IMG_20261009_222305.jpg",
+      "board_class": "raspberry_pi_3b_board",
+      "capture_group": "IMG_20261009_222305.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/raspberry_pi_3b_board/IMG_20261009_222305.jpg",
+      "crop_box_pixels": [
+        485,
+        375,
+        2609,
+        3441
+      ]
+    },
+    {
+      "file": "IMG_20261009_222305_1.jpg",
+      "board_class": "raspberry_pi_3b_board",
+      "capture_group": "IMG_20261009_222305.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/raspberry_pi_3b_board/IMG_20261009_222305_1.jpg",
+      "crop_box_pixels": [
+        0,
+        0,
+        1908,
+        2970
+      ]
+    },
+    {
+      "file": "IMG_20261009_222308.jpg",
+      "board_class": "raspberry_pi_3b_board",
+      "capture_group": "IMG_20261009_222308.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/raspberry_pi_3b_board/IMG_20261009_222308.jpg",
+      "crop_box_pixels": [
+        498,
+        430,
+        2623,
+        3495
+      ]
+    },
+    {
+      "file": "IMG_20261009_222308_1.jpg",
+      "board_class": "raspberry_pi_3b_board",
+      "capture_group": "IMG_20261009_222308.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/raspberry_pi_3b_board/IMG_20261009_222308_1.jpg",
+      "crop_box_pixels": [
+        0,
+        0,
+        1908,
+        2974
+      ]
+    },
+    {
+      "file": "IMG_20261009_222340.jpg",
+      "board_class": "raspberry_pi_3b_board",
+      "capture_group": "IMG_20261009_222340.jpg",
+      "split": "val",
+      "crop": "data/photo-model/classifier-dataset/val/raspberry_pi_3b_board/IMG_20261009_222340.jpg",
+      "crop_box_pixels": [
+        0,
+        492,
+        3005,
+        2758
+      ]
+    },
+    {
+      "file": "IMG_20261009_222340_1.jpg",
+      "board_class": "raspberry_pi_3b_board",
+      "capture_group": "IMG_20261009_222340.jpg",
+      "split": "excluded_val_variant",
+      "crop": "data/photo-model/classifier-dataset/excluded_val_variant/raspberry_pi_3b_board/IMG_20261009_222340_1.jpg",
+      "crop_box_pixels": [
+        0,
+        0,
+        2960,
+        1930
+      ]
+    },
+    {
+      "file": "IMG_20261009_222343.jpg",
+      "board_class": "raspberry_pi_3b_board",
+      "capture_group": "IMG_20261009_222343.jpg",
+      "split": "val",
+      "crop": "data/photo-model/classifier-dataset/val/raspberry_pi_3b_board/IMG_20261009_222343.jpg",
+      "crop_box_pixels": [
+        34,
+        546,
+        2910,
+        2778
+      ]
+    },
+    {
+      "file": "IMG_20261009_222343_1.jpg",
+      "board_class": "raspberry_pi_3b_board",
+      "capture_group": "IMG_20261009_222343.jpg",
+      "split": "excluded_val_variant",
+      "crop": "data/photo-model/classifier-dataset/excluded_val_variant/raspberry_pi_3b_board/IMG_20261009_222343_1.jpg",
+      "crop_box_pixels": [
+        0,
+        0,
+        2364,
+        1978
+      ]
+    }
+  ]
+}

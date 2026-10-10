@@ -1,0 +1,100 @@
+{
+  "schema_version": "1.0",
+  "production_eligible": false,
+  "source_pdf_path": "data/board-sources/nxp-frdm-mcxn236/SPF-90828.pdf",
+  "source_pdf_sha256": "243b93184f692b0f7c0deb3a9a63f6262ea3083a05c30c0143b4a4faa54b1868",
+  "source_page_one_based": 1,
+  "review_status": "revision_history_text_and_rendered_cover_visually_reviewed",
+  "photographed_marking": null,
+  "photographed_subrevision_confirmed": false,
+  "available_design_revision": "C",
+  "revision_equivalence_verified": false,
+  "b1_changes": {
+    "date": "2024-01-24",
+    "dnp_references": [
+      "U6",
+      "J14",
+      "J21"
+    ],
+    "capacitor_value_changes": [
+      "C28",
+      "C18",
+      "C30"
+    ]
+  },
+  "b2_changes": {
+    "date": "2024-01-26",
+    "design_change_reported": false,
+    "reason": "revision update for administrative system issue"
+  },
+  "c_changes": {
+    "date": "2024-03-25",
+    "changed_header_contacts": [
+      "J8:6",
+      "J8:8"
+    ],
+    "deleted_references": [
+      "C157",
+      "C155",
+      "R301",
+      "R300"
+    ],
+    "resistors_changed_to_zero_ohm": [
+      "R89",
+      "R121"
+    ],
+    "resistors_changed_to_dnp": [
+      "R91",
+      "R122"
+    ],
+    "added_testpoints": [
+      "TP10",
+      "TP11",
+      "TP12",
+      "TP13",
+      "TP14",
+      "TP15",
+      "TP16",
+      "TP17",
+      "TP18",
+      "TP19",
+      "TP20",
+      "TP21",
+      "TP22",
+      "TP23",
+      "TP24",
+      "TP25",
+      "TP26",
+      "TP27",
+      "TP28",
+      "TP29",
+      "TP30",
+      "TP31",
+      "TP32"
+    ]
+  },
+  "policy": {
+    "changed_contacts_require_revision_matched_pinout": true,
+    "deleted_b_parts_require_b_geometry_or_reviewed_specimen_reconstruction": true,
+    "c_only_testpoints_cannot_be_asserted_on_b_specimen": true,
+    "population_and_values_require_specimen_review": true,
+    "unlisted_references_are_not_automatically_confirmed": true
+  },
+  "remaining": "Schematic C is directly confirmed. Assembly A1 is a separate revision domain. Verify layout/population correspondence, geometry and camera calibration; no B/C mismatch is established.",
+  "photographed_copyright_text": "2024 NXP B.V.",
+  "prior_B_revision_inference_retracted": true,
+  "observed_schematic_revision": "C",
+  "observed_assembly_revision": "A1",
+  "schematic_revision_match_verified": true,
+  "layout_revision_match_verified": false,
+  "underside_evidence": [
+    {
+      "image_path": "data/phone-captures/2026-10-10/nxp-underside/IMG_20261010_192024.jpg",
+      "image_sha256": "28e5a8601ad49b6f9d933c7baa2c278204b5438c58b419ddff4877107ebde5e5"
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/nxp-underside/IMG_20261010_192027.jpg",
+      "image_sha256": "ce0224058ebd0e480872cfbb9f6db13aacb1563ac57770e5f06417bcb1360ecc"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "schema_version": "1.0",
+  "release_eligible": false,
+  "training_export_eligible": false,
+  "photos": [
+    {
+      "image_path": "data/phone-captures/2026-10-10/nxp-underside/IMG_20261010_192024.jpg",
+      "image_sha256": "28e5a8601ad49b6f9d933c7baa2c278204b5438c58b419ddff4877107ebde5e5",
+      "bytes": 2834294,
+      "upright_dimensions": [
+        3072,
+        4096
+      ],
+      "source_device_path": "/sdcard/DCIM/Camera/IMG_20261010_192024.jpg",
+      "view": "bottom",
+      "review_status": "original_upright_photo_visually_reviewed",
+      "physical_specimen_id": "bench-nxp-01",
+      "capture_session_id": "bench-nxp-01:20261010_192024",
+      "training_export_eligible": false,
+      "component_mask_coverage": "not_exhaustive"
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/nxp-underside/IMG_20261010_192027.jpg",
+      "image_sha256": "ce0224058ebd0e480872cfbb9f6db13aacb1563ac57770e5f06417bcb1360ecc",
+      "bytes": 2672963,
+      "upright_dimensions": [
+        3072,
+        4096
+      ],
+      "source_device_path": "/sdcard/DCIM/Camera/IMG_20261010_192027.jpg",
+      "view": "bottom",
+      "review_status": "original_upright_photo_visually_reviewed",
+      "physical_specimen_id": "bench-nxp-01",
+      "capture_session_id": "bench-nxp-01:20261010_192024",
+      "training_export_eligible": false,
+      "component_mask_coverage": "not_exhaustive"
+    }
+  ],
+  "same_specimen_split_group": "bench-nxp-01",
+  "specimen_assignment_status": "same_bench_board_assumed_for_leakage_control",
+  "observed_revision_domains": {
+    "schematic": {
+      "document": "SCH-90828",
+      "revision": "C"
+    },
+    "assembly": {
+      "document": "700-90828",
+      "revision": "A1"
+    },
+    "layout_artwork": {
+      "revision": null,
+      "status": "identifier_not_independently_reviewed"
+    }
+  },
+  "schematic_revision_matches_downloaded_source": true,
+  "physical_flip_sequence_verified": false,
+  "calibration_landmarks": [],
+  "occlusions": [
+    "revision/serial adhesive labels obscure underlying surface",
+    "four raised mechanical feet cover mounting-hole regions"
+  ],
+  "landmark_policy": "Raised foot tops are not PCB-plane mounting-hole centers. Do not reuse them as calibrated metric landmarks.",
+  "remaining": [
+    "visible-body/contact labels",
+    "metric landmark registration",
+    "four oblique side views",
+    "continuous physical flip evaluation"
+  ]
+}

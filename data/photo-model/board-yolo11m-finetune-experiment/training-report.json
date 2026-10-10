@@ -1,0 +1,147 @@
+{
+  "schema_version": "1.0",
+  "task": "five_family_board_detection",
+  "release_eligible": false,
+  "evaluation_valid": false,
+  "selection": {
+    "architecture": "YOLO11m",
+    "fine_tuned_from": "data/photo-model/board-yolo11m-experiment/best.pt",
+    "epochs_ceiling": 1000,
+    "early_stopping_patience": 100,
+    "stopped_epoch": 113,
+    "best_epoch": 13,
+    "image_size": 640,
+    "batch": 4,
+    "optimizer": "AdamW",
+    "initial_learning_rate": 0.0001,
+    "schedule": "cosine",
+    "frozen_layers": 10,
+    "amp": true,
+    "seed": 42,
+    "selection_rule": "best validation fitness checkpoint; exported best.pt, not last.pt"
+  },
+  "class_names": {
+    "0": "ESP32 30-pin DevKit (variant unknown)",
+    "1": "ESP8266 NodeMCU-style ESP-12E clone (variant unknown)",
+    "2": "Ultimaker Ultimainboard 2.1.4",
+    "3": "NXP FRDM-MCXN236 (revision unverified)",
+    "4": "Raspberry Pi 3 Model B v1.2"
+  },
+  "validation": {
+    "images": 11,
+    "instances": 11,
+    "classes_present": [
+      "ESP8266 NodeMCU-style ESP-12E clone (variant unknown)",
+      "Ultimaker Ultimainboard 2.1.4",
+      "NXP FRDM-MCXN236 (revision unverified)",
+      "Raspberry Pi 3 Model B v1.2"
+    ],
+    "esp32": "absent from validation",
+    "same_specimens_as_training": true,
+    "limitations": [
+      "one physical specimen per family",
+      "one capture session",
+      "no ESP32 validation example",
+      "11 images are too few for an independent accuracy claim"
+    ],
+    "ranking_metrics_from_yolo_validation": {
+      "fine_tune": {
+        "map50": 0.995,
+        "map50_95": 0.9416875
+      },
+      "baseline": {
+        "map50": 0.995,
+        "map50_95": 0.9185625
+      },
+      "note": "mAP is integrated over confidence thresholds; it is not fixed-threshold precision."
+    },
+    "manual_fixed_threshold_iou_0_5": {
+      "baseline_uniform_confidence_0_75": {
+        "true_positive": 11,
+        "false_positive": 0,
+        "false_negative": 0,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "fine_tune_uniform_confidence_0_75": {
+        "true_positive": 11,
+        "false_positive": 1,
+        "false_negative": 0,
+        "precision": 0.9166666667,
+        "recall": 1.0
+      },
+      "fine_tune_pi_threshold_0_78_other_classes_0_75": {
+        "true_positive": 11,
+        "false_positive": 0,
+        "false_negative": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "validation_tuned_on_this_same_fold": true
+      }
+    },
+    "observed_fine_tune_false_positive": {
+      "image": "IMG_20261009_222113.jpg",
+      "predicted_class": "Raspberry Pi 3 Model B v1.2",
+      "confidence": 0.7606,
+      "photo_board_class": "Ultimaker Ultimainboard 2.1.4"
+    },
+    "confidence_threshold_policy": "See confidence-thresholds.json. Class-specific thresholds are exploratory because they were selected after reviewing the same 11-image validation fold."
+  },
+  "scope": {
+    "supported": "board-family detection only; class IDs map to readable board family names",
+    "unsupported": [
+      "exact installed component manufacturer part numbers",
+      "unverified reference designators",
+      "physical pin identity",
+      "BOM/schematic/Gerber recognition"
+    ]
+  },
+  "artifacts": {
+    "best.pt": {
+      "bytes": 40513900,
+      "sha256": "1e596d52a140f59927b274d7bc471037e19b7eff9922cbef92fa5da9189afc0b"
+    },
+    "results.csv": {
+      "bytes": 13585,
+      "sha256": "54501c28a393633d5ac362b2d68a56bdd27cc9959b9d45e28f74a9cdabc26770"
+    },
+    "results.png": {
+      "bytes": 365828,
+      "sha256": "8f3c3b8832a5d331f992240be0bf400563d26b0c0c8ac5949913d7f1ccaeef7a"
+    },
+    "confusion_matrix.png": {
+      "bytes": 178451,
+      "sha256": "3fc203a8334d0956c49450693613eba70e85221d0411ab28b1ac7bb6e1a7df28"
+    },
+    "confusion_matrix_normalized.png": {
+      "bytes": 188581,
+      "sha256": "e8df366c38ca6200b2867eacdb859bf5745559f0a7b48beb43fd607f5db78458"
+    },
+    "confidence-thresholds.json": {
+      "bytes": 776,
+      "sha256": "8905300a0d1558ff9366ad7850652e360dcc261efbbbf3d52259c76846a822fd"
+    },
+    "best.tflite": {
+      "bytes": 80492247,
+      "sha256": "dafd649ed6dd23ff7dc97392908c2c0c53096b723ff13902db8ac95cef7d0358"
+    },
+    "litert-conformance.json": {
+      "bytes": 12502,
+      "sha256": "4445be85a5f7a057214a26880533e52a4cba3e935605cd226bfe041d65d4abab"
+    }
+  },
+  "mobile_export": {
+    "format": "LiteRT / TFLite float32",
+    "status": "exported; numerical conformance passed; live Android camera smoke passed",
+    "conformance_report": "litert-conformance.json",
+    "conformance_images": 11,
+    "conformance": "passed; normalized box coordinates and class scores agree with PyTorch within 0.001, and post-NMS classes match",
+    "android_camera_smoke_report": "android-camera-smoke.json",
+    "android_device": "iQOO I2501, Android 16",
+    "android_inference_ms_observed_range": [1065.15, 1083.8],
+    "android_board_result": "One correct Ultimainboard result at 0.7786 confidence; repeated live frames missed the board twice and once predicted ESP8266 at 0.9405 for the visible Ultimainboard",
+    "android_component_result": "2 generic ic detections; exact part identity is not produced",
+    "evaluation_valid": false,
+    "fine_tuned_export_contains_this_finetune": true
+  }
+}

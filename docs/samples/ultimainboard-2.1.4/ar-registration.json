@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "photo": {
+    "path": "data/photo-model/by_board/ultimainboard/IMG_20261009_222135_1.jpg",
+    "sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+    "coordinate_units": "pixels, origin upper left"
+  },
+  "board": {
+    "coordinate_units": "mm in imported KiCad board coordinates",
+    "registration_status": "not_established"
+  },
+  "landmarks": [
+    {
+      "id": "j22_pin_1",
+      "kind": "connector_contact_and_pin_1_triangle",
+      "photo_center_px": [
+        924.0,
+        50.0
+      ],
+      "board_coordinate": {
+        "frame": "J22 footprint local",
+        "value_mm": [
+          0.0,
+          0.0
+        ]
+      },
+      "review_status": "reviewed_local_correspondence",
+      "evidence": "J22 silkscreen plus pin-1 triangle and imported pad 1 UUID ac7ff3ad-f15a-4c55-b12b-6b9a7458facd"
+    },
+    {
+      "id": "board_top_left_mounting_hole",
+      "kind": "mounting_hole_candidate",
+      "photo_center_px": [
+        80,
+        66
+      ],
+      "board_coordinate": null,
+      "review_status": "unverified_candidate",
+      "reason": "Photo position is visible, but no independently reviewed board-coordinate correspondence has been established."
+    },
+    {
+      "id": "board_top_right_mounting_hole",
+      "kind": "mounting_hole_candidate",
+      "photo_center_px": [
+        1340,
+        68
+      ],
+      "board_coordinate": null,
+      "review_status": "unverified_candidate",
+      "reason": "Photo position is visible, but no independently reviewed board-coordinate correspondence has been established."
+    },
+    {
+      "id": "board_bottom_left_mounting_hole",
+      "kind": "mounting_hole_candidate",
+      "photo_center_px": [
+        70,
+        3035
+      ],
+      "board_coordinate": null,
+      "review_status": "unverified_candidate",
+      "reason": "Photo position is visible, but no independently reviewed board-coordinate correspondence has been established."
+    },
+    {
+      "id": "board_bottom_right_mounting_hole",
+      "kind": "mounting_hole_candidate",
+      "photo_center_px": [
+        1330,
+        3025
+      ],
+      "board_coordinate": null,
+      "review_status": "unverified_candidate",
+      "reason": "Photo position is visible, but no independently reviewed board-coordinate correspondence has been established."
+    }
+  ],
+  "transform": null,
+  "transform_status": "withheld",
+  "reason": "One reviewed local J22 correspondence cannot estimate or validate a 2D projective transform, camera pose, scale, or lens distortion. Candidate holes need independent CAD-coordinate review and a reprojection-error check.",
+  "acceptance_requirements": {
+    "minimum_reviewed_non_collinear_landmarks": 4,
+    "required": [
+      "board-coordinate IDs",
+      "photo pixels at original resolution",
+      "camera/lens assumption",
+      "fit method",
+      "per-landmark reprojection error in pixels",
+      "visual overlay review"
+    ]
+  }
+}

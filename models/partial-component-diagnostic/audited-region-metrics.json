@@ -1,0 +1,73 @@
+{
+  "mask_iou_threshold": 0.5,
+  "confidence": 0.25,
+  "tp": 3,
+  "fp_audited_regions": 4,
+  "fn_reviewed_instances": 41,
+  "ignored_predictions": 8,
+  "audited_region_precision": 0.42857142857142855,
+  "reviewed_instance_recall": 0.06818181818181818,
+  "evaluation_valid": false,
+  "scope": "partial reviewed regions on known specimens; unmatched unknown-region predictions ignored, not false positives",
+  "images": [
+    {
+      "path": "data/video-captures/2026-10-10/esp12e-keyframes/video_20261010_122211_n000523_pts00017497ms.jpg",
+      "board_family": "esp8266_nodemcu_esp12e_clone_unknown_variant",
+      "tp": 1,
+      "fp_audited_regions": 2,
+      "fn_reviewed_instances": 17,
+      "ignored_predictions": 1,
+      "reviewed_background_pixels": 6318
+    },
+    {
+      "path": "data/video-captures/2026-10-10/esp12e-keyframes/video_20261010_122211_n000000_pts00000000ms.jpg",
+      "board_family": "esp8266_nodemcu_esp12e_clone_unknown_variant",
+      "tp": 0,
+      "fp_audited_regions": 0,
+      "fn_reviewed_instances": 2,
+      "ignored_predictions": 1,
+      "reviewed_background_pixels": 15698
+    },
+    {
+      "path": "data/photo-model/by_board/nxp_frdm_mcxn_board/IMG_20261009_221755.jpg",
+      "board_family": "NXP FRDM-MCXN236",
+      "tp": 1,
+      "fp_audited_regions": 2,
+      "fn_reviewed_instances": 18,
+      "ignored_predictions": 5,
+      "reviewed_background_pixels": 3844
+    },
+    {
+      "path": "data/video-captures/2026-10-10/esp32-keyframes/video_20261010_132302_n000000_pts00000000ms.jpg",
+      "board_family": "esp32_devkit_30pin_unknown_variant",
+      "tp": 1,
+      "fp_audited_regions": 0,
+      "fn_reviewed_instances": 4,
+      "ignored_predictions": 1,
+      "reviewed_background_pixels": 14529
+    }
+  ],
+  "per_board": {
+    "esp8266_nodemcu_esp12e_clone_unknown_variant": {
+      "tp": 1,
+      "fp": 2,
+      "fn": 19,
+      "images": 2
+    },
+    "NXP FRDM-MCXN236": {
+      "tp": 1,
+      "fp": 2,
+      "fn": 18,
+      "images": 1
+    },
+    "esp32_devkit_30pin_unknown_variant": {
+      "tp": 1,
+      "fp": 0,
+      "fn": 4,
+      "images": 1
+    }
+  },
+  "missing_validation_families": [
+    "ultimainboard_2_1_4"
+  ]
+}

@@ -1,0 +1,516 @@
+{
+  "schema_version": "1.0",
+  "release_eligible": false,
+  "calibration_eligible": false,
+  "image_path": "data/video-captures/2026-10-10/esp12e-keyframes/video_20261010_122211_n000523_pts00017497ms.jpg",
+  "image_sha256": "bcf9d38b8de7e5792fd9795f9d7a8b855279ab15fa1f0135a930f786485fba09",
+  "physical_specimen_id": "bench-esp8266-01",
+  "source_contacts_sha256": "0e820eae11233e5933efb28364e03566e8bed29f065c6db879f040992e36c348",
+  "dimension_source": {
+    "title": "Ai-Thinker ESP-12E WiFi Module Version 1.0",
+    "author": "Ai-Thinker / Shenzhen Anxinke Technology",
+    "retrieval_url": "https://components101.com/sites/default/files/2021-09/ESP12E-Datasheet.pdf",
+    "hosting_status": "third_party_mirror_of_manufacturer_authored_document",
+    "pdf_sha256": "bea07f3ed2e68c0ddeef0f6ecdd345830f945cfafeeb3b961966e74c44e96bfc",
+    "reviewed_pages_one_based": [
+      7,
+      8,
+      10
+    ],
+    "pin_table_pages_one_based": [
+      7,
+      8
+    ],
+    "dimension_pages_one_based": [
+      10,
+      11
+    ],
+    "quantity": "nominal module contact pitch",
+    "pitch_metres": 0.002
+  },
+  "constraints": [
+    {
+      "contact_ids": [
+        "bench-esp8266-01:esp12e_module:contact:1",
+        "bench-esp8266-01:esp12e_module:contact:2"
+      ],
+      "module_pin_numbers": [
+        1,
+        2
+      ],
+      "feature_kind": "visible_castellated_hole_center",
+      "image_points_xy_pixels": [
+        [
+          180,
+          87
+        ],
+        [
+          179,
+          145
+        ]
+      ],
+      "nominal_distance_metres": 0.002,
+      "manufacturing_tolerance_metres": null,
+      "scope": "adjacent_same_row_module_contacts",
+      "specimen_metric_measurement_verified": false
+    },
+    {
+      "contact_ids": [
+        "bench-esp8266-01:esp12e_module:contact:2",
+        "bench-esp8266-01:esp12e_module:contact:3"
+      ],
+      "module_pin_numbers": [
+        2,
+        3
+      ],
+      "feature_kind": "visible_castellated_hole_center",
+      "image_points_xy_pixels": [
+        [
+          179,
+          145
+        ],
+        [
+          177,
+          205
+        ]
+      ],
+      "nominal_distance_metres": 0.002,
+      "manufacturing_tolerance_metres": null,
+      "scope": "adjacent_same_row_module_contacts",
+      "specimen_metric_measurement_verified": false
+    },
+    {
+      "contact_ids": [
+        "bench-esp8266-01:esp12e_module:contact:3",
+        "bench-esp8266-01:esp12e_module:contact:4"
+      ],
+      "module_pin_numbers": [
+        3,
+        4
+      ],
+      "feature_kind": "visible_castellated_hole_center",
+      "image_points_xy_pixels": [
+        [
+          177,
+          205
+        ],
+        [
+          173,
+          266
+        ]
+      ],
+      "nominal_distance_metres": 0.002,
+      "manufacturing_tolerance_metres": null,
+      "scope": "adjacent_same_row_module_contacts",
+      "specimen_metric_measurement_verified": false
+    },
+    {
+      "contact_ids": [
+        "bench-esp8266-01:esp12e_module:contact:4",
+        "bench-esp8266-01:esp12e_module:contact:5"
+      ],
+      "module_pin_numbers": [
+        4,
+        5
+      ],
+      "feature_kind": "visible_castellated_hole_center",
+      "image_points_xy_pixels": [
+        [
+          173,
+          266
+        ],
+        [
+          173,
+          328
+        ]
+      ],
+      "nominal_distance_metres": 0.002,
+      "manufacturing_tolerance_metres": null,
+      "scope": "adjacent_same_row_module_contacts",
+      "specimen_metric_measurement_verified": false
+    },
+    {
+      "contact_ids": [
+        "bench-esp8266-01:esp12e_module:contact:5",
+        "bench-esp8266-01:esp12e_module:contact:6"
+      ],
+      "module_pin_numbers": [
+        5,
+        6
+      ],
+      "feature_kind": "visible_castellated_hole_center",
+      "image_points_xy_pixels": [
+        [
+          173,
+          328
+        ],
+        [
+          169,
+          392
+        ]
+      ],
+      "nominal_distance_metres": 0.002,
+      "manufacturing_tolerance_metres": null,
+      "scope": "adjacent_same_row_module_contacts",
+      "specimen_metric_measurement_verified": false
+    },
+    {
+      "contact_ids": [
+        "bench-esp8266-01:esp12e_module:contact:6",
+        "bench-esp8266-01:esp12e_module:contact:7"
+      ],
+      "module_pin_numbers": [
+        6,
+        7
+      ],
+      "feature_kind": "visible_castellated_hole_center",
+      "image_points_xy_pixels": [
+        [
+          169,
+          392
+        ],
+        [
+          166,
+          454
+        ]
+      ],
+      "nominal_distance_metres": 0.002,
+      "manufacturing_tolerance_metres": null,
+      "scope": "adjacent_same_row_module_contacts",
+      "specimen_metric_measurement_verified": false
+    },
+    {
+      "contact_ids": [
+        "bench-esp8266-01:esp12e_module:contact:7",
+        "bench-esp8266-01:esp12e_module:contact:8"
+      ],
+      "module_pin_numbers": [
+        7,
+        8
+      ],
+      "feature_kind": "visible_castellated_hole_center",
+      "image_points_xy_pixels": [
+        [
+          166,
+          454
+        ],
+        [
+          162,
+          519
+        ]
+      ],
+      "nominal_distance_metres": 0.002,
+      "manufacturing_tolerance_metres": null,
+      "scope": "adjacent_same_row_module_contacts",
+      "specimen_metric_measurement_verified": false
+    },
+    {
+      "contact_ids": [
+        "bench-esp8266-01:esp12e_module:contact:9",
+        "bench-esp8266-01:esp12e_module:contact:10"
+      ],
+      "module_pin_numbers": [
+        9,
+        10
+      ],
+      "feature_kind": "visible_module_gold_contact_land_center",
+      "image_points_xy_pixels": [
+        [
+          232,
+          552
+        ],
+        [
+          302,
+          552
+        ]
+      ],
+      "nominal_distance_metres": 0.002,
+      "manufacturing_tolerance_metres": null,
+      "scope": "adjacent_same_row_module_contacts",
+      "specimen_metric_measurement_verified": false
+    },
+    {
+      "contact_ids": [
+        "bench-esp8266-01:esp12e_module:contact:10",
+        "bench-esp8266-01:esp12e_module:contact:11"
+      ],
+      "module_pin_numbers": [
+        10,
+        11
+      ],
+      "feature_kind": "visible_module_gold_contact_land_center",
+      "image_points_xy_pixels": [
+        [
+          302,
+          552
+        ],
+        [
+          372,
+          552
+        ]
+      ],
+      "nominal_distance_metres": 0.002,
+      "manufacturing_tolerance_metres": null,
+      "scope": "adjacent_same_row_module_contacts",
+      "specimen_metric_measurement_verified": false
+    },
+    {
+      "contact_ids": [
+        "bench-esp8266-01:esp12e_module:contact:11",
+        "bench-esp8266-01:esp12e_module:contact:12"
+      ],
+      "module_pin_numbers": [
+        11,
+        12
+      ],
+      "feature_kind": "visible_module_gold_contact_land_center",
+      "image_points_xy_pixels": [
+        [
+          372,
+          552
+        ],
+        [
+          442,
+          553
+        ]
+      ],
+      "nominal_distance_metres": 0.002,
+      "manufacturing_tolerance_metres": null,
+      "scope": "adjacent_same_row_module_contacts",
+      "specimen_metric_measurement_verified": false
+    },
+    {
+      "contact_ids": [
+        "bench-esp8266-01:esp12e_module:contact:12",
+        "bench-esp8266-01:esp12e_module:contact:13"
+      ],
+      "module_pin_numbers": [
+        12,
+        13
+      ],
+      "feature_kind": "visible_module_gold_contact_land_center",
+      "image_points_xy_pixels": [
+        [
+          442,
+          553
+        ],
+        [
+          512,
+          553
+        ]
+      ],
+      "nominal_distance_metres": 0.002,
+      "manufacturing_tolerance_metres": null,
+      "scope": "adjacent_same_row_module_contacts",
+      "specimen_metric_measurement_verified": false
+    },
+    {
+      "contact_ids": [
+        "bench-esp8266-01:esp12e_module:contact:13",
+        "bench-esp8266-01:esp12e_module:contact:14"
+      ],
+      "module_pin_numbers": [
+        13,
+        14
+      ],
+      "feature_kind": "visible_module_gold_contact_land_center",
+      "image_points_xy_pixels": [
+        [
+          512,
+          553
+        ],
+        [
+          582,
+          554
+        ]
+      ],
+      "nominal_distance_metres": 0.002,
+      "manufacturing_tolerance_metres": null,
+      "scope": "adjacent_same_row_module_contacts",
+      "specimen_metric_measurement_verified": false
+    },
+    {
+      "contact_ids": [
+        "bench-esp8266-01:esp12e_module:contact:15",
+        "bench-esp8266-01:esp12e_module:contact:16"
+      ],
+      "module_pin_numbers": [
+        15,
+        16
+      ],
+      "feature_kind": "visible_castellated_hole_center",
+      "image_points_xy_pixels": [
+        [
+          651,
+          518
+        ],
+        [
+          652,
+          453
+        ]
+      ],
+      "nominal_distance_metres": 0.002,
+      "manufacturing_tolerance_metres": null,
+      "scope": "adjacent_same_row_module_contacts",
+      "specimen_metric_measurement_verified": false
+    },
+    {
+      "contact_ids": [
+        "bench-esp8266-01:esp12e_module:contact:16",
+        "bench-esp8266-01:esp12e_module:contact:17"
+      ],
+      "module_pin_numbers": [
+        16,
+        17
+      ],
+      "feature_kind": "visible_castellated_hole_center",
+      "image_points_xy_pixels": [
+        [
+          652,
+          453
+        ],
+        [
+          653,
+          390
+        ]
+      ],
+      "nominal_distance_metres": 0.002,
+      "manufacturing_tolerance_metres": null,
+      "scope": "adjacent_same_row_module_contacts",
+      "specimen_metric_measurement_verified": false
+    },
+    {
+      "contact_ids": [
+        "bench-esp8266-01:esp12e_module:contact:17",
+        "bench-esp8266-01:esp12e_module:contact:18"
+      ],
+      "module_pin_numbers": [
+        17,
+        18
+      ],
+      "feature_kind": "visible_castellated_hole_center",
+      "image_points_xy_pixels": [
+        [
+          653,
+          390
+        ],
+        [
+          654,
+          327
+        ]
+      ],
+      "nominal_distance_metres": 0.002,
+      "manufacturing_tolerance_metres": null,
+      "scope": "adjacent_same_row_module_contacts",
+      "specimen_metric_measurement_verified": false
+    },
+    {
+      "contact_ids": [
+        "bench-esp8266-01:esp12e_module:contact:18",
+        "bench-esp8266-01:esp12e_module:contact:19"
+      ],
+      "module_pin_numbers": [
+        18,
+        19
+      ],
+      "feature_kind": "visible_castellated_hole_center",
+      "image_points_xy_pixels": [
+        [
+          654,
+          327
+        ],
+        [
+          654,
+          266
+        ]
+      ],
+      "nominal_distance_metres": 0.002,
+      "manufacturing_tolerance_metres": null,
+      "scope": "adjacent_same_row_module_contacts",
+      "specimen_metric_measurement_verified": false
+    },
+    {
+      "contact_ids": [
+        "bench-esp8266-01:esp12e_module:contact:19",
+        "bench-esp8266-01:esp12e_module:contact:20"
+      ],
+      "module_pin_numbers": [
+        19,
+        20
+      ],
+      "feature_kind": "visible_castellated_hole_center",
+      "image_points_xy_pixels": [
+        [
+          654,
+          266
+        ],
+        [
+          654,
+          205
+        ]
+      ],
+      "nominal_distance_metres": 0.002,
+      "manufacturing_tolerance_metres": null,
+      "scope": "adjacent_same_row_module_contacts",
+      "specimen_metric_measurement_verified": false
+    },
+    {
+      "contact_ids": [
+        "bench-esp8266-01:esp12e_module:contact:20",
+        "bench-esp8266-01:esp12e_module:contact:21"
+      ],
+      "module_pin_numbers": [
+        20,
+        21
+      ],
+      "feature_kind": "visible_castellated_hole_center",
+      "image_points_xy_pixels": [
+        [
+          654,
+          205
+        ],
+        [
+          654,
+          145
+        ]
+      ],
+      "nominal_distance_metres": 0.002,
+      "manufacturing_tolerance_metres": null,
+      "scope": "adjacent_same_row_module_contacts",
+      "specimen_metric_measurement_verified": false
+    },
+    {
+      "contact_ids": [
+        "bench-esp8266-01:esp12e_module:contact:21",
+        "bench-esp8266-01:esp12e_module:contact:22"
+      ],
+      "module_pin_numbers": [
+        21,
+        22
+      ],
+      "feature_kind": "visible_castellated_hole_center",
+      "image_points_xy_pixels": [
+        [
+          654,
+          145
+        ],
+        [
+          654,
+          87
+        ]
+      ],
+      "nominal_distance_metres": 0.002,
+      "manufacturing_tolerance_metres": null,
+      "scope": "adjacent_same_row_module_contacts",
+      "specimen_metric_measurement_verified": false
+    }
+  ],
+  "absolute_landmarks": [],
+  "limitations": [
+    "Relative spacing only; no absolute board frame or rigid 6DoF pose",
+    "No validated cross-row hole-center separation",
+    "Carrier footprint pad centers are not observed castellation centers",
+    "Camera intrinsics, distortion and specimen dimensions remain unverified",
+    "Do not convert perspective image distances into a uniform pixel-to-metre scale"
+  ]
+}

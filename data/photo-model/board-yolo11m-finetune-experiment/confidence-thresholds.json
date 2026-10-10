@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0",
+  "model": "YOLO11m dynamic fine-tune candidate",
+  "input_size": 640,
+  "class_id_thresholds": {
+    "0": 0.75,
+    "1": 0.75,
+    "2": 0.75,
+    "3": 0.75,
+    "4": 0.78
+  },
+  "thresholds_are_validation_tuned": true,
+  "validation_method": "Manual fixed-threshold detection matching at IoU >= 0.5 on the 11 known validation images",
+  "validation_limit": "This same small fold was used to inspect the false positive and select the Raspberry Pi threshold. These values are exploratory and require calibration on independent specimens/captures.",
+  "class_order_reference": "../board-class-display-names.json",
+  "unknown_policy": "If no candidate box meets its class threshold, return no supported board detected; do not force a board label."
+}

@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "boards": [
+    {
+      "name": "ESP32 DevKit 30-pin",
+      "path": "esp32-devkit-30pin",
+      "revision": "physical revision unverified",
+      "verification_status": "community clone reference; physical board match unconfirmed",
+      "available_cad_models": "native KiCad clone PCB, board-only STEP/GLB, separate assembly STEP/GLB",
+      "missing_inputs": "reviewed photo-to-CAD registration and exact physical revision"
+    },
+    {
+      "name": "NodeMCU DevKit V1.0",
+      "path": "esp8266-nodemcu-reference",
+      "revision": "source revision V1.0; photographed USB-UART variant unverified",
+      "verification_status": "source reference differs from some photographed boards",
+      "available_cad_models": "Altium PCB, four Gerber archives, 17 extracted STEP models",
+      "missing_inputs": "exact physical variant, native import/export, photo registration"
+    },
+    {
+      "name": "FRDM-MCXN236",
+      "path": "nxp-frdm-mcxn236",
+      "revision": "official source Rev C; physical revision unverified",
+      "verification_status": "photographed model is MCXN236",
+      "available_cad_models": "Allegro BRD, KiCad import, board-only STEP/GLB, Gerber/drill",
+      "missing_inputs": "physical revision and registration; import padstack review"
+    },
+    {
+      "name": "FRDM-MCXN947",
+      "path": "nxp-frdm-mcxn947",
+      "revision": "source Rev C",
+      "verification_status": "different-board reference only; must not be assigned to MCXN236 photos",
+      "available_cad_models": "reference sources only",
+      "missing_inputs": "not applicable until separately photographed"
+    },
+    {
+      "name": "Raspberry Pi 3B",
+      "path": "raspberry-pi-3b-v1.2",
+      "revision": "v1.2 family only",
+      "verification_status": "board family inferred; exact physical revision unverified",
+      "available_cad_models": "reduced schematics; community cluster assembly model only",
+      "missing_inputs": "exact PCB CAD, standalone board model, licence and photo registration"
+    },
+    {
+      "name": "Ultimainboard",
+      "path": "ultimainboard-2.1.4",
+      "revision": "2.1.4 photographed silkscreen verified",
+      "verification_status": "design revision matches marking; full physical geometry registration pending",
+      "available_cad_models": "Altium PCB, imported KiCad PCB, 61 STEP streams, assembly STEP/GLB, board-only STEP/GLB",
+      "missing_inputs": "four or more reviewed board/photo landmarks and transform validation"
+    }
+  ]
+}

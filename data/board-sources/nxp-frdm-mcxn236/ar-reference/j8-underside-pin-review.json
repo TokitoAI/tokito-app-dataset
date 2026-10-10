@@ -1,0 +1,68 @@
+{
+  "schema_version": "1.0",
+  "board_family": "nxp_frdm_mcxn236_board",
+  "board_model": "FRDM-MCXN236",
+  "reference_designator": "J8",
+  "connector_function_from_source": "FlexIO LCD",
+  "status": "photo_pin_candidates_reviewed_source_revision_unconfirmed",
+  "training_eligible": false,
+  "photo": {
+    "path": "data/phone-captures/2026-10-10/nxp-underside/IMG_20261010_192024.jpg",
+    "sha256": "28e5a8601ad49b6f9d933c7baa2c278204b5438c58b419ddff4877107ebde5e5",
+    "width": 3072,
+    "height": 4096,
+    "view": "bottom",
+    "physical_specimen_id": "bench-nxp-01"
+  },
+  "source": {
+    "revision": "C",
+    "revision_status": "candidate_only_physical_pcb_layout_revision_unverified",
+    "components_path": "data/board-sources/nxp-frdm-mcxn236/structured-rev-c/components.json",
+    "components_sha256": "a96f612e11974dce7de88490ba25901c5547d845e2c26ccd2a52cd3d23a7436b",
+    "pin_mapping_basis": "Official Rev C native netlist joined by J8 reference designator; each physical pin also has a visible silkscreen port label in the reviewed underside image.",
+    "limitations": [
+      "The visible SCH-90828 REV C sticker identifies a schematic label, not independently the PCB artwork revision.",
+      "The 700-90828 REV A1 sticker is an assembly label and is not treated as a PCB layout revision.",
+      "No exact fitted BOM part identity is asserted.",
+      "Pin positions are approximate pixel centers for review, not final segmentation masks or calibrated anchors."
+    ]
+  },
+  "orientation_evidence": {
+    "observed_reference_designator": "J8",
+    "observed_connector_type": "2x14 through-hole socket",
+    "pin_1_marker": "square pad at lower-left in the photographed image",
+    "row_order": "upper row is even-numbered pins 2 to 28 left-to-right; lower row is odd-numbered pins 1 to 27 left-to-right",
+    "review_preview": "previews/nxp-j8-underside-pin-review.jpg"
+  },
+  "coordinate_format": "photo_pixel_center_xy",
+  "pins": [
+    {"pin": 1, "photo_label": "VDD", "source_net_candidate": "VDD_BOARD", "center_xy": [1218, 3534]},
+    {"pin": 2, "photo_label": "GND", "source_net_candidate": "GND", "center_xy": [1218, 3476]},
+    {"pin": 3, "photo_label": "P4_1", "source_net_candidate": "P4_1", "center_xy": [1270, 3534]},
+    {"pin": 4, "photo_label": "P4_0", "source_net_candidate": "P4_0", "center_xy": [1270, 3476]},
+    {"pin": 5, "photo_label": "P0_23", "source_net_candidate": "P0_23", "center_xy": [1322, 3534]},
+    {"pin": 6, "photo_label": "P4_6", "source_net_candidate": "P4_6", "center_xy": [1322, 3476]},
+    {"pin": 7, "photo_label": "P4_7", "source_net_candidate": "P4_7/FXIO_LCD_RST", "center_xy": [1374, 3534]},
+    {"pin": 8, "photo_label": "P0_24", "source_net_candidate": "P0_24", "center_xy": [1374, 3476]},
+    {"pin": 9, "photo_label": "P4_14", "source_net_candidate": "P4_14/FXIO_LCD_CS", "center_xy": [1426, 3534]},
+    {"pin": 10, "photo_label": "P4_20", "source_net_candidate": "P4_20/FXIO_LCD_WR", "center_xy": [1426, 3476]},
+    {"pin": 11, "photo_label": "P4_19", "source_net_candidate": "P4_19", "center_xy": [1478, 3534]},
+    {"pin": 12, "photo_label": "P4_23", "source_net_candidate": "P4_23/FXIO_LCD_TE", "center_xy": [1478, 3476]},
+    {"pin": 13, "photo_label": "P0_20", "source_net_candidate": "P0_20", "center_xy": [1530, 3534]},
+    {"pin": 14, "photo_label": "P0_21", "source_net_candidate": "P0_21", "center_xy": [1530, 3476]},
+    {"pin": 15, "photo_label": "P0_14", "source_net_candidate": "P0_14/FXIO_D6", "center_xy": [1582, 3534]},
+    {"pin": 16, "photo_label": "P0_15", "source_net_candidate": "P0_15/FXIO_D7", "center_xy": [1582, 3476]},
+    {"pin": 17, "photo_label": "P3_0", "source_net_candidate": "P3_0/FXIO_D8", "center_xy": [1634, 3534]},
+    {"pin": 18, "photo_label": "P3_1", "source_net_candidate": "P3_1/FXIO_D9", "center_xy": [1634, 3476]},
+    {"pin": 19, "photo_label": "P3_2", "source_net_candidate": "P3_2/FXIO_D10", "center_xy": [1686, 3534]},
+    {"pin": 20, "photo_label": "P2_3", "source_net_candidate": "P2_3/FXIO_D11", "center_xy": [1686, 3476]},
+    {"pin": 21, "photo_label": "P2_4", "source_net_candidate": "P2_4/FXIO_D12", "center_xy": [1738, 3534]},
+    {"pin": 22, "photo_label": "P2_5", "source_net_candidate": "P2_5/FXIO_D13", "center_xy": [1738, 3476]},
+    {"pin": 23, "photo_label": "P2_6", "source_net_candidate": "P2_6/FXIO_D14", "center_xy": [1790, 3534]},
+    {"pin": 24, "photo_label": "P3_7", "source_net_candidate": "P3_7/FXIO_D15", "center_xy": [1790, 3476]},
+    {"pin": 25, "photo_label": "P3_8", "source_net_candidate": "P3_8/FXIO_D16", "center_xy": [1842, 3534]},
+    {"pin": 26, "photo_label": "P3_9", "source_net_candidate": "P3_9/FXIO_D17", "center_xy": [1842, 3476]},
+    {"pin": 27, "photo_label": "P3_10", "source_net_candidate": "P3_10/FXIO_D18", "center_xy": [1894, 3534]},
+    {"pin": 28, "photo_label": "P3_11", "source_net_candidate": "P3_11/FXIO_D19", "center_xy": [1894, 3476]}
+  ]
+}

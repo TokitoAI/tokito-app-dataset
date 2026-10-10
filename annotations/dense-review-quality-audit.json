@@ -1,0 +1,2653 @@
+{
+  "schema_version": "1.0",
+  "audit_scope": "Four current dense review files plus duplicate comparison with legacy/central files. Representative original-pixel visual QA is not exhaustive mask certification.",
+  "files": [
+    {
+      "file": "annotations/esp32-dense-component-review.json",
+      "file_sha256": "d4cba0475f7f11bfdaec0e90dcec61d2730b04f71635cf7d0e934477f96d2f78",
+      "integrity_validation": {
+        "file": "annotations\\esp32-dense-component-review.json",
+        "masks": 84,
+        "errors": [],
+        "trainable": false
+      },
+      "classes": {
+        "integrated_circuit": 3,
+        "rf_module": 3,
+        "usb_connector": 3,
+        "switch": 6,
+        "chip_passive": 60,
+        "three_terminal_power_package": 3,
+        "three_terminal_package": 6
+      },
+      "capture_groups": [
+        "bench-esp32-01:20261010_morning"
+      ],
+      "rows_without_explicit_capture_group": 0
+    },
+    {
+      "file": "annotations/esp8266-dense-component-review.json",
+      "file_sha256": "f9f9d9a751a5dc163bb6274f1bb4deb62ca74bf7c92e45a4fc021db9b0d419bb",
+      "integrity_validation": {
+        "file": "annotations\\esp8266-dense-component-review.json",
+        "masks": 89,
+        "errors": [],
+        "trainable": false
+      },
+      "classes": {
+        "rf_shield": 4,
+        "integrated_circuit": 8,
+        "usb_connector": 4,
+        "switch": 8,
+        "resistor": 24,
+        "capacitor": 32,
+        "three_terminal_package": 8,
+        "unknown_package": 1
+      },
+      "capture_groups": [
+        "bench-esp8266-01:20261010_092221"
+      ],
+      "rows_without_explicit_capture_group": 0
+    },
+    {
+      "file": "annotations/nxp-dense-component-review.json",
+      "file_sha256": "341810fc7935b3eff4ff0204fbfcbd0656a5e1f13f49b1153cda3e5bba36d376",
+      "integrity_validation": {
+        "file": "annotations\\nxp-dense-component-review.json",
+        "masks": 104,
+        "errors": [],
+        "trainable": false
+      },
+      "classes": {
+        "integrated_circuit": 30,
+        "usb_connector": 6,
+        "transistor_package": 1,
+        "header_connector": 13,
+        "tactile_switch": 12,
+        "crystal_oscillator": 9,
+        "capacitor": 15,
+        "resistor": 16,
+        "led": 1,
+        "inductor": 1
+      },
+      "capture_groups": [
+        "nxp-phone-2026-10-09-night",
+        "nxp-phone-2026-10-10-morning"
+      ],
+      "rows_without_explicit_capture_group": 0
+    },
+    {
+      "file": "annotations/ultimainboard-dense-component-review.json",
+      "file_sha256": "be1fbaec06d4a7215b1a5ba3d0a6aab44dde691b46e96a325ee7bcfea804e488",
+      "integrity_validation": {
+        "file": "annotations\\ultimainboard-dense-component-review.json",
+        "masks": 93,
+        "errors": [],
+        "trainable": false
+      },
+      "classes": {
+        "integrated_circuit": 13,
+        "transistor": 6,
+        "pin_header": 8,
+        "connector": 19,
+        "terminal_block": 1,
+        "usb_b_connector": 1,
+        "electrolytic_capacitor": 7,
+        "relay": 1,
+        "inductor": 1,
+        "crystal": 1,
+        "diode": 9,
+        "ceramic_capacitor": 15,
+        "resistor": 11
+      },
+      "capture_groups": [],
+      "rows_without_explicit_capture_group": 93
+    }
+  ],
+  "repeated_instance_records": [
+    {
+      "instance_id": "IMG_20261010_092144.jpg:U2",
+      "image_sha256": "d33bf83877365f57dc03d36388518207090acbd5b57db93ca96742c1ecd05ed7",
+      "records": [
+        {
+          "file": "annotations/esp32-dense-component-review.json",
+          "instance_id": "IMG_20261010_092144.jpg:U2",
+          "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092144.jpg",
+          "image_sha256": "d33bf83877365f57dc03d36388518207090acbd5b57db93ca96742c1ecd05ed7",
+          "class_name": "integrated_circuit",
+          "polygon_xy_pixels": [
+            [
+              1165,
+              1684
+            ],
+            [
+              1355,
+              1684
+            ],
+            [
+              1367,
+              1695
+            ],
+            [
+              1367,
+              1857
+            ],
+            [
+              1355,
+              1872
+            ],
+            [
+              1165,
+              1872
+            ],
+            [
+              1154,
+              1857
+            ],
+            [
+              1154,
+              1695
+            ]
+          ]
+        },
+        {
+          "file": "annotations/ar-instance-masks.json",
+          "instance_id": "IMG_20261010_092144.jpg:U2",
+          "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092144.jpg",
+          "image_sha256": "d33bf83877365f57dc03d36388518207090acbd5b57db93ca96742c1ecd05ed7",
+          "class_name": "integrated_circuit",
+          "polygon_xy_pixels": [
+            [
+              1165,
+              1684
+            ],
+            [
+              1355,
+              1684
+            ],
+            [
+              1367,
+              1695
+            ],
+            [
+              1367,
+              1857
+            ],
+            [
+              1355,
+              1872
+            ],
+            [
+              1165,
+              1872
+            ],
+            [
+              1154,
+              1857
+            ],
+            [
+              1154,
+              1695
+            ]
+          ]
+        }
+      ],
+      "class_conflict": false,
+      "polygon_conflict": false,
+      "handling": "Choose authoritative dense/superseding reviewed record once; never concatenate these sources into duplicate targets."
+    },
+    {
+      "instance_id": "IMG_20261010_092144.jpg:RF_MODULE",
+      "image_sha256": "d33bf83877365f57dc03d36388518207090acbd5b57db93ca96742c1ecd05ed7",
+      "records": [
+        {
+          "file": "annotations/esp32-dense-component-review.json",
+          "instance_id": "IMG_20261010_092144.jpg:RF_MODULE",
+          "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092144.jpg",
+          "image_sha256": "d33bf83877365f57dc03d36388518207090acbd5b57db93ca96742c1ecd05ed7",
+          "class_name": "rf_module",
+          "polygon_xy_pixels": [
+            [
+              1090,
+              2304
+            ],
+            [
+              1835,
+              2312
+            ],
+            [
+              1832,
+              3346
+            ],
+            [
+              1086,
+              3318
+            ]
+          ]
+        },
+        {
+          "file": "annotations/ar-instance-masks.json",
+          "instance_id": "IMG_20261010_092144.jpg:RF_MODULE",
+          "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092144.jpg",
+          "image_sha256": "d33bf83877365f57dc03d36388518207090acbd5b57db93ca96742c1ecd05ed7",
+          "class_name": "rf_module",
+          "polygon_xy_pixels": [
+            [
+              1090,
+              2304
+            ],
+            [
+              1835,
+              2312
+            ],
+            [
+              1832,
+              3346
+            ],
+            [
+              1086,
+              3318
+            ]
+          ]
+        }
+      ],
+      "class_conflict": false,
+      "polygon_conflict": false,
+      "handling": "Choose authoritative dense/superseding reviewed record once; never concatenate these sources into duplicate targets."
+    },
+    {
+      "instance_id": "IMG_20261010_092144.jpg:USB",
+      "image_sha256": "d33bf83877365f57dc03d36388518207090acbd5b57db93ca96742c1ecd05ed7",
+      "records": [
+        {
+          "file": "annotations/esp32-dense-component-review.json",
+          "instance_id": "IMG_20261010_092144.jpg:USB",
+          "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092144.jpg",
+          "image_sha256": "d33bf83877365f57dc03d36388518207090acbd5b57db93ca96742c1ecd05ed7",
+          "class_name": "usb_connector",
+          "polygon_xy_pixels": [
+            [
+              1345,
+              1294
+            ],
+            [
+              1650,
+              1294
+            ],
+            [
+              1660,
+              1308
+            ],
+            [
+              1660,
+              1351
+            ],
+            [
+              1683,
+              1350
+            ],
+            [
+              1696,
+              1369
+            ],
+            [
+              1696,
+              1428
+            ],
+            [
+              1685,
+              1440
+            ],
+            [
+              1660,
+              1440
+            ],
+            [
+              1660,
+              1500
+            ],
+            [
+              1643,
+              1512
+            ],
+            [
+              1357,
+              1512
+            ],
+            [
+              1342,
+              1500
+            ],
+            [
+              1342,
+              1440
+            ],
+            [
+              1322,
+              1440
+            ],
+            [
+              1308,
+              1425
+            ],
+            [
+              1308,
+              1375
+            ],
+            [
+              1320,
+              1359
+            ],
+            [
+              1342,
+              1355
+            ],
+            [
+              1342,
+              1308
+            ]
+          ]
+        },
+        {
+          "file": "annotations/ar-instance-masks.json",
+          "instance_id": "IMG_20261010_092144.jpg:USB",
+          "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092144.jpg",
+          "image_sha256": "d33bf83877365f57dc03d36388518207090acbd5b57db93ca96742c1ecd05ed7",
+          "class_name": "usb_connector",
+          "polygon_xy_pixels": [
+            [
+              1345,
+              1294
+            ],
+            [
+              1650,
+              1294
+            ],
+            [
+              1660,
+              1308
+            ],
+            [
+              1660,
+              1351
+            ],
+            [
+              1683,
+              1350
+            ],
+            [
+              1696,
+              1369
+            ],
+            [
+              1696,
+              1428
+            ],
+            [
+              1685,
+              1440
+            ],
+            [
+              1660,
+              1440
+            ],
+            [
+              1660,
+              1500
+            ],
+            [
+              1643,
+              1512
+            ],
+            [
+              1357,
+              1512
+            ],
+            [
+              1342,
+              1500
+            ],
+            [
+              1342,
+              1440
+            ],
+            [
+              1322,
+              1440
+            ],
+            [
+              1308,
+              1425
+            ],
+            [
+              1308,
+              1375
+            ],
+            [
+              1320,
+              1359
+            ],
+            [
+              1342,
+              1355
+            ],
+            [
+              1342,
+              1308
+            ]
+          ]
+        }
+      ],
+      "class_conflict": false,
+      "polygon_conflict": false,
+      "handling": "Choose authoritative dense/superseding reviewed record once; never concatenate these sources into duplicate targets."
+    },
+    {
+      "instance_id": "IMG_20261010_092144.jpg:BOOT_SWITCH",
+      "image_sha256": "d33bf83877365f57dc03d36388518207090acbd5b57db93ca96742c1ecd05ed7",
+      "records": [
+        {
+          "file": "annotations/esp32-dense-component-review.json",
+          "instance_id": "IMG_20261010_092144.jpg:BOOT_SWITCH",
+          "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092144.jpg",
+          "image_sha256": "d33bf83877365f57dc03d36388518207090acbd5b57db93ca96742c1ecd05ed7",
+          "class_name": "switch",
+          "polygon_xy_pixels": [
+            [
+              1112,
+              1358
+            ],
+            [
+              1228,
+              1358
+            ],
+            [
+              1236,
+              1371
+            ],
+            [
+              1236,
+              1498
+            ],
+            [
+              1228,
+              1512
+            ],
+            [
+              1112,
+              1512
+            ],
+            [
+              1105,
+              1498
+            ],
+            [
+              1105,
+              1371
+            ]
+          ]
+        },
+        {
+          "file": "annotations/ar-instance-masks.json",
+          "instance_id": "IMG_20261010_092144.jpg:BOOT_SWITCH",
+          "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092144.jpg",
+          "image_sha256": "d33bf83877365f57dc03d36388518207090acbd5b57db93ca96742c1ecd05ed7",
+          "class_name": "switch",
+          "polygon_xy_pixels": [
+            [
+              1112,
+              1358
+            ],
+            [
+              1228,
+              1358
+            ],
+            [
+              1236,
+              1371
+            ],
+            [
+              1236,
+              1498
+            ],
+            [
+              1228,
+              1512
+            ],
+            [
+              1112,
+              1512
+            ],
+            [
+              1105,
+              1498
+            ],
+            [
+              1105,
+              1371
+            ]
+          ]
+        }
+      ],
+      "class_conflict": false,
+      "polygon_conflict": false,
+      "handling": "Choose authoritative dense/superseding reviewed record once; never concatenate these sources into duplicate targets."
+    },
+    {
+      "instance_id": "IMG_20261010_092144.jpg:EN_SWITCH",
+      "image_sha256": "d33bf83877365f57dc03d36388518207090acbd5b57db93ca96742c1ecd05ed7",
+      "records": [
+        {
+          "file": "annotations/esp32-dense-component-review.json",
+          "instance_id": "IMG_20261010_092144.jpg:EN_SWITCH",
+          "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092144.jpg",
+          "image_sha256": "d33bf83877365f57dc03d36388518207090acbd5b57db93ca96742c1ecd05ed7",
+          "class_name": "switch",
+          "polygon_xy_pixels": [
+            [
+              1758,
+              1370
+            ],
+            [
+              1875,
+              1370
+            ],
+            [
+              1881,
+              1380
+            ],
+            [
+              1881,
+              1515
+            ],
+            [
+              1873,
+              1523
+            ],
+            [
+              1758,
+              1523
+            ],
+            [
+              1751,
+              1515
+            ],
+            [
+              1751,
+              1380
+            ]
+          ]
+        },
+        {
+          "file": "annotations/ar-instance-masks.json",
+          "instance_id": "IMG_20261010_092144.jpg:EN_SWITCH",
+          "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092144.jpg",
+          "image_sha256": "d33bf83877365f57dc03d36388518207090acbd5b57db93ca96742c1ecd05ed7",
+          "class_name": "switch",
+          "polygon_xy_pixels": [
+            [
+              1758,
+              1370
+            ],
+            [
+              1875,
+              1370
+            ],
+            [
+              1881,
+              1380
+            ],
+            [
+              1881,
+              1515
+            ],
+            [
+              1873,
+              1523
+            ],
+            [
+              1758,
+              1523
+            ],
+            [
+              1751,
+              1515
+            ],
+            [
+              1751,
+              1380
+            ]
+          ]
+        }
+      ],
+      "class_conflict": false,
+      "polygon_conflict": false,
+      "handling": "Choose authoritative dense/superseding reviewed record once; never concatenate these sources into duplicate targets."
+    },
+    {
+      "instance_id": "IMG_20261010_092149.jpg:U2",
+      "image_sha256": "f99756a1c369609e24570c76d5600eff9eb3b3d749644f2d9664c63b075bd2c2",
+      "records": [
+        {
+          "file": "annotations/esp32-dense-component-review.json",
+          "instance_id": "IMG_20261010_092149.jpg:U2",
+          "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092149.jpg",
+          "image_sha256": "f99756a1c369609e24570c76d5600eff9eb3b3d749644f2d9664c63b075bd2c2",
+          "class_name": "integrated_circuit",
+          "polygon_xy_pixels": [
+            [
+              1075,
+              1659
+            ],
+            [
+              1252,
+              1661
+            ],
+            [
+              1263,
+              1671
+            ],
+            [
+              1263,
+              1823
+            ],
+            [
+              1252,
+              1837
+            ],
+            [
+              1075,
+              1835
+            ],
+            [
+              1065,
+              1821
+            ],
+            [
+              1065,
+              1670
+            ]
+          ]
+        },
+        {
+          "file": "annotations/ar-instance-masks.json",
+          "instance_id": "IMG_20261010_092149.jpg:U2",
+          "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092149.jpg",
+          "image_sha256": "f99756a1c369609e24570c76d5600eff9eb3b3d749644f2d9664c63b075bd2c2",
+          "class_name": "integrated_circuit",
+          "polygon_xy_pixels": [
+            [
+              1075,
+              1659
+            ],
+            [
+              1252,
+              1661
+            ],
+            [
+              1263,
+              1671
+            ],
+            [
+              1263,
+              1823
+            ],
+            [
+              1252,
+              1837
+            ],
+            [
+              1075,
+              1835
+            ],
+            [
+              1065,
+              1821
+            ],
+            [
+              1065,
+              1670
+            ]
+          ]
+        }
+      ],
+      "class_conflict": false,
+      "polygon_conflict": false,
+      "handling": "Choose authoritative dense/superseding reviewed record once; never concatenate these sources into duplicate targets."
+    },
+    {
+      "instance_id": "IMG_20261010_092149.jpg:RF_MODULE",
+      "image_sha256": "f99756a1c369609e24570c76d5600eff9eb3b3d749644f2d9664c63b075bd2c2",
+      "records": [
+        {
+          "file": "annotations/esp32-dense-component-review.json",
+          "instance_id": "IMG_20261010_092149.jpg:RF_MODULE",
+          "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092149.jpg",
+          "image_sha256": "f99756a1c369609e24570c76d5600eff9eb3b3d749644f2d9664c63b075bd2c2",
+          "class_name": "rf_module",
+          "polygon_xy_pixels": [
+            [
+              1004,
+              2241
+            ],
+            [
+              1705,
+              2256
+            ],
+            [
+              1710,
+              3253
+            ],
+            [
+              999,
+              3214
+            ]
+          ]
+        },
+        {
+          "file": "annotations/ar-instance-masks.json",
+          "instance_id": "IMG_20261010_092149.jpg:RF_MODULE",
+          "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092149.jpg",
+          "image_sha256": "f99756a1c369609e24570c76d5600eff9eb3b3d749644f2d9664c63b075bd2c2",
+          "class_name": "rf_module",
+          "polygon_xy_pixels": [
+            [
+              1004,
+              2241
+            ],
+            [
+              1705,
+              2256
+            ],
+            [
+              1710,
+              3253
+            ],
+            [
+              999,
+              3214
+            ]
+          ]
+        }
+      ],
+      "class_conflict": false,
+      "polygon_conflict": false,
+      "handling": "Choose authoritative dense/superseding reviewed record once; never concatenate these sources into duplicate targets."
+    },
+    {
+      "instance_id": "IMG_20261010_092149.jpg:USB",
+      "image_sha256": "f99756a1c369609e24570c76d5600eff9eb3b3d749644f2d9664c63b075bd2c2",
+      "records": [
+        {
+          "file": "annotations/esp32-dense-component-review.json",
+          "instance_id": "IMG_20261010_092149.jpg:USB",
+          "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092149.jpg",
+          "image_sha256": "f99756a1c369609e24570c76d5600eff9eb3b3d749644f2d9664c63b075bd2c2",
+          "class_name": "usb_connector",
+          "polygon_xy_pixels": [
+            [
+              1242,
+              1298
+            ],
+            [
+              1525,
+              1300
+            ],
+            [
+              1534,
+              1313
+            ],
+            [
+              1534,
+              1352
+            ],
+            [
+              1556,
+              1352
+            ],
+            [
+              1568,
+              1369
+            ],
+            [
+              1568,
+              1424
+            ],
+            [
+              1558,
+              1435
+            ],
+            [
+              1535,
+              1435
+            ],
+            [
+              1535,
+              1491
+            ],
+            [
+              1519,
+              1502
+            ],
+            [
+              1253,
+              1500
+            ],
+            [
+              1239,
+              1489
+            ],
+            [
+              1239,
+              1433
+            ],
+            [
+              1221,
+              1433
+            ],
+            [
+              1208,
+              1419
+            ],
+            [
+              1207,
+              1373
+            ],
+            [
+              1219,
+              1358
+            ],
+            [
+              1239,
+              1355
+            ],
+            [
+              1239,
+              1311
+            ]
+          ]
+        },
+        {
+          "file": "annotations/ar-instance-masks.json",
+          "instance_id": "IMG_20261010_092149.jpg:USB",
+          "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092149.jpg",
+          "image_sha256": "f99756a1c369609e24570c76d5600eff9eb3b3d749644f2d9664c63b075bd2c2",
+          "class_name": "usb_connector",
+          "polygon_xy_pixels": [
+            [
+              1242,
+              1298
+            ],
+            [
+              1525,
+              1300
+            ],
+            [
+              1534,
+              1313
+            ],
+            [
+              1534,
+              1352
+            ],
+            [
+              1556,
+              1352
+            ],
+            [
+              1568,
+              1369
+            ],
+            [
+              1568,
+              1424
+            ],
+            [
+              1558,
+              1435
+            ],
+            [
+              1535,
+              1435
+            ],
+            [
+              1535,
+              1491
+            ],
+            [
+              1519,
+              1502
+            ],
+            [
+              1253,
+              1500
+            ],
+            [
+              1239,
+              1489
+            ],
+            [
+              1239,
+              1433
+            ],
+            [
+              1221,
+              1433
+            ],
+            [
+              1208,
+              1419
+            ],
+            [
+              1207,
+              1373
+            ],
+            [
+              1219,
+              1358
+            ],
+            [
+              1239,
+              1355
+            ],
+            [
+              1239,
+              1311
+            ]
+          ]
+        }
+      ],
+      "class_conflict": false,
+      "polygon_conflict": false,
+      "handling": "Choose authoritative dense/superseding reviewed record once; never concatenate these sources into duplicate targets."
+    },
+    {
+      "instance_id": "IMG_20261010_092149.jpg:BOOT_SWITCH",
+      "image_sha256": "f99756a1c369609e24570c76d5600eff9eb3b3d749644f2d9664c63b075bd2c2",
+      "records": [
+        {
+          "file": "annotations/esp32-dense-component-review.json",
+          "instance_id": "IMG_20261010_092149.jpg:BOOT_SWITCH",
+          "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092149.jpg",
+          "image_sha256": "f99756a1c369609e24570c76d5600eff9eb3b3d749644f2d9664c63b075bd2c2",
+          "class_name": "switch",
+          "polygon_xy_pixels": [
+            [
+              1026,
+              1356
+            ],
+            [
+              1133,
+              1357
+            ],
+            [
+              1141,
+              1369
+            ],
+            [
+              1141,
+              1487
+            ],
+            [
+              1133,
+              1500
+            ],
+            [
+              1026,
+              1499
+            ],
+            [
+              1019,
+              1486
+            ],
+            [
+              1019,
+              1368
+            ]
+          ]
+        },
+        {
+          "file": "annotations/ar-instance-masks.json",
+          "instance_id": "IMG_20261010_092149.jpg:BOOT_SWITCH",
+          "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092149.jpg",
+          "image_sha256": "f99756a1c369609e24570c76d5600eff9eb3b3d749644f2d9664c63b075bd2c2",
+          "class_name": "switch",
+          "polygon_xy_pixels": [
+            [
+              1026,
+              1356
+            ],
+            [
+              1133,
+              1357
+            ],
+            [
+              1141,
+              1369
+            ],
+            [
+              1141,
+              1487
+            ],
+            [
+              1133,
+              1500
+            ],
+            [
+              1026,
+              1499
+            ],
+            [
+              1019,
+              1486
+            ],
+            [
+              1019,
+              1368
+            ]
+          ]
+        }
+      ],
+      "class_conflict": false,
+      "polygon_conflict": false,
+      "handling": "Choose authoritative dense/superseding reviewed record once; never concatenate these sources into duplicate targets."
+    },
+    {
+      "instance_id": "IMG_20261010_092149.jpg:EN_SWITCH",
+      "image_sha256": "f99756a1c369609e24570c76d5600eff9eb3b3d749644f2d9664c63b075bd2c2",
+      "records": [
+        {
+          "file": "annotations/esp32-dense-component-review.json",
+          "instance_id": "IMG_20261010_092149.jpg:EN_SWITCH",
+          "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092149.jpg",
+          "image_sha256": "f99756a1c369609e24570c76d5600eff9eb3b3d749644f2d9664c63b075bd2c2",
+          "class_name": "switch",
+          "polygon_xy_pixels": [
+            [
+              1626,
+              1371
+            ],
+            [
+              1735,
+              1371
+            ],
+            [
+              1741,
+              1380
+            ],
+            [
+              1742,
+              1506
+            ],
+            [
+              1734,
+              1514
+            ],
+            [
+              1627,
+              1513
+            ],
+            [
+              1620,
+              1505
+            ],
+            [
+              1619,
+              1380
+            ]
+          ]
+        },
+        {
+          "file": "annotations/ar-instance-masks.json",
+          "instance_id": "IMG_20261010_092149.jpg:EN_SWITCH",
+          "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092149.jpg",
+          "image_sha256": "f99756a1c369609e24570c76d5600eff9eb3b3d749644f2d9664c63b075bd2c2",
+          "class_name": "switch",
+          "polygon_xy_pixels": [
+            [
+              1626,
+              1371
+            ],
+            [
+              1735,
+              1371
+            ],
+            [
+              1741,
+              1380
+            ],
+            [
+              1742,
+              1506
+            ],
+            [
+              1734,
+              1514
+            ],
+            [
+              1627,
+              1513
+            ],
+            [
+              1620,
+              1505
+            ],
+            [
+              1619,
+              1380
+            ]
+          ]
+        }
+      ],
+      "class_conflict": false,
+      "polygon_conflict": false,
+      "handling": "Choose authoritative dense/superseding reviewed record once; never concatenate these sources into duplicate targets."
+    },
+    {
+      "instance_id": "IMG_20261010_092153.jpg:U2",
+      "image_sha256": "14b4208819a0e8f20bd75204cf7bdd8676f2a89fd3419412ab0f06b53d2c3854",
+      "records": [
+        {
+          "file": "annotations/esp32-dense-component-review.json",
+          "instance_id": "IMG_20261010_092153.jpg:U2",
+          "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092153.jpg",
+          "image_sha256": "14b4208819a0e8f20bd75204cf7bdd8676f2a89fd3419412ab0f06b53d2c3854",
+          "class_name": "integrated_circuit",
+          "polygon_xy_pixels": [
+            [
+              1015,
+              1667
+            ],
+            [
+              1189,
+              1667
+            ],
+            [
+              1200,
+              1678
+            ],
+            [
+              1201,
+              1827
+            ],
+            [
+              1190,
+              1841
+            ],
+            [
+              1015,
+              1841
+            ],
+            [
+              1005,
+              1827
+            ],
+            [
+              1005,
+              1677
+            ]
+          ]
+        },
+        {
+          "file": "annotations/ar-instance-masks.json",
+          "instance_id": "IMG_20261010_092153.jpg:U2",
+          "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092153.jpg",
+          "image_sha256": "14b4208819a0e8f20bd75204cf7bdd8676f2a89fd3419412ab0f06b53d2c3854",
+          "class_name": "integrated_circuit",
+          "polygon_xy_pixels": [
+            [
+              1015,
+              1667
+            ],
+            [
+              1189,
+              1667
+            ],
+            [
+              1200,
+              1678
+            ],
+            [
+              1201,
+              1827
+            ],
+            [
+              1190,
+              1841
+            ],
+            [
+              1015,
+              1841
+            ],
+            [
+              1005,
+              1827
+            ],
+            [
+              1005,
+              1677
+            ]
+          ]
+        }
+      ],
+      "class_conflict": false,
+      "polygon_conflict": false,
+      "handling": "Choose authoritative dense/superseding reviewed record once; never concatenate these sources into duplicate targets."
+    },
+    {
+      "instance_id": "IMG_20261010_092153.jpg:RF_MODULE",
+      "image_sha256": "14b4208819a0e8f20bd75204cf7bdd8676f2a89fd3419412ab0f06b53d2c3854",
+      "records": [
+        {
+          "file": "annotations/esp32-dense-component-review.json",
+          "instance_id": "IMG_20261010_092153.jpg:RF_MODULE",
+          "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092153.jpg",
+          "image_sha256": "14b4208819a0e8f20bd75204cf7bdd8676f2a89fd3419412ab0f06b53d2c3854",
+          "class_name": "rf_module",
+          "polygon_xy_pixels": [
+            [
+              947,
+              2242
+            ],
+            [
+              1639,
+              2254
+            ],
+            [
+              1648,
+              3241
+            ],
+            [
+              945,
+              3205
+            ]
+          ]
+        },
+        {
+          "file": "annotations/ar-instance-masks.json",
+          "instance_id": "IMG_20261010_092153.jpg:RF_MODULE",
+          "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092153.jpg",
+          "image_sha256": "14b4208819a0e8f20bd75204cf7bdd8676f2a89fd3419412ab0f06b53d2c3854",
+          "class_name": "rf_module",
+          "polygon_xy_pixels": [
+            [
+              947,
+              2242
+            ],
+            [
+              1639,
+              2254
+            ],
+            [
+              1648,
+              3241
+            ],
+            [
+              945,
+              3205
+            ]
+          ]
+        }
+      ],
+      "class_conflict": false,
+      "polygon_conflict": false,
+      "handling": "Choose authoritative dense/superseding reviewed record once; never concatenate these sources into duplicate targets."
+    },
+    {
+      "instance_id": "IMG_20261010_092153.jpg:USB",
+      "image_sha256": "14b4208819a0e8f20bd75204cf7bdd8676f2a89fd3419412ab0f06b53d2c3854",
+      "records": [
+        {
+          "file": "annotations/esp32-dense-component-review.json",
+          "instance_id": "IMG_20261010_092153.jpg:USB",
+          "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092153.jpg",
+          "image_sha256": "14b4208819a0e8f20bd75204cf7bdd8676f2a89fd3419412ab0f06b53d2c3854",
+          "class_name": "usb_connector",
+          "polygon_xy_pixels": [
+            [
+              1178,
+              1310
+            ],
+            [
+              1458,
+              1310
+            ],
+            [
+              1467,
+              1323
+            ],
+            [
+              1467,
+              1362
+            ],
+            [
+              1488,
+              1361
+            ],
+            [
+              1501,
+              1379
+            ],
+            [
+              1501,
+              1433
+            ],
+            [
+              1491,
+              1444
+            ],
+            [
+              1468,
+              1444
+            ],
+            [
+              1469,
+              1499
+            ],
+            [
+              1453,
+              1510
+            ],
+            [
+              1190,
+              1509
+            ],
+            [
+              1177,
+              1498
+            ],
+            [
+              1176,
+              1443
+            ],
+            [
+              1158,
+              1443
+            ],
+            [
+              1145,
+              1429
+            ],
+            [
+              1145,
+              1384
+            ],
+            [
+              1156,
+              1369
+            ],
+            [
+              1176,
+              1366
+            ],
+            [
+              1176,
+              1323
+            ]
+          ]
+        },
+        {
+          "file": "annotations/ar-instance-masks.json",
+          "instance_id": "IMG_20261010_092153.jpg:USB",
+          "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092153.jpg",
+          "image_sha256": "14b4208819a0e8f20bd75204cf7bdd8676f2a89fd3419412ab0f06b53d2c3854",
+          "class_name": "usb_connector",
+          "polygon_xy_pixels": [
+            [
+              1178,
+              1310
+            ],
+            [
+              1458,
+              1310
+            ],
+            [
+              1467,
+              1323
+            ],
+            [
+              1467,
+              1362
+            ],
+            [
+              1488,
+              1361
+            ],
+            [
+              1501,
+              1379
+            ],
+            [
+              1501,
+              1433
+            ],
+            [
+              1491,
+              1444
+            ],
+            [
+              1468,
+              1444
+            ],
+            [
+              1469,
+              1499
+            ],
+            [
+              1453,
+              1510
+            ],
+            [
+              1190,
+              1509
+            ],
+            [
+              1177,
+              1498
+            ],
+            [
+              1176,
+              1443
+            ],
+            [
+              1158,
+              1443
+            ],
+            [
+              1145,
+              1429
+            ],
+            [
+              1145,
+              1384
+            ],
+            [
+              1156,
+              1369
+            ],
+            [
+              1176,
+              1366
+            ],
+            [
+              1176,
+              1323
+            ]
+          ]
+        }
+      ],
+      "class_conflict": false,
+      "polygon_conflict": false,
+      "handling": "Choose authoritative dense/superseding reviewed record once; never concatenate these sources into duplicate targets."
+    },
+    {
+      "instance_id": "IMG_20261010_092153.jpg:BOOT_SWITCH",
+      "image_sha256": "14b4208819a0e8f20bd75204cf7bdd8676f2a89fd3419412ab0f06b53d2c3854",
+      "records": [
+        {
+          "file": "annotations/esp32-dense-component-review.json",
+          "instance_id": "IMG_20261010_092153.jpg:BOOT_SWITCH",
+          "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092153.jpg",
+          "image_sha256": "14b4208819a0e8f20bd75204cf7bdd8676f2a89fd3419412ab0f06b53d2c3854",
+          "class_name": "switch",
+          "polygon_xy_pixels": [
+            [
+              966,
+              1368
+            ],
+            [
+              1072,
+              1368
+            ],
+            [
+              1079,
+              1380
+            ],
+            [
+              1079,
+              1496
+            ],
+            [
+              1072,
+              1509
+            ],
+            [
+              966,
+              1509
+            ],
+            [
+              960,
+              1496
+            ],
+            [
+              959,
+              1380
+            ]
+          ]
+        },
+        {
+          "file": "annotations/ar-instance-masks.json",
+          "instance_id": "IMG_20261010_092153.jpg:BOOT_SWITCH",
+          "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092153.jpg",
+          "image_sha256": "14b4208819a0e8f20bd75204cf7bdd8676f2a89fd3419412ab0f06b53d2c3854",
+          "class_name": "switch",
+          "polygon_xy_pixels": [
+            [
+              966,
+              1368
+            ],
+            [
+              1072,
+              1368
+            ],
+            [
+              1079,
+              1380
+            ],
+            [
+              1079,
+              1496
+            ],
+            [
+              1072,
+              1509
+            ],
+            [
+              966,
+              1509
+            ],
+            [
+              960,
+              1496
+            ],
+            [
+              959,
+              1380
+            ]
+          ]
+        }
+      ],
+      "class_conflict": false,
+      "polygon_conflict": false,
+      "handling": "Choose authoritative dense/superseding reviewed record once; never concatenate these sources into duplicate targets."
+    },
+    {
+      "instance_id": "IMG_20261010_092153.jpg:EN_SWITCH",
+      "image_sha256": "14b4208819a0e8f20bd75204cf7bdd8676f2a89fd3419412ab0f06b53d2c3854",
+      "records": [
+        {
+          "file": "annotations/esp32-dense-component-review.json",
+          "instance_id": "IMG_20261010_092153.jpg:EN_SWITCH",
+          "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092153.jpg",
+          "image_sha256": "14b4208819a0e8f20bd75204cf7bdd8676f2a89fd3419412ab0f06b53d2c3854",
+          "class_name": "switch",
+          "polygon_xy_pixels": [
+            [
+              1558,
+              1380
+            ],
+            [
+              1665,
+              1380
+            ],
+            [
+              1671,
+              1389
+            ],
+            [
+              1672,
+              1513
+            ],
+            [
+              1665,
+              1520
+            ],
+            [
+              1559,
+              1520
+            ],
+            [
+              1553,
+              1513
+            ],
+            [
+              1551,
+              1389
+            ]
+          ]
+        },
+        {
+          "file": "annotations/ar-instance-masks.json",
+          "instance_id": "IMG_20261010_092153.jpg:EN_SWITCH",
+          "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092153.jpg",
+          "image_sha256": "14b4208819a0e8f20bd75204cf7bdd8676f2a89fd3419412ab0f06b53d2c3854",
+          "class_name": "switch",
+          "polygon_xy_pixels": [
+            [
+              1558,
+              1380
+            ],
+            [
+              1665,
+              1380
+            ],
+            [
+              1671,
+              1389
+            ],
+            [
+              1672,
+              1513
+            ],
+            [
+              1665,
+              1520
+            ],
+            [
+              1559,
+              1520
+            ],
+            [
+              1553,
+              1513
+            ],
+            [
+              1551,
+              1389
+            ]
+          ]
+        }
+      ],
+      "class_conflict": false,
+      "polygon_conflict": false,
+      "handling": "Choose authoritative dense/superseding reviewed record once; never concatenate these sources into duplicate targets."
+    },
+    {
+      "instance_id": "IMG_20261010_092221.jpg:esp12e_rf_shield",
+      "image_sha256": "9d68458beac56198249982eda3de4dfc02904a701ea5d7496c6774af4c994461",
+      "records": [
+        {
+          "file": "annotations/esp8266-dense-component-review.json",
+          "instance_id": "IMG_20261010_092221.jpg:esp12e_rf_shield",
+          "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092221.jpg",
+          "image_sha256": "9d68458beac56198249982eda3de4dfc02904a701ea5d7496c6774af4c994461",
+          "class_name": "rf_shield",
+          "polygon_xy_pixels": [
+            [
+              1162,
+              1642
+            ],
+            [
+              1532,
+              1642
+            ],
+            [
+              1550,
+              1658
+            ],
+            [
+              1562,
+              2110
+            ],
+            [
+              1542,
+              2132
+            ],
+            [
+              1180,
+              2134
+            ],
+            [
+              1162,
+              2115
+            ]
+          ]
+        },
+        {
+          "file": "annotations/esp8266-component-mask-review.json",
+          "instance_id": "IMG_20261010_092221.jpg:esp12e_rf_shield",
+          "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092221.jpg",
+          "image_sha256": "9d68458beac56198249982eda3de4dfc02904a701ea5d7496c6774af4c994461",
+          "class_name": "rf_shield",
+          "polygon_xy_pixels": [
+            [
+              1162,
+              1642
+            ],
+            [
+              1532,
+              1642
+            ],
+            [
+              1550,
+              1658
+            ],
+            [
+              1562,
+              2110
+            ],
+            [
+              1542,
+              2132
+            ],
+            [
+              1180,
+              2134
+            ],
+            [
+              1162,
+              2115
+            ]
+          ]
+        }
+      ],
+      "class_conflict": false,
+      "polygon_conflict": false,
+      "handling": "Choose authoritative dense/superseding reviewed record once; never concatenate these sources into duplicate targets."
+    },
+    {
+      "instance_id": "IMG_20261010_092221.jpg:usb_serial_controller",
+      "image_sha256": "9d68458beac56198249982eda3de4dfc02904a701ea5d7496c6774af4c994461",
+      "records": [
+        {
+          "file": "annotations/esp8266-dense-component-review.json",
+          "instance_id": "IMG_20261010_092221.jpg:usb_serial_controller",
+          "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092221.jpg",
+          "image_sha256": "9d68458beac56198249982eda3de4dfc02904a701ea5d7496c6774af4c994461",
+          "class_name": "integrated_circuit",
+          "polygon_xy_pixels": [
+            [
+              1102,
+              2827
+            ],
+            [
+              1418,
+              2827
+            ],
+            [
+              1434,
+              2840
+            ],
+            [
+              1432,
+              2998
+            ],
+            [
+              1418,
+              3012
+            ],
+            [
+              1102,
+              3012
+            ],
+            [
+              1088,
+              2998
+            ],
+            [
+              1088,
+              2842
+            ]
+          ]
+        },
+        {
+          "file": "annotations/esp8266-component-mask-review.json",
+          "instance_id": "IMG_20261010_092221.jpg:usb_serial_controller",
+          "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092221.jpg",
+          "image_sha256": "9d68458beac56198249982eda3de4dfc02904a701ea5d7496c6774af4c994461",
+          "class_name": "integrated_circuit",
+          "polygon_xy_pixels": [
+            [
+              1102,
+              2827
+            ],
+            [
+              1418,
+              2827
+            ],
+            [
+              1434,
+              2840
+            ],
+            [
+              1432,
+              2998
+            ],
+            [
+              1418,
+              3012
+            ],
+            [
+              1102,
+              3012
+            ],
+            [
+              1088,
+              2998
+            ],
+            [
+              1088,
+              2842
+            ]
+          ]
+        }
+      ],
+      "class_conflict": false,
+      "polygon_conflict": false,
+      "handling": "Choose authoritative dense/superseding reviewed record once; never concatenate these sources into duplicate targets."
+    },
+    {
+      "instance_id": "IMG_20261010_092221.jpg:micro_usb",
+      "image_sha256": "9d68458beac56198249982eda3de4dfc02904a701ea5d7496c6774af4c994461",
+      "records": [
+        {
+          "file": "annotations/esp8266-dense-component-review.json",
+          "instance_id": "IMG_20261010_092221.jpg:micro_usb",
+          "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092221.jpg",
+          "image_sha256": "9d68458beac56198249982eda3de4dfc02904a701ea5d7496c6774af4c994461",
+          "class_name": "usb_connector",
+          "polygon_xy_pixels": [
+            [
+              1258,
+              3212
+            ],
+            [
+              1281,
+              3193
+            ],
+            [
+              1527,
+              3193
+            ],
+            [
+              1552,
+              3211
+            ],
+            [
+              1562,
+              3398
+            ],
+            [
+              1544,
+              3425
+            ],
+            [
+              1283,
+              3425
+            ],
+            [
+              1260,
+              3406
+            ]
+          ]
+        },
+        {
+          "file": "annotations/esp8266-component-mask-review.json",
+          "instance_id": "IMG_20261010_092221.jpg:micro_usb",
+          "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092221.jpg",
+          "image_sha256": "9d68458beac56198249982eda3de4dfc02904a701ea5d7496c6774af4c994461",
+          "class_name": "usb_connector",
+          "polygon_xy_pixels": [
+            [
+              1258,
+              3212
+            ],
+            [
+              1281,
+              3193
+            ],
+            [
+              1527,
+              3193
+            ],
+            [
+              1552,
+              3211
+            ],
+            [
+              1562,
+              3398
+            ],
+            [
+              1544,
+              3425
+            ],
+            [
+              1283,
+              3425
+            ],
+            [
+              1260,
+              3406
+            ]
+          ]
+        }
+      ],
+      "class_conflict": false,
+      "polygon_conflict": false,
+      "handling": "Choose authoritative dense/superseding reviewed record once; never concatenate these sources into duplicate targets."
+    },
+    {
+      "instance_id": "IMG_20261010_092221.jpg:rst_button",
+      "image_sha256": "9d68458beac56198249982eda3de4dfc02904a701ea5d7496c6774af4c994461",
+      "records": [
+        {
+          "file": "annotations/esp8266-dense-component-review.json",
+          "instance_id": "IMG_20261010_092221.jpg:rst_button",
+          "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092221.jpg",
+          "image_sha256": "9d68458beac56198249982eda3de4dfc02904a701ea5d7496c6774af4c994461",
+          "class_name": "switch",
+          "polygon_xy_pixels": [
+            [
+              1062,
+              3102
+            ],
+            [
+              1080,
+              3088
+            ],
+            [
+              1162,
+              3088
+            ],
+            [
+              1178,
+              3104
+            ],
+            [
+              1178,
+              3268
+            ],
+            [
+              1162,
+              3283
+            ],
+            [
+              1078,
+              3283
+            ],
+            [
+              1060,
+              3268
+            ]
+          ]
+        },
+        {
+          "file": "annotations/esp8266-component-mask-review.json",
+          "instance_id": "IMG_20261010_092221.jpg:rst_button",
+          "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092221.jpg",
+          "image_sha256": "9d68458beac56198249982eda3de4dfc02904a701ea5d7496c6774af4c994461",
+          "class_name": "switch",
+          "polygon_xy_pixels": [
+            [
+              1062,
+              3102
+            ],
+            [
+              1080,
+              3088
+            ],
+            [
+              1162,
+              3088
+            ],
+            [
+              1178,
+              3104
+            ],
+            [
+              1178,
+              3268
+            ],
+            [
+              1162,
+              3283
+            ],
+            [
+              1078,
+              3283
+            ],
+            [
+              1060,
+              3268
+            ]
+          ]
+        }
+      ],
+      "class_conflict": false,
+      "polygon_conflict": false,
+      "handling": "Choose authoritative dense/superseding reviewed record once; never concatenate these sources into duplicate targets."
+    },
+    {
+      "instance_id": "IMG_20261010_092221.jpg:flash_button",
+      "image_sha256": "9d68458beac56198249982eda3de4dfc02904a701ea5d7496c6774af4c994461",
+      "records": [
+        {
+          "file": "annotations/esp8266-dense-component-review.json",
+          "instance_id": "IMG_20261010_092221.jpg:flash_button",
+          "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092221.jpg",
+          "image_sha256": "9d68458beac56198249982eda3de4dfc02904a701ea5d7496c6774af4c994461",
+          "class_name": "switch",
+          "polygon_xy_pixels": [
+            [
+              1592,
+              3100
+            ],
+            [
+              1610,
+              3088
+            ],
+            [
+              1690,
+              3088
+            ],
+            [
+              1707,
+              3103
+            ],
+            [
+              1707,
+              3268
+            ],
+            [
+              1690,
+              3282
+            ],
+            [
+              1610,
+              3282
+            ],
+            [
+              1592,
+              3267
+            ]
+          ]
+        },
+        {
+          "file": "annotations/esp8266-component-mask-review.json",
+          "instance_id": "IMG_20261010_092221.jpg:flash_button",
+          "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092221.jpg",
+          "image_sha256": "9d68458beac56198249982eda3de4dfc02904a701ea5d7496c6774af4c994461",
+          "class_name": "switch",
+          "polygon_xy_pixels": [
+            [
+              1592,
+              3100
+            ],
+            [
+              1610,
+              3088
+            ],
+            [
+              1690,
+              3088
+            ],
+            [
+              1707,
+              3103
+            ],
+            [
+              1707,
+              3268
+            ],
+            [
+              1690,
+              3282
+            ],
+            [
+              1610,
+              3282
+            ],
+            [
+              1592,
+              3267
+            ]
+          ]
+        }
+      ],
+      "class_conflict": false,
+      "polygon_conflict": false,
+      "handling": "Choose authoritative dense/superseding reviewed record once; never concatenate these sources into duplicate targets."
+    },
+    {
+      "instance_id": "IMG_20261010_092203.jpg:U1",
+      "image_sha256": "00bdc20da4286033a2c2f1c1d146ee3ece21be8ca322f4d33b7fdc8738038170",
+      "records": [
+        {
+          "file": "annotations/nxp-dense-component-review.json",
+          "instance_id": "IMG_20261010_092203.jpg:U1",
+          "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+          "image_sha256": "00bdc20da4286033a2c2f1c1d146ee3ece21be8ca322f4d33b7fdc8738038170",
+          "class_name": "integrated_circuit",
+          "polygon_xy_pixels": [
+            [
+              1483,
+              2145
+            ],
+            [
+              1742,
+              2140
+            ],
+            [
+              1746,
+              2393
+            ],
+            [
+              1487,
+              2397
+            ]
+          ]
+        },
+        {
+          "file": "annotations/ar-instance-masks.json",
+          "instance_id": "IMG_20261010_092203.jpg:U1",
+          "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+          "image_sha256": "00bdc20da4286033a2c2f1c1d146ee3ece21be8ca322f4d33b7fdc8738038170",
+          "class_name": "integrated_circuit",
+          "polygon_xy_pixels": [
+            [
+              1483,
+              2145
+            ],
+            [
+              1742,
+              2140
+            ],
+            [
+              1746,
+              2393
+            ],
+            [
+              1487,
+              2397
+            ]
+          ]
+        }
+      ],
+      "class_conflict": false,
+      "polygon_conflict": false,
+      "handling": "Choose authoritative dense/superseding reviewed record once; never concatenate these sources into duplicate targets."
+    },
+    {
+      "instance_id": "IMG_20261010_092203.jpg:J11",
+      "image_sha256": "00bdc20da4286033a2c2f1c1d146ee3ece21be8ca322f4d33b7fdc8738038170",
+      "records": [
+        {
+          "file": "annotations/nxp-dense-component-review.json",
+          "instance_id": "IMG_20261010_092203.jpg:J11",
+          "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+          "image_sha256": "00bdc20da4286033a2c2f1c1d146ee3ece21be8ca322f4d33b7fdc8738038170",
+          "class_name": "usb_connector",
+          "polygon_xy_pixels": [
+            [
+              1281,
+              406
+            ],
+            [
+              1294,
+              397
+            ],
+            [
+              1507,
+              390
+            ],
+            [
+              1532,
+              402
+            ],
+            [
+              1544,
+              421
+            ],
+            [
+              1542,
+              642
+            ],
+            [
+              1551,
+              659
+            ],
+            [
+              1538,
+              674
+            ],
+            [
+              1302,
+              681
+            ],
+            [
+              1284,
+              668
+            ],
+            [
+              1278,
+              648
+            ],
+            [
+              1278,
+              432
+            ]
+          ]
+        },
+        {
+          "file": "annotations/ar-instance-masks.json",
+          "instance_id": "IMG_20261010_092203.jpg:J11",
+          "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+          "image_sha256": "00bdc20da4286033a2c2f1c1d146ee3ece21be8ca322f4d33b7fdc8738038170",
+          "class_name": "usb_connector",
+          "polygon_xy_pixels": [
+            [
+              1281,
+              406
+            ],
+            [
+              1294,
+              397
+            ],
+            [
+              1507,
+              390
+            ],
+            [
+              1532,
+              402
+            ],
+            [
+              1544,
+              421
+            ],
+            [
+              1542,
+              642
+            ],
+            [
+              1551,
+              659
+            ],
+            [
+              1538,
+              674
+            ],
+            [
+              1302,
+              681
+            ],
+            [
+              1284,
+              668
+            ],
+            [
+              1278,
+              648
+            ],
+            [
+              1278,
+              432
+            ]
+          ]
+        }
+      ],
+      "class_conflict": false,
+      "polygon_conflict": false,
+      "handling": "Choose authoritative dense/superseding reviewed record once; never concatenate these sources into duplicate targets."
+    },
+    {
+      "instance_id": "IMG_20261010_092203.jpg:J10",
+      "image_sha256": "00bdc20da4286033a2c2f1c1d146ee3ece21be8ca322f4d33b7fdc8738038170",
+      "records": [
+        {
+          "file": "annotations/nxp-dense-component-review.json",
+          "instance_id": "IMG_20261010_092203.jpg:J10",
+          "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+          "image_sha256": "00bdc20da4286033a2c2f1c1d146ee3ece21be8ca322f4d33b7fdc8738038170",
+          "class_name": "usb_connector",
+          "polygon_xy_pixels": [
+            [
+              1701,
+              383
+            ],
+            [
+              1718,
+              373
+            ],
+            [
+              1938,
+              367
+            ],
+            [
+              1957,
+              380
+            ],
+            [
+              1965,
+              401
+            ],
+            [
+              1962,
+              630
+            ],
+            [
+              1970,
+              650
+            ],
+            [
+              1957,
+              670
+            ],
+            [
+              1720,
+              678
+            ],
+            [
+              1703,
+              664
+            ],
+            [
+              1698,
+              642
+            ],
+            [
+              1698,
+              405
+            ]
+          ]
+        },
+        {
+          "file": "annotations/ar-instance-masks.json",
+          "instance_id": "IMG_20261010_092203.jpg:J10",
+          "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+          "image_sha256": "00bdc20da4286033a2c2f1c1d146ee3ece21be8ca322f4d33b7fdc8738038170",
+          "class_name": "usb_connector",
+          "polygon_xy_pixels": [
+            [
+              1701,
+              383
+            ],
+            [
+              1718,
+              373
+            ],
+            [
+              1938,
+              367
+            ],
+            [
+              1957,
+              380
+            ],
+            [
+              1965,
+              401
+            ],
+            [
+              1962,
+              630
+            ],
+            [
+              1970,
+              650
+            ],
+            [
+              1957,
+              670
+            ],
+            [
+              1720,
+              678
+            ],
+            [
+              1703,
+              664
+            ],
+            [
+              1698,
+              642
+            ],
+            [
+              1698,
+              405
+            ]
+          ]
+        }
+      ],
+      "class_conflict": false,
+      "polygon_conflict": false,
+      "handling": "Choose authoritative dense/superseding reviewed record once; never concatenate these sources into duplicate targets."
+    },
+    {
+      "instance_id": "IMG_20261009_222135_1.jpg:U13",
+      "image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "records": [
+        {
+          "file": "annotations/ultimainboard-dense-component-review.json",
+          "instance_id": "IMG_20261009_222135_1.jpg:U13",
+          "image_path": "data/photo-model/by_board/ultimainboard/IMG_20261009_222135_1.jpg",
+          "image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+          "class_name": "integrated_circuit",
+          "polygon_xy_pixels": [
+            [
+              459,
+              347
+            ],
+            [
+              550,
+              347
+            ],
+            [
+              550,
+              438
+            ],
+            [
+              459,
+              438
+            ]
+          ]
+        },
+        {
+          "file": "annotations/ultimainboard-specimen-component-masks.json",
+          "instance_id": "IMG_20261009_222135_1.jpg:U13",
+          "image_path": "data/photo-model/by_board/ultimainboard/IMG_20261009_222135_1.jpg",
+          "image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+          "class_name": "integrated_circuit",
+          "polygon_xy_pixels": [
+            [
+              459,
+              347
+            ],
+            [
+              550,
+              347
+            ],
+            [
+              550,
+              438
+            ],
+            [
+              459,
+              438
+            ]
+          ]
+        }
+      ],
+      "class_conflict": false,
+      "polygon_conflict": false,
+      "handling": "Choose authoritative dense/superseding reviewed record once; never concatenate these sources into duplicate targets."
+    },
+    {
+      "instance_id": "IMG_20261009_222135_1.jpg:U12",
+      "image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "records": [
+        {
+          "file": "annotations/ultimainboard-dense-component-review.json",
+          "instance_id": "IMG_20261009_222135_1.jpg:U12",
+          "image_path": "data/photo-model/by_board/ultimainboard/IMG_20261009_222135_1.jpg",
+          "image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+          "class_name": "integrated_circuit",
+          "polygon_xy_pixels": [
+            [
+              459,
+              709
+            ],
+            [
+              550,
+              709
+            ],
+            [
+              550,
+              797
+            ],
+            [
+              459,
+              797
+            ]
+          ]
+        },
+        {
+          "file": "annotations/ultimainboard-specimen-component-masks.json",
+          "instance_id": "IMG_20261009_222135_1.jpg:U12",
+          "image_path": "data/photo-model/by_board/ultimainboard/IMG_20261009_222135_1.jpg",
+          "image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+          "class_name": "integrated_circuit",
+          "polygon_xy_pixels": [
+            [
+              459,
+              709
+            ],
+            [
+              550,
+              709
+            ],
+            [
+              550,
+              797
+            ],
+            [
+              459,
+              797
+            ]
+          ]
+        }
+      ],
+      "class_conflict": false,
+      "polygon_conflict": false,
+      "handling": "Choose authoritative dense/superseding reviewed record once; never concatenate these sources into duplicate targets."
+    },
+    {
+      "instance_id": "IMG_20261009_222135_1.jpg:U11",
+      "image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "records": [
+        {
+          "file": "annotations/ultimainboard-dense-component-review.json",
+          "instance_id": "IMG_20261009_222135_1.jpg:U11",
+          "image_path": "data/photo-model/by_board/ultimainboard/IMG_20261009_222135_1.jpg",
+          "image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+          "class_name": "integrated_circuit",
+          "polygon_xy_pixels": [
+            [
+              459,
+              1055
+            ],
+            [
+              550,
+              1055
+            ],
+            [
+              550,
+              1148
+            ],
+            [
+              459,
+              1148
+            ]
+          ]
+        },
+        {
+          "file": "annotations/ultimainboard-specimen-component-masks.json",
+          "instance_id": "IMG_20261009_222135_1.jpg:U11",
+          "image_path": "data/photo-model/by_board/ultimainboard/IMG_20261009_222135_1.jpg",
+          "image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+          "class_name": "integrated_circuit",
+          "polygon_xy_pixels": [
+            [
+              459,
+              1055
+            ],
+            [
+              550,
+              1055
+            ],
+            [
+              550,
+              1148
+            ],
+            [
+              459,
+              1148
+            ]
+          ]
+        }
+      ],
+      "class_conflict": false,
+      "polygon_conflict": false,
+      "handling": "Choose authoritative dense/superseding reviewed record once; never concatenate these sources into duplicate targets."
+    }
+  ],
+  "issues": [
+    {
+      "severity": "training_critical",
+      "issue": "rf_module shield/substrate class mismatch",
+      "status": "Parent corrected ESP8266 shield-only dense and legacy rf_module to rf_shield after QA notification; verify adapter keeps separate classes."
+    },
+    {
+      "severity": "training_critical",
+      "issue": "Partial coverage must use unknown/ignore complement",
+      "status": "All dense review files remain partial; no whole-frame background claim."
+    },
+    {
+      "severity": "provenance",
+      "issue": "Capture group omissions",
+      "status": "Ultimaker source has only one documented photo and no explicit per-row capture session/group field; use one specimen/capture group and never independent validation split from its crops."
+    },
+    {
+      "severity": "training_critical",
+      "issue": "Unresolved chip_passive versus typed resistor/capacitor ontology",
+      "status": "Training adapter must define a common observable passive_body superclass, preserve unresolved as ignore for typed classification, or explicitly separate hierarchical supervision; do not silently turn source candidates into typed installed labels."
+    }
+  ],
+  "visual_samples": [
+    {
+      "board": "ESP32",
+      "overlay": "previews/esp32-dense-component-review-detail.jpg",
+      "finding": "CP2102 body, switch/USB bodies and small package boundaries follow visible bodies; excluded pin rows/mounting holes. Whole-frame unseen bodies remain unreviewed."
+    },
+    {
+      "board": "ESP8266",
+      "overlay": "previews/esp8266-dense-overlay-IMG_20261010_092221.jpg",
+      "finding": "Shield-only RF scope identified; package-body masks exclude visible chip/module leads. Tiny passives are approximate body-only with some terminal exclusion, not whole solder footprint."
+    },
+    {
+      "board": "NXP",
+      "overlay": "previews/nxp-dense-oct9-bottom-review.jpg",
+      "finding": "Target package height/parallax required corrections; small blurry semiconductor silhouettes have larger uncertainty and unresolved identities."
+    },
+    {
+      "board": "Ultimaker",
+      "overlay": "previews/ultimainboard-dense-top-review.jpg",
+      "finding": "Package bodies/refdes mostly follow visible bodies; connector RGB-role segments are distinct physical header rows. Numerous unmasked passives remain."
+    }
+  ],
+  "exact_identity_limits": [
+    "Family markings do not prove full order suffix or installed BOM population",
+    "Transferred same-specimen correspondence is not a fresh target marking read",
+    "NXP photographed PCB revision remains unverified",
+    "Ultimaker photo refdes source-candidate mapping is not installed order-code verification"
+  ],
+  "background_region_file": "annotations/reviewed-component-background-regions.json",
+  "complete_release_certified": false,
+  "duplicate_summary": {
+    "repeated_keys_vs_legacy": 26,
+    "polygon_conflicts": 0,
+    "dense_record_count": 370,
+    "canonical_policy": "Consume each dense record once; legacy copies are provenance, not extra positives."
+  }
+}

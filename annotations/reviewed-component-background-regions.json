@@ -1,0 +1,262 @@
+{
+  "schema_version": "1.0",
+  "regions": [
+    {
+      "region_id": "esp32:outside-board-negative-01",
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092144.jpg",
+      "image_sha256": "d33bf83877365f57dc03d36388518207090acbd5b57db93ca96742c1ecd05ed7",
+      "image_width": 3072,
+      "image_height": 4080,
+      "coordinate_frame": "stored_original_image_pixels",
+      "shape": "polygon",
+      "polygon_xy_pixels": [
+        [
+          100,
+          100
+        ],
+        [
+          700,
+          100
+        ],
+        [
+          700,
+          700
+        ],
+        [
+          100,
+          700
+        ]
+      ],
+      "classification": "reviewed_component_background",
+      "review_evidence": "Original image and exact original-pixel rectangle crop visually inspected. Region is empty off-board desk/wall/cloth; no board surface, package, pin, solder, mounting land or silkscreen included. It is a reviewed negative for component classes only, not a whole-image background declaration.",
+      "negative_scope": "visible electronic component body classes",
+      "unreviewed_complement_policy": "ignore",
+      "training_usage": "May contribute background loss only inside this polygon; complement remains unknown except positive reviewed body masks."
+    },
+    {
+      "region_id": "esp8266:outside-board-negative-01",
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092221.jpg",
+      "image_sha256": "9d68458beac56198249982eda3de4dfc02904a701ea5d7496c6774af4c994461",
+      "image_width": 3072,
+      "image_height": 4080,
+      "coordinate_frame": "stored_original_image_pixels",
+      "shape": "polygon",
+      "polygon_xy_pixels": [
+        [
+          100,
+          100
+        ],
+        [
+          700,
+          100
+        ],
+        [
+          700,
+          700
+        ],
+        [
+          100,
+          700
+        ]
+      ],
+      "classification": "reviewed_component_background",
+      "review_evidence": "Original image and exact original-pixel rectangle crop visually inspected. Region is empty off-board desk/wall/cloth; no board surface, package, pin, solder, mounting land or silkscreen included. It is a reviewed negative for component classes only, not a whole-image background declaration.",
+      "negative_scope": "visible electronic component body classes",
+      "unreviewed_complement_policy": "ignore",
+      "training_usage": "May contribute background loss only inside this polygon; complement remains unknown except positive reviewed body masks."
+    },
+    {
+      "region_id": "nxp:outside-board-negative-01",
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "image_sha256": "00bdc20da4286033a2c2f1c1d146ee3ece21be8ca322f4d33b7fdc8738038170",
+      "image_width": 3072,
+      "image_height": 4096,
+      "coordinate_frame": "stored_original_image_pixels",
+      "shape": "polygon",
+      "polygon_xy_pixels": [
+        [
+          100,
+          100
+        ],
+        [
+          700,
+          100
+        ],
+        [
+          700,
+          350
+        ],
+        [
+          100,
+          350
+        ]
+      ],
+      "classification": "reviewed_component_background",
+      "review_evidence": "Original image and exact original-pixel rectangle crop visually inspected. Region is empty off-board desk/wall/cloth; no board surface, package, pin, solder, mounting land or silkscreen included. It is a reviewed negative for component classes only, not a whole-image background declaration.",
+      "negative_scope": "visible electronic component body classes",
+      "unreviewed_complement_policy": "ignore",
+      "training_usage": "May contribute background loss only inside this polygon; complement remains unknown except positive reviewed body masks."
+    },
+    {
+      "region_id": "ultimaker:outside-board-negative-01",
+      "image_path": "data/photo-model/by_board/ultimainboard/IMG_20261009_222135_1.jpg",
+      "image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "image_width": 1408,
+      "image_height": 3112,
+      "coordinate_frame": "stored_original_image_pixels",
+      "shape": "polygon",
+      "polygon_xy_pixels": [
+        [
+          0,
+          600
+        ],
+        [
+          30,
+          600
+        ],
+        [
+          30,
+          1000
+        ],
+        [
+          0,
+          1000
+        ]
+      ],
+      "classification": "reviewed_component_background",
+      "review_evidence": "Original image and exact original-pixel rectangle crop visually inspected. Region is empty off-board desk/wall/cloth; no board surface, package, pin, solder, mounting land or silkscreen included. It is a reviewed negative for component classes only, not a whole-image background declaration.",
+      "negative_scope": "visible electronic component body classes",
+      "unreviewed_complement_policy": "ignore",
+      "training_usage": "May contribute background loss only inside this polygon; complement remains unknown except positive reviewed body masks."
+    },
+    {
+      "region_id": "nxp-oct9:outside-board-negative-01",
+      "image_path": "data/photo-model/by_board/nxp_frdm_mcxn_board/IMG_20261009_221755.jpg",
+      "image_sha256": "20a002865f47408c131c38e8823adb2fabd7c783e9954a3a580d69e24bccfe4b",
+      "image_width": 3072,
+      "image_height": 4096,
+      "coordinate_frame": "stored_original_image_pixels",
+      "shape": "polygon",
+      "polygon_xy_pixels": [
+        [
+          100,
+          600
+        ],
+        [
+          500,
+          600
+        ],
+        [
+          500,
+          1000
+        ],
+        [
+          100,
+          1000
+        ]
+      ],
+      "classification": "reviewed_component_background",
+      "review_evidence": "Original image and exact original-pixel rectangle crop visually inspected. Region is empty off-board desk/wall/cloth; no board surface, package, pin, solder, mounting land or silkscreen included. It is a reviewed negative for component classes only, not a whole-image background declaration.",
+      "negative_scope": "visible electronic component body classes",
+      "unreviewed_complement_policy": "ignore",
+      "training_usage": "May contribute background loss only inside this polygon; complement remains unknown except positive reviewed body masks."
+    },
+    {
+      "region_id": "esp32-video:outside-board-negative-01",
+      "image_path": "data/video-captures/2026-10-10/esp32-keyframes/video_20261010_132302_n000000_pts00000000ms.jpg",
+      "image_sha256": "11ed65f09c691c0dcb861ccc6eaaca5dee12888595175a6a2e64cb15b55ea57c",
+      "image_width": 1080,
+      "image_height": 1920,
+      "coordinate_frame": "stored_original_image_pixels",
+      "shape": "polygon",
+      "polygon_xy_pixels": [
+        [
+          20,
+          1000
+        ],
+        [
+          280,
+          1000
+        ],
+        [
+          280,
+          1500
+        ],
+        [
+          20,
+          1500
+        ]
+      ],
+      "classification": "reviewed_component_background",
+      "review_evidence": "Original image and exact original-pixel rectangle crop visually inspected. Region is empty off-board desk/wall/cloth; no board surface, package, pin, solder, mounting land or silkscreen included. It is a reviewed negative for component classes only, not a whole-image background declaration.",
+      "negative_scope": "visible electronic component body classes",
+      "unreviewed_complement_policy": "ignore",
+      "training_usage": "May contribute background loss only inside this polygon; complement remains unknown except positive reviewed body masks."
+    },
+    {
+      "region_id": "esp12-start:outside-board-negative-01",
+      "image_path": "data/video-captures/2026-10-10/esp12e-keyframes/video_20261010_122211_n000000_pts00000000ms.jpg",
+      "image_sha256": "295d85e1a461fc4983095af9ef80819a3a5c6e2c3453c99777b8ce3f7d31c9e1",
+      "image_width": 1080,
+      "image_height": 1920,
+      "coordinate_frame": "stored_original_image_pixels",
+      "shape": "polygon",
+      "polygon_xy_pixels": [
+        [
+          10,
+          400
+        ],
+        [
+          150,
+          400
+        ],
+        [
+          150,
+          1400
+        ],
+        [
+          10,
+          1400
+        ]
+      ],
+      "classification": "reviewed_component_background",
+      "review_evidence": "Original image and exact original-pixel rectangle crop visually inspected. Region is empty off-board desk/wall/cloth; no board surface, package, pin, solder, mounting land or silkscreen included. It is a reviewed negative for component classes only, not a whole-image background declaration.",
+      "negative_scope": "visible electronic component body classes",
+      "unreviewed_complement_policy": "ignore",
+      "training_usage": "May contribute background loss only inside this polygon; complement remains unknown except positive reviewed body masks."
+    },
+    {
+      "region_id": "esp12-end:outside-board-negative-01",
+      "image_path": "data/video-captures/2026-10-10/esp12e-keyframes/video_20261010_122211_n000523_pts00017497ms.jpg",
+      "image_sha256": "bcf9d38b8de7e5792fd9795f9d7a8b855279ab15fa1f0135a930f786485fba09",
+      "image_width": 1080,
+      "image_height": 1920,
+      "coordinate_frame": "stored_original_image_pixels",
+      "shape": "polygon",
+      "polygon_xy_pixels": [
+        [
+          1000,
+          600
+        ],
+        [
+          1079,
+          600
+        ],
+        [
+          1079,
+          1300
+        ],
+        [
+          1000,
+          1300
+        ]
+      ],
+      "classification": "reviewed_component_background",
+      "review_evidence": "Original image and exact original-pixel rectangle crop visually inspected. Region is empty off-board desk/wall/cloth; no board surface, package, pin, solder, mounting land or silkscreen included. It is a reviewed negative for component classes only, not a whole-image background declaration.",
+      "negative_scope": "visible electronic component body classes",
+      "unreviewed_complement_policy": "ignore",
+      "training_usage": "May contribute background loss only inside this polygon; complement remains unknown except positive reviewed body masks."
+    }
+  ],
+  "scope": "Manually reviewed off-board negative regions; no automatic convex-hull complement or board-surface negatives."
+}

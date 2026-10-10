@@ -1,0 +1,128 @@
+{
+  "schema_version": "1.0",
+  "physical_specimen_id": "bench-nxp-01",
+  "capture_session_id": "bench-nxp-01:20261010_122330",
+  "image_path": "data/video-captures/2026-10-10/nxp-keyframes/video_20261010_122330_n000000_pts00000000ms.jpg",
+  "image_width": 1080,
+  "image_height": 1920,
+  "coordinate_frame": "upright_saved_image_pixels",
+  "coverage": "partial_visible_package_bodies",
+  "training_export_eligible": false,
+  "production_eligible": false,
+  "masks": [
+    {
+      "instance_id": "bench-nxp-01:U41",
+      "observed_reference_designator": "U41",
+      "polygon_xy_pixels": [
+        [
+          575,
+          525
+        ],
+        [
+          650,
+          526
+        ],
+        [
+          650,
+          593
+        ],
+        [
+          575,
+          594
+        ]
+      ],
+      "boundary_uncertainty_pixels": 6,
+      "boundary_scope": "visible_package_body_excluding_leads",
+      "installed_order_code_confirmed": false,
+      "source_candidate_component_id": "nxp-frdm-mcxn236:C:U41",
+      "source_candidate_part_number": "PTN5150AHXMP"
+    },
+    {
+      "instance_id": "bench-nxp-01:metal_package_near_R94",
+      "observed_reference_designator": null,
+      "polygon_xy_pixels": [
+        [
+          410,
+          1469
+        ],
+        [
+          489,
+          1470
+        ],
+        [
+          489,
+          1529
+        ],
+        [
+          410,
+          1528
+        ]
+      ],
+      "boundary_uncertainty_pixels": 6,
+      "boundary_scope": "visible_package_body_excluding_external_contacts",
+      "installed_order_code_confirmed": false,
+      "reference_review_status": "ambiguous_designator; source_join_withheld",
+      "source_candidate_component_id": null,
+      "source_candidate_part_number": null
+    },
+    {
+      "instance_id": "bench-nxp-01:U2",
+      "observed_reference_designator": "U2",
+      "polygon_xy_pixels": [
+        [
+          348,
+          1713
+        ],
+        [
+          531,
+          1712
+        ],
+        [
+          532,
+          1813
+        ],
+        [
+          345,
+          1814
+        ]
+      ],
+      "boundary_uncertainty_pixels": 6,
+      "boundary_scope": "visible_package_body_excluding_leads",
+      "installed_order_code_confirmed": false,
+      "source_candidate_component_id": "nxp-frdm-mcxn236:C:U2",
+      "source_candidate_part_number": "XC6227C331PR-G"
+    },
+    {
+      "instance_id": "bench-nxp-01:U5",
+      "observed_reference_designator": "U5",
+      "polygon_xy_pixels": [
+        [
+          808,
+          319
+        ],
+        [
+          888,
+          321
+        ],
+        [
+          888,
+          381
+        ],
+        [
+          808,
+          380
+        ]
+      ],
+      "boundary_uncertainty_pixels": 6,
+      "boundary_scope": "visible_package_body_excluding_leads",
+      "installed_order_code_confirmed": false,
+      "source_candidate_component_id": "nxp-frdm-mcxn236:C:U5",
+      "source_candidate_part_number": "RClamp0854P.TCT"
+    }
+  ],
+  "review_evidence": "Original upright frame and magnified lower crop reviewed. Observed U41, U2 and U5 labels paired with visible bodies. Small metal package designator is ambiguous; no source identity assigned. Full ordering codes unconfirmed; C sources remain candidates for revision-unverified specimen.",
+  "source_mapping_status": "C_source_candidates; photographed_revision_unverified",
+  "image_sha256": "30d6691cbcc88d32142802dc6f3894ce7e128ac64d6be2477dc5c2eaff03fa64",
+  "source_component_map_sha256": "8fd8a25b1c53da7a8a7dfb414d4410dfa1b76c916ee76315e82cb3027015fedd",
+  "revision_inference_correction": "The photographed B belongs to NXP B.V. copyright; it does not establish Rev B."
+}

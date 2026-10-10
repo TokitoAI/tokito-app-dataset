@@ -1,0 +1,688 @@
+{
+  "schema_version": "1.0",
+  "board_family": "esp8266_nodemcu_esp12e_clone_unknown_variant",
+  "physical_specimen_id": "bench-esp8266-01",
+  "capture_session_id": "bench-esp8266-01:20261010_122211",
+  "image_path": "data/video-captures/2026-10-10/esp12e-keyframes/video_20261010_122211_n000523_pts00017497ms.jpg",
+  "image_sha256": "bcf9d38b8de7e5792fd9795f9d7a8b855279ab15fa1f0135a930f786485fba09",
+  "image_width": 1080,
+  "image_height": 1920,
+  "coordinate_frame": "upright_saved_image_pixels",
+  "coverage": "partial_visible_component_bodies",
+  "training_export_eligible": false,
+  "evaluation_valid": false,
+  "same_specimen_split_group": "bench-esp8266-01:20261010_122211",
+  "review_scope": [
+    "rf_module",
+    "integrated_circuit",
+    "usb_connector",
+    "switch",
+    "resistor",
+    "capacitor",
+    "three_terminal_package"
+  ],
+  "source_review_file": "data/video-captures/2026-10-10/esp12e-keyframes/reviewed-component-masks.json",
+  "review_evidence": "Existing 18 body polygons re-inspected against original saved video frame and overlay; body class aliases unified to high-resolution photo schema. Controller enlarged crop inspected; no confident ordering code was readable. Two additional resistor bodies reviewed manually in start frame.",
+  "identity_limits": [
+    "Controller and regulator order codes remain unreadable.",
+    "No unseen-specimen accuracy claim; video and photo are same physical board.",
+    "All frames in this video belong to one capture group."
+  ],
+  "masks": [
+    {
+      "instance_id": "video_20261010_122211_n000523_pts00017497ms.jpg:usb_serial_controller_body",
+      "class_name": "integrated_circuit",
+      "exact_part_name": null,
+      "identity_status": "unresolved_marking",
+      "polygon_xy_pixels": [
+        [
+          99,
+          1217
+        ],
+        [
+          453,
+          1220
+        ],
+        [
+          451,
+          1349
+        ],
+        [
+          95,
+          1346
+        ]
+      ],
+      "boundary_scope": "visible_package_body_excluding_leads",
+      "boundary_uncertainty_pixels": 6,
+      "source_review_instance_id": "bench-esp8266-01:usb_serial_controller_body",
+      "parent_board_instance_id": "bench-esp8266-01",
+      "review_status": "visually_reviewed_body_polygon",
+      "pin_mapping_status": "not_asserted",
+      "installed_order_code_confirmed": false
+    },
+    {
+      "instance_id": "video_20261010_122211_n000523_pts00017497ms.jpg:regulator_body",
+      "class_name": "integrated_circuit",
+      "exact_part_name": null,
+      "identity_status": "unresolved_marking",
+      "polygon_xy_pixels": [
+        [
+          500,
+          735
+        ],
+        [
+          607,
+          737
+        ],
+        [
+          602,
+          934
+        ],
+        [
+          496,
+          932
+        ]
+      ],
+      "boundary_scope": "visible_package_body_excluding_leads_and_tab",
+      "boundary_uncertainty_pixels": 6,
+      "source_review_instance_id": "bench-esp8266-01:regulator_body",
+      "parent_board_instance_id": "bench-esp8266-01",
+      "review_status": "visually_reviewed_body_polygon",
+      "pin_mapping_status": "not_asserted",
+      "installed_order_code_confirmed": false
+    },
+    {
+      "instance_id": "video_20261010_122211_n000523_pts00017497ms.jpg:rf_module_shield",
+      "class_name": "rf_module",
+      "parent_component_id": "bench-esp8266-01:esp12e_module",
+      "observed_parent_marking": "MODEL: ESP-12E",
+      "polygon_xy_pixels": [
+        [
+          220,
+          23
+        ],
+        [
+          615,
+          29
+        ],
+        [
+          607,
+          478
+        ],
+        [
+          203,
+          476
+        ]
+      ],
+      "boundary_scope": "shield_top_surface_only_excludes_module_antenna_pcb_and_contacts",
+      "boundary_uncertainty_pixels": 8,
+      "source_review_instance_id": "bench-esp8266-01:rf_module_shield",
+      "parent_board_instance_id": "bench-esp8266-01",
+      "review_status": "visually_reviewed_body_polygon",
+      "pin_mapping_status": "not_asserted",
+      "installed_order_code_confirmed": false,
+      "exact_part_name": null,
+      "observed_marking_family": "ESP-12E",
+      "identity_status": "readable_module_family"
+    },
+    {
+      "instance_id": "video_20261010_122211_n000523_pts00017497ms.jpg:micro_usb_shell",
+      "class_name": "usb_connector",
+      "exact_part_name": null,
+      "connector_family": "micro_usb",
+      "polygon_xy_pixels": [
+        [
+          246,
+          1570
+        ],
+        [
+          519,
+          1570
+        ],
+        [
+          523,
+          1765
+        ],
+        [
+          236,
+          1770
+        ]
+      ],
+      "boundary_scope": "visible_metal_shell_excluding_side_mounting_tabs",
+      "boundary_uncertainty_pixels": 8,
+      "source_review_instance_id": "bench-esp8266-01:micro_usb_shell",
+      "parent_board_instance_id": "bench-esp8266-01",
+      "review_status": "visually_reviewed_body_polygon",
+      "pin_mapping_status": "not_asserted",
+      "installed_order_code_confirmed": false
+    },
+    {
+      "instance_id": "video_20261010_122211_n000523_pts00017497ms.jpg:rst_button_body",
+      "class_name": "switch",
+      "exact_part_name": null,
+      "observed_marking": null,
+      "identity_status": "visible_body_and_marking_only; exact_ordering_code_unconfirmed",
+      "polygon_xy_pixels": [
+        [
+          34,
+          1519
+        ],
+        [
+          125,
+          1521
+        ],
+        [
+          124,
+          1657
+        ],
+        [
+          30,
+          1656
+        ]
+      ],
+      "boundary_scope": "visible_body_excluding_external_leads_and_solder",
+      "boundary_uncertainty_pixels": 6,
+      "review_status": "visually_reviewed_body_polygon",
+      "source_review_instance_id": "bench-esp8266-01:rst_button_body",
+      "parent_board_instance_id": "bench-esp8266-01",
+      "pin_mapping_status": "not_asserted",
+      "installed_order_code_confirmed": false
+    },
+    {
+      "instance_id": "video_20261010_122211_n000523_pts00017497ms.jpg:flash_button_body",
+      "class_name": "switch",
+      "exact_part_name": null,
+      "observed_marking": null,
+      "identity_status": "visible_body_and_marking_only; exact_ordering_code_unconfirmed",
+      "polygon_xy_pixels": [
+        [
+          625,
+          1534
+        ],
+        [
+          726,
+          1534
+        ],
+        [
+          725,
+          1654
+        ],
+        [
+          619,
+          1653
+        ]
+      ],
+      "boundary_scope": "visible_body_excluding_external_leads_and_solder",
+      "boundary_uncertainty_pixels": 6,
+      "review_status": "visually_reviewed_body_polygon",
+      "source_review_instance_id": "bench-esp8266-01:flash_button_body",
+      "parent_board_instance_id": "bench-esp8266-01",
+      "pin_mapping_status": "not_asserted",
+      "installed_order_code_confirmed": false
+    },
+    {
+      "instance_id": "video_20261010_122211_n000523_pts00017497ms.jpg:resistor_103_above_regulator",
+      "class_name": "resistor",
+      "exact_part_name": null,
+      "observed_marking": "103",
+      "identity_status": "visible_body_and_marking_only; exact_ordering_code_unconfirmed",
+      "polygon_xy_pixels": [
+        [
+          391,
+          651
+        ],
+        [
+          496,
+          653
+        ],
+        [
+          494,
+          684
+        ],
+        [
+          390,
+          684
+        ]
+      ],
+      "boundary_scope": "visible_body_excluding_external_leads_and_solder",
+      "boundary_uncertainty_pixels": 6,
+      "review_status": "visually_reviewed_body_polygon",
+      "source_review_instance_id": "bench-esp8266-01:resistor_103_above_regulator",
+      "parent_board_instance_id": "bench-esp8266-01",
+      "pin_mapping_status": "not_asserted",
+      "installed_order_code_confirmed": false
+    },
+    {
+      "instance_id": "video_20261010_122211_n000523_pts00017497ms.jpg:resistor_above_transistor",
+      "class_name": "resistor",
+      "exact_part_name": null,
+      "observed_marking": "?21",
+      "identity_status": "visible_body_and_marking_only; exact_ordering_code_unconfirmed",
+      "polygon_xy_pixels": [
+        [
+          436,
+          1026
+        ],
+        [
+          541,
+          1026
+        ],
+        [
+          541,
+          1060
+        ],
+        [
+          437,
+          1060
+        ]
+      ],
+      "boundary_scope": "visible_body_excluding_external_leads_and_solder",
+      "boundary_uncertainty_pixels": 6,
+      "review_status": "visually_reviewed_body_polygon",
+      "marking_status": "first_character_ambiguous",
+      "source_review_instance_id": "bench-esp8266-01:resistor_above_transistor",
+      "parent_board_instance_id": "bench-esp8266-01",
+      "pin_mapping_status": "not_asserted",
+      "installed_order_code_confirmed": false,
+      "observed_marking_family": "221"
+    },
+    {
+      "instance_id": "video_20261010_122211_n000523_pts00017497ms.jpg:resistor_103_between_transistors",
+      "class_name": "resistor",
+      "exact_part_name": null,
+      "observed_marking": "103",
+      "identity_status": "visible_body_and_marking_only; exact_ordering_code_unconfirmed",
+      "polygon_xy_pixels": [
+        [
+          580,
+          1154
+        ],
+        [
+          687,
+          1157
+        ],
+        [
+          686,
+          1195
+        ],
+        [
+          579,
+          1194
+        ]
+      ],
+      "boundary_scope": "visible_body_excluding_external_leads_and_solder",
+      "boundary_uncertainty_pixels": 6,
+      "review_status": "visually_reviewed_body_polygon",
+      "source_review_instance_id": "bench-esp8266-01:resistor_103_between_transistors",
+      "parent_board_instance_id": "bench-esp8266-01",
+      "pin_mapping_status": "not_asserted",
+      "installed_order_code_confirmed": false
+    },
+    {
+      "instance_id": "video_20261010_122211_n000523_pts00017497ms.jpg:three_lead_body_upper",
+      "class_name": "three_terminal_package",
+      "exact_part_name": null,
+      "observed_marking": null,
+      "identity_status": "visible_body_and_marking_only; exact_ordering_code_unconfirmed",
+      "polygon_xy_pixels": [
+        [
+          586,
+          1039
+        ],
+        [
+          683,
+          1042
+        ],
+        [
+          682,
+          1082
+        ],
+        [
+          585,
+          1080
+        ]
+      ],
+      "boundary_scope": "visible_body_excluding_external_leads_and_solder",
+      "boundary_uncertainty_pixels": 6,
+      "review_status": "visually_reviewed_body_polygon",
+      "source_review_instance_id": "bench-esp8266-01:three_lead_body_upper",
+      "parent_board_instance_id": "bench-esp8266-01",
+      "pin_mapping_status": "not_asserted",
+      "installed_order_code_confirmed": false
+    },
+    {
+      "instance_id": "video_20261010_122211_n000523_pts00017497ms.jpg:three_lead_body_lower",
+      "class_name": "three_terminal_package",
+      "exact_part_name": null,
+      "observed_marking": null,
+      "identity_status": "visible_body_and_marking_only; exact_ordering_code_unconfirmed",
+      "polygon_xy_pixels": [
+        [
+          585,
+          1290
+        ],
+        [
+          683,
+          1293
+        ],
+        [
+          682,
+          1324
+        ],
+        [
+          584,
+          1322
+        ]
+      ],
+      "boundary_scope": "visible_body_excluding_external_leads_and_solder",
+      "boundary_uncertainty_pixels": 6,
+      "review_status": "visually_reviewed_body_polygon",
+      "source_review_instance_id": "bench-esp8266-01:three_lead_body_lower",
+      "parent_board_instance_id": "bench-esp8266-01",
+      "pin_mapping_status": "not_asserted",
+      "installed_order_code_confirmed": false
+    },
+    {
+      "instance_id": "video_20261010_122211_n000523_pts00017497ms.jpg:capacitor_marked_106",
+      "class_name": "capacitor",
+      "exact_part_name": null,
+      "observed_marking": "106",
+      "identity_status": "visible_body_and_marking_only; exact_ordering_code_unconfirmed",
+      "polygon_xy_pixels": [
+        [
+          242,
+          795
+        ],
+        [
+          332,
+          796
+        ],
+        [
+          327,
+          919
+        ],
+        [
+          239,
+          917
+        ]
+      ],
+      "boundary_scope": "visible_body_excluding_external_leads_and_solder",
+      "boundary_uncertainty_pixels": 6,
+      "review_status": "visually_reviewed_body_polygon",
+      "source_review_instance_id": "bench-esp8266-01:capacitor_marked_106",
+      "parent_board_instance_id": "bench-esp8266-01",
+      "pin_mapping_status": "not_asserted",
+      "installed_order_code_confirmed": false
+    },
+    {
+      "instance_id": "video_20261010_122211_n000523_pts00017497ms.jpg:capacitor_marked_10_16V",
+      "class_name": "capacitor",
+      "exact_part_name": null,
+      "observed_marking": "10 16V",
+      "identity_status": "visible_body_and_marking_only; exact_ordering_code_unconfirmed",
+      "polygon_xy_pixels": [
+        [
+          111,
+          776
+        ],
+        [
+          204,
+          776
+        ],
+        [
+          206,
+          883
+        ],
+        [
+          109,
+          884
+        ]
+      ],
+      "boundary_scope": "visible_body_excluding_external_leads_and_solder",
+      "boundary_uncertainty_pixels": 6,
+      "review_status": "visually_reviewed_body_polygon",
+      "source_review_instance_id": "bench-esp8266-01:capacitor_marked_10_16V",
+      "parent_board_instance_id": "bench-esp8266-01",
+      "pin_mapping_status": "not_asserted",
+      "installed_order_code_confirmed": false
+    },
+    {
+      "instance_id": "video_20261010_122211_n000523_pts00017497ms.jpg:passive_left_below_module",
+      "class_name": "capacitor",
+      "exact_part_name": null,
+      "observed_marking": null,
+      "identity_status": "visible_body_and_marking_only; exact_ordering_code_unconfirmed",
+      "polygon_xy_pixels": [
+        [
+          134,
+          640
+        ],
+        [
+          173,
+          641
+        ],
+        [
+          171,
+          686
+        ],
+        [
+          133,
+          686
+        ]
+      ],
+      "boundary_scope": "visible_body_excluding_external_leads_and_solder",
+      "boundary_uncertainty_pixels": 6,
+      "review_status": "visually_reviewed_body_polygon",
+      "source_review_instance_id": "bench-esp8266-01:passive_left_below_module",
+      "parent_board_instance_id": "bench-esp8266-01",
+      "pin_mapping_status": "not_asserted",
+      "installed_order_code_confirmed": false
+    },
+    {
+      "instance_id": "video_20261010_122211_n000523_pts00017497ms.jpg:passive_right_below_module",
+      "class_name": "capacitor",
+      "exact_part_name": null,
+      "observed_marking": null,
+      "identity_status": "visible_body_and_marking_only; exact_ordering_code_unconfirmed",
+      "polygon_xy_pixels": [
+        [
+          247,
+          641
+        ],
+        [
+          289,
+          641
+        ],
+        [
+          285,
+          691
+        ],
+        [
+          245,
+          690
+        ]
+      ],
+      "boundary_scope": "visible_body_excluding_external_leads_and_solder",
+      "boundary_uncertainty_pixels": 6,
+      "review_status": "visually_reviewed_body_polygon",
+      "source_review_instance_id": "bench-esp8266-01:passive_right_below_module",
+      "parent_board_instance_id": "bench-esp8266-01",
+      "pin_mapping_status": "not_asserted",
+      "installed_order_code_confirmed": false
+    },
+    {
+      "instance_id": "video_20261010_122211_n000523_pts00017497ms.jpg:passive_above_regulator_right",
+      "class_name": "capacitor",
+      "exact_part_name": null,
+      "observed_marking": null,
+      "identity_status": "visible_body_and_marking_only; exact_ordering_code_unconfirmed",
+      "polygon_xy_pixels": [
+        [
+          597,
+          650
+        ],
+        [
+          641,
+          652
+        ],
+        [
+          638,
+          672
+        ],
+        [
+          595,
+          671
+        ]
+      ],
+      "boundary_scope": "visible_body_excluding_external_leads_and_solder",
+      "boundary_uncertainty_pixels": 6,
+      "review_status": "visually_reviewed_body_polygon",
+      "source_review_instance_id": "bench-esp8266-01:passive_above_regulator_right",
+      "parent_board_instance_id": "bench-esp8266-01",
+      "pin_mapping_status": "not_asserted",
+      "installed_order_code_confirmed": false
+    },
+    {
+      "instance_id": "video_20261010_122211_n000523_pts00017497ms.jpg:passive_below_controller_upper",
+      "class_name": "capacitor",
+      "exact_part_name": null,
+      "observed_marking": null,
+      "identity_status": "visible_body_and_marking_only; exact_ordering_code_unconfirmed",
+      "polygon_xy_pixels": [
+        [
+          510,
+          1417
+        ],
+        [
+          560,
+          1416
+        ],
+        [
+          560,
+          1439
+        ],
+        [
+          510,
+          1440
+        ]
+      ],
+      "boundary_scope": "visible_body_excluding_external_leads_and_solder",
+      "boundary_uncertainty_pixels": 6,
+      "review_status": "visually_reviewed_body_polygon",
+      "source_review_instance_id": "bench-esp8266-01:passive_below_controller_upper",
+      "parent_board_instance_id": "bench-esp8266-01",
+      "pin_mapping_status": "not_asserted",
+      "installed_order_code_confirmed": false
+    },
+    {
+      "instance_id": "video_20261010_122211_n000523_pts00017497ms.jpg:passive_below_controller_lower",
+      "class_name": "capacitor",
+      "exact_part_name": null,
+      "observed_marking": null,
+      "identity_status": "visible_body_and_marking_only; exact_ordering_code_unconfirmed",
+      "polygon_xy_pixels": [
+        [
+          510,
+          1492
+        ],
+        [
+          559,
+          1492
+        ],
+        [
+          559,
+          1515
+        ],
+        [
+          510,
+          1515
+        ]
+      ],
+      "boundary_scope": "visible_body_excluding_external_leads_and_solder",
+      "boundary_uncertainty_pixels": 6,
+      "review_status": "visually_reviewed_body_polygon",
+      "source_review_instance_id": "bench-esp8266-01:passive_below_controller_lower",
+      "parent_board_instance_id": "bench-esp8266-01",
+      "pin_mapping_status": "not_asserted",
+      "installed_order_code_confirmed": false
+    },
+    {
+      "instance_id": "video_20261010_122211_n000000_pts00000000ms.jpg:resistor_upper_224",
+      "parent_board_instance_id": "bench-esp8266-01",
+      "physical_specimen_id": "bench-esp8266-01",
+      "capture_session_id": "bench-esp8266-01:20261010_122211",
+      "image_path": "data/video-captures/2026-10-10/esp12e-keyframes/video_20261010_122211_n000000_pts00000000ms.jpg",
+      "image_sha256": "295d85e1a461fc4983095af9ef80819a3a5c6e2c3453c99777b8ce3f7d31c9e1",
+      "image_width": 1080,
+      "image_height": 1920,
+      "class_name": "resistor",
+      "exact_part_name": null,
+      "observed_marking_family": "224",
+      "identity_status": "literal_marking_only",
+      "polygon_xy_pixels": [
+        [
+          460,
+          271
+        ],
+        [
+          535,
+          278
+        ],
+        [
+          533,
+          327
+        ],
+        [
+          457,
+          320
+        ]
+      ],
+      "boundary_scope": "Visible black resistor package body excluding metal terminations and solder",
+      "boundary_uncertainty_pixels": 5,
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Saved original video start frame examined at original resolution. Printed strings 224 and 104 are legible; resistor electrical values or order codes not inferred.",
+      "corresponding_instance_id": "IMG_20261010_092221.jpg:upper_left_resistor_a",
+      "pin_mapping_status": "not_asserted",
+      "installed_order_code_confirmed": false
+    },
+    {
+      "instance_id": "video_20261010_122211_n000000_pts00000000ms.jpg:resistor_upper_104",
+      "parent_board_instance_id": "bench-esp8266-01",
+      "physical_specimen_id": "bench-esp8266-01",
+      "capture_session_id": "bench-esp8266-01:20261010_122211",
+      "image_path": "data/video-captures/2026-10-10/esp12e-keyframes/video_20261010_122211_n000000_pts00000000ms.jpg",
+      "image_sha256": "295d85e1a461fc4983095af9ef80819a3a5c6e2c3453c99777b8ce3f7d31c9e1",
+      "image_width": 1080,
+      "image_height": 1920,
+      "class_name": "resistor",
+      "exact_part_name": null,
+      "observed_marking_family": "104",
+      "identity_status": "literal_marking_only",
+      "polygon_xy_pixels": [
+        [
+          455,
+          407
+        ],
+        [
+          532,
+          411
+        ],
+        [
+          529,
+          465
+        ],
+        [
+          453,
+          459
+        ]
+      ],
+      "boundary_scope": "Visible black resistor package body excluding metal terminations and solder",
+      "boundary_uncertainty_pixels": 5,
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Saved original video start frame examined at original resolution. Printed strings 224 and 104 are legible; resistor electrical values or order codes not inferred.",
+      "corresponding_instance_id": "IMG_20261010_092221.jpg:upper_left_resistor_b",
+      "pin_mapping_status": "not_asserted",
+      "installed_order_code_confirmed": false
+    }
+  ]
+}

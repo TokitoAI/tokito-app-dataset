@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "status": "external_three_class_candidate_box_experiment",
+  "scope": "PCB-Vision IC, capacitor and connector connected-mask-region boxes only",
+  "not_a_tokito_board_part_model": true,
+  "training_source_manifest": "data/external/PCBVision/box-candidate-manifest.json",
+  "training_source_manifest_sha256": "958ae3dcbabb2828ab1767f0591a60bf99d1607dca7fa3f3b5448e32b508cc35",
+  "split": {
+    "train": 33,
+    "val": 9,
+    "test": 11
+  },
+  "split_seed": 42,
+  "class_names": [
+    "ic",
+    "capacitor",
+    "connector"
+  ],
+  "candidate_box_counts": {
+    "capacitor": 442,
+    "connector": 694,
+    "ic": 1248
+  },
+  "checkpoint_start": "yolo11n.pt",
+  "epochs_requested": 20,
+  "epochs_completed": 20,
+  "image_size": 512,
+  "batch": 4,
+  "device": "cpu",
+  "ultralytics_version": "8.4.174",
+  "torch_version": "2.14.1+cpu",
+  "validation_candidate_metrics": {
+    "precision_mean": 0.5870735228705084,
+    "recall_mean": 0.17860604458542603,
+    "map50": 0.17614096552291,
+    "map50_95": 0.0681088676331246,
+    "map50_95_by_class": {
+      "ic": 0.18620905195224252,
+      "capacitor": 0.01806482471247529,
+      "connector": 5.272623465600913e-05
+    }
+  },
+  "test_candidate_metrics": {
+    "precision_mean": 0.28349609570021755,
+    "recall_mean": 0.14010329822278256,
+    "map50": 0.13564534479597426,
+    "map50_95": 0.04186682690206958,
+    "map50_95_by_class": {
+      "ic": 0.08239760181083766,
+      "capacitor": 0.04320287889537108,
+      "connector": 0.0
+    }
+  },
+  "checkpoint_path": "data/external/PCBVision/component-yolo-experiment/best.pt",
+  "checkpoint_sha256": "978fdc223a56467e20592d3abc494081e0ee56af56f31eb11375699bc0c16bbc",
+  "checkpoint_bytes": 5450906,
+  "limits": [
+    "Connected semantic regions are automatic box candidates, not exhaustively reviewed instances.",
+    "The three external classes do not cover every visible PCB component.",
+    "Metrics compare predictions with candidate boxes on distinct external PCB images.",
+    "This checkpoint does not identify Tokito board family, refdes, net, pin, BOM or Gerber records."
+  ],
+  "litert_export": {
+    "path": "data/external/PCBVision/component-yolo-experiment/best.tflite",
+    "sha256": "c9fbf0cd683c9a9f89f902966b02d224236f9345e7410b0dc43c9f0c1495d8e3",
+    "bytes": 10593078,
+    "exporter": "litert-torch 0.9.4",
+    "ai_edge_litert_version": "2.2.0",
+    "input_shape": [
+      1,
+      3,
+      512,
+      512
+    ],
+    "output_shape": [
+      1,
+      7,
+      5376
+    ],
+    "dtype": "float32",
+    "coordinates_normalized": true,
+    "host_zero_input_all_finite": true,
+    "smoke_image_sha256": "89db1628a4f1fc3995100b8d926f30cf7d816fd298f5150a9cfdc1d4ed413719",
+    "smoke_detection_count": 17
+  },
+  "artifact_license": "agpl-3.0-only",
+  "redistribution_status": "private_evaluation_only_pending_legal_review"
+}
