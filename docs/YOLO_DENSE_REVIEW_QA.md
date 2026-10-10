@@ -16,6 +16,8 @@ Twenty-six instance keys repeat between dense and older central/legacy files. Al
 
 Unreviewed board pixels remain unknown, not background. All dense datasets remain ineligible for a complete standard whole-frame component export. An ignore-aware diagnostic may learn reviewed positive bodies and explicitly reviewed empty outside-board negatives, with the rest ignored. It must not claim full-scene precision/recall from partial ground truth.
 
+The current board-family YOLO export contains one reviewed board box per photo. Its training and validation images do not establish multi-board-in-one-frame behavior. The detector can emit multiple boxes in principle, but reliable simultaneous recognition requires scenes with several boards and a reviewed box for each board, including multi-board holdout scenes.
+
 The dated NXP captures provide separate capture sessions of the likely same specimen. Other near-identical photo bursts and video frames must remain in their capture groups. Ultimaker has one documented dense-review photo with no explicit capture-group field: all crops/segments from it belong to one group and cannot form independent train/validation evidence.
 
 Exact part order codes remain unresolved in many photos. Readable MCXN236V, CP2102 or Winbond family text does not confirm an ordering suffix. Source CAD/BOM mapping does not confirm the photographed revision/population. No AR calibration or 3D alignment was certified by this QA.
