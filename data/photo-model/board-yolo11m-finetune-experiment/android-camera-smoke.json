@@ -45,5 +45,33 @@
     ],
     "source": "device-local files/component-camera-smoke.json",
     "scope_note": "One live frame on a known photographed specimen. Smoke evidence only; it does not validate unseen specimens, accuracy or stable throughput. Part labels remain generic."
-  }
+  },
+  "repeat_observations": [
+    {
+      "captured_wall_time_ms": 1791603557202,
+      "inference_ms": 1079.33224,
+      "visible_ground_truth": "Ultimaker Ultimainboard 2.1.4",
+      "board_detection_count": 0,
+      "generic_component_count": 1,
+      "result": "board_missed"
+    },
+    {
+      "captured_wall_time_ms": 1791603648860,
+      "inference_ms": 1083.799843,
+      "visible_ground_truth": "Ultimaker Ultimainboard 2.1.4",
+      "board_detection_count": 0,
+      "generic_component_count": 4,
+      "result": "board_missed_with_unassigned_component_false_positives"
+    },
+    {
+      "captured_wall_time_ms": 1791603794750,
+      "inference_ms": 1077.800521,
+      "visible_ground_truth": "Ultimaker Ultimainboard 2.1.4",
+      "board_detection_count": 1,
+      "prediction": "ESP8266 NodeMCU-style ESP-12E clone (variant unknown)",
+      "confidence": 0.94049114,
+      "result": "wrong_board_family"
+    }
+  ],
+  "conclusion": "The first observed frame was correct, but repeated live frames missed the board twice and produced one high-confidence wrong-family prediction. Camera smoke is functionally useful but visibly unreliable and is not an accuracy validation."
 }

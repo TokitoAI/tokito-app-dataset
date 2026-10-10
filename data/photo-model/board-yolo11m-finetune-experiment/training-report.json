@@ -138,8 +138,8 @@
     "conformance": "passed; normalized box coordinates and class scores agree with PyTorch within 0.001, and post-NMS classes match",
     "android_camera_smoke_report": "android-camera-smoke.json",
     "android_device": "iQOO I2501, Android 16",
-    "android_inference_ms_single_observation": 1065.15,
-    "android_board_result": "Ultimaker Ultimainboard 2.1.4 at confidence 0.7786",
+    "android_inference_ms_observed_range": [1065.15, 1083.8],
+    "android_board_result": "One correct Ultimainboard result at 0.7786 confidence; repeated live frames missed the board twice and once predicted ESP8266 at 0.9405 for the visible Ultimainboard",
     "android_component_result": "2 generic ic detections; exact part identity is not produced",
     "evaluation_valid": false,
     "fine_tuned_export_contains_this_finetune": true
