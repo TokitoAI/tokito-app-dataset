@@ -45,17 +45,18 @@ else:
  assert b'AC1009' in dxf_bytes[:128], 'Expected the official ASCII DXF AC1009 header'
 assert dxf_digest==dxf_meta['sha256'] and dxf_meta['bytes']==1435223
 model_dir=p/'board-yolo11m-finetune-experiment'
-model_report=json.loads((model_dir/'training-report.json').read_text(encoding='utf-8'))
-for filename,record in model_report['artifacts'].items():
- artifact=(model_dir/filename).read_bytes()
- if artifact.startswith(b'version https://git-lfs.github.com/spec/v1'):
-  artifact_lines=artifact.decode().splitlines()
-  artifact_digest=next(line.split(':',1)[1] for line in artifact_lines if line.startswith('oid sha256:'))
-  artifact_lfs_size=int(next(line.split(' ',1)[1] for line in artifact_lines if line.startswith('size ')))
-  assert artifact_lfs_size==record['bytes'],filename
- else:artifact_digest=hashlib.sha256(artifact).hexdigest()
- assert artifact_digest==record['sha256'],filename
- assert len(artifact)==record['bytes'] or artifact.startswith(b'version https://git-lfs.github.com/spec/v1'),filename
+if model_dir.is_dir():
+ model_report=json.loads((model_dir/'training-report.json').read_text(encoding='utf-8'))
+ for filename,record in model_report['artifacts'].items():
+  artifact=(model_dir/filename).read_bytes()
+  if artifact.startswith(b'version https://git-lfs.github.com/spec/v1'):
+   artifact_lines=artifact.decode().splitlines()
+   artifact_digest=next(line.split(':',1)[1] for line in artifact_lines if line.startswith('oid sha256:'))
+   artifact_lfs_size=int(next(line.split(' ',1)[1] for line in artifact_lines if line.startswith('size ')))
+   assert artifact_lfs_size==record['bytes'],filename
+  else:artifact_digest=hashlib.sha256(artifact).hexdigest()
+  assert artifact_digest==record['sha256'],filename
+  assert len(artifact)==record['bytes'] or artifact.startswith(b'version https://git-lfs.github.com/spec/v1'),filename
 phone_folder=root/'data/phone-captures/2026-10-10'
 if phone_folder.is_dir():
  phone_manifest=json.loads((phone_folder/'manifest.json').read_text())
@@ -104,5 +105,6 @@ if phone_folder.is_dir():
     assert len(template['pose_corners_normalized'])==4
     assert all(x1<=x<=x2 and y1<=y<=y2 for x,y in template['pose_corners_normalized'])
   assert len(label_ids)==63 and pin_count==60
-print('Validated80 source hashes/board boxes, YOLO labels,62/11/7 split, no original/crop leakage, Pi mechanical DXF provenance, and fine-tune artifact hashes.')
-print('Validated 33 intake hashes and five partial scan references with 60 literal contact aliases and three marking families.')
+print('Validated80 source hashes/board boxes, YOLO labels,62/11/7 split, no original/crop leakage and Pi mechanical DXF provenance.' + (' Fine-tune artifact hashes also checked.' if model_dir.is_dir() else ' Diagnostic model artifacts are outside this capture-only checkout.'))
+if phone_folder.is_dir():
+ print('Validated 33 intake hashes.' + (' Five partial scan references with 60 literal contact aliases and three marking families also checked.' if (phone_folder/'reviewed-scan-references.json').is_file() else ' Scan-reference additions are outside this capture-only checkout.'))
