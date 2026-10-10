@@ -1,0 +1,3697 @@
+{
+  "schema_version": "1.0",
+  "board_family": "ultimainboard_2_1_4",
+  "coordinate_frame": "original_stored_image_pixels",
+  "coverage": "partial_visible_instances",
+  "training_export_eligible": false,
+  "release_eligible": false,
+  "photo": {
+    "path": "data/photo-model/by_board/ultimainboard/IMG_20261009_222135_1.jpg",
+    "sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+    "width": 1408,
+    "height": 3112,
+    "revision_evidence": "Printed Ultimainboard rev. 2.1.4 is readable."
+  },
+  "source_candidate": {
+    "components_path": "data/board-sources/ultimainboard-2.1.4/structured-source/components.json",
+    "components_sha256": "1660e93265bb9c9b897df7567bbbcae78e6abcae69bdacaac21c11bc83fb7625",
+    "mapping_policy": "Readable reference designators joined to source; installed order code remains unconfirmed; source identity cannot override observed markings."
+  },
+  "instances": [
+    {
+      "instance_id": "IMG_20261009_222135_1.jpg:U13",
+      "class_name": "integrated_circuit",
+      "board_family": "ultimainboard_2_1_4",
+      "parent_board_instance": "ultimainboard_2_1_4:photographed_specimen",
+      "observed_reference_designator": "U13",
+      "observed_marking": null,
+      "source_part_candidate": "RO IC A4988 QFN-28 ALLEGRO",
+      "source_package_candidate": "QFN50P500X500X100-28-EX",
+      "source_mapping_status": "source_candidate_by_readable_refdes_only",
+      "installed_order_code_confirmed": false,
+      "physical_population_confirmed": false,
+      "polygon_xy_pixels": [
+        [
+          459,
+          347
+        ],
+        [
+          550,
+          347
+        ],
+        [
+          550,
+          438
+        ],
+        [
+          459,
+          438
+        ]
+      ],
+      "boundary_scope": "visible_physical_body_excluding_leads_solder_and_silkscreen",
+      "boundary_uncertainty_pixels": 3,
+      "review_status": "visually_reviewed_original_pixel_body",
+      "clipped_at_image_edge": false,
+      "training_export_eligible": false,
+      "pin_identity_status": "not_assigned_without_visual_orientation_review",
+      "review_evidence": "Manually inspected original image with 100-pixel grid and magnified package crops; body polygon excludes nearby solder/silkscreen. Identity is observed refdes plus explicitly unconfirmed source candidate."
+    },
+    {
+      "instance_id": "IMG_20261009_222135_1.jpg:U12",
+      "class_name": "integrated_circuit",
+      "board_family": "ultimainboard_2_1_4",
+      "parent_board_instance": "ultimainboard_2_1_4:photographed_specimen",
+      "observed_reference_designator": "U12",
+      "observed_marking": null,
+      "source_part_candidate": "RO IC A4988 QFN-28 ALLEGRO",
+      "source_package_candidate": "QFN50P500X500X100-28-EX",
+      "source_mapping_status": "source_candidate_by_readable_refdes_only",
+      "installed_order_code_confirmed": false,
+      "physical_population_confirmed": false,
+      "polygon_xy_pixels": [
+        [
+          459,
+          709
+        ],
+        [
+          550,
+          709
+        ],
+        [
+          550,
+          797
+        ],
+        [
+          459,
+          797
+        ]
+      ],
+      "boundary_scope": "visible_physical_body_excluding_leads_solder_and_silkscreen",
+      "boundary_uncertainty_pixels": 3,
+      "review_status": "visually_reviewed_original_pixel_body",
+      "clipped_at_image_edge": false,
+      "training_export_eligible": false,
+      "pin_identity_status": "not_assigned_without_visual_orientation_review",
+      "review_evidence": "Manually inspected original image with 100-pixel grid and magnified package crops; body polygon excludes nearby solder/silkscreen. Identity is observed refdes plus explicitly unconfirmed source candidate."
+    },
+    {
+      "instance_id": "IMG_20261009_222135_1.jpg:U11",
+      "class_name": "integrated_circuit",
+      "board_family": "ultimainboard_2_1_4",
+      "parent_board_instance": "ultimainboard_2_1_4:photographed_specimen",
+      "observed_reference_designator": "U11",
+      "observed_marking": null,
+      "source_part_candidate": "RO IC A4988 QFN-28 ALLEGRO",
+      "source_package_candidate": "QFN50P500X500X100-28-EX",
+      "source_mapping_status": "source_candidate_by_readable_refdes_only",
+      "installed_order_code_confirmed": false,
+      "physical_population_confirmed": false,
+      "polygon_xy_pixels": [
+        [
+          459,
+          1055
+        ],
+        [
+          550,
+          1055
+        ],
+        [
+          550,
+          1148
+        ],
+        [
+          459,
+          1148
+        ]
+      ],
+      "boundary_scope": "visible_physical_body_excluding_leads_solder_and_silkscreen",
+      "boundary_uncertainty_pixels": 3,
+      "review_status": "visually_reviewed_original_pixel_body",
+      "clipped_at_image_edge": false,
+      "training_export_eligible": false,
+      "pin_identity_status": "not_assigned_without_visual_orientation_review",
+      "review_evidence": "Manually inspected original image with 100-pixel grid and magnified package crops; body polygon excludes nearby solder/silkscreen. Identity is observed refdes plus explicitly unconfirmed source candidate."
+    },
+    {
+      "instance_id": "IMG_20261009_222135_1.jpg:U10",
+      "class_name": "integrated_circuit",
+      "board_family": "ultimainboard_2_1_4",
+      "parent_board_instance": "ultimainboard_2_1_4:photographed_specimen",
+      "observed_reference_designator": "U10",
+      "observed_marking": null,
+      "source_part_candidate": "RO IC A4988 QFN-28 ALLEGRO",
+      "source_package_candidate": "QFN50P500X500X100-28-EX",
+      "source_mapping_status": "source_candidate_by_readable_refdes_only",
+      "installed_order_code_confirmed": false,
+      "physical_population_confirmed": false,
+      "polygon_xy_pixels": [
+        [
+          460,
+          1428
+        ],
+        [
+          551,
+          1428
+        ],
+        [
+          551,
+          1513
+        ],
+        [
+          460,
+          1513
+        ]
+      ],
+      "boundary_scope": "visible_physical_body_excluding_leads_solder_and_silkscreen",
+      "boundary_uncertainty_pixels": 3,
+      "review_status": "visually_reviewed_original_pixel_body",
+      "clipped_at_image_edge": false,
+      "training_export_eligible": false,
+      "pin_identity_status": "not_assigned_without_visual_orientation_review",
+      "review_evidence": "Manually inspected original image with 100-pixel grid and magnified package crops; body polygon excludes nearby solder/silkscreen. Identity is observed refdes plus explicitly unconfirmed source candidate."
+    },
+    {
+      "instance_id": "IMG_20261009_222135_1.jpg:U8",
+      "class_name": "integrated_circuit",
+      "board_family": "ultimainboard_2_1_4",
+      "parent_board_instance": "ultimainboard_2_1_4:photographed_specimen",
+      "observed_reference_designator": "U8",
+      "observed_marking": null,
+      "source_part_candidate": "RO IC A4988 QFN-28 ALLEGRO",
+      "source_package_candidate": "QFN50P500X500X100-28-EX",
+      "source_mapping_status": "source_candidate_by_readable_refdes_only",
+      "installed_order_code_confirmed": false,
+      "physical_population_confirmed": false,
+      "polygon_xy_pixels": [
+        [
+          459,
+          1776
+        ],
+        [
+          550,
+          1776
+        ],
+        [
+          550,
+          1866
+        ],
+        [
+          459,
+          1866
+        ]
+      ],
+      "boundary_scope": "visible_physical_body_excluding_leads_solder_and_silkscreen",
+      "boundary_uncertainty_pixels": 3,
+      "review_status": "visually_reviewed_original_pixel_body",
+      "clipped_at_image_edge": false,
+      "training_export_eligible": false,
+      "pin_identity_status": "not_assigned_without_visual_orientation_review",
+      "review_evidence": "Manually inspected original image with 100-pixel grid and magnified package crops; body polygon excludes nearby solder/silkscreen. Identity is observed refdes plus explicitly unconfirmed source candidate."
+    },
+    {
+      "instance_id": "IMG_20261009_222135_1.jpg:U1",
+      "class_name": "integrated_circuit",
+      "board_family": "ultimainboard_2_1_4",
+      "parent_board_instance": "ultimainboard_2_1_4:photographed_specimen",
+      "observed_reference_designator": "U1",
+      "observed_marking": null,
+      "source_part_candidate": "RO IC ATMEGA2560-16AU TQFP-100 ATMEL",
+      "source_package_candidate": "TSQFP50P1600X1600X120-100N",
+      "source_mapping_status": "source_candidate_by_readable_refdes_only",
+      "installed_order_code_confirmed": false,
+      "physical_population_confirmed": false,
+      "polygon_xy_pixels": [
+        [
+          813,
+          449
+        ],
+        [
+          1067,
+          449
+        ],
+        [
+          1067,
+          696
+        ],
+        [
+          813,
+          696
+        ]
+      ],
+      "boundary_scope": "visible_physical_body_excluding_leads_solder_and_silkscreen",
+      "boundary_uncertainty_pixels": 3,
+      "review_status": "visually_reviewed_original_pixel_body",
+      "clipped_at_image_edge": false,
+      "training_export_eligible": false,
+      "pin_identity_status": "not_assigned_without_visual_orientation_review",
+      "review_evidence": "Manually inspected original image with 100-pixel grid and magnified package crops; body polygon excludes nearby solder/silkscreen. Identity is observed refdes plus explicitly unconfirmed source candidate."
+    },
+    {
+      "instance_id": "IMG_20261009_222135_1.jpg:U2",
+      "class_name": "integrated_circuit",
+      "board_family": "ultimainboard_2_1_4",
+      "parent_board_instance": "ultimainboard_2_1_4:photographed_specimen",
+      "observed_reference_designator": "U2",
+      "observed_marking": null,
+      "source_part_candidate": "RO IC ATMEGA16U2-MU QFN-32 ATMEL",
+      "source_package_candidate": "QFN50P500X500X100-32-EX",
+      "source_mapping_status": "source_candidate_by_readable_refdes_only",
+      "installed_order_code_confirmed": false,
+      "physical_population_confirmed": false,
+      "polygon_xy_pixels": [
+        [
+          708,
+          2584
+        ],
+        [
+          800,
+          2584
+        ],
+        [
+          800,
+          2669
+        ],
+        [
+          708,
+          2669
+        ]
+      ],
+      "boundary_scope": "visible_physical_body_excluding_leads_solder_and_silkscreen",
+      "boundary_uncertainty_pixels": 3,
+      "review_status": "visually_reviewed_original_pixel_body",
+      "clipped_at_image_edge": false,
+      "training_export_eligible": false,
+      "pin_identity_status": "not_assigned_without_visual_orientation_review",
+      "review_evidence": "Manually inspected original image with 100-pixel grid and magnified package crops; body polygon excludes nearby solder/silkscreen. Identity is observed refdes plus explicitly unconfirmed source candidate."
+    },
+    {
+      "instance_id": "IMG_20261009_222135_1.jpg:U3",
+      "class_name": "integrated_circuit",
+      "board_family": "ultimainboard_2_1_4",
+      "parent_board_instance": "ultimainboard_2_1_4:photographed_specimen",
+      "observed_reference_designator": "U3",
+      "observed_marking": null,
+      "source_part_candidate": "RO IC INA826AIDGKR MSOP-8 TI",
+      "source_package_candidate": "TSOP65P490X110-8N (MSOP8)",
+      "source_mapping_status": "source_candidate_by_readable_refdes_only",
+      "installed_order_code_confirmed": false,
+      "physical_population_confirmed": false,
+      "polygon_xy_pixels": [
+        [
+          946,
+          1426
+        ],
+        [
+          997,
+          1426
+        ],
+        [
+          997,
+          1472
+        ],
+        [
+          946,
+          1472
+        ]
+      ],
+      "boundary_scope": "visible_physical_body_excluding_leads_solder_and_silkscreen",
+      "boundary_uncertainty_pixels": 3,
+      "review_status": "visually_reviewed_original_pixel_body",
+      "clipped_at_image_edge": false,
+      "training_export_eligible": false,
+      "pin_identity_status": "not_assigned_without_visual_orientation_review",
+      "review_evidence": "Manually inspected original image with 100-pixel grid and magnified package crops; body polygon excludes nearby solder/silkscreen. Identity is observed refdes plus explicitly unconfirmed source candidate."
+    },
+    {
+      "instance_id": "IMG_20261009_222135_1.jpg:U4",
+      "class_name": "integrated_circuit",
+      "board_family": "ultimainboard_2_1_4",
+      "parent_board_instance": "ultimainboard_2_1_4:photographed_specimen",
+      "observed_reference_designator": "U4",
+      "observed_marking": null,
+      "source_part_candidate": "RO IC INA826AIDGKR MSOP-8 TI",
+      "source_package_candidate": "TSOP65P490X110-8N (MSOP8)",
+      "source_mapping_status": "source_candidate_by_readable_refdes_only",
+      "installed_order_code_confirmed": false,
+      "physical_population_confirmed": false,
+      "polygon_xy_pixels": [
+        [
+          947,
+          1257
+        ],
+        [
+          997,
+          1257
+        ],
+        [
+          997,
+          1304
+        ],
+        [
+          947,
+          1304
+        ]
+      ],
+      "boundary_scope": "visible_physical_body_excluding_leads_solder_and_silkscreen",
+      "boundary_uncertainty_pixels": 3,
+      "review_status": "visually_reviewed_original_pixel_body",
+      "clipped_at_image_edge": false,
+      "training_export_eligible": false,
+      "pin_identity_status": "not_assigned_without_visual_orientation_review",
+      "review_evidence": "Manually inspected original image with 100-pixel grid and magnified package crops; body polygon excludes nearby solder/silkscreen. Identity is observed refdes plus explicitly unconfirmed source candidate."
+    },
+    {
+      "instance_id": "IMG_20261009_222135_1.jpg:U5",
+      "class_name": "integrated_circuit",
+      "board_family": "ultimainboard_2_1_4",
+      "parent_board_instance": "ultimainboard_2_1_4:photographed_specimen",
+      "observed_reference_designator": "U5",
+      "observed_marking": null,
+      "source_part_candidate": "RO IC INA826AIDGKR MSOP-8 TI",
+      "source_package_candidate": "TSOP65P490X110-8N (MSOP8)",
+      "source_mapping_status": "source_candidate_by_readable_refdes_only",
+      "installed_order_code_confirmed": false,
+      "physical_population_confirmed": false,
+      "polygon_xy_pixels": [
+        [
+          947,
+          1099
+        ],
+        [
+          997,
+          1099
+        ],
+        [
+          997,
+          1147
+        ],
+        [
+          947,
+          1147
+        ]
+      ],
+      "boundary_scope": "visible_physical_body_excluding_leads_solder_and_silkscreen",
+      "boundary_uncertainty_pixels": 3,
+      "review_status": "visually_reviewed_original_pixel_body",
+      "clipped_at_image_edge": false,
+      "training_export_eligible": false,
+      "pin_identity_status": "not_assigned_without_visual_orientation_review",
+      "review_evidence": "Manually inspected original image with 100-pixel grid and magnified package crops; body polygon excludes nearby solder/silkscreen. Identity is observed refdes plus explicitly unconfirmed source candidate."
+    },
+    {
+      "instance_id": "IMG_20261009_222135_1.jpg:U6",
+      "class_name": "integrated_circuit",
+      "board_family": "ultimainboard_2_1_4",
+      "parent_board_instance": "ultimainboard_2_1_4:photographed_specimen",
+      "observed_reference_designator": "U6",
+      "observed_marking": null,
+      "source_part_candidate": "RO IC A4403GEUTR-T QFN-16 ALLEGRO",
+      "source_package_candidate": "QFN65P400X400X80-16N-EX",
+      "source_mapping_status": "source_candidate_by_readable_refdes_only",
+      "installed_order_code_confirmed": false,
+      "physical_population_confirmed": false,
+      "polygon_xy_pixels": [
+        [
+          848,
+          2145
+        ],
+        [
+          918,
+          2145
+        ],
+        [
+          918,
+          2215
+        ],
+        [
+          848,
+          2215
+        ]
+      ],
+      "boundary_scope": "visible_physical_body_excluding_leads_solder_and_silkscreen",
+      "boundary_uncertainty_pixels": 3,
+      "review_status": "visually_reviewed_original_pixel_body",
+      "clipped_at_image_edge": false,
+      "training_export_eligible": false,
+      "pin_identity_status": "not_assigned_without_visual_orientation_review",
+      "review_evidence": "Manually inspected original image with 100-pixel grid and magnified package crops; body polygon excludes nearby solder/silkscreen. Identity is observed refdes plus explicitly unconfirmed source candidate."
+    },
+    {
+      "instance_id": "IMG_20261009_222135_1.jpg:U7",
+      "class_name": "integrated_circuit",
+      "board_family": "ultimainboard_2_1_4",
+      "parent_board_instance": "ultimainboard_2_1_4:photographed_specimen",
+      "observed_reference_designator": "U7",
+      "observed_marking": null,
+      "source_part_candidate": "RO IC NE555D SO-08 TI",
+      "source_package_candidate": "SOIC127P600X175-8N (SO8)",
+      "source_mapping_status": "source_candidate_by_readable_refdes_only",
+      "installed_order_code_confirmed": false,
+      "physical_population_confirmed": false,
+      "polygon_xy_pixels": [
+        [
+          1124,
+          2464
+        ],
+        [
+          1196,
+          2464
+        ],
+        [
+          1196,
+          2534
+        ],
+        [
+          1124,
+          2534
+        ]
+      ],
+      "boundary_scope": "visible_physical_body_excluding_leads_solder_and_silkscreen",
+      "boundary_uncertainty_pixels": 3,
+      "review_status": "visually_reviewed_original_pixel_body",
+      "clipped_at_image_edge": false,
+      "training_export_eligible": false,
+      "pin_identity_status": "not_assigned_without_visual_orientation_review",
+      "review_evidence": "Manually inspected original image with 100-pixel grid and magnified package crops; body polygon excludes nearby solder/silkscreen. Identity is observed refdes plus explicitly unconfirmed source candidate."
+    },
+    {
+      "instance_id": "IMG_20261009_222135_1.jpg:U9",
+      "class_name": "integrated_circuit",
+      "board_family": "ultimainboard_2_1_4",
+      "parent_board_instance": "ultimainboard_2_1_4:photographed_specimen",
+      "observed_reference_designator": "U9",
+      "observed_marking": null,
+      "source_part_candidate": "RO STABI LP2985A-33DBVTE4 SOT-23-5 TI",
+      "source_package_candidate": "SOT95P280X145-5N (SOT23-5L)",
+      "source_mapping_status": "source_candidate_by_readable_refdes_only",
+      "installed_order_code_confirmed": false,
+      "physical_population_confirmed": false,
+      "polygon_xy_pixels": [
+        [
+          1181,
+          31
+        ],
+        [
+          1210,
+          31
+        ],
+        [
+          1210,
+          85
+        ],
+        [
+          1181,
+          85
+        ]
+      ],
+      "boundary_scope": "visible_physical_body_excluding_leads_solder_and_silkscreen",
+      "boundary_uncertainty_pixels": 3,
+      "review_status": "visually_reviewed_original_pixel_body",
+      "clipped_at_image_edge": false,
+      "training_export_eligible": false,
+      "pin_identity_status": "not_assigned_without_visual_orientation_review",
+      "review_evidence": "Manually inspected original image with 100-pixel grid and magnified package crops; body polygon excludes nearby solder/silkscreen. Identity is observed refdes plus explicitly unconfirmed source candidate."
+    },
+    {
+      "instance_id": "IMG_20261009_222135_1.jpg:Q1",
+      "class_name": "transistor",
+      "board_family": "ultimainboard_2_1_4",
+      "parent_board_instance": "ultimainboard_2_1_4:photographed_specimen",
+      "observed_reference_designator": "Q1",
+      "observed_marking": null,
+      "source_part_candidate": "IRF8736PBF - MOSFET, N SO-8",
+      "source_package_candidate": "SOIC127P600X175-8N (SO8)",
+      "source_mapping_status": "source_candidate_by_readable_refdes_only",
+      "installed_order_code_confirmed": false,
+      "physical_population_confirmed": false,
+      "polygon_xy_pixels": [
+        [
+          385,
+          2062
+        ],
+        [
+          447,
+          2062
+        ],
+        [
+          447,
+          2139
+        ],
+        [
+          385,
+          2139
+        ]
+      ],
+      "boundary_scope": "visible_physical_body_excluding_leads_solder_and_silkscreen",
+      "boundary_uncertainty_pixels": 3,
+      "review_status": "visually_reviewed_original_pixel_body",
+      "clipped_at_image_edge": false,
+      "training_export_eligible": false,
+      "pin_identity_status": "not_assigned_without_visual_orientation_review",
+      "review_evidence": "Manually inspected original image with 100-pixel grid and magnified package crops; body polygon excludes nearby solder/silkscreen. Identity is observed refdes plus explicitly unconfirmed source candidate."
+    },
+    {
+      "instance_id": "IMG_20261009_222135_1.jpg:Q2",
+      "class_name": "transistor",
+      "board_family": "ultimainboard_2_1_4",
+      "parent_board_instance": "ultimainboard_2_1_4:photographed_specimen",
+      "observed_reference_designator": "Q2",
+      "observed_marking": null,
+      "source_part_candidate": "IRF8736PBF - MOSFET, N SO-8",
+      "source_package_candidate": "SOIC127P600X175-8N (SO8)",
+      "source_mapping_status": "source_candidate_by_readable_refdes_only",
+      "installed_order_code_confirmed": false,
+      "physical_population_confirmed": false,
+      "polygon_xy_pixels": [
+        [
+          385,
+          2242
+        ],
+        [
+          447,
+          2242
+        ],
+        [
+          447,
+          2319
+        ],
+        [
+          385,
+          2319
+        ]
+      ],
+      "boundary_scope": "visible_physical_body_excluding_leads_solder_and_silkscreen",
+      "boundary_uncertainty_pixels": 3,
+      "review_status": "visually_reviewed_original_pixel_body",
+      "clipped_at_image_edge": false,
+      "training_export_eligible": false,
+      "pin_identity_status": "not_assigned_without_visual_orientation_review",
+      "review_evidence": "Manually inspected original image with 100-pixel grid and magnified package crops; body polygon excludes nearby solder/silkscreen. Identity is observed refdes plus explicitly unconfirmed source candidate."
+    },
+    {
+      "instance_id": "IMG_20261009_222135_1.jpg:Q3",
+      "class_name": "transistor",
+      "board_family": "ultimainboard_2_1_4",
+      "parent_board_instance": "ultimainboard_2_1_4:photographed_specimen",
+      "observed_reference_designator": "Q3",
+      "observed_marking": null,
+      "source_part_candidate": "IRF8736PBF - MOSFET, N SO-8",
+      "source_package_candidate": "SOIC127P600X175-8N (SO8)",
+      "source_mapping_status": "source_candidate_by_readable_refdes_only",
+      "installed_order_code_confirmed": false,
+      "physical_population_confirmed": false,
+      "polygon_xy_pixels": [
+        [
+          385,
+          2419
+        ],
+        [
+          447,
+          2419
+        ],
+        [
+          447,
+          2496
+        ],
+        [
+          385,
+          2496
+        ]
+      ],
+      "boundary_scope": "visible_physical_body_excluding_leads_solder_and_silkscreen",
+      "boundary_uncertainty_pixels": 3,
+      "review_status": "visually_reviewed_original_pixel_body",
+      "clipped_at_image_edge": false,
+      "training_export_eligible": false,
+      "pin_identity_status": "not_assigned_without_visual_orientation_review",
+      "review_evidence": "Manually inspected original image with 100-pixel grid and magnified package crops; body polygon excludes nearby solder/silkscreen. Identity is observed refdes plus explicitly unconfirmed source candidate."
+    },
+    {
+      "instance_id": "IMG_20261009_222135_1.jpg:T1",
+      "class_name": "transistor",
+      "board_family": "ultimainboard_2_1_4",
+      "parent_board_instance": "ultimainboard_2_1_4:photographed_specimen",
+      "observed_reference_designator": "T1",
+      "observed_marking": null,
+      "source_part_candidate": "RO TRANS BC817-25  SOT-23",
+      "source_package_candidate": "SOT23",
+      "source_mapping_status": "source_candidate_by_readable_refdes_only",
+      "installed_order_code_confirmed": false,
+      "physical_population_confirmed": false,
+      "polygon_xy_pixels": [
+        [
+          1033,
+          2798
+        ],
+        [
+          1063,
+          2798
+        ],
+        [
+          1063,
+          2844
+        ],
+        [
+          1033,
+          2844
+        ]
+      ],
+      "boundary_scope": "visible_physical_body_excluding_leads_solder_and_silkscreen",
+      "boundary_uncertainty_pixels": 3,
+      "review_status": "visually_reviewed_original_pixel_body",
+      "clipped_at_image_edge": false,
+      "training_export_eligible": false,
+      "pin_identity_status": "not_assigned_without_visual_orientation_review",
+      "review_evidence": "Manually inspected original image with 100-pixel grid and magnified package crops; body polygon excludes nearby solder/silkscreen. Identity is observed refdes plus explicitly unconfirmed source candidate."
+    },
+    {
+      "instance_id": "IMG_20261009_222135_1.jpg:T2",
+      "class_name": "transistor",
+      "board_family": "ultimainboard_2_1_4",
+      "parent_board_instance": "ultimainboard_2_1_4:photographed_specimen",
+      "observed_reference_designator": "T2",
+      "observed_marking": null,
+      "source_part_candidate": "RO TRANS BC817-25  SOT-23",
+      "source_package_candidate": "SOT23",
+      "source_mapping_status": "source_candidate_by_readable_refdes_only",
+      "installed_order_code_confirmed": false,
+      "physical_population_confirmed": false,
+      "polygon_xy_pixels": [
+        [
+          1033,
+          2655
+        ],
+        [
+          1063,
+          2655
+        ],
+        [
+          1063,
+          2701
+        ],
+        [
+          1033,
+          2701
+        ]
+      ],
+      "boundary_scope": "visible_physical_body_excluding_leads_solder_and_silkscreen",
+      "boundary_uncertainty_pixels": 3,
+      "review_status": "visually_reviewed_original_pixel_body",
+      "clipped_at_image_edge": false,
+      "training_export_eligible": false,
+      "pin_identity_status": "not_assigned_without_visual_orientation_review",
+      "review_evidence": "Manually inspected original image with 100-pixel grid and magnified package crops; body polygon excludes nearby solder/silkscreen. Identity is observed refdes plus explicitly unconfirmed source candidate."
+    },
+    {
+      "instance_id": "IMG_20261009_222135_1.jpg:T3",
+      "class_name": "transistor",
+      "board_family": "ultimainboard_2_1_4",
+      "parent_board_instance": "ultimainboard_2_1_4:photographed_specimen",
+      "observed_reference_designator": "T3",
+      "observed_marking": null,
+      "source_part_candidate": "RO TRANS BC807-40  SOT-23",
+      "source_package_candidate": "SOT23",
+      "source_mapping_status": "source_candidate_by_readable_refdes_only",
+      "installed_order_code_confirmed": false,
+      "physical_population_confirmed": false,
+      "polygon_xy_pixels": [
+        [
+          1092,
+          2344
+        ],
+        [
+          1118,
+          2344
+        ],
+        [
+          1118,
+          2387
+        ],
+        [
+          1092,
+          2387
+        ]
+      ],
+      "boundary_scope": "visible_physical_body_excluding_leads_solder_and_silkscreen",
+      "boundary_uncertainty_pixels": 3,
+      "review_status": "visually_reviewed_original_pixel_body",
+      "clipped_at_image_edge": false,
+      "training_export_eligible": false,
+      "pin_identity_status": "not_assigned_without_visual_orientation_review",
+      "review_evidence": "Manually inspected original image with 100-pixel grid and magnified package crops; body polygon excludes nearby solder/silkscreen. Identity is observed refdes plus explicitly unconfirmed source candidate."
+    },
+    {
+      "instance_id": "IMG_20261009_222135_1.jpg:J22",
+      "class_name": "pin_header",
+      "board_family": "ultimainboard_2_1_4",
+      "parent_board_instance": "ultimainboard_2_1_4:photographed_specimen",
+      "observed_reference_designator": "J22",
+      "observed_marking": null,
+      "source_part_candidate": "HEADER-1x4P-ST-2.54",
+      "source_package_candidate": "HEADER-1X4P-ST-2.54",
+      "source_mapping_status": "source_candidate_by_readable_refdes_only",
+      "installed_order_code_confirmed": false,
+      "physical_population_confirmed": false,
+      "polygon_xy_pixels": [
+        [
+          900,
+          20
+        ],
+        [
+          1080,
+          20
+        ],
+        [
+          1080,
+          74
+        ],
+        [
+          900,
+          74
+        ]
+      ],
+      "boundary_scope": "visible_physical_body_excluding_leads_solder_and_silkscreen",
+      "boundary_uncertainty_pixels": 3,
+      "review_status": "visually_reviewed_original_pixel_body",
+      "clipped_at_image_edge": false,
+      "training_export_eligible": false,
+      "pin_identity_status": "not_assigned_without_visual_orientation_review",
+      "review_evidence": "Manually inspected original image with 100-pixel grid and magnified package crops; body polygon excludes nearby solder/silkscreen. Identity is observed refdes plus explicitly unconfirmed source candidate."
+    },
+    {
+      "instance_id": "IMG_20261009_222135_1.jpg:J23",
+      "class_name": "pin_header",
+      "board_family": "ultimainboard_2_1_4",
+      "parent_board_instance": "ultimainboard_2_1_4:photographed_specimen",
+      "observed_reference_designator": "J23",
+      "observed_marking": null,
+      "source_part_candidate": "RO CONN PR HDR 2X3P H4B-06DS-0000 INT",
+      "source_package_candidate": "HEADER-2X3P-ST-2.54",
+      "source_mapping_status": "source_candidate_by_readable_refdes_only",
+      "installed_order_code_confirmed": false,
+      "physical_population_confirmed": false,
+      "polygon_xy_pixels": [
+        [
+          714,
+          34
+        ],
+        [
+          836,
+          34
+        ],
+        [
+          836,
+          110
+        ],
+        [
+          714,
+          110
+        ]
+      ],
+      "boundary_scope": "visible_physical_body_excluding_leads_solder_and_silkscreen",
+      "boundary_uncertainty_pixels": 3,
+      "review_status": "visually_reviewed_original_pixel_body",
+      "clipped_at_image_edge": false,
+      "training_export_eligible": false,
+      "pin_identity_status": "not_assigned_without_visual_orientation_review",
+      "review_evidence": "Manually inspected original image with 100-pixel grid and magnified package crops; body polygon excludes nearby solder/silkscreen. Identity is observed refdes plus explicitly unconfirmed source candidate."
+    },
+    {
+      "instance_id": "IMG_20261009_222135_1.jpg:J1",
+      "class_name": "pin_header",
+      "board_family": "ultimainboard_2_1_4",
+      "parent_board_instance": "ultimainboard_2_1_4:photographed_specimen",
+      "observed_reference_designator": "J1",
+      "observed_marking": null,
+      "source_part_candidate": "RO CONN PR HDR 2X3P H4B-06DS-0000 INT",
+      "source_package_candidate": "HEADER-2X3P-ST-2.54",
+      "source_mapping_status": "source_candidate_by_readable_refdes_only",
+      "installed_order_code_confirmed": false,
+      "physical_population_confirmed": false,
+      "polygon_xy_pixels": [
+        [
+          714,
+          167
+        ],
+        [
+          836,
+          167
+        ],
+        [
+          836,
+          244
+        ],
+        [
+          714,
+          244
+        ]
+      ],
+      "boundary_scope": "visible_physical_body_excluding_leads_solder_and_silkscreen",
+      "boundary_uncertainty_pixels": 3,
+      "review_status": "visually_reviewed_original_pixel_body",
+      "clipped_at_image_edge": false,
+      "training_export_eligible": false,
+      "pin_identity_status": "not_assigned_without_visual_orientation_review",
+      "review_evidence": "Manually inspected original image with 100-pixel grid and magnified package crops; body polygon excludes nearby solder/silkscreen. Identity is observed refdes plus explicitly unconfirmed source candidate."
+    },
+    {
+      "instance_id": "IMG_20261009_222135_1.jpg:upper_eight_position_strip",
+      "class_name": "pin_header",
+      "board_family": "ultimainboard_2_1_4",
+      "parent_board_instance": "ultimainboard_2_1_4:photographed_specimen",
+      "observed_reference_designator": null,
+      "observed_marking": null,
+      "source_part_candidate": null,
+      "source_package_candidate": null,
+      "source_mapping_status": "photo_source_header_refdes_or_pin_count_conflict",
+      "installed_order_code_confirmed": false,
+      "physical_population_confirmed": false,
+      "polygon_xy_pixels": [
+        [
+          899,
+          122
+        ],
+        [
+          1263,
+          122
+        ],
+        [
+          1263,
+          168
+        ],
+        [
+          899,
+          168
+        ]
+      ],
+      "boundary_scope": "visible_physical_body_excluding_leads_solder_and_silkscreen",
+      "boundary_uncertainty_pixels": 3,
+      "review_status": "visually_reviewed_original_pixel_body",
+      "clipped_at_image_edge": false,
+      "training_export_eligible": false,
+      "pin_identity_status": "not_assigned_without_visual_orientation_review",
+      "observed_designator_text_candidates": [
+        "J24",
+        "J26"
+      ],
+      "display_label": "EXP3/ADC2 strip",
+      "review_evidence": "Manually inspected original image with 100-pixel grid and magnified package crops; body polygon excludes nearby solder/silkscreen. Identity is observed refdes plus explicitly unconfirmed source candidate."
+    },
+    {
+      "instance_id": "IMG_20261009_222135_1.jpg:lower_eight_position_strip",
+      "class_name": "pin_header",
+      "board_family": "ultimainboard_2_1_4",
+      "parent_board_instance": "ultimainboard_2_1_4:photographed_specimen",
+      "observed_reference_designator": null,
+      "observed_marking": null,
+      "source_part_candidate": null,
+      "source_package_candidate": null,
+      "source_mapping_status": "photo_source_header_refdes_or_pin_count_conflict",
+      "installed_order_code_confirmed": false,
+      "physical_population_confirmed": false,
+      "polygon_xy_pixels": [
+        [
+          901,
+          207
+        ],
+        [
+          1263,
+          207
+        ],
+        [
+          1263,
+          250
+        ],
+        [
+          901,
+          250
+        ]
+      ],
+      "boundary_scope": "visible_physical_body_excluding_leads_solder_and_silkscreen",
+      "boundary_uncertainty_pixels": 3,
+      "review_status": "visually_reviewed_original_pixel_body",
+      "clipped_at_image_edge": false,
+      "training_export_eligible": false,
+      "pin_identity_status": "not_assigned_without_visual_orientation_review",
+      "observed_designator_text_candidates": [
+        "J26"
+      ],
+      "display_label": "ADC1 strip",
+      "review_evidence": "Manually inspected original image with 100-pixel grid and magnified package crops; body polygon excludes nearby solder/silkscreen. Identity is observed refdes plus explicitly unconfirmed source candidate."
+    },
+    {
+      "instance_id": "IMG_20261009_222135_1.jpg:J31",
+      "class_name": "connector",
+      "board_family": "ultimainboard_2_1_4",
+      "parent_board_instance": "ultimainboard_2_1_4:photographed_specimen",
+      "observed_reference_designator": "J31",
+      "observed_marking": null,
+      "source_part_candidate": "RO CONN PR 4p HKS S4B-XH-A (LF)(SN) JST",
+      "source_package_candidate": "S4B-XH-A (LF)(SN)",
+      "source_mapping_status": "source_candidate_by_readable_refdes_only",
+      "installed_order_code_confirmed": false,
+      "physical_population_confirmed": false,
+      "polygon_xy_pixels": [
+        [
+          64,
+          292
+        ],
+        [
+          285,
+          292
+        ],
+        [
+          285,
+          488
+        ],
+        [
+          64,
+          488
+        ]
+      ],
+      "boundary_scope": "visible_physical_body_excluding_leads_solder_and_silkscreen",
+      "boundary_uncertainty_pixels": 3,
+      "review_status": "visually_reviewed_original_pixel_body",
+      "clipped_at_image_edge": false,
+      "training_export_eligible": false,
+      "pin_identity_status": "not_assigned_without_visual_orientation_review",
+      "review_evidence": "Manually inspected original image with 100-pixel grid and magnified package crops; body polygon excludes nearby solder/silkscreen. Identity is observed refdes plus explicitly unconfirmed source candidate."
+    },
+    {
+      "instance_id": "IMG_20261009_222135_1.jpg:J30",
+      "class_name": "connector",
+      "board_family": "ultimainboard_2_1_4",
+      "parent_board_instance": "ultimainboard_2_1_4:photographed_specimen",
+      "observed_reference_designator": "J30",
+      "observed_marking": null,
+      "source_part_candidate": "RO CONN PR 4p HKS S4B-XH-A (LF)(SN) JST",
+      "source_package_candidate": "S4B-XH-A (LF)(SN)",
+      "source_mapping_status": "source_candidate_by_readable_refdes_only",
+      "installed_order_code_confirmed": false,
+      "physical_population_confirmed": false,
+      "polygon_xy_pixels": [
+        [
+          64,
+          647
+        ],
+        [
+          285,
+          647
+        ],
+        [
+          285,
+          847
+        ],
+        [
+          64,
+          847
+        ]
+      ],
+      "boundary_scope": "visible_physical_body_excluding_leads_solder_and_silkscreen",
+      "boundary_uncertainty_pixels": 3,
+      "review_status": "visually_reviewed_original_pixel_body",
+      "clipped_at_image_edge": false,
+      "training_export_eligible": false,
+      "pin_identity_status": "not_assigned_without_visual_orientation_review",
+      "review_evidence": "Manually inspected original image with 100-pixel grid and magnified package crops; body polygon excludes nearby solder/silkscreen. Identity is observed refdes plus explicitly unconfirmed source candidate."
+    },
+    {
+      "instance_id": "IMG_20261009_222135_1.jpg:J29",
+      "class_name": "connector",
+      "board_family": "ultimainboard_2_1_4",
+      "parent_board_instance": "ultimainboard_2_1_4:photographed_specimen",
+      "observed_reference_designator": "J29",
+      "observed_marking": null,
+      "source_part_candidate": "RO CONN PR 4p HKS S4B-XH-A (LF)(SN) JST",
+      "source_package_candidate": "S4B-XH-A (LF)(SN)",
+      "source_mapping_status": "source_candidate_by_readable_refdes_only",
+      "installed_order_code_confirmed": false,
+      "physical_population_confirmed": false,
+      "polygon_xy_pixels": [
+        [
+          64,
+          1001
+        ],
+        [
+          285,
+          1001
+        ],
+        [
+          285,
+          1210
+        ],
+        [
+          64,
+          1210
+        ]
+      ],
+      "boundary_scope": "visible_physical_body_excluding_leads_solder_and_silkscreen",
+      "boundary_uncertainty_pixels": 3,
+      "review_status": "visually_reviewed_original_pixel_body",
+      "clipped_at_image_edge": false,
+      "training_export_eligible": false,
+      "pin_identity_status": "not_assigned_without_visual_orientation_review",
+      "review_evidence": "Manually inspected original image with 100-pixel grid and magnified package crops; body polygon excludes nearby solder/silkscreen. Identity is observed refdes plus explicitly unconfirmed source candidate."
+    },
+    {
+      "instance_id": "IMG_20261009_222135_1.jpg:J28",
+      "class_name": "connector",
+      "board_family": "ultimainboard_2_1_4",
+      "parent_board_instance": "ultimainboard_2_1_4:photographed_specimen",
+      "observed_reference_designator": "J28",
+      "observed_marking": null,
+      "source_part_candidate": "RO CONN PR 4p HKS S4B-XH-A (LF)(SN) JST",
+      "source_package_candidate": "S4B-XH-A (LF)(SN)",
+      "source_mapping_status": "source_candidate_by_readable_refdes_only",
+      "installed_order_code_confirmed": false,
+      "physical_population_confirmed": false,
+      "polygon_xy_pixels": [
+        [
+          64,
+          1365
+        ],
+        [
+          285,
+          1365
+        ],
+        [
+          285,
+          1565
+        ],
+        [
+          64,
+          1565
+        ]
+      ],
+      "boundary_scope": "visible_physical_body_excluding_leads_solder_and_silkscreen",
+      "boundary_uncertainty_pixels": 3,
+      "review_status": "visually_reviewed_original_pixel_body",
+      "clipped_at_image_edge": false,
+      "training_export_eligible": false,
+      "pin_identity_status": "not_assigned_without_visual_orientation_review",
+      "review_evidence": "Manually inspected original image with 100-pixel grid and magnified package crops; body polygon excludes nearby solder/silkscreen. Identity is observed refdes plus explicitly unconfirmed source candidate."
+    },
+    {
+      "instance_id": "IMG_20261009_222135_1.jpg:J27",
+      "class_name": "connector",
+      "board_family": "ultimainboard_2_1_4",
+      "parent_board_instance": "ultimainboard_2_1_4:photographed_specimen",
+      "observed_reference_designator": "J27",
+      "observed_marking": null,
+      "source_part_candidate": "RO CONN PR 4p HKS S4B-XH-A (LF)(SN) JST",
+      "source_package_candidate": "S4B-XH-A (LF)(SN)",
+      "source_mapping_status": "source_candidate_by_readable_refdes_only",
+      "installed_order_code_confirmed": false,
+      "physical_population_confirmed": false,
+      "polygon_xy_pixels": [
+        [
+          64,
+          1717
+        ],
+        [
+          285,
+          1717
+        ],
+        [
+          285,
+          1923
+        ],
+        [
+          64,
+          1923
+        ]
+      ],
+      "boundary_scope": "visible_physical_body_excluding_leads_solder_and_silkscreen",
+      "boundary_uncertainty_pixels": 3,
+      "review_status": "visually_reviewed_original_pixel_body",
+      "clipped_at_image_edge": false,
+      "training_export_eligible": false,
+      "pin_identity_status": "not_assigned_without_visual_orientation_review",
+      "review_evidence": "Manually inspected original image with 100-pixel grid and magnified package crops; body polygon excludes nearby solder/silkscreen. Identity is observed refdes plus explicitly unconfirmed source candidate."
+    },
+    {
+      "instance_id": "IMG_20261009_222135_1.jpg:J33",
+      "class_name": "connector",
+      "board_family": "ultimainboard_2_1_4",
+      "parent_board_instance": "ultimainboard_2_1_4:photographed_specimen",
+      "observed_reference_designator": "J33",
+      "observed_marking": null,
+      "source_part_candidate": "RO CONN PR HDR BOX 10p HKS 61201021721 WUERTH",
+      "source_package_candidate": "BOXHEADER-10P-R/A-ST-2.54",
+      "source_mapping_status": "source_candidate_by_readable_refdes_only",
+      "installed_order_code_confirmed": false,
+      "physical_population_confirmed": false,
+      "polygon_xy_pixels": [
+        [
+          1188,
+          287
+        ],
+        [
+          1407,
+          287
+        ],
+        [
+          1407,
+          646
+        ],
+        [
+          1188,
+          646
+        ]
+      ],
+      "boundary_scope": "visible_physical_body_excluding_leads_solder_and_silkscreen",
+      "boundary_uncertainty_pixels": 3,
+      "review_status": "visually_reviewed_original_pixel_body",
+      "clipped_at_image_edge": true,
+      "training_export_eligible": false,
+      "pin_identity_status": "not_assigned_without_visual_orientation_review",
+      "review_evidence": "Manually inspected original image with 100-pixel grid and magnified package crops; body polygon excludes nearby solder/silkscreen. Identity is observed refdes plus explicitly unconfirmed source candidate."
+    },
+    {
+      "instance_id": "IMG_20261009_222135_1.jpg:J32",
+      "class_name": "connector",
+      "board_family": "ultimainboard_2_1_4",
+      "parent_board_instance": "ultimainboard_2_1_4:photographed_specimen",
+      "observed_reference_designator": "J32",
+      "observed_marking": null,
+      "source_part_candidate": "RO CONN PR HDR BOX 10p HKS 61201021721 WUERTH",
+      "source_package_candidate": "BOXHEADER-10P-R/A-ST-2.54",
+      "source_mapping_status": "source_candidate_by_readable_refdes_only",
+      "installed_order_code_confirmed": false,
+      "physical_population_confirmed": false,
+      "polygon_xy_pixels": [
+        [
+          1188,
+          646
+        ],
+        [
+          1407,
+          646
+        ],
+        [
+          1407,
+          1033
+        ],
+        [
+          1188,
+          1033
+        ]
+      ],
+      "boundary_scope": "visible_physical_body_excluding_leads_solder_and_silkscreen",
+      "boundary_uncertainty_pixels": 3,
+      "review_status": "visually_reviewed_original_pixel_body",
+      "clipped_at_image_edge": true,
+      "training_export_eligible": false,
+      "pin_identity_status": "not_assigned_without_visual_orientation_review",
+      "review_evidence": "Manually inspected original image with 100-pixel grid and magnified package crops; body polygon excludes nearby solder/silkscreen. Identity is observed refdes plus explicitly unconfirmed source candidate."
+    },
+    {
+      "instance_id": "IMG_20261009_222135_1.jpg:J13",
+      "class_name": "connector",
+      "board_family": "ultimainboard_2_1_4",
+      "parent_board_instance": "ultimainboard_2_1_4:photographed_specimen",
+      "observed_reference_designator": "J13",
+      "observed_marking": null,
+      "source_part_candidate": "RO CONN PR 2p HKS 22-05-7028 MOLEX",
+      "source_package_candidate": "MOLEX-22-05-7028",
+      "source_mapping_status": "source_candidate_by_readable_refdes_only",
+      "installed_order_code_confirmed": false,
+      "physical_population_confirmed": false,
+      "polygon_xy_pixels": [
+        [
+          1178,
+          1081
+        ],
+        [
+          1407,
+          1081
+        ],
+        [
+          1407,
+          1230
+        ],
+        [
+          1178,
+          1230
+        ]
+      ],
+      "boundary_scope": "visible_physical_body_excluding_leads_solder_and_silkscreen",
+      "boundary_uncertainty_pixels": 3,
+      "review_status": "visually_reviewed_original_pixel_body",
+      "clipped_at_image_edge": true,
+      "training_export_eligible": false,
+      "pin_identity_status": "not_assigned_without_visual_orientation_review",
+      "review_evidence": "Manually inspected original image with 100-pixel grid and magnified package crops; body polygon excludes nearby solder/silkscreen. Identity is observed refdes plus explicitly unconfirmed source candidate."
+    },
+    {
+      "instance_id": "IMG_20261009_222135_1.jpg:J11",
+      "class_name": "connector",
+      "board_family": "ultimainboard_2_1_4",
+      "parent_board_instance": "ultimainboard_2_1_4:photographed_specimen",
+      "observed_reference_designator": "J11",
+      "observed_marking": null,
+      "source_part_candidate": "RO CONN PR 2p HKS 22-05-7028 MOLEX",
+      "source_package_candidate": "MOLEX-22-05-7028",
+      "source_mapping_status": "source_candidate_by_readable_refdes_only",
+      "installed_order_code_confirmed": false,
+      "physical_population_confirmed": false,
+      "polygon_xy_pixels": [
+        [
+          1178,
+          1231
+        ],
+        [
+          1407,
+          1231
+        ],
+        [
+          1407,
+          1378
+        ],
+        [
+          1178,
+          1378
+        ]
+      ],
+      "boundary_scope": "visible_physical_body_excluding_leads_solder_and_silkscreen",
+      "boundary_uncertainty_pixels": 3,
+      "review_status": "visually_reviewed_original_pixel_body",
+      "clipped_at_image_edge": true,
+      "training_export_eligible": false,
+      "pin_identity_status": "not_assigned_without_visual_orientation_review",
+      "review_evidence": "Manually inspected original image with 100-pixel grid and magnified package crops; body polygon excludes nearby solder/silkscreen. Identity is observed refdes plus explicitly unconfirmed source candidate."
+    },
+    {
+      "instance_id": "IMG_20261009_222135_1.jpg:J7",
+      "class_name": "connector",
+      "board_family": "ultimainboard_2_1_4",
+      "parent_board_instance": "ultimainboard_2_1_4:photographed_specimen",
+      "observed_reference_designator": "J7",
+      "observed_marking": null,
+      "source_part_candidate": "RO CONN PR 2p HKS 22-05-7028 MOLEX",
+      "source_package_candidate": "MOLEX-22-05-7028",
+      "source_mapping_status": "source_candidate_by_readable_refdes_only",
+      "installed_order_code_confirmed": false,
+      "physical_population_confirmed": false,
+      "polygon_xy_pixels": [
+        [
+          1178,
+          1375
+        ],
+        [
+          1407,
+          1375
+        ],
+        [
+          1407,
+          1528
+        ],
+        [
+          1178,
+          1528
+        ]
+      ],
+      "boundary_scope": "visible_physical_body_excluding_leads_solder_and_silkscreen",
+      "boundary_uncertainty_pixels": 3,
+      "review_status": "visually_reviewed_original_pixel_body",
+      "clipped_at_image_edge": true,
+      "training_export_eligible": false,
+      "pin_identity_status": "not_assigned_without_visual_orientation_review",
+      "review_evidence": "Manually inspected original image with 100-pixel grid and magnified package crops; body polygon excludes nearby solder/silkscreen. Identity is observed refdes plus explicitly unconfirmed source candidate."
+    },
+    {
+      "instance_id": "IMG_20261009_222135_1.jpg:J34",
+      "class_name": "connector",
+      "board_family": "ultimainboard_2_1_4",
+      "parent_board_instance": "ultimainboard_2_1_4:photographed_specimen",
+      "observed_reference_designator": "J34",
+      "observed_marking": null,
+      "source_part_candidate": "CONN PR 2p B2B-XH-A JST",
+      "source_package_candidate": "B2B-XH-A (LF)(SN)",
+      "source_mapping_status": "source_candidate_by_readable_refdes_only",
+      "installed_order_code_confirmed": false,
+      "physical_population_confirmed": false,
+      "polygon_xy_pixels": [
+        [
+          983,
+          1588
+        ],
+        [
+          1092,
+          1588
+        ],
+        [
+          1092,
+          1713
+        ],
+        [
+          983,
+          1713
+        ]
+      ],
+      "boundary_scope": "visible_physical_body_excluding_leads_solder_and_silkscreen",
+      "boundary_uncertainty_pixels": 3,
+      "review_status": "visually_reviewed_original_pixel_body",
+      "clipped_at_image_edge": false,
+      "training_export_eligible": false,
+      "pin_identity_status": "not_assigned_without_visual_orientation_review",
+      "review_evidence": "Manually inspected original image with 100-pixel grid and magnified package crops; body polygon excludes nearby solder/silkscreen. Identity is observed refdes plus explicitly unconfirmed source candidate."
+    },
+    {
+      "instance_id": "IMG_20261009_222135_1.jpg:J9",
+      "class_name": "connector",
+      "board_family": "ultimainboard_2_1_4",
+      "parent_board_instance": "ultimainboard_2_1_4:photographed_specimen",
+      "observed_reference_designator": "J9",
+      "observed_marking": null,
+      "source_part_candidate": "RO CONN PR 3p HKS S3B-XH-A (LF)(SN) JST",
+      "source_package_candidate": "S3B-XH-A (LF)(SN)",
+      "source_mapping_status": "source_candidate_by_readable_refdes_only",
+      "installed_order_code_confirmed": false,
+      "physical_population_confirmed": false,
+      "polygon_xy_pixels": [
+        [
+          1303,
+          1598
+        ],
+        [
+          1407,
+          1598
+        ],
+        [
+          1407,
+          1754
+        ],
+        [
+          1303,
+          1754
+        ]
+      ],
+      "boundary_scope": "visible_physical_body_excluding_leads_solder_and_silkscreen",
+      "boundary_uncertainty_pixels": 3,
+      "review_status": "visually_reviewed_original_pixel_body",
+      "clipped_at_image_edge": true,
+      "training_export_eligible": false,
+      "pin_identity_status": "not_assigned_without_visual_orientation_review",
+      "review_evidence": "Manually inspected original image with 100-pixel grid and magnified package crops; body polygon excludes nearby solder/silkscreen. Identity is observed refdes plus explicitly unconfirmed source candidate."
+    },
+    {
+      "instance_id": "IMG_20261009_222135_1.jpg:J8",
+      "class_name": "connector",
+      "board_family": "ultimainboard_2_1_4",
+      "parent_board_instance": "ultimainboard_2_1_4:photographed_specimen",
+      "observed_reference_designator": "J8",
+      "observed_marking": null,
+      "source_part_candidate": "RO CONN PR 2p HKS S2B-XH-A (LF)(SN) JST",
+      "source_package_candidate": "S2B-XH-A (LF)(SN)",
+      "source_mapping_status": "source_candidate_by_readable_refdes_only",
+      "installed_order_code_confirmed": false,
+      "physical_population_confirmed": false,
+      "polygon_xy_pixels": [
+        [
+          1186,
+          1755
+        ],
+        [
+          1407,
+          1755
+        ],
+        [
+          1407,
+          1898
+        ],
+        [
+          1186,
+          1898
+        ]
+      ],
+      "boundary_scope": "visible_physical_body_excluding_leads_solder_and_silkscreen",
+      "boundary_uncertainty_pixels": 3,
+      "review_status": "visually_reviewed_original_pixel_body",
+      "clipped_at_image_edge": true,
+      "training_export_eligible": false,
+      "pin_identity_status": "not_assigned_without_visual_orientation_review",
+      "review_evidence": "Manually inspected original image with 100-pixel grid and magnified package crops; body polygon excludes nearby solder/silkscreen. Identity is observed refdes plus explicitly unconfirmed source candidate."
+    },
+    {
+      "instance_id": "IMG_20261009_222135_1.jpg:J6",
+      "class_name": "connector",
+      "board_family": "ultimainboard_2_1_4",
+      "parent_board_instance": "ultimainboard_2_1_4:photographed_specimen",
+      "observed_reference_designator": "J6",
+      "observed_marking": null,
+      "source_part_candidate": "RO CONN PR 2p HKS S2B-XH-A (LF)(SN) JST",
+      "source_package_candidate": "S2B-XH-A (LF)(SN)",
+      "source_mapping_status": "source_candidate_by_readable_refdes_only",
+      "installed_order_code_confirmed": false,
+      "physical_population_confirmed": false,
+      "polygon_xy_pixels": [
+        [
+          1186,
+          1897
+        ],
+        [
+          1407,
+          1897
+        ],
+        [
+          1407,
+          2038
+        ],
+        [
+          1186,
+          2038
+        ]
+      ],
+      "boundary_scope": "visible_physical_body_excluding_leads_solder_and_silkscreen",
+      "boundary_uncertainty_pixels": 3,
+      "review_status": "visually_reviewed_original_pixel_body",
+      "clipped_at_image_edge": true,
+      "training_export_eligible": false,
+      "pin_identity_status": "not_assigned_without_visual_orientation_review",
+      "review_evidence": "Manually inspected original image with 100-pixel grid and magnified package crops; body polygon excludes nearby solder/silkscreen. Identity is observed refdes plus explicitly unconfirmed source candidate."
+    },
+    {
+      "instance_id": "IMG_20261009_222135_1.jpg:J5",
+      "class_name": "connector",
+      "board_family": "ultimainboard_2_1_4",
+      "parent_board_instance": "ultimainboard_2_1_4:photographed_specimen",
+      "observed_reference_designator": "J5",
+      "observed_marking": null,
+      "source_part_candidate": "RO CONN PR 2p HKS S2B-XH-A (LF)(SN) JST",
+      "source_package_candidate": "S2B-XH-A (LF)(SN)",
+      "source_mapping_status": "source_candidate_by_readable_refdes_only",
+      "installed_order_code_confirmed": false,
+      "physical_population_confirmed": false,
+      "polygon_xy_pixels": [
+        [
+          1186,
+          2046
+        ],
+        [
+          1407,
+          2046
+        ],
+        [
+          1407,
+          2188
+        ],
+        [
+          1186,
+          2188
+        ]
+      ],
+      "boundary_scope": "visible_physical_body_excluding_leads_solder_and_silkscreen",
+      "boundary_uncertainty_pixels": 3,
+      "review_status": "visually_reviewed_original_pixel_body",
+      "clipped_at_image_edge": true,
+      "training_export_eligible": false,
+      "pin_identity_status": "not_assigned_without_visual_orientation_review",
+      "review_evidence": "Manually inspected original image with 100-pixel grid and magnified package crops; body polygon excludes nearby solder/silkscreen. Identity is observed refdes plus explicitly unconfirmed source candidate."
+    },
+    {
+      "instance_id": "IMG_20261009_222135_1.jpg:J17",
+      "class_name": "connector",
+      "board_family": "ultimainboard_2_1_4",
+      "parent_board_instance": "ultimainboard_2_1_4:photographed_specimen",
+      "observed_reference_designator": "J17",
+      "observed_marking": null,
+      "source_part_candidate": "RO CONN PR 2p HKS S2B-XH-A (LF)(SN) JST",
+      "source_package_candidate": "S2B-XH-A (LF)(SN)",
+      "source_mapping_status": "source_candidate_by_readable_refdes_only",
+      "installed_order_code_confirmed": false,
+      "physical_population_confirmed": false,
+      "polygon_xy_pixels": [
+        [
+          1302,
+          2291
+        ],
+        [
+          1407,
+          2291
+        ],
+        [
+          1407,
+          2441
+        ],
+        [
+          1302,
+          2441
+        ]
+      ],
+      "boundary_scope": "visible_physical_body_excluding_leads_solder_and_silkscreen",
+      "boundary_uncertainty_pixels": 3,
+      "review_status": "visually_reviewed_original_pixel_body",
+      "clipped_at_image_edge": true,
+      "training_export_eligible": false,
+      "pin_identity_status": "not_assigned_without_visual_orientation_review",
+      "review_evidence": "Manually inspected original image with 100-pixel grid and magnified package crops; body polygon excludes nearby solder/silkscreen. Identity is observed refdes plus explicitly unconfirmed source candidate."
+    },
+    {
+      "instance_id": "IMG_20261009_222135_1.jpg:J16",
+      "class_name": "connector",
+      "board_family": "ultimainboard_2_1_4",
+      "parent_board_instance": "ultimainboard_2_1_4:photographed_specimen",
+      "observed_reference_designator": "J16",
+      "observed_marking": null,
+      "source_part_candidate": "RO CONN PR 2p HKS S2B-XH-A (LF)(SN) JST",
+      "source_package_candidate": "S2B-XH-A (LF)(SN)",
+      "source_mapping_status": "source_candidate_by_readable_refdes_only",
+      "installed_order_code_confirmed": false,
+      "physical_population_confirmed": false,
+      "polygon_xy_pixels": [
+        [
+          1302,
+          2461
+        ],
+        [
+          1407,
+          2461
+        ],
+        [
+          1407,
+          2609
+        ],
+        [
+          1302,
+          2609
+        ]
+      ],
+      "boundary_scope": "visible_physical_body_excluding_leads_solder_and_silkscreen",
+      "boundary_uncertainty_pixels": 3,
+      "review_status": "visually_reviewed_original_pixel_body",
+      "clipped_at_image_edge": true,
+      "training_export_eligible": false,
+      "pin_identity_status": "not_assigned_without_visual_orientation_review",
+      "review_evidence": "Manually inspected original image with 100-pixel grid and magnified package crops; body polygon excludes nearby solder/silkscreen. Identity is observed refdes plus explicitly unconfirmed source candidate."
+    },
+    {
+      "instance_id": "IMG_20261009_222135_1.jpg:J15",
+      "class_name": "connector",
+      "board_family": "ultimainboard_2_1_4",
+      "parent_board_instance": "ultimainboard_2_1_4:photographed_specimen",
+      "observed_reference_designator": "J15",
+      "observed_marking": null,
+      "source_part_candidate": "RO CONN PR 2p HKS 22-05-7028 MOLEX",
+      "source_package_candidate": "MOLEX-22-05-7028",
+      "source_mapping_status": "source_candidate_by_readable_refdes_only",
+      "installed_order_code_confirmed": false,
+      "physical_population_confirmed": false,
+      "polygon_xy_pixels": [
+        [
+          1186,
+          2608
+        ],
+        [
+          1407,
+          2608
+        ],
+        [
+          1407,
+          2752
+        ],
+        [
+          1186,
+          2752
+        ]
+      ],
+      "boundary_scope": "visible_physical_body_excluding_leads_solder_and_silkscreen",
+      "boundary_uncertainty_pixels": 3,
+      "review_status": "visually_reviewed_original_pixel_body",
+      "clipped_at_image_edge": true,
+      "training_export_eligible": false,
+      "pin_identity_status": "not_assigned_without_visual_orientation_review",
+      "review_evidence": "Manually inspected original image with 100-pixel grid and magnified package crops; body polygon excludes nearby solder/silkscreen. Identity is observed refdes plus explicitly unconfirmed source candidate."
+    },
+    {
+      "instance_id": "IMG_20261009_222135_1.jpg:J14",
+      "class_name": "connector",
+      "board_family": "ultimainboard_2_1_4",
+      "parent_board_instance": "ultimainboard_2_1_4:photographed_specimen",
+      "observed_reference_designator": "J14",
+      "observed_marking": null,
+      "source_part_candidate": "RO CONN PR 2p HKS 22-05-7028 MOLEX",
+      "source_package_candidate": "MOLEX-22-05-7028",
+      "source_mapping_status": "source_candidate_by_readable_refdes_only",
+      "installed_order_code_confirmed": false,
+      "physical_population_confirmed": false,
+      "polygon_xy_pixels": [
+        [
+          1186,
+          2751
+        ],
+        [
+          1407,
+          2751
+        ],
+        [
+          1407,
+          2894
+        ],
+        [
+          1186,
+          2894
+        ]
+      ],
+      "boundary_scope": "visible_physical_body_excluding_leads_solder_and_silkscreen",
+      "boundary_uncertainty_pixels": 3,
+      "review_status": "visually_reviewed_original_pixel_body",
+      "clipped_at_image_edge": true,
+      "training_export_eligible": false,
+      "pin_identity_status": "not_assigned_without_visual_orientation_review",
+      "review_evidence": "Manually inspected original image with 100-pixel grid and magnified package crops; body polygon excludes nearby solder/silkscreen. Identity is observed refdes plus explicitly unconfirmed source candidate."
+    },
+    {
+      "instance_id": "IMG_20261009_222135_1.jpg:J2",
+      "class_name": "pin_header",
+      "board_family": "ultimainboard_2_1_4",
+      "parent_board_instance": "ultimainboard_2_1_4:photographed_specimen",
+      "observed_reference_designator": "J2",
+      "observed_marking": null,
+      "source_part_candidate": "RO CONN PR HDR 2X3P H4B-06DS-0000 INT",
+      "source_package_candidate": "HEADER-2X3P-ST-2.54",
+      "source_mapping_status": "source_candidate_by_readable_refdes_only",
+      "installed_order_code_confirmed": false,
+      "physical_population_confirmed": false,
+      "polygon_xy_pixels": [
+        [
+          566,
+          2431
+        ],
+        [
+          678,
+          2431
+        ],
+        [
+          678,
+          2512
+        ],
+        [
+          566,
+          2512
+        ]
+      ],
+      "boundary_scope": "visible_physical_body_excluding_leads_solder_and_silkscreen",
+      "boundary_uncertainty_pixels": 3,
+      "review_status": "visually_reviewed_original_pixel_body",
+      "clipped_at_image_edge": false,
+      "training_export_eligible": false,
+      "pin_identity_status": "not_assigned_without_visual_orientation_review",
+      "review_evidence": "Manually inspected original image with 100-pixel grid and magnified package crops; body polygon excludes nearby solder/silkscreen. Identity is observed refdes plus explicitly unconfirmed source candidate."
+    },
+    {
+      "instance_id": "IMG_20261009_222135_1.jpg:J4",
+      "class_name": "pin_header",
+      "board_family": "ultimainboard_2_1_4",
+      "parent_board_instance": "ultimainboard_2_1_4:photographed_specimen",
+      "observed_reference_designator": "J4",
+      "observed_marking": null,
+      "source_part_candidate": "HDR 2X2P",
+      "source_package_candidate": "HEADER-2X2P-ST-2.54",
+      "source_mapping_status": "source_candidate_by_readable_refdes_only",
+      "installed_order_code_confirmed": false,
+      "physical_population_confirmed": false,
+      "polygon_xy_pixels": [
+        [
+          564,
+          2570
+        ],
+        [
+          625,
+          2570
+        ],
+        [
+          625,
+          2651
+        ],
+        [
+          564,
+          2651
+        ]
+      ],
+      "boundary_scope": "visible_physical_body_excluding_leads_solder_and_silkscreen",
+      "boundary_uncertainty_pixels": 3,
+      "review_status": "visually_reviewed_original_pixel_body",
+      "clipped_at_image_edge": false,
+      "training_export_eligible": false,
+      "pin_identity_status": "not_assigned_without_visual_orientation_review",
+      "review_evidence": "Manually inspected original image with 100-pixel grid and magnified package crops; body polygon excludes nearby solder/silkscreen. Identity is observed refdes plus explicitly unconfirmed source candidate."
+    },
+    {
+      "instance_id": "IMG_20261009_222135_1.jpg:J21",
+      "class_name": "terminal_block",
+      "board_family": "ultimainboard_2_1_4",
+      "parent_board_instance": "ultimainboard_2_1_4:photographed_specimen",
+      "observed_reference_designator": "J21",
+      "observed_marking": null,
+      "source_part_candidate": "RO CONN PR 6p MC000038 MULTICOMP",
+      "source_package_candidate": "MC000038",
+      "source_mapping_status": "source_candidate_by_readable_refdes_only",
+      "installed_order_code_confirmed": false,
+      "physical_population_confirmed": false,
+      "polygon_xy_pixels": [
+        [
+          0,
+          2035
+        ],
+        [
+          233,
+          2035
+        ],
+        [
+          233,
+          2586
+        ],
+        [
+          0,
+          2586
+        ]
+      ],
+      "boundary_scope": "visible_physical_body_excluding_leads_solder_and_silkscreen",
+      "boundary_uncertainty_pixels": 3,
+      "review_status": "visually_reviewed_original_pixel_body",
+      "clipped_at_image_edge": true,
+      "training_export_eligible": false,
+      "pin_identity_status": "not_assigned_without_visual_orientation_review",
+      "review_evidence": "Manually inspected original image with 100-pixel grid and magnified package crops; body polygon excludes nearby solder/silkscreen. Identity is observed refdes plus explicitly unconfirmed source candidate."
+    },
+    {
+      "instance_id": "IMG_20261009_222135_1.jpg:J3",
+      "class_name": "usb_b_connector",
+      "board_family": "ultimainboard_2_1_4",
+      "parent_board_instance": "ultimainboard_2_1_4:photographed_specimen",
+      "observed_reference_designator": "J3",
+      "observed_marking": null,
+      "source_part_candidate": "RO CONN PR USB-B HKS 61729-1011BLF FCI",
+      "source_package_candidate": "61729-1011BLF",
+      "source_mapping_status": "source_candidate_by_readable_refdes_only",
+      "installed_order_code_confirmed": false,
+      "physical_population_confirmed": false,
+      "polygon_xy_pixels": [
+        [
+          646,
+          2936
+        ],
+        [
+          875,
+          2936
+        ],
+        [
+          875,
+          3111
+        ],
+        [
+          646,
+          3111
+        ]
+      ],
+      "boundary_scope": "visible_physical_body_excluding_leads_solder_and_silkscreen",
+      "boundary_uncertainty_pixels": 3,
+      "review_status": "visually_reviewed_original_pixel_body",
+      "clipped_at_image_edge": true,
+      "training_export_eligible": false,
+      "pin_identity_status": "not_assigned_without_visual_orientation_review",
+      "review_evidence": "Manually inspected original image with 100-pixel grid and magnified package crops; body polygon excludes nearby solder/silkscreen. Identity is observed refdes plus explicitly unconfirmed source candidate."
+    },
+    {
+      "instance_id": "IMG_20261009_222135_1.jpg:J19",
+      "class_name": "pin_header",
+      "board_family": "ultimainboard_2_1_4",
+      "parent_board_instance": "ultimainboard_2_1_4:photographed_specimen",
+      "observed_reference_designator": "J19",
+      "observed_marking": null,
+      "source_part_candidate": "HEADER-1x2P-ST-2.54",
+      "source_package_candidate": "HEADER-1X2P-ST-2.54",
+      "source_mapping_status": "source_candidate_by_readable_refdes_only",
+      "installed_order_code_confirmed": false,
+      "physical_population_confirmed": false,
+      "polygon_xy_pixels": [
+        [
+          1113,
+          2943
+        ],
+        [
+          1284,
+          2943
+        ],
+        [
+          1284,
+          2990
+        ],
+        [
+          1113,
+          2990
+        ]
+      ],
+      "boundary_scope": "visible_physical_body_excluding_leads_solder_and_silkscreen",
+      "boundary_uncertainty_pixels": 3,
+      "review_status": "visually_reviewed_original_pixel_body",
+      "clipped_at_image_edge": false,
+      "training_export_eligible": false,
+      "pin_identity_status": "not_assigned_without_visual_orientation_review",
+      "review_evidence": "Manually inspected original image with 100-pixel grid and magnified package crops; body polygon excludes nearby solder/silkscreen. Identity is observed refdes plus explicitly unconfirmed source candidate."
+    },
+    {
+      "instance_id": "IMG_20261009_222135_1.jpg:C77",
+      "class_name": "electrolytic_capacitor",
+      "board_family": "ultimainboard_2_1_4",
+      "parent_board_instance": "ultimainboard_2_1_4:photographed_specimen",
+      "observed_reference_designator": "C77",
+      "observed_marking": "100 VFP 6G9",
+      "source_part_candidate": "RO ELCO 100uF 20% 35V CASE-D EEEFP PAN",
+      "source_package_candidate": "ELCO Case D",
+      "source_mapping_status": "source_candidate_by_readable_refdes_only",
+      "installed_order_code_confirmed": false,
+      "physical_population_confirmed": false,
+      "polygon_xy_pixels": [
+        [
+          197,
+          149
+        ],
+        [
+          292,
+          149
+        ],
+        [
+          312,
+          169
+        ],
+        [
+          312,
+          258
+        ],
+        [
+          292,
+          278
+        ],
+        [
+          197,
+          278
+        ],
+        [
+          177,
+          258
+        ],
+        [
+          177,
+          169
+        ]
+      ],
+      "boundary_scope": "visible_physical_body_excluding_leads_solder_and_silkscreen",
+      "boundary_uncertainty_pixels": 3,
+      "review_status": "visually_reviewed_original_pixel_body",
+      "clipped_at_image_edge": false,
+      "training_export_eligible": false,
+      "pin_identity_status": "not_assigned_without_visual_orientation_review",
+      "review_evidence": "4x original-pixel crop verifies C77 silkscreen and 100 / VFP / 6G9 cap marking."
+    },
+    {
+      "instance_id": "IMG_20261009_222135_1.jpg:C76",
+      "class_name": "electrolytic_capacitor",
+      "board_family": "ultimainboard_2_1_4",
+      "parent_board_instance": "ultimainboard_2_1_4:photographed_specimen",
+      "observed_reference_designator": "C76",
+      "observed_marking": "100 VFP; third line not transcribed pending separate marking review",
+      "source_part_candidate": "RO ELCO 100uF 20% 35V CASE-D EEEFP PAN",
+      "source_package_candidate": "ELCO Case D",
+      "source_mapping_status": "source_candidate_by_readable_refdes_only",
+      "installed_order_code_confirmed": false,
+      "physical_population_confirmed": false,
+      "polygon_xy_pixels": [
+        [
+          197,
+          510
+        ],
+        [
+          292,
+          510
+        ],
+        [
+          312,
+          530
+        ],
+        [
+          312,
+          619
+        ],
+        [
+          292,
+          639
+        ],
+        [
+          197,
+          639
+        ],
+        [
+          177,
+          619
+        ],
+        [
+          177,
+          530
+        ]
+      ],
+      "boundary_scope": "visible_physical_body_excluding_leads_solder_and_silkscreen",
+      "boundary_uncertainty_pixels": 3,
+      "review_status": "visually_reviewed_original_pixel_body",
+      "clipped_at_image_edge": false,
+      "training_export_eligible": false,
+      "pin_identity_status": "not_assigned_without_visual_orientation_review",
+      "review_evidence": "Manually inspected original image with 100-pixel grid and magnified package crops; body polygon excludes nearby solder/silkscreen. Identity is observed refdes plus explicitly unconfirmed source candidate."
+    },
+    {
+      "instance_id": "IMG_20261009_222135_1.jpg:C58",
+      "class_name": "electrolytic_capacitor",
+      "board_family": "ultimainboard_2_1_4",
+      "parent_board_instance": "ultimainboard_2_1_4:photographed_specimen",
+      "observed_reference_designator": "C58",
+      "observed_marking": "100 VFP; third line not transcribed pending separate marking review",
+      "source_part_candidate": "RO X7R 100nF 10% 50V 0603",
+      "source_package_candidate": "C0603",
+      "source_mapping_status": "source_candidate_by_readable_refdes_only",
+      "installed_order_code_confirmed": false,
+      "physical_population_confirmed": false,
+      "polygon_xy_pixels": [
+        [
+          198,
+          868
+        ],
+        [
+          293,
+          868
+        ],
+        [
+          313,
+          888
+        ],
+        [
+          313,
+          977
+        ],
+        [
+          293,
+          997
+        ],
+        [
+          198,
+          997
+        ],
+        [
+          178,
+          977
+        ],
+        [
+          178,
+          888
+        ]
+      ],
+      "boundary_scope": "visible_physical_body_excluding_leads_solder_and_silkscreen",
+      "boundary_uncertainty_pixels": 3,
+      "review_status": "visually_reviewed_original_pixel_body",
+      "clipped_at_image_edge": false,
+      "training_export_eligible": false,
+      "pin_identity_status": "not_assigned_without_visual_orientation_review",
+      "review_evidence": "Manually inspected original image with 100-pixel grid and magnified package crops; body polygon excludes nearby solder/silkscreen. Identity is observed refdes plus explicitly unconfirmed source candidate."
+    },
+    {
+      "instance_id": "IMG_20261009_222135_1.jpg:C54",
+      "class_name": "electrolytic_capacitor",
+      "board_family": "ultimainboard_2_1_4",
+      "parent_board_instance": "ultimainboard_2_1_4:photographed_specimen",
+      "observed_reference_designator": "C54",
+      "observed_marking": "100 VFP; third line not transcribed pending separate marking review",
+      "source_part_candidate": "RO ELCO 100uF 20% 35V CASE-D EEEFP PAN",
+      "source_package_candidate": "ELCO Case D",
+      "source_mapping_status": "source_candidate_by_readable_refdes_only",
+      "installed_order_code_confirmed": false,
+      "physical_population_confirmed": false,
+      "polygon_xy_pixels": [
+        [
+          198,
+          1228
+        ],
+        [
+          293,
+          1228
+        ],
+        [
+          313,
+          1248
+        ],
+        [
+          313,
+          1337
+        ],
+        [
+          293,
+          1357
+        ],
+        [
+          198,
+          1357
+        ],
+        [
+          178,
+          1337
+        ],
+        [
+          178,
+          1248
+        ]
+      ],
+      "boundary_scope": "visible_physical_body_excluding_leads_solder_and_silkscreen",
+      "boundary_uncertainty_pixels": 3,
+      "review_status": "visually_reviewed_original_pixel_body",
+      "clipped_at_image_edge": false,
+      "training_export_eligible": false,
+      "pin_identity_status": "not_assigned_without_visual_orientation_review",
+      "review_evidence": "Manually inspected original image with 100-pixel grid and magnified package crops; body polygon excludes nearby solder/silkscreen. Identity is observed refdes plus explicitly unconfirmed source candidate."
+    },
+    {
+      "instance_id": "IMG_20261009_222135_1.jpg:C53",
+      "class_name": "electrolytic_capacitor",
+      "board_family": "ultimainboard_2_1_4",
+      "parent_board_instance": "ultimainboard_2_1_4:photographed_specimen",
+      "observed_reference_designator": "C53",
+      "observed_marking": "100 VFP; third line not transcribed pending separate marking review",
+      "source_part_candidate": "RO ELCO 100uF 20% 35V CASE-D EEEFP PAN",
+      "source_package_candidate": "ELCO Case D",
+      "source_mapping_status": "source_candidate_by_readable_refdes_only",
+      "installed_order_code_confirmed": false,
+      "physical_population_confirmed": false,
+      "polygon_xy_pixels": [
+        [
+          200,
+          1590
+        ],
+        [
+          295,
+          1590
+        ],
+        [
+          315,
+          1610
+        ],
+        [
+          315,
+          1699
+        ],
+        [
+          295,
+          1719
+        ],
+        [
+          200,
+          1719
+        ],
+        [
+          180,
+          1699
+        ],
+        [
+          180,
+          1610
+        ]
+      ],
+      "boundary_scope": "visible_physical_body_excluding_leads_solder_and_silkscreen",
+      "boundary_uncertainty_pixels": 3,
+      "review_status": "visually_reviewed_original_pixel_body",
+      "clipped_at_image_edge": false,
+      "training_export_eligible": false,
+      "pin_identity_status": "not_assigned_without_visual_orientation_review",
+      "review_evidence": "Manually inspected original image with 100-pixel grid and magnified package crops; body polygon excludes nearby solder/silkscreen. Identity is observed refdes plus explicitly unconfirmed source candidate."
+    },
+    {
+      "instance_id": "IMG_20261009_222135_1.jpg:C1",
+      "class_name": "electrolytic_capacitor",
+      "board_family": "ultimainboard_2_1_4",
+      "parent_board_instance": "ultimainboard_2_1_4:photographed_specimen",
+      "observed_reference_designator": "C1",
+      "observed_marking": "100 VFP; third line not transcribed pending separate marking review",
+      "source_part_candidate": "RO C0G 22pF 2% 50V  0603",
+      "source_package_candidate": "C0603",
+      "source_mapping_status": "source_candidate_by_readable_refdes_only",
+      "installed_order_code_confirmed": false,
+      "physical_population_confirmed": false,
+      "polygon_xy_pixels": [
+        [
+          462,
+          2707
+        ],
+        [
+          538,
+          2707
+        ],
+        [
+          562,
+          2732
+        ],
+        [
+          562,
+          2823
+        ],
+        [
+          538,
+          2848
+        ],
+        [
+          462,
+          2848
+        ],
+        [
+          438,
+          2823
+        ],
+        [
+          438,
+          2732
+        ]
+      ],
+      "boundary_scope": "visible_physical_body_excluding_leads_solder_and_silkscreen",
+      "boundary_uncertainty_pixels": 3,
+      "review_status": "visually_reviewed_original_pixel_body",
+      "clipped_at_image_edge": false,
+      "training_export_eligible": false,
+      "pin_identity_status": "not_assigned_without_visual_orientation_review",
+      "review_evidence": "Manually inspected original image with 100-pixel grid and magnified package crops; body polygon excludes nearby solder/silkscreen. Identity is observed refdes plus explicitly unconfirmed source candidate."
+    },
+    {
+      "instance_id": "IMG_20261009_222135_1.jpg:C3",
+      "class_name": "electrolytic_capacitor",
+      "board_family": "ultimainboard_2_1_4",
+      "parent_board_instance": "ultimainboard_2_1_4:photographed_specimen",
+      "observed_reference_designator": "C3",
+      "observed_marking": "100 VFP; third line not transcribed pending separate marking review",
+      "source_part_candidate": "RO X7R 100nF 10% 50V 0603",
+      "source_package_candidate": "C0603",
+      "source_mapping_status": "source_candidate_by_readable_refdes_only",
+      "installed_order_code_confirmed": false,
+      "physical_population_confirmed": false,
+      "polygon_xy_pixels": [
+        [
+          590,
+          2707
+        ],
+        [
+          666,
+          2707
+        ],
+        [
+          690,
+          2732
+        ],
+        [
+          690,
+          2823
+        ],
+        [
+          666,
+          2848
+        ],
+        [
+          590,
+          2848
+        ],
+        [
+          566,
+          2823
+        ],
+        [
+          566,
+          2732
+        ]
+      ],
+      "boundary_scope": "visible_physical_body_excluding_leads_solder_and_silkscreen",
+      "boundary_uncertainty_pixels": 3,
+      "review_status": "visually_reviewed_original_pixel_body",
+      "clipped_at_image_edge": false,
+      "training_export_eligible": false,
+      "pin_identity_status": "not_assigned_without_visual_orientation_review",
+      "review_evidence": "Manually inspected original image with 100-pixel grid and magnified package crops; body polygon excludes nearby solder/silkscreen. Identity is observed refdes plus explicitly unconfirmed source candidate."
+    },
+    {
+      "instance_id": "IMG_20261009_222135_1.jpg:K1",
+      "class_name": "relay",
+      "board_family": "ultimainboard_2_1_4",
+      "parent_board_instance": "ultimainboard_2_1_4:photographed_specimen",
+      "observed_reference_designator": "K1",
+      "observed_marking": "Omron; 5V; full order code unresolved",
+      "source_part_candidate": "RO REL 5V HRS4-S DC5V MULTICOMP",
+      "source_package_candidate": "HRS4-S",
+      "source_mapping_status": "source_candidate_by_readable_refdes_only",
+      "installed_order_code_confirmed": false,
+      "physical_population_confirmed": false,
+      "polygon_xy_pixels": [
+        [
+          77,
+          2594
+        ],
+        [
+          410,
+          2594
+        ],
+        [
+          410,
+          2887
+        ],
+        [
+          77,
+          2887
+        ]
+      ],
+      "boundary_scope": "visible_physical_body_excluding_leads_solder_and_silkscreen",
+      "boundary_uncertainty_pixels": 3,
+      "review_status": "visually_reviewed_original_pixel_body",
+      "clipped_at_image_edge": false,
+      "training_export_eligible": false,
+      "pin_identity_status": "not_assigned_without_visual_orientation_review",
+      "review_evidence": "Manually inspected original image with 100-pixel grid and magnified package crops; body polygon excludes nearby solder/silkscreen. Identity is observed refdes plus explicitly unconfirmed source candidate."
+    },
+    {
+      "instance_id": "IMG_20261009_222135_1.jpg:L2",
+      "class_name": "inductor",
+      "board_family": "ultimainboard_2_1_4",
+      "parent_board_instance": "ultimainboard_2_1_4:photographed_specimen",
+      "observed_reference_designator": "L2",
+      "observed_marking": "6R3",
+      "source_part_candidate": "RO SPOEL 6,3uH 20% NRS6045T 6R3MMGK TAIYO YUDEN",
+      "source_package_candidate": "NRS6045",
+      "source_mapping_status": "source_candidate_by_readable_refdes_only",
+      "installed_order_code_confirmed": false,
+      "physical_population_confirmed": false,
+      "polygon_xy_pixels": [
+        [
+          768,
+          2008
+        ],
+        [
+          878,
+          2008
+        ],
+        [
+          878,
+          2095
+        ],
+        [
+          768,
+          2095
+        ]
+      ],
+      "boundary_scope": "visible_physical_body_excluding_leads_solder_and_silkscreen",
+      "boundary_uncertainty_pixels": 3,
+      "review_status": "visually_reviewed_original_pixel_body",
+      "clipped_at_image_edge": false,
+      "training_export_eligible": false,
+      "pin_identity_status": "not_assigned_without_visual_orientation_review",
+      "review_evidence": "Manually inspected original image with 100-pixel grid and magnified package crops; body polygon excludes nearby solder/silkscreen. Identity is observed refdes plus explicitly unconfirmed source candidate."
+    },
+    {
+      "instance_id": "IMG_20261009_222135_1.jpg:Y2",
+      "class_name": "crystal",
+      "board_family": "ultimainboard_2_1_4",
+      "parent_board_instance": "ultimainboard_2_1_4:photographed_specimen",
+      "observed_reference_designator": "Y2",
+      "observed_marking": "16.000M 1524NR",
+      "source_part_candidate": "RO KRISTAL 16.0MHz  HC49/4HSMX  SMD CMAC",
+      "source_package_candidate": "XT49M-2016M",
+      "source_mapping_status": "source_candidate_by_readable_refdes_only",
+      "installed_order_code_confirmed": false,
+      "physical_population_confirmed": false,
+      "polygon_xy_pixels": [
+        [
+          900,
+          2630
+        ],
+        [
+          979,
+          2630
+        ],
+        [
+          979,
+          2829
+        ],
+        [
+          900,
+          2829
+        ]
+      ],
+      "boundary_scope": "visible_physical_body_excluding_leads_solder_and_silkscreen",
+      "boundary_uncertainty_pixels": 3,
+      "review_status": "visually_reviewed_original_pixel_body",
+      "clipped_at_image_edge": false,
+      "training_export_eligible": false,
+      "pin_identity_status": "not_assigned_without_visual_orientation_review",
+      "review_evidence": "Manually inspected original image with 100-pixel grid and magnified package crops; body polygon excludes nearby solder/silkscreen. Identity is observed refdes plus explicitly unconfirmed source candidate."
+    },
+    {
+      "instance_id": "IMG_20261009_222135_1.jpg:D16",
+      "class_name": "diode",
+      "board_family": "ultimainboard_2_1_4",
+      "parent_board_instance": "ultimainboard_2_1_4:photographed_specimen",
+      "observed_reference_designator": "D16",
+      "observed_marking": null,
+      "source_part_candidate": "RO DIODE SSB44-E3/52T SMB VISHAY",
+      "source_package_candidate": "DO214AA (SMB)",
+      "source_mapping_status": "source_candidate_by_readable_refdes_only",
+      "installed_order_code_confirmed": false,
+      "physical_population_confirmed": false,
+      "polygon_xy_pixels": [
+        [
+          968,
+          2038
+        ],
+        [
+          1039,
+          2038
+        ],
+        [
+          1039,
+          2117
+        ],
+        [
+          968,
+          2117
+        ]
+      ],
+      "boundary_scope": "visible_physical_body_excluding_leads_solder_and_silkscreen",
+      "boundary_uncertainty_pixels": 3,
+      "review_status": "visually_reviewed_original_pixel_body",
+      "clipped_at_image_edge": false,
+      "training_export_eligible": false,
+      "pin_identity_status": "not_assigned_without_visual_orientation_review",
+      "review_evidence": "Manually inspected original image with 100-pixel grid and magnified package crops; body polygon excludes nearby solder/silkscreen. Identity is observed refdes plus explicitly unconfirmed source candidate."
+    },
+    {
+      "instance_id": "IMG_20261009_222135_1.jpg:D13",
+      "class_name": "diode",
+      "board_family": "ultimainboard_2_1_4",
+      "parent_board_instance": "ultimainboard_2_1_4:photographed_specimen",
+      "observed_reference_designator": "D13",
+      "observed_marking": null,
+      "source_part_candidate": "RO DIODE S1G DO-214AC",
+      "source_package_candidate": "DO214AC (SMA)",
+      "source_mapping_status": "source_candidate_by_readable_refdes_only",
+      "installed_order_code_confirmed": false,
+      "physical_population_confirmed": false,
+      "polygon_xy_pixels": [
+        [
+          283,
+          2065
+        ],
+        [
+          330,
+          2065
+        ],
+        [
+          330,
+          2131
+        ],
+        [
+          283,
+          2131
+        ]
+      ],
+      "boundary_scope": "visible_physical_body_excluding_leads_solder_and_silkscreen",
+      "boundary_uncertainty_pixels": 3,
+      "review_status": "visually_reviewed_original_pixel_body",
+      "clipped_at_image_edge": false,
+      "training_export_eligible": false,
+      "pin_identity_status": "not_assigned_without_visual_orientation_review",
+      "review_evidence": "Manually inspected original image with 100-pixel grid and magnified package crops; body polygon excludes nearby solder/silkscreen. Identity is observed refdes plus explicitly unconfirmed source candidate."
+    },
+    {
+      "instance_id": "IMG_20261009_222135_1.jpg:D14",
+      "class_name": "diode",
+      "board_family": "ultimainboard_2_1_4",
+      "parent_board_instance": "ultimainboard_2_1_4:photographed_specimen",
+      "observed_reference_designator": "D14",
+      "observed_marking": null,
+      "source_part_candidate": "RO DIODE S1G DO-214AC",
+      "source_package_candidate": "DO214AC (SMA)",
+      "source_mapping_status": "source_candidate_by_readable_refdes_only",
+      "installed_order_code_confirmed": false,
+      "physical_population_confirmed": false,
+      "polygon_xy_pixels": [
+        [
+          283,
+          2244
+        ],
+        [
+          330,
+          2244
+        ],
+        [
+          330,
+          2310
+        ],
+        [
+          283,
+          2310
+        ]
+      ],
+      "boundary_scope": "visible_physical_body_excluding_leads_solder_and_silkscreen",
+      "boundary_uncertainty_pixels": 3,
+      "review_status": "visually_reviewed_original_pixel_body",
+      "clipped_at_image_edge": false,
+      "training_export_eligible": false,
+      "pin_identity_status": "not_assigned_without_visual_orientation_review",
+      "review_evidence": "Manually inspected original image with 100-pixel grid and magnified package crops; body polygon excludes nearby solder/silkscreen. Identity is observed refdes plus explicitly unconfirmed source candidate."
+    },
+    {
+      "instance_id": "IMG_20261009_222135_1.jpg:D15",
+      "class_name": "diode",
+      "board_family": "ultimainboard_2_1_4",
+      "parent_board_instance": "ultimainboard_2_1_4:photographed_specimen",
+      "observed_reference_designator": "D15",
+      "observed_marking": null,
+      "source_part_candidate": "RO DIODE S1G DO-214AC",
+      "source_package_candidate": "DO214AC (SMA)",
+      "source_mapping_status": "source_candidate_by_readable_refdes_only",
+      "installed_order_code_confirmed": false,
+      "physical_population_confirmed": false,
+      "polygon_xy_pixels": [
+        [
+          283,
+          2422
+        ],
+        [
+          330,
+          2422
+        ],
+        [
+          330,
+          2489
+        ],
+        [
+          283,
+          2489
+        ]
+      ],
+      "boundary_scope": "visible_physical_body_excluding_leads_solder_and_silkscreen",
+      "boundary_uncertainty_pixels": 3,
+      "review_status": "visually_reviewed_original_pixel_body",
+      "clipped_at_image_edge": false,
+      "training_export_eligible": false,
+      "pin_identity_status": "not_assigned_without_visual_orientation_review",
+      "review_evidence": "Manually inspected original image with 100-pixel grid and magnified package crops; body polygon excludes nearby solder/silkscreen. Identity is observed refdes plus explicitly unconfirmed source candidate."
+    },
+    {
+      "instance_id": "IMG_20261009_222135_1.jpg:D100",
+      "class_name": "diode",
+      "board_family": "ultimainboard_2_1_4",
+      "parent_board_instance": "ultimainboard_2_1_4:photographed_specimen",
+      "observed_reference_designator": "D100",
+      "observed_marking": null,
+      "source_part_candidate": "RO DIODE S1G DO-214AC",
+      "source_package_candidate": "DO214AC (SMA)",
+      "source_mapping_status": "source_candidate_by_readable_refdes_only",
+      "installed_order_code_confirmed": false,
+      "physical_population_confirmed": false,
+      "polygon_xy_pixels": [
+        [
+          1108,
+          1624
+        ],
+        [
+          1155,
+          1624
+        ],
+        [
+          1155,
+          1677
+        ],
+        [
+          1108,
+          1677
+        ]
+      ],
+      "boundary_scope": "visible_physical_body_excluding_leads_solder_and_silkscreen",
+      "boundary_uncertainty_pixels": 3,
+      "review_status": "visually_reviewed_original_pixel_body",
+      "clipped_at_image_edge": false,
+      "training_export_eligible": false,
+      "pin_identity_status": "not_assigned_without_visual_orientation_review",
+      "review_evidence": "Manually inspected original image with 100-pixel grid and magnified package crops; body polygon excludes nearby solder/silkscreen. Identity is observed refdes plus explicitly unconfirmed source candidate."
+    },
+    {
+      "instance_id": "IMG_20261009_222135_1.jpg:D6",
+      "class_name": "diode",
+      "board_family": "ultimainboard_2_1_4",
+      "parent_board_instance": "ultimainboard_2_1_4:photographed_specimen",
+      "observed_reference_designator": "D6",
+      "observed_marking": null,
+      "source_part_candidate": "RO DIODE S1G DO-214AC",
+      "source_package_candidate": "DO214AC (SMA)",
+      "source_mapping_status": "source_candidate_by_readable_refdes_only",
+      "installed_order_code_confirmed": false,
+      "physical_population_confirmed": false,
+      "polygon_xy_pixels": [
+        [
+          1104,
+          2644
+        ],
+        [
+          1149,
+          2644
+        ],
+        [
+          1149,
+          2718
+        ],
+        [
+          1104,
+          2718
+        ]
+      ],
+      "boundary_scope": "visible_physical_body_excluding_leads_solder_and_silkscreen",
+      "boundary_uncertainty_pixels": 3,
+      "review_status": "visually_reviewed_original_pixel_body",
+      "clipped_at_image_edge": false,
+      "training_export_eligible": false,
+      "pin_identity_status": "not_assigned_without_visual_orientation_review",
+      "review_evidence": "Manually inspected original image with 100-pixel grid and magnified package crops; body polygon excludes nearby solder/silkscreen. Identity is observed refdes plus explicitly unconfirmed source candidate."
+    },
+    {
+      "instance_id": "IMG_20261009_222135_1.jpg:D5",
+      "class_name": "diode",
+      "board_family": "ultimainboard_2_1_4",
+      "parent_board_instance": "ultimainboard_2_1_4:photographed_specimen",
+      "observed_reference_designator": "D5",
+      "observed_marking": null,
+      "source_part_candidate": "RO DIODE S1G DO-214AC",
+      "source_package_candidate": "DO214AC (SMA)",
+      "source_mapping_status": "source_candidate_by_readable_refdes_only",
+      "installed_order_code_confirmed": false,
+      "physical_population_confirmed": false,
+      "polygon_xy_pixels": [
+        [
+          1104,
+          2789
+        ],
+        [
+          1149,
+          2789
+        ],
+        [
+          1149,
+          2864
+        ],
+        [
+          1104,
+          2864
+        ]
+      ],
+      "boundary_scope": "visible_physical_body_excluding_leads_solder_and_silkscreen",
+      "boundary_uncertainty_pixels": 3,
+      "review_status": "visually_reviewed_original_pixel_body",
+      "clipped_at_image_edge": false,
+      "training_export_eligible": false,
+      "pin_identity_status": "not_assigned_without_visual_orientation_review",
+      "review_evidence": "Manually inspected original image with 100-pixel grid and magnified package crops; body polygon excludes nearby solder/silkscreen. Identity is observed refdes plus explicitly unconfirmed source candidate."
+    },
+    {
+      "instance_id": "IMG_20261009_222135_1.jpg:D9",
+      "class_name": "diode",
+      "board_family": "ultimainboard_2_1_4",
+      "parent_board_instance": "ultimainboard_2_1_4:photographed_specimen",
+      "observed_reference_designator": "D9",
+      "observed_marking": null,
+      "source_part_candidate": "RO DIODE S1G DO-214AC",
+      "source_package_candidate": "DO214AC (SMA)",
+      "source_mapping_status": "source_candidate_by_readable_refdes_only",
+      "installed_order_code_confirmed": false,
+      "physical_population_confirmed": false,
+      "polygon_xy_pixels": [
+        [
+          354,
+          100
+        ],
+        [
+          397,
+          100
+        ],
+        [
+          397,
+          164
+        ],
+        [
+          354,
+          164
+        ]
+      ],
+      "boundary_scope": "visible_physical_body_excluding_leads_solder_and_silkscreen",
+      "boundary_uncertainty_pixels": 3,
+      "review_status": "visually_reviewed_original_pixel_body",
+      "clipped_at_image_edge": false,
+      "training_export_eligible": false,
+      "pin_identity_status": "not_assigned_without_visual_orientation_review",
+      "review_evidence": "Manually inspected original image with 100-pixel grid and magnified package crops; body polygon excludes nearby solder/silkscreen. Identity is observed refdes plus explicitly unconfirmed source candidate."
+    },
+    {
+      "instance_id": "IMG_20261009_222135_1.jpg:D8",
+      "class_name": "diode",
+      "board_family": "ultimainboard_2_1_4",
+      "parent_board_instance": "ultimainboard_2_1_4:photographed_specimen",
+      "observed_reference_designator": "D8",
+      "observed_marking": null,
+      "source_part_candidate": "RO DIODE S1G DO-214AC",
+      "source_package_candidate": "DO214AC (SMA)",
+      "source_mapping_status": "source_candidate_by_readable_refdes_only",
+      "installed_order_code_confirmed": false,
+      "physical_population_confirmed": false,
+      "polygon_xy_pixels": [
+        [
+          475,
+          2564
+        ],
+        [
+          525,
+          2564
+        ],
+        [
+          525,
+          2636
+        ],
+        [
+          475,
+          2636
+        ]
+      ],
+      "boundary_scope": "visible_physical_body_excluding_leads_solder_and_silkscreen",
+      "boundary_uncertainty_pixels": 3,
+      "review_status": "visually_reviewed_original_pixel_body",
+      "clipped_at_image_edge": false,
+      "training_export_eligible": false,
+      "pin_identity_status": "not_assigned_without_visual_orientation_review",
+      "review_evidence": "Manually inspected original image with 100-pixel grid and magnified package crops; body polygon excludes nearby solder/silkscreen. Identity is observed refdes plus explicitly unconfirmed source candidate."
+    },
+    {
+      "instance_id": "IMG_20261009_222135_1.jpg:C5",
+      "class_name": "ceramic_capacitor",
+      "board_family": "ultimainboard_2_1_4",
+      "parent_board_instance": "ultimainboard_2_1_4:photographed_specimen",
+      "observed_reference_designator": "C5",
+      "observed_marking": null,
+      "source_part_candidate": "RO X7R 100nF 10% 50V 0603",
+      "source_package_candidate": "C0603",
+      "source_mapping_status": "source_candidate_by_readable_refdes_only",
+      "installed_order_code_confirmed": false,
+      "physical_population_confirmed": false,
+      "polygon_xy_pixels": [
+        [
+          961,
+          344
+        ],
+        [
+          997,
+          344
+        ],
+        [
+          997,
+          363
+        ],
+        [
+          961,
+          363
+        ]
+      ],
+      "boundary_scope": "visible_physical_body_excluding_leads_solder_and_silkscreen",
+      "boundary_uncertainty_pixels": 3,
+      "review_status": "visually_reviewed_original_pixel_body",
+      "clipped_at_image_edge": false,
+      "training_export_eligible": false,
+      "pin_identity_status": "not_assigned_without_visual_orientation_review",
+      "review_evidence": "Manually inspected original image with 100-pixel grid and magnified package crops; body polygon excludes nearby solder/silkscreen. Identity is observed refdes plus explicitly unconfirmed source candidate."
+    },
+    {
+      "instance_id": "IMG_20261009_222135_1.jpg:C2",
+      "class_name": "ceramic_capacitor",
+      "board_family": "ultimainboard_2_1_4",
+      "parent_board_instance": "ultimainboard_2_1_4:photographed_specimen",
+      "observed_reference_designator": "C2",
+      "observed_marking": null,
+      "source_part_candidate": "RO X7R 100nF 10% 50V 0603",
+      "source_package_candidate": "C0603",
+      "source_mapping_status": "source_candidate_by_readable_refdes_only",
+      "installed_order_code_confirmed": false,
+      "physical_population_confirmed": false,
+      "polygon_xy_pixels": [
+        [
+          1069,
+          398
+        ],
+        [
+          1098,
+          398
+        ],
+        [
+          1098,
+          416
+        ],
+        [
+          1069,
+          416
+        ]
+      ],
+      "boundary_scope": "visible_physical_body_excluding_leads_solder_and_silkscreen",
+      "boundary_uncertainty_pixels": 3,
+      "review_status": "visually_reviewed_original_pixel_body",
+      "clipped_at_image_edge": false,
+      "training_export_eligible": false,
+      "pin_identity_status": "not_assigned_without_visual_orientation_review",
+      "review_evidence": "Manually inspected original image with 100-pixel grid and magnified package crops; body polygon excludes nearby solder/silkscreen. Identity is observed refdes plus explicitly unconfirmed source candidate."
+    },
+    {
+      "instance_id": "IMG_20261009_222135_1.jpg:C4",
+      "class_name": "ceramic_capacitor",
+      "board_family": "ultimainboard_2_1_4",
+      "parent_board_instance": "ultimainboard_2_1_4:photographed_specimen",
+      "observed_reference_designator": "C4",
+      "observed_marking": null,
+      "source_part_candidate": "RO X7R 100nF 10% 50V 0603",
+      "source_package_candidate": "C0603",
+      "source_mapping_status": "source_candidate_by_readable_refdes_only",
+      "installed_order_code_confirmed": false,
+      "physical_population_confirmed": false,
+      "polygon_xy_pixels": [
+        [
+          933,
+          775
+        ],
+        [
+          973,
+          775
+        ],
+        [
+          973,
+          793
+        ],
+        [
+          933,
+          793
+        ]
+      ],
+      "boundary_scope": "visible_physical_body_excluding_leads_solder_and_silkscreen",
+      "boundary_uncertainty_pixels": 3,
+      "review_status": "visually_reviewed_original_pixel_body",
+      "clipped_at_image_edge": false,
+      "training_export_eligible": false,
+      "pin_identity_status": "not_assigned_without_visual_orientation_review",
+      "review_evidence": "Manually inspected original image with 100-pixel grid and magnified package crops; body polygon excludes nearby solder/silkscreen. Identity is observed refdes plus explicitly unconfirmed source candidate."
+    },
+    {
+      "instance_id": "IMG_20261009_222135_1.jpg:C82",
+      "class_name": "ceramic_capacitor",
+      "board_family": "ultimainboard_2_1_4",
+      "parent_board_instance": "ultimainboard_2_1_4:photographed_specimen",
+      "observed_reference_designator": "C82",
+      "observed_marking": null,
+      "source_part_candidate": "RO X7R 4,7uF 10% 50V 1206",
+      "source_package_candidate": "C1206",
+      "source_mapping_status": "source_candidate_by_readable_refdes_only",
+      "installed_order_code_confirmed": false,
+      "physical_population_confirmed": false,
+      "polygon_xy_pixels": [
+        [
+          341,
+          210
+        ],
+        [
+          366,
+          210
+        ],
+        [
+          366,
+          261
+        ],
+        [
+          341,
+          261
+        ]
+      ],
+      "boundary_scope": "visible_physical_body_excluding_leads_solder_and_silkscreen",
+      "boundary_uncertainty_pixels": 3,
+      "review_status": "visually_reviewed_original_pixel_body",
+      "clipped_at_image_edge": false,
+      "training_export_eligible": false,
+      "pin_identity_status": "not_assigned_without_visual_orientation_review",
+      "review_evidence": "Manually inspected original image with 100-pixel grid and magnified package crops; body polygon excludes nearby solder/silkscreen. Identity is observed refdes plus explicitly unconfirmed source candidate."
+    },
+    {
+      "instance_id": "IMG_20261009_222135_1.jpg:C78",
+      "class_name": "ceramic_capacitor",
+      "board_family": "ultimainboard_2_1_4",
+      "parent_board_instance": "ultimainboard_2_1_4:photographed_specimen",
+      "observed_reference_designator": "C78",
+      "observed_marking": null,
+      "source_part_candidate": "RO X7R 4,7uF 10% 50V 1206",
+      "source_package_candidate": "C1206",
+      "source_mapping_status": "source_candidate_by_readable_refdes_only",
+      "installed_order_code_confirmed": false,
+      "physical_population_confirmed": false,
+      "polygon_xy_pixels": [
+        [
+          341,
+          574
+        ],
+        [
+          366,
+          574
+        ],
+        [
+          366,
+          622
+        ],
+        [
+          341,
+          622
+        ]
+      ],
+      "boundary_scope": "visible_physical_body_excluding_leads_solder_and_silkscreen",
+      "boundary_uncertainty_pixels": 3,
+      "review_status": "visually_reviewed_original_pixel_body",
+      "clipped_at_image_edge": false,
+      "training_export_eligible": false,
+      "pin_identity_status": "not_assigned_without_visual_orientation_review",
+      "review_evidence": "Manually inspected original image with 100-pixel grid and magnified package crops; body polygon excludes nearby solder/silkscreen. Identity is observed refdes plus explicitly unconfirmed source candidate."
+    },
+    {
+      "instance_id": "IMG_20261009_222135_1.jpg:C64",
+      "class_name": "ceramic_capacitor",
+      "board_family": "ultimainboard_2_1_4",
+      "parent_board_instance": "ultimainboard_2_1_4:photographed_specimen",
+      "observed_reference_designator": "C64",
+      "observed_marking": null,
+      "source_part_candidate": "RO X7R 4,7uF 10% 50V 1206",
+      "source_package_candidate": "C1206",
+      "source_mapping_status": "source_candidate_by_readable_refdes_only",
+      "installed_order_code_confirmed": false,
+      "physical_population_confirmed": false,
+      "polygon_xy_pixels": [
+        [
+          341,
+          938
+        ],
+        [
+          366,
+          938
+        ],
+        [
+          366,
+          983
+        ],
+        [
+          341,
+          983
+        ]
+      ],
+      "boundary_scope": "visible_physical_body_excluding_leads_solder_and_silkscreen",
+      "boundary_uncertainty_pixels": 3,
+      "review_status": "visually_reviewed_original_pixel_body",
+      "clipped_at_image_edge": false,
+      "training_export_eligible": false,
+      "pin_identity_status": "not_assigned_without_visual_orientation_review",
+      "review_evidence": "Manually inspected original image with 100-pixel grid and magnified package crops; body polygon excludes nearby solder/silkscreen. Identity is observed refdes plus explicitly unconfirmed source candidate."
+    },
+    {
+      "instance_id": "IMG_20261009_222135_1.jpg:C60",
+      "class_name": "ceramic_capacitor",
+      "board_family": "ultimainboard_2_1_4",
+      "parent_board_instance": "ultimainboard_2_1_4:photographed_specimen",
+      "observed_reference_designator": "C60",
+      "observed_marking": null,
+      "source_part_candidate": "RO X7R 4,7uF 10% 50V 1206",
+      "source_package_candidate": "C1206",
+      "source_mapping_status": "source_candidate_by_readable_refdes_only",
+      "installed_order_code_confirmed": false,
+      "physical_population_confirmed": false,
+      "polygon_xy_pixels": [
+        [
+          342,
+          1300
+        ],
+        [
+          367,
+          1300
+        ],
+        [
+          367,
+          1346
+        ],
+        [
+          342,
+          1346
+        ]
+      ],
+      "boundary_scope": "visible_physical_body_excluding_leads_solder_and_silkscreen",
+      "boundary_uncertainty_pixels": 3,
+      "review_status": "visually_reviewed_original_pixel_body",
+      "clipped_at_image_edge": false,
+      "training_export_eligible": false,
+      "pin_identity_status": "not_assigned_without_visual_orientation_review",
+      "review_evidence": "Manually inspected original image with 100-pixel grid and magnified package crops; body polygon excludes nearby solder/silkscreen. Identity is observed refdes plus explicitly unconfirmed source candidate."
+    },
+    {
+      "instance_id": "IMG_20261009_222135_1.jpg:C55",
+      "class_name": "ceramic_capacitor",
+      "board_family": "ultimainboard_2_1_4",
+      "parent_board_instance": "ultimainboard_2_1_4:photographed_specimen",
+      "observed_reference_designator": "C55",
+      "observed_marking": null,
+      "source_part_candidate": "RO ELCO 100uF 20% 35V CASE-D EEEFP PAN",
+      "source_package_candidate": "ELCO Case D",
+      "source_mapping_status": "source_candidate_by_readable_refdes_only",
+      "installed_order_code_confirmed": false,
+      "physical_population_confirmed": false,
+      "polygon_xy_pixels": [
+        [
+          343,
+          1657
+        ],
+        [
+          369,
+          1657
+        ],
+        [
+          369,
+          1703
+        ],
+        [
+          343,
+          1703
+        ]
+      ],
+      "boundary_scope": "visible_physical_body_excluding_leads_solder_and_silkscreen",
+      "boundary_uncertainty_pixels": 3,
+      "review_status": "visually_reviewed_original_pixel_body",
+      "clipped_at_image_edge": false,
+      "training_export_eligible": false,
+      "pin_identity_status": "not_assigned_without_visual_orientation_review",
+      "review_evidence": "Manually inspected original image with 100-pixel grid and magnified package crops; body polygon excludes nearby solder/silkscreen. Identity is observed refdes plus explicitly unconfirmed source candidate."
+    },
+    {
+      "instance_id": "IMG_20261009_222135_1.jpg:C110",
+      "class_name": "ceramic_capacitor",
+      "board_family": "ultimainboard_2_1_4",
+      "parent_board_instance": "ultimainboard_2_1_4:photographed_specimen",
+      "observed_reference_designator": "C110",
+      "observed_marking": null,
+      "source_part_candidate": "RO X7R 100nF 10% 50V 0603",
+      "source_package_candidate": "C0603",
+      "source_mapping_status": "source_candidate_by_readable_refdes_only",
+      "installed_order_code_confirmed": false,
+      "physical_population_confirmed": false,
+      "polygon_xy_pixels": [
+        [
+          726,
+          2161
+        ],
+        [
+          756,
+          2161
+        ],
+        [
+          756,
+          2214
+        ],
+        [
+          726,
+          2214
+        ]
+      ],
+      "boundary_scope": "visible_physical_body_excluding_leads_solder_and_silkscreen",
+      "boundary_uncertainty_pixels": 3,
+      "review_status": "visually_reviewed_original_pixel_body",
+      "clipped_at_image_edge": false,
+      "training_export_eligible": false,
+      "pin_identity_status": "not_assigned_without_visual_orientation_review",
+      "review_evidence": "Manually inspected original image with 100-pixel grid and magnified package crops; body polygon excludes nearby solder/silkscreen. Identity is observed refdes plus explicitly unconfirmed source candidate."
+    },
+    {
+      "instance_id": "IMG_20261009_222135_1.jpg:C106",
+      "class_name": "ceramic_capacitor",
+      "board_family": "ultimainboard_2_1_4",
+      "parent_board_instance": "ultimainboard_2_1_4:photographed_specimen",
+      "observed_reference_designator": "C106",
+      "observed_marking": null,
+      "source_part_candidate": null,
+      "source_package_candidate": null,
+      "source_mapping_status": "unresolved",
+      "installed_order_code_confirmed": false,
+      "physical_population_confirmed": false,
+      "polygon_xy_pixels": [
+        [
+          773,
+          2161
+        ],
+        [
+          802,
+          2161
+        ],
+        [
+          802,
+          2214
+        ],
+        [
+          773,
+          2214
+        ]
+      ],
+      "boundary_scope": "visible_physical_body_excluding_leads_solder_and_silkscreen",
+      "boundary_uncertainty_pixels": 3,
+      "review_status": "visually_reviewed_original_pixel_body",
+      "clipped_at_image_edge": false,
+      "training_export_eligible": false,
+      "pin_identity_status": "not_assigned_without_visual_orientation_review",
+      "review_evidence": "Manually inspected original image with 100-pixel grid and magnified package crops; body polygon excludes nearby solder/silkscreen. Identity is observed refdes plus explicitly unconfirmed source candidate."
+    },
+    {
+      "instance_id": "IMG_20261009_222135_1.jpg:C10",
+      "class_name": "ceramic_capacitor",
+      "board_family": "ultimainboard_2_1_4",
+      "parent_board_instance": "ultimainboard_2_1_4:photographed_specimen",
+      "observed_reference_designator": "C10",
+      "observed_marking": null,
+      "source_part_candidate": "RO X7R 100nF 10% 50V 0603",
+      "source_package_candidate": "C0603",
+      "source_mapping_status": "source_candidate_by_readable_refdes_only",
+      "installed_order_code_confirmed": false,
+      "physical_population_confirmed": false,
+      "polygon_xy_pixels": [
+        [
+          869,
+          2605
+        ],
+        [
+          892,
+          2605
+        ],
+        [
+          892,
+          2648
+        ],
+        [
+          869,
+          2648
+        ]
+      ],
+      "boundary_scope": "visible_physical_body_excluding_leads_solder_and_silkscreen",
+      "boundary_uncertainty_pixels": 3,
+      "review_status": "visually_reviewed_original_pixel_body",
+      "clipped_at_image_edge": false,
+      "training_export_eligible": false,
+      "pin_identity_status": "not_assigned_without_visual_orientation_review",
+      "review_evidence": "Manually inspected original image with 100-pixel grid and magnified package crops; body polygon excludes nearby solder/silkscreen. Identity is observed refdes plus explicitly unconfirmed source candidate."
+    },
+    {
+      "instance_id": "IMG_20261009_222135_1.jpg:C8",
+      "class_name": "ceramic_capacitor",
+      "board_family": "ultimainboard_2_1_4",
+      "parent_board_instance": "ultimainboard_2_1_4:photographed_specimen",
+      "observed_reference_designator": "C8",
+      "observed_marking": null,
+      "source_part_candidate": "RO X7R 100nF 10% 50V 0603",
+      "source_package_candidate": "C0603",
+      "source_mapping_status": "source_candidate_by_readable_refdes_only",
+      "installed_order_code_confirmed": false,
+      "physical_population_confirmed": false,
+      "polygon_xy_pixels": [
+        [
+          827,
+          2736
+        ],
+        [
+          863,
+          2736
+        ],
+        [
+          863,
+          2756
+        ],
+        [
+          827,
+          2756
+        ]
+      ],
+      "boundary_scope": "visible_physical_body_excluding_leads_solder_and_silkscreen",
+      "boundary_uncertainty_pixels": 3,
+      "review_status": "visually_reviewed_original_pixel_body",
+      "clipped_at_image_edge": false,
+      "training_export_eligible": false,
+      "pin_identity_status": "not_assigned_without_visual_orientation_review",
+      "review_evidence": "Manually inspected original image with 100-pixel grid and magnified package crops; body polygon excludes nearby solder/silkscreen. Identity is observed refdes plus explicitly unconfirmed source candidate."
+    },
+    {
+      "instance_id": "IMG_20261009_222135_1.jpg:C7",
+      "class_name": "ceramic_capacitor",
+      "board_family": "ultimainboard_2_1_4",
+      "parent_board_instance": "ultimainboard_2_1_4:photographed_specimen",
+      "observed_reference_designator": "C7",
+      "observed_marking": null,
+      "source_part_candidate": "RO C0G 22pF 2% 50V  0603",
+      "source_package_candidate": "C0603",
+      "source_mapping_status": "source_candidate_by_readable_refdes_only",
+      "installed_order_code_confirmed": false,
+      "physical_population_confirmed": false,
+      "polygon_xy_pixels": [
+        [
+          981,
+          2788
+        ],
+        [
+          1003,
+          2788
+        ],
+        [
+          1003,
+          2828
+        ],
+        [
+          981,
+          2828
+        ]
+      ],
+      "boundary_scope": "visible_physical_body_excluding_leads_solder_and_silkscreen",
+      "boundary_uncertainty_pixels": 3,
+      "review_status": "visually_reviewed_original_pixel_body",
+      "clipped_at_image_edge": false,
+      "training_export_eligible": false,
+      "pin_identity_status": "not_assigned_without_visual_orientation_review",
+      "review_evidence": "Manually inspected original image with 100-pixel grid and magnified package crops; body polygon excludes nearby solder/silkscreen. Identity is observed refdes plus explicitly unconfirmed source candidate."
+    },
+    {
+      "instance_id": "IMG_20261009_222135_1.jpg:C9",
+      "class_name": "ceramic_capacitor",
+      "board_family": "ultimainboard_2_1_4",
+      "parent_board_instance": "ultimainboard_2_1_4:photographed_specimen",
+      "observed_reference_designator": "C9",
+      "observed_marking": null,
+      "source_part_candidate": "RO C0G 22pF 2% 50V  0603",
+      "source_package_candidate": "C0603",
+      "source_mapping_status": "source_candidate_by_readable_refdes_only",
+      "installed_order_code_confirmed": false,
+      "physical_population_confirmed": false,
+      "polygon_xy_pixels": [
+        [
+          927,
+          2592
+        ],
+        [
+          965,
+          2592
+        ],
+        [
+          965,
+          2610
+        ],
+        [
+          927,
+          2610
+        ]
+      ],
+      "boundary_scope": "visible_physical_body_excluding_leads_solder_and_silkscreen",
+      "boundary_uncertainty_pixels": 3,
+      "review_status": "visually_reviewed_original_pixel_body",
+      "clipped_at_image_edge": false,
+      "training_export_eligible": false,
+      "pin_identity_status": "not_assigned_without_visual_orientation_review",
+      "review_evidence": "Manually inspected original image with 100-pixel grid and magnified package crops; body polygon excludes nearby solder/silkscreen. Identity is observed refdes plus explicitly unconfirmed source candidate."
+    },
+    {
+      "instance_id": "IMG_20261009_222135_1.jpg:C6",
+      "class_name": "ceramic_capacitor",
+      "board_family": "ultimainboard_2_1_4",
+      "parent_board_instance": "ultimainboard_2_1_4:photographed_specimen",
+      "observed_reference_designator": "C6",
+      "observed_marking": null,
+      "source_part_candidate": "RO X5R 1uF 10% 10V 0603",
+      "source_package_candidate": "C0603",
+      "source_mapping_status": "source_candidate_by_readable_refdes_only",
+      "installed_order_code_confirmed": false,
+      "physical_population_confirmed": false,
+      "polygon_xy_pixels": [
+        [
+          711,
+          2735
+        ],
+        [
+          752,
+          2735
+        ],
+        [
+          752,
+          2756
+        ],
+        [
+          711,
+          2756
+        ]
+      ],
+      "boundary_scope": "visible_physical_body_excluding_leads_solder_and_silkscreen",
+      "boundary_uncertainty_pixels": 3,
+      "review_status": "visually_reviewed_original_pixel_body",
+      "clipped_at_image_edge": false,
+      "training_export_eligible": false,
+      "pin_identity_status": "not_assigned_without_visual_orientation_review",
+      "review_evidence": "Manually inspected original image with 100-pixel grid and magnified package crops; body polygon excludes nearby solder/silkscreen. Identity is observed refdes plus explicitly unconfirmed source candidate."
+    },
+    {
+      "instance_id": "IMG_20261009_222135_1.jpg:R1",
+      "class_name": "resistor",
+      "board_family": "ultimainboard_2_1_4",
+      "parent_board_instance": "ultimainboard_2_1_4:photographed_specimen",
+      "observed_reference_designator": "R1",
+      "observed_marking": null,
+      "source_part_candidate": "RO RES 10k0 1% 0,063W  0603",
+      "source_package_candidate": "R0603",
+      "source_mapping_status": "source_candidate_by_readable_refdes_only",
+      "installed_order_code_confirmed": false,
+      "physical_population_confirmed": false,
+      "polygon_xy_pixels": [
+        [
+          1099,
+          820
+        ],
+        [
+          1147,
+          820
+        ],
+        [
+          1147,
+          839
+        ],
+        [
+          1099,
+          839
+        ]
+      ],
+      "boundary_scope": "visible_physical_body_excluding_leads_solder_and_silkscreen",
+      "boundary_uncertainty_pixels": 3,
+      "review_status": "visually_reviewed_original_pixel_body",
+      "clipped_at_image_edge": false,
+      "training_export_eligible": false,
+      "pin_identity_status": "not_assigned_without_visual_orientation_review",
+      "review_evidence": "Manually inspected original image with 100-pixel grid and magnified package crops; body polygon excludes nearby solder/silkscreen. Identity is observed refdes plus explicitly unconfirmed source candidate."
+    },
+    {
+      "instance_id": "IMG_20261009_222135_1.jpg:R2",
+      "class_name": "resistor",
+      "board_family": "ultimainboard_2_1_4",
+      "parent_board_instance": "ultimainboard_2_1_4:photographed_specimen",
+      "observed_reference_designator": "R2",
+      "observed_marking": null,
+      "source_part_candidate": "RO RES 10k0 1% 0,063W  0603",
+      "source_package_candidate": "R0603",
+      "source_mapping_status": "source_candidate_by_readable_refdes_only",
+      "installed_order_code_confirmed": false,
+      "physical_population_confirmed": false,
+      "polygon_xy_pixels": [
+        [
+          1099,
+          862
+        ],
+        [
+          1147,
+          862
+        ],
+        [
+          1147,
+          881
+        ],
+        [
+          1099,
+          881
+        ]
+      ],
+      "boundary_scope": "visible_physical_body_excluding_leads_solder_and_silkscreen",
+      "boundary_uncertainty_pixels": 3,
+      "review_status": "visually_reviewed_original_pixel_body",
+      "clipped_at_image_edge": false,
+      "training_export_eligible": false,
+      "pin_identity_status": "not_assigned_without_visual_orientation_review",
+      "review_evidence": "Manually inspected original image with 100-pixel grid and magnified package crops; body polygon excludes nearby solder/silkscreen. Identity is observed refdes plus explicitly unconfirmed source candidate."
+    },
+    {
+      "instance_id": "IMG_20261009_222135_1.jpg:R45",
+      "class_name": "resistor",
+      "board_family": "ultimainboard_2_1_4",
+      "parent_board_instance": "ultimainboard_2_1_4:photographed_specimen",
+      "observed_reference_designator": "R45",
+      "observed_marking": null,
+      "source_part_candidate": "RO RES 1k0 1% 0,1W  0603",
+      "source_package_candidate": "R0603",
+      "source_mapping_status": "source_candidate_by_readable_refdes_only",
+      "installed_order_code_confirmed": false,
+      "physical_population_confirmed": false,
+      "polygon_xy_pixels": [
+        [
+          844,
+          2396
+        ],
+        [
+          886,
+          2396
+        ],
+        [
+          886,
+          2414
+        ],
+        [
+          844,
+          2414
+        ]
+      ],
+      "boundary_scope": "visible_physical_body_excluding_leads_solder_and_silkscreen",
+      "boundary_uncertainty_pixels": 3,
+      "review_status": "visually_reviewed_original_pixel_body",
+      "clipped_at_image_edge": false,
+      "training_export_eligible": false,
+      "pin_identity_status": "not_assigned_without_visual_orientation_review",
+      "review_evidence": "Manually inspected original image with 100-pixel grid and magnified package crops; body polygon excludes nearby solder/silkscreen. Identity is observed refdes plus explicitly unconfirmed source candidate."
+    },
+    {
+      "instance_id": "IMG_20261009_222135_1.jpg:R12",
+      "class_name": "resistor",
+      "board_family": "ultimainboard_2_1_4",
+      "parent_board_instance": "ultimainboard_2_1_4:photographed_specimen",
+      "observed_reference_designator": "R12",
+      "observed_marking": null,
+      "source_part_candidate": "RO RES 1k0 1% 0,1W  0603",
+      "source_package_candidate": "R0603",
+      "source_mapping_status": "source_candidate_by_readable_refdes_only",
+      "installed_order_code_confirmed": false,
+      "physical_population_confirmed": false,
+      "polygon_xy_pixels": [
+        [
+          844,
+          2437
+        ],
+        [
+          886,
+          2437
+        ],
+        [
+          886,
+          2455
+        ],
+        [
+          844,
+          2455
+        ]
+      ],
+      "boundary_scope": "visible_physical_body_excluding_leads_solder_and_silkscreen",
+      "boundary_uncertainty_pixels": 3,
+      "review_status": "visually_reviewed_original_pixel_body",
+      "clipped_at_image_edge": false,
+      "training_export_eligible": false,
+      "pin_identity_status": "not_assigned_without_visual_orientation_review",
+      "review_evidence": "Manually inspected original image with 100-pixel grid and magnified package crops; body polygon excludes nearby solder/silkscreen. Identity is observed refdes plus explicitly unconfirmed source candidate."
+    },
+    {
+      "instance_id": "IMG_20261009_222135_1.jpg:R11",
+      "class_name": "resistor",
+      "board_family": "ultimainboard_2_1_4",
+      "parent_board_instance": "ultimainboard_2_1_4:photographed_specimen",
+      "observed_reference_designator": "R11",
+      "observed_marking": null,
+      "source_part_candidate": "RO RES 1k0 1% 0,1W  0603",
+      "source_package_candidate": "R0603",
+      "source_mapping_status": "source_candidate_by_readable_refdes_only",
+      "installed_order_code_confirmed": false,
+      "physical_population_confirmed": false,
+      "polygon_xy_pixels": [
+        [
+          844,
+          2477
+        ],
+        [
+          886,
+          2477
+        ],
+        [
+          886,
+          2495
+        ],
+        [
+          844,
+          2495
+        ]
+      ],
+      "boundary_scope": "visible_physical_body_excluding_leads_solder_and_silkscreen",
+      "boundary_uncertainty_pixels": 3,
+      "review_status": "visually_reviewed_original_pixel_body",
+      "clipped_at_image_edge": false,
+      "training_export_eligible": false,
+      "pin_identity_status": "not_assigned_without_visual_orientation_review",
+      "review_evidence": "Manually inspected original image with 100-pixel grid and magnified package crops; body polygon excludes nearby solder/silkscreen. Identity is observed refdes plus explicitly unconfirmed source candidate."
+    },
+    {
+      "instance_id": "IMG_20261009_222135_1.jpg:R14",
+      "class_name": "resistor",
+      "board_family": "ultimainboard_2_1_4",
+      "parent_board_instance": "ultimainboard_2_1_4:photographed_specimen",
+      "observed_reference_designator": "R14",
+      "observed_marking": null,
+      "source_part_candidate": "RO RES 1k0 1% 0,1W  0603",
+      "source_package_candidate": "R0603",
+      "source_mapping_status": "source_candidate_by_readable_refdes_only",
+      "installed_order_code_confirmed": false,
+      "physical_population_confirmed": false,
+      "polygon_xy_pixels": [
+        [
+          844,
+          2509
+        ],
+        [
+          886,
+          2509
+        ],
+        [
+          886,
+          2527
+        ],
+        [
+          844,
+          2527
+        ]
+      ],
+      "boundary_scope": "visible_physical_body_excluding_leads_solder_and_silkscreen",
+      "boundary_uncertainty_pixels": 3,
+      "review_status": "visually_reviewed_original_pixel_body",
+      "clipped_at_image_edge": false,
+      "training_export_eligible": false,
+      "pin_identity_status": "not_assigned_without_visual_orientation_review",
+      "review_evidence": "Manually inspected original image with 100-pixel grid and magnified package crops; body polygon excludes nearby solder/silkscreen. Identity is observed refdes plus explicitly unconfirmed source candidate."
+    },
+    {
+      "instance_id": "IMG_20261009_222135_1.jpg:R13",
+      "class_name": "resistor",
+      "board_family": "ultimainboard_2_1_4",
+      "parent_board_instance": "ultimainboard_2_1_4:photographed_specimen",
+      "observed_reference_designator": "R13",
+      "observed_marking": null,
+      "source_part_candidate": "RO RES 1k0 1% 0,1W  0603",
+      "source_package_candidate": "R0603",
+      "source_mapping_status": "source_candidate_by_readable_refdes_only",
+      "installed_order_code_confirmed": false,
+      "physical_population_confirmed": false,
+      "polygon_xy_pixels": [
+        [
+          844,
+          2538
+        ],
+        [
+          886,
+          2538
+        ],
+        [
+          886,
+          2556
+        ],
+        [
+          844,
+          2556
+        ]
+      ],
+      "boundary_scope": "visible_physical_body_excluding_leads_solder_and_silkscreen",
+      "boundary_uncertainty_pixels": 3,
+      "review_status": "visually_reviewed_original_pixel_body",
+      "clipped_at_image_edge": false,
+      "training_export_eligible": false,
+      "pin_identity_status": "not_assigned_without_visual_orientation_review",
+      "review_evidence": "Manually inspected original image with 100-pixel grid and magnified package crops; body polygon excludes nearby solder/silkscreen. Identity is observed refdes plus explicitly unconfirmed source candidate."
+    },
+    {
+      "instance_id": "IMG_20261009_222135_1.jpg:R9",
+      "class_name": "resistor",
+      "board_family": "ultimainboard_2_1_4",
+      "parent_board_instance": "ultimainboard_2_1_4:photographed_specimen",
+      "observed_reference_designator": "R9",
+      "observed_marking": null,
+      "source_part_candidate": "RO VDR 0603 CG0603MLC-05E",
+      "source_package_candidate": "R0603",
+      "source_mapping_status": "source_candidate_by_readable_refdes_only",
+      "installed_order_code_confirmed": false,
+      "physical_population_confirmed": false,
+      "polygon_xy_pixels": [
+        [
+          706,
+          2817
+        ],
+        [
+          725,
+          2817
+        ],
+        [
+          725,
+          2858
+        ],
+        [
+          706,
+          2858
+        ]
+      ],
+      "boundary_scope": "visible_physical_body_excluding_leads_solder_and_silkscreen",
+      "boundary_uncertainty_pixels": 3,
+      "review_status": "visually_reviewed_original_pixel_body",
+      "clipped_at_image_edge": false,
+      "training_export_eligible": false,
+      "pin_identity_status": "not_assigned_without_visual_orientation_review",
+      "review_evidence": "Manually inspected original image with 100-pixel grid and magnified package crops; body polygon excludes nearby solder/silkscreen. Identity is observed refdes plus explicitly unconfirmed source candidate."
+    },
+    {
+      "instance_id": "IMG_20261009_222135_1.jpg:R7",
+      "class_name": "resistor",
+      "board_family": "ultimainboard_2_1_4",
+      "parent_board_instance": "ultimainboard_2_1_4:photographed_specimen",
+      "observed_reference_designator": "R7",
+      "observed_marking": null,
+      "source_part_candidate": "RO RES 22E0 1% 0,063W 0603",
+      "source_package_candidate": "R0603",
+      "source_mapping_status": "source_candidate_by_readable_refdes_only",
+      "installed_order_code_confirmed": false,
+      "physical_population_confirmed": false,
+      "polygon_xy_pixels": [
+        [
+          748,
+          2817
+        ],
+        [
+          767,
+          2817
+        ],
+        [
+          767,
+          2858
+        ],
+        [
+          748,
+          2858
+        ]
+      ],
+      "boundary_scope": "visible_physical_body_excluding_leads_solder_and_silkscreen",
+      "boundary_uncertainty_pixels": 3,
+      "review_status": "visually_reviewed_original_pixel_body",
+      "clipped_at_image_edge": false,
+      "training_export_eligible": false,
+      "pin_identity_status": "not_assigned_without_visual_orientation_review",
+      "review_evidence": "Manually inspected original image with 100-pixel grid and magnified package crops; body polygon excludes nearby solder/silkscreen. Identity is observed refdes plus explicitly unconfirmed source candidate."
+    },
+    {
+      "instance_id": "IMG_20261009_222135_1.jpg:R6",
+      "class_name": "resistor",
+      "board_family": "ultimainboard_2_1_4",
+      "parent_board_instance": "ultimainboard_2_1_4:photographed_specimen",
+      "observed_reference_designator": "R6",
+      "observed_marking": null,
+      "source_part_candidate": "RO RES 22E0 1% 0,063W 0603",
+      "source_package_candidate": "R0603",
+      "source_mapping_status": "source_candidate_by_readable_refdes_only",
+      "installed_order_code_confirmed": false,
+      "physical_population_confirmed": false,
+      "polygon_xy_pixels": [
+        [
+          789,
+          2817
+        ],
+        [
+          808,
+          2817
+        ],
+        [
+          808,
+          2858
+        ],
+        [
+          789,
+          2858
+        ]
+      ],
+      "boundary_scope": "visible_physical_body_excluding_leads_solder_and_silkscreen",
+      "boundary_uncertainty_pixels": 3,
+      "review_status": "visually_reviewed_original_pixel_body",
+      "clipped_at_image_edge": false,
+      "training_export_eligible": false,
+      "pin_identity_status": "not_assigned_without_visual_orientation_review",
+      "review_evidence": "Manually inspected original image with 100-pixel grid and magnified package crops; body polygon excludes nearby solder/silkscreen. Identity is observed refdes plus explicitly unconfirmed source candidate."
+    },
+    {
+      "instance_id": "IMG_20261009_222135_1.jpg:R8",
+      "class_name": "resistor",
+      "board_family": "ultimainboard_2_1_4",
+      "parent_board_instance": "ultimainboard_2_1_4:photographed_specimen",
+      "observed_reference_designator": "R8",
+      "observed_marking": null,
+      "source_part_candidate": "RO VDR 0603 CG0603MLC-05E",
+      "source_package_candidate": "R0603",
+      "source_mapping_status": "source_candidate_by_readable_refdes_only",
+      "installed_order_code_confirmed": false,
+      "physical_population_confirmed": false,
+      "polygon_xy_pixels": [
+        [
+          831,
+          2817
+        ],
+        [
+          850,
+          2817
+        ],
+        [
+          850,
+          2858
+        ],
+        [
+          831,
+          2858
+        ]
+      ],
+      "boundary_scope": "visible_physical_body_excluding_leads_solder_and_silkscreen",
+      "boundary_uncertainty_pixels": 3,
+      "review_status": "visually_reviewed_original_pixel_body",
+      "clipped_at_image_edge": false,
+      "training_export_eligible": false,
+      "pin_identity_status": "not_assigned_without_visual_orientation_review",
+      "review_evidence": "Manually inspected original image with 100-pixel grid and magnified package crops; body polygon excludes nearby solder/silkscreen. Identity is observed refdes plus explicitly unconfirmed source candidate."
+    }
+  ],
+  "limitations": [
+    "Other visible passives and contacts remain unlabelled; this image is not exhaustive for standard YOLO training.",
+    "Numerous right-edge connector bodies and USB-B connector are clipped; visible-body polygons only.",
+    "Pin electrical identities are not assigned; no source-only pin geometry is accepted as photo ground truth.",
+    "Single close photo cannot provide independent holdout evaluation.",
+    "K1 visibly bears Omron branding; source specifies Multicomp HRS4-S. Installed identity must follow visible marking review, not source BOM.",
+    "Top two eight-position header strips have conflicting/repeated printed J26 text versus the source header inventory; refdes and electrical pin numbering are intentionally unresolved."
+  ],
+  "corrections_to_prior_review": [
+    {
+      "old_refdes": "U3",
+      "correct_refdes": "U13",
+      "evidence": "First square driver body at x459..550,y347..438 has nearby U13 silkscreen; U3 is the MSOP8 body at x946..997,y1426..1472."
+    },
+    {
+      "old_refdes": "U2",
+      "correct_refdes": "U12",
+      "evidence": "Second square driver body has U12 silkscreen; true U2 is lower near USB crystal at x708..800,y2584..2669."
+    }
+  ]
+}
