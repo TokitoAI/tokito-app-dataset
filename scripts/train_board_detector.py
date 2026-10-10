@@ -19,7 +19,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--epochs", type=int, default=500)
     parser.add_argument("--patience", type=int, default=60)
     parser.add_argument("--imgsz", type=int, default=640)
-    parser.add_argument("--batch", type=int, default=1)
+    parser.add_argument("--batch", type=int, default=4)
     parser.add_argument("--device", default="0")
     parser.add_argument("--workers", type=int, default=0)
     parser.add_argument("--name", default="board-yolo11m-dynamic")
