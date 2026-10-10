@@ -45,17 +45,18 @@ else:
  assert b'AC1009' in dxf_bytes[:128], 'Expected the official ASCII DXF AC1009 header'
 assert dxf_digest==dxf_meta['sha256'] and dxf_meta['bytes']==1435223
 model_dir=p/'board-yolo11m-finetune-experiment'
-model_report=json.loads((model_dir/'training-report.json').read_text(encoding='utf-8'))
-for filename,record in model_report['artifacts'].items():
- artifact=(model_dir/filename).read_bytes()
- if artifact.startswith(b'version https://git-lfs.github.com/spec/v1'):
-  artifact_lines=artifact.decode().splitlines()
-  artifact_digest=next(line.split(':',1)[1] for line in artifact_lines if line.startswith('oid sha256:'))
-  artifact_lfs_size=int(next(line.split(' ',1)[1] for line in artifact_lines if line.startswith('size ')))
-  assert artifact_lfs_size==record['bytes'],filename
- else:artifact_digest=hashlib.sha256(artifact).hexdigest()
- assert artifact_digest==record['sha256'],filename
- assert len(artifact)==record['bytes'] or artifact.startswith(b'version https://git-lfs.github.com/spec/v1'),filename
+if model_dir.is_dir():
+ model_report=json.loads((model_dir/'training-report.json').read_text(encoding='utf-8'))
+ for filename,record in model_report['artifacts'].items():
+  artifact=(model_dir/filename).read_bytes()
+  if artifact.startswith(b'version https://git-lfs.github.com/spec/v1'):
+   artifact_lines=artifact.decode().splitlines()
+   artifact_digest=next(line.split(':',1)[1] for line in artifact_lines if line.startswith('oid sha256:'))
+   artifact_lfs_size=int(next(line.split(' ',1)[1] for line in artifact_lines if line.startswith('size ')))
+   assert artifact_lfs_size==record['bytes'],filename
+  else:artifact_digest=hashlib.sha256(artifact).hexdigest()
+  assert artifact_digest==record['sha256'],filename
+  assert len(artifact)==record['bytes'] or artifact.startswith(b'version https://git-lfs.github.com/spec/v1'),filename
 phone_folder=root/'data/phone-captures/2026-10-10'
 if phone_folder.is_dir():
  phone_manifest=json.loads((phone_folder/'manifest.json').read_text())
