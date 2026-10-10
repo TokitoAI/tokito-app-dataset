@@ -1,5 +1,12 @@
 # Active dataset goal
 
+Today's implementation priority is ESP32, ESP-12E, Ultimainboard 2.1.4 and NXP.
+Raspberry Pi work is deferred at the user's request, with its data retained.
+Inspect and improve the Antigravity ESP32/Ultimaker geometry before continuing
+NXP model work. The full multi-view AR objective remains unchanged; today's
+completion target is not evidence of readiness. See
+[Antigravity intake review](ANTIGRAVITY_3D_INTAKE_REVIEW.md).
+
 Updated 2026-10-10 for the Tokito iQOO hackathon finale with Afnan and Navaneeth.
 
 Build a board and component dataset for the photographed ESP32, ESP8266 ESP-12E clone, Ultimainboard 2.1.4, NXP FRDM-MCXN236 and Raspberry Pi 3B V1.2. Collect the available BOM, native board/layout files, schematics, Gerbers/manufacturing files, STEP/GLB models and relevant external datasets. Preserve source identity, revision, provenance, hashes and the limits of each reference match.
