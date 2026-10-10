@@ -78,8 +78,8 @@
   "missing_evidence": [
     "independently reviewed fit and withheld metric landmarks per physical capture",
     "actual per-frame camera crop/rotation and document-warp verification",
-    "underside plus four reviewed side-angle views for ESP32, ESP-12E and Ultimaker",
-    "four reviewed side-angle views for NXP",
+    "four distinct reviewed oblique-side views for ESP32, ESP-12E, Ultimaker and NXP",
+    "a dedicated ESP-12E underside and continuous flip capture",
     "continuous rotate-and-flip tracking with measured projection error and reacquisition for every active board"
   ],
   "pose_evaluator": "scripts/evaluate_board_pose.py",
