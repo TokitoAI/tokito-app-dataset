@@ -1,0 +1,20 @@
+{
+  "purpose": "synthetic_runtime_viability_only",
+  "dataset_training": false,
+  "shape": [
+    1,
+    3,
+    640,
+    640
+  ],
+  "amp": true,
+  "torch": "2.7.1+cu118",
+  "cpu_threads": 1,
+  "success": true,
+  "device": "NVIDIA GeForce RTX 3050 Laptop GPU",
+  "finite_gradients": true,
+  "loss": 18.480867385864258,
+  "elapsed_seconds": 18.45062470000005,
+  "peak_allocated_bytes": 751265280,
+  "peak_reserved_bytes": 849346560
+}

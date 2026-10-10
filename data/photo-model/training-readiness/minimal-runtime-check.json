@@ -1,0 +1,45 @@
+{
+  "torch": "2.7.1+cu118",
+  "cuda_runtime": "11.8",
+  "checks": [
+    {
+      "name": "cpu_matmul_backward",
+      "success": true,
+      "result": {
+        "value": 2097152.0,
+        "finite_gradient": true
+      },
+      "elapsed_seconds": 1.2327394999883836
+    },
+    {
+      "name": "cuda_elementwise_backward",
+      "success": true,
+      "result": {
+        "value": 32768.0,
+        "finite_gradient": true
+      },
+      "elapsed_seconds": 2.1830953000026057
+    },
+    {
+      "name": "cuda_matmul_backward",
+      "success": true,
+      "result": {
+        "value": 2097152.0,
+        "finite_gradient": true
+      },
+      "elapsed_seconds": 1.853069199991296
+    },
+    {
+      "name": "direct_cublas_handle",
+      "success": true,
+      "result": {
+        "path": "E:\\tokito-build\\yolo-gpu-runtime\\Lib\\site-packages\\torch\\lib\\cublas64_11.dll",
+        "create_status": 0,
+        "version_status": 0,
+        "version": 111103,
+        "destroy_status": 0
+      },
+      "elapsed_seconds": 0.0022825000050943345
+    }
+  ]
+}

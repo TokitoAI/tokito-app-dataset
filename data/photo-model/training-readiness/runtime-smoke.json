@@ -1,0 +1,49 @@
+{
+  "purpose": "synthetic_runtime_viability_only",
+  "dataset_training": false,
+  "torch": "2.7.1+cu118",
+  "cuda_runtime": "11.8",
+  "cuda_available": true,
+  "cases": [
+    {
+      "shape": [
+        1,
+        3,
+        128,
+        128
+      ],
+      "dtype": "float32",
+      "success": true,
+      "loss": 22.397171020507812,
+      "loss_parts": {
+        "box_loss": 5.528530120849609,
+        "seg_loss": 7.58438777923584,
+        "cls_loss": 5.34426212310791,
+        "dfl_loss": 3.9399900436401367,
+        "sem_loss": 0.0
+      },
+      "finite_gradients": true,
+      "elapsed_seconds": 5.716662700011511,
+      "peak_allocated_bytes": 266172416,
+      "peak_reserved_bytes": 287309824
+    },
+    {
+      "shape": [
+        1,
+        3,
+        640,
+        640
+      ],
+      "dtype": "float32",
+      "success": false,
+      "error": "OutOfMemoryError('CUDA out of memory. Tried to allocate 14.00 MiB. GPU 0 has a total capacity of 4.00 GiB of which 1.81 GiB is free. Of the allocated memory 258.10 MiB is allocated by PyTorch, and 15.90 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)')",
+      "elapsed_seconds": 0.06931370000529569,
+      "peak_allocated_bytes": 270632960,
+      "peak_reserved_bytes": 293601280
+    }
+  ],
+  "cpu_threads": 1,
+  "device": "NVIDIA GeForce RTX 3050 Laptop GPU",
+  "parameters": 22420896,
+  "success": false
+}
