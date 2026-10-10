@@ -8,9 +8,20 @@ Use the 80 downloaded phone images to label every board family first, then its v
 
 ## Current evidence
 
+The updated end goal is calibrated, multi-view AR with independent component
+selection: reviewed board boundaries and semantic metric anchors, visible
+component masks, source/refdes/pin links and per-component 3D mesh selectors.
+The same physical component and fixed board frame must persist through
+rotation and flipping. Each specimen needs top/underside and four oblique side
+views plus physical flip-sequence evaluation. Apply this to all five families;
+the NXP implementation below is the first source-linked path, not completion
+of the full cross-board goal. See [AR alignment dataset](AR_ALIGNMENT_DATASET.md).
+
 | Work | Status |
 |---|---|
 | Dataset repository and initial corpus | Published; PRs #1 and #2 merged into main |
+| AR identity/geometry joins | 243 partial part boxes, one reviewed U1 body polygon, four named NXP mounting-hole image/metric pairs and 11 revision-unverified image-to-mesh candidates. The released NXP GLB has 354 independently selectable source component meshes; this does not establish 354 photographed matches |
+| Multi-view coverage | Six source-CAD views generated with depth-tested instance masks and fixed component IDs. Real coverage has one reviewed top-side capture per family; no complete real six-view specimen or physical flip sequence is verified. Synthetic views cannot replace real-camera evaluation |
 | Phone photos | 80 files preserved: 47 captures and 33 crop variants |
 | Board labels | Five families reviewed; 62 training images, 11 validation originals and 7 excluded validation crop variants |
 | Board models | YOLO11m baseline plus a dynamic medium-model fine-tune; 1,000-epoch ceiling, 100-patience stop at epoch 113, best epoch 13. Confidence-integrated candidate mAP50-95 is 0.9417 versus 0.9186 baseline on the 11-image known-specimen fold; a fixed 0.75-confidence audit found one fine-tune false positive versus zero for the baseline. ESP32 is missing from validation. The matching LiteRT export passed numerical conformance; the iQOO I2501 camera smoke detected Ultimainboard correctly once, missed it twice, and once mislabeled it as ESP8266 at 0.9405 confidence. Parts remain generic `ic` labels. |

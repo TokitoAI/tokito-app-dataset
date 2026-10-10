@@ -56,4 +56,53 @@ for filename,record in model_report['artifacts'].items():
  else:artifact_digest=hashlib.sha256(artifact).hexdigest()
  assert artifact_digest==record['sha256'],filename
  assert len(artifact)==record['bytes'] or artifact.startswith(b'version https://git-lfs.github.com/spec/v1'),filename
+phone_folder=root/'data/phone-captures/2026-10-10'
+if phone_folder.is_dir():
+ phone_manifest=json.loads((phone_folder/'manifest.json').read_text())
+ phone_rows=phone_manifest['photos'];assert len(phone_rows)==33
+ assert len({row['board_family'] for row in phone_rows})==5
+ phone_by_name={row['image_file']:row for row in phone_rows};assert len(phone_by_name)==33
+ for row in phone_rows:
+  photo=(root/row['image_path']).resolve();assert photo.is_relative_to(phone_folder.resolve())
+  b=photo.read_bytes()
+  if b.startswith(b'version https://git-lfs.github.com/spec/v1'):
+   phone_digest=next(line.split(':',1)[1] for line in b.decode().splitlines() if line.startswith('oid sha256:'))
+  else:phone_digest=hashlib.sha256(b).hexdigest()
+  assert phone_digest==row['image_sha256'],row['image_file']
+  assert row['image_width']>0 and row['image_height']>0
+  assert row['image_file'] not in {old['file'] for old in rows},'Unreviewed intake must not leak into the training split'
+ review_path=phone_folder/'reviewed-scan-references.json'
+ if review_path.is_file():
+  scan=json.loads(review_path.read_text());assert not scan['release_eligible'] and not scan['evaluation_valid']
+  assert {row['class_id'] for row in scan['templates']}==set(range(5))
+  label_ids=set();pin_count=0
+  for template in scan['templates']:
+   photo=phone_by_name[template['id']];assert template['image_sha256']==photo['image_sha256']
+   assert template['image_path']==photo['image_path']
+   assert template['board']==class_map[template['class_id']]['display_name']
+   x1,y1,x2,y2=template['board_bbox_xyxy_normalized'];assert 0<=x1<x2<=1 and 0<=y1<y2<=1
+   for label in template['labels']:
+    assert label['id'] not in label_ids;label_ids.add(label['id'])
+    a,b,c,d=label['bbox_xyxy_normalized'];assert x1<=a<c<=x2 and y1<=b<d<=y2,label['id']
+    if label['kind']=='pin':
+     pin_count+=1;assert label['identity_status']=='reviewed_photo_contact_with_printed_alias'
+     assert label['source']['printed_alias'] and 'Literal silkscreen' in label['source']['mapping_scope']
+    else:
+     assert label['kind']=='part' and label['identity_status'] in {'reviewed_photo_module_marking','reviewed_photo_marking_family_order_code_unconfirmed'}
+   if 'pose_corners_normalized' in template:
+    assert template['pose_corner_status']=='reviewed_photo_metric_landmarks'
+    assert template['pose_landmark_kind']=='mounting_hole_centres'
+    assert template['pose_landmark_ids']==['BH1','BH4','BH2','BH3']
+    assert template['pose_metric_landmarks_metres']==[[0.0,0.0],[0.0,-0.049000004],[0.112000005,-0.049000004],[0.112000005,0.0]]
+    anchor_source=template['metric_landmark_source']
+    anchor_bytes=(root/anchor_source['path']).read_bytes()
+    if anchor_bytes.startswith(b'version https://git-lfs.github.com/spec/v1'):
+     anchor_digest=next(line.split(':',1)[1] for line in anchor_bytes.decode().splitlines() if line.startswith('oid sha256:'))
+    else:anchor_digest=hashlib.sha256(anchor_bytes).hexdigest()
+    assert anchor_digest==anchor_source['sha256']
+    assert template['corner_uncertainty_pixels']>0
+    assert len(template['pose_corners_normalized'])==4
+    assert all(x1<=x<=x2 and y1<=y<=y2 for x,y in template['pose_corners_normalized'])
+  assert len(label_ids)==63 and pin_count==60
 print('Validated80 source hashes/board boxes, YOLO labels,62/11/7 split, no original/crop leakage, Pi mechanical DXF provenance, and fine-tune artifact hashes.')
+print('Validated 33 intake hashes and five partial scan references with 60 literal contact aliases and three marking families.')

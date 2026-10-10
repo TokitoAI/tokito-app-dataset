@@ -30,4 +30,8 @@ data/board-sources/**/generated-kicad/** -text
 annotations/*.json -text
 data/external/PCBVision/*.json -text
 data/photo-model/*.json -text
+# Preserve hash-addressed source CRLF bytes without treating CR as trailing whitespace.
+data/phone-captures/**/*.json -text whitespace=cr-at-eol
+data/ar-alignment/*.json -text whitespace=cr-at-eol
+data/board-sources/**/ar-reference/*.json -text whitespace=cr-at-eol
 data/board-sources/**/structured-source/*.json -text

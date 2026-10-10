@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "coordinate_frame": "one fixed metric board frame across top, bottom and edge views",
+  "required_view_slots": ["top", "bottom", "oblique_positive_board_x", "oblique_negative_board_x", "oblique_positive_board_y", "oblique_negative_board_y"],
+  "flip_sequence_required": true,
+  "review_evidence": "Five full-board references inspected at original pixels and the original/new phone contact sheets inspected. Existing samples show the component side. No underside or four-side set has been promoted to reviewed multi-view coverage.",
+  "captures": [
+    {"class_id": 0, "specimen_id": "bench-esp32-01", "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092144.jpg", "view_slot": "top", "board_surface": "top", "specimen_assignment_status": "reported_single_bench_specimen", "camera_calibration_id": null, "board_to_camera_pose": null},
+    {"class_id": 1, "specimen_id": "bench-esp8266-01", "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092221.jpg", "view_slot": "top", "board_surface": "top", "specimen_assignment_status": "reported_single_bench_specimen", "camera_calibration_id": null, "board_to_camera_pose": null},
+    {"class_id": 2, "specimen_id": "bench-ultimainboard-01", "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092241.jpg", "view_slot": "top", "board_surface": "top", "specimen_assignment_status": "reported_single_bench_specimen", "camera_calibration_id": null, "board_to_camera_pose": null},
+    {"class_id": 3, "specimen_id": "bench-frdm-mcxn236-01", "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg", "view_slot": "top", "board_surface": "top", "specimen_assignment_status": "reported_single_bench_specimen", "camera_calibration_id": null, "board_to_camera_pose": null},
+    {"class_id": 4, "specimen_id": "bench-raspberry-pi-3b-01", "image_path": "data/phone-captures/2026-10-10/IMG_20261010_093558.jpg", "view_slot": "top", "board_surface": "top", "specimen_assignment_status": "reported_single_bench_specimen", "camera_calibration_id": null, "board_to_camera_pose": null}
+  ],
+  "flip_sequences": [],
+  "limits": ["Printed aliases and exact source revisions retain their existing review status.", "Image rotation and synthetic CAD rendering do not supply real underside or physical flip evidence.", "All views of one physical specimen and acquisition session must share a split."]
+}

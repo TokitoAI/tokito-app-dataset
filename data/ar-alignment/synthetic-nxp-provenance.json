@@ -1,0 +1,61 @@
+{
+  "schema_version": "1.0",
+  "data_role": "synthetic_geometry_supervision",
+  "release_eligible": false,
+  "evaluation_valid": false,
+  "source_glb_sha256": "sha256:ba9db807d2141189facb33039f57861d99a460cf595dd71bf80eb5f9cbe1268c",
+  "generator_sha256": "2247e2bf9e199062f0d960e2836247159d9a7f443da766503cc526994c32af04",
+  "packager_sha256": "d3c8440ce19a463160702b72c574c4b63fec3b54d14cd46d32587227ea10a0f4",
+  "population_profile": "source-bom",
+  "source_dnp_body_count": 63,
+  "population_source_sha256": "a96f612e11974dce7de88490ba25901c5547d845e2c26ccd2a52cd3d23a7436b",
+  "archive_path": "data/ar-alignment/nxp-synthetic-six-view.zip",
+  "archive_sha256": "e221a77f90d1a657117a436242cbe4ff049af67d5039d1ebd42bcc2037f64961",
+  "archive_bytes": 301903,
+  "component_ids_stable_across_views": true,
+  "visible_source_components_union": 291,
+  "views": [
+    {
+      "view": "top",
+      "visible_components": 260,
+      "u1_mask_id": 340,
+      "u1_visible_pixels": 2450
+    },
+    {
+      "view": "bottom",
+      "visible_components": 47,
+      "u1_mask_id": 340,
+      "u1_visible_pixels": 0
+    },
+    {
+      "view": "oblique_positive_board_x",
+      "visible_components": 253,
+      "u1_mask_id": 340,
+      "u1_visible_pixels": 1553
+    },
+    {
+      "view": "oblique_negative_board_x",
+      "visible_components": 257,
+      "u1_mask_id": 340,
+      "u1_visible_pixels": 1435
+    },
+    {
+      "view": "oblique_positive_board_y",
+      "visible_components": 242,
+      "u1_mask_id": 340,
+      "u1_visible_pixels": 1490
+    },
+    {
+      "view": "oblique_negative_board_y",
+      "visible_components": 227,
+      "u1_mask_id": 340,
+      "u1_visible_pixels": 1507
+    }
+  ],
+  "limits": [
+    "Not camera photographs or flip-tracking evidence",
+    "BOM population flags are source design facts; fitted population on the photographed specimen remains unconfirmed",
+    "Approximate/placeholder CAD packages retain their model-quality status",
+    "Actual mask pixels preserve occlusion; bounding boxes are not segmentation masks"
+  ]
+}

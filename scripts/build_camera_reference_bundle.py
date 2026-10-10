@@ -64,7 +64,8 @@ def main() -> None:
                 if box is None:
                     continue
                 status = pin['mapping_status']
-                if status not in {'reviewed_photo_pin_with_source_link', 'reviewed_photo_contact_with_printed_alias'}:
+                if status not in {'reviewed_photo_pin_with_source_link', 'reviewed_photo_pin_with_source_document_link',
+                                   'reviewed_photo_contact_with_printed_alias'}:
                     # A source-only or candidate contact has no safe camera label.
                     skipped_unreviewed_pins += 1
                     continue
@@ -92,10 +93,45 @@ def main() -> None:
             'board_bbox_xyxy_normalized': image['board']['bbox_xyxy_normalized'],
             'source_reference': image['board']['source_reference'], 'labels': labels,
         })
+    review_path = ROOT / 'data/phone-captures/2026-10-10/reviewed-scan-references.json'
+    if review_path.is_file():
+        review = json.loads(review_path.read_text(encoding='utf-8'))
+        if review['release_eligible'] or review['evaluation_valid']:
+            raise RuntimeError('Scan references must remain experimental')
+        for row in review['templates']:
+            source = ROOT / row['image_path']
+            if sha(source) != row['image_sha256']:
+                raise RuntimeError(f'Scan photo digest mismatch: {source.name}')
+            with Image.open(source) as raw:
+                photo = ImageOps.exif_transpose(raw).convert('RGB')
+                photo.thumbnail((1280, 1280), Image.Resampling.LANCZOS)
+                target = images_dir / source.name
+                photo.save(target, quality=95)
+                width, height = photo.size
+            for label in row['labels']:
+                box = label['bbox_xyxy_normalized']
+                if not (len(box) == 4 and all(0 <= x <= 1 for x in box) and box[0] < box[2] and box[1] < box[3]):
+                    raise RuntimeError(f'Invalid reviewed label box: {label["id"]}')
+                label['source']['scan_review_sha256'] = sha(review_path)
+            entry = {
+                'id': row['id'], 'class_id': row['class_id'], 'board': row['board'],
+                'image': f'images/{source.name}', 'image_sha256': sha(target),
+                'width': width, 'height': height, 'source_photo': row['image_path'],
+                'source_photo_sha256': row['image_sha256'],
+                'board_bbox_xyxy_normalized': row['board_bbox_xyxy_normalized'],
+                'source_reference': row['source_reference'], 'labels': row['labels'],
+            }
+            for key in ('pose_corners_normalized', 'pose_corner_status', 'pose_asset_id', 'pose_alignment_scope',
+                        'pose_landmark_kind', 'pose_landmark_ids', 'pose_metric_landmarks_metres',
+                        'metric_landmark_source', 'corner_uncertainty_pixels'):
+                if key in row:
+                    entry[key] = row[key]
+            templates.append(entry)
     report = {
         'schema_version': '1.0', 'release_eligible': False, 'evaluation_valid': False,
         'scope': 'Known photographed specimens only; partial source-linked parts and reviewed contacts',
         'hierarchy_sha256': sha(hierarchy_path), 'templates': templates,
+        'scan_review_sha256': sha(review_path) if review_path.is_file() else None,
         'skipped_unreviewed_pin_count': skipped_unreviewed_pins,
         'limits': [
             'A board-family detector score cannot enable labels without image registration.',
