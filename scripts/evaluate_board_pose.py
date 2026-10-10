@@ -7,7 +7,6 @@ must already match the supplied camera matrix and distortion coefficients.
 import json
 import math
 import numpy as np
-import cv2
 
 
 def evaluate(record):
@@ -34,6 +33,7 @@ def evaluate(record):
     rank = np.linalg.matrix_rank(centered, tol=1e-10)
     if rank < 2 or (rank == 3 and len(fit) < 6):
         raise ValueError('Fit landmarks are collinear or too few for nonplanar pose')
+    import cv2
     ok, rvec, tvec = cv2.solvePnP(xyz(fit), uv(fit), k, distortion, flags=cv2.SOLVEPNP_ITERATIVE)
     if not ok:
         raise ValueError('Pose fit failed')

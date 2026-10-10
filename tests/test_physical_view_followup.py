@@ -27,6 +27,17 @@ class PhysicalViewFollowupTests(unittest.TestCase):
             with self.assertRaises(ValueError):
                 review.validate(path)
 
+    def test_lfs_pointer_oid_and_declared_size_are_verified(self):
+        digest = 'a' * 64
+        with tempfile.TemporaryDirectory() as folder:
+            pointer = Path(folder) / 'payload.mp4'
+            pointer.write_text('version https://git-lfs.github.com/spec/v1\n'
+                               + 'oid sha256:' + digest + '\nsize 123\n',
+                               encoding='ascii')
+            self.assertTrue(review._matches_payload_or_lfs_pointer(pointer, digest, 123))
+            self.assertFalse(review._matches_payload_or_lfs_pointer(pointer, digest, 124))
+            self.assertFalse(review._matches_payload_or_lfs_pointer(pointer, 'b' * 64, 123))
+
 
 if __name__ == '__main__':
     unittest.main()

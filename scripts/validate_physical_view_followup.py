@@ -23,16 +23,16 @@ def validate(path=MANIFEST):
         target = (ROOT / row['path']).resolve()
         if not target.is_relative_to(ROOT) or not target.is_file():
             raise ValueError('Missing or out-of-repository source clip')
-        digest = _sha256(target)
-        if target.stat().st_size != row['bytes'] or digest != row['sha256']:
-            raise ValueError('Source size or SHA-256 mismatch: ' + row['path'])
+        if not _matches_payload_or_lfs_pointer(target, row['sha256'], row['bytes']):
+            raise ValueError('Source payload or LFS pointer mismatch: ' + row['path'])
         if row['underside_seen'] or row['four_oblique_sides_seen'] or row['continuous_rotate_flip_seen']:
             raise ValueError('Unreviewed view promoted to verified')
         if row['display_rotation_degrees'] != -90 or row['codec'] != 'hevc':
             raise ValueError('Unexpected camera video metadata')
         for review in row['review_contact_sheets']:
             sheet = (ROOT / review['path']).resolve()
-            if not sheet.is_relative_to(ROOT) or not sheet.is_file() or _sha256(sheet) != review['sha256']:
+            if (not sheet.is_relative_to(ROOT) or not sheet.is_file()
+                    or not _matches_payload_or_lfs_pointer(sheet, review['sha256'])):
                 raise ValueError('Missing or changed review sheet: ' + review['path'])
         result.append({'board_family': row['board_family'], 'sha256_verified': True,
                        'duration_seconds': row['duration_seconds'],
@@ -46,6 +46,21 @@ def _sha256(path):
         for chunk in iter(lambda: stream.read(1024 * 1024), b''):
             digest.update(chunk)
     return digest.hexdigest()
+
+
+def _matches_payload_or_lfs_pointer(path, digest, size=None):
+    with Path(path).open('rb') as stream:
+        prefix = stream.read(256)
+    if prefix.startswith(b'version https://git-lfs.github.com/spec/v1\n'):
+        fields = dict(line.decode('ascii').split(' ', 1)
+                      for line in prefix.splitlines()[1:] if b' ' in line)
+        try:
+            return (fields.get('oid') == 'sha256:' + digest
+                    and (size is None or int(fields.get('size', '-1')) == size))
+        except ValueError:
+            return False
+    actual_size = Path(path).stat().st_size
+    return (actual_size == size if size is not None else True) and _sha256(path) == digest
 
 
 if __name__ == '__main__':
