@@ -1,0 +1,1170 @@
+{
+  "schema_version": "1.0",
+  "release_eligible": false,
+  "training_export_eligible": false,
+  "evaluation_valid": false,
+  "source_files": [
+    {
+      "path": "data/video-captures/2026-10-10/esp12e-keyframes/manifest.json",
+      "sha256": "d6f2e87b01d9f91fd1cb77d985772c410ace9dc4e477fe39894c044fef1295cf"
+    },
+    {
+      "path": "data/video-captures/2026-10-10/esp12e-keyframes/reviewed-component-masks.json",
+      "sha256": "ecd43db6c030ba64508b1271c664fad77c354e24684db990c312d8dfe4d88754"
+    },
+    {
+      "path": "data/video-captures/2026-10-10/esp12e-keyframes/reviewed-module-contacts.json",
+      "sha256": "0e820eae11233e5933efb28364e03566e8bed29f065c6db879f040992e36c348"
+    }
+  ],
+  "image_path": "data/video-captures/2026-10-10/esp12e-keyframes/video_20261010_122211_n000523_pts00017497ms.jpg",
+  "image_sha256": "bcf9d38b8de7e5792fd9795f9d7a8b855279ab15fa1f0135a930f786485fba09",
+  "image_dimensions": [
+    1080,
+    1920
+  ],
+  "physical_specimen_id": "bench-esp8266-01",
+  "capture_session_id": "bench-esp8266-01:20261010_122211",
+  "required_split_group": "bench-esp8266-01",
+  "instances": [
+    {
+      "instance_id": "bench-esp8266-01:esp12e_module",
+      "parent_id": "bench-esp8266-01",
+      "kind": "component_assembly",
+      "observed_marking": "MODEL: ESP-12E",
+      "visible_polygon_normalized": null,
+      "geometry_status": "assembly_boundary_incomplete; antenna_clipped",
+      "source_component_id": null,
+      "glb_selector": null
+    },
+    {
+      "instance_id": "bench-esp8266-01:usb_serial_controller_body",
+      "parent_id": "bench-esp8266-01",
+      "kind": "integrated_circuit",
+      "observed_marking": null,
+      "exact_part_name": null,
+      "visible_polygon_normalized": [
+        [
+          0.09166666666666666,
+          0.6338541666666667
+        ],
+        [
+          0.41944444444444445,
+          0.6354166666666666
+        ],
+        [
+          0.41759259259259257,
+          0.7026041666666667
+        ],
+        [
+          0.08796296296296297,
+          0.7010416666666667
+        ]
+      ],
+      "geometry_scope": "visible_package_body_excluding_leads",
+      "boundary_uncertainty_pixels": 6,
+      "source_component_id": null,
+      "glb_selector": null
+    },
+    {
+      "instance_id": "bench-esp8266-01:regulator_body",
+      "parent_id": "bench-esp8266-01",
+      "kind": "integrated_circuit",
+      "observed_marking": null,
+      "exact_part_name": null,
+      "visible_polygon_normalized": [
+        [
+          0.46296296296296297,
+          0.3828125
+        ],
+        [
+          0.562037037037037,
+          0.38385416666666666
+        ],
+        [
+          0.5574074074074075,
+          0.4864583333333333
+        ],
+        [
+          0.45925925925925926,
+          0.48541666666666666
+        ]
+      ],
+      "geometry_scope": "visible_package_body_excluding_leads_and_tab",
+      "boundary_uncertainty_pixels": 6,
+      "source_component_id": null,
+      "glb_selector": null
+    },
+    {
+      "instance_id": "bench-esp8266-01:rf_module_shield",
+      "parent_id": "bench-esp8266-01:esp12e_module",
+      "kind": "rf_shield",
+      "observed_marking": null,
+      "exact_part_name": null,
+      "visible_polygon_normalized": [
+        [
+          0.2037037037037037,
+          0.011979166666666667
+        ],
+        [
+          0.5694444444444444,
+          0.015104166666666667
+        ],
+        [
+          0.562037037037037,
+          0.24895833333333334
+        ],
+        [
+          0.18796296296296297,
+          0.24791666666666667
+        ]
+      ],
+      "geometry_scope": "shield_top_surface_only_excludes_module_antenna_pcb_and_contacts",
+      "boundary_uncertainty_pixels": 8,
+      "source_component_id": null,
+      "glb_selector": null
+    },
+    {
+      "instance_id": "bench-esp8266-01:micro_usb_shell",
+      "parent_id": "bench-esp8266-01",
+      "kind": "connector_shell",
+      "observed_marking": null,
+      "exact_part_name": null,
+      "visible_polygon_normalized": [
+        [
+          0.22777777777777777,
+          0.8177083333333334
+        ],
+        [
+          0.48055555555555557,
+          0.8177083333333334
+        ],
+        [
+          0.4842592592592593,
+          0.9192708333333334
+        ],
+        [
+          0.21851851851851853,
+          0.921875
+        ]
+      ],
+      "geometry_scope": "visible_metal_shell_excluding_side_mounting_tabs",
+      "boundary_uncertainty_pixels": 8,
+      "source_component_id": null,
+      "glb_selector": null
+    },
+    {
+      "instance_id": "bench-esp8266-01:rst_button_body",
+      "parent_id": "bench-esp8266-01",
+      "kind": "tactile_switch",
+      "observed_marking": null,
+      "exact_part_name": null,
+      "visible_polygon_normalized": [
+        [
+          0.03148148148148148,
+          0.7911458333333333
+        ],
+        [
+          0.11574074074074074,
+          0.7921875
+        ],
+        [
+          0.11481481481481481,
+          0.8630208333333333
+        ],
+        [
+          0.027777777777777776,
+          0.8625
+        ]
+      ],
+      "geometry_scope": "visible_body_excluding_external_leads_and_solder",
+      "boundary_uncertainty_pixels": 6,
+      "source_component_id": null,
+      "glb_selector": null
+    },
+    {
+      "instance_id": "bench-esp8266-01:flash_button_body",
+      "parent_id": "bench-esp8266-01",
+      "kind": "tactile_switch",
+      "observed_marking": null,
+      "exact_part_name": null,
+      "visible_polygon_normalized": [
+        [
+          0.5787037037037037,
+          0.7989583333333333
+        ],
+        [
+          0.6722222222222223,
+          0.7989583333333333
+        ],
+        [
+          0.6712962962962963,
+          0.8614583333333333
+        ],
+        [
+          0.5731481481481482,
+          0.8609375
+        ]
+      ],
+      "geometry_scope": "visible_body_excluding_external_leads_and_solder",
+      "boundary_uncertainty_pixels": 6,
+      "source_component_id": null,
+      "glb_selector": null
+    },
+    {
+      "instance_id": "bench-esp8266-01:resistor_103_above_regulator",
+      "parent_id": "bench-esp8266-01",
+      "kind": "resistor",
+      "observed_marking": "103",
+      "exact_part_name": null,
+      "visible_polygon_normalized": [
+        [
+          0.36203703703703705,
+          0.3390625
+        ],
+        [
+          0.45925925925925926,
+          0.34010416666666665
+        ],
+        [
+          0.45740740740740743,
+          0.35625
+        ],
+        [
+          0.3611111111111111,
+          0.35625
+        ]
+      ],
+      "geometry_scope": "visible_body_excluding_external_leads_and_solder",
+      "boundary_uncertainty_pixels": 6,
+      "source_component_id": null,
+      "glb_selector": null
+    },
+    {
+      "instance_id": "bench-esp8266-01:resistor_above_transistor",
+      "parent_id": "bench-esp8266-01",
+      "kind": "resistor",
+      "observed_marking": "?21",
+      "exact_part_name": null,
+      "visible_polygon_normalized": [
+        [
+          0.40370370370370373,
+          0.534375
+        ],
+        [
+          0.5009259259259259,
+          0.534375
+        ],
+        [
+          0.5009259259259259,
+          0.5520833333333334
+        ],
+        [
+          0.4046296296296296,
+          0.5520833333333334
+        ]
+      ],
+      "geometry_scope": "visible_body_excluding_external_leads_and_solder",
+      "boundary_uncertainty_pixels": 6,
+      "source_component_id": null,
+      "glb_selector": null
+    },
+    {
+      "instance_id": "bench-esp8266-01:resistor_103_between_transistors",
+      "parent_id": "bench-esp8266-01",
+      "kind": "resistor",
+      "observed_marking": "103",
+      "exact_part_name": null,
+      "visible_polygon_normalized": [
+        [
+          0.5370370370370371,
+          0.6010416666666667
+        ],
+        [
+          0.6361111111111111,
+          0.6026041666666667
+        ],
+        [
+          0.6351851851851852,
+          0.6223958333333334
+        ],
+        [
+          0.5361111111111111,
+          0.621875
+        ]
+      ],
+      "geometry_scope": "visible_body_excluding_external_leads_and_solder",
+      "boundary_uncertainty_pixels": 6,
+      "source_component_id": null,
+      "glb_selector": null
+    },
+    {
+      "instance_id": "bench-esp8266-01:three_lead_body_upper",
+      "parent_id": "bench-esp8266-01",
+      "kind": "three_terminal_semiconductor",
+      "observed_marking": null,
+      "exact_part_name": null,
+      "visible_polygon_normalized": [
+        [
+          0.5425925925925926,
+          0.5411458333333333
+        ],
+        [
+          0.6324074074074074,
+          0.5427083333333333
+        ],
+        [
+          0.6314814814814815,
+          0.5635416666666667
+        ],
+        [
+          0.5416666666666666,
+          0.5625
+        ]
+      ],
+      "geometry_scope": "visible_body_excluding_external_leads_and_solder",
+      "boundary_uncertainty_pixels": 6,
+      "source_component_id": null,
+      "glb_selector": null
+    },
+    {
+      "instance_id": "bench-esp8266-01:three_lead_body_lower",
+      "parent_id": "bench-esp8266-01",
+      "kind": "three_terminal_semiconductor",
+      "observed_marking": null,
+      "exact_part_name": null,
+      "visible_polygon_normalized": [
+        [
+          0.5416666666666666,
+          0.671875
+        ],
+        [
+          0.6324074074074074,
+          0.6734375
+        ],
+        [
+          0.6314814814814815,
+          0.6895833333333333
+        ],
+        [
+          0.5407407407407407,
+          0.6885416666666667
+        ]
+      ],
+      "geometry_scope": "visible_body_excluding_external_leads_and_solder",
+      "boundary_uncertainty_pixels": 6,
+      "source_component_id": null,
+      "glb_selector": null
+    },
+    {
+      "instance_id": "bench-esp8266-01:capacitor_marked_106",
+      "parent_id": "bench-esp8266-01",
+      "kind": "capacitor",
+      "observed_marking": "106",
+      "exact_part_name": null,
+      "visible_polygon_normalized": [
+        [
+          0.22407407407407406,
+          0.4140625
+        ],
+        [
+          0.3074074074074074,
+          0.41458333333333336
+        ],
+        [
+          0.30277777777777776,
+          0.4786458333333333
+        ],
+        [
+          0.2212962962962963,
+          0.47760416666666666
+        ]
+      ],
+      "geometry_scope": "visible_body_excluding_external_leads_and_solder",
+      "boundary_uncertainty_pixels": 6,
+      "source_component_id": null,
+      "glb_selector": null
+    },
+    {
+      "instance_id": "bench-esp8266-01:capacitor_marked_10_16V",
+      "parent_id": "bench-esp8266-01",
+      "kind": "capacitor",
+      "observed_marking": "10 16V",
+      "exact_part_name": null,
+      "visible_polygon_normalized": [
+        [
+          0.10277777777777777,
+          0.4041666666666667
+        ],
+        [
+          0.18888888888888888,
+          0.4041666666666667
+        ],
+        [
+          0.19074074074074074,
+          0.45989583333333334
+        ],
+        [
+          0.10092592592592593,
+          0.46041666666666664
+        ]
+      ],
+      "geometry_scope": "visible_body_excluding_external_leads_and_solder",
+      "boundary_uncertainty_pixels": 6,
+      "source_component_id": null,
+      "glb_selector": null
+    },
+    {
+      "instance_id": "bench-esp8266-01:passive_left_below_module",
+      "parent_id": "bench-esp8266-01",
+      "kind": "passive_component",
+      "observed_marking": null,
+      "exact_part_name": null,
+      "visible_polygon_normalized": [
+        [
+          0.12407407407407407,
+          0.3333333333333333
+        ],
+        [
+          0.16018518518518518,
+          0.3338541666666667
+        ],
+        [
+          0.15833333333333333,
+          0.3572916666666667
+        ],
+        [
+          0.12314814814814815,
+          0.3572916666666667
+        ]
+      ],
+      "geometry_scope": "visible_body_excluding_external_leads_and_solder",
+      "boundary_uncertainty_pixels": 6,
+      "source_component_id": null,
+      "glb_selector": null
+    },
+    {
+      "instance_id": "bench-esp8266-01:passive_right_below_module",
+      "parent_id": "bench-esp8266-01",
+      "kind": "passive_component",
+      "observed_marking": null,
+      "exact_part_name": null,
+      "visible_polygon_normalized": [
+        [
+          0.22870370370370371,
+          0.3338541666666667
+        ],
+        [
+          0.2675925925925926,
+          0.3338541666666667
+        ],
+        [
+          0.2638888888888889,
+          0.35989583333333336
+        ],
+        [
+          0.22685185185185186,
+          0.359375
+        ]
+      ],
+      "geometry_scope": "visible_body_excluding_external_leads_and_solder",
+      "boundary_uncertainty_pixels": 6,
+      "source_component_id": null,
+      "glb_selector": null
+    },
+    {
+      "instance_id": "bench-esp8266-01:passive_above_regulator_right",
+      "parent_id": "bench-esp8266-01",
+      "kind": "passive_component",
+      "observed_marking": null,
+      "exact_part_name": null,
+      "visible_polygon_normalized": [
+        [
+          0.5527777777777778,
+          0.3385416666666667
+        ],
+        [
+          0.5935185185185186,
+          0.33958333333333335
+        ],
+        [
+          0.5907407407407408,
+          0.35
+        ],
+        [
+          0.5509259259259259,
+          0.3494791666666667
+        ]
+      ],
+      "geometry_scope": "visible_body_excluding_external_leads_and_solder",
+      "boundary_uncertainty_pixels": 6,
+      "source_component_id": null,
+      "glb_selector": null
+    },
+    {
+      "instance_id": "bench-esp8266-01:passive_below_controller_upper",
+      "parent_id": "bench-esp8266-01",
+      "kind": "passive_component",
+      "observed_marking": null,
+      "exact_part_name": null,
+      "visible_polygon_normalized": [
+        [
+          0.4722222222222222,
+          0.7380208333333333
+        ],
+        [
+          0.5185185185185185,
+          0.7375
+        ],
+        [
+          0.5185185185185185,
+          0.7494791666666667
+        ],
+        [
+          0.4722222222222222,
+          0.75
+        ]
+      ],
+      "geometry_scope": "visible_body_excluding_external_leads_and_solder",
+      "boundary_uncertainty_pixels": 6,
+      "source_component_id": null,
+      "glb_selector": null
+    },
+    {
+      "instance_id": "bench-esp8266-01:passive_below_controller_lower",
+      "parent_id": "bench-esp8266-01",
+      "kind": "passive_component",
+      "observed_marking": null,
+      "exact_part_name": null,
+      "visible_polygon_normalized": [
+        [
+          0.4722222222222222,
+          0.7770833333333333
+        ],
+        [
+          0.5175925925925926,
+          0.7770833333333333
+        ],
+        [
+          0.5175925925925926,
+          0.7890625
+        ],
+        [
+          0.4722222222222222,
+          0.7890625
+        ]
+      ],
+      "geometry_scope": "visible_body_excluding_external_leads_and_solder",
+      "boundary_uncertainty_pixels": 6,
+      "source_component_id": null,
+      "glb_selector": null
+    },
+    {
+      "instance_id": "bench-esp8266-01:right_header:D0",
+      "parent_id": "bench-esp8266-01",
+      "kind": "header_contact",
+      "point_normalized": [
+        0.8222222222222222,
+        0.09375
+      ],
+      "printed_alias": "D0",
+      "source_module_pin_number": null,
+      "source_pin_name": null,
+      "physical_feature": "visible_solder_contact_center",
+      "electrical_continuity_verified": false,
+      "metric_position_metres": null,
+      "glb_selector": null
+    },
+    {
+      "instance_id": "bench-esp8266-01:right_header:D1",
+      "parent_id": "bench-esp8266-01",
+      "kind": "header_contact",
+      "point_normalized": [
+        0.8231481481481482,
+        0.13489583333333333
+      ],
+      "printed_alias": "D1",
+      "source_module_pin_number": null,
+      "source_pin_name": null,
+      "physical_feature": "visible_solder_contact_center",
+      "electrical_continuity_verified": false,
+      "metric_position_metres": null,
+      "glb_selector": null
+    },
+    {
+      "instance_id": "bench-esp8266-01:right_header:D2",
+      "parent_id": "bench-esp8266-01",
+      "kind": "header_contact",
+      "point_normalized": [
+        0.825925925925926,
+        0.17604166666666668
+      ],
+      "printed_alias": "D2",
+      "source_module_pin_number": null,
+      "source_pin_name": null,
+      "physical_feature": "visible_solder_contact_center",
+      "electrical_continuity_verified": false,
+      "metric_position_metres": null,
+      "glb_selector": null
+    },
+    {
+      "instance_id": "bench-esp8266-01:right_header:D3",
+      "parent_id": "bench-esp8266-01",
+      "kind": "header_contact",
+      "point_normalized": [
+        0.825,
+        0.21666666666666667
+      ],
+      "printed_alias": "D3",
+      "source_module_pin_number": null,
+      "source_pin_name": null,
+      "physical_feature": "visible_solder_contact_center",
+      "electrical_continuity_verified": false,
+      "metric_position_metres": null,
+      "glb_selector": null
+    },
+    {
+      "instance_id": "bench-esp8266-01:right_header:D4",
+      "parent_id": "bench-esp8266-01",
+      "kind": "header_contact",
+      "point_normalized": [
+        0.825925925925926,
+        0.25729166666666664
+      ],
+      "printed_alias": "D4",
+      "source_module_pin_number": null,
+      "source_pin_name": null,
+      "physical_feature": "visible_solder_contact_center",
+      "electrical_continuity_verified": false,
+      "metric_position_metres": null,
+      "glb_selector": null
+    },
+    {
+      "instance_id": "bench-esp8266-01:right_header:3V_upper",
+      "parent_id": "bench-esp8266-01",
+      "kind": "header_contact",
+      "point_normalized": [
+        0.825925925925926,
+        0.2989583333333333
+      ],
+      "printed_alias": "3V",
+      "source_module_pin_number": null,
+      "source_pin_name": null,
+      "physical_feature": "visible_solder_contact_center",
+      "electrical_continuity_verified": false,
+      "metric_position_metres": null,
+      "glb_selector": null
+    },
+    {
+      "instance_id": "bench-esp8266-01:right_header:G_upper",
+      "parent_id": "bench-esp8266-01",
+      "kind": "header_contact",
+      "point_normalized": [
+        0.8277777777777777,
+        0.3411458333333333
+      ],
+      "printed_alias": "G",
+      "source_module_pin_number": null,
+      "source_pin_name": null,
+      "physical_feature": "visible_solder_contact_center",
+      "electrical_continuity_verified": false,
+      "metric_position_metres": null,
+      "glb_selector": null
+    },
+    {
+      "instance_id": "bench-esp8266-01:right_header:D5",
+      "parent_id": "bench-esp8266-01",
+      "kind": "header_contact",
+      "point_normalized": [
+        0.8268518518518518,
+        0.38385416666666666
+      ],
+      "printed_alias": "D5",
+      "source_module_pin_number": null,
+      "source_pin_name": null,
+      "physical_feature": "visible_solder_contact_center",
+      "electrical_continuity_verified": false,
+      "metric_position_metres": null,
+      "glb_selector": null
+    },
+    {
+      "instance_id": "bench-esp8266-01:right_header:D6",
+      "parent_id": "bench-esp8266-01",
+      "kind": "header_contact",
+      "point_normalized": [
+        0.825925925925926,
+        0.4276041666666667
+      ],
+      "printed_alias": "D6",
+      "source_module_pin_number": null,
+      "source_pin_name": null,
+      "physical_feature": "visible_solder_contact_center",
+      "electrical_continuity_verified": false,
+      "metric_position_metres": null,
+      "glb_selector": null
+    },
+    {
+      "instance_id": "bench-esp8266-01:right_header:D7",
+      "parent_id": "bench-esp8266-01",
+      "kind": "header_contact",
+      "point_normalized": [
+        0.825925925925926,
+        0.4703125
+      ],
+      "printed_alias": "D7",
+      "source_module_pin_number": null,
+      "source_pin_name": null,
+      "physical_feature": "visible_solder_contact_center",
+      "electrical_continuity_verified": false,
+      "metric_position_metres": null,
+      "glb_selector": null
+    },
+    {
+      "instance_id": "bench-esp8266-01:right_header:D8",
+      "parent_id": "bench-esp8266-01",
+      "kind": "header_contact",
+      "point_normalized": [
+        0.825925925925926,
+        0.5145833333333333
+      ],
+      "printed_alias": "D8",
+      "source_module_pin_number": null,
+      "source_pin_name": null,
+      "physical_feature": "visible_solder_contact_center",
+      "electrical_continuity_verified": false,
+      "metric_position_metres": null,
+      "glb_selector": null
+    },
+    {
+      "instance_id": "bench-esp8266-01:right_header:RX",
+      "parent_id": "bench-esp8266-01",
+      "kind": "header_contact",
+      "point_normalized": [
+        0.825,
+        0.5598958333333334
+      ],
+      "printed_alias": "RX",
+      "source_module_pin_number": null,
+      "source_pin_name": null,
+      "physical_feature": "visible_solder_contact_center",
+      "electrical_continuity_verified": false,
+      "metric_position_metres": null,
+      "glb_selector": null
+    },
+    {
+      "instance_id": "bench-esp8266-01:right_header:TX",
+      "parent_id": "bench-esp8266-01",
+      "kind": "header_contact",
+      "point_normalized": [
+        0.825,
+        0.6046875
+      ],
+      "printed_alias": "TX",
+      "source_module_pin_number": null,
+      "source_pin_name": null,
+      "physical_feature": "visible_solder_contact_center",
+      "electrical_continuity_verified": false,
+      "metric_position_metres": null,
+      "glb_selector": null
+    },
+    {
+      "instance_id": "bench-esp8266-01:right_header:G_lower",
+      "parent_id": "bench-esp8266-01",
+      "kind": "header_contact",
+      "point_normalized": [
+        0.8240740740740741,
+        0.65
+      ],
+      "printed_alias": "G",
+      "source_module_pin_number": null,
+      "source_pin_name": null,
+      "physical_feature": "visible_solder_contact_center",
+      "electrical_continuity_verified": false,
+      "metric_position_metres": null,
+      "glb_selector": null
+    },
+    {
+      "instance_id": "bench-esp8266-01:right_header:3V_lower",
+      "parent_id": "bench-esp8266-01",
+      "kind": "header_contact",
+      "point_normalized": [
+        0.8222222222222222,
+        0.696875
+      ],
+      "printed_alias": "3V",
+      "source_module_pin_number": null,
+      "source_pin_name": null,
+      "physical_feature": "visible_solder_contact_center",
+      "electrical_continuity_verified": false,
+      "metric_position_metres": null,
+      "glb_selector": null
+    },
+    {
+      "instance_id": "bench-esp8266-01:esp12e_module:contact:1",
+      "parent_id": "bench-esp8266-01:esp12e_module",
+      "kind": "module_contact",
+      "point_normalized": [
+        0.16666666666666666,
+        0.0453125
+      ],
+      "printed_alias": null,
+      "source_module_pin_number": 1,
+      "source_pin_name": "RST",
+      "physical_feature": "visible_castellated_hole_center",
+      "electrical_continuity_verified": false,
+      "metric_position_metres": null,
+      "glb_selector": null
+    },
+    {
+      "instance_id": "bench-esp8266-01:esp12e_module:contact:2",
+      "parent_id": "bench-esp8266-01:esp12e_module",
+      "kind": "module_contact",
+      "point_normalized": [
+        0.16574074074074074,
+        0.07552083333333333
+      ],
+      "printed_alias": null,
+      "source_module_pin_number": 2,
+      "source_pin_name": "ADC",
+      "physical_feature": "visible_castellated_hole_center",
+      "electrical_continuity_verified": false,
+      "metric_position_metres": null,
+      "glb_selector": null
+    },
+    {
+      "instance_id": "bench-esp8266-01:esp12e_module:contact:3",
+      "parent_id": "bench-esp8266-01:esp12e_module",
+      "kind": "module_contact",
+      "point_normalized": [
+        0.1638888888888889,
+        0.10677083333333333
+      ],
+      "printed_alias": null,
+      "source_module_pin_number": 3,
+      "source_pin_name": "EN",
+      "physical_feature": "visible_castellated_hole_center",
+      "electrical_continuity_verified": false,
+      "metric_position_metres": null,
+      "glb_selector": null
+    },
+    {
+      "instance_id": "bench-esp8266-01:esp12e_module:contact:4",
+      "parent_id": "bench-esp8266-01:esp12e_module",
+      "kind": "module_contact",
+      "point_normalized": [
+        0.16018518518518518,
+        0.13854166666666667
+      ],
+      "printed_alias": null,
+      "source_module_pin_number": 4,
+      "source_pin_name": "IO16",
+      "physical_feature": "visible_castellated_hole_center",
+      "electrical_continuity_verified": false,
+      "metric_position_metres": null,
+      "glb_selector": null
+    },
+    {
+      "instance_id": "bench-esp8266-01:esp12e_module:contact:5",
+      "parent_id": "bench-esp8266-01:esp12e_module",
+      "kind": "module_contact",
+      "point_normalized": [
+        0.16018518518518518,
+        0.17083333333333334
+      ],
+      "printed_alias": null,
+      "source_module_pin_number": 5,
+      "source_pin_name": "IO14",
+      "physical_feature": "visible_castellated_hole_center",
+      "electrical_continuity_verified": false,
+      "metric_position_metres": null,
+      "glb_selector": null
+    },
+    {
+      "instance_id": "bench-esp8266-01:esp12e_module:contact:6",
+      "parent_id": "bench-esp8266-01:esp12e_module",
+      "kind": "module_contact",
+      "point_normalized": [
+        0.15648148148148147,
+        0.20416666666666666
+      ],
+      "printed_alias": null,
+      "source_module_pin_number": 6,
+      "source_pin_name": "IO12",
+      "physical_feature": "visible_castellated_hole_center",
+      "electrical_continuity_verified": false,
+      "metric_position_metres": null,
+      "glb_selector": null
+    },
+    {
+      "instance_id": "bench-esp8266-01:esp12e_module:contact:7",
+      "parent_id": "bench-esp8266-01:esp12e_module",
+      "kind": "module_contact",
+      "point_normalized": [
+        0.1537037037037037,
+        0.23645833333333333
+      ],
+      "printed_alias": null,
+      "source_module_pin_number": 7,
+      "source_pin_name": "IO13",
+      "physical_feature": "visible_castellated_hole_center",
+      "electrical_continuity_verified": false,
+      "metric_position_metres": null,
+      "glb_selector": null
+    },
+    {
+      "instance_id": "bench-esp8266-01:esp12e_module:contact:8",
+      "parent_id": "bench-esp8266-01:esp12e_module",
+      "kind": "module_contact",
+      "point_normalized": [
+        0.15,
+        0.2703125
+      ],
+      "printed_alias": null,
+      "source_module_pin_number": 8,
+      "source_pin_name": "VCC",
+      "physical_feature": "visible_castellated_hole_center",
+      "electrical_continuity_verified": false,
+      "metric_position_metres": null,
+      "glb_selector": null
+    },
+    {
+      "instance_id": "bench-esp8266-01:esp12e_module:contact:9",
+      "parent_id": "bench-esp8266-01:esp12e_module",
+      "kind": "module_contact",
+      "point_normalized": [
+        0.21481481481481482,
+        0.2875
+      ],
+      "printed_alias": null,
+      "source_module_pin_number": 9,
+      "source_pin_name": "CS0",
+      "physical_feature": "visible_module_gold_contact_land_center",
+      "electrical_continuity_verified": false,
+      "metric_position_metres": null,
+      "glb_selector": null
+    },
+    {
+      "instance_id": "bench-esp8266-01:esp12e_module:contact:10",
+      "parent_id": "bench-esp8266-01:esp12e_module",
+      "kind": "module_contact",
+      "point_normalized": [
+        0.2796296296296296,
+        0.2875
+      ],
+      "printed_alias": null,
+      "source_module_pin_number": 10,
+      "source_pin_name": "MISO",
+      "physical_feature": "visible_module_gold_contact_land_center",
+      "electrical_continuity_verified": false,
+      "metric_position_metres": null,
+      "glb_selector": null
+    },
+    {
+      "instance_id": "bench-esp8266-01:esp12e_module:contact:11",
+      "parent_id": "bench-esp8266-01:esp12e_module",
+      "kind": "module_contact",
+      "point_normalized": [
+        0.34444444444444444,
+        0.2875
+      ],
+      "printed_alias": null,
+      "source_module_pin_number": 11,
+      "source_pin_name": "IO9",
+      "physical_feature": "visible_module_gold_contact_land_center",
+      "electrical_continuity_verified": false,
+      "metric_position_metres": null,
+      "glb_selector": null
+    },
+    {
+      "instance_id": "bench-esp8266-01:esp12e_module:contact:12",
+      "parent_id": "bench-esp8266-01:esp12e_module",
+      "kind": "module_contact",
+      "point_normalized": [
+        0.40925925925925927,
+        0.28802083333333334
+      ],
+      "printed_alias": null,
+      "source_module_pin_number": 12,
+      "source_pin_name": "IO10",
+      "physical_feature": "visible_module_gold_contact_land_center",
+      "electrical_continuity_verified": false,
+      "metric_position_metres": null,
+      "glb_selector": null
+    },
+    {
+      "instance_id": "bench-esp8266-01:esp12e_module:contact:13",
+      "parent_id": "bench-esp8266-01:esp12e_module",
+      "kind": "module_contact",
+      "point_normalized": [
+        0.4740740740740741,
+        0.28802083333333334
+      ],
+      "printed_alias": null,
+      "source_module_pin_number": 13,
+      "source_pin_name": "MOSI",
+      "physical_feature": "visible_module_gold_contact_land_center",
+      "electrical_continuity_verified": false,
+      "metric_position_metres": null,
+      "glb_selector": null
+    },
+    {
+      "instance_id": "bench-esp8266-01:esp12e_module:contact:14",
+      "parent_id": "bench-esp8266-01:esp12e_module",
+      "kind": "module_contact",
+      "point_normalized": [
+        0.5388888888888889,
+        0.28854166666666664
+      ],
+      "printed_alias": null,
+      "source_module_pin_number": 14,
+      "source_pin_name": "SCLK",
+      "physical_feature": "visible_module_gold_contact_land_center",
+      "electrical_continuity_verified": false,
+      "metric_position_metres": null,
+      "glb_selector": null
+    },
+    {
+      "instance_id": "bench-esp8266-01:esp12e_module:contact:15",
+      "parent_id": "bench-esp8266-01:esp12e_module",
+      "kind": "module_contact",
+      "point_normalized": [
+        0.6027777777777777,
+        0.26979166666666665
+      ],
+      "printed_alias": null,
+      "source_module_pin_number": 15,
+      "source_pin_name": "GND",
+      "physical_feature": "visible_castellated_hole_center",
+      "electrical_continuity_verified": false,
+      "metric_position_metres": null,
+      "glb_selector": null
+    },
+    {
+      "instance_id": "bench-esp8266-01:esp12e_module:contact:16",
+      "parent_id": "bench-esp8266-01:esp12e_module",
+      "kind": "module_contact",
+      "point_normalized": [
+        0.6037037037037037,
+        0.2359375
+      ],
+      "printed_alias": null,
+      "source_module_pin_number": 16,
+      "source_pin_name": "IO15",
+      "physical_feature": "visible_castellated_hole_center",
+      "electrical_continuity_verified": false,
+      "metric_position_metres": null,
+      "glb_selector": null
+    },
+    {
+      "instance_id": "bench-esp8266-01:esp12e_module:contact:17",
+      "parent_id": "bench-esp8266-01:esp12e_module",
+      "kind": "module_contact",
+      "point_normalized": [
+        0.6046296296296296,
+        0.203125
+      ],
+      "printed_alias": null,
+      "source_module_pin_number": 17,
+      "source_pin_name": "IO2",
+      "physical_feature": "visible_castellated_hole_center",
+      "electrical_continuity_verified": false,
+      "metric_position_metres": null,
+      "glb_selector": null
+    },
+    {
+      "instance_id": "bench-esp8266-01:esp12e_module:contact:18",
+      "parent_id": "bench-esp8266-01:esp12e_module",
+      "kind": "module_contact",
+      "point_normalized": [
+        0.6055555555555555,
+        0.1703125
+      ],
+      "printed_alias": null,
+      "source_module_pin_number": 18,
+      "source_pin_name": "IO0",
+      "physical_feature": "visible_castellated_hole_center",
+      "electrical_continuity_verified": false,
+      "metric_position_metres": null,
+      "glb_selector": null
+    },
+    {
+      "instance_id": "bench-esp8266-01:esp12e_module:contact:19",
+      "parent_id": "bench-esp8266-01:esp12e_module",
+      "kind": "module_contact",
+      "point_normalized": [
+        0.6055555555555555,
+        0.13854166666666667
+      ],
+      "printed_alias": null,
+      "source_module_pin_number": 19,
+      "source_pin_name": "IO4",
+      "physical_feature": "visible_castellated_hole_center",
+      "electrical_continuity_verified": false,
+      "metric_position_metres": null,
+      "glb_selector": null
+    },
+    {
+      "instance_id": "bench-esp8266-01:esp12e_module:contact:20",
+      "parent_id": "bench-esp8266-01:esp12e_module",
+      "kind": "module_contact",
+      "point_normalized": [
+        0.6055555555555555,
+        0.10677083333333333
+      ],
+      "printed_alias": null,
+      "source_module_pin_number": 20,
+      "source_pin_name": "IO5",
+      "physical_feature": "visible_castellated_hole_center",
+      "electrical_continuity_verified": false,
+      "metric_position_metres": null,
+      "glb_selector": null
+    },
+    {
+      "instance_id": "bench-esp8266-01:esp12e_module:contact:21",
+      "parent_id": "bench-esp8266-01:esp12e_module",
+      "kind": "module_contact",
+      "point_normalized": [
+        0.6055555555555555,
+        0.07552083333333333
+      ],
+      "printed_alias": null,
+      "source_module_pin_number": 21,
+      "source_pin_name": "RXD",
+      "physical_feature": "visible_castellated_hole_center",
+      "electrical_continuity_verified": false,
+      "metric_position_metres": null,
+      "glb_selector": null
+    },
+    {
+      "instance_id": "bench-esp8266-01:esp12e_module:contact:22",
+      "parent_id": "bench-esp8266-01:esp12e_module",
+      "kind": "module_contact",
+      "point_normalized": [
+        0.6055555555555555,
+        0.0453125
+      ],
+      "printed_alias": null,
+      "source_module_pin_number": 22,
+      "source_pin_name": "TXD",
+      "physical_feature": "visible_castellated_hole_center",
+      "electrical_continuity_verified": false,
+      "metric_position_metres": null,
+      "glb_selector": null
+    }
+  ],
+  "calibration_landmarks": [],
+  "coverage": {
+    "assembly_records": 1,
+    "visible_body_masks": 18,
+    "header_contacts": 15,
+    "module_contacts": 22,
+    "verified_mesh_joins": 0
+  },
+  "limitations": [
+    "Partial front-side macro frame",
+    "No complete board boundary",
+    "No verified metric landmarks or camera intrinsics",
+    "No source-matched carrier geometry or selectable component meshes",
+    "No real underside/four-side/flip evaluation"
+  ]
+}

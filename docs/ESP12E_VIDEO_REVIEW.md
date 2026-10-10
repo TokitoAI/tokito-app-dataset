@@ -49,3 +49,16 @@ python scripts/validate_board_video.py data/video-captures/2026-10-10/esp12e-key
 ```
 
 Review previews live beside the keyframes. The original video and JPEGs use Git LFS.
+
+The board-specific AR index is `data/ar-alignment/esp12e-video-instances.json`.
+It preserves the module assembly as a parent of its shield and 22 contacts,
+alongside 18 visible body masks and 15 carrier-header contacts. Pixel coordinates
+are normalized against the saved upright frame. Source annotation digests and
+specimen/session grouping remain explicit. Metric positions and mesh selectors
+are null until their evidence is verified; the assembly has no fabricated mask.
+This index is supplementary to the existing multi-board manifest, and is not a
+training or production release.
+
+```powershell
+python scripts/build_esp12e_video_alignment.py --check
+```
