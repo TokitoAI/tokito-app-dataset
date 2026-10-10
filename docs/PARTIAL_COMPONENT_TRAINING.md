@@ -72,7 +72,7 @@ precision/recall. The existing complete-data trainer remains the production path
 `train_partial_component_diagnostic.py` builds a fixed 640-pixel letterbox canvas
 with a tested common transform for images, polygons and background rasters. It
 uses no geometry augmentation. Partial labels never enter a stock YOLO loss.
-The run is a YOLO11m-seg / AdamW / batch-one / AMP experiment, with a 1000-epoch
+The run is a YOLO11m-seg / AdamW / batch-one / AMP experiment with a 1e-5 peak learning rate, lowered after the initial 1e-3 run diverged. It has a 1000-epoch
 ceiling and patience 80 on held-out **partial validation loss**. That loss is not
 precision, recall or production accuracy.
 

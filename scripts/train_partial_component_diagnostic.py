@@ -144,10 +144,10 @@ def main():
     from ultralytics.nn.tasks import SegmentationModel
     from ultralytics.cfg import get_cfg
     pretrained=YOLO(args.pretrained);model=SegmentationModel(pretrained.model.yaml,nc=len(manifest['class_names']),verbose=False);model.load(pretrained.model);model=model.cuda();model.args=get_cfg();model.args.overlap_mask=False;model.args.task='segment';model.names=dict(enumerate(manifest['class_names']))
-    criterion=build_partial_segmentation_loss(model);optimizer=torch.optim.AdamW(model.parameters(),lr=.001,weight_decay=.0005);scaler=torch.amp.GradScaler('cuda');best=float('inf');best_epoch=0;records=[];start=time.time()
+    criterion=build_partial_segmentation_loss(model);optimizer=torch.optim.AdamW(model.parameters(),lr=0.00001,weight_decay=.0005);scaler=torch.amp.GradScaler('cuda');best=float('inf');best_epoch=0;records=[];start=time.time()
     for epoch in range(1,args.epochs+1):
         model.train();random.shuffle(train);tot=0
-        lr=.001*(.1+.9*(1+np.cos(np.pi*(epoch-1)/args.epochs))/2)*min(1,epoch/3)
+        lr=0.00001*(.1+.9*(1+np.cos(np.pi*(epoch-1)/args.epochs))/2)*min(1,epoch/3)
         for group in optimizer.param_groups:group['lr']=lr
         for sample in train:
             b=batch(sample);optimizer.zero_grad(set_to_none=True)
