@@ -32,7 +32,7 @@ def local_matrix(node):
     return result
 
 
-def load_triangles(path, component_map, source_dnp=None):
+def load_triangles(path, component_map, source_dnp=None, ignore_non_triangle=False):
     raw = Path(path).read_bytes()
     json_size, _ = struct.unpack_from('<II', raw, 12)
     document = json.loads(raw[20:20+json_size])
@@ -74,6 +74,8 @@ def load_triangles(path, component_map, source_dnp=None):
         if 'mesh' in node:
             for primitive in document['meshes'][node['mesh']]['primitives']:
                 if primitive.get('mode', 4) != 4:
+                    if ignore_non_triangle:
+                        continue  # Surface review omits line/point primitives; GLB is unchanged.
                     raise ValueError('Only triangle geometry is supported')
                 vertices = accessor(primitive['attributes']['POSITION']).astype(np.float64)
                 vertices = vertices @ matrix[:3, :3].T + matrix[:3, 3]
