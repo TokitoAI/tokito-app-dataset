@@ -1,0 +1,1139 @@
+{
+  "schema_version": "1.0",
+  "coordinate_system": "pixel_xyxy_origin_top_left",
+  "annotation_source": "assistant_visual_review_of_original_pixels",
+  "coverage": "Partial: two photographed board faces, three visible through-hole solder-contact rows, aliases independently transcribed from adjacent silkscreen. No exhaustive component coverage.",
+  "training_eligible": false,
+  "identity_policy": "board -> photographed contact-row part -> visible contact with printed alias. Printed aliases do not establish physical numeric pin numbering or schematic nets. Header bodies on the opposite face are not asserted.",
+  "images": [
+    {
+      "image_file": "IMG_20261009_221941_1.jpg",
+      "image_sha256": "ecd914ed2b69d26e3ff670951d946065a1d3a4001d03e00ffc07700209bd0b40",
+      "image_width": 1016,
+      "image_height": 1866,
+      "board_family": "esp8266_board",
+      "parts": [
+        {
+          "id": "esp8266-left-contact-row",
+          "class": "through_hole_contact_row",
+          "photo_bbox_xyxy_pixels": [
+            0,
+            351,
+            68,
+            1623
+          ],
+          "review_status": "visually_reviewed_part_location",
+          "source_refdes": null,
+          "evidence": "Visible regularly spaced outer-edge through-hole solder contacts beside individually printed labels; row annotation covers visible contacts rather than an unseen header body.",
+          "truncated": true,
+          "pins": [
+            {
+              "id": "esp8266-left-contact-row-1-a0",
+              "parent_part_id": "esp8266-left-contact-row",
+              "label_semantics": "board_silkscreen_alias",
+              "printed_alias": "A0",
+              "pin_number": null,
+              "source_net": null,
+              "source_refdes": null,
+              "photo_bbox_xyxy_pixels": [
+                0,
+                362,
+                67,
+                420
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                74,
+                354,
+                201,
+                425
+              ],
+              "review_status": "visually_reviewed_contact_and_printed_alias",
+              "evidence": "Printed A0 is immediately beside this isolated outer-edge solder contact in the reviewed original photo. Alias is transcribed as printed; no numeric pin or net identity inferred.",
+              "truncated": true
+            },
+            {
+              "id": "esp8266-left-contact-row-2-g",
+              "parent_part_id": "esp8266-left-contact-row",
+              "label_semantics": "board_silkscreen_alias",
+              "printed_alias": "G",
+              "pin_number": null,
+              "source_net": null,
+              "source_refdes": null,
+              "photo_bbox_xyxy_pixels": [
+                0,
+                449,
+                67,
+                507
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                74,
+                441,
+                201,
+                512
+              ],
+              "review_status": "visually_reviewed_contact_and_printed_alias",
+              "evidence": "Printed G is immediately beside this isolated outer-edge solder contact in the reviewed original photo. Alias is transcribed as printed; no numeric pin or net identity inferred.",
+              "truncated": true
+            },
+            {
+              "id": "esp8266-left-contact-row-3-vu",
+              "parent_part_id": "esp8266-left-contact-row",
+              "label_semantics": "board_silkscreen_alias",
+              "printed_alias": "VU",
+              "pin_number": null,
+              "source_net": null,
+              "source_refdes": null,
+              "photo_bbox_xyxy_pixels": [
+                0,
+                536,
+                67,
+                594
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                74,
+                528,
+                201,
+                599
+              ],
+              "review_status": "visually_reviewed_contact_and_printed_alias",
+              "evidence": "Printed VU is immediately beside this isolated outer-edge solder contact in the reviewed original photo. Alias is transcribed as printed; no numeric pin or net identity inferred.",
+              "truncated": true
+            },
+            {
+              "id": "esp8266-left-contact-row-4-s3",
+              "parent_part_id": "esp8266-left-contact-row",
+              "label_semantics": "board_silkscreen_alias",
+              "printed_alias": "S3",
+              "pin_number": null,
+              "source_net": null,
+              "source_refdes": null,
+              "photo_bbox_xyxy_pixels": [
+                0,
+                622,
+                67,
+                680
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                74,
+                614,
+                201,
+                685
+              ],
+              "review_status": "visually_reviewed_contact_and_printed_alias",
+              "evidence": "Printed S3 is immediately beside this isolated outer-edge solder contact in the reviewed original photo. Alias is transcribed as printed; no numeric pin or net identity inferred.",
+              "truncated": true
+            },
+            {
+              "id": "esp8266-left-contact-row-5-s2",
+              "parent_part_id": "esp8266-left-contact-row",
+              "label_semantics": "board_silkscreen_alias",
+              "printed_alias": "S2",
+              "pin_number": null,
+              "source_net": null,
+              "source_refdes": null,
+              "photo_bbox_xyxy_pixels": [
+                0,
+                708,
+                67,
+                766
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                74,
+                700,
+                201,
+                771
+              ],
+              "review_status": "visually_reviewed_contact_and_printed_alias",
+              "evidence": "Printed S2 is immediately beside this isolated outer-edge solder contact in the reviewed original photo. Alias is transcribed as printed; no numeric pin or net identity inferred.",
+              "truncated": true
+            },
+            {
+              "id": "esp8266-left-contact-row-6-s1",
+              "parent_part_id": "esp8266-left-contact-row",
+              "label_semantics": "board_silkscreen_alias",
+              "printed_alias": "S1",
+              "pin_number": null,
+              "source_net": null,
+              "source_refdes": null,
+              "photo_bbox_xyxy_pixels": [
+                0,
+                794,
+                67,
+                852
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                74,
+                786,
+                201,
+                857
+              ],
+              "review_status": "visually_reviewed_contact_and_printed_alias",
+              "evidence": "Printed S1 is immediately beside this isolated outer-edge solder contact in the reviewed original photo. Alias is transcribed as printed; no numeric pin or net identity inferred.",
+              "truncated": true
+            },
+            {
+              "id": "esp8266-left-contact-row-7-sc",
+              "parent_part_id": "esp8266-left-contact-row",
+              "label_semantics": "board_silkscreen_alias",
+              "printed_alias": "SC",
+              "pin_number": null,
+              "source_net": null,
+              "source_refdes": null,
+              "photo_bbox_xyxy_pixels": [
+                0,
+                878,
+                67,
+                936
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                74,
+                870,
+                201,
+                941
+              ],
+              "review_status": "visually_reviewed_contact_and_printed_alias",
+              "evidence": "Printed SC is immediately beside this isolated outer-edge solder contact in the reviewed original photo. Alias is transcribed as printed; no numeric pin or net identity inferred.",
+              "truncated": true
+            },
+            {
+              "id": "esp8266-left-contact-row-8-sk",
+              "parent_part_id": "esp8266-left-contact-row",
+              "label_semantics": "board_silkscreen_alias",
+              "printed_alias": "SK",
+              "pin_number": null,
+              "source_net": null,
+              "source_refdes": null,
+              "photo_bbox_xyxy_pixels": [
+                0,
+                1048,
+                67,
+                1106
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                74,
+                1040,
+                201,
+                1111
+              ],
+              "review_status": "visually_reviewed_contact_and_printed_alias",
+              "evidence": "Printed SK is immediately beside this isolated outer-edge solder contact in the reviewed original photo. Alias is transcribed as printed; no numeric pin or net identity inferred.",
+              "truncated": true
+            },
+            {
+              "id": "esp8266-left-contact-row-9-g",
+              "parent_part_id": "esp8266-left-contact-row",
+              "label_semantics": "board_silkscreen_alias",
+              "printed_alias": "G",
+              "pin_number": null,
+              "source_net": null,
+              "source_refdes": null,
+              "photo_bbox_xyxy_pixels": [
+                0,
+                1136,
+                67,
+                1194
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                74,
+                1128,
+                201,
+                1199
+              ],
+              "review_status": "visually_reviewed_contact_and_printed_alias",
+              "evidence": "Printed G is immediately beside this isolated outer-edge solder contact in the reviewed original photo. Alias is transcribed as printed; no numeric pin or net identity inferred.",
+              "truncated": true
+            },
+            {
+              "id": "esp8266-left-contact-row-10-3v",
+              "parent_part_id": "esp8266-left-contact-row",
+              "label_semantics": "board_silkscreen_alias",
+              "printed_alias": "3V",
+              "pin_number": null,
+              "source_net": null,
+              "source_refdes": null,
+              "photo_bbox_xyxy_pixels": [
+                0,
+                1219,
+                67,
+                1277
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                74,
+                1211,
+                201,
+                1282
+              ],
+              "review_status": "visually_reviewed_contact_and_printed_alias",
+              "evidence": "Printed 3V is immediately beside this isolated outer-edge solder contact in the reviewed original photo. Alias is transcribed as printed; no numeric pin or net identity inferred.",
+              "truncated": true
+            },
+            {
+              "id": "esp8266-left-contact-row-11-en",
+              "parent_part_id": "esp8266-left-contact-row",
+              "label_semantics": "board_silkscreen_alias",
+              "printed_alias": "EN",
+              "pin_number": null,
+              "source_net": null,
+              "source_refdes": null,
+              "photo_bbox_xyxy_pixels": [
+                0,
+                1305,
+                67,
+                1363
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                74,
+                1297,
+                201,
+                1368
+              ],
+              "review_status": "visually_reviewed_contact_and_printed_alias",
+              "evidence": "Printed EN is immediately beside this isolated outer-edge solder contact in the reviewed original photo. Alias is transcribed as printed; no numeric pin or net identity inferred.",
+              "truncated": true
+            },
+            {
+              "id": "esp8266-left-contact-row-12-rst",
+              "parent_part_id": "esp8266-left-contact-row",
+              "label_semantics": "board_silkscreen_alias",
+              "printed_alias": "RST",
+              "pin_number": null,
+              "source_net": null,
+              "source_refdes": null,
+              "photo_bbox_xyxy_pixels": [
+                0,
+                1389,
+                67,
+                1447
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                74,
+                1381,
+                201,
+                1452
+              ],
+              "review_status": "visually_reviewed_contact_and_printed_alias",
+              "evidence": "Printed RST is immediately beside this isolated outer-edge solder contact in the reviewed original photo. Alias is transcribed as printed; no numeric pin or net identity inferred.",
+              "truncated": true
+            },
+            {
+              "id": "esp8266-left-contact-row-13-g",
+              "parent_part_id": "esp8266-left-contact-row",
+              "label_semantics": "board_silkscreen_alias",
+              "printed_alias": "G",
+              "pin_number": null,
+              "source_net": null,
+              "source_refdes": null,
+              "photo_bbox_xyxy_pixels": [
+                0,
+                1475,
+                67,
+                1533
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                74,
+                1467,
+                201,
+                1538
+              ],
+              "review_status": "visually_reviewed_contact_and_printed_alias",
+              "evidence": "Printed G is immediately beside this isolated outer-edge solder contact in the reviewed original photo. Alias is transcribed as printed; no numeric pin or net identity inferred.",
+              "truncated": true
+            },
+            {
+              "id": "esp8266-left-contact-row-14-vin",
+              "parent_part_id": "esp8266-left-contact-row",
+              "label_semantics": "board_silkscreen_alias",
+              "printed_alias": "VIN",
+              "pin_number": null,
+              "source_net": null,
+              "source_refdes": null,
+              "photo_bbox_xyxy_pixels": [
+                0,
+                1559,
+                67,
+                1617
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                74,
+                1537,
+                201,
+                1622
+              ],
+              "review_status": "visually_reviewed_contact_and_printed_alias",
+              "evidence": "Printed VIN is immediately beside this isolated outer-edge solder contact in the reviewed original photo. Alias is transcribed as printed; no numeric pin or net identity inferred.",
+              "truncated": true
+            }
+          ]
+        },
+        {
+          "id": "esp8266-right-contact-row",
+          "class": "through_hole_contact_row",
+          "photo_bbox_xyxy_pixels": [
+            923,
+            350,
+            1007,
+            1623
+          ],
+          "review_status": "visually_reviewed_part_location",
+          "source_refdes": null,
+          "evidence": "Visible regularly spaced outer-edge through-hole solder contacts beside individually printed labels; row annotation covers visible contacts rather than an unseen header body.",
+          "truncated": false,
+          "pins": [
+            {
+              "id": "esp8266-right-contact-row-1-d0",
+              "parent_part_id": "esp8266-right-contact-row",
+              "label_semantics": "board_silkscreen_alias",
+              "printed_alias": "D0",
+              "pin_number": null,
+              "source_net": null,
+              "source_refdes": null,
+              "photo_bbox_xyxy_pixels": [
+                929,
+                362,
+                1004,
+                420
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                817,
+                354,
+                919,
+                425
+              ],
+              "review_status": "visually_reviewed_contact_and_printed_alias",
+              "evidence": "Printed D0 is immediately beside this isolated outer-edge solder contact in the reviewed original photo. Alias is transcribed as printed; no numeric pin or net identity inferred.",
+              "truncated": false
+            },
+            {
+              "id": "esp8266-right-contact-row-2-d1",
+              "parent_part_id": "esp8266-right-contact-row",
+              "label_semantics": "board_silkscreen_alias",
+              "printed_alias": "D1",
+              "pin_number": null,
+              "source_net": null,
+              "source_refdes": null,
+              "photo_bbox_xyxy_pixels": [
+                929,
+                449,
+                1004,
+                507
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                817,
+                441,
+                919,
+                512
+              ],
+              "review_status": "visually_reviewed_contact_and_printed_alias",
+              "evidence": "Printed D1 is immediately beside this isolated outer-edge solder contact in the reviewed original photo. Alias is transcribed as printed; no numeric pin or net identity inferred.",
+              "truncated": false
+            },
+            {
+              "id": "esp8266-right-contact-row-3-d2",
+              "parent_part_id": "esp8266-right-contact-row",
+              "label_semantics": "board_silkscreen_alias",
+              "printed_alias": "D2",
+              "pin_number": null,
+              "source_net": null,
+              "source_refdes": null,
+              "photo_bbox_xyxy_pixels": [
+                929,
+                536,
+                1004,
+                594
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                817,
+                528,
+                919,
+                599
+              ],
+              "review_status": "visually_reviewed_contact_and_printed_alias",
+              "evidence": "Printed D2 is immediately beside this isolated outer-edge solder contact in the reviewed original photo. Alias is transcribed as printed; no numeric pin or net identity inferred.",
+              "truncated": false
+            },
+            {
+              "id": "esp8266-right-contact-row-4-d3",
+              "parent_part_id": "esp8266-right-contact-row",
+              "label_semantics": "board_silkscreen_alias",
+              "printed_alias": "D3",
+              "pin_number": null,
+              "source_net": null,
+              "source_refdes": null,
+              "photo_bbox_xyxy_pixels": [
+                929,
+                622,
+                1004,
+                680
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                817,
+                614,
+                919,
+                685
+              ],
+              "review_status": "visually_reviewed_contact_and_printed_alias",
+              "evidence": "Printed D3 is immediately beside this isolated outer-edge solder contact in the reviewed original photo. Alias is transcribed as printed; no numeric pin or net identity inferred.",
+              "truncated": false
+            },
+            {
+              "id": "esp8266-right-contact-row-5-d4",
+              "parent_part_id": "esp8266-right-contact-row",
+              "label_semantics": "board_silkscreen_alias",
+              "printed_alias": "D4",
+              "pin_number": null,
+              "source_net": null,
+              "source_refdes": null,
+              "photo_bbox_xyxy_pixels": [
+                929,
+                710,
+                1004,
+                768
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                817,
+                702,
+                919,
+                773
+              ],
+              "review_status": "visually_reviewed_contact_and_printed_alias",
+              "evidence": "Printed D4 is immediately beside this isolated outer-edge solder contact in the reviewed original photo. Alias is transcribed as printed; no numeric pin or net identity inferred.",
+              "truncated": false
+            },
+            {
+              "id": "esp8266-right-contact-row-6-3v",
+              "parent_part_id": "esp8266-right-contact-row",
+              "label_semantics": "board_silkscreen_alias",
+              "printed_alias": "3V",
+              "pin_number": null,
+              "source_net": null,
+              "source_refdes": null,
+              "photo_bbox_xyxy_pixels": [
+                929,
+                795,
+                1004,
+                853
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                817,
+                787,
+                919,
+                858
+              ],
+              "review_status": "visually_reviewed_contact_and_printed_alias",
+              "evidence": "Printed 3V is immediately beside this isolated outer-edge solder contact in the reviewed original photo. Alias is transcribed as printed; no numeric pin or net identity inferred.",
+              "truncated": false
+            },
+            {
+              "id": "esp8266-right-contact-row-7-g",
+              "parent_part_id": "esp8266-right-contact-row",
+              "label_semantics": "board_silkscreen_alias",
+              "printed_alias": "G",
+              "pin_number": null,
+              "source_net": null,
+              "source_refdes": null,
+              "photo_bbox_xyxy_pixels": [
+                929,
+                880,
+                1004,
+                938
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                817,
+                872,
+                919,
+                943
+              ],
+              "review_status": "visually_reviewed_contact_and_printed_alias",
+              "evidence": "Printed G is immediately beside this isolated outer-edge solder contact in the reviewed original photo. Alias is transcribed as printed; no numeric pin or net identity inferred.",
+              "truncated": false
+            },
+            {
+              "id": "esp8266-right-contact-row-8-d5",
+              "parent_part_id": "esp8266-right-contact-row",
+              "label_semantics": "board_silkscreen_alias",
+              "printed_alias": "D5",
+              "pin_number": null,
+              "source_net": null,
+              "source_refdes": null,
+              "photo_bbox_xyxy_pixels": [
+                929,
+                967,
+                1004,
+                1025
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                817,
+                959,
+                919,
+                1030
+              ],
+              "review_status": "visually_reviewed_contact_and_printed_alias",
+              "evidence": "Printed D5 is immediately beside this isolated outer-edge solder contact in the reviewed original photo. Alias is transcribed as printed; no numeric pin or net identity inferred.",
+              "truncated": false
+            },
+            {
+              "id": "esp8266-right-contact-row-9-d6",
+              "parent_part_id": "esp8266-right-contact-row",
+              "label_semantics": "board_silkscreen_alias",
+              "printed_alias": "D6",
+              "pin_number": null,
+              "source_net": null,
+              "source_refdes": null,
+              "photo_bbox_xyxy_pixels": [
+                929,
+                1051,
+                1004,
+                1109
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                817,
+                1043,
+                919,
+                1114
+              ],
+              "review_status": "visually_reviewed_contact_and_printed_alias",
+              "evidence": "Printed D6 is immediately beside this isolated outer-edge solder contact in the reviewed original photo. Alias is transcribed as printed; no numeric pin or net identity inferred.",
+              "truncated": false
+            },
+            {
+              "id": "esp8266-right-contact-row-10-d7",
+              "parent_part_id": "esp8266-right-contact-row",
+              "label_semantics": "board_silkscreen_alias",
+              "printed_alias": "D7",
+              "pin_number": null,
+              "source_net": null,
+              "source_refdes": null,
+              "photo_bbox_xyxy_pixels": [
+                929,
+                1137,
+                1004,
+                1195
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                817,
+                1129,
+                919,
+                1200
+              ],
+              "review_status": "visually_reviewed_contact_and_printed_alias",
+              "evidence": "Printed D7 is immediately beside this isolated outer-edge solder contact in the reviewed original photo. Alias is transcribed as printed; no numeric pin or net identity inferred.",
+              "truncated": false
+            },
+            {
+              "id": "esp8266-right-contact-row-11-d8",
+              "parent_part_id": "esp8266-right-contact-row",
+              "label_semantics": "board_silkscreen_alias",
+              "printed_alias": "D8",
+              "pin_number": null,
+              "source_net": null,
+              "source_refdes": null,
+              "photo_bbox_xyxy_pixels": [
+                929,
+                1221,
+                1004,
+                1279
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                817,
+                1213,
+                919,
+                1284
+              ],
+              "review_status": "visually_reviewed_contact_and_printed_alias",
+              "evidence": "Printed D8 is immediately beside this isolated outer-edge solder contact in the reviewed original photo. Alias is transcribed as printed; no numeric pin or net identity inferred.",
+              "truncated": false
+            },
+            {
+              "id": "esp8266-right-contact-row-12-rx",
+              "parent_part_id": "esp8266-right-contact-row",
+              "label_semantics": "board_silkscreen_alias",
+              "printed_alias": "RX",
+              "pin_number": null,
+              "source_net": null,
+              "source_refdes": null,
+              "photo_bbox_xyxy_pixels": [
+                929,
+                1308,
+                1004,
+                1366
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                817,
+                1300,
+                919,
+                1371
+              ],
+              "review_status": "visually_reviewed_contact_and_printed_alias",
+              "evidence": "Printed RX is immediately beside this isolated outer-edge solder contact in the reviewed original photo. Alias is transcribed as printed; no numeric pin or net identity inferred.",
+              "truncated": false
+            },
+            {
+              "id": "esp8266-right-contact-row-13-tx",
+              "parent_part_id": "esp8266-right-contact-row",
+              "label_semantics": "board_silkscreen_alias",
+              "printed_alias": "TX",
+              "pin_number": null,
+              "source_net": null,
+              "source_refdes": null,
+              "photo_bbox_xyxy_pixels": [
+                929,
+                1391,
+                1004,
+                1449
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                817,
+                1383,
+                919,
+                1454
+              ],
+              "review_status": "visually_reviewed_contact_and_printed_alias",
+              "evidence": "Printed TX is immediately beside this isolated outer-edge solder contact in the reviewed original photo. Alias is transcribed as printed; no numeric pin or net identity inferred.",
+              "truncated": false
+            },
+            {
+              "id": "esp8266-right-contact-row-14-g",
+              "parent_part_id": "esp8266-right-contact-row",
+              "label_semantics": "board_silkscreen_alias",
+              "printed_alias": "G",
+              "pin_number": null,
+              "source_net": null,
+              "source_refdes": null,
+              "photo_bbox_xyxy_pixels": [
+                929,
+                1478,
+                1004,
+                1536
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                817,
+                1470,
+                919,
+                1541
+              ],
+              "review_status": "visually_reviewed_contact_and_printed_alias",
+              "evidence": "Printed G is immediately beside this isolated outer-edge solder contact in the reviewed original photo. Alias is transcribed as printed; no numeric pin or net identity inferred.",
+              "truncated": false
+            },
+            {
+              "id": "esp8266-right-contact-row-15-3v",
+              "parent_part_id": "esp8266-right-contact-row",
+              "label_semantics": "board_silkscreen_alias",
+              "printed_alias": "3V",
+              "pin_number": null,
+              "source_net": null,
+              "source_refdes": null,
+              "photo_bbox_xyxy_pixels": [
+                929,
+                1564,
+                1004,
+                1622
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                817,
+                1540,
+                919,
+                1627
+              ],
+              "review_status": "visually_reviewed_contact_and_printed_alias",
+              "evidence": "Printed 3V is immediately beside this isolated outer-edge solder contact in the reviewed original photo. Alias is transcribed as printed; no numeric pin or net identity inferred.",
+              "truncated": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image_file": "IMG_20261009_221838_1.jpg",
+      "image_sha256": "5f4dd67bcf13b8c716b7f6d7886d86cdcb8e764e3b3642986709fc0c771a600a",
+      "image_width": 928,
+      "image_height": 1692,
+      "board_family": "esp32_board",
+      "parts": [
+        {
+          "id": "esp32-left-contact-row",
+          "class": "through_hole_contact_row",
+          "photo_bbox_xyxy_pixels": [
+            104,
+            410,
+            169,
+            1663
+          ],
+          "review_status": "visually_reviewed_part_location",
+          "source_refdes": null,
+          "evidence": "Visible regularly spaced outer-edge through-hole solder contacts beside individually printed labels; row annotation covers visible contacts rather than an unseen header body.",
+          "truncated": false,
+          "pins": [
+            {
+              "id": "esp32-left-contact-row-1-3v3",
+              "parent_part_id": "esp32-left-contact-row",
+              "label_semantics": "board_silkscreen_alias",
+              "printed_alias": "3V3",
+              "pin_number": null,
+              "source_net": null,
+              "source_refdes": null,
+              "photo_bbox_xyxy_pixels": [
+                106,
+                417,
+                168,
+                475
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                170,
+                409,
+                220,
+                480
+              ],
+              "review_status": "visually_reviewed_contact_and_printed_alias",
+              "evidence": "Printed 3V3 is immediately beside this isolated outer-edge solder contact in the reviewed original photo. Alias is transcribed as printed; no numeric pin or net identity inferred.",
+              "truncated": false
+            },
+            {
+              "id": "esp32-left-contact-row-2-gnd",
+              "parent_part_id": "esp32-left-contact-row",
+              "label_semantics": "board_silkscreen_alias",
+              "printed_alias": "GND",
+              "pin_number": null,
+              "source_net": null,
+              "source_refdes": null,
+              "photo_bbox_xyxy_pixels": [
+                106,
+                500,
+                168,
+                558
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                170,
+                492,
+                220,
+                563
+              ],
+              "review_status": "visually_reviewed_contact_and_printed_alias",
+              "evidence": "Printed GND is immediately beside this isolated outer-edge solder contact in the reviewed original photo. Alias is transcribed as printed; no numeric pin or net identity inferred.",
+              "truncated": false
+            },
+            {
+              "id": "esp32-left-contact-row-3-d15",
+              "parent_part_id": "esp32-left-contact-row",
+              "label_semantics": "board_silkscreen_alias",
+              "printed_alias": "D15",
+              "pin_number": null,
+              "source_net": null,
+              "source_refdes": null,
+              "photo_bbox_xyxy_pixels": [
+                106,
+                584,
+                168,
+                642
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                170,
+                576,
+                220,
+                647
+              ],
+              "review_status": "visually_reviewed_contact_and_printed_alias",
+              "evidence": "Printed D15 is immediately beside this isolated outer-edge solder contact in the reviewed original photo. Alias is transcribed as printed; no numeric pin or net identity inferred.",
+              "truncated": false
+            },
+            {
+              "id": "esp32-left-contact-row-4-d2",
+              "parent_part_id": "esp32-left-contact-row",
+              "label_semantics": "board_silkscreen_alias",
+              "printed_alias": "D2",
+              "pin_number": null,
+              "source_net": null,
+              "source_refdes": null,
+              "photo_bbox_xyxy_pixels": [
+                106,
+                667,
+                168,
+                725
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                170,
+                659,
+                220,
+                730
+              ],
+              "review_status": "visually_reviewed_contact_and_printed_alias",
+              "evidence": "Printed D2 is immediately beside this isolated outer-edge solder contact in the reviewed original photo. Alias is transcribed as printed; no numeric pin or net identity inferred.",
+              "truncated": false
+            },
+            {
+              "id": "esp32-left-contact-row-5-d4",
+              "parent_part_id": "esp32-left-contact-row",
+              "label_semantics": "board_silkscreen_alias",
+              "printed_alias": "D4",
+              "pin_number": null,
+              "source_net": null,
+              "source_refdes": null,
+              "photo_bbox_xyxy_pixels": [
+                106,
+                751,
+                168,
+                809
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                170,
+                743,
+                220,
+                814
+              ],
+              "review_status": "visually_reviewed_contact_and_printed_alias",
+              "evidence": "Printed D4 is immediately beside this isolated outer-edge solder contact in the reviewed original photo. Alias is transcribed as printed; no numeric pin or net identity inferred.",
+              "truncated": false
+            },
+            {
+              "id": "esp32-left-contact-row-6-rx2",
+              "parent_part_id": "esp32-left-contact-row",
+              "label_semantics": "board_silkscreen_alias",
+              "printed_alias": "RX2",
+              "pin_number": null,
+              "source_net": null,
+              "source_refdes": null,
+              "photo_bbox_xyxy_pixels": [
+                106,
+                836,
+                168,
+                894
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                170,
+                828,
+                220,
+                899
+              ],
+              "review_status": "visually_reviewed_contact_and_printed_alias",
+              "evidence": "Printed RX2 is immediately beside this isolated outer-edge solder contact in the reviewed original photo. Alias is transcribed as printed; no numeric pin or net identity inferred.",
+              "truncated": false
+            },
+            {
+              "id": "esp32-left-contact-row-7-tx2",
+              "parent_part_id": "esp32-left-contact-row",
+              "label_semantics": "board_silkscreen_alias",
+              "printed_alias": "TX2",
+              "pin_number": null,
+              "source_net": null,
+              "source_refdes": null,
+              "photo_bbox_xyxy_pixels": [
+                106,
+                920,
+                168,
+                978
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                170,
+                912,
+                220,
+                983
+              ],
+              "review_status": "visually_reviewed_contact_and_printed_alias",
+              "evidence": "Printed TX2 is immediately beside this isolated outer-edge solder contact in the reviewed original photo. Alias is transcribed as printed; no numeric pin or net identity inferred.",
+              "truncated": false
+            },
+            {
+              "id": "esp32-left-contact-row-8-d5",
+              "parent_part_id": "esp32-left-contact-row",
+              "label_semantics": "board_silkscreen_alias",
+              "printed_alias": "D5",
+              "pin_number": null,
+              "source_net": null,
+              "source_refdes": null,
+              "photo_bbox_xyxy_pixels": [
+                106,
+                1007,
+                168,
+                1065
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                170,
+                999,
+                220,
+                1070
+              ],
+              "review_status": "visually_reviewed_contact_and_printed_alias",
+              "evidence": "Printed D5 is immediately beside this isolated outer-edge solder contact in the reviewed original photo. Alias is transcribed as printed; no numeric pin or net identity inferred.",
+              "truncated": false
+            },
+            {
+              "id": "esp32-left-contact-row-9-d18",
+              "parent_part_id": "esp32-left-contact-row",
+              "label_semantics": "board_silkscreen_alias",
+              "printed_alias": "D18",
+              "pin_number": null,
+              "source_net": null,
+              "source_refdes": null,
+              "photo_bbox_xyxy_pixels": [
+                106,
+                1091,
+                168,
+                1149
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                170,
+                1083,
+                220,
+                1154
+              ],
+              "review_status": "visually_reviewed_contact_and_printed_alias",
+              "evidence": "Printed D18 is immediately beside this isolated outer-edge solder contact in the reviewed original photo. Alias is transcribed as printed; no numeric pin or net identity inferred.",
+              "truncated": false
+            },
+            {
+              "id": "esp32-left-contact-row-10-d19",
+              "parent_part_id": "esp32-left-contact-row",
+              "label_semantics": "board_silkscreen_alias",
+              "printed_alias": "D19",
+              "pin_number": null,
+              "source_net": null,
+              "source_refdes": null,
+              "photo_bbox_xyxy_pixels": [
+                106,
+                1179,
+                168,
+                1237
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                170,
+                1171,
+                220,
+                1242
+              ],
+              "review_status": "visually_reviewed_contact_and_printed_alias",
+              "evidence": "Printed D19 is immediately beside this isolated outer-edge solder contact in the reviewed original photo. Alias is transcribed as printed; no numeric pin or net identity inferred.",
+              "truncated": false
+            },
+            {
+              "id": "esp32-left-contact-row-11-d21",
+              "parent_part_id": "esp32-left-contact-row",
+              "label_semantics": "board_silkscreen_alias",
+              "printed_alias": "D21",
+              "pin_number": null,
+              "source_net": null,
+              "source_refdes": null,
+              "photo_bbox_xyxy_pixels": [
+                106,
+                1265,
+                168,
+                1323
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                170,
+                1257,
+                220,
+                1328
+              ],
+              "review_status": "visually_reviewed_contact_and_printed_alias",
+              "evidence": "Printed D21 is immediately beside this isolated outer-edge solder contact in the reviewed original photo. Alias is transcribed as printed; no numeric pin or net identity inferred.",
+              "truncated": false
+            },
+            {
+              "id": "esp32-left-contact-row-12-rx0",
+              "parent_part_id": "esp32-left-contact-row",
+              "label_semantics": "board_silkscreen_alias",
+              "printed_alias": "RX0",
+              "pin_number": null,
+              "source_net": null,
+              "source_refdes": null,
+              "photo_bbox_xyxy_pixels": [
+                106,
+                1349,
+                168,
+                1407
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                170,
+                1341,
+                220,
+                1412
+              ],
+              "review_status": "visually_reviewed_contact_and_printed_alias",
+              "evidence": "Printed RX0 is immediately beside this isolated outer-edge solder contact in the reviewed original photo. Alias is transcribed as printed; no numeric pin or net identity inferred.",
+              "truncated": false
+            },
+            {
+              "id": "esp32-left-contact-row-13-tx0",
+              "parent_part_id": "esp32-left-contact-row",
+              "label_semantics": "board_silkscreen_alias",
+              "printed_alias": "TX0",
+              "pin_number": null,
+              "source_net": null,
+              "source_refdes": null,
+              "photo_bbox_xyxy_pixels": [
+                106,
+                1434,
+                168,
+                1492
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                170,
+                1426,
+                220,
+                1497
+              ],
+              "review_status": "visually_reviewed_contact_and_printed_alias",
+              "evidence": "Printed TX0 is immediately beside this isolated outer-edge solder contact in the reviewed original photo. Alias is transcribed as printed; no numeric pin or net identity inferred.",
+              "truncated": false
+            },
+            {
+              "id": "esp32-left-contact-row-14-d22",
+              "parent_part_id": "esp32-left-contact-row",
+              "label_semantics": "board_silkscreen_alias",
+              "printed_alias": "D22",
+              "pin_number": null,
+              "source_net": null,
+              "source_refdes": null,
+              "photo_bbox_xyxy_pixels": [
+                106,
+                1519,
+                168,
+                1577
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                170,
+                1511,
+                220,
+                1582
+              ],
+              "review_status": "visually_reviewed_contact_and_printed_alias",
+              "evidence": "Printed D22 is immediately beside this isolated outer-edge solder contact in the reviewed original photo. Alias is transcribed as printed; no numeric pin or net identity inferred.",
+              "truncated": false
+            },
+            {
+              "id": "esp32-left-contact-row-15-d23",
+              "parent_part_id": "esp32-left-contact-row",
+              "label_semantics": "board_silkscreen_alias",
+              "printed_alias": "D23",
+              "pin_number": null,
+              "source_net": null,
+              "source_refdes": null,
+              "photo_bbox_xyxy_pixels": [
+                106,
+                1605,
+                168,
+                1663
+              ],
+              "silkscreen_bbox_xyxy_pixels": [
+                170,
+                1597,
+                220,
+                1668
+              ],
+              "review_status": "visually_reviewed_contact_and_printed_alias",
+              "evidence": "Printed D23 is immediately beside this isolated outer-edge solder contact in the reviewed original photo. Alias is transcribed as printed; no numeric pin or net identity inferred.",
+              "truncated": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "images": 2,
+    "reviewed_parent_parts": 3,
+    "reviewed_alias_contacts": 44,
+    "numeric_physical_pin_labels": 0,
+    "schematic_net_assignments": 0
+  }
+}

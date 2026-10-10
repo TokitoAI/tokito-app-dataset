@@ -6,6 +6,7 @@
 *.step filter=lfs diff=lfs merge=lfs -text
 *.STEP filter=lfs diff=lfs merge=lfs -text
 *.glb filter=lfs diff=lfs merge=lfs -text
+*.dxf filter=lfs diff=lfs merge=lfs -text
 *.brd filter=lfs diff=lfs merge=lfs -text
 *.PcbDoc filter=lfs diff=lfs merge=lfs -text
 *.kicad_pcb filter=lfs diff=lfs merge=lfs -text
@@ -18,7 +19,22 @@
 *.rar filter=lfs diff=lfs merge=lfs -text
 *.zip filter=lfs diff=lfs merge=lfs -text
 *.pt filter=lfs diff=lfs merge=lfs -text
+*.tflite filter=lfs diff=lfs merge=lfs -text
+*.mp4 filter=lfs diff=lfs merge=lfs -text
 # Preserve the bytes bound by NXP provenance hashes across platforms.
 data/board-sources/nxp-frdm-mcxn236/original-design-files/** -text
 data/board-sources/nxp-frdm-mcxn236/schematic-reference-index.json -text
 data/board-sources/nxp-frdm-mcxn236/structured-rev-c/** -text
+# Preserve hash-addressed generated export payloads and source metadata.
+data/board-sources/**/generated-kicad/** -text
+# Annotation and acquisition manifests participate in raw-byte SHA-256 joins.
+annotations/*.json -text
+data/external/PCBVision/*.json -text
+data/photo-model/*.json -text
+# Preserve hash-addressed source CRLF bytes without treating CR as trailing whitespace.
+data/phone-captures/**/*.json -text whitespace=cr-at-eol
+data/video-captures/**/*.json -text whitespace=cr-at-eol
+data/ar-alignment/*.json -text whitespace=cr-at-eol
+data/board-sources/**/ar-reference/*.json -text whitespace=cr-at-eol
+data/board-sources/**/ar-source-candidate/*.json -text whitespace=cr-at-eol
+data/board-sources/**/structured-source/*.json -text

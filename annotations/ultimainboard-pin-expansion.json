@@ -1,0 +1,790 @@
+{
+  "schema_version": "1.0",
+  "status": "visually_reviewed_pin_locations_pending_canonical_integration",
+  "coordinate_system": "pixel_xyxy",
+  "target_region": "visible connector contact tip, including exposed metal immediately around its tip; bounds use full unrotated image pixels",
+  "coverage": "18 additional contact-tip boxes on three six-pin headers in one image; does not propagate labels across other photos",
+  "photo": {
+    "path": "data/photo-model/by_board/ultimainboard/IMG_20261009_222135_1.jpg",
+    "sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+    "width": 1408,
+    "height": 3112,
+    "revision_evidence": "Ultimainboard rev. 2.1.4 printed on this photo"
+  },
+  "sources": {
+    "native_pcb": {
+      "path": "data/board-sources/ultimainboard-2.1.4/1546 ultimainboard V2.1.4/Ultimaker_V2.1.4.PcbDoc",
+      "sha256": "53696e9f6f38df54a0c4d6065f8f8336e9df918773ea949b0b687fdf659d0160"
+    },
+    "imported_pcb": {
+      "path": "data/board-sources/ultimainboard-2.1.4/generated-kicad/Ultimainboard-2.1.4.imported.kicad_pcb",
+      "sha256": "f763641f75470b4fb5b95391ae1ec40ab4ffe2a80bc28dafd2685901c08680b7"
+    },
+    "original_parent_seeds": {
+      "path": "annotations/large-board-component-seeds.json",
+      "sha256": "207e36d742163ce30cd375c5f544495a1fac9188f5f681a3f5f591ccd300522f"
+    }
+  },
+  "reviewed_parent_updates": [
+    {
+      "image_file": "IMG_20261009_222135_1.jpg",
+      "seed_file": "annotations/large-board-component-seeds.json",
+      "seed_id": "major-018",
+      "part_id": "IMG_20261009_222135_1.jpg:annotations/large-board-component-seeds.json:major-018",
+      "reference_designator": "J23",
+      "bbox_xyxy_normalized": [
+        0.504854,
+        0.007812,
+        0.60302,
+        0.040527
+      ],
+      "annotation_status": "visual_reviewed_connector_box_and_refdes",
+      "evidence": "EXT/IO and J23 readable; triangle below left column marks the lower-left contact as pin 1; PCB local pad 1=(0,0) is triangle side and pad 2=(0,-2.54) is opposite row."
+    },
+    {
+      "image_file": "IMG_20261009_222135_1.jpg",
+      "seed_file": "annotations/large-board-component-seeds.json",
+      "seed_id": "major-019",
+      "part_id": "IMG_20261009_222135_1.jpg:annotations/large-board-component-seeds.json:major-019",
+      "reference_designator": "J1",
+      "bbox_xyxy_normalized": [
+        0.504854,
+        0.051758,
+        0.60302,
+        0.083496
+      ],
+      "annotation_status": "visual_reviewed_connector_box_and_refdes",
+      "evidence": "ICSP1 and J1 readable; triangle below left column marks lower-left pin 1, matching version-matched PCB local pad 1 and two-row pad geometry."
+    },
+    {
+      "image_file": "IMG_20261009_222135_1.jpg",
+      "seed_file": "annotations/large-board-component-seeds.json",
+      "seed_id": "major-025",
+      "part_id": "IMG_20261009_222135_1.jpg:annotations/large-board-component-seeds.json:major-025",
+      "reference_designator": "J2",
+      "bbox_xyxy_normalized": [
+        0.39698,
+        0.778809,
+        0.489752,
+        0.813477
+      ],
+      "annotation_status": "visual_reviewed_connector_box_and_refdes",
+      "evidence": "ICSP2 and J2 readable after rotating the local crop 180 degrees for inspection; in original image coordinates the triangle is above the rightmost column. PCB J2 has opposite rotation to J1, so upper-right is pin 1 and lower-right is pin 2."
+    }
+  ],
+  "connectors": [
+    {
+      "reference_designator": "J23",
+      "part_id": "IMG_20261009_222135_1.jpg:annotations/large-board-component-seeds.json:major-018",
+      "imported_footprint_uuid": "f9f3e8fe-b0fc-4135-b9eb-69f0f5adc2a7",
+      "footprint": "Database_Faber:HEADER-2X3P-ST-2.54",
+      "imported_location_and_rotation": [
+        229.9111,
+        103.8636,
+        -90.0
+      ],
+      "native_component_unique_id": "YBADCUDG",
+      "native_source_unique_id": "\\LTLFIAVC",
+      "source_sheet": "schema3",
+      "orientation_evidence": "EXT/IO and J23 readable; triangle below left column marks the lower-left contact as pin 1; PCB local pad 1=(0,0) is triangle side and pad 2=(0,-2.54) is opposite row.",
+      "verified_through_hole_pads": [
+        {
+          "pin_number": "1",
+          "uuid": "d18ec9f8-abe6-4497-b641-b642b7cdc7ad",
+          "net": "GND",
+          "local_at_mm": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "pin_number": "2",
+          "uuid": "0ac4c149-5e65-4881-8c97-170fbaadc368",
+          "net": "GND",
+          "local_at_mm": [
+            0.0,
+            -2.54
+          ]
+        },
+        {
+          "pin_number": "3",
+          "uuid": "f5d1ef56-8003-4755-a4fd-5bff0a12bf07",
+          "net": "+5V",
+          "local_at_mm": [
+            2.54,
+            0.0
+          ]
+        },
+        {
+          "pin_number": "4",
+          "uuid": "3cadb3d2-d9c7-40f8-abbb-16b8b695a1b0",
+          "net": "+5V",
+          "local_at_mm": [
+            2.54,
+            -2.54
+          ]
+        },
+        {
+          "pin_number": "5",
+          "uuid": "ddf3efc8-b800-494c-9860-fa6057fa0de5",
+          "net": "PC7",
+          "local_at_mm": [
+            5.08,
+            0.0
+          ]
+        },
+        {
+          "pin_number": "6",
+          "uuid": "1bffb99e-caab-4742-b787-91c6d53e331b",
+          "net": "PD7",
+          "local_at_mm": [
+            5.08,
+            -2.54
+          ]
+        }
+      ]
+    },
+    {
+      "reference_designator": "J1",
+      "part_id": "IMG_20261009_222135_1.jpg:annotations/large-board-component-seeds.json:major-019",
+      "imported_footprint_uuid": "4a73172e-a20d-40ad-b2f8-f152a9151174",
+      "footprint": "Database_Faber:HEADER-2X3P-ST-2.54",
+      "imported_location_and_rotation": [
+        222.2911,
+        103.8636,
+        -90.0
+      ],
+      "native_component_unique_id": "WTGVITMQ",
+      "native_source_unique_id": "\\KWYNNFEJ",
+      "source_sheet": "schema1",
+      "orientation_evidence": "ICSP1 and J1 readable; triangle below left column marks lower-left pin 1, matching version-matched PCB local pad 1 and two-row pad geometry.",
+      "verified_through_hole_pads": [
+        {
+          "pin_number": "1",
+          "uuid": "e1e82184-976f-4444-a1b0-bb525585d88a",
+          "net": "PB3",
+          "local_at_mm": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "pin_number": "2",
+          "uuid": "1389d178-bc93-4d57-8437-8eff7a1af88c",
+          "net": "+5V",
+          "local_at_mm": [
+            0.0,
+            -2.54
+          ]
+        },
+        {
+          "pin_number": "3",
+          "uuid": "0f030e0b-36bc-485f-a6d7-80a5d860b22a",
+          "net": "PB1",
+          "local_at_mm": [
+            2.54,
+            0.0
+          ]
+        },
+        {
+          "pin_number": "4",
+          "uuid": "9be1535d-2241-4c6e-9f90-23f9221dd938",
+          "net": "PB2",
+          "local_at_mm": [
+            2.54,
+            -2.54
+          ]
+        },
+        {
+          "pin_number": "5",
+          "uuid": "c8ac4670-8131-4918-8abf-f31650869f06",
+          "net": "NRESET",
+          "local_at_mm": [
+            5.08,
+            0.0
+          ]
+        },
+        {
+          "pin_number": "6",
+          "uuid": "fb7645f6-bee6-4f68-b1eb-5effd8888135",
+          "net": "GND",
+          "local_at_mm": [
+            5.08,
+            -2.54
+          ]
+        }
+      ]
+    },
+    {
+      "reference_designator": "J2",
+      "part_id": "IMG_20261009_222135_1.jpg:annotations/large-board-component-seeds.json:major-025",
+      "imported_footprint_uuid": "1f106c4d-79e7-4498-96e4-d15f3fdb2b1a",
+      "footprint": "Database_Faber:HEADER-2X3P-ST-2.54",
+      "imported_location_and_rotation": [
+        98.3391,
+        99.2916,
+        90.0
+      ],
+      "native_component_unique_id": "TNLMSPMV",
+      "native_source_unique_id": "\\WQSTBCJJ",
+      "source_sheet": "schema1",
+      "orientation_evidence": "ICSP2 and J2 readable after rotating the local crop 180 degrees for inspection; in original image coordinates the triangle is above the rightmost column. PCB J2 has opposite rotation to J1, so upper-right is pin 1 and lower-right is pin 2.",
+      "verified_through_hole_pads": [
+        {
+          "pin_number": "1",
+          "uuid": "9a197b60-b005-4b56-9633-f89358343dcf",
+          "net": "NetJ2_1",
+          "local_at_mm": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "pin_number": "2",
+          "uuid": "b047c498-1ce4-4b51-bff6-82f244cf6ca1",
+          "net": "+5V",
+          "local_at_mm": [
+            0.0,
+            -2.54
+          ]
+        },
+        {
+          "pin_number": "3",
+          "uuid": "bad8b13d-5800-47d4-a0e2-46281b398977",
+          "net": "NetJ2_3",
+          "local_at_mm": [
+            2.54,
+            0.0
+          ]
+        },
+        {
+          "pin_number": "4",
+          "uuid": "7f941acc-6423-4746-8384-1d028e4e2e04",
+          "net": "NetJ2_4",
+          "local_at_mm": [
+            2.54,
+            -2.54
+          ]
+        },
+        {
+          "pin_number": "5",
+          "uuid": "89d41c69-8f5e-45f8-8043-02db36bd0f37",
+          "net": "NetD2_1",
+          "local_at_mm": [
+            5.08,
+            0.0
+          ]
+        },
+        {
+          "pin_number": "6",
+          "uuid": "fcc63e00-d47c-4f85-90c7-092f0cce7058",
+          "net": "GND",
+          "local_at_mm": [
+            5.08,
+            -2.54
+          ]
+        }
+      ]
+    }
+  ],
+  "pins": [
+    {
+      "id": "ultimainboard-j23-1",
+      "image_file": "IMG_20261009_222135_1.jpg",
+      "image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "board_family": "ultimainboard",
+      "part_id": "IMG_20261009_222135_1.jpg:annotations/large-board-component-seeds.json:major-018",
+      "reference_designator": "J23",
+      "pin_number": "1",
+      "photo_bbox_xyxy_pixels": [
+        720,
+        82,
+        750,
+        117
+      ],
+      "source_net": "GND",
+      "source_net_evidence": "Unique imported thru_hole pad, checked against native PCB net-name inventory; electrical voltages not measured",
+      "imported_pad_uuid": "d18ec9f8-abe6-4497-b641-b642b7cdc7ad",
+      "imported_pad_local_at_mm": [
+        0.0,
+        0.0
+      ],
+      "source_schematic_sheet": "schema3",
+      "source_schematic_pin_record_index": 1215,
+      "source_schematic_pin_records_path": "data/board-sources/ultimainboard-2.1.4/structured-source/schematic-records/schema3.json",
+      "pin_identity_evidence": "EXT/IO and J23 readable; triangle below left column marks the lower-left contact as pin 1; PCB local pad 1=(0,0) is triangle side and pad 2=(0,-2.54) is opposite row.",
+      "review_status": "visually_reviewed_pin_location"
+    },
+    {
+      "id": "ultimainboard-j23-2",
+      "image_file": "IMG_20261009_222135_1.jpg",
+      "image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "board_family": "ultimainboard",
+      "part_id": "IMG_20261009_222135_1.jpg:annotations/large-board-component-seeds.json:major-018",
+      "reference_designator": "J23",
+      "pin_number": "2",
+      "photo_bbox_xyxy_pixels": [
+        720,
+        32,
+        750,
+        69
+      ],
+      "source_net": "GND",
+      "source_net_evidence": "Unique imported thru_hole pad, checked against native PCB net-name inventory; electrical voltages not measured",
+      "imported_pad_uuid": "0ac4c149-5e65-4881-8c97-170fbaadc368",
+      "imported_pad_local_at_mm": [
+        0.0,
+        -2.54
+      ],
+      "source_schematic_sheet": "schema3",
+      "source_schematic_pin_record_index": 1218,
+      "source_schematic_pin_records_path": "data/board-sources/ultimainboard-2.1.4/structured-source/schematic-records/schema3.json",
+      "pin_identity_evidence": "EXT/IO and J23 readable; triangle below left column marks the lower-left contact as pin 1; PCB local pad 1=(0,0) is triangle side and pad 2=(0,-2.54) is opposite row.",
+      "review_status": "visually_reviewed_pin_location"
+    },
+    {
+      "id": "ultimainboard-j23-3",
+      "image_file": "IMG_20261009_222135_1.jpg",
+      "image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "board_family": "ultimainboard",
+      "part_id": "IMG_20261009_222135_1.jpg:annotations/large-board-component-seeds.json:major-018",
+      "reference_designator": "J23",
+      "pin_number": "3",
+      "photo_bbox_xyxy_pixels": [
+        766,
+        82,
+        796,
+        117
+      ],
+      "source_net": "+5V",
+      "source_net_evidence": "Unique imported thru_hole pad, checked against native PCB net-name inventory; electrical voltages not measured",
+      "imported_pad_uuid": "f5d1ef56-8003-4755-a4fd-5bff0a12bf07",
+      "imported_pad_local_at_mm": [
+        2.54,
+        0.0
+      ],
+      "source_schematic_sheet": "schema3",
+      "source_schematic_pin_record_index": 1221,
+      "source_schematic_pin_records_path": "data/board-sources/ultimainboard-2.1.4/structured-source/schematic-records/schema3.json",
+      "pin_identity_evidence": "EXT/IO and J23 readable; triangle below left column marks the lower-left contact as pin 1; PCB local pad 1=(0,0) is triangle side and pad 2=(0,-2.54) is opposite row.",
+      "review_status": "visually_reviewed_pin_location"
+    },
+    {
+      "id": "ultimainboard-j23-4",
+      "image_file": "IMG_20261009_222135_1.jpg",
+      "image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "board_family": "ultimainboard",
+      "part_id": "IMG_20261009_222135_1.jpg:annotations/large-board-component-seeds.json:major-018",
+      "reference_designator": "J23",
+      "pin_number": "4",
+      "photo_bbox_xyxy_pixels": [
+        766,
+        32,
+        796,
+        69
+      ],
+      "source_net": "+5V",
+      "source_net_evidence": "Unique imported thru_hole pad, checked against native PCB net-name inventory; electrical voltages not measured",
+      "imported_pad_uuid": "3cadb3d2-d9c7-40f8-abbb-16b8b695a1b0",
+      "imported_pad_local_at_mm": [
+        2.54,
+        -2.54
+      ],
+      "source_schematic_sheet": "schema3",
+      "source_schematic_pin_record_index": 1224,
+      "source_schematic_pin_records_path": "data/board-sources/ultimainboard-2.1.4/structured-source/schematic-records/schema3.json",
+      "pin_identity_evidence": "EXT/IO and J23 readable; triangle below left column marks the lower-left contact as pin 1; PCB local pad 1=(0,0) is triangle side and pad 2=(0,-2.54) is opposite row.",
+      "review_status": "visually_reviewed_pin_location"
+    },
+    {
+      "id": "ultimainboard-j23-5",
+      "image_file": "IMG_20261009_222135_1.jpg",
+      "image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "board_family": "ultimainboard",
+      "part_id": "IMG_20261009_222135_1.jpg:annotations/large-board-component-seeds.json:major-018",
+      "reference_designator": "J23",
+      "pin_number": "5",
+      "photo_bbox_xyxy_pixels": [
+        811,
+        82,
+        841,
+        117
+      ],
+      "source_net": "PC7",
+      "source_net_evidence": "Unique imported thru_hole pad, checked against native PCB net-name inventory; electrical voltages not measured",
+      "imported_pad_uuid": "ddf3efc8-b800-494c-9860-fa6057fa0de5",
+      "imported_pad_local_at_mm": [
+        5.08,
+        0.0
+      ],
+      "source_schematic_sheet": "schema3",
+      "source_schematic_pin_record_index": 1227,
+      "source_schematic_pin_records_path": "data/board-sources/ultimainboard-2.1.4/structured-source/schematic-records/schema3.json",
+      "pin_identity_evidence": "EXT/IO and J23 readable; triangle below left column marks the lower-left contact as pin 1; PCB local pad 1=(0,0) is triangle side and pad 2=(0,-2.54) is opposite row.",
+      "review_status": "visually_reviewed_pin_location"
+    },
+    {
+      "id": "ultimainboard-j23-6",
+      "image_file": "IMG_20261009_222135_1.jpg",
+      "image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "board_family": "ultimainboard",
+      "part_id": "IMG_20261009_222135_1.jpg:annotations/large-board-component-seeds.json:major-018",
+      "reference_designator": "J23",
+      "pin_number": "6",
+      "photo_bbox_xyxy_pixels": [
+        811,
+        32,
+        841,
+        69
+      ],
+      "source_net": "PD7",
+      "source_net_evidence": "Unique imported thru_hole pad, checked against native PCB net-name inventory; electrical voltages not measured",
+      "imported_pad_uuid": "1bffb99e-caab-4742-b787-91c6d53e331b",
+      "imported_pad_local_at_mm": [
+        5.08,
+        -2.54
+      ],
+      "source_schematic_sheet": "schema3",
+      "source_schematic_pin_record_index": 1230,
+      "source_schematic_pin_records_path": "data/board-sources/ultimainboard-2.1.4/structured-source/schematic-records/schema3.json",
+      "pin_identity_evidence": "EXT/IO and J23 readable; triangle below left column marks the lower-left contact as pin 1; PCB local pad 1=(0,0) is triangle side and pad 2=(0,-2.54) is opposite row.",
+      "review_status": "visually_reviewed_pin_location"
+    },
+    {
+      "id": "ultimainboard-j1-1",
+      "image_file": "IMG_20261009_222135_1.jpg",
+      "image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "board_family": "ultimainboard",
+      "part_id": "IMG_20261009_222135_1.jpg:annotations/large-board-component-seeds.json:major-019",
+      "reference_designator": "J1",
+      "pin_number": "1",
+      "photo_bbox_xyxy_pixels": [
+        720,
+        216,
+        750,
+        251
+      ],
+      "source_net": "PB3",
+      "source_net_evidence": "Unique imported thru_hole pad, checked against native PCB net-name inventory; electrical voltages not measured",
+      "imported_pad_uuid": "e1e82184-976f-4444-a1b0-bb525585d88a",
+      "imported_pad_local_at_mm": [
+        0.0,
+        0.0
+      ],
+      "source_schematic_sheet": "schema1",
+      "source_schematic_pin_record_index": 510,
+      "source_schematic_pin_records_path": "data/board-sources/ultimainboard-2.1.4/structured-source/schematic-records/schema1.json",
+      "pin_identity_evidence": "ICSP1 and J1 readable; triangle below left column marks lower-left pin 1, matching version-matched PCB local pad 1 and two-row pad geometry.",
+      "review_status": "visually_reviewed_pin_location"
+    },
+    {
+      "id": "ultimainboard-j1-2",
+      "image_file": "IMG_20261009_222135_1.jpg",
+      "image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "board_family": "ultimainboard",
+      "part_id": "IMG_20261009_222135_1.jpg:annotations/large-board-component-seeds.json:major-019",
+      "reference_designator": "J1",
+      "pin_number": "2",
+      "photo_bbox_xyxy_pixels": [
+        720,
+        170,
+        750,
+        208
+      ],
+      "source_net": "+5V",
+      "source_net_evidence": "Unique imported thru_hole pad, checked against native PCB net-name inventory; electrical voltages not measured",
+      "imported_pad_uuid": "1389d178-bc93-4d57-8437-8eff7a1af88c",
+      "imported_pad_local_at_mm": [
+        0.0,
+        -2.54
+      ],
+      "source_schematic_sheet": "schema1",
+      "source_schematic_pin_record_index": 513,
+      "source_schematic_pin_records_path": "data/board-sources/ultimainboard-2.1.4/structured-source/schematic-records/schema1.json",
+      "pin_identity_evidence": "ICSP1 and J1 readable; triangle below left column marks lower-left pin 1, matching version-matched PCB local pad 1 and two-row pad geometry.",
+      "review_status": "visually_reviewed_pin_location"
+    },
+    {
+      "id": "ultimainboard-j1-3",
+      "image_file": "IMG_20261009_222135_1.jpg",
+      "image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "board_family": "ultimainboard",
+      "part_id": "IMG_20261009_222135_1.jpg:annotations/large-board-component-seeds.json:major-019",
+      "reference_designator": "J1",
+      "pin_number": "3",
+      "photo_bbox_xyxy_pixels": [
+        766,
+        216,
+        796,
+        251
+      ],
+      "source_net": "PB1",
+      "source_net_evidence": "Unique imported thru_hole pad, checked against native PCB net-name inventory; electrical voltages not measured",
+      "imported_pad_uuid": "0f030e0b-36bc-485f-a6d7-80a5d860b22a",
+      "imported_pad_local_at_mm": [
+        2.54,
+        0.0
+      ],
+      "source_schematic_sheet": "schema1",
+      "source_schematic_pin_record_index": 516,
+      "source_schematic_pin_records_path": "data/board-sources/ultimainboard-2.1.4/structured-source/schematic-records/schema1.json",
+      "pin_identity_evidence": "ICSP1 and J1 readable; triangle below left column marks lower-left pin 1, matching version-matched PCB local pad 1 and two-row pad geometry.",
+      "review_status": "visually_reviewed_pin_location"
+    },
+    {
+      "id": "ultimainboard-j1-4",
+      "image_file": "IMG_20261009_222135_1.jpg",
+      "image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "board_family": "ultimainboard",
+      "part_id": "IMG_20261009_222135_1.jpg:annotations/large-board-component-seeds.json:major-019",
+      "reference_designator": "J1",
+      "pin_number": "4",
+      "photo_bbox_xyxy_pixels": [
+        766,
+        170,
+        796,
+        208
+      ],
+      "source_net": "PB2",
+      "source_net_evidence": "Unique imported thru_hole pad, checked against native PCB net-name inventory; electrical voltages not measured",
+      "imported_pad_uuid": "9be1535d-2241-4c6e-9f90-23f9221dd938",
+      "imported_pad_local_at_mm": [
+        2.54,
+        -2.54
+      ],
+      "source_schematic_sheet": "schema1",
+      "source_schematic_pin_record_index": 519,
+      "source_schematic_pin_records_path": "data/board-sources/ultimainboard-2.1.4/structured-source/schematic-records/schema1.json",
+      "pin_identity_evidence": "ICSP1 and J1 readable; triangle below left column marks lower-left pin 1, matching version-matched PCB local pad 1 and two-row pad geometry.",
+      "review_status": "visually_reviewed_pin_location"
+    },
+    {
+      "id": "ultimainboard-j1-5",
+      "image_file": "IMG_20261009_222135_1.jpg",
+      "image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "board_family": "ultimainboard",
+      "part_id": "IMG_20261009_222135_1.jpg:annotations/large-board-component-seeds.json:major-019",
+      "reference_designator": "J1",
+      "pin_number": "5",
+      "photo_bbox_xyxy_pixels": [
+        811,
+        216,
+        841,
+        251
+      ],
+      "source_net": "NRESET",
+      "source_net_evidence": "Unique imported thru_hole pad, checked against native PCB net-name inventory; electrical voltages not measured",
+      "imported_pad_uuid": "c8ac4670-8131-4918-8abf-f31650869f06",
+      "imported_pad_local_at_mm": [
+        5.08,
+        0.0
+      ],
+      "source_schematic_sheet": "schema1",
+      "source_schematic_pin_record_index": 522,
+      "source_schematic_pin_records_path": "data/board-sources/ultimainboard-2.1.4/structured-source/schematic-records/schema1.json",
+      "pin_identity_evidence": "ICSP1 and J1 readable; triangle below left column marks lower-left pin 1, matching version-matched PCB local pad 1 and two-row pad geometry.",
+      "review_status": "visually_reviewed_pin_location"
+    },
+    {
+      "id": "ultimainboard-j1-6",
+      "image_file": "IMG_20261009_222135_1.jpg",
+      "image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "board_family": "ultimainboard",
+      "part_id": "IMG_20261009_222135_1.jpg:annotations/large-board-component-seeds.json:major-019",
+      "reference_designator": "J1",
+      "pin_number": "6",
+      "photo_bbox_xyxy_pixels": [
+        811,
+        170,
+        841,
+        208
+      ],
+      "source_net": "GND",
+      "source_net_evidence": "Unique imported thru_hole pad, checked against native PCB net-name inventory; electrical voltages not measured",
+      "imported_pad_uuid": "fb7645f6-bee6-4f68-b1eb-5effd8888135",
+      "imported_pad_local_at_mm": [
+        5.08,
+        -2.54
+      ],
+      "source_schematic_sheet": "schema1",
+      "source_schematic_pin_record_index": 525,
+      "source_schematic_pin_records_path": "data/board-sources/ultimainboard-2.1.4/structured-source/schematic-records/schema1.json",
+      "pin_identity_evidence": "ICSP1 and J1 readable; triangle below left column marks lower-left pin 1, matching version-matched PCB local pad 1 and two-row pad geometry.",
+      "review_status": "visually_reviewed_pin_location"
+    },
+    {
+      "id": "ultimainboard-j2-1",
+      "image_file": "IMG_20261009_222135_1.jpg",
+      "image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "board_family": "ultimainboard",
+      "part_id": "IMG_20261009_222135_1.jpg:annotations/large-board-component-seeds.json:major-025",
+      "reference_designator": "J2",
+      "pin_number": "1",
+      "photo_bbox_xyxy_pixels": [
+        651,
+        2432,
+        685,
+        2482
+      ],
+      "source_net": "NetJ2_1",
+      "source_net_evidence": "Unique imported thru_hole pad, checked against native PCB net-name inventory; electrical voltages not measured",
+      "imported_pad_uuid": "9a197b60-b005-4b56-9633-f89358343dcf",
+      "imported_pad_local_at_mm": [
+        0.0,
+        0.0
+      ],
+      "source_schematic_sheet": "schema1",
+      "source_schematic_pin_record_index": 913,
+      "source_schematic_pin_records_path": "data/board-sources/ultimainboard-2.1.4/structured-source/schematic-records/schema1.json",
+      "pin_identity_evidence": "ICSP2 and J2 readable after rotating the local crop 180 degrees for inspection; in original image coordinates the triangle is above the rightmost column. PCB J2 has opposite rotation to J1, so upper-right is pin 1 and lower-right is pin 2.",
+      "review_status": "visually_reviewed_pin_location"
+    },
+    {
+      "id": "ultimainboard-j2-2",
+      "image_file": "IMG_20261009_222135_1.jpg",
+      "image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "board_family": "ultimainboard",
+      "part_id": "IMG_20261009_222135_1.jpg:annotations/large-board-component-seeds.json:major-025",
+      "reference_designator": "J2",
+      "pin_number": "2",
+      "photo_bbox_xyxy_pixels": [
+        651,
+        2489,
+        685,
+        2529
+      ],
+      "source_net": "+5V",
+      "source_net_evidence": "Unique imported thru_hole pad, checked against native PCB net-name inventory; electrical voltages not measured",
+      "imported_pad_uuid": "b047c498-1ce4-4b51-bff6-82f244cf6ca1",
+      "imported_pad_local_at_mm": [
+        0.0,
+        -2.54
+      ],
+      "source_schematic_sheet": "schema1",
+      "source_schematic_pin_record_index": 916,
+      "source_schematic_pin_records_path": "data/board-sources/ultimainboard-2.1.4/structured-source/schematic-records/schema1.json",
+      "pin_identity_evidence": "ICSP2 and J2 readable after rotating the local crop 180 degrees for inspection; in original image coordinates the triangle is above the rightmost column. PCB J2 has opposite rotation to J1, so upper-right is pin 1 and lower-right is pin 2.",
+      "review_status": "visually_reviewed_pin_location"
+    },
+    {
+      "id": "ultimainboard-j2-3",
+      "image_file": "IMG_20261009_222135_1.jpg",
+      "image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "board_family": "ultimainboard",
+      "part_id": "IMG_20261009_222135_1.jpg:annotations/large-board-component-seeds.json:major-025",
+      "reference_designator": "J2",
+      "pin_number": "3",
+      "photo_bbox_xyxy_pixels": [
+        606,
+        2432,
+        640,
+        2482
+      ],
+      "source_net": "NetJ2_3",
+      "source_net_evidence": "Unique imported thru_hole pad, checked against native PCB net-name inventory; electrical voltages not measured",
+      "imported_pad_uuid": "bad8b13d-5800-47d4-a0e2-46281b398977",
+      "imported_pad_local_at_mm": [
+        2.54,
+        0.0
+      ],
+      "source_schematic_sheet": "schema1",
+      "source_schematic_pin_record_index": 919,
+      "source_schematic_pin_records_path": "data/board-sources/ultimainboard-2.1.4/structured-source/schematic-records/schema1.json",
+      "pin_identity_evidence": "ICSP2 and J2 readable after rotating the local crop 180 degrees for inspection; in original image coordinates the triangle is above the rightmost column. PCB J2 has opposite rotation to J1, so upper-right is pin 1 and lower-right is pin 2.",
+      "review_status": "visually_reviewed_pin_location"
+    },
+    {
+      "id": "ultimainboard-j2-4",
+      "image_file": "IMG_20261009_222135_1.jpg",
+      "image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "board_family": "ultimainboard",
+      "part_id": "IMG_20261009_222135_1.jpg:annotations/large-board-component-seeds.json:major-025",
+      "reference_designator": "J2",
+      "pin_number": "4",
+      "photo_bbox_xyxy_pixels": [
+        606,
+        2489,
+        640,
+        2529
+      ],
+      "source_net": "NetJ2_4",
+      "source_net_evidence": "Unique imported thru_hole pad, checked against native PCB net-name inventory; electrical voltages not measured",
+      "imported_pad_uuid": "7f941acc-6423-4746-8384-1d028e4e2e04",
+      "imported_pad_local_at_mm": [
+        2.54,
+        -2.54
+      ],
+      "source_schematic_sheet": "schema1",
+      "source_schematic_pin_record_index": 922,
+      "source_schematic_pin_records_path": "data/board-sources/ultimainboard-2.1.4/structured-source/schematic-records/schema1.json",
+      "pin_identity_evidence": "ICSP2 and J2 readable after rotating the local crop 180 degrees for inspection; in original image coordinates the triangle is above the rightmost column. PCB J2 has opposite rotation to J1, so upper-right is pin 1 and lower-right is pin 2.",
+      "review_status": "visually_reviewed_pin_location"
+    },
+    {
+      "id": "ultimainboard-j2-5",
+      "image_file": "IMG_20261009_222135_1.jpg",
+      "image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "board_family": "ultimainboard",
+      "part_id": "IMG_20261009_222135_1.jpg:annotations/large-board-component-seeds.json:major-025",
+      "reference_designator": "J2",
+      "pin_number": "5",
+      "photo_bbox_xyxy_pixels": [
+        562,
+        2432,
+        596,
+        2482
+      ],
+      "source_net": "NetD2_1",
+      "source_net_evidence": "Unique imported thru_hole pad, checked against native PCB net-name inventory; electrical voltages not measured",
+      "imported_pad_uuid": "89d41c69-8f5e-45f8-8043-02db36bd0f37",
+      "imported_pad_local_at_mm": [
+        5.08,
+        0.0
+      ],
+      "source_schematic_sheet": "schema1",
+      "source_schematic_pin_record_index": 925,
+      "source_schematic_pin_records_path": "data/board-sources/ultimainboard-2.1.4/structured-source/schematic-records/schema1.json",
+      "pin_identity_evidence": "ICSP2 and J2 readable after rotating the local crop 180 degrees for inspection; in original image coordinates the triangle is above the rightmost column. PCB J2 has opposite rotation to J1, so upper-right is pin 1 and lower-right is pin 2.",
+      "review_status": "visually_reviewed_pin_location"
+    },
+    {
+      "id": "ultimainboard-j2-6",
+      "image_file": "IMG_20261009_222135_1.jpg",
+      "image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "board_family": "ultimainboard",
+      "part_id": "IMG_20261009_222135_1.jpg:annotations/large-board-component-seeds.json:major-025",
+      "reference_designator": "J2",
+      "pin_number": "6",
+      "photo_bbox_xyxy_pixels": [
+        562,
+        2489,
+        596,
+        2529
+      ],
+      "source_net": "GND",
+      "source_net_evidence": "Unique imported thru_hole pad, checked against native PCB net-name inventory; electrical voltages not measured",
+      "imported_pad_uuid": "fcc63e00-d47c-4f85-90c7-092f0cce7058",
+      "imported_pad_local_at_mm": [
+        5.08,
+        -2.54
+      ],
+      "source_schematic_sheet": "schema1",
+      "source_schematic_pin_record_index": 928,
+      "source_schematic_pin_records_path": "data/board-sources/ultimainboard-2.1.4/structured-source/schematic-records/schema1.json",
+      "pin_identity_evidence": "ICSP2 and J2 readable after rotating the local crop 180 degrees for inspection; in original image coordinates the triangle is above the rightmost column. PCB J2 has opposite rotation to J1, so upper-right is pin 1 and lower-right is pin 2.",
+      "review_status": "visually_reviewed_pin_location"
+    }
+  ],
+  "unreviewed_candidates": [
+    {
+      "description": "Adjacent long headers labelled ADC1 / ADC2 / EXP3 have pin-1 triangles, but photographed J26 marking is repeated next to different grouped connectors; do not assign an entire 8-pin group to source 3-pin J26 without resolving individual refs."
+    }
+  ],
+  "caveats": [
+    "2x3 imported footprints also contain bottom-layer SMD copper additions with repeated pad numbers and different nets. This review deliberately selects only the six unique thru_hole pads per connector. Do not join pin identity by pad number alone across all footprint pads.",
+    "Original seed parents were candidates at the time of this review; apply reviewed_parent_updates before importing these pins into canonical hierarchy.",
+    "Boxes describe visible contact tips, not an entire bent metal lead or obscured solder joint.",
+    "J2 NetJ2_1, NetJ2_3, NetJ2_4 and NetD2_1 are literal unnamed source nets; do not substitute inferred MCU signal names.",
+    "Net-name membership in the native net inventory verifies the names; the pin-to-net association is derived from the imported thru_hole pads, not an independent native pad decoder."
+  ]
+}
