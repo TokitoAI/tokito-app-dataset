@@ -1,0 +1,7556 @@
+{
+  "release_eligible": false,
+  "source_glb_sha256": "b89622c4013e654ffe1c8595d20d01647bc72d2af823187241487a5b36835c2d",
+  "source_pcb_sha256": "f763641f75470b4fb5b95391ae1ec40ab4ffe2a80bc28dafd2685901c08680b7",
+  "output_sha256": "3abc19ce4a20c9170fc9b96f7ecdde18f860a874fce2a2a1ee29b37bc50a7a8c",
+  "units": "metres",
+  "source_export_origin_mm": [
+    148.5011,
+    105.003595
+  ],
+  "source_origin_fit_median_residual_mm": 0.00010500000000490672,
+  "original_selectable_refs": 310,
+  "added_selectable_refs": 260,
+  "total_selectable_refs": 570,
+  "missing_refs": [
+    "SP1",
+    "SP2",
+    "SP3",
+    "SP4"
+  ],
+  "photo_registration_verified": false,
+  "physical_flip_verified": false,
+  "limitations": [
+    "K1/L2 package envelopes remain approximations; J34/U9 are matching package KiCad STEP library candidates",
+    "Contact selections are source pad surface proxies with explicit display offsets",
+    "All physical population remains unverified",
+    "Photographed specimen alignment and phone calibration are unverified"
+  ],
+  "added_regions": [
+    {
+      "reference": "JP2",
+      "selector": "ref:JP2",
+      "node": 869,
+      "mesh": 439,
+      "kind": "solder_jumper",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            100.7521,
+            103.7246
+          ],
+          "size_mm": [
+            1.5,
+            1.0
+          ],
+          "shape": 1,
+          "rotation_deg": 180.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": true,
+          "bottom_copper": false
+        },
+        {
+          "number": "2",
+          "position_mm": [
+            100.7521,
+            102.2246
+          ],
+          "size_mm": [
+            1.5,
+            1.0
+          ],
+          "shape": 1,
+          "rotation_deg": 180.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": true,
+          "bottom_copper": false
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "Fid3",
+      "selector": "ref:Fid3",
+      "node": 870,
+      "mesh": 440,
+      "kind": "fiducial",
+      "source_pads": [
+        {
+          "number": "",
+          "position_mm": [
+            223.5611,
+            139.4236
+          ],
+          "size_mm": [
+            1.5,
+            1.5
+          ],
+          "shape": 0,
+          "rotation_deg": 0.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": true,
+          "bottom_copper": false
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "Fid1",
+      "selector": "ref:Fid1",
+      "node": 871,
+      "mesh": 441,
+      "kind": "fiducial",
+      "source_pads": [
+        {
+          "number": "",
+          "position_mm": [
+            231.1811,
+            77.8286
+          ],
+          "size_mm": [
+            1.5,
+            1.5
+          ],
+          "shape": 0,
+          "rotation_deg": 0.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": true,
+          "bottom_copper": false
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "Fid2",
+      "selector": "ref:Fid2",
+      "node": 872,
+      "mesh": 442,
+      "kind": "fiducial",
+      "source_pads": [
+        {
+          "number": "",
+          "position_mm": [
+            67.7321,
+            128.5016
+          ],
+          "size_mm": [
+            1.5,
+            1.5
+          ],
+          "shape": 0,
+          "rotation_deg": 0.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": true,
+          "bottom_copper": false
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP63",
+      "selector": "ref:TP63",
+      "node": 873,
+      "mesh": 443,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            214.5403,
+            74.2618
+          ],
+          "size_mm": [
+            1.9,
+            1.9
+          ],
+          "shape": 0,
+          "rotation_deg": 90.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP6",
+      "selector": "ref:TP6",
+      "node": 874,
+      "mesh": 444,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            102.9111,
+            96.1166
+          ],
+          "size_mm": [
+            1.9,
+            1.9
+          ],
+          "shape": 0,
+          "rotation_deg": 90.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP517",
+      "selector": "ref:TP517",
+      "node": 875,
+      "mesh": 445,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            211.1451,
+            93.7596
+          ],
+          "size_mm": [
+            1.0,
+            1.0
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP440",
+      "selector": "ref:TP440",
+      "node": 876,
+      "mesh": 446,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            172.1451,
+            82.7596
+          ],
+          "size_mm": [
+            1.0,
+            1.0
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP153",
+      "selector": "ref:TP153",
+      "node": 877,
+      "mesh": 447,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            185.0011,
+            120.3036
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP52",
+      "selector": "ref:TP52",
+      "node": 878,
+      "mesh": 448,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            152.2233,
+            73.0118
+          ],
+          "size_mm": [
+            1.9,
+            1.9
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP425",
+      "selector": "ref:TP425",
+      "node": 879,
+      "mesh": 449,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            148.5451,
+            88.3596
+          ],
+          "size_mm": [
+            1.0,
+            1.0
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP148",
+      "selector": "ref:TP148",
+      "node": 880,
+      "mesh": 450,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            117.8011,
+            128.3036
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP54",
+      "selector": "ref:TP54",
+      "node": 881,
+      "mesh": 451,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            177.1623,
+            73.0118
+          ],
+          "size_mm": [
+            1.9,
+            1.9
+          ],
+          "shape": 0,
+          "rotation_deg": 90.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP7",
+      "selector": "ref:TP7",
+      "node": 882,
+      "mesh": 452,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            100.7521,
+            98.0216
+          ],
+          "size_mm": [
+            1.9,
+            1.9
+          ],
+          "shape": 0,
+          "rotation_deg": 90.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP442",
+      "selector": "ref:TP442",
+      "node": 883,
+      "mesh": 453,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            173.6011,
+            102.3036
+          ],
+          "size_mm": [
+            1.0,
+            1.0
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP67",
+      "selector": "ref:TP67",
+      "node": 884,
+      "mesh": 454,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            86.0201,
+            96.7516
+          ],
+          "size_mm": [
+            1.9,
+            1.9
+          ],
+          "shape": 0,
+          "rotation_deg": 90.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP200",
+      "selector": "ref:TP200",
+      "node": 885,
+      "mesh": 455,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            157.4011,
+            118.9036
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP439",
+      "selector": "ref:TP439",
+      "node": 886,
+      "mesh": 456,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            174.9451,
+            82.7596
+          ],
+          "size_mm": [
+            1.0,
+            1.0
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP218",
+      "selector": "ref:TP218",
+      "node": 887,
+      "mesh": 457,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            80.2011,
+            121.5036
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP62",
+      "selector": "ref:TP62",
+      "node": 888,
+      "mesh": 458,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            217.0403,
+            73.0118
+          ],
+          "size_mm": [
+            1.9,
+            1.9
+          ],
+          "shape": 0,
+          "rotation_deg": 90.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP320",
+      "selector": "ref:TP320",
+      "node": 889,
+      "mesh": 459,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            94.8011,
+            83.1036
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP147",
+      "selector": "ref:TP147",
+      "node": 890,
+      "mesh": 460,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            144.8011,
+            128.3036
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP211",
+      "selector": "ref:TP211",
+      "node": 891,
+      "mesh": 461,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            163.2011,
+            110.7036
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP12",
+      "selector": "ref:TP12",
+      "node": 892,
+      "mesh": 462,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            67.5011,
+            108.0036
+          ],
+          "size_mm": [
+            1.9,
+            1.9
+          ],
+          "shape": 0,
+          "rotation_deg": 90.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP27",
+      "selector": "ref:TP27",
+      "node": 893,
+      "mesh": 463,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            212.1311,
+            128.2476
+          ],
+          "size_mm": [
+            1.9,
+            1.9
+          ],
+          "shape": 0,
+          "rotation_deg": 90.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP1",
+      "selector": "ref:TP1",
+      "node": 894,
+      "mesh": 464,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            219.7511,
+            108.9436
+          ],
+          "size_mm": [
+            1.9,
+            1.9
+          ],
+          "shape": 0,
+          "rotation_deg": 180.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP156",
+      "selector": "ref:TP156",
+      "node": 895,
+      "mesh": 465,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            135.4011,
+            118.5036
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP101",
+      "selector": "ref:TP101",
+      "node": 896,
+      "mesh": 466,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            140.95117,
+            117.3758
+          ],
+          "size_mm": [
+            1.9,
+            1.9
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP11",
+      "selector": "ref:TP11",
+      "node": 897,
+      "mesh": 467,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            67.5011,
+            103.5036
+          ],
+          "size_mm": [
+            1.9,
+            1.9
+          ],
+          "shape": 0,
+          "rotation_deg": 90.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP57",
+      "selector": "ref:TP57",
+      "node": 898,
+      "mesh": 468,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            169.6623,
+            74.2618
+          ],
+          "size_mm": [
+            1.9,
+            1.9
+          ],
+          "shape": 0,
+          "rotation_deg": 90.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP100",
+      "selector": "ref:TP100",
+      "node": 899,
+      "mesh": 469,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            144.75117,
+            118.5758
+          ],
+          "size_mm": [
+            1.9,
+            1.9
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP146",
+      "selector": "ref:TP146",
+      "node": 900,
+      "mesh": 470,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            73.8011,
+            137.7036
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP217",
+      "selector": "ref:TP217",
+      "node": 901,
+      "mesh": 471,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            172.4011,
+            110.7036
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP315",
+      "selector": "ref:TP315",
+      "node": 902,
+      "mesh": 472,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            134.2011,
+            122.3036
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP321",
+      "selector": "ref:TP321",
+      "node": 903,
+      "mesh": 473,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            102.2011,
+            87.9036
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP416",
+      "selector": "ref:TP416",
+      "node": 904,
+      "mesh": 474,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            158.0011,
+            94.7036
+          ],
+          "size_mm": [
+            1.0,
+            1.0
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP191",
+      "selector": "ref:TP191",
+      "node": 905,
+      "mesh": 475,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            216.0011,
+            124.3036
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP126",
+      "selector": "ref:TP126",
+      "node": 906,
+      "mesh": 476,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            120.0011,
+            100.5036
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP507",
+      "selector": "ref:TP507",
+      "node": 907,
+      "mesh": 477,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            194.7451,
+            82.7596
+          ],
+          "size_mm": [
+            1.0,
+            1.0
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP170",
+      "selector": "ref:TP170",
+      "node": 908,
+      "mesh": 478,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            79.0011,
+            101.7036
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP47",
+      "selector": "ref:TP47",
+      "node": 909,
+      "mesh": 479,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            134.7843,
+            74.2618
+          ],
+          "size_mm": [
+            1.9,
+            1.9
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP300",
+      "selector": "ref:TP300",
+      "node": 910,
+      "mesh": 480,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            100.4011,
+            131.5036
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP48",
+      "selector": "ref:TP48",
+      "node": 911,
+      "mesh": 481,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            132.2843,
+            73.0118
+          ],
+          "size_mm": [
+            1.9,
+            1.9
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP438",
+      "selector": "ref:TP438",
+      "node": 912,
+      "mesh": 482,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            168.3451,
+            88.5596
+          ],
+          "size_mm": [
+            1.0,
+            1.0
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP73",
+      "selector": "ref:TP73",
+      "node": 913,
+      "mesh": 483,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            162.6011,
+            133.2006
+          ],
+          "size_mm": [
+            1.9,
+            1.9
+          ],
+          "shape": 0,
+          "rotation_deg": 90.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP176",
+      "selector": "ref:TP176",
+      "node": 914,
+      "mesh": 484,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            91.8011,
+            112.7036
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP105",
+      "selector": "ref:TP105",
+      "node": 915,
+      "mesh": 485,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            106.4011,
+            91.7036
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP167",
+      "selector": "ref:TP167",
+      "node": 916,
+      "mesh": 486,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            81.8011,
+            107.5036
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP311",
+      "selector": "ref:TP311",
+      "node": 917,
+      "mesh": 487,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            119.4011,
+            117.7036
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP142",
+      "selector": "ref:TP142",
+      "node": 918,
+      "mesh": 488,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            175.6011,
+            113.9036
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP38",
+      "selector": "ref:TP38",
+      "node": 919,
+      "mesh": 489,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            193.0811,
+            135.3596
+          ],
+          "size_mm": [
+            1.9,
+            1.9
+          ],
+          "shape": 0,
+          "rotation_deg": 90.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP525",
+      "selector": "ref:TP525",
+      "node": 920,
+      "mesh": 490,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            214.5451,
+            82.7596
+          ],
+          "size_mm": [
+            1.0,
+            1.0
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP141",
+      "selector": "ref:TP141",
+      "node": 921,
+      "mesh": 491,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            166.6011,
+            110.7036
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP133",
+      "selector": "ref:TP133",
+      "node": 922,
+      "mesh": 492,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            220.4011,
+            116.7036
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP179",
+      "selector": "ref:TP179",
+      "node": 923,
+      "mesh": 493,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            95.4011,
+            105.1036
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP162",
+      "selector": "ref:TP162",
+      "node": 924,
+      "mesh": 494,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            174.6011,
+            105.9036
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP433",
+      "selector": "ref:TP433",
+      "node": 925,
+      "mesh": 495,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            175.2011,
+            95.5036
+          ],
+          "size_mm": [
+            1.0,
+            1.0
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP154",
+      "selector": "ref:TP154",
+      "node": 926,
+      "mesh": 496,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            138.6011,
+            136.5036
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP314",
+      "selector": "ref:TP314",
+      "node": 927,
+      "mesh": 497,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            103.4011,
+            109.9036
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP219",
+      "selector": "ref:TP219",
+      "node": 928,
+      "mesh": 498,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            87.8011,
+            122.7036
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP31",
+      "selector": "ref:TP31",
+      "node": 929,
+      "mesh": 499,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            209.5911,
+            128.2476
+          ],
+          "size_mm": [
+            1.9,
+            1.9
+          ],
+          "shape": 0,
+          "rotation_deg": 90.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP10",
+      "selector": "ref:TP10",
+      "node": 930,
+      "mesh": 500,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            74.3361,
+            104.3716
+          ],
+          "size_mm": [
+            1.9,
+            1.9
+          ],
+          "shape": 0,
+          "rotation_deg": 90.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP527",
+      "selector": "ref:TP527",
+      "node": 931,
+      "mesh": 501,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            214.8011,
+            95.7036
+          ],
+          "size_mm": [
+            1.0,
+            1.0
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP22",
+      "selector": "ref:TP22",
+      "node": 932,
+      "mesh": 502,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            182.9211,
+            135.3596
+          ],
+          "size_mm": [
+            1.9,
+            1.9
+          ],
+          "shape": 0,
+          "rotation_deg": 90.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP214",
+      "selector": "ref:TP214",
+      "node": 933,
+      "mesh": 503,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            172.0781,
+            119.6116
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP117",
+      "selector": "ref:TP117",
+      "node": 934,
+      "mesh": 504,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            187.0011,
+            104.5036
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP144",
+      "selector": "ref:TP144",
+      "node": 935,
+      "mesh": 505,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            225.4011,
+            129.3036
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP524",
+      "selector": "ref:TP524",
+      "node": 936,
+      "mesh": 506,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            208.3451,
+            88.5596
+          ],
+          "size_mm": [
+            1.0,
+            1.0
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP110",
+      "selector": "ref:TP110",
+      "node": 937,
+      "mesh": 507,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            92.2011,
+            118.1036
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP174",
+      "selector": "ref:TP174",
+      "node": 938,
+      "mesh": 508,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            90.6011,
+            109.3036
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP58",
+      "selector": "ref:TP58",
+      "node": 939,
+      "mesh": 509,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            197.1013,
+            73.0118
+          ],
+          "size_mm": [
+            1.9,
+            1.9
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP125",
+      "selector": "ref:TP125",
+      "node": 940,
+      "mesh": 510,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            197.4011,
+            105.1036
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP164",
+      "selector": "ref:TP164",
+      "node": 941,
+      "mesh": 511,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            189.8011,
+            109.1036
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP208",
+      "selector": "ref:TP208",
+      "node": 942,
+      "mesh": 512,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            161.2011,
+            124.3036
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP16",
+      "selector": "ref:TP16",
+      "node": 943,
+      "mesh": 513,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            227.38717,
+            103.7998
+          ],
+          "size_mm": [
+            1.9,
+            1.9
+          ],
+          "shape": 0,
+          "rotation_deg": 90.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP135",
+      "selector": "ref:TP135",
+      "node": 944,
+      "mesh": 514,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            220.4011,
+            121.7036
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP190",
+      "selector": "ref:TP190",
+      "node": 945,
+      "mesh": 515,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            98.2011,
+            104.9036
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP316",
+      "selector": "ref:TP316",
+      "node": 946,
+      "mesh": 516,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            112.4011,
+            83.1036
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP65",
+      "selector": "ref:TP65",
+      "node": 947,
+      "mesh": 517,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            209.5403,
+            74.2618
+          ],
+          "size_mm": [
+            1.9,
+            1.9
+          ],
+          "shape": 0,
+          "rotation_deg": 90.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP443",
+      "selector": "ref:TP443",
+      "node": 948,
+      "mesh": 518,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            168.4011,
+            93.5036
+          ],
+          "size_mm": [
+            1.0,
+            1.0
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP402",
+      "selector": "ref:TP402",
+      "node": 949,
+      "mesh": 519,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            144.0011,
+            95.3036
+          ],
+          "size_mm": [
+            1.0,
+            1.0
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP132",
+      "selector": "ref:TP132",
+      "node": 950,
+      "mesh": 520,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            220.4011,
+            114.1036
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP59",
+      "selector": "ref:TP59",
+      "node": 951,
+      "mesh": 521,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            194.6013,
+            74.2618
+          ],
+          "size_mm": [
+            1.9,
+            1.9
+          ],
+          "shape": 0,
+          "rotation_deg": 90.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP305",
+      "selector": "ref:TP305",
+      "node": 952,
+      "mesh": 522,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            73.4011,
+            127.7036
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP213",
+      "selector": "ref:TP213",
+      "node": 953,
+      "mesh": 523,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            170.9165,
+            122.91999
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP304",
+      "selector": "ref:TP304",
+      "node": 954,
+      "mesh": 524,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            80.0011,
+            72.1036
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP70",
+      "selector": "ref:TP70",
+      "node": 955,
+      "mesh": 525,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            155.8701,
+            133.0736
+          ],
+          "size_mm": [
+            1.9,
+            1.9
+          ],
+          "shape": 0,
+          "rotation_deg": 90.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP441",
+      "selector": "ref:TP441",
+      "node": 956,
+      "mesh": 526,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            170.1451,
+            91.1596
+          ],
+          "size_mm": [
+            1.0,
+            1.0
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP159",
+      "selector": "ref:TP159",
+      "node": 957,
+      "mesh": 527,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            230.6011,
+            111.5036
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP307",
+      "selector": "ref:TP307",
+      "node": 958,
+      "mesh": 528,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            107.4011,
+            110.5036
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP201",
+      "selector": "ref:TP201",
+      "node": 959,
+      "mesh": 529,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            154.2011,
+            116.9036
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP516",
+      "selector": "ref:TP516",
+      "node": 960,
+      "mesh": 530,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            217.0011,
+            95.3036
+          ],
+          "size_mm": [
+            1.0,
+            1.0
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP403",
+      "selector": "ref:TP403",
+      "node": 961,
+      "mesh": 531,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            141.6011,
+            91.9036
+          ],
+          "size_mm": [
+            1.0,
+            1.0
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP169",
+      "selector": "ref:TP169",
+      "node": 962,
+      "mesh": 532,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            83.4011,
+            104.1176
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP36",
+      "selector": "ref:TP36",
+      "node": 963,
+      "mesh": 533,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            190.5411,
+            128.2476
+          ],
+          "size_mm": [
+            1.9,
+            1.9
+          ],
+          "shape": 0,
+          "rotation_deg": 90.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP303",
+      "selector": "ref:TP303",
+      "node": 964,
+      "mesh": 534,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            101.2011,
+            122.3036
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP420",
+      "selector": "ref:TP420",
+      "node": 965,
+      "mesh": 535,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            148.4011,
+            93.5036
+          ],
+          "size_mm": [
+            1.0,
+            1.0
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP212",
+      "selector": "ref:TP212",
+      "node": 966,
+      "mesh": 536,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            179.0011,
+            120.1036
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP210",
+      "selector": "ref:TP210",
+      "node": 967,
+      "mesh": 537,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            161.8011,
+            114.1036
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP18",
+      "selector": "ref:TP18",
+      "node": 968,
+      "mesh": 538,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            93.2591,
+            137.8996
+          ],
+          "size_mm": [
+            1.9,
+            1.9
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP60",
+      "selector": "ref:TP60",
+      "node": 969,
+      "mesh": 539,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            192.1013,
+            73.0118
+          ],
+          "size_mm": [
+            1.9,
+            1.9
+          ],
+          "shape": 0,
+          "rotation_deg": 90.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP17",
+      "selector": "ref:TP17",
+      "node": 970,
+      "mesh": 540,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            232.56203,
+            131.9266
+          ],
+          "size_mm": [
+            1.9,
+            1.9
+          ],
+          "shape": 0,
+          "rotation_deg": 180.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP216",
+      "selector": "ref:TP216",
+      "node": 971,
+      "mesh": 541,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            168.2011,
+            115.2006
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP521",
+      "selector": "ref:TP521",
+      "node": 972,
+      "mesh": 542,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            219.3451,
+            89.3596
+          ],
+          "size_mm": [
+            1.0,
+            1.0
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP71",
+      "selector": "ref:TP71",
+      "node": 973,
+      "mesh": 543,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            153.3301,
+            133.0736
+          ],
+          "size_mm": [
+            1.9,
+            1.9
+          ],
+          "shape": 0,
+          "rotation_deg": 90.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP46",
+      "selector": "ref:TP46",
+      "node": 974,
+      "mesh": 544,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            137.2843,
+            73.0118
+          ],
+          "size_mm": [
+            1.9,
+            1.9
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP45",
+      "selector": "ref:TP45",
+      "node": 975,
+      "mesh": 545,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            204.5111,
+            135.3596
+          ],
+          "size_mm": [
+            1.9,
+            1.9
+          ],
+          "shape": 0,
+          "rotation_deg": 90.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP119",
+      "selector": "ref:TP119",
+      "node": 976,
+      "mesh": 546,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            202.2011,
+            104.7036
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP134",
+      "selector": "ref:TP134",
+      "node": 977,
+      "mesh": 547,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            220.4011,
+            119.3036
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP215",
+      "selector": "ref:TP215",
+      "node": 978,
+      "mesh": 548,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            175.0011,
+            123.1036
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP28",
+      "selector": "ref:TP28",
+      "node": 979,
+      "mesh": 549,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            185.4611,
+            128.2476
+          ],
+          "size_mm": [
+            1.9,
+            1.9
+          ],
+          "shape": 0,
+          "rotation_deg": 90.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP180",
+      "selector": "ref:TP180",
+      "node": 980,
+      "mesh": 550,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            96.4341,
+            107.8616
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP139",
+      "selector": "ref:TP139",
+      "node": 981,
+      "mesh": 551,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            220.4011,
+            131.9036
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP74",
+      "selector": "ref:TP74",
+      "node": 982,
+      "mesh": 552,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            174.2851,
+            133.2006
+          ],
+          "size_mm": [
+            1.9,
+            1.9
+          ],
+          "shape": 0,
+          "rotation_deg": 90.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP130",
+      "selector": "ref:TP130",
+      "node": 983,
+      "mesh": 553,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            204.0011,
+            109.9036
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP43",
+      "selector": "ref:TP43",
+      "node": 984,
+      "mesh": 554,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            95.5451,
+            69.0656
+          ],
+          "size_mm": [
+            1.9,
+            1.9
+          ],
+          "shape": 0,
+          "rotation_deg": 90.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP56",
+      "selector": "ref:TP56",
+      "node": 985,
+      "mesh": 555,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            172.1623,
+            73.0118
+          ],
+          "size_mm": [
+            1.9,
+            1.9
+          ],
+          "shape": 0,
+          "rotation_deg": 90.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP66",
+      "selector": "ref:TP66",
+      "node": 986,
+      "mesh": 556,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            93.3861,
+            96.7516
+          ],
+          "size_mm": [
+            1.9,
+            1.9
+          ],
+          "shape": 0,
+          "rotation_deg": 90.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP515",
+      "selector": "ref:TP515",
+      "node": 987,
+      "mesh": 557,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            212.4011,
+            95.7036
+          ],
+          "size_mm": [
+            1.0,
+            1.0
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP76",
+      "selector": "ref:TP76",
+      "node": 988,
+      "mesh": 558,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            84.8771,
+            132.4386
+          ],
+          "size_mm": [
+            1.9,
+            1.9
+          ],
+          "shape": 0,
+          "rotation_deg": 90.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP206",
+      "selector": "ref:TP206",
+      "node": 989,
+      "mesh": 559,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            164.8011,
+            116.9036
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP511",
+      "selector": "ref:TP511",
+      "node": 990,
+      "mesh": 560,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            199.3451,
+            89.3596
+          ],
+          "size_mm": [
+            1.0,
+            1.0
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP202",
+      "selector": "ref:TP202",
+      "node": 991,
+      "mesh": 561,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            151.2011,
+            120.1036
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP205",
+      "selector": "ref:TP205",
+      "node": 992,
+      "mesh": 562,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            154.0011,
+            110.5036
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP53",
+      "selector": "ref:TP53",
+      "node": 993,
+      "mesh": 563,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            149.7233,
+            74.2618
+          ],
+          "size_mm": [
+            1.9,
+            1.9
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP24",
+      "selector": "ref:TP24",
+      "node": 994,
+      "mesh": 564,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            182.9211,
+            128.2476
+          ],
+          "size_mm": [
+            1.9,
+            1.9
+          ],
+          "shape": 0,
+          "rotation_deg": 90.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP503",
+      "selector": "ref:TP503",
+      "node": 995,
+      "mesh": 565,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            218.8011,
+            92.1036
+          ],
+          "size_mm": [
+            1.0,
+            1.0
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP21",
+      "selector": "ref:TP21",
+      "node": 996,
+      "mesh": 566,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            105.7051,
+            69.0656
+          ],
+          "size_mm": [
+            1.9,
+            1.9
+          ],
+          "shape": 0,
+          "rotation_deg": 90.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP526",
+      "selector": "ref:TP526",
+      "node": 997,
+      "mesh": 567,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            211.9451,
+            82.7596
+          ],
+          "size_mm": [
+            1.0,
+            1.0
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP120",
+      "selector": "ref:TP120",
+      "node": 998,
+      "mesh": 568,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            200.0011,
+            101.9036
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP152",
+      "selector": "ref:TP152",
+      "node": 999,
+      "mesh": 569,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            128.6011,
+            129.7036
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP177",
+      "selector": "ref:TP177",
+      "node": 1000,
+      "mesh": 570,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            95.6011,
+            119.9036
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP79",
+      "selector": "ref:TP79",
+      "node": 1001,
+      "mesh": 571,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            87.4171,
+            132.4386
+          ],
+          "size_mm": [
+            1.9,
+            1.9
+          ],
+          "shape": 0,
+          "rotation_deg": 90.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP406",
+      "selector": "ref:TP406",
+      "node": 1002,
+      "mesh": 572,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            131.9451,
+            82.9596
+          ],
+          "size_mm": [
+            1.0,
+            1.0
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP431",
+      "selector": "ref:TP431",
+      "node": 1003,
+      "mesh": 573,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            181.4011,
+            92.1036
+          ],
+          "size_mm": [
+            1.0,
+            1.0
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP4",
+      "selector": "ref:TP4",
+      "node": 1004,
+      "mesh": 574,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            219.7511,
+            103.7998
+          ],
+          "size_mm": [
+            1.9,
+            1.9
+          ],
+          "shape": 0,
+          "rotation_deg": 90.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP411",
+      "selector": "ref:TP411",
+      "node": 1005,
+      "mesh": 575,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            139.5451,
+            89.1596
+          ],
+          "size_mm": [
+            1.0,
+            1.0
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP3",
+      "selector": "ref:TP3",
+      "node": 1006,
+      "mesh": 576,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            219.7511,
+            106.4036
+          ],
+          "size_mm": [
+            1.9,
+            1.9
+          ],
+          "shape": 0,
+          "rotation_deg": 90.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP501",
+      "selector": "ref:TP501",
+      "node": 1007,
+      "mesh": 577,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            197.4011,
+            95.5036
+          ],
+          "size_mm": [
+            1.0,
+            1.0
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP319",
+      "selector": "ref:TP319",
+      "node": 1008,
+      "mesh": 578,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            110.2011,
+            92.5036
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP421",
+      "selector": "ref:TP421",
+      "node": 1009,
+      "mesh": 579,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            148.8011,
+            96.5036
+          ],
+          "size_mm": [
+            1.0,
+            1.0
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP178",
+      "selector": "ref:TP178",
+      "node": 1010,
+      "mesh": 580,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            92.8011,
+            104.9036
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP432",
+      "selector": "ref:TP432",
+      "node": 1011,
+      "mesh": 581,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            171.7451,
+            93.9596
+          ],
+          "size_mm": [
+            1.0,
+            1.0
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP14",
+      "selector": "ref:TP14",
+      "node": 1012,
+      "mesh": 582,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            122.7431,
+            137.8796
+          ],
+          "size_mm": [
+            1.9,
+            1.9
+          ],
+          "shape": 0,
+          "rotation_deg": 90.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP520",
+      "selector": "ref:TP520",
+      "node": 1013,
+      "mesh": 583,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            208.8011,
+            96.9036
+          ],
+          "size_mm": [
+            1.0,
+            1.0
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP400",
+      "selector": "ref:TP400",
+      "node": 1014,
+      "mesh": 584,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            132.8011,
+            95.5036
+          ],
+          "size_mm": [
+            1.0,
+            1.0
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP401",
+      "selector": "ref:TP401",
+      "node": 1015,
+      "mesh": 585,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            138.2011,
+            94.7036
+          ],
+          "size_mm": [
+            1.0,
+            1.0
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP131",
+      "selector": "ref:TP131",
+      "node": 1016,
+      "mesh": 586,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            210.0011,
+            105.1036
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP149",
+      "selector": "ref:TP149",
+      "node": 1017,
+      "mesh": 587,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            145.4011,
+            107.7036
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP77",
+      "selector": "ref:TP77",
+      "node": 1018,
+      "mesh": 588,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            77.5111,
+            132.4386
+          ],
+          "size_mm": [
+            1.9,
+            1.9
+          ],
+          "shape": 0,
+          "rotation_deg": 90.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP113",
+      "selector": "ref:TP113",
+      "node": 1019,
+      "mesh": 589,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            225.6011,
+            119.1036
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP165",
+      "selector": "ref:TP165",
+      "node": 1020,
+      "mesh": 590,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            194.0011,
+            109.9036
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP419",
+      "selector": "ref:TP419",
+      "node": 1021,
+      "mesh": 591,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            150.1451,
+            91.1596
+          ],
+          "size_mm": [
+            1.0,
+            1.0
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP68",
+      "selector": "ref:TP68",
+      "node": 1022,
+      "mesh": 592,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            93.3861,
+            94.2116
+          ],
+          "size_mm": [
+            1.9,
+            1.9
+          ],
+          "shape": 0,
+          "rotation_deg": 90.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP155",
+      "selector": "ref:TP155",
+      "node": 1023,
+      "mesh": 593,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            138.2011,
+            129.7036
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP308",
+      "selector": "ref:TP308",
+      "node": 1024,
+      "mesh": 594,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            107.4011,
+            113.3036
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP15",
+      "selector": "ref:TP15",
+      "node": 1025,
+      "mesh": 595,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            142.0271,
+            137.8996
+          ],
+          "size_mm": [
+            1.9,
+            1.9
+          ],
+          "shape": 0,
+          "rotation_deg": 90.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP207",
+      "selector": "ref:TP207",
+      "node": 1026,
+      "mesh": 596,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            163.19634,
+            121.59036
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP61",
+      "selector": "ref:TP61",
+      "node": 1027,
+      "mesh": 597,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            189.6013,
+            74.2618
+          ],
+          "size_mm": [
+            1.9,
+            1.9
+          ],
+          "shape": 0,
+          "rotation_deg": 90.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP33",
+      "selector": "ref:TP33",
+      "node": 1028,
+      "mesh": 598,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            209.5911,
+            135.3596
+          ],
+          "size_mm": [
+            1.9,
+            1.9
+          ],
+          "shape": 0,
+          "rotation_deg": 90.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP310",
+      "selector": "ref:TP310",
+      "node": 1029,
+      "mesh": 599,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            123.4011,
+            119.7036
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP435",
+      "selector": "ref:TP435",
+      "node": 1030,
+      "mesh": 600,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            179.3451,
+            89.3596
+          ],
+          "size_mm": [
+            1.0,
+            1.0
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP111",
+      "selector": "ref:TP111",
+      "node": 1031,
+      "mesh": 601,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            89.4011,
+            119.1036
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP404",
+      "selector": "ref:TP404",
+      "node": 1032,
+      "mesh": 602,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            131.5451,
+            93.5596
+          ],
+          "size_mm": [
+            1.0,
+            1.0
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP13",
+      "selector": "ref:TP13",
+      "node": 1033,
+      "mesh": 603,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            113.0711,
+            137.8796
+          ],
+          "size_mm": [
+            1.9,
+            1.9
+          ],
+          "shape": 0,
+          "rotation_deg": 90.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP138",
+      "selector": "ref:TP138",
+      "node": 1034,
+      "mesh": 604,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            220.4011,
+            129.3036
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP172",
+      "selector": "ref:TP172",
+      "node": 1035,
+      "mesh": 605,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            77.0011,
+            113.1036
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP409",
+      "selector": "ref:TP409",
+      "node": 1036,
+      "mesh": 606,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            128.6011,
+            93.5036
+          ],
+          "size_mm": [
+            1.0,
+            1.0
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP505",
+      "selector": "ref:TP505",
+      "node": 1037,
+      "mesh": 607,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            195.6011,
+            95.7036
+          ],
+          "size_mm": [
+            1.0,
+            1.0
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP5",
+      "selector": "ref:TP5",
+      "node": 1038,
+      "mesh": 608,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            102.9111,
+            99.9266
+          ],
+          "size_mm": [
+            1.9,
+            1.9
+          ],
+          "shape": 0,
+          "rotation_deg": 90.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP163",
+      "selector": "ref:TP163",
+      "node": 1039,
+      "mesh": 609,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            181.2011,
+            102.3036
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP313",
+      "selector": "ref:TP313",
+      "node": 1040,
+      "mesh": 610,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            108.6011,
+            119.9036
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP69",
+      "selector": "ref:TP69",
+      "node": 1041,
+      "mesh": 611,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            86.0201,
+            94.2116
+          ],
+          "size_mm": [
+            1.9,
+            1.9
+          ],
+          "shape": 0,
+          "rotation_deg": 90.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP414",
+      "selector": "ref:TP414",
+      "node": 1042,
+      "mesh": 612,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            128.5451,
+            88.5596
+          ],
+          "size_mm": [
+            1.0,
+            1.0
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP151",
+      "selector": "ref:TP151",
+      "node": 1043,
+      "mesh": 613,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            145.2011,
+            111.5036
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP136",
+      "selector": "ref:TP136",
+      "node": 1044,
+      "mesh": 614,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            220.4011,
+            124.3036
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP500",
+      "selector": "ref:TP500",
+      "node": 1045,
+      "mesh": 615,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            192.4011,
+            95.7036
+          ],
+          "size_mm": [
+            1.0,
+            1.0
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP115",
+      "selector": "ref:TP115",
+      "node": 1046,
+      "mesh": 616,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            204.2011,
+            101.7036
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP41",
+      "selector": "ref:TP41",
+      "node": 1047,
+      "mesh": 617,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            110.7851,
+            69.0656
+          ],
+          "size_mm": [
+            1.9,
+            1.9
+          ],
+          "shape": 0,
+          "rotation_deg": 90.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP107",
+      "selector": "ref:TP107",
+      "node": 1048,
+      "mesh": 618,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            230.4011,
+            121.7036
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP19",
+      "selector": "ref:TP19",
+      "node": 1049,
+      "mesh": 619,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            95.7991,
+            137.8996
+          ],
+          "size_mm": [
+            1.9,
+            1.9
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP189",
+      "selector": "ref:TP189",
+      "node": 1050,
+      "mesh": 620,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            98.4011,
+            110.9036
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP510",
+      "selector": "ref:TP510",
+      "node": 1051,
+      "mesh": 621,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            188.6011,
+            96.5036
+          ],
+          "size_mm": [
+            1.0,
+            1.0
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP44",
+      "selector": "ref:TP44",
+      "node": 1052,
+      "mesh": 622,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            193.0811,
+            128.2476
+          ],
+          "size_mm": [
+            1.9,
+            1.9
+          ],
+          "shape": 0,
+          "rotation_deg": 90.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP407",
+      "selector": "ref:TP407",
+      "node": 1053,
+      "mesh": 623,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            135.1451,
+            82.7596
+          ],
+          "size_mm": [
+            1.0,
+            1.0
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP137",
+      "selector": "ref:TP137",
+      "node": 1054,
+      "mesh": 624,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            220.4011,
+            126.7036
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP302",
+      "selector": "ref:TP302",
+      "node": 1055,
+      "mesh": 625,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            97.8011,
+            126.1036
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP78",
+      "selector": "ref:TP78",
+      "node": 1056,
+      "mesh": 626,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            80.0511,
+            132.4386
+          ],
+          "size_mm": [
+            1.9,
+            1.9
+          ],
+          "shape": 0,
+          "rotation_deg": 90.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP415",
+      "selector": "ref:TP415",
+      "node": 1057,
+      "mesh": 627,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            152.4011,
+            95.7036
+          ],
+          "size_mm": [
+            1.0,
+            1.0
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP116",
+      "selector": "ref:TP116",
+      "node": 1058,
+      "mesh": 628,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            203.0011,
+            98.3036
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP23",
+      "selector": "ref:TP23",
+      "node": 1059,
+      "mesh": 629,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            214.6711,
+            128.2476
+          ],
+          "size_mm": [
+            1.9,
+            1.9
+          ],
+          "shape": 0,
+          "rotation_deg": 90.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP504",
+      "selector": "ref:TP504",
+      "node": 1060,
+      "mesh": 630,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            191.3451,
+            93.7596
+          ],
+          "size_mm": [
+            1.0,
+            1.0
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP418",
+      "selector": "ref:TP418",
+      "node": 1061,
+      "mesh": 631,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            155.8011,
+            95.7036
+          ],
+          "size_mm": [
+            1.0,
+            1.0
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP417",
+      "selector": "ref:TP417",
+      "node": 1062,
+      "mesh": 632,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            151.5451,
+            93.7596
+          ],
+          "size_mm": [
+            1.0,
+            1.0
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP9",
+      "selector": "ref:TP9",
+      "node": 1063,
+      "mesh": 633,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            74.3361,
+            107.0386
+          ],
+          "size_mm": [
+            1.9,
+            1.9
+          ],
+          "shape": 0,
+          "rotation_deg": 90.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP40",
+      "selector": "ref:TP40",
+      "node": 1064,
+      "mesh": 634,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            120.9451,
+            69.0656
+          ],
+          "size_mm": [
+            1.9,
+            1.9
+          ],
+          "shape": 0,
+          "rotation_deg": 90.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP49",
+      "selector": "ref:TP49",
+      "node": 1065,
+      "mesh": 635,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            129.7843,
+            74.2618
+          ],
+          "size_mm": [
+            1.9,
+            1.9
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP25",
+      "selector": "ref:TP25",
+      "node": 1066,
+      "mesh": 636,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            214.6711,
+            135.3596
+          ],
+          "size_mm": [
+            1.9,
+            1.9
+          ],
+          "shape": 0,
+          "rotation_deg": 90.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP8",
+      "selector": "ref:TP8",
+      "node": 1067,
+      "mesh": 637,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            100.7521,
+            94.2116
+          ],
+          "size_mm": [
+            1.9,
+            1.9
+          ],
+          "shape": 0,
+          "rotation_deg": 90.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP39",
+      "selector": "ref:TP39",
+      "node": 1068,
+      "mesh": 638,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            204.5111,
+            128.2476
+          ],
+          "size_mm": [
+            1.9,
+            1.9
+          ],
+          "shape": 0,
+          "rotation_deg": 90.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP301",
+      "selector": "ref:TP301",
+      "node": 1069,
+      "mesh": 639,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            90.6011,
+            124.1036
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP514",
+      "selector": "ref:TP514",
+      "node": 1070,
+      "mesh": 640,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            188.3451,
+            88.5596
+          ],
+          "size_mm": [
+            1.0,
+            1.0
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP145",
+      "selector": "ref:TP145",
+      "node": 1071,
+      "mesh": 641,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            225.4011,
+            131.9036
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP29",
+      "selector": "ref:TP29",
+      "node": 1072,
+      "mesh": 642,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            212.1311,
+            135.3596
+          ],
+          "size_mm": [
+            1.9,
+            1.9
+          ],
+          "shape": 0,
+          "rotation_deg": 90.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP20",
+      "selector": "ref:TP20",
+      "node": 1073,
+      "mesh": 643,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            105.4511,
+            137.8996
+          ],
+          "size_mm": [
+            1.9,
+            1.9
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP140",
+      "selector": "ref:TP140",
+      "node": 1074,
+      "mesh": 644,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            157.4011,
+            110.5036
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP75",
+      "selector": "ref:TP75",
+      "node": 1075,
+      "mesh": 645,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            171.7451,
+            133.2006
+          ],
+          "size_mm": [
+            1.9,
+            1.9
+          ],
+          "shape": 0,
+          "rotation_deg": 90.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP509",
+      "selector": "ref:TP509",
+      "node": 1076,
+      "mesh": 646,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            188.4011,
+            93.5036
+          ],
+          "size_mm": [
+            1.0,
+            1.0
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP50",
+      "selector": "ref:TP50",
+      "node": 1077,
+      "mesh": 647,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            157.2233,
+            73.0118
+          ],
+          "size_mm": [
+            1.9,
+            1.9
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP64",
+      "selector": "ref:TP64",
+      "node": 1078,
+      "mesh": 648,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            212.0403,
+            73.0118
+          ],
+          "size_mm": [
+            1.9,
+            1.9
+          ],
+          "shape": 0,
+          "rotation_deg": 90.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP502",
+      "selector": "ref:TP502",
+      "node": 1079,
+      "mesh": 649,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            203.8011,
+            95.3036
+          ],
+          "size_mm": [
+            1.0,
+            1.0
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP309",
+      "selector": "ref:TP309",
+      "node": 1080,
+      "mesh": 650,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            116.8011,
+            110.5036
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP426",
+      "selector": "ref:TP426",
+      "node": 1081,
+      "mesh": 651,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            155.1451,
+            82.7596
+          ],
+          "size_mm": [
+            1.0,
+            1.0
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP166",
+      "selector": "ref:TP166",
+      "node": 1082,
+      "mesh": 652,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            185.8011,
+            102.1036
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP80",
+      "selector": "ref:TP80",
+      "node": 1083,
+      "mesh": 653,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            132.3751,
+            137.8996
+          ],
+          "size_mm": [
+            1.9,
+            1.9
+          ],
+          "shape": 0,
+          "rotation_deg": 90.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP410",
+      "selector": "ref:TP410",
+      "node": 1084,
+      "mesh": 654,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            128.8011,
+            96.5036
+          ],
+          "size_mm": [
+            1.0,
+            1.0
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP173",
+      "selector": "ref:TP173",
+      "node": 1085,
+      "mesh": 655,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            86.4011,
+            112.9036
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP32",
+      "selector": "ref:TP32",
+      "node": 1086,
+      "mesh": 656,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            188.0011,
+            128.2476
+          ],
+          "size_mm": [
+            1.9,
+            1.9
+          ],
+          "shape": 0,
+          "rotation_deg": 90.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP429",
+      "selector": "ref:TP429",
+      "node": 1087,
+      "mesh": 657,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            177.4011,
+            95.7036
+          ],
+          "size_mm": [
+            1.0,
+            1.0
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP430",
+      "selector": "ref:TP430",
+      "node": 1088,
+      "mesh": 658,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            183.87897,
+            95.3036
+          ],
+          "size_mm": [
+            1.0,
+            1.0
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP422",
+      "selector": "ref:TP422",
+      "node": 1089,
+      "mesh": 659,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            159.5451,
+            89.1596
+          ],
+          "size_mm": [
+            1.0,
+            1.0
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP106",
+      "selector": "ref:TP106",
+      "node": 1090,
+      "mesh": 660,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            138.6011,
+            107.9036
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP108",
+      "selector": "ref:TP108",
+      "node": 1091,
+      "mesh": 661,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            230.4011,
+            119.1036
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP160",
+      "selector": "ref:TP160",
+      "node": 1092,
+      "mesh": 662,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            188.8011,
+            114.9036
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP427",
+      "selector": "ref:TP427",
+      "node": 1093,
+      "mesh": 663,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            151.9451,
+            82.7596
+          ],
+          "size_mm": [
+            1.0,
+            1.0
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP405",
+      "selector": "ref:TP405",
+      "node": 1094,
+      "mesh": 664,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            136.0011,
+            95.7036
+          ],
+          "size_mm": [
+            1.0,
+            1.0
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP434",
+      "selector": "ref:TP434",
+      "node": 1095,
+      "mesh": 665,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            169.1451,
+            98.1596
+          ],
+          "size_mm": [
+            1.0,
+            1.0
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP175",
+      "selector": "ref:TP175",
+      "node": 1096,
+      "mesh": 666,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            93.4011,
+            107.5036
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP408",
+      "selector": "ref:TP408",
+      "node": 1097,
+      "mesh": 667,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            130.1451,
+            91.1596
+          ],
+          "size_mm": [
+            1.0,
+            1.0
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP203",
+      "selector": "ref:TP203",
+      "node": 1098,
+      "mesh": 668,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            155.2011,
+            121.7036
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP209",
+      "selector": "ref:TP209",
+      "node": 1099,
+      "mesh": 669,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            167.0011,
+            120.7318
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP143",
+      "selector": "ref:TP143",
+      "node": 1100,
+      "mesh": 670,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            225.4011,
+            126.7036
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP508",
+      "selector": "ref:TP508",
+      "node": 1101,
+      "mesh": 671,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            189.9451,
+            91.1596
+          ],
+          "size_mm": [
+            1.0,
+            1.0
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP26",
+      "selector": "ref:TP26",
+      "node": 1102,
+      "mesh": 672,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            185.4611,
+            135.3596
+          ],
+          "size_mm": [
+            1.9,
+            1.9
+          ],
+          "shape": 0,
+          "rotation_deg": 90.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP318",
+      "selector": "ref:TP318",
+      "node": 1103,
+      "mesh": 673,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            102.2011,
+            83.1036
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP171",
+      "selector": "ref:TP171",
+      "node": 1104,
+      "mesh": 674,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            82.0011,
+            99.5036
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP42",
+      "selector": "ref:TP42",
+      "node": 1105,
+      "mesh": 675,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            100.6251,
+            69.0656
+          ],
+          "size_mm": [
+            1.9,
+            1.9
+          ],
+          "shape": 0,
+          "rotation_deg": 90.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP168",
+      "selector": "ref:TP168",
+      "node": 1106,
+      "mesh": 676,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            70.6011,
+            111.7036
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP55",
+      "selector": "ref:TP55",
+      "node": 1107,
+      "mesh": 677,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            174.6623,
+            74.2618
+          ],
+          "size_mm": [
+            1.9,
+            1.9
+          ],
+          "shape": 0,
+          "rotation_deg": 90.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP518",
+      "selector": "ref:TP518",
+      "node": 1108,
+      "mesh": 678,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            209.9451,
+            91.1596
+          ],
+          "size_mm": [
+            1.0,
+            1.0
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP204",
+      "selector": "ref:TP204",
+      "node": 1109,
+      "mesh": 679,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            149.6011,
+            112.7036
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP312",
+      "selector": "ref:TP312",
+      "node": 1110,
+      "mesh": 680,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            116.4011,
+            115.3036
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP72",
+      "selector": "ref:TP72",
+      "node": 1111,
+      "mesh": 681,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            165.1411,
+            133.2006
+          ],
+          "size_mm": [
+            1.9,
+            1.9
+          ],
+          "shape": 0,
+          "rotation_deg": 90.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP34",
+      "selector": "ref:TP34",
+      "node": 1112,
+      "mesh": 682,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            190.5411,
+            135.3596
+          ],
+          "size_mm": [
+            1.9,
+            1.9
+          ],
+          "shape": 0,
+          "rotation_deg": 90.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP428",
+      "selector": "ref:TP428",
+      "node": 1113,
+      "mesh": 683,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            167.8011,
+            102.1036
+          ],
+          "size_mm": [
+            1.0,
+            1.0
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP37",
+      "selector": "ref:TP37",
+      "node": 1114,
+      "mesh": 684,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            207.0511,
+            135.3596
+          ],
+          "size_mm": [
+            1.9,
+            1.9
+          ],
+          "shape": 0,
+          "rotation_deg": 90.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP30",
+      "selector": "ref:TP30",
+      "node": 1115,
+      "mesh": 685,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            188.0011,
+            135.3596
+          ],
+          "size_mm": [
+            1.9,
+            1.9
+          ],
+          "shape": 0,
+          "rotation_deg": 90.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP51",
+      "selector": "ref:TP51",
+      "node": 1116,
+      "mesh": 686,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            154.7233,
+            74.2618
+          ],
+          "size_mm": [
+            1.9,
+            1.9
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP2",
+      "selector": "ref:TP2",
+      "node": 1117,
+      "mesh": 687,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            227.3711,
+            106.4036
+          ],
+          "size_mm": [
+            1.9,
+            1.9
+          ],
+          "shape": 0,
+          "rotation_deg": 90.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP114",
+      "selector": "ref:TP114",
+      "node": 1118,
+      "mesh": 688,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            214.4011,
+            102.1036
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP317",
+      "selector": "ref:TP317",
+      "node": 1119,
+      "mesh": 689,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            120.4011,
+            92.5036
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP519",
+      "selector": "ref:TP519",
+      "node": 1120,
+      "mesh": 690,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            208.2011,
+            93.5036
+          ],
+          "size_mm": [
+            1.0,
+            1.0
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP161",
+      "selector": "ref:TP161",
+      "node": 1121,
+      "mesh": 691,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            192.6011,
+            112.7936
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP506",
+      "selector": "ref:TP506",
+      "node": 1122,
+      "mesh": 692,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            191.9451,
+            82.7596
+          ],
+          "size_mm": [
+            1.0,
+            1.0
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP118",
+      "selector": "ref:TP118",
+      "node": 1123,
+      "mesh": 693,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            145.4011,
+            105.3036
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "shape": 0,
+          "rotation_deg": 270.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "TP35",
+      "selector": "ref:TP35",
+      "node": 1124,
+      "mesh": 694,
+      "kind": "test_contact",
+      "source_pads": [
+        {
+          "number": "1",
+          "position_mm": [
+            207.0511,
+            128.2476
+          ],
+          "size_mm": [
+            1.9,
+            1.9
+          ],
+          "shape": 0,
+          "rotation_deg": 90.0,
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "top_copper": false,
+          "bottom_copper": true
+        }
+      ],
+      "geometry_status": "source_pad_surface_selection_proxy"
+    },
+    {
+      "reference": "K1",
+      "selector": "ref:K1",
+      "node": 1125,
+      "mesh": 695,
+      "kind": "approximate_package",
+      "source_value": "Relay-SPDT",
+      "bounds_metres": [
+        [
+          -0.07172800000000001,
+          0.00174,
+          -0.038175995
+        ],
+        [
+          -0.05672800000000001,
+          0.01724,
+          -0.020975994999999997
+        ]
+      ],
+      "geometry_status": "approximate_package_envelope_not_manufacturer_verified"
+    },
+    {
+      "reference": "L2",
+      "selector": "ref:L2",
+      "node": 1126,
+      "mesh": 696,
+      "kind": "approximate_package",
+      "source_value": "6,3uH / 3A",
+      "bounds_metres": [
+        [
+          -0.029799930000000002,
+          0.00174,
+          0.00017220499999999106
+        ],
+        [
+          -0.023799930000000004,
+          0.00624,
+          0.006172204999999991
+        ]
+      ],
+      "geometry_status": "approximate_package_envelope_not_manufacturer_verified"
+    },
+    {
+      "reference": "J34",
+      "selector": "ref:J34",
+      "node": 1127,
+      "mesh": 697,
+      "kind": "library_package",
+      "geometry_status": "matching_package_kicad_library_step_candidate",
+      "bounds_metres": [
+        [
+          -0.00876079997317791,
+          -0.0017000000450760125,
+          0.012541204954923987
+        ],
+        [
+          -0.0013607999709427357,
+          0.008700000216066837,
+          0.018291204966099858
+        ]
+      ]
+    },
+    {
+      "reference": "U9",
+      "selector": "ref:U9",
+      "node": 1128,
+      "mesh": 698,
+      "kind": "library_package",
+      "geometry_status": "matching_package_kicad_library_step_candidate",
+      "bounds_metres": [
+        [
+          0.08186500001844019,
+          0.0017000000000000001,
+          0.02286000504991889
+        ],
+        [
+          0.08476499998155981,
+          0.003250000044517219,
+          0.02566000495008111
+        ]
+      ]
+    }
+  ]
+}

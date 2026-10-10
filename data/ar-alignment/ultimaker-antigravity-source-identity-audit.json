@@ -1,0 +1,138 @@
+{
+  "release_eligible": false,
+  "records": [
+    {
+      "reference": "U1",
+      "antigravity_description": "8-bit AVR Microcontroller with 256K Flash, 16MHz",
+      "actual_source_description": "RO IC ATMEGA2560-16AU TQFP-100 ATMEL",
+      "source_pattern": "TSQFP50P1600X1600X120-100N",
+      "photo_identity_verified": false
+    },
+    {
+      "reference": "U2",
+      "antigravity_description": "USB Communication Interface Controller",
+      "actual_source_description": "RO IC ATMEGA16U2-MU QFN-32 ATMEL",
+      "source_pattern": "QFN50P500X500X100-32-EX",
+      "photo_identity_verified": false
+    },
+    {
+      "reference": "U3",
+      "antigravity_description": "Precision Instrumentation Amplifier",
+      "actual_source_description": "RO IC INA826AIDGKR MSOP-8 TI",
+      "source_pattern": "TSOP65P490X110-8N (MSOP8)",
+      "photo_identity_verified": false
+    },
+    {
+      "reference": "U6",
+      "antigravity_description": "Step-Down Regulator Controller",
+      "actual_source_description": "RO IC A4403GEUTR-T QFN-16 ALLEGRO",
+      "source_pattern": "QFN65P400X400X80-16N-EX",
+      "photo_identity_verified": false
+    },
+    {
+      "reference": "U8",
+      "antigravity_description": "DMOS Microstepping Driver IC (Channel Z)",
+      "actual_source_description": "RO IC A4988 QFN-28 ALLEGRO",
+      "source_pattern": "QFN50P500X500X100-28-EX",
+      "photo_identity_verified": false
+    },
+    {
+      "reference": "U10",
+      "antigravity_description": "DMOS Microstepping Driver IC (Channel E1)",
+      "actual_source_description": "RO IC A4988 QFN-28 ALLEGRO",
+      "source_pattern": "QFN50P500X500X100-28-EX",
+      "photo_identity_verified": false
+    },
+    {
+      "reference": "J1",
+      "antigravity_description": "ICSP1 ATmega2560 In-Circuit Serial Programming Header",
+      "actual_source_description": "RO CONN PR HDR 2X3P H4B-06DS-0000 INT",
+      "source_pattern": "HEADER-2X3P-ST-2.54",
+      "photo_identity_verified": false
+    },
+    {
+      "reference": "J2",
+      "antigravity_description": "ICSP2 ATmega16U2 Programming Header",
+      "actual_source_description": "RO CONN PR HDR 2X3P H4B-06DS-0000 INT",
+      "source_pattern": "HEADER-2X3P-ST-2.54",
+      "photo_identity_verified": false
+    },
+    {
+      "reference": "J20",
+      "antigravity_description": "FAN 19-24V Cooling Fan 2-pin Shrouded Connector",
+      "actual_source_description": "RO CONN PR 2p HKS S2B-XH-A (LF)(SN) JST",
+      "source_pattern": "S2B-XH-A (LF)(SN)",
+      "photo_identity_verified": false
+    },
+    {
+      "reference": "J21",
+      "antigravity_description": "High-Current Heated Bed & Extruder Screw Terminal Block",
+      "actual_source_description": "RO CONN PR 6p MC000038 MULTICOMP",
+      "source_pattern": "MC000038",
+      "photo_identity_verified": false
+    },
+    {
+      "reference": "J22",
+      "antigravity_description": "SERIAL 4-pin UART2 Header (+5V, GND, TXD2, RXD2)",
+      "actual_source_description": "HEADER-1x4P-ST-2.54",
+      "source_pattern": "HEADER-1X4P-ST-2.54",
+      "photo_identity_verified": false
+    },
+    {
+      "reference": "J23",
+      "antigravity_description": "EXT/IO 6-pin Auxiliary Header",
+      "actual_source_description": "RO CONN PR HDR 2X3P H4B-06DS-0000 INT",
+      "source_pattern": "HEADER-2X3P-ST-2.54",
+      "photo_identity_verified": false
+    },
+    {
+      "reference": "J24",
+      "antigravity_description": "5-pin Expansion Header",
+      "actual_source_description": "HEADER-1x5P-ST-2.54",
+      "source_pattern": "HEADER-1X5P-ST-2.54",
+      "photo_identity_verified": false
+    },
+    {
+      "reference": "Y1",
+      "antigravity_description": "16MHz Ceramic Resonator with Built-in Capacitors",
+      "actual_source_description": "RO KRIS 16MHz CSTCE16M0V53-R0 SMD MURATA",
+      "source_pattern": "CSTC",
+      "photo_identity_verified": false
+    },
+    {
+      "reference": "J5",
+      "antigravity_description": "X-STOP Endstop 2-pin Shrouded Connector",
+      "actual_source_description": "RO CONN PR 2p HKS S2B-XH-A (LF)(SN) JST",
+      "source_pattern": "S2B-XH-A (LF)(SN)",
+      "photo_identity_verified": false
+    },
+    {
+      "reference": "J6",
+      "antigravity_description": "Y-STOP Endstop 2-pin Shrouded Connector",
+      "actual_source_description": "RO CONN PR 2p HKS S2B-XH-A (LF)(SN) JST",
+      "source_pattern": "S2B-XH-A (LF)(SN)",
+      "photo_identity_verified": false
+    },
+    {
+      "reference": "J7",
+      "antigravity_description": "Z-STOP Endstop Connector",
+      "actual_source_description": "RO CONN PR 2p HKS 22-05-7028 MOLEX",
+      "source_pattern": "MOLEX-22-05-7028",
+      "photo_identity_verified": false
+    },
+    {
+      "reference": "L1",
+      "antigravity_description": "EMI Filter Ferrite Bead 0805",
+      "actual_source_description": "RO FERRIET BLM21PG221SN1D  0805",
+      "source_pattern": "L0805",
+      "photo_identity_verified": false
+    },
+    {
+      "reference": "T1",
+      "antigravity_description": "NPN General Purpose Transistor SOT-23",
+      "actual_source_description": "RO TRANS BC817-25  SOT-23",
+      "source_pattern": "SOT23",
+      "photo_identity_verified": false
+    }
+  ]
+}
