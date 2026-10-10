@@ -1,0 +1,29 @@
+{
+  "esp32_board": {
+    "aliases": ["ESP32", "DOIT ESP32 Devkit V1"],
+    "facts": [
+      {"text": "ESP32 is an Espressif microcontroller system-on-chip series with integrated Wi-Fi and Bluetooth, used for connected embedded devices.", "source_url": "https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf"},
+      {"text": "ESP32 development boards expose the chip's interfaces for prototyping. The exact pinout, supply inputs and fitted components depend on the board and module variant.", "source_url": "https://documentation.espressif.com/esp32-wroom-32d_esp32-wroom-32u_datasheet_en.html"}
+    ]
+  },
+  "esp8266_board": {
+    "aliases": ["ESP8266", "NodeMCU ESP8266"],
+    "facts": [
+      {"text": "ESP8266EX is an Espressif Wi-Fi system-on-chip with a Tensilica L106 32-bit processor. It can run embedded applications or provide Wi-Fi connectivity to another microcontroller.", "source_url": "https://documentation.espressif.com/0a-esp8266ex_datasheet_en.html"},
+      {"text": "ESP8266EX supports 2.4 GHz Wi-Fi. A NodeMCU development board adds supporting circuitry; its USB-to-UART device and wiring vary between board versions.", "source_url": "https://documentation.espressif.com/0a-esp8266ex_datasheet_en.html"}
+    ]
+  },
+  "nxp_frdm_mcxn236_board": {
+    "aliases": ["FRDM", "FRDM MCXN236", "MCXN236"],
+    "facts": [
+      {"text": "FRDM-MCXN236 is an NXP development board for prototyping with MCX N23x microcontrollers. It uses a 150 MHz Arm Cortex-M33 processor with TrustZone support.", "source_url": "https://mcuxpresso.nxp.com/mcuxsdk/latest/boards/MCX/frdmmcxn236/index.html"},
+      {"text": "FRDM is NXP's development-board platform, not a single board model. This dataset reference is FRDM-MCXN236; specifications for a different FRDM model must not be substituted.", "source_url": "https://www.nxp.com/design/design-center/development-boards-and-designs/FRDM-MCXN236"}
+    ]
+  },
+  "ultimainboard": {
+    "aliases": ["Ultimainboard", "Ultimainboard 2.1.4", "Ultimaker mainboard"],
+    "facts": [
+      {"text": "Ultimainboard is the main electronics board in the Ultimaker 2 design. This reference corpus covers revision 2.1.4, not every Ultimaker printer or board revision.", "source_url": "https://github.com/Ultimaker/Ultimaker2"}
+    ]
+  }
+}
