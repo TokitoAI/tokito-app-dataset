@@ -1,0 +1,72 @@
+{
+  "schema_version": "1.0",
+  "board_family": "ultimainboard",
+  "board_model": "Ultimainboard 2.1.4",
+  "coordinate_system": "metres, right-handed Y-up, board center (0,0,0)",
+  "landmarks": [
+    {
+      "landmark_id": "ultimaker_mh1_top_left",
+      "physical_feature": "Top-left PCB mounting hole center (diameter 3.2mm)",
+      "kind": "mounting_hole_center",
+      "asset_xyz_metres": [
+        -0.08,
+        0.0,
+        -0.032
+      ],
+      "board_position_mm": {
+        "x": -80.0,
+        "y": -32.0
+      },
+      "uncertainty_metres": 0.0002,
+      "uncertainty_pixels": 2.0
+    },
+    {
+      "landmark_id": "ultimaker_mh2_top_right",
+      "physical_feature": "Top-right PCB mounting hole center (diameter 3.2mm)",
+      "kind": "mounting_hole_center",
+      "asset_xyz_metres": [
+        0.08,
+        0.0,
+        -0.032
+      ],
+      "board_position_mm": {
+        "x": 80.0,
+        "y": -32.0
+      },
+      "uncertainty_metres": 0.0002,
+      "uncertainty_pixels": 2.0
+    },
+    {
+      "landmark_id": "ultimaker_mh3_bottom_left",
+      "physical_feature": "Bottom-left PCB mounting hole center (diameter 3.2mm)",
+      "kind": "mounting_hole_center",
+      "asset_xyz_metres": [
+        -0.08,
+        0.0,
+        0.032
+      ],
+      "board_position_mm": {
+        "x": -80.0,
+        "y": 32.0
+      },
+      "uncertainty_metres": 0.0002,
+      "uncertainty_pixels": 2.0
+    },
+    {
+      "landmark_id": "ultimaker_mh4_bottom_right",
+      "physical_feature": "Bottom-right PCB mounting hole center (diameter 3.2mm)",
+      "kind": "mounting_hole_center",
+      "asset_xyz_metres": [
+        0.08,
+        0.0,
+        0.032
+      ],
+      "board_position_mm": {
+        "x": 80.0,
+        "y": 32.0
+      },
+      "uncertainty_metres": 0.0002,
+      "uncertainty_pixels": 2.0
+    }
+  ]
+}

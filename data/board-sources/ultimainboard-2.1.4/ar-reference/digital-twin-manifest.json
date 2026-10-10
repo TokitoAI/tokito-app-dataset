@@ -1,0 +1,64 @@
+{
+  "schemaVersion": "1.0",
+  "assetId": "ultimainboard-2-1-4-visible",
+  "boardIdentity": "ultimainboard",
+  "boardRevision": "2.1.4",
+  "assemblyContextRevision": "ultimainboard-2.1.4-guide-reference-v1",
+  "axes": "RIGHT_HANDED_Y_UP",
+  "units": "METRE",
+  "componentNodePrefix": "ref:",
+  "defaultOpacity": 0.42,
+  "boardOriginMetres": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "boardPlaneBoundsMetres": {
+    "minimum": {
+      "x": -0.0875,
+      "y": 0.0,
+      "z": -0.0395
+    },
+    "maximum": {
+      "x": 0.0875,
+      "y": 0.00174,
+      "z": 0.0395
+    }
+  },
+  "boardPlaneCornerPointsMetres": [
+    {
+      "x": -0.0875,
+      "y": 0.0,
+      "z": -0.0395
+    },
+    {
+      "x": 0.0875,
+      "y": 0.0,
+      "z": -0.0395
+    },
+    {
+      "x": 0.0875,
+      "y": 0.0,
+      "z": 0.0395
+    },
+    {
+      "x": -0.0875,
+      "y": 0.0,
+      "z": 0.0395
+    }
+  ],
+  "boundsMetres": {
+    "minimum": {
+      "x": -0.0875,
+      "y": -0.003,
+      "z": -0.0395
+    },
+    "maximum": {
+      "x": 0.0875,
+      "y": 0.025,
+      "z": 0.0395
+    }
+  },
+  "glbBytes": 10204,
+  "glbSha256": "sha256:57a4eaed97901cc0a0e23862851673ec4196673e5656e9be87a49a1f35a9601c"
+}

@@ -1,0 +1,652 @@
+{
+  "schema_version": "1.0",
+  "release_eligible": true,
+  "evaluation_valid": true,
+  "review_method": "source_verified_physical_inspection_and_calibrated_landmarks",
+  "scope": "ultimaker_component_level_ar",
+  "templates": [
+    {
+      "image_path": "data/photo-model/by_board/ultimainboard/IMG_20261009_222135_1.jpg",
+      "image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "class_id": 2,
+      "board_label": "Ultimaker Ultimainboard 2.1.4",
+      "board_family": "ultimainboard",
+      "specimen_id": "bench-ultimaker-01",
+      "view_slot": "macro_top",
+      "pose_landmark_ids": [
+        "ultimaker_mh1_top_left",
+        "ultimaker_mh2_top_right",
+        "ultimaker_mh3_bottom_left",
+        "ultimaker_mh4_bottom_right"
+      ],
+      "pose_landmark_kind": "mounting_hole_center",
+      "pose_metric_landmarks_metres": [
+        [
+          -0.08,
+          -0.032
+        ],
+        [
+          0.08,
+          -0.032
+        ],
+        [
+          -0.08,
+          0.032
+        ],
+        [
+          0.08,
+          0.032
+        ]
+      ],
+      "labels": [
+        {
+          "id": "IMG_20261009_222135_1.jpg:U1",
+          "label": "U1 \u00b7 Atmel ATmega2560-16AU MCU [marking family]",
+          "kind": "part",
+          "bbox_xyxy_normalized": [
+            0.5588,
+            0.1348,
+            0.7778,
+            0.2339
+          ],
+          "identity_status": "source_verified_physical_component",
+          "source": {
+            "observed_refdes": "U1",
+            "observed_marking": "ATMEGA2560-16AU",
+            "evidence": "100-pin TQFP package at center of logic section"
+          }
+        },
+        {
+          "id": "IMG_20261009_222135_1.jpg:U2",
+          "label": "U2 \u00b7 Atmel ATmega16U2-MU USB Interface [marking family]",
+          "kind": "part",
+          "bbox_xyxy_normalized": [
+            0.7896,
+            0.7896,
+            0.877,
+            0.8188
+          ],
+          "identity_status": "source_verified_physical_component",
+          "source": {
+            "observed_refdes": "U2",
+            "observed_marking": "ATMEGA16U2-MU",
+            "evidence": "QFN-32 package adjacent to USB port"
+          }
+        },
+        {
+          "id": "IMG_20261009_222135_1.jpg:J22",
+          "label": "J22 \u00b7 SERIAL 4-pin UART2 Header [printed alias]",
+          "kind": "connector",
+          "bbox_xyxy_normalized": [
+            0.633225,
+            0.007324,
+            0.773463,
+            0.026367
+          ],
+          "identity_status": "source_verified_connector_and_pins",
+          "source": {
+            "observed_refdes": "J22",
+            "observed_marking": "SERIAL",
+            "evidence": "Silkscreen J22 and SERIAL; pin-1 triangle on left"
+          }
+        },
+        {
+          "id": "IMG_20261009_222135_1.jpg:J23",
+          "label": "J23 \u00b7 EXT/IO 2x3 Auxiliary Header [printed alias]",
+          "kind": "connector",
+          "bbox_xyxy_normalized": [
+            0.504854,
+            0.007812,
+            0.60302,
+            0.040527
+          ],
+          "identity_status": "source_verified_connector_and_pins",
+          "source": {
+            "observed_refdes": "J23",
+            "observed_marking": "EXT/IO",
+            "evidence": "Silkscreen EXT/IO and J23; pin-1 triangle on lower-left"
+          }
+        },
+        {
+          "id": "IMG_20261009_222135_1.jpg:J1",
+          "label": "J1 \u00b7 ICSP1 2x3 ATmega2560 Programming Header [printed alias]",
+          "kind": "connector",
+          "bbox_xyxy_normalized": [
+            0.504854,
+            0.051758,
+            0.60302,
+            0.083496
+          ],
+          "identity_status": "source_verified_connector_and_pins",
+          "source": {
+            "observed_refdes": "J1",
+            "observed_marking": "ICSP1",
+            "evidence": "Silkscreen ICSP1 and J1; pin-1 triangle on lower-left"
+          }
+        },
+        {
+          "id": "IMG_20261009_222135_1.jpg:J2",
+          "label": "J2 \u00b7 ICSP2 2x3 ATmega16U2 Programming Header [printed alias]",
+          "kind": "connector",
+          "bbox_xyxy_normalized": [
+            0.39698,
+            0.778809,
+            0.489752,
+            0.813477
+          ],
+          "identity_status": "source_verified_connector_and_pins",
+          "source": {
+            "observed_refdes": "J2",
+            "observed_marking": "ICSP2",
+            "evidence": "Silkscreen ICSP2 and J2; pin-1 triangle on upper-right"
+          }
+        },
+        {
+          "id": "IMG_20261009_222135_1.jpg:J19",
+          "label": "J19 \u00b7 USB Type-B Female Receptacle",
+          "kind": "connector",
+          "bbox_xyxy_normalized": [
+            0.7789,
+            0.9351,
+            0.8997,
+            1.0
+          ],
+          "identity_status": "source_verified_physical_component",
+          "source": {
+            "observed_refdes": "J19",
+            "observed_marking": "USB",
+            "evidence": "Through-hole USB Type-B jack"
+          }
+        },
+        {
+          "id": "IMG_20261009_222135_1.jpg:J21",
+          "label": "J21 \u00b7 Heated Bed Power Screw Terminal Block",
+          "kind": "connector",
+          "bbox_xyxy_normalized": [
+            0.4606,
+            0.9272,
+            0.6451,
+            1.0
+          ],
+          "identity_status": "source_verified_physical_component",
+          "source": {
+            "observed_refdes": "J21",
+            "observed_marking": "HB",
+            "evidence": "High-current screw terminal block for heated bed"
+          }
+        },
+        {
+          "id": "IMG_20261009_222135_1.jpg:Y1",
+          "label": "Y1 \u00b7 16MHz Ceramic Resonator",
+          "kind": "part",
+          "bbox_xyxy_normalized": [
+            0.63,
+            0.8433,
+            0.6947,
+            0.915
+          ],
+          "identity_status": "source_verified_physical_component",
+          "source": {
+            "observed_refdes": "Y1",
+            "observed_marking": "16MHz CSTCE",
+            "evidence": "Murata CSTCE resonator adjacent to ATmega2560"
+          }
+        },
+        {
+          "id": "IMG_20261009_222135_1.jpg:J22-pin1",
+          "label": "J22 Pin 1 [+5V]",
+          "kind": "pin",
+          "bbox_xyxy_normalized": [
+            0.640625,
+            0.008676092544987147,
+            0.671875,
+            0.02345758354755784
+          ],
+          "identity_status": "source_verified_photo_pin_link",
+          "source": {
+            "connector": "J22",
+            "pin_number": "1",
+            "source_net": "+5V",
+            "evidence": "Silkscreen J22; pin 1 triangle; KiCad pad uuid ac7ff3ad-f15a-4c55-b12b-6b9a7458facd"
+          }
+        },
+        {
+          "id": "IMG_20261009_222135_1.jpg:J22-pin2",
+          "label": "J22 Pin 2 [GND]",
+          "kind": "pin",
+          "bbox_xyxy_normalized": [
+            0.6732954545454546,
+            0.008676092544987147,
+            0.7045454545454546,
+            0.02345758354755784
+          ],
+          "identity_status": "source_verified_photo_pin_link",
+          "source": {
+            "connector": "J22",
+            "pin_number": "2",
+            "source_net": "GND",
+            "evidence": "Silkscreen J22; pin 1 triangle; KiCad pad uuid d99bdabb-151d-4a7f-b1a0-d6749a19c1f5"
+          }
+        },
+        {
+          "id": "IMG_20261009_222135_1.jpg:J22-pin3",
+          "label": "J22 Pin 3 [TXD2]",
+          "kind": "pin",
+          "bbox_xyxy_normalized": [
+            0.7066761363636364,
+            0.008676092544987147,
+            0.7379261363636364,
+            0.02345758354755784
+          ],
+          "identity_status": "source_verified_photo_pin_link",
+          "source": {
+            "connector": "J22",
+            "pin_number": "3",
+            "source_net": "TXD2",
+            "evidence": "Silkscreen J22; pin 1 triangle; KiCad pad uuid 8caf5ed4-9f40-4626-9ac5-9dfd4c5afc4a"
+          }
+        },
+        {
+          "id": "IMG_20261009_222135_1.jpg:J22-pin4",
+          "label": "J22 Pin 4 [RXD2]",
+          "kind": "pin",
+          "bbox_xyxy_normalized": [
+            0.7393465909090909,
+            0.008676092544987147,
+            0.7705965909090909,
+            0.02345758354755784
+          ],
+          "identity_status": "source_verified_photo_pin_link",
+          "source": {
+            "connector": "J22",
+            "pin_number": "4",
+            "source_net": "RXD2",
+            "evidence": "Silkscreen J22; pin 1 triangle; KiCad pad uuid 0a262386-2509-4a20-853e-0d9116136726"
+          }
+        },
+        {
+          "id": "IMG_20261009_222135_1.jpg:J23-pin1",
+          "label": "J23 Pin 1 [GND]",
+          "kind": "pin",
+          "bbox_xyxy_normalized": [
+            0.5113636363636364,
+            0.02634961439588689,
+            0.5326704545454546,
+            0.03759640102827763
+          ],
+          "identity_status": "visually_reviewed_pin_location",
+          "source": {
+            "connector": "J23",
+            "pin_number": "1",
+            "source_net": "GND",
+            "evidence": "EXT/IO and J23 readable; triangle below left column marks the lower-left contact as pin 1; PCB local pad 1=(0,0) is triangle side and pad 2=(0,-2.54) is opposite row."
+          }
+        },
+        {
+          "id": "IMG_20261009_222135_1.jpg:J23-pin2",
+          "label": "J23 Pin 2 [GND]",
+          "kind": "pin",
+          "bbox_xyxy_normalized": [
+            0.5113636363636364,
+            0.010282776349614395,
+            0.5326704545454546,
+            0.02217223650385604
+          ],
+          "identity_status": "visually_reviewed_pin_location",
+          "source": {
+            "connector": "J23",
+            "pin_number": "2",
+            "source_net": "GND",
+            "evidence": "EXT/IO and J23 readable; triangle below left column marks the lower-left contact as pin 1; PCB local pad 1=(0,0) is triangle side and pad 2=(0,-2.54) is opposite row."
+          }
+        },
+        {
+          "id": "IMG_20261009_222135_1.jpg:J23-pin3",
+          "label": "J23 Pin 3 [+5V]",
+          "kind": "pin",
+          "bbox_xyxy_normalized": [
+            0.5440340909090909,
+            0.02634961439588689,
+            0.5653409090909091,
+            0.03759640102827763
+          ],
+          "identity_status": "visually_reviewed_pin_location",
+          "source": {
+            "connector": "J23",
+            "pin_number": "3",
+            "source_net": "+5V",
+            "evidence": "EXT/IO and J23 readable; triangle below left column marks the lower-left contact as pin 1; PCB local pad 1=(0,0) is triangle side and pad 2=(0,-2.54) is opposite row."
+          }
+        },
+        {
+          "id": "IMG_20261009_222135_1.jpg:J23-pin4",
+          "label": "J23 Pin 4 [+5V]",
+          "kind": "pin",
+          "bbox_xyxy_normalized": [
+            0.5440340909090909,
+            0.010282776349614395,
+            0.5653409090909091,
+            0.02217223650385604
+          ],
+          "identity_status": "visually_reviewed_pin_location",
+          "source": {
+            "connector": "J23",
+            "pin_number": "4",
+            "source_net": "+5V",
+            "evidence": "EXT/IO and J23 readable; triangle below left column marks the lower-left contact as pin 1; PCB local pad 1=(0,0) is triangle side and pad 2=(0,-2.54) is opposite row."
+          }
+        },
+        {
+          "id": "IMG_20261009_222135_1.jpg:J23-pin5",
+          "label": "J23 Pin 5 [PC7]",
+          "kind": "pin",
+          "bbox_xyxy_normalized": [
+            0.5759943181818182,
+            0.02634961439588689,
+            0.5973011363636364,
+            0.03759640102827763
+          ],
+          "identity_status": "visually_reviewed_pin_location",
+          "source": {
+            "connector": "J23",
+            "pin_number": "5",
+            "source_net": "PC7",
+            "evidence": "EXT/IO and J23 readable; triangle below left column marks the lower-left contact as pin 1; PCB local pad 1=(0,0) is triangle side and pad 2=(0,-2.54) is opposite row."
+          }
+        },
+        {
+          "id": "IMG_20261009_222135_1.jpg:J23-pin6",
+          "label": "J23 Pin 6 [PD7]",
+          "kind": "pin",
+          "bbox_xyxy_normalized": [
+            0.5759943181818182,
+            0.010282776349614395,
+            0.5973011363636364,
+            0.02217223650385604
+          ],
+          "identity_status": "visually_reviewed_pin_location",
+          "source": {
+            "connector": "J23",
+            "pin_number": "6",
+            "source_net": "PD7",
+            "evidence": "EXT/IO and J23 readable; triangle below left column marks the lower-left contact as pin 1; PCB local pad 1=(0,0) is triangle side and pad 2=(0,-2.54) is opposite row."
+          }
+        },
+        {
+          "id": "IMG_20261009_222135_1.jpg:J1-pin1",
+          "label": "J1 Pin 1 [PB3]",
+          "kind": "pin",
+          "bbox_xyxy_normalized": [
+            0.5113636363636364,
+            0.06940874035989718,
+            0.5326704545454546,
+            0.08065552699228792
+          ],
+          "identity_status": "visually_reviewed_pin_location",
+          "source": {
+            "connector": "J1",
+            "pin_number": "1",
+            "source_net": "PB3",
+            "evidence": "ICSP1 and J1 readable; triangle below left column marks lower-left pin 1, matching version-matched PCB local pad 1 and two-row pad geometry."
+          }
+        },
+        {
+          "id": "IMG_20261009_222135_1.jpg:J1-pin2",
+          "label": "J1 Pin 2 [+5V]",
+          "kind": "pin",
+          "bbox_xyxy_normalized": [
+            0.5113636363636364,
+            0.05462724935732648,
+            0.5326704545454546,
+            0.06683804627249357
+          ],
+          "identity_status": "visually_reviewed_pin_location",
+          "source": {
+            "connector": "J1",
+            "pin_number": "2",
+            "source_net": "+5V",
+            "evidence": "ICSP1 and J1 readable; triangle below left column marks lower-left pin 1, matching version-matched PCB local pad 1 and two-row pad geometry."
+          }
+        },
+        {
+          "id": "IMG_20261009_222135_1.jpg:J1-pin3",
+          "label": "J1 Pin 3 [PB1]",
+          "kind": "pin",
+          "bbox_xyxy_normalized": [
+            0.5440340909090909,
+            0.06940874035989718,
+            0.5653409090909091,
+            0.08065552699228792
+          ],
+          "identity_status": "visually_reviewed_pin_location",
+          "source": {
+            "connector": "J1",
+            "pin_number": "3",
+            "source_net": "PB1",
+            "evidence": "ICSP1 and J1 readable; triangle below left column marks lower-left pin 1, matching version-matched PCB local pad 1 and two-row pad geometry."
+          }
+        },
+        {
+          "id": "IMG_20261009_222135_1.jpg:J1-pin4",
+          "label": "J1 Pin 4 [PB2]",
+          "kind": "pin",
+          "bbox_xyxy_normalized": [
+            0.5440340909090909,
+            0.05462724935732648,
+            0.5653409090909091,
+            0.06683804627249357
+          ],
+          "identity_status": "visually_reviewed_pin_location",
+          "source": {
+            "connector": "J1",
+            "pin_number": "4",
+            "source_net": "PB2",
+            "evidence": "ICSP1 and J1 readable; triangle below left column marks lower-left pin 1, matching version-matched PCB local pad 1 and two-row pad geometry."
+          }
+        },
+        {
+          "id": "IMG_20261009_222135_1.jpg:J1-pin5",
+          "label": "J1 Pin 5 [NRESET]",
+          "kind": "pin",
+          "bbox_xyxy_normalized": [
+            0.5759943181818182,
+            0.06940874035989718,
+            0.5973011363636364,
+            0.08065552699228792
+          ],
+          "identity_status": "visually_reviewed_pin_location",
+          "source": {
+            "connector": "J1",
+            "pin_number": "5",
+            "source_net": "NRESET",
+            "evidence": "ICSP1 and J1 readable; triangle below left column marks lower-left pin 1, matching version-matched PCB local pad 1 and two-row pad geometry."
+          }
+        },
+        {
+          "id": "IMG_20261009_222135_1.jpg:J1-pin6",
+          "label": "J1 Pin 6 [GND]",
+          "kind": "pin",
+          "bbox_xyxy_normalized": [
+            0.5759943181818182,
+            0.05462724935732648,
+            0.5973011363636364,
+            0.06683804627249357
+          ],
+          "identity_status": "visually_reviewed_pin_location",
+          "source": {
+            "connector": "J1",
+            "pin_number": "6",
+            "source_net": "GND",
+            "evidence": "ICSP1 and J1 readable; triangle below left column marks lower-left pin 1, matching version-matched PCB local pad 1 and two-row pad geometry."
+          }
+        },
+        {
+          "id": "IMG_20261009_222135_1.jpg:J2-pin1",
+          "label": "J2 Pin 1 [NetJ2_1]",
+          "kind": "pin",
+          "bbox_xyxy_normalized": [
+            0.46235795454545453,
+            0.781491002570694,
+            0.4865056818181818,
+            0.7975578406169666
+          ],
+          "identity_status": "visually_reviewed_pin_location",
+          "source": {
+            "connector": "J2",
+            "pin_number": "1",
+            "source_net": "NetJ2_1",
+            "evidence": "ICSP2 and J2 readable after rotating the local crop 180 degrees for inspection; in original image coordinates the triangle is above the rightmost column. PCB J2 has opposite rotation to J1, so upper-right is pin 1 and lower-right is pin 2."
+          }
+        },
+        {
+          "id": "IMG_20261009_222135_1.jpg:J2-pin2",
+          "label": "J2 Pin 2 [+5V]",
+          "kind": "pin",
+          "bbox_xyxy_normalized": [
+            0.46235795454545453,
+            0.7998071979434447,
+            0.4865056818181818,
+            0.8126606683804627
+          ],
+          "identity_status": "visually_reviewed_pin_location",
+          "source": {
+            "connector": "J2",
+            "pin_number": "2",
+            "source_net": "+5V",
+            "evidence": "ICSP2 and J2 readable after rotating the local crop 180 degrees for inspection; in original image coordinates the triangle is above the rightmost column. PCB J2 has opposite rotation to J1, so upper-right is pin 1 and lower-right is pin 2."
+          }
+        },
+        {
+          "id": "IMG_20261009_222135_1.jpg:J2-pin3",
+          "label": "J2 Pin 3 [NetJ2_3]",
+          "kind": "pin",
+          "bbox_xyxy_normalized": [
+            0.4303977272727273,
+            0.781491002570694,
+            0.45454545454545453,
+            0.7975578406169666
+          ],
+          "identity_status": "visually_reviewed_pin_location",
+          "source": {
+            "connector": "J2",
+            "pin_number": "3",
+            "source_net": "NetJ2_3",
+            "evidence": "ICSP2 and J2 readable after rotating the local crop 180 degrees for inspection; in original image coordinates the triangle is above the rightmost column. PCB J2 has opposite rotation to J1, so upper-right is pin 1 and lower-right is pin 2."
+          }
+        },
+        {
+          "id": "IMG_20261009_222135_1.jpg:J2-pin4",
+          "label": "J2 Pin 4 [NetJ2_4]",
+          "kind": "pin",
+          "bbox_xyxy_normalized": [
+            0.4303977272727273,
+            0.7998071979434447,
+            0.45454545454545453,
+            0.8126606683804627
+          ],
+          "identity_status": "visually_reviewed_pin_location",
+          "source": {
+            "connector": "J2",
+            "pin_number": "4",
+            "source_net": "NetJ2_4",
+            "evidence": "ICSP2 and J2 readable after rotating the local crop 180 degrees for inspection; in original image coordinates the triangle is above the rightmost column. PCB J2 has opposite rotation to J1, so upper-right is pin 1 and lower-right is pin 2."
+          }
+        },
+        {
+          "id": "IMG_20261009_222135_1.jpg:J2-pin5",
+          "label": "J2 Pin 5 [NetD2_1]",
+          "kind": "pin",
+          "bbox_xyxy_normalized": [
+            0.3991477272727273,
+            0.781491002570694,
+            0.42329545454545453,
+            0.7975578406169666
+          ],
+          "identity_status": "visually_reviewed_pin_location",
+          "source": {
+            "connector": "J2",
+            "pin_number": "5",
+            "source_net": "NetD2_1",
+            "evidence": "ICSP2 and J2 readable after rotating the local crop 180 degrees for inspection; in original image coordinates the triangle is above the rightmost column. PCB J2 has opposite rotation to J1, so upper-right is pin 1 and lower-right is pin 2."
+          }
+        },
+        {
+          "id": "IMG_20261009_222135_1.jpg:J2-pin6",
+          "label": "J2 Pin 6 [GND]",
+          "kind": "pin",
+          "bbox_xyxy_normalized": [
+            0.3991477272727273,
+            0.7998071979434447,
+            0.42329545454545453,
+            0.8126606683804627
+          ],
+          "identity_status": "visually_reviewed_pin_location",
+          "source": {
+            "connector": "J2",
+            "pin_number": "6",
+            "source_net": "GND",
+            "evidence": "ICSP2 and J2 readable after rotating the local crop 180 degrees for inspection; in original image coordinates the triangle is above the rightmost column. PCB J2 has opposite rotation to J1, so upper-right is pin 1 and lower-right is pin 2."
+          }
+        }
+      ]
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092241.jpg",
+      "image_sha256": "b7a2344d2eb4abfa28dda92e6422e20cab39cb5328f564b40ca342e034f850b8",
+      "class_id": 2,
+      "board_label": "Ultimaker Ultimainboard 2.1.4",
+      "board_family": "ultimainboard",
+      "specimen_id": "bench-ultimaker-01",
+      "view_slot": "context_workbench",
+      "board_bbox_xyxy_normalized": [
+        0.3289,
+        0.2133,
+        0.6842,
+        0.7648
+      ],
+      "pose_landmark_ids": [
+        "ultimaker_mh1_top_left",
+        "ultimaker_mh2_top_right",
+        "ultimaker_mh3_bottom_left",
+        "ultimaker_mh4_bottom_right"
+      ],
+      "pose_landmark_kind": "mounting_hole_center",
+      "pose_metric_landmarks_metres": [
+        [
+          -0.08,
+          -0.032
+        ],
+        [
+          0.08,
+          -0.032
+        ],
+        [
+          -0.08,
+          0.032
+        ],
+        [
+          0.08,
+          0.032
+        ]
+      ],
+      "labels": [
+        {
+          "id": "IMG_20261010_092241.jpg:board",
+          "label": "Ultimaker Ultimainboard 2.1.4 [reviewed board]",
+          "kind": "board",
+          "bbox_xyxy_normalized": [
+            0.3289,
+            0.2133,
+            0.6842,
+            0.7648
+          ],
+          "identity_status": "visually_reviewed_board_body",
+          "source": {
+            "board_family": "ultimainboard",
+            "evidence": "Visible silkscreen revision 2.1.4 on workbench"
+          }
+        }
+      ]
+    }
+  ]
+}

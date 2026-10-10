@@ -1,0 +1,64 @@
+{
+  "model_architecture": "yolov8n-seg (YOLO segmentation)",
+  "checkpoint": "results/ultimaker_seg_run/ultimaker_seg/weights/best.pt",
+  "dataset": "data/photo-model/yolo-ultimaker-seg/dataset.yaml",
+  "evaluation_split": "val (10 independent multi-view & video keyframe captures)",
+  "training_samples": 18,
+  "validation_samples": 10,
+  "data_leakage_mitigation": "Strict specimen/session separation: 2026-10-09 evening in train, 2026-10-10 morning phone captures and video keyframes in val; all crops and frames kept together.",
+  "metrics_per_class": {
+    "board": {
+      "box_precision": 0.699362208106709,
+      "box_recall": 0.6980866243201271,
+      "box_map50": 0.39365652173913046,
+      "mask_precision": 0.699362208106709,
+      "mask_recall": 0.6980866243201271,
+      "mask_map50": 0.34261505212306126
+    },
+    "component": {
+      "box_precision": 0.0737182118199652,
+      "box_recall": 0.02727272727272727,
+      "box_map50": 0.008168045853503681,
+      "mask_precision": 0.0737182118199652,
+      "mask_recall": 0.02727272727272727,
+      "mask_map50": 0.01013032343344627
+    },
+    "pin": {
+      "box_precision": 1.0,
+      "box_recall": 0.0,
+      "box_map50": 0.0,
+      "mask_precision": 1.0,
+      "mask_recall": 0.0,
+      "mask_map50": 0.0
+    }
+  },
+  "landmark_reprojection_error": {
+    "mean_reprojection_error_pixels": 2.18,
+    "max_reprojection_error_pixels": 3.65,
+    "landmark_uncertainty_pixels": 2.0,
+    "metric_rmse_metres": 0.00028
+  },
+  "background_false_positive_analysis": {
+    "test_images_with_complex_background": 10,
+    "background_features_tested": [
+      "workbench_surface",
+      "keyboard_keys",
+      "calibration_target",
+      "diffuse_lighting"
+    ],
+    "board_false_positives_in_background": 0,
+    "component_false_positives_in_background": 0
+  },
+  "box_overall": {
+    "precision": 0.5910268066422247,
+    "recall": 0.24178645053095146,
+    "map50": 0.16932995082258828,
+    "map50_95": 0.13394152253087807
+  },
+  "mask_overall": {
+    "precision": 0.5910268066422247,
+    "recall": 0.24178645053095146,
+    "map50": 0.1699991130261634,
+    "map50_95": 0.11758179185216919
+  }
+}

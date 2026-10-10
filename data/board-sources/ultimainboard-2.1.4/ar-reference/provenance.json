@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "board_family": "ultimainboard",
+  "board_model": "Ultimainboard 2.1.4",
+  "retrieved": "2026-10-10",
+  "match": "source_verified_independent_geometry_cad_model",
+  "files": [
+    {
+      "path": "digital-twin-manifest.json",
+      "sha256": "cf1a0ee34950c985d383c031a2d543b8491050dc60cab9d0a2623193730819db"
+    },
+    {
+      "path": "component-map.json",
+      "sha256": "ee991cdd4d3f3d69dc9b0fdf77d34120f98b0cbbf2914089264c1ac3f504ccaf"
+    },
+    {
+      "path": "ultimainboard_2_1_4_visible.glb",
+      "sha256": "57a4eaed97901cc0a0e23862851673ec4196673e5656e9be87a49a1f35a9601c"
+    }
+  ]
+}

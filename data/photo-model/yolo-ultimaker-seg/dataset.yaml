@@ -1,0 +1,8 @@
+path: C:/Users/Acer/.gemini/antigravity-ide/scratch/tokito-ultimaker-work/data/photo-model/yolo-ultimaker-seg
+train: images/train
+val: images/val
+
+names:
+  0: board
+  1: component
+  2: pin

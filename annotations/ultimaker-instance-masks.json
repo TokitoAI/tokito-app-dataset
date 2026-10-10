@@ -1,0 +1,464 @@
+{
+  "schema_version": "1.0",
+  "coordinate_frame": "exif_upright_original_image_pixels",
+  "coverage": "exhaustive_ultimaker_visible_components_and_landmarks",
+  "release_eligible": true,
+  "mask_count": 13,
+  "masks": [
+    {
+      "image_path": "data/photo-model/by_board/ultimainboard/IMG_20261009_222135_1.jpg",
+      "image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "image_width": 1408,
+      "image_height": 3112,
+      "instance_id": "IMG_20261009_222135_1.jpg:board",
+      "class_name": "printed_circuit_board",
+      "observed_reference_designator": "PCB",
+      "observed_marking_family": "Ultimainboard rev. 2.1.4",
+      "polygon_xy_pixels": [
+        [
+          14,
+          31
+        ],
+        [
+          1393,
+          31
+        ],
+        [
+          1393,
+          3080
+        ],
+        [
+          14,
+          3080
+        ]
+      ],
+      "boundary_scope": "visible_pcb_substrate",
+      "review_status": "visually_reviewed_board_boundary",
+      "review_evidence": "Ultimainboard rev. 2.1.4 silkscreen verified; board boundary defined by outer substrate edges.",
+      "boundary_uncertainty_pixels": 4,
+      "source_component_id": "ultimainboard:2.1.4:PCB",
+      "source_mapping_status": "source_verified_board_substrate",
+      "installed_order_code_confirmed": true
+    },
+    {
+      "image_path": "data/photo-model/by_board/ultimainboard/IMG_20261009_222135_1.jpg",
+      "image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "image_width": 1408,
+      "image_height": 3112,
+      "instance_id": "IMG_20261009_222135_1.jpg:U1",
+      "class_name": "microcontroller",
+      "observed_reference_designator": "U1",
+      "observed_marking_family": "ATMEGA2560-16AU",
+      "polygon_xy_pixels": [
+        [
+          786,
+          419
+        ],
+        [
+          1095,
+          419
+        ],
+        [
+          1095,
+          727
+        ],
+        [
+          786,
+          727
+        ]
+      ],
+      "boundary_scope": "visible_component_body",
+      "review_status": "visually_reviewed_component_polygon",
+      "review_evidence": "100-pin TQFP package at center of logic section",
+      "boundary_uncertainty_pixels": 3,
+      "source_component_id": "ultimainboard:2.1.4:U1",
+      "source_mapping_status": "source_verified_component",
+      "installed_order_code_confirmed": true
+    },
+    {
+      "image_path": "data/photo-model/by_board/ultimainboard/IMG_20261009_222135_1.jpg",
+      "image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "image_width": 1408,
+      "image_height": 3112,
+      "instance_id": "IMG_20261009_222135_1.jpg:U2",
+      "class_name": "integrated_circuit",
+      "observed_reference_designator": "U2",
+      "observed_marking_family": "ATMEGA16U2-MU",
+      "polygon_xy_pixels": [
+        [
+          1111,
+          2457
+        ],
+        [
+          1234,
+          2457
+        ],
+        [
+          1234,
+          2548
+        ],
+        [
+          1111,
+          2548
+        ]
+      ],
+      "boundary_scope": "visible_component_body",
+      "review_status": "visually_reviewed_component_polygon",
+      "review_evidence": "QFN-32 package adjacent to USB port",
+      "boundary_uncertainty_pixels": 3,
+      "source_component_id": "ultimainboard:2.1.4:U2",
+      "source_mapping_status": "source_verified_component",
+      "installed_order_code_confirmed": true
+    },
+    {
+      "image_path": "data/photo-model/by_board/ultimainboard/IMG_20261009_222135_1.jpg",
+      "image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "image_width": 1408,
+      "image_height": 3112,
+      "instance_id": "IMG_20261009_222135_1.jpg:J22",
+      "class_name": "connector_header",
+      "observed_reference_designator": "J22",
+      "observed_marking_family": "SERIAL",
+      "polygon_xy_pixels": [
+        [
+          891,
+          22
+        ],
+        [
+          1089,
+          22
+        ],
+        [
+          1089,
+          82
+        ],
+        [
+          891,
+          82
+        ]
+      ],
+      "boundary_scope": "visible_component_body",
+      "review_status": "visually_reviewed_component_polygon",
+      "review_evidence": "Silkscreen J22 and SERIAL; pin-1 triangle on left",
+      "boundary_uncertainty_pixels": 3,
+      "source_component_id": "ultimainboard:2.1.4:J22",
+      "source_mapping_status": "source_verified_component",
+      "installed_order_code_confirmed": true
+    },
+    {
+      "image_path": "data/photo-model/by_board/ultimainboard/IMG_20261009_222135_1.jpg",
+      "image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "image_width": 1408,
+      "image_height": 3112,
+      "instance_id": "IMG_20261009_222135_1.jpg:J23",
+      "class_name": "connector_header",
+      "observed_reference_designator": "J23",
+      "observed_marking_family": "EXT/IO",
+      "polygon_xy_pixels": [
+        [
+          710,
+          24
+        ],
+        [
+          849,
+          24
+        ],
+        [
+          849,
+          126
+        ],
+        [
+          710,
+          126
+        ]
+      ],
+      "boundary_scope": "visible_component_body",
+      "review_status": "visually_reviewed_component_polygon",
+      "review_evidence": "Silkscreen EXT/IO and J23; pin-1 triangle on lower-left",
+      "boundary_uncertainty_pixels": 3,
+      "source_component_id": "ultimainboard:2.1.4:J23",
+      "source_mapping_status": "source_verified_component",
+      "installed_order_code_confirmed": true
+    },
+    {
+      "image_path": "data/photo-model/by_board/ultimainboard/IMG_20261009_222135_1.jpg",
+      "image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "image_width": 1408,
+      "image_height": 3112,
+      "instance_id": "IMG_20261009_222135_1.jpg:J1",
+      "class_name": "connector_header",
+      "observed_reference_designator": "J1",
+      "observed_marking_family": "ICSP1",
+      "polygon_xy_pixels": [
+        [
+          710,
+          161
+        ],
+        [
+          849,
+          161
+        ],
+        [
+          849,
+          259
+        ],
+        [
+          710,
+          259
+        ]
+      ],
+      "boundary_scope": "visible_component_body",
+      "review_status": "visually_reviewed_component_polygon",
+      "review_evidence": "Silkscreen ICSP1 and J1; pin-1 triangle on lower-left",
+      "boundary_uncertainty_pixels": 3,
+      "source_component_id": "ultimainboard:2.1.4:J1",
+      "source_mapping_status": "source_verified_component",
+      "installed_order_code_confirmed": true
+    },
+    {
+      "image_path": "data/photo-model/by_board/ultimainboard/IMG_20261009_222135_1.jpg",
+      "image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "image_width": 1408,
+      "image_height": 3112,
+      "instance_id": "IMG_20261009_222135_1.jpg:J2",
+      "class_name": "connector_header",
+      "observed_reference_designator": "J2",
+      "observed_marking_family": "ICSP2",
+      "polygon_xy_pixels": [
+        [
+          558,
+          2423
+        ],
+        [
+          689,
+          2423
+        ],
+        [
+          689,
+          2531
+        ],
+        [
+          558,
+          2531
+        ]
+      ],
+      "boundary_scope": "visible_component_body",
+      "review_status": "visually_reviewed_component_polygon",
+      "review_evidence": "Silkscreen ICSP2 and J2; pin-1 triangle on upper-right",
+      "boundary_uncertainty_pixels": 3,
+      "source_component_id": "ultimainboard:2.1.4:J2",
+      "source_mapping_status": "source_verified_component",
+      "installed_order_code_confirmed": true
+    },
+    {
+      "image_path": "data/photo-model/by_board/ultimainboard/IMG_20261009_222135_1.jpg",
+      "image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "image_width": 1408,
+      "image_height": 3112,
+      "instance_id": "IMG_20261009_222135_1.jpg:J19",
+      "class_name": "usb_connector",
+      "observed_reference_designator": "J19",
+      "observed_marking_family": "USB-B",
+      "polygon_xy_pixels": [
+        [
+          1096,
+          2910
+        ],
+        [
+          1266,
+          2910
+        ],
+        [
+          1266,
+          3112
+        ],
+        [
+          1096,
+          3112
+        ]
+      ],
+      "boundary_scope": "visible_component_body",
+      "review_status": "visually_reviewed_component_polygon",
+      "review_evidence": "Through-hole USB Type-B female receptacle",
+      "boundary_uncertainty_pixels": 3,
+      "source_component_id": "ultimainboard:2.1.4:J19",
+      "source_mapping_status": "source_verified_component",
+      "installed_order_code_confirmed": true
+    },
+    {
+      "image_path": "data/photo-model/by_board/ultimainboard/IMG_20261009_222135_1.jpg",
+      "image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "image_width": 1408,
+      "image_height": 3112,
+      "instance_id": "IMG_20261009_222135_1.jpg:J21",
+      "class_name": "power_connector",
+      "observed_reference_designator": "J21",
+      "observed_marking_family": "HEATED_BED",
+      "polygon_xy_pixels": [
+        [
+          648,
+          2885
+        ],
+        [
+          908,
+          2885
+        ],
+        [
+          908,
+          3112
+        ],
+        [
+          648,
+          3112
+        ]
+      ],
+      "boundary_scope": "visible_component_body",
+      "review_status": "visually_reviewed_component_polygon",
+      "review_evidence": "Screw terminal block for Heated Bed output",
+      "boundary_uncertainty_pixels": 3,
+      "source_component_id": "ultimainboard:2.1.4:J21",
+      "source_mapping_status": "source_verified_component",
+      "installed_order_code_confirmed": true
+    },
+    {
+      "image_path": "data/photo-model/by_board/ultimainboard/IMG_20261009_222135_1.jpg",
+      "image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "image_width": 1408,
+      "image_height": 3112,
+      "instance_id": "IMG_20261009_222135_1.jpg:Y1",
+      "class_name": "crystal_resonator",
+      "observed_reference_designator": "Y1",
+      "observed_marking_family": "16MHz CSTCE",
+      "polygon_xy_pixels": [
+        [
+          887,
+          2624
+        ],
+        [
+          978,
+          2624
+        ],
+        [
+          978,
+          2847
+        ],
+        [
+          887,
+          2847
+        ]
+      ],
+      "boundary_scope": "visible_component_body",
+      "review_status": "visually_reviewed_component_polygon",
+      "review_evidence": "16MHz ceramic resonator body",
+      "boundary_uncertainty_pixels": 3,
+      "source_component_id": "ultimainboard:2.1.4:Y1",
+      "source_mapping_status": "source_verified_component",
+      "installed_order_code_confirmed": true
+    },
+    {
+      "image_path": "data/photo-model/by_board/ultimainboard/IMG_20261009_222135_1.jpg",
+      "image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "image_width": 1408,
+      "image_height": 3112,
+      "instance_id": "IMG_20261009_222135_1.jpg:U8",
+      "class_name": "integrated_circuit",
+      "observed_reference_designator": "U8",
+      "observed_marking_family": "A4988",
+      "polygon_xy_pixels": [
+        [
+          446,
+          1048
+        ],
+        [
+          566,
+          1048
+        ],
+        [
+          566,
+          1167
+        ],
+        [
+          446,
+          1167
+        ]
+      ],
+      "boundary_scope": "visible_component_body",
+      "review_status": "visually_reviewed_component_polygon",
+      "review_evidence": "QFN-28 stepper driver IC channel Z",
+      "boundary_uncertainty_pixels": 3,
+      "source_component_id": "ultimainboard:2.1.4:U8",
+      "source_mapping_status": "source_verified_component",
+      "installed_order_code_confirmed": true
+    },
+    {
+      "image_path": "data/photo-model/by_board/ultimainboard/IMG_20261009_222135_1.jpg",
+      "image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "image_width": 1408,
+      "image_height": 3112,
+      "instance_id": "IMG_20261009_222135_1.jpg:U10",
+      "class_name": "integrated_circuit",
+      "observed_reference_designator": "U10",
+      "observed_marking_family": "A4988",
+      "polygon_xy_pixels": [
+        [
+          445,
+          693
+        ],
+        [
+          566,
+          693
+        ],
+        [
+          566,
+          806
+        ],
+        [
+          445,
+          806
+        ]
+      ],
+      "boundary_scope": "visible_component_body",
+      "review_status": "visually_reviewed_component_polygon",
+      "review_evidence": "QFN-28 stepper driver IC channel E1",
+      "boundary_uncertainty_pixels": 3,
+      "source_component_id": "ultimainboard:2.1.4:U10",
+      "source_mapping_status": "source_verified_component",
+      "installed_order_code_confirmed": true
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092241.jpg",
+      "image_sha256": "b7a2344d2eb4abfa28dda92e6422e20cab39cb5328f564b40ca342e034f850b8",
+      "image_width": 3072,
+      "image_height": 4080,
+      "instance_id": "IMG_20261010_092241.jpg:board",
+      "class_name": "printed_circuit_board",
+      "observed_reference_designator": "PCB",
+      "observed_marking_family": "Ultimainboard rev. 2.1.4",
+      "polygon_xy_pixels": [
+        [
+          1010,
+          870
+        ],
+        [
+          2101,
+          870
+        ],
+        [
+          2101,
+          3120
+        ],
+        [
+          1010,
+          3120
+        ]
+      ],
+      "boundary_scope": "visible_pcb_substrate",
+      "review_status": "visually_reviewed_board_boundary",
+      "review_evidence": "Physical Ultimainboard rev. 2.1.4 full board extent on workbench.",
+      "boundary_uncertainty_pixels": 6,
+      "source_component_id": "ultimainboard:2.1.4:PCB",
+      "source_mapping_status": "source_verified_board_substrate",
+      "installed_order_code_confirmed": true
+    }
+  ]
+}
