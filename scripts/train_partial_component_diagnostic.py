@@ -135,7 +135,11 @@ def main():
         evaluated=YOLO(str(args.evaluate));metrics=audited_metrics(evaluated,val,manifest['class_names']);(OUT/'run/audited-region-metrics.json').write_text(json.dumps(metrics,indent=2));print(json.dumps(metrics),flush=True);return
     if not args.run:return
     if not torch.cuda.is_available():raise RuntimeError('CUDA required')
-    run=OUT/'run';run.mkdir(exist_ok=False);weights=run/'weights';weights.mkdir()
+    run=OUT/'run';
+    if run.exists():
+        entries=list(run.iterdir())
+        if any(p.name!='weights' or any(p.iterdir()) for p in entries): raise FileExistsError('Refusing to overwrite non-empty diagnostic run directory')
+    run.mkdir(parents=True,exist_ok=True);weights=run/'weights';weights.mkdir(exist_ok=True)
     from ultralytics import YOLO
     from ultralytics.nn.tasks import SegmentationModel
     from ultralytics.cfg import get_cfg

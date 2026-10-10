@@ -26,8 +26,11 @@ def partial_classification_bce(logits, targets, reviewed_background_anchors):
         raise ValueError('background anchor raster shape mismatch')
     if reviewed_background_anchors.dtype != torch.bool:
         raise ValueError('reviewed background must be boolean, not implicit confidence')
-    if not torch.isfinite(targets).all() or ((targets < 0) | (targets > 1)).any():
-        raise ValueError('invalid classification target scores')
+    if not torch.isfinite(targets).all():
+        raise ValueError('non-finite classification target scores')
+    if ((targets < 0) | (targets > 1.001)).any():
+        raise ValueError(f'invalid classification target range: min={targets.min().item()} max={targets.max().item()} dtype={targets.dtype}')
+    targets = targets.float().clamp_(0.0, 1.0)
     supervised = targets.gt(0).any(-1) | reviewed_background_anchors
     return F.binary_cross_entropy_with_logits(logits, targets, reduction='none') * supervised.unsqueeze(-1)
 
