@@ -31,3 +31,8 @@ class NXPVideoReview(unittest.TestCase):
         self.revision['revision_equivalence_verified']=True
         with self.assertRaisesRegex(ValueError,'B/C equivalence'):
             validate(self.review,self.revision)
+
+    def test_copyright_suffix_cannot_be_promoted_to_hardware_revision(self):
+        self.revision['photographed_marking']='B'
+        with self.assertRaisesRegex(ValueError,'Incorrect revision identities'):
+            validate(self.review,self.revision)

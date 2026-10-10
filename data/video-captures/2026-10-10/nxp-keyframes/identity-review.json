@@ -7,7 +7,7 @@
   "observed_board_text": "FRDM-MCXN236",
   "observed_separate_revision_marking": null,
   "source_design_revision_available": "C",
-  "revision_mapping_status": "physical_revision_unverified; B_is_copyright_not_revision",
+  "revision_mapping_status": "schematic_C_confirmed_by_underside; assembly_A1_separate_domain; layout_geometry_review_pending",
   "specimen_link_status": "same_bench_NXP_specimen_assumed_for_leakage_control; cross_session_identity_not_independently_verified",
   "reviewed_view_status": "component_side_macro_pan_in_sampled_frames",
   "underside_observed_in_sampled_frames": false,
@@ -16,8 +16,10 @@
   "training_export_eligible": false,
   "production_eligible": false,
   "source_component_mapping_verified": false,
-  "required_followup": "Review the actual underside PCB revision identifier, or verify physical correspondence per component. Front copyright is not revision evidence.",
+  "required_followup": "Use schematic C with domain-specific evidence; finish physical layout, population and calibration verification.",
   "review_preview_sha256": "e55a9e05621b25126ce6935338d5675321e177299cf054c18f8d7afcb8c104e2",
   "observed_copyright_marking": "2024 NXP B.V.",
-  "prior_B_revision_inference_retracted": true
+  "prior_B_revision_inference_retracted": true,
+  "subsequent_underside_schematic_revision": "C",
+  "subsequent_underside_assembly_revision": "A1"
 }

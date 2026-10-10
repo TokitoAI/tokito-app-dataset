@@ -55,6 +55,18 @@ def validate(review, revision):
     require(revision['c_changes']['changed_header_contacts']==['J8:6','J8:8'], 'Changed-pin history mismatch')
     require(revision['c_changes']['added_testpoints']==[f'TP{i}' for i in range(10,33)],
             'C-only testpoint history mismatch')
+    underside=json.loads((ROOT/'data/phone-captures/2026-10-10/nxp-underside/manifest.json').read_text())
+    domains=underside['observed_revision_domains']
+    require(domains['schematic']=={'document':'SCH-90828','revision':'C'}
+            and domains['assembly']=={'document':'700-90828','revision':'A1'},
+            'Schematic and assembly revision domains mixed')
+    require(underside['schematic_revision_matches_downloaded_source']
+            and revision['schematic_revision_match_verified'], 'Schematic source match lost')
+    require(not underside['physical_flip_sequence_verified'] and not underside['release_eligible'],
+            'Underside stills cannot establish tested flip tracking')
+    for photo in underside['photos']:
+        require(content_sha(ROOT/photo['image_path'])==photo['image_sha256'], 'Underside photo changed')
+        require(photo['view']=='bottom' and not photo['training_export_eligible'], 'Wrong capture review scope')
     return len(review['masks'])
 
 
