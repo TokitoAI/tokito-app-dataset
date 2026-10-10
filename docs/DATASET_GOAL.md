@@ -54,6 +54,14 @@ review is [PUBLIC_COMPONENT_DATASET_AUDIT_2026-10-11.md](PUBLIC_COMPONENT_DATASE
 Partial frames can still support the ignore-aware diagnostic trainer, but do
 not count as an exhaustive component dataset or valid independent evaluation.
 
+A visual review of six original iQOO gallery photos now records board family
+and visible face with SHA-256 provenance in
+`data/phone-captures/2026-10-11/gallery/view-review.json`. This includes a
+full Ultimainboard solder-face photo and an NXP oblique component-face view.
+The stills do not verify same-specimen front/back registration, a continuous
+flip, four distinct oblique sides, camera pose, or complete component masks;
+they remain excluded from training and evaluation.
+
 | Work | Status |
 |---|---|
 | Dataset repository and initial corpus | Published; PRs #1 and #2 merged into main |
