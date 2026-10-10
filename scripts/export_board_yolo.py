@@ -1,7 +1,7 @@
 from pathlib import Path
 from PIL import Image,ImageOps
 import json,hashlib
-root=Path('data/photo-model');rows=json.loads((root/'board-annotations.json').read_text());names=['esp32_board','esp8266_board','ultimainboard','nxp_frdm_mcxn236_board','raspberry_pi_3b_board']
+root=Path('data/photo-model');rows=json.loads((root/'board-annotations.json').read_text());names=['esp32_board','esp8266_board','ultimainboard','nxp_frdm_mcxn236_board','raspberry_pi_3b_board'];model_names=['esp32_devkit_30pin_unknown_variant','esp8266_nodemcu_esp12e_clone_unknown_variant','ultimainboard_2_1_4','nxp_frdm_mcxn236_unknown_rev','raspberry_pi_3b_v1_2']
 val_captures={'IMG_20261009_221154.jpg','IMG_20261009_221155.jpg','IMG_20261009_221156.jpg','IMG_20261009_221657.jpg','IMG_20261009_222033.jpg','IMG_20261009_222038.jpg','IMG_20261009_222042.jpg','IMG_20261009_222108.jpg','IMG_20261009_222113.jpg','IMG_20261009_222340.jpg','IMG_20261009_222343.jpg'}
 counts={'train':0,'val':0,'held_out_crop_variant':0};export=[]
 approved=json.loads((root/'board-review.json').read_text())['images']
@@ -23,6 +23,6 @@ for row in rows:
  export.append(row)
 (root/'board-annotations.json').write_text(json.dumps(rows,indent=2))
 base=(root/'yolo-boards').resolve().as_posix()
-(root/'yolo-boards/data.yaml').write_text('path: '+base+'\ntrain: images/train\nval: images/val\nnames:\n'+''.join(f'  {i}: {n}\n' for i,n in enumerate(names)))
+(root/'yolo-boards/data.yaml').write_text('path: '+base+'\ntrain: images/train\nval: images/val\nnames:\n'+''.join(f'  {i}: {n}\n' for i,n in enumerate(model_names)))
 (root/'yolo-boards/split-report.json').write_text(json.dumps({'counts':counts,'validation_classes':[names[i] for i in sorted({r['class_id'] for r in export if r['split']=='val'})],'limitations':'One physical specimen per family, one session; no independent specimen test; ESP32 only one pose burst so held in training, no validation metric for ESP32; crop/original groups never split across folds. Validation is diagnostic.'},indent=2))
 print(counts)

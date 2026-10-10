@@ -20,7 +20,9 @@ Install Git LFS before cloning, then run `git lfs pull`. Large photos, CAD files
 
 ## Train the first board detector
 
-Use a virtual environment and install `requirements-training.txt`. Run `python scripts/train_board_detector.py` from the repository root. Training uses the reviewed five-class YOLO dataset at `data/photo-model/yolo-boards`.
+Use a virtual environment with a CUDA-enabled PyTorch build and install `requirements-training.txt`. Run `python scripts/train_board_detector.py` from the repository root. The default is a pretrained YOLO11m model with a 500-epoch ceiling and 60-epoch early-stopping patience; the actual duration is selected dynamically from validation fitness, and `best.pt` is the deployment candidate. Training uses the reviewed five-class YOLO dataset at `data/photo-model/yolo-boards`.
+
+The detector identifies the five currently reviewed board identities. Exact component reference designators, manufacturer part numbers and pins are resolved after board registration against a revision-matched PCB/BOM/netlist; they are not global YOLO classes.
 
 The first split has62 training images and11 validation originals. Seven validation crop variants are excluded, and no original/crop pair crosses folds. There is one physical specimen per family and no independent specimen test. ESP32 has no separate validation pose group, so no held-out ESP32 accuracy can be reported.
 

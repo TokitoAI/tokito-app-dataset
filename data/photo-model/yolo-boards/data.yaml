@@ -2,8 +2,8 @@ path: data/photo-model/yolo-boards
 train: images/train
 val: images/val
 names:
-  0: esp32_board
-  1: esp8266_board
-  2: ultimainboard
-  3: nxp_frdm_mcxn236_board
-  4: raspberry_pi_3b_board
+  0: esp32_devkit_30pin_unknown_variant
+  1: esp8266_nodemcu_esp12e_clone_unknown_variant
+  2: ultimainboard_2_1_4
+  3: nxp_frdm_mcxn236_unknown_rev
+  4: raspberry_pi_3b_v1_2
