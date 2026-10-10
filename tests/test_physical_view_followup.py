@@ -9,6 +9,12 @@ spec = importlib.util.spec_from_file_location(
 review = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(review)
 
+supplemental_spec = importlib.util.spec_from_file_location(
+    'additional_flip_clips',
+    Path(__file__).resolve().parents[1] / 'scripts/validate_additional_flip_clips.py')
+supplemental = importlib.util.module_from_spec(supplemental_spec)
+supplemental_spec.loader.exec_module(supplemental)
+
 
 class PhysicalViewFollowupTests(unittest.TestCase):
     def test_tracked_source_hashes_and_view_limits(self):
@@ -37,6 +43,14 @@ class PhysicalViewFollowupTests(unittest.TestCase):
             self.assertTrue(review._matches_payload_or_lfs_pointer(pointer, digest, 123))
             self.assertFalse(review._matches_payload_or_lfs_pointer(pointer, digest, 124))
             self.assertFalse(review._matches_payload_or_lfs_pointer(pointer, 'b' * 64, 123))
+
+    def test_supplemental_flip_clips_preserve_view_limits(self):
+        result = supplemental.validate()
+        self.assertEqual({row['board_family'] for row in result}, {
+            'ultimainboard_2_1_4', 'esp32_devkit_30pin_clone'})
+        self.assertTrue(all(row['underside_seen'] for row in result))
+        self.assertTrue(all(not row['four_oblique_sides_seen'] for row in result))
+        self.assertTrue(all(not row['training_export_eligible'] for row in result))
 
 
 if __name__ == '__main__':

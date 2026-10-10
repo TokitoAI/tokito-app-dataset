@@ -18,3 +18,5 @@ jobs:
       - run: python scripts/validate_ar_alignment.py
       - run: python scripts/validate_esp12e_alignment_metadata.py
       - run: python scripts/validate_nxp_video_review.py
+      - run: python scripts/validate_physical_view_followup.py
+      - run: python scripts/validate_additional_flip_clips.py
