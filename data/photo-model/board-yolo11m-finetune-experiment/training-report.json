@@ -120,12 +120,28 @@
     "confidence-thresholds.json": {
       "bytes": 776,
       "sha256": "8905300a0d1558ff9366ad7850652e360dcc261efbbbf3d52259c76846a822fd"
+    },
+    "best.tflite": {
+      "bytes": 80492247,
+      "sha256": "dafd649ed6dd23ff7dc97392908c2c0c53096b723ff13902db8ac95cef7d0358"
+    },
+    "litert-conformance.json": {
+      "bytes": 12502,
+      "sha256": "4445be85a5f7a057214a26880533e52a4cba3e935605cd226bfe041d65d4abab"
     }
   },
   "mobile_export": {
     "format": "LiteRT / TFLite float32",
-    "status": "not_exported",
-    "reason": "The installed Ultralytics LiteRT exporter rejects Windows hosts; its documented runtime requirement is Linux x86 or macOS. The attempted export stopped before conversion.",
-    "baseline_litert_contains_this_finetune": false
+    "status": "exported; numerical conformance passed; live Android camera smoke passed",
+    "conformance_report": "litert-conformance.json",
+    "conformance_images": 11,
+    "conformance": "passed; normalized box coordinates and class scores agree with PyTorch within 0.001, and post-NMS classes match",
+    "android_camera_smoke_report": "android-camera-smoke.json",
+    "android_device": "iQOO I2501, Android 16",
+    "android_inference_ms_single_observation": 1065.15,
+    "android_board_result": "Ultimaker Ultimainboard 2.1.4 at confidence 0.7786",
+    "android_component_result": "2 generic ic detections; exact part identity is not produced",
+    "evaluation_valid": false,
+    "fine_tuned_export_contains_this_finetune": true
   }
 }

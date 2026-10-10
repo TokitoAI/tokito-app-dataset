@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0",
+  "task": "fine_tuned_board_detector_live_camera_smoke",
+  "release_eligible": false,
+  "evaluation_valid": false,
+  "phone": {
+    "manufacturer": "iQOO",
+    "model": "I2501",
+    "android_version": "16",
+    "smoke_app_package": "dev.tokito.componentsmoke",
+    "smoke_app_version": "0.1-smoke"
+  },
+  "board_model": {
+    "architecture": "YOLO11m",
+    "format": "LiteRT / TFLite float32",
+    "file": "best.tflite",
+    "sha256": "dafd649ed6dd23ff7dc97392908c2c0c53096b723ff13902db8ac95cef7d0358",
+    "confidence_thresholds": [0.75, 0.75, 0.75, 0.75, 0.78]
+  },
+  "observation": {
+    "captured_wall_time_ms": 1791602935142,
+    "camera_preview_active": true,
+    "inference_ms": 1065.152499,
+    "board_detection_count": 1,
+    "board": {
+      "label": "Ultimaker Ultimainboard 2.1.4",
+      "confidence": 0.7785872,
+      "box_xyxy_pixels": [90.93933, 263.20056, 1052.486, 2292.796]
+    },
+    "component_model_sha256": "c9fbf0cd683c9a9f89f902966b02d224236f9345e7410b0dc43c9f0c1495d8e3",
+    "component_detection_count": 2,
+    "components": [
+      {
+        "label": "ic",
+        "confidence": 0.7453817,
+        "identity_status": "generic_class_only",
+        "box_xyxy_pixels": [476.52313, 1798.1956, 620.79297, 1964.7406]
+      },
+      {
+        "label": "ic",
+        "confidence": 0.3200035,
+        "identity_status": "generic_class_only",
+        "box_xyxy_pixels": [830.64197, 458.66537, 996.79803, 611.56]
+      }
+    ],
+    "source": "device-local files/component-camera-smoke.json",
+    "scope_note": "One live frame on a known photographed specimen. Smoke evidence only; it does not validate unseen specimens, accuracy or stable throughput. Part labels remain generic."
+  }
+}
