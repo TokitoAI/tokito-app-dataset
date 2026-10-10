@@ -61,6 +61,9 @@
     }
   ],
   "nxp_underside_stills_available": true,
+  "latest_followup_capture_manifest": "data/video-captures/2026-10-10/physical-view-followup/manifest.json",
+  "latest_followup_coverage_summary": "Four additional iQOO videos were reviewed at 1 Hz across their full durations. All show component-face overview/panning only; no underside, four-side set, or continuous flip was observed.",
+  "latest_followup_physical_flip_verified": false,
   "missing_evidence": [
     "independently reviewed fit and withheld metric landmarks per physical capture",
     "actual per-frame camera crop/rotation and document-warp verification",
