@@ -468,6 +468,269 @@
       "source_component_id": "nxp-frdm-mcxn236:C:U12",
       "source_mapping_status": "source_candidate_photographed_revision_unverified",
       "installed_order_code_confirmed": false
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092144.jpg",
+      "image_sha256": "d33bf83877365f57dc03d36388518207090acbd5b57db93ca96742c1ecd05ed7",
+      "image_width": 3072,
+      "image_height": 4080,
+      "instance_id": "IMG_20261010_092144.jpg:U2",
+      "class_name": "integrated_circuit",
+      "observed_reference_designator": "U2",
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1150,
+          1700
+        ],
+        [
+          1325,
+          1700
+        ],
+        [
+          1338,
+          1713
+        ],
+        [
+          1338,
+          1860
+        ],
+        [
+          1325,
+          1874
+        ],
+        [
+          1150,
+          1874
+        ],
+        [
+          1138,
+          1860
+        ],
+        [
+          1138,
+          1713
+        ]
+      ],
+      "boundary_scope": "Visible CP2102 package body; pins and silkscreen excluded.",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original EXIF-upright high-resolution photo and enlarged crop with pixel grid inspected. Boundary was checked against the visible package or module silhouette; board family is ESP32 30-pin DevKit with exact clone variant unverified.",
+      "boundary_uncertainty_pixels": 10,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
+      "installed_order_code_confirmed": false
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092144.jpg",
+      "image_sha256": "d33bf83877365f57dc03d36388518207090acbd5b57db93ca96742c1ecd05ed7",
+      "image_width": 3072,
+      "image_height": 4080,
+      "instance_id": "IMG_20261010_092144.jpg:RF_MODULE",
+      "class_name": "rf_module",
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1120,
+          2300
+        ],
+        [
+          1140,
+          2280
+        ],
+        [
+          1848,
+          2280
+        ],
+        [
+          1870,
+          2300
+        ],
+        [
+          1870,
+          3160
+        ],
+        [
+          1848,
+          3180
+        ],
+        [
+          1140,
+          3180
+        ],
+        [
+          1120,
+          3160
+        ]
+      ],
+      "boundary_scope": "ESP32 RF module substrate and shield outline; host PCB and surrounding passives excluded.",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original EXIF-upright high-resolution photo and enlarged crop with pixel grid inspected. Boundary was checked against the visible package or module silhouette; board family is ESP32 30-pin DevKit with exact clone variant unverified.",
+      "boundary_uncertainty_pixels": 14,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
+      "installed_order_code_confirmed": false
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092144.jpg",
+      "image_sha256": "d33bf83877365f57dc03d36388518207090acbd5b57db93ca96742c1ecd05ed7",
+      "image_width": 3072,
+      "image_height": 4080,
+      "instance_id": "IMG_20261010_092144.jpg:USB",
+      "class_name": "usb_connector",
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1325,
+          1305
+        ],
+        [
+          1340,
+          1295
+        ],
+        [
+          1608,
+          1295
+        ],
+        [
+          1625,
+          1305
+        ],
+        [
+          1635,
+          1322
+        ],
+        [
+          1635,
+          1485
+        ],
+        [
+          1615,
+          1502
+        ],
+        [
+          1340,
+          1502
+        ],
+        [
+          1320,
+          1485
+        ],
+        [
+          1320,
+          1322
+        ]
+      ],
+      "boundary_scope": "Visible Micro-USB connector shell and attached body; PCB and cast shadow excluded.",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original EXIF-upright high-resolution photo and enlarged crop with pixel grid inspected. Boundary was checked against the visible package or module silhouette; board family is ESP32 30-pin DevKit with exact clone variant unverified.",
+      "boundary_uncertainty_pixels": 12,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
+      "installed_order_code_confirmed": false
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092144.jpg",
+      "image_sha256": "d33bf83877365f57dc03d36388518207090acbd5b57db93ca96742c1ecd05ed7",
+      "image_width": 3072,
+      "image_height": 4080,
+      "instance_id": "IMG_20261010_092144.jpg:BOOT_SWITCH",
+      "class_name": "switch",
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1047,
+          1352
+        ],
+        [
+          1062,
+          1340
+        ],
+        [
+          1198,
+          1340
+        ],
+        [
+          1212,
+          1352
+        ],
+        [
+          1212,
+          1535
+        ],
+        [
+          1198,
+          1548
+        ],
+        [
+          1062,
+          1548
+        ],
+        [
+          1047,
+          1535
+        ]
+      ],
+      "boundary_scope": "Visible BOOT tactile-switch housing, including actuator; adjacent silkscreen excluded.",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original EXIF-upright high-resolution photo and enlarged crop with pixel grid inspected. Boundary was checked against the visible package or module silhouette; board family is ESP32 30-pin DevKit with exact clone variant unverified.",
+      "boundary_uncertainty_pixels": 10,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
+      "installed_order_code_confirmed": false
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092144.jpg",
+      "image_sha256": "d33bf83877365f57dc03d36388518207090acbd5b57db93ca96742c1ecd05ed7",
+      "image_width": 3072,
+      "image_height": 4080,
+      "instance_id": "IMG_20261010_092144.jpg:EN_SWITCH",
+      "class_name": "switch",
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1764,
+          1352
+        ],
+        [
+          1778,
+          1340
+        ],
+        [
+          1910,
+          1340
+        ],
+        [
+          1924,
+          1352
+        ],
+        [
+          1924,
+          1535
+        ],
+        [
+          1910,
+          1548
+        ],
+        [
+          1778,
+          1548
+        ],
+        [
+          1764,
+          1535
+        ]
+      ],
+      "boundary_scope": "Visible EN tactile-switch housing, including actuator; adjacent silkscreen excluded.",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original EXIF-upright high-resolution photo and enlarged crop with pixel grid inspected. Boundary was checked against the visible package or module silhouette; board family is ESP32 30-pin DevKit with exact clone variant unverified.",
+      "boundary_uncertainty_pixels": 10,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
+      "installed_order_code_confirmed": false
     }
   ]
 }

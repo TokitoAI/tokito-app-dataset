@@ -102,7 +102,7 @@ if phone_folder.is_dir():
      pin_count+=1;assert label['identity_status']=='reviewed_photo_contact_with_printed_alias'
      assert label['source']['printed_alias'] and 'Literal silkscreen' in label['source']['mapping_scope']
     else:
-     assert label['kind']=='part' and label['identity_status'] in {'reviewed_photo_module_marking','reviewed_photo_marking_family_order_code_unconfirmed','visually_reviewed_connector_type_source_candidate_revision_unverified','reviewed_photo_refdes_source_candidate_specimen_revision_unverified'}
+     assert label['kind']=='part' and label['identity_status'] in {'reviewed_photo_module_marking','reviewed_photo_marking_family_order_code_unconfirmed','visually_reviewed_connector_type_source_candidate_revision_unverified','reviewed_photo_refdes_source_candidate_specimen_revision_unverified','reviewed_photo_module_family_order_code_unconfirmed','reviewed_photo_component_visual_class_only'}
      if label['identity_status']=='visually_reviewed_connector_type_source_candidate_revision_unverified':
       assert label['source']['source_revision']=='C' and not label['source']['installed_order_code_confirmed']
    if 'pose_corners_normalized' in template:
@@ -119,7 +119,7 @@ if phone_folder.is_dir():
     assert template['corner_uncertainty_pixels']>0
     assert len(template['pose_corners_normalized'])==4
     assert all(x1<=x<=x2 and y1<=y<=y2 for x,y in template['pose_corners_normalized'])
-  assert len(label_ids)==73 and pin_count==60
+  assert len(label_ids)==77 and pin_count==60
 print('Validated80 source hashes/board boxes, YOLO labels,62/11/7 split, no original/crop leakage and Pi mechanical DXF provenance.' + (' Fine-tune artifact hashes also checked.' if model_dir.is_dir() else ' Diagnostic model artifacts are outside this capture-only checkout.'))
 if phone_folder.is_dir():
  scan_file=phone_folder/'reviewed-scan-references.json'

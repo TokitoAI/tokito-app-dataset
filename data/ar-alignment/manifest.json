@@ -9,8 +9,8 @@
   },
   "inputs": {
     "data/photo-model/label-hierarchy.json": "08adbb7651caf2f71b31d30f91a4f4c4973a7cf663aa2d1feceb056d8fcfe7a4",
-    "data/phone-captures/2026-10-10/reviewed-scan-references.json": "fba163f221e17bc0f27d4a715b16b2d4b0577b29bb144b6ab0cfd021fa7916b9",
-    "annotations/ar-instance-masks.json": "805dc951fd85e7a9e8e35ccaf8838c30932d63d2728c93eb3b2fb2662ed0212e",
+    "data/phone-captures/2026-10-10/reviewed-scan-references.json": "d15e284ee9896d0121bb28dd6a5831ab2515e2754fe7a4e35bfe0e0afbabe867",
+    "annotations/ar-instance-masks.json": "158b23ebb4bb496261234ffb423d9680c511e13eb5de2b1cb571632333d04041",
     "annotations/multiview-capture-review.json": "1a3b1ebe2befdaa7508ba47c4da1c2ad9ef8fff5f3de65bc505238ec2a0e79e9",
     "data/board-sources/nxp-frdm-mcxn236/ar-reference/component-map.json": "8fd8a25b1c53da7a8a7dfb414d4410dfa1b76c916ee76315e82cb3027015fedd",
     "data/board-sources/nxp-frdm-mcxn236/ar-reference/digital-twin-manifest.json": "74fa245678566d04902dc2b80b56967ec96c2068d1679ce3a75faeaf0591eff5",
@@ -6048,9 +6048,9 @@
   ],
   "coverage": {
     "paired_metric_landmarks": 4,
-    "instances": 253,
+    "instances": 257,
     "unparented_contacts": 60,
-    "reviewed_body_polygons": 11,
+    "reviewed_body_polygons": 16,
     "candidate_mesh_bindings": 21,
     "photo_located_parented_contacts": 165
   },
@@ -17316,20 +17316,261 @@
       "instances": [
         {
           "instance_id": "IMG_20261010_092144.jpg:U2",
-          "class_name": null,
+          "class_name": "integrated_circuit",
           "observed_reference_designator": "U2",
           "observed_label": "U2 \u2014 Silicon Labs CP2102 USB-UART [marking family]",
           "bbox_xyxy_normalized": [
-            0.37144938091769847,
+            0.3704427083333333,
             0.40460526315789475,
             0.4493809176984705,
             0.46326754385964913
           ],
-          "visible_body_polygon_xy_normalized": null,
-          "polygon_review_status": null,
+          "visible_body_polygon_xy_normalized": [
+            [
+              0.3743489583333333,
+              0.4166666666666667
+            ],
+            [
+              0.4313151041666667,
+              0.4166666666666667
+            ],
+            [
+              0.435546875,
+              0.4198529411764706
+            ],
+            [
+              0.435546875,
+              0.45588235294117646
+            ],
+            [
+              0.4313151041666667,
+              0.45931372549019606
+            ],
+            [
+              0.3743489583333333,
+              0.45931372549019606
+            ],
+            [
+              0.3704427083333333,
+              0.45588235294117646
+            ],
+            [
+              0.3704427083333333,
+              0.4198529411764706
+            ]
+          ],
+          "polygon_review_status": "visually_reviewed_body_polygon",
           "cad_binding": null,
           "pins": [],
           "physical_component_instance_id": "bench-esp32-01:U2"
+        },
+        {
+          "instance_id": "IMG_20261010_092144.jpg:RF_MODULE",
+          "class_name": "rf_module",
+          "observed_reference_designator": null,
+          "observed_label": "ESP32 RF module [shielded module family; exact model unconfirmed]",
+          "bbox_xyxy_normalized": [
+            0.3645833333333333,
+            0.5588235294117647,
+            0.6087239583333334,
+            0.7794117647058824
+          ],
+          "visible_body_polygon_xy_normalized": [
+            [
+              0.3645833333333333,
+              0.5637254901960784
+            ],
+            [
+              0.37109375,
+              0.5588235294117647
+            ],
+            [
+              0.6015625,
+              0.5588235294117647
+            ],
+            [
+              0.6087239583333334,
+              0.5637254901960784
+            ],
+            [
+              0.6087239583333334,
+              0.7745098039215687
+            ],
+            [
+              0.6015625,
+              0.7794117647058824
+            ],
+            [
+              0.37109375,
+              0.7794117647058824
+            ],
+            [
+              0.3645833333333333,
+              0.7745098039215687
+            ]
+          ],
+          "polygon_review_status": "visually_reviewed_body_polygon",
+          "cad_binding": null,
+          "pins": [],
+          "physical_component_instance_id": null
+        },
+        {
+          "instance_id": "IMG_20261010_092144.jpg:USB",
+          "class_name": "usb_connector",
+          "observed_reference_designator": null,
+          "observed_label": "Micro-USB receptacle [visual class]",
+          "bbox_xyxy_normalized": [
+            0.4296875,
+            0.3174019607843137,
+            0.5322265625,
+            0.3700980392156863
+          ],
+          "visible_body_polygon_xy_normalized": [
+            [
+              0.4313151041666667,
+              0.31985294117647056
+            ],
+            [
+              0.4361979166666667,
+              0.3174019607843137
+            ],
+            [
+              0.5234375,
+              0.3174019607843137
+            ],
+            [
+              0.5289713541666666,
+              0.31985294117647056
+            ],
+            [
+              0.5322265625,
+              0.32401960784313727
+            ],
+            [
+              0.5322265625,
+              0.3639705882352941
+            ],
+            [
+              0.5257161458333334,
+              0.3681372549019608
+            ],
+            [
+              0.4361979166666667,
+              0.3681372549019608
+            ],
+            [
+              0.4296875,
+              0.3639705882352941
+            ],
+            [
+              0.4296875,
+              0.32401960784313727
+            ]
+          ],
+          "polygon_review_status": "visually_reviewed_body_polygon",
+          "cad_binding": null,
+          "pins": [],
+          "physical_component_instance_id": null
+        },
+        {
+          "instance_id": "IMG_20261010_092144.jpg:BOOT_SWITCH",
+          "class_name": "switch",
+          "observed_reference_designator": null,
+          "observed_label": "BOOT tactile switch [printed control label]",
+          "bbox_xyxy_normalized": [
+            0.3369140625,
+            0.3284313725490196,
+            0.3987630208333333,
+            0.3799019607843137
+          ],
+          "visible_body_polygon_xy_normalized": [
+            [
+              0.3408203125,
+              0.33137254901960783
+            ],
+            [
+              0.345703125,
+              0.3284313725490196
+            ],
+            [
+              0.3899739583333333,
+              0.3284313725490196
+            ],
+            [
+              0.39453125,
+              0.33137254901960783
+            ],
+            [
+              0.39453125,
+              0.3762254901960784
+            ],
+            [
+              0.3899739583333333,
+              0.37941176470588234
+            ],
+            [
+              0.345703125,
+              0.37941176470588234
+            ],
+            [
+              0.3408203125,
+              0.3762254901960784
+            ]
+          ],
+          "polygon_review_status": "visually_reviewed_body_polygon",
+          "cad_binding": null,
+          "pins": [],
+          "physical_component_instance_id": null
+        },
+        {
+          "instance_id": "IMG_20261010_092144.jpg:EN_SWITCH",
+          "class_name": "switch",
+          "observed_reference_designator": null,
+          "observed_label": "EN tactile switch [printed control label]",
+          "bbox_xyxy_normalized": [
+            0.5696614583333334,
+            0.3284313725490196,
+            0.6298828125,
+            0.3799019607843137
+          ],
+          "visible_body_polygon_xy_normalized": [
+            [
+              0.57421875,
+              0.33137254901960783
+            ],
+            [
+              0.5787760416666666,
+              0.3284313725490196
+            ],
+            [
+              0.6217447916666666,
+              0.3284313725490196
+            ],
+            [
+              0.6263020833333334,
+              0.33137254901960783
+            ],
+            [
+              0.6263020833333334,
+              0.3762254901960784
+            ],
+            [
+              0.6217447916666666,
+              0.37941176470588234
+            ],
+            [
+              0.5787760416666666,
+              0.37941176470588234
+            ],
+            [
+              0.57421875,
+              0.3762254901960784
+            ]
+          ],
+          "polygon_review_status": "visually_reviewed_body_polygon",
+          "cad_binding": null,
+          "pins": [],
+          "physical_component_instance_id": null
         }
       ],
       "asset_anchor_override_required": false,

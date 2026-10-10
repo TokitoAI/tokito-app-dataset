@@ -42,6 +42,23 @@ class AlignmentContracts(unittest.TestCase):
             self.assertEqual(instance['cad_binding']['mapping_status'], 'source_candidate_photographed_revision_unverified')
             self.assertFalse(instance['cad_binding']['installed_order_code_confirmed'])
 
+    def test_esp32_photo_masks_keep_unmapped_parts_separate_from_verified_u2(self):
+        manifest = read(ROOT/'data/ar-alignment/manifest.json')
+        path = 'data/phone-captures/2026-10-10/IMG_20261010_092144.jpg'
+        image = next(row for row in manifest['images'] if row['image_path'] == path)
+        instances = {item['instance_id']: item for item in image['instances']}
+        u2 = instances['IMG_20261010_092144.jpg:U2']
+        self.assertEqual(u2['class_name'], 'integrated_circuit')
+        self.assertIsNotNone(u2['visible_body_polygon_xy_normalized'])
+        self.assertEqual(u2['observed_reference_designator'], 'U2')
+        for suffix, class_name in [('RF_MODULE','rf_module'),('USB','usb_connector'),
+                                   ('BOOT_SWITCH','switch'),('EN_SWITCH','switch')]:
+            instance = instances[f'IMG_20261010_092144.jpg:{suffix}']
+            self.assertEqual(instance['class_name'], class_name)
+            self.assertIsNotNone(instance['visible_body_polygon_xy_normalized'])
+            self.assertIsNone(instance['observed_reference_designator'])
+            self.assertIsNone(instance['cad_binding'])
+
     def test_swapping_hole_identities_cannot_silently_change_calibration(self):
         row = next(t for t in read(ROOT/'data/phone-captures/2026-10-10/reviewed-scan-references.json')['templates'] if t['class_id'] == 3)
         components = {c['reference']: c for c in read(AR/'component-map.json')['components']}

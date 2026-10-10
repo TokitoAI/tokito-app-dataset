@@ -3,7 +3,7 @@
   "release_eligible": false,
   "evaluation_valid": false,
   "review_method": "Manual inspection of five high-resolution intake originals and the additional original NXP macro photo with enlarged package crops.",
-  "scope": "Known photographed specimens; board-body feature regions, 60 literal printed contacts, three readable part/module families, four named NXP mounting-hole image/metric landmark pairs. This is not exhaustive training annotation. Eight additional NXP masks on the macro photo cover U1, U8, U12, J3, J4, J5, J6 and SW3. Rev C links remain source candidates; installed identities and photographed PCB revision are unconfirmed.",
+  "scope": "Known photographed specimens; board-body feature regions, 60 literal printed contacts, three readable part/module families, four named NXP mounting-hole image/metric landmark pairs. This is not exhaustive training annotation. Eight additional NXP masks on the macro photo cover U1, U8, U12, J3, J4, J5, J6 and SW3. Rev C links remain source candidates; installed identities and photographed PCB revision are unconfirmed. Four new ESP32 labels add a shielded RF module, Micro-USB receptacle and BOOT/EN switches alongside the previously reviewed U2; module identity and switch refdes remain unknown.",
   "templates": [
     {
       "id": "IMG_20261010_092144.jpg",
@@ -13,7 +13,7 @@
       "image_sha256": "d33bf83877365f57dc03d36388518207090acbd5b57db93ca96742c1ecd05ed7",
       "board_bbox_xyxy_normalized": [
         0.29934450109249816,
-        0.31798245614035087,
+        0.3174019607843137,
         0.6678805535324108,
         0.8223684210526315
       ],
@@ -28,7 +28,7 @@
           "label": "U2 \u2014 Silicon Labs CP2102 USB-UART [marking family]",
           "kind": "part",
           "bbox_xyxy_normalized": [
-            0.37144938091769847,
+            0.3704427083333333,
             0.40460526315789475,
             0.4493809176984705,
             0.46326754385964913
@@ -578,6 +578,74 @@
             "contact_side": "right",
             "contact_index_from_top": 15,
             "mapping_scope": "Literal silkscreen alias only; does not assert GPIO, net, header numbering or chip pin"
+          }
+        },
+        {
+          "id": "IMG_20261010_092144.jpg:RF_MODULE",
+          "label": "ESP32 RF module [shielded module family; exact model unconfirmed]",
+          "kind": "part",
+          "bbox_xyxy_normalized": [
+            0.3645833333333333,
+            0.5588235294117647,
+            0.6087239583333334,
+            0.7794117647058824
+          ],
+          "identity_status": "reviewed_photo_module_family_order_code_unconfirmed",
+          "source": {
+            "observed_refdes": null,
+            "observed_marking": null,
+            "evidence": "Shielded radio module footprint and castellated perimeter are distinct in original pixels; ESP32 family is identified from the host board. Module model/order code is not sufficiently legible to assert."
+          }
+        },
+        {
+          "id": "IMG_20261010_092144.jpg:USB",
+          "label": "Micro-USB receptacle [visual class]",
+          "kind": "part",
+          "bbox_xyxy_normalized": [
+            0.4296875,
+            0.3174019607843137,
+            0.5322265625,
+            0.3700980392156863
+          ],
+          "identity_status": "reviewed_photo_component_visual_class_only",
+          "source": {
+            "observed_refdes": null,
+            "observed_marking": null,
+            "evidence": "Single metal Micro-USB receptacle is visible at the board edge; visual connector family only, no installed manufacturer part number asserted."
+          }
+        },
+        {
+          "id": "IMG_20261010_092144.jpg:BOOT_SWITCH",
+          "label": "BOOT tactile switch [printed control label]",
+          "kind": "part",
+          "bbox_xyxy_normalized": [
+            0.3369140625,
+            0.3284313725490196,
+            0.3987630208333333,
+            0.3799019607843137
+          ],
+          "identity_status": "reviewed_photo_component_visual_class_only",
+          "source": {
+            "observed_refdes": null,
+            "observed_marking": "BOOT",
+            "evidence": "Tactile switch body immediately beside the printed BOOT label; no schematic reference designator or part number asserted."
+          }
+        },
+        {
+          "id": "IMG_20261010_092144.jpg:EN_SWITCH",
+          "label": "EN tactile switch [printed control label]",
+          "kind": "part",
+          "bbox_xyxy_normalized": [
+            0.5696614583333334,
+            0.3284313725490196,
+            0.6298828125,
+            0.3799019607843137
+          ],
+          "identity_status": "reviewed_photo_component_visual_class_only",
+          "source": {
+            "observed_refdes": null,
+            "observed_marking": "EN",
+            "evidence": "Tactile switch body immediately beside the printed EN label; no schematic reference designator or part number asserted."
           }
         }
       ]
