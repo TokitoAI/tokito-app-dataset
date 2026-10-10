@@ -62,3 +62,16 @@ training or production release.
 ```powershell
 python scripts/build_esp12e_video_alignment.py --check
 ```
+
+`data/ar-alignment/esp12e-module-spacing-constraints.json` records nineteen
+adjacent same-row contact pairs with the manufacturer's nominal 2 mm pitch
+(datasheet pages 10 and 11). Side castellation centers and bottom land centers
+are kept separate. This provides relative dimensional constraints, not a complete
+metric board frame: cross-row hole-center separation, specimen tolerances,
+camera intrinsics and distortion have not been verified. Perspective pixel
+distances must not be converted using a uniform image scale. The index remains
+ineligible for calibration activation.
+
+```powershell
+python scripts/build_esp12e_metric_constraints.py --check
+```
