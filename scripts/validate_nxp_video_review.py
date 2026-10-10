@@ -48,7 +48,9 @@ def validate(review, revision):
             'Revision history source digest mismatch')
     require(not revision['revision_equivalence_verified'] and not revision['production_eligible'],
             'Unverified B/C equivalence activation')
-    require(revision['available_design_revision']=='C' and revision['photographed_marking']=='B',
+    require(revision['available_design_revision']=='C' and revision['photographed_marking'] is None
+            and revision['photographed_copyright_text']=='2024 NXP B.V.'
+            and revision['prior_B_revision_inference_retracted'],
             'Incorrect revision identities')
     require(revision['c_changes']['changed_header_contacts']==['J8:6','J8:8'], 'Changed-pin history mismatch')
     require(revision['c_changes']['added_testpoints']==[f'TP{i}' for i in range(10,33)],

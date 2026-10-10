@@ -5,9 +5,9 @@
   "review_preview_path": "data/video-captures/2026-10-10/nxp-keyframes/reviewed-identity-frame.jpg",
   "review_preview_extraction": "FFmpeg display-autorotated JPEG at requested seek offset 13.5 seconds; exact source frame PTS not established for this supplementary preview",
   "observed_board_text": "FRDM-MCXN236",
-  "observed_separate_revision_marking": "B",
+  "observed_separate_revision_marking": null,
   "source_design_revision_available": "C",
-  "revision_mapping_status": "photographed_B_marking_conflicts_with_available_C_source; manufacturer_revision_semantics_and_equivalence_pending",
+  "revision_mapping_status": "physical_revision_unverified; B_is_copyright_not_revision",
   "specimen_link_status": "same_bench_NXP_specimen_assumed_for_leakage_control; cross_session_identity_not_independently_verified",
   "reviewed_view_status": "component_side_macro_pan_in_sampled_frames",
   "underside_observed_in_sampled_frames": false,
@@ -16,6 +16,8 @@
   "training_export_eligible": false,
   "production_eligible": false,
   "source_component_mapping_verified": false,
-  "required_followup": "Compare B hardware with the available C design or obtain revision-matched design. Do not assert exact fitted parts, pin routing or geometry equivalence from C without review.",
-  "review_preview_sha256": "e55a9e05621b25126ce6935338d5675321e177299cf054c18f8d7afcb8c104e2"
+  "required_followup": "Review the actual underside PCB revision identifier, or verify physical correspondence per component. Front copyright is not revision evidence.",
+  "review_preview_sha256": "e55a9e05621b25126ce6935338d5675321e177299cf054c18f8d7afcb8c104e2",
+  "observed_copyright_marking": "2024 NXP B.V.",
+  "prior_B_revision_inference_retracted": true
 }

@@ -81,10 +81,10 @@
   ],
   "anchor_uncertainty_pixels": 12,
   "boundary_uncertainty_pixels": null,
-  "uncertainty_note": "Height-dependent parallax and C/B placement differences unknown. Convex hull includes leads, concavities and hidden geometry, not visible-body masks. Four fitted anchors do not independently verify alignment.",
+  "uncertainty_note": "Height-dependent parallax and possible revision-dependent placement differences unknown. Convex hull includes leads, concavities and hidden geometry, not visible-body masks. Four fitted anchors do not independently verify alignment.",
   "source_glb_sha256": "ba9db807d2141189facb33039f57861d99a460cf595dd71bf80eb5f9cbe1268c",
   "component_map_sha256": "8fd8a25b1c53da7a8a7dfb414d4410dfa1b76c916ee76315e82cb3027015fedd",
-  "revision_review_sha256": "b021641776a1c00cff6acf93804470ef87d9ef6fbbd2aadb47a70f792ad82666",
+  "revision_review_sha256": "b60638b941c4e226a524117b92b61e59680183f1033920bbc62705b8ab48b6b3",
   "suppressed_changed_references": [
     "C155",
     "C157",
@@ -235,7 +235,7 @@
         -0.0005850000237487254,
         -8.499999999999998e-05
       ],
-      "status": "suppressed_revision_conflict_or_bottom",
+      "status": "suppressed_revision_sensitive_reference_or_bottom",
       "installed_identity_confirmed": false,
       "source_geometry_quality": "exact_package_geometry",
       "source_dnp": false
@@ -773,7 +773,7 @@
         -0.0008849999797903001,
         -8.499999999999997e-05
       ],
-      "status": "suppressed_revision_conflict_or_bottom",
+      "status": "suppressed_revision_sensitive_reference_or_bottom",
       "installed_identity_confirmed": false,
       "source_geometry_quality": "exact_package_geometry",
       "source_dnp": false
@@ -828,7 +828,7 @@
         -0.0005850000237487254,
         -8.499999999999998e-05
       ],
-      "status": "suppressed_revision_conflict_or_bottom",
+      "status": "suppressed_revision_sensitive_reference_or_bottom",
       "installed_identity_confirmed": false,
       "source_geometry_quality": "exact_package_geometry",
       "source_dnp": false
@@ -1237,7 +1237,7 @@
         -0.0005850000237487254,
         -8.499999999999998e-05
       ],
-      "status": "suppressed_revision_conflict_or_bottom",
+      "status": "suppressed_revision_sensitive_reference_or_bottom",
       "installed_identity_confirmed": false,
       "source_geometry_quality": "exact_package_geometry",
       "source_dnp": false
@@ -1296,7 +1296,7 @@
         -0.0005850000237487254,
         -8.499999999999998e-05
       ],
-      "status": "suppressed_revision_conflict_or_bottom",
+      "status": "suppressed_revision_sensitive_reference_or_bottom",
       "installed_identity_confirmed": false,
       "source_geometry_quality": "exact_package_geometry",
       "source_dnp": false
@@ -1351,7 +1351,7 @@
         -0.0005850000237487254,
         -8.499999999999998e-05
       ],
-      "status": "suppressed_revision_conflict_or_bottom",
+      "status": "suppressed_revision_sensitive_reference_or_bottom",
       "installed_identity_confirmed": false,
       "source_geometry_quality": "exact_package_geometry",
       "source_dnp": false
@@ -1402,7 +1402,7 @@
         -0.0005850000237487254,
         -8.499999999999998e-05
       ],
-      "status": "suppressed_revision_conflict_or_bottom",
+      "status": "suppressed_revision_sensitive_reference_or_bottom",
       "installed_identity_confirmed": false,
       "source_geometry_quality": "exact_package_geometry",
       "source_dnp": false
@@ -1583,7 +1583,7 @@
         -0.0005850000237487254,
         -8.499999999999998e-05
       ],
-      "status": "suppressed_revision_conflict_or_bottom",
+      "status": "suppressed_revision_sensitive_reference_or_bottom",
       "installed_identity_confirmed": false,
       "source_geometry_quality": "exact_package_geometry",
       "source_dnp": false
@@ -1634,7 +1634,7 @@
         -0.0005850000237487254,
         -8.499999999999998e-05
       ],
-      "status": "suppressed_revision_conflict_or_bottom",
+      "status": "suppressed_revision_sensitive_reference_or_bottom",
       "installed_identity_confirmed": false,
       "source_geometry_quality": "exact_package_geometry",
       "source_dnp": false
@@ -1689,7 +1689,7 @@
         -0.0005850000237487254,
         -8.499999999999998e-05
       ],
-      "status": "suppressed_revision_conflict_or_bottom",
+      "status": "suppressed_revision_sensitive_reference_or_bottom",
       "installed_identity_confirmed": false,
       "source_geometry_quality": "exact_package_geometry",
       "source_dnp": false
@@ -1752,7 +1752,7 @@
         -0.0005850000237487254,
         -8.499999999999998e-05
       ],
-      "status": "suppressed_revision_conflict_or_bottom",
+      "status": "suppressed_revision_sensitive_reference_or_bottom",
       "installed_identity_confirmed": false,
       "source_geometry_quality": "exact_package_geometry",
       "source_dnp": false
@@ -1862,7 +1862,7 @@
         -0.0005850000237487254,
         -8.499999999999998e-05
       ],
-      "status": "suppressed_revision_conflict_or_bottom",
+      "status": "suppressed_revision_sensitive_reference_or_bottom",
       "installed_identity_confirmed": false,
       "source_geometry_quality": "exact_package_geometry",
       "source_dnp": false
@@ -1933,7 +1933,7 @@
         -0.0005850000237487257,
         -8.499999999999998e-05
       ],
-      "status": "suppressed_revision_conflict_or_bottom",
+      "status": "suppressed_revision_sensitive_reference_or_bottom",
       "installed_identity_confirmed": false,
       "source_geometry_quality": "exact_package_geometry",
       "source_dnp": false
@@ -1988,7 +1988,7 @@
         -0.0005850000237487257,
         -8.499999999999998e-05
       ],
-      "status": "suppressed_revision_conflict_or_bottom",
+      "status": "suppressed_revision_sensitive_reference_or_bottom",
       "installed_identity_confirmed": false,
       "source_geometry_quality": "exact_package_geometry",
       "source_dnp": false
@@ -2043,7 +2043,7 @@
         -0.0005850000237487257,
         -8.499999999999998e-05
       ],
-      "status": "suppressed_revision_conflict_or_bottom",
+      "status": "suppressed_revision_sensitive_reference_or_bottom",
       "installed_identity_confirmed": false,
       "source_geometry_quality": "exact_package_geometry",
       "source_dnp": false
@@ -2094,7 +2094,7 @@
         -0.0005850000237487257,
         -8.499999999999998e-05
       ],
-      "status": "suppressed_revision_conflict_or_bottom",
+      "status": "suppressed_revision_sensitive_reference_or_bottom",
       "installed_identity_confirmed": false,
       "source_geometry_quality": "exact_package_geometry",
       "source_dnp": false
@@ -2149,7 +2149,7 @@
         -0.0005850000237487257,
         -8.499999999999998e-05
       ],
-      "status": "suppressed_revision_conflict_or_bottom",
+      "status": "suppressed_revision_sensitive_reference_or_bottom",
       "installed_identity_confirmed": false,
       "source_geometry_quality": "exact_package_geometry",
       "source_dnp": false
@@ -2196,7 +2196,7 @@
         -0.0005850000237487257,
         -8.499999999999998e-05
       ],
-      "status": "suppressed_revision_conflict_or_bottom",
+      "status": "suppressed_revision_sensitive_reference_or_bottom",
       "installed_identity_confirmed": false,
       "source_geometry_quality": "exact_package_geometry",
       "source_dnp": false
@@ -2243,7 +2243,7 @@
         -0.0005850000237487257,
         -8.499999999999998e-05
       ],
-      "status": "suppressed_revision_conflict_or_bottom",
+      "status": "suppressed_revision_sensitive_reference_or_bottom",
       "installed_identity_confirmed": false,
       "source_geometry_quality": "exact_package_geometry",
       "source_dnp": false
@@ -2298,7 +2298,7 @@
         0.001595,
         0.0020950000237487257
       ],
-      "status": "suppressed_revision_conflict_or_bottom",
+      "status": "suppressed_revision_sensitive_reference_or_bottom",
       "installed_identity_confirmed": false,
       "source_geometry_quality": "exact_package_geometry",
       "source_dnp": false
@@ -2357,7 +2357,7 @@
         -0.0005850000237487257,
         -8.499999999999998e-05
       ],
-      "status": "suppressed_revision_conflict_or_bottom",
+      "status": "suppressed_revision_sensitive_reference_or_bottom",
       "installed_identity_confirmed": false,
       "source_geometry_quality": "exact_package_geometry",
       "source_dnp": false
@@ -2479,7 +2479,7 @@
         0.001595,
         0.0020950000237487257
       ],
-      "status": "suppressed_revision_conflict_or_bottom",
+      "status": "suppressed_revision_sensitive_reference_or_bottom",
       "installed_identity_confirmed": false,
       "source_geometry_quality": "exact_package_geometry",
       "source_dnp": false
@@ -2530,7 +2530,7 @@
         -0.0005850000237487257,
         -8.499999999999998e-05
       ],
-      "status": "suppressed_revision_conflict_or_bottom",
+      "status": "suppressed_revision_sensitive_reference_or_bottom",
       "installed_identity_confirmed": false,
       "source_geometry_quality": "exact_package_geometry",
       "source_dnp": false
@@ -2632,7 +2632,7 @@
         -0.0005850000237487257,
         -8.499999999999998e-05
       ],
-      "status": "suppressed_revision_conflict_or_bottom",
+      "status": "suppressed_revision_sensitive_reference_or_bottom",
       "installed_identity_confirmed": false,
       "source_geometry_quality": "exact_package_geometry",
       "source_dnp": false
@@ -2734,7 +2734,7 @@
         -0.0005850000237487254,
         -8.499999999999998e-05
       ],
-      "status": "suppressed_revision_conflict_or_bottom",
+      "status": "suppressed_revision_sensitive_reference_or_bottom",
       "installed_identity_confirmed": false,
       "source_geometry_quality": "exact_package_geometry",
       "source_dnp": false
@@ -5869,7 +5869,7 @@
         -0.0005850000237487257,
         -8.499999999999998e-05
       ],
-      "status": "suppressed_revision_conflict_or_bottom",
+      "status": "suppressed_revision_sensitive_reference_or_bottom",
       "installed_identity_confirmed": false,
       "source_geometry_quality": "exact_package_geometry",
       "source_dnp": false
@@ -7107,7 +7107,7 @@
         0.0015949988210923246,
         0.007594999338907676
       ],
-      "status": "suppressed_revision_conflict_or_bottom",
+      "status": "suppressed_revision_sensitive_reference_or_bottom",
       "installed_identity_confirmed": false,
       "source_geometry_quality": "dimension_accurate_placeholder",
       "source_dnp": true
@@ -7416,7 +7416,7 @@
         0.0015949988210923246,
         0.007594999338907676
       ],
-      "status": "suppressed_revision_conflict_or_bottom",
+      "status": "suppressed_revision_sensitive_reference_or_bottom",
       "installed_identity_confirmed": false,
       "source_geometry_quality": "dimension_accurate_placeholder",
       "source_dnp": true
@@ -7678,7 +7678,7 @@
         -0.001505000089034438,
         0.010095000461935996
       ],
-      "status": "suppressed_revision_conflict_or_bottom",
+      "status": "suppressed_revision_sensitive_reference_or_bottom",
       "installed_identity_confirmed": false,
       "source_geometry_quality": "verified_package_approximation",
       "source_dnp": false
@@ -8192,7 +8192,7 @@
         -0.0005850000237487254,
         -8.499999999999998e-05
       ],
-      "status": "suppressed_revision_conflict_or_bottom",
+      "status": "suppressed_revision_sensitive_reference_or_bottom",
       "installed_identity_confirmed": false,
       "source_geometry_quality": "exact_package_geometry",
       "source_dnp": false
@@ -10152,7 +10152,7 @@
         0.001595,
         0.0019449999875202776
       ],
-      "status": "suppressed_revision_conflict_or_bottom",
+      "status": "suppressed_revision_sensitive_reference_or_bottom",
       "installed_identity_confirmed": false,
       "source_geometry_quality": "exact_package_geometry",
       "source_dnp": false
@@ -10219,7 +10219,7 @@
         0.001595,
         0.0019449999875202776
       ],
-      "status": "suppressed_revision_conflict_or_bottom",
+      "status": "suppressed_revision_sensitive_reference_or_bottom",
       "installed_identity_confirmed": false,
       "source_geometry_quality": "exact_package_geometry",
       "source_dnp": true
@@ -14714,7 +14714,7 @@
         -0.0004349999875202774,
         -8.499999999999998e-05
       ],
-      "status": "suppressed_revision_conflict_or_bottom",
+      "status": "suppressed_revision_sensitive_reference_or_bottom",
       "installed_identity_confirmed": false,
       "source_geometry_quality": "exact_package_geometry",
       "source_dnp": false
@@ -14773,7 +14773,7 @@
         -0.0004349999875202774,
         -8.499999999999998e-05
       ],
-      "status": "suppressed_revision_conflict_or_bottom",
+      "status": "suppressed_revision_sensitive_reference_or_bottom",
       "installed_identity_confirmed": false,
       "source_geometry_quality": "exact_package_geometry",
       "source_dnp": false
@@ -16644,7 +16644,7 @@
         -0.0004349999875202774,
         -8.499999999999998e-05
       ],
-      "status": "suppressed_revision_conflict_or_bottom",
+      "status": "suppressed_revision_sensitive_reference_or_bottom",
       "installed_identity_confirmed": false,
       "source_geometry_quality": "exact_package_geometry",
       "source_dnp": false
@@ -17084,7 +17084,7 @@
         -0.0005349999922700226,
         -8.499999999999995e-05
       ],
-      "status": "suppressed_revision_conflict_or_bottom",
+      "status": "suppressed_revision_sensitive_reference_or_bottom",
       "installed_identity_confirmed": false,
       "source_geometry_quality": "exact_package_geometry",
       "source_dnp": false
@@ -17143,7 +17143,7 @@
         -0.0005349999922700226,
         -8.499999999999995e-05
       ],
-      "status": "suppressed_revision_conflict_or_bottom",
+      "status": "suppressed_revision_sensitive_reference_or_bottom",
       "installed_identity_confirmed": false,
       "source_geometry_quality": "exact_package_geometry",
       "source_dnp": false
@@ -17265,7 +17265,7 @@
         -0.0005349999922700226,
         -8.499999999999995e-05
       ],
-      "status": "suppressed_revision_conflict_or_bottom",
+      "status": "suppressed_revision_sensitive_reference_or_bottom",
       "installed_identity_confirmed": false,
       "source_geometry_quality": "exact_package_geometry",
       "source_dnp": false
@@ -18048,7 +18048,7 @@
         0.001595,
         0.0019449999875202776
       ],
-      "status": "suppressed_revision_conflict_or_bottom",
+      "status": "suppressed_revision_sensitive_reference_or_bottom",
       "installed_identity_confirmed": false,
       "source_geometry_quality": "exact_package_geometry",
       "source_dnp": false
@@ -18166,7 +18166,7 @@
         0.001595,
         0.0019449999875202776
       ],
-      "status": "suppressed_revision_conflict_or_bottom",
+      "status": "suppressed_revision_sensitive_reference_or_bottom",
       "installed_identity_confirmed": false,
       "source_geometry_quality": "exact_package_geometry",
       "source_dnp": true
@@ -19137,7 +19137,7 @@
         0.0015950012608689065,
         0.002106001019131094
       ],
-      "status": "suppressed_revision_conflict_or_bottom",
+      "status": "suppressed_revision_sensitive_reference_or_bottom",
       "installed_identity_confirmed": false,
       "source_geometry_quality": "dimension_accurate_placeholder",
       "source_dnp": true
@@ -19408,5 +19408,7 @@
       "source_geometry_quality": "exact_package_geometry",
       "source_dnp": false
     }
-  ]
+  ],
+  "physical_revision_unverified": true,
+  "prior_B_revision_inference_retracted": true
 }
