@@ -36,16 +36,23 @@ dxf=root/'data/board-sources/raspberry-pi-3b-v1.2/mechanical.dxf'
 dxf_meta=json.loads((dxf.parent/'mechanical-dxf-provenance.json').read_text(encoding='utf-8'))
 dxf_bytes=dxf.read_bytes()
 if dxf_bytes.startswith(b'version https://git-lfs.github.com/spec/v1'):
- dxf_digest=next(line.split(':',1)[1] for line in dxf_bytes.decode().splitlines() if line.startswith('oid sha256:'))
-else:dxf_digest=hashlib.sha256(dxf_bytes).hexdigest()
+ dxf_lines=dxf_bytes.decode().splitlines()
+ dxf_digest=next(line.split(':',1)[1] for line in dxf_lines if line.startswith('oid sha256:'))
+ dxf_lfs_size=int(next(line.split(' ',1)[1] for line in dxf_lines if line.startswith('size ')))
+ assert dxf_lfs_size==dxf_meta['bytes']
+else:
+ dxf_digest=hashlib.sha256(dxf_bytes).hexdigest()
+ assert b'AC1009' in dxf_bytes[:128], 'Expected the official ASCII DXF AC1009 header'
 assert dxf_digest==dxf_meta['sha256'] and dxf_meta['bytes']==1435223
-assert b'AC1009' in dxf_bytes[:128], 'Expected the official ASCII DXF AC1009 header'
 model_dir=p/'board-yolo11m-finetune-experiment'
 model_report=json.loads((model_dir/'training-report.json').read_text(encoding='utf-8'))
 for filename,record in model_report['artifacts'].items():
  artifact=(model_dir/filename).read_bytes()
  if artifact.startswith(b'version https://git-lfs.github.com/spec/v1'):
-  artifact_digest=next(line.split(':',1)[1] for line in artifact.decode().splitlines() if line.startswith('oid sha256:'))
+  artifact_lines=artifact.decode().splitlines()
+  artifact_digest=next(line.split(':',1)[1] for line in artifact_lines if line.startswith('oid sha256:'))
+  artifact_lfs_size=int(next(line.split(' ',1)[1] for line in artifact_lines if line.startswith('size ')))
+  assert artifact_lfs_size==record['bytes'],filename
  else:artifact_digest=hashlib.sha256(artifact).hexdigest()
  assert artifact_digest==record['sha256'],filename
  assert len(artifact)==record['bytes'] or artifact.startswith(b'version https://git-lfs.github.com/spec/v1'),filename
