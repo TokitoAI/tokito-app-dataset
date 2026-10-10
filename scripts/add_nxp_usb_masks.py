@@ -95,8 +95,8 @@ def main():
         masks["masks"].append(mask)
         template["labels"].append(label)
 
-    mask_path.write_text(json.dumps(masks, indent=2) + "\n", encoding="utf-8")
-    scan_path.write_text(json.dumps(scan, indent=2) + "\n", encoding="utf-8")
+    mask_path.write_bytes((json.dumps(masks, indent=2) + "\n").encode("utf-8"))
+    scan_path.write_bytes((json.dumps(scan, indent=2) + "\n").encode("utf-8"))
     print(json.dumps({"added": [f"IMG_20261010_092203.jpg:{m['refdes']}" for m in MASKS], "coverage": "partial_visible_component_bodies", "release_eligible": False}, indent=2))
 
 

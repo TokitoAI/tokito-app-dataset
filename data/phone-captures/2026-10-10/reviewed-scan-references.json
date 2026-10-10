@@ -1185,11 +1185,11 @@
       "image_sha256": "00bdc20da4286033a2c2f1c1d146ee3ece21be8ca322f4d33b7fdc8738038170",
       "board_bbox_xyxy_normalized": [
         0.2733918128654971,
-        0.11513157894736842,
+        0.089599609375,
         0.8004385964912281,
         0.9402412280701754
       ],
-      "board_box_scope": "Reviewed board-body feature ROI; not a complete YOLO training annotation",
+      "board_box_scope": "Expanded reviewed board and attached-component ROI includes the top-edge Type-C receptacles; it is still not an exhaustive board-object annotation",
       "source_reference": {
         "photo_manifest": "data/phone-captures/2026-10-10/manifest.json",
         "specimen_revision_status": "unverified"
