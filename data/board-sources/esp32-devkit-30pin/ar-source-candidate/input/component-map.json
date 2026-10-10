@@ -1,0 +1,411 @@
+{
+  "schema_version": "1.0",
+  "asset_id": "esp32-devkit-v1-30pin-visible",
+  "board_id": "esp32_board",
+  "board_revision": "unknown_community_clone_v1",
+  "component_id_format": "{board_id}:{board_revision}:{reference}",
+  "component_node_prefix": "ref:",
+  "component_count": 19,
+  "renderable_count": 15,
+  "components": [
+    {
+      "reference": "MH1",
+      "component_id": "esp32-devkit-v1-30pin:unknown:MH1",
+      "category": "mechanical_mounting_hole",
+      "component_class": "mounting_hole",
+      "glb_selector": null,
+      "needs_3d_body": false,
+      "side": "top",
+      "board_position_mm": {
+        "x": -11.5,
+        "y": -22.5
+      },
+      "package": "MountingHole_3.0mm",
+      "model_file": null,
+      "model_quality": "exact_hole_geometry",
+      "rotation_degrees": 0.0,
+      "bom_manufacturer": "",
+      "bom_part_number": "",
+      "bom_description": "Non-plated mounting hole 3.0mm drill",
+      "provenance": "Photographed specimen physical measurement + DOIT DevKit V1 30-pin form factor"
+    },
+    {
+      "reference": "MH2",
+      "component_id": "esp32-devkit-v1-30pin:unknown:MH2",
+      "category": "mechanical_mounting_hole",
+      "component_class": "mounting_hole",
+      "glb_selector": null,
+      "needs_3d_body": false,
+      "side": "top",
+      "board_position_mm": {
+        "x": 11.5,
+        "y": -22.5
+      },
+      "package": "MountingHole_3.0mm",
+      "model_file": null,
+      "model_quality": "exact_hole_geometry",
+      "rotation_degrees": 0.0,
+      "bom_manufacturer": "",
+      "bom_part_number": "",
+      "bom_description": "Non-plated mounting hole 3.0mm drill",
+      "provenance": "Photographed specimen physical measurement + DOIT DevKit V1 30-pin form factor"
+    },
+    {
+      "reference": "MH3",
+      "component_id": "esp32-devkit-v1-30pin:unknown:MH3",
+      "category": "mechanical_mounting_hole",
+      "component_class": "mounting_hole",
+      "glb_selector": null,
+      "needs_3d_body": false,
+      "side": "top",
+      "board_position_mm": {
+        "x": -11.5,
+        "y": 22.5
+      },
+      "package": "MountingHole_3.0mm",
+      "model_file": null,
+      "model_quality": "exact_hole_geometry",
+      "rotation_degrees": 0.0,
+      "bom_manufacturer": "",
+      "bom_part_number": "",
+      "bom_description": "Non-plated mounting hole 3.0mm drill",
+      "provenance": "Photographed specimen physical measurement + DOIT DevKit V1 30-pin form factor"
+    },
+    {
+      "reference": "MH4",
+      "component_id": "esp32-devkit-v1-30pin:unknown:MH4",
+      "category": "mechanical_mounting_hole",
+      "component_class": "mounting_hole",
+      "glb_selector": null,
+      "needs_3d_body": false,
+      "side": "top",
+      "board_position_mm": {
+        "x": 11.5,
+        "y": 22.5
+      },
+      "package": "MountingHole_3.0mm",
+      "model_file": null,
+      "model_quality": "exact_hole_geometry",
+      "rotation_degrees": 0.0,
+      "bom_manufacturer": "",
+      "bom_part_number": "",
+      "bom_description": "Non-plated mounting hole 3.0mm drill",
+      "provenance": "Photographed specimen physical measurement + DOIT DevKit V1 30-pin form factor"
+    },
+    {
+      "reference": "U1",
+      "component_id": "esp32-devkit-v1-30pin:unknown:U1",
+      "category": "physical_component",
+      "component_class": "voltage_regulator",
+      "glb_selector": "ref:U1",
+      "needs_3d_body": true,
+      "side": "top",
+      "board_position_mm": {
+        "x": 4.5,
+        "y": -12.0
+      },
+      "package": "SOT-223",
+      "model_file": "SOT-223-3_TabPin2.step",
+      "model_quality": "exact_package_geometry",
+      "rotation_degrees": 0.0,
+      "bom_manufacturer": "Advanced Monolithic Systems / generic clone",
+      "bom_part_number": "AMS1117-3.3",
+      "bom_description": "1A LDO Voltage Regulator 3.3V Output",
+      "provenance": "Physical PCB silkscreen 'U1' + SOT-223 package"
+    },
+    {
+      "reference": "U2",
+      "component_id": "esp32-devkit-v1-30pin:unknown:U2",
+      "category": "physical_component",
+      "component_class": "interface_ic",
+      "glb_selector": "ref:U2",
+      "needs_3d_body": true,
+      "side": "top",
+      "board_position_mm": {
+        "x": -4.0,
+        "y": -12.5
+      },
+      "package": "QFN-28_5x5mm",
+      "model_file": "VFQFN-28-1EP_5x5mm.step",
+      "model_quality": "exact_package_geometry",
+      "rotation_degrees": 0.0,
+      "bom_manufacturer": "Silicon Labs",
+      "bom_part_number": "CP2102",
+      "bom_description": "USB-to-UART Bridge Controller (reviewed marking family SILABS CP2102; exact ordering suffix unconfirmed)",
+      "provenance": "Physical PCB silkscreen 'U2' + IC package laser marking 'SILABS CP2102'"
+    },
+    {
+      "reference": "MOD1",
+      "component_id": "esp32-devkit-v1-30pin:unknown:MOD1",
+      "category": "physical_component",
+      "component_class": "rf_module",
+      "glb_selector": "ref:MOD1",
+      "needs_3d_body": true,
+      "side": "top",
+      "board_position_mm": {
+        "x": 0.0,
+        "y": 9.5
+      },
+      "package": "ESP32-WROOM-32",
+      "model_file": "ESP32-WROOM-32.step",
+      "model_quality": "exact_package_geometry",
+      "rotation_degrees": 0.0,
+      "bom_manufacturer": "Espressif Systems",
+      "bom_part_number": "ESP-WROOM-32",
+      "bom_description": "Wi-Fi & Bluetooth MCU Module (FCC ID: 2AC7Z-ESPWROOM32)",
+      "provenance": "Physical shield laser marking 'ESP-32' + FCC ID 2AC7Z-ESPWROOM32"
+    },
+    {
+      "reference": "J1",
+      "component_id": "esp32-devkit-v1-30pin:unknown:J1",
+      "category": "physical_component",
+      "component_class": "connector",
+      "glb_selector": "ref:J1",
+      "needs_3d_body": true,
+      "side": "top",
+      "board_position_mm": {
+        "x": 0.0,
+        "y": -24.0
+      },
+      "package": "USB_Micro-B_Female",
+      "model_file": "USB_Micro-B_Molex_47346-0001.step",
+      "model_quality": "exact_package_geometry",
+      "rotation_degrees": 0.0,
+      "bom_manufacturer": "Molex / generic",
+      "bom_part_number": "Micro-USB-B-SMD",
+      "bom_description": "Micro-USB Type B Receptacle Connector",
+      "provenance": "Physical connector inspection at top board edge"
+    },
+    {
+      "reference": "SW1",
+      "component_id": "esp32-devkit-v1-30pin:unknown:SW1",
+      "category": "physical_component",
+      "component_class": "switch",
+      "glb_selector": "ref:SW1",
+      "needs_3d_body": true,
+      "side": "top",
+      "board_position_mm": {
+        "x": -8.5,
+        "y": -22.0
+      },
+      "package": "SW_SPST_SMD_3x4mm",
+      "model_file": "SW_SPST_B3U-1000P.step",
+      "model_quality": "exact_package_geometry",
+      "rotation_degrees": 0.0,
+      "bom_manufacturer": "Omron / generic",
+      "bom_part_number": "SMD-Tactile-Switch",
+      "bom_description": "BOOT Tactile Pushbutton Switch (silkscreen 'BOOT')",
+      "provenance": "Physical PCB silkscreen 'BOOT' + top-left button"
+    },
+    {
+      "reference": "SW2",
+      "component_id": "esp32-devkit-v1-30pin:unknown:SW2",
+      "category": "physical_component",
+      "component_class": "switch",
+      "glb_selector": "ref:SW2",
+      "needs_3d_body": true,
+      "side": "top",
+      "board_position_mm": {
+        "x": 8.5,
+        "y": -22.0
+      },
+      "package": "SW_SPST_SMD_3x4mm",
+      "model_file": "SW_SPST_B3U-1000P.step",
+      "model_quality": "exact_package_geometry",
+      "rotation_degrees": 0.0,
+      "bom_manufacturer": "Omron / generic",
+      "bom_part_number": "SMD-Tactile-Switch",
+      "bom_description": "EN (Reset) Tactile Pushbutton Switch (silkscreen 'EN')",
+      "provenance": "Physical PCB silkscreen 'EN' + top-right button"
+    },
+    {
+      "reference": "C5",
+      "component_id": "esp32-devkit-v1-30pin:unknown:C5",
+      "category": "physical_component",
+      "component_class": "capacitor",
+      "glb_selector": "ref:C5",
+      "needs_3d_body": true,
+      "side": "top",
+      "board_position_mm": {
+        "x": 10.5,
+        "y": -20.5
+      },
+      "package": "C_0805",
+      "model_file": "C_0805_2012Metric.step",
+      "model_quality": "exact_package_geometry",
+      "rotation_degrees": 0.0,
+      "bom_manufacturer": "generic",
+      "bom_part_number": "0.1uF",
+      "bom_description": "Ceramic Capacitor (silkscreen 'C5' adjacent to VIN pin)",
+      "provenance": "Physical PCB silkscreen 'C5'"
+    },
+    {
+      "reference": "C_TAN1",
+      "component_id": "esp32-devkit-v1-30pin:unknown:C_TAN1",
+      "category": "physical_component",
+      "component_class": "capacitor",
+      "glb_selector": "ref:C_TAN1",
+      "needs_3d_body": true,
+      "side": "top",
+      "board_position_mm": {
+        "x": 4.5,
+        "y": -6.5
+      },
+      "package": "Tantalum_Case_B_3528",
+      "model_file": "Tantalum_Case_B.step",
+      "model_quality": "exact_package_geometry",
+      "rotation_degrees": 0.0,
+      "bom_manufacturer": "generic",
+      "bom_part_number": "106C",
+      "bom_description": "10uF 16V Tantalum Polarized Capacitor (marking 106C)",
+      "provenance": "Physical laser marking '106C' on yellow tantalum body"
+    },
+    {
+      "reference": "D1",
+      "component_id": "esp32-devkit-v1-30pin:unknown:D1",
+      "category": "physical_component",
+      "component_class": "diode",
+      "glb_selector": "ref:D1",
+      "needs_3d_body": true,
+      "side": "top",
+      "board_position_mm": {
+        "x": 4.0,
+        "y": -18.0
+      },
+      "package": "SOD-123",
+      "model_file": "SOD-123.step",
+      "model_quality": "exact_package_geometry",
+      "rotation_degrees": 90.0,
+      "bom_manufacturer": "generic",
+      "bom_part_number": "SS14 / B2",
+      "bom_description": "Schottky Barrier Diode 5V VBUS reverse protection",
+      "provenance": "Physical SOD-123 diode package between USB and regulator"
+    },
+    {
+      "reference": "Q1",
+      "component_id": "esp32-devkit-v1-30pin:unknown:Q1",
+      "category": "physical_component",
+      "component_class": "transistor",
+      "glb_selector": "ref:Q1",
+      "needs_3d_body": true,
+      "side": "top",
+      "board_position_mm": {
+        "x": -7.0,
+        "y": -6.5
+      },
+      "package": "SOT-23",
+      "model_file": "SOT-23.step",
+      "model_quality": "exact_package_geometry",
+      "rotation_degrees": 0.0,
+      "bom_manufacturer": "generic",
+      "bom_part_number": "S8050 / J3Y",
+      "bom_description": "NPN BJT Transistor for Auto-Program Circuit (marking J3Y)",
+      "provenance": "Physical laser marking 'J3Y' on SOT-23 package"
+    },
+    {
+      "reference": "Q2",
+      "component_id": "esp32-devkit-v1-30pin:unknown:Q2",
+      "category": "physical_component",
+      "component_class": "transistor",
+      "glb_selector": "ref:Q2",
+      "needs_3d_body": true,
+      "side": "top",
+      "board_position_mm": {
+        "x": -2.0,
+        "y": -6.5
+      },
+      "package": "SOT-23",
+      "model_file": "SOT-23.step",
+      "model_quality": "exact_package_geometry",
+      "rotation_degrees": 0.0,
+      "bom_manufacturer": "generic",
+      "bom_part_number": "S8050 / J3Y",
+      "bom_description": "NPN BJT Transistor for Auto-Program Circuit (marking J3Y)",
+      "provenance": "Physical laser marking 'J3Y' on SOT-23 package"
+    },
+    {
+      "reference": "LED1",
+      "component_id": "esp32-devkit-v1-30pin:unknown:LED1",
+      "category": "physical_component",
+      "component_class": "led",
+      "glb_selector": "ref:LED1",
+      "needs_3d_body": true,
+      "side": "top",
+      "board_position_mm": {
+        "x": -8.0,
+        "y": -9.0
+      },
+      "package": "LED_0805",
+      "model_file": "LED_0805.step",
+      "model_quality": "exact_package_geometry",
+      "rotation_degrees": 0.0,
+      "bom_manufacturer": "generic",
+      "bom_part_number": "Red LED",
+      "bom_description": "Power Indicator LED (Red)",
+      "provenance": "Physical LED package"
+    },
+    {
+      "reference": "LED2",
+      "component_id": "esp32-devkit-v1-30pin:unknown:LED2",
+      "category": "physical_component",
+      "component_class": "led",
+      "glb_selector": "ref:LED2",
+      "needs_3d_body": true,
+      "side": "top",
+      "board_position_mm": {
+        "x": -8.0,
+        "y": -4.0
+      },
+      "package": "LED_0805",
+      "model_file": "LED_0805.step",
+      "model_quality": "exact_package_geometry",
+      "rotation_degrees": 0.0,
+      "bom_manufacturer": "generic",
+      "bom_part_number": "Blue LED",
+      "bom_description": "User / Status Indicator LED on GPIO2 (Blue)",
+      "provenance": "Physical LED package"
+    },
+    {
+      "reference": "J2",
+      "component_id": "esp32-devkit-v1-30pin:unknown:J2",
+      "category": "physical_component",
+      "component_class": "pin_header",
+      "glb_selector": "ref:J2",
+      "needs_3d_body": true,
+      "side": "top",
+      "board_position_mm": {
+        "x": -12.7,
+        "y": 0.0
+      },
+      "package": "PinHeader_1x15_P2.54mm_Vertical",
+      "model_file": "PinHeader_1x15_P2.54mm_Vertical.step",
+      "model_quality": "exact_package_geometry",
+      "rotation_degrees": 0.0,
+      "bom_manufacturer": "generic",
+      "bom_part_number": "1x15 2.54mm male header",
+      "bom_description": "15-pin left through-hole header contact strip (3V3..D23)",
+      "provenance": "DOIT 30-pin form factor + physical contacts"
+    },
+    {
+      "reference": "J3",
+      "component_id": "esp32-devkit-v1-30pin:unknown:J3",
+      "category": "physical_component",
+      "component_class": "pin_header",
+      "glb_selector": "ref:J3",
+      "needs_3d_body": true,
+      "side": "top",
+      "board_position_mm": {
+        "x": 12.7,
+        "y": 0.0
+      },
+      "package": "PinHeader_1x15_P2.54mm_Vertical",
+      "model_file": "PinHeader_1x15_P2.54mm_Vertical.step",
+      "model_quality": "exact_package_geometry",
+      "rotation_degrees": 0.0,
+      "bom_manufacturer": "generic",
+      "bom_part_number": "1x15 2.54mm male header",
+      "bom_description": "15-pin right through-hole header contact strip (VIN..EN)",
+      "provenance": "DOIT 30-pin form factor + physical contacts"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "asset_sha256": "3abc19ce4a20c9170fc9b96f7ecdde18f860a874fce2a2a1ee29b37bc50a7a8c",
+  "triangles_rendered": 721889,
+  "triangle_only_review": true,
+  "physical_flip_test": false,
+  "review_image": "top-bottom-review.jpg",
+  "views": [
+    "top",
+    "bottom"
+  ]
+}
