@@ -84,7 +84,7 @@
   "uncertainty_note": "Height-dependent parallax and possible revision-dependent placement differences unknown. Convex hull includes leads, concavities and hidden geometry, not visible-body masks. Four fitted anchors do not independently verify alignment.",
   "source_glb_sha256": "ba9db807d2141189facb33039f57861d99a460cf595dd71bf80eb5f9cbe1268c",
   "component_map_sha256": "8fd8a25b1c53da7a8a7dfb414d4410dfa1b76c916ee76315e82cb3027015fedd",
-  "revision_review_sha256": "b60638b941c4e226a524117b92b61e59680183f1033920bbc62705b8ab48b6b3",
+  "revision_review_sha256": "ab042240ac42d63bc14e137288c2b8459e7e5bac60ce595668f9c904be3d7fd7",
   "suppressed_changed_references": [
     "C155",
     "C157",
@@ -19410,5 +19410,7 @@
     }
   ],
   "physical_revision_unverified": true,
-  "prior_B_revision_inference_retracted": true
+  "prior_B_revision_inference_retracted": true,
+  "schematic_revision_match_verified": true,
+  "layout_revision_match_verified": false
 }
