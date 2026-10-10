@@ -15,10 +15,15 @@ Use the 80 downloaded phone images to label every board family first, then its v
 
 ## Current evidence
 
-Latest follow-up (2026-10-10): four additional iQOO videos covering ESP32,
-ESP-12E, Ultimainboard and NXP have been hash-verified and preserved. Full-clip
-sampling shows component-side pans; it does not show the underside, four side
-views or a continuous flip. NXP underside stills remain available separately.
+Latest follow-up (2026-10-10): four initial iQOO videos covering ESP32,
+ESP-12E, Ultimainboard and NXP have been hash-verified and preserved. Two later
+clips add underside views and visible flip motion for ESP32 and Ultimainboard;
+their source hashes and review sheets are recorded in the
+[supplemental flip-clip manifest](../data/video-captures/2026-10-10/physical-view-followup/additional-flip-clips/manifest.json).
+Four distinct oblique sides are not verified for either. New underside/flip
+clips are still needed for ESP-12E and NXP; NXP's existing underside stills
+remain available separately. No complete real six-view specimen or calibrated
+continuous-flip evaluation is established.
 ESP32 now has a reviewed partial macro seed with 19 visible body masks and 12
 literal printed-contact centers. U2's same-specimen photo supports the visible
 family marking `SILABS / CP2102`; the full order suffix remains unreadable.
@@ -41,7 +46,7 @@ of the full cross-board goal. See [AR alignment dataset](AR_ALIGNMENT_DATASET.md
 |---|---|
 | Dataset repository and initial corpus | Published; PRs #1 and #2 merged into main |
 | AR identity/geometry joins | 243 partial part boxes, one reviewed U1 body polygon, four named NXP mounting-hole image/metric pairs and 11 revision-unverified image-to-mesh candidates. The released NXP GLB has 354 independently selectable source component meshes; this does not establish 354 photographed matches |
-| Multi-view coverage | Six source-CAD views generated with depth-tested instance masks and fixed component IDs. Real coverage has one reviewed top-side capture per family; no complete real six-view specimen or physical flip sequence is verified. Synthetic views cannot replace real-camera evaluation |
+| Multi-view coverage | Six source-CAD views generated with depth-tested instance masks and fixed component IDs. Real coverage now includes underside video views for ESP32 and Ultimainboard, but four distinct oblique sides remain unverified and no complete real six-view specimen or calibrated physical flip evaluation is verified. Synthetic views cannot replace real-camera evaluation |
 | Phone photos | 80 files preserved: 47 captures and 33 crop variants |
 | Board labels | Five families reviewed; 62 training images, 11 validation originals and 7 excluded validation crop variants |
 | Board models | YOLO11m baseline plus a dynamic medium-model fine-tune; 1,000-epoch ceiling, 100-patience stop at epoch 113, best epoch 13. Confidence-integrated candidate mAP50-95 is 0.9417 versus 0.9186 baseline on the 11-image known-specimen fold; a fixed 0.75-confidence audit found one fine-tune false positive versus zero for the baseline. ESP32 is missing from validation. The matching LiteRT export passed numerical conformance; the iQOO I2501 camera smoke detected Ultimainboard correctly once, missed it twice, and once mislabeled it as ESP8266 at 0.9405 confidence. Parts remain generic `ic` labels. |
