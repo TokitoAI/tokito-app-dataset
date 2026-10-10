@@ -35,6 +35,7 @@ data/photo-model/*.json -text
 data/phone-captures/**/*.json -text whitespace=cr-at-eol
 data/video-captures/**/*.json -text whitespace=cr-at-eol
 data/ar-alignment/*.json -text whitespace=cr-at-eol
+data/ar-alignment/physical-view-coverage/*.json -text whitespace=cr-at-eol
 data/ar-alignment/nxp-planar-review/*.json -text whitespace=cr-at-eol
 data/board-sources/**/ar-reference/*.json -text whitespace=cr-at-eol
 data/board-sources/**/ar-source-candidate/*.json -text whitespace=cr-at-eol
