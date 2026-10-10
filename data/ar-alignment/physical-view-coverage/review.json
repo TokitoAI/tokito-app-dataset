@@ -62,13 +62,14 @@
   ],
   "nxp_underside_stills_available": true,
   "latest_followup_capture_manifest": "data/video-captures/2026-10-10/physical-view-followup/manifest.json",
-  "latest_followup_coverage_summary": "The first four follow-up iQOO clips show component-face overview/panning only. Two later clips add underside views for Ultimaker and ESP32, with flip motion visible in each sampled clip. Four distinct oblique-side views are still missing for both; ESP-12E and NXP still need the requested new underside/flip captures, and NXP also needs four oblique sides.",
+  "latest_followup_coverage_summary": "The first four follow-up iQOO clips show component-face overview/panning only. Later clips add underside views for Ultimaker, ESP32 and NXP; NXP's component-face and underside views are separate short clips. Flip motion appears in ESP32 and Ultimaker clips, but calibrated continuous flip remains unverified. Four distinct oblique-side views are still missing across the boards; a dedicated ESP-12E capture is also missing.",
   "additional_flip_clip_manifest": "data/video-captures/2026-10-10/physical-view-followup/additional-flip-clips/manifest.json",
+  "additional_board_view_manifest": "data/video-captures/2026-10-10/physical-view-followup/additional-board-views/manifest.json",
   "additional_flip_clip_coverage": {
     "ultimaker_underside_seen": true,
     "esp32_underside_seen": true,
     "esp12e_underside_seen": false,
-    "nxp_underside_seen_in_new_clip": false,
+    "nxp_underside_seen_in_new_clip": true,
     "four_oblique_sides_verified": false,
     "continuous_flip_verified": false,
     "metric_pose_verified": false

@@ -1,0 +1,98 @@
+{
+  "schema_version": "1.0",
+  "source_device": "iQOO I2501",
+  "retrieval": "adb pull from /sdcard/DCIM/Camera on 2026-10-10",
+  "training_export_eligible": false,
+  "metric_pose_verified": false,
+  "continuous_flip_verified": false,
+  "recordings": [
+    {
+      "board_families": ["ultimainboard_2_1_4"],
+      "path": "data/video-captures/2026-10-10/physical-view-followup/additional-board-views/ultimaker_video_20261010_211129.mp4",
+      "device_path": "/sdcard/DCIM/Camera/video_20261010_211129.mp4",
+      "sha256": "1be697b117798f4d8aef0667b7095635675a05a0d27083731712c12fee2700a3",
+      "bytes": 26929395,
+      "codec": "hevc",
+      "width": 1920,
+      "height": 1080,
+      "duration_seconds": 16.980167,
+      "review_sample_interval_seconds": 1,
+      "review_contact_sheet": {
+        "path": "data/video-captures/2026-10-10/physical-view-followup/additional-board-views/ultimaker_video_20261010_211129-fps1-review.jpg",
+        "sha256": "08f079375c924f03f62cc7e33996b8daa7127185508674574158b13846f524a4",
+        "bytes": 1126401
+      },
+      "view_claims": [
+        {"board_family": "ultimainboard_2_1_4", "observed_views": ["component_bearing_face", "underside", "edge_on_side"], "underside_seen": true, "four_oblique_sides_seen": false, "continuous_flip_video_present": true, "continuous_flip_verified": false}
+      ]
+    },
+    {
+      "board_families": ["nxp_frdm_mcxn236"],
+      "path": "data/video-captures/2026-10-10/physical-view-followup/additional-board-views/nxp_video_20261010_211200.mp4",
+      "device_path": "/sdcard/DCIM/Camera/video_20261010_211200.mp4",
+      "sha256": "b9e531fb9c374f122d6634d429b94f5e80fc9ce850353360cce76938c5b3581f",
+      "bytes": 9656140,
+      "codec": "hevc",
+      "width": 1920,
+      "height": 1080,
+      "duration_seconds": 6.058667,
+      "review_sample_interval_seconds": 1,
+      "review_contact_sheet": {
+        "path": "data/video-captures/2026-10-10/physical-view-followup/additional-board-views/nxp_video_20261010_211200-fps1-review.jpg",
+        "sha256": "3c9a8f8aa454e1c4fe7a7e22e8e831fa70ffcb1d69ed8cb8a3e3854dbd033ba1",
+        "bytes": 534998
+      },
+      "view_claims": [
+        {"board_family": "nxp_frdm_mcxn236", "observed_views": ["component_bearing_face", "oblique_partial"], "underside_seen": false, "four_oblique_sides_seen": false, "continuous_flip_video_present": false, "continuous_flip_verified": false}
+      ]
+    },
+    {
+      "board_families": ["nxp_frdm_mcxn236"],
+      "path": "data/video-captures/2026-10-10/physical-view-followup/additional-board-views/nxp_video_20261010_211217.mp4",
+      "device_path": "/sdcard/DCIM/Camera/video_20261010_211217.mp4",
+      "sha256": "b94638def4f1366d76694439eb13c99fbccc8b7670ade1b2d3c20f60ec041905",
+      "bytes": 8157695,
+      "codec": "hevc",
+      "width": 1920,
+      "height": 1080,
+      "duration_seconds": 4.661189,
+      "review_sample_interval_seconds": 1,
+      "review_contact_sheet": {
+        "path": "data/video-captures/2026-10-10/physical-view-followup/additional-board-views/nxp_video_20261010_211217-fps1-review.jpg",
+        "sha256": "25e88bc26034321c98de1cfd0f3ae429639f31d359ed7c0a274be21e4ba56084",
+        "bytes": 416164
+      },
+      "view_claims": [
+        {"board_family": "nxp_frdm_mcxn236", "observed_views": ["underside", "edge_on_side"], "underside_seen": true, "four_oblique_sides_seen": false, "continuous_flip_video_present": false, "continuous_flip_verified": false}
+      ]
+    },
+    {
+      "board_families": ["esp32_devkit_30pin_clone", "ultimainboard_2_1_4"],
+      "path": "data/video-captures/2026-10-10/physical-view-followup/additional-board-views/mixed-esp32-ultimaker_video_20261010_211236.mp4",
+      "device_path": "/sdcard/DCIM/Camera/video_20261010_211236.mp4",
+      "sha256": "960ee35c4eff84a083b82640b270a930977f1bbfb0dbc75f120af47aa1fe7cdf",
+      "bytes": 24360191,
+      "codec": "hevc",
+      "width": 1920,
+      "height": 1080,
+      "duration_seconds": 12.152378,
+      "review_sample_interval_seconds": 1,
+      "review_contact_sheet": {
+        "path": "data/video-captures/2026-10-10/physical-view-followup/additional-board-views/mixed-esp32-ultimaker_video_20261010_211236-fps1-review.jpg",
+        "sha256": "5d0a9f267b55bb98805392b7d878354709c9aae5eefda65e9f9fed24575be270",
+        "bytes": 295424
+      },
+      "view_claims": [
+        {"board_family": "esp32_devkit_30pin_clone", "observed_views": ["component_bearing_face", "underside"], "underside_seen": true, "four_oblique_sides_seen": false, "continuous_flip_video_present": true, "continuous_flip_verified": false},
+        {"board_family": "ultimainboard_2_1_4", "observed_views": ["component_bearing_face"], "underside_seen": false, "four_oblique_sides_seen": false, "continuous_flip_video_present": false, "continuous_flip_verified": false}
+      ]
+    }
+  ],
+  "limitations": [
+    "The NXP front and underside views are in separate short clips; they are not a continuous flip sequence.",
+    "No clip verifies four distinct oblique sides or calibrated camera-to-board tracking.",
+    "The mixed ESP32/Ultimaker clip contains background objects and was not used as a training image set.",
+    "ESP-12E does not appear with sufficient evidence in these four clips and still needs a dedicated capture.",
+    "These clips provide no reviewed component masks or pin labels and are not training-export eligible."
+  ]
+}

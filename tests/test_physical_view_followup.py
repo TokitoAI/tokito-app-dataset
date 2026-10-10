@@ -15,6 +15,12 @@ supplemental_spec = importlib.util.spec_from_file_location(
 supplemental = importlib.util.module_from_spec(supplemental_spec)
 supplemental_spec.loader.exec_module(supplemental)
 
+additional_views_spec = importlib.util.spec_from_file_location(
+    'additional_board_views',
+    Path(__file__).resolve().parents[1] / 'scripts/validate_additional_board_views.py')
+additional_views = importlib.util.module_from_spec(additional_views_spec)
+additional_views_spec.loader.exec_module(additional_views)
+
 
 class PhysicalViewFollowupTests(unittest.TestCase):
     def test_tracked_source_hashes_and_view_limits(self):
@@ -51,6 +57,15 @@ class PhysicalViewFollowupTests(unittest.TestCase):
         self.assertTrue(all(row['underside_seen'] for row in result))
         self.assertTrue(all(not row['four_oblique_sides_seen'] for row in result))
         self.assertTrue(all(not row['training_export_eligible'] for row in result))
+
+    def test_additional_board_views_preserve_per_clip_limits(self):
+        result = additional_views.validate()
+        self.assertEqual(len(result), 4)
+        self.assertTrue(all(row['sha256_verified'] for row in result))
+        self.assertTrue(all(not row['training_export_eligible'] for row in result))
+        nxp_back = next(row for row in result if '211217' in row['path'])
+        self.assertTrue(nxp_back['claims'][0]['underside_seen'])
+        self.assertFalse(nxp_back['claims'][0]['continuous_flip_verified'])
 
 
 if __name__ == '__main__':
