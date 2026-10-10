@@ -16,7 +16,11 @@ DEFAULT_FILES = (
     "annotations/ar-instance-masks.json",
     "annotations/esp32-dense-component-review.json",
     "annotations/esp8266-component-mask-review.json",
+    "annotations/esp8266-dense-component-review.json",
+    "annotations/esp8266-video-component-review.json",
+    "annotations/nxp-dense-component-review.json",
     "annotations/ultimainboard-specimen-component-masks.json",
+    "annotations/ultimainboard-dense-component-review.json",
 )
 
 
@@ -29,6 +33,7 @@ def validate_file(annotation_path, repo_root):
         return {"file": str(annotation_path), "masks": 0, "errors": ["masks/instances must be a list"], "trainable": False}
 
     seen = set()
+    image_cache = {}
     for index, mask in enumerate(masks):
         label = mask.get("instance_id", f"row {index}")
         image_value = mask.get("image_path") or data.get("image_path") or data.get("photo", {}).get("path")
@@ -42,15 +47,23 @@ def validate_file(annotation_path, repo_root):
             errors.append(f"{label}: image does not exist: {image_path}")
             continue
 
-        image_hash = hashlib.sha256(image_path.read_bytes()).hexdigest()
+        cache_key = image_path.resolve()
+        if cache_key not in image_cache:
+            image_hash = hashlib.sha256(image_path.read_bytes()).hexdigest()
+            try:
+                with Image.open(image_path) as image:
+                    width, height = image.size
+            except OSError:
+                errors.append(f"{label}: source image cannot be decoded")
+                continue
+            image_cache[cache_key] = (image_hash, width, height)
+        image_hash, width, height = image_cache[cache_key]
         expected_hash = mask.get("image_sha256") or data.get("image_sha256") or data.get("photo", {}).get("sha256")
         if not expected_hash:
             errors.append(f"{label}: image SHA-256 is missing")
         elif image_hash != expected_hash:
             errors.append(f"{label}: image SHA-256 mismatch")
 
-        with Image.open(image_path) as image:
-            width, height = image.size
         if mask.get("image_width", width) != width or mask.get("image_height", height) != height:
             errors.append(f"{label}: declared image dimensions do not match the source")
 

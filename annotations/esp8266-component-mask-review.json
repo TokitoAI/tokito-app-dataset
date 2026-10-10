@@ -12,7 +12,7 @@
   "training_export_eligible": false,
   "evaluation_valid": false,
   "review_scope": [
-    "rf_module",
+    "rf_shield",
     "integrated_circuit",
     "usb_connector",
     "switch"
@@ -32,7 +32,7 @@
   "masks": [
     {
       "instance_id": "IMG_20261010_092221.jpg:esp12e_rf_shield",
-      "class_name": "rf_module",
+      "class_name": "rf_shield",
       "observed_reference_designator": null,
       "observed_marking_family": "ESP-12E",
       "polygon_xy_pixels": [
@@ -261,5 +261,6 @@
       "source_mapping_status": "unmapped_photo_instance",
       "installed_order_code_confirmed": false
     }
-  ]
+  ],
+  "class_scope_note": "rf_shield is the visible metal shield only, distinct from a complete RF module substrate/antenna mask."
 }
