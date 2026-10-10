@@ -9,8 +9,8 @@
   },
   "inputs": {
     "data/photo-model/label-hierarchy.json": "08adbb7651caf2f71b31d30f91a4f4c4973a7cf663aa2d1feceb056d8fcfe7a4",
-    "data/phone-captures/2026-10-10/reviewed-scan-references.json": "cb4569f432eb17aab46567c968b454c5684518c246a17284d3c590dc3cf2a619",
-    "annotations/ar-instance-masks.json": "3a22c616bbe779da21af7641320ce584268bed42120bcc94b8d877b971c96eac",
+    "data/phone-captures/2026-10-10/reviewed-scan-references.json": "fba163f221e17bc0f27d4a715b16b2d4b0577b29bb144b6ab0cfd021fa7916b9",
+    "annotations/ar-instance-masks.json": "805dc951fd85e7a9e8e35ccaf8838c30932d63d2728c93eb3b2fb2662ed0212e",
     "annotations/multiview-capture-review.json": "1a3b1ebe2befdaa7508ba47c4da1c2ad9ef8fff5f3de65bc505238ec2a0e79e9",
     "data/board-sources/nxp-frdm-mcxn236/ar-reference/component-map.json": "8fd8a25b1c53da7a8a7dfb414d4410dfa1b76c916ee76315e82cb3027015fedd",
     "data/board-sources/nxp-frdm-mcxn236/ar-reference/digital-twin-manifest.json": "74fa245678566d04902dc2b80b56967ec96c2068d1679ce3a75faeaf0591eff5",
@@ -6048,10 +6048,10 @@
   ],
   "coverage": {
     "paired_metric_landmarks": 4,
-    "instances": 247,
+    "instances": 253,
     "unparented_contacts": 60,
-    "reviewed_body_polygons": 5,
-    "candidate_mesh_bindings": 15,
+    "reviewed_body_polygons": 11,
+    "candidate_mesh_bindings": 21,
     "photo_located_parented_contacts": 165
   },
   "images": [
@@ -9909,6 +9909,280 @@
             "asset_id": "frdm-mcxn236-populated-v5-visible",
             "glb_sha256": "sha256:ba9db807d2141189facb33039f57861d99a460cf595dd71bf80eb5f9cbe1268c",
             "selector": "ref:U8",
+            "source_dnp": false,
+            "mapping_status": "source_candidate_photographed_revision_unverified",
+            "installed_order_code_confirmed": false
+          },
+          "pins": [],
+          "physical_component_instance_id": null
+        },
+        {
+          "instance_id": "IMG_20261009_221755_1.jpg:J5",
+          "class_name": "connector_header",
+          "observed_reference_designator": "J5",
+          "observed_label": "J5 \u2014 1x8 socket header [08001S3 0811-29RF Rev C BOM candidate]",
+          "bbox_xyxy_normalized": [
+            0.124375,
+            0.13863168724279834,
+            0.2125,
+            0.3212448559670782
+          ],
+          "visible_body_polygon_xy_normalized": [
+            [
+              0.124375,
+              0.13863168724279834
+            ],
+            [
+              0.2125,
+              0.13863168724279834
+            ],
+            [
+              0.2125,
+              0.3212448559670782
+            ],
+            [
+              0.124375,
+              0.3212448559670782
+            ]
+          ],
+          "polygon_review_status": "visually_reviewed_body_polygon",
+          "cad_binding": {
+            "source_component_id": "nxp-frdm-mcxn236:C:J5",
+            "source_board_revision": "C",
+            "asset_id": "frdm-mcxn236-populated-v5-visible",
+            "glb_sha256": "sha256:ba9db807d2141189facb33039f57861d99a460cf595dd71bf80eb5f9cbe1268c",
+            "selector": "ref:J5",
+            "source_dnp": false,
+            "mapping_status": "source_candidate_photographed_revision_unverified",
+            "installed_order_code_confirmed": false
+          },
+          "pins": [],
+          "physical_component_instance_id": null
+        },
+        {
+          "instance_id": "IMG_20261009_221755_1.jpg:J6",
+          "class_name": "connector_header",
+          "observed_reference_designator": "J6",
+          "observed_label": "J6 \u2014 1x8 socket header [08001S3 0811-29RF Rev C BOM candidate]",
+          "bbox_xyxy_normalized": [
+            0.616875,
+            0.13631687242798354,
+            0.688125,
+            0.32073045267489714
+          ],
+          "visible_body_polygon_xy_normalized": [
+            [
+              0.616875,
+              0.13631687242798354
+            ],
+            [
+              0.688125,
+              0.13631687242798354
+            ],
+            [
+              0.688125,
+              0.32073045267489714
+            ],
+            [
+              0.616875,
+              0.32073045267489714
+            ]
+          ],
+          "polygon_review_status": "visually_reviewed_body_polygon",
+          "cad_binding": {
+            "source_component_id": "nxp-frdm-mcxn236:C:J6",
+            "source_board_revision": "C",
+            "asset_id": "frdm-mcxn236-populated-v5-visible",
+            "glb_sha256": "sha256:ba9db807d2141189facb33039f57861d99a460cf595dd71bf80eb5f9cbe1268c",
+            "selector": "ref:J6",
+            "source_dnp": false,
+            "mapping_status": "source_candidate_photographed_revision_unverified",
+            "installed_order_code_confirmed": false
+          },
+          "pins": [],
+          "physical_component_instance_id": null
+        },
+        {
+          "instance_id": "IMG_20261009_221755_1.jpg:J4",
+          "class_name": "connector_header",
+          "observed_reference_designator": "J4",
+          "observed_label": "J4 \u2014 2x6 socket header [08010S31211-29RF Rev C BOM candidate]",
+          "bbox_xyxy_normalized": [
+            0.815,
+            0.4711934156378601,
+            0.946875,
+            0.6108539094650206
+          ],
+          "visible_body_polygon_xy_normalized": [
+            [
+              0.815,
+              0.4711934156378601
+            ],
+            [
+              0.946875,
+              0.4711934156378601
+            ],
+            [
+              0.946875,
+              0.6108539094650206
+            ],
+            [
+              0.815,
+              0.6108539094650206
+            ]
+          ],
+          "polygon_review_status": "visually_reviewed_body_polygon",
+          "cad_binding": {
+            "source_component_id": "nxp-frdm-mcxn236:C:J4",
+            "source_board_revision": "C",
+            "asset_id": "frdm-mcxn236-populated-v5-visible",
+            "glb_sha256": "sha256:ba9db807d2141189facb33039f57861d99a460cf595dd71bf80eb5f9cbe1268c",
+            "selector": "ref:J4",
+            "source_dnp": false,
+            "mapping_status": "source_candidate_photographed_revision_unverified",
+            "installed_order_code_confirmed": false
+          },
+          "pins": [],
+          "physical_component_instance_id": null
+        },
+        {
+          "instance_id": "IMG_20261009_221755_1.jpg:J3",
+          "class_name": "connector_header",
+          "observed_reference_designator": "J3",
+          "observed_label": "J3 \u2014 2x8 socket header [08010S31611-29RF Rev C BOM candidate]",
+          "bbox_xyxy_normalized": [
+            0.81875,
+            0.6229423868312757,
+            0.94875,
+            0.8140432098765432
+          ],
+          "visible_body_polygon_xy_normalized": [
+            [
+              0.81875,
+              0.6229423868312757
+            ],
+            [
+              0.94875,
+              0.6229423868312757
+            ],
+            [
+              0.94875,
+              0.8140432098765432
+            ],
+            [
+              0.81875,
+              0.8140432098765432
+            ]
+          ],
+          "polygon_review_status": "visually_reviewed_body_polygon",
+          "cad_binding": {
+            "source_component_id": "nxp-frdm-mcxn236:C:J3",
+            "source_board_revision": "C",
+            "asset_id": "frdm-mcxn236-populated-v5-visible",
+            "glb_sha256": "sha256:ba9db807d2141189facb33039f57861d99a460cf595dd71bf80eb5f9cbe1268c",
+            "selector": "ref:J3",
+            "source_dnp": false,
+            "mapping_status": "source_candidate_photographed_revision_unverified",
+            "installed_order_code_confirmed": false
+          },
+          "pins": [],
+          "physical_component_instance_id": null
+        },
+        {
+          "instance_id": "IMG_20261009_221755_1.jpg:SW3",
+          "class_name": "button",
+          "observed_reference_designator": "SW3",
+          "observed_label": "SW3 \u2014 ISP tactile switch [434123025826 Rev C BOM candidate]",
+          "bbox_xyxy_normalized": [
+            0.86625,
+            0.043467078189300415,
+            0.963125,
+            0.07330246913580248
+          ],
+          "visible_body_polygon_xy_normalized": [
+            [
+              0.86625,
+              0.043467078189300415
+            ],
+            [
+              0.963125,
+              0.043467078189300415
+            ],
+            [
+              0.963125,
+              0.07330246913580248
+            ],
+            [
+              0.86625,
+              0.07330246913580248
+            ]
+          ],
+          "polygon_review_status": "visually_reviewed_body_polygon",
+          "cad_binding": {
+            "source_component_id": "nxp-frdm-mcxn236:C:SW3",
+            "source_board_revision": "C",
+            "asset_id": "frdm-mcxn236-populated-v5-visible",
+            "glb_sha256": "sha256:ba9db807d2141189facb33039f57861d99a460cf595dd71bf80eb5f9cbe1268c",
+            "selector": "ref:SW3",
+            "source_dnp": false,
+            "mapping_status": "source_candidate_photographed_revision_unverified",
+            "installed_order_code_confirmed": false
+          },
+          "pins": [],
+          "physical_component_instance_id": null
+        },
+        {
+          "instance_id": "IMG_20261009_221755_1.jpg:U12",
+          "class_name": "integrated_circuit",
+          "observed_reference_designator": "U12",
+          "observed_label": "U12 \u2014 serial flash IC [W25Q64JVSSIQ Rev C BOM candidate]",
+          "bbox_xyxy_normalized": [
+            0.433125,
+            0.2139917695473251,
+            0.549375,
+            0.2613168724279835
+          ],
+          "visible_body_polygon_xy_normalized": [
+            [
+              0.439375,
+              0.21887860082304528
+            ],
+            [
+              0.5425,
+              0.21887860082304528
+            ],
+            [
+              0.545625,
+              0.22067901234567902
+            ],
+            [
+              0.545625,
+              0.2551440329218107
+            ],
+            [
+              0.54125,
+              0.257201646090535
+            ],
+            [
+              0.44,
+              0.257201646090535
+            ],
+            [
+              0.436875,
+              0.25540123456790126
+            ],
+            [
+              0.436875,
+              0.22067901234567902
+            ]
+          ],
+          "polygon_review_status": "visually_reviewed_body_polygon",
+          "cad_binding": {
+            "source_component_id": "nxp-frdm-mcxn236:C:U12",
+            "source_board_revision": "C",
+            "asset_id": "frdm-mcxn236-populated-v5-visible",
+            "glb_sha256": "sha256:ba9db807d2141189facb33039f57861d99a460cf595dd71bf80eb5f9cbe1268c",
+            "selector": "ref:U12",
             "source_dnp": false,
             "mapping_status": "source_candidate_photographed_revision_unverified",
             "installed_order_code_confirmed": false

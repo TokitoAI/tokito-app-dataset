@@ -3,7 +3,7 @@
   "release_eligible": false,
   "evaluation_valid": false,
   "review_method": "Manual inspection of five high-resolution intake originals and the additional original NXP macro photo with enlarged package crops.",
-  "scope": "Known photographed specimens; board-body feature regions, 60 literal printed contacts, three readable part/module families, four named NXP mounting-hole image/metric landmark pairs. This is not exhaustive training annotation. Two additional NXP IC package-body masks (U1, U8) are reviewed; exact installed order codes and photographed PCB revision remain unconfirmed.",
+  "scope": "Known photographed specimens; board-body feature regions, 60 literal printed contacts, three readable part/module families, four named NXP mounting-hole image/metric landmark pairs. This is not exhaustive training annotation. Eight additional NXP masks on the macro photo cover U1, U8, U12, J3, J4, J5, J6 and SW3. Rev C links remain source candidates; installed identities and photographed PCB revision are unconfirmed.",
   "templates": [
     {
       "id": "IMG_20261010_092144.jpg",
@@ -1383,6 +1383,126 @@
             "source_revision": "C",
             "installed_order_code_confirmed": false,
             "evidence": "Adjacent U8 silkscreen and square package body reviewed in the original photo and enlarged crop. LPC55S69JEV98 is a Rev C BOM candidate only; the photographed PCB layout revision and installed order code are unconfirmed."
+          }
+        },
+        {
+          "id": "IMG_20261009_221755_1.jpg:J5",
+          "label": "J5 \u2014 1x8 socket header [08001S3 0811-29RF Rev C BOM candidate]",
+          "kind": "part",
+          "bbox_xyxy_normalized": [
+            0.124375,
+            0.13863168724279834,
+            0.2125,
+            0.3212448559670782
+          ],
+          "identity_status": "reviewed_photo_refdes_source_candidate_specimen_revision_unverified",
+          "source": {
+            "observed_refdes": "J5",
+            "observed_marking": null,
+            "source_component_id": "nxp-frdm-mcxn236:C:J5",
+            "source_revision": "C",
+            "installed_order_code_confirmed": false,
+            "evidence": "Adjacent J5 silkscreen and the component outline were reviewed in the original EXIF-upright image and a 3x crop. 08001S3 0811-29RF is a Rev C BOM candidate only; photographed PCB layout revision and installed order code remain unconfirmed."
+          }
+        },
+        {
+          "id": "IMG_20261009_221755_1.jpg:J6",
+          "label": "J6 \u2014 1x8 socket header [08001S3 0811-29RF Rev C BOM candidate]",
+          "kind": "part",
+          "bbox_xyxy_normalized": [
+            0.616875,
+            0.13631687242798354,
+            0.688125,
+            0.32073045267489714
+          ],
+          "identity_status": "reviewed_photo_refdes_source_candidate_specimen_revision_unverified",
+          "source": {
+            "observed_refdes": "J6",
+            "observed_marking": null,
+            "source_component_id": "nxp-frdm-mcxn236:C:J6",
+            "source_revision": "C",
+            "installed_order_code_confirmed": false,
+            "evidence": "Adjacent J6 silkscreen and the component outline were reviewed in the original EXIF-upright image and a 3x crop. 08001S3 0811-29RF is a Rev C BOM candidate only; photographed PCB layout revision and installed order code remain unconfirmed."
+          }
+        },
+        {
+          "id": "IMG_20261009_221755_1.jpg:J4",
+          "label": "J4 \u2014 2x6 socket header [08010S31211-29RF Rev C BOM candidate]",
+          "kind": "part",
+          "bbox_xyxy_normalized": [
+            0.815,
+            0.4711934156378601,
+            0.946875,
+            0.6108539094650206
+          ],
+          "identity_status": "reviewed_photo_refdes_source_candidate_specimen_revision_unverified",
+          "source": {
+            "observed_refdes": "J4",
+            "observed_marking": null,
+            "source_component_id": "nxp-frdm-mcxn236:C:J4",
+            "source_revision": "C",
+            "installed_order_code_confirmed": false,
+            "evidence": "Adjacent J4 silkscreen and the component outline were reviewed in the original EXIF-upright image and a 3x crop. 08010S31211-29RF is a Rev C BOM candidate only; photographed PCB layout revision and installed order code remain unconfirmed."
+          }
+        },
+        {
+          "id": "IMG_20261009_221755_1.jpg:J3",
+          "label": "J3 \u2014 2x8 socket header [08010S31611-29RF Rev C BOM candidate]",
+          "kind": "part",
+          "bbox_xyxy_normalized": [
+            0.81875,
+            0.6229423868312757,
+            0.94875,
+            0.8140432098765432
+          ],
+          "identity_status": "reviewed_photo_refdes_source_candidate_specimen_revision_unverified",
+          "source": {
+            "observed_refdes": "J3",
+            "observed_marking": null,
+            "source_component_id": "nxp-frdm-mcxn236:C:J3",
+            "source_revision": "C",
+            "installed_order_code_confirmed": false,
+            "evidence": "Adjacent J3 silkscreen and the component outline were reviewed in the original EXIF-upright image and a 3x crop. 08010S31611-29RF is a Rev C BOM candidate only; photographed PCB layout revision and installed order code remain unconfirmed."
+          }
+        },
+        {
+          "id": "IMG_20261009_221755_1.jpg:SW3",
+          "label": "SW3 \u2014 ISP tactile switch [434123025826 Rev C BOM candidate]",
+          "kind": "part",
+          "bbox_xyxy_normalized": [
+            0.86625,
+            0.043467078189300415,
+            0.963125,
+            0.07330246913580248
+          ],
+          "identity_status": "reviewed_photo_refdes_source_candidate_specimen_revision_unverified",
+          "source": {
+            "observed_refdes": "SW3",
+            "observed_marking": null,
+            "source_component_id": "nxp-frdm-mcxn236:C:SW3",
+            "source_revision": "C",
+            "installed_order_code_confirmed": false,
+            "evidence": "Adjacent SW3 silkscreen and the component outline were reviewed in the original EXIF-upright image and a 3x crop. 434123025826 is a Rev C BOM candidate only; photographed PCB layout revision and installed order code remain unconfirmed."
+          }
+        },
+        {
+          "id": "IMG_20261009_221755_1.jpg:U12",
+          "label": "U12 \u2014 serial flash IC [W25Q64JVSSIQ Rev C BOM candidate]",
+          "kind": "part",
+          "bbox_xyxy_normalized": [
+            0.433125,
+            0.2139917695473251,
+            0.549375,
+            0.2613168724279835
+          ],
+          "identity_status": "reviewed_photo_refdes_source_candidate_specimen_revision_unverified",
+          "source": {
+            "observed_refdes": "U12",
+            "observed_marking": null,
+            "source_component_id": "nxp-frdm-mcxn236:C:U12",
+            "source_revision": "C",
+            "installed_order_code_confirmed": false,
+            "evidence": "Adjacent U12 silkscreen and the component outline were reviewed in the original EXIF-upright image and a 3x crop. W25Q64JVSSIQ is a Rev C BOM candidate only; photographed PCB layout revision and installed order code remain unconfirmed."
           }
         }
       ]

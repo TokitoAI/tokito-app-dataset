@@ -242,6 +242,232 @@
       "source_component_id": "nxp-frdm-mcxn236:C:U8",
       "source_mapping_status": "source_candidate_photographed_revision_unverified",
       "installed_order_code_confirmed": false
+    },
+    {
+      "image_path": "data/photo-model/photos/raw/IMG_20261009_221755_1.jpg",
+      "image_sha256": "39fc7bf72f364c0b0e848dc9fe9492b85efbdef1481a28d9bbecf4787e51a47e",
+      "image_width": 1600,
+      "image_height": 3888,
+      "instance_id": "IMG_20261009_221755_1.jpg:J5",
+      "class_name": "connector_header",
+      "observed_reference_designator": "J5",
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          199,
+          539
+        ],
+        [
+          340,
+          539
+        ],
+        [
+          340,
+          1249
+        ],
+        [
+          199,
+          1249
+        ]
+      ],
+      "boundary_scope": "visible connector housing silhouette",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Adjacent J5 silkscreen and the component outline were reviewed in the original EXIF-upright image and a 3x crop. 08001S3 0811-29RF is a Rev C BOM candidate only; photographed PCB layout revision and installed order code remain unconfirmed.",
+      "boundary_uncertainty_pixels": 12,
+      "source_component_id": "nxp-frdm-mcxn236:C:J5",
+      "source_mapping_status": "source_candidate_photographed_revision_unverified",
+      "installed_order_code_confirmed": false
+    },
+    {
+      "image_path": "data/photo-model/photos/raw/IMG_20261009_221755_1.jpg",
+      "image_sha256": "39fc7bf72f364c0b0e848dc9fe9492b85efbdef1481a28d9bbecf4787e51a47e",
+      "image_width": 1600,
+      "image_height": 3888,
+      "instance_id": "IMG_20261009_221755_1.jpg:J6",
+      "class_name": "connector_header",
+      "observed_reference_designator": "J6",
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          987,
+          530
+        ],
+        [
+          1101,
+          530
+        ],
+        [
+          1101,
+          1247
+        ],
+        [
+          987,
+          1247
+        ]
+      ],
+      "boundary_scope": "visible connector housing silhouette",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Adjacent J6 silkscreen and the component outline were reviewed in the original EXIF-upright image and a 3x crop. 08001S3 0811-29RF is a Rev C BOM candidate only; photographed PCB layout revision and installed order code remain unconfirmed.",
+      "boundary_uncertainty_pixels": 12,
+      "source_component_id": "nxp-frdm-mcxn236:C:J6",
+      "source_mapping_status": "source_candidate_photographed_revision_unverified",
+      "installed_order_code_confirmed": false
+    },
+    {
+      "image_path": "data/photo-model/photos/raw/IMG_20261009_221755_1.jpg",
+      "image_sha256": "39fc7bf72f364c0b0e848dc9fe9492b85efbdef1481a28d9bbecf4787e51a47e",
+      "image_width": 1600,
+      "image_height": 3888,
+      "instance_id": "IMG_20261009_221755_1.jpg:J4",
+      "class_name": "connector_header",
+      "observed_reference_designator": "J4",
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1304,
+          1832
+        ],
+        [
+          1515,
+          1832
+        ],
+        [
+          1515,
+          2375
+        ],
+        [
+          1304,
+          2375
+        ]
+      ],
+      "boundary_scope": "visible connector housing silhouette",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Adjacent J4 silkscreen and the component outline were reviewed in the original EXIF-upright image and a 3x crop. 08010S31211-29RF is a Rev C BOM candidate only; photographed PCB layout revision and installed order code remain unconfirmed.",
+      "boundary_uncertainty_pixels": 12,
+      "source_component_id": "nxp-frdm-mcxn236:C:J4",
+      "source_mapping_status": "source_candidate_photographed_revision_unverified",
+      "installed_order_code_confirmed": false
+    },
+    {
+      "image_path": "data/photo-model/photos/raw/IMG_20261009_221755_1.jpg",
+      "image_sha256": "39fc7bf72f364c0b0e848dc9fe9492b85efbdef1481a28d9bbecf4787e51a47e",
+      "image_width": 1600,
+      "image_height": 3888,
+      "instance_id": "IMG_20261009_221755_1.jpg:J3",
+      "class_name": "connector_header",
+      "observed_reference_designator": "J3",
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1310,
+          2422
+        ],
+        [
+          1518,
+          2422
+        ],
+        [
+          1518,
+          3165
+        ],
+        [
+          1310,
+          3165
+        ]
+      ],
+      "boundary_scope": "visible connector housing silhouette",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Adjacent J3 silkscreen and the component outline were reviewed in the original EXIF-upright image and a 3x crop. 08010S31611-29RF is a Rev C BOM candidate only; photographed PCB layout revision and installed order code remain unconfirmed.",
+      "boundary_uncertainty_pixels": 12,
+      "source_component_id": "nxp-frdm-mcxn236:C:J3",
+      "source_mapping_status": "source_candidate_photographed_revision_unverified",
+      "installed_order_code_confirmed": false
+    },
+    {
+      "image_path": "data/photo-model/photos/raw/IMG_20261009_221755_1.jpg",
+      "image_sha256": "39fc7bf72f364c0b0e848dc9fe9492b85efbdef1481a28d9bbecf4787e51a47e",
+      "image_width": 1600,
+      "image_height": 3888,
+      "instance_id": "IMG_20261009_221755_1.jpg:SW3",
+      "class_name": "button",
+      "observed_reference_designator": "SW3",
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1386,
+          169
+        ],
+        [
+          1541,
+          169
+        ],
+        [
+          1541,
+          285
+        ],
+        [
+          1386,
+          285
+        ]
+      ],
+      "boundary_scope": "visible switch housing and actuator",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Adjacent SW3 silkscreen and the component outline were reviewed in the original EXIF-upright image and a 3x crop. 434123025826 is a Rev C BOM candidate only; photographed PCB layout revision and installed order code remain unconfirmed.",
+      "boundary_uncertainty_pixels": 12,
+      "source_component_id": "nxp-frdm-mcxn236:C:SW3",
+      "source_mapping_status": "source_candidate_photographed_revision_unverified",
+      "installed_order_code_confirmed": false
+    },
+    {
+      "image_path": "data/photo-model/photos/raw/IMG_20261009_221755_1.jpg",
+      "image_sha256": "39fc7bf72f364c0b0e848dc9fe9492b85efbdef1481a28d9bbecf4787e51a47e",
+      "image_width": 1600,
+      "image_height": 3888,
+      "instance_id": "IMG_20261009_221755_1.jpg:U12",
+      "class_name": "integrated_circuit",
+      "observed_reference_designator": "U12",
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          703,
+          851
+        ],
+        [
+          868,
+          851
+        ],
+        [
+          873,
+          858
+        ],
+        [
+          873,
+          992
+        ],
+        [
+          866,
+          1000
+        ],
+        [
+          704,
+          1000
+        ],
+        [
+          699,
+          993
+        ],
+        [
+          699,
+          858
+        ]
+      ],
+      "boundary_scope": "visible package body; excludes gullwing leads and surrounding silkscreen",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Adjacent U12 silkscreen and the component outline were reviewed in the original EXIF-upright image and a 3x crop. W25Q64JVSSIQ is a Rev C BOM candidate only; photographed PCB layout revision and installed order code remain unconfirmed.",
+      "boundary_uncertainty_pixels": 8,
+      "source_component_id": "nxp-frdm-mcxn236:C:U12",
+      "source_mapping_status": "source_candidate_photographed_revision_unverified",
+      "installed_order_code_confirmed": false
     }
   ]
 }

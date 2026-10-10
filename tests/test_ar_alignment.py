@@ -35,7 +35,7 @@ class AlignmentContracts(unittest.TestCase):
         self.assertEqual(len(matches), 1)
         image = matches[0]
         instances = {item['instance_id']: item for item in image['instances']}
-        for ref, part_number in [('U1', 'MCXN236VDFT'), ('U8', 'LPC55S69JEV98')]:
+        for ref, part_number in [('U1', 'MCXN236VDFT'), ('U8', 'LPC55S69JEV98'), ('U12', 'W25Q64JVSSIQ')]:
             instance = instances[f'IMG_20261009_221755_1.jpg:{ref}']
             self.assertIn(part_number, instance['observed_label'])
             self.assertIsNotNone(instance['visible_body_polygon_xy_normalized'])
