@@ -1,0 +1,319 @@
+{
+  "schema_version": "1.0",
+  "image_path": "data/video-captures/2026-10-10/esp12e-keyframes/video_20261010_122211_n000523_pts00017497ms.jpg",
+  "image_sha256": "bcf9d38b8de7e5792fd9795f9d7a8b855279ab15fa1f0135a930f786485fba09",
+  "image_width": 1080,
+  "image_height": 1920,
+  "physical_specimen_id": "bench-esp8266-01",
+  "capture_session_id": "bench-esp8266-01:20261010_122211",
+  "coordinate_frame": "upright_saved_image_pixels",
+  "source": {
+    "title": "Ai-Thinker ESP-12E WiFi Module Version 1.0",
+    "author": "Ai-Thinker / Shenzhen Anxinke Technology",
+    "retrieval_url": "https://components101.com/sites/default/files/2021-09/ESP12E-Datasheet.pdf",
+    "hosting_status": "third_party_mirror_of_manufacturer_authored_document",
+    "pdf_sha256": "bea07f3ed2e68c0ddeef0f6ecdd345830f945cfafeeb3b961966e74c44e96bfc",
+    "reviewed_pages_one_based": [
+      7,
+      8,
+      10
+    ],
+    "pin_table_pages_one_based": [
+      7,
+      8
+    ]
+  },
+  "orientation_evidence": "Observed MODEL: ESP-12E shield, antenna toward image top; eight side contacts each side and six bottom lands correspond to source top-view diagram. Module top is clipped; all annotated contacts remain visible.",
+  "carrier_header_mapping_verified": false,
+  "calibration_eligible": false,
+  "training_export_eligible": false,
+  "production_eligible": false,
+  "contacts": [
+    {
+      "instance_id": "bench-esp8266-01:esp12e_module:contact:1",
+      "parent_component_id": "bench-esp8266-01:esp12e_module",
+      "source_module_pin_number": 1,
+      "source_pin_name": "RST",
+      "center_xy_pixels": [
+        180,
+        87
+      ],
+      "center_uncertainty_pixels": 6,
+      "feature_kind": "visible_castellated_hole_center",
+      "mapping_status": "manufacturer_family_top_view_correspondence; specimen_electrical_continuity_unverified"
+    },
+    {
+      "instance_id": "bench-esp8266-01:esp12e_module:contact:2",
+      "parent_component_id": "bench-esp8266-01:esp12e_module",
+      "source_module_pin_number": 2,
+      "source_pin_name": "ADC",
+      "center_xy_pixels": [
+        179,
+        145
+      ],
+      "center_uncertainty_pixels": 6,
+      "feature_kind": "visible_castellated_hole_center",
+      "mapping_status": "manufacturer_family_top_view_correspondence; specimen_electrical_continuity_unverified"
+    },
+    {
+      "instance_id": "bench-esp8266-01:esp12e_module:contact:3",
+      "parent_component_id": "bench-esp8266-01:esp12e_module",
+      "source_module_pin_number": 3,
+      "source_pin_name": "EN",
+      "center_xy_pixels": [
+        177,
+        205
+      ],
+      "center_uncertainty_pixels": 6,
+      "feature_kind": "visible_castellated_hole_center",
+      "mapping_status": "manufacturer_family_top_view_correspondence; specimen_electrical_continuity_unverified"
+    },
+    {
+      "instance_id": "bench-esp8266-01:esp12e_module:contact:4",
+      "parent_component_id": "bench-esp8266-01:esp12e_module",
+      "source_module_pin_number": 4,
+      "source_pin_name": "IO16",
+      "center_xy_pixels": [
+        173,
+        266
+      ],
+      "center_uncertainty_pixels": 6,
+      "feature_kind": "visible_castellated_hole_center",
+      "mapping_status": "manufacturer_family_top_view_correspondence; specimen_electrical_continuity_unverified"
+    },
+    {
+      "instance_id": "bench-esp8266-01:esp12e_module:contact:5",
+      "parent_component_id": "bench-esp8266-01:esp12e_module",
+      "source_module_pin_number": 5,
+      "source_pin_name": "IO14",
+      "center_xy_pixels": [
+        173,
+        328
+      ],
+      "center_uncertainty_pixels": 6,
+      "feature_kind": "visible_castellated_hole_center",
+      "mapping_status": "manufacturer_family_top_view_correspondence; specimen_electrical_continuity_unverified"
+    },
+    {
+      "instance_id": "bench-esp8266-01:esp12e_module:contact:6",
+      "parent_component_id": "bench-esp8266-01:esp12e_module",
+      "source_module_pin_number": 6,
+      "source_pin_name": "IO12",
+      "center_xy_pixels": [
+        169,
+        392
+      ],
+      "center_uncertainty_pixels": 6,
+      "feature_kind": "visible_castellated_hole_center",
+      "mapping_status": "manufacturer_family_top_view_correspondence; specimen_electrical_continuity_unverified"
+    },
+    {
+      "instance_id": "bench-esp8266-01:esp12e_module:contact:7",
+      "parent_component_id": "bench-esp8266-01:esp12e_module",
+      "source_module_pin_number": 7,
+      "source_pin_name": "IO13",
+      "center_xy_pixels": [
+        166,
+        454
+      ],
+      "center_uncertainty_pixels": 6,
+      "feature_kind": "visible_castellated_hole_center",
+      "mapping_status": "manufacturer_family_top_view_correspondence; specimen_electrical_continuity_unverified"
+    },
+    {
+      "instance_id": "bench-esp8266-01:esp12e_module:contact:8",
+      "parent_component_id": "bench-esp8266-01:esp12e_module",
+      "source_module_pin_number": 8,
+      "source_pin_name": "VCC",
+      "center_xy_pixels": [
+        162,
+        519
+      ],
+      "center_uncertainty_pixels": 6,
+      "feature_kind": "visible_castellated_hole_center",
+      "mapping_status": "manufacturer_family_top_view_correspondence; specimen_electrical_continuity_unverified"
+    },
+    {
+      "instance_id": "bench-esp8266-01:esp12e_module:contact:9",
+      "parent_component_id": "bench-esp8266-01:esp12e_module",
+      "source_module_pin_number": 9,
+      "source_pin_name": "CS0",
+      "center_xy_pixels": [
+        232,
+        552
+      ],
+      "center_uncertainty_pixels": 6,
+      "feature_kind": "visible_module_gold_contact_land_center",
+      "mapping_status": "manufacturer_family_top_view_correspondence; specimen_electrical_continuity_unverified"
+    },
+    {
+      "instance_id": "bench-esp8266-01:esp12e_module:contact:10",
+      "parent_component_id": "bench-esp8266-01:esp12e_module",
+      "source_module_pin_number": 10,
+      "source_pin_name": "MISO",
+      "center_xy_pixels": [
+        302,
+        552
+      ],
+      "center_uncertainty_pixels": 6,
+      "feature_kind": "visible_module_gold_contact_land_center",
+      "mapping_status": "manufacturer_family_top_view_correspondence; specimen_electrical_continuity_unverified"
+    },
+    {
+      "instance_id": "bench-esp8266-01:esp12e_module:contact:11",
+      "parent_component_id": "bench-esp8266-01:esp12e_module",
+      "source_module_pin_number": 11,
+      "source_pin_name": "IO9",
+      "center_xy_pixels": [
+        372,
+        552
+      ],
+      "center_uncertainty_pixels": 6,
+      "feature_kind": "visible_module_gold_contact_land_center",
+      "mapping_status": "manufacturer_family_top_view_correspondence; specimen_electrical_continuity_unverified"
+    },
+    {
+      "instance_id": "bench-esp8266-01:esp12e_module:contact:12",
+      "parent_component_id": "bench-esp8266-01:esp12e_module",
+      "source_module_pin_number": 12,
+      "source_pin_name": "IO10",
+      "center_xy_pixels": [
+        442,
+        553
+      ],
+      "center_uncertainty_pixels": 6,
+      "feature_kind": "visible_module_gold_contact_land_center",
+      "mapping_status": "manufacturer_family_top_view_correspondence; specimen_electrical_continuity_unverified"
+    },
+    {
+      "instance_id": "bench-esp8266-01:esp12e_module:contact:13",
+      "parent_component_id": "bench-esp8266-01:esp12e_module",
+      "source_module_pin_number": 13,
+      "source_pin_name": "MOSI",
+      "center_xy_pixels": [
+        512,
+        553
+      ],
+      "center_uncertainty_pixels": 6,
+      "feature_kind": "visible_module_gold_contact_land_center",
+      "mapping_status": "manufacturer_family_top_view_correspondence; specimen_electrical_continuity_unverified"
+    },
+    {
+      "instance_id": "bench-esp8266-01:esp12e_module:contact:14",
+      "parent_component_id": "bench-esp8266-01:esp12e_module",
+      "source_module_pin_number": 14,
+      "source_pin_name": "SCLK",
+      "center_xy_pixels": [
+        582,
+        554
+      ],
+      "center_uncertainty_pixels": 6,
+      "feature_kind": "visible_module_gold_contact_land_center",
+      "mapping_status": "manufacturer_family_top_view_correspondence; specimen_electrical_continuity_unverified"
+    },
+    {
+      "instance_id": "bench-esp8266-01:esp12e_module:contact:15",
+      "parent_component_id": "bench-esp8266-01:esp12e_module",
+      "source_module_pin_number": 15,
+      "source_pin_name": "GND",
+      "center_xy_pixels": [
+        651,
+        518
+      ],
+      "center_uncertainty_pixels": 6,
+      "feature_kind": "visible_castellated_hole_center",
+      "mapping_status": "manufacturer_family_top_view_correspondence; specimen_electrical_continuity_unverified"
+    },
+    {
+      "instance_id": "bench-esp8266-01:esp12e_module:contact:16",
+      "parent_component_id": "bench-esp8266-01:esp12e_module",
+      "source_module_pin_number": 16,
+      "source_pin_name": "IO15",
+      "center_xy_pixels": [
+        652,
+        453
+      ],
+      "center_uncertainty_pixels": 6,
+      "feature_kind": "visible_castellated_hole_center",
+      "mapping_status": "manufacturer_family_top_view_correspondence; specimen_electrical_continuity_unverified"
+    },
+    {
+      "instance_id": "bench-esp8266-01:esp12e_module:contact:17",
+      "parent_component_id": "bench-esp8266-01:esp12e_module",
+      "source_module_pin_number": 17,
+      "source_pin_name": "IO2",
+      "center_xy_pixels": [
+        653,
+        390
+      ],
+      "center_uncertainty_pixels": 6,
+      "feature_kind": "visible_castellated_hole_center",
+      "mapping_status": "manufacturer_family_top_view_correspondence; specimen_electrical_continuity_unverified"
+    },
+    {
+      "instance_id": "bench-esp8266-01:esp12e_module:contact:18",
+      "parent_component_id": "bench-esp8266-01:esp12e_module",
+      "source_module_pin_number": 18,
+      "source_pin_name": "IO0",
+      "center_xy_pixels": [
+        654,
+        327
+      ],
+      "center_uncertainty_pixels": 6,
+      "feature_kind": "visible_castellated_hole_center",
+      "mapping_status": "manufacturer_family_top_view_correspondence; specimen_electrical_continuity_unverified"
+    },
+    {
+      "instance_id": "bench-esp8266-01:esp12e_module:contact:19",
+      "parent_component_id": "bench-esp8266-01:esp12e_module",
+      "source_module_pin_number": 19,
+      "source_pin_name": "IO4",
+      "center_xy_pixels": [
+        654,
+        266
+      ],
+      "center_uncertainty_pixels": 6,
+      "feature_kind": "visible_castellated_hole_center",
+      "mapping_status": "manufacturer_family_top_view_correspondence; specimen_electrical_continuity_unverified"
+    },
+    {
+      "instance_id": "bench-esp8266-01:esp12e_module:contact:20",
+      "parent_component_id": "bench-esp8266-01:esp12e_module",
+      "source_module_pin_number": 20,
+      "source_pin_name": "IO5",
+      "center_xy_pixels": [
+        654,
+        205
+      ],
+      "center_uncertainty_pixels": 6,
+      "feature_kind": "visible_castellated_hole_center",
+      "mapping_status": "manufacturer_family_top_view_correspondence; specimen_electrical_continuity_unverified"
+    },
+    {
+      "instance_id": "bench-esp8266-01:esp12e_module:contact:21",
+      "parent_component_id": "bench-esp8266-01:esp12e_module",
+      "source_module_pin_number": 21,
+      "source_pin_name": "RXD",
+      "center_xy_pixels": [
+        654,
+        145
+      ],
+      "center_uncertainty_pixels": 6,
+      "feature_kind": "visible_castellated_hole_center",
+      "mapping_status": "manufacturer_family_top_view_correspondence; specimen_electrical_continuity_unverified"
+    },
+    {
+      "instance_id": "bench-esp8266-01:esp12e_module:contact:22",
+      "parent_component_id": "bench-esp8266-01:esp12e_module",
+      "source_module_pin_number": 22,
+      "source_pin_name": "TXD",
+      "center_xy_pixels": [
+        654,
+        87
+      ],
+      "center_uncertainty_pixels": 6,
+      "feature_kind": "visible_castellated_hole_center",
+      "mapping_status": "manufacturer_family_top_view_correspondence; specimen_electrical_continuity_unverified"
+    }
+  ]
+}

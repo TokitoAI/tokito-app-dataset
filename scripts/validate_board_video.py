@@ -75,6 +75,26 @@ def validate(root, manifest_path):
             assert radius > 0 and radius <= x < width - radius
             assert radius <= y < height - radius
             assert pin["printed_alias"]
+    module_path = Path(manifest_path).parent / "reviewed-module-contacts.json"
+    if module_path.exists():
+        module = json.loads(module_path.read_text(encoding="utf-8"))
+        frame = next(item for item in manifest["keyframes"]
+                     if item["image_path"] == module["image_path"])
+        assert module["image_sha256"] == frame["image_sha256"]
+        assert module["physical_specimen_id"] == manifest["physical_specimen_id"]
+        assert module["capture_session_id"] == manifest["capture_session_id"]
+        assert module["training_export_eligible"] is False
+        assert module["calibration_eligible"] is False
+        contacts = module["contacts"]
+        assert [pin["source_module_pin_number"] for pin in contacts] == list(range(1, 23))
+        assert len({pin["instance_id"] for pin in contacts}) == 22
+        for pin in contacts:
+            x, y = pin["center_xy_pixels"]
+            assert 0 <= x < frame["image_width"] and 0 <= y < frame["image_height"]
+            assert pin["parent_component_id"] == "bench-esp8266-01:esp12e_module"
+            assert pin["source_pin_name"]
+        assert len(module["source"]["pdf_sha256"]) == 64
+        assert module["carrier_header_mapping_verified"] is False
     return len(manifest["keyframes"])
 
 

@@ -18,7 +18,17 @@ local instance identifiers, not verified schematic reference designators. The RF
 shield mask is distinct from the complete module assembly, including its antenna.
 USB annotation covers the visible shell body. This partial frame does not provide
 a complete board outline, left header, metric calibration, underside or verified
-physical flip sequence. No electrical GPIO mapping or numeric pinout is asserted.
+physical flip sequence. No carrier electrical GPIO mapping or numeric header pinout is asserted.
+
+`reviewed-module-contacts.json` separately records 22 module contact correspondences
+to the Ai-Thinker ESP-12E Version 1.0 top-view diagram and pin table (pages 7, 8,
+10). The manufacturer-authored PDF was retrieved from a third-party mirror; its
+URL and exact digest are retained. Side points mark visible castellation hole
+centers; bottom points mark visible gold lands. These different physical features
+must not be substituted for footprint pad centers in metric calibration. The
+source-family correspondence does not establish carrier connectivity, specimen
+electrical continuity, or hidden ESP8266EX chip pins. The contact preview has
+been visually inspected against the original frame and the source diagram.
 
 These annotations are excluded from training and production export. Synthetic
 views cannot replace missing real observations. Before model training, finish
