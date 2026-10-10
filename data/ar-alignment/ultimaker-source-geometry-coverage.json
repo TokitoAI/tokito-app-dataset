@@ -1,0 +1,1865 @@
+{
+  "schema_version": "1.0",
+  "production_eligible": false,
+  "source_index_sha256": "2d6c236761cb20475d4b0937165eb77967a8b94288ccbf6196e52e8ec0f637ab",
+  "source_inventory_sha256": "1660e93265bb9c9b897df7567bbbcae78e6abcae69bdacaac21c11bc83fb7625",
+  "independently_selectable_source_bodies": 310,
+  "unmodeled_reference_classification": {
+    "test_contact; needs_source_pad_region_not_package_body": 252,
+    "mechanical_spacer; fitted_population_and_body_pending": 4,
+    "component_package_body_missing": 4,
+    "optical_landmark; needs_source_copper_region_not_package_body": 3,
+    "solder_jumper; needs_pad_and_bridge_population_review": 1
+  },
+  "references": [
+    {
+      "reference": "TP527",
+      "source_pattern": "Testpoint 1mm",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP526",
+      "source_pattern": "Testpoint 1mm",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP525",
+      "source_pattern": "Testpoint 1mm",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP524",
+      "source_pattern": "Testpoint 1mm",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP521",
+      "source_pattern": "Testpoint 1mm",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP520",
+      "source_pattern": "Testpoint 1mm",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP519",
+      "source_pattern": "Testpoint 1mm",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP518",
+      "source_pattern": "Testpoint 1mm",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP517",
+      "source_pattern": "Testpoint 1mm",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP516",
+      "source_pattern": "Testpoint 1mm",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP515",
+      "source_pattern": "Testpoint 1mm",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP514",
+      "source_pattern": "Testpoint 1mm",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP511",
+      "source_pattern": "Testpoint 1mm",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP510",
+      "source_pattern": "Testpoint 1mm",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP509",
+      "source_pattern": "Testpoint 1mm",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP508",
+      "source_pattern": "Testpoint 1mm",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP507",
+      "source_pattern": "Testpoint 1mm",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP506",
+      "source_pattern": "Testpoint 1mm",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP505",
+      "source_pattern": "Testpoint 1mm",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP504",
+      "source_pattern": "Testpoint 1mm",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP503",
+      "source_pattern": "Testpoint 1mm",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP502",
+      "source_pattern": "Testpoint 1mm",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP501",
+      "source_pattern": "Testpoint 1mm",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP500",
+      "source_pattern": "Testpoint 1mm",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP443",
+      "source_pattern": "Testpoint 1mm",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP442",
+      "source_pattern": "Testpoint 1mm",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP441",
+      "source_pattern": "Testpoint 1mm",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP440",
+      "source_pattern": "Testpoint 1mm",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP439",
+      "source_pattern": "Testpoint 1mm",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP438",
+      "source_pattern": "Testpoint 1mm",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP435",
+      "source_pattern": "Testpoint 1mm",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP434",
+      "source_pattern": "Testpoint 1mm",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP433",
+      "source_pattern": "Testpoint 1mm",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP432",
+      "source_pattern": "Testpoint 1mm",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP431",
+      "source_pattern": "Testpoint 1mm",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP430",
+      "source_pattern": "Testpoint 1mm",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP429",
+      "source_pattern": "Testpoint 1mm",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP428",
+      "source_pattern": "Testpoint 1mm",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP427",
+      "source_pattern": "Testpoint 1mm",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP426",
+      "source_pattern": "Testpoint 1mm",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP425",
+      "source_pattern": "Testpoint 1mm",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP422",
+      "source_pattern": "Testpoint 1mm",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP421",
+      "source_pattern": "Testpoint 1mm",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP420",
+      "source_pattern": "Testpoint 1mm",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP419",
+      "source_pattern": "Testpoint 1mm",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP418",
+      "source_pattern": "Testpoint 1mm",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP417",
+      "source_pattern": "Testpoint 1mm",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP416",
+      "source_pattern": "Testpoint 1mm",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP415",
+      "source_pattern": "Testpoint 1mm",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP414",
+      "source_pattern": "Testpoint 1mm",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP411",
+      "source_pattern": "Testpoint 1mm",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP410",
+      "source_pattern": "Testpoint 1mm",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP409",
+      "source_pattern": "Testpoint 1mm",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP408",
+      "source_pattern": "Testpoint 1mm",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP407",
+      "source_pattern": "Testpoint 1mm",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP406",
+      "source_pattern": "Testpoint 1mm",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP405",
+      "source_pattern": "Testpoint 1mm",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP404",
+      "source_pattern": "Testpoint 1mm",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP403",
+      "source_pattern": "Testpoint 1mm",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP402",
+      "source_pattern": "Testpoint 1mm",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP401",
+      "source_pattern": "Testpoint 1mm",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP400",
+      "source_pattern": "Testpoint 1mm",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP321",
+      "source_pattern": "Testpoint 1.6mm",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP320",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP319",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP318",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP317",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP316",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP315",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP314",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP313",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP312",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP311",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP310",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP309",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP308",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP307",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP305",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP304",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP303",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP302",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP301",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP300",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP219",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP218",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP217",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP216",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP215",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP214",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP213",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP212",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP211",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP210",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP209",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP208",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP207",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP206",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP205",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP204",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP203",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP202",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP201",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP200",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP191",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP190",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP189",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP180",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP179",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP178",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP177",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP176",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP175",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP174",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP173",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP172",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP171",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP170",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP169",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP168",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP167",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP166",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP165",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP164",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP163",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP162",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP161",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP160",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP159",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP156",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP155",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP154",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP153",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP152",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP151",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP149",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP148",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP147",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP146",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP145",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP144",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP143",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP142",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP141",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP140",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP139",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP138",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP137",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP136",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP135",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP134",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP133",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP132",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP131",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP130",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP126",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP125",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP120",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP119",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP118",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP117",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP116",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP115",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP114",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP113",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP111",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP110",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP108",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP107",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP106",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP105",
+      "source_pattern": "TESTPOINT 1.6MM",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint 1.6mm",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP101",
+      "source_pattern": "TESTPOINT",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP100",
+      "source_pattern": "TESTPOINT",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "SP2",
+      "source_pattern": "Spacer M3-10ET",
+      "category": "mechanical_spacer; fitted_population_and_body_pending",
+      "source_description": "Spacer SMTSO-M3-10ET",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "J34",
+      "source_pattern": "B2B-XH-A (LF)(SN)",
+      "category": "component_package_body_missing",
+      "source_description": "CONN PR 2p B2B-XH-A JST",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "SP4",
+      "source_pattern": "Spacer M3-10ET",
+      "category": "mechanical_spacer; fitted_population_and_body_pending",
+      "source_description": "Spacer SMTSO-M3-10ET",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "SP3",
+      "source_pattern": "Spacer M3-10ET",
+      "category": "mechanical_spacer; fitted_population_and_body_pending",
+      "source_description": "Spacer SMTSO-M3-10ET",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "SP1",
+      "source_pattern": "Spacer M3-10ET",
+      "category": "mechanical_spacer; fitted_population_and_body_pending",
+      "source_description": "MOER-SMD SMTSO-M3-10ET  PEM",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP80",
+      "source_pattern": "TESTPOINT",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "Fid3",
+      "source_pattern": "Fiducial",
+      "category": "optical_landmark; needs_source_copper_region_not_package_body",
+      "source_description": "Fiducial",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "Fid2",
+      "source_pattern": "Fiducial",
+      "category": "optical_landmark; needs_source_copper_region_not_package_body",
+      "source_description": "Fiducial",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "Fid1",
+      "source_pattern": "Fiducial",
+      "category": "optical_landmark; needs_source_copper_region_not_package_body",
+      "source_description": "Fiducial",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP79",
+      "source_pattern": "TESTPOINT",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP78",
+      "source_pattern": "TESTPOINT",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP77",
+      "source_pattern": "TESTPOINT",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP76",
+      "source_pattern": "TESTPOINT",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP75",
+      "source_pattern": "TESTPOINT",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP74",
+      "source_pattern": "TESTPOINT",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP73",
+      "source_pattern": "TESTPOINT",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP72",
+      "source_pattern": "TESTPOINT",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP71",
+      "source_pattern": "TESTPOINT",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP70",
+      "source_pattern": "TESTPOINT",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP69",
+      "source_pattern": "TESTPOINT",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP68",
+      "source_pattern": "TESTPOINT",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP67",
+      "source_pattern": "TESTPOINT",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP66",
+      "source_pattern": "TESTPOINT",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "U9",
+      "source_pattern": "SOT95P280X145-5N (SOT23-5L)",
+      "category": "component_package_body_missing",
+      "source_description": "RO STABI LP2985A-33DBVTE4 SOT-23-5 TI",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "K1",
+      "source_pattern": "HRS4-S",
+      "category": "component_package_body_missing",
+      "source_description": "RO REL 5V HRS4-S DC5V MULTICOMP",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "JP2",
+      "source_pattern": "JUMPER 2 SOLDER",
+      "category": "solder_jumper; needs_pad_and_bridge_population_review",
+      "source_description": "SOLDER JUMPER",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "L2",
+      "source_pattern": "NRS6045",
+      "category": "component_package_body_missing",
+      "source_description": "RO SPOEL 6,3uH 20% NRS6045T 6R3MMGK TAIYO YUDEN",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP1",
+      "source_pattern": "TESTPOINT",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP2",
+      "source_pattern": "TESTPOINT",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP3",
+      "source_pattern": "TESTPOINT",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP4",
+      "source_pattern": "TESTPOINT",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP5",
+      "source_pattern": "TESTPOINT",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP6",
+      "source_pattern": "TESTPOINT",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP7",
+      "source_pattern": "TESTPOINT",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP8",
+      "source_pattern": "TESTPOINT",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP9",
+      "source_pattern": "TESTPOINT",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP10",
+      "source_pattern": "TESTPOINT",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP11",
+      "source_pattern": "TESTPOINT",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP12",
+      "source_pattern": "TESTPOINT",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP13",
+      "source_pattern": "TESTPOINT",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP14",
+      "source_pattern": "TESTPOINT",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP15",
+      "source_pattern": "TESTPOINT",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP16",
+      "source_pattern": "TESTPOINT",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP17",
+      "source_pattern": "TESTPOINT",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP18",
+      "source_pattern": "TESTPOINT",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP19",
+      "source_pattern": "TESTPOINT",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP20",
+      "source_pattern": "TESTPOINT",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP21",
+      "source_pattern": "TESTPOINT",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP22",
+      "source_pattern": "TESTPOINT",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP23",
+      "source_pattern": "TESTPOINT",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP24",
+      "source_pattern": "TESTPOINT",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP25",
+      "source_pattern": "TESTPOINT",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP26",
+      "source_pattern": "TESTPOINT",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP27",
+      "source_pattern": "TESTPOINT",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP28",
+      "source_pattern": "TESTPOINT",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP29",
+      "source_pattern": "TESTPOINT",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP30",
+      "source_pattern": "TESTPOINT",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP31",
+      "source_pattern": "TESTPOINT",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP32",
+      "source_pattern": "TESTPOINT",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP33",
+      "source_pattern": "TESTPOINT",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP34",
+      "source_pattern": "TESTPOINT",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP35",
+      "source_pattern": "TESTPOINT",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP36",
+      "source_pattern": "TESTPOINT",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP37",
+      "source_pattern": "TESTPOINT",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP38",
+      "source_pattern": "TESTPOINT",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP39",
+      "source_pattern": "TESTPOINT",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP40",
+      "source_pattern": "TESTPOINT",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP41",
+      "source_pattern": "TESTPOINT",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP42",
+      "source_pattern": "TESTPOINT",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP43",
+      "source_pattern": "TESTPOINT",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP44",
+      "source_pattern": "TESTPOINT",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP45",
+      "source_pattern": "TESTPOINT",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP46",
+      "source_pattern": "TESTPOINT",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP47",
+      "source_pattern": "TESTPOINT",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP48",
+      "source_pattern": "TESTPOINT",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP49",
+      "source_pattern": "TESTPOINT",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP50",
+      "source_pattern": "TESTPOINT",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP51",
+      "source_pattern": "TESTPOINT",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP52",
+      "source_pattern": "TESTPOINT",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP53",
+      "source_pattern": "TESTPOINT",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP54",
+      "source_pattern": "TESTPOINT",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP55",
+      "source_pattern": "TESTPOINT",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP56",
+      "source_pattern": "TESTPOINT",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP57",
+      "source_pattern": "TESTPOINT",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP58",
+      "source_pattern": "TESTPOINT",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP59",
+      "source_pattern": "TESTPOINT",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP60",
+      "source_pattern": "TESTPOINT",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP61",
+      "source_pattern": "TESTPOINT",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP62",
+      "source_pattern": "TESTPOINT",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP63",
+      "source_pattern": "TESTPOINT",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP64",
+      "source_pattern": "TESTPOINT",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint",
+      "specimen_population_verified": false
+    },
+    {
+      "reference": "TP65",
+      "source_pattern": "TESTPOINT",
+      "category": "test_contact; needs_source_pad_region_not_package_body",
+      "source_description": "Testpoint",
+      "specimen_population_verified": false
+    }
+  ],
+  "policy": "No synthetic package bodies for testpoints or fiducials; use exact source contact regions for AR highlighting. Source population does not prove specimen population."
+}

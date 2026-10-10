@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "release_eligible": false,
+  "photo_registration_verified": false,
+  "physical_flip_verified": false,
+  "source_pcb_path": "data/board-sources/ultimainboard-2.1.4/generated-kicad/Ultimainboard-2.1.4.imported.kicad_pcb",
+  "source_pcb_sha256": "f763641f75470b4fb5b95391ae1ec40ab4ffe2a80bc28dafd2685901c08680b7",
+  "files": [
+    {
+      "path": "ultimaker-source-selectable.glb",
+      "sha256": "b89622c4013e654ffe1c8595d20d01647bc72d2af823187241487a5b36835c2d",
+      "bytes": 22804576
+    },
+    {
+      "path": "component-geometry-index.json",
+      "sha256": "2d6c236761cb20475d4b0937165eb77967a8b94288ccbf6196e52e8ec0f637ab",
+      "bytes": 60122
+    },
+    {
+      "path": "component-map.json",
+      "sha256": "8f5637ca8cf3ddb6dfdb31227fe453ec81c749a0bc44911fa4b0f6b38945af64",
+      "bytes": 48065
+    },
+    {
+      "path": "source-surface-preview.jpg",
+      "sha256": "ea6c83ee2b93b16634634df819e564568f7dbd6e644bf98aa37f598ddaa01bc0",
+      "bytes": 16026
+    }
+  ]
+}
