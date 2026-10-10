@@ -1,0 +1,1439 @@
+{
+  "schema_version": "1.0",
+  "physical_specimen_id": "bench-nxp-01",
+  "capture_session_id": "bench-nxp-01:20261010_122330",
+  "image_path": "data/video-captures/2026-10-10/nxp-keyframes/video_20261010_122330_n000000_pts00000000ms.jpg",
+  "image_width": 1080,
+  "image_height": 1920,
+  "coordinate_frame": "upright_saved_image_pixels",
+  "coverage": "partial_dense_visible_bodies; incomplete_annotations_not_background",
+  "training_export_eligible": false,
+  "production_eligible": false,
+  "masks": [
+    {
+      "instance_id": "bench-nxp-01:U41",
+      "observed_reference_designator": "U41",
+      "polygon_xy_pixels": [
+        [
+          575,
+          525
+        ],
+        [
+          650,
+          526
+        ],
+        [
+          650,
+          593
+        ],
+        [
+          575,
+          594
+        ]
+      ],
+      "boundary_uncertainty_pixels": 6,
+      "boundary_scope": "visible_package_body_excluding_leads",
+      "installed_order_code_confirmed": false,
+      "source_candidate_component_id": "nxp-frdm-mcxn236:C:U41",
+      "source_candidate_part_number": "PTN5150AHXMP"
+    },
+    {
+      "instance_id": "bench-nxp-01:metal_package_near_R94",
+      "observed_reference_designator": null,
+      "polygon_xy_pixels": [
+        [
+          410,
+          1469
+        ],
+        [
+          489,
+          1470
+        ],
+        [
+          489,
+          1529
+        ],
+        [
+          410,
+          1528
+        ]
+      ],
+      "boundary_uncertainty_pixels": 6,
+      "boundary_scope": "visible_package_body_excluding_external_contacts",
+      "installed_order_code_confirmed": false,
+      "reference_review_status": "ambiguous_designator; source_join_withheld",
+      "source_candidate_component_id": null,
+      "source_candidate_part_number": null
+    },
+    {
+      "instance_id": "bench-nxp-01:U2",
+      "observed_reference_designator": "U2",
+      "polygon_xy_pixels": [
+        [
+          348,
+          1713
+        ],
+        [
+          531,
+          1712
+        ],
+        [
+          532,
+          1813
+        ],
+        [
+          345,
+          1814
+        ]
+      ],
+      "boundary_uncertainty_pixels": 6,
+      "boundary_scope": "visible_package_body_excluding_leads",
+      "installed_order_code_confirmed": false,
+      "source_candidate_component_id": "nxp-frdm-mcxn236:C:U2",
+      "source_candidate_part_number": "XC6227C331PR-G"
+    },
+    {
+      "instance_id": "bench-nxp-01:U5",
+      "observed_reference_designator": "U5",
+      "polygon_xy_pixels": [
+        [
+          808,
+          319
+        ],
+        [
+          888,
+          321
+        ],
+        [
+          888,
+          381
+        ],
+        [
+          808,
+          380
+        ]
+      ],
+      "boundary_uncertainty_pixels": 6,
+      "boundary_scope": "visible_package_body_excluding_leads",
+      "installed_order_code_confirmed": false,
+      "source_candidate_component_id": "nxp-frdm-mcxn236:C:U5",
+      "source_candidate_part_number": "RClamp0854P.TCT"
+    },
+    {
+      "instance_id": "bench-nxp-01:frame000000:body-001",
+      "observed_reference_designator": "C85",
+      "polygon_xy_pixels": [
+        [
+          494,
+          254
+        ],
+        [
+          561,
+          254
+        ],
+        [
+          561,
+          285
+        ],
+        [
+          494,
+          285
+        ]
+      ],
+      "boundary_uncertainty_pixels": 6,
+      "boundary_scope": "visible_body_excluding_leads",
+      "installed_order_code_confirmed": false,
+      "source_candidate_component_id": null,
+      "source_candidate_part_number": null,
+      "identity_status": "observed_refdes_only",
+      "boundary_review_status": "manual_original_frame_review; second_review_required"
+    },
+    {
+      "instance_id": "bench-nxp-01:frame000000:body-002",
+      "observed_reference_designator": "R189",
+      "polygon_xy_pixels": [
+        [
+          303,
+          459
+        ],
+        [
+          350,
+          459
+        ],
+        [
+          350,
+          508
+        ],
+        [
+          303,
+          508
+        ]
+      ],
+      "boundary_uncertainty_pixels": 6,
+      "boundary_scope": "visible_body_excluding_leads",
+      "installed_order_code_confirmed": false,
+      "source_candidate_component_id": null,
+      "source_candidate_part_number": null,
+      "identity_status": "observed_refdes_only",
+      "boundary_review_status": "manual_original_frame_review; second_review_required"
+    },
+    {
+      "instance_id": "bench-nxp-01:frame000000:body-003",
+      "observed_reference_designator": "R148",
+      "polygon_xy_pixels": [
+        [
+          217,
+          356
+        ],
+        [
+          246,
+          356
+        ],
+        [
+          246,
+          406
+        ],
+        [
+          217,
+          406
+        ]
+      ],
+      "boundary_uncertainty_pixels": 6,
+      "boundary_scope": "visible_body_excluding_leads",
+      "installed_order_code_confirmed": false,
+      "source_candidate_component_id": null,
+      "source_candidate_part_number": null,
+      "identity_status": "observed_refdes_only",
+      "boundary_review_status": "manual_original_frame_review; second_review_required"
+    },
+    {
+      "instance_id": "bench-nxp-01:frame000000:body-004",
+      "observed_reference_designator": "D9",
+      "polygon_xy_pixels": [
+        [
+          99,
+          366
+        ],
+        [
+          128,
+          366
+        ],
+        [
+          128,
+          427
+        ],
+        [
+          99,
+          427
+        ]
+      ],
+      "boundary_uncertainty_pixels": 6,
+      "boundary_scope": "visible_body_excluding_leads",
+      "installed_order_code_confirmed": false,
+      "source_candidate_component_id": null,
+      "source_candidate_part_number": null,
+      "identity_status": "observed_refdes_only",
+      "boundary_review_status": "manual_original_frame_review; second_review_required"
+    },
+    {
+      "instance_id": "bench-nxp-01:frame000000:body-005",
+      "observed_reference_designator": "D10",
+      "polygon_xy_pixels": [
+        [
+          153,
+          366
+        ],
+        [
+          182,
+          366
+        ],
+        [
+          182,
+          427
+        ],
+        [
+          153,
+          427
+        ]
+      ],
+      "boundary_uncertainty_pixels": 6,
+      "boundary_scope": "visible_body_excluding_leads",
+      "installed_order_code_confirmed": false,
+      "source_candidate_component_id": null,
+      "source_candidate_part_number": null,
+      "identity_status": "observed_refdes_only",
+      "boundary_review_status": "manual_original_frame_review; second_review_required"
+    },
+    {
+      "instance_id": "bench-nxp-01:frame000000:body-006",
+      "observed_reference_designator": null,
+      "polygon_xy_pixels": [
+        [
+          266,
+          366
+        ],
+        [
+          303,
+          366
+        ],
+        [
+          303,
+          419
+        ],
+        [
+          266,
+          419
+        ]
+      ],
+      "boundary_uncertainty_pixels": 6,
+      "boundary_scope": "visible_body_excluding_leads",
+      "installed_order_code_confirmed": false,
+      "source_candidate_component_id": null,
+      "source_candidate_part_number": null,
+      "identity_status": "unresolved_refdes",
+      "boundary_review_status": "manual_original_frame_review; second_review_required"
+    },
+    {
+      "instance_id": "bench-nxp-01:frame000000:body-007",
+      "observed_reference_designator": null,
+      "polygon_xy_pixels": [
+        [
+          362,
+          319
+        ],
+        [
+          390,
+          319
+        ],
+        [
+          390,
+          359
+        ],
+        [
+          362,
+          359
+        ]
+      ],
+      "boundary_uncertainty_pixels": 6,
+      "boundary_scope": "visible_body_excluding_leads",
+      "installed_order_code_confirmed": false,
+      "source_candidate_component_id": null,
+      "source_candidate_part_number": null,
+      "identity_status": "unresolved_refdes",
+      "boundary_review_status": "manual_original_frame_review; second_review_required"
+    },
+    {
+      "instance_id": "bench-nxp-01:frame000000:body-008",
+      "observed_reference_designator": null,
+      "polygon_xy_pixels": [
+        [
+          449,
+          436
+        ],
+        [
+          542,
+          436
+        ],
+        [
+          542,
+          482
+        ],
+        [
+          449,
+          482
+        ]
+      ],
+      "boundary_uncertainty_pixels": 6,
+      "boundary_scope": "visible_body_excluding_leads",
+      "installed_order_code_confirmed": false,
+      "source_candidate_component_id": null,
+      "source_candidate_part_number": null,
+      "identity_status": "unresolved_refdes",
+      "boundary_review_status": "manual_original_frame_review; second_review_required"
+    },
+    {
+      "instance_id": "bench-nxp-01:frame000000:body-009",
+      "observed_reference_designator": null,
+      "polygon_xy_pixels": [
+        [
+          459,
+          403
+        ],
+        [
+          496,
+          403
+        ],
+        [
+          496,
+          431
+        ],
+        [
+          459,
+          431
+        ]
+      ],
+      "boundary_uncertainty_pixels": 6,
+      "boundary_scope": "visible_body_excluding_leads",
+      "installed_order_code_confirmed": false,
+      "source_candidate_component_id": null,
+      "source_candidate_part_number": null,
+      "identity_status": "unresolved_refdes",
+      "boundary_review_status": "manual_original_frame_review; second_review_required"
+    },
+    {
+      "instance_id": "bench-nxp-01:frame000000:body-011",
+      "observed_reference_designator": null,
+      "polygon_xy_pixels": [
+        [
+          807,
+          443
+        ],
+        [
+          857,
+          443
+        ],
+        [
+          857,
+          517
+        ],
+        [
+          807,
+          517
+        ]
+      ],
+      "boundary_uncertainty_pixels": 6,
+      "boundary_scope": "visible_body_excluding_leads",
+      "installed_order_code_confirmed": false,
+      "source_candidate_component_id": null,
+      "source_candidate_part_number": null,
+      "identity_status": "unresolved_refdes",
+      "boundary_review_status": "manual_original_frame_review; second_review_required"
+    },
+    {
+      "instance_id": "bench-nxp-01:frame000000:body-012",
+      "observed_reference_designator": null,
+      "polygon_xy_pixels": [
+        [
+          679,
+          536
+        ],
+        [
+          764,
+          536
+        ],
+        [
+          764,
+          555
+        ],
+        [
+          679,
+          555
+        ]
+      ],
+      "boundary_uncertainty_pixels": 6,
+      "boundary_scope": "visible_body_excluding_leads",
+      "installed_order_code_confirmed": false,
+      "source_candidate_component_id": null,
+      "source_candidate_part_number": null,
+      "identity_status": "unresolved_refdes",
+      "boundary_review_status": "manual_original_frame_review; second_review_required"
+    },
+    {
+      "instance_id": "bench-nxp-01:frame000000:body-013",
+      "observed_reference_designator": null,
+      "polygon_xy_pixels": [
+        [
+          709,
+          574
+        ],
+        [
+          746,
+          574
+        ],
+        [
+          746,
+          594
+        ],
+        [
+          709,
+          594
+        ]
+      ],
+      "boundary_uncertainty_pixels": 6,
+      "boundary_scope": "visible_body_excluding_leads",
+      "installed_order_code_confirmed": false,
+      "source_candidate_component_id": null,
+      "source_candidate_part_number": null,
+      "identity_status": "unresolved_refdes",
+      "boundary_review_status": "manual_original_frame_review; second_review_required"
+    },
+    {
+      "instance_id": "bench-nxp-01:frame000000:body-014",
+      "observed_reference_designator": null,
+      "polygon_xy_pixels": [
+        [
+          478,
+          569
+        ],
+        [
+          515,
+          569
+        ],
+        [
+          515,
+          588
+        ],
+        [
+          478,
+          588
+        ]
+      ],
+      "boundary_uncertainty_pixels": 6,
+      "boundary_scope": "visible_body_excluding_leads",
+      "installed_order_code_confirmed": false,
+      "source_candidate_component_id": null,
+      "source_candidate_part_number": null,
+      "identity_status": "unresolved_refdes",
+      "boundary_review_status": "manual_original_frame_review; second_review_required"
+    },
+    {
+      "instance_id": "bench-nxp-01:frame000000:body-015",
+      "observed_reference_designator": null,
+      "polygon_xy_pixels": [
+        [
+          466,
+          614
+        ],
+        [
+          492,
+          614
+        ],
+        [
+          492,
+          637
+        ],
+        [
+          466,
+          637
+        ]
+      ],
+      "boundary_uncertainty_pixels": 6,
+      "boundary_scope": "visible_body_excluding_leads",
+      "installed_order_code_confirmed": false,
+      "source_candidate_component_id": null,
+      "source_candidate_part_number": null,
+      "identity_status": "unresolved_refdes",
+      "boundary_review_status": "manual_original_frame_review; second_review_required"
+    },
+    {
+      "instance_id": "bench-nxp-01:frame000000:body-016",
+      "observed_reference_designator": null,
+      "polygon_xy_pixels": [
+        [
+          302,
+          554
+        ],
+        [
+          353,
+          554
+        ],
+        [
+          353,
+          656
+        ],
+        [
+          302,
+          656
+        ]
+      ],
+      "boundary_uncertainty_pixels": 6,
+      "boundary_scope": "visible_body_excluding_leads",
+      "installed_order_code_confirmed": false,
+      "source_candidate_component_id": null,
+      "source_candidate_part_number": null,
+      "identity_status": "unresolved_refdes",
+      "boundary_review_status": "manual_original_frame_review; second_review_required"
+    },
+    {
+      "instance_id": "bench-nxp-01:frame000000:body-017",
+      "observed_reference_designator": null,
+      "polygon_xy_pixels": [
+        [
+          324,
+          714
+        ],
+        [
+          354,
+          714
+        ],
+        [
+          354,
+          754
+        ],
+        [
+          324,
+          754
+        ]
+      ],
+      "boundary_uncertainty_pixels": 6,
+      "boundary_scope": "visible_body_excluding_leads",
+      "installed_order_code_confirmed": false,
+      "source_candidate_component_id": null,
+      "source_candidate_part_number": null,
+      "identity_status": "unresolved_refdes",
+      "boundary_review_status": "manual_original_frame_review; second_review_required"
+    },
+    {
+      "instance_id": "bench-nxp-01:frame000000:body-018",
+      "observed_reference_designator": null,
+      "polygon_xy_pixels": [
+        [
+          431,
+          659
+        ],
+        [
+          452,
+          659
+        ],
+        [
+          452,
+          681
+        ],
+        [
+          431,
+          681
+        ]
+      ],
+      "boundary_uncertainty_pixels": 6,
+      "boundary_scope": "visible_body_excluding_leads",
+      "installed_order_code_confirmed": false,
+      "source_candidate_component_id": null,
+      "source_candidate_part_number": null,
+      "identity_status": "unresolved_refdes",
+      "boundary_review_status": "manual_original_frame_review; second_review_required"
+    },
+    {
+      "instance_id": "bench-nxp-01:frame000000:body-019",
+      "observed_reference_designator": null,
+      "polygon_xy_pixels": [
+        [
+          588,
+          660
+        ],
+        [
+          645,
+          660
+        ],
+        [
+          645,
+          689
+        ],
+        [
+          588,
+          689
+        ]
+      ],
+      "boundary_uncertainty_pixels": 6,
+      "boundary_scope": "visible_body_excluding_leads",
+      "installed_order_code_confirmed": false,
+      "source_candidate_component_id": null,
+      "source_candidate_part_number": null,
+      "identity_status": "unresolved_refdes",
+      "boundary_review_status": "manual_original_frame_review; second_review_required"
+    },
+    {
+      "instance_id": "bench-nxp-01:frame000000:body-020",
+      "observed_reference_designator": null,
+      "polygon_xy_pixels": [
+        [
+          477,
+          745
+        ],
+        [
+          503,
+          745
+        ],
+        [
+          503,
+          766
+        ],
+        [
+          477,
+          766
+        ]
+      ],
+      "boundary_uncertainty_pixels": 6,
+      "boundary_scope": "visible_body_excluding_leads",
+      "installed_order_code_confirmed": false,
+      "source_candidate_component_id": null,
+      "source_candidate_part_number": null,
+      "identity_status": "unresolved_refdes",
+      "boundary_review_status": "manual_original_frame_review; second_review_required"
+    },
+    {
+      "instance_id": "bench-nxp-01:frame000000:body-021",
+      "observed_reference_designator": null,
+      "polygon_xy_pixels": [
+        [
+          785,
+          782
+        ],
+        [
+          858,
+          782
+        ],
+        [
+          858,
+          814
+        ],
+        [
+          785,
+          814
+        ]
+      ],
+      "boundary_uncertainty_pixels": 6,
+      "boundary_scope": "visible_body_excluding_leads",
+      "installed_order_code_confirmed": false,
+      "source_candidate_component_id": null,
+      "source_candidate_part_number": null,
+      "identity_status": "unresolved_refdes",
+      "boundary_review_status": "manual_original_frame_review; second_review_required"
+    },
+    {
+      "instance_id": "bench-nxp-01:frame000000:body-022",
+      "observed_reference_designator": null,
+      "polygon_xy_pixels": [
+        [
+          812,
+          848
+        ],
+        [
+          850,
+          848
+        ],
+        [
+          850,
+          874
+        ],
+        [
+          812,
+          874
+        ]
+      ],
+      "boundary_uncertainty_pixels": 6,
+      "boundary_scope": "visible_body_excluding_leads",
+      "installed_order_code_confirmed": false,
+      "source_candidate_component_id": null,
+      "source_candidate_part_number": null,
+      "identity_status": "unresolved_refdes",
+      "boundary_review_status": "manual_original_frame_review; second_review_required"
+    },
+    {
+      "instance_id": "bench-nxp-01:frame000000:body-023",
+      "observed_reference_designator": null,
+      "polygon_xy_pixels": [
+        [
+          839,
+          703
+        ],
+        [
+          870,
+          703
+        ],
+        [
+          870,
+          734
+        ],
+        [
+          839,
+          734
+        ]
+      ],
+      "boundary_uncertainty_pixels": 6,
+      "boundary_scope": "visible_body_excluding_leads",
+      "installed_order_code_confirmed": false,
+      "source_candidate_component_id": null,
+      "source_candidate_part_number": null,
+      "identity_status": "unresolved_refdes",
+      "boundary_review_status": "manual_original_frame_review; second_review_required"
+    },
+    {
+      "instance_id": "bench-nxp-01:frame000000:body-024",
+      "observed_reference_designator": null,
+      "polygon_xy_pixels": [
+        [
+          930,
+          692
+        ],
+        [
+          972,
+          692
+        ],
+        [
+          972,
+          772
+        ],
+        [
+          930,
+          772
+        ]
+      ],
+      "boundary_uncertainty_pixels": 6,
+      "boundary_scope": "visible_body_excluding_leads",
+      "installed_order_code_confirmed": false,
+      "source_candidate_component_id": null,
+      "source_candidate_part_number": null,
+      "identity_status": "unresolved_refdes",
+      "boundary_review_status": "manual_original_frame_review; second_review_required"
+    },
+    {
+      "instance_id": "bench-nxp-01:frame000000:body-025",
+      "observed_reference_designator": null,
+      "polygon_xy_pixels": [
+        [
+          913,
+          814
+        ],
+        [
+          940,
+          814
+        ],
+        [
+          940,
+          849
+        ],
+        [
+          913,
+          849
+        ]
+      ],
+      "boundary_uncertainty_pixels": 6,
+      "boundary_scope": "visible_body_excluding_leads",
+      "installed_order_code_confirmed": false,
+      "source_candidate_component_id": null,
+      "source_candidate_part_number": null,
+      "identity_status": "unresolved_refdes",
+      "boundary_review_status": "manual_original_frame_review; second_review_required"
+    },
+    {
+      "instance_id": "bench-nxp-01:frame000000:body-026",
+      "observed_reference_designator": null,
+      "polygon_xy_pixels": [
+        [
+          904,
+          544
+        ],
+        [
+          938,
+          544
+        ],
+        [
+          938,
+          600
+        ],
+        [
+          904,
+          600
+        ]
+      ],
+      "boundary_uncertainty_pixels": 6,
+      "boundary_scope": "visible_body_excluding_leads",
+      "installed_order_code_confirmed": false,
+      "source_candidate_component_id": null,
+      "source_candidate_part_number": null,
+      "identity_status": "unresolved_refdes",
+      "boundary_review_status": "manual_original_frame_review; second_review_required"
+    },
+    {
+      "instance_id": "bench-nxp-01:frame000000:body-027",
+      "observed_reference_designator": null,
+      "polygon_xy_pixels": [
+        [
+          965,
+          547
+        ],
+        [
+          997,
+          547
+        ],
+        [
+          997,
+          594
+        ],
+        [
+          965,
+          594
+        ]
+      ],
+      "boundary_uncertainty_pixels": 6,
+      "boundary_scope": "visible_body_excluding_leads",
+      "installed_order_code_confirmed": false,
+      "source_candidate_component_id": null,
+      "source_candidate_part_number": null,
+      "identity_status": "unresolved_refdes",
+      "boundary_review_status": "manual_original_frame_review; second_review_required"
+    },
+    {
+      "instance_id": "bench-nxp-01:frame000000:body-028",
+      "observed_reference_designator": "C36",
+      "polygon_xy_pixels": [
+        [
+          918,
+          324
+        ],
+        [
+          954,
+          324
+        ],
+        [
+          954,
+          382
+        ],
+        [
+          918,
+          382
+        ]
+      ],
+      "boundary_uncertainty_pixels": 6,
+      "boundary_scope": "visible_body_excluding_leads",
+      "installed_order_code_confirmed": false,
+      "source_candidate_component_id": null,
+      "source_candidate_part_number": null,
+      "identity_status": "observed_refdes_only",
+      "boundary_review_status": "manual_original_frame_review; second_review_required"
+    },
+    {
+      "instance_id": "bench-nxp-01:frame000000:body-029",
+      "observed_reference_designator": null,
+      "polygon_xy_pixels": [
+        [
+          1005,
+          366
+        ],
+        [
+          1068,
+          366
+        ],
+        [
+          1068,
+          397
+        ],
+        [
+          1005,
+          397
+        ]
+      ],
+      "boundary_uncertainty_pixels": 6,
+      "boundary_scope": "visible_body_excluding_leads",
+      "installed_order_code_confirmed": false,
+      "source_candidate_component_id": null,
+      "source_candidate_part_number": null,
+      "identity_status": "unresolved_refdes",
+      "boundary_review_status": "manual_original_frame_review; second_review_required"
+    },
+    {
+      "instance_id": "bench-nxp-01:frame000000:body-030",
+      "observed_reference_designator": null,
+      "polygon_xy_pixels": [
+        [
+          735,
+          928
+        ],
+        [
+          840,
+          928
+        ],
+        [
+          840,
+          1257
+        ],
+        [
+          735,
+          1257
+        ]
+      ],
+      "boundary_uncertainty_pixels": 6,
+      "boundary_scope": "visible_body_excluding_leads",
+      "installed_order_code_confirmed": false,
+      "source_candidate_component_id": null,
+      "source_candidate_part_number": null,
+      "identity_status": "unresolved_refdes",
+      "boundary_review_status": "manual_original_frame_review; second_review_required"
+    },
+    {
+      "instance_id": "bench-nxp-01:frame000000:body-032",
+      "observed_reference_designator": null,
+      "polygon_xy_pixels": [
+        [
+          923,
+          1235
+        ],
+        [
+          948,
+          1235
+        ],
+        [
+          948,
+          1275
+        ],
+        [
+          923,
+          1275
+        ]
+      ],
+      "boundary_uncertainty_pixels": 6,
+      "boundary_scope": "visible_body_excluding_leads",
+      "installed_order_code_confirmed": false,
+      "source_candidate_component_id": null,
+      "source_candidate_part_number": null,
+      "identity_status": "unresolved_refdes",
+      "boundary_review_status": "manual_original_frame_review; second_review_required"
+    },
+    {
+      "instance_id": "bench-nxp-01:frame000000:body-033",
+      "observed_reference_designator": null,
+      "polygon_xy_pixels": [
+        [
+          973,
+          1236
+        ],
+        [
+          997,
+          1236
+        ],
+        [
+          997,
+          1269
+        ],
+        [
+          973,
+          1269
+        ]
+      ],
+      "boundary_uncertainty_pixels": 6,
+      "boundary_scope": "visible_body_excluding_leads",
+      "installed_order_code_confirmed": false,
+      "source_candidate_component_id": null,
+      "source_candidate_part_number": null,
+      "identity_status": "unresolved_refdes",
+      "boundary_review_status": "manual_original_frame_review; second_review_required"
+    },
+    {
+      "instance_id": "bench-nxp-01:frame000000:body-034",
+      "observed_reference_designator": null,
+      "polygon_xy_pixels": [
+        [
+          548,
+          1319
+        ],
+        [
+          626,
+          1319
+        ],
+        [
+          626,
+          1372
+        ],
+        [
+          548,
+          1372
+        ]
+      ],
+      "boundary_uncertainty_pixels": 6,
+      "boundary_scope": "visible_body_excluding_leads",
+      "installed_order_code_confirmed": false,
+      "source_candidate_component_id": null,
+      "source_candidate_part_number": null,
+      "identity_status": "unresolved_refdes",
+      "boundary_review_status": "manual_original_frame_review; second_review_required"
+    },
+    {
+      "instance_id": "bench-nxp-01:frame000000:body-035",
+      "observed_reference_designator": null,
+      "polygon_xy_pixels": [
+        [
+          428,
+          1318
+        ],
+        [
+          458,
+          1318
+        ],
+        [
+          458,
+          1380
+        ],
+        [
+          428,
+          1380
+        ]
+      ],
+      "boundary_uncertainty_pixels": 6,
+      "boundary_scope": "visible_body_excluding_leads",
+      "installed_order_code_confirmed": false,
+      "source_candidate_component_id": null,
+      "source_candidate_part_number": null,
+      "identity_status": "unresolved_refdes",
+      "boundary_review_status": "manual_original_frame_review; second_review_required"
+    },
+    {
+      "instance_id": "bench-nxp-01:frame000000:body-036",
+      "observed_reference_designator": null,
+      "polygon_xy_pixels": [
+        [
+          321,
+          1319
+        ],
+        [
+          353,
+          1319
+        ],
+        [
+          353,
+          1380
+        ],
+        [
+          321,
+          1380
+        ]
+      ],
+      "boundary_uncertainty_pixels": 6,
+      "boundary_scope": "visible_body_excluding_leads",
+      "installed_order_code_confirmed": false,
+      "source_candidate_component_id": null,
+      "source_candidate_part_number": null,
+      "identity_status": "unresolved_refdes",
+      "boundary_review_status": "manual_original_frame_review; second_review_required"
+    },
+    {
+      "instance_id": "bench-nxp-01:frame000000:body-037",
+      "observed_reference_designator": null,
+      "polygon_xy_pixels": [
+        [
+          493,
+          1346
+        ],
+        [
+          514,
+          1346
+        ],
+        [
+          514,
+          1380
+        ],
+        [
+          493,
+          1380
+        ]
+      ],
+      "boundary_uncertainty_pixels": 6,
+      "boundary_scope": "visible_body_excluding_leads",
+      "installed_order_code_confirmed": false,
+      "source_candidate_component_id": null,
+      "source_candidate_part_number": null,
+      "identity_status": "unresolved_refdes",
+      "boundary_review_status": "manual_original_frame_review; second_review_required"
+    },
+    {
+      "instance_id": "bench-nxp-01:frame000000:body-044",
+      "observed_reference_designator": null,
+      "polygon_xy_pixels": [
+        [
+          1019,
+          1382
+        ],
+        [
+          1042,
+          1382
+        ],
+        [
+          1042,
+          1405
+        ],
+        [
+          1019,
+          1405
+        ]
+      ],
+      "boundary_uncertainty_pixels": 6,
+      "boundary_scope": "visible_body_excluding_leads",
+      "installed_order_code_confirmed": false,
+      "source_candidate_component_id": null,
+      "source_candidate_part_number": null,
+      "identity_status": "unresolved_refdes",
+      "boundary_review_status": "manual_original_frame_review; second_review_required"
+    },
+    {
+      "instance_id": "bench-nxp-01:frame000000:body-045",
+      "observed_reference_designator": null,
+      "polygon_xy_pixels": [
+        [
+          554,
+          1450
+        ],
+        [
+          590,
+          1450
+        ],
+        [
+          590,
+          1474
+        ],
+        [
+          554,
+          1474
+        ]
+      ],
+      "boundary_uncertainty_pixels": 6,
+      "boundary_scope": "visible_body_excluding_leads",
+      "installed_order_code_confirmed": false,
+      "source_candidate_component_id": null,
+      "source_candidate_part_number": null,
+      "identity_status": "unresolved_refdes",
+      "boundary_review_status": "manual_original_frame_review; second_review_required"
+    },
+    {
+      "instance_id": "bench-nxp-01:frame000000:body-046",
+      "observed_reference_designator": null,
+      "polygon_xy_pixels": [
+        [
+          314,
+          1467
+        ],
+        [
+          348,
+          1467
+        ],
+        [
+          348,
+          1490
+        ],
+        [
+          314,
+          1490
+        ]
+      ],
+      "boundary_uncertainty_pixels": 6,
+      "boundary_scope": "visible_body_excluding_leads",
+      "installed_order_code_confirmed": false,
+      "source_candidate_component_id": null,
+      "source_candidate_part_number": null,
+      "identity_status": "unresolved_refdes",
+      "boundary_review_status": "manual_original_frame_review; second_review_required"
+    },
+    {
+      "instance_id": "bench-nxp-01:frame000000:body-047",
+      "observed_reference_designator": null,
+      "polygon_xy_pixels": [
+        [
+          546,
+          1569
+        ],
+        [
+          576,
+          1569
+        ],
+        [
+          576,
+          1588
+        ],
+        [
+          546,
+          1588
+        ]
+      ],
+      "boundary_uncertainty_pixels": 6,
+      "boundary_scope": "visible_body_excluding_leads",
+      "installed_order_code_confirmed": false,
+      "source_candidate_component_id": null,
+      "source_candidate_part_number": null,
+      "identity_status": "unresolved_refdes",
+      "boundary_review_status": "manual_original_frame_review; second_review_required"
+    },
+    {
+      "instance_id": "bench-nxp-01:frame000000:body-048",
+      "observed_reference_designator": null,
+      "polygon_xy_pixels": [
+        [
+          441,
+          1569
+        ],
+        [
+          473,
+          1569
+        ],
+        [
+          473,
+          1590
+        ],
+        [
+          441,
+          1590
+        ]
+      ],
+      "boundary_uncertainty_pixels": 6,
+      "boundary_scope": "visible_body_excluding_leads",
+      "installed_order_code_confirmed": false,
+      "source_candidate_component_id": null,
+      "source_candidate_part_number": null,
+      "identity_status": "unresolved_refdes",
+      "boundary_review_status": "manual_original_frame_review; second_review_required"
+    }
+  ],
+  "review_evidence": "Original upright frame inspected. Dense body polygons annotate observed bodies, with no C-to-B identity transfer. New bounds require a second reviewer before training. Header shells and large clipped connectors excluded explicitly.",
+  "source_mapping_status": "C_source_candidates; photographed_revision_unverified",
+  "image_sha256": "30d6691cbcc88d32142802dc6f3894ce7e128ac64d6be2477dc5c2eaff03fa64",
+  "source_component_map_sha256": "8fd8a25b1c53da7a8a7dfb414d4410dfa1b76c916ee76315e82cb3027015fedd",
+  "ignored_regions": [
+    {
+      "polygon_xy_pixels": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          0
+        ],
+        [
+          1080,
+          299
+        ],
+        [
+          0,
+          299
+        ]
+      ],
+      "reason": "top cropped connectors and dense unresolved passives"
+    },
+    {
+      "polygon_xy_pixels": [
+        [
+          0,
+          428
+        ],
+        [
+          218,
+          428
+        ],
+        [
+          218,
+          735
+        ],
+        [
+          0,
+          735
+        ]
+      ],
+      "reason": "header shell; contact geometry unreviewed"
+    },
+    {
+      "polygon_xy_pixels": [
+        [
+          0,
+          748
+        ],
+        [
+          241,
+          748
+        ],
+        [
+          241,
+          1920
+        ],
+        [
+          0,
+          1920
+        ]
+      ],
+      "reason": "cropped long connector shell; contacts unreviewed"
+    },
+    {
+      "polygon_xy_pixels": [
+        [
+          951,
+          838
+        ],
+        [
+          1080,
+          838
+        ],
+        [
+          1080,
+          1171
+        ],
+        [
+          951,
+          1171
+        ]
+      ],
+      "reason": "cropped large IC; full boundary and identity unavailable"
+    },
+    {
+      "polygon_xy_pixels": [
+        [
+          660,
+          1620
+        ],
+        [
+          1080,
+          1620
+        ],
+        [
+          1080,
+          1920
+        ],
+        [
+          660,
+          1920
+        ]
+      ],
+      "reason": "dense partial lower components; further annotation required"
+    }
+  ],
+  "training_policy": "No unlabeled pixel may be assumed negative; this review is not a YOLO training export.",
+  "literal_reference_correction": {
+    "body_instance_id": "bench-nxp-01:frame000000:body-002",
+    "observed_reference_designator": "R189",
+    "evidence": "Magnified crop x240..425 y390..465 on original frame reads R189; earlier R89 assertion rejected. This is not the revision-history R89 reference.",
+    "crop_path": "work/nxp-finalization/resistor-reference-crop.png",
+    "source_join_withheld": true
+  },
+  "revision_inference_correction": "The photographed B belongs to NXP B.V. copyright; it does not establish Rev B.",
+  "contact_candidates": [
+    {
+      "instance_id": "bench-nxp-01:U2:visible_terminal_candidate",
+      "observed_reference_designator": null,
+      "polygon_xy_pixels": [
+        [
+          363,
+          1674
+        ],
+        [
+          388,
+          1674
+        ],
+        [
+          388,
+          1711
+        ],
+        [
+          363,
+          1711
+        ]
+      ],
+      "boundary_uncertainty_pixels": 6,
+      "boundary_scope": "visible_package_terminal; not_independent_body",
+      "installed_order_code_confirmed": false,
+      "source_candidate_component_id": null,
+      "source_candidate_part_number": null,
+      "identity_status": "unresolved_refdes",
+      "boundary_review_status": "manual_original_frame_review; second_review_required",
+      "parent_component_id": "bench-nxp-01:U2",
+      "kind": "pin_contact_candidate",
+      "source_pin_number": null,
+      "review_status": "second_review_identifies_U2_lead; numeric_pin_unconfirmed"
+    }
+  ],
+  "second_review_correction": "Removed body-049 from package masks: this is a visible U2 terminal, not an independent component body."
+}
