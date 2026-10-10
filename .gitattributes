@@ -20,6 +20,7 @@
 *.zip filter=lfs diff=lfs merge=lfs -text
 *.pt filter=lfs diff=lfs merge=lfs -text
 *.tflite filter=lfs diff=lfs merge=lfs -text
+*.mp4 filter=lfs diff=lfs merge=lfs -text
 # Preserve the bytes bound by NXP provenance hashes across platforms.
 data/board-sources/nxp-frdm-mcxn236/original-design-files/** -text
 data/board-sources/nxp-frdm-mcxn236/schematic-reference-index.json -text
@@ -32,6 +33,7 @@ data/external/PCBVision/*.json -text
 data/photo-model/*.json -text
 # Preserve hash-addressed source CRLF bytes without treating CR as trailing whitespace.
 data/phone-captures/**/*.json -text whitespace=cr-at-eol
+data/video-captures/**/*.json -text whitespace=cr-at-eol
 data/ar-alignment/*.json -text whitespace=cr-at-eol
 data/board-sources/**/ar-reference/*.json -text whitespace=cr-at-eol
 data/board-sources/**/structured-source/*.json -text

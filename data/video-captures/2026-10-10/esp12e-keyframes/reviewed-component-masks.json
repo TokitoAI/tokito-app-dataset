@@ -1,0 +1,266 @@
+{
+  "schema_version": "1.0",
+  "board_family": "esp8266_nodemcu_esp12e_clone_unknown_variant",
+  "physical_specimen_id": "bench-esp8266-01",
+  "capture_session_id": "bench-esp8266-01:20261010_122211",
+  "coordinate_frame": "upright_saved_image_pixels",
+  "image_path": "data/video-captures/2026-10-10/esp12e-keyframes/video_20261010_122211_n000523_pts00017497ms.jpg",
+  "image_width": 1080,
+  "image_height": 1920,
+  "coverage": "partial_visible_bodies",
+  "training_export_eligible": false,
+  "review_evidence": "Upright original frame visually inspected. Board top and left edge are clipped. Visible PCB text reads Ver 0.1; module shield reads MODEL: ESP-12E. Controller and regulator ordering codes are unreadable. Polygons describe package bodies rather than electrical leads or complete assembly extents.",
+  "observed_pcb_text": "Ver 0.1",
+  "source_reference_designators_confirmed": false,
+  "masks": [
+    {
+      "instance_id": "bench-esp8266-01:usb_serial_controller_body",
+      "class_name": "integrated_circuit",
+      "exact_part_name": null,
+      "identity_status": "unresolved_marking",
+      "polygon_xy_pixels": [
+        [
+          99,
+          1217
+        ],
+        [
+          453,
+          1220
+        ],
+        [
+          451,
+          1349
+        ],
+        [
+          95,
+          1346
+        ]
+      ],
+      "boundary_scope": "visible_package_body_excluding_leads",
+      "boundary_uncertainty_pixels": 6
+    },
+    {
+      "instance_id": "bench-esp8266-01:regulator_body",
+      "class_name": "integrated_circuit",
+      "exact_part_name": null,
+      "identity_status": "unresolved_marking",
+      "polygon_xy_pixels": [
+        [
+          500,
+          735
+        ],
+        [
+          607,
+          737
+        ],
+        [
+          602,
+          934
+        ],
+        [
+          496,
+          932
+        ]
+      ],
+      "boundary_scope": "visible_package_body_excluding_leads_and_tab",
+      "boundary_uncertainty_pixels": 6
+    },
+    {
+      "instance_id": "bench-esp8266-01:rf_module_shield",
+      "class_name": "rf_shield",
+      "parent_component_id": "bench-esp8266-01:esp12e_module",
+      "observed_parent_marking": "MODEL: ESP-12E",
+      "polygon_xy_pixels": [
+        [
+          220,
+          23
+        ],
+        [
+          615,
+          29
+        ],
+        [
+          607,
+          478
+        ],
+        [
+          203,
+          476
+        ]
+      ],
+      "boundary_scope": "shield_top_surface_only_excludes_module_antenna_pcb_and_contacts",
+      "boundary_uncertainty_pixels": 8
+    },
+    {
+      "instance_id": "bench-esp8266-01:micro_usb_shell",
+      "class_name": "connector_shell",
+      "exact_part_name": null,
+      "connector_family": "micro_usb",
+      "polygon_xy_pixels": [
+        [
+          246,
+          1570
+        ],
+        [
+          519,
+          1570
+        ],
+        [
+          523,
+          1765
+        ],
+        [
+          236,
+          1770
+        ]
+      ],
+      "boundary_scope": "visible_metal_shell_excluding_side_mounting_tabs",
+      "boundary_uncertainty_pixels": 8
+    }
+  ],
+  "pin_coordinate_contract": "visible solder-contact centers in upright pixels; circles are approximate visible contact regions, not calibration landmarks",
+  "pin_identity_contract": "printed aliases only; no source electrical number or GPIO mapping asserted",
+  "pin_annotations": [
+    {
+      "instance_id": "bench-esp8266-01:right_header:D0",
+      "printed_alias": "D0",
+      "center_xy_pixels": [
+        888,
+        180
+      ],
+      "visible_radius_pixels": 32
+    },
+    {
+      "instance_id": "bench-esp8266-01:right_header:D1",
+      "printed_alias": "D1",
+      "center_xy_pixels": [
+        889,
+        259
+      ],
+      "visible_radius_pixels": 32
+    },
+    {
+      "instance_id": "bench-esp8266-01:right_header:D2",
+      "printed_alias": "D2",
+      "center_xy_pixels": [
+        892,
+        338
+      ],
+      "visible_radius_pixels": 32
+    },
+    {
+      "instance_id": "bench-esp8266-01:right_header:D3",
+      "printed_alias": "D3",
+      "center_xy_pixels": [
+        891,
+        416
+      ],
+      "visible_radius_pixels": 32
+    },
+    {
+      "instance_id": "bench-esp8266-01:right_header:D4",
+      "printed_alias": "D4",
+      "center_xy_pixels": [
+        892,
+        494
+      ],
+      "visible_radius_pixels": 32
+    },
+    {
+      "instance_id": "bench-esp8266-01:right_header:3V_upper",
+      "printed_alias": "3V",
+      "center_xy_pixels": [
+        892,
+        574
+      ],
+      "visible_radius_pixels": 32
+    },
+    {
+      "instance_id": "bench-esp8266-01:right_header:G_upper",
+      "printed_alias": "G",
+      "center_xy_pixels": [
+        894,
+        655
+      ],
+      "visible_radius_pixels": 32
+    },
+    {
+      "instance_id": "bench-esp8266-01:right_header:D5",
+      "printed_alias": "D5",
+      "center_xy_pixels": [
+        893,
+        737
+      ],
+      "visible_radius_pixels": 32
+    },
+    {
+      "instance_id": "bench-esp8266-01:right_header:D6",
+      "printed_alias": "D6",
+      "center_xy_pixels": [
+        892,
+        821
+      ],
+      "visible_radius_pixels": 32
+    },
+    {
+      "instance_id": "bench-esp8266-01:right_header:D7",
+      "printed_alias": "D7",
+      "center_xy_pixels": [
+        892,
+        903
+      ],
+      "visible_radius_pixels": 32
+    },
+    {
+      "instance_id": "bench-esp8266-01:right_header:D8",
+      "printed_alias": "D8",
+      "center_xy_pixels": [
+        892,
+        988
+      ],
+      "visible_radius_pixels": 32
+    },
+    {
+      "instance_id": "bench-esp8266-01:right_header:RX",
+      "printed_alias": "RX",
+      "center_xy_pixels": [
+        891,
+        1075
+      ],
+      "visible_radius_pixels": 32
+    },
+    {
+      "instance_id": "bench-esp8266-01:right_header:TX",
+      "printed_alias": "TX",
+      "center_xy_pixels": [
+        891,
+        1161
+      ],
+      "visible_radius_pixels": 32
+    },
+    {
+      "instance_id": "bench-esp8266-01:right_header:G_lower",
+      "printed_alias": "G",
+      "center_xy_pixels": [
+        890,
+        1248
+      ],
+      "visible_radius_pixels": 32
+    },
+    {
+      "instance_id": "bench-esp8266-01:right_header:3V_lower",
+      "printed_alias": "3V",
+      "center_xy_pixels": [
+        888,
+        1338
+      ],
+      "visible_radius_pixels": 32
+    }
+  ],
+  "pin_parent_board_id": "bench-esp8266-01",
+  "pin_review_status": "visually_reviewed_right_header_printed_aliases; left_header_clipped; source_orientation_pending",
+  "pin_center_uncertainty_pixels": 6,
+  "physical_view_status": "component_side_macro_pan; no underside_or_flip_observed_in_sampled_frames",
+  "production_eligible": false,
+  "image_sha256": "bcf9d38b8de7e5792fd9795f9d7a8b855279ab15fa1f0135a930f786485fba09"
+}
