@@ -1278,35 +1278,6 @@
       "source_candidate_part_number": null,
       "identity_status": "unresolved_refdes",
       "boundary_review_status": "manual_original_frame_review; second_review_required"
-    },
-    {
-      "instance_id": "bench-nxp-01:frame000000:body-049",
-      "observed_reference_designator": null,
-      "polygon_xy_pixels": [
-        [
-          363,
-          1674
-        ],
-        [
-          388,
-          1674
-        ],
-        [
-          388,
-          1711
-        ],
-        [
-          363,
-          1711
-        ]
-      ],
-      "boundary_uncertainty_pixels": 6,
-      "boundary_scope": "visible_body_excluding_leads",
-      "installed_order_code_confirmed": false,
-      "source_candidate_component_id": null,
-      "source_candidate_part_number": null,
-      "identity_status": "unresolved_refdes",
-      "boundary_review_status": "manual_original_frame_review; second_review_required"
     }
   ],
   "review_evidence": "Original upright frame inspected. Dense body polygons annotate observed bodies, with no C-to-B identity transfer. New bounds require a second reviewer before training. Header shells and large clipped connectors excluded explicitly.",
@@ -1428,5 +1399,41 @@
     "crop_path": "work/nxp-finalization/resistor-reference-crop.png",
     "source_join_withheld": true
   },
-  "revision_inference_correction": "The photographed B belongs to NXP B.V. copyright; it does not establish Rev B."
+  "revision_inference_correction": "The photographed B belongs to NXP B.V. copyright; it does not establish Rev B.",
+  "contact_candidates": [
+    {
+      "instance_id": "bench-nxp-01:U2:visible_terminal_candidate",
+      "observed_reference_designator": null,
+      "polygon_xy_pixels": [
+        [
+          363,
+          1674
+        ],
+        [
+          388,
+          1674
+        ],
+        [
+          388,
+          1711
+        ],
+        [
+          363,
+          1711
+        ]
+      ],
+      "boundary_uncertainty_pixels": 6,
+      "boundary_scope": "visible_package_terminal; not_independent_body",
+      "installed_order_code_confirmed": false,
+      "source_candidate_component_id": null,
+      "source_candidate_part_number": null,
+      "identity_status": "unresolved_refdes",
+      "boundary_review_status": "manual_original_frame_review; second_review_required",
+      "parent_component_id": "bench-nxp-01:U2",
+      "kind": "pin_contact_candidate",
+      "source_pin_number": null,
+      "review_status": "second_review_identifies_U2_lead; numeric_pin_unconfirmed"
+    }
+  ],
+  "second_review_correction": "Removed body-049 from package masks: this is a visible U2 terminal, not an independent component body."
 }
