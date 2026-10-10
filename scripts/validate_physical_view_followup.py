@@ -51,9 +51,10 @@ def _sha256(path):
 def _matches_payload_or_lfs_pointer(path, digest, size=None):
     with Path(path).open('rb') as stream:
         prefix = stream.read(256)
-    if prefix.startswith(b'version https://git-lfs.github.com/spec/v1\n'):
+    pointer_lines = prefix.splitlines()
+    if pointer_lines and pointer_lines[0] == b'version https://git-lfs.github.com/spec/v1':
         fields = dict(line.decode('ascii').split(' ', 1)
-                      for line in prefix.splitlines()[1:] if b' ' in line)
+                      for line in pointer_lines[1:] if b' ' in line)
         try:
             return (fields.get('oid') == 'sha256:' + digest
                     and (size is None or int(fields.get('size', '-1')) == size))
