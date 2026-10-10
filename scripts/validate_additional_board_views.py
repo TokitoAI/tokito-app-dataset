@@ -13,8 +13,8 @@ def validate(path=MANIFEST):
         raise ValueError('Additional board views cannot activate training or metric pose')
     rows = manifest['recordings']
     expected_paths = {
-        'video_20261010_211129.mp4', 'video_20261010_211200.mp4',
-        'video_20261010_211217.mp4', 'video_20261010_211236.mp4',
+        'ultimaker_video_20261010_211129.mp4', 'nxp_video_20261010_211200.mp4',
+        'nxp_video_20261010_211217.mp4', 'mixed-esp32-ultimaker_video_20261010_211236.mp4',
     }
     if {Path(row['path']).name for row in rows} != expected_paths or len(rows) != len(expected_paths):
         raise ValueError('Unexpected additional view recordings')
