@@ -16,6 +16,18 @@ from render_ar_multiview import camera, load_triangles, rasterize
 
 
 class AlignmentContracts(unittest.TestCase):
+    def test_unreviewed_nxp_bottom_view_is_preserved_without_training_negatives(self):
+        manifest = read(ROOT/'data/ar-alignment/manifest.json')
+        path = 'data/phone-captures/2026-10-10/IMG_20261010_192033.jpg'
+        image = next(row for row in manifest['images'] if row['image_path'] == path)
+        self.assertEqual(image['component_coverage'], 'unreviewed')
+        self.assertEqual(image['instances'], [])
+        self.assertEqual(image['calibration_landmarks'], [])
+        self.assertEqual(image['view_metadata']['view_slot'], 'bottom')
+        self.assertIsNone(image['view_metadata']['camera_calibration_id'])
+        self.assertEqual(manifest['multiview_coverage']['reviewed_real_view_count'], 6)
+        self.assertEqual(manifest['multiview_coverage']['specimens_with_all_required_real_views'], 0)
+
     def test_swapping_hole_identities_cannot_silently_change_calibration(self):
         row = next(t for t in read(ROOT/'data/phone-captures/2026-10-10/reviewed-scan-references.json')['templates'] if t['class_id'] == 3)
         components = {c['reference']: c for c in read(AR/'component-map.json')['components']}

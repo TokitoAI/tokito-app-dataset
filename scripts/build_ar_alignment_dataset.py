@@ -231,6 +231,23 @@ def build(glb):
     if masks:
         raise ValueError('A reviewed mask has no corresponding instance')
     image_by_path = {image['image_path']: image for image in images}
+    # Preserve reviewed additional physical views even when their parts have not
+    # been annotated yet. An empty instance list here means "unreviewed", never
+    # an exhaustive negative image for component training.
+    for capture in captures.values():
+        if capture['image_path'] in image_by_path:
+            continue
+        capture_path = ROOT / capture['image_path']
+        if not capture_path.is_file() or content_sha(capture_path) != capture['image_sha256']:
+            raise ValueError(f'Additional multi-view capture is missing or has changed: {capture["image_path"]}')
+        with Image.open(capture_path) as raw:
+            width, height = ImageOps.exif_transpose(raw).size
+        image = {'image_path': capture['image_path'], 'image_sha256': capture['image_sha256'],
+                 'class_id': capture['class_id'], 'component_coverage': 'unreviewed',
+                 'image_width': width, 'image_height': height, 'calibration_landmarks': [],
+                 'instances': [], 'unparented_contacts': []}
+        images.append(image)
+        image_by_path[capture['image_path']] = image
     specimen_views = {}
     for capture in captures.values():
         if capture['image_path'] not in image_by_path or capture['class_id'] != image_by_path[capture['image_path']]['class_id']:

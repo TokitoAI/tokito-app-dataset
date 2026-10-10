@@ -60,9 +60,12 @@ if model_dir.is_dir():
 phone_folder=root/'data/phone-captures/2026-10-10'
 if phone_folder.is_dir():
  phone_manifest=json.loads((phone_folder/'manifest.json').read_text())
- phone_rows=phone_manifest['photos'];assert len(phone_rows)==33
+ phone_rows=phone_manifest['photos'];assert len(phone_rows)==34
  assert len({row['board_family'] for row in phone_rows})==5
- phone_by_name={row['image_file']:row for row in phone_rows};assert len(phone_by_name)==33
+ phone_by_name={row['image_file']:row for row in phone_rows};assert len(phone_by_name)==34
+ nxp_back=phone_by_name['IMG_20261010_192033.jpg']
+ assert nxp_back['view_slot']=='bottom' and nxp_back['board_surface']=='bottom'
+ assert nxp_back['variant_revision_status']=='schematic_revision_label_visible; PCB layout revision unverified'
  for row in phone_rows:
   photo=(root/row['image_path']).resolve();assert photo.is_relative_to(phone_folder.resolve())
   b=photo.read_bytes()
@@ -109,4 +112,4 @@ if phone_folder.is_dir():
   assert len(label_ids)==65 and pin_count==60
 print('Validated80 source hashes/board boxes, YOLO labels,62/11/7 split, no original/crop leakage and Pi mechanical DXF provenance.' + (' Fine-tune artifact hashes also checked.' if model_dir.is_dir() else ' Diagnostic model artifacts are outside this capture-only checkout.'))
 if phone_folder.is_dir():
- print('Validated 33 intake hashes.' + (' Five partial scan references with 60 literal contact aliases and three marking families also checked.' if (phone_folder/'reviewed-scan-references.json').is_file() else ' Scan-reference additions are outside this capture-only checkout.'))
+ print(f'Validated {len(phone_rows)} intake hashes.' + (' Five partial scan references with 60 literal contact aliases and three marking families also checked.' if (phone_folder/'reviewed-scan-references.json').is_file() else ' Scan-reference additions are outside this capture-only checkout.'))

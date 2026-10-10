@@ -11,7 +11,7 @@
     "data/photo-model/label-hierarchy.json": "08adbb7651caf2f71b31d30f91a4f4c4973a7cf663aa2d1feceb056d8fcfe7a4",
     "data/phone-captures/2026-10-10/reviewed-scan-references.json": "4a2a3fb35b0bbf76903da532e2d4d18fc02045ecef94897334d46637cb643c8e",
     "annotations/ar-instance-masks.json": "9c00dc1dcadaa2457943b66a1cb22a163399bb15e3e985c7f2d6643d890e9faf",
-    "annotations/multiview-capture-review.json": "bfa82a1ae61613982ba97e2c08e594bcdd746ced2f9f35d86830be67f75f850f",
+    "annotations/multiview-capture-review.json": "1a3b1ebe2befdaa7508ba47c4da1c2ad9ef8fff5f3de65bc505238ec2a0e79e9",
     "data/board-sources/nxp-frdm-mcxn236/ar-reference/component-map.json": "8fd8a25b1c53da7a8a7dfb414d4410dfa1b76c916ee76315e82cb3027015fedd",
     "data/board-sources/nxp-frdm-mcxn236/ar-reference/digital-twin-manifest.json": "74fa245678566d04902dc2b80b56967ec96c2068d1679ce3a75faeaf0591eff5",
     "data/board-sources/nxp-frdm-mcxn236/ar-reference/provenance.json": "3f9741e47ca5a4093e1694b4280c735249c0a8bd48084e1035aca684ebe97572",
@@ -18420,6 +18420,31 @@
         "camera_calibration_id": null,
         "board_to_camera_pose": null
       }
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_192033.jpg",
+      "image_sha256": "e0367bf7057c4b1db78143d17bd4e3b6c5dad0ba52ace87591ee27786be7c4e0",
+      "class_id": 3,
+      "component_coverage": "unreviewed",
+      "image_width": 3072,
+      "image_height": 4096,
+      "calibration_landmarks": [],
+      "instances": [],
+      "unparented_contacts": [],
+      "view_metadata": {
+        "class_id": 3,
+        "specimen_id": "bench-frdm-mcxn236-01",
+        "image_path": "data/phone-captures/2026-10-10/IMG_20261010_192033.jpg",
+        "image_sha256": "e0367bf7057c4b1db78143d17bd4e3b6c5dad0ba52ace87591ee27786be7c4e0",
+        "view_slot": "bottom",
+        "board_surface": "bottom",
+        "specimen_assignment_status": "reported_same_bench_specimen; underside serial LI24493750 visible, serial absent from top image",
+        "camera_calibration_id": null,
+        "board_to_camera_pose": null,
+        "capture_role": "full_board_underside",
+        "component_coverage": "unreviewed",
+        "review_evidence": "Original-resolution full-board still inspected; underside serial and schematic revision sticker readable. PCB layout revision and metric pose are not confirmed."
+      }
     }
   ],
   "multiview_coverage": {
@@ -18432,7 +18457,7 @@
       "oblique_negative_board_y"
     ],
     "specimens_with_all_required_real_views": 0,
-    "reviewed_real_view_count": 5,
+    "reviewed_real_view_count": 6,
     "reviewed_physical_flip_sequence_count": 0,
     "camera_calibrated_real_capture_count": 0
   },

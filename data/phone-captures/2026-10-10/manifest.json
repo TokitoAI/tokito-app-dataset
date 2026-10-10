@@ -531,6 +531,30 @@
       "part_status": "not_yet_annotated",
       "pin_status": "not_yet_annotated",
       "variant_revision_status": "visually_marked_family_revision_reviewed"
+    },
+    {
+      "image_file": "IMG_20261010_192033.jpg",
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_192033.jpg",
+      "image_sha256": "e0367bf7057c4b1db78143d17bd4e3b6c5dad0ba52ace87591ee27786be7c4e0",
+      "image_width": 3072,
+      "image_height": 4096,
+      "capture_time_local": "2026-10-10T19:20:33+05:30",
+      "capture_session_id": "nxp_frdm_mcxn236_unknown_rev:2026-10-10:1920",
+      "board_family": "nxp_frdm_mcxn236_unknown_rev",
+      "board_display_name": "NXP FRDM-MCXN236 (PCB layout revision unverified)",
+      "capture_role": "full_board_underside",
+      "board_surface": "bottom",
+      "view_slot": "bottom",
+      "board_box_status": "not_yet_annotated",
+      "part_status": "not_yet_annotated",
+      "pin_status": "not_yet_annotated",
+      "variant_revision_status": "schematic_revision_label_visible; PCB layout revision unverified",
+      "visible_identity_evidence": [
+        "700-90828 REV A1",
+        "SCH-90828 REV C",
+        "S/N LI24493750"
+      ],
+      "identity_review_note": "Underside labels are legible. SCH-90828 REV C identifies a schematic revision; it does not by itself establish the PCB layout revision or fitted BOM."
     }
   ]
 }
