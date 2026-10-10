@@ -37,4 +37,5 @@ data/video-captures/**/*.json -text whitespace=cr-at-eol
 data/ar-alignment/*.json -text whitespace=cr-at-eol
 data/board-sources/**/ar-reference/*.json -text whitespace=cr-at-eol
 data/board-sources/**/ar-source-candidate/*.json -text whitespace=cr-at-eol
+data/board-sources/esp32-devkit-30pin/ar-source-candidate/input/*.json -text whitespace=cr-at-eol
 data/board-sources/**/structured-source/*.json -text
