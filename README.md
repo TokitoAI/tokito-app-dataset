@@ -24,6 +24,8 @@ Use a virtual environment with a CUDA-enabled PyTorch build and install `require
 
 The detector identifies the five currently reviewed board identities. Exact component reference designators, manufacturer part numbers and pins are resolved after board registration against a revision-matched PCB/BOM/netlist; they are not global YOLO classes.
 
+The current release-ineligible [YOLO11m experiment](data/photo-model/board-yolo11m-experiment/README.md) includes the selected PyTorch checkpoint, float32 LiteRT export, training curves, hashes and diagnostic validation report.
+
 The first split has62 training images and11 validation originals. Seven validation crop variants are excluded, and no original/crop pair crosses folds. There is one physical specimen per family and no independent specimen test. ESP32 has no separate validation pose group, so no held-out ESP32 accuracy can be reported.
 
 ## Component labeling and document links

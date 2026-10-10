@@ -1,0 +1,102 @@
+{
+  "schema_version": "1.0",
+  "task": "five_family_board_detection",
+  "release_eligible": false,
+  "evaluation_valid": false,
+  "selection": {
+    "architecture": "YOLO11m",
+    "pretrained_checkpoint": "yolo11m.pt",
+    "input_size": 640,
+    "epoch_ceiling": 500,
+    "early_stopping_patience": 60,
+    "stopped_epoch": 135,
+    "best_epoch": 75,
+    "batch": 4,
+    "optimizer": "AdamW",
+    "initial_learning_rate": 0.001,
+    "schedule": "cosine",
+    "frozen_layers": 10,
+    "amp": true,
+    "seed": 42,
+    "selection_rule": "highest validation fitness; best.pt selected instead of last.pt"
+  },
+  "class_names": [
+    "esp32_devkit_30pin_unknown_variant",
+    "esp8266_nodemcu_esp12e_clone_unknown_variant",
+    "ultimainboard_2_1_4",
+    "nxp_frdm_mcxn236_unknown_rev",
+    "raspberry_pi_3b_v1_2"
+  ],
+  "pytorch_validation": {
+    "images": 11,
+    "instances": 11,
+    "precision": 0.959,
+    "recall": 1.0,
+    "map50": 0.995,
+    "map50_95": 0.91856,
+    "inference_ms_per_image_rtx_3050": 28.6
+  },
+  "litert_validation": {
+    "images": 11,
+    "instances": 11,
+    "precision": 0.9557157743456131,
+    "recall": 1.0,
+    "map50": 0.995,
+    "map50_95": 0.8811875,
+    "inference_ms_per_image_ryzen_cpu_wsl": 245.4
+  },
+  "rejected_refinement": {
+    "method": "fully unfrozen fine-tune from selected checkpoint at lr0=0.0002",
+    "best_observed_map50_95": 0.91169,
+    "reason": "did not exceed the selected frozen-backbone checkpoint"
+  },
+  "dataset": {
+    "train_images": 62,
+    "validation_images": 11,
+    "held_out_crop_variants": 7,
+    "physical_specimens_per_family": 1,
+    "validation_classes": [
+      "esp8266_nodemcu_esp12e_clone_unknown_variant",
+      "ultimainboard_2_1_4",
+      "nxp_frdm_mcxn236_unknown_rev",
+      "raspberry_pi_3b_v1_2"
+    ],
+    "validation_esp32": "absent"
+  },
+  "scope": {
+    "supported": "board identity detection for the five reviewed identities",
+    "unsupported": [
+      "unseen-specimen accuracy claims",
+      "exact installed component manufacturer part numbers",
+      "reference designators without board registration",
+      "exact pins without parent-part orientation and source mapping",
+      "BOM, schematic or Gerber document classification"
+    ]
+  },
+  "artifacts": {
+    "best.pt": {
+      "bytes": 40518828,
+      "sha256": "745c7efe83465573463be2d2df34ee4e2312dde8877a866eeaa4027652bd0e8e"
+    },
+    "best.tflite": {
+      "bytes": 80492215,
+      "sha256": "745cbfba26e4f75e0b341dd5b1bfdcef3e079ab61260ab75f89ccc8b1bbc9920"
+    },
+    "results.csv": {
+      "bytes": 16410,
+      "sha256": "689d2f5eed99b20460e5e5b3e98d06d622190c47a0c0cf526a3c46988f46786d"
+    },
+    "results.png": {
+      "bytes": 280175,
+      "sha256": "9d727f74d8cce978772b67673acac747401417bfd9752ed3d92c52889ebf18bd"
+    },
+    "confusion_matrix.png": {
+      "bytes": 172178,
+      "sha256": "c1e106a8bcd8f1c83f5e4279e198c4884401524ba1adbc8d15bf578d86d4c9c1"
+    },
+    "confusion_matrix_normalized.png": {
+      "bytes": 188985,
+      "sha256": "5de59c4afd50367bc6b3ed1ba1e22da4115d2d58bd8e7721272fe7db6cfe99c7"
+    }
+  }
+}
