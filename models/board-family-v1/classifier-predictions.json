@@ -1,0 +1,1863 @@
+{
+  "scope": "80 known-photo manual-board-crop diagnostic; train examples included; no independent specimen/session accuracy; no component detector",
+  "weights": "data/photo-model/classifier-runs/board-crop-v1/weights/best.pt",
+  "counts": {
+    "train": {
+      "correct": 60,
+      "total": 60
+    },
+    "val": {
+      "correct": 12,
+      "total": 12
+    },
+    "excluded_val_variant": {
+      "correct": 8,
+      "total": 8
+    }
+  },
+  "total_correct": 80,
+  "total": 80,
+  "errors": {},
+  "predictions": [
+    {
+      "file": "IMG_20261009_221154.jpg",
+      "board_class": "esp8266_board",
+      "capture_group": "IMG_20261009_221154.jpg",
+      "split": "val",
+      "crop": "data/photo-model/classifier-dataset/val/esp8266_board/IMG_20261009_221154.jpg",
+      "crop_box_pixels": [
+        614,
+        703,
+        2458,
+        3843
+      ],
+      "predicted_class": "esp8266_board",
+      "confidence": 0.9999830722808838,
+      "correct": true,
+      "class_probabilities": {
+        "esp32_board": 1.6677990060998127e-05,
+        "esp8266_board": 0.9999830722808838,
+        "nxp_frdm_mcxn236_board": 1.8694302639232774e-07,
+        "raspberry_pi_3b_board": 1.4183691998681525e-09,
+        "ultimainboard": 6.0459370843091165e-09
+      }
+    },
+    {
+      "file": "IMG_20261009_221155.jpg",
+      "board_class": "esp8266_board",
+      "capture_group": "IMG_20261009_221155.jpg",
+      "split": "val",
+      "crop": "data/photo-model/classifier-dataset/val/esp8266_board/IMG_20261009_221155.jpg",
+      "crop_box_pixels": [
+        642,
+        717,
+        2492,
+        3857
+      ],
+      "predicted_class": "esp8266_board",
+      "confidence": 0.9999915361404419,
+      "correct": true,
+      "class_probabilities": {
+        "esp32_board": 8.343356057594065e-06,
+        "esp8266_board": 0.9999915361404419,
+        "nxp_frdm_mcxn236_board": 1.6166107741355518e-07,
+        "raspberry_pi_3b_board": 1.5830430299956788e-09,
+        "ultimainboard": 1.0874696698692787e-08
+      }
+    },
+    {
+      "file": "IMG_20261009_221156.jpg",
+      "board_class": "esp8266_board",
+      "capture_group": "IMG_20261009_221156.jpg",
+      "split": "val",
+      "crop": "data/photo-model/classifier-dataset/val/esp8266_board/IMG_20261009_221156.jpg",
+      "crop_box_pixels": [
+        662,
+        683,
+        2546,
+        3823
+      ],
+      "predicted_class": "esp8266_board",
+      "confidence": 0.9999963045120239,
+      "correct": true,
+      "class_probabilities": {
+        "esp32_board": 3.5608572943601757e-06,
+        "esp8266_board": 0.9999963045120239,
+        "nxp_frdm_mcxn236_board": 1.1870825744608737e-07,
+        "raspberry_pi_3b_board": 1.2629536305652778e-09,
+        "ultimainboard": 5.681961123826795e-09
+      }
+    },
+    {
+      "file": "IMG_20261009_221210.jpg",
+      "board_class": "esp8266_board",
+      "capture_group": "IMG_20261009_221210.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/esp8266_board/IMG_20261009_221210.jpg",
+      "crop_box_pixels": [
+        0,
+        1495,
+        3072,
+        3181
+      ],
+      "predicted_class": "esp8266_board",
+      "confidence": 1.0,
+      "correct": true,
+      "class_probabilities": {
+        "esp32_board": 5.306546313477156e-08,
+        "esp8266_board": 1.0,
+        "nxp_frdm_mcxn236_board": 8.46438030777108e-10,
+        "raspberry_pi_3b_board": 1.2986045572205285e-10,
+        "ultimainboard": 6.706375472315118e-12
+      }
+    },
+    {
+      "file": "IMG_20261009_221220.jpg",
+      "board_class": "esp8266_board",
+      "capture_group": "IMG_20261009_221220.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/esp8266_board/IMG_20261009_221220.jpg",
+      "crop_box_pixels": [
+        0,
+        1447,
+        3072,
+        3154
+      ],
+      "predicted_class": "esp8266_board",
+      "confidence": 1.0,
+      "correct": true,
+      "class_probabilities": {
+        "esp32_board": 4.759561988976202e-08,
+        "esp8266_board": 1.0,
+        "nxp_frdm_mcxn236_board": 1.8638701693163284e-09,
+        "raspberry_pi_3b_board": 3.316570906797267e-10,
+        "ultimainboard": 2.32132559702114e-11
+      }
+    },
+    {
+      "file": "IMG_20261009_221222.jpg",
+      "board_class": "esp8266_board",
+      "capture_group": "IMG_20261009_221222.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/esp8266_board/IMG_20261009_221222.jpg",
+      "crop_box_pixels": [
+        0,
+        1454,
+        3031,
+        3154
+      ],
+      "predicted_class": "esp8266_board",
+      "confidence": 1.0,
+      "correct": true,
+      "class_probabilities": {
+        "esp32_board": 3.3317657965881153e-08,
+        "esp8266_board": 1.0,
+        "nxp_frdm_mcxn236_board": 4.0028530490232583e-10,
+        "raspberry_pi_3b_board": 5.1313973903344134e-11,
+        "ultimainboard": 6.211380802062516e-12
+      }
+    },
+    {
+      "file": "IMG_20261009_221225.jpg",
+      "board_class": "esp8266_board",
+      "capture_group": "IMG_20261009_221225.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/esp8266_board/IMG_20261009_221225.jpg",
+      "crop_box_pixels": [
+        0,
+        1242,
+        3031,
+        2915
+      ],
+      "predicted_class": "esp8266_board",
+      "confidence": 1.0,
+      "correct": true,
+      "class_probabilities": {
+        "esp32_board": 6.496841731262748e-09,
+        "esp8266_board": 1.0,
+        "nxp_frdm_mcxn236_board": 9.871614636836057e-11,
+        "raspberry_pi_3b_board": 2.0618475676803527e-11,
+        "ultimainboard": 6.57319793213873e-13
+      }
+    },
+    {
+      "file": "IMG_20261009_221230.jpg",
+      "board_class": "esp8266_board",
+      "capture_group": "IMG_20261009_221230.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/esp8266_board/IMG_20261009_221230.jpg",
+      "crop_box_pixels": [
+        0,
+        1277,
+        3024,
+        2915
+      ],
+      "predicted_class": "esp8266_board",
+      "confidence": 0.9999998807907104,
+      "correct": true,
+      "class_probabilities": {
+        "esp32_board": 6.071685021424855e-08,
+        "esp8266_board": 0.9999998807907104,
+        "nxp_frdm_mcxn236_board": 3.0447466770056053e-09,
+        "raspberry_pi_3b_board": 7.985837546797825e-10,
+        "ultimainboard": 8.647699917263552e-11
+      }
+    },
+    {
+      "file": "IMG_20261009_221340.jpg",
+      "board_class": "nxp_frdm_mcxn236_board",
+      "capture_group": "IMG_20261009_221340.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/nxp_frdm_mcxn236_board/IMG_20261009_221340.jpg",
+      "crop_box_pixels": [
+        335,
+        0,
+        2765,
+        3953
+      ],
+      "predicted_class": "nxp_frdm_mcxn236_board",
+      "confidence": 0.9999997615814209,
+      "correct": true,
+      "class_probabilities": {
+        "esp32_board": 8.626049208260156e-08,
+        "esp8266_board": 1.2918390801530677e-08,
+        "nxp_frdm_mcxn236_board": 0.9999997615814209,
+        "raspberry_pi_3b_board": 1.5646577367078862e-09,
+        "ultimainboard": 7.978567140298765e-08
+      }
+    },
+    {
+      "file": "IMG_20261009_221343.jpg",
+      "board_class": "nxp_frdm_mcxn236_board",
+      "capture_group": "IMG_20261009_221343.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/nxp_frdm_mcxn236_board/IMG_20261009_221343.jpg",
+      "crop_box_pixels": [
+        307,
+        48,
+        2703,
+        4096
+      ],
+      "predicted_class": "nxp_frdm_mcxn236_board",
+      "confidence": 0.9999997615814209,
+      "correct": true,
+      "class_probabilities": {
+        "esp32_board": 1.929776090037194e-07,
+        "esp8266_board": 9.703134651317669e-08,
+        "nxp_frdm_mcxn236_board": 0.9999997615814209,
+        "raspberry_pi_3b_board": 1.607332489328428e-09,
+        "ultimainboard": 4.8997645052395455e-08
+      }
+    },
+    {
+      "file": "IMG_20261009_221348.jpg",
+      "board_class": "nxp_frdm_mcxn236_board",
+      "capture_group": "IMG_20261009_221348.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/nxp_frdm_mcxn236_board/IMG_20261009_221348.jpg",
+      "crop_box_pixels": [
+        396,
+        0,
+        2799,
+        4096
+      ],
+      "predicted_class": "nxp_frdm_mcxn236_board",
+      "confidence": 0.9999966621398926,
+      "correct": true,
+      "class_probabilities": {
+        "esp32_board": 2.402498012088472e-06,
+        "esp8266_board": 7.578750569336989e-07,
+        "nxp_frdm_mcxn236_board": 0.9999966621398926,
+        "raspberry_pi_3b_board": 9.295425762445575e-09,
+        "ultimainboard": 1.146447416999763e-07
+      }
+    },
+    {
+      "file": "IMG_20261009_221350.jpg",
+      "board_class": "nxp_frdm_mcxn236_board",
+      "capture_group": "IMG_20261009_221350.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/nxp_frdm_mcxn236_board/IMG_20261009_221350.jpg",
+      "crop_box_pixels": [
+        321,
+        0,
+        2737,
+        3557
+      ],
+      "predicted_class": "nxp_frdm_mcxn236_board",
+      "confidence": 0.9999997615814209,
+      "correct": true,
+      "class_probabilities": {
+        "esp32_board": 2.5784117951843655e-08,
+        "esp8266_board": 2.2452821824003877e-09,
+        "nxp_frdm_mcxn236_board": 0.9999997615814209,
+        "raspberry_pi_3b_board": 1.3173476753891578e-09,
+        "ultimainboard": 2.871502431389672e-07
+      }
+    },
+    {
+      "file": "IMG_20261009_221646.jpg",
+      "board_class": "nxp_frdm_mcxn236_board",
+      "capture_group": "IMG_20261009_221646.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/nxp_frdm_mcxn236_board/IMG_20261009_221646.jpg",
+      "crop_box_pixels": [
+        608,
+        0,
+        2512,
+        4096
+      ],
+      "predicted_class": "nxp_frdm_mcxn236_board",
+      "confidence": 0.9999998807907104,
+      "correct": true,
+      "class_probabilities": {
+        "esp32_board": 1.895036305654685e-08,
+        "esp8266_board": 3.520829405800896e-09,
+        "nxp_frdm_mcxn236_board": 0.9999998807907104,
+        "raspberry_pi_3b_board": 2.3958734995943587e-09,
+        "ultimainboard": 1.0232751890271174e-07
+      }
+    },
+    {
+      "file": "IMG_20261009_221657.jpg",
+      "board_class": "nxp_frdm_mcxn236_board",
+      "capture_group": "IMG_20261009_221657.jpg",
+      "split": "val",
+      "crop": "data/photo-model/classifier-dataset/val/nxp_frdm_mcxn236_board/IMG_20261009_221657.jpg",
+      "crop_box_pixels": [
+        894,
+        894,
+        2116,
+        3420
+      ],
+      "predicted_class": "nxp_frdm_mcxn236_board",
+      "confidence": 0.9999997615814209,
+      "correct": true,
+      "class_probabilities": {
+        "esp32_board": 1.7678745578564303e-08,
+        "esp8266_board": 1.6810388636656626e-09,
+        "nxp_frdm_mcxn236_board": 0.9999997615814209,
+        "raspberry_pi_3b_board": 1.5608900838515183e-09,
+        "ultimainboard": 2.762858741789387e-07
+      }
+    },
+    {
+      "file": "IMG_20261009_221717.jpg",
+      "board_class": "nxp_frdm_mcxn236_board",
+      "capture_group": "IMG_20261009_221717.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/nxp_frdm_mcxn236_board/IMG_20261009_221717.jpg",
+      "crop_box_pixels": [
+        471,
+        0,
+        2444,
+        3994
+      ],
+      "predicted_class": "nxp_frdm_mcxn236_board",
+      "confidence": 1.0,
+      "correct": true,
+      "class_probabilities": {
+        "esp32_board": 5.79656944665885e-09,
+        "esp8266_board": 4.879494586162991e-10,
+        "nxp_frdm_mcxn236_board": 1.0,
+        "raspberry_pi_3b_board": 7.850161631850483e-10,
+        "ultimainboard": 3.597279274458742e-08
+      }
+    },
+    {
+      "file": "IMG_20261009_221717_1.jpg",
+      "board_class": "nxp_frdm_mcxn236_board",
+      "capture_group": "IMG_20261009_221717.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/nxp_frdm_mcxn236_board/IMG_20261009_221717_1.jpg",
+      "crop_box_pixels": [
+        0,
+        0,
+        1840,
+        3878
+      ],
+      "predicted_class": "nxp_frdm_mcxn236_board",
+      "confidence": 0.9999998807907104,
+      "correct": true,
+      "class_probabilities": {
+        "esp32_board": 8.823248798250916e-09,
+        "esp8266_board": 6.973187582914875e-10,
+        "nxp_frdm_mcxn236_board": 0.9999998807907104,
+        "raspberry_pi_3b_board": 2.9527360556613758e-09,
+        "ultimainboard": 1.342938418247286e-07
+      }
+    },
+    {
+      "file": "IMG_20261009_221719.jpg",
+      "board_class": "nxp_frdm_mcxn236_board",
+      "capture_group": "IMG_20261009_221719.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/nxp_frdm_mcxn236_board/IMG_20261009_221719.jpg",
+      "crop_box_pixels": [
+        471,
+        0,
+        2444,
+        4096
+      ],
+      "predicted_class": "nxp_frdm_mcxn236_board",
+      "confidence": 1.0,
+      "correct": true,
+      "class_probabilities": {
+        "esp32_board": 2.754112049530022e-09,
+        "esp8266_board": 1.8318918604265377e-10,
+        "nxp_frdm_mcxn236_board": 1.0,
+        "raspberry_pi_3b_board": 6.217859005452908e-10,
+        "ultimainboard": 2.953019695439707e-08
+      }
+    },
+    {
+      "file": "IMG_20261009_221719_1.jpg",
+      "board_class": "nxp_frdm_mcxn236_board",
+      "capture_group": "IMG_20261009_221719.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/nxp_frdm_mcxn236_board/IMG_20261009_221719_1.jpg",
+      "crop_box_pixels": [
+        0,
+        0,
+        1800,
+        3894
+      ],
+      "predicted_class": "nxp_frdm_mcxn236_board",
+      "confidence": 0.9999992847442627,
+      "correct": true,
+      "class_probabilities": {
+        "esp32_board": 6.142128228248112e-08,
+        "esp8266_board": 6.836865740211806e-09,
+        "nxp_frdm_mcxn236_board": 0.9999992847442627,
+        "raspberry_pi_3b_board": 1.750753320095555e-08,
+        "ultimainboard": 6.451210765590076e-07
+      }
+    },
+    {
+      "file": "IMG_20261009_221755.jpg",
+      "board_class": "nxp_frdm_mcxn236_board",
+      "capture_group": "IMG_20261009_221755.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/nxp_frdm_mcxn236_board/IMG_20261009_221755.jpg",
+      "crop_box_pixels": [
+        614,
+        0,
+        2628,
+        4048
+      ],
+      "predicted_class": "nxp_frdm_mcxn236_board",
+      "confidence": 0.9999998807907104,
+      "correct": true,
+      "class_probabilities": {
+        "esp32_board": 2.6152621401820397e-08,
+        "esp8266_board": 3.2651659154225854e-09,
+        "nxp_frdm_mcxn236_board": 0.9999998807907104,
+        "raspberry_pi_3b_board": 1.2125773718452137e-09,
+        "ultimainboard": 6.340960823081332e-08
+      }
+    },
+    {
+      "file": "IMG_20261009_221755_1.jpg",
+      "board_class": "nxp_frdm_mcxn236_board",
+      "capture_group": "IMG_20261009_221755.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/nxp_frdm_mcxn236_board/IMG_20261009_221755_1.jpg",
+      "crop_box_pixels": [
+        0,
+        0,
+        1600,
+        3888
+      ],
+      "predicted_class": "nxp_frdm_mcxn236_board",
+      "confidence": 0.9999945163726807,
+      "correct": true,
+      "class_probabilities": {
+        "esp32_board": 1.2048093367411639e-06,
+        "esp8266_board": 8.251853387264418e-07,
+        "nxp_frdm_mcxn236_board": 0.9999945163726807,
+        "raspberry_pi_3b_board": 1.31635005118369e-07,
+        "ultimainboard": 3.3576900477783056e-06
+      }
+    },
+    {
+      "file": "IMG_20261009_221800.jpg",
+      "board_class": "nxp_frdm_mcxn236_board",
+      "capture_group": "IMG_20261009_221800.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/nxp_frdm_mcxn236_board/IMG_20261009_221800.jpg",
+      "crop_box_pixels": [
+        649,
+        0,
+        2656,
+        4096
+      ],
+      "predicted_class": "nxp_frdm_mcxn236_board",
+      "confidence": 0.9999998807907104,
+      "correct": true,
+      "class_probabilities": {
+        "esp32_board": 2.0616026219499872e-08,
+        "esp8266_board": 2.5082309562662886e-09,
+        "nxp_frdm_mcxn236_board": 0.9999998807907104,
+        "raspberry_pi_3b_board": 1.370363489350268e-09,
+        "ultimainboard": 7.245362354524332e-08
+      }
+    },
+    {
+      "file": "IMG_20261009_221800_1.jpg",
+      "board_class": "nxp_frdm_mcxn236_board",
+      "capture_group": "IMG_20261009_221800.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/nxp_frdm_mcxn236_board/IMG_20261009_221800_1.jpg",
+      "crop_box_pixels": [
+        0,
+        0,
+        1836,
+        3926
+      ],
+      "predicted_class": "nxp_frdm_mcxn236_board",
+      "confidence": 1.0,
+      "correct": true,
+      "class_probabilities": {
+        "esp32_board": 2.1193871546643095e-08,
+        "esp8266_board": 8.165929044068321e-10,
+        "nxp_frdm_mcxn236_board": 1.0,
+        "raspberry_pi_3b_board": 2.3671391513602202e-09,
+        "ultimainboard": 2.306315316502605e-08
+      }
+    },
+    {
+      "file": "IMG_20261009_221803.jpg",
+      "board_class": "nxp_frdm_mcxn236_board",
+      "capture_group": "IMG_20261009_221803.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/nxp_frdm_mcxn236_board/IMG_20261009_221803.jpg",
+      "crop_box_pixels": [
+        642,
+        0,
+        2649,
+        4096
+      ],
+      "predicted_class": "nxp_frdm_mcxn236_board",
+      "confidence": 0.9999998807907104,
+      "correct": true,
+      "class_probabilities": {
+        "esp32_board": 9.534749878525872e-09,
+        "esp8266_board": 5.743694964088775e-10,
+        "nxp_frdm_mcxn236_board": 0.9999998807907104,
+        "raspberry_pi_3b_board": 5.413752779404035e-10,
+        "ultimainboard": 8.059570433260888e-08
+      }
+    },
+    {
+      "file": "IMG_20261009_221803_1.jpg",
+      "board_class": "nxp_frdm_mcxn236_board",
+      "capture_group": "IMG_20261009_221803.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/nxp_frdm_mcxn236_board/IMG_20261009_221803_1.jpg",
+      "crop_box_pixels": [
+        0,
+        0,
+        1860,
+        3928
+      ],
+      "predicted_class": "nxp_frdm_mcxn236_board",
+      "confidence": 0.9999998807907104,
+      "correct": true,
+      "class_probabilities": {
+        "esp32_board": 1.1719421877387504e-08,
+        "esp8266_board": 3.081124688719683e-09,
+        "nxp_frdm_mcxn236_board": 0.9999998807907104,
+        "raspberry_pi_3b_board": 3.478735521866838e-09,
+        "ultimainboard": 1.4035124706879287e-07
+      }
+    },
+    {
+      "file": "IMG_20261009_221806.jpg",
+      "board_class": "nxp_frdm_mcxn236_board",
+      "capture_group": "IMG_20261009_221806.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/nxp_frdm_mcxn236_board/IMG_20261009_221806.jpg",
+      "crop_box_pixels": [
+        662,
+        20,
+        2690,
+        4096
+      ],
+      "predicted_class": "nxp_frdm_mcxn236_board",
+      "confidence": 1.0,
+      "correct": true,
+      "class_probabilities": {
+        "esp32_board": 6.231301696857372e-09,
+        "esp8266_board": 7.338595842121265e-10,
+        "nxp_frdm_mcxn236_board": 1.0,
+        "raspberry_pi_3b_board": 6.150836506790824e-10,
+        "ultimainboard": 3.218607602661905e-08
+      }
+    },
+    {
+      "file": "IMG_20261009_221806_1.jpg",
+      "board_class": "nxp_frdm_mcxn236_board",
+      "capture_group": "IMG_20261009_221806.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/nxp_frdm_mcxn236_board/IMG_20261009_221806_1.jpg",
+      "crop_box_pixels": [
+        0,
+        0,
+        1964,
+        3984
+      ],
+      "predicted_class": "nxp_frdm_mcxn236_board",
+      "confidence": 1.0,
+      "correct": true,
+      "class_probabilities": {
+        "esp32_board": 3.859602415445806e-09,
+        "esp8266_board": 7.415745795213979e-10,
+        "nxp_frdm_mcxn236_board": 1.0,
+        "raspberry_pi_3b_board": 3.119745017876596e-10,
+        "ultimainboard": 2.7746926534177874e-08
+      }
+    },
+    {
+      "file": "IMG_20261009_221838.jpg",
+      "board_class": "esp32_board",
+      "capture_group": "IMG_20261009_221838.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/esp32_board/IMG_20261009_221838.jpg",
+      "crop_box_pixels": [
+        1167,
+        512,
+        2191,
+        2294
+      ],
+      "predicted_class": "esp32_board",
+      "confidence": 0.9999961853027344,
+      "correct": true,
+      "class_probabilities": {
+        "esp32_board": 0.9999961853027344,
+        "esp8266_board": 3.872723482345464e-06,
+        "nxp_frdm_mcxn236_board": 5.15211262541726e-10,
+        "raspberry_pi_3b_board": 1.0886939266763207e-10,
+        "ultimainboard": 2.010884653236289e-10
+      }
+    },
+    {
+      "file": "IMG_20261009_221838_1.jpg",
+      "board_class": "esp32_board",
+      "capture_group": "IMG_20261009_221838.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/esp32_board/IMG_20261009_221838_1.jpg",
+      "crop_box_pixels": [
+        0,
+        0,
+        928,
+        1692
+      ],
+      "predicted_class": "esp32_board",
+      "confidence": 0.999993085861206,
+      "correct": true,
+      "class_probabilities": {
+        "esp32_board": 0.999993085861206,
+        "esp8266_board": 6.8972403823863715e-06,
+        "nxp_frdm_mcxn236_board": 1.5650621909557572e-09,
+        "raspberry_pi_3b_board": 1.242930758316163e-09,
+        "ultimainboard": 1.2077036037894118e-09
+      }
+    },
+    {
+      "file": "IMG_20261009_221841.jpg",
+      "board_class": "esp32_board",
+      "capture_group": "IMG_20261009_221841.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/esp32_board/IMG_20261009_221841.jpg",
+      "crop_box_pixels": [
+        997,
+        567,
+        2028,
+        2348
+      ],
+      "predicted_class": "esp32_board",
+      "confidence": 0.9999891519546509,
+      "correct": true,
+      "class_probabilities": {
+        "esp32_board": 0.9999891519546509,
+        "esp8266_board": 1.0823822776728775e-05,
+        "nxp_frdm_mcxn236_board": 7.532172108248858e-10,
+        "raspberry_pi_3b_board": 2.804289300772922e-10,
+        "ultimainboard": 2.755499439732745e-10
+      }
+    },
+    {
+      "file": "IMG_20261009_221841_1.jpg",
+      "board_class": "esp32_board",
+      "capture_group": "IMG_20261009_221841.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/esp32_board/IMG_20261009_221841_1.jpg",
+      "crop_box_pixels": [
+        0,
+        0,
+        924,
+        1688
+      ],
+      "predicted_class": "esp32_board",
+      "confidence": 0.999994158744812,
+      "correct": true,
+      "class_probabilities": {
+        "esp32_board": 0.999994158744812,
+        "esp8266_board": 5.803209205623716e-06,
+        "nxp_frdm_mcxn236_board": 9.128692801674276e-10,
+        "raspberry_pi_3b_board": 4.698528788260603e-10,
+        "ultimainboard": 6.353871873088224e-10
+      }
+    },
+    {
+      "file": "IMG_20261009_221901.jpg",
+      "board_class": "esp32_board",
+      "capture_group": "IMG_20261009_221901.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/esp32_board/IMG_20261009_221901.jpg",
+      "crop_box_pixels": [
+        1229,
+        621,
+        2287,
+        2417
+      ],
+      "predicted_class": "esp32_board",
+      "confidence": 0.9999969005584717,
+      "correct": true,
+      "class_probabilities": {
+        "esp32_board": 0.9999969005584717,
+        "esp8266_board": 3.0826811325823655e-06,
+        "nxp_frdm_mcxn236_board": 3.256424241371292e-09,
+        "raspberry_pi_3b_board": 6.433448218601256e-10,
+        "ultimainboard": 1.5793479857251214e-09
+      }
+    },
+    {
+      "file": "IMG_20261009_221901_1.jpg",
+      "board_class": "esp32_board",
+      "capture_group": "IMG_20261009_221901.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/esp32_board/IMG_20261009_221901_1.jpg",
+      "crop_box_pixels": [
+        0,
+        0,
+        928,
+        1686
+      ],
+      "predicted_class": "esp32_board",
+      "confidence": 0.9999818801879883,
+      "correct": true,
+      "class_probabilities": {
+        "esp32_board": 0.9999818801879883,
+        "esp8266_board": 1.8069560610456392e-05,
+        "nxp_frdm_mcxn236_board": 4.343753357005653e-09,
+        "raspberry_pi_3b_board": 2.0834400871194703e-09,
+        "ultimainboard": 4.216989424321582e-09
+      }
+    },
+    {
+      "file": "IMG_20261009_221908.jpg",
+      "board_class": "esp32_board",
+      "capture_group": "IMG_20261009_221908.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/esp32_board/IMG_20261009_221908.jpg",
+      "crop_box_pixels": [
+        1004,
+        942,
+        2150,
+        2765
+      ],
+      "predicted_class": "esp32_board",
+      "confidence": 0.9999924898147583,
+      "correct": true,
+      "class_probabilities": {
+        "esp32_board": 0.9999924898147583,
+        "esp8266_board": 7.5388525146991014e-06,
+        "nxp_frdm_mcxn236_board": 2.1981930942160943e-08,
+        "raspberry_pi_3b_board": 1.5410793752224095e-09,
+        "ultimainboard": 6.7250107704808215e-09
+      }
+    },
+    {
+      "file": "IMG_20261009_221908_1.jpg",
+      "board_class": "esp32_board",
+      "capture_group": "IMG_20261009_221908.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/esp32_board/IMG_20261009_221908_1.jpg",
+      "crop_box_pixels": [
+        0,
+        0,
+        808,
+        1716
+      ],
+      "predicted_class": "esp32_board",
+      "confidence": 0.999836802482605,
+      "correct": true,
+      "class_probabilities": {
+        "esp32_board": 0.999836802482605,
+        "esp8266_board": 0.00016308123304042965,
+        "nxp_frdm_mcxn236_board": 3.951550198166842e-08,
+        "raspberry_pi_3b_board": 1.0452352938727927e-07,
+        "ultimainboard": 1.5338263992248358e-08
+      }
+    },
+    {
+      "file": "IMG_20261009_221911.jpg",
+      "board_class": "esp32_board",
+      "capture_group": "IMG_20261009_221911.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/esp32_board/IMG_20261009_221911.jpg",
+      "crop_box_pixels": [
+        1065,
+        778,
+        2205,
+        2608
+      ],
+      "predicted_class": "esp32_board",
+      "confidence": 0.9999992847442627,
+      "correct": true,
+      "class_probabilities": {
+        "esp32_board": 0.9999992847442627,
+        "esp8266_board": 6.680331239294901e-07,
+        "nxp_frdm_mcxn236_board": 2.0590185112467907e-09,
+        "raspberry_pi_3b_board": 4.039750756135163e-10,
+        "ultimainboard": 1.2390186654442914e-09
+      }
+    },
+    {
+      "file": "IMG_20261009_221911_1.jpg",
+      "board_class": "esp32_board",
+      "capture_group": "IMG_20261009_221911.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/esp32_board/IMG_20261009_221911_1.jpg",
+      "crop_box_pixels": [
+        0,
+        0,
+        800,
+        1708
+      ],
+      "predicted_class": "esp32_board",
+      "confidence": 0.9999988079071045,
+      "correct": true,
+      "class_probabilities": {
+        "esp32_board": 0.9999988079071045,
+        "esp8266_board": 1.1670381354633719e-06,
+        "nxp_frdm_mcxn236_board": 1.2926769377141767e-10,
+        "raspberry_pi_3b_board": 8.372605386774978e-10,
+        "ultimainboard": 3.6728067809299603e-10
+      }
+    },
+    {
+      "file": "IMG_20261009_221914.jpg",
+      "board_class": "esp32_board",
+      "capture_group": "IMG_20261009_221914.jpg",
+      "split": "val",
+      "crop": "data/photo-model/classifier-dataset/val/esp32_board/IMG_20261009_221914.jpg",
+      "crop_box_pixels": [
+        1072,
+        758,
+        2205,
+        2580
+      ],
+      "predicted_class": "esp32_board",
+      "confidence": 0.9999969005584717,
+      "correct": true,
+      "class_probabilities": {
+        "esp32_board": 0.9999969005584717,
+        "esp8266_board": 3.0917021831555758e-06,
+        "nxp_frdm_mcxn236_board": 7.362860543480565e-09,
+        "raspberry_pi_3b_board": 1.3593657310906337e-09,
+        "ultimainboard": 4.750412063714293e-09
+      }
+    },
+    {
+      "file": "IMG_20261009_221914_1.jpg",
+      "board_class": "esp32_board",
+      "capture_group": "IMG_20261009_221914.jpg",
+      "split": "excluded_val_variant",
+      "crop": "data/photo-model/classifier-dataset/excluded_val_variant/esp32_board/IMG_20261009_221914_1.jpg",
+      "crop_box_pixels": [
+        0,
+        0,
+        804,
+        1706
+      ],
+      "predicted_class": "esp32_board",
+      "confidence": 0.9999961853027344,
+      "correct": true,
+      "class_probabilities": {
+        "esp32_board": 0.9999961853027344,
+        "esp8266_board": 3.8526213756995276e-06,
+        "nxp_frdm_mcxn236_board": 8.780955407239333e-10,
+        "raspberry_pi_3b_board": 1.3275205379414956e-09,
+        "ultimainboard": 1.9092392111730305e-09
+      }
+    },
+    {
+      "file": "IMG_20261009_221941.jpg",
+      "board_class": "esp8266_board",
+      "capture_group": "IMG_20261009_221941.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/esp8266_board/IMG_20261009_221941.jpg",
+      "crop_box_pixels": [
+        1051,
+        642,
+        2212,
+        2676
+      ],
+      "predicted_class": "esp8266_board",
+      "confidence": 0.9999938011169434,
+      "correct": true,
+      "class_probabilities": {
+        "esp32_board": 6.103032319515478e-06,
+        "esp8266_board": 0.9999938011169434,
+        "nxp_frdm_mcxn236_board": 1.7423897702428803e-07,
+        "raspberry_pi_3b_board": 2.361388418137267e-09,
+        "ultimainboard": 4.134591335969162e-09
+      }
+    },
+    {
+      "file": "IMG_20261009_221941_1.jpg",
+      "board_class": "esp8266_board",
+      "capture_group": "IMG_20261009_221941.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/esp8266_board/IMG_20261009_221941_1.jpg",
+      "crop_box_pixels": [
+        0,
+        0,
+        1016,
+        1866
+      ],
+      "predicted_class": "esp8266_board",
+      "confidence": 0.9999992847442627,
+      "correct": true,
+      "class_probabilities": {
+        "esp32_board": 7.016714675955882e-07,
+        "esp8266_board": 0.9999992847442627,
+        "nxp_frdm_mcxn236_board": 1.010964911785095e-08,
+        "raspberry_pi_3b_board": 8.447020305446529e-10,
+        "ultimainboard": 3.790800562342156e-09
+      }
+    },
+    {
+      "file": "IMG_20261009_221944.jpg",
+      "board_class": "esp8266_board",
+      "capture_group": "IMG_20261009_221944.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/esp8266_board/IMG_20261009_221944.jpg",
+      "crop_box_pixels": [
+        1154,
+        785,
+        2287,
+        2813
+      ],
+      "predicted_class": "esp8266_board",
+      "confidence": 0.9999936819076538,
+      "correct": true,
+      "class_probabilities": {
+        "esp32_board": 6.218443559191655e-06,
+        "esp8266_board": 0.9999936819076538,
+        "nxp_frdm_mcxn236_board": 1.0744545875240874e-07,
+        "raspberry_pi_3b_board": 9.230025077577864e-10,
+        "ultimainboard": 1.7555176201611289e-09
+      }
+    },
+    {
+      "file": "IMG_20261009_221944_1.jpg",
+      "board_class": "esp8266_board",
+      "capture_group": "IMG_20261009_221944.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/esp8266_board/IMG_20261009_221944_1.jpg",
+      "crop_box_pixels": [
+        0,
+        0,
+        1008,
+        1844
+      ],
+      "predicted_class": "esp8266_board",
+      "confidence": 0.9999974966049194,
+      "correct": true,
+      "class_probabilities": {
+        "esp32_board": 2.562853524068487e-06,
+        "esp8266_board": 0.9999974966049194,
+        "nxp_frdm_mcxn236_board": 1.2863162979215303e-08,
+        "raspberry_pi_3b_board": 1.3310668123267533e-09,
+        "ultimainboard": 1.5489323601514116e-08
+      }
+    },
+    {
+      "file": "IMG_20261009_221952.jpg",
+      "board_class": "esp8266_board",
+      "capture_group": "IMG_20261009_221952.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/esp8266_board/IMG_20261009_221952.jpg",
+      "crop_box_pixels": [
+        1017,
+        717,
+        2116,
+        2717
+      ],
+      "predicted_class": "esp8266_board",
+      "confidence": 0.9999974966049194,
+      "correct": true,
+      "class_probabilities": {
+        "esp32_board": 2.3914385565149132e-06,
+        "esp8266_board": 0.9999974966049194,
+        "nxp_frdm_mcxn236_board": 6.681908359951194e-08,
+        "raspberry_pi_3b_board": 1.1906757801938284e-09,
+        "ultimainboard": 2.007106036927553e-09
+      }
+    },
+    {
+      "file": "IMG_20261009_221952_1.jpg",
+      "board_class": "esp8266_board",
+      "capture_group": "IMG_20261009_221952.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/esp8266_board/IMG_20261009_221952_1.jpg",
+      "crop_box_pixels": [
+        0,
+        0,
+        1004,
+        1830
+      ],
+      "predicted_class": "esp8266_board",
+      "confidence": 0.9999974966049194,
+      "correct": true,
+      "class_probabilities": {
+        "esp32_board": 2.389254632362281e-06,
+        "esp8266_board": 0.9999974966049194,
+        "nxp_frdm_mcxn236_board": 1.702257605984414e-07,
+        "raspberry_pi_3b_board": 7.873539153990805e-09,
+        "ultimainboard": 8.890021163665551e-09
+      }
+    },
+    {
+      "file": "IMG_20261009_222024.jpg",
+      "board_class": "ultimainboard",
+      "capture_group": "IMG_20261009_222024.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/ultimainboard/IMG_20261009_222024.jpg",
+      "crop_box_pixels": [
+        416,
+        0,
+        2731,
+        4096
+      ],
+      "predicted_class": "ultimainboard",
+      "confidence": 1.0,
+      "correct": true,
+      "class_probabilities": {
+        "esp32_board": 1.912045410890073e-09,
+        "esp8266_board": 3.4306939511452583e-09,
+        "nxp_frdm_mcxn236_board": 1.2738771815179462e-08,
+        "raspberry_pi_3b_board": 4.195178093802099e-10,
+        "ultimainboard": 1.0
+      }
+    },
+    {
+      "file": "IMG_20261009_222024_1.jpg",
+      "board_class": "ultimainboard",
+      "capture_group": "IMG_20261009_222024.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/ultimainboard/IMG_20261009_222024_1.jpg",
+      "crop_box_pixels": [
+        0,
+        0,
+        2052,
+        4038
+      ],
+      "predicted_class": "ultimainboard",
+      "confidence": 1.0,
+      "correct": true,
+      "class_probabilities": {
+        "esp32_board": 2.432069649838109e-11,
+        "esp8266_board": 1.9844560023019042e-11,
+        "nxp_frdm_mcxn236_board": 4.695008271049517e-10,
+        "raspberry_pi_3b_board": 6.183958900507491e-11,
+        "ultimainboard": 1.0
+      }
+    },
+    {
+      "file": "IMG_20261009_222033.jpg",
+      "board_class": "ultimainboard",
+      "capture_group": "IMG_20261009_222033.jpg",
+      "split": "val",
+      "crop": "data/photo-model/classifier-dataset/val/ultimainboard/IMG_20261009_222033.jpg",
+      "crop_box_pixels": [
+        1085,
+        860,
+        2021,
+        2765
+      ],
+      "predicted_class": "ultimainboard",
+      "confidence": 0.9999990463256836,
+      "correct": true,
+      "class_probabilities": {
+        "esp32_board": 7.768004195440881e-08,
+        "esp8266_board": 4.855347768284446e-08,
+        "nxp_frdm_mcxn236_board": 8.396384600928286e-07,
+        "raspberry_pi_3b_board": 2.411377586497565e-08,
+        "ultimainboard": 0.9999990463256836
+      }
+    },
+    {
+      "file": "IMG_20261009_222033_1.jpg",
+      "board_class": "ultimainboard",
+      "capture_group": "IMG_20261009_222033.jpg",
+      "split": "excluded_val_variant",
+      "crop": "data/photo-model/classifier-dataset/excluded_val_variant/ultimainboard/IMG_20261009_222033_1.jpg",
+      "crop_box_pixels": [
+        0,
+        0,
+        728,
+        1716
+      ],
+      "predicted_class": "ultimainboard",
+      "confidence": 0.9999992847442627,
+      "correct": true,
+      "class_probabilities": {
+        "esp32_board": 2.459365155971227e-08,
+        "esp8266_board": 5.438085537434745e-08,
+        "nxp_frdm_mcxn236_board": 6.48572552108817e-07,
+        "raspberry_pi_3b_board": 1.4046945828738444e-08,
+        "ultimainboard": 0.9999992847442627
+      }
+    },
+    {
+      "file": "IMG_20261009_222038.jpg",
+      "board_class": "ultimainboard",
+      "capture_group": "IMG_20261009_222038.jpg",
+      "split": "val",
+      "crop": "data/photo-model/classifier-dataset/val/ultimainboard/IMG_20261009_222038.jpg",
+      "crop_box_pixels": [
+        1085,
+        922,
+        2021,
+        2819
+      ],
+      "predicted_class": "ultimainboard",
+      "confidence": 0.9999998807907104,
+      "correct": true,
+      "class_probabilities": {
+        "esp32_board": 1.4766075473460205e-08,
+        "esp8266_board": 6.144240671801526e-08,
+        "nxp_frdm_mcxn236_board": 1.2446881747507632e-08,
+        "raspberry_pi_3b_board": 1.3389464648128069e-08,
+        "ultimainboard": 0.9999998807907104
+      }
+    },
+    {
+      "file": "IMG_20261009_222038_1.jpg",
+      "board_class": "ultimainboard",
+      "capture_group": "IMG_20261009_222038.jpg",
+      "split": "excluded_val_variant",
+      "crop": "data/photo-model/classifier-dataset/excluded_val_variant/ultimainboard/IMG_20261009_222038_1.jpg",
+      "crop_box_pixels": [
+        0,
+        0,
+        728,
+        1716
+      ],
+      "predicted_class": "ultimainboard",
+      "confidence": 1.0,
+      "correct": true,
+      "class_probabilities": {
+        "esp32_board": 5.456390894664764e-10,
+        "esp8266_board": 3.245717306032958e-10,
+        "nxp_frdm_mcxn236_board": 7.55326201584694e-09,
+        "raspberry_pi_3b_board": 8.14289469186491e-10,
+        "ultimainboard": 1.0
+      }
+    },
+    {
+      "file": "IMG_20261009_222042.jpg",
+      "board_class": "ultimainboard",
+      "capture_group": "IMG_20261009_222042.jpg",
+      "split": "val",
+      "crop": "data/photo-model/classifier-dataset/val/ultimainboard/IMG_20261009_222042.jpg",
+      "crop_box_pixels": [
+        1038,
+        806,
+        1973,
+        2703
+      ],
+      "predicted_class": "ultimainboard",
+      "confidence": 0.9999998807907104,
+      "correct": true,
+      "class_probabilities": {
+        "esp32_board": 2.4258186570591533e-08,
+        "esp8266_board": 8.260035144758149e-08,
+        "nxp_frdm_mcxn236_board": 3.758944799869823e-08,
+        "raspberry_pi_3b_board": 1.1149080769712327e-08,
+        "ultimainboard": 0.9999998807907104
+      }
+    },
+    {
+      "file": "IMG_20261009_222042_1.jpg",
+      "board_class": "ultimainboard",
+      "capture_group": "IMG_20261009_222042.jpg",
+      "split": "excluded_val_variant",
+      "crop": "data/photo-model/classifier-dataset/excluded_val_variant/ultimainboard/IMG_20261009_222042_1.jpg",
+      "crop_box_pixels": [
+        0,
+        0,
+        728,
+        1710
+      ],
+      "predicted_class": "ultimainboard",
+      "confidence": 1.0,
+      "correct": true,
+      "class_probabilities": {
+        "esp32_board": 5.738712838265769e-10,
+        "esp8266_board": 2.0267643119353806e-10,
+        "nxp_frdm_mcxn236_board": 7.677229518776585e-09,
+        "raspberry_pi_3b_board": 6.832747700968866e-10,
+        "ultimainboard": 1.0
+      }
+    },
+    {
+      "file": "IMG_20261009_222108.jpg",
+      "board_class": "ultimainboard",
+      "capture_group": "IMG_20261009_222108.jpg",
+      "split": "val",
+      "crop": "data/photo-model/classifier-dataset/val/ultimainboard/IMG_20261009_222108.jpg",
+      "crop_box_pixels": [
+        1256,
+        840,
+        2185,
+        2737
+      ],
+      "predicted_class": "ultimainboard",
+      "confidence": 1.0,
+      "correct": true,
+      "class_probabilities": {
+        "esp32_board": 4.200256142894432e-09,
+        "esp8266_board": 1.1234274843729963e-08,
+        "nxp_frdm_mcxn236_board": 8.121586958509397e-09,
+        "raspberry_pi_3b_board": 1.8782235766678923e-09,
+        "ultimainboard": 1.0
+      }
+    },
+    {
+      "file": "IMG_20261009_222108_1.jpg",
+      "board_class": "ultimainboard",
+      "capture_group": "IMG_20261009_222108.jpg",
+      "split": "excluded_val_variant",
+      "crop": "data/photo-model/classifier-dataset/excluded_val_variant/ultimainboard/IMG_20261009_222108_1.jpg",
+      "crop_box_pixels": [
+        0,
+        0,
+        748,
+        1698
+      ],
+      "predicted_class": "ultimainboard",
+      "confidence": 1.0,
+      "correct": true,
+      "class_probabilities": {
+        "esp32_board": 2.625275274947825e-10,
+        "esp8266_board": 2.322580183733436e-10,
+        "nxp_frdm_mcxn236_board": 4.488075688868776e-09,
+        "raspberry_pi_3b_board": 2.4732368930635573e-10,
+        "ultimainboard": 1.0
+      }
+    },
+    {
+      "file": "IMG_20261009_222113.jpg",
+      "board_class": "ultimainboard",
+      "capture_group": "IMG_20261009_222113.jpg",
+      "split": "val",
+      "crop": "data/photo-model/classifier-dataset/val/ultimainboard/IMG_20261009_222113.jpg",
+      "crop_box_pixels": [
+        1229,
+        915,
+        2157,
+        2813
+      ],
+      "predicted_class": "ultimainboard",
+      "confidence": 1.0,
+      "correct": true,
+      "class_probabilities": {
+        "esp32_board": 5.206626241260892e-09,
+        "esp8266_board": 1.2542280103389203e-08,
+        "nxp_frdm_mcxn236_board": 9.964564284814514e-09,
+        "raspberry_pi_3b_board": 2.284694211596161e-09,
+        "ultimainboard": 1.0
+      }
+    },
+    {
+      "file": "IMG_20261009_222113_1.jpg",
+      "board_class": "ultimainboard",
+      "capture_group": "IMG_20261009_222113.jpg",
+      "split": "excluded_val_variant",
+      "crop": "data/photo-model/classifier-dataset/excluded_val_variant/ultimainboard/IMG_20261009_222113_1.jpg",
+      "crop_box_pixels": [
+        0,
+        0,
+        752,
+        1704
+      ],
+      "predicted_class": "ultimainboard",
+      "confidence": 0.9999998807907104,
+      "correct": true,
+      "class_probabilities": {
+        "esp32_board": 4.528454944363602e-09,
+        "esp8266_board": 3.09610581616937e-09,
+        "nxp_frdm_mcxn236_board": 1.058180671975606e-07,
+        "raspberry_pi_3b_board": 3.838612538942243e-09,
+        "ultimainboard": 0.9999998807907104
+      }
+    },
+    {
+      "file": "IMG_20261009_222133.jpg",
+      "board_class": "ultimainboard",
+      "capture_group": "IMG_20261009_222133.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/ultimainboard/IMG_20261009_222133.jpg",
+      "crop_box_pixels": [
+        928,
+        403,
+        2567,
+        3782
+      ],
+      "predicted_class": "ultimainboard",
+      "confidence": 0.9999998807907104,
+      "correct": true,
+      "class_probabilities": {
+        "esp32_board": 1.0618012247221031e-08,
+        "esp8266_board": 1.2063562593311872e-08,
+        "nxp_frdm_mcxn236_board": 4.3815031602889576e-08,
+        "raspberry_pi_3b_board": 1.1054254178688439e-09,
+        "ultimainboard": 0.9999998807907104
+      }
+    },
+    {
+      "file": "IMG_20261009_222133_1.jpg",
+      "board_class": "ultimainboard",
+      "capture_group": "IMG_20261009_222133.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/ultimainboard/IMG_20261009_222133_1.jpg",
+      "crop_box_pixels": [
+        0,
+        0,
+        1408,
+        3110
+      ],
+      "predicted_class": "ultimainboard",
+      "confidence": 1.0,
+      "correct": true,
+      "class_probabilities": {
+        "esp32_board": 4.4497422413414256e-10,
+        "esp8266_board": 3.1388863730441585e-10,
+        "nxp_frdm_mcxn236_board": 3.6528950975167618e-09,
+        "raspberry_pi_3b_board": 3.856767405441275e-10,
+        "ultimainboard": 1.0
+      }
+    },
+    {
+      "file": "IMG_20261009_222135.jpg",
+      "board_class": "ultimainboard",
+      "capture_group": "IMG_20261009_222135.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/ultimainboard/IMG_20261009_222135.jpg",
+      "crop_box_pixels": [
+        778,
+        355,
+        2423,
+        3734
+      ],
+      "predicted_class": "ultimainboard",
+      "confidence": 1.0,
+      "correct": true,
+      "class_probabilities": {
+        "esp32_board": 6.631668103551647e-09,
+        "esp8266_board": 9.889075336388942e-09,
+        "nxp_frdm_mcxn236_board": 3.406420390206222e-08,
+        "raspberry_pi_3b_board": 1.1645884256950012e-09,
+        "ultimainboard": 1.0
+      }
+    },
+    {
+      "file": "IMG_20261009_222135_1.jpg",
+      "board_class": "ultimainboard",
+      "capture_group": "IMG_20261009_222135.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/ultimainboard/IMG_20261009_222135_1.jpg",
+      "crop_box_pixels": [
+        0,
+        0,
+        1408,
+        3112
+      ],
+      "predicted_class": "ultimainboard",
+      "confidence": 1.0,
+      "correct": true,
+      "class_probabilities": {
+        "esp32_board": 4.526352556655233e-11,
+        "esp8266_board": 2.350171966758463e-11,
+        "nxp_frdm_mcxn236_board": 1.7320871403825322e-09,
+        "raspberry_pi_3b_board": 2.4998799905140423e-11,
+        "ultimainboard": 1.0
+      }
+    },
+    {
+      "file": "IMG_20261009_222137.jpg",
+      "board_class": "ultimainboard",
+      "capture_group": "IMG_20261009_222137.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/ultimainboard/IMG_20261009_222137.jpg",
+      "crop_box_pixels": [
+        881,
+        416,
+        2533,
+        3796
+      ],
+      "predicted_class": "ultimainboard",
+      "confidence": 0.9999998807907104,
+      "correct": true,
+      "class_probabilities": {
+        "esp32_board": 1.9772613768509473e-08,
+        "esp8266_board": 2.9518368194203504e-08,
+        "nxp_frdm_mcxn236_board": 4.948244836100457e-08,
+        "raspberry_pi_3b_board": 2.6434656685836444e-09,
+        "ultimainboard": 0.9999998807907104
+      }
+    },
+    {
+      "file": "IMG_20261009_222137_1.jpg",
+      "board_class": "ultimainboard",
+      "capture_group": "IMG_20261009_222137.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/ultimainboard/IMG_20261009_222137_1.jpg",
+      "crop_box_pixels": [
+        0,
+        0,
+        1408,
+        3110
+      ],
+      "predicted_class": "ultimainboard",
+      "confidence": 1.0,
+      "correct": true,
+      "class_probabilities": {
+        "esp32_board": 1.5891152282954124e-10,
+        "esp8266_board": 8.708678916891088e-11,
+        "nxp_frdm_mcxn236_board": 1.6146489700830102e-09,
+        "raspberry_pi_3b_board": 2.04398942216244e-10,
+        "ultimainboard": 1.0
+      }
+    },
+    {
+      "file": "IMG_20261009_222219.jpg",
+      "board_class": "raspberry_pi_3b_board",
+      "capture_group": "IMG_20261009_222219.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/raspberry_pi_3b_board/IMG_20261009_222219.jpg",
+      "crop_box_pixels": [
+        901,
+        560,
+        2152,
+        2451
+      ],
+      "predicted_class": "raspberry_pi_3b_board",
+      "confidence": 1.0,
+      "correct": true,
+      "class_probabilities": {
+        "esp32_board": 1.7084434977832075e-09,
+        "esp8266_board": 6.017662063095841e-11,
+        "nxp_frdm_mcxn236_board": 4.999447730802409e-11,
+        "raspberry_pi_3b_board": 1.0,
+        "ultimainboard": 2.9317162031361477e-08
+      }
+    },
+    {
+      "file": "IMG_20261009_222219_1.jpg",
+      "board_class": "raspberry_pi_3b_board",
+      "capture_group": "IMG_20261009_222219.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/raspberry_pi_3b_board/IMG_20261009_222219_1.jpg",
+      "crop_box_pixels": [
+        0,
+        0,
+        1064,
+        1652
+      ],
+      "predicted_class": "raspberry_pi_3b_board",
+      "confidence": 0.9999986886978149,
+      "correct": true,
+      "class_probabilities": {
+        "esp32_board": 2.8187118417122292e-08,
+        "esp8266_board": 2.6859911517185253e-10,
+        "nxp_frdm_mcxn236_board": 6.464583535148449e-09,
+        "raspberry_pi_3b_board": 0.9999986886978149,
+        "ultimainboard": 1.3347874983082875e-06
+      }
+    },
+    {
+      "file": "IMG_20261009_222222.jpg",
+      "board_class": "raspberry_pi_3b_board",
+      "capture_group": "IMG_20261009_222222.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/raspberry_pi_3b_board/IMG_20261009_222222.jpg",
+      "crop_box_pixels": [
+        853,
+        553,
+        2097,
+        2437
+      ],
+      "predicted_class": "raspberry_pi_3b_board",
+      "confidence": 1.0,
+      "correct": true,
+      "class_probabilities": {
+        "esp32_board": 2.2580119996007397e-09,
+        "esp8266_board": 1.9116541682961952e-10,
+        "nxp_frdm_mcxn236_board": 1.3003270682432344e-10,
+        "raspberry_pi_3b_board": 1.0,
+        "ultimainboard": 4.984288182185992e-08
+      }
+    },
+    {
+      "file": "IMG_20261009_222222_1.jpg",
+      "board_class": "raspberry_pi_3b_board",
+      "capture_group": "IMG_20261009_222222.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/raspberry_pi_3b_board/IMG_20261009_222222_1.jpg",
+      "crop_box_pixels": [
+        0,
+        0,
+        1056,
+        1682
+      ],
+      "predicted_class": "raspberry_pi_3b_board",
+      "confidence": 0.9999996423721313,
+      "correct": true,
+      "class_probabilities": {
+        "esp32_board": 5.600870878197384e-09,
+        "esp8266_board": 5.910721911916994e-10,
+        "nxp_frdm_mcxn236_board": 1.2985279518318293e-09,
+        "raspberry_pi_3b_board": 0.9999996423721313,
+        "ultimainboard": 3.0500498837682244e-07
+      }
+    },
+    {
+      "file": "IMG_20261009_222225.jpg",
+      "board_class": "raspberry_pi_3b_board",
+      "capture_group": "IMG_20261009_222225.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/raspberry_pi_3b_board/IMG_20261009_222225.jpg",
+      "crop_box_pixels": [
+        826,
+        642,
+        2070,
+        2492
+      ],
+      "predicted_class": "raspberry_pi_3b_board",
+      "confidence": 0.9999997615814209,
+      "correct": true,
+      "class_probabilities": {
+        "esp32_board": 1.0705554664980355e-08,
+        "esp8266_board": 5.109843659312219e-10,
+        "nxp_frdm_mcxn236_board": 7.380326350059363e-10,
+        "raspberry_pi_3b_board": 0.9999997615814209,
+        "ultimainboard": 1.9789864325048256e-07
+      }
+    },
+    {
+      "file": "IMG_20261009_222225_1.jpg",
+      "board_class": "raspberry_pi_3b_board",
+      "capture_group": "IMG_20261009_222225.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/raspberry_pi_3b_board/IMG_20261009_222225_1.jpg",
+      "crop_box_pixels": [
+        0,
+        0,
+        1036,
+        1658
+      ],
+      "predicted_class": "raspberry_pi_3b_board",
+      "confidence": 0.9999873638153076,
+      "correct": true,
+      "class_probabilities": {
+        "esp32_board": 2.1026157526193856e-07,
+        "esp8266_board": 1.1115647069459555e-08,
+        "nxp_frdm_mcxn236_board": 6.057254609004303e-08,
+        "raspberry_pi_3b_board": 0.9999873638153076,
+        "ultimainboard": 1.2443741979950573e-05
+      }
+    },
+    {
+      "file": "IMG_20261009_222248.jpg",
+      "board_class": "raspberry_pi_3b_board",
+      "capture_group": "IMG_20261009_222248.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/raspberry_pi_3b_board/IMG_20261009_222248.jpg",
+      "crop_box_pixels": [
+        532,
+        273,
+        2787,
+        3618
+      ],
+      "predicted_class": "raspberry_pi_3b_board",
+      "confidence": 0.9999997615814209,
+      "correct": true,
+      "class_probabilities": {
+        "esp32_board": 2.80749024028637e-08,
+        "esp8266_board": 1.7738384094911908e-09,
+        "nxp_frdm_mcxn236_board": 2.47835640898586e-09,
+        "raspberry_pi_3b_board": 0.9999997615814209,
+        "ultimainboard": 1.8813013014096214e-07
+      }
+    },
+    {
+      "file": "IMG_20261009_222248_1.jpg",
+      "board_class": "raspberry_pi_3b_board",
+      "capture_group": "IMG_20261009_222248.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/raspberry_pi_3b_board/IMG_20261009_222248_1.jpg",
+      "crop_box_pixels": [
+        0,
+        0,
+        1872,
+        2994
+      ],
+      "predicted_class": "raspberry_pi_3b_board",
+      "confidence": 0.9999966621398926,
+      "correct": true,
+      "class_probabilities": {
+        "esp32_board": 1.1300585356366355e-07,
+        "esp8266_board": 2.98758373595831e-09,
+        "nxp_frdm_mcxn236_board": 4.1837896702645594e-08,
+        "raspberry_pi_3b_board": 0.9999966621398926,
+        "ultimainboard": 3.2497860047442373e-06
+      }
+    },
+    {
+      "file": "IMG_20261009_222252.jpg",
+      "board_class": "raspberry_pi_3b_board",
+      "capture_group": "IMG_20261009_222252.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/raspberry_pi_3b_board/IMG_20261009_222252.jpg",
+      "crop_box_pixels": [
+        519,
+        150,
+        2780,
+        3502
+      ],
+      "predicted_class": "raspberry_pi_3b_board",
+      "confidence": 0.9999998807907104,
+      "correct": true,
+      "class_probabilities": {
+        "esp32_board": 2.2475070693417365e-08,
+        "esp8266_board": 3.11520920170949e-09,
+        "nxp_frdm_mcxn236_board": 2.0468615691271452e-09,
+        "raspberry_pi_3b_board": 0.9999998807907104,
+        "ultimainboard": 1.1314683234786571e-07
+      }
+    },
+    {
+      "file": "IMG_20261009_222252_1.jpg",
+      "board_class": "raspberry_pi_3b_board",
+      "capture_group": "IMG_20261009_222252.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/raspberry_pi_3b_board/IMG_20261009_222252_1.jpg",
+      "crop_box_pixels": [
+        0,
+        0,
+        1864,
+        2982
+      ],
+      "predicted_class": "raspberry_pi_3b_board",
+      "confidence": 0.9999995231628418,
+      "correct": true,
+      "class_probabilities": {
+        "esp32_board": 1.621262413209479e-08,
+        "esp8266_board": 4.664595376624447e-10,
+        "nxp_frdm_mcxn236_board": 5.5861688608160875e-09,
+        "raspberry_pi_3b_board": 0.9999995231628418,
+        "ultimainboard": 4.485283966459974e-07
+      }
+    },
+    {
+      "file": "IMG_20261009_222305.jpg",
+      "board_class": "raspberry_pi_3b_board",
+      "capture_group": "IMG_20261009_222305.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/raspberry_pi_3b_board/IMG_20261009_222305.jpg",
+      "crop_box_pixels": [
+        485,
+        375,
+        2609,
+        3441
+      ],
+      "predicted_class": "raspberry_pi_3b_board",
+      "confidence": 0.9999971389770508,
+      "correct": true,
+      "class_probabilities": {
+        "esp32_board": 1.8396399070752523e-07,
+        "esp8266_board": 1.6994922802382462e-08,
+        "nxp_frdm_mcxn236_board": 1.5161961641751986e-07,
+        "raspberry_pi_3b_board": 0.9999971389770508,
+        "ultimainboard": 2.5625813577789813e-06
+      }
+    },
+    {
+      "file": "IMG_20261009_222305_1.jpg",
+      "board_class": "raspberry_pi_3b_board",
+      "capture_group": "IMG_20261009_222305.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/raspberry_pi_3b_board/IMG_20261009_222305_1.jpg",
+      "crop_box_pixels": [
+        0,
+        0,
+        1908,
+        2970
+      ],
+      "predicted_class": "raspberry_pi_3b_board",
+      "confidence": 0.9999980926513672,
+      "correct": true,
+      "class_probabilities": {
+        "esp32_board": 5.960748694633367e-08,
+        "esp8266_board": 3.5402778486570696e-09,
+        "nxp_frdm_mcxn236_board": 1.6943086933451923e-08,
+        "raspberry_pi_3b_board": 0.9999980926513672,
+        "ultimainboard": 1.8356799955654424e-06
+      }
+    },
+    {
+      "file": "IMG_20261009_222308.jpg",
+      "board_class": "raspberry_pi_3b_board",
+      "capture_group": "IMG_20261009_222308.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/raspberry_pi_3b_board/IMG_20261009_222308.jpg",
+      "crop_box_pixels": [
+        498,
+        430,
+        2623,
+        3495
+      ],
+      "predicted_class": "raspberry_pi_3b_board",
+      "confidence": 0.999998927116394,
+      "correct": true,
+      "class_probabilities": {
+        "esp32_board": 6.715124101219772e-08,
+        "esp8266_board": 3.91699250812394e-09,
+        "nxp_frdm_mcxn236_board": 1.443025894332095e-07,
+        "raspberry_pi_3b_board": 0.999998927116394,
+        "ultimainboard": 8.827003057376714e-07
+      }
+    },
+    {
+      "file": "IMG_20261009_222308_1.jpg",
+      "board_class": "raspberry_pi_3b_board",
+      "capture_group": "IMG_20261009_222308.jpg",
+      "split": "train",
+      "crop": "data/photo-model/classifier-dataset/train/raspberry_pi_3b_board/IMG_20261009_222308_1.jpg",
+      "crop_box_pixels": [
+        0,
+        0,
+        1908,
+        2974
+      ],
+      "predicted_class": "raspberry_pi_3b_board",
+      "confidence": 0.9999994039535522,
+      "correct": true,
+      "class_probabilities": {
+        "esp32_board": 2.616413574685339e-08,
+        "esp8266_board": 4.062661596027084e-10,
+        "nxp_frdm_mcxn236_board": 8.772333082163186e-09,
+        "raspberry_pi_3b_board": 0.9999994039535522,
+        "ultimainboard": 5.599241035270097e-07
+      }
+    },
+    {
+      "file": "IMG_20261009_222340.jpg",
+      "board_class": "raspberry_pi_3b_board",
+      "capture_group": "IMG_20261009_222340.jpg",
+      "split": "val",
+      "crop": "data/photo-model/classifier-dataset/val/raspberry_pi_3b_board/IMG_20261009_222340.jpg",
+      "crop_box_pixels": [
+        0,
+        492,
+        3005,
+        2758
+      ],
+      "predicted_class": "raspberry_pi_3b_board",
+      "confidence": 0.9999455213546753,
+      "correct": true,
+      "class_probabilities": {
+        "esp32_board": 6.56372412777273e-06,
+        "esp8266_board": 1.6142432741617085e-06,
+        "nxp_frdm_mcxn236_board": 4.758960017170466e-07,
+        "raspberry_pi_3b_board": 0.9999455213546753,
+        "ultimainboard": 4.5831075112801045e-05
+      }
+    },
+    {
+      "file": "IMG_20261009_222340_1.jpg",
+      "board_class": "raspberry_pi_3b_board",
+      "capture_group": "IMG_20261009_222340.jpg",
+      "split": "excluded_val_variant",
+      "crop": "data/photo-model/classifier-dataset/excluded_val_variant/raspberry_pi_3b_board/IMG_20261009_222340_1.jpg",
+      "crop_box_pixels": [
+        0,
+        0,
+        2960,
+        1930
+      ],
+      "predicted_class": "raspberry_pi_3b_board",
+      "confidence": 0.9999159574508667,
+      "correct": true,
+      "class_probabilities": {
+        "esp32_board": 1.4529887266689911e-06,
+        "esp8266_board": 9.842111836633194e-08,
+        "nxp_frdm_mcxn236_board": 3.11910696382256e-07,
+        "raspberry_pi_3b_board": 0.9999159574508667,
+        "ultimainboard": 8.210905798478052e-05
+      }
+    },
+    {
+      "file": "IMG_20261009_222343.jpg",
+      "board_class": "raspberry_pi_3b_board",
+      "capture_group": "IMG_20261009_222343.jpg",
+      "split": "val",
+      "crop": "data/photo-model/classifier-dataset/val/raspberry_pi_3b_board/IMG_20261009_222343.jpg",
+      "crop_box_pixels": [
+        34,
+        546,
+        2910,
+        2778
+      ],
+      "predicted_class": "raspberry_pi_3b_board",
+      "confidence": 0.9998666048049927,
+      "correct": true,
+      "class_probabilities": {
+        "esp32_board": 2.3617956685484387e-05,
+        "esp8266_board": 4.0503728087060153e-05,
+        "nxp_frdm_mcxn236_board": 4.683163297158899e-06,
+        "raspberry_pi_3b_board": 0.9998666048049927,
+        "ultimainboard": 6.458640564233065e-05
+      }
+    },
+    {
+      "file": "IMG_20261009_222343_1.jpg",
+      "board_class": "raspberry_pi_3b_board",
+      "capture_group": "IMG_20261009_222343.jpg",
+      "split": "excluded_val_variant",
+      "crop": "data/photo-model/classifier-dataset/excluded_val_variant/raspberry_pi_3b_board/IMG_20261009_222343_1.jpg",
+      "crop_box_pixels": [
+        0,
+        0,
+        2364,
+        1978
+      ],
+      "predicted_class": "raspberry_pi_3b_board",
+      "confidence": 0.9986892342567444,
+      "correct": true,
+      "class_probabilities": {
+        "esp32_board": 5.046361911809072e-05,
+        "esp8266_board": 3.866778570227325e-05,
+        "nxp_frdm_mcxn236_board": 0.00047104849363677204,
+        "raspberry_pi_3b_board": 0.9986892342567444,
+        "ultimainboard": 0.0007506154361180961
+      }
+    }
+  ]
+}

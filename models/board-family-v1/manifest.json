@@ -1,0 +1,60 @@
+{
+  "artifacts": [
+    {
+      "file": "detector.pt",
+      "bytes": 6217322,
+      "sha256": "cb0e432dd0e7c5ac887645934524ade9648caf4f058b46029e531b3de568acc0"
+    },
+    {
+      "file": "classifier.pt",
+      "bytes": 2973960,
+      "sha256": "b7c88aaccc3863b03f19c9e32e6a8a25d058ca24646be233d746a379d6f7da1c"
+    },
+    {
+      "file": "detector-results.csv",
+      "bytes": 6809,
+      "sha256": "d7f7fe05d064dc55988a5cc68b64333af6887f4d9bea048dfe5e053715e117bc"
+    },
+    {
+      "file": "classifier-results.csv",
+      "bytes": 2451,
+      "sha256": "cee8fe53586d2c8b31a7bb8cae15271610737da5dec61537dea05e557c200ce8"
+    },
+    {
+      "file": "detector-class-audit.json",
+      "bytes": 3012,
+      "sha256": "2254017eb7a60a04564c89585b34afe410538a8fb1690d2b2e47cd836e6838a3"
+    },
+    {
+      "file": "classifier-predictions.json",
+      "bytes": 62606,
+      "sha256": "02c44df6a2ce93acfc8d32c0b144826ce0bfb540b4f6324b0ffce87605d7e120"
+    },
+    {
+      "file": "combined-ungated-report.json",
+      "bytes": 44674,
+      "sha256": "7ff154f2a00213969141f288c27003f8434afda4b2d5232a36806aadbd8a0d2c"
+    },
+    {
+      "file": "combined-frontview-gated-report.json",
+      "bytes": 43842,
+      "sha256": "ee8a05d896c6486765916f00eb18518055893f7bfd8285daf5a1a0c5c5f4f21a"
+    },
+    {
+      "file": "classifier-dataset-manifest.json",
+      "bytes": 30097,
+      "sha256": "d5328f3282007563c8a546107aa6a190da2d2e1515992e0dce28aa9fa2df84b3"
+    },
+    {
+      "file": "detector-confusion.png",
+      "bytes": 168917,
+      "sha256": "15102d2f601ed60db5f9f0e403f366fdf58995e948baf28602ff78a2a198901b"
+    },
+    {
+      "file": "classifier-confusion.png",
+      "bytes": 149789,
+      "sha256": "27adf53aba0a21b4ede0976378d6f535e3d6f03f20026c499fb90673b8c8332b"
+    }
+  ],
+  "status": "experimental known-photo board-family pipeline; no component detector"
+}

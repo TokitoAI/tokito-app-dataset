@@ -128,3 +128,12 @@ print('Validated80 source hashes/board boxes, YOLO labels,62/11/7 split, no orig
 if phone_folder.is_dir():
  scan_file=phone_folder/'reviewed-scan-references.json'
  print(f'Validated {len(phone_rows)} intake hashes.' + (f' {len(scan["templates"])} partial scan references with {pin_count} literal contact aliases and three marking families also checked.' if scan_file.is_file() else ' Scan-reference additions are outside this capture-only checkout.'))
+board_model_dir=root/'models/board-family-v1'
+if (board_model_dir/'manifest.json').is_file():
+ for artifact in json.loads((board_model_dir/'manifest.json').read_text())['artifacts']:
+  raw=(board_model_dir/artifact['file']).read_bytes()
+  if raw.startswith(b'version https://git-lfs.github.com/spec/v1'):
+   digest=next(line.split(':',1)[1] for line in raw.decode('ascii').splitlines() if line.startswith('oid sha256:'))
+  else:digest=hashlib.sha256(raw).hexdigest()
+  assert digest==artifact['sha256'],artifact['file']
+ print('Validated experimental board-family model artifact checksums.')

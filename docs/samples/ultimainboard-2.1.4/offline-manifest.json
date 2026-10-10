@@ -5,8 +5,8 @@
     {
       "path": ".gitattributes",
       "kind": "materialized",
-      "sha256": "ce3e392397345f57defd44f2c31317260efb3086f8a7ab8990af964475c44424",
-      "bytes": 2362
+      "sha256": "08eabcc90dc3a2771686e0a9c2b252d99803ef1fe75e0bd503bc31e760bacb33",
+      "bytes": 2476
     },
     {
       "path": ".github/PULL_REQUEST_TEMPLATE.md",
@@ -6297,6 +6297,84 @@
       "bytes": 2281
     },
     {
+      "path": "models/board-family-v1/classifier-confusion.png",
+      "kind": "materialized",
+      "sha256": "27adf53aba0a21b4ede0976378d6f535e3d6f03f20026c499fb90673b8c8332b",
+      "bytes": 149789
+    },
+    {
+      "path": "models/board-family-v1/classifier-dataset-manifest.json",
+      "kind": "materialized",
+      "sha256": "d5328f3282007563c8a546107aa6a190da2d2e1515992e0dce28aa9fa2df84b3",
+      "bytes": 30097
+    },
+    {
+      "path": "models/board-family-v1/classifier-predictions.json",
+      "kind": "materialized",
+      "sha256": "02c44df6a2ce93acfc8d32c0b144826ce0bfb540b4f6324b0ffce87605d7e120",
+      "bytes": 62606
+    },
+    {
+      "path": "models/board-family-v1/classifier-results.csv",
+      "kind": "materialized",
+      "sha256": "cee8fe53586d2c8b31a7bb8cae15271610737da5dec61537dea05e557c200ce8",
+      "bytes": 2451
+    },
+    {
+      "path": "models/board-family-v1/classifier.pt",
+      "kind": "materialized",
+      "sha256": "b7c88aaccc3863b03f19c9e32e6a8a25d058ca24646be233d746a379d6f7da1c",
+      "bytes": 2973960
+    },
+    {
+      "path": "models/board-family-v1/combined-frontview-gated-report.json",
+      "kind": "materialized",
+      "sha256": "ee8a05d896c6486765916f00eb18518055893f7bfd8285daf5a1a0c5c5f4f21a",
+      "bytes": 43842
+    },
+    {
+      "path": "models/board-family-v1/combined-ungated-report.json",
+      "kind": "materialized",
+      "sha256": "7ff154f2a00213969141f288c27003f8434afda4b2d5232a36806aadbd8a0d2c",
+      "bytes": 44674
+    },
+    {
+      "path": "models/board-family-v1/detector-class-audit.json",
+      "kind": "materialized",
+      "sha256": "2254017eb7a60a04564c89585b34afe410538a8fb1690d2b2e47cd836e6838a3",
+      "bytes": 3012
+    },
+    {
+      "path": "models/board-family-v1/detector-confusion.png",
+      "kind": "materialized",
+      "sha256": "15102d2f601ed60db5f9f0e403f366fdf58995e948baf28602ff78a2a198901b",
+      "bytes": 168917
+    },
+    {
+      "path": "models/board-family-v1/detector-results.csv",
+      "kind": "materialized",
+      "sha256": "d7f7fe05d064dc55988a5cc68b64333af6887f4d9bea048dfe5e053715e117bc",
+      "bytes": 6809
+    },
+    {
+      "path": "models/board-family-v1/detector.pt",
+      "kind": "materialized",
+      "sha256": "cb0e432dd0e7c5ac887645934524ade9648caf4f058b46029e531b3de568acc0",
+      "bytes": 6217322
+    },
+    {
+      "path": "models/board-family-v1/manifest.json",
+      "kind": "materialized",
+      "sha256": "98d71de95595e5eef0993bf397290bbaff0a5bd28761ba0c307d3254fda5c7ec",
+      "bytes": 1926
+    },
+    {
+      "path": "models/board-family-v1/MODEL_CARD.md",
+      "kind": "materialized",
+      "sha256": "125ad420ad8ea3bfa949d6316f675a3a9b17f895ba74e135fed0d52455430968",
+      "bytes": 2710
+    },
+    {
       "path": "photo-manifest.json",
       "kind": "materialized",
       "sha256": "d24d133baa08690aebc06290d2e4bd06ae92e2fd8991b0de627f730b2749151e",
@@ -6945,6 +7023,12 @@
       "bytes": 3546
     },
     {
+      "path": "scripts/predict_boards.py",
+      "kind": "materialized",
+      "sha256": "eeff413415c52fbfc4d31d3a4aa038441f011208717651f297e520cc9cc81ef7",
+      "bytes": 2589
+    },
+    {
       "path": "scripts/prepare_board_labels.py",
       "kind": "materialized",
       "sha256": "cab1503adf3107251f3f59799fad726c3a87459fb730e02fd9cf9e72dbfad226",
@@ -6961,6 +7045,12 @@
       "kind": "materialized",
       "sha256": "a10aab2408bcf5f548233fc1c155a574f91e54ecc74e60386700448a01d6995c",
       "bytes": 4209
+    },
+    {
+      "path": "scripts/train_crop_classifier.py",
+      "kind": "materialized",
+      "sha256": "765b42bcf5aa862fb2eb94e6ba683556fd43d816aac60ff0ac543809c2421a0d",
+      "bytes": 4197
     },
     {
       "path": "scripts/train_partial_component_diagnostic.py",
@@ -7013,8 +7103,8 @@
     {
       "path": "scripts/validate_dataset.py",
       "kind": "materialized",
-      "sha256": "bdab7163c4dbe16dfcfa686d96ee7643ccf5e8f0655f5ba044142435f895f28a",
-      "bytes": 9442
+      "sha256": "82b65a263684dcffb28607eecd4aa81fb5e262cd6517ddc8872f099ca60f746e",
+      "bytes": 10034
     },
     {
       "path": "scripts/validate_esp12e_alignment_metadata.py",
@@ -7150,7 +7240,7 @@
     }
   ],
   "counts": {
-    "materialized": 1191
+    "materialized": 1206
   },
   "fully_materialized": true,
   "excluded_from_hash_inventory": [
