@@ -106,4 +106,5 @@ if phone_folder.is_dir():
     assert all(x1<=x<=x2 and y1<=y<=y2 for x,y in template['pose_corners_normalized'])
   assert len(label_ids)==63 and pin_count==60
 print('Validated80 source hashes/board boxes, YOLO labels,62/11/7 split, no original/crop leakage and Pi mechanical DXF provenance.' + (' Fine-tune artifact hashes also checked.' if model_dir.is_dir() else ' Diagnostic model artifacts are outside this capture-only checkout.'))
-print('Validated 33 intake hashes and five partial scan references with 60 literal contact aliases and three marking families.')
+if phone_folder.is_dir():
+ print('Validated 33 intake hashes.' + (' Five partial scan references with 60 literal contact aliases and three marking families also checked.' if (phone_folder/'reviewed-scan-references.json').is_file() else ' Scan-reference additions are outside this capture-only checkout.'))
