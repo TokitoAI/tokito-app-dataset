@@ -7,11 +7,18 @@ All frames belong to one capture session and one conservatively assigned bench
 specimen; they must stay in the same split group as that specimen's photos.
 
 The reviewed last keyframe shows a module shield marked `MODEL: ESP-12E` and
-carrier PCB text `Ver 0.1`. Four visible-body polygons and fifteen individually
+carrier PCB text `Ver 0.1`. Eighteen visible-body polygons and fifteen individually
 identified right-header solder contacts are recorded in
 `esp12e-keyframes/reviewed-component-masks.json`. Repeated ground and power aliases
 have distinct instance IDs. Contact circles are approximate visible regions,
 not physical calibration landmarks or full segmentation masks.
+
+Body coverage includes two tactile switches, visible passive bodies and two
+three-terminal semiconductor bodies. Markings are retained as observed strings;
+the resistor above the upper three-terminal body has an ambiguous first digit
+(`?21`) and is not assigned a resistance value. Exact ordering codes, physical
+placement and source reference designators are still unconfirmed. These local
+instance IDs identify photographed bodies only.
 
 Controller and regulator exact ordering codes remain unreadable. Their IDs are
 local instance identifiers, not verified schematic reference designators. The RF
