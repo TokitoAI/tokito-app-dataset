@@ -48,6 +48,11 @@ correspondences. This is a fixed source-frame candidate for a two-face AR
 handoff. Four points fit a homography exactly and do not independently prove
 camera intrinsics, 3D pose, specimen equivalence or a continuous flip.
 
+As a separate same-photo check, the projected native U1 footprint center lands
+inside the visible U1 package, 59.3 original-image pixels from its thresholded
+body center. This supports the proposed planar correspondence but is not a
+camera-pose accuracy claim or an independent capture evaluation.
+
 The released NXP manifest uses board-outline corner landmarks. The reviewed
 phone photo instead uses mounting holes. The alignment index records
 `asset_anchor_override_required` and the paired hole positions; a pose model

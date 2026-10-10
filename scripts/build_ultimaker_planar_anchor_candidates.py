@@ -83,6 +83,23 @@ def source_outline():
     return corners
 
 
+def source_reference_xy(reference):
+    lines = PCB.read_text(encoding='utf-8').splitlines()
+    found = []
+    for index, line in enumerate(lines):
+        if not line.startswith('\t(footprint '):
+            continue
+        header = '\n'.join(lines[index:index + 15])
+        if not re.search(r'\(property "Reference" "' + re.escape(reference) + r'"', header):
+            continue
+        xy = re.search(r'\(at ([\d.]+) ([\d.]+)', header)
+        if xy:
+            found.append([float(xy.group(1)), float(xy.group(2))])
+    if len(found) != 1:
+        raise ValueError(f'expected one native footprint {reference}: {found}')
+    return found[0]
+
+
 def build():
     holes = source_holes()
     outline = source_outline()
@@ -95,6 +112,7 @@ def build():
     frames, previews = [], []
     order = ('SP1', 'SP2', 'SP3', 'SP4')
     board_xy = np.float32([holes[ref] for ref in order])
+    source_u1 = source_reference_xy('U1')
     for name, points in PHOTO_HOLES.items():
         source = image_rows[name]
         review = view_rows[name]
@@ -147,6 +165,35 @@ def build():
             'metric_camera_pose_verified': False, 'same_specimen_flip_verified': False,
             'ar_calibration_release_eligible': False,
         })
+        if review['visible_face'] == 'component_face':
+            predicted = cv2.perspectiveTransform(
+                np.float32([[source_u1]]), source_to_image)[0, 0]
+            # Independent visible-package check. The large dark U1 body is the
+            # largest connected dark object in this inspected original crop.
+            crop_x, crop_y, crop_w, crop_h = 3000, 1500, 800, 700
+            crop = image[crop_y:crop_y + crop_h, crop_x:crop_x + crop_w]
+            gray = cv2.cvtColor(crop, cv2.COLOR_BGR2GRAY)
+            binary = cv2.threshold(gray, 90, 255, cv2.THRESH_BINARY_INV)[1]
+            contours, _ = cv2.findContours(binary, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+            bx, by, bw, bh = max((cv2.boundingRect(c) for c in contours),
+                                 key=lambda rect: rect[2] * rect[3])
+            if not (250 <= bw <= 450 and 250 <= bh <= 450):
+                raise ValueError('U1 body candidate has unexpected dimensions')
+            observed = [crop_x + bx + bw / 2, crop_y + by + bh / 2]
+            residual = float(np.linalg.norm(predicted - observed))
+            frames[-1]['independent_visible_component_check'] = {
+                'reference': 'U1', 'source_footprint_xy_mm': source_u1,
+                'projected_footprint_center_xy_pixels': np.round(predicted.astype(float), 1).tolist(),
+                'photo_body_bbox_xywh_pixels': [crop_x + bx, crop_y + by, bw, bh],
+                'photo_body_center_xy_pixels': observed,
+                'center_offset_pixels': round(residual, 1),
+                'projected_center_inside_photo_body': bool(
+                    crop_x + bx <= predicted[0] <= crop_x + bx + bw and
+                    crop_y + by <= predicted[1] <= crop_y + by + bh),
+                'measurement_scope': 'same-photo U1 dark-body candidate; not independent specimen or pose validation',
+            }
+            if not frames[-1]['independent_visible_component_check']['projected_center_inside_photo_body']:
+                raise ValueError('source U1 projection misses the photographed body')
         preview = cv2.resize(image, (round(width * min(1200 / width, 1200 / height)),
                                      round(height * min(1200 / width, 1200 / height))))
         scale_x, scale_y = preview.shape[1] / width, preview.shape[0] / height
@@ -158,6 +205,13 @@ def build():
             cv2.drawMarker(preview, center, (0, 0, 255), cv2.MARKER_CROSS, 22, 3)
             cv2.putText(preview, ref, (center[0] + 12, center[1] - 8),
                         cv2.FONT_HERSHEY_SIMPLEX, .9, (0, 0, 255), 2)
+        if 'independent_visible_component_check' in frames[-1]:
+            check = frames[-1]['independent_visible_component_check']
+            px, py = check['projected_footprint_center_xy_pixels']
+            cv2.drawMarker(preview, (round(px * scale_x), round(py * scale_y)),
+                           (0, 170, 0), cv2.MARKER_CROSS, 20, 3)
+            cv2.putText(preview, 'U1 source', (round(px * scale_x) + 12, round(py * scale_y) - 8),
+                        cv2.FONT_HERSHEY_SIMPLEX, .6, (0, 125, 0), 2)
         previews.append(preview)
     # Normalize preview tile heights without changing source coordinate data.
     tile_height = max(tile.shape[0] for tile in previews)

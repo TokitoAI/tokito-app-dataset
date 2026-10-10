@@ -184,7 +184,31 @@
       "homography_fit_note": "Exactly four input pairs; zero fit residual by construction is not an independent accuracy test.",
       "metric_camera_pose_verified": false,
       "same_specimen_flip_verified": false,
-      "ar_calibration_release_eligible": false
+      "ar_calibration_release_eligible": false,
+      "independent_visible_component_check": {
+        "reference": "U1",
+        "source_footprint_xy_mm": [
+          203.2411,
+          115.2936
+        ],
+        "projected_footprint_center_xy_pixels": [
+          3343.3,
+          1834.9
+        ],
+        "photo_body_bbox_xywh_pixels": [
+          3209,
+          1706,
+          348,
+          346
+        ],
+        "photo_body_center_xy_pixels": [
+          3383.0,
+          1879.0
+        ],
+        "center_offset_pixels": 59.3,
+        "projected_center_inside_photo_body": true,
+        "measurement_scope": "same-photo U1 dark-body candidate; not independent specimen or pose validation"
+      }
     },
     {
       "image_path": "data/phone-captures/2026-10-11/gallery/IMG_20261011_012119.jpg",
@@ -348,5 +372,5 @@
     }
   ],
   "review_preview": "previews\\ultimaker-planar-anchor-candidates.jpg",
-  "review_preview_sha256": "b4fc1bd8310d8bec1eef9d2ac8c7b6746e35b12f2d90ea54f7288e992563991b"
+  "review_preview_sha256": "81ee81c312f883db15e2848afd97c0091723b99166dc36058da87cc4f17bea45"
 }
