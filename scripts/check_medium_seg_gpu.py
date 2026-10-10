@@ -46,6 +46,8 @@ finally:
     if torch.cuda.is_available():
         report['peak_allocated_bytes']=torch.cuda.max_memory_allocated()
         report['peak_reserved_bytes']=torch.cuda.max_memory_reserved()
-    Path(__file__).with_name('runtime-smoke-amp.json').write_text(json.dumps(report,indent=2)+'\n')
+    output=Path(__file__).resolve().parents[1]/'work/training-runtime/runtime-smoke-amp.json'
+    output.parent.mkdir(parents=True,exist_ok=True)
+    output.write_text(json.dumps(report,indent=2)+'\n')
     print(json.dumps(report),flush=True)
 raise SystemExit(0 if report['success'] else 2)

@@ -5,7 +5,10 @@ No raw/partial dataset is automatically exported by this launcher.
 import argparse
 import hashlib
 import json
+import os
 from pathlib import Path
+os.environ['OPENBLAS_NUM_THREADS']='1'
+os.environ['OMP_NUM_THREADS']='1'
 
 
 def validate(manifest):
