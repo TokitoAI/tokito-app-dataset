@@ -125,12 +125,12 @@ def save_checkpoint(model,path,epoch,names,args):
     saved=copy.deepcopy(model).half().cpu();saved.names=dict(enumerate(names));saved.criterion=None
     torch.save(dict(model=saved,epoch=epoch,train_args=vars(args),diagnostic_only=True,evaluation_valid=False),path)
 
-def audited_metrics(yolo,samples,names):
+def audited_metrics(yolo,samples,names,confidence=.25):
     # Mask IoU matching; unmatched predictions count as FP only inside reviewed empty background.
     tp=fp=fn=ignored=0;details=[];per_board={}
     for sample in samples:
         image=sample['image'].permute(1,2,0).numpy()*255
-        result=yolo.predict(source=image.astype('uint8')[:,:,::-1].copy(),imgsz=image.shape[0],conf=.25,iou=.7,device=0,verbose=False)[0]
+        result=yolo.predict(source=image.astype('uint8')[:,:,::-1].copy(),imgsz=image.shape[0],conf=confidence,iou=.7,device=0 if torch.cuda.is_available() else 'cpu',verbose=False)[0]
         gt=sample['masks'].numpy()>0;gtcls=sample['classes'].flatten().numpy().astype(int);used=set();itp=ifp=iignore=0
         if result.masks is not None:
             pm=result.masks.data.cpu().numpy()>0.5;pc=result.boxes.cls.cpu().numpy().astype(int)
@@ -146,7 +146,7 @@ def audited_metrics(yolo,samples,names):
         ifn=len(gt)-len(used);tp+=itp;fp+=ifp;fn+=ifn;ignored+=iignore;details.append(dict(path=sample['entry']['path'],board_family=sample['entry']['board_family'],tp=itp,fp_audited_regions=ifp,fn_reviewed_instances=ifn,ignored_predictions=iignore,reviewed_background_pixels=int(sample['background'].sum())))
         counts=per_board.setdefault(sample['entry']['board_family'],dict(tp=0,fp=0,fn=0,images=0))
         counts['tp']+=itp;counts['fp']+=ifp;counts['fn']+=ifn;counts['images']+=1
-    return dict(mask_iou_threshold=.5,confidence=.25,tp=tp,fp_audited_regions=fp,fn_reviewed_instances=fn,ignored_predictions=ignored,audited_region_precision=tp/(tp+fp) if tp+fp else None,reviewed_instance_recall=tp/(tp+fn) if tp+fn else None,evaluation_valid=False,scope='partial reviewed regions on known specimens; unmatched unknown-region predictions ignored, not false positives',images=details,per_board=per_board,missing_validation_families=['ultimainboard_2_1_4'])
+    return dict(mask_iou_threshold=.5,confidence=confidence,tp=tp,fp_audited_regions=fp,fn_reviewed_instances=fn,ignored_predictions=ignored,audited_region_precision=tp/(tp+fp) if tp+fp else None,reviewed_instance_recall=tp/(tp+fn) if tp+fn else None,evaluation_valid=False,scope='partial reviewed regions on known specimens; unmatched unknown-region predictions ignored, not false positives',images=details,per_board=per_board,missing_validation_families=['ultimainboard_2_1_4'])
 
 def main():
     parser=argparse.ArgumentParser();parser.add_argument('--run',action='store_true');parser.add_argument('--evaluate',type=Path);parser.add_argument('--epochs',type=int,default=1000);parser.add_argument('--patience',type=int,default=80);parser.add_argument('--imgsz',type=int,default=640);parser.add_argument('--pretrained',default='yolo11m-seg.pt');args=parser.parse_args()

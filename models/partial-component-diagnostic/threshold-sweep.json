@@ -1,0 +1,379 @@
+{
+  "evaluation_valid": false,
+  "production_eligible": false,
+  "scope": "Partial reviewed regions on the existing known-specimen validation images. Unknown pixels remain ignored; this is threshold sensitivity, not independent evaluation.",
+  "checkpoint": "E:\\tokito-build\\repos\\dataset-reorganized\\models\\partial-component-diagnostic\\best.pt",
+  "validation_images": [
+    "data/video-captures/2026-10-10/esp12e-keyframes/video_20261010_122211_n000523_pts00017497ms.jpg",
+    "data/video-captures/2026-10-10/esp12e-keyframes/video_20261010_122211_n000000_pts00000000ms.jpg",
+    "data/photo-model/by_board/nxp_frdm_mcxn_board/IMG_20261009_221755.jpg",
+    "data/video-captures/2026-10-10/esp32-keyframes/video_20261010_132302_n000000_pts00000000ms.jpg"
+  ],
+  "thresholds": [
+    {
+      "mask_iou_threshold": 0.5,
+      "confidence": 0.01,
+      "tp": 21,
+      "fp_audited_regions": 52,
+      "fn_reviewed_instances": 23,
+      "ignored_predictions": 255,
+      "audited_region_precision": 0.2876712328767123,
+      "reviewed_instance_recall": 0.4772727272727273,
+      "evaluation_valid": false,
+      "scope": "partial reviewed regions on known specimens; unmatched unknown-region predictions ignored, not false positives",
+      "images": [
+        {
+          "path": "data/video-captures/2026-10-10/esp12e-keyframes/video_20261010_122211_n000523_pts00017497ms.jpg",
+          "board_family": "esp8266_nodemcu_esp12e_clone_unknown_variant",
+          "tp": 12,
+          "fp_audited_regions": 16,
+          "fn_reviewed_instances": 6,
+          "ignored_predictions": 42,
+          "reviewed_background_pixels": 6318
+        },
+        {
+          "path": "data/video-captures/2026-10-10/esp12e-keyframes/video_20261010_122211_n000000_pts00000000ms.jpg",
+          "board_family": "esp8266_nodemcu_esp12e_clone_unknown_variant",
+          "tp": 0,
+          "fp_audited_regions": 0,
+          "fn_reviewed_instances": 2,
+          "ignored_predictions": 27,
+          "reviewed_background_pixels": 15698
+        },
+        {
+          "path": "data/photo-model/by_board/nxp_frdm_mcxn_board/IMG_20261009_221755.jpg",
+          "board_family": "NXP FRDM-MCXN236",
+          "tp": 7,
+          "fp_audited_regions": 35,
+          "fn_reviewed_instances": 12,
+          "ignored_predictions": 151,
+          "reviewed_background_pixels": 3844
+        },
+        {
+          "path": "data/video-captures/2026-10-10/esp32-keyframes/video_20261010_132302_n000000_pts00000000ms.jpg",
+          "board_family": "esp32_devkit_30pin_unknown_variant",
+          "tp": 2,
+          "fp_audited_regions": 1,
+          "fn_reviewed_instances": 3,
+          "ignored_predictions": 35,
+          "reviewed_background_pixels": 14529
+        }
+      ],
+      "per_board": {
+        "esp8266_nodemcu_esp12e_clone_unknown_variant": {
+          "tp": 12,
+          "fp": 16,
+          "fn": 8,
+          "images": 2
+        },
+        "NXP FRDM-MCXN236": {
+          "tp": 7,
+          "fp": 35,
+          "fn": 12,
+          "images": 1
+        },
+        "esp32_devkit_30pin_unknown_variant": {
+          "tp": 2,
+          "fp": 1,
+          "fn": 3,
+          "images": 1
+        }
+      },
+      "missing_validation_families": [
+        "ultimainboard_2_1_4"
+      ]
+    },
+    {
+      "mask_iou_threshold": 0.5,
+      "confidence": 0.03,
+      "tp": 15,
+      "fp_audited_regions": 31,
+      "fn_reviewed_instances": 29,
+      "ignored_predictions": 79,
+      "audited_region_precision": 0.32608695652173914,
+      "reviewed_instance_recall": 0.3409090909090909,
+      "evaluation_valid": false,
+      "scope": "partial reviewed regions on known specimens; unmatched unknown-region predictions ignored, not false positives",
+      "images": [
+        {
+          "path": "data/video-captures/2026-10-10/esp12e-keyframes/video_20261010_122211_n000523_pts00017497ms.jpg",
+          "board_family": "esp8266_nodemcu_esp12e_clone_unknown_variant",
+          "tp": 6,
+          "fp_audited_regions": 7,
+          "fn_reviewed_instances": 12,
+          "ignored_predictions": 12,
+          "reviewed_background_pixels": 6318
+        },
+        {
+          "path": "data/video-captures/2026-10-10/esp12e-keyframes/video_20261010_122211_n000000_pts00000000ms.jpg",
+          "board_family": "esp8266_nodemcu_esp12e_clone_unknown_variant",
+          "tp": 0,
+          "fp_audited_regions": 0,
+          "fn_reviewed_instances": 2,
+          "ignored_predictions": 6,
+          "reviewed_background_pixels": 15698
+        },
+        {
+          "path": "data/photo-model/by_board/nxp_frdm_mcxn_board/IMG_20261009_221755.jpg",
+          "board_family": "NXP FRDM-MCXN236",
+          "tp": 7,
+          "fp_audited_regions": 23,
+          "fn_reviewed_instances": 12,
+          "ignored_predictions": 43,
+          "reviewed_background_pixels": 3844
+        },
+        {
+          "path": "data/video-captures/2026-10-10/esp32-keyframes/video_20261010_132302_n000000_pts00000000ms.jpg",
+          "board_family": "esp32_devkit_30pin_unknown_variant",
+          "tp": 2,
+          "fp_audited_regions": 1,
+          "fn_reviewed_instances": 3,
+          "ignored_predictions": 18,
+          "reviewed_background_pixels": 14529
+        }
+      ],
+      "per_board": {
+        "esp8266_nodemcu_esp12e_clone_unknown_variant": {
+          "tp": 6,
+          "fp": 7,
+          "fn": 14,
+          "images": 2
+        },
+        "NXP FRDM-MCXN236": {
+          "tp": 7,
+          "fp": 23,
+          "fn": 12,
+          "images": 1
+        },
+        "esp32_devkit_30pin_unknown_variant": {
+          "tp": 2,
+          "fp": 1,
+          "fn": 3,
+          "images": 1
+        }
+      },
+      "missing_validation_families": [
+        "ultimainboard_2_1_4"
+      ]
+    },
+    {
+      "mask_iou_threshold": 0.5,
+      "confidence": 0.05,
+      "tp": 10,
+      "fp_audited_regions": 25,
+      "fn_reviewed_instances": 34,
+      "ignored_predictions": 48,
+      "audited_region_precision": 0.2857142857142857,
+      "reviewed_instance_recall": 0.22727272727272727,
+      "evaluation_valid": false,
+      "scope": "partial reviewed regions on known specimens; unmatched unknown-region predictions ignored, not false positives",
+      "images": [
+        {
+          "path": "data/video-captures/2026-10-10/esp12e-keyframes/video_20261010_122211_n000523_pts00017497ms.jpg",
+          "board_family": "esp8266_nodemcu_esp12e_clone_unknown_variant",
+          "tp": 3,
+          "fp_audited_regions": 6,
+          "fn_reviewed_instances": 15,
+          "ignored_predictions": 7,
+          "reviewed_background_pixels": 6318
+        },
+        {
+          "path": "data/video-captures/2026-10-10/esp12e-keyframes/video_20261010_122211_n000000_pts00000000ms.jpg",
+          "board_family": "esp8266_nodemcu_esp12e_clone_unknown_variant",
+          "tp": 0,
+          "fp_audited_regions": 0,
+          "fn_reviewed_instances": 2,
+          "ignored_predictions": 5,
+          "reviewed_background_pixels": 15698
+        },
+        {
+          "path": "data/photo-model/by_board/nxp_frdm_mcxn_board/IMG_20261009_221755.jpg",
+          "board_family": "NXP FRDM-MCXN236",
+          "tp": 5,
+          "fp_audited_regions": 18,
+          "fn_reviewed_instances": 14,
+          "ignored_predictions": 23,
+          "reviewed_background_pixels": 3844
+        },
+        {
+          "path": "data/video-captures/2026-10-10/esp32-keyframes/video_20261010_132302_n000000_pts00000000ms.jpg",
+          "board_family": "esp32_devkit_30pin_unknown_variant",
+          "tp": 2,
+          "fp_audited_regions": 1,
+          "fn_reviewed_instances": 3,
+          "ignored_predictions": 13,
+          "reviewed_background_pixels": 14529
+        }
+      ],
+      "per_board": {
+        "esp8266_nodemcu_esp12e_clone_unknown_variant": {
+          "tp": 3,
+          "fp": 6,
+          "fn": 17,
+          "images": 2
+        },
+        "NXP FRDM-MCXN236": {
+          "tp": 5,
+          "fp": 18,
+          "fn": 14,
+          "images": 1
+        },
+        "esp32_devkit_30pin_unknown_variant": {
+          "tp": 2,
+          "fp": 1,
+          "fn": 3,
+          "images": 1
+        }
+      },
+      "missing_validation_families": [
+        "ultimainboard_2_1_4"
+      ]
+    },
+    {
+      "mask_iou_threshold": 0.5,
+      "confidence": 0.1,
+      "tp": 8,
+      "fp_audited_regions": 16,
+      "fn_reviewed_instances": 36,
+      "ignored_predictions": 24,
+      "audited_region_precision": 0.3333333333333333,
+      "reviewed_instance_recall": 0.18181818181818182,
+      "evaluation_valid": false,
+      "scope": "partial reviewed regions on known specimens; unmatched unknown-region predictions ignored, not false positives",
+      "images": [
+        {
+          "path": "data/video-captures/2026-10-10/esp12e-keyframes/video_20261010_122211_n000523_pts00017497ms.jpg",
+          "board_family": "esp8266_nodemcu_esp12e_clone_unknown_variant",
+          "tp": 2,
+          "fp_audited_regions": 4,
+          "fn_reviewed_instances": 16,
+          "ignored_predictions": 4,
+          "reviewed_background_pixels": 6318
+        },
+        {
+          "path": "data/video-captures/2026-10-10/esp12e-keyframes/video_20261010_122211_n000000_pts00000000ms.jpg",
+          "board_family": "esp8266_nodemcu_esp12e_clone_unknown_variant",
+          "tp": 0,
+          "fp_audited_regions": 0,
+          "fn_reviewed_instances": 2,
+          "ignored_predictions": 2,
+          "reviewed_background_pixels": 15698
+        },
+        {
+          "path": "data/photo-model/by_board/nxp_frdm_mcxn_board/IMG_20261009_221755.jpg",
+          "board_family": "NXP FRDM-MCXN236",
+          "tp": 5,
+          "fp_audited_regions": 11,
+          "fn_reviewed_instances": 14,
+          "ignored_predictions": 13,
+          "reviewed_background_pixels": 3844
+        },
+        {
+          "path": "data/video-captures/2026-10-10/esp32-keyframes/video_20261010_132302_n000000_pts00000000ms.jpg",
+          "board_family": "esp32_devkit_30pin_unknown_variant",
+          "tp": 1,
+          "fp_audited_regions": 1,
+          "fn_reviewed_instances": 4,
+          "ignored_predictions": 5,
+          "reviewed_background_pixels": 14529
+        }
+      ],
+      "per_board": {
+        "esp8266_nodemcu_esp12e_clone_unknown_variant": {
+          "tp": 2,
+          "fp": 4,
+          "fn": 18,
+          "images": 2
+        },
+        "NXP FRDM-MCXN236": {
+          "tp": 5,
+          "fp": 11,
+          "fn": 14,
+          "images": 1
+        },
+        "esp32_devkit_30pin_unknown_variant": {
+          "tp": 1,
+          "fp": 1,
+          "fn": 4,
+          "images": 1
+        }
+      },
+      "missing_validation_families": [
+        "ultimainboard_2_1_4"
+      ]
+    },
+    {
+      "mask_iou_threshold": 0.5,
+      "confidence": 0.25,
+      "tp": 3,
+      "fp_audited_regions": 4,
+      "fn_reviewed_instances": 41,
+      "ignored_predictions": 8,
+      "audited_region_precision": 0.42857142857142855,
+      "reviewed_instance_recall": 0.06818181818181818,
+      "evaluation_valid": false,
+      "scope": "partial reviewed regions on known specimens; unmatched unknown-region predictions ignored, not false positives",
+      "images": [
+        {
+          "path": "data/video-captures/2026-10-10/esp12e-keyframes/video_20261010_122211_n000523_pts00017497ms.jpg",
+          "board_family": "esp8266_nodemcu_esp12e_clone_unknown_variant",
+          "tp": 1,
+          "fp_audited_regions": 2,
+          "fn_reviewed_instances": 17,
+          "ignored_predictions": 1,
+          "reviewed_background_pixels": 6318
+        },
+        {
+          "path": "data/video-captures/2026-10-10/esp12e-keyframes/video_20261010_122211_n000000_pts00000000ms.jpg",
+          "board_family": "esp8266_nodemcu_esp12e_clone_unknown_variant",
+          "tp": 0,
+          "fp_audited_regions": 0,
+          "fn_reviewed_instances": 2,
+          "ignored_predictions": 1,
+          "reviewed_background_pixels": 15698
+        },
+        {
+          "path": "data/photo-model/by_board/nxp_frdm_mcxn_board/IMG_20261009_221755.jpg",
+          "board_family": "NXP FRDM-MCXN236",
+          "tp": 1,
+          "fp_audited_regions": 2,
+          "fn_reviewed_instances": 18,
+          "ignored_predictions": 5,
+          "reviewed_background_pixels": 3844
+        },
+        {
+          "path": "data/video-captures/2026-10-10/esp32-keyframes/video_20261010_132302_n000000_pts00000000ms.jpg",
+          "board_family": "esp32_devkit_30pin_unknown_variant",
+          "tp": 1,
+          "fp_audited_regions": 0,
+          "fn_reviewed_instances": 4,
+          "ignored_predictions": 1,
+          "reviewed_background_pixels": 14529
+        }
+      ],
+      "per_board": {
+        "esp8266_nodemcu_esp12e_clone_unknown_variant": {
+          "tp": 1,
+          "fp": 2,
+          "fn": 19,
+          "images": 2
+        },
+        "NXP FRDM-MCXN236": {
+          "tp": 1,
+          "fp": 2,
+          "fn": 18,
+          "images": 1
+        },
+        "esp32_devkit_30pin_unknown_variant": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 4,
+          "images": 1
+        }
+      },
+      "missing_validation_families": [
+        "ultimainboard_2_1_4"
+      ]
+    }
+  ]
+}

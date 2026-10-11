@@ -1,0 +1,98 @@
+{
+  "schema_version": "1.0",
+  "source_manifest": "annotations/multiview-capture-review.json",
+  "required_view_slots": [
+    "top",
+    "bottom",
+    "oblique_positive_board_x",
+    "oblique_negative_board_x",
+    "oblique_positive_board_y",
+    "oblique_negative_board_y"
+  ],
+  "physical_specimens": 5,
+  "complete_physical_multiview_specimens": 0,
+  "physical_multiview_complete": false,
+  "release_eligible": false,
+  "boards": [
+    {
+      "specimen_id": "bench-esp32-01",
+      "board_family": "ESP32 30-pin DevKit (variant unknown)",
+      "physical_capture_records": 1,
+      "verified_view_slots": [],
+      "missing_view_slots": [
+        "top",
+        "bottom",
+        "oblique_positive_board_x",
+        "oblique_negative_board_x",
+        "oblique_positive_board_y",
+        "oblique_negative_board_y"
+      ],
+      "flip_sequence_verified": false
+    },
+    {
+      "specimen_id": "bench-esp8266-01",
+      "board_family": "ESP8266 NodeMCU-style ESP-12E clone (variant unknown)",
+      "physical_capture_records": 1,
+      "verified_view_slots": [],
+      "missing_view_slots": [
+        "top",
+        "bottom",
+        "oblique_positive_board_x",
+        "oblique_negative_board_x",
+        "oblique_positive_board_y",
+        "oblique_negative_board_y"
+      ],
+      "flip_sequence_verified": false
+    },
+    {
+      "specimen_id": "bench-frdm-mcxn236-01",
+      "board_family": "NXP FRDM-MCXN236 (revision unverified)",
+      "physical_capture_records": 1,
+      "verified_view_slots": [],
+      "missing_view_slots": [
+        "top",
+        "bottom",
+        "oblique_positive_board_x",
+        "oblique_negative_board_x",
+        "oblique_positive_board_y",
+        "oblique_negative_board_y"
+      ],
+      "flip_sequence_verified": false
+    },
+    {
+      "specimen_id": "bench-raspberry-pi-3b-01",
+      "board_family": "Raspberry Pi 3 Model B v1.2",
+      "physical_capture_records": 1,
+      "verified_view_slots": [],
+      "missing_view_slots": [
+        "top",
+        "bottom",
+        "oblique_positive_board_x",
+        "oblique_negative_board_x",
+        "oblique_positive_board_y",
+        "oblique_negative_board_y"
+      ],
+      "flip_sequence_verified": false
+    },
+    {
+      "specimen_id": "bench-ultimainboard-01",
+      "board_family": "Ultimaker Ultimainboard 2.1.4",
+      "physical_capture_records": 1,
+      "verified_view_slots": [],
+      "missing_view_slots": [
+        "top",
+        "bottom",
+        "oblique_positive_board_x",
+        "oblique_negative_board_x",
+        "oblique_positive_board_y",
+        "oblique_negative_board_y"
+      ],
+      "flip_sequence_verified": false
+    }
+  ],
+  "limits": [
+    "Only individually reviewed physical-photo records with calibration and pose count.",
+    "Synthetic renders and unreviewed gallery photos do not count as physical coverage.",
+    "A reviewed continuous flip video with a content hash is required per specimen."
+  ]
+}
