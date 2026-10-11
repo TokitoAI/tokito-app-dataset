@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0",
+  "purpose": "single-image YOLO segmentation integration smoke fixture",
+  "evaluation_valid": false,
+  "production_eligible": false,
+  "trainable_model_dataset": false,
+  "warning": "train, val and test point to the same single specimen/image for parser/runtime smoke testing only; do not train or report metrics.",
+  "board_family": "esp8266_nodemcu_esp12e_clone_unknown_variant",
+  "physical_specimen_id": "bench-esp8266-01",
+  "capture_session_id": "bench-esp8266-01:20261010_092221",
+  "source_annotation": "annotations/esp8266-frame-component-complete-review.json",
+  "source_annotation_sha256": "6f16575909a945497415521095eda984f2108702ec233eced33708f59033eb53",
+  "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092221.jpg",
+  "image_sha256": "9d68458beac56198249982eda3de4dfc02904a701ea5d7496c6774af4c994461",
+  "export_image_sha256": "9d68458beac56198249982eda3de4dfc02904a701ea5d7496c6774af4c994461",
+  "export_label_path": "data/photo-model/component-smoke-esp12e/labels/IMG_20261010_092221.txt",
+  "export_label_sha256": "b242f35d440df5f17a3bdc8f3aae646934353f0e23bedc0758229f911b68a067",
+  "data_yaml_path": "data/photo-model/component-smoke-esp12e/data.yaml",
+  "image_size": [
+    3072,
+    4080
+  ],
+  "class_names": [
+    "capacitor",
+    "integrated_circuit",
+    "resistor",
+    "rf_shield",
+    "switch",
+    "three_terminal_package",
+    "usb_connector"
+  ],
+  "included_instances": 22,
+  "excluded_instances": [
+    "IMG_20261010_092221.jpg:unknown_lower_left_package"
+  ],
+  "coverage": "complete_visible_instances",
+  "scope": "complete visible component bodies on one ESP-12E top-side image; pins, hidden parts and underside excluded"
+}
