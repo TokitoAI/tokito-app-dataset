@@ -58,6 +58,23 @@ class ComponentYoloAnnotationIntegrity(unittest.TestCase):
         self.data["training_export_eligible"] = True
         self.assertTrue(self.check()["trainable"])
 
+    def test_nested_image_objects_schema_is_validated(self):
+        self.data = {
+            "image": {"path": "image.jpg", "sha256": self.digest,
+                      "width": 20, "height": 10},
+            "coverage": "partial_visible_instances",
+            "training_export_eligible": False,
+            "objects": [{
+                "id": "image.jpg:U1",
+                "class_name": "integrated_circuit",
+                "mask_polygon_xy": [[2, 2], [8, 2], [8, 7], [2, 7]],
+            }],
+        }
+        result = self.check()
+        self.assertEqual(result["errors"], [])
+        self.assertEqual(result["masks"], 1)
+        self.assertFalse(result["trainable"])
+
 
 if __name__ == "__main__":
     unittest.main()

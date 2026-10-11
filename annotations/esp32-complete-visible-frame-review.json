@@ -1,0 +1,1566 @@
+{
+  "schema_version": "1.0",
+  "review_kind": "single_frame_component_body_coverage_review",
+  "board_family": "esp32_devkit_30pin_unknown_variant",
+  "physical_specimen_id": "bench-esp32-01",
+  "capture_session_id": "bench-esp32-01:20261010_morning",
+  "parent_board_instance_id": "bench-esp32-01:board",
+  "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092153.jpg",
+  "image_sha256": "14b4208819a0e8f20bd75204cf7bdd8676f2a89fd3419412ab0f06b53d2c3854",
+  "image_width": 3072,
+  "image_height": 4080,
+  "coordinate_frame": "exif_upright_original_image_pixels",
+  "coverage": "partial_visible_component_bodies",
+  "coverage_scope": "32 separately discernible package bodies are annotated in this one ESP32 frame. A targeted original-resolution audit found reflective features below U2 that may include additional small SMD packages; their body boundaries cannot be separated reliably from solder/pad reflections in this frame, so complete coverage is not established.",
+  "training_export_eligible": false,
+  "evaluation_valid": false,
+  "review_method": "Manual full-resolution inspection and mask overlay. U2-adjacent package candidates and the RF module substrate perimeter were checked against the original. The three newly added bodies left of U1 were tightened to avoid crossing into U1.",
+  "instance_counts": {
+    "annotated_package_bodies": 32,
+    "previously_reviewed_masks": 28,
+    "newly_added_unknown_package_masks": 4,
+    "unresolved_candidate_regions_near_U2": 2
+  },
+  "explicit_exclusions": [
+    "Board outline, mounting holes, silkscreen, and copper pads are not component bodies.",
+    "Thirty through-hole header contacts are separately represented as printed-alias point metadata; they are not package-body instances in this component segmentation set.",
+    "This frame contains one physical specimen and one capture session; it is not an independent evaluation set."
+  ],
+  "identity_limits": [
+    "The exact board variant remains unverified.",
+    "Four added package bodies have unreadable or absent markings; their types and designators are intentionally unresolved.",
+    "Existing labels remain observational family labels, not installed order-code claims.",
+    "Frame-level component coverage remains incomplete because small SMD candidates below U2 are unresolved."
+  ],
+  "source_annotations": {
+    "annotations/esp32-dense-component-review.json": "d4cba0475f7f11bfdaec0e90dcec61d2730b04f71635cf7d0e934477f96d2f78"
+  },
+  "masks": [
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092153.jpg",
+      "image_sha256": "14b4208819a0e8f20bd75204cf7bdd8676f2a89fd3419412ab0f06b53d2c3854",
+      "image_width": 3072,
+      "image_height": 4080,
+      "instance_id": "IMG_20261010_092153.jpg:U2",
+      "class_name": "integrated_circuit",
+      "observed_reference_designator": "U2",
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1015,
+          1667
+        ],
+        [
+          1189,
+          1667
+        ],
+        [
+          1200,
+          1678
+        ],
+        [
+          1201,
+          1827
+        ],
+        [
+          1190,
+          1841
+        ],
+        [
+          1015,
+          1841
+        ],
+        [
+          1005,
+          1827
+        ],
+        [
+          1005,
+          1677
+        ]
+      ],
+      "boundary_scope": "Visible CP2102 package body; pins and silkscreen excluded.",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "ORB/RANSAC transfer from the manually corrected 092144 source with 1883/2018 feature inliers. Full target and original-resolution top-area overlays visually inspected; package boundaries align with the visible bodies. Same specimen/session; not independent evaluation.",
+      "boundary_uncertainty_pixels": 10,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
+      "installed_order_code_confirmed": false,
+      "parent_board_instance_id": "bench-esp32-01:board",
+      "source_annotation_path": "annotations/esp32-dense-component-review.json",
+      "source_annotation_instance_id": "IMG_20261010_092144.jpg:U2",
+      "exact_part_name": null,
+      "identity_status": "reviewed_photo_marking_family_order_code_unconfirmed",
+      "source_annotation_relation": "same_specimen_body_boundary_transferred_then_target_overlay_reviewed",
+      "marking_identity_evidence_image_path": "data/phone-captures/2026-10-10/IMG_20261010_092144.jpg",
+      "observed_marking": null
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092153.jpg",
+      "image_sha256": "14b4208819a0e8f20bd75204cf7bdd8676f2a89fd3419412ab0f06b53d2c3854",
+      "image_width": 3072,
+      "image_height": 4080,
+      "instance_id": "IMG_20261010_092153.jpg:RF_MODULE",
+      "class_name": "rf_module",
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          947,
+          2242
+        ],
+        [
+          1639,
+          2254
+        ],
+        [
+          1648,
+          3241
+        ],
+        [
+          945,
+          3205
+        ]
+      ],
+      "boundary_scope": "visible complete RF module substrate including the antenna PCB below the shield; host PCB and external solder fillets excluded",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "ORB/RANSAC transfer from the manually corrected 092144 source with 1883/2018 feature inliers. Full target and original-resolution top-area overlays visually inspected; package boundaries align with the visible bodies. Same specimen/session; not independent evaluation.",
+      "boundary_uncertainty_pixels": 10,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
+      "installed_order_code_confirmed": false,
+      "parent_board_instance_id": "bench-esp32-01:board",
+      "source_annotation_path": "annotations/esp32-dense-component-review.json",
+      "source_annotation_instance_id": "IMG_20261010_092144.jpg:RF_MODULE",
+      "exact_part_name": null,
+      "identity_status": "observed_package_type_only",
+      "source_annotation_relation": "same_specimen_body_boundary_transferred_then_target_overlay_reviewed",
+      "marking_identity_evidence_image_path": "data/phone-captures/2026-10-10/IMG_20261010_092144.jpg",
+      "observed_marking": null
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092153.jpg",
+      "image_sha256": "14b4208819a0e8f20bd75204cf7bdd8676f2a89fd3419412ab0f06b53d2c3854",
+      "image_width": 3072,
+      "image_height": 4080,
+      "instance_id": "IMG_20261010_092153.jpg:USB",
+      "class_name": "usb_connector",
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1178,
+          1310
+        ],
+        [
+          1458,
+          1310
+        ],
+        [
+          1467,
+          1323
+        ],
+        [
+          1467,
+          1362
+        ],
+        [
+          1488,
+          1361
+        ],
+        [
+          1501,
+          1379
+        ],
+        [
+          1501,
+          1433
+        ],
+        [
+          1491,
+          1444
+        ],
+        [
+          1468,
+          1444
+        ],
+        [
+          1469,
+          1499
+        ],
+        [
+          1453,
+          1510
+        ],
+        [
+          1190,
+          1509
+        ],
+        [
+          1177,
+          1498
+        ],
+        [
+          1176,
+          1443
+        ],
+        [
+          1158,
+          1443
+        ],
+        [
+          1145,
+          1429
+        ],
+        [
+          1145,
+          1384
+        ],
+        [
+          1156,
+          1369
+        ],
+        [
+          1176,
+          1366
+        ],
+        [
+          1176,
+          1323
+        ]
+      ],
+      "boundary_scope": "visible connector shell including mounting ears; surrounding PCB and solder fillets excluded",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "ORB/RANSAC transfer from the manually corrected 092144 source with 1883/2018 feature inliers. Full target and original-resolution top-area overlays visually inspected; package boundaries align with the visible bodies. Same specimen/session; not independent evaluation.",
+      "boundary_uncertainty_pixels": 10,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
+      "installed_order_code_confirmed": false,
+      "parent_board_instance_id": "bench-esp32-01:board",
+      "source_annotation_path": "annotations/esp32-dense-component-review.json",
+      "source_annotation_instance_id": "IMG_20261010_092144.jpg:USB",
+      "exact_part_name": null,
+      "identity_status": "observed_package_type_only",
+      "source_annotation_relation": "same_specimen_body_boundary_transferred_then_target_overlay_reviewed",
+      "marking_identity_evidence_image_path": "data/phone-captures/2026-10-10/IMG_20261010_092144.jpg",
+      "observed_marking": null
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092153.jpg",
+      "image_sha256": "14b4208819a0e8f20bd75204cf7bdd8676f2a89fd3419412ab0f06b53d2c3854",
+      "image_width": 3072,
+      "image_height": 4080,
+      "instance_id": "IMG_20261010_092153.jpg:BOOT_SWITCH",
+      "class_name": "switch",
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          966,
+          1368
+        ],
+        [
+          1072,
+          1368
+        ],
+        [
+          1079,
+          1380
+        ],
+        [
+          1079,
+          1496
+        ],
+        [
+          1072,
+          1509
+        ],
+        [
+          966,
+          1509
+        ],
+        [
+          960,
+          1496
+        ],
+        [
+          959,
+          1380
+        ]
+      ],
+      "boundary_scope": "Visible BOOT tactile-switch housing, including actuator; adjacent silkscreen excluded.",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "ORB/RANSAC transfer from the manually corrected 092144 source with 1883/2018 feature inliers. Full target and original-resolution top-area overlays visually inspected; package boundaries align with the visible bodies. Same specimen/session; not independent evaluation.",
+      "boundary_uncertainty_pixels": 10,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
+      "installed_order_code_confirmed": false,
+      "parent_board_instance_id": "bench-esp32-01:board",
+      "source_annotation_path": "annotations/esp32-dense-component-review.json",
+      "source_annotation_instance_id": "IMG_20261010_092144.jpg:BOOT_SWITCH",
+      "exact_part_name": null,
+      "identity_status": "observed_package_type_only",
+      "source_annotation_relation": "same_specimen_body_boundary_transferred_then_target_overlay_reviewed",
+      "marking_identity_evidence_image_path": "data/phone-captures/2026-10-10/IMG_20261010_092144.jpg",
+      "observed_marking": null
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092153.jpg",
+      "image_sha256": "14b4208819a0e8f20bd75204cf7bdd8676f2a89fd3419412ab0f06b53d2c3854",
+      "image_width": 3072,
+      "image_height": 4080,
+      "instance_id": "IMG_20261010_092153.jpg:EN_SWITCH",
+      "class_name": "switch",
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1558,
+          1380
+        ],
+        [
+          1665,
+          1380
+        ],
+        [
+          1671,
+          1389
+        ],
+        [
+          1672,
+          1513
+        ],
+        [
+          1665,
+          1520
+        ],
+        [
+          1559,
+          1520
+        ],
+        [
+          1553,
+          1513
+        ],
+        [
+          1551,
+          1389
+        ]
+      ],
+      "boundary_scope": "Visible EN tactile-switch housing, including actuator; adjacent silkscreen excluded.",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "ORB/RANSAC transfer from the manually corrected 092144 source with 1883/2018 feature inliers. Full target and original-resolution top-area overlays visually inspected; package boundaries align with the visible bodies. Same specimen/session; not independent evaluation.",
+      "boundary_uncertainty_pixels": 10,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
+      "installed_order_code_confirmed": false,
+      "parent_board_instance_id": "bench-esp32-01:board",
+      "source_annotation_path": "annotations/esp32-dense-component-review.json",
+      "source_annotation_instance_id": "IMG_20261010_092144.jpg:EN_SWITCH",
+      "exact_part_name": null,
+      "identity_status": "observed_package_type_only",
+      "source_annotation_relation": "same_specimen_body_boundary_transferred_then_target_overlay_reviewed",
+      "marking_identity_evidence_image_path": "data/phone-captures/2026-10-10/IMG_20261010_092144.jpg",
+      "observed_marking": null
+    },
+    {
+      "instance_id": "IMG_20261010_092153.jpg:upper_passive_01",
+      "class_name": "chip_passive",
+      "parent_board_instance_id": "bench-esp32-01:board",
+      "observed_reference_designator": null,
+      "observed_marking": null,
+      "observed_marking_family": null,
+      "exact_part_name": null,
+      "identity_status": "literal_marking_only_no_electrical_value_asserted",
+      "installed_order_code_confirmed": false,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
+      "polygon_xy_pixels": [
+        [
+          971,
+          1571
+        ],
+        [
+          1074,
+          1571
+        ],
+        [
+          1074,
+          1606
+        ],
+        [
+          971,
+          1606
+        ]
+      ],
+      "boundary_scope": "visible chip body including its end metallization; surrounding solder fillets and silkscreen excluded",
+      "review_status": "visually_reviewed_body_polygon",
+      "boundary_uncertainty_pixels": 10,
+      "review_evidence": "ORB/RANSAC transfer from the manually corrected 092144 source with 1883/2018 feature inliers. Full target and original-resolution top-area overlays visually inspected; package boundaries align with the visible bodies. Same specimen/session; not independent evaluation.",
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092153.jpg",
+      "image_sha256": "14b4208819a0e8f20bd75204cf7bdd8676f2a89fd3419412ab0f06b53d2c3854",
+      "image_width": 3072,
+      "image_height": 4080,
+      "source_annotation_path": "annotations/esp32-dense-component-review.json",
+      "source_annotation_instance_id": "IMG_20261010_092144.jpg:upper_passive_01",
+      "source_annotation_relation": "same_specimen_body_boundary_transferred_then_target_overlay_reviewed",
+      "marking_identity_evidence_image_path": "data/phone-captures/2026-10-10/IMG_20261010_092144.jpg"
+    },
+    {
+      "instance_id": "IMG_20261010_092153.jpg:upper_passive_02",
+      "class_name": "chip_passive",
+      "parent_board_instance_id": "bench-esp32-01:board",
+      "observed_reference_designator": null,
+      "observed_marking": null,
+      "observed_marking_family": null,
+      "exact_part_name": null,
+      "identity_status": "unresolved_component_identity",
+      "installed_order_code_confirmed": false,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
+      "polygon_xy_pixels": [
+        [
+          1093,
+          1573
+        ],
+        [
+          1184,
+          1574
+        ],
+        [
+          1184,
+          1609
+        ],
+        [
+          1093,
+          1609
+        ]
+      ],
+      "boundary_scope": "visible chip body including its end metallization; surrounding solder fillets and silkscreen excluded",
+      "review_status": "visually_reviewed_body_polygon",
+      "boundary_uncertainty_pixels": 10,
+      "review_evidence": "ORB/RANSAC transfer from the manually corrected 092144 source with 1883/2018 feature inliers. Full target and original-resolution top-area overlays visually inspected; package boundaries align with the visible bodies. Same specimen/session; not independent evaluation.",
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092153.jpg",
+      "image_sha256": "14b4208819a0e8f20bd75204cf7bdd8676f2a89fd3419412ab0f06b53d2c3854",
+      "image_width": 3072,
+      "image_height": 4080,
+      "source_annotation_path": "annotations/esp32-dense-component-review.json",
+      "source_annotation_instance_id": "IMG_20261010_092144.jpg:upper_passive_02",
+      "source_annotation_relation": "same_specimen_body_boundary_transferred_then_target_overlay_reviewed",
+      "marking_identity_evidence_image_path": "data/phone-captures/2026-10-10/IMG_20261010_092144.jpg"
+    },
+    {
+      "instance_id": "IMG_20261010_092153.jpg:upper_passive_03",
+      "class_name": "chip_passive",
+      "parent_board_instance_id": "bench-esp32-01:board",
+      "observed_reference_designator": null,
+      "observed_marking": null,
+      "observed_marking_family": null,
+      "exact_part_name": null,
+      "identity_status": "unresolved_component_identity",
+      "installed_order_code_confirmed": false,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
+      "polygon_xy_pixels": [
+        [
+          1276,
+          1576
+        ],
+        [
+          1377,
+          1577
+        ],
+        [
+          1378,
+          1614
+        ],
+        [
+          1276,
+          1613
+        ]
+      ],
+      "boundary_scope": "visible chip body including its end metallization; surrounding solder fillets and silkscreen excluded",
+      "review_status": "visually_reviewed_body_polygon",
+      "boundary_uncertainty_pixels": 10,
+      "review_evidence": "ORB/RANSAC transfer from the manually corrected 092144 source with 1883/2018 feature inliers. Full target and original-resolution top-area overlays visually inspected; package boundaries align with the visible bodies. Same specimen/session; not independent evaluation.",
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092153.jpg",
+      "image_sha256": "14b4208819a0e8f20bd75204cf7bdd8676f2a89fd3419412ab0f06b53d2c3854",
+      "image_width": 3072,
+      "image_height": 4080,
+      "source_annotation_path": "annotations/esp32-dense-component-review.json",
+      "source_annotation_instance_id": "IMG_20261010_092144.jpg:upper_passive_03",
+      "source_annotation_relation": "same_specimen_body_boundary_transferred_then_target_overlay_reviewed",
+      "marking_identity_evidence_image_path": "data/phone-captures/2026-10-10/IMG_20261010_092144.jpg"
+    },
+    {
+      "instance_id": "IMG_20261010_092153.jpg:upper_passive_04",
+      "class_name": "chip_passive",
+      "parent_board_instance_id": "bench-esp32-01:board",
+      "observed_reference_designator": null,
+      "observed_marking": null,
+      "observed_marking_family": null,
+      "exact_part_name": null,
+      "identity_status": "unresolved_component_identity",
+      "installed_order_code_confirmed": false,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
+      "polygon_xy_pixels": [
+        [
+          1396,
+          1576
+        ],
+        [
+          1514,
+          1576
+        ],
+        [
+          1514,
+          1617
+        ],
+        [
+          1396,
+          1616
+        ]
+      ],
+      "boundary_scope": "visible chip body including its end metallization; surrounding solder fillets and silkscreen excluded",
+      "review_status": "visually_reviewed_body_polygon",
+      "boundary_uncertainty_pixels": 10,
+      "review_evidence": "ORB/RANSAC transfer from the manually corrected 092144 source with 1883/2018 feature inliers. Full target and original-resolution top-area overlays visually inspected; package boundaries align with the visible bodies. Same specimen/session; not independent evaluation.",
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092153.jpg",
+      "image_sha256": "14b4208819a0e8f20bd75204cf7bdd8676f2a89fd3419412ab0f06b53d2c3854",
+      "image_width": 3072,
+      "image_height": 4080,
+      "source_annotation_path": "annotations/esp32-dense-component-review.json",
+      "source_annotation_instance_id": "IMG_20261010_092144.jpg:upper_passive_04",
+      "source_annotation_relation": "same_specimen_body_boundary_transferred_then_target_overlay_reviewed",
+      "marking_identity_evidence_image_path": "data/phone-captures/2026-10-10/IMG_20261010_092144.jpg"
+    },
+    {
+      "instance_id": "IMG_20261010_092153.jpg:upper_passive_05",
+      "class_name": "chip_passive",
+      "parent_board_instance_id": "bench-esp32-01:board",
+      "observed_reference_designator": null,
+      "observed_marking": null,
+      "observed_marking_family": null,
+      "exact_part_name": null,
+      "identity_status": "literal_marking_only_no_electrical_value_asserted",
+      "installed_order_code_confirmed": false,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
+      "polygon_xy_pixels": [
+        [
+          1529,
+          1579
+        ],
+        [
+          1649,
+          1579
+        ],
+        [
+          1650,
+          1618
+        ],
+        [
+          1530,
+          1618
+        ]
+      ],
+      "boundary_scope": "visible chip body including its end metallization; surrounding solder fillets and silkscreen excluded",
+      "review_status": "visually_reviewed_body_polygon",
+      "boundary_uncertainty_pixels": 10,
+      "review_evidence": "ORB/RANSAC transfer from the manually corrected 092144 source with 1883/2018 feature inliers. Full target and original-resolution top-area overlays visually inspected; package boundaries align with the visible bodies. Same specimen/session; not independent evaluation.",
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092153.jpg",
+      "image_sha256": "14b4208819a0e8f20bd75204cf7bdd8676f2a89fd3419412ab0f06b53d2c3854",
+      "image_width": 3072,
+      "image_height": 4080,
+      "source_annotation_path": "annotations/esp32-dense-component-review.json",
+      "source_annotation_instance_id": "IMG_20261010_092144.jpg:upper_passive_05",
+      "source_annotation_relation": "same_specimen_body_boundary_transferred_then_target_overlay_reviewed",
+      "marking_identity_evidence_image_path": "data/phone-captures/2026-10-10/IMG_20261010_092144.jpg"
+    },
+    {
+      "instance_id": "IMG_20261010_092153.jpg:C5",
+      "class_name": "chip_passive",
+      "parent_board_instance_id": "bench-esp32-01:board",
+      "observed_reference_designator": "C5",
+      "observed_marking": null,
+      "observed_marking_family": null,
+      "exact_part_name": null,
+      "identity_status": "unresolved_component_identity",
+      "installed_order_code_confirmed": false,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
+      "polygon_xy_pixels": [
+        [
+          1672,
+          1538
+        ],
+        [
+          1712,
+          1538
+        ],
+        [
+          1713,
+          1619
+        ],
+        [
+          1673,
+          1619
+        ]
+      ],
+      "boundary_scope": "visible chip body including its end metallization; surrounding solder fillets and silkscreen excluded",
+      "review_status": "visually_reviewed_body_polygon",
+      "boundary_uncertainty_pixels": 10,
+      "review_evidence": "ORB/RANSAC transfer from the manually corrected 092144 source with 1883/2018 feature inliers. Full target and original-resolution top-area overlays visually inspected; package boundaries align with the visible bodies. Same specimen/session; not independent evaluation.",
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092153.jpg",
+      "image_sha256": "14b4208819a0e8f20bd75204cf7bdd8676f2a89fd3419412ab0f06b53d2c3854",
+      "image_width": 3072,
+      "image_height": 4080,
+      "source_annotation_path": "annotations/esp32-dense-component-review.json",
+      "source_annotation_instance_id": "IMG_20261010_092144.jpg:C5",
+      "source_annotation_relation": "same_specimen_body_boundary_transferred_then_target_overlay_reviewed",
+      "marking_identity_evidence_image_path": "data/phone-captures/2026-10-10/IMG_20261010_092144.jpg"
+    },
+    {
+      "instance_id": "IMG_20261010_092153.jpg:U1",
+      "class_name": "three_terminal_power_package",
+      "parent_board_instance_id": "bench-esp32-01:board",
+      "observed_reference_designator": "U1",
+      "observed_marking": null,
+      "observed_marking_family": null,
+      "exact_part_name": null,
+      "identity_status": "unresolved_component_identity",
+      "installed_order_code_confirmed": false,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
+      "polygon_xy_pixels": [
+        [
+          1429,
+          1651
+        ],
+        [
+          1556,
+          1651
+        ],
+        [
+          1558,
+          1890
+        ],
+        [
+          1432,
+          1889
+        ]
+      ],
+      "boundary_scope": "visible black package body only; three external leads and exposed metal tab excluded",
+      "review_status": "visually_reviewed_body_polygon",
+      "boundary_uncertainty_pixels": 10,
+      "review_evidence": "ORB/RANSAC transfer from the manually corrected 092144 source with 1883/2018 feature inliers. Full target and original-resolution top-area overlays visually inspected; package boundaries align with the visible bodies. Same specimen/session; not independent evaluation.",
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092153.jpg",
+      "image_sha256": "14b4208819a0e8f20bd75204cf7bdd8676f2a89fd3419412ab0f06b53d2c3854",
+      "image_width": 3072,
+      "image_height": 4080,
+      "source_annotation_path": "annotations/esp32-dense-component-review.json",
+      "source_annotation_instance_id": "IMG_20261010_092144.jpg:U1",
+      "source_annotation_relation": "same_specimen_body_boundary_transferred_then_target_overlay_reviewed",
+      "marking_identity_evidence_image_path": "data/phone-captures/2026-10-10/IMG_20261010_092144.jpg"
+    },
+    {
+      "instance_id": "IMG_20261010_092153.jpg:middle_passive_01",
+      "class_name": "chip_passive",
+      "parent_board_instance_id": "bench-esp32-01:board",
+      "observed_reference_designator": null,
+      "observed_marking": null,
+      "observed_marking_family": null,
+      "exact_part_name": null,
+      "identity_status": "unresolved_component_identity",
+      "installed_order_code_confirmed": false,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
+      "polygon_xy_pixels": [
+        [
+          973,
+          1905
+        ],
+        [
+          1005,
+          1905
+        ],
+        [
+          1006,
+          1996
+        ],
+        [
+          973,
+          1996
+        ]
+      ],
+      "boundary_scope": "visible chip body including its end metallization; surrounding solder fillets and silkscreen excluded",
+      "review_status": "visually_reviewed_body_polygon",
+      "boundary_uncertainty_pixels": 10,
+      "review_evidence": "ORB/RANSAC transfer from the manually corrected 092144 source with 1883/2018 feature inliers. Full target and original-resolution top-area overlays visually inspected; package boundaries align with the visible bodies. Same specimen/session; not independent evaluation.",
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092153.jpg",
+      "image_sha256": "14b4208819a0e8f20bd75204cf7bdd8676f2a89fd3419412ab0f06b53d2c3854",
+      "image_width": 3072,
+      "image_height": 4080,
+      "source_annotation_path": "annotations/esp32-dense-component-review.json",
+      "source_annotation_instance_id": "IMG_20261010_092144.jpg:middle_passive_01",
+      "source_annotation_relation": "same_specimen_body_boundary_transferred_then_target_overlay_reviewed",
+      "marking_identity_evidence_image_path": "data/phone-captures/2026-10-10/IMG_20261010_092144.jpg"
+    },
+    {
+      "instance_id": "IMG_20261010_092153.jpg:small_3terminal_01",
+      "class_name": "three_terminal_package",
+      "parent_board_instance_id": "bench-esp32-01:board",
+      "observed_reference_designator": null,
+      "observed_marking": null,
+      "observed_marking_family": null,
+      "exact_part_name": null,
+      "identity_status": "unresolved_component_identity",
+      "installed_order_code_confirmed": false,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
+      "polygon_xy_pixels": [
+        [
+          1081,
+          1898
+        ],
+        [
+          1116,
+          1898
+        ],
+        [
+          1116,
+          2010
+        ],
+        [
+          1081,
+          2010
+        ]
+      ],
+      "boundary_scope": "visible black package body; external solder and leads excluded",
+      "review_status": "visually_reviewed_body_polygon",
+      "boundary_uncertainty_pixels": 10,
+      "review_evidence": "ORB/RANSAC transfer from the manually corrected 092144 source with 1883/2018 feature inliers. Full target and original-resolution top-area overlays visually inspected; package boundaries align with the visible bodies. Same specimen/session; not independent evaluation.",
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092153.jpg",
+      "image_sha256": "14b4208819a0e8f20bd75204cf7bdd8676f2a89fd3419412ab0f06b53d2c3854",
+      "image_width": 3072,
+      "image_height": 4080,
+      "source_annotation_path": "annotations/esp32-dense-component-review.json",
+      "source_annotation_instance_id": "IMG_20261010_092144.jpg:small_3terminal_01",
+      "source_annotation_relation": "same_specimen_body_boundary_transferred_then_target_overlay_reviewed",
+      "marking_identity_evidence_image_path": "data/phone-captures/2026-10-10/IMG_20261010_092144.jpg"
+    },
+    {
+      "instance_id": "IMG_20261010_092153.jpg:small_3terminal_02",
+      "class_name": "three_terminal_package",
+      "parent_board_instance_id": "bench-esp32-01:board",
+      "observed_reference_designator": null,
+      "observed_marking": null,
+      "observed_marking_family": null,
+      "exact_part_name": null,
+      "identity_status": "unresolved_component_identity",
+      "installed_order_code_confirmed": false,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
+      "polygon_xy_pixels": [
+        [
+          1270,
+          1930
+        ],
+        [
+          1303,
+          1930
+        ],
+        [
+          1304,
+          2013
+        ],
+        [
+          1271,
+          2012
+        ]
+      ],
+      "boundary_scope": "visible black package body; external solder and leads excluded",
+      "review_status": "visually_reviewed_body_polygon",
+      "boundary_uncertainty_pixels": 10,
+      "review_evidence": "ORB/RANSAC transfer from the manually corrected 092144 source with 1883/2018 feature inliers. Full target and original-resolution top-area overlays visually inspected; package boundaries align with the visible bodies. Same specimen/session; not independent evaluation.",
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092153.jpg",
+      "image_sha256": "14b4208819a0e8f20bd75204cf7bdd8676f2a89fd3419412ab0f06b53d2c3854",
+      "image_width": 3072,
+      "image_height": 4080,
+      "source_annotation_path": "annotations/esp32-dense-component-review.json",
+      "source_annotation_instance_id": "IMG_20261010_092144.jpg:small_3terminal_02",
+      "source_annotation_relation": "same_specimen_body_boundary_transferred_then_target_overlay_reviewed",
+      "marking_identity_evidence_image_path": "data/phone-captures/2026-10-10/IMG_20261010_092144.jpg"
+    },
+    {
+      "instance_id": "IMG_20261010_092153.jpg:middle_passive_02",
+      "class_name": "chip_passive",
+      "parent_board_instance_id": "bench-esp32-01:board",
+      "observed_reference_designator": null,
+      "observed_marking": null,
+      "observed_marking_family": null,
+      "exact_part_name": null,
+      "identity_status": "unresolved_component_identity",
+      "installed_order_code_confirmed": false,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
+      "polygon_xy_pixels": [
+        [
+          1393,
+          1911
+        ],
+        [
+          1424,
+          1911
+        ],
+        [
+          1425,
+          1999
+        ],
+        [
+          1394,
+          1999
+        ]
+      ],
+      "boundary_scope": "visible chip body including its end metallization; surrounding solder fillets and silkscreen excluded",
+      "review_status": "visually_reviewed_body_polygon",
+      "boundary_uncertainty_pixels": 10,
+      "review_evidence": "ORB/RANSAC transfer from the manually corrected 092144 source with 1883/2018 feature inliers. Full target and original-resolution top-area overlays visually inspected; package boundaries align with the visible bodies. Same specimen/session; not independent evaluation.",
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092153.jpg",
+      "image_sha256": "14b4208819a0e8f20bd75204cf7bdd8676f2a89fd3419412ab0f06b53d2c3854",
+      "image_width": 3072,
+      "image_height": 4080,
+      "source_annotation_path": "annotations/esp32-dense-component-review.json",
+      "source_annotation_instance_id": "IMG_20261010_092144.jpg:middle_passive_02",
+      "source_annotation_relation": "same_specimen_body_boundary_transferred_then_target_overlay_reviewed",
+      "marking_identity_evidence_image_path": "data/phone-captures/2026-10-10/IMG_20261010_092144.jpg"
+    },
+    {
+      "instance_id": "IMG_20261010_092153.jpg:yellow_passive",
+      "class_name": "chip_passive",
+      "parent_board_instance_id": "bench-esp32-01:board",
+      "observed_reference_designator": null,
+      "observed_marking": null,
+      "observed_marking_family": null,
+      "exact_part_name": null,
+      "identity_status": "literal_marking_only_no_electrical_value_asserted",
+      "installed_order_code_confirmed": false,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
+      "polygon_xy_pixels": [
+        [
+          1489,
+          1930
+        ],
+        [
+          1647,
+          1930
+        ],
+        [
+          1648,
+          2003
+        ],
+        [
+          1490,
+          2002
+        ]
+      ],
+      "boundary_scope": "visible chip body including its end metallization; surrounding solder fillets and silkscreen excluded",
+      "review_status": "visually_reviewed_body_polygon",
+      "boundary_uncertainty_pixels": 10,
+      "review_evidence": "ORB/RANSAC transfer from the manually corrected 092144 source with 1883/2018 feature inliers. Full target and original-resolution top-area overlays visually inspected; package boundaries align with the visible bodies. Same specimen/session; not independent evaluation.",
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092153.jpg",
+      "image_sha256": "14b4208819a0e8f20bd75204cf7bdd8676f2a89fd3419412ab0f06b53d2c3854",
+      "image_width": 3072,
+      "image_height": 4080,
+      "source_annotation_path": "annotations/esp32-dense-component-review.json",
+      "source_annotation_instance_id": "IMG_20261010_092144.jpg:yellow_passive",
+      "source_annotation_relation": "same_specimen_body_boundary_transferred_then_target_overlay_reviewed",
+      "marking_identity_evidence_image_path": "data/phone-captures/2026-10-10/IMG_20261010_092144.jpg"
+    },
+    {
+      "instance_id": "IMG_20261010_092153.jpg:lower_passive_01",
+      "class_name": "chip_passive",
+      "parent_board_instance_id": "bench-esp32-01:board",
+      "observed_reference_designator": null,
+      "observed_marking": null,
+      "observed_marking_family": null,
+      "exact_part_name": null,
+      "identity_status": "literal_marking_only_no_electrical_value_asserted",
+      "installed_order_code_confirmed": false,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
+      "polygon_xy_pixels": [
+        [
+          971,
+          2044
+        ],
+        [
+          1077,
+          2044
+        ],
+        [
+          1077,
+          2080
+        ],
+        [
+          971,
+          2080
+        ]
+      ],
+      "boundary_scope": "visible chip body including its end metallization; surrounding solder fillets and silkscreen excluded",
+      "review_status": "visually_reviewed_body_polygon",
+      "boundary_uncertainty_pixels": 10,
+      "review_evidence": "ORB/RANSAC transfer from the manually corrected 092144 source with 1883/2018 feature inliers. Full target and original-resolution top-area overlays visually inspected; package boundaries align with the visible bodies. Same specimen/session; not independent evaluation.",
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092153.jpg",
+      "image_sha256": "14b4208819a0e8f20bd75204cf7bdd8676f2a89fd3419412ab0f06b53d2c3854",
+      "image_width": 3072,
+      "image_height": 4080,
+      "source_annotation_path": "annotations/esp32-dense-component-review.json",
+      "source_annotation_instance_id": "IMG_20261010_092144.jpg:lower_passive_01",
+      "source_annotation_relation": "same_specimen_body_boundary_transferred_then_target_overlay_reviewed",
+      "marking_identity_evidence_image_path": "data/phone-captures/2026-10-10/IMG_20261010_092144.jpg"
+    },
+    {
+      "instance_id": "IMG_20261010_092153.jpg:lower_passive_02",
+      "class_name": "chip_passive",
+      "parent_board_instance_id": "bench-esp32-01:board",
+      "observed_reference_designator": null,
+      "observed_marking": null,
+      "observed_marking_family": null,
+      "exact_part_name": null,
+      "identity_status": "literal_marking_only_no_electrical_value_asserted",
+      "installed_order_code_confirmed": false,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
+      "polygon_xy_pixels": [
+        [
+          971,
+          2122
+        ],
+        [
+          1076,
+          2122
+        ],
+        [
+          1076,
+          2164
+        ],
+        [
+          971,
+          2163
+        ]
+      ],
+      "boundary_scope": "visible chip body including its end metallization; surrounding solder fillets and silkscreen excluded",
+      "review_status": "visually_reviewed_body_polygon",
+      "boundary_uncertainty_pixels": 10,
+      "review_evidence": "ORB/RANSAC transfer from the manually corrected 092144 source with 1883/2018 feature inliers. Full target and original-resolution top-area overlays visually inspected; package boundaries align with the visible bodies. Same specimen/session; not independent evaluation.",
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092153.jpg",
+      "image_sha256": "14b4208819a0e8f20bd75204cf7bdd8676f2a89fd3419412ab0f06b53d2c3854",
+      "image_width": 3072,
+      "image_height": 4080,
+      "source_annotation_path": "annotations/esp32-dense-component-review.json",
+      "source_annotation_instance_id": "IMG_20261010_092144.jpg:lower_passive_02",
+      "source_annotation_relation": "same_specimen_body_boundary_transferred_then_target_overlay_reviewed",
+      "marking_identity_evidence_image_path": "data/phone-captures/2026-10-10/IMG_20261010_092144.jpg"
+    },
+    {
+      "instance_id": "IMG_20261010_092153.jpg:lower_passive_03",
+      "class_name": "chip_passive",
+      "parent_board_instance_id": "bench-esp32-01:board",
+      "observed_reference_designator": null,
+      "observed_marking": null,
+      "observed_marking_family": null,
+      "exact_part_name": null,
+      "identity_status": "unresolved_component_identity",
+      "installed_order_code_confirmed": false,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
+      "polygon_xy_pixels": [
+        [
+          1109,
+          2047
+        ],
+        [
+          1149,
+          2047
+        ],
+        [
+          1149,
+          2158
+        ],
+        [
+          1110,
+          2158
+        ]
+      ],
+      "boundary_scope": "visible chip body including its end metallization; surrounding solder fillets and silkscreen excluded",
+      "review_status": "visually_reviewed_body_polygon",
+      "boundary_uncertainty_pixels": 10,
+      "review_evidence": "ORB/RANSAC transfer from the manually corrected 092144 source with 1883/2018 feature inliers. Full target and original-resolution top-area overlays visually inspected; package boundaries align with the visible bodies. Same specimen/session; not independent evaluation.",
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092153.jpg",
+      "image_sha256": "14b4208819a0e8f20bd75204cf7bdd8676f2a89fd3419412ab0f06b53d2c3854",
+      "image_width": 3072,
+      "image_height": 4080,
+      "source_annotation_path": "annotations/esp32-dense-component-review.json",
+      "source_annotation_instance_id": "IMG_20261010_092144.jpg:lower_passive_03",
+      "source_annotation_relation": "same_specimen_body_boundary_transferred_then_target_overlay_reviewed",
+      "marking_identity_evidence_image_path": "data/phone-captures/2026-10-10/IMG_20261010_092144.jpg"
+    },
+    {
+      "instance_id": "IMG_20261010_092153.jpg:lower_passive_04",
+      "class_name": "chip_passive",
+      "parent_board_instance_id": "bench-esp32-01:board",
+      "observed_reference_designator": null,
+      "observed_marking": null,
+      "observed_marking_family": null,
+      "exact_part_name": null,
+      "identity_status": "unresolved_component_identity",
+      "installed_order_code_confirmed": false,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
+      "polygon_xy_pixels": [
+        [
+          1170,
+          2047
+        ],
+        [
+          1209,
+          2048
+        ],
+        [
+          1210,
+          2161
+        ],
+        [
+          1171,
+          2160
+        ]
+      ],
+      "boundary_scope": "visible chip body including its end metallization; surrounding solder fillets and silkscreen excluded",
+      "review_status": "visually_reviewed_body_polygon",
+      "boundary_uncertainty_pixels": 10,
+      "review_evidence": "ORB/RANSAC transfer from the manually corrected 092144 source with 1883/2018 feature inliers. Full target and original-resolution top-area overlays visually inspected; package boundaries align with the visible bodies. Same specimen/session; not independent evaluation.",
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092153.jpg",
+      "image_sha256": "14b4208819a0e8f20bd75204cf7bdd8676f2a89fd3419412ab0f06b53d2c3854",
+      "image_width": 3072,
+      "image_height": 4080,
+      "source_annotation_path": "annotations/esp32-dense-component-review.json",
+      "source_annotation_instance_id": "IMG_20261010_092144.jpg:lower_passive_04",
+      "source_annotation_relation": "same_specimen_body_boundary_transferred_then_target_overlay_reviewed",
+      "marking_identity_evidence_image_path": "data/phone-captures/2026-10-10/IMG_20261010_092144.jpg"
+    },
+    {
+      "instance_id": "IMG_20261010_092153.jpg:lower_passive_05",
+      "class_name": "chip_passive",
+      "parent_board_instance_id": "bench-esp32-01:board",
+      "observed_reference_designator": null,
+      "observed_marking": null,
+      "observed_marking_family": null,
+      "exact_part_name": null,
+      "identity_status": "unresolved_component_identity",
+      "installed_order_code_confirmed": false,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
+      "polygon_xy_pixels": [
+        [
+          1228,
+          2048
+        ],
+        [
+          1268,
+          2048
+        ],
+        [
+          1269,
+          2161
+        ],
+        [
+          1229,
+          2161
+        ]
+      ],
+      "boundary_scope": "visible chip body including its end metallization; surrounding solder fillets and silkscreen excluded",
+      "review_status": "visually_reviewed_body_polygon",
+      "boundary_uncertainty_pixels": 10,
+      "review_evidence": "ORB/RANSAC transfer from the manually corrected 092144 source with 1883/2018 feature inliers. Full target and original-resolution top-area overlays visually inspected; package boundaries align with the visible bodies. Same specimen/session; not independent evaluation.",
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092153.jpg",
+      "image_sha256": "14b4208819a0e8f20bd75204cf7bdd8676f2a89fd3419412ab0f06b53d2c3854",
+      "image_width": 3072,
+      "image_height": 4080,
+      "source_annotation_path": "annotations/esp32-dense-component-review.json",
+      "source_annotation_instance_id": "IMG_20261010_092144.jpg:lower_passive_05",
+      "source_annotation_relation": "same_specimen_body_boundary_transferred_then_target_overlay_reviewed",
+      "marking_identity_evidence_image_path": "data/phone-captures/2026-10-10/IMG_20261010_092144.jpg"
+    },
+    {
+      "instance_id": "IMG_20261010_092153.jpg:lower_passive_06",
+      "class_name": "chip_passive",
+      "parent_board_instance_id": "bench-esp32-01:board",
+      "observed_reference_designator": null,
+      "observed_marking": null,
+      "observed_marking_family": null,
+      "exact_part_name": null,
+      "identity_status": "unresolved_component_identity",
+      "installed_order_code_confirmed": false,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
+      "polygon_xy_pixels": [
+        [
+          1286,
+          2048
+        ],
+        [
+          1324,
+          2048
+        ],
+        [
+          1325,
+          2163
+        ],
+        [
+          1287,
+          2163
+        ]
+      ],
+      "boundary_scope": "visible chip body including its end metallization; surrounding solder fillets and silkscreen excluded",
+      "review_status": "visually_reviewed_body_polygon",
+      "boundary_uncertainty_pixels": 10,
+      "review_evidence": "ORB/RANSAC transfer from the manually corrected 092144 source with 1883/2018 feature inliers. Full target and original-resolution top-area overlays visually inspected; package boundaries align with the visible bodies. Same specimen/session; not independent evaluation.",
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092153.jpg",
+      "image_sha256": "14b4208819a0e8f20bd75204cf7bdd8676f2a89fd3419412ab0f06b53d2c3854",
+      "image_width": 3072,
+      "image_height": 4080,
+      "source_annotation_path": "annotations/esp32-dense-component-review.json",
+      "source_annotation_instance_id": "IMG_20261010_092144.jpg:lower_passive_06",
+      "source_annotation_relation": "same_specimen_body_boundary_transferred_then_target_overlay_reviewed",
+      "marking_identity_evidence_image_path": "data/phone-captures/2026-10-10/IMG_20261010_092144.jpg"
+    },
+    {
+      "instance_id": "IMG_20261010_092153.jpg:lower_passive_07",
+      "class_name": "chip_passive",
+      "parent_board_instance_id": "bench-esp32-01:board",
+      "observed_reference_designator": null,
+      "observed_marking": null,
+      "observed_marking_family": null,
+      "exact_part_name": null,
+      "identity_status": "unresolved_component_identity",
+      "installed_order_code_confirmed": false,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
+      "polygon_xy_pixels": [
+        [
+          1342,
+          2048
+        ],
+        [
+          1379,
+          2048
+        ],
+        [
+          1380,
+          2163
+        ],
+        [
+          1343,
+          2163
+        ]
+      ],
+      "boundary_scope": "visible chip body including its end metallization; surrounding solder fillets and silkscreen excluded",
+      "review_status": "visually_reviewed_body_polygon",
+      "boundary_uncertainty_pixels": 10,
+      "review_evidence": "ORB/RANSAC transfer from the manually corrected 092144 source with 1883/2018 feature inliers. Full target and original-resolution top-area overlays visually inspected; package boundaries align with the visible bodies. Same specimen/session; not independent evaluation.",
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092153.jpg",
+      "image_sha256": "14b4208819a0e8f20bd75204cf7bdd8676f2a89fd3419412ab0f06b53d2c3854",
+      "image_width": 3072,
+      "image_height": 4080,
+      "source_annotation_path": "annotations/esp32-dense-component-review.json",
+      "source_annotation_instance_id": "IMG_20261010_092144.jpg:lower_passive_07",
+      "source_annotation_relation": "same_specimen_body_boundary_transferred_then_target_overlay_reviewed",
+      "marking_identity_evidence_image_path": "data/phone-captures/2026-10-10/IMG_20261010_092144.jpg"
+    },
+    {
+      "instance_id": "IMG_20261010_092153.jpg:lower_passive_08",
+      "class_name": "chip_passive",
+      "parent_board_instance_id": "bench-esp32-01:board",
+      "observed_reference_designator": null,
+      "observed_marking": null,
+      "observed_marking_family": null,
+      "exact_part_name": null,
+      "identity_status": "unresolved_component_identity",
+      "installed_order_code_confirmed": false,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
+      "polygon_xy_pixels": [
+        [
+          1397,
+          2049
+        ],
+        [
+          1433,
+          2050
+        ],
+        [
+          1434,
+          2165
+        ],
+        [
+          1398,
+          2164
+        ]
+      ],
+      "boundary_scope": "visible chip body including its end metallization; surrounding solder fillets and silkscreen excluded",
+      "review_status": "visually_reviewed_body_polygon",
+      "boundary_uncertainty_pixels": 10,
+      "review_evidence": "ORB/RANSAC transfer from the manually corrected 092144 source with 1883/2018 feature inliers. Full target and original-resolution top-area overlays visually inspected; package boundaries align with the visible bodies. Same specimen/session; not independent evaluation.",
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092153.jpg",
+      "image_sha256": "14b4208819a0e8f20bd75204cf7bdd8676f2a89fd3419412ab0f06b53d2c3854",
+      "image_width": 3072,
+      "image_height": 4080,
+      "source_annotation_path": "annotations/esp32-dense-component-review.json",
+      "source_annotation_instance_id": "IMG_20261010_092144.jpg:lower_passive_08",
+      "source_annotation_relation": "same_specimen_body_boundary_transferred_then_target_overlay_reviewed",
+      "marking_identity_evidence_image_path": "data/phone-captures/2026-10-10/IMG_20261010_092144.jpg"
+    },
+    {
+      "instance_id": "IMG_20261010_092153.jpg:lower_passive_09",
+      "class_name": "chip_passive",
+      "parent_board_instance_id": "bench-esp32-01:board",
+      "observed_reference_designator": null,
+      "observed_marking": null,
+      "observed_marking_family": null,
+      "exact_part_name": null,
+      "identity_status": "unresolved_component_identity",
+      "installed_order_code_confirmed": false,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
+      "polygon_xy_pixels": [
+        [
+          1449,
+          2053
+        ],
+        [
+          1486,
+          2053
+        ],
+        [
+          1487,
+          2166
+        ],
+        [
+          1450,
+          2166
+        ]
+      ],
+      "boundary_scope": "visible chip body including its end metallization; surrounding solder fillets and silkscreen excluded",
+      "review_status": "visually_reviewed_body_polygon",
+      "boundary_uncertainty_pixels": 10,
+      "review_evidence": "ORB/RANSAC transfer from the manually corrected 092144 source with 1883/2018 feature inliers. Full target and original-resolution top-area overlays visually inspected; package boundaries align with the visible bodies. Same specimen/session; not independent evaluation.",
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092153.jpg",
+      "image_sha256": "14b4208819a0e8f20bd75204cf7bdd8676f2a89fd3419412ab0f06b53d2c3854",
+      "image_width": 3072,
+      "image_height": 4080,
+      "source_annotation_path": "annotations/esp32-dense-component-review.json",
+      "source_annotation_instance_id": "IMG_20261010_092144.jpg:lower_passive_09",
+      "source_annotation_relation": "same_specimen_body_boundary_transferred_then_target_overlay_reviewed",
+      "marking_identity_evidence_image_path": "data/phone-captures/2026-10-10/IMG_20261010_092144.jpg"
+    },
+    {
+      "instance_id": "IMG_20261010_092153.jpg:lower_passive_10",
+      "class_name": "chip_passive",
+      "parent_board_instance_id": "bench-esp32-01:board",
+      "observed_reference_designator": null,
+      "observed_marking": null,
+      "observed_marking_family": null,
+      "exact_part_name": null,
+      "identity_status": "unresolved_component_identity",
+      "installed_order_code_confirmed": false,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
+      "polygon_xy_pixels": [
+        [
+          1542,
+          2055
+        ],
+        [
+          1638,
+          2055
+        ],
+        [
+          1639,
+          2091
+        ],
+        [
+          1542,
+          2090
+        ]
+      ],
+      "boundary_scope": "visible chip body including its end metallization; surrounding solder fillets and silkscreen excluded",
+      "review_status": "visually_reviewed_body_polygon",
+      "boundary_uncertainty_pixels": 10,
+      "review_evidence": "ORB/RANSAC transfer from the manually corrected 092144 source with 1883/2018 feature inliers. Full target and original-resolution top-area overlays visually inspected; package boundaries align with the visible bodies. Same specimen/session; not independent evaluation.",
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092153.jpg",
+      "image_sha256": "14b4208819a0e8f20bd75204cf7bdd8676f2a89fd3419412ab0f06b53d2c3854",
+      "image_width": 3072,
+      "image_height": 4080,
+      "source_annotation_path": "annotations/esp32-dense-component-review.json",
+      "source_annotation_instance_id": "IMG_20261010_092144.jpg:lower_passive_10",
+      "source_annotation_relation": "same_specimen_body_boundary_transferred_then_target_overlay_reviewed",
+      "marking_identity_evidence_image_path": "data/phone-captures/2026-10-10/IMG_20261010_092144.jpg"
+    },
+    {
+      "instance_id": "IMG_20261010_092153.jpg:lower_passive_11",
+      "class_name": "chip_passive",
+      "parent_board_instance_id": "bench-esp32-01:board",
+      "observed_reference_designator": null,
+      "observed_marking": null,
+      "observed_marking_family": null,
+      "exact_part_name": null,
+      "identity_status": "unresolved_component_identity",
+      "installed_order_code_confirmed": false,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
+      "polygon_xy_pixels": [
+        [
+          1542,
+          2135
+        ],
+        [
+          1637,
+          2136
+        ],
+        [
+          1638,
+          2170
+        ],
+        [
+          1542,
+          2169
+        ]
+      ],
+      "boundary_scope": "visible chip body including its end metallization; surrounding solder fillets and silkscreen excluded",
+      "review_status": "visually_reviewed_body_polygon",
+      "boundary_uncertainty_pixels": 10,
+      "review_evidence": "ORB/RANSAC transfer from the manually corrected 092144 source with 1883/2018 feature inliers. Full target and original-resolution top-area overlays visually inspected; package boundaries align with the visible bodies. Same specimen/session; not independent evaluation.",
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092153.jpg",
+      "image_sha256": "14b4208819a0e8f20bd75204cf7bdd8676f2a89fd3419412ab0f06b53d2c3854",
+      "image_width": 3072,
+      "image_height": 4080,
+      "source_annotation_path": "annotations/esp32-dense-component-review.json",
+      "source_annotation_instance_id": "IMG_20261010_092144.jpg:lower_passive_11",
+      "source_annotation_relation": "same_specimen_body_boundary_transferred_then_target_overlay_reviewed",
+      "marking_identity_evidence_image_path": "data/phone-captures/2026-10-10/IMG_20261010_092144.jpg"
+    },
+    {
+      "instance_id": "IMG_20261010_092153.jpg:unclassified_smd_01",
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092153.jpg",
+      "image_sha256": "14b4208819a0e8f20bd75204cf7bdd8676f2a89fd3419412ab0f06b53d2c3854",
+      "image_width": 3072,
+      "image_height": 4080,
+      "class_name": "unknown_package",
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1331,
+          1639
+        ],
+        [
+          1398,
+          1638
+        ],
+        [
+          1423,
+          1652
+        ],
+        [
+          1426,
+          1688
+        ],
+        [
+          1405,
+          1701
+        ],
+        [
+          1330,
+          1695
+        ]
+      ],
+      "boundary_scope": "Visible outer package body including its visible terminal ends; board copper, silkscreen, and neighboring parts excluded.",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Small surface-mount body at the upper position in the three-part vertical group left of the regulator. Package body and metal ends are visible; exact component type and reference designator cannot be read.",
+      "boundary_uncertainty_pixels": 8,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
+      "installed_order_code_confirmed": false,
+      "parent_board_instance_id": "bench-esp32-01:board",
+      "source_annotation_path": "annotations/esp32-dense-component-review.json",
+      "source_annotation_instance_id": null,
+      "exact_part_name": null,
+      "identity_status": "visible_package_type_unresolved",
+      "source_annotation_relation": "new_frame_completeness_pass"
+    },
+    {
+      "instance_id": "IMG_20261010_092153.jpg:unclassified_smd_02",
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092153.jpg",
+      "image_sha256": "14b4208819a0e8f20bd75204cf7bdd8676f2a89fd3419412ab0f06b53d2c3854",
+      "image_width": 3072,
+      "image_height": 4080,
+      "class_name": "unknown_package",
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1333,
+          1715
+        ],
+        [
+          1400,
+          1716
+        ],
+        [
+          1425,
+          1730
+        ],
+        [
+          1426,
+          1768
+        ],
+        [
+          1407,
+          1783
+        ],
+        [
+          1331,
+          1777
+        ]
+      ],
+      "boundary_scope": "Visible outer package body including its visible terminal ends; board copper, silkscreen, and neighboring parts excluded.",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Small surface-mount body at the middle position in the three-part vertical group left of the regulator. Package body and metal ends are visible; exact component type and reference designator cannot be read.",
+      "boundary_uncertainty_pixels": 8,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
+      "installed_order_code_confirmed": false,
+      "parent_board_instance_id": "bench-esp32-01:board",
+      "source_annotation_path": "annotations/esp32-dense-component-review.json",
+      "source_annotation_instance_id": null,
+      "exact_part_name": null,
+      "identity_status": "visible_package_type_unresolved",
+      "source_annotation_relation": "new_frame_completeness_pass"
+    },
+    {
+      "instance_id": "IMG_20261010_092153.jpg:unclassified_smd_03",
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092153.jpg",
+      "image_sha256": "14b4208819a0e8f20bd75204cf7bdd8676f2a89fd3419412ab0f06b53d2c3854",
+      "image_width": 3072,
+      "image_height": 4080,
+      "class_name": "unknown_package",
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1335,
+          1797
+        ],
+        [
+          1403,
+          1800
+        ],
+        [
+          1425,
+          1816
+        ],
+        [
+          1426,
+          1857
+        ],
+        [
+          1408,
+          1873
+        ],
+        [
+          1333,
+          1867
+        ]
+      ],
+      "boundary_scope": "Visible outer package body including its visible terminal ends; board copper, silkscreen, and neighboring parts excluded.",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Small surface-mount body at the lower position in the three-part vertical group left of the regulator. Package body and metal ends are visible; exact component type and reference designator cannot be read.",
+      "boundary_uncertainty_pixels": 8,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
+      "installed_order_code_confirmed": false,
+      "parent_board_instance_id": "bench-esp32-01:board",
+      "source_annotation_path": "annotations/esp32-dense-component-review.json",
+      "source_annotation_instance_id": null,
+      "exact_part_name": null,
+      "identity_status": "visible_package_type_unresolved",
+      "source_annotation_relation": "new_frame_completeness_pass"
+    },
+    {
+      "instance_id": "IMG_20261010_092153.jpg:unclassified_smd_04",
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092153.jpg",
+      "image_sha256": "14b4208819a0e8f20bd75204cf7bdd8676f2a89fd3419412ab0f06b53d2c3854",
+      "image_width": 3072,
+      "image_height": 4080,
+      "class_name": "unknown_package",
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1576,
+          1705
+        ],
+        [
+          1590,
+          1699
+        ],
+        [
+          1630,
+          1701
+        ],
+        [
+          1645,
+          1718
+        ],
+        [
+          1644,
+          1855
+        ],
+        [
+          1629,
+          1874
+        ],
+        [
+          1584,
+          1869
+        ],
+        [
+          1573,
+          1853
+        ]
+      ],
+      "boundary_scope": "Visible outer package body including its visible terminal ends; board copper, silkscreen, and neighboring parts excluded.",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Light-colored vertical surface-mount package to the right of the regulator. Its outline is visible; exact component type and reference designator cannot be read.",
+      "boundary_uncertainty_pixels": 8,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
+      "installed_order_code_confirmed": false,
+      "parent_board_instance_id": "bench-esp32-01:board",
+      "source_annotation_path": "annotations/esp32-dense-component-review.json",
+      "source_annotation_instance_id": null,
+      "exact_part_name": null,
+      "identity_status": "visible_package_type_unresolved",
+      "source_annotation_relation": "new_frame_completeness_pass"
+    }
+  ],
+  "audit_findings": [
+    "Three new polygons adjacent to U1 were narrowed; their right edges now remain at x<=1426 while the U1 body starts at x>=1429, preventing overlap.",
+    "The vertical unknown package to the right of U1 does not intersect the U1 polygon.",
+    "The RF module mask follows the visible module substrate and its antenna tail. It excludes the host PCB; castellated module terminals are within the module outline.",
+    "Two reflective feature clusters in the area below U2 are visible but their separate package bodies are not reliably distinguishable at this image focus. They remain unannotated; the frame must stay partial and ineligible for standard YOLO export."
+  ]
+}

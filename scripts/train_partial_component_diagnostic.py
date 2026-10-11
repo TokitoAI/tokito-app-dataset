@@ -9,7 +9,7 @@ from PIL import Image,ImageDraw
 import torch
 from partial_component_segmentation_loss import build_partial_segmentation_loss
 ROOT=Path(__file__).resolve().parents[1]
-FILES=['annotations/esp32-dense-component-review.json','annotations/esp8266-dense-component-review.json','annotations/esp8266-video-component-review.json','annotations/nxp-dense-component-review.json','annotations/ultimainboard-dense-component-review.json','data/video-captures/2026-10-10/esp32-keyframes/reviewed-front-macro.json']
+FILES=['annotations/esp32-dense-component-review.json','annotations/esp8266-dense-component-review.json','annotations/esp8266-video-component-review.json','annotations/nxp-dense-component-review.json','annotations/ultimainboard-dense-component-review.json','data/video-captures/2026-10-10/esp32-keyframes/reviewed-front-macro.json','annotations/esp8266-frame-component-complete-review.json','annotations/nxp-fullframe-component-review.json']
 OUT=ROOT/'work/partial-component-diagnostic'
 
 def letterbox_geometry(width,height,size=640):
@@ -34,24 +34,47 @@ def observable_class(row,board):
     if '25Q64JV' in family:return 'ic_25q64jv_family'
     if cls in ['rf_shield','rf_module'] and ('shield_top_surface_only' in scope or cls=='rf_shield'):
         return 'esp12e_shield' if 'ESP-12E' in family else 'rf_shield_unresolved'
-    aliases={'rf_module':'rf_module_substrate','integrated_circuit':'ic_unresolved','switch':'switch_body','tactile_switch':'switch_body','capacitor':'chip_passive_body','ceramic_capacitor':'chip_passive_body','resistor':'chip_passive_body','chip_passive':'chip_passive_body','three_terminal_package':'three_terminal_body_unresolved','three_terminal_power_package':'power_package_unresolved','transistor_package':'three_terminal_body_unresolved','transistor':'three_terminal_body_unresolved','usb_connector':'usb_connector_body','usb_b_connector':'usb_b_connector_body','header_connector':'header_housing','pin_header':'header_housing','connector':'connector_housing','terminal_block':'terminal_block','electrolytic_capacitor':'electrolytic_capacitor','crystal_oscillator':'crystal_body','crystal':'crystal_body','diode':'diode_body','relay':'relay_body','inductor':'inductor_body','led':'led_body'}
+    aliases={'rf_module':'rf_module_substrate','integrated_circuit':'ic_unresolved','switch':'switch_body','tactile_switch':'switch_body','capacitor':'chip_passive_body','ceramic_capacitor':'chip_passive_body','resistor':'chip_passive_body','chip_passive':'chip_passive_body','three_terminal_package':'three_terminal_body_unresolved','three_terminal_power_package':'power_package_unresolved','transistor_package':'three_terminal_body_unresolved','transistor':'three_terminal_body_unresolved','usb_connector':'usb_connector_body','usb_b_connector':'usb_b_connector_body','header_connector':'header_housing','pin_header':'header_housing','connector':'connector_housing','terminal_block':'terminal_block','electrolytic_capacitor':'electrolytic_capacitor','crystal_oscillator':'crystal_body','crystal_resonator':'crystal_body','crystal':'crystal_body','diode':'diode_body','relay':'relay_body','inductor':'inductor_body','led':'led_body'}
     return aliases.get(cls)
 
 def collect():
     images={};excluded=[]
     for file in FILES:
-        doc=json.loads((ROOT/file).read_text());board=doc['board_family'];photo=doc.get('photo',{})
-        for r in doc.get('masks',doc.get('instances',[])):
+        doc=json.loads((ROOT/file).read_text());photo=doc.get('photo') or doc.get('image') or {}
+        board=doc.get('board_family') or ('nxp_frdm_mcxn236' if doc.get('board_identity',{}).get('family','').lower().startswith('nxp') else doc.get('board_identity',{}).get('model')) or 'unknown_board'
+        source_rows=doc.get('masks',doc.get('instances',doc.get('objects',[])))
+        for raw in source_rows:
+            r=dict(raw)
+            if 'instance_id' not in r and r.get('id'):r['instance_id']=r['id']
+            if 'polygon_xy_pixels' not in r and r.get('mask_polygon_xy'):r['polygon_xy_pixels']=r['mask_polygon_xy']
+            if 'image_path' not in r:r['image_path']=photo.get('path') or doc.get('image_path')
+            if 'image_sha256' not in r:r['image_sha256']=photo.get('sha256') or doc.get('image_sha256')
+            if 'image_width' not in r:r['image_width']=photo.get('width') or doc.get('image_width')
+            if 'image_height' not in r:r['image_height']=photo.get('height') or doc.get('image_height')
             if r.get('training_export_eligible') is False and r.get('class_name')=='unknown_package':excluded.append(r['instance_id']);continue
             cls=observable_class(r,board)
             if cls is None:excluded.append(r['instance_id']);continue
             path=r.get('image_path') or doc.get('image_path') or photo.get('path')
-            group=r.get('capture_group_id') or r.get('capture_session_id') or doc.get('capture_session_id') or 'ultimainboard:20261009_night'
-            split='val' if ('video-captures' in path or ('nxp_' in path and '20261009' in path)) else 'train'
+            group=(r.get('capture_group_id') or r.get('capture_session_id') or doc.get('capture_session_id') or
+                   doc.get('same_specimen_split_group') or photo.get('capture_group'))
+            if board.lower().startswith('nxp') and ('20261009' in path or '20261010' in path):
+                group='nxp-phone-2026-10-09-night'
+                split='train'
+            if not group:group='ultimainboard:20261009_night'
+            if not (board.lower().startswith('nxp') and ('20261009' in path or '20261010' in path)):
+                split='val' if ('video-captures' in path or ('nxp_' in path and '20261009' in path)) else 'train'
+            physical_specimen=(r.get('physical_specimen_id') or doc.get('physical_specimen_id') or
+                               ('nxp-user-board-01' if board.lower().startswith('nxp') else 'bench-ultimainboard-01'))
             h=r.get('image_sha256') or doc.get('image_sha256') or photo.get('sha256')
-            im=images.setdefault(path,dict(path=path,sha256=h,board_family=board,physical_specimen_id=r.get('physical_specimen_id') or doc.get('physical_specimen_id') or 'bench-ultimainboard-01',capture_group_id=group,split=split,rows=[]))
+            im=images.setdefault(path,dict(path=path,sha256=h,board_family=board,physical_specimen_id=physical_specimen,capture_group_id=group,split=split,rows=[]))
             if im['split']!=split or im['capture_group_id']!=group:raise ValueError('Inconsistent image split/group')
-            im['rows'].append(dict(instance_id=r['instance_id'],class_name=cls,polygon=r['polygon_xy_pixels'],observed_reference_designator=r.get('observed_reference_designator'),observed_marking_family=r.get('observed_marking_family'),source_part_candidate=r.get('source_part_candidate'),identity_policy='observed family or observable package type; source candidate not promoted',source_annotation=file))
+            instance_id=r['instance_id']
+            existing=next((row for row in im['rows'] if row['instance_id']==instance_id),None)
+            row=dict(instance_id=instance_id,class_name=cls,polygon=r['polygon_xy_pixels'],observed_reference_designator=r.get('observed_reference_designator') or r.get('reference_designator'),observed_marking_family=r.get('observed_marking_family'),source_part_candidate=r.get('source_part_candidate'),identity_policy='observed family or observable package type; source candidate not promoted',source_annotation=file)
+            if existing:
+                if existing['class_name']!=row['class_name'] or existing['polygon']!=row['polygon']:
+                    raise ValueError('Conflicting duplicate instance in '+path+': '+instance_id)
+            else:im['rows'].append(row)
     names=sorted({r['class_name'] for im in images.values() for r in im['rows']});classids={n:i for i,n in enumerate(names)}
     # Explicit source/hash/group binding; same physical specimen across sessions is disclosed.
     groups={}
