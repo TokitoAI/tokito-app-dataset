@@ -25,6 +25,7 @@ def main():
     samples, manifest = prepare(640)
     validation = [sample for sample in samples if sample["entry"]["split"] == "val"]
     model = YOLO(str(args.weights))
+    weights_path = args.weights.resolve()
     report = {
         "evaluation_valid": False,
         "production_eligible": False,
@@ -32,7 +33,11 @@ def main():
             "Partial reviewed regions on the existing known-specimen validation images. "
             "Unknown pixels remain ignored; this is threshold sensitivity, not independent evaluation."
         ),
-        "checkpoint": str(args.weights),
+        "checkpoint": (
+            weights_path.relative_to(ROOT).as_posix()
+            if weights_path.is_relative_to(ROOT)
+            else str(weights_path)
+        ),
         "validation_images": [sample["entry"]["path"] for sample in validation],
         "thresholds": [
             audited_metrics(model, validation, manifest["class_names"], confidence=threshold)
@@ -40,7 +45,7 @@ def main():
         ],
     }
     args.output.parent.mkdir(parents=True, exist_ok=True)
-    args.output.write_text(json.dumps(report, indent=2) + "\n", encoding="utf-8")
+    args.output.write_text(json.dumps(report, indent=2) + "\n", encoding="utf-8", newline="\n")
     print(json.dumps(report, indent=2))
 
 

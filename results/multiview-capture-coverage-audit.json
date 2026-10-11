@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "source_manifest": "annotations/multiview-capture-review.json",
   "required_view_slots": [
     "top",
@@ -17,9 +17,12 @@
     {
       "specimen_id": "bench-esp32-01",
       "board_family": "ESP32 30-pin DevKit (variant unknown)",
-      "physical_capture_records": 1,
-      "verified_view_slots": [],
-      "missing_view_slots": [
+      "registered_pose_review_records": 1,
+      "recorded_view_slots_without_pose_claim": [
+        "top"
+      ],
+      "pose_verified_view_slots": [],
+      "missing_pose_verified_view_slots": [
         "top",
         "bottom",
         "oblique_positive_board_x",
@@ -32,9 +35,12 @@
     {
       "specimen_id": "bench-esp8266-01",
       "board_family": "ESP8266 NodeMCU-style ESP-12E clone (variant unknown)",
-      "physical_capture_records": 1,
-      "verified_view_slots": [],
-      "missing_view_slots": [
+      "registered_pose_review_records": 1,
+      "recorded_view_slots_without_pose_claim": [
+        "top"
+      ],
+      "pose_verified_view_slots": [],
+      "missing_pose_verified_view_slots": [
         "top",
         "bottom",
         "oblique_positive_board_x",
@@ -47,9 +53,13 @@
     {
       "specimen_id": "bench-frdm-mcxn236-01",
       "board_family": "NXP FRDM-MCXN236 (revision unverified)",
-      "physical_capture_records": 1,
-      "verified_view_slots": [],
-      "missing_view_slots": [
+      "registered_pose_review_records": 2,
+      "recorded_view_slots_without_pose_claim": [
+        "bottom",
+        "top"
+      ],
+      "pose_verified_view_slots": [],
+      "missing_pose_verified_view_slots": [
         "top",
         "bottom",
         "oblique_positive_board_x",
@@ -62,9 +72,12 @@
     {
       "specimen_id": "bench-raspberry-pi-3b-01",
       "board_family": "Raspberry Pi 3 Model B v1.2",
-      "physical_capture_records": 1,
-      "verified_view_slots": [],
-      "missing_view_slots": [
+      "registered_pose_review_records": 1,
+      "recorded_view_slots_without_pose_claim": [
+        "top"
+      ],
+      "pose_verified_view_slots": [],
+      "missing_pose_verified_view_slots": [
         "top",
         "bottom",
         "oblique_positive_board_x",
@@ -77,9 +90,12 @@
     {
       "specimen_id": "bench-ultimainboard-01",
       "board_family": "Ultimaker Ultimainboard 2.1.4",
-      "physical_capture_records": 1,
-      "verified_view_slots": [],
-      "missing_view_slots": [
+      "registered_pose_review_records": 1,
+      "recorded_view_slots_without_pose_claim": [
+        "top"
+      ],
+      "pose_verified_view_slots": [],
+      "missing_pose_verified_view_slots": [
         "top",
         "bottom",
         "oblique_positive_board_x",
@@ -90,8 +106,243 @@
       "flip_sequence_verified": false
     }
   ],
+  "unregistered_capture_evidence": [
+    {
+      "source_manifest": "data/phone-captures/2026-10-11/gallery/view-review.json",
+      "record_count": 6,
+      "records": [
+        {
+          "path": "data/phone-captures/2026-10-11/gallery/IMG_20261011_012207.jpg",
+          "exists": true,
+          "declared_sha256": "1a67e3f35a8c7318ed705b4bd41fdb254b30b63ca7912ef324e6bee67c405551",
+          "observed_payload_sha256": "1a67e3f35a8c7318ed705b4bd41fdb254b30b63ca7912ef324e6bee67c405551",
+          "hash_verified": true,
+          "board_family": "esp8266_nodemcu_esp12e_clone_unknown_variant",
+          "visible_face": "component_face",
+          "physical_specimen_id": null,
+          "camera_intrinsics_registered": false,
+          "metric_pose_verified": false
+        },
+        {
+          "path": "data/phone-captures/2026-10-11/gallery/IMG_20261011_012141.jpg",
+          "exists": true,
+          "declared_sha256": "08a9fd8936b28185e33806d4efbb3518b066e689205dedf2972f5ed53f7d225e",
+          "observed_payload_sha256": "08a9fd8936b28185e33806d4efbb3518b066e689205dedf2972f5ed53f7d225e",
+          "hash_verified": true,
+          "board_family": "esp32_devkit_30pin_unknown_variant",
+          "visible_face": "component_face",
+          "physical_specimen_id": null,
+          "camera_intrinsics_registered": false,
+          "metric_pose_verified": false
+        },
+        {
+          "path": "data/phone-captures/2026-10-11/gallery/IMG_20261011_011853.jpg",
+          "exists": true,
+          "declared_sha256": "41491d1e8af4066de4e7e7ac5bd47784793ad5880f0fc024e3a16c87be611d2d",
+          "observed_payload_sha256": "41491d1e8af4066de4e7e7ac5bd47784793ad5880f0fc024e3a16c87be611d2d",
+          "hash_verified": true,
+          "board_family": "nxp_frdm_mcxn236_board",
+          "visible_face": "component_face",
+          "physical_specimen_id": null,
+          "camera_intrinsics_registered": false,
+          "metric_pose_verified": false
+        },
+        {
+          "path": "data/phone-captures/2026-10-11/gallery/IMG_20261011_011939.jpg",
+          "exists": true,
+          "declared_sha256": "4299ebb2448c1649c03bea998dc53c4e998fdef70ba6fbeb94575f9ac4e723ae",
+          "observed_payload_sha256": "4299ebb2448c1649c03bea998dc53c4e998fdef70ba6fbeb94575f9ac4e723ae",
+          "hash_verified": true,
+          "board_family": "nxp_frdm_mcxn236_board",
+          "visible_face": "oblique_component_face",
+          "physical_specimen_id": null,
+          "camera_intrinsics_registered": false,
+          "metric_pose_verified": false
+        },
+        {
+          "path": "data/phone-captures/2026-10-11/gallery/IMG_20261011_012109.jpg",
+          "exists": true,
+          "declared_sha256": "31325a23dad3edf30a061b5895e62543323eefe8b4829b2695f00333522e0f1e",
+          "observed_payload_sha256": "31325a23dad3edf30a061b5895e62543323eefe8b4829b2695f00333522e0f1e",
+          "hash_verified": true,
+          "board_family": "ultimainboard_2_1_4",
+          "visible_face": "component_face",
+          "physical_specimen_id": null,
+          "camera_intrinsics_registered": false,
+          "metric_pose_verified": false
+        },
+        {
+          "path": "data/phone-captures/2026-10-11/gallery/IMG_20261011_012119.jpg",
+          "exists": true,
+          "declared_sha256": "7f3ca407fa7bd2e7255261041fae615ac45c97c22cfd5c7d2f530496fac6eb5f",
+          "observed_payload_sha256": "7f3ca407fa7bd2e7255261041fae615ac45c97c22cfd5c7d2f530496fac6eb5f",
+          "hash_verified": true,
+          "board_family": "ultimainboard_2_1_4",
+          "visible_face": "solder_face",
+          "physical_specimen_id": null,
+          "camera_intrinsics_registered": false,
+          "metric_pose_verified": false
+        }
+      ],
+      "interpretation": "Board/face review only; specimen IDs and metric poses are absent."
+    },
+    {
+      "source_manifest": "data/video-captures/2026-10-10/physical-view-followup/manifest.json",
+      "record_count": 4,
+      "records": [
+        {
+          "path": "data/video-captures/2026-10-10/physical-view-followup/ultimaker/video_20261010_202209.mp4",
+          "exists": true,
+          "declared_sha256": "6bf8666a4ea9c4994eb7d40b215fb4e1909a778c447118875a9ce2d89696f7b2",
+          "observed_payload_sha256": "6bf8666a4ea9c4994eb7d40b215fb4e1909a778c447118875a9ce2d89696f7b2",
+          "hash_verified": true,
+          "evidence_kind": "reviewed_video_pan",
+          "board_family": "ultimainboard_2_1_4",
+          "observed_views": [
+            "component_bearing_face",
+            "overview",
+            "close_pan"
+          ],
+          "underside_seen": false,
+          "four_oblique_sides_seen": false,
+          "continuous_flip_video_present": false,
+          "continuous_flip_verified": false,
+          "physical_specimen_id": null
+        },
+        {
+          "path": "data/video-captures/2026-10-10/physical-view-followup/esp12e/video_20261010_202254.mp4",
+          "exists": true,
+          "declared_sha256": "3f1add246d0daeaf132471aad4bed45ab405f754aa4539b2b5f318c653aa6c1d",
+          "observed_payload_sha256": "3f1add246d0daeaf132471aad4bed45ab405f754aa4539b2b5f318c653aa6c1d",
+          "hash_verified": true,
+          "evidence_kind": "reviewed_video_pan",
+          "board_family": "esp8266_esp12e_clone",
+          "observed_views": [
+            "component_bearing_face",
+            "overview",
+            "close_pan"
+          ],
+          "underside_seen": false,
+          "four_oblique_sides_seen": false,
+          "continuous_flip_video_present": false,
+          "continuous_flip_verified": false,
+          "physical_specimen_id": null
+        },
+        {
+          "path": "data/video-captures/2026-10-10/physical-view-followup/nxp/video_20261010_202323.mp4",
+          "exists": true,
+          "declared_sha256": "f9025417ad360eaa51276eccd04733849d22d426727ad343da4e994fe3a2195f",
+          "observed_payload_sha256": "f9025417ad360eaa51276eccd04733849d22d426727ad343da4e994fe3a2195f",
+          "hash_verified": true,
+          "evidence_kind": "reviewed_video_pan",
+          "board_family": "nxp_frdm_mcxn236",
+          "observed_views": [
+            "component_bearing_face",
+            "overview",
+            "close_pan"
+          ],
+          "underside_seen": false,
+          "four_oblique_sides_seen": false,
+          "continuous_flip_video_present": false,
+          "continuous_flip_verified": false,
+          "physical_specimen_id": null
+        },
+        {
+          "path": "data/video-captures/2026-10-10/physical-view-followup/esp32/video_20261010_202431.mp4",
+          "exists": true,
+          "declared_sha256": "781f4a1d7ca54af691e8d84477e1710809efba81fb1a8434c61fd44367695570",
+          "observed_payload_sha256": "781f4a1d7ca54af691e8d84477e1710809efba81fb1a8434c61fd44367695570",
+          "hash_verified": true,
+          "evidence_kind": "reviewed_video_pan",
+          "board_family": "esp32_devkit_30pin_clone",
+          "observed_views": [
+            "component_bearing_face",
+            "overview",
+            "close_pan"
+          ],
+          "underside_seen": false,
+          "four_oblique_sides_seen": false,
+          "continuous_flip_video_present": false,
+          "continuous_flip_verified": false,
+          "physical_specimen_id": null
+        }
+      ],
+      "interpretation": "Video evidence is inventoried, but family-only records do not establish specimen identity or metric camera pose."
+    },
+    {
+      "source_manifest": "data/video-captures/2026-10-10/physical-view-followup/additional-flip-clips/manifest.json",
+      "record_count": 2,
+      "records": [
+        {
+          "path": "data/video-captures/2026-10-10/physical-view-followup/additional-flip-clips/ultimaker_video_20261010_211011.mp4",
+          "exists": true,
+          "declared_sha256": "ea3123298f6ffa291de10f70c1cd5442eadfb03af41c7fcf934e01b840959cec",
+          "observed_payload_sha256": "ea3123298f6ffa291de10f70c1cd5442eadfb03af41c7fcf934e01b840959cec",
+          "hash_verified": true,
+          "evidence_kind": "sampled_flip_video",
+          "board_family": "ultimainboard_2_1_4",
+          "observed_views": [
+            "component_bearing_face",
+            "underside",
+            "edge_on_side"
+          ],
+          "underside_seen": true,
+          "four_oblique_sides_seen": false,
+          "continuous_flip_video_present": true,
+          "continuous_flip_verified": false,
+          "physical_specimen_id": null
+        },
+        {
+          "path": "data/video-captures/2026-10-10/physical-view-followup/additional-flip-clips/esp32_video_20261010_211108.mp4",
+          "exists": true,
+          "declared_sha256": "5fef0f008bdae7546a5bb74a974a94d6a178050f99fbc3535855b92eeae4e520",
+          "observed_payload_sha256": "5fef0f008bdae7546a5bb74a974a94d6a178050f99fbc3535855b92eeae4e520",
+          "hash_verified": true,
+          "evidence_kind": "sampled_flip_video",
+          "board_family": "esp32_devkit_30pin_clone",
+          "observed_views": [
+            "component_bearing_face",
+            "underside",
+            "oblique_partial"
+          ],
+          "underside_seen": true,
+          "four_oblique_sides_seen": false,
+          "continuous_flip_video_present": true,
+          "continuous_flip_verified": false,
+          "physical_specimen_id": null
+        }
+      ],
+      "interpretation": "Video evidence is inventoried, but family-only records do not establish specimen identity or metric camera pose."
+    },
+    {
+      "source_manifest": "data/video-captures/2026-10-10/physical-view-followup/additional-board-views/nxp-keyframes/manifest.json",
+      "record_count": 1,
+      "source_video": {
+        "path": "data/video-captures/2026-10-10/physical-view-followup/additional-board-views/nxp_video_20261010_211200.mp4",
+        "exists": true,
+        "declared_sha256": "b9e531fb9c374f122d6634d429b94f5e80fc9ce850353360cce76938c5b3581f",
+        "observed_payload_sha256": "b9e531fb9c374f122d6634d429b94f5e80fc9ce850353360cce76938c5b3581f",
+        "hash_verified": true
+      },
+      "records": [
+        {
+          "path": "data/video-captures/2026-10-10/physical-view-followup/additional-board-views/nxp-keyframes/nxp_video_20261010_211200_n000000_pts00000000ms.jpg",
+          "exists": true,
+          "declared_sha256": "7c328ef81d36702e1ad963cdaa8b37bf0c5dea6a94edaa0b59cfc2f9df6d5c48",
+          "observed_payload_sha256": "7c328ef81d36702e1ad963cdaa8b37bf0c5dea6a94edaa0b59cfc2f9df6d5c48",
+          "hash_verified": true,
+          "board_family": "nxp_frdm_mcxn236_unknown_rev",
+          "view_slot": "top_face_keyframe",
+          "physical_specimen_id": "bench-nxp-01",
+          "metric_pose_verified": false
+        }
+      ],
+      "interpretation": "One reviewed NXP top-face keyframe; no calibrated pose or added underside/oblique slot."
+    }
+  ],
   "limits": [
-    "Only individually reviewed physical-photo records with calibration and pose count.",
+    "Only individually reviewed records with camera calibration and board-to-camera pose count toward verified view slots.",
+    "Later gallery/video captures are hash-inventoried but not linked to a specimen without explicit source evidence.",
     "Synthetic renders and unreviewed gallery photos do not count as physical coverage.",
     "A reviewed continuous flip video with a content hash is required per specimen."
   ]
