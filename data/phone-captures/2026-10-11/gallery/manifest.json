@@ -479,11 +479,13 @@
       "exif_datetime_original": "2026:10:11 01:19:39",
       "exif_orientation": 1,
       "candidate_capture_group": "IMG_20261011_011939.jpg",
-      "board_family": null,
-      "view_slot": null,
-      "review_status": "unreviewed",
-      "training_export_eligible": false,
-      "evaluation_eligible": false
+      "board_family": "nxp_frdm_mcxn236",
+      "view_slot": "oblique_unregistered",
+      "review_status": "partially_reviewed_component_masks",
+      "training_export_eligible": true,
+      "evaluation_eligible": false,
+      "component_mask_count": 3,
+      "annotation_file": "annotations/nxp-oblique-gallery-2026-10-11-component-review.json"
     },
     {
       "path": "data/phone-captures/2026-10-11/gallery/IMG_20261011_011944.jpg",

@@ -53,14 +53,16 @@
       "image_sha256": "4299ebb2448c1649c03bea998dc53c4e998fdef70ba6fbeb94575f9ac4e723ae",
       "board_family": "nxp_frdm_mcxn236_board",
       "visible_face": "oblique_component_face",
-      "visual_evidence": "board thickness and component-face perspective visible; physical side unregistered",
+      "visual_evidence": "Oblique component-face view; board thickness and perspective visible; side direction/specimen identity unregistered.",
       "capture_session_id": "iqoo-gallery-session-2026-10-11",
       "physical_specimen_id": null,
       "camera_intrinsics_registered": false,
       "metric_pose_verified": false,
       "component_masks_complete": false,
-      "training_export_eligible": false,
-      "evaluation_eligible": false
+      "training_export_eligible": true,
+      "evaluation_eligible": false,
+      "reviewed_component_mask_count": 3,
+      "annotation_file": "annotations/nxp-oblique-gallery-2026-10-11-component-review.json"
     },
     {
       "image_path": "data/phone-captures/2026-10-11/gallery/IMG_20261011_012109.jpg",

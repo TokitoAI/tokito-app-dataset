@@ -18,6 +18,7 @@ DEFAULT_FILES = (
     "annotations/esp8266-component-mask-review.json",
     "annotations/esp8266-dense-component-review.json",
     "annotations/esp8266-gallery-2026-10-11-component-review.json",
+    "annotations/nxp-oblique-gallery-2026-10-11-component-review.json",
     "annotations/esp8266-video-component-review.json",
     "annotations/nxp-dense-component-review.json",
     "annotations/ultimainboard-specimen-component-masks.json",
