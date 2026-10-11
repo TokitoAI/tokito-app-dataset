@@ -12,19 +12,20 @@
   "training_export_eligible": false,
   "evaluation_valid": false,
   "review_scope": [
-    "rf_shield",
-    "integrated_circuit",
-    "usb_connector",
-    "switch",
-    "resistor",
     "capacitor",
-    "three_terminal_package"
+    "integrated_circuit",
+    "resistor",
+    "rf_shield",
+    "switch",
+    "three_terminal_package",
+    "unknown_package",
+    "usb_connector"
   ],
   "unreviewed_visible_instances": [
     "header contact surfaces and pin endpoints",
-    "unknown dark lower-left package on three other top-face originals",
     "module shield hides internal components",
-    "underside packages not observable in these top-face originals"
+    "underside packages not observable in these top-face originals",
+    "unknown lower-left package family/order code and electrical identity"
   ],
   "identity_limits": [
     "ESP-12E shield marking is legible; clone variant/order suffix unknown.",
@@ -3889,10 +3890,160 @@
       "installed_order_code_confirmed": false,
       "pin_mapping_status": "not_asserted",
       "training_export_eligible": false
+    },
+    {
+      "class_name": "unknown_package",
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "boundary_scope": "Visible package body; solder pads and leads excluded.",
+      "boundary_uncertainty_pixels": 12,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
+      "installed_order_code_confirmed": false,
+      "parent_board_instance_id": "bench-esp8266-01",
+      "pin_mapping_status": "not_asserted",
+      "training_export_eligible": false,
+      "identity_status": "unresolved_package_type",
+      "exact_part_name": null,
+      "instance_id": "IMG_20261010_092223.jpg:unknown_lower_left_package",
+      "polygon_xy_pixels": [
+        [
+          918,
+          2955
+        ],
+        [
+          971,
+          2956
+        ],
+        [
+          979,
+          2985
+        ],
+        [
+          965,
+          3006
+        ],
+        [
+          917,
+          3002
+        ],
+        [
+          910,
+          2975
+        ]
+      ],
+      "review_status": "visually_reviewed_homography_projected_body_polygon",
+      "review_evidence": "Initialized from the reviewed same-specimen 092221 polygon using SIFT feature homography with RANSAC (2342 inliers), then checked against the original-resolution overlay. Polygon follows only the visible dark package body; contacts/pads are excluded. Package type and marking remain unreadable; this is not an asserted resistor/diode/capacitor identity.",
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092223.jpg",
+      "image_sha256": "d5f4a8e70461dcd156bca91908d67a58d0276662f71e2637dba141cbcde278eb",
+      "image_width": 3072,
+      "image_height": 4080,
+      "corresponding_instance_id": "IMG_20261010_092221.jpg:unknown_lower_left_package",
+      "polygon_projection_method": "SIFT homography, RANSAC reprojection threshold 4px; visually reviewed overlay"
+    },
+    {
+      "class_name": "unknown_package",
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "boundary_scope": "Visible package body; solder pads and leads excluded.",
+      "boundary_uncertainty_pixels": 12,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
+      "installed_order_code_confirmed": false,
+      "parent_board_instance_id": "bench-esp8266-01",
+      "pin_mapping_status": "not_asserted",
+      "training_export_eligible": false,
+      "identity_status": "unresolved_package_type",
+      "exact_part_name": null,
+      "instance_id": "IMG_20261010_092226.jpg:unknown_lower_left_package",
+      "polygon_xy_pixels": [
+        [
+          933,
+          2818
+        ],
+        [
+          986,
+          2820
+        ],
+        [
+          993,
+          2848
+        ],
+        [
+          979,
+          2868
+        ],
+        [
+          932,
+          2864
+        ],
+        [
+          925,
+          2838
+        ]
+      ],
+      "review_status": "visually_reviewed_homography_projected_body_polygon",
+      "review_evidence": "Initialized from the reviewed same-specimen 092221 polygon using SIFT feature homography with RANSAC (1705 inliers), then checked against the original-resolution overlay. Polygon follows only the visible dark package body; contacts/pads are excluded. Package type and marking remain unreadable; this is not an asserted resistor/diode/capacitor identity.",
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092226.jpg",
+      "image_sha256": "9142f26e3e4ac4e41a6f65d83bb3ef66dd5ec5bface427a16aa8b4bb7a672b07",
+      "image_width": 3072,
+      "image_height": 4080,
+      "corresponding_instance_id": "IMG_20261010_092221.jpg:unknown_lower_left_package",
+      "polygon_projection_method": "SIFT homography, RANSAC reprojection threshold 4px; visually reviewed overlay"
+    },
+    {
+      "class_name": "unknown_package",
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "boundary_scope": "Visible package body; solder pads and leads excluded.",
+      "boundary_uncertainty_pixels": 12,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
+      "installed_order_code_confirmed": false,
+      "parent_board_instance_id": "bench-esp8266-01",
+      "pin_mapping_status": "not_asserted",
+      "training_export_eligible": false,
+      "identity_status": "unresolved_package_type",
+      "exact_part_name": null,
+      "instance_id": "IMG_20261010_092229.jpg:unknown_lower_left_package",
+      "polygon_xy_pixels": [
+        [
+          880,
+          2689
+        ],
+        [
+          932,
+          2690
+        ],
+        [
+          939,
+          2718
+        ],
+        [
+          926,
+          2738
+        ],
+        [
+          879,
+          2734
+        ],
+        [
+          872,
+          2708
+        ]
+      ],
+      "review_status": "visually_reviewed_homography_projected_body_polygon",
+      "review_evidence": "Initialized from the reviewed same-specimen 092221 polygon using SIFT feature homography with RANSAC (1391 inliers), then checked against the original-resolution overlay. Polygon follows only the visible dark package body; contacts/pads are excluded. Package type and marking remain unreadable; this is not an asserted resistor/diode/capacitor identity.",
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092229.jpg",
+      "image_sha256": "7d0a2f97dd5ae31192b577401cdbe50db0b2190da36b5547ff0582e5d34e0a9f",
+      "image_width": 3072,
+      "image_height": 4080,
+      "corresponding_instance_id": "IMG_20261010_092221.jpg:unknown_lower_left_package",
+      "polygon_projection_method": "SIFT homography, RANSAC reprojection threshold 4px; visually reviewed overlay"
     }
   ],
   "supersedes_review": "annotations/esp8266-component-mask-review.json",
-  "dense_review_status": "89_reviewed_body_masks_across_4_full_board_originals",
+  "dense_review_status": "92_reviewed_body_masks_across_4_full_board_originals; includes four homography-linked unknown_package observations excluded from class-specific training",
   "image_reviews": [
     {
       "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092221.jpg",
@@ -3901,21 +4052,27 @@
     },
     {
       "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092223.jpg",
-      "mask_count": 22,
-      "review_status": "original_pixel_visual_review",
-      "ransac_inliers": 2001
+      "mask_count": 23,
+      "review_status": "original_pixel_visual_review_with_homography_linked_unknown_package",
+      "ransac_inliers": 2001,
+      "unknown_package_correspondence_id": "IMG_20261010_092221.jpg:unknown_lower_left_package",
+      "homography_initialization": "SIFT/RANSAC projection then original-resolution overlay review"
     },
     {
       "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092226.jpg",
-      "mask_count": 22,
-      "review_status": "original_pixel_visual_review",
-      "ransac_inliers": 1389
+      "mask_count": 23,
+      "review_status": "original_pixel_visual_review_with_homography_linked_unknown_package",
+      "ransac_inliers": 1389,
+      "unknown_package_correspondence_id": "IMG_20261010_092221.jpg:unknown_lower_left_package",
+      "homography_initialization": "SIFT/RANSAC projection then original-resolution overlay review"
     },
     {
       "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092229.jpg",
-      "mask_count": 22,
-      "review_status": "original_pixel_visual_review",
-      "ransac_inliers": 1140
+      "mask_count": 23,
+      "review_status": "original_pixel_visual_review_with_homography_linked_unknown_package",
+      "ransac_inliers": 1140,
+      "unknown_package_correspondence_id": "IMG_20261010_092221.jpg:unknown_lower_left_package",
+      "homography_initialization": "SIFT/RANSAC projection then original-resolution overlay review"
     }
   ],
   "same_specimen_split_group": "bench-esp8266-01:20261010_0922",

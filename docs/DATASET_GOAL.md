@@ -46,7 +46,7 @@ the NXP implementation below is the first source-linked path, not completion
 of the full cross-board goal. See [AR alignment dataset](AR_ALIGNMENT_DATASET.md).
 
 The 2026-10-11 segmentation audit consolidates eight existing annotation
-sources into a per-frame review queue: 424 source mask records, 398 unique
+sources into a per-frame review queue: 427 source mask records, 401 unique
 image/instance pairs across 14 frames, and zero frames with verified complete
 visible-instance coverage for ordinary YOLO segmentation training. The queue
 is `data/photo-model/component-review-backlog.json`; the public-source/license
