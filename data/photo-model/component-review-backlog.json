@@ -12,7 +12,7 @@
     "annotations/ultimainboard-dense-component-review.json"
   ],
   "unique_frames": 14,
-  "reviewed_mask_records_before_deduplication": 427,
+  "reviewed_mask_records_before_deduplication": 435,
   "frame_action_counts": {
     "finish_visible_instance_masks_and_review_coverage": 14
   },
@@ -407,98 +407,6 @@
       "next_action": "finish_visible_instance_masks_and_review_coverage"
     },
     {
-      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092144.jpg",
-      "board_family_candidates": [
-        "esp32_devkit_30pin_unknown_variant"
-      ],
-      "image_exists": true,
-      "image_sha256": "d33bf83877365f57dc03d36388518207090acbd5b57db93ca96742c1ecd05ed7",
-      "declared_sha256_values": [
-        "d33bf83877365f57dc03d36388518207090acbd5b57db93ca96742c1ecd05ed7"
-      ],
-      "hash_matches": true,
-      "reviewed_mask_count": 33,
-      "unique_instance_ids": 28,
-      "classes": {
-        "chip_passive": 20,
-        "integrated_circuit": 2,
-        "rf_module": 2,
-        "switch": 4,
-        "three_terminal_package": 2,
-        "three_terminal_power_package": 1,
-        "usb_connector": 2
-      },
-      "review_statuses": {
-        "visually_reviewed_body_polygon": 33
-      },
-      "coverage_claims": [
-        "partial_visible_component_bodies"
-      ],
-      "remaining_review": [
-        "Construct an independent evaluation split from separately reviewed captures/specimens.",
-        "Mask individual exposed contacts with parent-part orientation evidence.",
-        "Resolve exact identities or explicitly define observable-family classes before training.",
-        "Review residual or occluded body boundaries before declaring exhaustive coverage.",
-        "Verify full RF module outline versus shield-only scope consistently across views."
-      ],
-      "capture_groups": [
-        "bench-esp32-01",
-        "bench-esp32-01:20261010_morning"
-      ],
-      "annotation_sources": [
-        "annotations/ar-instance-masks.json",
-        "annotations/esp32-dense-component-review.json"
-      ],
-      "ordinary_yolo_training_safe": false,
-      "next_action": "finish_visible_instance_masks_and_review_coverage"
-    },
-    {
-      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092149.jpg",
-      "board_family_candidates": [
-        "esp32_devkit_30pin_unknown_variant"
-      ],
-      "image_exists": true,
-      "image_sha256": "f99756a1c369609e24570c76d5600eff9eb3b3d749644f2d9664c63b075bd2c2",
-      "declared_sha256_values": [
-        "f99756a1c369609e24570c76d5600eff9eb3b3d749644f2d9664c63b075bd2c2"
-      ],
-      "hash_matches": true,
-      "reviewed_mask_count": 33,
-      "unique_instance_ids": 28,
-      "classes": {
-        "chip_passive": 20,
-        "integrated_circuit": 2,
-        "rf_module": 2,
-        "switch": 4,
-        "three_terminal_package": 2,
-        "three_terminal_power_package": 1,
-        "usb_connector": 2
-      },
-      "review_statuses": {
-        "visually_reviewed_body_polygon": 33
-      },
-      "coverage_claims": [
-        "partial_visible_component_bodies"
-      ],
-      "remaining_review": [
-        "Construct an independent evaluation split from separately reviewed captures/specimens.",
-        "Mask individual exposed contacts with parent-part orientation evidence.",
-        "Resolve exact identities or explicitly define observable-family classes before training.",
-        "Review residual or occluded body boundaries before declaring exhaustive coverage.",
-        "Verify full RF module outline versus shield-only scope consistently across views."
-      ],
-      "capture_groups": [
-        "bench-esp32-01",
-        "bench-esp32-01:20261010_morning"
-      ],
-      "annotation_sources": [
-        "annotations/ar-instance-masks.json",
-        "annotations/esp32-dense-component-review.json"
-      ],
-      "ordinary_yolo_training_safe": false,
-      "next_action": "finish_visible_instance_masks_and_review_coverage"
-    },
-    {
       "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092153.jpg",
       "board_family_candidates": [
         "esp32_devkit_30pin_unknown_variant"
@@ -530,6 +438,105 @@
         "Construct an independent evaluation split from separately reviewed captures/specimens.",
         "Mask individual exposed contacts with parent-part orientation evidence.",
         "Resolve exact identities or explicitly define observable-family classes before training.",
+        "Resolve the four repeated unknown-package identities only if new visual or source evidence supports it; keep them unknown otherwise.",
+        "Review residual or occluded body boundaries before declaring exhaustive coverage.",
+        "Verify full RF module outline versus shield-only scope consistently across views."
+      ],
+      "capture_groups": [
+        "bench-esp32-01",
+        "bench-esp32-01:20261010_morning"
+      ],
+      "annotation_sources": [
+        "annotations/ar-instance-masks.json",
+        "annotations/esp32-dense-component-review.json"
+      ],
+      "ordinary_yolo_training_safe": false,
+      "next_action": "finish_visible_instance_masks_and_review_coverage"
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092144.jpg",
+      "board_family_candidates": [
+        "esp32_devkit_30pin_unknown_variant"
+      ],
+      "image_exists": true,
+      "image_sha256": "d33bf83877365f57dc03d36388518207090acbd5b57db93ca96742c1ecd05ed7",
+      "declared_sha256_values": [
+        "d33bf83877365f57dc03d36388518207090acbd5b57db93ca96742c1ecd05ed7"
+      ],
+      "hash_matches": true,
+      "reviewed_mask_count": 37,
+      "unique_instance_ids": 32,
+      "classes": {
+        "chip_passive": 20,
+        "integrated_circuit": 2,
+        "rf_module": 2,
+        "switch": 4,
+        "three_terminal_package": 2,
+        "three_terminal_power_package": 1,
+        "unknown_package": 4,
+        "usb_connector": 2
+      },
+      "review_statuses": {
+        "visually_reviewed_body_polygon": 33,
+        "visually_reviewed_homography_projected_body_polygon": 4
+      },
+      "coverage_claims": [
+        "partial_visible_component_bodies"
+      ],
+      "remaining_review": [
+        "Construct an independent evaluation split from separately reviewed captures/specimens.",
+        "Mask individual exposed contacts with parent-part orientation evidence.",
+        "Resolve exact identities or explicitly define observable-family classes before training.",
+        "Resolve the four repeated unknown-package identities only if new visual or source evidence supports it; keep them unknown otherwise.",
+        "Review residual or occluded body boundaries before declaring exhaustive coverage.",
+        "Verify full RF module outline versus shield-only scope consistently across views."
+      ],
+      "capture_groups": [
+        "bench-esp32-01",
+        "bench-esp32-01:20261010_morning"
+      ],
+      "annotation_sources": [
+        "annotations/ar-instance-masks.json",
+        "annotations/esp32-dense-component-review.json"
+      ],
+      "ordinary_yolo_training_safe": false,
+      "next_action": "finish_visible_instance_masks_and_review_coverage"
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092149.jpg",
+      "board_family_candidates": [
+        "esp32_devkit_30pin_unknown_variant"
+      ],
+      "image_exists": true,
+      "image_sha256": "f99756a1c369609e24570c76d5600eff9eb3b3d749644f2d9664c63b075bd2c2",
+      "declared_sha256_values": [
+        "f99756a1c369609e24570c76d5600eff9eb3b3d749644f2d9664c63b075bd2c2"
+      ],
+      "hash_matches": true,
+      "reviewed_mask_count": 37,
+      "unique_instance_ids": 32,
+      "classes": {
+        "chip_passive": 20,
+        "integrated_circuit": 2,
+        "rf_module": 2,
+        "switch": 4,
+        "three_terminal_package": 2,
+        "three_terminal_power_package": 1,
+        "unknown_package": 4,
+        "usb_connector": 2
+      },
+      "review_statuses": {
+        "visually_reviewed_body_polygon": 33,
+        "visually_reviewed_homography_projected_body_polygon": 4
+      },
+      "coverage_claims": [
+        "partial_visible_component_bodies"
+      ],
+      "remaining_review": [
+        "Construct an independent evaluation split from separately reviewed captures/specimens.",
+        "Mask individual exposed contacts with parent-part orientation evidence.",
+        "Resolve exact identities or explicitly define observable-family classes before training.",
+        "Resolve the four repeated unknown-package identities only if new visual or source evidence supports it; keep them unknown otherwise.",
         "Review residual or occluded body boundaries before declaring exhaustive coverage.",
         "Verify full RF module outline versus shield-only scope consistently across views."
       ],

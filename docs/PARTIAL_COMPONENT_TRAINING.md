@@ -124,7 +124,7 @@ recall 0.477, 52 audited-region false positives). Both are diagnostic-only,
 not held-out accuracy. The checkpoint is not an every-part detector and must
 not be selected as production-ready from these measurements.
 
-The latest dataset audit found 427 source records / 401 unique image-instance
+The latest dataset audit found 435 source records / 409 unique image-instance
 pairs across 14 reviewed frames; all polygon integrity checks pass, but no
 frame has verified exhaustive visible-component coverage. The generated
 `data/photo-model/component-review-backlog.json` is the annotation queue.

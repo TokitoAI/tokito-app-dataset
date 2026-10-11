@@ -14,7 +14,7 @@ This audit distinguishes usable component-instance annotations from related PCB 
 
 ## Local Tokito mask readiness
 
-`python scripts/build_component_review_backlog.py` generates `data/photo-model/component-review-backlog.json`. On 2026-10-11 it found 427 source mask records across 14 unique frames (401 unique image/instance IDs). All image hashes verified; zero frames met the explicit complete-visible-instance training gate. Partial frames remain appropriate for the ignore-aware diagnostic trainer, not ordinary YOLO background-supervised training.
+`python scripts/build_component_review_backlog.py` generates `data/photo-model/component-review-backlog.json`. On 2026-10-11 it found 435 source mask records across 14 unique frames (409 unique image/instance IDs). All image hashes verified; zero frames met the explicit complete-visible-instance training gate. Eight homography-initialized, visually checked unknown-package masks extend the ESP32 labels across two additional same-specimen photos; identity remains unresolved. Partial frames remain appropriate for the ignore-aware diagnostic trainer, not ordinary YOLO background-supervised training.
 
 The source annotation files cover ESP32, ESP8266/ESP-12E, NXP and Ultimainboard. Their 398 reviewed masks are heavily correlated by specimen/capture session and have unresolved visible objects. The 70 recently ingested iQOO gallery files include original captures and crop variants. Six full originals now have board/view reviews, but none has complete component masks; all 70 remain excluded from model training and evaluation. Do not synthesize labels from source BOM/placement records or infer visible part identities from text that cannot be read in the image.
 

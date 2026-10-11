@@ -24,7 +24,8 @@
     "Review residual or occluded body boundaries before declaring exhaustive coverage.",
     "Verify full RF module outline versus shield-only scope consistently across views.",
     "Resolve exact identities or explicitly define observable-family classes before training.",
-    "Construct an independent evaluation split from separately reviewed captures/specimens."
+    "Construct an independent evaluation split from separately reviewed captures/specimens.",
+    "Resolve the four repeated unknown-package identities only if new visual or source evidence supports it; keep them unknown otherwise."
   ],
   "source_annotations": {
     "annotations/ar-instance-masks.json": "ca6c340441f61afb21b998e2d303d6601fe365fc2b22291336714b59c0cf9769"
@@ -3875,6 +3876,446 @@
       "source_annotation_instance_id": "IMG_20261010_092144.jpg:lower_passive_11",
       "source_annotation_relation": "same_specimen_body_boundary_transferred_then_target_overlay_reviewed",
       "marking_identity_evidence_image_path": "data/phone-captures/2026-10-10/IMG_20261010_092144.jpg"
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092144.jpg",
+      "image_sha256": "d33bf83877365f57dc03d36388518207090acbd5b57db93ca96742c1ecd05ed7",
+      "image_width": 3072,
+      "image_height": 4080,
+      "instance_id": "IMG_20261010_092144.jpg:unclassified_smd_01",
+      "class_name": "unknown_package",
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1510,
+          1652
+        ],
+        [
+          1583,
+          1651
+        ],
+        [
+          1610,
+          1666
+        ],
+        [
+          1613,
+          1705
+        ],
+        [
+          1590,
+          1719
+        ],
+        [
+          1508,
+          1713
+        ]
+      ],
+      "boundary_scope": "Visible outer package body including its visible terminal ends; board copper, silkscreen, and neighboring parts excluded.",
+      "review_status": "visually_reviewed_homography_projected_body_polygon",
+      "review_evidence": "Initialized from the reviewed 092153 same-specimen polygon using SIFT feature homography with RANSAC (1082 inliers), then checked against the original-resolution overlay. Boundary follows the visible package body and visible ends; neighboring copper, board silkscreen, and adjacent parts are excluded. The exact family and reference designator remain unreadable.",
+      "boundary_uncertainty_pixels": 12,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
+      "installed_order_code_confirmed": false,
+      "parent_board_instance_id": "bench-esp32-01:board",
+      "exact_part_name": null,
+      "identity_status": "visible_package_type_unresolved",
+      "pin_mapping_status": "not_asserted",
+      "training_export_eligible": false,
+      "source_annotation_path": "annotations/esp32-complete-visible-frame-review.json",
+      "source_annotation_instance_id": "IMG_20261010_092153.jpg:unclassified_smd_01",
+      "corresponding_instance_id": "IMG_20261010_092153.jpg:unclassified_smd_01",
+      "source_annotation_relation": "same_specimen_homography_projection_visually_checked",
+      "polygon_projection_method": "SIFT homography, RANSAC reprojection threshold 4px; visually reviewed overlay"
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092144.jpg",
+      "image_sha256": "d33bf83877365f57dc03d36388518207090acbd5b57db93ca96742c1ecd05ed7",
+      "image_width": 3072,
+      "image_height": 4080,
+      "instance_id": "IMG_20261010_092144.jpg:unclassified_smd_02",
+      "class_name": "unknown_package",
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1512,
+          1735
+        ],
+        [
+          1584,
+          1736
+        ],
+        [
+          1611,
+          1751
+        ],
+        [
+          1612,
+          1792
+        ],
+        [
+          1591,
+          1808
+        ],
+        [
+          1509,
+          1802
+        ]
+      ],
+      "boundary_scope": "Visible outer package body including its visible terminal ends; board copper, silkscreen, and neighboring parts excluded.",
+      "review_status": "visually_reviewed_homography_projected_body_polygon",
+      "review_evidence": "Initialized from the reviewed 092153 same-specimen polygon using SIFT feature homography with RANSAC (1082 inliers), then checked against the original-resolution overlay. Boundary follows the visible package body and visible ends; neighboring copper, board silkscreen, and adjacent parts are excluded. The exact family and reference designator remain unreadable.",
+      "boundary_uncertainty_pixels": 12,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
+      "installed_order_code_confirmed": false,
+      "parent_board_instance_id": "bench-esp32-01:board",
+      "exact_part_name": null,
+      "identity_status": "visible_package_type_unresolved",
+      "pin_mapping_status": "not_asserted",
+      "training_export_eligible": false,
+      "source_annotation_path": "annotations/esp32-complete-visible-frame-review.json",
+      "source_annotation_instance_id": "IMG_20261010_092153.jpg:unclassified_smd_02",
+      "corresponding_instance_id": "IMG_20261010_092153.jpg:unclassified_smd_02",
+      "source_annotation_relation": "same_specimen_homography_projection_visually_checked",
+      "polygon_projection_method": "SIFT homography, RANSAC reprojection threshold 4px; visually reviewed overlay"
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092144.jpg",
+      "image_sha256": "d33bf83877365f57dc03d36388518207090acbd5b57db93ca96742c1ecd05ed7",
+      "image_width": 3072,
+      "image_height": 4080,
+      "instance_id": "IMG_20261010_092144.jpg:unclassified_smd_03",
+      "class_name": "unknown_package",
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1513,
+          1823
+        ],
+        [
+          1587,
+          1826
+        ],
+        [
+          1610,
+          1844
+        ],
+        [
+          1611,
+          1888
+        ],
+        [
+          1591,
+          1905
+        ],
+        [
+          1510,
+          1899
+        ]
+      ],
+      "boundary_scope": "Visible outer package body including its visible terminal ends; board copper, silkscreen, and neighboring parts excluded.",
+      "review_status": "visually_reviewed_homography_projected_body_polygon",
+      "review_evidence": "Initialized from the reviewed 092153 same-specimen polygon using SIFT feature homography with RANSAC (1082 inliers), then checked against the original-resolution overlay. Boundary follows the visible package body and visible ends; neighboring copper, board silkscreen, and adjacent parts are excluded. The exact family and reference designator remain unreadable.",
+      "boundary_uncertainty_pixels": 12,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
+      "installed_order_code_confirmed": false,
+      "parent_board_instance_id": "bench-esp32-01:board",
+      "exact_part_name": null,
+      "identity_status": "visible_package_type_unresolved",
+      "pin_mapping_status": "not_asserted",
+      "training_export_eligible": false,
+      "source_annotation_path": "annotations/esp32-complete-visible-frame-review.json",
+      "source_annotation_instance_id": "IMG_20261010_092153.jpg:unclassified_smd_03",
+      "corresponding_instance_id": "IMG_20261010_092153.jpg:unclassified_smd_03",
+      "source_annotation_relation": "same_specimen_homography_projection_visually_checked",
+      "polygon_projection_method": "SIFT homography, RANSAC reprojection threshold 4px; visually reviewed overlay"
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092144.jpg",
+      "image_sha256": "d33bf83877365f57dc03d36388518207090acbd5b57db93ca96742c1ecd05ed7",
+      "image_width": 3072,
+      "image_height": 4080,
+      "instance_id": "IMG_20261010_092144.jpg:unclassified_smd_04",
+      "class_name": "unknown_package",
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1775,
+          1724
+        ],
+        [
+          1790,
+          1717
+        ],
+        [
+          1833,
+          1719
+        ],
+        [
+          1849,
+          1738
+        ],
+        [
+          1846,
+          1885
+        ],
+        [
+          1830,
+          1906
+        ],
+        [
+          1781,
+          1900
+        ],
+        [
+          1770,
+          1883
+        ]
+      ],
+      "boundary_scope": "Visible outer package body including its visible terminal ends; board copper, silkscreen, and neighboring parts excluded.",
+      "review_status": "visually_reviewed_homography_projected_body_polygon",
+      "review_evidence": "Initialized from the reviewed 092153 same-specimen polygon using SIFT feature homography with RANSAC (1082 inliers), then checked against the original-resolution overlay. Boundary follows the visible package body and visible ends; neighboring copper, board silkscreen, and adjacent parts are excluded. The exact family and reference designator remain unreadable.",
+      "boundary_uncertainty_pixels": 12,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
+      "installed_order_code_confirmed": false,
+      "parent_board_instance_id": "bench-esp32-01:board",
+      "exact_part_name": null,
+      "identity_status": "visible_package_type_unresolved",
+      "pin_mapping_status": "not_asserted",
+      "training_export_eligible": false,
+      "source_annotation_path": "annotations/esp32-complete-visible-frame-review.json",
+      "source_annotation_instance_id": "IMG_20261010_092153.jpg:unclassified_smd_04",
+      "corresponding_instance_id": "IMG_20261010_092153.jpg:unclassified_smd_04",
+      "source_annotation_relation": "same_specimen_homography_projection_visually_checked",
+      "polygon_projection_method": "SIFT homography, RANSAC reprojection threshold 4px; visually reviewed overlay"
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092149.jpg",
+      "image_sha256": "f99756a1c369609e24570c76d5600eff9eb3b3d749644f2d9664c63b075bd2c2",
+      "image_width": 3072,
+      "image_height": 4080,
+      "instance_id": "IMG_20261010_092149.jpg:unclassified_smd_01",
+      "class_name": "unknown_package",
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1396,
+          1632
+        ],
+        [
+          1464,
+          1632
+        ],
+        [
+          1489,
+          1646
+        ],
+        [
+          1492,
+          1682
+        ],
+        [
+          1470,
+          1695
+        ],
+        [
+          1395,
+          1689
+        ]
+      ],
+      "boundary_scope": "Visible outer package body including its visible terminal ends; board copper, silkscreen, and neighboring parts excluded.",
+      "review_status": "visually_reviewed_homography_projected_body_polygon",
+      "review_evidence": "Initialized from the reviewed 092153 same-specimen polygon using SIFT feature homography with RANSAC (1675 inliers), then checked against the original-resolution overlay. Boundary follows the visible package body and visible ends; neighboring copper, board silkscreen, and adjacent parts are excluded. The exact family and reference designator remain unreadable.",
+      "boundary_uncertainty_pixels": 12,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
+      "installed_order_code_confirmed": false,
+      "parent_board_instance_id": "bench-esp32-01:board",
+      "exact_part_name": null,
+      "identity_status": "visible_package_type_unresolved",
+      "pin_mapping_status": "not_asserted",
+      "training_export_eligible": false,
+      "source_annotation_path": "annotations/esp32-complete-visible-frame-review.json",
+      "source_annotation_instance_id": "IMG_20261010_092153.jpg:unclassified_smd_01",
+      "corresponding_instance_id": "IMG_20261010_092153.jpg:unclassified_smd_01",
+      "source_annotation_relation": "same_specimen_homography_projection_visually_checked",
+      "polygon_projection_method": "SIFT homography, RANSAC reprojection threshold 4px; visually reviewed overlay"
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092149.jpg",
+      "image_sha256": "f99756a1c369609e24570c76d5600eff9eb3b3d749644f2d9664c63b075bd2c2",
+      "image_width": 3072,
+      "image_height": 4080,
+      "instance_id": "IMG_20261010_092149.jpg:unclassified_smd_02",
+      "class_name": "unknown_package",
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1398,
+          1709
+        ],
+        [
+          1465,
+          1711
+        ],
+        [
+          1491,
+          1725
+        ],
+        [
+          1491,
+          1763
+        ],
+        [
+          1472,
+          1779
+        ],
+        [
+          1395,
+          1772
+        ]
+      ],
+      "boundary_scope": "Visible outer package body including its visible terminal ends; board copper, silkscreen, and neighboring parts excluded.",
+      "review_status": "visually_reviewed_homography_projected_body_polygon",
+      "review_evidence": "Initialized from the reviewed 092153 same-specimen polygon using SIFT feature homography with RANSAC (1675 inliers), then checked against the original-resolution overlay. Boundary follows the visible package body and visible ends; neighboring copper, board silkscreen, and adjacent parts are excluded. The exact family and reference designator remain unreadable.",
+      "boundary_uncertainty_pixels": 12,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
+      "installed_order_code_confirmed": false,
+      "parent_board_instance_id": "bench-esp32-01:board",
+      "exact_part_name": null,
+      "identity_status": "visible_package_type_unresolved",
+      "pin_mapping_status": "not_asserted",
+      "training_export_eligible": false,
+      "source_annotation_path": "annotations/esp32-complete-visible-frame-review.json",
+      "source_annotation_instance_id": "IMG_20261010_092153.jpg:unclassified_smd_02",
+      "corresponding_instance_id": "IMG_20261010_092153.jpg:unclassified_smd_02",
+      "source_annotation_relation": "same_specimen_homography_projection_visually_checked",
+      "polygon_projection_method": "SIFT homography, RANSAC reprojection threshold 4px; visually reviewed overlay"
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092149.jpg",
+      "image_sha256": "f99756a1c369609e24570c76d5600eff9eb3b3d749644f2d9664c63b075bd2c2",
+      "image_width": 3072,
+      "image_height": 4080,
+      "instance_id": "IMG_20261010_092149.jpg:unclassified_smd_03",
+      "class_name": "unknown_package",
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1399,
+          1792
+        ],
+        [
+          1468,
+          1796
+        ],
+        [
+          1490,
+          1812
+        ],
+        [
+          1491,
+          1854
+        ],
+        [
+          1473,
+          1870
+        ],
+        [
+          1397,
+          1863
+        ]
+      ],
+      "boundary_scope": "Visible outer package body including its visible terminal ends; board copper, silkscreen, and neighboring parts excluded.",
+      "review_status": "visually_reviewed_homography_projected_body_polygon",
+      "review_evidence": "Initialized from the reviewed 092153 same-specimen polygon using SIFT feature homography with RANSAC (1675 inliers), then checked against the original-resolution overlay. Boundary follows the visible package body and visible ends; neighboring copper, board silkscreen, and adjacent parts are excluded. The exact family and reference designator remain unreadable.",
+      "boundary_uncertainty_pixels": 12,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
+      "installed_order_code_confirmed": false,
+      "parent_board_instance_id": "bench-esp32-01:board",
+      "exact_part_name": null,
+      "identity_status": "visible_package_type_unresolved",
+      "pin_mapping_status": "not_asserted",
+      "training_export_eligible": false,
+      "source_annotation_path": "annotations/esp32-complete-visible-frame-review.json",
+      "source_annotation_instance_id": "IMG_20261010_092153.jpg:unclassified_smd_03",
+      "corresponding_instance_id": "IMG_20261010_092153.jpg:unclassified_smd_03",
+      "source_annotation_relation": "same_specimen_homography_projection_visually_checked",
+      "polygon_projection_method": "SIFT homography, RANSAC reprojection threshold 4px; visually reviewed overlay"
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092149.jpg",
+      "image_sha256": "f99756a1c369609e24570c76d5600eff9eb3b3d749644f2d9664c63b075bd2c2",
+      "image_width": 3072,
+      "image_height": 4080,
+      "instance_id": "IMG_20261010_092149.jpg:unclassified_smd_04",
+      "class_name": "unknown_package",
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1644,
+          1700
+        ],
+        [
+          1658,
+          1694
+        ],
+        [
+          1698,
+          1697
+        ],
+        [
+          1713,
+          1714
+        ],
+        [
+          1712,
+          1853
+        ],
+        [
+          1697,
+          1872
+        ],
+        [
+          1651,
+          1867
+        ],
+        [
+          1640,
+          1850
+        ]
+      ],
+      "boundary_scope": "Visible outer package body including its visible terminal ends; board copper, silkscreen, and neighboring parts excluded.",
+      "review_status": "visually_reviewed_homography_projected_body_polygon",
+      "review_evidence": "Initialized from the reviewed 092153 same-specimen polygon using SIFT feature homography with RANSAC (1675 inliers), then checked against the original-resolution overlay. Boundary follows the visible package body and visible ends; neighboring copper, board silkscreen, and adjacent parts are excluded. The exact family and reference designator remain unreadable.",
+      "boundary_uncertainty_pixels": 12,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
+      "installed_order_code_confirmed": false,
+      "parent_board_instance_id": "bench-esp32-01:board",
+      "exact_part_name": null,
+      "identity_status": "visible_package_type_unresolved",
+      "pin_mapping_status": "not_asserted",
+      "training_export_eligible": false,
+      "source_annotation_path": "annotations/esp32-complete-visible-frame-review.json",
+      "source_annotation_instance_id": "IMG_20261010_092153.jpg:unclassified_smd_04",
+      "corresponding_instance_id": "IMG_20261010_092153.jpg:unclassified_smd_04",
+      "source_annotation_relation": "same_specimen_homography_projection_visually_checked",
+      "polygon_projection_method": "SIFT homography, RANSAC reprojection threshold 4px; visually reviewed overlay"
     }
   ],
   "contacts": [
