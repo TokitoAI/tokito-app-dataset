@@ -16,6 +16,19 @@ ROOT = Path(__file__).resolve().parents[1]
 REVIEW = ROOT / "annotations/esp8266-frame-component-complete-review.json"
 OUT = ROOT / "data/photo-model/component-smoke-esp12e"
 IMAGE_REL = "data/phone-captures/2026-10-10/IMG_20261010_092221.jpg"
+MODEL_CLASSES = [
+    "ic_package", "chip_passive", "connector", "rf_module",
+    "switch", "crystal", "discrete_semiconductor", "inductor",
+]
+SOURCE_TO_MODEL_CLASS = {
+    "integrated_circuit": "ic_package",
+    "capacitor": "chip_passive",
+    "resistor": "chip_passive",
+    "usb_connector": "connector",
+    "rf_shield": "rf_module",
+    "switch": "switch",
+    "three_terminal_package": "discrete_semiconductor",
+}
 
 
 def sha(path):
@@ -39,7 +52,10 @@ def export():
     masks = review.get("masks", [])
     eligible = [m for m in masks if m.get("training_export_eligible", True) is True]
     excluded = [m.get("instance_id") for m in masks if m not in eligible]
-    class_names = sorted({m["class_name"] for m in eligible})
+    unknown_classes = sorted({m["class_name"] for m in eligible} - set(SOURCE_TO_MODEL_CLASS))
+    if unknown_classes:
+        raise ValueError("No checkpoint taxonomy mapping for: " + ", ".join(unknown_classes))
+    class_names = MODEL_CLASSES
     class_ids = {name: index for index, name in enumerate(class_names)}
     label_lines = []
     for row in eligible:
@@ -51,7 +67,8 @@ def export():
             if len(point) != 2 or not (0 <= point[0] < width and 0 <= point[1] < height):
                 raise ValueError("Out-of-image polygon point for " + str(row.get("instance_id")))
             normalized.extend((point[0] / width, point[1] / height))
-        label_lines.append(str(class_ids[row["class_name"]]) + " " + " ".join(f"{v:.8f}" for v in normalized))
+        model_class = SOURCE_TO_MODEL_CLASS[row["class_name"]]
+        label_lines.append(str(class_ids[model_class]) + " " + " ".join(f"{v:.8f}" for v in normalized))
 
     image_dir = OUT / "images"
     label_dir = OUT / "labels"
@@ -89,6 +106,7 @@ def export():
         "data_yaml_path": data_yaml.relative_to(ROOT).as_posix(),
         "image_size": [width, height],
         "class_names": class_names,
+        "source_to_model_class": SOURCE_TO_MODEL_CLASS,
         "included_instances": len(eligible),
         "excluded_instances": excluded,
         "coverage": review["coverage"],
@@ -105,6 +123,8 @@ def validate():
     image = OUT / "images" / Path(IMAGE_REL).name
     label = OUT / "labels" / (Path(IMAGE_REL).stem + ".txt")
     assert manifest["evaluation_valid"] is False and manifest["trainable_model_dataset"] is False
+    report = json.loads((ROOT / "models/component-segmentation-v2/REPORT.json").read_text(encoding="utf-8"))
+    assert manifest["class_names"] == report["classes"], "Fixture class IDs must match the selected checkpoint"
     assert sha(image) == manifest["image_sha256"] == manifest["export_image_sha256"]
     assert sha(label) == manifest["export_label_sha256"]
     lines = label.read_text(encoding="utf-8").splitlines()
@@ -116,7 +136,7 @@ def validate():
         assert all(0 <= float(v) <= 1 for v in values[1:])
     assert data_yaml.is_file()
     assert "path: .\n" in data_yaml.read_text(encoding="utf-8"), "Dataset YAML must remain portable after cloning"
-    return {"valid": True, "images": 1, "labels": len(lines), "classes": len(manifest["class_names"]), "evaluation_valid": False}
+    return {"valid": True, "images": 1, "labels": len(lines), "classes": len(manifest["class_names"]), "class_ids_match_checkpoint": True, "evaluation_valid": False}
 
 
 def main():

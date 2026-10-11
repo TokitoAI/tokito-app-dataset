@@ -14,21 +14,31 @@
   "image_sha256": "9d68458beac56198249982eda3de4dfc02904a701ea5d7496c6774af4c994461",
   "export_image_sha256": "9d68458beac56198249982eda3de4dfc02904a701ea5d7496c6774af4c994461",
   "export_label_path": "data/photo-model/component-smoke-esp12e/labels/IMG_20261010_092221.txt",
-  "export_label_sha256": "b242f35d440df5f17a3bdc8f3aae646934353f0e23bedc0758229f911b68a067",
+  "export_label_sha256": "2e575542aa892f69f66ed425c6fab2b4cca9e945eb00e9ffe104c9a3ff6efce6",
   "data_yaml_path": "data/photo-model/component-smoke-esp12e/data.yaml",
   "image_size": [
     3072,
     4080
   ],
   "class_names": [
-    "capacitor",
-    "integrated_circuit",
-    "resistor",
-    "rf_shield",
+    "ic_package",
+    "chip_passive",
+    "connector",
+    "rf_module",
     "switch",
-    "three_terminal_package",
-    "usb_connector"
+    "crystal",
+    "discrete_semiconductor",
+    "inductor"
   ],
+  "source_to_model_class": {
+    "integrated_circuit": "ic_package",
+    "capacitor": "chip_passive",
+    "resistor": "chip_passive",
+    "usb_connector": "connector",
+    "rf_shield": "rf_module",
+    "switch": "switch",
+    "three_terminal_package": "discrete_semiconductor"
+  },
   "included_instances": 22,
   "excluded_instances": [
     "IMG_20261010_092221.jpg:unknown_lower_left_package"
