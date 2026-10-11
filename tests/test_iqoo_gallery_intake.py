@@ -15,7 +15,9 @@ from import_iqoo_gallery_intake import import_gallery
 
 class TestIqooGalleryIntake(unittest.TestCase):
     def test_copies_original_and_never_marks_it_training_eligible(self):
-        with tempfile.TemporaryDirectory(dir=ROOT / "work") as directory:
+        # The CI checkout does not create the ignored work/ scratch directory.
+        # Keep the fixture inside the repository without requiring that path.
+        with tempfile.TemporaryDirectory(dir=ROOT) as directory:
             fixture = Path(directory)
             source = fixture / "source"
             output = fixture / "output"
