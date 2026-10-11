@@ -1006,14 +1006,14 @@
       ],
       "observed_surface": "component_bearing_face",
       "view_slot": "top",
-      "view_review_status": "reviewed_from_contact_sheet_and_spot_checked_originals",
-      "component_instance_masks_reviewed": false,
+      "view_review_status": "reviewed_full_board_component_face",
+      "component_instance_masks_reviewed": true,
       "exact_specimen_identity_verified": false,
       "metric_camera_pose_verified": false,
       "four_oblique_side_views_verified": false,
-      "training_export_eligible": false,
+      "training_export_eligible": true,
       "evaluation_eligible": false,
-      "notes": "Close-up or full-board component-bearing surface; view review is not component annotation."
+      "notes": "Eleven partial component-body masks reviewed for training only. Component coverage is not exhaustive; no independent evaluation, specimen match, or metric camera pose is asserted."
     },
     {
       "path": "data/phone-captures/2026-10-11/gallery/IMG_20261011_012141_1.jpg",

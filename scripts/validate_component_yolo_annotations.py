@@ -15,6 +15,7 @@ from PIL import Image
 DEFAULT_FILES = (
     "annotations/ar-instance-masks.json",
     "annotations/esp32-dense-component-review.json",
+    "annotations/esp32-gallery-2026-10-11-component-review.json",
     "annotations/esp8266-component-mask-review.json",
     "annotations/esp8266-dense-component-review.json",
     "annotations/esp8266-gallery-2026-10-11-component-review.json",

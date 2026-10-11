@@ -1,0 +1,579 @@
+{
+  "schema_version": "1.0",
+  "board_family": "esp32_devkit_30pin_unknown_variant",
+  "physical_specimen_id": "unknown_iqoo_gallery_esp32_specimen_2026-10-11",
+  "capture_session_id": "iqoo-gallery-session-2026-10-11:IMG_20261011_012141",
+  "same_specimen_split_group": "iqoo-gallery-session-2026-10-11",
+  "image_path": "data/phone-captures/2026-10-11/gallery/IMG_20261011_012141.jpg",
+  "image_sha256": "08a9fd8936b28185e33806d4efbb3518b066e689205dedf2972f5ed53f7d225e",
+  "image_width": 3072,
+  "image_height": 4096,
+  "coordinate_frame": "exif_upright_original_image_pixels",
+  "coverage": "partial_visible_component_bodies",
+  "training_export_eligible": true,
+  "evaluation_valid": false,
+  "view_observation": "top component-bearing face, near-frontal; no metric camera pose registered",
+  "review_scope": [
+    "Micro-USB shell",
+    "BOOT and EN switch bodies",
+    "large integrated circuit",
+    "three-terminal power package",
+    "selected discrete packages",
+    "crystal package",
+    "polarized capacitor",
+    "ESP32 RF module shield"
+  ],
+  "review_evidence": "Eleven visible body polygons traced and reviewed against original-resolution image and magnified coordinate-grid crops. Annotation is partial; all other visible parts and pixels remain unknown/ignored rather than background.",
+  "unreviewed_visible_instances": [
+    "many small chip passives and semiconductor bodies",
+    "all pin/contact endpoints",
+    "header rows and solder joints",
+    "underside components",
+    "exact IC order codes except visible module marking",
+    "BOM/Gerber mapping and electrical net/pin functions"
+  ],
+  "identity_limits": [
+    "ESP32 DevKit board family is visually recognizable; exact carrier-board revision is unresolved.",
+    "Only the module shield marking ESP32 and the yellow capacitor marking 106 6V are recorded literally.",
+    "The USB serial controller, power package and crystal order codes are not asserted.",
+    "No component instance is joined to BOM/Gerber or assigned a net/pin function.",
+    "Photo is training-only and supplies no independent evaluation or metric 3D pose."
+  ],
+  "masks": [
+    {
+      "instance_id": "IMG_20261011_012141.jpg:micro_usb_shell",
+      "class_name": "usb_connector",
+      "observed_reference_designator": null,
+      "observed_marking_family": "Micro-USB receptacle (visual family only)",
+      "polygon_xy_pixels": [
+        [
+          1120,
+          1684
+        ],
+        [
+          1140,
+          1667
+        ],
+        [
+          1505,
+          1667
+        ],
+        [
+          1535,
+          1687
+        ],
+        [
+          1535,
+          1945
+        ],
+        [
+          1518,
+          1970
+        ],
+        [
+          1138,
+          1962
+        ],
+        [
+          1118,
+          1940
+        ]
+      ],
+      "boundary_scope": "Visible metal connector shell body; solder tabs and PCB excluded.",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original-resolution photo and magnified pixel-grid crops reviewed; manual polygon follows visible component body boundary.",
+      "boundary_uncertainty_pixels": 12,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
+      "installed_order_code_confirmed": false,
+      "parent_board_instance_id": "unknown_iqoo_gallery_esp32_specimen_2026-10-11",
+      "pin_mapping_status": "not_asserted"
+    },
+    {
+      "instance_id": "IMG_20261011_012141.jpg:boot_button",
+      "class_name": "switch",
+      "observed_reference_designator": null,
+      "observed_marking_family": "BOOT control (adjacent silkscreen)",
+      "polygon_xy_pixels": [
+        [
+          900,
+          1770
+        ],
+        [
+          920,
+          1754
+        ],
+        [
+          1028,
+          1754
+        ],
+        [
+          1045,
+          1770
+        ],
+        [
+          1045,
+          1944
+        ],
+        [
+          1028,
+          1960
+        ],
+        [
+          915,
+          1957
+        ],
+        [
+          898,
+          1940
+        ]
+      ],
+      "boundary_scope": "Visible tactile switch housing and actuator; silkscreen excluded.",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original-resolution photo and magnified pixel-grid crops reviewed; manual polygon follows visible component body boundary.",
+      "boundary_uncertainty_pixels": 7,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
+      "installed_order_code_confirmed": false,
+      "parent_board_instance_id": "unknown_iqoo_gallery_esp32_specimen_2026-10-11",
+      "pin_mapping_status": "not_asserted"
+    },
+    {
+      "instance_id": "IMG_20261011_012141.jpg:enable_button",
+      "class_name": "switch",
+      "observed_reference_designator": null,
+      "observed_marking_family": "EN control (adjacent silkscreen)",
+      "polygon_xy_pixels": [
+        [
+          1730,
+          1770
+        ],
+        [
+          1748,
+          1755
+        ],
+        [
+          1862,
+          1755
+        ],
+        [
+          1880,
+          1772
+        ],
+        [
+          1880,
+          1944
+        ],
+        [
+          1864,
+          1962
+        ],
+        [
+          1745,
+          1958
+        ],
+        [
+          1728,
+          1940
+        ]
+      ],
+      "boundary_scope": "Visible tactile switch housing and actuator; silkscreen excluded.",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original-resolution photo and magnified pixel-grid crops reviewed; manual polygon follows visible component body boundary.",
+      "boundary_uncertainty_pixels": 7,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
+      "installed_order_code_confirmed": false,
+      "parent_board_instance_id": "unknown_iqoo_gallery_esp32_specimen_2026-10-11",
+      "pin_mapping_status": "not_asserted"
+    },
+    {
+      "instance_id": "IMG_20261011_012141.jpg:usb_serial_ic_unresolved",
+      "class_name": "integrated_circuit",
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          842,
+          2112
+        ],
+        [
+          1090,
+          2114
+        ],
+        [
+          1108,
+          2128
+        ],
+        [
+          1107,
+          2388
+        ],
+        [
+          1091,
+          2412
+        ],
+        [
+          844,
+          2404
+        ],
+        [
+          830,
+          2388
+        ],
+        [
+          831,
+          2132
+        ]
+      ],
+      "boundary_scope": "Visible dark integrated-circuit package body only; leads and silkscreen excluded. Exact marking is not readable.",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original-resolution photo and magnified pixel-grid crops reviewed; manual polygon follows visible component body boundary.",
+      "boundary_uncertainty_pixels": 7,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
+      "installed_order_code_confirmed": false,
+      "parent_board_instance_id": "unknown_iqoo_gallery_esp32_specimen_2026-10-11",
+      "pin_mapping_status": "not_asserted"
+    },
+    {
+      "instance_id": "IMG_20261011_012141.jpg:power_regulator_package",
+      "class_name": "three_terminal_power_package",
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1443,
+          2140
+        ],
+        [
+          1595,
+          2140
+        ],
+        [
+          1610,
+          2155
+        ],
+        [
+          1610,
+          2398
+        ],
+        [
+          1595,
+          2415
+        ],
+        [
+          1442,
+          2410
+        ],
+        [
+          1428,
+          2395
+        ],
+        [
+          1428,
+          2155
+        ]
+      ],
+      "boundary_scope": "Visible dark three-terminal power package body only; leads and silkscreen excluded. Exact order code unresolved.",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original-resolution photo and magnified pixel-grid crops reviewed; manual polygon follows visible component body boundary.",
+      "boundary_uncertainty_pixels": 7,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
+      "installed_order_code_confirmed": false,
+      "parent_board_instance_id": "unknown_iqoo_gallery_esp32_specimen_2026-10-11",
+      "pin_mapping_status": "not_asserted"
+    },
+    {
+      "instance_id": "IMG_20261011_012141.jpg:center_passive_a",
+      "class_name": "chip_passive",
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1182,
+          2152
+        ],
+        [
+          1276,
+          2152
+        ],
+        [
+          1292,
+          2166
+        ],
+        [
+          1292,
+          2236
+        ],
+        [
+          1278,
+          2250
+        ],
+        [
+          1180,
+          2248
+        ],
+        [
+          1168,
+          2233
+        ],
+        [
+          1168,
+          2168
+        ]
+      ],
+      "boundary_scope": "Visible rectangular SMD package body; solder pads and silkscreen excluded.",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original-resolution photo and magnified pixel-grid crops reviewed; manual polygon follows visible component body boundary.",
+      "boundary_uncertainty_pixels": 7,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
+      "installed_order_code_confirmed": false,
+      "parent_board_instance_id": "unknown_iqoo_gallery_esp32_specimen_2026-10-11",
+      "pin_mapping_status": "not_asserted"
+    },
+    {
+      "instance_id": "IMG_20261011_012141.jpg:center_passive_b",
+      "class_name": "chip_passive",
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1182,
+          2260
+        ],
+        [
+          1278,
+          2260
+        ],
+        [
+          1292,
+          2274
+        ],
+        [
+          1292,
+          2350
+        ],
+        [
+          1278,
+          2364
+        ],
+        [
+          1182,
+          2362
+        ],
+        [
+          1168,
+          2348
+        ],
+        [
+          1168,
+          2275
+        ]
+      ],
+      "boundary_scope": "Visible rectangular SMD package body; solder pads and silkscreen excluded.",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original-resolution photo and magnified pixel-grid crops reviewed; manual polygon follows visible component body boundary.",
+      "boundary_uncertainty_pixels": 7,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
+      "installed_order_code_confirmed": false,
+      "parent_board_instance_id": "unknown_iqoo_gallery_esp32_specimen_2026-10-11",
+      "pin_mapping_status": "not_asserted"
+    },
+    {
+      "instance_id": "IMG_20261011_012141.jpg:center_passive_c",
+      "class_name": "chip_passive",
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1180,
+          2380
+        ],
+        [
+          1275,
+          2380
+        ],
+        [
+          1290,
+          2395
+        ],
+        [
+          1290,
+          2472
+        ],
+        [
+          1275,
+          2486
+        ],
+        [
+          1182,
+          2485
+        ],
+        [
+          1168,
+          2470
+        ],
+        [
+          1168,
+          2396
+        ]
+      ],
+      "boundary_scope": "Visible rectangular SMD package body; solder pads and silkscreen excluded.",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original-resolution photo and magnified pixel-grid crops reviewed; manual polygon follows visible component body boundary.",
+      "boundary_uncertainty_pixels": 7,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
+      "installed_order_code_confirmed": false,
+      "parent_board_instance_id": "unknown_iqoo_gallery_esp32_specimen_2026-10-11",
+      "pin_mapping_status": "not_asserted"
+    },
+    {
+      "instance_id": "IMG_20261011_012141.jpg:metal_crystal_package",
+      "class_name": "crystal",
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1698,
+          2202
+        ],
+        [
+          1828,
+          2202
+        ],
+        [
+          1845,
+          2218
+        ],
+        [
+          1844,
+          2355
+        ],
+        [
+          1830,
+          2370
+        ],
+        [
+          1700,
+          2367
+        ],
+        [
+          1686,
+          2350
+        ],
+        [
+          1686,
+          2218
+        ]
+      ],
+      "boundary_scope": "Visible metallic rectangular oscillator package body; surrounding silkscreen and pads excluded. Exact part identity unresolved.",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original-resolution photo and magnified pixel-grid crops reviewed; manual polygon follows visible component body boundary.",
+      "boundary_uncertainty_pixels": 7,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
+      "installed_order_code_confirmed": false,
+      "parent_board_instance_id": "unknown_iqoo_gallery_esp32_specimen_2026-10-11",
+      "pin_mapping_status": "not_asserted"
+    },
+    {
+      "instance_id": "IMG_20261011_012141.jpg:yellow_polarized_capacitor",
+      "class_name": "electrolytic_capacitor",
+      "observed_reference_designator": null,
+      "observed_marking_family": "106 6V (literal visible marking)",
+      "polygon_xy_pixels": [
+        [
+          1655,
+          2440
+        ],
+        [
+          1840,
+          2440
+        ],
+        [
+          1857,
+          2455
+        ],
+        [
+          1857,
+          2535
+        ],
+        [
+          1840,
+          2552
+        ],
+        [
+          1655,
+          2548
+        ],
+        [
+          1638,
+          2532
+        ],
+        [
+          1638,
+          2456
+        ]
+      ],
+      "boundary_scope": "Visible yellow polarized capacitor package body; solder terminals and silkscreen excluded.",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original-resolution photo and magnified pixel-grid crops reviewed; manual polygon follows visible component body boundary.",
+      "boundary_uncertainty_pixels": 7,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
+      "installed_order_code_confirmed": false,
+      "parent_board_instance_id": "unknown_iqoo_gallery_esp32_specimen_2026-10-11",
+      "pin_mapping_status": "not_asserted"
+    },
+    {
+      "instance_id": "IMG_20261011_012141.jpg:esp32_rf_module_shield",
+      "class_name": "rf_module",
+      "observed_reference_designator": null,
+      "observed_marking_family": "ESP32",
+      "polygon_xy_pixels": [
+        [
+          842,
+          2794
+        ],
+        [
+          1830,
+          2794
+        ],
+        [
+          1842,
+          2810
+        ],
+        [
+          1842,
+          3690
+        ],
+        [
+          1824,
+          3708
+        ],
+        [
+          854,
+          3705
+        ],
+        [
+          838,
+          3688
+        ]
+      ],
+      "boundary_scope": "ESP32 radio module shield body only; module perimeter contacts and host PCB excluded.",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original-resolution photo and magnified pixel-grid crops reviewed; manual polygon follows visible component body boundary.",
+      "boundary_uncertainty_pixels": 12,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
+      "installed_order_code_confirmed": false,
+      "parent_board_instance_id": "unknown_iqoo_gallery_esp32_specimen_2026-10-11",
+      "pin_mapping_status": "not_asserted"
+    }
+  ]
+}

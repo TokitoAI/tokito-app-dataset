@@ -25,14 +25,16 @@
       "image_sha256": "08a9fd8936b28185e33806d4efbb3518b066e689205dedf2972f5ed53f7d225e",
       "board_family": "esp32_devkit_30pin_unknown_variant",
       "visible_face": "component_face",
-      "visual_evidence": "full-board frontal view",
+      "visual_evidence": "Full-board component-bearing face; near-frontal; high-resolution component bodies reviewed.",
       "capture_session_id": "iqoo-gallery-session-2026-10-11",
       "physical_specimen_id": null,
       "camera_intrinsics_registered": false,
       "metric_pose_verified": false,
       "component_masks_complete": false,
-      "training_export_eligible": false,
-      "evaluation_eligible": false
+      "training_export_eligible": true,
+      "evaluation_eligible": false,
+      "reviewed_component_mask_count": 11,
+      "annotation_file": "annotations/esp32-gallery-2026-10-11-component-review.json"
     },
     {
       "image_path": "data/phone-captures/2026-10-11/gallery/IMG_20261011_011853.jpg",

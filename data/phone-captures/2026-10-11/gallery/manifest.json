@@ -923,11 +923,13 @@
       "exif_datetime_original": "2026:10:11 01:21:41",
       "exif_orientation": 1,
       "candidate_capture_group": "IMG_20261011_012141.jpg",
-      "board_family": null,
-      "view_slot": null,
-      "review_status": "unreviewed",
-      "training_export_eligible": false,
-      "evaluation_eligible": false
+      "board_family": "esp32_devkit_30pin_unknown_variant",
+      "view_slot": "top_component_face",
+      "review_status": "partially_reviewed_component_masks",
+      "training_export_eligible": true,
+      "evaluation_eligible": false,
+      "component_mask_count": 11,
+      "annotation_file": "annotations/esp32-gallery-2026-10-11-component-review.json"
     },
     {
       "path": "data/phone-captures/2026-10-11/gallery/IMG_20261011_012141_1.jpg",
