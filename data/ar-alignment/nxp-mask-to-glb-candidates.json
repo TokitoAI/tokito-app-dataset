@@ -9,7 +9,7 @@
   "training_export_eligible": false,
   "scope": "Observed, visually reviewed photo body masks joined by refdes to unique Rev C GLB selectors; no geometric overlay or installed identity claim.",
   "input_sha256": {
-    "annotations/nxp-dense-component-review.json": "341810fc7935b3eff4ff0204fbfcbd0656a5e1f13f49b1153cda3e5bba36d376",
+    "annotations/nxp-dense-component-review.json": "19db52ab2c1db650d0404c94e280a6b4ae894b9dc9db46437fc4db8158a69c77",
     "data/board-sources/nxp-frdm-mcxn236/ar-reference/component-map.json": "8fd8a25b1c53da7a8a7dfb414d4410dfa1b76c916ee76315e82cb3027015fedd",
     "data/board-sources/nxp-frdm-mcxn236/ar-reference/frdm-mcxn236-rev-c-source-candidate.glb": "ba9db807d2141189facb33039f57861d99a460cf595dd71bf80eb5f9cbe1268c",
     "data/board-sources/nxp-frdm-mcxn236/ar-reference/revision-compatibility-review.json": "ab042240ac42d63bc14e137288c2b8459e7e5bac60ce595668f9c904be3d7fd7"
@@ -1146,7 +1146,7 @@
         3072,
         4096
       ],
-      "instance_id": "IMG_20261010_092203.jpg:Y1",
+      "instance_id": "IMG_20261010_092203.jpg:Y3",
       "class_name": "crystal_oscillator",
       "visible_body_polygon_xy_pixels": [
         [
@@ -1166,12 +1166,13 @@
           2010
         ]
       ],
-      "observed_reference_designator": "Y1",
+      "observed_reference_designator": "Y3",
       "photo_review_status": "visually_reviewed_body_polygon",
-      "source_candidate_component_id": "nxp-frdm-mcxn236:C:Y1",
-      "source_glb_selector": "ref:Y1",
+      "source_candidate_component_id": "nxp-frdm-mcxn236:C:Y3",
+      "source_glb_selector": "ref:Y3",
       "link_status": "observed_refdes_to_rev_c_source_candidate",
       "candidate_only": true,
+      "identity_correction_evidence": "Adjacent Y3 silkscreen is visible in the source photo and two target views; source Y1 is the separate crystal near USB. Corrected after named-hole planar projection audit, not by proximity assignment.",
       "revision_sensitive_reference": false,
       "source_body_quality": "exact_package_geometry"
     },
@@ -3052,7 +3053,7 @@
         3072,
         4096
       ],
-      "instance_id": "IMG_20261009_221755.jpg:Y1",
+      "instance_id": "IMG_20261009_221755.jpg:Y3",
       "class_name": "crystal_oscillator",
       "visible_body_polygon_xy_pixels": [
         [
@@ -3072,12 +3073,13 @@
           2065
         ]
       ],
-      "observed_reference_designator": "Y1",
+      "observed_reference_designator": "Y3",
       "photo_review_status": "visually_reviewed_target_body_polygon",
-      "source_candidate_component_id": "nxp-frdm-mcxn236:C:Y1",
-      "source_glb_selector": "ref:Y1",
+      "source_candidate_component_id": "nxp-frdm-mcxn236:C:Y3",
+      "source_glb_selector": "ref:Y3",
       "link_status": "observed_refdes_to_rev_c_source_candidate",
       "candidate_only": true,
+      "identity_correction_evidence": "Visible Y3 silkscreen and reviewed same-body correspondence; original Y1 identity was incorrect.",
       "revision_sensitive_reference": false,
       "source_body_quality": "exact_package_geometry"
     },
@@ -3790,7 +3792,7 @@
         3072,
         4096
       ],
-      "instance_id": "IMG_20261010_092206.jpg:Y1",
+      "instance_id": "IMG_20261010_092206.jpg:Y3",
       "class_name": "crystal_oscillator",
       "visible_body_polygon_xy_pixels": [
         [
@@ -3810,12 +3812,13 @@
           2088
         ]
       ],
-      "observed_reference_designator": "Y1",
+      "observed_reference_designator": "Y3",
       "photo_review_status": "visually_reviewed_target_body_polygon",
-      "source_candidate_component_id": "nxp-frdm-mcxn236:C:Y1",
-      "source_glb_selector": "ref:Y1",
+      "source_candidate_component_id": "nxp-frdm-mcxn236:C:Y3",
+      "source_glb_selector": "ref:Y3",
       "link_status": "observed_refdes_to_rev_c_source_candidate",
       "candidate_only": true,
+      "identity_correction_evidence": "Adjacent Y3 silkscreen checked in this original image; original Y1 identity was incorrect.",
       "revision_sensitive_reference": false,
       "source_body_quality": "exact_package_geometry"
     },

@@ -87,6 +87,22 @@ retain the selected component identity across reacquisition and respect surface
 occlusion. Dataset landmarks and masks support that behavior; they do not
 implement or verify the tracker by themselves.
 
+## Photo-to-source identity review
+
+The three reviewed NXP crystal-body instances beside the MCU are **Y3**, not
+Y1. The original images show the adjacent Y3 silkscreen; source Y1 is the
+separate crystal near the USB circuitry. The annotations retain the correction
+evidence and the generated crosswalk preserves it. CAD geometry was not moved
+to fit the incorrect label. The regression tests check the three photo-local
+identities, their parent-instance links and the `ref:Y3` source selectors.
+
+A named-hole planar diagnostic against one original photo found 26 of 38
+projected component centers inside reviewed body polygons after this correction,
+with a 13.87-pixel median center offset. This is not independent pose validation:
+the homography was fitted to four anchors in that same photo, package height can
+affect projection, and small-body annotation outliers remain. Neither these
+numbers nor the identity correction grants production AR or training eligibility.
+
 ## Current artifacts and commands
 
 The NXP source registry has 391 references, of which 354 have separately
