@@ -21,6 +21,9 @@ DEFAULT_FILES = (
     "annotations/nxp-dense-component-review.json",
     "annotations/ultimainboard-specimen-component-masks.json",
     "annotations/ultimainboard-dense-component-review.json",
+    "annotations/esp32-complete-visible-frame-review.json",
+    "annotations/esp8266-frame-component-complete-review.json",
+    "annotations/nxp-fullframe-component-review.json",
 )
 
 
@@ -28,15 +31,16 @@ def validate_file(annotation_path, repo_root):
     annotation_path = Path(annotation_path)
     data = json.loads(annotation_path.read_text(encoding="utf-8"))
     errors = []
-    masks = data.get("masks", data.get("instances", []))
+    image_meta = data.get("photo") or data.get("image") or {}
+    masks = data.get("masks", data.get("instances", data.get("objects", [])))
     if not isinstance(masks, list):
         return {"file": str(annotation_path), "masks": 0, "errors": ["masks/instances must be a list"], "trainable": False}
 
     seen = set()
     image_cache = {}
     for index, mask in enumerate(masks):
-        label = mask.get("instance_id", f"row {index}")
-        image_value = mask.get("image_path") or data.get("image_path") or data.get("photo", {}).get("path")
+        label = mask.get("instance_id") or mask.get("id", f"row {index}")
+        image_value = mask.get("image_path") or data.get("image_path") or image_meta.get("path")
         if not image_value:
             errors.append(f"{label}: image path is missing")
             continue
@@ -58,13 +62,15 @@ def validate_file(annotation_path, repo_root):
                 continue
             image_cache[cache_key] = (image_hash, width, height)
         image_hash, width, height = image_cache[cache_key]
-        expected_hash = mask.get("image_sha256") or data.get("image_sha256") or data.get("photo", {}).get("sha256")
+        expected_hash = mask.get("image_sha256") or data.get("image_sha256") or image_meta.get("sha256")
         if not expected_hash:
             errors.append(f"{label}: image SHA-256 is missing")
         elif image_hash != expected_hash:
             errors.append(f"{label}: image SHA-256 mismatch")
 
-        if mask.get("image_width", width) != width or mask.get("image_height", height) != height:
+        declared_width = mask.get("image_width", image_meta.get("width", width))
+        declared_height = mask.get("image_height", image_meta.get("height", height))
+        if declared_width != width or declared_height != height:
             errors.append(f"{label}: declared image dimensions do not match the source")
 
         key = (str(image_path.resolve()), label)
@@ -72,7 +78,7 @@ def validate_file(annotation_path, repo_root):
             errors.append(f"{label}: duplicate instance ID for the same image")
         seen.add(key)
 
-        polygon = mask.get("polygon_xy_pixels")
+        polygon = mask.get("polygon_xy_pixels") or mask.get("mask_polygon_xy")
         if not isinstance(polygon, list) or len(polygon) < 3:
             errors.append(f"{label}: polygon must contain at least three points")
             continue
@@ -85,8 +91,13 @@ def validate_file(annotation_path, repo_root):
         if not mask.get("class_name"):
             errors.append(f"{label}: YOLO class name is missing")
 
-    declared_complete = data.get("coverage") == "complete_visible_instances"
+    coverage = data.get("coverage")
+    declared_complete = coverage == "complete_visible_instances" or (
+        isinstance(coverage, dict) and coverage.get("visible_instance_coverage_complete") is True
+    )
     eligible_flag = data.get("training_export_eligible", data.get("release_eligible", False))
+    if isinstance(coverage, dict):
+        eligible_flag = eligible_flag or coverage.get("training_eligible", False)
     return {
         "file": str(annotation_path),
         "masks": len(masks),
@@ -107,9 +118,10 @@ def main():
     for path in files:
         path = repo_root / path if not Path(path).is_absolute() else Path(path)
         data = json.loads(path.read_text(encoding="utf-8"))
-        for mask in data.get("masks", data.get("instances", [])):
-            image = mask.get("image_path") or data.get("image_path") or data.get("photo", {}).get("path")
-            unique_instances.add((image, mask.get("instance_id")))
+        image_meta = data.get("photo") or data.get("image") or {}
+        for mask in data.get("masks", data.get("instances", data.get("objects", []))):
+            image = mask.get("image_path") or data.get("image_path") or image_meta.get("path")
+            unique_instances.add((image, mask.get("instance_id") or mask.get("id")))
     print(json.dumps({"results": results,
                       "annotation_record_count": sum(item["masks"] for item in results),
                       "unique_mask_count": len(unique_instances),

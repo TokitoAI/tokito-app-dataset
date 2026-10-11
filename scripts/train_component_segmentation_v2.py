@@ -39,7 +39,8 @@ CLASS_ID = {name: i for i, name in enumerate(CLASS_NAMES)}
 LOCAL_CLASS_MAP = {
     'chip_passive_body': 'chip_passive', 'capacitor': 'chip_passive',
     'ceramic_capacitor': 'chip_passive', 'electrolytic_capacitor': 'chip_passive',
-    'resistor': 'chip_passive',
+    'resistor': 'chip_passive', 'integrated_circuit': 'ic_package',
+    'tactile_switch': 'switch', 'crystal_resonator': 'crystal',
     'rf_shield': 'rf_module', 'rf_module_substrate': 'rf_module',
     'esp12e_shield': 'rf_module', 'rf_shield_unresolved': 'rf_module',
     'switch_body': 'switch',
@@ -272,7 +273,10 @@ def prepare(size: int):
     }
     if INITIAL_WEIGHTS.is_file():
         source_hashes[str(INITIAL_WEIGHTS.relative_to(ROOT))] = hashlib.sha256(INITIAL_WEIGHTS.read_bytes()).hexdigest()
-    annotation_files = sorted({str(f.relative_to(ROOT)) for f in (ROOT / 'annotations').glob('*dense-component-review.json')})
+    # Bind every annotation source used by the ignore-aware collector, including
+    # single-frame complete reviews and the NXP full-frame partial review.
+    annotation_files = sorted({str(f.relative_to(ROOT)) for f in (ROOT / 'annotations').glob('*dense-component-review.json')} |
+                              set(_partial_module().FILES))
     for annotation_file in annotation_files:
         source_hashes[annotation_file] = hashlib.sha256((ROOT / annotation_file).read_bytes()).hexdigest()
     manifest = {
@@ -284,7 +288,7 @@ def prepare(size: int):
             'public_license': package['dataset_license'], 'public_doi': package['source_doi'],
             'tokito_local_images': len(local),
             'tokito_reviewed_instance_count': sum(len(s['masks']) for s in local),
-            'tokito_source_annotation_files': sorted({x for f in (ROOT / 'annotations').glob('*dense-component-review.json') for x in [str(f.relative_to(ROOT))]}),
+            'tokito_source_annotation_files': annotation_files,
             'new_iqoo_gallery_images_excluded_unreviewed': 70,
             'new_iqoo_gallery_exclusion_reason': 'No verified component instance masks; prevent false negative/background labels.',
         },

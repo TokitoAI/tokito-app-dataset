@@ -1,0 +1,964 @@
+{
+  "schema_version": "1.0",
+  "board_family": "esp8266_nodemcu_esp12e_clone_unknown_variant",
+  "physical_specimen_id": "bench-esp8266-01",
+  "capture_session_id": "bench-esp8266-01:20261010_092221",
+  "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092221.jpg",
+  "image_sha256": "9d68458beac56198249982eda3de4dfc02904a701ea5d7496c6774af4c994461",
+  "image_width": 3072,
+  "image_height": 4080,
+  "coordinate_frame": "exif_upright_original_image_pixels",
+  "coverage": "complete_visible_instances",
+  "coverage_scope": "All clearly visible component bodies in this single top-face photograph: RF shield, IC packages, USB receptacle, tactile switches, resistors, capacitors, three-terminal packages, and one visually traceable but unidentified package. Bodies only; not electrical pin/contact endpoints.",
+  "training_export_eligible": true,
+  "evaluation_valid": false,
+  "review_scope": [
+    "rf_shield",
+    "integrated_circuit",
+    "usb_connector",
+    "switch",
+    "resistor",
+    "capacitor",
+    "three_terminal_package",
+    "unknown_package"
+  ],
+  "review_status": "original_resolution_complete_component_body_review",
+  "review_evidence": "Inspected the 3072x4080 source photograph and full-board mask overlay, then rechecked the central three-terminal package at source-pixel resolution. The frame contains 23 distinct visible component-body instances with reviewed polygons. Three bright horizontal features beside the central dark package align as terminals, and the tall bright feature opposite aligns as its tab; none is a separate package body. Boundaries follow bodies and exclude adjacent silkscreen, solder pads/leads where distinguishable, board holes, antenna trace and PCB copper. One defocused lower-left package remains class unknown but its traceable body is polygoned as unknown_package.",
+  "unreviewed_visible_instances": [],
+  "out_of_scope_visible_instances": [
+    "Header contact/pin surfaces and electrical endpoints (require their own pin-label task).",
+    "Three side terminal features and opposite metal tab attached to the reviewed central three-terminal package.",
+    "Four mechanical mounting holes.",
+    "Printed antenna trace and PCB copper/silkscreen.",
+    "Components hidden beneath the ESP-12E shield or on the underside."
+  ],
+  "identity_limits": [
+    "ESP-12E shield marking is visible; module clone/order suffix is not established.",
+    "USB-serial IC exact marking is unreadable.",
+    "The physical board is a clone with unknown exact variant; source reference designators and BOM identities are not asserted.",
+    "Resistor/capacitor strings are literal visible markings only, not verified electrical values or order codes.",
+    "Three-terminal package functions and exact order codes are not inferred.",
+    "Unknown lower-left body remains unknown_package.",
+    "No pin/net function mapping is asserted."
+  ],
+  "same_specimen_split_group": "bench-esp8266-01:20261010_0922",
+  "source_review_file": "annotations/esp8266-dense-component-review.json",
+  "masks": [
+    {
+      "instance_id": "IMG_20261010_092221.jpg:esp12e_rf_shield",
+      "class_name": "rf_shield",
+      "observed_reference_designator": null,
+      "observed_marking_family": "ESP-12E",
+      "polygon_xy_pixels": [
+        [
+          1162,
+          1642
+        ],
+        [
+          1532,
+          1642
+        ],
+        [
+          1550,
+          1658
+        ],
+        [
+          1562,
+          2110
+        ],
+        [
+          1542,
+          2132
+        ],
+        [
+          1180,
+          2134
+        ],
+        [
+          1162,
+          2115
+        ]
+      ],
+      "boundary_scope": "Visible RF module shield body only; printed antenna, perimeter pads and host board excluded.",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original-resolution top-face photo and mask overlay inspected. Correspondence proposals corrected after original-pixel capacitor-detail review. Exact ordering codes remain unresolved.",
+      "boundary_uncertainty_pixels": 8,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
+      "installed_order_code_confirmed": false,
+      "parent_board_instance_id": "bench-esp8266-01",
+      "pin_mapping_status": "not_asserted"
+    },
+    {
+      "instance_id": "IMG_20261010_092221.jpg:usb_serial_controller",
+      "class_name": "integrated_circuit",
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1102,
+          2827
+        ],
+        [
+          1418,
+          2827
+        ],
+        [
+          1434,
+          2840
+        ],
+        [
+          1432,
+          2998
+        ],
+        [
+          1418,
+          3012
+        ],
+        [
+          1102,
+          3012
+        ],
+        [
+          1088,
+          2998
+        ],
+        [
+          1088,
+          2842
+        ]
+      ],
+      "boundary_scope": "Visible black package body, excluding gullwing leads and surrounding silkscreen.",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original-resolution top-face photo and mask overlay inspected. Correspondence proposals corrected after original-pixel capacitor-detail review. Exact ordering codes remain unresolved.",
+      "boundary_uncertainty_pixels": 16,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
+      "installed_order_code_confirmed": false,
+      "parent_board_instance_id": "bench-esp8266-01",
+      "pin_mapping_status": "not_asserted"
+    },
+    {
+      "instance_id": "IMG_20261010_092221.jpg:micro_usb",
+      "class_name": "usb_connector",
+      "observed_reference_designator": null,
+      "observed_marking_family": "Micro-USB receptacle (visual family only)",
+      "polygon_xy_pixels": [
+        [
+          1258,
+          3212
+        ],
+        [
+          1281,
+          3193
+        ],
+        [
+          1527,
+          3193
+        ],
+        [
+          1552,
+          3211
+        ],
+        [
+          1562,
+          3398
+        ],
+        [
+          1544,
+          3425
+        ],
+        [
+          1283,
+          3425
+        ],
+        [
+          1260,
+          3406
+        ]
+      ],
+      "boundary_scope": "Visible metal connector shell/body; PCB pads and cast shadow excluded.",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original-resolution top-face photo and mask overlay inspected. Correspondence proposals corrected after original-pixel capacitor-detail review. Exact ordering codes remain unresolved.",
+      "boundary_uncertainty_pixels": 12,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
+      "installed_order_code_confirmed": false,
+      "parent_board_instance_id": "bench-esp8266-01",
+      "pin_mapping_status": "not_asserted"
+    },
+    {
+      "instance_id": "IMG_20261010_092221.jpg:rst_button",
+      "class_name": "switch",
+      "observed_reference_designator": null,
+      "observed_marking_family": "RST control (adjacent silkscreen)",
+      "polygon_xy_pixels": [
+        [
+          1062,
+          3102
+        ],
+        [
+          1080,
+          3088
+        ],
+        [
+          1162,
+          3088
+        ],
+        [
+          1178,
+          3104
+        ],
+        [
+          1178,
+          3268
+        ],
+        [
+          1162,
+          3283
+        ],
+        [
+          1078,
+          3283
+        ],
+        [
+          1060,
+          3268
+        ]
+      ],
+      "boundary_scope": "Visible tactile-switch housing and actuator; adjacent RST silkscreen excluded.",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original-resolution top-face photo and mask overlay inspected. Correspondence proposals corrected after original-pixel capacitor-detail review. Exact ordering codes remain unresolved.",
+      "boundary_uncertainty_pixels": 10,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
+      "installed_order_code_confirmed": false,
+      "parent_board_instance_id": "bench-esp8266-01",
+      "pin_mapping_status": "not_asserted"
+    },
+    {
+      "instance_id": "IMG_20261010_092221.jpg:flash_button",
+      "class_name": "switch",
+      "observed_reference_designator": null,
+      "observed_marking_family": "FLASH control (adjacent silkscreen)",
+      "polygon_xy_pixels": [
+        [
+          1592,
+          3100
+        ],
+        [
+          1610,
+          3088
+        ],
+        [
+          1690,
+          3088
+        ],
+        [
+          1707,
+          3103
+        ],
+        [
+          1707,
+          3268
+        ],
+        [
+          1690,
+          3282
+        ],
+        [
+          1610,
+          3282
+        ],
+        [
+          1592,
+          3267
+        ]
+      ],
+      "boundary_scope": "Visible tactile-switch housing and actuator; adjacent FLASH silkscreen excluded.",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original-resolution top-face photo and mask overlay inspected. Correspondence proposals corrected after original-pixel capacitor-detail review. Exact ordering codes remain unresolved.",
+      "boundary_uncertainty_pixels": 10,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
+      "installed_order_code_confirmed": false,
+      "parent_board_instance_id": "bench-esp8266-01",
+      "pin_mapping_status": "not_asserted"
+    },
+    {
+      "instance_id": "IMG_20261010_092221.jpg:upper_left_resistor_a",
+      "parent_board_instance_id": "bench-esp8266-01",
+      "physical_specimen_id": "bench-esp8266-01",
+      "capture_session_id": "bench-esp8266-01:20261010_092221",
+      "class_name": "resistor",
+      "exact_part_name": null,
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "identity_status": "unresolved_marking",
+      "polygon_xy_pixels": [
+        [
+          925,
+          1588
+        ],
+        [
+          994,
+          1588
+        ],
+        [
+          994,
+          1620
+        ],
+        [
+          925,
+          1620
+        ]
+      ],
+      "boundary_scope": "Visible package body; solder pads and leads excluded.",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original-resolution top-face photo and mask overlay inspected. Correspondence proposals corrected after original-pixel capacitor-detail review. Exact ordering codes remain unresolved.",
+      "boundary_uncertainty_pixels": 5,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
+      "installed_order_code_confirmed": false,
+      "pin_mapping_status": "not_asserted"
+    },
+    {
+      "instance_id": "IMG_20261010_092221.jpg:upper_left_resistor_b",
+      "parent_board_instance_id": "bench-esp8266-01",
+      "physical_specimen_id": "bench-esp8266-01",
+      "capture_session_id": "bench-esp8266-01:20261010_092221",
+      "class_name": "resistor",
+      "exact_part_name": null,
+      "observed_reference_designator": null,
+      "observed_marking_family": "104",
+      "identity_status": "literal_marking_only",
+      "polygon_xy_pixels": [
+        [
+          930,
+          1665
+        ],
+        [
+          992,
+          1665
+        ],
+        [
+          992,
+          1697
+        ],
+        [
+          930,
+          1697
+        ]
+      ],
+      "boundary_scope": "Visible package body; solder pads and leads excluded.",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original-resolution top-face photo and mask overlay inspected. Correspondence proposals corrected after original-pixel capacitor-detail review. Exact ordering codes remain unresolved.",
+      "boundary_uncertainty_pixels": 5,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
+      "installed_order_code_confirmed": false,
+      "pin_mapping_status": "not_asserted"
+    },
+    {
+      "instance_id": "IMG_20261010_092221.jpg:upper_right_capacitor",
+      "parent_board_instance_id": "bench-esp8266-01",
+      "physical_specimen_id": "bench-esp8266-01",
+      "capture_session_id": "bench-esp8266-01:20261010_092221",
+      "class_name": "capacitor",
+      "exact_part_name": null,
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "identity_status": "unresolved_marking",
+      "polygon_xy_pixels": [
+        [
+          1517,
+          1597
+        ],
+        [
+          1568,
+          1597
+        ],
+        [
+          1568,
+          1627
+        ],
+        [
+          1517,
+          1627
+        ]
+      ],
+      "boundary_scope": "Visible package body; solder pads and leads excluded.",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original-resolution top-face photo and mask overlay inspected. Correspondence proposals corrected after original-pixel capacitor-detail review. Exact ordering codes remain unresolved.",
+      "boundary_uncertainty_pixels": 5,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
+      "installed_order_code_confirmed": false,
+      "pin_mapping_status": "not_asserted"
+    },
+    {
+      "instance_id": "IMG_20261010_092221.jpg:module_lower_capacitor_left",
+      "parent_board_instance_id": "bench-esp8266-01",
+      "physical_specimen_id": "bench-esp8266-01",
+      "capture_session_id": "bench-esp8266-01:20261010_092221",
+      "class_name": "capacitor",
+      "exact_part_name": null,
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "identity_status": "unresolved_marking",
+      "polygon_xy_pixels": [
+        [
+          1107,
+          2265
+        ],
+        [
+          1144,
+          2265
+        ],
+        [
+          1144,
+          2305
+        ],
+        [
+          1107,
+          2305
+        ]
+      ],
+      "boundary_scope": "Visible package body; solder pads and leads excluded.",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original-resolution top-face photo and mask overlay inspected. Correspondence proposals corrected after original-pixel capacitor-detail review. Exact ordering codes remain unresolved.",
+      "boundary_uncertainty_pixels": 5,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
+      "installed_order_code_confirmed": false,
+      "pin_mapping_status": "not_asserted"
+    },
+    {
+      "instance_id": "IMG_20261010_092221.jpg:module_lower_capacitor_mid",
+      "parent_board_instance_id": "bench-esp8266-01",
+      "physical_specimen_id": "bench-esp8266-01",
+      "capture_session_id": "bench-esp8266-01:20261010_092221",
+      "class_name": "capacitor",
+      "exact_part_name": null,
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "identity_status": "unresolved_marking",
+      "polygon_xy_pixels": [
+        [
+          1210,
+          2276
+        ],
+        [
+          1245,
+          2276
+        ],
+        [
+          1245,
+          2308
+        ],
+        [
+          1210,
+          2308
+        ]
+      ],
+      "boundary_scope": "Visible package body; solder pads and leads excluded.",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original-resolution top-face photo and mask overlay inspected. Correspondence proposals corrected after original-pixel capacitor-detail review. Exact ordering codes remain unresolved.",
+      "boundary_uncertainty_pixels": 5,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
+      "installed_order_code_confirmed": false,
+      "pin_mapping_status": "not_asserted"
+    },
+    {
+      "instance_id": "IMG_20261010_092221.jpg:module_lower_resistor",
+      "parent_board_instance_id": "bench-esp8266-01",
+      "physical_specimen_id": "bench-esp8266-01",
+      "capture_session_id": "bench-esp8266-01:20261010_092221",
+      "class_name": "resistor",
+      "exact_part_name": null,
+      "observed_reference_designator": null,
+      "observed_marking_family": "103",
+      "identity_status": "literal_marking_only",
+      "polygon_xy_pixels": [
+        [
+          1355,
+          2264
+        ],
+        [
+          1445,
+          2264
+        ],
+        [
+          1445,
+          2286
+        ],
+        [
+          1355,
+          2286
+        ]
+      ],
+      "boundary_scope": "Visible package body; solder pads and leads excluded.",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original-resolution top-face photo and mask overlay inspected. Correspondence proposals corrected after original-pixel capacitor-detail review. Exact ordering codes remain unresolved.",
+      "boundary_uncertainty_pixels": 5,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
+      "installed_order_code_confirmed": false,
+      "pin_mapping_status": "not_asserted"
+    },
+    {
+      "instance_id": "IMG_20261010_092221.jpg:module_lower_capacitor_right",
+      "parent_board_instance_id": "bench-esp8266-01",
+      "physical_specimen_id": "bench-esp8266-01",
+      "capture_session_id": "bench-esp8266-01:20261010_092221",
+      "class_name": "capacitor",
+      "exact_part_name": null,
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "identity_status": "unresolved_marking",
+      "polygon_xy_pixels": [
+        [
+          1548,
+          2265
+        ],
+        [
+          1588,
+          2265
+        ],
+        [
+          1588,
+          2288
+        ],
+        [
+          1548,
+          2288
+        ]
+      ],
+      "boundary_scope": "Visible package body; solder pads and leads excluded.",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original-resolution top-face photo and mask overlay inspected. Correspondence proposals corrected after original-pixel capacitor-detail review. Exact ordering codes remain unresolved.",
+      "boundary_uncertainty_pixels": 5,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
+      "installed_order_code_confirmed": false,
+      "pin_mapping_status": "not_asserted"
+    },
+    {
+      "instance_id": "IMG_20261010_092221.jpg:polarized_capacitor_left",
+      "parent_board_instance_id": "bench-esp8266-01",
+      "physical_specimen_id": "bench-esp8266-01",
+      "capture_session_id": "bench-esp8266-01:20261010_092221",
+      "class_name": "capacitor",
+      "exact_part_name": null,
+      "observed_reference_designator": null,
+      "observed_marking_family": "10 16V",
+      "identity_status": "literal_marking_only",
+      "polygon_xy_pixels": [
+        [
+          1103,
+          2397
+        ],
+        [
+          1187,
+          2397
+        ],
+        [
+          1187,
+          2550
+        ],
+        [
+          1103,
+          2550
+        ]
+      ],
+      "boundary_scope": "Visible package body; solder pads and leads excluded.",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original-resolution top-face photo and mask overlay inspected. Correspondence proposals corrected after original-pixel capacitor-detail review. Exact ordering codes remain unresolved.",
+      "boundary_uncertainty_pixels": 5,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
+      "installed_order_code_confirmed": false,
+      "pin_mapping_status": "not_asserted"
+    },
+    {
+      "instance_id": "IMG_20261010_092221.jpg:polarized_capacitor_middle",
+      "parent_board_instance_id": "bench-esp8266-01",
+      "physical_specimen_id": "bench-esp8266-01",
+      "capture_session_id": "bench-esp8266-01:20261010_092221",
+      "class_name": "capacitor",
+      "exact_part_name": null,
+      "observed_reference_designator": null,
+      "observed_marking_family": "C106",
+      "identity_status": "literal_marking_only",
+      "polygon_xy_pixels": [
+        [
+          1252,
+          2455
+        ],
+        [
+          1299,
+          2455
+        ],
+        [
+          1299,
+          2563
+        ],
+        [
+          1252,
+          2563
+        ]
+      ],
+      "boundary_scope": "Visible package body; solder pads and leads excluded.",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original-resolution top-face photo and mask overlay inspected. Correspondence proposals corrected after original-pixel capacitor-detail review. Exact ordering codes remain unresolved.",
+      "boundary_uncertainty_pixels": 5,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
+      "installed_order_code_confirmed": false,
+      "pin_mapping_status": "not_asserted"
+    },
+    {
+      "instance_id": "IMG_20261010_092221.jpg:three_terminal_package_candidate",
+      "parent_board_instance_id": "bench-esp8266-01",
+      "physical_specimen_id": "bench-esp8266-01",
+      "capture_session_id": "bench-esp8266-01:20261010_092221",
+      "class_name": "three_terminal_package",
+      "exact_part_name": null,
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "identity_status": "three_terminal_body_visual_only; function_and_order_code_unconfirmed",
+      "polygon_xy_pixels": [
+        [
+          1444,
+          2367
+        ],
+        [
+          1513,
+          2367
+        ],
+        [
+          1513,
+          2582
+        ],
+        [
+          1444,
+          2582
+        ]
+      ],
+      "boundary_scope": "Visible dark three-terminal package body only. The three bright side contacts and wide opposite metal area are leads/tab associated with this body, not separate packages; solder and silkscreen excluded.",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Full-resolution original crop reviewed. Three small bright features on one side align with the same dark package body as its terminals, and the tall bright feature on the opposite side aligns with its metal tab. They are not separately annotated as component bodies. Exact package function/order code remains unconfirmed.",
+      "boundary_uncertainty_pixels": 5,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
+      "installed_order_code_confirmed": false,
+      "pin_mapping_status": "not_asserted"
+    },
+    {
+      "instance_id": "IMG_20261010_092221.jpg:resistor_221",
+      "parent_board_instance_id": "bench-esp8266-01",
+      "physical_specimen_id": "bench-esp8266-01",
+      "capture_session_id": "bench-esp8266-01:20261010_092221",
+      "class_name": "resistor",
+      "exact_part_name": null,
+      "observed_reference_designator": null,
+      "observed_marking_family": "221",
+      "identity_status": "literal_marking_only",
+      "polygon_xy_pixels": [
+        [
+          1415,
+          2647
+        ],
+        [
+          1509,
+          2647
+        ],
+        [
+          1509,
+          2679
+        ],
+        [
+          1415,
+          2679
+        ]
+      ],
+      "boundary_scope": "Visible package body; solder pads and leads excluded.",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original-resolution top-face photo and mask overlay inspected. Correspondence proposals corrected after original-pixel capacitor-detail review. Exact ordering codes remain unresolved.",
+      "boundary_uncertainty_pixels": 5,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
+      "installed_order_code_confirmed": false,
+      "pin_mapping_status": "not_asserted"
+    },
+    {
+      "instance_id": "IMG_20261010_092221.jpg:three_terminal_upper",
+      "parent_board_instance_id": "bench-esp8266-01",
+      "physical_specimen_id": "bench-esp8266-01",
+      "capture_session_id": "bench-esp8266-01:20261010_092221",
+      "class_name": "three_terminal_package",
+      "exact_part_name": null,
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "identity_status": "unresolved_marking",
+      "polygon_xy_pixels": [
+        [
+          1540,
+          2683
+        ],
+        [
+          1607,
+          2683
+        ],
+        [
+          1607,
+          2713
+        ],
+        [
+          1540,
+          2713
+        ]
+      ],
+      "boundary_scope": "Visible package body; solder pads and leads excluded.",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original-resolution top-face photo and mask overlay inspected. Correspondence proposals corrected after original-pixel capacitor-detail review. Exact ordering codes remain unresolved.",
+      "boundary_uncertainty_pixels": 5,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
+      "installed_order_code_confirmed": false,
+      "pin_mapping_status": "not_asserted"
+    },
+    {
+      "instance_id": "IMG_20261010_092221.jpg:resistor_103_lower",
+      "parent_board_instance_id": "bench-esp8266-01",
+      "physical_specimen_id": "bench-esp8266-01",
+      "capture_session_id": "bench-esp8266-01:20261010_092221",
+      "class_name": "resistor",
+      "exact_part_name": null,
+      "observed_reference_designator": null,
+      "observed_marking_family": "103",
+      "identity_status": "literal_marking_only",
+      "polygon_xy_pixels": [
+        [
+          1552,
+          2774
+        ],
+        [
+          1630,
+          2774
+        ],
+        [
+          1630,
+          2799
+        ],
+        [
+          1552,
+          2799
+        ]
+      ],
+      "boundary_scope": "Visible package body; solder pads and leads excluded.",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original-resolution top-face photo and mask overlay inspected. Correspondence proposals corrected after original-pixel capacitor-detail review. Exact ordering codes remain unresolved.",
+      "boundary_uncertainty_pixels": 5,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
+      "installed_order_code_confirmed": false,
+      "pin_mapping_status": "not_asserted"
+    },
+    {
+      "instance_id": "IMG_20261010_092221.jpg:usb_upper_capacitor_a",
+      "parent_board_instance_id": "bench-esp8266-01",
+      "physical_specimen_id": "bench-esp8266-01",
+      "capture_session_id": "bench-esp8266-01:20261010_092221",
+      "class_name": "capacitor",
+      "exact_part_name": null,
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "identity_status": "unresolved_marking",
+      "polygon_xy_pixels": [
+        [
+          1501,
+          3018
+        ],
+        [
+          1540,
+          3018
+        ],
+        [
+          1540,
+          3050
+        ],
+        [
+          1501,
+          3050
+        ]
+      ],
+      "boundary_scope": "Visible package body; solder pads and leads excluded.",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original-resolution top-face photo and mask overlay inspected. Correspondence proposals corrected after original-pixel capacitor-detail review. Exact ordering codes remain unresolved.",
+      "boundary_uncertainty_pixels": 5,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
+      "installed_order_code_confirmed": false,
+      "pin_mapping_status": "not_asserted"
+    },
+    {
+      "instance_id": "IMG_20261010_092221.jpg:usb_upper_capacitor_b",
+      "parent_board_instance_id": "bench-esp8266-01",
+      "physical_specimen_id": "bench-esp8266-01",
+      "capture_session_id": "bench-esp8266-01:20261010_092221",
+      "class_name": "capacitor",
+      "exact_part_name": null,
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "identity_status": "unresolved_marking",
+      "polygon_xy_pixels": [
+        [
+          1505,
+          3087
+        ],
+        [
+          1540,
+          3087
+        ],
+        [
+          1540,
+          3120
+        ],
+        [
+          1505,
+          3120
+        ]
+      ],
+      "boundary_scope": "Visible package body; solder pads and leads excluded.",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original-resolution top-face photo and mask overlay inspected. Correspondence proposals corrected after original-pixel capacitor-detail review. Exact ordering codes remain unresolved.",
+      "boundary_uncertainty_pixels": 5,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
+      "installed_order_code_confirmed": false,
+      "pin_mapping_status": "not_asserted"
+    },
+    {
+      "instance_id": "IMG_20261010_092221.jpg:resistor_zero_bottom_left",
+      "parent_board_instance_id": "bench-esp8266-01",
+      "physical_specimen_id": "bench-esp8266-01",
+      "capture_session_id": "bench-esp8266-01:20261010_092221",
+      "class_name": "resistor",
+      "exact_part_name": null,
+      "observed_reference_designator": null,
+      "observed_marking_family": "0",
+      "identity_status": "literal_marking_only",
+      "polygon_xy_pixels": [
+        [
+          944,
+          3092
+        ],
+        [
+          975,
+          3092
+        ],
+        [
+          975,
+          3118
+        ],
+        [
+          944,
+          3118
+        ]
+      ],
+      "boundary_scope": "Visible package body; solder pads and leads excluded.",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original-resolution top-face photo and mask overlay inspected. Correspondence proposals corrected after original-pixel capacitor-detail review. Exact ordering codes remain unresolved.",
+      "boundary_uncertainty_pixels": 5,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
+      "installed_order_code_confirmed": false,
+      "pin_mapping_status": "not_asserted"
+    },
+    {
+      "instance_id": "IMG_20261010_092221.jpg:three_terminal_lower",
+      "parent_board_instance_id": "bench-esp8266-01",
+      "physical_specimen_id": "bench-esp8266-01",
+      "capture_session_id": "bench-esp8266-01:20261010_092221",
+      "class_name": "three_terminal_package",
+      "exact_part_name": null,
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "identity_status": "unresolved_marking",
+      "polygon_xy_pixels": [
+        [
+          1550,
+          2897
+        ],
+        [
+          1634,
+          2900
+        ],
+        [
+          1632,
+          2933
+        ],
+        [
+          1548,
+          2930
+        ]
+      ],
+      "boundary_scope": "Visible package body; solder pads and leads excluded.",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original-resolution lower package crop inspected. Clearer video frame independently confirms three-lead package layout; polygon covers original photo black package body only, excluding two upper leads and lower single lead. Exact part identity unresolved.",
+      "boundary_uncertainty_pixels": 8,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
+      "installed_order_code_confirmed": false,
+      "pin_mapping_status": "not_asserted"
+    },
+    {
+      "instance_id": "IMG_20261010_092221.jpg:unknown_lower_left_package",
+      "parent_board_instance_id": "bench-esp8266-01",
+      "physical_specimen_id": "bench-esp8266-01",
+      "capture_session_id": "bench-esp8266-01:20261010_092221",
+      "class_name": "unknown_package",
+      "exact_part_name": null,
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "identity_status": "unresolved_package_type",
+      "polygon_xy_pixels": [
+        [
+          942,
+          3010
+        ],
+        [
+          996,
+          3011
+        ],
+        [
+          1004,
+          3040
+        ],
+        [
+          990,
+          3061
+        ],
+        [
+          941,
+          3057
+        ],
+        [
+          934,
+          3030
+        ]
+      ],
+      "boundary_scope": "Visible package body; solder pads and leads excluded.",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Original-pixel enlarged package crop inspected. Visible dark body between two metal contacts is traceable but defocused. LED/diode identity and electrical function are not asserted. High uncertainty mask excluded from all class-specific training exports.",
+      "boundary_uncertainty_pixels": 12,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
+      "installed_order_code_confirmed": false,
+      "pin_mapping_status": "not_asserted",
+      "training_export_eligible": false
+    }
+  ]
+}

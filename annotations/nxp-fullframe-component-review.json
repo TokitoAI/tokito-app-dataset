@@ -1,0 +1,640 @@
+{
+  "schema_version": "1.0",
+  "annotation_type": "polygon_instance_segmentation_review",
+  "board_identity": {
+    "family": "NXP FRDM",
+    "model": "FRDM-MCXN236",
+    "evidence": "FRDM-MCXN236 silkscreen is visible on the PCB.",
+    "revision_status": "unconfirmed"
+  },
+  "image": {
+    "path": "data/photo-model/photos/raw/IMG_20261009_221803.jpg",
+    "sha256": "a11ca8f17e39980aceeaa917a8c8fdbd7db365a1c539dcdd5eb0f1d97a42aa5a",
+    "width": 3072,
+    "height": 4096,
+    "view": "component_side_full_board",
+    "capture_group": "2026-10-09 NXP phone photo session"
+  },
+  "annotation_origin": "manual visual review of the full-frame original",
+  "coordinate_format": "pixel_xy_polygon",
+  "coverage": {
+    "status": "partial_visible_major_components",
+    "visible_instance_coverage_complete": false,
+    "training_eligible": false,
+    "annotated_instance_count": 10,
+    "annotation_count_by_class": {
+      "tactile_switch": 3,
+      "integrated_circuit": 6,
+      "crystal_resonator": 1
+    },
+    "unannotated_visible_objects": [
+      "Numerous visible resistors, capacitors, diodes and LEDs across dense regions; no exhaustive instance inventory or reliable per-instance boundaries in this full-board view.",
+      "Additional small packages and footprints whose body boundaries are obscured or too small for reliable delineation at this view.",
+      "The two lower USB receptacle shells are cut by the image boundary and are omitted.",
+      "Underside components are not visible in this frame."
+    ],
+    "reason_ineligible": "Only ten large, visually separable component bodies have polygon masks. Remaining visible components must be ignored rather than treated as background. These masks are an initial review pass and need human boundary audit before YOLO segmentation use."
+  },
+  "objects": [
+    {
+      "id": "nxp_221803_001",
+      "class_name": "tactile_switch",
+      "mask_polygon_xy": [
+        [
+          722,
+          380
+        ],
+        [
+          852,
+          380
+        ],
+        [
+          856,
+          382
+        ],
+        [
+          858,
+          386
+        ],
+        [
+          858,
+          461
+        ],
+        [
+          856,
+          465
+        ],
+        [
+          852,
+          467
+        ],
+        [
+          722,
+          467
+        ],
+        [
+          718,
+          465
+        ],
+        [
+          716,
+          461
+        ],
+        [
+          716,
+          386
+        ],
+        [
+          718,
+          382
+        ]
+      ],
+      "component_hint": "SW3_top_left",
+      "identity_status": "generic_visual_class_only",
+      "visible_evidence": "Square tactile-switch body at the upper-left side; actuator is contained within the body.",
+      "review_status": "manual_visual_polygon_review",
+      "reference_designator": null,
+      "truncated": false
+    },
+    {
+      "id": "nxp_221803_002",
+      "class_name": "tactile_switch",
+      "mask_polygon_xy": [
+        [
+          2307,
+          328
+        ],
+        [
+          2451,
+          328
+        ],
+        [
+          2456,
+          331
+        ],
+        [
+          2459,
+          336
+        ],
+        [
+          2459,
+          437
+        ],
+        [
+          2456,
+          442
+        ],
+        [
+          2451,
+          445
+        ],
+        [
+          2307,
+          445
+        ],
+        [
+          2302,
+          442
+        ],
+        [
+          2300,
+          437
+        ],
+        [
+          2300,
+          336
+        ],
+        [
+          2302,
+          331
+        ]
+      ],
+      "component_hint": "SW2_top_right",
+      "identity_status": "generic_visual_class_only",
+      "visible_evidence": "Square tactile-switch body at the upper-right side.",
+      "review_status": "manual_visual_polygon_review",
+      "reference_designator": null,
+      "truncated": false
+    },
+    {
+      "id": "nxp_221803_003",
+      "class_name": "integrated_circuit",
+      "mask_polygon_xy": [
+        [
+          1988,
+          492
+        ],
+        [
+          2081,
+          492
+        ],
+        [
+          2086,
+          494
+        ],
+        [
+          2088,
+          499
+        ],
+        [
+          2088,
+          599
+        ],
+        [
+          2086,
+          604
+        ],
+        [
+          2081,
+          606
+        ],
+        [
+          1988,
+          606
+        ],
+        [
+          1983,
+          604
+        ],
+        [
+          1981,
+          599
+        ],
+        [
+          1981,
+          499
+        ],
+        [
+          1983,
+          494
+        ]
+      ],
+      "component_hint": "IC_top_right",
+      "identity_status": "generic_visual_class_only",
+      "visible_evidence": "Small dark multi-lead package; exact device marking and function are unreadable.",
+      "review_status": "manual_visual_polygon_review",
+      "reference_designator": null,
+      "truncated": false
+    },
+    {
+      "id": "nxp_221803_004",
+      "class_name": "integrated_circuit",
+      "mask_polygon_xy": [
+        [
+          1780,
+          678
+        ],
+        [
+          1901,
+          678
+        ],
+        [
+          1906,
+          681
+        ],
+        [
+          1909,
+          686
+        ],
+        [
+          1909,
+          783
+        ],
+        [
+          1906,
+          788
+        ],
+        [
+          1901,
+          790
+        ],
+        [
+          1780,
+          790
+        ],
+        [
+          1775,
+          788
+        ],
+        [
+          1772,
+          783
+        ],
+        [
+          1772,
+          686
+        ],
+        [
+          1775,
+          681
+        ]
+      ],
+      "component_hint": "IC_top_center",
+      "identity_status": "generic_visual_class_only",
+      "visible_evidence": "Dark rectangular multi-lead package in the upper center; exact identity is unresolved.",
+      "review_status": "manual_visual_polygon_review",
+      "reference_designator": null,
+      "truncated": false
+    },
+    {
+      "id": "nxp_221803_005",
+      "class_name": "integrated_circuit",
+      "mask_polygon_xy": [
+        [
+          1609,
+          997
+        ],
+        [
+          1766,
+          997
+        ],
+        [
+          1771,
+          1000
+        ],
+        [
+          1774,
+          1005
+        ],
+        [
+          1774,
+          1167
+        ],
+        [
+          1771,
+          1172
+        ],
+        [
+          1766,
+          1174
+        ],
+        [
+          1609,
+          1174
+        ],
+        [
+          1604,
+          1172
+        ],
+        [
+          1601,
+          1167
+        ],
+        [
+          1601,
+          1005
+        ],
+        [
+          1604,
+          1000
+        ]
+      ],
+      "component_hint": "IC_U12",
+      "identity_status": "generic_visual_class_only",
+      "visible_evidence": "Square package body with visible leads on all four sides; package boundary is distinguishable.",
+      "review_status": "manual_visual_polygon_review",
+      "reference_designator": null,
+      "truncated": false
+    },
+    {
+      "id": "nxp_221803_006",
+      "class_name": "crystal_resonator",
+      "mask_polygon_xy": [
+        [
+          1901,
+          1684
+        ],
+        [
+          1950,
+          1684
+        ],
+        [
+          1952,
+          1686
+        ],
+        [
+          1954,
+          1688
+        ],
+        [
+          1954,
+          1799
+        ],
+        [
+          1952,
+          1802
+        ],
+        [
+          1950,
+          1803
+        ],
+        [
+          1901,
+          1803
+        ],
+        [
+          1899,
+          1802
+        ],
+        [
+          1898,
+          1799
+        ],
+        [
+          1898,
+          1688
+        ],
+        [
+          1899,
+          1686
+        ]
+      ],
+      "component_hint": "XTAL_mid",
+      "identity_status": "generic_visual_class_only",
+      "visible_evidence": "Rectangular metal can body beside the large central IC.",
+      "review_status": "manual_visual_polygon_review",
+      "reference_designator": null,
+      "truncated": false
+    },
+    {
+      "id": "nxp_221803_007",
+      "class_name": "integrated_circuit",
+      "mask_polygon_xy": [
+        [
+          1490,
+          1709
+        ],
+        [
+          1795,
+          1709
+        ],
+        [
+          1800,
+          1712
+        ],
+        [
+          1803,
+          1717
+        ],
+        [
+          1803,
+          2054
+        ],
+        [
+          1800,
+          2059
+        ],
+        [
+          1795,
+          2061
+        ],
+        [
+          1490,
+          2061
+        ],
+        [
+          1485,
+          2059
+        ],
+        [
+          1482,
+          2054
+        ],
+        [
+          1482,
+          1717
+        ],
+        [
+          1485,
+          1712
+        ]
+      ],
+      "component_hint": "IC_U1",
+      "identity_status": "generic_visual_class_only",
+      "visible_evidence": "Large square central package body; silkscreen indicates U1, but exact marking is not readable.",
+      "review_status": "manual_visual_polygon_review",
+      "reference_designator": null,
+      "truncated": false
+    },
+    {
+      "id": "nxp_221803_008",
+      "class_name": "integrated_circuit",
+      "mask_polygon_xy": [
+        [
+          1503,
+          3047
+        ],
+        [
+          1771,
+          3047
+        ],
+        [
+          1776,
+          3050
+        ],
+        [
+          1779,
+          3055
+        ],
+        [
+          1779,
+          3282
+        ],
+        [
+          1776,
+          3287
+        ],
+        [
+          1771,
+          3290
+        ],
+        [
+          1503,
+          3290
+        ],
+        [
+          1498,
+          3287
+        ],
+        [
+          1496,
+          3282
+        ],
+        [
+          1496,
+          3055
+        ],
+        [
+          1498,
+          3050
+        ]
+      ],
+      "component_hint": "IC_U8",
+      "identity_status": "generic_visual_class_only",
+      "visible_evidence": "Large square lower package body; silkscreen indicates U8, but exact marking is not readable.",
+      "review_status": "manual_visual_polygon_review",
+      "reference_designator": null,
+      "truncated": false
+    },
+    {
+      "id": "nxp_221803_009",
+      "class_name": "integrated_circuit",
+      "mask_polygon_xy": [
+        [
+          1980,
+          3485
+        ],
+        [
+          2071,
+          3485
+        ],
+        [
+          2075,
+          3487
+        ],
+        [
+          2077,
+          3491
+        ],
+        [
+          2077,
+          3567
+        ],
+        [
+          2075,
+          3571
+        ],
+        [
+          2071,
+          3573
+        ],
+        [
+          1980,
+          3573
+        ],
+        [
+          1976,
+          3571
+        ],
+        [
+          1974,
+          3567
+        ],
+        [
+          1974,
+          3491
+        ],
+        [
+          1976,
+          3487
+        ]
+      ],
+      "component_hint": "IC_lower_right",
+      "identity_status": "generic_visual_class_only",
+      "visible_evidence": "Small dark multi-lead package near the lower-right area; exact identity unreadable.",
+      "review_status": "manual_visual_polygon_review",
+      "reference_designator": null,
+      "truncated": false
+    },
+    {
+      "id": "nxp_221803_010",
+      "class_name": "tactile_switch",
+      "mask_polygon_xy": [
+        [
+          831,
+          3708
+        ],
+        [
+          918,
+          3708
+        ],
+        [
+          923,
+          3710
+        ],
+        [
+          925,
+          3715
+        ],
+        [
+          925,
+          3813
+        ],
+        [
+          923,
+          3817
+        ],
+        [
+          918,
+          3820
+        ],
+        [
+          831,
+          3820
+        ],
+        [
+          827,
+          3817
+        ],
+        [
+          824,
+          3813
+        ],
+        [
+          824,
+          3715
+        ],
+        [
+          827,
+          3710
+        ]
+      ],
+      "component_hint": "SW3_lower_left",
+      "identity_status": "generic_visual_class_only",
+      "visible_evidence": "Square tactile-switch body near the lower-left board corner.",
+      "review_status": "manual_visual_polygon_review",
+      "reference_designator": null,
+      "truncated": false
+    }
+  ]
+}
