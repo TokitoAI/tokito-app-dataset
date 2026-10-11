@@ -4,10 +4,11 @@ train: images
 val: images
 test: images
 names:
-  0: capacitor
-  1: integrated_circuit
-  2: resistor
-  3: rf_shield
+  0: ic_package
+  1: chip_passive
+  2: connector
+  3: rf_module
   4: switch
-  5: three_terminal_package
-  6: usb_connector
+  5: crystal
+  6: discrete_semiconductor
+  7: inductor
