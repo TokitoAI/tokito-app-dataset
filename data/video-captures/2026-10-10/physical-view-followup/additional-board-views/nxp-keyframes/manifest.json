@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0",
+  "release_eligible": false,
+  "evaluation_valid": false,
+  "source_video": {
+    "path": "data/video-captures/2026-10-10/physical-view-followup/additional-board-views/nxp_video_20261010_211200.mp4",
+    "sha256": "b9e531fb9c374f122d6634d429b94f5e80fc9ce850353360cce76938c5b3581f",
+    "bytes": 9656140,
+    "device_path": "/sdcard/DCIM/Camera/video_20261010_211200.mp4"
+  },
+  "video": {
+    "codec_name": "hevc",
+    "width": 1920,
+    "height": 1080,
+    "duration": 6.058667,
+    "avg_frame_rate": "30.1674125646"
+  },
+  "decoded_frame_count": 182,
+  "source_display_rotation_degrees": 90,
+  "frame_coordinate_contract": "OpenCV VideoCapture display-matrix autorotation enabled; saved pixels match portrait display rotation",
+  "extractor": "OpenCV 5.0.0, source frame index 0",
+  "camera_calibration": null,
+  "physical_specimen_id": "bench-nxp-01",
+  "capture_session_id": "bench-nxp-01:20261010_211200",
+  "specimen_assignment_status": "same physical NXP board; grouped with all NXP captures to prevent train/validation leakage",
+  "all_frames_share_split_group": true,
+  "keyframes": [
+    {
+      "id": "nxp_video_20261010_211200:n000000",
+      "image_path": "data/video-captures/2026-10-10/physical-view-followup/additional-board-views/nxp-keyframes/nxp_video_20261010_211200_n000000_pts00000000ms.jpg",
+      "image_sha256": "7c328ef81d36702e1ad963cdaa8b37bf0c5dea6a94edaa0b59cfc2f9df6d5c48",
+      "image_width": 1080,
+      "image_height": 1920,
+      "source_frame_index": 0,
+      "source_pts_seconds": 0.0,
+      "source_video_sha256": "b9e531fb9c374f122d6634d429b94f5e80fc9ce850353360cce76938c5b3581f",
+      "physical_specimen_id": "bench-nxp-01",
+      "capture_session_id": "bench-nxp-01:20261010_211200",
+      "board_family_hint": "nxp_frdm_mcxn236_unknown_rev",
+      "board_class_id_hint": null,
+      "source_offset_seconds": 0.0,
+      "board_box_review_status": "not_reviewed",
+      "part_review_status": "reviewed_partial_component_masks",
+      "pin_review_status": "not_reviewed",
+      "training_export_eligible": false
+    }
+  ],
+  "limits": [
+    "This is a full-board top-face frame with in-plane orientation; it is not a four-side oblique capture.",
+    "The sample is from a known specimen and the same video session, not independent validation.",
+    "Only listed component bodies are reviewed; all remaining image regions are ignored."
+  ]
+}
