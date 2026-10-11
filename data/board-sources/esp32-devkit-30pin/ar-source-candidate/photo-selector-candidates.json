@@ -1,0 +1,698 @@
+{
+  "schema_version": "1.0",
+  "board_family": "esp32_devkit_30pin_unknown_variant",
+  "physical_specimen_id": "bench-esp32-01",
+  "source_review_path": "annotations/esp32-dense-component-review.json",
+  "source_review_sha256": "d4cba0475f7f11bfdaec0e90dcec61d2730b04f71635cf7d0e934477f96d2f78",
+  "candidate_component_map_path": "data/board-sources/esp32-devkit-30pin/ar-source-candidate/input/component-map.json",
+  "candidate_component_map_sha256": "3eb4dbcdc23c81f9876a4419f3a54199e02a5db1ce6200fb4ede7ca8bacf21a0",
+  "candidate_glb_path": "data/board-sources/esp32-devkit-30pin/ar-source-candidate/esp32-package-candidate.glb",
+  "candidate_glb_sha256": "4eea44e372ad86dce651eb424f7b289dd4093422463ef8e1528366c58e1ef953",
+  "link_status": "review_candidates_only",
+  "calibration_eligible": false,
+  "production_eligible": false,
+  "training_export_eligible": false,
+  "coverage": "5_selected_bodies_in_3_front_images;_remaining_69_masks_unmapped",
+  "limitations": [
+    "Community clone geometry has no verified physical-revision match or measured registration to the photographed specimen.",
+    "Reference or distinct-package matching does not validate source BOM values or exact installed part numbers.",
+    "No underside, side-angle, camera calibration, pose, or flip correspondence is established here."
+  ],
+  "links": [
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092144.jpg",
+      "image_sha256": "d33bf83877365f57dc03d36388518207090acbd5b57db93ca96742c1ecd05ed7",
+      "photo_instance_id": "IMG_20261010_092144.jpg:U2",
+      "polygon_xy_pixels": [
+        [
+          1165,
+          1684
+        ],
+        [
+          1355,
+          1684
+        ],
+        [
+          1367,
+          1695
+        ],
+        [
+          1367,
+          1857
+        ],
+        [
+          1355,
+          1872
+        ],
+        [
+          1165,
+          1872
+        ],
+        [
+          1154,
+          1857
+        ],
+        [
+          1154,
+          1695
+        ]
+      ],
+      "candidate_reference": "U2",
+      "candidate_glb_selector": "ref:U2",
+      "link_evidence": "printed_reference_and_family_marking",
+      "registration_verified": false,
+      "physical_revision_match_verified": false,
+      "exact_order_code_verified": false
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092144.jpg",
+      "image_sha256": "d33bf83877365f57dc03d36388518207090acbd5b57db93ca96742c1ecd05ed7",
+      "photo_instance_id": "IMG_20261010_092144.jpg:RF_MODULE",
+      "polygon_xy_pixels": [
+        [
+          1090,
+          2304
+        ],
+        [
+          1835,
+          2312
+        ],
+        [
+          1832,
+          3346
+        ],
+        [
+          1086,
+          3318
+        ]
+      ],
+      "candidate_reference": "MOD1",
+      "candidate_glb_selector": "ref:MOD1",
+      "link_evidence": "distinct_rf_module_location",
+      "registration_verified": false,
+      "physical_revision_match_verified": false,
+      "exact_order_code_verified": false
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092144.jpg",
+      "image_sha256": "d33bf83877365f57dc03d36388518207090acbd5b57db93ca96742c1ecd05ed7",
+      "photo_instance_id": "IMG_20261010_092144.jpg:USB",
+      "polygon_xy_pixels": [
+        [
+          1345,
+          1294
+        ],
+        [
+          1650,
+          1294
+        ],
+        [
+          1660,
+          1308
+        ],
+        [
+          1660,
+          1351
+        ],
+        [
+          1683,
+          1350
+        ],
+        [
+          1696,
+          1369
+        ],
+        [
+          1696,
+          1428
+        ],
+        [
+          1685,
+          1440
+        ],
+        [
+          1660,
+          1440
+        ],
+        [
+          1660,
+          1500
+        ],
+        [
+          1643,
+          1512
+        ],
+        [
+          1357,
+          1512
+        ],
+        [
+          1342,
+          1500
+        ],
+        [
+          1342,
+          1440
+        ],
+        [
+          1322,
+          1440
+        ],
+        [
+          1308,
+          1425
+        ],
+        [
+          1308,
+          1375
+        ],
+        [
+          1320,
+          1359
+        ],
+        [
+          1342,
+          1355
+        ],
+        [
+          1342,
+          1308
+        ]
+      ],
+      "candidate_reference": "J1",
+      "candidate_glb_selector": "ref:J1",
+      "link_evidence": "distinct_micro_usb_location",
+      "registration_verified": false,
+      "physical_revision_match_verified": false,
+      "exact_order_code_verified": false
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092144.jpg",
+      "image_sha256": "d33bf83877365f57dc03d36388518207090acbd5b57db93ca96742c1ecd05ed7",
+      "photo_instance_id": "IMG_20261010_092144.jpg:C5",
+      "polygon_xy_pixels": [
+        [
+          1880,
+          1542
+        ],
+        [
+          1924,
+          1542
+        ],
+        [
+          1924,
+          1630
+        ],
+        [
+          1880,
+          1630
+        ]
+      ],
+      "candidate_reference": "C5",
+      "candidate_glb_selector": "ref:C5",
+      "link_evidence": "printed_reference",
+      "registration_verified": false,
+      "physical_revision_match_verified": false,
+      "exact_order_code_verified": false
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092144.jpg",
+      "image_sha256": "d33bf83877365f57dc03d36388518207090acbd5b57db93ca96742c1ecd05ed7",
+      "photo_instance_id": "IMG_20261010_092144.jpg:U1",
+      "polygon_xy_pixels": [
+        [
+          1616,
+          1665
+        ],
+        [
+          1753,
+          1665
+        ],
+        [
+          1753,
+          1923
+        ],
+        [
+          1616,
+          1923
+        ]
+      ],
+      "candidate_reference": "U1",
+      "candidate_glb_selector": "ref:U1",
+      "link_evidence": "printed_reference",
+      "registration_verified": false,
+      "physical_revision_match_verified": false,
+      "exact_order_code_verified": false
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092149.jpg",
+      "image_sha256": "f99756a1c369609e24570c76d5600eff9eb3b3d749644f2d9664c63b075bd2c2",
+      "photo_instance_id": "IMG_20261010_092149.jpg:U2",
+      "polygon_xy_pixels": [
+        [
+          1075,
+          1659
+        ],
+        [
+          1252,
+          1661
+        ],
+        [
+          1263,
+          1671
+        ],
+        [
+          1263,
+          1823
+        ],
+        [
+          1252,
+          1837
+        ],
+        [
+          1075,
+          1835
+        ],
+        [
+          1065,
+          1821
+        ],
+        [
+          1065,
+          1670
+        ]
+      ],
+      "candidate_reference": "U2",
+      "candidate_glb_selector": "ref:U2",
+      "link_evidence": "printed_reference_and_family_marking",
+      "registration_verified": false,
+      "physical_revision_match_verified": false,
+      "exact_order_code_verified": false
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092149.jpg",
+      "image_sha256": "f99756a1c369609e24570c76d5600eff9eb3b3d749644f2d9664c63b075bd2c2",
+      "photo_instance_id": "IMG_20261010_092149.jpg:RF_MODULE",
+      "polygon_xy_pixels": [
+        [
+          1004,
+          2241
+        ],
+        [
+          1705,
+          2256
+        ],
+        [
+          1710,
+          3253
+        ],
+        [
+          999,
+          3214
+        ]
+      ],
+      "candidate_reference": "MOD1",
+      "candidate_glb_selector": "ref:MOD1",
+      "link_evidence": "distinct_rf_module_location",
+      "registration_verified": false,
+      "physical_revision_match_verified": false,
+      "exact_order_code_verified": false
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092149.jpg",
+      "image_sha256": "f99756a1c369609e24570c76d5600eff9eb3b3d749644f2d9664c63b075bd2c2",
+      "photo_instance_id": "IMG_20261010_092149.jpg:USB",
+      "polygon_xy_pixels": [
+        [
+          1242,
+          1298
+        ],
+        [
+          1525,
+          1300
+        ],
+        [
+          1534,
+          1313
+        ],
+        [
+          1534,
+          1352
+        ],
+        [
+          1556,
+          1352
+        ],
+        [
+          1568,
+          1369
+        ],
+        [
+          1568,
+          1424
+        ],
+        [
+          1558,
+          1435
+        ],
+        [
+          1535,
+          1435
+        ],
+        [
+          1535,
+          1491
+        ],
+        [
+          1519,
+          1502
+        ],
+        [
+          1253,
+          1500
+        ],
+        [
+          1239,
+          1489
+        ],
+        [
+          1239,
+          1433
+        ],
+        [
+          1221,
+          1433
+        ],
+        [
+          1208,
+          1419
+        ],
+        [
+          1207,
+          1373
+        ],
+        [
+          1219,
+          1358
+        ],
+        [
+          1239,
+          1355
+        ],
+        [
+          1239,
+          1311
+        ]
+      ],
+      "candidate_reference": "J1",
+      "candidate_glb_selector": "ref:J1",
+      "link_evidence": "distinct_micro_usb_location",
+      "registration_verified": false,
+      "physical_revision_match_verified": false,
+      "exact_order_code_verified": false
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092149.jpg",
+      "image_sha256": "f99756a1c369609e24570c76d5600eff9eb3b3d749644f2d9664c63b075bd2c2",
+      "photo_instance_id": "IMG_20261010_092149.jpg:C5",
+      "polygon_xy_pixels": [
+        [
+          1741,
+          1531
+        ],
+        [
+          1782,
+          1532
+        ],
+        [
+          1783,
+          1614
+        ],
+        [
+          1742,
+          1614
+        ]
+      ],
+      "candidate_reference": "C5",
+      "candidate_glb_selector": "ref:C5",
+      "link_evidence": "printed_reference",
+      "registration_verified": false,
+      "physical_revision_match_verified": false,
+      "exact_order_code_verified": false
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092149.jpg",
+      "image_sha256": "f99756a1c369609e24570c76d5600eff9eb3b3d749644f2d9664c63b075bd2c2",
+      "photo_instance_id": "IMG_20261010_092149.jpg:U1",
+      "polygon_xy_pixels": [
+        [
+          1495,
+          1645
+        ],
+        [
+          1623,
+          1645
+        ],
+        [
+          1625,
+          1888
+        ],
+        [
+          1496,
+          1887
+        ]
+      ],
+      "candidate_reference": "U1",
+      "candidate_glb_selector": "ref:U1",
+      "link_evidence": "printed_reference",
+      "registration_verified": false,
+      "physical_revision_match_verified": false,
+      "exact_order_code_verified": false
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092153.jpg",
+      "image_sha256": "14b4208819a0e8f20bd75204cf7bdd8676f2a89fd3419412ab0f06b53d2c3854",
+      "photo_instance_id": "IMG_20261010_092153.jpg:U2",
+      "polygon_xy_pixels": [
+        [
+          1015,
+          1667
+        ],
+        [
+          1189,
+          1667
+        ],
+        [
+          1200,
+          1678
+        ],
+        [
+          1201,
+          1827
+        ],
+        [
+          1190,
+          1841
+        ],
+        [
+          1015,
+          1841
+        ],
+        [
+          1005,
+          1827
+        ],
+        [
+          1005,
+          1677
+        ]
+      ],
+      "candidate_reference": "U2",
+      "candidate_glb_selector": "ref:U2",
+      "link_evidence": "printed_reference_and_family_marking",
+      "registration_verified": false,
+      "physical_revision_match_verified": false,
+      "exact_order_code_verified": false
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092153.jpg",
+      "image_sha256": "14b4208819a0e8f20bd75204cf7bdd8676f2a89fd3419412ab0f06b53d2c3854",
+      "photo_instance_id": "IMG_20261010_092153.jpg:RF_MODULE",
+      "polygon_xy_pixels": [
+        [
+          947,
+          2242
+        ],
+        [
+          1639,
+          2254
+        ],
+        [
+          1648,
+          3241
+        ],
+        [
+          945,
+          3205
+        ]
+      ],
+      "candidate_reference": "MOD1",
+      "candidate_glb_selector": "ref:MOD1",
+      "link_evidence": "distinct_rf_module_location",
+      "registration_verified": false,
+      "physical_revision_match_verified": false,
+      "exact_order_code_verified": false
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092153.jpg",
+      "image_sha256": "14b4208819a0e8f20bd75204cf7bdd8676f2a89fd3419412ab0f06b53d2c3854",
+      "photo_instance_id": "IMG_20261010_092153.jpg:USB",
+      "polygon_xy_pixels": [
+        [
+          1178,
+          1310
+        ],
+        [
+          1458,
+          1310
+        ],
+        [
+          1467,
+          1323
+        ],
+        [
+          1467,
+          1362
+        ],
+        [
+          1488,
+          1361
+        ],
+        [
+          1501,
+          1379
+        ],
+        [
+          1501,
+          1433
+        ],
+        [
+          1491,
+          1444
+        ],
+        [
+          1468,
+          1444
+        ],
+        [
+          1469,
+          1499
+        ],
+        [
+          1453,
+          1510
+        ],
+        [
+          1190,
+          1509
+        ],
+        [
+          1177,
+          1498
+        ],
+        [
+          1176,
+          1443
+        ],
+        [
+          1158,
+          1443
+        ],
+        [
+          1145,
+          1429
+        ],
+        [
+          1145,
+          1384
+        ],
+        [
+          1156,
+          1369
+        ],
+        [
+          1176,
+          1366
+        ],
+        [
+          1176,
+          1323
+        ]
+      ],
+      "candidate_reference": "J1",
+      "candidate_glb_selector": "ref:J1",
+      "link_evidence": "distinct_micro_usb_location",
+      "registration_verified": false,
+      "physical_revision_match_verified": false,
+      "exact_order_code_verified": false
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092153.jpg",
+      "image_sha256": "14b4208819a0e8f20bd75204cf7bdd8676f2a89fd3419412ab0f06b53d2c3854",
+      "photo_instance_id": "IMG_20261010_092153.jpg:C5",
+      "polygon_xy_pixels": [
+        [
+          1672,
+          1538
+        ],
+        [
+          1712,
+          1538
+        ],
+        [
+          1713,
+          1619
+        ],
+        [
+          1673,
+          1619
+        ]
+      ],
+      "candidate_reference": "C5",
+      "candidate_glb_selector": "ref:C5",
+      "link_evidence": "printed_reference",
+      "registration_verified": false,
+      "physical_revision_match_verified": false,
+      "exact_order_code_verified": false
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092153.jpg",
+      "image_sha256": "14b4208819a0e8f20bd75204cf7bdd8676f2a89fd3419412ab0f06b53d2c3854",
+      "photo_instance_id": "IMG_20261010_092153.jpg:U1",
+      "polygon_xy_pixels": [
+        [
+          1429,
+          1651
+        ],
+        [
+          1556,
+          1651
+        ],
+        [
+          1558,
+          1890
+        ],
+        [
+          1432,
+          1889
+        ]
+      ],
+      "candidate_reference": "U1",
+      "candidate_glb_selector": "ref:U1",
+      "link_evidence": "printed_reference",
+      "registration_verified": false,
+      "physical_revision_match_verified": false,
+      "exact_order_code_verified": false
+    }
+  ]
+}
