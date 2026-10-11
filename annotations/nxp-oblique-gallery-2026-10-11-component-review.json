@@ -1,0 +1,152 @@
+{
+  "schema_version": "1.0",
+  "board_family": "nxp_frdm_mcxn236",
+  "physical_specimen_id": "unknown_iqoo_gallery_nxp_specimen_2026-10-11",
+  "capture_session_id": "iqoo-gallery-session-2026-10-11:IMG_20261011_011939",
+  "same_specimen_split_group": "iqoo-gallery-session-2026-10-11",
+  "image_path": "data/phone-captures/2026-10-11/gallery/IMG_20261011_011939.jpg",
+  "image_sha256": "4299ebb2448c1649c03bea998dc53c4e998fdef70ba6fbeb94575f9ac4e723ae",
+  "image_width": 4096,
+  "image_height": 3072,
+  "coordinate_frame": "exif_upright_original_image_pixels",
+  "coverage": "partial_visible_component_bodies",
+  "training_export_eligible": true,
+  "evaluation_valid": false,
+  "view_observation": "oblique_component_face; physical side and metric pose unregistered",
+  "review_scope": [
+    "two large metal connector housings",
+    "one prominent integrated-circuit package body"
+  ],
+  "review_evidence": "Original-resolution oblique photo reviewed with coordinate-grid crops. Three large body polygons are partial annotations; all unmatched components and all unknown pixels remain ignored, not background.",
+  "unreviewed_visible_instances": [
+    "all small surface-mount parts",
+    "all connector and header pins",
+    "other visible ICs whose edges are obscured by strong silkscreen/glare",
+    "underside components",
+    "all physical 3D landmarks and camera pose"
+  ],
+  "identity_limits": [
+    "Board family is visually identified as FRDM-MCXN236 from PCB silkscreen.",
+    "Exact physical board specimen is not matched to previously registered NXP photos.",
+    "Connector form factors and installed IC order codes are not asserted.",
+    "No BOM/Gerber source mapping or pin/net function is asserted.",
+    "Oblique view is useful for visual segmentation only; it has no metric pose or calibration."
+  ],
+  "masks": [
+    {
+      "instance_id": "IMG_20261011_011939.jpg:left_usb_housing",
+      "class_name": "connector_housing",
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1125,
+          890
+        ],
+        [
+          1255,
+          875
+        ],
+        [
+          1290,
+          910
+        ],
+        [
+          1260,
+          978
+        ],
+        [
+          1130,
+          1000
+        ],
+        [
+          1090,
+          963
+        ]
+      ],
+      "boundary_scope": "Visible metal receptacle housing only; contacts, PCB footprint and cast shadow excluded.",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Traced against original-resolution 4096x3072 oblique photo and rechecked in pixel-grid crops and full-image overlay. Perspective and glare increase boundary uncertainty; exact installed part identity is not asserted.",
+      "boundary_uncertainty_pixels": 20,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
+      "installed_order_code_confirmed": false,
+      "parent_board_instance_id": "unknown_iqoo_gallery_nxp_specimen_2026-10-11",
+      "pin_mapping_status": "not_asserted"
+    },
+    {
+      "instance_id": "IMG_20261011_011939.jpg:lower_left_usb_housing",
+      "class_name": "connector_housing",
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          990,
+          1038
+        ],
+        [
+          1120,
+          990
+        ],
+        [
+          1185,
+          1020
+        ],
+        [
+          1155,
+          1094
+        ],
+        [
+          1020,
+          1150
+        ],
+        [
+          965,
+          1118
+        ]
+      ],
+      "boundary_scope": "Visible metal receptacle housing only; contacts, PCB footprint and cast shadow excluded.",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Traced against original-resolution 4096x3072 oblique photo and rechecked in pixel-grid crops and full-image overlay. Perspective and glare increase boundary uncertainty; exact installed part identity is not asserted.",
+      "boundary_uncertainty_pixels": 20,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
+      "installed_order_code_confirmed": false,
+      "parent_board_instance_id": "unknown_iqoo_gallery_nxp_specimen_2026-10-11",
+      "pin_mapping_status": "not_asserted"
+    },
+    {
+      "instance_id": "IMG_20261011_011939.jpg:central_ic_unresolved",
+      "class_name": "integrated_circuit",
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "polygon_xy_pixels": [
+        [
+          1750,
+          1175
+        ],
+        [
+          1975,
+          1220
+        ],
+        [
+          1940,
+          1365
+        ],
+        [
+          1715,
+          1315
+        ]
+      ],
+      "boundary_scope": "Visible dark IC package body only; leads and surrounding silkscreen excluded. Marking is not legible enough to name the installed IC.",
+      "review_status": "visually_reviewed_body_polygon",
+      "review_evidence": "Traced against original-resolution 4096x3072 oblique photo and rechecked in pixel-grid crops and full-image overlay. Perspective and glare increase boundary uncertainty; exact installed part identity is not asserted.",
+      "boundary_uncertainty_pixels": 18,
+      "source_component_id": null,
+      "source_mapping_status": "unmapped_photo_instance",
+      "installed_order_code_confirmed": false,
+      "parent_board_instance_id": "unknown_iqoo_gallery_nxp_specimen_2026-10-11",
+      "pin_mapping_status": "not_asserted"
+    }
+  ]
+}
