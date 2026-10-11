@@ -25,6 +25,7 @@ DEFAULT_FILES = (
     "annotations/esp8266-frame-component-complete-review.json",
     "annotations/nxp-fullframe-component-review.json",
     "annotations/nxp-underside-component-review.json",
+    "data/video-captures/2026-10-10/physical-view-followup/additional-board-views/nxp-keyframes/reviewed-component-masks.json",
 )
 
 

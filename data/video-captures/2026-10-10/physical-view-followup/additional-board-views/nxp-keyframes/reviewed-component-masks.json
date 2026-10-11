@@ -1,0 +1,489 @@
+{
+  "schema_version": "1.0",
+  "annotation_type": "partial_video_frame_component_masks",
+  "board_family": "nxp_frdm_mcxn236_unknown_rev",
+  "board_display_name": "NXP FRDM-MCXN236 (PCB revision unverified)",
+  "physical_specimen_id": "bench-nxp-01",
+  "capture_session_id": "bench-nxp-01:20261010_211200",
+  "same_specimen_split_group": "bench-nxp-01",
+  "image_path": "data/video-captures/2026-10-10/physical-view-followup/additional-board-views/nxp-keyframes/nxp_video_20261010_211200_n000000_pts00000000ms.jpg",
+  "image_sha256": "7c328ef81d36702e1ad963cdaa8b37bf0c5dea6a94edaa0b59cfc2f9df6d5c48",
+  "image_width": 1080,
+  "image_height": 1920,
+  "coordinate_frame": "pixels after video display-matrix rotation to portrait",
+  "source_video_path": "data/video-captures/2026-10-10/physical-view-followup/additional-board-views/nxp_video_20261010_211200.mp4",
+  "source_video_sha256": "b9e531fb9c374f122d6634d429b94f5e80fc9ce850353360cce76938c5b3581f",
+  "source_frame_index": 0,
+  "source_pts_seconds": 0.0,
+  "coverage": "partial_visible_component_bodies",
+  "training_export_eligible": false,
+  "production_eligible": false,
+  "evaluation_valid": false,
+  "review_scope": "10 clear component bodies in the opening full-board component-side frame, including the MCXN236 package, three other IC packages, one dual-row header body, two USB shells, and three tactile switches.",
+  "unannotated_visible_instances": "Numerous passives, LEDs, crystals, additional ICs, connectors, and electrical contacts remain unreviewed. Unreviewed regions are unknown, not background.",
+  "masks": [
+    {
+      "instance_id": "nxp211200_t0000_mcu",
+      "class_name": "integrated_circuit",
+      "polygon_xy_pixels": [
+        [
+          502,
+          785
+        ],
+        [
+          514,
+          774
+        ],
+        [
+          605,
+          774
+        ],
+        [
+          618,
+          789
+        ],
+        [
+          619,
+          872
+        ],
+        [
+          606,
+          889
+        ],
+        [
+          514,
+          889
+        ],
+        [
+          501,
+          875
+        ]
+      ],
+      "observed_reference_designator": null,
+      "observed_marking_family": "MCXN236",
+      "source_part_candidate": null,
+      "identity_policy": "visual package category only; no exact order-code or designator asserted",
+      "boundary_scope": "component body only; headers exclude contacts, connectors exclude mating void/copper/solder, ICs exclude leads and silkscreen",
+      "review_status": "manual_visual_polygon_review",
+      "visible_evidence": "MCXN236 marked package; exact order suffix is not inferred.",
+      "source_mapping_status": "unmapped_photo_instance"
+    },
+    {
+      "instance_id": "nxp211200_t0000_ic01",
+      "class_name": "integrated_circuit",
+      "polygon_xy_pixels": [
+        [
+          552,
+          510
+        ],
+        [
+          562,
+          504
+        ],
+        [
+          602,
+          504
+        ],
+        [
+          611,
+          513
+        ],
+        [
+          611,
+          556
+        ],
+        [
+          603,
+          566
+        ],
+        [
+          560,
+          566
+        ],
+        [
+          551,
+          558
+        ]
+      ],
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "source_part_candidate": null,
+      "identity_policy": "visual package category only; no exact order-code or designator asserted",
+      "boundary_scope": "component body only; headers exclude contacts, connectors exclude mating void/copper/solder, ICs exclude leads and silkscreen",
+      "review_status": "manual_visual_polygon_review",
+      "visible_evidence": "Separate rectangular IC body; visible marking is not legible at this frame.",
+      "source_mapping_status": "unmapped_photo_instance"
+    },
+    {
+      "instance_id": "nxp211200_t0000_ic02",
+      "class_name": "integrated_circuit",
+      "polygon_xy_pixels": [
+        [
+          550,
+          1268
+        ],
+        [
+          563,
+          1255
+        ],
+        [
+          624,
+          1255
+        ],
+        [
+          637,
+          1268
+        ],
+        [
+          636,
+          1336
+        ],
+        [
+          625,
+          1348
+        ],
+        [
+          562,
+          1347
+        ],
+        [
+          550,
+          1336
+        ]
+      ],
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "source_part_candidate": null,
+      "identity_policy": "visual package category only; no exact order-code or designator asserted",
+      "boundary_scope": "component body only; headers exclude contacts, connectors exclude mating void/copper/solder, ICs exclude leads and silkscreen",
+      "review_status": "manual_visual_polygon_review",
+      "visible_evidence": "Separate large IC package in lower board region; exact marking not asserted.",
+      "source_mapping_status": "unmapped_photo_instance"
+    },
+    {
+      "instance_id": "nxp211200_t0000_ic03",
+      "class_name": "integrated_circuit",
+      "polygon_xy_pixels": [
+        [
+          635,
+          957
+        ],
+        [
+          643,
+          952
+        ],
+        [
+          669,
+          952
+        ],
+        [
+          677,
+          960
+        ],
+        [
+          677,
+          986
+        ],
+        [
+          670,
+          994
+        ],
+        [
+          643,
+          993
+        ],
+        [
+          635,
+          985
+        ]
+      ],
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "source_part_candidate": null,
+      "identity_policy": "visual package category only; no exact order-code or designator asserted",
+      "boundary_scope": "component body only; headers exclude contacts, connectors exclude mating void/copper/solder, ICs exclude leads and silkscreen",
+      "review_status": "manual_visual_polygon_review",
+      "visible_evidence": "Small rectangular package with visible leads; generic IC family only.",
+      "source_mapping_status": "unmapped_photo_instance"
+    },
+    {
+      "instance_id": "nxp211200_t0000_header_left",
+      "class_name": "pin_header",
+      "polygon_xy_pixels": [
+        [
+          220,
+          895
+        ],
+        [
+          232,
+          889
+        ],
+        [
+          318,
+          889
+        ],
+        [
+          329,
+          900
+        ],
+        [
+          329,
+          1174
+        ],
+        [
+          319,
+          1184
+        ],
+        [
+          231,
+          1182
+        ],
+        [
+          219,
+          1171
+        ]
+      ],
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "source_part_candidate": null,
+      "identity_policy": "visual package category only; no exact order-code or designator asserted",
+      "boundary_scope": "component body only; headers exclude contacts, connectors exclude mating void/copper/solder, ICs exclude leads and silkscreen",
+      "review_status": "manual_visual_polygon_review",
+      "visible_evidence": "Black dual-row header housing; mask follows plastic body and excludes the individual contact openings.",
+      "source_mapping_status": "unmapped_photo_instance"
+    },
+    {
+      "instance_id": "nxp211200_t0000_usb_left",
+      "class_name": "usb_connector",
+      "polygon_xy_pixels": [
+        [
+          461,
+          1556
+        ],
+        [
+          473,
+          1547
+        ],
+        [
+          539,
+          1547
+        ],
+        [
+          552,
+          1557
+        ],
+        [
+          553,
+          1648
+        ],
+        [
+          544,
+          1662
+        ],
+        [
+          477,
+          1670
+        ],
+        [
+          463,
+          1658
+        ]
+      ],
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "source_part_candidate": null,
+      "identity_policy": "visual package category only; no exact order-code or designator asserted",
+      "boundary_scope": "component body only; headers exclude contacts, connectors exclude mating void/copper/solder, ICs exclude leads and silkscreen",
+      "review_status": "manual_visual_polygon_review",
+      "visible_evidence": "Visible metal USB connector shell attached to board edge; exact connector standard not asserted.",
+      "source_mapping_status": "unmapped_photo_instance"
+    },
+    {
+      "instance_id": "nxp211200_t0000_usb_right",
+      "class_name": "usb_connector",
+      "polygon_xy_pixels": [
+        [
+          637,
+          1548
+        ],
+        [
+          648,
+          1540
+        ],
+        [
+          721,
+          1540
+        ],
+        [
+          737,
+          1554
+        ],
+        [
+          739,
+          1638
+        ],
+        [
+          727,
+          1654
+        ],
+        [
+          651,
+          1664
+        ],
+        [
+          638,
+          1651
+        ]
+      ],
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "source_part_candidate": null,
+      "identity_policy": "visual package category only; no exact order-code or designator asserted",
+      "boundary_scope": "component body only; headers exclude contacts, connectors exclude mating void/copper/solder, ICs exclude leads and silkscreen",
+      "review_status": "manual_visual_polygon_review",
+      "visible_evidence": "Visible metal USB connector shell attached to board edge; exact connector standard not asserted.",
+      "source_mapping_status": "unmapped_photo_instance"
+    },
+    {
+      "instance_id": "nxp211200_t0000_sw_left_top",
+      "class_name": "tactile_switch",
+      "polygon_xy_pixels": [
+        [
+          202,
+          257
+        ],
+        [
+          210,
+          250
+        ],
+        [
+          236,
+          250
+        ],
+        [
+          246,
+          259
+        ],
+        [
+          247,
+          286
+        ],
+        [
+          239,
+          295
+        ],
+        [
+          210,
+          295
+        ],
+        [
+          201,
+          286
+        ]
+      ],
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "source_part_candidate": null,
+      "identity_policy": "visual package category only; no exact order-code or designator asserted",
+      "boundary_scope": "component body only; headers exclude contacts, connectors exclude mating void/copper/solder, ICs exclude leads and silkscreen",
+      "review_status": "manual_visual_polygon_review",
+      "visible_evidence": "Tactile switch body at upper-left corner.",
+      "source_mapping_status": "unmapped_photo_instance"
+    },
+    {
+      "instance_id": "nxp211200_t0000_sw_right_top",
+      "class_name": "tactile_switch",
+      "polygon_xy_pixels": [
+        [
+          785,
+          257
+        ],
+        [
+          794,
+          250
+        ],
+        [
+          819,
+          250
+        ],
+        [
+          829,
+          260
+        ],
+        [
+          829,
+          288
+        ],
+        [
+          820,
+          296
+        ],
+        [
+          793,
+          296
+        ],
+        [
+          784,
+          287
+        ]
+      ],
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "source_part_candidate": null,
+      "identity_policy": "visual package category only; no exact order-code or designator asserted",
+      "boundary_scope": "component body only; headers exclude contacts, connectors exclude mating void/copper/solder, ICs exclude leads and silkscreen",
+      "review_status": "manual_visual_polygon_review",
+      "visible_evidence": "Tactile switch body at upper-right corner.",
+      "source_mapping_status": "unmapped_photo_instance"
+    },
+    {
+      "instance_id": "nxp211200_t0000_sw_left_bottom",
+      "class_name": "tactile_switch",
+      "polygon_xy_pixels": [
+        [
+          309,
+          1528
+        ],
+        [
+          318,
+          1521
+        ],
+        [
+          342,
+          1521
+        ],
+        [
+          351,
+          1530
+        ],
+        [
+          351,
+          1559
+        ],
+        [
+          343,
+          1568
+        ],
+        [
+          318,
+          1568
+        ],
+        [
+          309,
+          1559
+        ]
+      ],
+      "observed_reference_designator": null,
+      "observed_marking_family": null,
+      "source_part_candidate": null,
+      "identity_policy": "visual package category only; no exact order-code or designator asserted",
+      "boundary_scope": "component body only; headers exclude contacts, connectors exclude mating void/copper/solder, ICs exclude leads and silkscreen",
+      "review_status": "manual_visual_polygon_review",
+      "visible_evidence": "Tactile switch body near lower-left board corner.",
+      "source_mapping_status": "unmapped_photo_instance"
+    }
+  ],
+  "review_method": "Original-video frame 0 was extracted with OpenCV display-matrix orientation enabled and reviewed at native 1080x1920. Polygon points follow visible component bodies; model predictions were not used as annotation ground truth.",
+  "pin_parent_board_id": "bench-nxp-01",
+  "pin_annotations": []
+}
