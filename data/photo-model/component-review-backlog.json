@@ -12,7 +12,7 @@
     "annotations/ultimainboard-dense-component-review.json"
   ],
   "unique_frames": 14,
-  "reviewed_mask_records_before_deduplication": 424,
+  "reviewed_mask_records_before_deduplication": 427,
   "frame_action_counts": {
     "finish_visible_instance_masks_and_review_coverage": 14
   },
@@ -224,8 +224,8 @@
         "d5f4a8e70461dcd156bca91908d67a58d0276662f71e2637dba141cbcde278eb"
       ],
       "hash_matches": true,
-      "reviewed_mask_count": 22,
-      "unique_instance_ids": 22,
+      "reviewed_mask_count": 23,
+      "unique_instance_ids": 23,
       "classes": {
         "capacitor": 8,
         "integrated_circuit": 2,
@@ -233,10 +233,12 @@
         "rf_shield": 1,
         "switch": 2,
         "three_terminal_package": 2,
+        "unknown_package": 1,
         "usb_connector": 1
       },
       "review_statuses": {
-        "visually_reviewed_body_polygon": 22
+        "visually_reviewed_body_polygon": 22,
+        "visually_reviewed_homography_projected_body_polygon": 1
       },
       "coverage_claims": [
         "partial_visible_component_bodies"
@@ -245,7 +247,7 @@
         "header contact surfaces and pin endpoints",
         "module shield hides internal components",
         "underside packages not observable in these top-face originals",
-        "unknown dark lower-left package on three other top-face originals"
+        "unknown lower-left package family/order code and electrical identity"
       ],
       "capture_groups": [
         "bench-esp8266-01",
@@ -269,8 +271,8 @@
         "9142f26e3e4ac4e41a6f65d83bb3ef66dd5ec5bface427a16aa8b4bb7a672b07"
       ],
       "hash_matches": true,
-      "reviewed_mask_count": 22,
-      "unique_instance_ids": 22,
+      "reviewed_mask_count": 23,
+      "unique_instance_ids": 23,
       "classes": {
         "capacitor": 8,
         "integrated_circuit": 2,
@@ -278,10 +280,12 @@
         "rf_shield": 1,
         "switch": 2,
         "three_terminal_package": 2,
+        "unknown_package": 1,
         "usb_connector": 1
       },
       "review_statuses": {
-        "visually_reviewed_body_polygon": 22
+        "visually_reviewed_body_polygon": 22,
+        "visually_reviewed_homography_projected_body_polygon": 1
       },
       "coverage_claims": [
         "partial_visible_component_bodies"
@@ -290,7 +294,7 @@
         "header contact surfaces and pin endpoints",
         "module shield hides internal components",
         "underside packages not observable in these top-face originals",
-        "unknown dark lower-left package on three other top-face originals"
+        "unknown lower-left package family/order code and electrical identity"
       ],
       "capture_groups": [
         "bench-esp8266-01",
@@ -314,8 +318,8 @@
         "7d0a2f97dd5ae31192b577401cdbe50db0b2190da36b5547ff0582e5d34e0a9f"
       ],
       "hash_matches": true,
-      "reviewed_mask_count": 22,
-      "unique_instance_ids": 22,
+      "reviewed_mask_count": 23,
+      "unique_instance_ids": 23,
       "classes": {
         "capacitor": 8,
         "integrated_circuit": 2,
@@ -323,10 +327,12 @@
         "rf_shield": 1,
         "switch": 2,
         "three_terminal_package": 2,
+        "unknown_package": 1,
         "usb_connector": 1
       },
       "review_statuses": {
-        "visually_reviewed_body_polygon": 22
+        "visually_reviewed_body_polygon": 22,
+        "visually_reviewed_homography_projected_body_polygon": 1
       },
       "coverage_claims": [
         "partial_visible_component_bodies"
@@ -335,7 +341,7 @@
         "header contact surfaces and pin endpoints",
         "module shield hides internal components",
         "underside packages not observable in these top-face originals",
-        "unknown dark lower-left package on three other top-face originals"
+        "unknown lower-left package family/order code and electrical identity"
       ],
       "capture_groups": [
         "bench-esp8266-01",
@@ -386,7 +392,7 @@
         "other IC and three-terminal packages",
         "passives",
         "underside packages not observable in these top-face originals",
-        "unknown dark lower-left package on three other top-face originals"
+        "unknown lower-left package family/order code and electrical identity"
       ],
       "capture_groups": [
         "bench-esp8266-01",
