@@ -68,6 +68,8 @@ def build():
             'link_status': 'unresolved_photo_local_instance',
             'candidate_only': True,
         }
+        if mask.get('identity_correction_evidence'):
+            row['identity_correction_evidence'] = mask['identity_correction_evidence']
         if ref:
             component = components.get(ref)
             if component is None:

@@ -1235,9 +1235,10 @@
       "image_sha256": "00bdc20da4286033a2c2f1c1d146ee3ece21be8ca322f4d33b7fdc8738038170",
       "image_width": 3072,
       "image_height": 4096,
-      "instance_id": "IMG_20261010_092203.jpg:Y1",
+      "instance_id": "IMG_20261010_092203.jpg:Y3",
       "class_name": "crystal_oscillator",
-      "observed_reference_designator": "Y1",
+      "observed_reference_designator": "Y3",
+      "identity_correction_evidence": "Adjacent Y3 silkscreen is visible in the source photo and two target views; source Y1 is the separate crystal near USB. Corrected after named-hole planar projection audit, not by proximity assignment.",
       "observed_marking_family": null,
       "polygon_xy_pixels": [
         [
@@ -3343,9 +3344,10 @@
       "image_sha256": "20a002865f47408c131c38e8823adb2fabd7c783e9954a3a580d69e24bccfe4b",
       "image_width": 3072,
       "image_height": 4096,
-      "instance_id": "IMG_20261009_221755.jpg:Y1",
+      "instance_id": "IMG_20261009_221755.jpg:Y3",
       "class_name": "crystal_oscillator",
-      "observed_reference_designator": "Y1",
+      "observed_reference_designator": "Y3",
+      "identity_correction_evidence": "Visible Y3 silkscreen and reviewed same-body correspondence; original Y1 identity was incorrect.",
       "observed_marking_family": null,
       "polygon_xy_pixels": [
         [
@@ -3371,7 +3373,7 @@
       "boundary_uncertainty_pixels": 10,
       "installed_order_code_confirmed": false,
       "identity_status": "same-board feature/context correspondence; target order code/marking not readable",
-      "source_annotation_instance_id": "IMG_20261010_092203.jpg:Y1",
+      "source_annotation_instance_id": "IMG_20261010_092203.jpg:Y3",
       "source_annotation_image": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
       "capture_session_id": "nxp-phone-2026-10-09-night",
       "capture_group_id": "nxp-phone-2026-10-09-night",
@@ -4190,9 +4192,10 @@
       "image_sha256": "f2fc47a803bd2066131be6edd2503137a955b6606f8ce7fa77b9559c2c8d93b0",
       "image_width": 3072,
       "image_height": 4096,
-      "instance_id": "IMG_20261010_092206.jpg:Y1",
+      "instance_id": "IMG_20261010_092206.jpg:Y3",
       "class_name": "crystal_oscillator",
-      "observed_reference_designator": "Y1",
+      "observed_reference_designator": "Y3",
+      "identity_correction_evidence": "Adjacent Y3 silkscreen checked in this original image; original Y1 identity was incorrect.",
       "observed_marking_family": null,
       "polygon_xy_pixels": [
         [
@@ -4218,7 +4221,7 @@
       "boundary_uncertainty_pixels": 8,
       "installed_order_code_confirmed": false,
       "identity_status": "observed_refdes_or_photo_local_body; installed exact order code unresolved",
-      "source_annotation_instance_id": "IMG_20261010_092203.jpg:Y1",
+      "source_annotation_instance_id": "IMG_20261010_092203.jpg:Y3",
       "source_annotation_image": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
       "capture_session_id": "nxp-phone-2026-10-10-morning",
       "capture_group_id": "nxp-phone-2026-10-10-morning",
