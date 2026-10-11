@@ -24,6 +24,7 @@ DEFAULT_FILES = (
     "annotations/esp32-complete-visible-frame-review.json",
     "annotations/esp8266-frame-component-complete-review.json",
     "annotations/nxp-fullframe-component-review.json",
+    "annotations/nxp-underside-component-review.json",
 )
 
 
