@@ -5,7 +5,7 @@
   "specimen_assignment_status": "same_bench_specimen_assumed_for_leakage_control",
   "required_split_group": "bench-esp8266-01",
   "photo_review_path": "annotations/esp8266-dense-component-review.json",
-  "photo_review_sha256": "f9f9d9a751a5dc163bb6274f1bb4deb62ca74bf7c92e45a4fc021db9b0d419bb",
+  "photo_review_sha256": "1febbf91348f8eb2325fd8138a45b5cb35a98d140b92fe76f0a7b2dfe7d21551",
   "video_review_path": "annotations/esp8266-video-component-review.json",
   "video_review_sha256": "d073d6a7de45a1cd7cd1c1ec1de963b2f2981a5d3555b3698810026dda7d1b95",
   "video_manifest_path": "data/video-captures/2026-10-10/esp12e-keyframes/manifest.json",
