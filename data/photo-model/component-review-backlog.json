@@ -1,0 +1,635 @@
+{
+  "schema_version": "1.0",
+  "purpose": "Conservative frame-level queue for completing visible component masks; not an annotation or training export.",
+  "source_annotation_files": [
+    "annotations/ar-instance-masks.json",
+    "annotations/esp32-dense-component-review.json",
+    "annotations/esp8266-component-mask-review.json",
+    "annotations/esp8266-dense-component-review.json",
+    "annotations/esp8266-video-component-review.json",
+    "annotations/nxp-dense-component-review.json",
+    "annotations/ultimainboard-specimen-component-masks.json",
+    "annotations/ultimainboard-dense-component-review.json"
+  ],
+  "unique_frames": 14,
+  "reviewed_mask_records_before_deduplication": 424,
+  "frame_action_counts": {
+    "finish_visible_instance_masks_and_review_coverage": 14
+  },
+  "ordinary_yolo_trainable_frames": 0,
+  "rules": [
+    "Mask count alone never implies complete frame coverage.",
+    "A frame is marked safe only with explicit complete_visible_instances coverage, all explicit training flags true, and verified image provenance.",
+    "Partial frames remain queued for complete annotation; do not export them as background-complete YOLO labels."
+  ],
+  "frames": [
+    {
+      "image_path": "data/video-captures/2026-10-10/esp12e-keyframes/video_20261010_122211_n000000_pts00000000ms.jpg",
+      "board_family_candidates": [
+        "esp8266_nodemcu_esp12e_clone_unknown_variant"
+      ],
+      "image_exists": true,
+      "image_sha256": "295d85e1a461fc4983095af9ef80819a3a5c6e2c3453c99777b8ce3f7d31c9e1",
+      "declared_sha256_values": [
+        "295d85e1a461fc4983095af9ef80819a3a5c6e2c3453c99777b8ce3f7d31c9e1"
+      ],
+      "hash_matches": true,
+      "reviewed_mask_count": 2,
+      "unique_instance_ids": 2,
+      "classes": {
+        "resistor": 2
+      },
+      "review_statuses": {
+        "visually_reviewed_body_polygon": 2
+      },
+      "coverage_claims": [
+        "partial_visible_component_bodies"
+      ],
+      "remaining_review": [],
+      "capture_groups": [
+        "bench-esp8266-01",
+        "bench-esp8266-01:20261010_122211"
+      ],
+      "annotation_sources": [
+        "annotations/esp8266-video-component-review.json"
+      ],
+      "ordinary_yolo_training_safe": false,
+      "next_action": "finish_visible_instance_masks_and_review_coverage"
+    },
+    {
+      "image_path": "data/photo-model/photos/raw/IMG_20261009_221755_1.jpg",
+      "board_family_candidates": [],
+      "image_exists": true,
+      "image_sha256": "39fc7bf72f364c0b0e848dc9fe9492b85efbdef1481a28d9bbecf4787e51a47e",
+      "declared_sha256_values": [
+        "39fc7bf72f364c0b0e848dc9fe9492b85efbdef1481a28d9bbecf4787e51a47e"
+      ],
+      "hash_matches": true,
+      "reviewed_mask_count": 8,
+      "unique_instance_ids": 8,
+      "classes": {
+        "button": 1,
+        "connector_header": 4,
+        "integrated_circuit": 3
+      },
+      "review_statuses": {
+        "visually_reviewed_body_polygon": 8
+      },
+      "coverage_claims": [
+        "partial_visible_component_bodies"
+      ],
+      "remaining_review": [],
+      "capture_groups": [],
+      "annotation_sources": [
+        "annotations/ar-instance-masks.json"
+      ],
+      "ordinary_yolo_training_safe": false,
+      "next_action": "finish_visible_instance_masks_and_review_coverage"
+    },
+    {
+      "image_path": "data/video-captures/2026-10-10/esp12e-keyframes/video_20261010_122211_n000523_pts00017497ms.jpg",
+      "board_family_candidates": [
+        "esp8266_nodemcu_esp12e_clone_unknown_variant"
+      ],
+      "image_exists": true,
+      "image_sha256": "bcf9d38b8de7e5792fd9795f9d7a8b855279ab15fa1f0135a930f786485fba09",
+      "declared_sha256_values": [
+        "bcf9d38b8de7e5792fd9795f9d7a8b855279ab15fa1f0135a930f786485fba09"
+      ],
+      "hash_matches": true,
+      "reviewed_mask_count": 18,
+      "unique_instance_ids": 18,
+      "classes": {
+        "capacitor": 7,
+        "integrated_circuit": 2,
+        "resistor": 3,
+        "rf_module": 1,
+        "switch": 2,
+        "three_terminal_package": 2,
+        "usb_connector": 1
+      },
+      "review_statuses": {
+        "visually_reviewed_body_polygon": 18
+      },
+      "coverage_claims": [
+        "partial_visible_component_bodies"
+      ],
+      "remaining_review": [],
+      "capture_groups": [
+        "bench-esp8266-01",
+        "bench-esp8266-01:20261010_122211"
+      ],
+      "annotation_sources": [
+        "annotations/esp8266-video-component-review.json"
+      ],
+      "ordinary_yolo_training_safe": false,
+      "next_action": "finish_visible_instance_masks_and_review_coverage"
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092206.jpg",
+      "board_family_candidates": [
+        "NXP FRDM-MCXN236"
+      ],
+      "image_exists": true,
+      "image_sha256": "f2fc47a803bd2066131be6edd2503137a955b6606f8ce7fa77b9559c2c8d93b0",
+      "declared_sha256_values": [
+        "f2fc47a803bd2066131be6edd2503137a955b6606f8ce7fa77b9559c2c8d93b0"
+      ],
+      "hash_matches": true,
+      "reviewed_mask_count": 19,
+      "unique_instance_ids": 19,
+      "classes": {
+        "crystal_oscillator": 3,
+        "integrated_circuit": 10,
+        "tactile_switch": 4,
+        "usb_connector": 2
+      },
+      "review_statuses": {
+        "visually_reviewed_target_body_polygon": 19
+      },
+      "coverage_claims": [
+        "partial_visible_component_bodies"
+      ],
+      "remaining_review": [
+        "Complete every supported class instance before training export",
+        "Dense passive bodies and header/contact silhouettes",
+        "Installed exact identities; target markings are only evidence when readable",
+        "Other small semiconductor packages/class disambiguation",
+        "Resolve all remaining tiny resistor/capacitor bodies and crowded arrays using closer views",
+        "Review underside and independent capture sessions; no generated back-side instances",
+        "Verify ambiguous upper IC reference designator and family from macro photos"
+      ],
+      "capture_groups": [
+        "nxp-phone-2026-10-10-morning",
+        "nxp-user-board-01"
+      ],
+      "annotation_sources": [
+        "annotations/nxp-dense-component-review.json"
+      ],
+      "ordinary_yolo_training_safe": false,
+      "next_action": "finish_visible_instance_masks_and_review_coverage"
+    },
+    {
+      "image_path": "data/photo-model/by_board/nxp_frdm_mcxn_board/IMG_20261009_221755.jpg",
+      "board_family_candidates": [
+        "NXP FRDM-MCXN236"
+      ],
+      "image_exists": true,
+      "image_sha256": "20a002865f47408c131c38e8823adb2fabd7c783e9954a3a580d69e24bccfe4b",
+      "declared_sha256_values": [
+        "20a002865f47408c131c38e8823adb2fabd7c783e9954a3a580d69e24bccfe4b"
+      ],
+      "hash_matches": true,
+      "reviewed_mask_count": 19,
+      "unique_instance_ids": 19,
+      "classes": {
+        "crystal_oscillator": 3,
+        "integrated_circuit": 10,
+        "tactile_switch": 4,
+        "usb_connector": 2
+      },
+      "review_statuses": {
+        "visually_reviewed_target_body_polygon": 19
+      },
+      "coverage_claims": [
+        "partial_visible_component_bodies"
+      ],
+      "remaining_review": [
+        "Complete every supported class instance before training export",
+        "Dense passive bodies and header/contact silhouettes",
+        "Installed exact identities; target markings are only evidence when readable",
+        "Other small semiconductor packages/class disambiguation",
+        "Resolve all remaining tiny resistor/capacitor bodies and crowded arrays using closer views",
+        "Review underside and independent capture sessions; no generated back-side instances",
+        "Verify ambiguous upper IC reference designator and family from macro photos"
+      ],
+      "capture_groups": [
+        "nxp-phone-2026-10-09-night",
+        "nxp-user-board-01"
+      ],
+      "annotation_sources": [
+        "annotations/nxp-dense-component-review.json"
+      ],
+      "ordinary_yolo_training_safe": false,
+      "next_action": "finish_visible_instance_masks_and_review_coverage"
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092223.jpg",
+      "board_family_candidates": [
+        "esp8266_nodemcu_esp12e_clone_unknown_variant"
+      ],
+      "image_exists": true,
+      "image_sha256": "d5f4a8e70461dcd156bca91908d67a58d0276662f71e2637dba141cbcde278eb",
+      "declared_sha256_values": [
+        "d5f4a8e70461dcd156bca91908d67a58d0276662f71e2637dba141cbcde278eb"
+      ],
+      "hash_matches": true,
+      "reviewed_mask_count": 22,
+      "unique_instance_ids": 22,
+      "classes": {
+        "capacitor": 8,
+        "integrated_circuit": 2,
+        "resistor": 6,
+        "rf_shield": 1,
+        "switch": 2,
+        "three_terminal_package": 2,
+        "usb_connector": 1
+      },
+      "review_statuses": {
+        "visually_reviewed_body_polygon": 22
+      },
+      "coverage_claims": [
+        "partial_visible_component_bodies"
+      ],
+      "remaining_review": [
+        "header contact surfaces and pin endpoints",
+        "module shield hides internal components",
+        "underside packages not observable in these top-face originals",
+        "unknown dark lower-left package on three other top-face originals"
+      ],
+      "capture_groups": [
+        "bench-esp8266-01",
+        "bench-esp8266-01:20261010_0922",
+        "bench-esp8266-01:20261010_092221"
+      ],
+      "annotation_sources": [
+        "annotations/esp8266-dense-component-review.json"
+      ],
+      "ordinary_yolo_training_safe": false,
+      "next_action": "finish_visible_instance_masks_and_review_coverage"
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092226.jpg",
+      "board_family_candidates": [
+        "esp8266_nodemcu_esp12e_clone_unknown_variant"
+      ],
+      "image_exists": true,
+      "image_sha256": "9142f26e3e4ac4e41a6f65d83bb3ef66dd5ec5bface427a16aa8b4bb7a672b07",
+      "declared_sha256_values": [
+        "9142f26e3e4ac4e41a6f65d83bb3ef66dd5ec5bface427a16aa8b4bb7a672b07"
+      ],
+      "hash_matches": true,
+      "reviewed_mask_count": 22,
+      "unique_instance_ids": 22,
+      "classes": {
+        "capacitor": 8,
+        "integrated_circuit": 2,
+        "resistor": 6,
+        "rf_shield": 1,
+        "switch": 2,
+        "three_terminal_package": 2,
+        "usb_connector": 1
+      },
+      "review_statuses": {
+        "visually_reviewed_body_polygon": 22
+      },
+      "coverage_claims": [
+        "partial_visible_component_bodies"
+      ],
+      "remaining_review": [
+        "header contact surfaces and pin endpoints",
+        "module shield hides internal components",
+        "underside packages not observable in these top-face originals",
+        "unknown dark lower-left package on three other top-face originals"
+      ],
+      "capture_groups": [
+        "bench-esp8266-01",
+        "bench-esp8266-01:20261010_0922",
+        "bench-esp8266-01:20261010_092221"
+      ],
+      "annotation_sources": [
+        "annotations/esp8266-dense-component-review.json"
+      ],
+      "ordinary_yolo_training_safe": false,
+      "next_action": "finish_visible_instance_masks_and_review_coverage"
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092229.jpg",
+      "board_family_candidates": [
+        "esp8266_nodemcu_esp12e_clone_unknown_variant"
+      ],
+      "image_exists": true,
+      "image_sha256": "7d0a2f97dd5ae31192b577401cdbe50db0b2190da36b5547ff0582e5d34e0a9f",
+      "declared_sha256_values": [
+        "7d0a2f97dd5ae31192b577401cdbe50db0b2190da36b5547ff0582e5d34e0a9f"
+      ],
+      "hash_matches": true,
+      "reviewed_mask_count": 22,
+      "unique_instance_ids": 22,
+      "classes": {
+        "capacitor": 8,
+        "integrated_circuit": 2,
+        "resistor": 6,
+        "rf_shield": 1,
+        "switch": 2,
+        "three_terminal_package": 2,
+        "usb_connector": 1
+      },
+      "review_statuses": {
+        "visually_reviewed_body_polygon": 22
+      },
+      "coverage_claims": [
+        "partial_visible_component_bodies"
+      ],
+      "remaining_review": [
+        "header contact surfaces and pin endpoints",
+        "module shield hides internal components",
+        "underside packages not observable in these top-face originals",
+        "unknown dark lower-left package on three other top-face originals"
+      ],
+      "capture_groups": [
+        "bench-esp8266-01",
+        "bench-esp8266-01:20261010_0922",
+        "bench-esp8266-01:20261010_092221"
+      ],
+      "annotation_sources": [
+        "annotations/esp8266-dense-component-review.json"
+      ],
+      "ordinary_yolo_training_safe": false,
+      "next_action": "finish_visible_instance_masks_and_review_coverage"
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092221.jpg",
+      "board_family_candidates": [
+        "esp8266_nodemcu_esp12e_clone_unknown_variant"
+      ],
+      "image_exists": true,
+      "image_sha256": "9d68458beac56198249982eda3de4dfc02904a701ea5d7496c6774af4c994461",
+      "declared_sha256_values": [
+        "9d68458beac56198249982eda3de4dfc02904a701ea5d7496c6774af4c994461"
+      ],
+      "hash_matches": true,
+      "reviewed_mask_count": 28,
+      "unique_instance_ids": 23,
+      "classes": {
+        "capacitor": 8,
+        "integrated_circuit": 3,
+        "resistor": 6,
+        "rf_shield": 2,
+        "switch": 4,
+        "three_terminal_package": 2,
+        "unknown_package": 1,
+        "usb_connector": 2
+      },
+      "review_statuses": {
+        "visually_reviewed_body_polygon": 28
+      },
+      "coverage_claims": [
+        "partial_visible_component_bodies"
+      ],
+      "remaining_review": [
+        "LEDs/diodes",
+        "capacitors",
+        "header contact surfaces and pin endpoints",
+        "header contacts and pin endpoints",
+        "module shield hides internal components",
+        "other IC and three-terminal packages",
+        "passives",
+        "underside packages not observable in these top-face originals",
+        "unknown dark lower-left package on three other top-face originals"
+      ],
+      "capture_groups": [
+        "bench-esp8266-01",
+        "bench-esp8266-01:20261010_0922",
+        "bench-esp8266-01:20261010_092221"
+      ],
+      "annotation_sources": [
+        "annotations/esp8266-component-mask-review.json",
+        "annotations/esp8266-dense-component-review.json"
+      ],
+      "ordinary_yolo_training_safe": false,
+      "next_action": "finish_visible_instance_masks_and_review_coverage"
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092144.jpg",
+      "board_family_candidates": [
+        "esp32_devkit_30pin_unknown_variant"
+      ],
+      "image_exists": true,
+      "image_sha256": "d33bf83877365f57dc03d36388518207090acbd5b57db93ca96742c1ecd05ed7",
+      "declared_sha256_values": [
+        "d33bf83877365f57dc03d36388518207090acbd5b57db93ca96742c1ecd05ed7"
+      ],
+      "hash_matches": true,
+      "reviewed_mask_count": 33,
+      "unique_instance_ids": 28,
+      "classes": {
+        "chip_passive": 20,
+        "integrated_circuit": 2,
+        "rf_module": 2,
+        "switch": 4,
+        "three_terminal_package": 2,
+        "three_terminal_power_package": 1,
+        "usb_connector": 2
+      },
+      "review_statuses": {
+        "visually_reviewed_body_polygon": 33
+      },
+      "coverage_claims": [
+        "partial_visible_component_bodies"
+      ],
+      "remaining_review": [
+        "Construct an independent evaluation split from separately reviewed captures/specimens.",
+        "Mask individual exposed contacts with parent-part orientation evidence.",
+        "Resolve exact identities or explicitly define observable-family classes before training.",
+        "Review residual or occluded body boundaries before declaring exhaustive coverage.",
+        "Verify full RF module outline versus shield-only scope consistently across views."
+      ],
+      "capture_groups": [
+        "bench-esp32-01",
+        "bench-esp32-01:20261010_morning"
+      ],
+      "annotation_sources": [
+        "annotations/ar-instance-masks.json",
+        "annotations/esp32-dense-component-review.json"
+      ],
+      "ordinary_yolo_training_safe": false,
+      "next_action": "finish_visible_instance_masks_and_review_coverage"
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092149.jpg",
+      "board_family_candidates": [
+        "esp32_devkit_30pin_unknown_variant"
+      ],
+      "image_exists": true,
+      "image_sha256": "f99756a1c369609e24570c76d5600eff9eb3b3d749644f2d9664c63b075bd2c2",
+      "declared_sha256_values": [
+        "f99756a1c369609e24570c76d5600eff9eb3b3d749644f2d9664c63b075bd2c2"
+      ],
+      "hash_matches": true,
+      "reviewed_mask_count": 33,
+      "unique_instance_ids": 28,
+      "classes": {
+        "chip_passive": 20,
+        "integrated_circuit": 2,
+        "rf_module": 2,
+        "switch": 4,
+        "three_terminal_package": 2,
+        "three_terminal_power_package": 1,
+        "usb_connector": 2
+      },
+      "review_statuses": {
+        "visually_reviewed_body_polygon": 33
+      },
+      "coverage_claims": [
+        "partial_visible_component_bodies"
+      ],
+      "remaining_review": [
+        "Construct an independent evaluation split from separately reviewed captures/specimens.",
+        "Mask individual exposed contacts with parent-part orientation evidence.",
+        "Resolve exact identities or explicitly define observable-family classes before training.",
+        "Review residual or occluded body boundaries before declaring exhaustive coverage.",
+        "Verify full RF module outline versus shield-only scope consistently across views."
+      ],
+      "capture_groups": [
+        "bench-esp32-01",
+        "bench-esp32-01:20261010_morning"
+      ],
+      "annotation_sources": [
+        "annotations/ar-instance-masks.json",
+        "annotations/esp32-dense-component-review.json"
+      ],
+      "ordinary_yolo_training_safe": false,
+      "next_action": "finish_visible_instance_masks_and_review_coverage"
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092153.jpg",
+      "board_family_candidates": [
+        "esp32_devkit_30pin_unknown_variant"
+      ],
+      "image_exists": true,
+      "image_sha256": "14b4208819a0e8f20bd75204cf7bdd8676f2a89fd3419412ab0f06b53d2c3854",
+      "declared_sha256_values": [
+        "14b4208819a0e8f20bd75204cf7bdd8676f2a89fd3419412ab0f06b53d2c3854"
+      ],
+      "hash_matches": true,
+      "reviewed_mask_count": 33,
+      "unique_instance_ids": 28,
+      "classes": {
+        "chip_passive": 20,
+        "integrated_circuit": 2,
+        "rf_module": 2,
+        "switch": 4,
+        "three_terminal_package": 2,
+        "three_terminal_power_package": 1,
+        "usb_connector": 2
+      },
+      "review_statuses": {
+        "visually_reviewed_body_polygon": 33
+      },
+      "coverage_claims": [
+        "partial_visible_component_bodies"
+      ],
+      "remaining_review": [
+        "Construct an independent evaluation split from separately reviewed captures/specimens.",
+        "Mask individual exposed contacts with parent-part orientation evidence.",
+        "Resolve exact identities or explicitly define observable-family classes before training.",
+        "Review residual or occluded body boundaries before declaring exhaustive coverage.",
+        "Verify full RF module outline versus shield-only scope consistently across views."
+      ],
+      "capture_groups": [
+        "bench-esp32-01",
+        "bench-esp32-01:20261010_morning"
+      ],
+      "annotation_sources": [
+        "annotations/ar-instance-masks.json",
+        "annotations/esp32-dense-component-review.json"
+      ],
+      "ordinary_yolo_training_safe": false,
+      "next_action": "finish_visible_instance_masks_and_review_coverage"
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-10/IMG_20261010_092203.jpg",
+      "board_family_candidates": [
+        "NXP FRDM-MCXN236"
+      ],
+      "image_exists": true,
+      "image_sha256": "00bdc20da4286033a2c2f1c1d146ee3ece21be8ca322f4d33b7fdc8738038170",
+      "declared_sha256_values": [
+        "00bdc20da4286033a2c2f1c1d146ee3ece21be8ca322f4d33b7fdc8738038170"
+      ],
+      "hash_matches": true,
+      "reviewed_mask_count": 69,
+      "unique_instance_ids": 66,
+      "classes": {
+        "capacitor": 15,
+        "crystal_oscillator": 3,
+        "header_connector": 13,
+        "inductor": 1,
+        "integrated_circuit": 11,
+        "led": 1,
+        "resistor": 16,
+        "tactile_switch": 4,
+        "transistor_package": 1,
+        "usb_connector": 4
+      },
+      "review_statuses": {
+        "visually_reviewed_body_polygon": 69
+      },
+      "coverage_claims": [
+        "partial_visible_component_bodies"
+      ],
+      "remaining_review": [
+        "Complete every supported class instance before training export",
+        "Resolve all remaining tiny resistor/capacitor bodies and crowded arrays using closer views",
+        "Review underside and independent capture sessions; no generated back-side instances",
+        "Verify ambiguous upper IC reference designator and family from macro photos"
+      ],
+      "capture_groups": [
+        "nxp-phone-2026-10-10-morning",
+        "nxp-user-board-01"
+      ],
+      "annotation_sources": [
+        "annotations/ar-instance-masks.json",
+        "annotations/nxp-dense-component-review.json"
+      ],
+      "ordinary_yolo_training_safe": false,
+      "next_action": "finish_visible_instance_masks_and_review_coverage"
+    },
+    {
+      "image_path": "data/photo-model/by_board/ultimainboard/IMG_20261009_222135_1.jpg",
+      "board_family_candidates": [
+        "ultimainboard_2_1_4"
+      ],
+      "image_exists": true,
+      "image_sha256": "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df",
+      "declared_sha256_values": [
+        "a27826395afbbd16c45d6afe0085d43f526f31058b287a768e86c367021682df"
+      ],
+      "hash_matches": true,
+      "reviewed_mask_count": 96,
+      "unique_instance_ids": 93,
+      "classes": {
+        "ceramic_capacitor": 15,
+        "connector": 19,
+        "crystal": 1,
+        "diode": 9,
+        "electrolytic_capacitor": 7,
+        "inductor": 1,
+        "integrated_circuit": 16,
+        "pin_header": 8,
+        "relay": 1,
+        "resistor": 11,
+        "terminal_block": 1,
+        "transistor": 6,
+        "usb_b_connector": 1
+      },
+      "review_statuses": {
+        "visually_reviewed_body_polygon_source_refdes_candidate": 3,
+        "visually_reviewed_original_pixel_body": 93
+      },
+      "coverage_claims": [
+        "partial_visible_instances",
+        "three reviewed visible IC package-body masks on one marked rev. 2.1.4 specimen photo"
+      ],
+      "remaining_review": [],
+      "capture_groups": [],
+      "annotation_sources": [
+        "annotations/ultimainboard-dense-component-review.json",
+        "annotations/ultimainboard-specimen-component-masks.json"
+      ],
+      "ordinary_yolo_training_safe": false,
+      "next_action": "finish_visible_instance_masks_and_review_coverage"
+    }
+  ]
+}

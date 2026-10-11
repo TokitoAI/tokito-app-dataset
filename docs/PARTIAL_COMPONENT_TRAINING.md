@@ -105,3 +105,30 @@ loss numerically; this removes its huge foreground-by-640-by-640 BCE temporary
 without lowering mask resolution, shrinking the model or changing labels.
 Metadata-only CI skips this optional numerical test module when torch is absent;
 the dedicated GPU runtime runs all eight tests.
+
+## Latest checkpoint audit — 2026-10-11
+
+The dynamic run already completed; do not repeat it from the same partial labels
+and present the result as a new accuracy gain. `work/partial-component-diagnostic/run/progress.json`
+is authoritative: 91 epochs completed under a 1000-epoch ceiling, patience 80,
+best validation partial loss at epoch 11, and stop reason `patience`. The
+checkpoint is `models/partial-component-diagnostic/best.pt` with SHA-256
+`c49095ae6802c418a1c1d04094b6a7f0740a46df820fde48cb3afca94f02b38e`.
+
+At confidence 0.25, the four known-specimen partial validation frames yielded
+3 true-positive reviewed masks, 4 false positives in audited regions, 41
+missed reviewed masks and 8 ignored predictions: audited-region precision
+0.429 and reviewed-instance recall 0.068. The separate confidence sweep traded
+that high-cutoff precision for recall (at confidence 0.01: precision 0.288,
+recall 0.477, 52 audited-region false positives). Both are diagnostic-only,
+not held-out accuracy. The checkpoint is not an every-part detector and must
+not be selected as production-ready from these measurements.
+
+The latest dataset audit found 424 source records / 398 unique image-instance
+pairs across 14 reviewed frames; all polygon integrity checks pass, but no
+frame has verified exhaustive visible-component coverage. The generated
+`data/photo-model/component-review-backlog.json` is the annotation queue.
+See [public component dataset audit](PUBLIC_COMPONENT_DATASET_AUDIT_2026-10-11.md)
+for external sources and access/licensing status. A meaningful next checkpoint
+requires additional complete Tokito masks and independent specimen/session
+evaluation, or a reviewed import of compatible public instance masks.

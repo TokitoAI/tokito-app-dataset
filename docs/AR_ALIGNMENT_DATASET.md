@@ -30,6 +30,29 @@ connector parents. They cannot become numeric pin identities by proximity.
 - The photographed NXP revision is unverified. Its mesh joins are source
   candidates; the design BOM order code is not a confirmed fitted part number.
 
+The [Ultimaker photo-to-mesh crosswalk](../data/ar-alignment/ultimaker-photo-mesh-crosswalk.json)
+now joins 90 of 93 reviewed photographed body instances to distinct
+`ref:<designator>` selectors in the source GLB candidate. All 90 selectors
+resolve to non-empty, exclusive subtrees (111 meshes total). Two header-strip
+instances have conflicting source identity and C106 remains unresolved, so
+those three are excluded. These joins identify selectable candidates only:
+physical board revision, fitted part identity, metric photo-to-GLB pose and
+continuous flip have not been verified, so no link is release eligible.
+
+The [Ultimaker planar anchor candidates](../data/ar-alignment/ultimaker-planar-anchor-candidates.json)
+pair the same four native SP1–SP4 spacer-hole centers with both an iQOO
+component-face and solder-face photo. The native outline projected from each
+four-point homography visually follows the photographed board edge; the
+[review overlay](../previews/ultimaker-planar-anchor-candidates.jpg) shows the
+correspondences. This is a fixed source-frame candidate for a two-face AR
+handoff. Four points fit a homography exactly and do not independently prove
+camera intrinsics, 3D pose, specimen equivalence or a continuous flip.
+
+As a separate same-photo check, the projected native U1 footprint center lands
+inside the visible U1 package, 59.3 original-image pixels from its thresholded
+body center. This supports the proposed planar correspondence but is not a
+camera-pose accuracy claim or an independent capture evaluation.
+
 The released NXP manifest uses board-outline corner landmarks. The reviewed
 phone photo instead uses mounting holes. The alignment index records
 `asset_anchor_override_required` and the paired hole positions; a pose model

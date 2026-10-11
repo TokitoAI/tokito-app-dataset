@@ -1,0 +1,275 @@
+{
+  "status": "completed",
+  "architecture": "YOLO11m-seg",
+  "classes": [
+    "ic_package",
+    "chip_passive",
+    "connector",
+    "rf_module",
+    "switch",
+    "crystal",
+    "discrete_semiconductor",
+    "inductor"
+  ],
+  "epochs_completed": 25,
+  "best_epoch": 2,
+  "stop_reason": "manual early stop after persistent validation degradation",
+  "best_validation_partial_loss": 6.223581625865056,
+  "checkpoint": "work\\component-segmentation-v2\\run-20261011-045632\\weights\\best.pt",
+  "checkpoint_sha256": "bde65db58f0aa724b9bb84a98e9f71c9657f2a3c07a07b7074f93424bb81eea9",
+  "external_test": {
+    "confidence": 0.25,
+    "mask_iou_threshold": 0.5,
+    "tp": 210,
+    "fp_in_reviewed_pixels": 70,
+    "fn_reviewed": 490,
+    "ignored": 28,
+    "precision_in_reviewed_scope": 0.75,
+    "recall_of_reviewed_instances": 0.3,
+    "evaluation_valid": false,
+    "scope": "external held-out connected semantic components plus local partial masks; touching regions/proposal errors remain possible",
+    "per_class": {
+      "ic_package": {
+        "tp": 157,
+        "fp": 39,
+        "fn": 193
+      },
+      "chip_passive": {
+        "tp": 43,
+        "fp": 19,
+        "fn": 61
+      },
+      "connector": {
+        "tp": 10,
+        "fp": 12,
+        "fn": 236
+      },
+      "rf_module": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      },
+      "switch": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      },
+      "crystal": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      },
+      "discrete_semiconductor": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      },
+      "inductor": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    "images": [
+      {
+        "source": "PCB-Vision",
+        "id": "10",
+        "tp": 54,
+        "fp_in_reviewed_pixels": 12,
+        "fn_reviewed": 63,
+        "ignored": 5,
+        "ground_truth_instances": 117
+      },
+      {
+        "source": "PCB-Vision",
+        "id": "15",
+        "tp": 19,
+        "fp_in_reviewed_pixels": 33,
+        "fn_reviewed": 25,
+        "ignored": 3,
+        "ground_truth_instances": 44
+      },
+      {
+        "source": "PCB-Vision",
+        "id": "16",
+        "tp": 5,
+        "fp_in_reviewed_pixels": 1,
+        "fn_reviewed": 25,
+        "ignored": 8,
+        "ground_truth_instances": 30
+      },
+      {
+        "source": "PCB-Vision",
+        "id": "17",
+        "tp": 14,
+        "fp_in_reviewed_pixels": 6,
+        "fn_reviewed": 47,
+        "ignored": 9,
+        "ground_truth_instances": 61
+      },
+      {
+        "source": "PCB-Vision",
+        "id": "22",
+        "tp": 26,
+        "fp_in_reviewed_pixels": 9,
+        "fn_reviewed": 56,
+        "ignored": 0,
+        "ground_truth_instances": 82
+      },
+      {
+        "source": "PCB-Vision",
+        "id": "23",
+        "tp": 3,
+        "fp_in_reviewed_pixels": 1,
+        "fn_reviewed": 51,
+        "ignored": 0,
+        "ground_truth_instances": 54
+      },
+      {
+        "source": "PCB-Vision",
+        "id": "25",
+        "tp": 28,
+        "fp_in_reviewed_pixels": 1,
+        "fn_reviewed": 25,
+        "ignored": 0,
+        "ground_truth_instances": 53
+      },
+      {
+        "source": "PCB-Vision",
+        "id": "40",
+        "tp": 42,
+        "fp_in_reviewed_pixels": 6,
+        "fn_reviewed": 160,
+        "ignored": 2,
+        "ground_truth_instances": 202
+      },
+      {
+        "source": "PCB-Vision",
+        "id": "46",
+        "tp": 9,
+        "fp_in_reviewed_pixels": 1,
+        "fn_reviewed": 1,
+        "ignored": 0,
+        "ground_truth_instances": 10
+      },
+      {
+        "source": "PCB-Vision",
+        "id": "49",
+        "tp": 6,
+        "fp_in_reviewed_pixels": 0,
+        "fn_reviewed": 2,
+        "ignored": 1,
+        "ground_truth_instances": 8
+      },
+      {
+        "source": "PCB-Vision",
+        "id": "52",
+        "tp": 4,
+        "fp_in_reviewed_pixels": 0,
+        "fn_reviewed": 35,
+        "ignored": 0,
+        "ground_truth_instances": 39
+      }
+    ]
+  },
+  "tokito_partial_validation": {
+    "confidence": 0.25,
+    "mask_iou_threshold": 0.5,
+    "tp": 6,
+    "fp_in_reviewed_pixels": 0,
+    "fn_reviewed": 38,
+    "ignored": 1,
+    "precision_in_reviewed_scope": 1.0,
+    "recall_of_reviewed_instances": 0.13636363636363635,
+    "evaluation_valid": false,
+    "scope": "external held-out connected semantic components plus local partial masks; touching regions/proposal errors remain possible",
+    "per_class": {
+      "ic_package": {
+        "tp": 6,
+        "fp": 0,
+        "fn": 7
+      },
+      "chip_passive": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 12
+      },
+      "connector": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 4
+      },
+      "rf_module": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 1
+      },
+      "switch": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 7
+      },
+      "crystal": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 3
+      },
+      "discrete_semiconductor": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 4
+      },
+      "inductor": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    "images": [
+      {
+        "source": "tokito_reviewed",
+        "id": "data/video-captures/2026-10-10/esp12e-keyframes/video_20261010_122211_n000523_pts00017497ms.jpg",
+        "tp": 1,
+        "fp_in_reviewed_pixels": 0,
+        "fn_reviewed": 17,
+        "ignored": 0,
+        "ground_truth_instances": 18
+      },
+      {
+        "source": "tokito_reviewed",
+        "id": "data/video-captures/2026-10-10/esp12e-keyframes/video_20261010_122211_n000000_pts00000000ms.jpg",
+        "tp": 0,
+        "fp_in_reviewed_pixels": 0,
+        "fn_reviewed": 2,
+        "ignored": 0,
+        "ground_truth_instances": 2
+      },
+      {
+        "source": "tokito_reviewed",
+        "id": "data/photo-model/by_board/nxp_frdm_mcxn_board/IMG_20261009_221755.jpg",
+        "tp": 5,
+        "fp_in_reviewed_pixels": 0,
+        "fn_reviewed": 14,
+        "ignored": 1,
+        "ground_truth_instances": 19
+      },
+      {
+        "source": "tokito_reviewed",
+        "id": "data/video-captures/2026-10-10/esp32-keyframes/video_20261010_132302_n000000_pts00000000ms.jpg",
+        "tp": 0,
+        "fp_in_reviewed_pixels": 0,
+        "fn_reviewed": 5,
+        "ignored": 0,
+        "ground_truth_instances": 5
+      }
+    ]
+  },
+  "evaluation_valid": false,
+  "production_eligible": false,
+  "limitations": [
+    "External test masks are connected semantic-region proposals, not exhaustively reviewed component instances.",
+    "Tokito validation reuses known specimens and partial masks.",
+    "Unreviewed gallery photos were excluded from supervised training.",
+    "Exact IC SKU, reference designator, pin identity and 3D pose require board-specific BOM/Gerber/reference registration."
+  ]
+}

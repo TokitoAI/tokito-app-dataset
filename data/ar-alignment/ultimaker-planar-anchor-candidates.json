@@ -1,0 +1,376 @@
+{
+  "schema_version": "1.0",
+  "board_family": "ultimainboard_2_1_4",
+  "source_files_sha256": {
+    "data\\board-sources\\ultimainboard-2.1.4\\generated-kicad\\Ultimainboard-2.1.4.imported.kicad_pcb": "f763641f75470b4fb5b95391ae1ec40ab4ffe2a80bc28dafd2685901c08680b7",
+    "data\\board-sources\\ultimainboard-2.1.4\\ar-source-candidate\\contact-completion\\geometry-coverage.json": "08c29adb129daab4f425c87569ee579fbe04155c35c377c78fd136d63e547f6b",
+    "data\\phone-captures\\2026-10-11\\gallery\\manifest.json": "169897dc251f2898bc96d4ba4efead4498a5ab71932629baab4f2c1ab1413865",
+    "data\\phone-captures\\2026-10-11\\gallery\\view-review.json": "de6e0e89b4b7225629fa75749ba3ca7a9dd4ddd856bbd27961b559338fa994a6"
+  },
+  "source_frame": "native imported PCB millimetres; same fixed XY source coordinates on both visible faces",
+  "asset_frame": "GLB metres; x=(PCB_X-origin_X)/1000, z=(PCB_Y-origin_Y)/1000, y=height",
+  "asset_source_origin_mm": [
+    148.5011,
+    105.003595
+  ],
+  "native_hole_drill_mm": 4.22,
+  "same_physical_specimen_verified": false,
+  "continuous_flip_verified": false,
+  "four_distinct_oblique_sides_verified": false,
+  "metric_camera_pose_verified": false,
+  "release_eligible": false,
+  "limitations": [
+    "Four planar holes define homographies but cannot validate 3D pose or camera intrinsics.",
+    "Two photos are from one gallery session; a continuous same-specimen flip is not documented.",
+    "Image hole centers are visually reviewed candidates with 25-pixel uncertainty.",
+    "Native source versus photographed PCB revision is not physically verified."
+  ],
+  "frames": [
+    {
+      "image_path": "data/phone-captures/2026-10-11/gallery/IMG_20261011_012109.jpg",
+      "image_sha256": "31325a23dad3edf30a061b5895e62543323eefe8b4829b2695f00333522e0f1e",
+      "image_dimensions_wh": [
+        4096,
+        3072
+      ],
+      "visible_face": "component_face",
+      "capture_session_id": "iqoo-gallery-session-2026-10-11",
+      "physical_specimen_id": null,
+      "source_to_image_planar_parity": "same_as_source_face",
+      "landmarks": [
+        {
+          "landmark_id": "SP1",
+          "source_board_xy_mm": [
+            66.0011,
+            70.5036
+          ],
+          "asset_xz_metres": [
+            -0.0825,
+            -0.034499995
+          ],
+          "image_xy_pixels": [
+            472,
+            1157
+          ],
+          "image_center_uncertainty_pixels": 25,
+          "feature": "4.22mm spacer hole centre",
+          "review_status": "manual_crop_review_candidate"
+        },
+        {
+          "landmark_id": "SP2",
+          "source_board_xy_mm": [
+            66.0011,
+            139.5036
+          ],
+          "asset_xz_metres": [
+            -0.0825,
+            0.034500005
+          ],
+          "image_xy_pixels": [
+            465,
+            2667
+          ],
+          "image_center_uncertainty_pixels": 25,
+          "feature": "4.22mm spacer hole centre",
+          "review_status": "manual_crop_review_candidate"
+        },
+        {
+          "landmark_id": "SP3",
+          "source_board_xy_mm": [
+            231.0011,
+            70.5036
+          ],
+          "asset_xz_metres": [
+            0.0825,
+            -0.034499995
+          ],
+          "image_xy_pixels": [
+            3934,
+            751
+          ],
+          "image_center_uncertainty_pixels": 25,
+          "feature": "4.22mm spacer hole centre",
+          "review_status": "manual_crop_review_candidate"
+        },
+        {
+          "landmark_id": "SP4",
+          "source_board_xy_mm": [
+            231.0011,
+            139.5036
+          ],
+          "asset_xz_metres": [
+            0.0825,
+            0.034500005
+          ],
+          "image_xy_pixels": [
+            3963,
+            2329
+          ],
+          "image_center_uncertainty_pixels": 25,
+          "feature": "4.22mm spacer hole centre",
+          "review_status": "manual_crop_review_candidate"
+        }
+      ],
+      "source_board_outline_xy_mm": [
+        [
+          61.0011,
+          65.5036
+        ],
+        [
+          236.0011,
+          65.5036
+        ],
+        [
+          236.0011,
+          144.5036
+        ],
+        [
+          61.0011,
+          144.5036
+        ]
+      ],
+      "predicted_image_outline_xy_pixels": [
+        [
+          372.5,
+          1060.6
+        ],
+        [
+          4041.9,
+          624.9
+        ],
+        [
+          4076.4,
+          2434.0
+        ],
+        [
+          363.4,
+          2787.2
+        ]
+      ],
+      "image_to_source_board_homography": [
+        [
+          0.051652351346,
+          0.00068372039,
+          41.806636459881
+        ],
+        [
+          0.006530519442,
+          0.047340757844,
+          13.691067459663
+        ],
+        [
+          1.4679151e-05,
+          6.799337e-06,
+          1.0
+        ]
+      ],
+      "source_board_to_image_homography": [
+        [
+          19.357480068,
+          -0.163660919,
+          -807.030440378
+        ],
+        [
+          -2.593229895,
+          20.91066063,
+          -177.875044776
+        ],
+        [
+          -0.000266519,
+          -0.000139776,
+          1.0
+        ]
+      ],
+      "homography_fit_note": "Exactly four input pairs; zero fit residual by construction is not an independent accuracy test.",
+      "metric_camera_pose_verified": false,
+      "same_specimen_flip_verified": false,
+      "ar_calibration_release_eligible": false,
+      "independent_visible_component_check": {
+        "reference": "U1",
+        "source_footprint_xy_mm": [
+          203.2411,
+          115.2936
+        ],
+        "projected_footprint_center_xy_pixels": [
+          3343.3,
+          1834.9
+        ],
+        "photo_body_bbox_xywh_pixels": [
+          3209,
+          1706,
+          348,
+          346
+        ],
+        "photo_body_center_xy_pixels": [
+          3383.0,
+          1879.0
+        ],
+        "center_offset_pixels": 59.3,
+        "projected_center_inside_photo_body": true,
+        "measurement_scope": "same-photo U1 dark-body candidate; not independent specimen or pose validation"
+      }
+    },
+    {
+      "image_path": "data/phone-captures/2026-10-11/gallery/IMG_20261011_012119.jpg",
+      "image_sha256": "7f3ca407fa7bd2e7255261041fae615ac45c97c22cfd5c7d2f530496fac6eb5f",
+      "image_dimensions_wh": [
+        3072,
+        4096
+      ],
+      "visible_face": "solder_face",
+      "capture_session_id": "iqoo-gallery-session-2026-10-11",
+      "physical_specimen_id": null,
+      "source_to_image_planar_parity": "mirrored_from_source_face",
+      "landmarks": [
+        {
+          "landmark_id": "SP1",
+          "source_board_xy_mm": [
+            66.0011,
+            70.5036
+          ],
+          "asset_xz_metres": [
+            -0.0825,
+            -0.034499995
+          ],
+          "image_xy_pixels": [
+            2509,
+            3949
+          ],
+          "image_center_uncertainty_pixels": 25,
+          "feature": "4.22mm spacer hole centre",
+          "review_status": "manual_crop_review_candidate"
+        },
+        {
+          "landmark_id": "SP2",
+          "source_board_xy_mm": [
+            66.0011,
+            139.5036
+          ],
+          "asset_xz_metres": [
+            -0.0825,
+            0.034500005
+          ],
+          "image_xy_pixels": [
+            648,
+            3961
+          ],
+          "image_center_uncertainty_pixels": 25,
+          "feature": "4.22mm spacer hole centre",
+          "review_status": "manual_crop_review_candidate"
+        },
+        {
+          "landmark_id": "SP3",
+          "source_board_xy_mm": [
+            231.0011,
+            70.5036
+          ],
+          "asset_xz_metres": [
+            0.0825,
+            -0.034499995
+          ],
+          "image_xy_pixels": [
+            2360,
+            158
+          ],
+          "image_center_uncertainty_pixels": 25,
+          "feature": "4.22mm spacer hole centre",
+          "review_status": "manual_crop_review_candidate"
+        },
+        {
+          "landmark_id": "SP4",
+          "source_board_xy_mm": [
+            231.0011,
+            139.5036
+          ],
+          "asset_xz_metres": [
+            0.0825,
+            0.034500005
+          ],
+          "image_xy_pixels": [
+            690,
+            128
+          ],
+          "image_center_uncertainty_pixels": 25,
+          "feature": "4.22mm spacer hole centre",
+          "review_status": "manual_crop_review_candidate"
+        }
+      ],
+      "source_board_outline_xy_mm": [
+        [
+          61.0011,
+          65.5036
+        ],
+        [
+          236.0011,
+          65.5036
+        ],
+        [
+          236.0011,
+          144.5036
+        ],
+        [
+          61.0011,
+          144.5036
+        ]
+      ],
+      "predicted_image_outline_xy_pixels": [
+        [
+          2647.6,
+          4076.5
+        ],
+        [
+          2475.2,
+          57.4
+        ],
+        [
+          569.1,
+          21.9
+        ],
+        [
+          509.5,
+          4092.0
+        ]
+      ],
+      "image_to_source_board_homography": [
+        [
+          -0.000732926025,
+          -0.041029631966,
+          236.545848727055
+        ],
+        [
+          -0.041795143035,
+          0.003739692165,
+          167.735080504643
+        ],
+        [
+          -6.902723e-06,
+          3.001435e-05,
+          1.0
+        ]
+      ],
+      "source_board_to_image_homography": [
+        [
+          0.753832206,
+          -28.02163198,
+          4521.894834516
+        ],
+        [
+          -23.659630668,
+          -0.5239256,
+          5684.468124508
+        ],
+        [
+          0.000715332,
+          -0.0001777,
+          1.0
+        ]
+      ],
+      "homography_fit_note": "Exactly four input pairs; zero fit residual by construction is not an independent accuracy test.",
+      "metric_camera_pose_verified": false,
+      "same_specimen_flip_verified": false,
+      "ar_calibration_release_eligible": false
+    }
+  ],
+  "review_preview": "previews\\ultimaker-planar-anchor-candidates.jpg",
+  "review_preview_sha256": "81ee81c312f883db15e2848afd97c0091723b99166dc36058da87cc4f17bea45"
+}

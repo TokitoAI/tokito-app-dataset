@@ -45,6 +45,23 @@ views plus physical flip-sequence evaluation. Apply this to all five families;
 the NXP implementation below is the first source-linked path, not completion
 of the full cross-board goal. See [AR alignment dataset](AR_ALIGNMENT_DATASET.md).
 
+The 2026-10-11 segmentation audit consolidates eight existing annotation
+sources into a per-frame review queue: 424 source mask records, 398 unique
+image/instance pairs across 14 frames, and zero frames with verified complete
+visible-instance coverage for ordinary YOLO segmentation training. The queue
+is `data/photo-model/component-review-backlog.json`; the public-source/license
+review is [PUBLIC_COMPONENT_DATASET_AUDIT_2026-10-11.md](PUBLIC_COMPONENT_DATASET_AUDIT_2026-10-11.md).
+Partial frames can still support the ignore-aware diagnostic trainer, but do
+not count as an exhaustive component dataset or valid independent evaluation.
+
+A visual review of six original iQOO gallery photos now records board family
+and visible face with SHA-256 provenance in
+`data/phone-captures/2026-10-11/gallery/view-review.json`. This includes a
+full Ultimainboard solder-face photo and an NXP oblique component-face view.
+The stills do not verify same-specimen front/back registration, a continuous
+flip, four distinct oblique sides, camera pose, or complete component masks;
+they remain excluded from training and evaluation.
+
 | Work | Status |
 |---|---|
 | Dataset repository and initial corpus | Published; PRs #1 and #2 merged into main |
